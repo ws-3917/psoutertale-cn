@@ -1,6 +1,22 @@
-#
+#, fuzzy
 msgid ""
 msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-09-14 15:28+0000\n"
+"PO-Revision-Date: 2024-09-14 15:28+0000\n"
+"Last-Translator: Maxim Aksenov <me6696154@gmail.com>\n"
+"Language-Team: Russian <https://ws3917.site/projects/project-spacetime/"
+"3-foundry/ru/>\n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: ENCODING\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 5.6.2\n"
+
+#
 
 msgid "<32>{#p/basic}* ..."
 msgstr ""
@@ -5003,8 +5019,9 @@ msgstr "<32>{#p/undyne}* Сентиментальность!!"
 msgid "<25>{#p/kidd}{#f/1}* Man, isn't the Royal Guard brave or what?"
 msgstr "<25>{#p/kidd}{#f/1}* Боже мой, Королевская гвардия не очень храбрая?"
 
+#, fuzzy
 msgid "<25>{#f/3}* I'm glad we have them to protect us...!"
-msgstr "<25>{#f/3}* Я рад, что у нас есть они, чтобы защитить нас."
+msgstr "<25>{#f/3}* Я рад, что они нас защищают...!"
 
 msgid ""
 "<32>{#p/radio}{#v/1}* Yeah, yeah...\n"
@@ -5015,62 +5032,66 @@ msgid ""
 "<32>{#v/1}* We're gonna have to do better than just walking up and saying "
 "\"Howdy.\""
 msgstr ""
-"<32>{#v/1}* Мы должны делать лучше, а не просто ходить и говорить \"привет\""
+"<32>{#v/1}* Нам придется сделать нечто большее, чем просто подойти и сказать "
+"\"Привет.\""
 
 msgid "<32>{#v/0}* ... isn't that Erogot's preferred way of saying Hello?"
-msgstr "<32>АА #v/0}* ... Разве это не любимый способ приветствия Эрого?"
+msgstr "<32>{#v/0}* ... разве не так Эрогот предпочитает говорить Привет?"
 
 msgid "<32>{#v/0}* The dude's clearly into western movies, no doubt."
-msgstr ""
-"<32>{#v/0}* Нет никаких сомнений в том, что этот парень явно любит западные "
-"фильмы."
+msgstr "<32>{#v/0}* Чувак явно увлекается западными фильмами, без сомнения."
 
 msgid "<25>{#p/kidd}{#f/1}* Erogot?"
-msgstr ""
+msgstr "<25>{#p/kidd}{#f/1}* Эрогот?"
 
 msgid "<25>{#f/1}* KING Erogot!?"
-msgstr "<25>{#f/1}* Король Эргот!"
+msgstr "<25>{#f/1}* Король Эрогот!?"
 
 msgid "<25>{#f/3}* Dude..."
 msgstr "<25>{#f/3}* Чувак..."
 
 msgid "<32>{#p/kidding}* Yo... what is this place?"
-msgstr "<32>{#p/Шутка}* Йо. Что это за место?"
+msgstr "<32>{#p/kidding}* Йо... что это за место?"
 
 msgid "<32>* It's really dark, and I can't see anything in here..."
-msgstr "<32>* Здесь действительно темно, я ничего не вижу."
+msgstr "<32>* Здесь очень темно, и я ничего не вижу..."
 
 msgid "<32>* I'm scared..."
-msgstr "<32>* Я боюсь."
+msgstr "<32>* Я боюсь..."
 
 msgid ""
 "<32>* Is anyone there?\n"
 "* Please... someone help me..."
-msgstr "* Пожалуйста... Кто - нибудь, помогите мне."
+msgstr ""
+"<32>* Есть кто-нибудь?\n"
+"* Пожалуйста... кто-нибудь помогите мне..."
 
 msgid "<25>{#p/asriel1}{#f/22}* ..."
-msgstr ""
+msgstr "<25>{#p/asriel1}{#f/22}* ..."
 
 msgid "<32>{#p/alphys}* How's that new body coming?"
-msgstr "<32>{#p/alphys}* Как выглядит новое тело?"
+msgstr "<32>{#p/alphys}* Как тебе новое тело?"
 
 msgid ""
 "<32>{#p/mettaton}* QUITE WELL, ACTUALLY.\n"
 "* I WAS JUST ABOUT TO SEARCH FOR PARTS DOWN IN MECHANICAL."
 msgstr ""
-"* Я как раз собирался пойти на механический завод, чтобы найти запасные "
-"части."
+"<32>{#p/mettaton}* В ОБЩЕМ-ТО, НЕПЛОХО.\n"
+"* Я КАК РАЗ СОБИРАЛСЯ ИСКАТЬ ЗАПЧАСТИ В МЕХАНИЧЕСКОЙ ЧАСТИ."
 
 msgid ""
 "<32>{#p/alphys}* S-sounds good.\n"
 "* I'll keep working on improving the power distribution."
 msgstr ""
-"* Я буду продолжать работать над улучшением распределения электроэнергии."
+"<32>{#p/alphys}* З-звучит неплохо.\n"
+"* Я продолжу работать над улучшением силового распределения."
 
 msgid ""
 "<32>{#p/mettaton}* DON'T WORRY, DOCTOR.\n"
 "* WE'VE GOT PLENTY OF TIME."
-msgstr "* У нас достаточно времени."
+msgstr ""
+"<32>{#p/mettaton}* НЕ ВОЛНУЙТЕСЬ, ДОКТОР.\n"
+"* У НАС МНОГО ВРЕМЕНИ."
 
 msgid ""
 "<32>{#p/alphys}* How can I just...\n"
