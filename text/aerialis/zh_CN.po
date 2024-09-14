@@ -1,6 +1,21 @@
-#
+#, fuzzy
 msgid ""
 msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-09-14 04:40+0000\n"
+"PO-Revision-Date: 2024-09-14 04:40+0000\n"
+"Last-Translator: errosia <ericyan2008@foxmail.com>\n"
+"Language-Team: Chinese (Simplified) <https://ws3917.site/projects/"
+"project-spacetime/4-aerialis/zh_Hans/>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: ENCODING\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.6.2\n"
+
+#
 
 msgid "<32>{#p/human}* (It appears the terminal is beyond your access level.)"
 msgstr ""
@@ -3226,6 +3241,8 @@ msgid ""
 "<32>{#p/mettaton}{#z5}* A SURPRISE GUEST!?!?\n"
 "* WOW, THIS SHOW GETS CRAZIER BY THE SECOND!"
 msgstr ""
+"<32>{#p/mettaton}{#z5}* 意料之外的嘉宾！？！？\n"
+"* 哇，这个节目越来越疯狂了！"
 
 msgid ""
 "<32>{#p/mettaton}{#z2}* THEY DO APPEAR TO BE FACING THE WRONG WAY, BUT... OH"
@@ -7892,8 +7909,6 @@ msgstr ""
 msgid "<32>{#p/human}* (Where would you like to go?)"
 msgstr "<32>{#p/human}* （你想去哪里？）"
 
-msgid ""
-msgstr ""
 
 msgid "Floor L1"
 msgstr "左一层"
