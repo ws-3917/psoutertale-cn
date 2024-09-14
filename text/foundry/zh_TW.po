@@ -343,7 +343,7 @@ msgid "<32>* \"If the prince's is your left, then whose is your right?"
 msgstr "<32>* 「王子曲成左門啟，誰人可使右室顯？」"
 
 msgid "<32>* \"And what is their melody?\""
-msgstr "<32>* 「再奏[ADD]謎自開。」"
+msgstr "<32>* 「再奏謎自開。」"
 
 msgid "<32>{#p/basic}* The tome is attached firmly to the pedastal."
 msgstr "<32>{#p/basic}* 這冊書牢牢地固定在底座上。"
