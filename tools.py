@@ -165,7 +165,7 @@ def replace_strings(text, translation_dict):
             else:
                 # 转义双引号以防止注入
                 translated_string = translated_string.replace('"', r'\"')
-                if quote_type == 1:
+                if quote_type == 1 or "[ADD]" in final_string:
                     result.append(f"'{translated_string.replace("'", r"\'")}'")
                 else:
                     result.append(f'"{translated_string}"')
@@ -175,7 +175,7 @@ def replace_strings(text, translation_dict):
             else:
                 # 转义双引号以防止注入，但保留其他转义字符
                 final_string = final_string.replace('"', r'\"')
-                if quote_type == 1:
+                if quote_type == 1 or "[ADD]" in final_string:
                     result.append(f"'{final_string.replace("'", r"\'")}'")
                 else:
                     result.append(f'"{final_string}"')
@@ -479,6 +479,7 @@ def po2ts(source_ts, translation_dict, dist, insert_content=True, lang="zh_CN"):
     replace_dict = replace_dict_tw if lang == "zh_TW" else REPLACE_DICT
     for key, value in replace_dict.items():
         final_content = re.sub(key, value, final_content)
+    
     with open(dist, "w", encoding="UTF-8") as file:
         file.write(final_content)
 

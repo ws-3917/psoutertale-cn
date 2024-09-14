@@ -5978,7 +5978,7 @@ export default {
       name: '* 力场',
       status0: [ '<32>{#p/story}* 此刻，你终于可以直面那道力场。' ],
       act_check: [
-         '<32>{#p/story}* 力场 - 攻击0 防御{^2}\u221e{^1}\n* 矛盾已相向，江海不同归。'
+         '<32>{#p/story}* FORCE FIELD - ATK 0 DEF{^2}\u221e{^1}\n* Immovable meets unstoppable.\n* The end of the line.'
       ],
       status1: () =>
          SAVE.data.n.bully > 9

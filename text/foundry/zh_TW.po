@@ -337,13 +337,13 @@ msgid "<32>{#p/basic}* There is an inscription inscribed on the pedastal."
 msgstr "<32>{#p/basic}* 底座上刻著銘文。"
 
 msgid "<32>* \"Two halves, split by the ivories.\""
-msgstr "<32>* 「琴音喈喈，分為二別。」"
+msgstr "<32>* 「琴臺靜立其間，兩側別有洞天。」"
 
 msgid "<32>* \"If the prince's is your left, then whose is your right?"
-msgstr "<32>* 「左居王子，右居者誰？」"
+msgstr "<32>* 「王子曲成左門啟，誰人可使右室顯？」"
 
 msgid "<32>* \"And what is their melody?\""
-msgstr "<32>* 「奏其旋律，訇然謎解。」"
+msgstr "<32>* 「再奏[ADD]謎自開。」"
 
 msgid "<32>{#p/basic}* The tome is attached firmly to the pedastal."
 msgstr "<32>{#p/basic}* 這冊書牢牢地固定在底座上。"
@@ -7182,25 +7182,25 @@ msgid ""
 msgstr ""
 
 msgid "<32>{#p/basic}* ... there's a riddle here."
-msgstr "<32>{#p/basic}* ...這裡有個謎題。"
+msgstr "<32>{#p/basic}* ...上面刻著一個謎題。"
 
 msgid ""
 "<32>* \"Flip the switch and bring a friend to a place you've been before "
 "again...\""
-msgstr "<32>* 「開關既已啟，同友歸故地。」"
+msgstr "<32>* 「玄機暗中已動，攜友故地重遊。」"
 
 msgid "<32>* \"A figure not unlike my own, a statue carved and set in stone.\""
-msgstr "<32>* 「石像同我輩，不差一毫釐。」"
+msgstr "<32>* 「石像如我立當中，頓悟旋律路自通。」"
 
 msgid ""
 "<32>* \"Follow the sequence of notes divined, to unlock the path to the "
 "other side...\""
-msgstr "<32>* 「循音復奏曲，別路方可蒞。」"
+msgstr "<32>* 「借力破迷蹤。」"
 
 msgid ""
 "<32>* \"Bring the item to the room nextdoor, and all the power will be "
 "yours.\""
-msgstr "<32>* 「攜物鄰間至，隨後力盈體。」"
+msgstr "[DEL]"
 
 msgid ""
 "<32>{#p/human}* (It also mentions bringing an item to a specific area.)"
@@ -9140,7 +9140,7 @@ msgstr "<18>{#f/4}你準備好接受這個..."
 
 msgid "<18>{#f/1}OF BEFRIENDING THE CAPTAIN OF THE ROYAL GUARD!?!?"
 msgstr ""
-"<18>{#f/1}和皇家衛隊長\n"
+"<18>{#f/1}和皇家衛隊隊長\n"
 "做朋友的艱巨的\n"
 "任務了嗎！？！？"
 
