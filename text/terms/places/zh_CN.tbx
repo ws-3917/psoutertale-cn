@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE martif PUBLIC "ISO 12200:1999A//DTD MARTIF core (DXFcdV04)//EN" "TBXcdv04.dtd">
+<martif type="TBX" xml:lang="en">
+    <martifHeader>
+        <fileDesc>
+            <sourceDesc>
+                <p>Translate Toolkit</p>
+            </sourceDesc>
+        </fileDesc>
+    </martifHeader>
+    <text>
+        <body>
+            <termEntry id="The shelter for Monsters">
+                <langSet xml:lang="en"><tig><term>the outpost</term></tig></langSet>
+                <langSet xml:lang="zh_CN"><tig><term>前哨站</term></tig></langSet>
+            </termEntry>
+            <termEntry id="New World Star System">
+                <langSet xml:lang="en"><tig><term>Kasterborous</term></tig></langSet>
+                <langSet xml:lang="zh_CN"><tig><term>卡斯特伯洛斯</term></tig></langSet>
+            </termEntry>
+            <termEntry id="Homeland">
+                <langSet xml:lang="en"><tig><term>Krios</term></tig></langSet>
+                <langSet xml:lang="zh_CN"><tig><term>克里乌斯</term></tig></langSet>
+            </termEntry>
+            <termEntry id="New World Planet">
+                <langSet xml:lang="en"><tig><term>Eurybia</term></tig></langSet>
+                <langSet xml:lang="zh_CN"><tig><term>欧律比亚</term></tig></langSet>
+            </termEntry>
+            <termEntry id="Outlands savepoint">
+                <langSet xml:lang="en"><tig><term>Crash Site</term></tig></langSet>
+                <langSet xml:lang="zh_CN"><tig><term>坠落点</term></tig></langSet>
+            </termEntry>
+            <termEntry id="Main area">
+                <langSet xml:lang="en"><tig><term>Outlands</term></tig></langSet>
+                <langSet xml:lang="zh_CN"><tig><term>外域</term></tig></langSet>
+            </termEntry>
+            <termEntry id="Outlands savepoint">
+                <langSet xml:lang="en"><tig><term>Entrance</term></tig></langSet>
+                <langSet xml:lang="zh_CN"><tig><term>入口</term></tig></langSet>
+            </termEntry>
+            <termEntry id="Outlands savepoint">
+                <langSet xml:lang="en"><tig><term>Rest Area</term></tig></langSet>
+                <langSet xml:lang="zh_CN"><tig><term>休息区</term></tig></langSet>
+            </termEntry>
+            <termEntry id="Outlands savepoint">
+                <langSet xml:lang="en"><tig><term>Stærmite Hole</term></tig></langSet>
+                <langSet xml:lang="zh_CN"><tig><term>䗌螨巢</term></tig></langSet>
+            </termEntry>
+            <termEntry id="Outlands savepoint">
+                <langSet xml:lang="en"><tig><term>Courtyard</term></tig></langSet>
+                <langSet xml:lang="zh_CN"><tig><term>空地</term></tig></langSet>
+            </termEntry>
+            <termEntry id="Main area">
+                <langSet xml:lang="en"><tig><term>Starton</term></tig></langSet>
+                <langSet xml:lang="zh_CN"><tig><term>星港</term></tig></langSet>
+            </termEntry>
+            <termEntry id="Starton savepoint">
+                <langSet xml:lang="en"><tig><term>Landing Zone</term></tig></langSet>
+                <langSet xml:lang="zh_CN"><tig><term>停靠港</term></tig></langSet>
+            </termEntry>
+            <termEntry id="Starton savepoint">
+                <langSet xml:lang="en"><tig><term>Spaghetti Junction</term></tig></langSet>
+                <langSet xml:lang="zh_CN"><tig><term>意面枢纽</term></tig></langSet>
+            </termEntry>
+            <termEntry id="Starton savepoint">
+                <langSet xml:lang="en"><tig><term>Moon Rock Road</term></tig></langSet>
+                <langSet xml:lang="zh_CN"><tig><term>月岩小路</term></tig></langSet>
+            </termEntry>
+            <termEntry id="Starton savepoint">
+                <langSet xml:lang="en"><tig><term>Town</term></tig></langSet>
+                <langSet xml:lang="zh_CN"><tig><term>镇上</term></tig></langSet>
+            </termEntry>
+            <termEntry id="Main area">
+                <langSet xml:lang="en"><tig><term>Foundry</term></tig></langSet>
+                <langSet xml:lang="zh_CN"><tig><term>铸厂</term></tig></langSet>
+            </termEntry>
+            <termEntry id="Foundry savepoint">
+                <langSet xml:lang="en"><tig><term>Checkpoint</term></tig></langSet>
+                <langSet xml:lang="zh_CN"><tig><term>边检站</term></tig></langSet>
+            </termEntry>
+            <termEntry id="Foundry savepoint">
+                <langSet xml:lang="en"><tig><term>Crossing</term></tig></langSet>
+                <langSet xml:lang="zh_CN"><tig><term>岔路口</term></tig></langSet>
+            </termEntry>
+            <termEntry id="Foundry savepoint">
+                <langSet xml:lang="en"><tig><term>Dark Zone</term></tig></langSet>
+                <langSet xml:lang="zh_CN"><tig><term>暗区</term></tig></langSet>
+            </termEntry>
+            <termEntry id="Foundry savepoint">
+                <langSet xml:lang="en"><tig><term>Abyss</term></tig></langSet>
+                <langSet xml:lang="zh_CN"><tig><term>深渊</term></tig></langSet>
+            </termEntry>
+            <termEntry id="Foundry savepoint">
+                <langSet xml:lang="en"><tig><term>Vending Machine</term></tig></langSet>
+                <langSet xml:lang="zh_CN"><tig><term>售货机</term></tig></langSet>
+            </termEntry>
+            <termEntry id="Foundry savepoint">
+                <langSet xml:lang="en"><tig><term>Trash Zone</term></tig></langSet>
+                <langSet xml:lang="zh_CN"><tig><term>垃圾场</term></tig></langSet>
+            </termEntry>
+            <termEntry id="Main area">
+                <langSet xml:lang="en"><tig><term>Aerialis</term></tig></langSet>
+                <langSet xml:lang="zh_CN"><tig><term>空境</term></tig></langSet>
+            </termEntry>
+            <termEntry id="Aerialis savepoint">
+                <langSet xml:lang="en"><tig><term>Lab</term></tig></langSet>
+                <langSet xml:lang="zh_CN"><tig><term>实验室</term></tig></langSet>
+            </termEntry>
+            <termEntry id="Main area">
+                <langSet xml:lang="en"><tig><term>CORE</term></tig></langSet>
+                <langSet xml:lang="zh_CN"><tig><term>核心</term></tig></langSet>
+            </termEntry>
+            <termEntry id="Main area">
+                <langSet xml:lang="en"><tig><term>Citadel</term></tig></langSet>
+                <langSet xml:lang="zh_CN"><tig><term>首塔</term></tig></langSet>
+            </termEntry>
+            <termEntry id="Main area">
+                <langSet xml:lang="en"><tig><term>Archive Six</term></tig></langSet>
+                <langSet xml:lang="zh_CN"><tig><term>六号档案</term></tig></langSet>
+            </termEntry>
+            <termEntry id="Foundry Savepoint">
+                <langSet xml:lang="en"><tig><term>Quiet Area</term></tig></langSet>
+                <langSet xml:lang="zh_CN"><tig><term>宁静地带</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>Rec Center</term></tig></langSet>
+                <langSet xml:lang="zh_CN"><tig><term>休闲回廊</term></tig></langSet>
+            </termEntry>
+        </body>
+    </text>
+</martif>

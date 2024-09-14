@@ -1,0 +1,2608 @@
+#
+msgid ""
+msgstr ""
+
+msgid "(You take a deep breath.)"
+msgstr "(しんこきゅう　した)"
+
+msgid "(You're filled with determination.)"
+msgstr "(ケツイが　みなぎった)"
+
+msgid "You cannot give up just yet..."
+msgstr "あきらめては　いけない…"
+
+msgid ""
+"$(name)!\n"
+"Stay determined..."
+msgstr ""
+"$(name)！\n"
+"ケツイを　ちからに　かえるんだ！"
+
+msgid "Our fate rests upon you..."
+msgstr "われわれの　うんめいが  かかっている…"
+
+msgid "You're going to be alright!"
+msgstr "しっかりしろ！"
+
+msgid "Don't lose hope!"
+msgstr "きぼうを　すてるな！"
+
+msgid "It cannot end now!"
+msgstr "あきらめては　ダメだ！"
+
+msgid "    * Escaped..."
+msgstr "    ＊バトルからにげた…"
+
+msgid "    * I'm outta here."
+msgstr "    ＊さようなら。"
+
+msgid "    * I've got better to do."
+msgstr "    ＊こんなことを　している　ばあいじゃない。"
+
+msgid "    * Don't slow me down."
+msgstr "    ＊とめないで。"
+
+msgid ""
+"    * Ran away with $(x) EXP\n"
+"      and $(y)G."
+msgstr ""
+"    ＊バトルからにげた。\n"
+"       $(x)EXPと$(y)ゴールドを　てにいれた。"
+
+msgid "* Assist"
+msgstr "＊たすけをもとめる"
+
+msgid "* Flee"
+msgstr "＊にげる"
+
+msgid "* Spare"
+msgstr "＊にがす"
+
+msgid ""
+"<32>{#p/story}* YOU WON!\n"
+"* You earned $(x) EXP and $(y)G."
+msgstr ""
+"<32>{#p/story}＊YOU WIN！\n"
+"＊$(x)EXPと$(y)ゴールドを　かくとく。"
+
+msgid ""
+"<32>{#p/story}* YOU WON!\n"
+"* You earned $(x) EXP and $(y)G.\n"
+"* Your LOVE increased."
+msgstr ""
+"<32>{#p/story}＊YOU WIN！\n"
+"＊$(x)EXPと$(y)ゴールドを　かくとく。\n"
+"＊LOVEが　あがった。"
+
+msgid "ERROR"
+msgstr "エラー"
+
+msgid "DISMISS"
+msgstr "無視"
+
+msgid "Click To Dismiss"
+msgstr "エラーを無視"
+
+msgid ""
+"An error occured! Please send\n"
+"screenshot to developer."
+msgstr ""
+"エラーが発生しました！\n"
+"開発者にスクリーンショットを送ってください。"
+
+msgid "CONTROL"
+msgstr "コントロ"
+
+msgid "GENERAL"
+msgstr "一般"
+
+msgid "BATTLE"
+msgstr "バトル"
+
+msgid "FixMusic"
+msgstr "BGMを修正"
+
+msgid "FixPlayer"
+msgstr "プレイヤー修正"
+
+msgid "InfiniteG"
+msgstr "ゴールド無限"
+
+msgid "Interact"
+msgstr "調査を有効化"
+
+msgid "Input"
+msgstr "入力を有効化"
+
+msgid "Movement"
+msgstr "移動を有効化"
+
+msgid "Noclip"
+msgstr "壁を無視"
+
+msgid "Save"
+msgstr "セーブ"
+
+msgid "SkipText"
+msgstr "会話をスキップ"
+
+msgid "Freecam"
+msgstr "自由な視点"
+
+msgid "CanAssist"
+msgstr "おたすけモード"
+
+msgid "ClearBox"
+msgstr "弾を削除"
+
+msgid "Exit"
+msgstr "やめる"
+
+msgid "ResetBox"
+msgstr "枠サイズ"
+
+msgid "ResetMenu"
+msgstr "ﾒﾆｭｰﾘｾｯﾄ"
+
+msgid "CanFlee"
+msgstr "にがす"
+
+msgid "InfiniteHP"
+msgstr "HPむげん"
+
+msgid "PacifyAll"
+msgstr "敵全体をにがす"
+
+msgid "Suicide"
+msgstr "自殺"
+
+msgid "WeakenAll"
+msgstr "敵全体を弱体化"
+
+msgid "$(x) FPS"
+msgstr ""
+
+msgid "Halt"
+msgstr "一時停止"
+
+msgid "GAME SPEED"
+msgstr "ゲームスピード"
+
+msgid "$(x)x"
+msgstr "$(x)倍速"
+
+msgid "More"
+msgstr "加速"
+
+msgid "Less"
+msgstr "減速"
+
+msgid "$(x)s/frame"
+msgstr "$(x)秒 / フレーム"
+
+msgid "GODHOME"
+msgstr "ホーム"
+
+msgid "ROOM"
+msgstr "ルーム"
+
+msgid "Teleport"
+msgstr "テレポート"
+
+msgid "ENCOUNTER"
+msgstr "バトル"
+
+msgid "Start"
+msgstr "始める"
+
+msgid "ARMOR"
+msgstr "AMR"
+
+msgid "WEAPON"
+msgstr "WPN"
+
+msgid "INSPECT"
+msgstr "レイヤー"
+
+msgid "LAYERS"
+msgstr "レイヤー"
+
+msgid "TYPES"
+msgstr "タイプ"
+
+msgid "Base"
+msgstr ""
+
+msgid "Below"
+msgstr ""
+
+msgid "Main"
+msgstr ""
+
+msgid "Above"
+msgstr ""
+
+msgid "Menu"
+msgstr ""
+
+msgid "Hitbox"
+msgstr "攻撃枠"
+
+msgid "Sprite"
+msgstr "スプライト"
+
+msgid "Text"
+msgstr "テキスト"
+
+msgid "EXPLORER"
+msgstr "表示"
+
+msgid "Base (Explorer)"
+msgstr "Base (表示)"
+
+msgid "Below (Explorer)"
+msgstr "Below (表示)"
+
+msgid "Main (Explorer)"
+msgstr "Main (表示)"
+
+msgid "Above (Explorer)"
+msgstr "Above (表示)"
+
+msgid "Menu (Explorer)"
+msgstr "Main (表示)"
+
+msgid "A"
+msgstr ""
+
+msgid "C"
+msgstr ""
+
+msgid "R"
+msgstr ""
+
+msgid "E"
+msgstr ""
+
+msgid "H"
+msgstr ""
+
+msgid "O"
+msgstr ""
+
+msgid "P"
+msgstr ""
+
+msgid "S"
+msgstr ""
+
+msgid "T"
+msgstr ""
+
+msgid "Press [TAB] to cycle debug info"
+msgstr "[TAB]でデバッグ情報を表示"
+
+msgid "Acceleration"
+msgstr "加速度"
+
+msgid "Active"
+msgstr "アクティブ"
+
+msgid "Alpha"
+msgstr "アルファ値"
+
+msgid "Anchor"
+msgstr "アンカー"
+
+msgid "B"
+msgstr ""
+
+msgid "Blend"
+msgstr ""
+
+msgid "Border"
+msgstr ""
+
+msgid "Computed Size"
+msgstr "処理済みのデータサイズ"
+
+msgid "Content"
+msgstr ""
+
+msgid "Crop"
+msgstr ""
+
+msgid "Down"
+msgstr "下"
+
+msgid "Duration"
+msgstr "継続時間"
+
+msgid "EXP"
+msgstr ""
+
+msgid "Extent"
+msgstr ""
+
+msgid "F"
+msgstr ""
+
+msgid "Face"
+msgstr "方向"
+
+msgid "False"
+msgstr "いいえ"
+
+msgid "Fill"
+msgstr "塗りつぶす"
+
+msgid "Font Family"
+msgstr "フォントファミリー"
+
+msgid "Font Size"
+msgstr "フォントサイズ"
+
+msgid "Frames"
+msgstr ""
+
+msgid "Gravity"
+msgstr "重力"
+
+msgid "Group"
+msgstr "グループ"
+
+msgid "HP"
+msgstr ""
+
+msgid "Index"
+msgstr ""
+
+msgid "Inert"
+msgstr ""
+
+msgid "Key"
+msgstr "キー"
+
+msgid "Last Saved Time"
+msgstr "前回セーブした時間"
+
+msgid "Layer"
+msgstr "レイヤー"
+
+msgid "Layers"
+msgstr "レイヤー"
+
+msgid "Left"
+msgstr "左"
+
+msgid "Metadata"
+msgstr "メタデータ"
+
+msgid "Music"
+msgstr "BGM"
+
+msgid "Namespace"
+msgstr "名前空間"
+
+msgid "NONE"
+msgstr ""
+
+msgid "none"
+msgstr ""
+
+msgid "Objects"
+msgstr "対象"
+
+msgid "Oversaver"
+msgstr ""
+
+msgid "Parallax"
+msgstr ""
+
+msgid "Position"
+msgstr "位置"
+
+msgid "Primed"
+msgstr ""
+
+msgid "Priority"
+msgstr ""
+
+msgid "REGISTRY"
+msgstr "レジストリ"
+
+msgid "Renderer"
+msgstr ""
+
+msgid "Resources"
+msgstr "リソース"
+
+msgid "Reverse"
+msgstr ""
+
+msgid "Right"
+msgstr "右"
+
+msgid "Room"
+msgstr "ルーム"
+
+msgid "Room State"
+msgstr "ルーム状態"
+
+msgid "Rotation"
+msgstr "回転"
+
+msgid "Scale"
+msgstr "スケーリング"
+
+msgid "Shop Selection"
+msgstr "店の選択肢"
+
+msgid "Size"
+msgstr "サイズ"
+
+msgid "Spacing"
+msgstr "文字間隔"
+
+msgid "Spin"
+msgstr ""
+
+msgid "Sprites"
+msgstr ""
+
+msgid "Step"
+msgstr ""
+
+msgid "Stroke"
+msgstr ""
+
+msgid "Subcrop"
+msgstr ""
+
+msgid "Talk"
+msgstr "会話"
+
+msgid "Target"
+msgstr "ターゲット"
+
+msgid "Time"
+msgstr ""
+
+msgid "Tint"
+msgstr "色"
+
+msgid "Tracked Assets"
+msgstr "使用されているアセット"
+
+msgid "True"
+msgstr "はい"
+
+msgid "UNKNOWN"
+msgstr ""
+
+msgid "Up"
+msgstr "上"
+
+msgid "Vars"
+msgstr "変数"
+
+msgid "Velocity"
+msgstr "速度"
+
+msgid "Volatile"
+msgstr ""
+
+msgid "SAVEMOD"
+msgstr "セーブ"
+
+msgid "SAVE EDITOR"
+msgstr "セーブ　エディタ"
+
+msgid "Data (Booleans)"
+msgstr "データ (ブール値)"
+
+msgid "Data (Numbers)"
+msgstr "データ (整数)"
+
+msgid "Data (Strings)"
+msgstr "データ (文字列)"
+
+msgid "Flags (Booleans)"
+msgstr "フラグ (ブール値)"
+
+msgid "Flags (Numbers)"
+msgstr "フラグ (整数)"
+
+msgid "Flags (Strings)"
+msgstr "フラグ (文字列)"
+
+msgid "NAVIGATION"
+msgstr "ページ番号"
+
+msgid "Prev"
+msgstr "戻る"
+
+msgid "Next"
+msgstr "進む"
+
+msgid "Enter Value"
+msgstr "値を入力"
+
+msgid "Back"
+msgstr "もどる"
+
+msgid "STORAGE"
+msgstr "アイテム"
+
+msgid "STORAGE EDITOR"
+msgstr "アイテム　エディタ"
+
+msgid "SELECTION"
+msgstr "容器を選ぶ"
+
+msgid "Inventory"
+msgstr "インベントリー"
+
+msgid "Dim. Box A"
+msgstr "いじげんボックスA"
+
+msgid "Dim. Box B"
+msgstr "いじげんボックスB"
+
+msgid "Clear File"
+msgstr "セーブファイルを消去"
+
+msgid "Notice"
+msgstr "注意"
+
+msgid "Open"
+msgstr "開く"
+
+msgid "SAVE files"
+msgstr "セーブファイル"
+
+msgid "Open File"
+msgstr "セーブファイルをインポート"
+
+msgid "Save File"
+msgstr "セーブファイルをエクスポート"
+
+msgid "That file could not be parsed."
+msgstr "ファイルは解析できませんでした。"
+
+msgid "OK"
+msgstr "確定"
+
+msgid "Cancel"
+msgstr "やめる"
+
+msgid "Clear this file?"
+msgstr "このセーブファイルを消去しますか？"
+
+msgid ""
+"Your SAVE file from the\n"
+"OUTERTALE demo has been\n"
+"moved to a timeline slot."
+msgstr ""
+"OUTERTALE demoのセーブファイルを\n"
+"他のタイムラインに移動しました。"
+
+msgid "Save this file?"
+msgstr "セーブしますか？"
+
+msgid ""
+"Copy the text below into\n"
+"a JSON file to save it\n"
+"to your device."
+msgstr ""
+"新たにJSONファイルを作成し\n"
+"以下の内容をコピーして\n"
+"デバイスに保存します。"
+
+msgid "Load this file?"
+msgstr "ロードしますか？"
+
+msgid "§fill=#ff0§< DEVELOPER >§fill=#fff§"
+msgstr "§fill=#ff0§< かいはつ >§fill=#fff§"
+
+msgid "spacey_432"
+msgstr ""
+
+msgid ""
+msgstr ""
+
+msgid "§fill=#ff0§< WRITER >§fill=#fff§"
+msgstr "§fill=#ff0§< テキスト >§fill=#fff§"
+
+msgid "Balgamlı Kedi"
+msgstr ""
+
+msgid "Bilge \"mnwary\""
+msgstr ""
+
+msgid "Dischnie"
+msgstr ""
+
+msgid "Efe Kaya"
+msgstr ""
+
+msgid "Ghostly"
+msgstr ""
+
+msgid "InvincibleRacoon"
+msgstr ""
+
+msgid "Jojoton56"
+msgstr ""
+
+msgid "Kiwi \"Quinn\""
+msgstr ""
+
+msgid "My Aster"
+msgstr ""
+
+msgid "neo9174"
+msgstr ""
+
+msgid "Rise"
+msgstr ""
+
+msgid "ThatGuyWhoLikesFood"
+msgstr ""
+
+msgid "Turbulation"
+msgstr ""
+
+msgid "Zaxento The Greedy"
+msgstr ""
+
+msgid "§fill=#ff0§< ARTIST >§fill=#fff§"
+msgstr "§fill=#ff0§< びじゅつ >§fill=#fff§"
+
+msgid "Burge"
+msgstr ""
+
+msgid "Deskius"
+msgstr ""
+
+msgid "DESM.al"
+msgstr ""
+
+msgid "Discarded Vessel"
+msgstr ""
+
+msgid "Fired"
+msgstr ""
+
+msgid "Funtermore"
+msgstr ""
+
+msgid "HolyOranges"
+msgstr ""
+
+msgid "major_memestar"
+msgstr ""
+
+msgid "MattSpriteMaster"
+msgstr ""
+
+msgid "Medi0creking"
+msgstr ""
+
+msgid "NerNot1"
+msgstr ""
+
+msgid "PhyreFM"
+msgstr ""
+
+msgid "Pongy25"
+msgstr ""
+
+msgid "PoTheWinterCorder"
+msgstr ""
+
+msgid "ProctorDorkchop02"
+msgstr ""
+
+msgid "ScarletScaledDragon"
+msgstr ""
+
+msgid "semi"
+msgstr ""
+
+msgid "Soup Taels"
+msgstr ""
+
+msgid "SquigglyWiggley"
+msgstr ""
+
+msgid "Starkiteckt"
+msgstr ""
+
+msgid "supper12"
+msgstr ""
+
+msgid "Valor52"
+msgstr ""
+
+msgid "§fill=#ff0§< TECHNICIAN >§fill=#fff§"
+msgstr "§fill=#ff0§< ぎじゅつ >§fill=#fff§"
+
+msgid "Codetoil"
+msgstr ""
+
+msgid "ryi3r"
+msgstr ""
+
+msgid "ws3917"
+msgstr ""
+
+msgid "§fill=#ff0§< TESTER >§fill=#fff§"
+msgstr "§fill=#ff0§< テスター >§fill=#fff§"
+
+msgid "Alden"
+msgstr ""
+
+msgid "Aspey"
+msgstr ""
+
+msgid "blue"
+msgstr ""
+
+msgid "Brad"
+msgstr ""
+
+msgid "brayjamin"
+msgstr ""
+
+msgid "ClamsyMoe"
+msgstr ""
+
+msgid "delta"
+msgstr ""
+
+msgid "DR4GON HE4RT"
+msgstr ""
+
+msgid "Dubituar"
+msgstr ""
+
+msgid "Emurry"
+msgstr ""
+
+msgid "Enzolos"
+msgstr ""
+
+msgid "EvanGamesGoodman"
+msgstr ""
+
+msgid "FireWizard72X"
+msgstr ""
+
+msgid "FuLiNT"
+msgstr ""
+
+msgid "gardnaeden"
+msgstr ""
+
+msgid "Gon UT"
+msgstr ""
+
+msgid "Green Tea"
+msgstr ""
+
+msgid "Huggies!"
+msgstr ""
+
+msgid "ilovecookies"
+msgstr ""
+
+msgid "Jago128"
+msgstr ""
+
+msgid "Joe98912"
+msgstr ""
+
+msgid "Jonkler"
+msgstr ""
+
+msgid "lil tanski"
+msgstr ""
+
+msgid "MR. PETER"
+msgstr ""
+
+msgid "MSBen"
+msgstr ""
+
+msgid "Murder--Sans_MDR"
+msgstr ""
+
+msgid "Nanorasmus"
+msgstr ""
+
+msgid "NepAnime"
+msgstr ""
+
+msgid "Shaun Duz Stuffs"
+msgstr ""
+
+msgid "SHCyank"
+msgstr ""
+
+msgid "petar3644"
+msgstr ""
+
+msgid "PixelToons Jaafar"
+msgstr ""
+
+msgid "Prezmop"
+msgstr ""
+
+msgid "prymus-agd"
+msgstr ""
+
+msgid "Quin"
+msgstr ""
+
+msgid "RadicalRic"
+msgstr ""
+
+msgid "Raelynn"
+msgstr ""
+
+msgid "retr22800"
+msgstr ""
+
+msgid "RoCtD_14159"
+msgstr ""
+
+msgid "sonicisawesome222"
+msgstr ""
+
+msgid "spaceknife234"
+msgstr ""
+
+msgid "superkippy"
+msgstr ""
+
+msgid "Teecup"
+msgstr ""
+
+msgid "Tem in a Cowboy Hat"
+msgstr ""
+
+msgid "Tenbrooks"
+msgstr ""
+
+msgid "The Fallen Angel"
+msgstr ""
+
+msgid "TheAsriel"
+msgstr ""
+
+msgid "Wild Pasta"
+msgstr ""
+
+msgid "Xiao_Akatsuki"
+msgstr ""
+
+msgid "xNoodlePlayz"
+msgstr ""
+
+msgid "§fill=#ff0§< SPECIAL THANKS >§fill=#fff§"
+msgstr "§fill=#ff0§< スペシャル・サンクス >§fill=#fff§"
+
+msgid ""
+"§fill=#808080§For being there for me when I\n"
+"need someone to lean on, and\n"
+"teaching me life lessons that\n"
+"have made me a better person.§fill=#fff§"
+msgstr ""
+"§fill=#808080§わたしを　ささえてくれて\n"
+"じんせいのどうりを　おしえてくれて\n"
+"わたしは　せいちょうできました。\n"
+"ありがとうございます。§fill=#fff§"
+
+msgid ""
+"§fill=#808080§For being one of the friendliest\n"
+"people I know, the first person\n"
+"to believe in my vision, and\n"
+"inspiring me to finish the game.§fill=#fff§"
+msgstr ""
+"§fill=#808080§わたしのゆめを　サポートする\n"
+"さいしょのひと　もっとも\n"
+"あたたかい　パートナーです。\n"
+"あなたに　はげまされて\n"
+"このゲームを　かんせいさせることができました。\n"
+"ありがとうございます。§fill=#fff§"
+
+msgid ""
+"§fill=#808080§For sticking with me at every\n"
+"stage of development, right from\n"
+"the start. Regardless of the era,\n"
+"he's always been there to help.§fill=#fff§"
+msgstr ""
+"§fill=#808080§ゲームかいはつ　とうしょから\n"
+"いつも　いっしょに　いてくれて\n"
+"ありがとうございます。\n"
+"いつもわたしが　いちばんたすけを\n"
+"ひつようとするときに　ささえてくれて\n"
+"ありがとうございます。§fill=#fff§"
+
+msgid ""
+"§fill=#808080§For being a voice of reason when\n"
+"it comes to many aspects of the\n"
+"game, and encouraging me to take\n"
+"testing seriously.§fill=#fff§"
+msgstr ""
+"§fill=#808080§すばらしい　アドバイス\n"
+"ゲームテストに　しんけんに\n"
+"とりくむよう　はげましてくれて\n"
+"ありがとうございます。§fill=#fff§"
+
+msgid ""
+"§fill=#808080§For being reliable, brutally\n"
+"honest, giving me lots of\n"
+"criticism and ideas, and being\n"
+"trustworthy from the day we met.§fill=#fff§"
+msgstr ""
+"§fill=#808080§しりあったとき　から\n"
+"とても　たよりになります。\n"
+"そっちょくな　アドバイスを　いただき\n"
+"ありがとうございます。§fill=#fff§"
+
+msgid ""
+"§fill=#808080§For helping me write crucial\n"
+"parts of the game, supporting my\n"
+"vision, and helping me express\n"
+"myself in a whole new way.§fill=#fff§"
+msgstr ""
+"§fill=#808080§ゲームの　キーストーリーを\n"
+"かいてくれて　いつもわたしを\n"
+"おうえんしてくれて　あたらしい\n"
+"ひょうげんが　できるようにしてくれて\n"
+"ありがとうございます。§fill=#fff§"
+
+msgid ""
+"§fill=#808080§For being there to help towards\n"
+"the end of development, and\n"
+"ensuring the game's writing\n"
+"reaches its full potential.§fill=#fff§"
+msgstr ""
+"§fill=#808080§さいごまで　かいはつを　てつだっていただき\n"
+"ゲームはさいこう　クオリティとなりました。\n"
+"ありがとうございます。§fill=#fff§"
+
+msgid "Brought to you by §fill=#ff0§The Mavis & Co.§fill=#fff§"
+msgstr "§fill=#ff0§Mavisとおともたち§fill=#fff§　ていきょう"
+
+msgid "(( CAST ))"
+msgstr ""
+
+msgid "FROGGIT"
+msgstr "フロギー"
+
+msgid ""
+"Pondering\n"
+"Life"
+msgstr ""
+"じんせいについて\n"
+"こうさつちゅう"
+
+msgid ""
+"Professional\n"
+"Frog"
+msgstr "プロのカエル"
+
+msgid ""
+"Pondering\n"
+"Love"
+msgstr ""
+"あいについて\n"
+"こうさつちゅう"
+
+msgid ""
+"Hopping In\n"
+"Fear"
+msgstr ""
+"きょうふで\n"
+"ピョンピョン"
+
+msgid "FLUTTERLYTE"
+msgstr ""
+
+msgid ""
+"Learning To\n"
+"Fly"
+msgstr ""
+"ひこうを\n"
+"おぼえた"
+
+msgid ""
+"Emboldening\n"
+"Aviator"
+msgstr ""
+"はげましてくれる\n"
+"パイロット"
+
+msgid ""
+"Searching The\n"
+"Skies"
+msgstr ""
+"てんくうを　\n"
+"さがして"
+
+msgid ""
+"Evasively\n"
+"Maneuvering"
+msgstr ""
+"こうげきは　ゼッタイ\n"
+"よける"
+
+msgid "GELATINI"
+msgstr ""
+
+msgid ""
+"Found A New\n"
+"Space Station"
+msgstr ""
+"あらたな\n"
+"うちゅうステーションを\n"
+"はっけん"
+
+msgid ""
+"Backup\n"
+"Dancer"
+msgstr "バックダンサー"
+
+msgid ""
+"Exotic Jelly\n"
+"Dancer"
+msgstr ""
+"エキゾチック\n"
+"ゼリーダンサー"
+
+msgid ""
+"Found A New\n"
+"Galaxy"
+msgstr ""
+"あらたな　ぎんがを\n"
+"はっけん"
+
+msgid "OCULOUX"
+msgstr ""
+
+msgid ""
+"Slightly\n"
+"Bully-Like"
+msgstr ""
+"いじめっこの\n"
+"けいこうアリ"
+
+msgid ""
+"Reformed\n"
+"Bully"
+msgstr ""
+"こころを　いれかえた\n"
+"いじめっこ"
+
+msgid ""
+"Slightly\n"
+"Flirtatious"
+msgstr "みりょくどアップ"
+
+msgid "SILENTE"
+msgstr ""
+
+msgid ""
+"Exceedingly\n"
+"Agreeable"
+msgstr ""
+"ねっしんな\n"
+"イエスマン"
+
+msgid ""
+"Casually\n"
+"Enjoys Life"
+msgstr ""
+"きままに　じんせいを\n"
+"エンジョイちゅう"
+
+msgid ""
+"In Love From\n"
+"Afar"
+msgstr ""
+"えんきょり\n"
+"れんあいちゅう"
+
+msgid ""
+"Endangerment\n"
+"Denier"
+msgstr ""
+"きけんなことは\n"
+"ぜんひてい"
+
+msgid "MUSHY"
+msgstr ""
+
+msgid "Balgamlı Kedi & ScarletScaledDragon"
+msgstr ""
+
+msgid ""
+"Shooting\n"
+"Blanks"
+msgstr ""
+"いつも\n"
+"はずしちゃう"
+
+msgid ""
+"Quick-Draw\n"
+"Magician"
+msgstr ""
+"はやうちの\n"
+"まじゅつし"
+
+msgid ""
+"Gunshot\n"
+"Heart-Throb"
+msgstr ""
+"キミのハートを\n"
+"うちぬく"
+
+msgid ""
+"Spraying And\n"
+"Praying"
+msgstr "へたなてっぽう　かずうちゃあたる"
+
+msgid "LURKSALOT"
+msgstr ""
+
+msgid ""
+"Keeping To\n"
+"Themselves"
+msgstr ""
+"じぶんだけの\n"
+"せかいにとじこもる"
+
+msgid ""
+"Seeking\n"
+"Physical Contact"
+msgstr "みんなとの　ふれあいを　もとめて"
+
+msgid ""
+"Stoically\n"
+"Uninvolved"
+msgstr ""
+"おどろくほど\n"
+"むかんしん"
+
+msgid "STARDRAKE"
+msgstr ""
+
+msgid ""
+"Still Looking\n"
+"For Laughs"
+msgstr ""
+"おわらい\n"
+"しゅぎょうちゅう"
+
+msgid ""
+"Semi-Successful\n"
+"Comedian"
+msgstr ""
+"そこそこ　うれてる\n"
+"おわらいげいにん"
+
+msgid ""
+"Popular With The\n"
+"Grown-Ups"
+msgstr ""
+"ぼうゆうめい\n"
+"せいしゅんえいがで\n"
+"ゆうめいじん"
+
+msgid "CHILLDRAKE"
+msgstr ""
+
+msgid ""
+"Still Looking\n"
+"For Supporters"
+msgstr ""
+"いまだに　ファンを\n"
+"ぼしゅうちゅう"
+
+msgid ""
+"Gained A Cult\n"
+"Following"
+msgstr "カルトてき　だいにんき"
+
+msgid ""
+"Trades Kisses\n"
+"For Supporters"
+msgstr ""
+"ファンによる　キスする\n"
+"けんりの　こうかん"
+
+msgid ""
+"Anti-Bullying\n"
+"Activist"
+msgstr ""
+"だれかを　いためつけるのは\n"
+"ゼッタイハンタイ"
+
+msgid "ASTRO SERF"
+msgstr ""
+
+msgid ""
+"Thinking About\n"
+"Its Antenna"
+msgstr ""
+"じぶんの　アンテナが\n"
+"きになる"
+
+msgid ""
+"Radio Station\n"
+"Sensation"
+msgstr ""
+"ラジオばんぐみで\n"
+"だいにんき"
+
+msgid ""
+"Love Is On\n"
+"The Air"
+msgstr "こいの　よかん"
+
+msgid ""
+"Emergency\n"
+"Broadcaster"
+msgstr ""
+"きんきゅうほうそう\n"
+"やってます"
+
+msgid "JERRY"
+msgstr "ジェリー"
+
+msgid ""
+"Getting Ditched\n"
+"On The Daily"
+msgstr ""
+"まいにち\n"
+"ドタキャン"
+
+msgid ""
+"Getting Ditched\n"
+"Slightly Less"
+msgstr ""
+"ドタキャン　すこし\n"
+"へりました"
+
+msgid ""
+"On The Road To\n"
+"Redemption"
+msgstr ""
+"つみを　つぐなっている\n"
+"さいちゅう"
+
+msgid "WHIZKARAT"
+msgstr ""
+
+msgid "Zaxento The Greedy & semi"
+msgstr ""
+
+msgid ""
+"Having An\n"
+"Identity Crisis"
+msgstr ""
+"じぶんさがしの\n"
+"たびへ"
+
+msgid ""
+"Newest Member Of\n"
+"Mouse Society"
+msgstr ""
+"ネズミしゃかいの\n"
+"しんメンバー"
+
+msgid ""
+"Getting Frisky\n"
+"With The Mice"
+msgstr ""
+"ネズミと\n"
+"じゃれあうように"
+
+msgid ""
+"Scurried Back To\n"
+"Cat Society"
+msgstr ""
+"ネコしゃかいに\n"
+"あわててもどった"
+
+msgid "DOGGO"
+msgstr "ワンボー"
+
+msgid ""
+"Believes In The\n"
+"Almighty Wrench"
+msgstr ""
+"あの　レンチには\n"
+"きっと　またあえる…"
+
+msgid ""
+"Found His Own\n"
+"Seeing-Eye Wolf"
+msgstr ""
+"もうどう犬との\n"
+"しんせいかつ"
+
+msgid ""
+"In Love With His\n"
+"Seeing-Eye Wolf"
+msgstr ""
+"もうどう犬との\n"
+"ラブラブ生活"
+
+msgid ""
+"Running To His\n"
+"Seeing-Eye Wolf"
+msgstr ""
+"もうどう犬に\n"
+"たすけをもとめて"
+
+msgid "CANIS MINOR"
+msgstr "レッサードッグ"
+
+msgid ""
+"Searching For\n"
+"Affection"
+msgstr ""
+"あいじょうを\n"
+"もとめて…"
+
+msgid ""
+"Found A Loving\n"
+"Owner"
+msgstr ""
+"やさしい\n"
+"かいぬしをゲット"
+
+msgid ""
+"Found An Owning\n"
+"Lover"
+msgstr ""
+"じぶんだけの\n"
+"こいびとゲット"
+
+msgid ""
+"Desperate For\n"
+"Affection"
+msgstr ""
+"あいじょうに\n"
+"うえて"
+
+msgid "DOGAMY & DOGARESSA"
+msgstr "イヌッス＆イヌッサ"
+
+msgid ""
+"Still Thinking\n"
+"About Fetch"
+msgstr ""
+"あの　ぼうきれのことが\n"
+"わすれられず"
+
+msgid ""
+"Reigning Puppy-Dog\n"
+"Eyes Champions"
+msgstr ""
+"「おはなスリスリ\n"
+"　コンテスト」で\n"
+"ゆうしょう"
+
+msgid ""
+"Caught In Each-\n"
+"Other's Gaze"
+msgstr ""
+"おたがいの　めを\n"
+"みつめて"
+
+msgid ""
+"Defensive Puppy-\n"
+"Dog Eyes Engaged"
+msgstr ""
+"子犬へ　ぼうぎょの\n"
+"しせい"
+
+msgid "CANIS MAJOR"
+msgstr "グレータードッグ"
+
+msgid ""
+"Unaware Of\n"
+"Life's Changes"
+msgstr ""
+"にちじょうの\n"
+"へんかに　きづかず"
+
+msgid ""
+"Excited By\n"
+"Life's Changes"
+msgstr ""
+"にちじょうの\n"
+"へんかに　こうふんちゅう"
+
+msgid ""
+"Touched By\n"
+"Life's Changes"
+msgstr ""
+"にちじょうの\n"
+"へんかに　ふれる"
+
+msgid "SKRUBBINGTON"
+msgstr ""
+
+msgid ""
+"Only 99.1\n"
+"Percent Clean"
+msgstr "99.1％　ピカピカ"
+
+msgid ""
+"Power-Washing\n"
+"Powerhouse"
+msgstr ""
+"こうあつせんじょう\n"
+"のせんもんか"
+
+msgid ""
+"Hot Tub\n"
+"Manufacturer"
+msgstr ""
+"ジャグジー\n"
+"メーカー"
+
+msgid ""
+"Overpowered\n"
+"Pressure Washer"
+msgstr ""
+"ちょうこうあつ\n"
+"せんじょうき"
+
+msgid "GELATA"
+msgstr ""
+
+msgid ""
+"Looking For A\n"
+"Baby Sitter"
+msgstr ""
+"ベビーシッター\n"
+"さがしてます"
+
+msgid ""
+"Slime-Powered\n"
+"Barstool"
+msgstr ""
+"スライム　つきの\n"
+"バースツール"
+
+msgid ""
+"Sexy Sitcom\n"
+"Regular"
+msgstr ""
+"コメディばんぐみの\n"
+"セクシーレギュラー"
+
+msgid ""
+"Glorified\n"
+"Wrestling Prop"
+msgstr ""
+"えいこうの\n"
+"プロレスどうぐ"
+
+msgid "RADTILE"
+msgstr ""
+
+msgid "Balgamlı Kedi & Zaxento The Greedy"
+msgstr ""
+
+msgid ""
+"Wallowing In\n"
+"Imperfection"
+msgstr ""
+"じぶんのよわさに\n"
+"のたうちまわる"
+
+msgid ""
+"Improving His\n"
+"Self-Image"
+msgstr ""
+"じぶんは　できるやつ\n"
+"だとしんじる"
+
+msgid ""
+"Dating His Own\n"
+"Reflection"
+msgstr ""
+"そっくりさんと\n"
+"デートちゅう"
+
+msgid ""
+"Headed For An\n"
+"Ugly Future"
+msgstr ""
+"みにくい　みらいへ\n"
+"あしを　はこぶ"
+
+msgid "SHYREN"
+msgstr "シャイレーン"
+
+msgid ""
+"Back To Taking\n"
+"Piano Lessons"
+msgstr ""
+"ピアノレッスンを\n"
+"さいかい"
+
+msgid ""
+"Mettaton's\n"
+"New Lead Singer"
+msgstr ""
+"メタトンと　バンドを\n"
+"けっせいした　ボーカル"
+
+msgid ""
+"In Love With\n"
+"A Ghost"
+msgstr "ゴーストと　ラブラブ"
+
+msgid ""
+"Can't Sing Without\n"
+"A Synthesizer"
+msgstr ""
+"シンセサイザー　なしでは\n"
+"うたえない"
+
+msgid "DOGE"
+msgstr ""
+
+msgid ""
+"Construction Site\n"
+"Drill Sergeant"
+msgstr ""
+"こうじげんばの\n"
+"しどうがかり"
+
+msgid ""
+"Bought A Lifetime\n"
+"Spa Subscription"
+msgstr ""
+"いっしょうぶんの\n"
+"スパを　けいやく"
+
+msgid ""
+"Felt Puppy Love\n"
+"For The First Time"
+msgstr ""
+"はじめて　子犬の\n"
+"あいじょうを　かんじた"
+
+msgid "MUFFET"
+msgstr "マフェット"
+
+msgid ""
+"Looking For Her\n"
+"Next Payout"
+msgstr ""
+"つぎの　しはらいを\n"
+"まつ"
+
+msgid ""
+"Caring For The\n"
+"Spider Clans"
+msgstr ""
+"スパイダー同盟の\n"
+"えんじょちゅう"
+
+msgid ""
+"Picnic Date\n"
+"Matchmaker"
+msgstr ""
+"ピクニックの　ひどりを\n"
+"けつだん"
+
+msgid "HOTWIRE"
+msgstr ""
+
+msgid ""
+"Waiting For The\n"
+"Beat To Drop"
+msgstr ""
+"ビートが　きざまれる\n"
+"のを　まつ"
+
+msgid ""
+"Lightning-Fast\n"
+"Rapper"
+msgstr ""
+"でんこうせっかの\n"
+"ラッパー"
+
+msgid ""
+"Rapper Turned\n"
+"Love Song Writer"
+msgstr ""
+"ラッパー　から\n"
+"ラブソングの　さっきょくか　に"
+
+msgid ""
+"Rap Battling To\n"
+"The Near-Death"
+msgstr ""
+"しの　ふちにいたる\n"
+"ラップバトル"
+
+msgid "TSUNDERIDEX"
+msgstr "ツンデレシャトル"
+
+msgid ""
+"Flying Deeper\n"
+"Into Denial"
+msgstr "ツンデレの　きわみ"
+
+msgid ""
+"Sneaking Up On\n"
+"You At Warp Speed"
+msgstr ""
+"ワープホールを　とおって\n"
+"あなたの　もとに"
+
+msgid ""
+"Tsun To Be\n"
+"Your Dere-Dere"
+msgstr ""
+"ツンツン\n"
+"デレデレデレデレ"
+
+msgid ""
+"Finally Met\n"
+"Its Match"
+msgstr ""
+"ついに　いんねんの\n"
+"あいて　にあえた"
+
+msgid "PERIGEE"
+msgstr ""
+
+msgid ""
+"Another Day,\n"
+"Another Conflict"
+msgstr ""
+"あいかわらず\n"
+"しょうとつ"
+
+msgid ""
+"Interplanetary\n"
+"Ambassador"
+msgstr "せいかん　たいし"
+
+msgid ""
+"Encouraging Love\n"
+"In Others"
+msgstr ""
+"みんなに　あいを\n"
+"ひろめる"
+
+msgid ""
+"Showing Kindness\n"
+"Through The Pain"
+msgstr ""
+"いたみ　をとうして\n"
+"やさしさを　みせる"
+
+msgid "RG 03 & RG 04"
+msgstr "RG 03　＆　RG 04"
+
+msgid ""
+"In Search Of\n"
+"Childhood Friends"
+msgstr ""
+"こどもじだいの\n"
+"ともだちを　さがしちゅう"
+
+msgid ""
+"Use Your\n"
+"Imagination"
+msgstr ""
+"ごそうぞうに\n"
+"おまかせ"
+
+msgid ""
+"Please Use Your\n"
+"Imagination"
+msgstr ""
+"ごそうぞうに\n"
+"おまかせします！"
+
+msgid ""
+"Royal Guard\n"
+"Retirees"
+msgstr ""
+"ロイヤルガード\n"
+"たいしょく　します"
+
+msgid "GLYDE"
+msgstr "グライド"
+
+msgid ""
+"Not Your Ideal\n"
+"Business Partner"
+msgstr ""
+"りそうてきな\n"
+"ビジネスパートナー\n"
+"とは　いえない"
+
+msgid ""
+"A Little Less\n"
+"Shady Than Usual"
+msgstr ""
+"いつもよりは　すこし\n"
+"ウサンクサく　ない"
+
+msgid ""
+"Not Your Ideal\n"
+"Bedfellow"
+msgstr ""
+"りそうてきな\n"
+"なかま\n"
+"とは　いえない"
+
+msgid "BURGERPANTS"
+msgstr "バーガーパンツ"
+
+msgid ""
+"Running Hastily\n"
+"At The Life Ahead"
+msgstr ""
+"これからの　じんせいも\n"
+"はやあしで"
+
+msgid ""
+"Looking Forward\n"
+"To The Life Ahead"
+msgstr ""
+"これからの　じんせいを\n"
+"たのしみに"
+
+msgid ""
+"Finding Love\n"
+"In The Life Ahead"
+msgstr ""
+"これからの　じんせいに\n"
+"あいを　もとめて"
+
+msgid "COZMO"
+msgstr "コズモ"
+
+msgid ""
+"Looking For A\n"
+"Dictionary"
+msgstr ""
+"じしょを\n"
+"さがしちゅう"
+
+msgid ""
+"Famous\n"
+"Magician"
+msgstr "ゆうめい　マジシャン"
+
+msgid ""
+"Found A New Kind\n"
+"Of Magic"
+msgstr ""
+"あたらしい　まほうを\n"
+"はっけん"
+
+msgid "TERRESTRIA"
+msgstr ""
+
+msgid ""
+"In Search Of\n"
+"The Past"
+msgstr "かこを　たずねて"
+
+msgid ""
+"Renowned\n"
+"Historian"
+msgstr ""
+"こうめいな\n"
+"歴史家"
+
+msgid ""
+"Has A Crush On\n"
+"The Homeworld"
+msgstr ""
+"ふるさとに\n"
+"むちゅう"
+
+msgid "FINAL FROGGIT"
+msgstr "ファイナル・フロギー"
+
+msgid ""
+"Keeping Its\n"
+"Wisdom To Itself"
+msgstr ""
+"ちえを\n"
+"ひけらかさない"
+
+msgid ""
+"Sharing Its\n"
+"Wisdom Openly"
+msgstr ""
+"ちえを　オープンに\n"
+"きょうゆう"
+
+msgid ""
+"Using Its Wisdom\n"
+"For Love"
+msgstr ""
+"ちえは\n"
+"あいの　ために"
+
+msgid ""
+"Using Its Wisdom\n"
+"For Survival"
+msgstr ""
+"ちえは\n"
+"いきのこる　ため"
+
+msgid "FLUTTERKNYTE"
+msgstr ""
+
+msgid ""
+"Still Working\n"
+"Every Day"
+msgstr ""
+"いまだに\n"
+"れんきんちゅう"
+
+msgid ""
+"Finally Took\n"
+"A Break"
+msgstr ""
+"やっと\n"
+"チルできる"
+
+msgid ""
+"Looking For Some\n"
+"Private Time"
+msgstr ""
+"ひとりの　じかんを\n"
+"かくほちゅう"
+
+msgid ""
+"Working Harder\n"
+"Out Of Fear"
+msgstr ""
+"おそろしくて\n"
+"はたらきづめ"
+
+msgid "EYEWALKER PRIME"
+msgstr "ルーカス・プライム"
+
+msgid ""
+"Still A\n"
+"Big Bully"
+msgstr "あいかわらずの　いじめっこ"
+
+msgid ""
+"Domineering\n"
+"Eye Doctor"
+msgstr ""
+"えらそうな\n"
+"がんかい"
+
+msgid ""
+"Domineering\n"
+"Leather Tailor"
+msgstr ""
+"えらそうな\n"
+"ふくやのてんいん"
+
+msgid ""
+"Overthrown By\n"
+"An Oculoux"
+msgstr ""
+
+msgid "SILENCIO"
+msgstr ""
+
+msgid ""
+"Still A\n"
+"Shameless Coward"
+msgstr ""
+"いまだ　はじしらずの\n"
+"おくびょうもの"
+
+msgid ""
+"A Little Less Of\n"
+"A Coward"
+msgstr ""
+"すこし　ゆうきの　でた\n"
+"おくびょうもの"
+
+msgid ""
+"In Love With\n"
+"Its Fear"
+msgstr ""
+"きょうふしん\n"
+"とともに　いきていく"
+
+msgid ""
+"Running Faster\n"
+"Than Ever Before"
+msgstr ""
+"いままでで　いちばん\n"
+"にげあしが　はやい"
+
+msgid "MUSHKETEER"
+msgstr ""
+
+msgid "Balgamlı Kedi & Ghostly"
+msgstr ""
+
+msgid ""
+"One Mushroom\n"
+"Army"
+msgstr ""
+"キノコあたまの\n"
+"兵士"
+
+msgid ""
+"Hardened Warrior\n"
+"Seeking Peace"
+msgstr ""
+"へいわの　ために\n"
+"たたかう　つわもの"
+
+msgid ""
+"Defeated By The\n"
+"Power Of Love"
+msgstr ""
+"あいの　ちからに\n"
+"ざんぱい"
+
+msgid ""
+"Scared\n"
+"Straight"
+msgstr ""
+"きょうふの　きょうせい\n"
+"プログラム"
+
+msgid "PAPYRUS"
+msgstr "パピルス"
+
+msgid "ProctorDorkchop02 & MattSpriteMaster"
+msgstr ""
+
+msgid "SANS"
+msgstr "サンズ"
+
+msgid "ProctorDorkchop02 & Fired"
+msgstr ""
+
+msgid "UNDYNE"
+msgstr "アンダイン"
+
+msgid "ALPHYS"
+msgstr "アルフィー"
+
+msgid "MEW MEW"
+msgstr "みゅうみゅう"
+
+msgid "NAPSTABLOOK"
+msgstr "ナプスタブルーク"
+
+msgid "METTATON"
+msgstr "メタトン"
+
+msgid "TORIEL"
+msgstr "トリエル"
+
+msgid "ASGORE"
+msgstr "アズゴア"
+
+msgid "MONSTER KID"
+msgstr "モンスターの子"
+
+msgid "ASRIEL"
+msgstr "アズリエル"
+
+msgid "Medi0creking & MattSpriteMaster"
+msgstr ""
+
+msgid "[↑ or ↓] to Select / [Z or ENTER] to Confirm"
+msgstr "[↑ / ↓]で　せんたく / [Z / ENTER]で　けってい"
+
+msgid ""
+"To whom it may concern,\n"
+"\n"
+"This game contains §fill=#ff0§flashing images§fill=#fff§\n"
+"which may be reduced via the\n"
+"§fill=#ff0§settings menu§fill=#fff§.\n"
+"\n"
+msgstr ""
+"注意：\n"
+"\n"
+"このゲームは§fill=#ff0§フラッシュによる\n"
+"光の点滅§fill=#fff§を含みます。\n"
+"苦手な方は§fill=#ff0§せってい§fill=#fff§画面から\n"
+"変更してください。\n"
+
+msgid "§fill=#808080§Press [Z or ENTER] to Continue"
+msgstr ""
+
+msgid "Quitting"
+msgstr "しゅうりょうしています"
+
+msgid "Quitting."
+msgstr "しゅうりょうしています…"
+
+msgid "Quitting.."
+msgstr "しゅうりょうしています……"
+
+msgid "Thank you for playing Outertale."
+msgstr "Outertaleを　プレイしてくれて　ありがとう。"
+
+msgid "Working on this project has been an honor,"
+msgstr "このプロジェクトに　とりくめたことは　こうえいです。"
+
+msgid "and a pleasure on my part."
+msgstr "そして　うれしいことです。"
+
+msgid "When I started this journey, I never"
+msgstr "この　ながいながいたびを　はじめたとき"
+
+msgid "thought I'd get this far, but here we"
+msgstr ""
+"いちども　ここまで　やってこられるだろうとは\n"
+"おもっていませんでした。"
+
+msgid "are anyway, at the end."
+msgstr "ですが　いずれにしても　ゲームはかんせいしたのです。"
+
+msgid "For me, UNDERTALE was a life-changing"
+msgstr ""
+"わたしにとって　UNDERTALEは　じんせいの\n"
+"ターニングポイント　でした。"
+
+msgid "experience, and one that was very hard to"
+msgstr "そして　そのけいけんは"
+
+msgid "let go of after I first played it."
+msgstr ""
+"はじめて　プレイしてから　てばなすことの\n"
+"できないものでした。"
+
+msgid "So, with OUTERTALE, I wanted to give you"
+msgstr ""
+"だからこそ　OUTERTALEで　あなたにも\n"
+"つかんでほしかった。"
+
+msgid "another chance to exist in a world like it,"
+msgstr ""
+"おなじような　せかいせんを\n"
+"たのしむ　チャンスを。"
+
+msgid "as if it were your first time."
+msgstr ""
+"まるで　あなたが　はじめて\n"
+"プレイした　かのように。"
+
+msgid "I hope I've given you that chance."
+msgstr ""
+"わたしは　そのチャンスを　つかんで\n"
+"もらえたことを　ねがいます。"
+
+msgid "I hope you've come away satisfied with"
+msgstr "また　このせかいせんで　すごした　じかんに"
+
+msgid "the time you've spent in this world."
+msgstr "まんぞく　していて　ほしい。"
+
+msgid "No matter what you've done in your life,"
+msgstr "あなたの　じんせいで　なにをしようが"
+
+msgid "your actions here speak volumes about the"
+msgstr "あなたの　ここでの　こうどうが"
+
+msgid "kind of person you really are."
+msgstr "あなたの　ニンゲンせいを　ものがたるのです。"
+
+msgid "It's because of you that you got the ending"
+msgstr "というのも　このエンディングに　とうたつしたのは"
+
+msgid "you did, and nothing can take that"
+msgstr "あなたに　よるもの。"
+
+msgid "experience away from you."
+msgstr "そのじじつと　あなたを　ひきはなすことは　できません。"
+
+msgid "Despite your mistakes... you are awesome,"
+msgstr "ミスしたって…？　それでも　あなたはすごいし"
+
+msgid "and you deserve love and attention."
+msgstr "あいじょうと　きくばりを　もっている　ことになる。"
+
+msgid "Remember that, okay?"
+msgstr "そのことは　わすれないで　くださいね？"
+
+msgid "Take care of yourself, \"$(x).\""
+msgstr "じぶんのことを　だいいちに。　$(x)。"
+
+msgid "THE END"
+msgstr ""
+
+msgid "THE END...?"
+msgstr "THE END…？"
+
+msgid "Restarting"
+msgstr "さいきどうしています"
+
+msgid "Restarting."
+msgstr "さいきどうしています…"
+
+msgid "Restarting.."
+msgstr "さいきどうしています……"
+
+msgid "OUTERTALE"
+msgstr ""
+
+msgid "OUTERTALE...?"
+msgstr ""
+
+msgid "GAMEPAD SETUP"
+msgstr "コントローラーせってい"
+
+msgid ""
+"Use an input on your gamepad to assign\n"
+"it to the in-game action.\n"
+"\n"
+"Use the input again to confirm, or use\n"
+"other inputs to assign those as well.\n"
+"\n"
+"Press ESC to skip setup."
+msgstr ""
+"コントローラーから　ボタンを　せんたくして\n"
+"ゲームのそうさを　せっていします。\n"
+"\n"
+"おなじボタンを　おして　けっていするか\n"
+"べつのボタンを　おして　さいせっていします。\n"
+"\n"
+"[ESC]で　せっていを　スキップします。"
+
+msgid "Inputs Assigned: $(x)"
+msgstr "せんたく　ずみ：$(x)"
+
+msgid "[Z or ENTER] - Confirm"
+msgstr "[Z / ENTER] - かくてい"
+
+msgid "[X or SHIFT] - Cancel"
+msgstr "[X / SHIFT] - キャンセル"
+
+msgid "[C or CTRL] - Menu (In-game)"
+msgstr "[C / CTRL] - フィールドメニュー"
+
+msgid "[UP or W] - Move Up"
+msgstr "[↑ / W] - うえ"
+
+msgid "[LEFT or A] - Move Left"
+msgstr "[← / A] - ひだり"
+
+msgid "[DOWN or S] - Move Down"
+msgstr "[↓ / S] - した"
+
+msgid "[RIGHT or D] - Move Right"
+msgstr "[→ / D] - みぎ"
+
+msgid "[F4] - Fullscreen"
+msgstr "[F4] - フルスクリーン"
+
+msgid ""
+"Setup complete.\n"
+"Press any button to continue."
+msgstr ""
+"せっていを　かんりょうしました。\n"
+"にんいのボタンを　おして　つづけます。"
+
+msgid ""
+"\n"
+"Note: On this platform, the gamepad may\n"
+"not always be able to enter fullscreen."
+msgstr ""
+"\n"
+"ちゅうい：本プラットフォームで　プレイするばあい\n"
+"コントローラーで　ぜんがめんを　ひらくことが\n"
+"できないばあいが　あります。"
+
+msgid ""
+"A gamepad has already been set up.\n"
+"Press any button to continue, or press\n"
+"any button three times in rapid\n"
+"succession to restart setup.\n"
+"\n"
+"Press ESC to skip setup."
+msgstr ""
+"コントローラーのせっていを　かんりょうしました。\n"
+"にんいのボタンを　おして　つづけます。\n"
+"あるいは　あるボタンを　3回おして\n"
+"コントローラーを　リセットします。\n"
+"\n"
+"[ESC]で　せっていを　スキップします。"
+
+msgid "Asriel"
+msgstr "アズリエル"
+
+msgid "The Oblivion"
+msgstr ""
+
+msgid "DISABLED"
+msgstr "オフ"
+
+msgid "ENABLED"
+msgstr "オン"
+
+msgid "Press [X] to Finish"
+msgstr "[X]で　しゅうりょう"
+
+msgid "Frisk"
+msgstr "フリスク"
+
+msgid "G"
+msgstr ""
+
+msgid "INF"
+msgstr ""
+
+msgid "[PRESS Z OR ENTER]"
+msgstr ""
+
+msgid "LV"
+msgstr ""
+
+msgid ""
+"§mystify=ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz§aaaaaa§mystify=§"
+msgstr ""
+"§mystify=アイウエオカキクケコサシスセソタチツテトナニヌネノハヒフヘホマミムメモヤユロラリルレロワヲンーャュョッヮァィゥェォガギグゲゴザジズゼゾダヂヅデドバビブベボパピプペポあいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらりるれろわをんーゃゅょっゎぁぃぅぇぉがぎぐげござじずぜぞだぢづでどばびぶべぼぱぴぷぺぽ§ああああああ§@mystify=§"
+
+msgid ""
+"{@mystify=ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz}aaaaaa{@mystify=}"
+msgstr ""
+"{@mystify=アイウエオカキクケコサシスセソタチツテトナニヌネノハヒフヘホマミムメモヤユロラリルレロワヲンーャュョッヮァィゥェォガギグゲゴザジズゼゾダヂヅデドバビブベボパピプペポあいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらりるれろわをんーゃゅょっゎぁぃぅぇぉがぎぐげござじずぜぞだぢづでどばびぶべぼぱぴぷぺぽ}ああああああ{@mystify=}"
+
+msgid "{@mystify=abcdefghijklmnopqrstuvwxyz}aaaaaa{@mystify=}"
+msgstr ""
+"{@mystify=あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらりるれろわをんーゃゅょっゎぁぃぅぇぉがぎぐげござじずぜぞだぢづでどばびぶべぼぱぴぷぺぽ}ああああああ{@mystify=}"
+
+msgid "{@mystify=ABCDEFGHIJKLMNOPQRSTUVWXYZ}aaaaaa{@mystify=}"
+msgstr ""
+"{@mystify=アイウエオカキクケコサシスセソタチツテトナニヌネノハヒフヘホマミムメモヤユロラリルレロワヲンーャュョッヮァィゥェォガギグゲゴザジズゼゾダヂヅデドバビブベボパピプペポ}ああああああ{@mystify=}"
+
+msgid "No"
+msgstr "いいえ"
+
+msgid "§fill=#0f0§NOMINAL"
+msgstr ""
+
+msgid "$(x)%"
+msgstr ""
+
+msgid "player"
+msgstr ""
+
+msgid "Settings"
+msgstr "せってい"
+
+msgid "?"
+msgstr ""
+
+msgid "XM"
+msgstr ""
+
+msgid "Yes"
+msgstr "はい"
+
+msgid "INVENTORY"
+msgstr "もちもの"
+
+msgid "BOX"
+msgstr "ボックス"
+
+msgid "KEYRING"
+msgstr "キーホルダー"
+
+msgid "Is this name correct?"
+msgstr ""
+"このなまえで\n"
+"よろしいですか？"
+
+msgid ""
+"A name has already\n"
+"been chosen."
+msgstr ""
+"すでに　なまえが\n"
+"つけられています。"
+
+msgid "Go back"
+msgstr "もどる"
+
+msgid "OUTERTALE V5.03 (c) 2024 SPACEY_432"
+msgstr ""
+
+msgid "* (HP fully restored.)"
+msgstr "＊(HPが　まんタンになった)"
+
+msgid "* (You recovered $(x) HP.)"
+msgstr "＊(HPが　$(x)かいふくした)"
+
+msgid "* (You lost $(x) HP.)"
+msgstr "＊(HPが　$(x)へった)"
+
+msgid "* (HP fully depleted.)"
+msgstr "＊(HPが　0になった)"
+
+msgid "* (You gained $(x) HP.)"
+msgstr "＊(HPが　$(x)かくとくした)"
+
+msgid "USE"
+msgstr ""
+
+msgid "EQUIP"
+msgstr ""
+
+msgid "INFO"
+msgstr ""
+
+msgid "DROP"
+msgstr ""
+
+msgid "Continue"
+msgstr "コンティニュー"
+
+msgid "Observe"
+msgstr "かんさつ"
+
+msgid "Reset"
+msgstr "リセット"
+
+msgid "True Reset"
+msgstr "本当のリセット"
+
+msgid "Name the stranded human."
+msgstr ""
+"ふじちゃくしたニンゲンに\n"
+"なまえをつけてください"
+
+msgid "Quit"
+msgstr "やめる"
+
+msgid "Backspace"
+msgstr "さくじょ"
+
+msgid "Done"
+msgstr "かくてい"
+
+msgid "§fill=#808080§ [ESC] - Quit / [ENTER] - Done"
+msgstr ""
+"§fill=#808080§キーボードで入力をお願いします\n"
+"(ひらがな、カタカナと半角英字のみ使用可\n"
+" 入力完了したのに表示されない場合は\n"
+" 　　　　　1回Enterキーを押してください)\n"
+"[ESC] - やめる　[ENTER] - かくてい"
+
+msgid "Return"
+msgstr "もどる"
+
+msgid "File saved."
+msgstr "セーブしました。"
+
+msgid "SETTINGS"
+msgstr "せってい"
+
+msgid "EXIT"
+msgstr "もどる"
+
+msgid "LANGUAGE"
+msgstr "げんご"
+
+msgid "ENGLISH"
+msgstr "にほんご"
+
+msgid "SOUND FX"
+msgstr "SE"
+
+msgid "MUSIC"
+msgstr "BGM"
+
+msgid "FANCY GRAPHICS"
+msgstr "こうがしつ"
+
+msgid "FLASHING IMAGERY"
+msgstr "てんめつ"
+
+msgid "NORMAL"
+msgstr "ノーマル"
+
+msgid "REDUCED"
+msgstr "やさしめ"
+
+msgid "TOUCH CONTROLS"
+msgstr "タッチモード"
+
+msgid "LEFT"
+msgstr "ひだり"
+
+msgid "RIGHT"
+msgstr "みぎ"
+
+msgid "HIDDEN"
+msgstr "かくす"
+
+msgid "DEADZONE"
+msgstr "デッドゾーン"
+
+msgid "OPEN MOD FOLDER"
+msgstr "Modフォルダをひらく"
+
+msgid "RESTART"
+msgstr "さいきどう"
+
+msgid "ITEM"
+msgstr ""
+
+msgid "STAT"
+msgstr ""
+
+msgid "CELL"
+msgstr "PHONE"
+
+msgid "CONF"
+msgstr "SETT"
+
+msgid "--- Instruction ---"
+msgstr "― ボタンそうさ ―"
+
+msgid "[Hold ESC] - Restart"
+msgstr "[ESCながおし] - さいきどう"
+
+msgid "When HP is 0, you lose."
+msgstr "HPが0になるとゲームオーバー"
+
+msgid "Begin Game"
+msgstr "ゲームをはじめる"
+
+msgid "AT"
+msgstr "ATK"
+
+msgid "DF"
+msgstr "DEF"
+
+msgid "GOLD"
+msgstr ""
+
+msgid "NEXT"
+msgstr ""
+
+msgid ""
+"§fill=#ff0§Warning:\n"
+"Non-canon\n"
+"timeline."
+msgstr ""
+"§fill=#ff0§　けいこく\n"
+"ひこうしきの\n"
+"タイムライン"
+
+msgid "KILLS"
+msgstr ""
+
+msgid "BULLY"
+msgstr "\\u4dc2"
+
+msgid "FLIRT"
+msgstr "\\u4dc1"
+
+msgid "STATUS"
+msgstr ""
+
+msgid "\"$(x)\""
+msgstr ""
+
+msgid ""
+"<24>{#p/storyteller}Long ago, two species ruled the solar system: HUMANS and"
+" MONSTERS.{^35}{}"
+msgstr ""
+"<16>{#p/storyteller}むかしむかし　たいようけいには\n"
+"ニンゲンと　モンスターという\n"
+"2つのしゅぞくが　いました。{^35}{}"
+
+msgid "<24>As time passed, a war broke out between the two species.{^35}{}"
+msgstr ""
+"<16>ときが　たつにつれ\n"
+"2つのしゅぞくの　あいだに\n"
+"せんそうが　おきました。{^35}{}"
+
+msgid ""
+"<24>After the MONSTERS' home planet was destroyed, HUMANS declared "
+"victory.{^35}{}"
+msgstr ""
+"<16>そして　モンスターたちの\n"
+"母星を　はかいされたのち\n"
+"ニンゲンが　しょうりしました。{^35}{}"
+
+msgid ""
+"<24>The remaining MONSTERS were banished to an abandoned outpost.{^35}{}"
+msgstr "<16>のこりの　モンスターたちは　ほうきされた　ぜんしょうきちに　ついほうされました。{^35}{}"
+
+msgid ""
+"<24>A powerful force field was erected, and the MONSTERS were sealed "
+"in.{^35}{}"
+msgstr ""
+"<16>ニンゲンは　フォース\n"
+"フィールドで　モンスターたちを\n"
+"とじこめました。{^35}{}"
+
+msgid "<24>Many years later.{^8}.{^8}.{^35}{}"
+msgstr ""
+"<16>それから　さらに\n"
+"ながい　ときが　ながれ…{^8}…{^8}…{^35}{}"
+
+msgid ""
+"<#24>     EBOTT SECTOR     \n"
+"         251X{^35}{}"
+msgstr ""
+"<#24>     イビト　セクター    \n"
+"      251X年{^35}{}"
+
+msgid "<24>Tales speak of a place from which spacecraft never return.{^35}{}"
+msgstr ""
+"<16>それは　「うちゅうせんは\n"
+"にどと　もどらない」といわれる\n"
+"てんせつのセクターでした。{^35}{}"
+
+msgid "<24>{^100}{}"
+msgstr "<16>{^100}{}"
+
+msgid "<24>{^35}{}"
+msgstr "<16>{^35}{}"
+
+msgid "Resume Canon Timeline"
+msgstr "メインタイムラインに　もどる"
+
+msgid "Start Canon Timeline"
+msgstr "メインタイムラインを　はじめる"
+
+msgid "Other Slots"
+msgstr "ほかの　タイムライン"
+
+msgid "Bisect"
+msgstr "ぶんかつ"
+
+msgid "Delete"
+msgstr "さくじょ"
+
+msgid "[ESC] to Cancel / [ENTER] to Confirm"
+msgstr "[ESC]で　やめる / [ENTER]で　かくてい"
+
+msgid "Press any button on your gamepad to open the keyboard."
+msgstr "コントローラーの　にんいのボタンを　おして　キーボードを　ひらきます。"
+
+msgid "Launch"
+msgstr "はいる"
+
+msgid "Rename"
+msgstr "なまえへんこう"
+
+msgid "Create New"
+msgstr "しんきさくせい"
+
+msgid "Enter Timeline Name"
+msgstr "タイムラインの　なまえを　にゅうりょく"
+
+msgid "Are You Sure?"
+msgstr "ほんとうに？"

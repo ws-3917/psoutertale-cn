@@ -1,0 +1,4 @@
+colored
+opencc-python-reimplemented
+polib
+termcolor

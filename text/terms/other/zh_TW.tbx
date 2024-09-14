@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE martif PUBLIC "ISO 12200:1999A//DTD MARTIF core (DXFcdV04)//EN" "TBXcdv04.dtd">
+<martif type="TBX" xml:lang="en">
+    <martifHeader>
+        <fileDesc>
+            <sourceDesc>
+                <p>Translate Toolkit</p>
+            </sourceDesc>
+        </fileDesc>
+    </martifHeader>
+    <text>
+        <body>
+            <termEntry id="Undyne's laughter">
+                <langSet xml:lang="en"><tig><term>Fuhuhu</term></tig></langSet>
+                <langSet xml:lang="zh_TW"><tig><term>呋呼呼</term></tig></langSet>
+            </termEntry>
+            <termEntry id="Twinkly/Chaotic Asriel說的+Paps在場務必按這個翻，其它情況若能保證通順也儘量按這個翻">
+                <langSet xml:lang="en"><tig><term>idiot</term></tig></langSet>
+                <langSet xml:lang="zh_TW"><tig><term>蠢貨</term></tig></langSet>
+            </termEntry>
+            <termEntry id="Monster Kid">
+                <langSet xml:lang="en"><tig><term>Yo</term></tig></langSet>
+                <langSet xml:lang="zh_TW"><tig><term>喲</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>Signal Star</term></tig></langSet>
+                <langSet xml:lang="zh_TW"><tig><term>訊星</term></tig></langSet>
+            </termEntry>
+            <termEntry id="Gerson's laughter">
+                <langSet xml:lang="en"><tig><term>Wa ha ha</term></tig></langSet>
+                <langSet xml:lang="zh_TW"><tig><term>哇哈哈</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>Outernet</term></tig></langSet>
+                <langSet xml:lang="zh_TW"><tig><term>域外網</term></tig></langSet>
+            </termEntry>
+            <termEntry id="term">
+                <langSet xml:lang="en"><tig><term>boss monster</term></tig></langSet>
+                <langSet xml:lang="zh_TW"><tig><term>王級怪物</term></tig></langSet>
+            </termEntry>
+            <termEntry id="cell">
+                <langSet xml:lang="en"><tig><term>Keyring</term></tig></langSet>
+                <langSet xml:lang="zh_TW"><tig><term>鑰匙串</term></tig></langSet>
+            </termEntry>
+            <termEntry id="music_title">
+                <langSet xml:lang="en"><tig><term>Song of the Stars</term></tig></langSet>
+                <langSet xml:lang="zh_TW"><tig><term>群星之歌</term></tig></langSet>
+            </termEntry>
+            <termEntry id="music_title">
+                <langSet xml:lang="en"><tig><term>funny autotune</term></tig></langSet>
+                <langSet xml:lang="zh_TW"><tig><term>滑腔動調</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>MTT Beauty</term></tig></langSet>
+                <langSet xml:lang="zh_TW"><tig><term>MTT美妝</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>MTT Cooking</term></tig></langSet>
+                <langSet xml:lang="zh_TW"><tig><term>MTT廚具</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>MTT Tech</term></tig></langSet>
+                <langSet xml:lang="zh_TW"><tig><term>MTT科技</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>MTT Tunes</term></tig></langSet>
+                <langSet xml:lang="zh_TW"><tig><term>MTT靜聽</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>MTT TV</term></tig></langSet>
+                <langSet xml:lang="zh_TW"><tig><term>MTT電視臺</term></tig></langSet>
+            </termEntry>
+            <termEntry id="music_title">
+                <langSet xml:lang="en"><tig><term>Solarwave</term></tig></langSet>
+                <langSet xml:lang="zh_TW"><tig><term>日光漣漪</term></tig></langSet>
+            </termEntry>
+            <termEntry id="music_title">
+                <langSet xml:lang="en"><tig><term>Spooktune Mashup</term></tig></langSet>
+                <langSet xml:lang="zh_TW"><tig><term>鬼怪混音集</term></tig></langSet>
+            </termEntry>
+            <termEntry id="music_title">
+                <langSet xml:lang="en"><tig><term>Ghost Rave</term></tig></langSet>
+                <langSet xml:lang="zh_TW"><tig><term>鬼怪舞曲</term></tig></langSet>
+            </termEntry>
+            <termEntry id="music_title">
+                <langSet xml:lang="en"><tig><term>Bad Wolf</term></tig></langSet>
+                <langSet xml:lang="zh_TW"><tig><term>惡狼</term></tig></langSet>
+            </termEntry>
+            <termEntry id="music_title">
+                <langSet xml:lang="en"><tig><term>Planetary</term></tig></langSet>
+                <langSet xml:lang="zh_TW"><tig><term>星河渡歌</term></tig></langSet>
+            </termEntry>
+            <termEntry id="music_title">
+                <langSet xml:lang="en"><tig><term>MMSA - Main Theme</term></tig></langSet>
+                <langSet xml:lang="zh_TW"><tig><term>喵喵航天行 - 主題曲</term></tig></langSet>
+            </termEntry>
+            <termEntry id="music_title">
+                <langSet xml:lang="en"><tig><term>Parting of Ways</term></tig></langSet>
+                <langSet xml:lang="zh_TW"><tig><term>緣聚緣散</term></tig></langSet>
+            </termEntry>
+            <termEntry id="music_title">
+                <langSet xml:lang="en"><tig><term>papyrus tribute</term></tig></langSet>
+                <langSet xml:lang="zh_TW"><tig><term>papyrus求包養</term></tig></langSet>
+            </termEntry>
+            <termEntry id="回血道具">
+                <langSet xml:lang="en"><tig><term>heal</term></tig></langSet>
+                <langSet xml:lang="zh_TW"><tig><term>回復</term></tig></langSet>
+            </termEntry>
+            <termEntry id="回血道具">
+                <langSet xml:lang="en"><tig><term>heals</term></tig></langSet>
+                <langSet xml:lang="zh_TW"><tig><term>回復</term></tig></langSet>
+            </termEntry>
+            <termEntry id="Gerson's laughter">
+                <langSet xml:lang="en"><tig><term>Wah Ha Ha</term></tig></langSet>
+                <langSet xml:lang="zh_TW"><tig><term>哇哈哈</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>taxi</term></tig></langSet>
+                <langSet xml:lang="zh_TW"><tig><term>運輸船</term></tig></langSet>
+            </termEntry>
+            <termEntry id="group">
+                <langSet xml:lang="en"><tig><term>Royal Scientist</term></tig></langSet>
+                <langSet xml:lang="zh_TW"><tig><term>皇家科學員</term></tig></langSet>
+            </termEntry>
+        </body>
+    </text>
+</martif>

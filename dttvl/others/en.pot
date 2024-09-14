@@ -1,0 +1,7705 @@
+#
+msgid ""
+msgstr ""
+
+msgid "overworld/ActionSOUL"
+msgstr ""
+
+msgid "ui/ActionPartyPanels"
+msgstr ""
+
+msgid "/"
+msgstr ""
+
+msgid "overworld/actionsoulpalettes/mat_actionsoul_"
+msgstr ""
+
+msgid "_eye"
+msgstr ""
+
+msgid "_injured"
+msgstr ""
+
+msgid "player/"
+msgstr ""
+
+msgid "/outlines/"
+msgstr ""
+
+msgid "_o"
+msgstr ""
+
+msgid "sounds/snd_hurt"
+msgstr ""
+
+msgid "battle/dr/DamageNumber"
+msgstr ""
+
+msgid "sounds/snd_hurtgirl"
+msgstr ""
+
+msgid "battle/enemies/Astigmatism/spr_b_astigmatism_anim2_"
+msgstr ""
+
+msgid "_ts"
+msgstr ""
+
+msgid "battle/spr_"
+msgstr ""
+
+msgid "bt_1"
+msgstr ""
+
+msgid "bt_0"
+msgstr ""
+
+msgid "act_check"
+msgstr ""
+
+msgid "error_acts"
+msgstr ""
+
+msgid "check_desc_base"
+msgstr ""
+
+msgid "spr_su_down_unhappy_0"
+msgstr ""
+
+msgid "spr_no_down_unhappy_0"
+msgstr ""
+
+msgid "g/spr_fr_down_0_g"
+msgstr ""
+
+msgid "injured/spr_kr_down_0_injured"
+msgstr ""
+
+msgid "eye/spr_kr_down_0_eye"
+msgstr ""
+
+msgid "snd_txtbtl"
+msgstr ""
+
+msgid "<color=#69FFFFFF>  ACT</color>"
+msgstr ""
+
+msgid "<color=#FF6969FF>  PSI</color>"
+msgstr ""
+
+msgid "battle/KrisIcon"
+msgstr ""
+
+msgid "battle/PaulaIcon"
+msgstr ""
+
+msgid "</color>"
+msgstr ""
+
+msgid "ui/TextBase"
+msgstr ""
+
+msgid "sounds/snd_select"
+msgstr ""
+
+msgid "sounds/snd_menumove"
+msgstr ""
+
+msgid "battle/RedBuster"
+msgstr ""
+
+msgid "sounds/snd_spellcast"
+msgstr ""
+
+msgid "sounds/snd_heal"
+msgstr ""
+
+msgid "battle/SusieIcon"
+msgstr ""
+
+msgid "battle/NoelleIcon"
+msgstr ""
+
+msgid "sounds/snd_cantselect"
+msgstr ""
+
+msgid "battle/HPMercyLabel"
+msgstr ""
+
+msgid "battle/enemies/FightEnemyHP"
+msgstr ""
+
+msgid "ui/SelectionBase"
+msgstr ""
+
+msgid "fonts/DTM-Mono"
+msgstr ""
+
+msgid "battle/SpareIcon"
+msgstr ""
+
+msgid "battle/TiredIcon"
+msgstr ""
+
+msgid "_intro"
+msgstr ""
+
+msgid "battle/FightTarget"
+msgstr ""
+
+msgid "vfx/SOULShine"
+msgstr ""
+
+msgid "spr_kr_evil_look"
+msgstr ""
+
+msgid "sounds/snd_spell_cure_slight_smaller"
+msgstr ""
+
+msgid "battle/RudeBuster"
+msgstr ""
+
+msgid "battle/SleepMist"
+msgstr ""
+
+msgid "battle/IceShock"
+msgstr ""
+
+msgid "sounds/snd_psi"
+msgstr ""
+
+msgid "sounds/snd_psi_shield"
+msgstr ""
+
+msgid "battle/PKFreeze"
+msgstr ""
+
+msgid "battle/PKFire"
+msgstr ""
+
+msgid "spr_su_down_depressed_"
+msgstr ""
+
+msgid "spr_no_down_depressed_"
+msgstr ""
+
+msgid "spr_su_down_devious"
+msgstr ""
+
+msgid "sounds/"
+msgstr ""
+
+msgid "overworld/npcs/portraits/spr_"
+msgstr ""
+
+msgid "_0"
+msgstr ""
+
+msgid "snd_"
+msgstr ""
+
+msgid "sounds/snd_levelup"
+msgstr ""
+
+msgid "vfx/EyeFlashSparkle"
+msgstr ""
+
+msgid "battle/attacks/bullets/lostcore/spr_blade_figure_bullet"
+msgstr ""
+
+msgid ""
+"/WDSURRENDER YOUR \n"
+"SOUL"
+msgstr ""
+
+msgid ""
+"/WDI'VE FELT THIS \n"
+"BEFORE"
+msgstr ""
+
+msgid ""
+"/WDGO FORWARD \n"
+"BRINGER OF HOPE"
+msgstr ""
+
+msgid "battle/enemies/BLADEKNIGHT/spr_b_bladeknight_hair_2_"
+msgstr ""
+
+msgid "battle/enemies/BLADEKNIGHT/spr_b_bladeknight_cape_"
+msgstr ""
+
+msgid "_dmg_3"
+msgstr ""
+
+msgid "snd_txtwdc"
+msgstr ""
+
+msgid "sounds/snd_deathnoise"
+msgstr ""
+
+msgid "battle/attacks/bullets/lostcore/EyeFlash"
+msgstr ""
+
+msgid "battle/attacks/bullets/lostcore/EyeFlashSlight"
+msgstr ""
+
+msgid "battle/attacks/bullets/GasterBlaster"
+msgstr ""
+
+msgid "battle/attacks/bullets/lostcore/BladeFigureBullet"
+msgstr ""
+
+msgid "vfx/EnemyRunEffect"
+msgstr ""
+
+msgid "battle/enemies/"
+msgstr ""
+
+msgid "/spr_b_"
+msgstr ""
+
+msgid "_die_1"
+msgstr ""
+
+msgid "sounds/snd_noise"
+msgstr ""
+
+msgid "_die_2"
+msgstr ""
+
+msgid "vfx/EnemyBlood"
+msgstr ""
+
+msgid "_die_0"
+msgstr ""
+
+msgid "_run"
+msgstr ""
+
+msgid "spr_kr_paintedblue"
+msgstr ""
+
+msgid "spr_paula_paintedblue"
+msgstr ""
+
+msgid "sounds/snd_defeatrun"
+msgstr ""
+
+msgid "battle/enemies/Blue Cultist/spr_b_cultist_torso_worry"
+msgstr ""
+
+msgid "ui/buttons/"
+msgstr ""
+
+msgid "spr_pixel_bot"
+msgstr ""
+
+msgid "vfx/BattleBGEffect/Balls"
+msgstr ""
+
+msgid "Wall_UP"
+msgstr ""
+
+msgid "Wall_LEFT"
+msgstr ""
+
+msgid "Wall_RIGHT"
+msgstr ""
+
+msgid "Wall_DOWN"
+msgstr ""
+
+msgid "Corner_UL"
+msgstr ""
+
+msgid "Corner_UR"
+msgstr ""
+
+msgid "Corner_BR"
+msgstr ""
+
+msgid "Corner_BL"
+msgstr ""
+
+msgid "music/mus_vibe_of_bunny"
+msgstr ""
+
+msgid "music/mus_dogcheck"
+msgstr ""
+
+msgid "ui/spr_bunny_dance_0"
+msgstr ""
+
+msgid "ui/spr_bunny_dance_1"
+msgstr ""
+
+msgid "ui/spr_bunny_sleep_check_0"
+msgstr ""
+
+msgid "ui/spr_bunny_sleep_check_1"
+msgstr ""
+
+msgid "cross_0"
+msgstr ""
+
+msgid "a_0"
+msgstr ""
+
+msgid "circle_0"
+msgstr ""
+
+msgid "b_0"
+msgstr ""
+
+msgid "square_0"
+msgstr ""
+
+msgid "x_0"
+msgstr ""
+
+msgid "triangle_0"
+msgstr ""
+
+msgid "y_0"
+msgstr ""
+
+msgid "left_bumper"
+msgstr ""
+
+msgid "l_0"
+msgstr ""
+
+msgid "right_bumper"
+msgstr ""
+
+msgid "r_0"
+msgstr ""
+
+msgid "minus_0"
+msgstr ""
+
+msgid "plus_0"
+msgstr ""
+
+msgid "left_stick"
+msgstr ""
+
+msgid "lStickClick_0"
+msgstr ""
+
+msgid "right_stick"
+msgstr ""
+
+msgid "rStickClick_0"
+msgstr ""
+
+msgid "dpad_up"
+msgstr ""
+
+msgid "up_0"
+msgstr ""
+
+msgid "dpad_down"
+msgstr ""
+
+msgid "down_0"
+msgstr ""
+
+msgid "dpad_left"
+msgstr ""
+
+msgid "left_0"
+msgstr ""
+
+msgid "dpad_right"
+msgstr ""
+
+msgid "right_0"
+msgstr ""
+
+msgid "button_questionmark"
+msgstr ""
+
+msgid "button_"
+msgstr ""
+
+msgid "_"
+msgstr ""
+
+msgid "CameraBound_0"
+msgstr ""
+
+msgid "CameraBound_1"
+msgstr ""
+
+msgid "mus_cave"
+msgstr ""
+
+msgid "mus_happyhappy"
+msgstr ""
+
+msgid "mus_toomuch"
+msgstr ""
+
+msgid "mus_hospital_intro"
+msgstr ""
+
+msgid "mus_zombiepaper"
+msgstr ""
+
+msgid "music/"
+msgstr ""
+
+msgid "snd_text"
+msgstr ""
+
+msgid "snd_txtsus"
+msgstr ""
+
+msgid "su_inquisitive"
+msgstr ""
+
+msgid "su_smirk"
+msgstr ""
+
+msgid "su_teeth_eyes"
+msgstr ""
+
+msgid "su_annoyed"
+msgstr ""
+
+msgid "su_angry"
+msgstr ""
+
+msgid "su_wideeye"
+msgstr ""
+
+msgid "su_pissed"
+msgstr ""
+
+msgid "uno/spr_card_fg_"
+msgstr ""
+
+msgid "uno/spr_card_bg"
+msgstr ""
+
+msgid "uno/spr_card_back"
+msgstr ""
+
+msgid "uno/Card"
+msgstr ""
+
+msgid "_defeat"
+msgstr ""
+
+msgid "sounds/snd_enemypsi"
+msgstr ""
+
+msgid "sounds/snd_lithit"
+msgstr ""
+
+msgid "overworld/eb_objects/spr_reflectball_0"
+msgstr ""
+
+msgid "overworld/eb_objects/spr_reflectball_1"
+msgstr ""
+
+msgid "snd_txtpau"
+msgstr ""
+
+msgid "pau_confident"
+msgstr ""
+
+msgid "battle/enemies/MrCarpainter/spr_b_carpainter_die_1"
+msgstr ""
+
+msgid "battle/enemies/MrCarpainter/spr_b_carpainter_die_2"
+msgstr ""
+
+msgid "battle/enemies/MrCarpainter/spr_b_carpainter_die_3"
+msgstr ""
+
+msgid "sounds/snd_item"
+msgstr ""
+
+msgid "music/mus_zombiepaper"
+msgstr ""
+
+msgid "snd_txtnoe"
+msgstr ""
+
+msgid "no_happy"
+msgstr ""
+
+msgid "pau_sussy"
+msgstr ""
+
+msgid "su_neutral"
+msgstr ""
+
+msgid "su_side"
+msgstr ""
+
+msgid "su_smile"
+msgstr ""
+
+msgid "su_smile_sweat"
+msgstr ""
+
+msgid "su_happy"
+msgstr ""
+
+msgid "su_confident"
+msgstr ""
+
+msgid "su_depressed"
+msgstr ""
+
+msgid ""
+"Now you shall face \n"
+"the wrath of my <color=#0000FFFF>blue-\n"
+"blue martial arts!</color>"
+msgstr ""
+
+msgid "music/mus_sanctuary_challenge"
+msgstr ""
+
+msgid "music/mus_otherworldfoe"
+msgstr ""
+
+msgid "pau_dejected"
+msgstr ""
+
+msgid "pau_neutral"
+msgstr ""
+
+msgid "sounds/snd_kick_bomb"
+msgstr ""
+
+msgid "vfx/RealisticExplosion"
+msgstr ""
+
+msgid "call_0"
+msgstr ""
+
+msgid "call_1"
+msgstr ""
+
+msgid "call_hardmode_0"
+msgstr ""
+
+msgid "snd_txttor"
+msgstr ""
+
+msgid "tori_happy"
+msgstr ""
+
+msgid "tori_neutral"
+msgstr ""
+
+msgid "su_surprised"
+msgstr ""
+
+msgid "su_side_sweat"
+msgstr ""
+
+msgid "sounds/snd_dial"
+msgstr ""
+
+msgid "tori_worry"
+msgstr ""
+
+msgid "_kill_1"
+msgstr ""
+
+msgid "_kill_0"
+msgstr ""
+
+msgid "killed_0"
+msgstr ""
+
+msgid "killed_1"
+msgstr ""
+
+msgid "killed_2"
+msgstr ""
+
+msgid "killed_3"
+msgstr ""
+
+msgid "killed_4"
+msgstr ""
+
+msgid "spared_0"
+msgstr ""
+
+msgid "ranaway_oblit_0"
+msgstr ""
+
+msgid "ranaway_0"
+msgstr ""
+
+msgid "spr_no_surprise"
+msgstr ""
+
+msgid "sounds/snd_grab"
+msgstr ""
+
+msgid "su_serious"
+msgstr ""
+
+msgid "su_angry_hero"
+msgstr ""
+
+msgid "su_teeth_determined"
+msgstr ""
+
+msgid "no_afraid_open"
+msgstr ""
+
+msgid "spr_su_grasp_kris_letgo"
+msgstr ""
+
+msgid "spr_kr_grasped"
+msgstr ""
+
+msgid "spr_kr_sit"
+msgstr ""
+
+msgid "spr_su_left_sad_0"
+msgstr ""
+
+msgid "su_concerned"
+msgstr ""
+
+msgid "no_afraid"
+msgstr ""
+
+msgid "no_depressed"
+msgstr ""
+
+msgid "no_depressed_side"
+msgstr ""
+
+msgid "sounds/snd_damage"
+msgstr ""
+
+msgid "su_dejected"
+msgstr ""
+
+msgid "sounds/snd_ominous"
+msgstr ""
+
+msgid "spr_no_right_shocked_0"
+msgstr ""
+
+msgid "no_shocked"
+msgstr ""
+
+msgid "su_excited"
+msgstr ""
+
+msgid "no_confused"
+msgstr ""
+
+msgid "no_confused_side"
+msgstr ""
+
+msgid "su_wtf"
+msgstr ""
+
+msgid "no_curious"
+msgstr ""
+
+msgid "no_speechless"
+msgstr ""
+
+msgid "_RampTex"
+msgstr ""
+
+msgid "_ColorShift"
+msgstr ""
+
+msgid "_Alpha"
+msgstr ""
+
+msgid "_Speed"
+msgstr ""
+
+msgid "_Amplitude"
+msgstr ""
+
+msgid "_Frequency"
+msgstr ""
+
+msgid "_Scale"
+msgstr ""
+
+msgid "_LineWidth"
+msgstr ""
+
+msgid "in_PatternRand"
+msgstr ""
+
+msgid "_MainTex"
+msgstr ""
+
+msgid "_Max"
+msgstr ""
+
+msgid "_Min"
+msgstr ""
+
+msgid "_DistortionType"
+msgstr ""
+
+msgid "_BlendModeSrc"
+msgstr ""
+
+msgid "_BlendModeDst"
+msgstr ""
+
+msgid "music/mus_castletown"
+msgstr ""
+
+msgid "overworld/npcs/staff/spr_cyber_surprise"
+msgstr ""
+
+msgid "shaunt_wake"
+msgstr ""
+
+msgid "overworld/npcs/staff/spr_diddy_1"
+msgstr ""
+
+msgid "lexi_shoot"
+msgstr ""
+
+msgid "_normal"
+msgstr ""
+
+msgid "overworld/npcs/hhvillage/"
+msgstr ""
+
+msgid "/8"
+msgstr ""
+
+msgid "ui/DeltaSelection"
+msgstr ""
+
+msgid "overworld/npcs/hhvillage/CultistMaze"
+msgstr ""
+
+msgid "overworld/npcs/hhvillage/CultistNPCs"
+msgstr ""
+
+msgid "_tw"
+msgstr ""
+
+msgid "overworld/npcs/hhvillage/spr_cultist_kill"
+msgstr ""
+
+msgid "overworld/npcs/hhvillage/spr_cultist_kill_age"
+msgstr ""
+
+msgid "overworld/npcs/enemies/npc_replace/DeadCultist"
+msgstr ""
+
+msgid "battle/dr/spr_btdr_numbers_"
+msgstr ""
+
+msgid "battle/dr/spr_btdr_"
+msgstr ""
+
+msgid "gaster_hardmode"
+msgstr ""
+
+msgid "susie_bomb"
+msgstr ""
+
+msgid "susie_baseball"
+msgstr ""
+
+msgid "asgore_phrases"
+msgstr ""
+
+msgid "flowey_susie"
+msgstr ""
+
+msgid "flowey_asgore"
+msgstr ""
+
+msgid "music/mus_gameover"
+msgstr ""
+
+msgid "ui/spr_gameover_ut"
+msgstr ""
+
+msgid "ui/spr_gameover"
+msgstr ""
+
+msgid "snd_txtral"
+msgstr ""
+
+msgid "snd_txtasg"
+msgstr ""
+
+msgid "snd_txtgas"
+msgstr ""
+
+msgid "ui/TestHUD"
+msgstr ""
+
+msgid "su_smirk_sweat"
+msgstr ""
+
+msgid "no_silent"
+msgstr ""
+
+msgid "su_sus"
+msgstr ""
+
+msgid "no_thinking"
+msgstr ""
+
+msgid "side_sweat"
+msgstr ""
+
+msgid "overworld/bullets/OverworldBoneBullet"
+msgstr ""
+
+msgid "overworld/npcs/enemies/Feraldrake3"
+msgstr ""
+
+msgid "overworld/bullets/BoneSpearTriggers"
+msgstr ""
+
+msgid "overworld/npcs/underfell/QCEnd"
+msgstr ""
+
+msgid "overworld/snow_objects/LadderBuilt"
+msgstr ""
+
+msgid "overworld/npcs/snowdin/WalkingBunnies"
+msgstr ""
+
+msgid "overworld/spr_soul_ow_bnp"
+msgstr ""
+
+msgid "battle/spr_soul"
+msgstr ""
+
+msgid "Discord_Initialize"
+msgstr ""
+
+msgid "Discord_Shutdown"
+msgstr ""
+
+msgid "Discord_RunCallbacks"
+msgstr ""
+
+msgid "Discord_UpdatePresence"
+msgstr ""
+
+msgid "Discord_ClearPresence"
+msgstr ""
+
+msgid "Discord_Respond"
+msgstr ""
+
+msgid "Discord_UpdateHandlers"
+msgstr ""
+
+msgid "spr_kr_sit_injured_injured"
+msgstr ""
+
+msgid "spr_su_left_worried_wideeye_0"
+msgstr ""
+
+msgid "sounds/snd_wing"
+msgstr ""
+
+msgid "spr_su_wtf"
+msgstr ""
+
+msgid "su_disappointed"
+msgstr ""
+
+msgid "su_smile_side"
+msgstr ""
+
+msgid "spr_kr_sleep_injured"
+msgstr ""
+
+msgid "spr_su_left_worried_0"
+msgstr ""
+
+msgid "sounds/snd_ehurt1"
+msgstr ""
+
+msgid "battle/Enemies/Dogamy/spr_b_dogamy_"
+msgstr ""
+
+msgid "battle/Enemies/Dogaressa/spr_b_dogaressa_"
+msgstr ""
+
+msgid "sounds/snd_doghurt1"
+msgstr ""
+
+msgid "battle/enemies/Doggo/spr_b_doggo_eyes_"
+msgstr ""
+
+msgid "battle/enemies/Doggo/spr_b_doggo_head_mad_0"
+msgstr ""
+
+msgid "battle/enemies/Doggo/spr_b_doggo_head_mad_1"
+msgstr ""
+
+msgid "battle/enemies/Doggo/spr_b_doggo_arms_rage"
+msgstr ""
+
+msgid "battle/enemies/Doggo/spr_b_doggo_head_rage"
+msgstr ""
+
+msgid "battle/enemies/Doggo/spr_b_doggo_body"
+msgstr ""
+
+msgid "battle/enemies/Doggo/spr_b_doggo_head_normal"
+msgstr ""
+
+msgid "battle/enemies/Doggo/spr_b_doggo_arms"
+msgstr ""
+
+msgid "doggo_look"
+msgstr ""
+
+msgid "no_weird"
+msgstr ""
+
+msgid "spr_kr_confused_to_side"
+msgstr ""
+
+msgid "spr_no_confused_to_side"
+msgstr ""
+
+msgid "spr_su_throw_ready"
+msgstr ""
+
+msgid "spr_su_surprise_right"
+msgstr ""
+
+msgid "spr_no_surprise_left"
+msgstr ""
+
+msgid "no_scared"
+msgstr ""
+
+msgid "su_worriedsmile"
+msgstr ""
+
+msgid "spr_su_shrug"
+msgstr ""
+
+msgid "spr_kr_surprise"
+msgstr ""
+
+msgid "RemoveSoul_WalkUp"
+msgstr ""
+
+msgid "sounds/snd_bump"
+msgstr ""
+
+msgid "vfx/SOULRemoveEffect"
+msgstr ""
+
+msgid "snd_txtkrs"
+msgstr ""
+
+msgid "kr_relieved_side"
+msgstr ""
+
+msgid "kr_smug"
+msgstr ""
+
+msgid "kr_g_1"
+msgstr ""
+
+msgid "kr_weird"
+msgstr ""
+
+msgid "spr_no_left_shocked_0"
+msgstr ""
+
+msgid "spr_su_shrug_unhappy"
+msgstr ""
+
+msgid "spr_kr_up_removesoul_wtf"
+msgstr ""
+
+msgid "spr_kr_pre_pitchsoul_0"
+msgstr ""
+
+msgid "kr_smirk"
+msgstr ""
+
+msgid "kr_dejected"
+msgstr ""
+
+msgid "kr_sad"
+msgstr ""
+
+msgid "spr_su_threaten_stick"
+msgstr ""
+
+msgid "spr_kr_pre_pitchsoul_1"
+msgstr ""
+
+msgid "spr_kr_pitchsoul_0"
+msgstr ""
+
+msgid "sounds/snd_swing"
+msgstr ""
+
+msgid "sounds/snd_attack"
+msgstr ""
+
+msgid "player/Kris/spr_soul_pitch_hit_"
+msgstr ""
+
+msgid "sounds/snd_homerun"
+msgstr ""
+
+msgid "depressed_side"
+msgstr ""
+
+msgid "battle/attacks/bullets/flowey/FloweyVineBullet"
+msgstr ""
+
+msgid "enemy_name"
+msgstr ""
+
+msgid "enemy_check_description"
+msgstr ""
+
+msgid "enemy_acts"
+msgstr ""
+
+msgid "enemy_flavor_text"
+msgstr ""
+
+msgid "enemy_chatter"
+msgstr ""
+
+msgid "act_talk_hm"
+msgstr ""
+
+msgid "act_talk"
+msgstr ""
+
+msgid "act_talk_again"
+msgstr ""
+
+msgid "susie_talk"
+msgstr ""
+
+msgid "susie_annoyed"
+msgstr ""
+
+msgid "_main"
+msgstr ""
+
+msgid "toriel_kill_comment_hm"
+msgstr ""
+
+msgid "toriel_act_comment_hm"
+msgstr ""
+
+msgid "toriel_bore_comment_hm"
+msgstr ""
+
+msgid "kill_hm"
+msgstr ""
+
+msgid "act_hm"
+msgstr ""
+
+msgid "bore_hm"
+msgstr ""
+
+msgid "tori_weird"
+msgstr ""
+
+msgid "tori_weird_side"
+msgstr ""
+
+msgid "sounds/snd_slidewhist"
+msgstr ""
+
+msgid "the_line_eb"
+msgstr ""
+
+msgid "intro_0"
+msgstr ""
+
+msgid "intro_1"
+msgstr ""
+
+msgid "intro_2"
+msgstr ""
+
+msgid "intro_3"
+msgstr ""
+
+msgid "intro_4"
+msgstr ""
+
+msgid "intro_5"
+msgstr ""
+
+msgid "intro_6"
+msgstr ""
+
+msgid "intro_7"
+msgstr ""
+
+msgid "ring_0"
+msgstr ""
+
+msgid "ring_1"
+msgstr ""
+
+msgid "ring_2"
+msgstr ""
+
+msgid "ring_3"
+msgstr ""
+
+msgid "ring_swap"
+msgstr ""
+
+msgid "ring_equip"
+msgstr ""
+
+msgid "lightclear_0"
+msgstr ""
+
+msgid "lightclear_1"
+msgstr ""
+
+msgid "lightclear_2"
+msgstr ""
+
+msgid "lightclear_3"
+msgstr ""
+
+msgid "lightclear_4"
+msgstr ""
+
+msgid "player/Noelle/eb/spr_no_ring_look_glow"
+msgstr ""
+
+msgid "player/Kris/eb/spr_kr_right_glow"
+msgstr ""
+
+msgid "music/mus_cave"
+msgstr ""
+
+msgid "sounds/snd_whip_hard"
+msgstr ""
+
+msgid "eb/spr_su_pissed"
+msgstr ""
+
+msgid "eb/spr_no_right"
+msgstr ""
+
+msgid "eb/spr_kr_up"
+msgstr ""
+
+msgid "eb/spr_su_right"
+msgstr ""
+
+msgid "eb/spr_su_down"
+msgstr ""
+
+msgid "eb/spr_su_up"
+msgstr ""
+
+msgid "eb/spr_no_up"
+msgstr ""
+
+msgid "eb/spr_no_down"
+msgstr ""
+
+msgid "eb/spr_kr_right"
+msgstr ""
+
+msgid "ring_"
+msgstr ""
+
+msgid "sounds/snd_equip_eb"
+msgstr ""
+
+msgid "eb/spr_no_ring_look"
+msgstr ""
+
+msgid "snd_txteb"
+msgstr ""
+
+msgid "eb/spr_no_ring_look_shocked"
+msgstr ""
+
+msgid "eb/spr_kr_point"
+msgstr ""
+
+msgid "eb/spr_no_cast"
+msgstr ""
+
+msgid "sounds/snd_revival"
+msgstr ""
+
+msgid "ui/TextBoxEB"
+msgstr ""
+
+msgid "eb/spr_kr_down"
+msgstr ""
+
+msgid "_mint"
+msgstr ""
+
+msgid "_strawberry"
+msgstr ""
+
+msgid "_banana"
+msgstr ""
+
+msgid "_buttspie"
+msgstr ""
+
+msgid "_blueberry"
+msgstr ""
+
+msgid "_cinnamon"
+msgstr ""
+
+msgid "_moss"
+msgstr ""
+
+msgid "_cottoncandy"
+msgstr ""
+
+msgid "_milkshake"
+msgstr ""
+
+msgid "_eggplant"
+msgstr ""
+
+msgid "ui/spr_eb_border"
+msgstr ""
+
+msgid "part_0"
+msgstr ""
+
+msgid "no_surprised_happy"
+msgstr ""
+
+msgid "spr_kr_point"
+msgstr ""
+
+msgid "spr_no_cast_left"
+msgstr ""
+
+msgid "snd_txtsans"
+msgstr ""
+
+msgid "ufsans_empty"
+msgstr ""
+
+msgid "no_depressedx"
+msgstr ""
+
+msgid "snd_txtpap"
+msgstr ""
+
+msgid "ufpap_mad"
+msgstr ""
+
+msgid "ufpap_side"
+msgstr ""
+
+msgid "ufpap_neutral"
+msgstr ""
+
+msgid "ufpap_evil"
+msgstr ""
+
+msgid "ufpap_laugh"
+msgstr ""
+
+msgid "sounds/snd_shock"
+msgstr ""
+
+msgid "ufpap_electrocuted"
+msgstr ""
+
+msgid "sounds/snd_suslaugh"
+msgstr ""
+
+msgid "overworld/npcs/underfell/spr_ufpap_orb_shoe"
+msgstr ""
+
+msgid "ufsans_closed"
+msgstr ""
+
+msgid "ufsans_neutral"
+msgstr ""
+
+msgid "overworld/npcs/underfell/spr_ufpap_cooling_mad"
+msgstr ""
+
+msgid ""
+"WHAT?!?!?!?!^05\n"
+"YOU WANT <color=#FFFF00FF>ANOTHER \n"
+"REDESIGN</color>!?!?!?!?!?"
+msgstr ""
+
+msgid "overworld/npcs/underfell/spr_ufpap_orb"
+msgstr ""
+
+msgid "overworld/npcs/underfell/spr_ufpap_orb_throw"
+msgstr ""
+
+msgid "su_shocked"
+msgstr ""
+
+msgid "no_depressedx_smile"
+msgstr ""
+
+msgid "overworld/npcs/underfell/spr_ufpap_left_mad_0"
+msgstr ""
+
+msgid "overworld/npcs/underfell/"
+msgstr ""
+
+msgid "_bf"
+msgstr ""
+
+msgid "music/mus_papyrus"
+msgstr ""
+
+msgid "spr_su_crossed_down"
+msgstr ""
+
+msgid "spr_no_sit_depressed"
+msgstr ""
+
+msgid "no_playful"
+msgstr ""
+
+msgid "no_angry"
+msgstr ""
+
+msgid "ui/debug/SceneWarpText"
+msgstr ""
+
+msgid "sounds/snd_ominous_cancel"
+msgstr ""
+
+msgid "overworld/npcs/StalkerFlowey"
+msgstr ""
+
+msgid "mus_ruins"
+msgstr ""
+
+msgid "mus_pr_valley"
+msgstr ""
+
+msgid "mus_snowy"
+msgstr ""
+
+msgid "excited_side"
+msgstr ""
+
+msgid "sincere_side"
+msgstr ""
+
+msgid "sad_happy"
+msgstr ""
+
+msgid ""
+"It's called...^10\n"
+"\"<color=#FFFF00FF>Hard Mode</color>\"?^10\n"
+"In the \"Extras\" menu?"
+msgstr ""
+
+msgid "sad_side"
+msgstr ""
+
+msgid "_bald"
+msgstr ""
+
+msgid "snd_txtflw"
+msgstr ""
+
+msgid "ui/flowey/spr_end_flowey_"
+msgstr ""
+
+msgid "music/mus_creepy_ambience"
+msgstr ""
+
+msgid "snd_txtgnr"
+msgstr ""
+
+msgid "ifpap_side"
+msgstr ""
+
+msgid "ifpap_neutral"
+msgstr ""
+
+msgid "ifpap_confused"
+msgstr ""
+
+msgid "ifpap_worry"
+msgstr ""
+
+msgid "ifpap_laugh"
+msgstr ""
+
+msgid "ifpap_mad"
+msgstr ""
+
+msgid "_dmg"
+msgstr ""
+
+msgid "enemy_satisfied_text"
+msgstr ""
+
+msgid "enemy_dying_text"
+msgstr ""
+
+msgid "/main"
+msgstr ""
+
+msgid "sounds/snd"
+msgstr ""
+
+msgid "battle/enemies/EnemyHP"
+msgstr ""
+
+msgid "sounds/snd_dust"
+msgstr ""
+
+msgid "battle/SpareDust"
+msgstr ""
+
+msgid "sounds/snd_awkward"
+msgstr ""
+
+msgid "sounds/snd_mercyadd"
+msgstr ""
+
+msgid "ui/bubble/Speech"
+msgstr ""
+
+msgid "music/mus_battledelta"
+msgstr ""
+
+msgid "music/mus_flowey"
+msgstr ""
+
+msgid "music/mus_prebattle"
+msgstr ""
+
+msgid "music/mus_ghostbattle"
+msgstr ""
+
+msgid "music/mus_floweyboss"
+msgstr ""
+
+msgid "music/mus_battle_eb"
+msgstr ""
+
+msgid "music/mus_machinebattle"
+msgstr ""
+
+msgid "music/mus_unsettling_battle"
+msgstr ""
+
+msgid "music/mus_otherworldfoe_intro"
+msgstr ""
+
+msgid "music/mus_battle_hard"
+msgstr ""
+
+msgid "music/mus_sanctuaryboss_intro"
+msgstr ""
+
+msgid "music/mus_pokeyboss_intro"
+msgstr ""
+
+msgid "music/mus_nessboss"
+msgstr ""
+
+msgid "music/mus_megalovania_frakture"
+msgstr ""
+
+msgid "music/mus_castle_funk"
+msgstr ""
+
+msgid "music/mus_doggers"
+msgstr ""
+
+msgid "music/mus_jerry_intro"
+msgstr ""
+
+msgid "music/mus_f_wind_intro"
+msgstr ""
+
+msgid "Earthbound/Test"
+msgstr ""
+
+msgid "Earthbound/Sprout"
+msgstr ""
+
+msgid "Earthbound/UFO"
+msgstr ""
+
+msgid "Earthbound/Robo"
+msgstr ""
+
+msgid "Earthbound/BlueBlue"
+msgstr ""
+
+msgid "Earthbound/Carpainter"
+msgstr ""
+
+msgid "Earthbound/Mole"
+msgstr ""
+
+msgid "Earthbound/Bat"
+msgstr ""
+
+msgid "Earthbound/Bear"
+msgstr ""
+
+msgid "Earthbound/Mondo"
+msgstr ""
+
+msgid "Earthbound/Porky"
+msgstr ""
+
+msgid "Earthbound/Ness"
+msgstr ""
+
+msgid "Earthbound/Paula"
+msgstr ""
+
+msgid "UTY/AxisBG"
+msgstr ""
+
+msgid "UTY/CerobaBG"
+msgstr ""
+
+msgid "UTY/DalvBG"
+msgstr ""
+
+msgid "UTY/MartletBG"
+msgstr ""
+
+msgid "UTY/StarloBG"
+msgstr ""
+
+msgid "music/mus_battle"
+msgstr ""
+
+msgid "napsta_approach_hardmode"
+msgstr ""
+
+msgid "default_enemy_approach"
+msgstr ""
+
+msgid "battle/enemies/EnemyHPText"
+msgstr ""
+
+msgid "logs/"
+msgstr ""
+
+msgid "overworld/npcs/v_ralsei"
+msgstr ""
+
+msgid "battle/attacks/bullets/jerry/v_favorites"
+msgstr ""
+
+msgid "mariobros/v_ario"
+msgstr ""
+
+msgid "v_ralsei"
+msgstr ""
+
+msgid "overworld/lostcore_objects/gaster_beatboxing"
+msgstr ""
+
+msgid "sounds/snd_explosion_8bit"
+msgstr ""
+
+msgid "battle/attacks/bullets/eb/ExplosionFlameBullet"
+msgstr ""
+
+msgid "music/mus_cymbal"
+msgstr ""
+
+msgid "overworld/npcs/spr_goku_d"
+msgstr ""
+
+msgid "sounds/snd_quad_"
+msgstr ""
+
+msgid "battle/attacks/bullets/sans/FallingChallenge1Platforms"
+msgstr ""
+
+msgid "battle/attacks/bullets/sans/BoneLineSide"
+msgstr ""
+
+msgid "battle/attacks/bullets/sans/FallingChallenge2Platforms"
+msgstr ""
+
+msgid "sounds/snd_hurtdragon"
+msgstr ""
+
+msgid "_dmg_feral"
+msgstr ""
+
+msgid "battle/enemies/Snowdrake/spr_snowdrake_head_"
+msgstr ""
+
+msgid "sounds/snd_bell"
+msgstr ""
+
+msgid "battle/attacks/bullets/snowdin/SnowdrakeSpinBullet"
+msgstr ""
+
+msgid "battle/attacks/bullets/snowdin/FeraldrakeCrossBullet"
+msgstr ""
+
+msgid "music/mus_confession"
+msgstr ""
+
+msgid "battle/spr_target_1_ts"
+msgstr ""
+
+msgid "battle/reticles/Quad"
+msgstr ""
+
+msgid "battle/reticles/Bash"
+msgstr ""
+
+msgid "battle/reticles/Katana"
+msgstr ""
+
+msgid "battle/reticles/Standard"
+msgstr ""
+
+msgid "battle/SillyStick"
+msgstr ""
+
+msgid "battle/Smack"
+msgstr ""
+
+msgid "battle/Bash"
+msgstr ""
+
+msgid "battle/PanAttack"
+msgstr ""
+
+msgid "battle/BigFist"
+msgstr ""
+
+msgid "battle/Slice"
+msgstr ""
+
+msgid "battle/KSlice"
+msgstr ""
+
+msgid "battle/SmallFist"
+msgstr ""
+
+msgid "battle/attacks/bullets/hardmode/FlyBulletHard"
+msgstr ""
+
+msgid "battle/attacks/bullets/hardmode/ButterflyHardBullet"
+msgstr ""
+
+msgid "battle/attacks/bullets/hardmode/FrogBulletHard"
+msgstr ""
+
+msgid "spared_1"
+msgstr ""
+
+msgid "ob_spare_after_0"
+msgstr ""
+
+msgid "sounds/snd_escaped"
+msgstr ""
+
+msgid "overworld/npcs/hhvillage/spr_cultist_grab_snake"
+msgstr ""
+
+msgid "spr_su_surprise_up"
+msgstr ""
+
+msgid "spr_no_surprise_up"
+msgstr ""
+
+msgid "spr_su_pose"
+msgstr ""
+
+msgid "sounds/snd_frypan"
+msgstr ""
+
+msgid "spr_su_kneel"
+msgstr ""
+
+msgid "spr_su_right_unhappy_0"
+msgstr ""
+
+msgid "spr_fr_sit_injured"
+msgstr ""
+
+msgid "spr_kr_sit_injured"
+msgstr ""
+
+msgid "spr_su_pissed"
+msgstr ""
+
+msgid "spr_su_up_0"
+msgstr ""
+
+msgid "spr_fr_ko"
+msgstr ""
+
+msgid "spr_kr_ko"
+msgstr ""
+
+msgid "spr_su_ko"
+msgstr ""
+
+msgid "overworld/npcs/enemies/spr_snowdrake_down_1_feral"
+msgstr ""
+
+msgid "overworld/npcs/enemies/spr_snowdrake_down_0_feral"
+msgstr ""
+
+msgid "sounds/snd_encounter"
+msgstr ""
+
+msgid "spr_su_freaked"
+msgstr ""
+
+msgid "overworld/npcs/enemies/"
+msgstr ""
+
+msgid "_feral"
+msgstr ""
+
+msgid "sounds/snd_jump"
+msgstr ""
+
+msgid "spr_su_hold_ladder"
+msgstr ""
+
+msgid "su_flustered"
+msgstr ""
+
+msgid "spr_no_laugh_0"
+msgstr ""
+
+msgid "spr_su_hold_ladder_sus"
+msgstr ""
+
+msgid "_red"
+msgstr ""
+
+msgid "part_1"
+msgstr ""
+
+msgid "part_2"
+msgstr ""
+
+msgid "snd_txtpor"
+msgstr ""
+
+msgid "por_neutral"
+msgstr ""
+
+msgid "pau_mad_sweat"
+msgstr ""
+
+msgid "overworld/npcs/spr_porky_pose"
+msgstr ""
+
+msgid "por_smile"
+msgstr ""
+
+msgid "por_sweat"
+msgstr ""
+
+msgid "music/mus_porky"
+msgstr ""
+
+msgid "ui/debug/FlagEditorText"
+msgstr ""
+
+msgid "Froggit (Ruins_7) win state"
+msgstr ""
+
+msgid "Froggit (Ruins_7) exhaust"
+msgstr ""
+
+msgid "Two Froggits (Ruins_10) win state"
+msgstr ""
+
+msgid "Two Froggits (Ruins_10) exhaust"
+msgstr ""
+
+msgid "Whimsun (Ruins_9) win state"
+msgstr ""
+
+msgid "Whimsun (Ruins_9) exhaust"
+msgstr ""
+
+msgid "Froggit+Whimsun (Ruins_11) win state"
+msgstr ""
+
+msgid "Froggit+Whimsun (Ruins_11) exhaust"
+msgstr ""
+
+msgid "Moldsmal (Ruins_12) win state"
+msgstr ""
+
+msgid "Moldsmal (Ruins_12) exhaust"
+msgstr ""
+
+msgid "Loox (Ruins_15) win state"
+msgstr ""
+
+msgid "Loox (Ruins_15) exhaust"
+msgstr ""
+
+msgid "Vegetoid1 (Ruins_16) win state"
+msgstr ""
+
+msgid "Vegetoid1 (Ruins_16) exhaust"
+msgstr ""
+
+msgid "Vegetoid2 (Ruins_16) win state"
+msgstr ""
+
+msgid "Vegetoid2 (Ruins_16) exhaust"
+msgstr ""
+
+msgid "Two Loox (Ruins_18) win state"
+msgstr ""
+
+msgid "Two Loox (Ruins_18) exhaust"
+msgstr ""
+
+msgid "Two Vegetoids (Ruins_19) win state"
+msgstr ""
+
+msgid "Two Vegetoids (Ruins_19) exhaust"
+msgstr ""
+
+msgid "Loox + Vegetoid (Ruins_20) win state"
+msgstr ""
+
+msgid "Loox + Vegetoid (Ruins_20) exhaust"
+msgstr ""
+
+msgid "<color=#00FF00>[MOSS]</color> Ruins"
+msgstr ""
+
+msgid "Shayy Quest 1/2"
+msgstr ""
+
+msgid "Shayy Quest 2/2"
+msgstr ""
+
+msgid "ui/FlavorChanger"
+msgstr ""
+
+msgid "final_blow_"
+msgstr ""
+
+msgid "sad_dying"
+msgstr ""
+
+msgid "mad_dying"
+msgstr ""
+
+msgid "side_dying"
+msgstr ""
+
+msgid "sassy_dying"
+msgstr ""
+
+msgid "rage_dying"
+msgstr ""
+
+msgid "reminice_dying"
+msgstr ""
+
+msgid "sad2_dying"
+msgstr ""
+
+msgid "earnest_dying"
+msgstr ""
+
+msgid "neutral_dying"
+msgstr ""
+
+msgid "evil_dying"
+msgstr ""
+
+msgid "grin_dying"
+msgstr ""
+
+msgid "laugh_0"
+msgstr ""
+
+msgid "battle/enemies/Flowey/spr_b_flowey_kris_fall_"
+msgstr ""
+
+msgid "evil_hit_dying"
+msgstr ""
+
+msgid "final_blow_0"
+msgstr ""
+
+msgid "evil_hit"
+msgstr ""
+
+msgid "battle/enemies/Flowey/spr_b_flowey_head_"
+msgstr ""
+
+msgid "snd_txtflw2"
+msgstr ""
+
+msgid "music/mus_f_wind"
+msgstr ""
+
+msgid "vfx/SusieSlashDR"
+msgstr ""
+
+msgid "overworld/flowey_scene/spr_flowey_vine_kris_9"
+msgstr ""
+
+msgid "spr_su_save_kris"
+msgstr ""
+
+msgid "spr_kr_vinefall"
+msgstr ""
+
+msgid "music/mus_gallery"
+msgstr ""
+
+msgid "su_determined"
+msgstr ""
+
+msgid "flowey_neutral"
+msgstr ""
+
+msgid "flowey_side"
+msgstr ""
+
+msgid "flowey_sassy"
+msgstr ""
+
+msgid "flowey_tori"
+msgstr ""
+
+msgid "flowey_grin"
+msgstr ""
+
+msgid "su_annoyed_sweat"
+msgstr ""
+
+msgid "flowey_asriel"
+msgstr ""
+
+msgid "flowey_asriel_fuckedup"
+msgstr ""
+
+msgid "overworld/flowey_scene/spr_bigflowey_side"
+msgstr ""
+
+msgid "overworld/flowey_scene/spr_bigflowey_sassy"
+msgstr ""
+
+msgid "overworld/flowey_scene/spr_bigflowey_tori_face"
+msgstr ""
+
+msgid "overworld/flowey_scene/spr_bigflowey_rise_7"
+msgstr ""
+
+msgid "overworld/flowey_scene/spr_bigflowey_laugh_0"
+msgstr ""
+
+msgid "overworld/flowey_scene/spr_bigflowey_asriel_face"
+msgstr ""
+
+msgid "overworld/flowey_scene/spr_bigflowey_asriel_face_fuckedup"
+msgstr ""
+
+msgid "sounds/snd_weaponpull"
+msgstr ""
+
+msgid "flowey_sad_0"
+msgstr ""
+
+msgid "flowey_sad_1"
+msgstr ""
+
+msgid "flowey_sad_2"
+msgstr ""
+
+msgid "flowey_evil"
+msgstr ""
+
+msgid "overworld/flowey_scene/spr_bigflowey_sad_0"
+msgstr ""
+
+msgid "overworld/flowey_scene/spr_bigflowey_sad_1"
+msgstr ""
+
+msgid "overworld/flowey_scene/spr_bigflowey_sad_2"
+msgstr ""
+
+msgid "overworld/flowey_scene/spr_bigflowey_evil"
+msgstr ""
+
+msgid "sounds/snd_floweylaugh"
+msgstr ""
+
+msgid "sad_0"
+msgstr ""
+
+msgid "rise_7"
+msgstr ""
+
+msgid "overworld/flowey_scene/spr_bigflowey_"
+msgstr ""
+
+msgid "sounds/snd_spearrise"
+msgstr ""
+
+msgid "su_depressed_smile"
+msgstr ""
+
+msgid "overworld/flowey_scene/spr_flowey_vine_kris_5_hardmode"
+msgstr ""
+
+msgid "sounds/snd_floweylaugh2"
+msgstr ""
+
+msgid "laugh_"
+msgstr ""
+
+msgid "spr_su_kneel_front"
+msgstr ""
+
+msgid "su_relieved"
+msgstr ""
+
+msgid "start_kill_hm"
+msgstr ""
+
+msgid "start_kill"
+msgstr ""
+
+msgid "after_rude_buster"
+msgstr ""
+
+msgid "battle/attacks/bullets/flowey/FloweyPelletStandard"
+msgstr ""
+
+msgid "grin_laugh_dying"
+msgstr ""
+
+msgid "sounds/snd_crash"
+msgstr ""
+
+msgid "battle/enemies/FloweyCutscene/spr_b_susie_angry_1"
+msgstr ""
+
+msgid "battle/enemies/FloweyCutscene/spr_b_flowey_annoyed"
+msgstr ""
+
+msgid "battle/enemies/FloweyCutscene/spr_b_susie_confused"
+msgstr ""
+
+msgid "battle/enemies/FloweyCutscene/spr_b_susie_angry_0"
+msgstr ""
+
+msgid ""
+"The human has to \n"
+"<color=#FF0000FF>FIGHT</color> the monsters,^10 \n"
+"so "
+msgstr ""
+
+msgid "sounds/snd_drive"
+msgstr ""
+
+msgid "battle/enemies/FloweyCutscene/spr_b_flowey_poker"
+msgstr ""
+
+msgid "sounds/snd_spearappear"
+msgstr ""
+
+msgid "spr_kr_right_0"
+msgstr ""
+
+msgid "spr_su_crossed_right"
+msgstr ""
+
+msgid "sounds/snd_weaponpull_fast"
+msgstr ""
+
+msgid "flowey_confused"
+msgstr ""
+
+msgid "flowey_earnest"
+msgstr ""
+
+msgid "flowey_fear"
+msgstr ""
+
+msgid "overworld/npcs/spr_flowey_0"
+msgstr ""
+
+msgid "overworld/npcs/spr_flowey_1"
+msgstr ""
+
+msgid "battle/spr_fake_battle_ui_hard"
+msgstr ""
+
+msgid "tori_mad"
+msgstr ""
+
+msgid "tori_annoyed"
+msgstr ""
+
+msgid "tori_blush"
+msgstr ""
+
+msgid "spr_su_knife"
+msgstr ""
+
+msgid "spr_su_knife_wideeye"
+msgstr ""
+
+msgid "spr_su_knife_sus"
+msgstr ""
+
+msgid "battle/enemies/Froggit/spr_b_froggit_head_0"
+msgstr ""
+
+msgid "battle/enemies/Froggit/spr_b_froggit_head_1"
+msgstr ""
+
+msgid "battle/enemies/Froggit/spr_b_froggit_body_0"
+msgstr ""
+
+msgid "battle/enemies/Froggit/spr_b_froggit_body_1"
+msgstr ""
+
+msgid "ui/FadeObj"
+msgstr ""
+
+msgid "ui/QuitFunction"
+msgstr ""
+
+msgid "Custom/BackgroundShader"
+msgstr ""
+
+msgid "uno/UnoGameManager"
+msgstr ""
+
+msgid "uno/UnoBattleManager"
+msgstr ""
+
+msgid "battle/BattleManager"
+msgstr ""
+
+msgid "sounds/snd_swallow"
+msgstr ""
+
+msgid "sounds/snd_speedup"
+msgstr ""
+
+msgid "sounds/snd_egg"
+msgstr ""
+
+msgid "sounds/snd_tearcard"
+msgstr ""
+
+msgid "mus_mysteriousroom2"
+msgstr ""
+
+msgid "music/mus_snowy"
+msgstr ""
+
+msgid "music/mus_creepychase"
+msgstr ""
+
+msgid "mus_tone3"
+msgstr ""
+
+msgid "music/mus_home"
+msgstr ""
+
+msgid "music/mus_house1"
+msgstr ""
+
+msgid "_alt"
+msgstr ""
+
+msgid "_empty"
+msgstr ""
+
+msgid "mus_wintercaves"
+msgstr ""
+
+msgid "music/mus_toomuch"
+msgstr ""
+
+msgid "music/mus_happyhappy"
+msgstr ""
+
+msgid "music/mus_twoson_intro"
+msgstr ""
+
+msgid "music/mus_birdnoise"
+msgstr ""
+
+msgid "mus_muscle"
+msgstr ""
+
+msgid "music/mus_muscle_improved"
+msgstr ""
+
+msgid "#v_gaster_arrival_1a"
+msgstr ""
+
+msgid ""
+"/WDBRILLIANT^20\n"
+"IT HAS BEEN \n"
+"PLACATED"
+msgstr ""
+
+msgid "#v_gaster_arrival_0"
+msgstr ""
+
+msgid "#v_gaster_arrival_2"
+msgstr ""
+
+msgid "overworld/npcs/spr_gaster_lookback"
+msgstr ""
+
+msgid "#v_gaster_reveal_0"
+msgstr ""
+
+msgid "gaster_neutral"
+msgstr ""
+
+msgid "music/mus_gaster"
+msgstr ""
+
+msgid "#v_gaster_first_rant_0"
+msgstr ""
+
+msgid "#v_gaster_first_rant_1"
+msgstr ""
+
+msgid "#v_gaster_first_rant_2"
+msgstr ""
+
+msgid "#v_gaster_first_rant_3"
+msgstr ""
+
+msgid "gaster_closed"
+msgstr ""
+
+msgid "gaster_sad"
+msgstr ""
+
+msgid "#v_gaster_part2_0"
+msgstr ""
+
+msgid "#v_gaster_part2_1"
+msgstr ""
+
+msgid "#v_gaster_part2_2"
+msgstr ""
+
+msgid "#v_gaster_part2_3"
+msgstr ""
+
+msgid "#v_gaster_part2_4"
+msgstr ""
+
+msgid "#v_gaster_part2_5"
+msgstr ""
+
+msgid "gaster_empty"
+msgstr ""
+
+msgid "#v_gaster_part2extA_0"
+msgstr ""
+
+msgid "#v_gaster_part2extA_1"
+msgstr ""
+
+msgid "#v_gaster_part2extB_0"
+msgstr ""
+
+msgid "#v_gaster_part2extB_1"
+msgstr ""
+
+msgid "#v_gaster_part2extB_2"
+msgstr ""
+
+msgid "#v_gaster_part2extC_0"
+msgstr ""
+
+msgid "#v_gaster_part2extC_1"
+msgstr ""
+
+msgid "#v_gaster_part2extC_2"
+msgstr ""
+
+msgid "#v_gaster_part2extC_3"
+msgstr ""
+
+msgid "#v_gaster_part2extD_0"
+msgstr ""
+
+msgid "#v_gaster_part2extD_1"
+msgstr ""
+
+msgid "#v_gaster_part2extE_0"
+msgstr ""
+
+msgid "#v_gaster_part2extE_1"
+msgstr ""
+
+msgid "overworld/npcs/spr_gaster_down_empty_0"
+msgstr ""
+
+msgid "spr_fr_up_1"
+msgstr ""
+
+msgid ""
+"/WDTHERE'S A SPECIAL \n"
+"PLACE IN HELL FOR \n"
+"YOU, CHARA"
+msgstr ""
+
+msgid "#v_gaster_chara_0"
+msgstr ""
+
+msgid "#v_gaster_chara_1"
+msgstr ""
+
+msgid "#v_gaster_finish_path_rant_0"
+msgstr ""
+
+msgid "#v_gaster_finish_path_rant_1"
+msgstr ""
+
+msgid "#v_gaster_finish_path_rant_2"
+msgstr ""
+
+msgid "#v_gaster_finish_path_rant_3"
+msgstr ""
+
+msgid "#v_gaster_finish_path_rant_4"
+msgstr ""
+
+msgid "snd_txtdes"
+msgstr ""
+
+msgid "#v_gaster_end_0"
+msgstr ""
+
+msgid "dess_annoyed"
+msgstr ""
+
+msgid "dess_surprise"
+msgstr ""
+
+msgid "dess_murderous"
+msgstr ""
+
+msgid "dess_murderous_thought"
+msgstr ""
+
+msgid "dess_murderous_side"
+msgstr ""
+
+msgid "player/dess/spr_de_surprise"
+msgstr ""
+
+msgid "gaster_blast"
+msgstr ""
+
+msgid "overworld/bullets/GasterBlasterOW"
+msgstr ""
+
+msgid "#v_gaster_path_extstart_0"
+msgstr ""
+
+msgid "#v_gaster_path_start_0"
+msgstr ""
+
+msgid "#v_gaster_path_start_1"
+msgstr ""
+
+msgid "#v_gaster_path_start_2"
+msgstr ""
+
+msgid "#v_gaster_path_pacifist_extstart_0"
+msgstr ""
+
+msgid "#v_gaster_path_pacifist_0"
+msgstr ""
+
+msgid "#v_gaster_path_pacifist_1"
+msgstr ""
+
+msgid "#v_gaster_path_pacifist_2"
+msgstr ""
+
+msgid "#v_gaster_killcount_0`"
+msgstr ""
+
+msgid "`#v_gaster_killcount_1"
+msgstr ""
+
+msgid "#v_gaster_path_neutraloblit_0"
+msgstr ""
+
+msgid "#v_gaster_path_neutraloblit_1"
+msgstr ""
+
+msgid "#v_gaster_path_fullgeno_0"
+msgstr ""
+
+msgid "#v_gaster_path_fullgeno_1"
+msgstr ""
+
+msgid "#v_gaster_path_fullgeno_2"
+msgstr ""
+
+msgid "#v_gaster_path_fullgeno_3"
+msgstr ""
+
+msgid "#v_gaster_path_fullgeno_4"
+msgstr ""
+
+msgid "#v_gaster_path_fullgeno_5"
+msgstr ""
+
+msgid "#v_gaster_path_fullgeno_6"
+msgstr ""
+
+msgid "#v_gaster_path_killnapsta_0"
+msgstr ""
+
+msgid "#v_gaster_path_killnapsta_1"
+msgstr ""
+
+msgid "#v_gaster_path_killnapsta_2"
+msgstr ""
+
+msgid "#v_gaster_path_killnapsta_3"
+msgstr ""
+
+msgid "#v_gaster_path_killnapsta_4"
+msgstr ""
+
+msgid "#v_gaster_path_killnapsta_5"
+msgstr ""
+
+msgid "#v_gaster_path_killnapsta_6"
+msgstr ""
+
+msgid "#v_gaster_path_genoconsider_0"
+msgstr ""
+
+msgid "#v_gaster_path_genoconsider_1"
+msgstr ""
+
+msgid "#v_gaster_path_genoconsider_2"
+msgstr ""
+
+msgid "#v_gaster_path_genoconsider_3"
+msgstr ""
+
+msgid "#v_gaster_path_genoconsider_4"
+msgstr ""
+
+msgid "#v_gaster_path_finishgeno_0"
+msgstr ""
+
+msgid "#v_gaster_path_killflowey_0"
+msgstr ""
+
+msgid "#v_gaster_path_killflowey_1"
+msgstr ""
+
+msgid "#v_gaster_path_killflowey_2"
+msgstr ""
+
+msgid "#v_gaster_path_killflowey_3"
+msgstr ""
+
+msgid "#v_gaster_path_killflowey_4"
+msgstr ""
+
+msgid "#v_gaster_path_killflowey_5"
+msgstr ""
+
+msgid "#v_gaster_path_killflowey_6"
+msgstr ""
+
+msgid "#v_gaster_path_killflowey_7"
+msgstr ""
+
+msgid "#v_gaster_path_killflowey_8"
+msgstr ""
+
+msgid "#v_gaster_path_spareflowey_0"
+msgstr ""
+
+msgid "#v_gaster_path_spareflowey_1"
+msgstr ""
+
+msgid "#v_gaster_path_spareflowey_2"
+msgstr ""
+
+msgid "#v_gaster_path_spareflowey_3"
+msgstr ""
+
+msgid "#v_gaster_path_spareflowey_4"
+msgstr ""
+
+msgid "#v_gaster_path_spareflowey_5"
+msgstr ""
+
+msgid "#v_gaster_path_spareflowey_6"
+msgstr ""
+
+msgid "#v_gaster_path_spareflowey_7"
+msgstr ""
+
+msgid "#v_gaster_path_egg_0"
+msgstr ""
+
+msgid "#v_gaster_path_egg_traded_0"
+msgstr ""
+
+msgid "#v_gaster_path_egg_traded_1"
+msgstr ""
+
+msgid "#v_gaster_path_egg_traded_2"
+msgstr ""
+
+msgid "#v_gaster_path_egg_traded_3"
+msgstr ""
+
+msgid "#v_gaster_path_egg_1"
+msgstr ""
+
+msgid "#v_gaster_path_egg_2"
+msgstr ""
+
+msgid "#v_gaster_path_egg_3"
+msgstr ""
+
+msgid "#v_gaster_path_egg_4"
+msgstr ""
+
+msgid "#v_gaster_path_egg_5"
+msgstr ""
+
+msgid "#v_gaster_path_knight_0"
+msgstr ""
+
+msgid "#v_gaster_path_knight_1"
+msgstr ""
+
+msgid "#v_gaster_path_knight_spare_0"
+msgstr ""
+
+msgid "#v_gaster_path_knight_spare_1"
+msgstr ""
+
+msgid "#v_gaster_path_knight_spare_2"
+msgstr ""
+
+msgid "#v_gaster_path_knight_spare_3"
+msgstr ""
+
+msgid "#v_gaster_path_knight_kill_0"
+msgstr ""
+
+msgid "#v_gaster_path_knight_kill_1"
+msgstr ""
+
+msgid "#v_gaster_path_knight_kill_2"
+msgstr ""
+
+msgid "#v_gaster_path_knight_kill_3"
+msgstr ""
+
+msgid "#v_gaster_path_knight_kill_4"
+msgstr ""
+
+msgid "#v_gaster_killcount_zero"
+msgstr ""
+
+msgid "#v_gaster_killcount_one"
+msgstr ""
+
+msgid "#v_gaster_killcount_two"
+msgstr ""
+
+msgid "#v_gaster_killcount_three"
+msgstr ""
+
+msgid "#v_gaster_killcount_four"
+msgstr ""
+
+msgid "#v_gaster_killcount_five"
+msgstr ""
+
+msgid "#v_gaster_killcount_six"
+msgstr ""
+
+msgid "#v_gaster_killcount_seven"
+msgstr ""
+
+msgid "#v_gaster_killcount_eight"
+msgstr ""
+
+msgid "#v_gaster_killcount_nine"
+msgstr ""
+
+msgid "#v_gaster_killcount_ten"
+msgstr ""
+
+msgid "#v_gaster_killcount_eleven"
+msgstr ""
+
+msgid "#v_gaster_killcount_twelve"
+msgstr ""
+
+msgid "#v_gaster_killcount_thirteen"
+msgstr ""
+
+msgid "#v_gaster_killcount_fourteen"
+msgstr ""
+
+msgid "#v_gaster_killcount_fifteen"
+msgstr ""
+
+msgid "#v_gaster_killcount_sixteen"
+msgstr ""
+
+msgid "#v_gaster_killcount_seventeen"
+msgstr ""
+
+msgid "#v_gaster_killcount_eighteen"
+msgstr ""
+
+msgid "#v_gaster_killcount_nineteen"
+msgstr ""
+
+msgid "#v_gaster_killcount_twenty"
+msgstr ""
+
+msgid "#v_gaster_killcount_thirty"
+msgstr ""
+
+msgid "#v_gaster_killcount_fourty"
+msgstr ""
+
+msgid "#v_gaster_killcount_fifty"
+msgstr ""
+
+msgid "#v_gaster_killcount_sixty"
+msgstr ""
+
+msgid "#v_gaster_killcount_seventy"
+msgstr ""
+
+msgid "#v_gaster_killcount_eighty"
+msgstr ""
+
+msgid "#v_gaster_killcount_ninety"
+msgstr ""
+
+msgid "#v_gaster_killcount_many"
+msgstr ""
+
+msgid "_left"
+msgstr ""
+
+msgid "music/mus_him"
+msgstr ""
+
+msgid "#v_gaster_s3_end_1"
+msgstr ""
+
+msgid "#v_gaster_s3_end_2"
+msgstr ""
+
+msgid "#v_gaster_s3_end_3"
+msgstr ""
+
+msgid "#v_gaster_s3_end_4"
+msgstr ""
+
+msgid "#v_gaster_s3_end_5"
+msgstr ""
+
+msgid "#v_gaster_s3_end_6"
+msgstr ""
+
+msgid "#v_gaster_s3_end_7"
+msgstr ""
+
+msgid "#v_gaster_s3_end_o_0"
+msgstr ""
+
+msgid "#v_gaster_s3_end_o_1"
+msgstr ""
+
+msgid "#v_gaster_s3_end_o_2"
+msgstr ""
+
+msgid "#v_gaster_s3_end_o_3"
+msgstr ""
+
+msgid "#v_gaster_s3_end_o_4"
+msgstr ""
+
+msgid "#v_gaster_s3_end_o_5"
+msgstr ""
+
+msgid "#v_gaster_s3_end_o_6"
+msgstr ""
+
+msgid "#v_gaster_s3_end_o_6a"
+msgstr ""
+
+msgid "#v_gaster_s3_end_o_7"
+msgstr ""
+
+msgid "vfx/spr_gaster_eyes_"
+msgstr ""
+
+msgid "#v_gaster_s3_initial_0"
+msgstr ""
+
+msgid "#v_gaster_s3_initial_1"
+msgstr ""
+
+msgid "#v_gaster_s3_initial_2"
+msgstr ""
+
+msgid "#v_gaster_s3_initial_3"
+msgstr ""
+
+msgid "#v_gaster_s3_initial_4"
+msgstr ""
+
+msgid "#v_gaster_s3_initial_5"
+msgstr ""
+
+msgid "#v_gaster_s3_initial_6"
+msgstr ""
+
+msgid "#v_gaster_s3_initial_7"
+msgstr ""
+
+msgid "#v_gaster_s3_initial_8"
+msgstr ""
+
+msgid "#v_gaster_s3_initial_9"
+msgstr ""
+
+msgid "#v_gaster_s3_initial_10"
+msgstr ""
+
+msgid "#v_gaster_s3_initial_11"
+msgstr ""
+
+msgid "#v_gaster_s3_initial_12"
+msgstr ""
+
+msgid "#v_gaster_s3_initial_13"
+msgstr ""
+
+msgid "#v_gaster_s3_initial_14"
+msgstr ""
+
+msgid "#v_gaster_s3_initial_15"
+msgstr ""
+
+msgid "#v_gaster_s3_initial_16"
+msgstr ""
+
+msgid "#v_gaster_s3_initial_17"
+msgstr ""
+
+msgid "#v_gaster_s3_initial_18"
+msgstr ""
+
+msgid "#v_gaster_s3_initial_19"
+msgstr ""
+
+msgid "#v_gaster_s3_initial_20"
+msgstr ""
+
+msgid "#v_gaster_s3_initial_21"
+msgstr ""
+
+msgid "#v_gaster_s3_initial_22"
+msgstr ""
+
+msgid "#v_gaster_s3_initial_23"
+msgstr ""
+
+msgid "#v_gaster_s3_initial_24"
+msgstr ""
+
+msgid "#v_gaster_s3_initial_25"
+msgstr ""
+
+msgid "#v_gaster_s3_initial_26"
+msgstr ""
+
+msgid "#v_gaster_s3_initial_27"
+msgstr ""
+
+msgid "#v_gaster_s3_initial_28"
+msgstr ""
+
+msgid "#v_gaster_s3_initial_29"
+msgstr ""
+
+msgid "#v_gaster_s3_initial_30"
+msgstr ""
+
+msgid "#v_gaster_s3_initial_31"
+msgstr ""
+
+msgid "#v_gaster_s3_initial_32"
+msgstr ""
+
+msgid "#v_gaster_s3_initial_33"
+msgstr ""
+
+msgid "#v_gaster_s3_initial_34"
+msgstr ""
+
+msgid "#v_gaster_s3_initial_35"
+msgstr ""
+
+msgid "#v_gaster_s3_initial_36"
+msgstr ""
+
+msgid "#v_gaster_s3_initial_37"
+msgstr ""
+
+msgid "#v_gaster_s3_initial_38"
+msgstr ""
+
+msgid "#v_gaster_s3_initial_39"
+msgstr ""
+
+msgid "#v_gaster_ww_0"
+msgstr ""
+
+msgid "#v_gaster_ww_1"
+msgstr ""
+
+msgid "#v_gaster_ww_2"
+msgstr ""
+
+msgid "#v_gaster_ww_3"
+msgstr ""
+
+msgid "#v_gaster_ww_4"
+msgstr ""
+
+msgid "#v_gaster_ww_5"
+msgstr ""
+
+msgid "sounds/snd_heavyswing"
+msgstr ""
+
+msgid "overworld/bullets/GauntletCannonBall"
+msgstr ""
+
+msgid "sounds/snd_cannonaim"
+msgstr ""
+
+msgid "sounds/snd_cannonready"
+msgstr ""
+
+msgid "sounds/snd_bomb"
+msgstr ""
+
+msgid "ufpap_worry"
+msgstr ""
+
+msgid "music/mus_gauntlet"
+msgstr ""
+
+msgid "su_teeth"
+msgstr ""
+
+msgid "ufsans_side"
+msgstr ""
+
+msgid "pissed/spr_no_right_0_pissed"
+msgstr ""
+
+msgid "overworld/npcs/underfell/spr_ufpap_kicked"
+msgstr ""
+
+msgid "overworld/npcs/underfell/spr_ufpap_hangon"
+msgstr ""
+
+msgid "sounds/snd_bigcut"
+msgstr ""
+
+msgid "spr_no_panic_right"
+msgstr ""
+
+msgid "spr_su_lookaway"
+msgstr ""
+
+msgid "sounds/snd_smallswing"
+msgstr ""
+
+msgid "spr_no_think_right_panic"
+msgstr ""
+
+msgid "spr_no_think_right_confused"
+msgstr ""
+
+msgid "sounds/snd_criticalswing"
+msgstr ""
+
+msgid "overworld/snow_objects/spr_epicbridgepart_1"
+msgstr ""
+
+msgid "overworld/npcs/underfell/spr_ufsans_sqoish"
+msgstr ""
+
+msgid "sounds/snd_noelle_scared"
+msgstr ""
+
+msgid "music/mus_fearsting"
+msgstr ""
+
+msgid "spr_kr_iceslide_down"
+msgstr ""
+
+msgid "overworld/bullets/GauntletSpearBullet"
+msgstr ""
+
+msgid "overworld/bullets/GauntletBallBullet"
+msgstr ""
+
+msgid "overworld/bullets/GauntletCannon"
+msgstr ""
+
+msgid "overworld/bullets/GauntletFire"
+msgstr ""
+
+msgid "sounds/snd_splash"
+msgstr ""
+
+msgid ""
+"*^90 ABCDEFGHIJKLMNOPQRSTUVWXYZ\n"
+"  abcdefghijklmnopqrstuvwxyz\n"
+"  0123456789!@#$%&*;:?/()[]"
+msgstr ""
+
+msgid "sounds/snd_hurtbeef"
+msgstr ""
+
+msgid "battle/attacks/bullets/snowdin/GlydeBackflash"
+msgstr ""
+
+msgid "battle/enemies/Jerry/spr_b_jerry_land_1"
+msgstr ""
+
+msgid "battle/enemies/Jerry/spr_b_jerry_land_2"
+msgstr ""
+
+msgid "battle/enemies/Jerry/spr_b_jerry_introtalk_0"
+msgstr ""
+
+msgid "battle/enemies/Jerry/spr_b_jerry_introtalk_1"
+msgstr ""
+
+msgid "battle/enemies/Jerry/spr_b_jerry_introtalk_2"
+msgstr ""
+
+msgid "music/mus_jerry"
+msgstr ""
+
+msgid "battle/enemies/Jerry/spr_b_jerry_swoopkill"
+msgstr ""
+
+msgid "battle/enemies/Jerry/spr_b_jerry_land_0"
+msgstr ""
+
+msgid "player/GONER/heads/"
+msgstr ""
+
+msgid "player/GONER/bodies/"
+msgstr ""
+
+msgid "_flip"
+msgstr ""
+
+msgid "spr_gh_h"
+msgstr ""
+
+msgid "spr_gh_b"
+msgstr ""
+
+msgid "_3"
+msgstr ""
+
+msgid "_4"
+msgstr ""
+
+msgid "music/mus_dogsong"
+msgstr ""
+
+msgid "battle/acts/GreaterDogSnatch"
+msgstr ""
+
+msgid "_swapped"
+msgstr ""
+
+msgid "_2"
+msgstr ""
+
+msgid "battle/enemies/Greater Dog/spr_b_gdog"
+msgstr ""
+
+msgid "_1"
+msgstr ""
+
+msgid "snd_txtmtt"
+msgstr ""
+
+msgid "no_tease_finger"
+msgstr ""
+
+msgid "surprised_happy"
+msgstr ""
+
+msgid "sounds/snd_target"
+msgstr ""
+
+msgid "music/mus_creepydoor"
+msgstr ""
+
+msgid "overworld/spr_grey_door_1"
+msgstr ""
+
+msgid "sounds/snd_elecdoor_shutheavy"
+msgstr ""
+
+msgid "sounds/snd_dtrans_drone"
+msgstr ""
+
+msgid "sounds/snd_dtrans_lw"
+msgstr ""
+
+msgid "spr_pixel"
+msgstr ""
+
+msgid "player/Kris/spr_kr_fall_bw_"
+msgstr ""
+
+msgid "player/Susie/spr_su_fall_back_bw_"
+msgstr ""
+
+msgid "player/Noelle/spr_no_fall_bw_"
+msgstr ""
+
+msgid "battle/enemies/Gyftrot/spr_b_gyftrot_head_0"
+msgstr ""
+
+msgid "battle/enemies/Gyftrot/spr_b_gyftrot_head_1"
+msgstr ""
+
+msgid "battle/enemies/Gyftrot/spr_b_gyftrot_mouth_"
+msgstr ""
+
+msgid "vfx/GyftrotBreath"
+msgstr ""
+
+msgid "battle/enemies/Gyftrot/GyftrotGift"
+msgstr ""
+
+msgid "ui/spr_bunny_dance"
+msgstr ""
+
+msgid "overworld/npcs/staff/sillies/spr_scoot_fops"
+msgstr ""
+
+msgid "overworld/npcs/staff/sillies/spr_sophie_fox"
+msgstr ""
+
+msgid "overworld/npcs/staff/sillies/spr_beeth_dog"
+msgstr ""
+
+msgid "overworld/npcs/staff/sillies/spr_eri_fops"
+msgstr ""
+
+msgid "overworld/npcs/staff/sillies/spr_luma_doggie_"
+msgstr ""
+
+msgid "overworld/npcs/staff/sillies/spr_vee_sleep_"
+msgstr ""
+
+msgid "overworld/npcs/staff/sillies/spr_autumn_silly_1"
+msgstr ""
+
+msgid "susie_reactions"
+msgstr ""
+
+msgid "sounds/snd_fall"
+msgstr ""
+
+msgid "spr_su_wideeye"
+msgstr ""
+
+msgid "sounds/snd_hero"
+msgstr ""
+
+msgid "overworld/ruins_objects/Hole"
+msgstr ""
+
+msgid "sounds/snd_floweypellet"
+msgstr ""
+
+msgid "battle/enemies/Ice Cap/spr_b_icecap_"
+msgstr ""
+
+msgid "battle/enemies/Ice Cap/spr_b_icecap_fury_"
+msgstr ""
+
+msgid "battle/enemies/Ice Cap/spr_b_ice"
+msgstr ""
+
+msgid "overworld/snow_objects/ThrownIce"
+msgstr ""
+
+msgid "overworld/npcs/spr_bunny_walk_"
+msgstr ""
+
+msgid "overworld/npcs/spr_bunny"
+msgstr ""
+
+msgid "spr_su_point_up_0"
+msgstr ""
+
+msgid "uno/MusicChooser"
+msgstr ""
+
+msgid "ifpap_evil"
+msgstr ""
+
+msgid "br`su_inquisitive`(Oh boy...)"
+msgstr ""
+
+msgid ""
+"<color=#FF0000FF>RED</color>, <color=#FFFF00FF>YELLOW</color>, <color=#00C000FF>GREEN</color>, \n"
+"AND <color=#003CFFFF>BLUE</color>."
+msgstr ""
+
+msgid ""
+"BUT IF USED WHEN \n"
+"<color=#FFFF00FF>2 PLAYERS ARE LEFT</color>,^05 \n"
+"THEY ACT AS SKIP."
+msgstr ""
+
+msgid ""
+"HOWEVER,^05 THAT PLAYER \n"
+"CAN <color=#FFFF00FF>COUNTER WITH \n"
+"ANOTHER ADD CARD</color>."
+msgstr ""
+
+msgid ""
+"HOWEVER,^05 YOU CAN \n"
+"<color=#FFFF00FF>ONLY PLAY +4 IF YOU \n"
+"CAN'T PLAY ANYTHING</color>."
+msgstr ""
+
+msgid ""
+"<color=#FFFF00FF>YOU MUST SHOW \n"
+"EVERYONE YOUR ENTIRE \n"
+"HAND.</color>"
+msgstr ""
+
+msgid ""
+"IF THEIR CHALLENGE \n"
+"LOSES,^05 THEY MUST \n"
+"PICK UP <color=#FFFF00FF>2 EXTRA</color>."
+msgstr ""
+
+msgid ""
+"BUT IF IT WINS, \n"
+"<color=#FFFF00FF>YOU PICK UP THE \n"
+"CARDS INSTEAD</color>."
+msgstr ""
+
+msgid ""
+"YOU MUST PICK UP \n"
+"<color=#FFFF00FF>4 MORE CARDS</color>!"
+msgstr ""
+
+msgid "ifpap_wacky"
+msgstr ""
+
+msgid "ui/BoxUI"
+msgstr ""
+
+msgid "ui/debug/InventoryEditorText"
+msgstr ""
+
+msgid "su_"
+msgstr ""
+
+msgid "suhd_"
+msgstr ""
+
+msgid "no_"
+msgstr ""
+
+msgid "nohd_"
+msgstr ""
+
+msgid "eyeshut_smug"
+msgstr ""
+
+msgid "eyeshut_smirk"
+msgstr ""
+
+msgid "smirk_full"
+msgstr ""
+
+msgid "battle/enemies/Jerry/spr_b_jerry_headband_end_"
+msgstr ""
+
+msgid "_dying_3"
+msgstr ""
+
+msgid "sounds/snd_carhonk"
+msgstr ""
+
+msgid "vfx/EnemySmoke"
+msgstr ""
+
+msgid "battle/acts/JerryFinisher"
+msgstr ""
+
+msgid "battle/enemies/Jerry/spr_b_jerry_face_"
+msgstr ""
+
+msgid "battle/enemies/Jerry/spr_b_jerry_stance"
+msgstr ""
+
+msgid "battle/enemies/Jerry/spr_b_jerry_spin_attack_0"
+msgstr ""
+
+msgid "battle/attacks/bullets/jerry/JerrySlashBlue"
+msgstr ""
+
+msgid "battle/attacks/MedPlatform"
+msgstr ""
+
+msgid "battle/attacks/bullets/jerry/JerrySword"
+msgstr ""
+
+msgid "battle/attacks/bullets/flowey/FloweySpikeInterior"
+msgstr ""
+
+msgid "battle/enemies/Jerry/spr_b_jerry_toss_sword_up_0"
+msgstr ""
+
+msgid "battle/enemies/Jerry/spr_b_jerry_toss_sword_up_1"
+msgstr ""
+
+msgid "sounds/snd_spearappear_choppy"
+msgstr ""
+
+msgid "battle/enemies/Jerry/spr_b_jerry_toss_sword_up_2"
+msgstr ""
+
+msgid "battle/enemies/Jerry/spr_b_jerry_unarmed"
+msgstr ""
+
+msgid "battle/attacks/bullets/jerry/JerrySpinSword"
+msgstr ""
+
+msgid "overworld/npcs/underfell/spr_jerry_uf_postbattle_putawaysword_0"
+msgstr ""
+
+msgid "overworld/npcs/underfell/spr_jerry_uf_postbattle_putawaysword_1"
+msgstr ""
+
+msgid "overworld/npcs/underfell/spr_jerry_uf_postbattle"
+msgstr ""
+
+msgid "overworld/npcs/underfell/spr_jerry_uf_0"
+msgstr ""
+
+msgid "spr_kr_surprise_upright"
+msgstr ""
+
+msgid "music/mus_armstrong"
+msgstr ""
+
+msgid "vfx/SOULChargeParticle"
+msgstr ""
+
+msgid "sounds/snd_scytheburst"
+msgstr ""
+
+msgid "spr_kr_power_charge_end"
+msgstr ""
+
+msgid "battle/attacks/bullets/jerry/JerryFinaleSlash"
+msgstr ""
+
+msgid "battle/attacks/bullets/jerry/JerrySlashRed"
+msgstr ""
+
+msgid "battle/attacks/bullets/jerry/JerrySwordMask"
+msgstr ""
+
+msgid "battle/enemies/Jerry/spr_b_jerry_dmg"
+msgstr ""
+
+msgid "battle/enemies/Jerry/spr_b_jerry_toss_sword_up_smug_0"
+msgstr ""
+
+msgid "battle/enemies/Jerry/spr_b_jerry_toss_sword_up_smug_1"
+msgstr ""
+
+msgid "battle/enemies/Jerry/spr_b_jerry_toss_sword_up_smug_2"
+msgstr ""
+
+msgid "sounds/snd_swipe"
+msgstr ""
+
+msgid "battle/enemies/Jerry/spr_b_jerry_dying_"
+msgstr ""
+
+msgid "battle/enemies/Jerry/spr_b_jerry_dying_2"
+msgstr ""
+
+msgid "spr_kr_heavybreathing_"
+msgstr ""
+
+msgid ""
+"kr_susgrin`snd_txtkrs`*^01 ^01W^01e^01'^01r^01e^01.^01.^01.^10 "
+"d^01o^01n^01e^01 ^01h^01e^01r^01e^01.^01.^01."
+msgstr ""
+
+msgid "spr_kr_heavybreathing_0"
+msgstr ""
+
+msgid "battle/attacks/bullets/jerry/JerryFirstBlue"
+msgstr ""
+
+msgid "sounds/snd_spearthrow"
+msgstr ""
+
+msgid "battle/enemies/Jerry/spr_b_jerry_attack_left_"
+msgstr ""
+
+msgid "sounds/snd_bell_bounce_short"
+msgstr ""
+
+msgid "battle/enemies/Jerry/spr_b_jerry_spin_attack_1"
+msgstr ""
+
+msgid "battle/enemies/Jerry/spr_b_jerry_spin_attack_2"
+msgstr ""
+
+msgid "battle/enemies/Jerry/spr_b_jerry_spin_attack_3"
+msgstr ""
+
+msgid "battle/enemies/Jerry/spr_b_jerry_spin_attack_4"
+msgstr ""
+
+msgid "battle/enemies/Jerry/spr_b_jerry_spin_attack_5"
+msgstr ""
+
+msgid "battle/enemies/Jerry/spr_b_jerry_spin_attack_6"
+msgstr ""
+
+msgid "battle/enemies/Jerry/spr_b_jerry_spin_attack_7"
+msgstr ""
+
+msgid "battle/enemies/Jerry/spr_b_jerry_sword_throw_0_hand"
+msgstr ""
+
+msgid "battle/enemies/Jerry/spr_b_jerry_sword_throw_1"
+msgstr ""
+
+msgid "battle/enemies/Jerry/spr_b_jerry_sword_throw_2"
+msgstr ""
+
+msgid "battle/attacks/bullets/jerry/JerrySecondBlue"
+msgstr ""
+
+msgid "battle/attacks/bullets/jerry/JerrySlashYellow"
+msgstr ""
+
+msgid "battle/enemies/Jerry/spr_b_jerry_yellowspin_"
+msgstr ""
+
+msgid "sounds/snd_boost"
+msgstr ""
+
+msgid "battle/enemies/Jerry/spr_b_jerry_yellowspin_start_0"
+msgstr ""
+
+msgid "battle/enemies/Jerry/spr_b_jerry_yellowspin_start_1"
+msgstr ""
+
+msgid "ui/JumpDashTutorialCanvas"
+msgstr ""
+
+msgid ""
+"/WDI FEEL THE PRESENCE\n"
+"OF THE INTERLOPER"
+msgstr ""
+
+msgid ""
+"/WDYOU WILL FEEL MY\n"
+"BLADE, FIEND"
+msgstr ""
+
+msgid "battle/attacks/bullets/lostcore/BladeProjectileBullet"
+msgstr ""
+
+msgid "act_compliment"
+msgstr ""
+
+msgid "act_threaten"
+msgstr ""
+
+msgid "act_autowin_chungussies"
+msgstr ""
+
+msgid "act_autowin_nomorechungus"
+msgstr ""
+
+msgid "act_big_chungus"
+msgstr ""
+
+msgid "act_big_chungus_max"
+msgstr ""
+
+msgid "chatter_act_lines"
+msgstr ""
+
+msgid "flavor_chungus"
+msgstr ""
+
+msgid "NPC_kris"
+msgstr ""
+
+msgid "music/AUDIO_DRONE"
+msgstr ""
+
+msgid "sounds/snd_step"
+msgstr ""
+
+msgid "sounds/snd_step2"
+msgstr ""
+
+msgid "DreamGround_G"
+msgstr ""
+
+msgid "sounds/snd_darkness"
+msgstr ""
+
+msgid "spr_kr_sleep"
+msgstr ""
+
+msgid "overworld/npcs/enemies/Feraldrake2"
+msgstr ""
+
+msgid "Assets/pack/lang.json"
+msgstr ""
+
+msgid "sounds/snd_pombark"
+msgstr ""
+
+msgid "_shield"
+msgstr ""
+
+msgid "battle/enemies/Lesser Dog/spr_b_ldog_noshield"
+msgstr ""
+
+msgid "battle/enemies/Lesser Dog/spr_b_ldog_happy_"
+msgstr ""
+
+msgid "battle/enemies/Lesser Dog/spr_b_ldog_shield_down"
+msgstr ""
+
+msgid "battle/enemies/Lesser Dog/spr_b_ldog_base"
+msgstr ""
+
+msgid "sounds/snd_hypnosis"
+msgstr ""
+
+msgid "sounds/snd_sussurprise"
+msgstr ""
+
+msgid "depressed_smile"
+msgstr ""
+
+msgid "overworld/snow_objects/spr_snowstatue_dog_complete"
+msgstr ""
+
+msgid "overworld/npcs/underfell/spr_ufpap_letteropen_0"
+msgstr ""
+
+msgid "overworld/npcs/underfell/spr_ufpap_letteropen_1"
+msgstr ""
+
+msgid "overworld/npcs/underfell/spr_ufpap_letteropen_2"
+msgstr ""
+
+msgid "overworld/npcs/underfell/spr_ufpap_slide_0"
+msgstr ""
+
+msgid "overworld/npcs/underfell/spr_ufpap_slide_1"
+msgstr ""
+
+msgid "overworld/npcs/underfell/spr_ufpap_slide_2"
+msgstr ""
+
+msgid "ufpap_sus"
+msgstr ""
+
+msgid "overworld/npcs/underfell/spr_ufpap_down_mad_0"
+msgstr ""
+
+msgid "spr_kr_openletter_0"
+msgstr ""
+
+msgid "spr_kr_openletter_1"
+msgstr ""
+
+msgid "music/mus_lilliput_steps_melody"
+msgstr ""
+
+msgid "music/mus_sanctuary_post_intro"
+msgstr ""
+
+msgid "no_relief"
+msgstr ""
+
+msgid "no_awe"
+msgstr ""
+
+msgid "pau_embarrassed"
+msgstr ""
+
+msgid "pau_smile"
+msgstr ""
+
+msgid "pau_smile_side"
+msgstr ""
+
+msgid "pau_happy"
+msgstr ""
+
+msgid "spr_no_collapsed"
+msgstr ""
+
+msgid "overworld/npcs/spr_paula_shocked"
+msgstr ""
+
+msgid "por_suit_smile"
+msgstr ""
+
+msgid "sounds/snd_pkflash"
+msgstr ""
+
+msgid "spr_no_kneel_right"
+msgstr ""
+
+msgid "snd_txtness"
+msgstr ""
+
+msgid "ness_mad"
+msgstr ""
+
+msgid "ness_rage"
+msgstr ""
+
+msgid "su_worried"
+msgstr ""
+
+msgid "pau_defiant"
+msgstr ""
+
+msgid "su_panic"
+msgstr ""
+
+msgid "por_suit_neutral"
+msgstr ""
+
+msgid "sounds/snd_break2"
+msgstr ""
+
+msgid "music/d"
+msgstr ""
+
+msgid "vfx/EnemyExplosion"
+msgstr ""
+
+msgid "battle/enemies/Li'l UFO/spr_b_ufo_laser_rod"
+msgstr ""
+
+msgid "battle/enemies/Li'l UFO/spr_b_ufo_laser_rod_shoot"
+msgstr ""
+
+msgid "su_thinking"
+msgstr ""
+
+msgid "su_sad"
+msgstr ""
+
+msgid "phone_toriel_0_0_0"
+msgstr ""
+
+msgid "phone_toriel_0_0_1"
+msgstr ""
+
+msgid "phone_toriel_0_0_2"
+msgstr ""
+
+msgid "phone_toriel_0_0_3"
+msgstr ""
+
+msgid "phone_toriel_0_0_4"
+msgstr ""
+
+msgid "phone_toriel_0_0_5"
+msgstr ""
+
+msgid "phone_toriel_7_0_0"
+msgstr ""
+
+msgid "phone_toriel_7_0_1"
+msgstr ""
+
+msgid "phone_toriel_7_0_2"
+msgstr ""
+
+msgid "phone_toriel_7_0_3"
+msgstr ""
+
+msgid "phone_toriel_7_0_4"
+msgstr ""
+
+msgid "phone_toriel_7_0_5"
+msgstr ""
+
+msgid "phone_toriel_8_0_0"
+msgstr ""
+
+msgid "phone_toriel_8_0_1"
+msgstr ""
+
+msgid "phone_toriel_8_0_2"
+msgstr ""
+
+msgid "phone_toriel_8_0_3"
+msgstr ""
+
+msgid "phone_toriel_8_0_4"
+msgstr ""
+
+msgid "phone_toriel_8_0_5"
+msgstr ""
+
+msgid "phone_toriel_9_0_0"
+msgstr ""
+
+msgid "phone_toriel_9_0_1"
+msgstr ""
+
+msgid "phone_toriel_9_0_2"
+msgstr ""
+
+msgid "phone_toriel_9_0_3"
+msgstr ""
+
+msgid "phone_toriel_9_0_4"
+msgstr ""
+
+msgid "phone_toriel_9_0_5"
+msgstr ""
+
+msgid "phone_toriel_9_1_0"
+msgstr ""
+
+msgid "phone_toriel_9_1_1"
+msgstr ""
+
+msgid "phone_toriel_10_0_0"
+msgstr ""
+
+msgid "phone_toriel_10_0_1"
+msgstr ""
+
+msgid "phone_toriel_10_0_2"
+msgstr ""
+
+msgid "phone_toriel_10_0_3"
+msgstr ""
+
+msgid "phone_toriel_10_0_4"
+msgstr ""
+
+msgid "phone_toriel_10_0_5"
+msgstr ""
+
+msgid "phone_toriel_10_0_6"
+msgstr ""
+
+msgid "phone_toriel_10_1_0"
+msgstr ""
+
+msgid "phone_toriel_10_1_1"
+msgstr ""
+
+msgid "phone_toriel_10_1_2"
+msgstr ""
+
+msgid "phone_toriel_10_1_3"
+msgstr ""
+
+msgid "phone_toriel_10_1_4"
+msgstr ""
+
+msgid "phone_toriel_10_1_5"
+msgstr ""
+
+msgid "phone_toriel_10_1_6"
+msgstr ""
+
+msgid "phone_toriel_10_1_7"
+msgstr ""
+
+msgid "phone_toriel_10_1_8"
+msgstr ""
+
+msgid "phone_toriel_10_0_0_h"
+msgstr ""
+
+msgid "phone_toriel_10_0_1_h"
+msgstr ""
+
+msgid "phone_toriel_10_0_2_h"
+msgstr ""
+
+msgid "phone_toriel_10_0_3_h"
+msgstr ""
+
+msgid "phone_toriel_10_0_4_h"
+msgstr ""
+
+msgid "phone_toriel_10_0_5_h"
+msgstr ""
+
+msgid "phone_toriel_10_1_0_h"
+msgstr ""
+
+msgid "phone_toriel_10_1_1_h"
+msgstr ""
+
+msgid "phone_toriel_10_1_2_h"
+msgstr ""
+
+msgid "phone_toriel_10_1_3_h"
+msgstr ""
+
+msgid "phone_toriel_10_1_5_h"
+msgstr ""
+
+msgid "phone_toriel_11_0_0"
+msgstr ""
+
+msgid "phone_toriel_11_0_1"
+msgstr ""
+
+msgid "phone_toriel_11_0_2"
+msgstr ""
+
+msgid "phone_toriel_11_0_3"
+msgstr ""
+
+msgid "phone_toriel_11_0_4"
+msgstr ""
+
+msgid "phone_toriel_11_1_0"
+msgstr ""
+
+msgid "phone_toriel_11_1_1"
+msgstr ""
+
+msgid "phone_toriel_11_1_0_h"
+msgstr ""
+
+msgid "phone_toriel_11_1_1_h"
+msgstr ""
+
+msgid "phone_toriel_12_0_0"
+msgstr ""
+
+msgid "phone_toriel_12_0_1"
+msgstr ""
+
+msgid "phone_toriel_12_0_2"
+msgstr ""
+
+msgid "phone_toriel_12_0_3"
+msgstr ""
+
+msgid "phone_toriel_12_0_4"
+msgstr ""
+
+msgid "phone_toriel_12_0_5"
+msgstr ""
+
+msgid "phone_toriel_12_0_0_h"
+msgstr ""
+
+msgid "phone_toriel_12_0_1_h"
+msgstr ""
+
+msgid "phone_toriel_12_0_2_h"
+msgstr ""
+
+msgid "phone_toriel_12_0_3_h"
+msgstr ""
+
+msgid "phone_toriel_12_0_4_h"
+msgstr ""
+
+msgid "phone_toriel_12_0_5_h"
+msgstr ""
+
+msgid "phone_toriel_12_0_6_h"
+msgstr ""
+
+msgid "phone_toriel_12_0_7_h"
+msgstr ""
+
+msgid "phone_toriel_12_0_8_h"
+msgstr ""
+
+msgid "phone_toriel_12_0_9_h"
+msgstr ""
+
+msgid "phone_toriel_12_1_0_h"
+msgstr ""
+
+msgid "phone_toriel_12_1_1_h"
+msgstr ""
+
+msgid "phone_toriel_13_0_0"
+msgstr ""
+
+msgid "phone_toriel_13_0_1"
+msgstr ""
+
+msgid "phone_toriel_13_0_2"
+msgstr ""
+
+msgid "phone_toriel_13_0_3"
+msgstr ""
+
+msgid "phone_toriel_13_0_4"
+msgstr ""
+
+msgid "phone_toriel_13_0_5"
+msgstr ""
+
+msgid "phone_toriel_13_0_6"
+msgstr ""
+
+msgid "phone_toriel_13_1_0"
+msgstr ""
+
+msgid "phone_toriel_13_1_1"
+msgstr ""
+
+msgid "phone_toriel_13_1_2"
+msgstr ""
+
+msgid "phone_toriel_13_1_3"
+msgstr ""
+
+msgid "phone_toriel_13_1_4"
+msgstr ""
+
+msgid "phone_toriel_13_0_0_h"
+msgstr ""
+
+msgid "phone_toriel_13_0_1_h"
+msgstr ""
+
+msgid "phone_toriel_13_0_2_h"
+msgstr ""
+
+msgid "phone_toriel_13_0_3_h"
+msgstr ""
+
+msgid "phone_toriel_13_0_4_h"
+msgstr ""
+
+msgid "phone_toriel_13_0_5_h"
+msgstr ""
+
+msgid "phone_toriel_13_0_6_h"
+msgstr ""
+
+msgid "phone_toriel_13_1_0_h"
+msgstr ""
+
+msgid "phone_toriel_13_1_1_h"
+msgstr ""
+
+msgid "phone_toriel_13_1_2_h"
+msgstr ""
+
+msgid "phone_toriel_13_1_3_h"
+msgstr ""
+
+msgid "phone_toriel_13_1_4_h"
+msgstr ""
+
+msgid "phone_toriel_14_0_0"
+msgstr ""
+
+msgid "phone_toriel_14_0_1"
+msgstr ""
+
+msgid "phone_toriel_14_0_2"
+msgstr ""
+
+msgid "phone_toriel_14_0_3"
+msgstr ""
+
+msgid "phone_toriel_14_0_4"
+msgstr ""
+
+msgid "phone_toriel_14_0_5"
+msgstr ""
+
+msgid "phone_toriel_15_0_0"
+msgstr ""
+
+msgid "phone_toriel_15_0_1"
+msgstr ""
+
+msgid "phone_toriel_15_0_2"
+msgstr ""
+
+msgid "phone_toriel_15_0_3"
+msgstr ""
+
+msgid "phone_toriel_15_0_4"
+msgstr ""
+
+msgid "phone_toriel_15_0_5"
+msgstr ""
+
+msgid "phone_toriel_15_0_6"
+msgstr ""
+
+msgid "phone_toriel_15_1_0"
+msgstr ""
+
+msgid "phone_toriel_15_1_1"
+msgstr ""
+
+msgid "phone_toriel_15_1_2"
+msgstr ""
+
+msgid "phone_toriel_15_1_0_h"
+msgstr ""
+
+msgid "phone_toriel_15_1_1_h"
+msgstr ""
+
+msgid "phone_toriel_15_1_2_h"
+msgstr ""
+
+msgid "phone_toriel_16_0_0"
+msgstr ""
+
+msgid "phone_toriel_16_0_1"
+msgstr ""
+
+msgid "phone_toriel_16_0_2"
+msgstr ""
+
+msgid "phone_toriel_16_0_3"
+msgstr ""
+
+msgid "phone_toriel_16_0_4"
+msgstr ""
+
+msgid "phone_toriel_17_0_0"
+msgstr ""
+
+msgid "phone_toriel_17_0_1"
+msgstr ""
+
+msgid "phone_toriel_17_0_2"
+msgstr ""
+
+msgid "phone_toriel_17_0_3"
+msgstr ""
+
+msgid "phone_toriel_17_0_4"
+msgstr ""
+
+msgid "phone_toriel_17_0_0_h"
+msgstr ""
+
+msgid "phone_toriel_17_0_1_h"
+msgstr ""
+
+msgid "phone_toriel_17_0_2_h"
+msgstr ""
+
+msgid "phone_toriel_17_0_3_h"
+msgstr ""
+
+msgid "phone_toriel_17_0_4_h"
+msgstr ""
+
+msgid "phone_toriel_19_0_0"
+msgstr ""
+
+msgid "phone_toriel_19_0_1"
+msgstr ""
+
+msgid "phone_toriel_19_0_2"
+msgstr ""
+
+msgid "phone_toriel_19_0_3"
+msgstr ""
+
+msgid "phone_toriel_19_0_4"
+msgstr ""
+
+msgid "phone_toriel_19_0_5"
+msgstr ""
+
+msgid "phone_toriel_19_0_6"
+msgstr ""
+
+msgid "phone_toriel_19_0_0_h"
+msgstr ""
+
+msgid "phone_toriel_19_0_1_h"
+msgstr ""
+
+msgid "phone_toriel_19_0_2_h"
+msgstr ""
+
+msgid "phone_toriel_19_0_3_h"
+msgstr ""
+
+msgid "phone_toriel_19_0_4_h"
+msgstr ""
+
+msgid "phone_toriel_19_0_5_h"
+msgstr ""
+
+msgid "phone_toriel_19_0_6_h"
+msgstr ""
+
+msgid "phone_toriel_19_1_0"
+msgstr ""
+
+msgid "phone_toriel_19_1_1"
+msgstr ""
+
+msgid "phone_toriel_19_1_2"
+msgstr ""
+
+msgid "phone_toriel_19_1_3"
+msgstr ""
+
+msgid "phone_toriel_19_1_4"
+msgstr ""
+
+msgid "phone_toriel_19_1_0_h"
+msgstr ""
+
+msgid "phone_toriel_19_1_1_h"
+msgstr ""
+
+msgid "phone_toriel_19_1_2_h"
+msgstr ""
+
+msgid "phone_toriel_19_1_3_h"
+msgstr ""
+
+msgid "phone_toriel_19_1_4_h"
+msgstr ""
+
+msgid "phone_toriel_19_1_5_h"
+msgstr ""
+
+msgid "phone_toriel_20_0_0"
+msgstr ""
+
+msgid "phone_toriel_20_0_1"
+msgstr ""
+
+msgid "phone_toriel_20_0_2"
+msgstr ""
+
+msgid "phone_toriel_20_0_3"
+msgstr ""
+
+msgid "phone_toriel_20_0_4"
+msgstr ""
+
+msgid "phone_toriel_20_0_5"
+msgstr ""
+
+msgid "phone_toriel_20_0_6"
+msgstr ""
+
+msgid "phone_toriel_20_1_0"
+msgstr ""
+
+msgid "phone_toriel_20_1_1"
+msgstr ""
+
+msgid "phone_toriel_20_1_2"
+msgstr ""
+
+msgid "phone_toriel_20_1_3"
+msgstr ""
+
+msgid "phone_toriel_20_1_4"
+msgstr ""
+
+msgid "phone_toriel_20_1_5"
+msgstr ""
+
+msgid "phone_toriel_20_1_6"
+msgstr ""
+
+msgid "phone_toriel_21_0_0"
+msgstr ""
+
+msgid "phone_toriel_21_0_1"
+msgstr ""
+
+msgid "phone_toriel_21_0_2"
+msgstr ""
+
+msgid "phone_toriel_21_0_3"
+msgstr ""
+
+msgid "phone_toriel_24_0_0"
+msgstr ""
+
+msgid "phone_toriel_24_0_1"
+msgstr ""
+
+msgid "phone_toriel_24_0_2"
+msgstr ""
+
+msgid "phone_toriel_24_0_3"
+msgstr ""
+
+msgid "phone_toriel_26_0_0"
+msgstr ""
+
+msgid "phone_toriel_26_0_1"
+msgstr ""
+
+msgid "phone_toriel_26_0_2"
+msgstr ""
+
+msgid "phone_toriel_26_0_3"
+msgstr ""
+
+msgid "phone_toriel_26_0_4"
+msgstr ""
+
+msgid "phone_toriel_26_0_5"
+msgstr ""
+
+msgid "phone_toriel_26_0_6"
+msgstr ""
+
+msgid "phone_toriel_26_0_7"
+msgstr ""
+
+msgid "phone_toriel_26_0_8"
+msgstr ""
+
+msgid "phone_toriel_27_0_0"
+msgstr ""
+
+msgid "phone_toriel_27_0_1"
+msgstr ""
+
+msgid "phone_toriel_27_0_2"
+msgstr ""
+
+msgid "phone_toriel_27_0_3"
+msgstr ""
+
+msgid "phone_toriel_27_0_4"
+msgstr ""
+
+msgid "phone_toriel_27_0_5"
+msgstr ""
+
+msgid "phone_toriel_27_0_6"
+msgstr ""
+
+msgid "phone_toriel_27_0_7"
+msgstr ""
+
+msgid "phone_toriel_27_0_8"
+msgstr ""
+
+msgid "phone_toriel_28_0_0"
+msgstr ""
+
+msgid "phone_toriel_28_0_1"
+msgstr ""
+
+msgid "phone_toriel_28_0_2"
+msgstr ""
+
+msgid "phone_toriel_28_0_3"
+msgstr ""
+
+msgid "phone_toriel_28_0_4"
+msgstr ""
+
+msgid "phone_toriel_28_0_5"
+msgstr ""
+
+msgid "phone_toriel_28_0_6"
+msgstr ""
+
+msgid "phone_toriel_28_0_7"
+msgstr ""
+
+msgid "phone_toriel_28_0_8"
+msgstr ""
+
+msgid "phone_toriel_29_0_0"
+msgstr ""
+
+msgid "phone_toriel_29_0_1"
+msgstr ""
+
+msgid "phone_toriel_29_0_2"
+msgstr ""
+
+msgid "phone_toriel_29_0_3"
+msgstr ""
+
+msgid "phone_toriel_29_0_4"
+msgstr ""
+
+msgid "phone_toriel_29_0_5"
+msgstr ""
+
+msgid "phone_toriel_29_0_6"
+msgstr ""
+
+msgid "phone_toriel_29_0_7"
+msgstr ""
+
+msgid "phone_toriel_29_0_8"
+msgstr ""
+
+msgid "phone_home_0_0"
+msgstr ""
+
+msgid "phone_home_0_1"
+msgstr ""
+
+msgid "phone_home_1_0"
+msgstr ""
+
+msgid "phone_home_1_1"
+msgstr ""
+
+msgid "phone_home_1_2"
+msgstr ""
+
+msgid "phone_home_1_3"
+msgstr ""
+
+msgid "phone_home_1_4"
+msgstr ""
+
+msgid "phone_home_2_0"
+msgstr ""
+
+msgid "phone_home_2_1"
+msgstr ""
+
+msgid "phone_home_2_2"
+msgstr ""
+
+msgid "phone_home_2_3"
+msgstr ""
+
+msgid "phone_home_2_4"
+msgstr ""
+
+msgid "phone_home_2_5"
+msgstr ""
+
+msgid "phone_home_2_6"
+msgstr ""
+
+msgid "phone_home_2_7"
+msgstr ""
+
+msgid "phone_home_2_8"
+msgstr ""
+
+msgid "phone_home_2_9"
+msgstr ""
+
+msgid "phone_home_3_0"
+msgstr ""
+
+msgid "phone_home_3_1"
+msgstr ""
+
+msgid "phone_home_3_2"
+msgstr ""
+
+msgid "phone_home_3_3"
+msgstr ""
+
+msgid "phone_home_3_4"
+msgstr ""
+
+msgid "phone_home_3_5"
+msgstr ""
+
+msgid "phone_home_3_6"
+msgstr ""
+
+msgid "phone_home_3_7"
+msgstr ""
+
+msgid "phone_home_3_8"
+msgstr ""
+
+msgid "phone_home_4_0"
+msgstr ""
+
+msgid "phone_home_4_1"
+msgstr ""
+
+msgid "phone_home_4_2"
+msgstr ""
+
+msgid "phone_home_4_3"
+msgstr ""
+
+msgid "phone_home_4_4"
+msgstr ""
+
+msgid "phone_home_4_5"
+msgstr ""
+
+msgid "phone_home_4_6"
+msgstr ""
+
+msgid "phone_home_4_7"
+msgstr ""
+
+msgid "phone_home_4_8"
+msgstr ""
+
+msgid "phone_home_5_0"
+msgstr ""
+
+msgid "phone_home_5_1"
+msgstr ""
+
+msgid "phone_home_5_2"
+msgstr ""
+
+msgid "phone_home_5_3"
+msgstr ""
+
+msgid "phone_home_5_4"
+msgstr ""
+
+msgid "phone_home_5_5"
+msgstr ""
+
+msgid "phone_home_5_6"
+msgstr ""
+
+msgid "phone_home_5_7"
+msgstr ""
+
+msgid "phone_home_e_0"
+msgstr ""
+
+msgid "phone_home_e_1"
+msgstr ""
+
+msgid "phone_home_e_2"
+msgstr ""
+
+msgid "phone_home_e_3"
+msgstr ""
+
+msgid "phone_home_e_4"
+msgstr ""
+
+msgid "phone_home_e_5"
+msgstr ""
+
+msgid "phone_home_e_6"
+msgstr ""
+
+msgid "phone_home_6_0"
+msgstr ""
+
+msgid "phone_home_6_1"
+msgstr ""
+
+msgid "phone_home_6_2"
+msgstr ""
+
+msgid "phone_home_6_3"
+msgstr ""
+
+msgid "phone_home_6_4"
+msgstr ""
+
+msgid "phone_home_6_5"
+msgstr ""
+
+msgid "phone_home_6_6"
+msgstr ""
+
+msgid "phone_home_7_0"
+msgstr ""
+
+msgid "phone_home_7_1"
+msgstr ""
+
+msgid "phone_home_7_2"
+msgstr ""
+
+msgid "phone_home_7_3"
+msgstr ""
+
+msgid "phone_home_7_4"
+msgstr ""
+
+msgid "phone_home_7_5"
+msgstr ""
+
+msgid "phone_home_8_0"
+msgstr ""
+
+msgid "phone_home_8_1"
+msgstr ""
+
+msgid "phone_home_8_2"
+msgstr ""
+
+msgid "phone_home_8_3"
+msgstr ""
+
+msgid "phone_home_8_4"
+msgstr ""
+
+msgid "phone_home_8_5"
+msgstr ""
+
+msgid "phone_home_8_6"
+msgstr ""
+
+msgid "phone_home_8_7"
+msgstr ""
+
+msgid "phone_home_8_8"
+msgstr ""
+
+msgid "phone_home_9_0"
+msgstr ""
+
+msgid "phone_home_9_1"
+msgstr ""
+
+msgid "phone_home_9_2"
+msgstr ""
+
+msgid "phone_home_9_3"
+msgstr ""
+
+msgid "phone_home_9_4"
+msgstr ""
+
+msgid "phone_home_9_5"
+msgstr ""
+
+msgid "phone_home_9_6"
+msgstr ""
+
+msgid "phone_home_9_7"
+msgstr ""
+
+msgid "phone_home_9_8"
+msgstr ""
+
+msgid "phone_home_9_9"
+msgstr ""
+
+msgid "phone_home_9_10"
+msgstr ""
+
+msgid "phone_home_10_0"
+msgstr ""
+
+msgid "phone_home_10_1"
+msgstr ""
+
+msgid "phone_home_10_2"
+msgstr ""
+
+msgid "phone_home_10_3"
+msgstr ""
+
+msgid "phone_home_10_4"
+msgstr ""
+
+msgid "phone_home_10_5"
+msgstr ""
+
+msgid "phone_home_10_6"
+msgstr ""
+
+msgid "phone_home_10_7"
+msgstr ""
+
+msgid "phone_home_11_0"
+msgstr ""
+
+msgid "phone_home_11_1"
+msgstr ""
+
+msgid "phone_home_11_2"
+msgstr ""
+
+msgid "phone_home_11_3"
+msgstr ""
+
+msgid "phone_home_11_4"
+msgstr ""
+
+msgid "phone_home_11_5"
+msgstr ""
+
+msgid "phone_home_11_6"
+msgstr ""
+
+msgid "phone_home_11_7"
+msgstr ""
+
+msgid "phone_home_11_8"
+msgstr ""
+
+msgid "uno_default"
+msgstr ""
+
+msgid "uno_papyrus_0"
+msgstr ""
+
+msgid "uno_papyrus_1"
+msgstr ""
+
+msgid "uno_papyrus_2"
+msgstr ""
+
+msgid "uno_susie_0"
+msgstr ""
+
+msgid "uno_susie_2"
+msgstr ""
+
+msgid "uno_susie_1"
+msgstr ""
+
+msgid "uno_noelle_0"
+msgstr ""
+
+msgid "uno_noelle_1"
+msgstr ""
+
+msgid "uno_noelle_2"
+msgstr ""
+
+msgid "uno_papyrus_hard_0"
+msgstr ""
+
+msgid "uno_papyrus_hard_1"
+msgstr ""
+
+msgid "uno_papyrus_hard_2"
+msgstr ""
+
+msgid "uno_check_kris"
+msgstr ""
+
+msgid "uno_check_susie"
+msgstr ""
+
+msgid "uno_check_noelle"
+msgstr ""
+
+msgid "uno_check_papyrus"
+msgstr ""
+
+msgid "uno_check_papyrus_hard"
+msgstr ""
+
+msgid "music/mus_date"
+msgstr ""
+
+msgid "music/mus_date_fight"
+msgstr ""
+
+msgid "music/mus_battle1"
+msgstr ""
+
+msgid "music/mus_battle2"
+msgstr ""
+
+msgid "music/mus_muscle"
+msgstr ""
+
+msgid "music/mus_sansfight"
+msgstr ""
+
+msgid "music/mus_undyneboss"
+msgstr ""
+
+msgid "music/mus_justice"
+msgstr ""
+
+msgid "music/mus_spider"
+msgstr ""
+
+msgid "music/mus_mewmew"
+msgstr ""
+
+msgid "music/mus_checkers"
+msgstr ""
+
+msgid "music/mus_mansion"
+msgstr ""
+
+msgid "music/mus_queen_boss"
+msgstr ""
+
+msgid "music/mus_spamton_battle"
+msgstr ""
+
+msgid "music/mus_spamton_neo_mix_ex_wip"
+msgstr ""
+
+msgid "music/mus_mansion_entrance"
+msgstr ""
+
+msgid "music/mus_berdly_chase"
+msgstr ""
+
+msgid "music/mus_vsufsans_intro"
+msgstr ""
+
+msgid "music/mus_frankness_intro"
+msgstr ""
+
+msgid "music/mus_sandstorm_approaching"
+msgstr ""
+
+msgid "music/mus_deal_em_out"
+msgstr ""
+
+msgid "music/mus_decibat"
+msgstr ""
+
+msgid "music/mus_dalv_intro"
+msgstr ""
+
+msgid "music/mus_protocol"
+msgstr ""
+
+msgid "music/mus_apprehension"
+msgstr ""
+
+msgid "music/mus_showdown"
+msgstr ""
+
+msgid "music/mus_guns_blazing"
+msgstr ""
+
+msgid "music/mus_end_of_the_line"
+msgstr ""
+
+msgid ""
+"END OF THE LINE_`From UNDERTALE Yellow\n"
+"By Figburn"
+msgstr ""
+
+msgid "music/mus_some_point_of_no_return"
+msgstr ""
+
+msgid "battle/enemies/Loox/spr_b_loox_0"
+msgstr ""
+
+msgid "battle/enemies/Loox/spr_b_loox_1"
+msgstr ""
+
+msgid "battle/enemies/Loox/spr_b_loox_2"
+msgstr ""
+
+msgid "ui/PunchCard"
+msgstr ""
+
+msgid "ui/WildCardOverworld"
+msgstr ""
+
+msgid "phone_toriel_{buildIndex}_1_0"
+msgstr ""
+
+msgid "phone_toriel_{buildIndex}_1_0_h"
+msgstr ""
+
+msgid "phone_toriel_{buildIndex}_{num2}_0_h"
+msgstr ""
+
+msgid "_h"
+msgstr ""
+
+msgid "phone_toriel_{buildIndex}_{num2}_{num3}{text}"
+msgstr ""
+
+msgid "phone_home_{arg}_{k}"
+msgstr ""
+
+msgid "phone_toriel_{num5}_1_0"
+msgstr ""
+
+msgid "phone_toriel_{num5}_{num6}_{l}"
+msgstr ""
+
+msgid "sounds/snd_box"
+msgstr ""
+
+msgid "ui/bnpicons/MenuIcons"
+msgstr ""
+
+msgid "fonts/hud"
+msgstr ""
+
+msgid "ui/bnpicons/ItemIcon"
+msgstr ""
+
+msgid "ui/bnpicons/StatIcons"
+msgstr ""
+
+msgid "ui/bnpicons/spr_lv_"
+msgstr ""
+
+msgid "ui/UISoul"
+msgstr ""
+
+msgid ""
+" / 20\n"
+"\n"
+"AT  3 (12)\n"
+"DF  0 (7)\n"
+"MG  10 (0)"
+msgstr ""
+
+msgid ""
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"EXP: N/A\n"
+"NEXT: N/A"
+msgstr ""
+
+msgid "overworld/npcs/portraits/spr_pau_neutral_0"
+msgstr ""
+
+msgid "<color=#FF8080FF>Concussion</color>"
+msgstr ""
+
+msgid "<color=#FF8080FF>Deceitful</color>"
+msgstr ""
+
+msgid "<color=#FF8080FF>Devious</color>"
+msgstr ""
+
+msgid " / "
+msgstr ""
+
+msgid "ui/bnpicons/spr_"
+msgstr ""
+
+msgid "_statportrait"
+msgstr ""
+
+msgid "_alt_1"
+msgstr ""
+
+msgid "_alt_0"
+msgstr ""
+
+msgid "ui/bnpicons/CellIcon"
+msgstr ""
+
+msgid "snowdin_gguf"
+msgstr ""
+
+msgid "text/MapInfo"
+msgstr ""
+
+msgid "su_sus_forward"
+msgstr ""
+
+msgid "no_neutral"
+msgstr ""
+
+msgid "_body_1"
+msgstr ""
+
+msgid "_body_0"
+msgstr ""
+
+msgid "overworld/npcs/spr_migospel"
+msgstr ""
+
+msgid "_unhappy_"
+msgstr ""
+
+msgid "player/Frisk/"
+msgstr ""
+
+msgid "battle/enemies/Mobile Sprout/spr_b_sprout_0"
+msgstr ""
+
+msgid "battle/enemies/Mobile Sprout/spr_b_sprout_1"
+msgstr ""
+
+msgid "PAD_CTRL"
+msgstr ""
+
+msgid "base_neg"
+msgstr ""
+
+msgid "xbone_neg"
+msgstr ""
+
+msgid "nin82_neg"
+msgstr ""
+
+msgid "nin91_neg"
+msgstr ""
+
+msgid "nin06_neg"
+msgstr ""
+
+msgid "x360_neg"
+msgstr ""
+
+msgid "bone_p"
+msgstr ""
+
+msgid "bone_s"
+msgstr ""
+
+msgid "nx64_neg"
+msgstr ""
+
+msgid "gen_neg"
+msgstr ""
+
+msgid "ui/spr_dpad_"
+msgstr ""
+
+msgid "_neg"
+msgstr ""
+
+msgid "blank_neg"
+msgstr ""
+
+msgid "soul_neg"
+msgstr ""
+
+msgid "box_neg"
+msgstr ""
+
+msgid "box_mtt"
+msgstr ""
+
+msgid "_ctrltest"
+msgstr ""
+
+msgid "_ctrltest_neg"
+msgstr ""
+
+msgid "_BUTTON"
+msgstr ""
+
+msgid "ui/spr_button_"
+msgstr ""
+
+msgid "N/A"
+msgstr ""
+
+msgid "battle/enemies/Moldessa/spr_b_moldessa_face_"
+msgstr ""
+
+msgid "sounds/snd_weirdeffect"
+msgstr ""
+
+msgid "battle/enemies/Mondo Mole/spr_b_mondo_die_0"
+msgstr ""
+
+msgid "sounds/snd_enemy_psi"
+msgstr ""
+
+msgid "battle/enemies/Mondo Mole/spr_b_mondo_die_1"
+msgstr ""
+
+msgid "battle/enemies/Mondo Mole/spr_b_mondo_die_2"
+msgstr ""
+
+msgid "overworld/npcs/MoleFriend"
+msgstr ""
+
+msgid "music/mus_wintercaves"
+msgstr ""
+
+msgid "overworld/npcs/enemies/npc_replace/DeadMondoMole"
+msgstr ""
+
+msgid "overworld/npcs/spr_mondo_mole_kill"
+msgstr ""
+
+msgid "overworld/npcs/spr_mondo_mole_kill_age"
+msgstr ""
+
+msgid "sounds/snd_moss_fanfare"
+msgstr ""
+
+msgid "sounds/snd_eb_ailment"
+msgstr ""
+
+msgid "snd_txtsat"
+msgstr ""
+
+msgid "music/mus_dance_of_dog"
+msgstr ""
+
+msgid "ui/spr_quest"
+msgstr ""
+
+msgid "sounds/snd_knock"
+msgstr ""
+
+msgid "battle/attacks/bullets/ruins/VegCarrotBullet"
+msgstr ""
+
+msgid "battle/attacks/bullets/ruins/VegBounceBullet"
+msgstr ""
+
+msgid "mus_lostcore"
+msgstr ""
+
+msgid "overworld/lostcore_objects/LostCoreMusic"
+msgstr ""
+
+msgid "battle/enemies/Napstablook/spr_b_napstablook_0"
+msgstr ""
+
+msgid "battle/enemies/Napstablook/spr_b_napstablook_1"
+msgstr ""
+
+msgid "g_start"
+msgstr ""
+
+msgid "_n"
+msgstr ""
+
+msgid "player/{0}/neon/{1}_n"
+msgstr ""
+
+msgid "overworld/npc/{component.sprite.name}_n"
+msgstr ""
+
+msgid "player/{component.gameObject.name}/neon/{component.sprite.name}_n"
+msgstr ""
+
+msgid "battle/enemies/Paula/spr_b_paula_gasp"
+msgstr ""
+
+msgid "battle/enemies/Paula/spr_b_paula_head_openeye"
+msgstr ""
+
+msgid "battle/enemies/Ness/spr_b_ness_head"
+msgstr ""
+
+msgid "_regret"
+msgstr ""
+
+msgid "battle/enemies/Ness/spr_b_ness_head_regret"
+msgstr ""
+
+msgid "battle/enemies/Paula/spr_b_paula_head_listening"
+msgstr ""
+
+msgid "battle/enemies/Ness/spr_b_ness_kill_0"
+msgstr ""
+
+msgid "_worry"
+msgstr ""
+
+msgid "battle/enemies/Ness/spr_b_ness_head_psi"
+msgstr ""
+
+msgid "paula_tries_healing"
+msgstr ""
+
+msgid "ness_fucking_dies"
+msgstr ""
+
+msgid "paulas_shock"
+msgstr ""
+
+msgid "paulas_plea"
+msgstr ""
+
+msgid "paula_is_pissed"
+msgstr ""
+
+msgid "battle/enemies/Ness/spr_b_ness_kill_1"
+msgstr ""
+
+msgid "battle/enemies/Ness/spr_b_ness_kill_2"
+msgstr ""
+
+msgid "battle/enemies/Ness/spr_b_ness_kill_3"
+msgstr ""
+
+msgid "sounds/snd_nessdie"
+msgstr ""
+
+msgid "battle/enemies/Paula/spr_b_paula_gasp_down"
+msgstr ""
+
+msgid "battle/enemies/Paula/spr_b_paula_cry_0"
+msgstr ""
+
+msgid "battle/enemies/Paula/spr_b_paula_cry_"
+msgstr ""
+
+msgid "battle/enemies/Paula/spr_b_paula_cry_2"
+msgstr ""
+
+msgid "sounds/snd_badsongintro"
+msgstr ""
+
+msgid "battle/attacks/bullets/nesspaula/PaulaTarget"
+msgstr ""
+
+msgid "vfx/BattleBGEffect/Earthbound/Paula"
+msgstr ""
+
+msgid "vfx/BattleBGEffect/Earthbound/PaulaLowGraphic"
+msgstr ""
+
+msgid "ness_sad"
+msgstr ""
+
+msgid "ness_annoyed"
+msgstr ""
+
+msgid "g_1"
+msgstr ""
+
+msgid "overworld/npcs/enemies/npc_replace/DeadEBHeroes"
+msgstr ""
+
+msgid "overworld/npcs/spr_ness_kill"
+msgstr ""
+
+msgid "overworld/npcs/spr_paula_kill"
+msgstr ""
+
+msgid "spr_su_wtf_kr"
+msgstr ""
+
+msgid "spr_no_collapsed_wake"
+msgstr ""
+
+msgid "spr_su_surprise_right_kr"
+msgstr ""
+
+msgid "music/mus_charjoined"
+msgstr ""
+
+msgid "no_blush"
+msgstr ""
+
+msgid "g/spr_fr_right_1_g"
+msgstr ""
+
+msgid "kr_neutral"
+msgstr ""
+
+msgid "spr_no_blush"
+msgstr ""
+
+msgid "player/Kris/spr_kr_pose"
+msgstr ""
+
+msgid "spr_no_pose"
+msgstr ""
+
+msgid "music/mus_prebattle1"
+msgstr ""
+
+msgid "kr_scared_noeye"
+msgstr ""
+
+msgid "kr_violent"
+msgstr ""
+
+msgid "sounds/snd_battlestart"
+msgstr ""
+
+msgid "overworld/npcs/spr_frg_grasp"
+msgstr ""
+
+msgid "sounds/snd_mysterygo"
+msgstr ""
+
+msgid "overworld/npcs/enemies/spr_batty_kill"
+msgstr ""
+
+msgid "overworld/npcs/enemies/spr_batty_kill_age"
+msgstr ""
+
+msgid "overworld/npcs/enemies/spr_bear_kill"
+msgstr ""
+
+msgid "overworld/npcs/enemies/spr_bear_kill_age"
+msgstr ""
+
+msgid "overworld/npcs/enemies/spr_coil_snake_kill"
+msgstr ""
+
+msgid "overworld/npcs/enemies/spr_mole_kill"
+msgstr ""
+
+msgid "overworld/npcs/enemies/spr_mole_kill_age"
+msgstr ""
+
+msgid "spr_su_iceslide_"
+msgstr ""
+
+msgid "spr_no_iceslide_"
+msgstr ""
+
+msgid "player/kris_ow"
+msgstr ""
+
+msgid "player/frisk_ow"
+msgstr ""
+
+msgid "vfx/SlideDust"
+msgstr ""
+
+msgid "_g"
+msgstr ""
+
+msgid "spr_fr_run"
+msgstr ""
+
+msgid "/spr_kr_slide_"
+msgstr ""
+
+msgid "spr_kr_slide"
+msgstr ""
+
+msgid "sounds/snd_paper_surf"
+msgstr ""
+
+msgid "spr_kr_iceslide_"
+msgstr ""
+
+msgid "overworld/OWSoul"
+msgstr ""
+
+msgid "player/Kris/"
+msgstr ""
+
+msgid "snd_step"
+msgstr ""
+
+msgid "_chill"
+msgstr ""
+
+msgid "overworld/npcs/enemies/spr_tree_enemy_catch"
+msgstr ""
+
+msgid "lang/"
+msgstr ""
+
+msgid "ui/spr_quitmessage_"
+msgstr ""
+
+msgid "Invalid asset tried/failed to load "
+msgstr ""
+
+msgid "Assets/pack/text/"
+msgstr ""
+
+msgid "Assets/pack/"
+msgstr ""
+
+msgid "Assets/pack/sprites/"
+msgstr ""
+
+msgid "Assets/pack/sounds/voice/"
+msgstr ""
+
+msgid "Assets/pack/fonts/"
+msgstr ""
+
+msgid "fonts/"
+msgstr ""
+
+msgid "battle/attacks/bullets/eb/PaintBlobBullet"
+msgstr ""
+
+msgid "spr_no_paintedblue"
+msgstr ""
+
+msgid "battle/attacks/bullets/eb/PaintBlobPlatforms"
+msgstr ""
+
+msgid "battle/attacks/bullets/eb/PaintbrushBullet"
+msgstr ""
+
+msgid "battle/dr/StatusNumber"
+msgstr ""
+
+msgid "battle/enemies/Parsnik/spr_b_parsnik_head_0"
+msgstr ""
+
+msgid "battle/enemies/Parsnik/spr_b_parsnik_head_1"
+msgstr ""
+
+msgid "battle/enemies/Parsnik/spr_b_parsnik_head_2"
+msgstr ""
+
+msgid "battle/enemies/Parsnik/spr_b_parsnik_head_3"
+msgstr ""
+
+msgid "battle/enemies/Parsnik/spr_b_parsnik_snake"
+msgstr ""
+
+msgid "spr_fr_down_0"
+msgstr ""
+
+msgid "spr_paula_down_0"
+msgstr ""
+
+msgid "spr_ch_down_0"
+msgstr ""
+
+msgid "spr_sans_down_0"
+msgstr ""
+
+msgid "player/Susie/"
+msgstr ""
+
+msgid "player/Noelle/"
+msgstr ""
+
+msgid "overworld/npcs/"
+msgstr ""
+
+msgid "player/Chara/"
+msgstr ""
+
+msgid "player/Sans/"
+msgstr ""
+
+msgid "battle/attacks/bullets/nesspaula/PKFireMainBullet"
+msgstr ""
+
+msgid "battle/enemies/Paula/spr_b_paula_head_sad"
+msgstr ""
+
+msgid "battle/CrossSlash"
+msgstr ""
+
+msgid "battle/enemies/Paula/spr_b_paula_kill_0"
+msgstr ""
+
+msgid "battle/enemies/Paula/spr_b_paula_head_phase2"
+msgstr ""
+
+msgid "battle/enemies/Paula/spr_b_paula_torso_pan"
+msgstr ""
+
+msgid "battle/enemies/Paula/spr_b_paula_leg_apart"
+msgstr ""
+
+msgid "spr_su_down_depressed_0"
+msgstr ""
+
+msgid "spr_no_down_depressed_0"
+msgstr ""
+
+msgid "intro_1_paulaknown"
+msgstr ""
+
+msgid "gaster_rant_0"
+msgstr ""
+
+msgid "gaster_rant_1"
+msgstr ""
+
+msgid "gaster_rant_2"
+msgstr ""
+
+msgid "post_gaster_0"
+msgstr ""
+
+msgid "post_gaster_1"
+msgstr ""
+
+msgid "choices_0"
+msgstr ""
+
+msgid "post_gaster_2_choice0"
+msgstr ""
+
+msgid "post_gaster_2_choice1"
+msgstr ""
+
+msgid "post_gaster_3"
+msgstr ""
+
+msgid "paula_injured_0"
+msgstr ""
+
+msgid "choices_1"
+msgstr ""
+
+msgid "paula_injured_1_choice0"
+msgstr ""
+
+msgid "paula_injured_1_choice1"
+msgstr ""
+
+msgid "cope_seethe_mald"
+msgstr ""
+
+msgid "overworld/npcs/spr_paula_firstcut_1"
+msgstr ""
+
+msgid "pau_confused"
+msgstr ""
+
+msgid "pau_surprised"
+msgstr ""
+
+msgid "overworld/npcs/spr_paula_firstcut_2"
+msgstr ""
+
+msgid "overworld/npcs/spr_paula_firstcut_3"
+msgstr ""
+
+msgid "spr_su_smash_0"
+msgstr ""
+
+msgid "spr_su_smash_1"
+msgstr ""
+
+msgid "spr_su_smash_"
+msgstr ""
+
+msgid "overworld/eb_objects/spr_cabin_shading_nodoor"
+msgstr ""
+
+msgid "pau_wideeye"
+msgstr ""
+
+msgid "music/AUDIO_ANOTHERHIM"
+msgstr ""
+
+msgid "sounds/snd_shadowpendant"
+msgstr ""
+
+msgid "spr_kr_outline_intimidate"
+msgstr ""
+
+msgid "music/mus_paula"
+msgstr ""
+
+msgid "pau_annoyed"
+msgstr ""
+
+msgid "overworld/npcs/spr_paula_kneel"
+msgstr ""
+
+msgid "pau_pain"
+msgstr ""
+
+msgid "overworld/npcs/spr_paula_down_annoyed"
+msgstr ""
+
+msgid "no_boom"
+msgstr ""
+
+msgid "sounds/snd_vineboom"
+msgstr ""
+
+msgid "overworld/npcs/spr_paula_trip"
+msgstr ""
+
+msgid "overworld/npcs/spr_paula_firstcut_0"
+msgstr ""
+
+msgid "overworld/eb_objects/spr_cabin_shading_door"
+msgstr ""
+
+msgid "paulas_last_cry"
+msgstr ""
+
+msgid "battle/enemies/Paula/spr_b_paula_kill_1"
+msgstr ""
+
+msgid "sounds/snd_crack"
+msgstr ""
+
+msgid "ui/spr_screen_crack_"
+msgstr ""
+
+msgid "battle/enemies/Paula/spr_b_paula_kill_2"
+msgstr ""
+
+msgid "battle/enemies/Paula/spr_b_paula_kill_3"
+msgstr ""
+
+msgid "battle/enemies/Paula/spr_b_paula_kill_4"
+msgstr ""
+
+msgid "battle/enemies/Spinning Robo/spr_b_robo_body"
+msgstr ""
+
+msgid "battle/attacks/bullets/eb/SproutFallPelletBullet"
+msgstr ""
+
+msgid "battle/attacks/bullets/eb/RoboLaserBullet"
+msgstr ""
+
+msgid "battle/enemies/Spinning Robo/spr_b_robo_body_shoot"
+msgstr ""
+
+msgid "battle/attacks/bullets/eb/UFOBullet"
+msgstr ""
+
+msgid "battle/attacks/bullets/eb/PSIMagnetBullet"
+msgstr ""
+
+msgid "overworld/eb_objects/WaterPillar"
+msgstr ""
+
+msgid "spr_su_embarrassed_0"
+msgstr ""
+
+msgid "music/mus_photo_intro"
+msgstr ""
+
+msgid "spr_su_left_unhappy_0"
+msgstr ""
+
+msgid "overworld/npcs/spr_fuzzypickle_up"
+msgstr ""
+
+msgid "spr_kr_peace"
+msgstr ""
+
+msgid "sounds/snd_camera_flash"
+msgstr ""
+
+msgid "overworld/eb_objects/spr_hh_picnic_empty"
+msgstr ""
+
+msgid "battle/attacks/PlatformingTestPlatforms"
+msgstr ""
+
+msgid "battle/enemies/Porky/spr_b_porky_mech_body_"
+msgstr ""
+
+msgid "battle/enemies/Porky/spr_b_porky_mech_body_dmg"
+msgstr ""
+
+msgid "battle/enemies/Porky/spr_b_porky_head_nohp"
+msgstr ""
+
+msgid "battle/enemies/Porky/spr_b_porky_mech_body_nohp"
+msgstr ""
+
+msgid "sounds/snd_f_destroyed3"
+msgstr ""
+
+msgid "battle/enemies/Porky/PorkyFling"
+msgstr ""
+
+msgid "battle/enemies/Porky/spr_b_porky_head_worry"
+msgstr ""
+
+msgid "ness_neutral"
+msgstr ""
+
+msgid "ness_confused"
+msgstr ""
+
+msgid "overworld/npcs/spr_paula_happy"
+msgstr ""
+
+msgid "ness_surprised"
+msgstr ""
+
+msgid "ness_smile"
+msgstr ""
+
+msgid "ness_fuzzy"
+msgstr ""
+
+msgid "no_depressed_look"
+msgstr ""
+
+msgid "overworld/npcs/spr_ralsei_lookover"
+msgstr ""
+
+msgid "ral_concerned_doobie"
+msgstr ""
+
+msgid "kr_injured"
+msgstr ""
+
+msgid "no_sad"
+msgstr ""
+
+msgid "spr_kr_up_removesoul_8_injured"
+msgstr ""
+
+msgid "spr_no_freeze_soul_0"
+msgstr ""
+
+msgid "spr_kr_sit_soulless"
+msgstr ""
+
+msgid "sounds/snd_petrify"
+msgstr ""
+
+msgid "kr_evil_injured"
+msgstr ""
+
+msgid "spr_no_cast_right"
+msgstr ""
+
+msgid "overworld/eb_objects/spr_frozen_soul"
+msgstr ""
+
+msgid "sounds/snd_glassbreak"
+msgstr ""
+
+msgid "no_mad_closed"
+msgstr ""
+
+msgid "music/mus_adrenaline"
+msgstr ""
+
+msgid "battle/attacks/bullets/porky/PorkyFinalBeam"
+msgstr ""
+
+msgid "battle/enemies/Porky/spr_b_porky_ness"
+msgstr ""
+
+msgid "overworld/spr_portal_out_"
+msgstr ""
+
+msgid "overworld/spr_portal_glow_"
+msgstr ""
+
+msgid "sounds/snd_portal_close"
+msgstr ""
+
+msgid "sounds/snd_portal_open_"
+msgstr ""
+
+msgid "sounds/snd_portal_enter"
+msgstr ""
+
+msgid "su_sad_side"
+msgstr ""
+
+msgid "no_silent_side"
+msgstr ""
+
+msgid "sans_wink"
+msgstr ""
+
+msgid "sans_side"
+msgstr ""
+
+msgid "overworld/npcs/underfell/spr_qc_uf_fear"
+msgstr ""
+
+msgid "overworld/npcs/underfell/spr_qc_uf_pissed"
+msgstr ""
+
+msgid "overworld/npcs/enemies/spr_snowdrake_right_1_chillred"
+msgstr ""
+
+msgid "overworld/npcs/enemies/spr_snowdrake_right_0_chillred"
+msgstr ""
+
+msgid "_chillred"
+msgstr ""
+
+msgid "ui/spr_punch_card"
+msgstr ""
+
+msgid "ui/spr_punch_card_quest"
+msgstr ""
+
+msgid "ui/spr_punch_card_thereturn"
+msgstr ""
+
+msgid "ui/spr_punch_card_bnp"
+msgstr ""
+
+msgid "overworld/npcs/underfell/spr_qc_uf_sit"
+msgstr ""
+
+msgid "overworld/snow_objects/spr_bnuy_home_0_susie_"
+msgstr ""
+
+msgid "no_mad"
+msgstr ""
+
+msgid "overworld/npcs/underfell/spr_qc_uf_sit_4"
+msgstr ""
+
+msgid "overworld/npcs/underfell/spr_qc_uf_sit_1"
+msgstr ""
+
+msgid "overworld/npcs/underfell/spr_qc_uf_sit_3"
+msgstr ""
+
+msgid "overworld/npcs/underfell/spr_qc_uf_sit_2"
+msgstr ""
+
+msgid "overworld/npcs/underfell/spr_qc_uf_sit_5"
+msgstr ""
+
+msgid "overworld/npcs/underfell/spr_qc_uf_sit_8"
+msgstr ""
+
+msgid "overworld/npcs/underfell/spr_qc_uf_sit_9"
+msgstr ""
+
+msgid "overworld/snow_objects/spr_bnuy_home_0_susie_1"
+msgstr ""
+
+msgid "overworld/npcs/underfell/spr_qc_uf_sit_6"
+msgstr ""
+
+msgid "overworld/npcs/underfell/spr_qc_uf_sit_7"
+msgstr ""
+
+msgid "overworld/snow_objects/spr_bnuy_home_0_toplayer"
+msgstr ""
+
+msgid "ral_doobie"
+msgstr ""
+
+msgid "spr_kr_surprise_down"
+msgstr ""
+
+msgid "battle/enemies/Rough Mole/spr_b_mole_normal"
+msgstr ""
+
+msgid "battle/acts/MoleToss"
+msgstr ""
+
+msgid "battle/enemies/Sans/spr_b_sans_hoodflame_"
+msgstr ""
+
+msgid "battle/KarmaHandler"
+msgstr ""
+
+msgid "battle/attacks/bullets/sans/MenuBone"
+msgstr ""
+
+msgid "empty_down"
+msgstr ""
+
+msgid "music/mus_vsufsans"
+msgstr ""
+
+msgid "empty_twitch"
+msgstr ""
+
+msgid "losingit_twitch"
+msgstr ""
+
+msgid "closed_down"
+msgstr ""
+
+msgid "goinginsane_twitch"
+msgstr ""
+
+msgid "ufsans_empty`snd_txtsans`*\\tquit talking to me."
+msgstr ""
+
+msgid ""
+"ufsans_sadistic`snd_txtsans`*\\tjust lie down and make\n"
+"\\tthis easy for me."
+msgstr ""
+
+msgid ""
+"ufsans_side`snd_txtsans`*\\twhy the hell would i\n"
+"\\ttell you why i'm doing\n"
+"\\tthis?"
+msgstr ""
+
+msgid ""
+"ufsans_closed`snd_txtsans`*\\ti'd be giving you an\n"
+"\\topportunity to make things\n"
+"\\tworse."
+msgstr ""
+
+msgid "ufsans_side`snd_txtsans`*\\toh,^05 I'M being unreasonable?"
+msgstr ""
+
+msgid ""
+"ufsans_empty`snd_txtsans`*\\tthe only reasonable thing\n"
+"\\ti can think of doing is\n"
+"\\tpulverizing you."
+msgstr ""
+
+msgid "ufsans_closed`snd_txtsans`*\\tyou wanna talk?"
+msgstr ""
+
+msgid "ufsans_side`snd_txtsans`*\\treally now."
+msgstr ""
+
+msgid ""
+"ufsans_sadistic`snd_txtsans`*\\tyou're really gonna go back\n"
+"\\ton that mass murder thing\n"
+"\\twith a mass murderer?"
+msgstr ""
+
+msgid ""
+"ufsans_empty`snd_txtsans`*\\twhat makes you think i'd\n"
+"\\tbe willing to talk to\n"
+"\\tthe likes of you?"
+msgstr ""
+
+msgid "sounds/snd_sans_refocus"
+msgstr ""
+
+msgid "_r"
+msgstr ""
+
+msgid "battle/enemies/Sans/spr_b_sans_death_"
+msgstr ""
+
+msgid "shocked_cracked"
+msgstr ""
+
+msgid "battle/enemies/Sans/spr_b_sans_torso_sliced"
+msgstr ""
+
+msgid "battle/enemies/Sans/spr_b_sans_head_"
+msgstr ""
+
+msgid "battle/enemies/Sans/spr_b_sans_sweat_"
+msgstr ""
+
+msgid "battle/enemies/Sans/spr_b_sans_legs_sit"
+msgstr ""
+
+msgid "battle/enemies/Sans/spr_b_sans_freeze"
+msgstr ""
+
+msgid "battle/attacks/bullets/sans/SansClimbChallenge1"
+msgstr ""
+
+msgid "battle/attacks/bullets/sans/SansClimbChallenge2"
+msgstr ""
+
+msgid "shocked_cracked_blood"
+msgstr ""
+
+msgid "battle/enemies/Sans/spr_b_sans_torso_sliced_bleed_0"
+msgstr ""
+
+msgid "sounds/snd_break1"
+msgstr ""
+
+msgid "split_shocked"
+msgstr ""
+
+msgid "battle/enemies/Sans/spr_b_sans_otherhalfofhead_r"
+msgstr ""
+
+msgid "battle/enemies/Sans/spr_b_sans_torso_sliced_bleed_1"
+msgstr ""
+
+msgid "split_think"
+msgstr ""
+
+msgid ""
+"that poor,^15 lost little \n"
+"orphan named <color=#FF00FF>suzy</color>?"
+msgstr ""
+
+msgid "split_laugh_0"
+msgstr ""
+
+msgid "music/mus_sansdeath"
+msgstr ""
+
+msgid "split_laugh_"
+msgstr ""
+
+msgid "battle/attacks/Platform"
+msgstr ""
+
+msgid "battle/attacks/bullets/sans/Bone"
+msgstr ""
+
+msgid "goinginsane_empty"
+msgstr ""
+
+msgid "insane_laugh_"
+msgstr ""
+
+msgid "battle/enemies/Sans/spr_b_sans_torso"
+msgstr ""
+
+msgid "battle/enemies/Sans/spr_b_sans_torso_downswing_"
+msgstr ""
+
+msgid "battle/enemies/Sans/spr_b_sans_torso_rightswing_"
+msgstr ""
+
+msgid "closed_unhappy"
+msgstr ""
+
+msgid "vfx/EnemyFreeze"
+msgstr ""
+
+msgid "battle/attacks/bullets/sans/IntroBoneFormation1"
+msgstr ""
+
+msgid "spr_kr_surprise_down_holdingtorch"
+msgstr ""
+
+msgid "overworld/npcs/underfell/spr_qc_uf_attack_sans_1"
+msgstr ""
+
+msgid "overworld/npcs/underfell/spr_ufsans_push_qc"
+msgstr ""
+
+msgid "overworld/npcs/underfell/spr_qc_hit"
+msgstr ""
+
+msgid "spr_kr_grabbed_sans_0"
+msgstr ""
+
+msgid "overworld/npcs/underfell/spr_ufpap_punch"
+msgstr ""
+
+msgid "overworld/npcs/underfell/spr_ufsans_reach"
+msgstr ""
+
+msgid "overworld/npcs/underfell/spr_ufpap_right_mad_0"
+msgstr ""
+
+msgid "vfx/OverworldZ"
+msgstr ""
+
+msgid "ufpap_dejected"
+msgstr ""
+
+msgid "spr_no_think_left_sad"
+msgstr ""
+
+msgid "spr_su_lookup"
+msgstr ""
+
+msgid "spr_su_lookup_side"
+msgstr ""
+
+msgid "music/mus_sansspare_intro"
+msgstr ""
+
+msgid "ufpap_sad"
+msgstr ""
+
+msgid "ufpap_dejected_closed"
+msgstr ""
+
+msgid "spr_kr_think"
+msgstr ""
+
+msgid "spr_kr_think_look"
+msgstr ""
+
+msgid "overworld/npcs/underfell/spr_ufpap_casual_up_0"
+msgstr ""
+
+msgid "ufpap_confident"
+msgstr ""
+
+msgid "overworld/npcs/underfell/spr_ufpap_casual_pointatkris"
+msgstr ""
+
+msgid "spr_kr_think_look_turn"
+msgstr ""
+
+msgid "overworld/npcs/underfell/spr_ufpap_casual_lookatnoelle"
+msgstr ""
+
+msgid "overworld/npcs/underfell/spr_ufpap_casual_down_closed_0"
+msgstr ""
+
+msgid "overworld/npcs/underfell/spr_ufpap_casual_confident"
+msgstr ""
+
+msgid "spr_su_postsans_0"
+msgstr ""
+
+msgid "spr_su_postsans_look"
+msgstr ""
+
+msgid "spr_su_grasp_kris_4"
+msgstr ""
+
+msgid "spr_kr_think_noeye"
+msgstr ""
+
+msgid "spr_su_lookup_glare"
+msgstr ""
+
+msgid "ufsans_shocked"
+msgstr ""
+
+msgid "ufsans_sad"
+msgstr ""
+
+msgid "overworld/npcs/underfell/spr_ufsans_sad_0"
+msgstr ""
+
+msgid "ufsans_depressed"
+msgstr ""
+
+msgid "ufpap_disappointed"
+msgstr ""
+
+msgid "overworld/npcs/underfell/spr_ufsans_sad_1"
+msgstr ""
+
+msgid "ufpap_disappointed_closed"
+msgstr ""
+
+msgid "overworld/npcs/underfell/spr_ufpap_casual_right_mad_0"
+msgstr ""
+
+msgid "ufpap_relief"
+msgstr ""
+
+msgid "music/mus_sansspare_real"
+msgstr ""
+
+msgid "overworld/npcs/underfell/spr_ufpap_sans_stand_0"
+msgstr ""
+
+msgid "overworld/npcs/underfell/spr_ufpap_sans_stand_1"
+msgstr ""
+
+msgid "ufsans_sad_confused"
+msgstr ""
+
+msgid "ufsans_sad_smile_side"
+msgstr ""
+
+msgid "overworld/npcs/underfell/spr_ufpap_sans_stand_2"
+msgstr ""
+
+msgid "overworld/npcs/underfell/spr_ufpap_sans_stand_3"
+msgstr ""
+
+msgid "overworld/npcs/underfell/spr_ufpap_sans_stand_4"
+msgstr ""
+
+msgid "overworld/npcs/underfell/spr_ufpap_sans_stand_5"
+msgstr ""
+
+msgid "music/mus_deep_noise"
+msgstr ""
+
+msgid "overworld/npcs/underfell/spr_ufsans_frozen"
+msgstr ""
+
+msgid "overworld/npcs/underfell/spr_ufsans_shock"
+msgstr ""
+
+msgid "overworld/npcs/underfell/spr_ufsans_sleep"
+msgstr ""
+
+msgid "overworld/npcs/underfell/spr_ufsans_reach_right"
+msgstr ""
+
+msgid "overworld/npcs/underfell/spr_ufsans_punch_0"
+msgstr ""
+
+msgid "overworld/npcs/underfell/spr_ufsans_punch_1"
+msgstr ""
+
+msgid "overworld/npcs/underfell/spr_ufsans_punch_2"
+msgstr ""
+
+msgid "spr_no_kneel_left"
+msgstr ""
+
+msgid "ufsans_grin"
+msgstr ""
+
+msgid "ufsans_sadistic"
+msgstr ""
+
+msgid "spr_kr_up_soul_yeet_5"
+msgstr ""
+
+msgid "spr_kr_jump_at_sans_0"
+msgstr ""
+
+msgid "spr_kr_jump_at_sans_1"
+msgstr ""
+
+msgid "spr_kr_stab_sans"
+msgstr ""
+
+msgid "overworld/npcs/underfell/spr_ufsans_elbow_kris"
+msgstr ""
+
+msgid "spr_su_point_right_unhappy"
+msgstr ""
+
+msgid "player/Kris/battle/normal/"
+msgstr ""
+
+msgid "closed_down_mad"
+msgstr ""
+
+msgid "realsad_side"
+msgstr ""
+
+msgid "music/mus_sansspare"
+msgstr ""
+
+msgid "battle/enemies/Sans/spr_b_sans_regret_0"
+msgstr ""
+
+msgid "battle/enemies/Sans/spr_b_sans_regret_1"
+msgstr ""
+
+msgid "battle/enemies/Sans/spr_b_sans_regret_2"
+msgstr ""
+
+msgid "battle/enemies/Sans/spr_b_sans_regret_3"
+msgstr ""
+
+msgid "battle/enemies/Sans/spr_b_sans_regret_4"
+msgstr ""
+
+msgid "sans_neutral"
+msgstr ""
+
+msgid "sans_closed"
+msgstr ""
+
+msgid "closed_sleep"
+msgstr ""
+
+msgid "battle/enemies/Sans/spr_b_sans_legs"
+msgstr ""
+
+msgid "battle/enemies/Sans/spr_b_sans_torso_clutching"
+msgstr ""
+
+msgid "glare_sleepy"
+msgstr ""
+
+msgid "battle/enemies/Sans/spr_b_sans_torso_clutching_grasp"
+msgstr ""
+
+msgid "battle/enemies/Sans/spr_b_sans_torso_sleep"
+msgstr ""
+
+msgid "battle/enemies/Sans/SansZ"
+msgstr ""
+
+msgid "sounds/snd_save"
+msgstr ""
+
+msgid " left.</color>"
+msgstr ""
+
+msgid "ui/SaveMenu"
+msgstr ""
+
+msgid "sounds/snd_mode"
+msgstr ""
+
+msgid "music/mus_intronoise"
+msgstr ""
+
+msgid "music/mus_findher"
+msgstr ""
+
+msgid "player/Kris/spr_kr_dream_kneel_oblit"
+msgstr ""
+
+msgid "sounds/snd_step1"
+msgstr ""
+
+msgid "player/Kris/spr_kr_up_soul_yeet_5_dream"
+msgstr ""
+
+msgid "player/Kris/spr_kr_up_soul_yeet_6_dream"
+msgstr ""
+
+msgid "player/Kris/spr_kr_up_soul_yeet_7_dream"
+msgstr ""
+
+msgid "player/Kris/spr_kr_up_soul_yeet_8_dream"
+msgstr ""
+
+msgid "player/Kris/spr_kr_dream_dying_0"
+msgstr ""
+
+msgid "player/Kris/spr_kr_dream_dying_1"
+msgstr ""
+
+msgid "player/Kris/spr_soul_splatter_0"
+msgstr ""
+
+msgid "player/Kris/spr_kr_dream_dying_2"
+msgstr ""
+
+msgid "player/Kris/spr_soul_splatter_1"
+msgstr ""
+
+msgid "player/Kris/spr_kr_dream_dying_3"
+msgstr ""
+
+msgid "spr_kr_sleep_onground"
+msgstr ""
+
+msgid "spr_no_sit_unhappy"
+msgstr ""
+
+msgid "overworld/snow_objects/spr_bunny_comforter_1"
+msgstr ""
+
+msgid "sounds/snd_doorclose"
+msgstr ""
+
+msgid "overworld/snow_objects/spr_bnuy_doors_0"
+msgstr ""
+
+msgid "spr_kr_hugsusie_0"
+msgstr ""
+
+msgid "spr_kr_hugsusie_1"
+msgstr ""
+
+msgid "music/mus_angel"
+msgstr ""
+
+msgid "spr_kr_hugsusie_2"
+msgstr ""
+
+msgid "spr_kr_hugsusie_3"
+msgstr ""
+
+msgid "spr_kr_hugsusie_4"
+msgstr ""
+
+msgid "spr_kr_hugsusie_5"
+msgstr ""
+
+msgid "spr_kr_hugsusie_6"
+msgstr ""
+
+msgid "sounds/snd_dooropen"
+msgstr ""
+
+msgid "overworld/snow_objects/spr_bnuy_doors_1"
+msgstr ""
+
+msgid "spr_kr_removesoul_collapse_24"
+msgstr ""
+
+msgid "spr_kr_removesoul_collapse_25"
+msgstr ""
+
+msgid "overworld/snow_objects/spr_bunny_singlebed_nocover_putsoulin_8"
+msgstr ""
+
+msgid "overworld/snow_objects/spr_bunny_singlebed_soul"
+msgstr ""
+
+msgid "spr_kr_hop_down"
+msgstr ""
+
+msgid "spr_kr_removesoul_collapse_3"
+msgstr ""
+
+msgid "spr_kr_stumblewalk_down_0"
+msgstr ""
+
+msgid "spr_su_hugready"
+msgstr ""
+
+msgid "spr_kr_up_0"
+msgstr ""
+
+msgid "spr_kr_balled"
+msgstr ""
+
+msgid "su_sad_tears"
+msgstr ""
+
+msgid "su_crying"
+msgstr ""
+
+msgid "su_depressed_eyeliner"
+msgstr ""
+
+msgid "su_cried"
+msgstr ""
+
+msgid "su_cried_look_away"
+msgstr ""
+
+msgid "su_pissed_eyeliner"
+msgstr ""
+
+msgid "kr_relieved"
+msgstr ""
+
+msgid "depressed/spr_kr_up_0_depressed"
+msgstr ""
+
+msgid "kr_unimpressed"
+msgstr ""
+
+msgid "overworld/snow_objects/spr_bunny_singlebed_nocover"
+msgstr ""
+
+msgid "overworld/snow_objects/spr_bnuy_home_1_bed"
+msgstr ""
+
+msgid "overworld/snow_objects/spr_bnuy_doors_2"
+msgstr ""
+
+msgid "battle/attacks/bullets/SpearArrowBullet"
+msgstr ""
+
+msgid "battle/attacks/SOULShield"
+msgstr ""
+
+msgid "battle/spr_su_icon_grey"
+msgstr ""
+
+msgid "battle/spr_su_icon"
+msgstr ""
+
+msgid "ui/shop/spr_shop_stat_icons_"
+msgstr ""
+
+msgid "ui/shop/sans/spr_sans_shop_body"
+msgstr ""
+
+msgid "_point_0"
+msgstr ""
+
+msgid "_point_1"
+msgstr ""
+
+msgid "<color=#FFFF00FF>Photobook</color>"
+msgstr ""
+
+msgid "ui/shop/sans/spr_sans_shop_face_"
+msgstr ""
+
+msgid "ui/shop/sans/spr_tundrashop_bg_1"
+msgstr ""
+
+msgid "ui/shop/sans/WallHoleShop"
+msgstr ""
+
+msgid "_light"
+msgstr ""
+
+msgid "_point_0_light"
+msgstr ""
+
+msgid "_point_1_light"
+msgstr ""
+
+msgid "music/mus_shop"
+msgstr ""
+
+msgid ""
+"neutral`*\\tso i can buy <color=#FFFF00FF>three things</color>\n"
+"\\toff of you for now."
+msgstr ""
+
+msgid "battle/attacks/bullets/porky/SlowModeBeam"
+msgstr ""
+
+msgid "battle/RudePunchEffect"
+msgstr ""
+
+msgid "battle/enemies/JerryFinaleHP"
+msgstr ""
+
+msgid "battle/enemies/JerryFinaleHPText"
+msgstr ""
+
+msgid "IceCap_SnowUF_7(Clone)"
+msgstr ""
+
+msgid "overworld/snow_objects/Ball"
+msgstr ""
+
+msgid "spr_kr_couch_getup_0"
+msgstr ""
+
+msgid "overworld/npcs/snowdin/spr_ds_ttn_lookover"
+msgstr ""
+
+msgid "spr_kr_couch_getup_1"
+msgstr ""
+
+msgid "overworld/npcs/snowdin/spr_ds_ttn_lookkris_familiar"
+msgstr ""
+
+msgid "snd_txtdes_ut"
+msgstr ""
+
+msgid "snd_txtnoe_ut"
+msgstr ""
+
+msgid "dessut_confused"
+msgstr ""
+
+msgid "dessut_excited"
+msgstr ""
+
+msgid "dessut_happy"
+msgstr ""
+
+msgid "nl_happy"
+msgstr ""
+
+msgid "nl_neutral"
+msgstr ""
+
+msgid "music/mus_youngdess"
+msgstr ""
+
+msgid "overworld/npcs/snowdin/spr_ds_ttn_lookkris_happy"
+msgstr ""
+
+msgid "spr_kr_couch_surprise"
+msgstr ""
+
+msgid "spr_kr_couch_sit"
+msgstr ""
+
+msgid "dessut_thoughtful"
+msgstr ""
+
+msgid "dessut_neutral"
+msgstr ""
+
+msgid "overworld/npcs/snowdin/spr_ds_whisper"
+msgstr ""
+
+msgid "dessut_sneaky_look"
+msgstr ""
+
+msgid "dessut_sneaky"
+msgstr ""
+
+msgid "overworld/npcs/snowdin/spr_ds_whisper_peek"
+msgstr ""
+
+msgid "overworld/npcs/snowdin/spr_ds_confused"
+msgstr ""
+
+msgid "overworld/npcs/snowdin/spr_ds_explain"
+msgstr ""
+
+msgid "overworld/npcs/snowdin/spr_ds_excited"
+msgstr ""
+
+msgid "overworld/npcs/snowdin/spr_ds_worried"
+msgstr ""
+
+msgid "player/Noel/spr_nl_right_0_unhappy"
+msgstr ""
+
+msgid "overworld/npcs/snowdin/spr_ds_surprise"
+msgstr ""
+
+msgid "nl_curious"
+msgstr ""
+
+msgid "dessut_surprise"
+msgstr ""
+
+msgid "dessut_confused_think"
+msgstr ""
+
+msgid "nl_thinking"
+msgstr ""
+
+msgid "dessut_annoyed"
+msgstr ""
+
+msgid "overworld/npcs/snowdin/spr_ds_left_0_unhappy"
+msgstr ""
+
+msgid "player/Noel/spr_nl_right_0"
+msgstr ""
+
+msgid "player/Noel/spr_nl_happy"
+msgstr ""
+
+msgid "player/Noel/spr_nl_left_0_unhappy"
+msgstr ""
+
+msgid "nl_confused"
+msgstr ""
+
+msgid "dessut_murderous_side"
+msgstr ""
+
+msgid "dessut_embarrassed"
+msgstr ""
+
+msgid "player/Noel/spr_nl_down_0_unhappy"
+msgstr ""
+
+msgid "nl_weird"
+msgstr ""
+
+msgid "music/mus_star"
+msgstr ""
+
+msgid "player/Noel/spr_nl_surprise"
+msgstr ""
+
+msgid "nl_shocked"
+msgstr ""
+
+msgid "nl_confused_side"
+msgstr ""
+
+msgid "spr_no_surprise_leftdown"
+msgstr ""
+
+msgid "overworld/npcs/snowdin/spr_ds_peace"
+msgstr ""
+
+msgid "nl_playful"
+msgstr ""
+
+msgid "spr_kr_couch_sleep"
+msgstr ""
+
+msgid "battle/spr_soul_lightshield"
+msgstr ""
+
+msgid "vfx/DashEffect"
+msgstr ""
+
+msgid "battle/SOULShot"
+msgstr ""
+
+msgid "vfx/SOULShotChargeEffect"
+msgstr ""
+
+msgid "battle/BigShot"
+msgstr ""
+
+msgid "battle/SOULPiece"
+msgstr ""
+
+msgid "battle/spr_soulshatter"
+msgstr ""
+
+msgid "vfx/SuccessfulDash"
+msgstr ""
+
+msgid "sounds/snd_shootdash"
+msgstr ""
+
+msgid "vfx/SuccessfulParry"
+msgstr ""
+
+msgid "vfx/SOULChargeEffect"
+msgstr ""
+
+msgid "sounds/snd_stardrop"
+msgstr ""
+
+msgid "sounds/snd_great_shine"
+msgstr ""
+
+msgid "battle/SOULDrainGraphic"
+msgstr ""
+
+msgid "battle/spr_soul_graze"
+msgstr ""
+
+msgid "sounds/snd_graze"
+msgstr ""
+
+msgid "battle/attacks/spr_soul_shield"
+msgstr ""
+
+msgid "battle/attacks/spr_soul_shield_protect"
+msgstr ""
+
+msgid "overworld/npcs/spr_spamton_grab"
+msgstr ""
+
+msgid "overworld/npcs/spr_spamton_hand"
+msgstr ""
+
+msgid "spr_no_surprise_right"
+msgstr ""
+
+msgid "sounds/snd_spamton_laugh"
+msgstr ""
+
+msgid "snd_txtspam"
+msgstr ""
+
+msgid "spamton_insane"
+msgstr ""
+
+msgid "music/mus_spamton_meeting"
+msgstr ""
+
+msgid "spamton_neutral"
+msgstr ""
+
+msgid "spamton_laugh"
+msgstr ""
+
+msgid "spamton_stare"
+msgstr ""
+
+msgid "sounds/snd_mtt_hit"
+msgstr ""
+
+msgid "sprites/ui/spr_font_small"
+msgstr ""
+
+msgid "abcdefghijklmnopqrstuvwxyz0123456789!?-=.,#*/[]:"
+msgstr ""
+
+msgid "overworld/npcs/spr_exc_0"
+msgstr ""
+
+msgid "spr_su_grab_stick"
+msgstr ""
+
+msgid "music/mus_snowwalk"
+msgstr ""
+
+msgid "spr_no_right_unhappy_0"
+msgstr ""
+
+msgid "sans_rolleye"
+msgstr ""
+
+msgid "spr_su_up_run_0"
+msgstr ""
+
+msgid "spr_su_chilling_0"
+msgstr ""
+
+msgid "spr_su_chilling_1"
+msgstr ""
+
+msgid "spr_su_chilling_oblit_2"
+msgstr ""
+
+msgid "spr_no_down_depressed_reject"
+msgstr ""
+
+msgid "spr_su_chilling_oblit_0"
+msgstr ""
+
+msgid "spr_su_passed_out"
+msgstr ""
+
+msgid "overworld/snow_objects/spr_bed_noelle_0_oblit"
+msgstr ""
+
+msgid "overworld/snow_objects/spr_bed_noelle_1_oblit"
+msgstr ""
+
+msgid "overworld/snow_objects/spr_bed_noelle_2"
+msgstr ""
+
+msgid "spr_no_climb_to_bed_oblit"
+msgstr ""
+
+msgid "overworld/snow_objects/spr_bed_noelle_3_oblit"
+msgstr ""
+
+msgid "overworld/snow_objects/spr_bed_noelle_6"
+msgstr ""
+
+msgid "spr_su_chilling_oblit_1"
+msgstr ""
+
+msgid "overworld/snow_objects/spr_bed_noelle_0"
+msgstr ""
+
+msgid "overworld/snow_objects/spr_bed_noelle_1"
+msgstr ""
+
+msgid "spr_no_climb_to_bed"
+msgstr ""
+
+msgid "overworld/snow_objects/spr_bed_noelle_3"
+msgstr ""
+
+msgid "overworld/snow_objects/spr_bed_noelle_4"
+msgstr ""
+
+msgid "overworld/snow_objects/spr_bed_noelle_5"
+msgstr ""
+
+msgid "spr_su_climb_to_bed"
+msgstr ""
+
+msgid "battle/enemies/Susie/spr_b_susie_dmg"
+msgstr ""
+
+msgid "battle/enemies/Susie/spr_b_susie_annoyed"
+msgstr ""
+
+msgid "battle/attacks/bullets/snowdin/SusieLDAxeBullet"
+msgstr ""
+
+msgid "battle/attacks/bullets/snowdin/SusieLDBigRudeBuster"
+msgstr ""
+
+msgid ""
+"Think about what I \n"
+"did in the <color=#FF0000FF>Dark \n"
+"World</color>?"
+msgstr ""
+
+msgid "battle/enemies/Susie/spr_b_susie_side_sweat"
+msgstr ""
+
+msgid "battle/enemies/Susie/spr_b_susie_smile_sweat"
+msgstr ""
+
+msgid "battle/enemies/Susie/spr_b_susie_neutral"
+msgstr ""
+
+msgid "battle/enemies/Susie/spr_b_susie_side"
+msgstr ""
+
+msgid "battle/enemies/Susie/spr_b_susie_neutral_crossed"
+msgstr ""
+
+msgid "battle/enemies/Susie/spr_b_susie_thinking"
+msgstr ""
+
+msgid "battle/enemies/Susie/spr_b_susie_notice"
+msgstr ""
+
+msgid "battle/enemies/Susie/spr_b_susie_excited"
+msgstr ""
+
+msgid "battle/enemies/Susie/spr_b_susie_rudebuster_"
+msgstr ""
+
+msgid "sounds/snd_rudebuster_swing"
+msgstr ""
+
+msgid "battle/enemies/Susie/spr_b_susie_confident"
+msgstr ""
+
+msgid "battle/enemies/Susie/spr_b_susie_hurt_rage"
+msgstr ""
+
+msgid "battle/enemies/Susie/spr_b_susie_hurt_lookdown"
+msgstr ""
+
+msgid "battle/enemies/Susie/spr_b_susie_hurt_lookdown_1"
+msgstr ""
+
+msgid "battle/enemies/Susie/spr_b_susie_hurt_lookup"
+msgstr ""
+
+msgid "battle/enemies/Susie/spr_b_susie_hurt_spare"
+msgstr ""
+
+msgid "tori_wack"
+msgstr ""
+
+msgid "spr_su_sillykriskpickup_0"
+msgstr ""
+
+msgid "spr_su_sillykriskpickup_1"
+msgstr ""
+
+msgid "spr_su_sillykriskpickup_2"
+msgstr ""
+
+msgid "spr_su_sillykriskpickup_3"
+msgstr ""
+
+msgid "spr_su_sillykriskpickup_walk_"
+msgstr ""
+
+msgid "leftStick/x"
+msgstr ""
+
+msgid "leftStick/left"
+msgstr ""
+
+msgid "leftStick/right"
+msgstr ""
+
+msgid "leftStick/y"
+msgstr ""
+
+msgid "leftStick/up"
+msgstr ""
+
+msgid "leftStick/down"
+msgstr ""
+
+msgid "rightStick/x"
+msgstr ""
+
+msgid "rightStick/left"
+msgstr ""
+
+msgid "rightStick/right"
+msgstr ""
+
+msgid "rightStick/y"
+msgstr ""
+
+msgid "rightStick/up"
+msgstr ""
+
+msgid "rightStick/down"
+msgstr ""
+
+msgid "dpad/up"
+msgstr ""
+
+msgid "dpad/right"
+msgstr ""
+
+msgid "dpad/down"
+msgstr ""
+
+msgid "dpad/left"
+msgstr ""
+
+msgid " BUFFS (ATK/DEF): "
+msgstr ""
+
+msgid "ui/TextRemark"
+msgstr ""
+
+msgid "portrait_default"
+msgstr ""
+
+msgid "PORTRAIT_"
+msgstr ""
+
+msgid "no_realistic"
+msgstr ""
+
+msgid "sounds/snd_txteb"
+msgstr ""
+
+msgid "ui/eb/spr_eb_textbox_arrow_"
+msgstr ""
+
+msgid "ui/eb/spr_eb_textbox"
+msgstr ""
+
+msgid "overworld/npcs/portraits/spr_portrait_default_0"
+msgstr ""
+
+msgid "fonts/sans"
+msgstr ""
+
+msgid "fonts/papyrus"
+msgstr ""
+
+msgid "sounds/snd_text"
+msgstr ""
+
+msgid "txtq_2"
+msgstr ""
+
+msgid "ui/TextBaseGaster"
+msgstr ""
+
+msgid "/WD"
+msgstr ""
+
+msgid "fonts/wingdings"
+msgstr ""
+
+msgid "fonts/saturn"
+msgstr ""
+
+msgid "sounds/voice/"
+msgstr ""
+
+msgid "fonts/ganon"
+msgstr ""
+
+msgid "sounds/zelda/snd_text"
+msgstr ""
+
+msgid "sounds/zelda/snd_text_done"
+msgstr ""
+
+msgid "ui/zelda/spr_textbox_zelda_"
+msgstr ""
+
+msgid "overworld/snow_objects/tilemaze/TileMazeTile"
+msgstr ""
+
+msgid "sounds/snd_won"
+msgstr ""
+
+msgid "spr_su_lemon_sign_0"
+msgstr ""
+
+msgid "spr_no_orange_sign_0"
+msgstr ""
+
+msgid "spr_kr_pose"
+msgstr ""
+
+msgid "overworld/npcs/underfell/spr_ufpap_orb_throw_shoe"
+msgstr ""
+
+msgid "spr_su_lemon_sign_catch"
+msgstr ""
+
+msgid "spr_no_orange_sign_catch"
+msgstr ""
+
+msgid "music/mus_forest"
+msgstr ""
+
+msgid "overworld/snow_objects/tilemaze/spr_colortile_"
+msgstr ""
+
+msgid "overworld/snow_objects/tilemaze/spr_colortile_zap_"
+msgstr ""
+
+msgid "_TintMap"
+msgstr ""
+
+msgid "_TintMapSize"
+msgstr ""
+
+msgid "save_files"
+msgstr ""
+
+msgid "pack_menu"
+msgstr ""
+
+msgid "content_settings"
+msgstr ""
+
+msgid "low_graphics"
+msgstr ""
+
+msgid "button_styles"
+msgstr ""
+
+msgid "name_selection"
+msgstr ""
+
+msgid "file_options"
+msgstr ""
+
+msgid "easy_mode"
+msgstr ""
+
+msgid "ui/title/anagrams/spr_logo_anagram_"
+msgstr ""
+
+msgid "ui/title/spr_kris_title"
+msgstr ""
+
+msgid "ui/spr_blurry_soul"
+msgstr ""
+
+msgid "sounds/snd_appearance"
+msgstr ""
+
+msgid "player/Kris/injured/spr_kr_down_0_injured"
+msgstr ""
+
+msgid "player/Kris/eye/spr_kr_down_0_eye"
+msgstr ""
+
+msgid "ui/title/spr_save_platform_"
+msgstr ""
+
+msgid "player/Kris/spr_kr_down_0"
+msgstr ""
+
+msgid "Keyboard / Controller"
+msgstr ""
+
+msgid "mariobros/sounds/snd_coin"
+msgstr ""
+
+msgid "_surprise_down_holdingtorch"
+msgstr ""
+
+msgid "_surprise"
+msgstr ""
+
+msgid "spr_su_laydown"
+msgstr ""
+
+msgid "torid_blush"
+msgstr ""
+
+msgid "torid_worry"
+msgstr ""
+
+msgid "torid_weird"
+msgstr ""
+
+msgid "torid_mad"
+msgstr ""
+
+msgid "torid_wack"
+msgstr ""
+
+msgid "battle/enemies/Toriel/spr_b_toriel_"
+msgstr ""
+
+msgid "downed_0"
+msgstr ""
+
+msgid "downed_1"
+msgstr ""
+
+msgid "downed_"
+msgstr ""
+
+msgid "overworld/toriel_home/spr_chairiel_withtoriel"
+msgstr ""
+
+msgid "tori_cry_side"
+msgstr ""
+
+msgid "music/mus_musicbox"
+msgstr ""
+
+msgid "tori_cry"
+msgstr ""
+
+msgid "tori_cry_weird"
+msgstr ""
+
+msgid "music/mus_toriel"
+msgstr ""
+
+msgid "music/mus_ruins"
+msgstr ""
+
+msgid "overworld/npcs/portraits/spr_toriglasses_0"
+msgstr ""
+
+msgid "tori_sad"
+msgstr ""
+
+msgid "frisk_defends"
+msgstr ""
+
+msgid "battle/attacks/bullets/FlameBullet"
+msgstr ""
+
+msgid "music/mus_boss1"
+msgstr ""
+
+msgid "overworld/ruins_objects/spr_ruins_wallswitch_1"
+msgstr ""
+
+msgid "sounds/snd_boomf"
+msgstr ""
+
+msgid "overworld/npcs/spr_toriel_right_unhappy_0"
+msgstr ""
+
+msgid "spr_su_right_worried_0"
+msgstr ""
+
+msgid "SoulThrow_Left"
+msgstr ""
+
+msgid "tori_shocked"
+msgstr ""
+
+msgid "battle/acts/TrainingMenu"
+msgstr ""
+
+msgid "overworld/bullets/FakeOverworldBoneBullet"
+msgstr ""
+
+msgid "ui/spr_rounded_corner"
+msgstr ""
+
+msgid "spr_kr_up_run_0"
+msgstr ""
+
+msgid "spr_no_up_0"
+msgstr ""
+
+msgid "sounds/snd_creepyjingle"
+msgstr ""
+
+msgid "pap_mad"
+msgstr ""
+
+msgid "pap_side"
+msgstr ""
+
+msgid "pap_neutral"
+msgstr ""
+
+msgid "pap_laugh"
+msgstr ""
+
+msgid "pap_blush"
+msgstr ""
+
+msgid "pap_flush"
+msgstr ""
+
+msgid "pap_evil"
+msgstr ""
+
+msgid "music/mus_undynescary"
+msgstr ""
+
+msgid "overworld/npcs/waterfall/spr_undyne_a_call"
+msgstr ""
+
+msgid "snd_txtund"
+msgstr ""
+
+msgid "music/mus_undynetheme"
+msgstr ""
+
+msgid "und_helm"
+msgstr ""
+
+msgid "overworld/npcs/waterfall/spr_undyne_a_jump_0"
+msgstr ""
+
+msgid "music/mus_undynefast"
+msgstr ""
+
+msgid "overworld/npcs/waterfall/spr_undyne_a_jump_1"
+msgstr ""
+
+msgid "no_nobitches"
+msgstr ""
+
+msgid "spr_no_telescope"
+msgstr ""
+
+msgid "kr_susgrin"
+msgstr ""
+
+msgid "und_helm_weird_forward"
+msgstr ""
+
+msgid "und_helm_weird"
+msgstr ""
+
+msgid "und_helm_confused"
+msgstr ""
+
+msgid "kr_smirk_half"
+msgstr ""
+
+msgid "kr_side"
+msgstr ""
+
+msgid "spr_kr_taunt_undyne_0"
+msgstr ""
+
+msgid "spr_kr_taunt_undyne_1"
+msgstr ""
+
+msgid "kr_annoyed"
+msgstr ""
+
+msgid "ui/zelda/TextZelda"
+msgstr ""
+
+msgid "sounds/zelda/snd_lowhp"
+msgstr ""
+
+msgid "spr_su_dragkrisnole_1"
+msgstr ""
+
+msgid "overworld/bullets/UndyneSpearBullet"
+msgstr ""
+
+msgid "uno/UnoObjects"
+msgstr ""
+
+msgid "uno/CardHand"
+msgstr ""
+
+msgid "uno/UnoCanvasObjects"
+msgstr ""
+
+msgid "_uno"
+msgstr ""
+
+msgid "battle/unoenemies/"
+msgstr ""
+
+msgid "uno/FreeCardHand"
+msgstr ""
+
+msgid "sounds/snd_drumroll_loop"
+msgstr ""
+
+msgid "sounds/snd_cymbal"
+msgstr ""
+
+msgid "uno_check_"
+msgstr ""
+
+msgid "uno/CardsLeft"
+msgstr ""
+
+msgid "sounds/snd_equip"
+msgstr ""
+
+msgid "/spr_"
+msgstr ""
+
+msgid "face_tense_losing"
+msgstr ""
+
+msgid "tense_losing"
+msgstr ""
+
+msgid "v_"
+msgstr ""
+
+msgid "face_tense_"
+msgstr ""
+
+msgid "uno/HandCard"
+msgstr ""
+
+msgid "uno/Player"
+msgstr ""
+
+msgid "uno/AIPlayer"
+msgstr ""
+
+msgid "papyrus_hard"
+msgstr ""
+
+msgid "uno_"
+msgstr ""
+
+msgid "(it/its)"
+msgstr ""
+
+msgid "battle/attacks/bullets/hardmode/spr_snakebullet_bounce"
+msgstr ""
+
+msgid "battle/attacks/bullets/ruins/spr_vegbullet_"
+msgstr ""
+
+msgid "battle/attacks/bullets/hardmode/spr_snakebullet_fall"
+msgstr ""
+
+msgid "battle/enemies/Vegetoid/spr_b_vegetoid_0"
+msgstr ""
+
+msgid "battle/enemies/Vegetoid/spr_b_vegetoid_1"
+msgstr ""
+
+msgid "battle/enemies/Vegetoid/spr_b_vegetoid_2"
+msgstr ""
+
+msgid "battle/attacks/bullets/ruins/LooxWormBullet"
+msgstr ""
+
+msgid "battle/attacks/bullets/ruins/LooxBounceBullet"
+msgstr ""
+
+msgid "overworld/npcs/hhvillage/spr_cultist_kill_age_tw"
+msgstr ""
+
+msgid "sans_empty"
+msgstr ""
+
+msgid "overworld/npcs/hhvillage/spr_cow"
+msgstr ""
+
+msgid "battle/enemies/Whimsalot/spr_b_whimsalot_head_0"
+msgstr ""
+
+msgid "battle/enemies/Whimsalot/spr_b_whimsalot_head_1"
+msgstr ""
+
+msgid "battle/enemies/Whimsalot/spr_b_whimsalot_head_2"
+msgstr ""
+
+msgid "battle/enemies/Whimsalot/spr_b_whimsalot_body_0"
+msgstr ""
+
+msgid "battle/enemies/Whimsalot/spr_b_whimsalot_body_1"
+msgstr ""
+
+msgid "battle/enemies/Whimsalot/spr_b_whimsalot_wing_0"
+msgstr ""
+
+msgid "battle/enemies/Whimsalot/spr_b_whimsalot_wing_1"
+msgstr ""
+
+msgid "battle/enemies/Whimsalot/spr_b_whimsalot_wing_2"
+msgstr ""
+
+msgid "battle/enemies/Whimsalot/spr_b_whimsalot_wing_3"
+msgstr ""
+
+msgid "battle/enemies/Whimsun/spr_b_whimsun_0"
+msgstr ""
+
+msgid "battle/enemies/Whimsun/spr_b_whimsun_1"
+msgstr ""
+
+msgid "ui/PunchCardBit"
+msgstr ""
+
+msgid "music/mus_wrongnumbersong"
+msgstr ""
+
+msgid "mariobros/sprites/player/spr_"
+msgstr ""
+
+msgid "_big"
+msgstr ""
+
+msgid "_small"
+msgstr ""
+
+msgid "mus_bonus_clear"
+msgstr ""
+
+msgid "sounds/snd_1up"
+msgstr ""
+
+msgid "sounds/snd_nobonus"
+msgstr ""
+
+msgid "bonus_timer_idle"
+msgstr ""
+
+msgid "bonus_timer_flash"
+msgstr ""
+
+msgid "mariobros/sounds/snd_spawn"
+msgstr ""
+
+msgid "mariobros/sounds/snd_spawn_shellcreeper"
+msgstr ""
+
+msgid "mariobros/materials/enemies/koopa-"
+msgstr ""
+
+msgid "mariobros/prefabs/objects/Splash"
+msgstr ""
+
+msgid "sounds/snd_enemy_flip"
+msgstr ""
+
+msgid "sounds/snd_enemy_downed"
+msgstr ""
+
+msgid "mariobros/prefabs/fx/KickEffect"
+msgstr ""
+
+msgid "mariobros/sounds/snd_spawn_fighterfly"
+msgstr ""
+
+msgid "mariobros/sprites/objects/enemies/spr_fighterfly"
+msgstr ""
+
+msgid "mariobros/materials/enemies/fighterfly-"
+msgstr ""
+
+msgid "sounds/snd_freezie_die"
+msgstr ""
+
+msgid "sounds/snd_freeze"
+msgstr ""
+
+msgid "mariobros/materials/hud-score-tan"
+msgstr ""
+
+msgid "mariobros/materials/hud-score-tan-inverse"
+msgstr ""
+
+msgid "mariobros/sounds/snd_menu_appear"
+msgstr ""
+
+msgid "mariobros/sounds/snd_menu_cursor"
+msgstr ""
+
+msgid "mariobros/music/mus_game_over_continue"
+msgstr ""
+
+msgid "bonus_cold"
+msgstr ""
+
+msgid "mus_stage"
+msgstr ""
+
+msgid "mus_stage_underground"
+msgstr ""
+
+msgid "mus_bonus"
+msgstr ""
+
+msgid "mariobros/materials/{0}/{1}/{0}-{1}-{2}"
+msgstr ""
+
+msgid "mariobros/materials/{0}/{1}/{0}-{1}-0"
+msgstr ""
+
+msgid "mus_game_over"
+msgstr ""
+
+msgid "mus_level_clear"
+msgstr ""
+
+msgid "mariobros/prefabs/ui/bonus/BonusResults"
+msgstr ""
+
+msgid "mus_results"
+msgstr ""
+
+msgid "mariobros/prefabs/ui/PlayerHUD"
+msgstr ""
+
+msgid "mus_game_start"
+msgstr ""
+
+msgid "mus_bonus_start"
+msgstr ""
+
+msgid "mus_level_start"
+msgstr ""
+
+msgid "mariobros/prefabs/bg/"
+msgstr ""
+
+msgid "mariobros/materials/objects/ground-lava"
+msgstr ""
+
+msgid "mariobros/materials/objects/ground-water"
+msgstr ""
+
+msgid "mariobros/prefabs/objects/Icicle"
+msgstr ""
+
+msgid "mariobros/prefabs/objects/enemies/Koopa"
+msgstr ""
+
+msgid "mariobros/prefabs/objects/enemies/Fighterfly"
+msgstr ""
+
+msgid "mariobros/prefabs/objects/enemies/Sidestepper"
+msgstr ""
+
+msgid "mariobros/prefabs/objects/GreenFireball"
+msgstr ""
+
+msgid "mariobros/prefabs/objects/RedFireball"
+msgstr ""
+
+msgid "mariobros/prefabs/objects/bonuscoins/BonusCoin"
+msgstr ""
+
+msgid "mariobros/prefabs/objects/Freezie"
+msgstr ""
+
+msgid "mariobros/prefabs/objects/Mushroom"
+msgstr ""
+
+msgid "mariobros/prefabs/objects/Coin"
+msgstr ""
+
+msgid "mariobros/prefabs/fx/score/"
+msgstr ""
+
+msgid "big/"
+msgstr ""
+
+msgid "sounds/snd_player_grow"
+msgstr ""
+
+msgid "mariobros/sprites/objects/platforms/"
+msgstr ""
+
+msgid "mariobros/sprites/objects/platforms/spr_platform_hit_mask_"
+msgstr ""
+
+msgid "mariobros/prefabs/fx/Skid"
+msgstr ""
+
+msgid "pickup_1"
+msgstr ""
+
+msgid "mariobros/sounds/snd_player_step"
+msgstr ""
+
+msgid "mariobros/sounds/snd_player_charged"
+msgstr ""
+
+msgid "mariobros/sounds/snd_player_skid"
+msgstr ""
+
+msgid "mariobros/sounds/snd_player_die"
+msgstr ""
+
+msgid "mariobros/prefabs/objects/HeldPowBlock"
+msgstr ""
+
+msgid "pickup_0"
+msgstr ""
+
+msgid "mariobros/sounds/snd_player_pickup"
+msgstr ""
+
+msgid "mariobros/sounds/snd_player_throw"
+msgstr ""
+
+msgid "mariobros/sounds/snd_player_respawn"
+msgstr ""
+
+msgid "mariobros/sounds/snd_player_jump"
+msgstr ""
+
+msgid "_Brightness"
+msgstr ""
+
+msgid "die_alt"
+msgstr ""
+
+msgid "mariobros/sounds/voices/snd_"
+msgstr ""
+
+msgid "mariobros/sounds/snd_player_damage"
+msgstr ""
+
+msgid "mariobros/sounds/snd_player_grow"
+msgstr ""
+
+msgid "mariobros/sounds/snd_player_shrink"
+msgstr ""
+
+msgid "mariobros/sounds/snd_player_hit"
+msgstr ""
+
+msgid "mariobros/sounds/snd_player_kick_"
+msgstr ""
+
+msgid "mariobros/sounds/snd_1up"
+msgstr ""
+
+msgid "mariobros/sprites/ui/spr_hud_player_death_"
+msgstr ""
+
+msgid "mariobros/prefabs/network/MarioBrosNetworkManager"
+msgstr ""
+
+msgid "mariobros/prefabs/Player"
+msgstr ""
+
+msgid "mariobros/sounds/snd_spawn_sidestepper"
+msgstr ""
+
+msgid "mariobros/materials/enemies/sidestepper-"
+msgstr ""
+
+msgid "mariobros/sprites/objects/enemies/spr_sidestepper_"
+msgstr ""
+
+msgid "mariobros/materials/objects/splash-lava"
+msgstr ""
+
+msgid "mus_title"
+msgstr ""
+
+msgid "mariobros/sounds/snd_menu_select"
+msgstr ""
+
+msgid "mariobros/sounds/snd_player_kick_0"
+msgstr ""
+
+msgid "Tiles/Hexagonal Rule Tile"
+msgstr ""
+
+msgid "Tiles/Isometric Rule Tile"
+msgstr ""
+
+msgid "Tiles/Rule Override Tile"
+msgstr ""
+
+msgid "Tiles/Rule Tile"
+msgstr ""
+
+msgid "Tiles/Animated Tile"
+msgstr ""
+
+msgid "Tilemap/Grid Information"
+msgstr ""
+
+msgid "Tiles/Pipeline Tile"
+msgstr ""
+
+msgid "Tiles/Random Tile"
+msgstr ""
+
+msgid "Tiles/Terrain Tile"
+msgstr ""
+
+msgid "Tiles/Weighted Random Tile"
+msgstr ""
+
+msgid "UI/Effects/Letter Spacing"
+msgstr ""
+
+msgid ""
+"<b>|</b>|<i>|</i>|<size=.*?>|</size>|<color=.*?>|</color>|<material=.*?>|</material>"
+msgstr ""

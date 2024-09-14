@@ -1,0 +1,321 @@
+#
+msgid ""
+msgstr ""
+
+msgid "en_US"
+msgstr ""
+
+msgid ""
+msgstr ""
+
+msgid "You must choose a name."
+msgstr ""
+
+msgid "No?"
+msgstr ""
+
+msgid "Hm...?"
+msgstr ""
+
+msgid "Maybe?"
+msgstr ""
+
+msgid "Yes?"
+msgstr ""
+
+msgid ""
+"Take heart.\n"
+"There is nothing to be afraid of here."
+msgstr ""
+
+msgid "A light-hearted spirit will serve you well on your journey."
+msgstr ""
+
+msgid ""
+"Take heart.\n"
+"Your frustrations are behind you now."
+msgstr ""
+
+msgid ""
+"Take heart.\n"
+"The story is yours, no matter what you feel."
+msgstr ""
+
+msgid "May tranquility come upon you as you embark on your journey."
+msgstr ""
+
+msgid ""
+"Take heart.\n"
+"Your story is as interesting as you make it."
+msgstr ""
+
+msgid "May your quality of speech translate to action on your journey."
+msgstr ""
+
+msgid "A courageous heart will serve you well on your journey."
+msgstr ""
+
+msgid "A sense of serenity will do you wonders on your journey."
+msgstr ""
+
+msgid "May your ingenuity surpass the challenges on your journey."
+msgstr ""
+
+msgid "A confident mindset will take you far on your journey."
+msgstr ""
+
+msgid "May your inginuity surpass the challanges on your journey."
+msgstr ""
+
+msgid "May balance come upon you as you embark on your journey."
+msgstr ""
+
+msgid ""
+"Take heart.\n"
+"There is much to be learned on the road ahead."
+msgstr ""
+
+msgid "May the tapestry of chaos and order satisfy you on your journey."
+msgstr ""
+
+msgid "May your story gain meaning in this cocoon amidst the darkness."
+msgstr ""
+
+msgid "May the experience be as playful as you desire."
+msgstr ""
+
+msgid "May the experience be as excessive as you desire."
+msgstr ""
+
+msgid ""
+"Take heart.\n"
+"You have nothing to feel ashamed of now."
+msgstr ""
+
+msgid "A temperate ego will take you far on your journey."
+msgstr ""
+
+msgid "May the experience provide the sustenance you require."
+msgstr ""
+
+msgid "May your story bring forth the emotion you strive to feel."
+msgstr ""
+
+msgid "May your choices be as effortless as they come."
+msgstr ""
+
+msgid ""
+"Take heart.\n"
+"There is much companionship to be had here."
+msgstr ""
+
+msgid "May your fortune carry you forward on your journey."
+msgstr ""
+
+msgid "May the tapestry of chaos and order please you on your journey."
+msgstr ""
+
+msgid ""
+"Take heart.\n"
+"Your story is as uplifting as you make it."
+msgstr ""
+
+msgid "May your stability provide a solid foundation on your journey."
+msgstr ""
+
+msgid "May the experience only add to your state of satisfaction."
+msgstr ""
+
+msgid "May the experience be as comforting as you desire."
+msgstr ""
+
+msgid "May the experience provide the energy you require."
+msgstr ""
+
+msgid "May your overflowing energy power you through your journey."
+msgstr ""
+
+msgid "I am honored by your choice."
+msgstr ""
+
+msgid "Let the experiment begin."
+msgstr ""
+
+msgid "The true name."
+msgstr ""
+
+msgid "This name is incorrect."
+msgstr ""
+
+msgid ""
+"............\n"
+"(They're powerless to stop you.)"
+msgstr ""
+
+msgid ""
+"............\n"
+"(It's not much for conversation.)"
+msgstr ""
+
+msgid "Hello."
+msgstr ""
+
+msgid "Saddle up!"
+msgstr ""
+
+msgid "Well... I suppose that works..."
+msgstr ""
+
+msgid "I think you should think of your own name, my child."
+msgstr ""
+
+msgid "Really..."
+msgstr ""
+
+msgid "Nice try, idiot."
+msgstr ""
+
+msgid "Don't you mean \"Eyewalker?\""
+msgstr ""
+
+msgid "Check out my antenna!"
+msgstr ""
+
+msgid "Guh huh huh, nice one."
+msgstr ""
+
+msgid "Huh? What's that smell?"
+msgstr ""
+
+msgid "It's m-moving! I-I-It's shaking!"
+msgstr ""
+
+msgid "Jerry."
+msgstr ""
+
+msgid "(The dog jumped into your lap.)"
+msgstr ""
+
+msgid "(Pant pant)"
+msgstr ""
+
+msgid "I'LL ALLOW IT!!!!"
+msgstr ""
+
+msgid "ok."
+msgstr ""
+
+msgid "nope."
+msgstr ""
+
+msgid "A \"stellar\" choice."
+msgstr ""
+
+msgid "A pleasing nomenclature, no?"
+msgstr ""
+
+msgid "I am not amused."
+msgstr ""
+
+msgid "Roar."
+msgstr ""
+
+msgid "Wah ha ha! Why not?"
+msgstr ""
+
+msgid "What. What! WHAT!"
+msgstr ""
+
+msgid "That's my name!!"
+msgstr ""
+
+msgid ""
+"Ahuhuhu~\n"
+"You must have great taste, dearie~"
+msgstr ""
+
+msgid ""
+"Hey!\n"
+"Only Skrubby gets to call me that!"
+msgstr ""
+
+msgid "Sorry, but you're a letter shy."
+msgstr ""
+
+msgid "...?"
+msgstr ""
+
+msgid "Clean name."
+msgstr ""
+
+msgid "hOI!"
+msgstr ""
+
+msgid "Ngah, fine."
+msgstr ""
+
+msgid "Get your OWN name!"
+msgstr ""
+
+msgid "Uh.... OK?"
+msgstr ""
+
+msgid "D-don't do that."
+msgstr ""
+
+msgid "You are really scraping the bottom of the barrel."
+msgstr ""
+
+msgid "Like, OK I guess."
+msgstr ""
+
+msgid "You like my name, little buddy?"
+msgstr ""
+
+msgid "Bratty! Bratty! That's MY name!"
+msgstr ""
+
+msgid "A fellow wizard?"
+msgstr ""
+
+msgid "Slick choice, homeslice."
+msgstr ""
+
+msgid "Now you're just being rude, darling."
+msgstr ""
+
+msgid "OOOOH!!! ARE YOU PROMOTING MY BRAND?"
+msgstr ""
+
+msgid "Is this name correct? ;)"
+msgstr ""
+
+msgid "Hot, but not hot enough."
+msgstr ""
+
+msgid "You don't have to do that..."
+msgstr ""
+
+msgid "You KNEW!?"
+msgstr ""
+
+msgid "Respect my AUTHORITY!"
+msgstr ""
+
+msgid "Ahh! Thank you~"
+msgstr ""
+
+msgid "Thanks for, uh, using my name."
+msgstr ""
+
+msgid "You can?"
+msgstr ""
+
+msgid "You cannot."
+msgstr ""
+
+msgid "... fine."
+msgstr ""
+
+msgid "..."
+msgstr ""

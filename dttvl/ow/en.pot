@@ -1,0 +1,997 @@
+#
+msgid ""
+msgstr ""
+
+msgid "* Use the box?"
+msgstr ""
+
+msgid ""
+"* (You felt that you shouldn't\n"
+"  advance.)"
+msgstr ""
+
+msgid ""
+"* (You're filled with\n"
+"  determination.)"
+msgstr ""
+
+msgid "* Hello there,^05 young travellers!"
+msgstr ""
+
+msgid ""
+"* I am not your enemy,^05 but an\n"
+"  average mole."
+msgstr ""
+
+msgid ""
+"* I would like to add a bit\n"
+"  of flavor to your experience."
+msgstr ""
+
+msgid ""
+"* Or would a bit of advice be\n"
+"  more useful to you...?"
+msgstr ""
+
+msgid "* I'm willing to help either way!"
+msgstr ""
+
+msgid ""
+"*\\twhoa,^05 you guys almost\n"
+"\\tlooked like you were\n"
+"\\tgonna jump at me."
+msgstr ""
+
+msgid ""
+"*\\tdid you find an\n"
+"\\tevil doppelganger or\n"
+"\\tsomethin'?"
+msgstr ""
+
+msgid "* ...^05 Yeah."
+msgstr ""
+
+msgid ""
+"*\\twell,^05 maybe you should\n"
+"\\tknow about some special\n"
+"\\tattacks."
+msgstr ""
+
+msgid ""
+"*\\tif you see a <color=#00A2E8FF>blue\n"
+"\\tattack</color>,^05 don't move and\n"
+"\\tit won't hurt you."
+msgstr ""
+
+msgid ""
+"*\\there's an easy way to\n"
+"\\tkeep it in mind."
+msgstr ""
+
+msgid ""
+"*\\timagine a stop sign.^10\n"
+"*\\twhen you see a stop\n"
+"\\tsign,^05 you <color=#FF0000FF>stop,</color>^05 right?"
+msgstr ""
+
+msgid ""
+"*\\tstop signs are <color=#FF0000FF>red</color>.\n"
+"*\\tso imagine a <color=#00A2E8FF>blue</color> stop\n"
+"\\tsign instead."
+msgstr ""
+
+msgid ""
+"*\\tsimple,^05 right?^10\n"
+"*\\twhen fighting,^05 think\n"
+"\\tabout <color=#FFFF00FF>blue stop signs</color>."
+msgstr ""
+
+msgid ""
+"* Okay,^05 that would've\n"
+"  been nice to know in\n"
+"  the last place we were."
+msgstr ""
+
+msgid ""
+"* But uhh...^05 what about\n"
+"  those orange bullets we\n"
+"  just saw?"
+msgstr ""
+
+msgid ""
+"*\\twell,^05 for <color=#FCA600FF>orange attacks</color>,^05\n"
+"\\tthink of that <color=#FF0000FF>stop sign</color>\n"
+"\\tagain."
+msgstr ""
+
+msgid ""
+"*\\t<color=#FCA600FF>orange</color> is the opposite\n"
+"\\tof <color=#00A2E8FF>blue</color>,^05 right?"
+msgstr ""
+
+msgid ""
+"*\\tso do the <color=#00FF00FF>opposite\n"
+"\\tof stop</color>."
+msgstr ""
+
+msgid ""
+"*\\t... or in other words,^05\n"
+"\\t<color=#00FF00FF>move through it</color>."
+msgstr ""
+
+msgid "*\\thope that helps."
+msgstr ""
+
+msgid "* Look into my eye(s)."
+msgstr ""
+
+msgid ""
+"* What the hell even\n"
+"  are your real eyes???"
+msgstr ""
+
+msgid "* ... All three of them."
+msgstr ""
+
+msgid ""
+"* So you can see\n"
+"  through your mouth?"
+msgstr ""
+
+msgid "* ... Don't pick on me."
+msgstr ""
+
+msgid ""
+"* Where are the other\n"
+"  two?"
+msgstr ""
+
+msgid ""
+"* So me and a few other dudes\n"
+"  are searching for our friend\n"
+"  Snowy."
+msgstr ""
+
+msgid ""
+"* But at this point,^05 it's become\n"
+"  a game of \"Who will go missing\n"
+"  next?\""
+msgstr ""
+
+msgid ""
+"* Huh?^05\n"
+"* Why's that?"
+msgstr ""
+
+msgid "* All of them have gone missing!"
+msgstr ""
+
+msgid ""
+"* There's only a handful of us\n"
+"  left now,^05 it seems."
+msgstr ""
+
+msgid "* Weird..."
+msgstr ""
+
+msgid ""
+"* Uhh,^05 I guess we'll\n"
+"  letcha know if we\n"
+"  find anything."
+msgstr ""
+
+msgid "* So uhh..."
+msgstr ""
+
+msgid ""
+"* I think we found\n"
+"  what happened with\n"
+"  your search squad."
+msgstr ""
+
+msgid "* Really???"
+msgstr ""
+
+msgid "* Yeah."
+msgstr ""
+
+msgid ""
+"* They all went crazy\n"
+"  in that stupid forest\n"
+"  detour."
+msgstr ""
+
+msgid "* ..."
+msgstr ""
+
+msgid "* THAT WAS THEM?????"
+msgstr ""
+
+msgid "* I hope they somehow wake up..."
+msgstr ""
+
+msgid "* [NO_TEXT]"
+msgstr ""
+
+msgid "* (For some strange reason...)"
+msgstr ""
+
+msgid ""
+"* (You felt a little less like\n"
+"  yourself.)"
+msgstr ""
+
+msgid ""
+"* (Her frying pan.)\n"
+"* (Take it?)"
+msgstr ""
+
+msgid "* (You got the Clean Pan.)"
+msgstr ""
+
+msgid ""
+"* You are carrying too\n"
+"  many items."
+msgstr ""
+
+msgid ""
+"* Would you quit staring at\n"
+"  my friend?"
+msgstr ""
+
+msgid ""
+"* They're not into the \"<color=#FFFF00>Devour</color>\"\n"
+"  ACT."
+msgstr ""
+
+msgid ""
+"* WHAT THE HELL DOES\n"
+"  THAT MEAN???"
+msgstr ""
+
+msgid "* Devour <color=#00FF00FF>Greens</color>"
+msgstr ""
+
+msgid "* Not <color=#FCA600FF>Oranges</color>"
+msgstr ""
+
+msgid "* ... I Am <color=#FCA600FF>Oranges</color>"
+msgstr ""
+
+msgid ""
+"* Robbit,^10 robbit.\n"
+"^10* (What a tense fight.)"
+msgstr ""
+
+msgid ""
+"* (It was so tense that we\n"
+"  decided to give you some\n"
+"  <color=#FFFF00FF>extra gold</color>.)"
+msgstr ""
+
+msgid ""
+"* Is that supposed to\n"
+"  mean something...?"
+msgstr ""
+
+msgid ""
+"* Robbit, robbit.^10\n"
+"* (Are you impressed with how I\n"
+"  fly through the air?)"
+msgstr ""
+
+msgid ""
+"* (I am able to avoid touching\n"
+"  leaves on the ground.)"
+msgstr ""
+
+msgid ""
+"* Do you ever get\n"
+"  tired,^05 though?"
+msgstr ""
+
+msgid ""
+"* ...^10\n"
+"* (...)"
+msgstr ""
+
+msgid ""
+"* Ribbit,^10 ribbit.\n"
+"^10* (To be honest,^10 I did step on\n"
+"  the leaves.)"
+msgstr ""
+
+msgid "* (Don't tell anyone.)"
+msgstr ""
+
+msgid ""
+"* Robbit, robbit.^10\n"
+"* (Greetings,^05 human and monster.)"
+msgstr ""
+
+msgid ""
+"* (You have done wonderfully in\n"
+"  the battle.)^05\n"
+"* (You were quite mystical.)"
+msgstr ""
+
+msgid ""
+"* (I shudder to think of what\n"
+"  would happen if you attacked\n"
+"  us instead.)"
+msgstr ""
+
+msgid "* And that is...?"
+msgstr ""
+
+msgid "* (<color=#00A2E8FF>EXHAUSTION</color>.)"
+msgstr ""
+
+msgid "* ... That's it?"
+msgstr ""
+
+msgid ""
+"* Robbit, robbit.^10\n"
+"* (Do not act surprised, Susie.)"
+msgstr ""
+
+msgid ""
+"* (I already know that you\n"
+"  and the human do not know\n"
+"  any <color=#FFFF00FF>SLEEP SPELLS</color>.)"
+msgstr ""
+
+msgid ""
+"* Y'know what,^05 I'm not\n"
+"  even gonna question it."
+msgstr ""
+
+msgid ""
+"* Ribbit,^10 ribbit.\n"
+"^10* (Sorry to trouble you,\n"
+"  but...)"
+msgstr ""
+
+msgid ""
+"* (The battle just now had\n"
+"  felt pretty <color=#FFFF00FF>tense</color>,^05 so I\n"
+"  gave you some <color=#FFFF00FF>extra gold</color>.)"
+msgstr ""
+
+msgid ""
+"* Ribbit,^10 ribbit.\n"
+"^10* (I hope you two aren't\n"
+"  stepping on the leaves.)"
+msgstr ""
+
+msgid ""
+"* As if your friend\n"
+"  wasn't!"
+msgstr ""
+
+msgid ""
+"* Ribbit...^10\n"
+"* (They were flying,^05 though...)"
+msgstr ""
+
+msgid ""
+"* Ribbit,^10 ribbit.\n"
+"^10* (Thank you for sparing\n"
+"  me,^10 human and monster.)"
+msgstr ""
+
+msgid ""
+"* (I have some advice that\n"
+"  may prove useful to you.)"
+msgstr ""
+
+msgid ""
+"* (If you encounter a <color=#00A2E8FF>TIRED</color>\n"
+"  enemy,^10 you can spare it by\n"
+"  making it fall asleep.)"
+msgstr ""
+
+msgid ""
+"* But neither of us know\n"
+"  how to do that."
+msgstr ""
+
+msgid ""
+"* How do we make enemies\n"
+"  fall asleep?"
+msgstr ""
+
+msgid ""
+"* Ribbit,^10 ribbit.^10\n"
+"* (I don't know,^10 I just know\n"
+"  the facts.)"
+msgstr ""
+
+msgid ""
+"* Ugh!!!^10\n"
+"* Why couldn't we just\n"
+"  have Ralsei here?!"
+msgstr ""
+
+msgid "* Please..."
+msgstr ""
+
+msgid "* Protect me from the teenagers."
+msgstr ""
+
+msgid ""
+"* You know that we're\n"
+"  ALSO teenagers,^05 right?"
+msgstr ""
+
+msgid ""
+"* Yeah,^05 but...^05\n"
+"  You're the good ones."
+msgstr ""
+
+msgid "* ???????"
+msgstr ""
+
+msgid ""
+"* Sorry,^05 but not everyone\n"
+"  is like that!"
+msgstr ""
+
+msgid ""
+"* THEN WHY DOES IT KEEP\n"
+"  HAPPENING?!??!"
+msgstr ""
+
+msgid ""
+"* Maybe trim those\n"
+"  antlers...?"
+msgstr ""
+
+msgid "* But I like my hair..."
+msgstr ""
+
+msgid ""
+"* I'll just ram into them\n"
+"  next time they try something\n"
+"  funny."
+msgstr ""
+
+msgid "* Do you see..."
+msgstr ""
+
+msgid "* ... What I see?"
+msgstr ""
+
+msgid ""
+"* The hell are you\n"
+"  talking about?"
+msgstr ""
+
+msgid "* The snakes on my friend."
+msgstr ""
+
+msgid "* They're freaking me out."
+msgstr ""
+
+msgid "* They're just snakes."
+msgstr ""
+
+msgid ""
+"* Dunno what's so scary\n"
+"  about them."
+msgstr ""
+
+msgid "* It isn't just the snakes."
+msgstr ""
+
+msgid ""
+"* My friend was not like\n"
+"  this before."
+msgstr ""
+
+msgid ""
+"* Their name used to be\n"
+"  <color=#FFFF00FF>\"Vegetoid\"</color>."
+msgstr ""
+
+msgid "* I dunno..."
+msgstr ""
+
+msgid ""
+"* A snake carrot is\n"
+"  way cooler than a\n"
+"  normal one."
+msgstr ""
+
+msgid ""
+"* Did You Enjoy\n"
+"  <color=#00FF00FF>Tasty Green Snakes</color>"
+msgstr ""
+
+msgid "* Thinking about it now..."
+msgstr ""
+
+msgid "* My old hat was pretty lame."
+msgstr ""
+
+msgid ""
+"* Maybe I should try pants\n"
+"  instead."
+msgstr ""
+
+msgid "* Call me \"Johnny Icepants.\""
+msgstr ""
+
+msgid ""
+"* Is this...^05 in reference\n"
+"  to something?"
+msgstr ""
+
+msgid ""
+"* It sounds a bit\n"
+"  specific..."
+msgstr ""
+
+msgid "* ... no."
+msgstr ""
+
+msgid ""
+"* Y'know,^05 I ruined a lot of\n"
+"  games of \"Ball Game\" by being\n"
+"  in that hole."
+msgstr ""
+
+msgid "* So I'm gonna make amends..."
+msgstr ""
+
+msgid ""
+"* Next time you see me,^05\n"
+"  I will have created a\n"
+"  masterpiece."
+msgstr ""
+
+msgid "* It's a little... puny."
+msgstr ""
+
+msgid ""
+"* You sure this is\n"
+"  all you can do?"
+msgstr ""
+
+msgid "* I barely have hands anymore..."
+msgstr ""
+
+msgid ""
+"* I just put all my effort\n"
+"  into the intricate details."
+msgstr ""
+
+msgid ""
+"* Hey,^05 that's worth\n"
+"  something!"
+msgstr ""
+
+msgid "* I guess..."
+msgstr ""
+
+msgid ""
+"* How come YOU get to be\n"
+"  so big and imposing?"
+msgstr ""
+
+msgid ""
+"* Uhh,^05 maybe talk to\n"
+"  me when you aren't\n"
+"  so short."
+msgstr ""
+
+msgid "* So I'm kinda confused..."
+msgstr ""
+
+msgid ""
+"* Why did you say \"Snowy that\n"
+"  I know?\""
+msgstr ""
+
+msgid ""
+"* 'Cause I don't even know\n"
+"  who you are!"
+msgstr ""
+
+msgid "* It's complicated..."
+msgstr ""
+
+msgid ""
+"* The less you know,^05\n"
+"  the better."
+msgstr ""
+
+msgid ""
+"* So it's an \"icy\" situation,^05\n"
+"  huh?"
+msgstr ""
+
+msgid ""
+"* WHAT!?!?^05\n"
+"* It's a JOKE!!\n"
+"* LAUGH at it!!"
+msgstr ""
+
+msgid "* (Just like Snowy...)"
+msgstr ""
+
+msgid ""
+"* ...^05 You're stepping on the\n"
+"  leaves."
+msgstr ""
+
+msgid "* Says YOU!"
+msgstr ""
+
+msgid ""
+"* ...^05 But I am flying.\n"
+"* You are not."
+msgstr ""
+
+msgid ""
+"* I'll make you start\n"
+"  REALLY flying if you\n"
+"  get more mouthy."
+msgstr ""
+
+msgid ""
+"* ...^05 Do not make me draw\n"
+"  my weapon again."
+msgstr ""
+
+msgid ""
+"* Uhh,^05 what's with the\n"
+"  pessimism?"
+msgstr ""
+
+msgid "* ... Have you seen..."
+msgstr ""
+
+msgid "* ... The large, goat lady?"
+msgstr ""
+
+msgid ""
+"* So it wasn't just\n"
+"  me,^05 huh."
+msgstr ""
+
+msgid ""
+"* ... You have shown me that\n"
+"  there is hope in this\n"
+"  world."
+msgstr ""
+
+msgid "* Thank you."
+msgstr ""
+
+msgid "* Blue, blue."
+msgstr ""
+
+msgid ""
+"* You strange,^05 unmasked people.^05\n"
+"* Don't go to heaven!"
+msgstr ""
+
+msgid ""
+"* Are we seriously gonna\n"
+"  fight right here,^05\n"
+"  right now?"
+msgstr ""
+
+msgid ""
+"* Uh,^05 yeah???\n"
+"* And I'll get two of these\n"
+"  guys to help!"
+msgstr ""
+
+msgid "* Green, green."
+msgstr ""
+
+msgid ""
+"* Oops,^05 that's not it...^05\n"
+"* I'm still new at this."
+msgstr ""
+
+msgid ""
+"* That wasn't even\n"
+"  close."
+msgstr ""
+
+msgid "* I'll get it eventually!"
+msgstr ""
+
+msgid "* I'll stand somewhere else."
+msgstr ""
+
+msgid "* Was I helpful?"
+msgstr ""
+
+msgid ""
+"* ...Don't bother us.^05\n"
+"* We're in the middle of\n"
+"  prayer."
+msgstr ""
+
+msgid ""
+"* ... ^05Okay,^05 I'll move.^05\n"
+"* Just hurry!"
+msgstr ""
+
+msgid ""
+"* Look,^05 I'm just really\n"
+"  concentrated."
+msgstr ""
+
+msgid ""
+"* Do you want to be one\n"
+"  of us?"
+msgstr ""
+
+msgid ""
+"* Then go meet the great\n"
+"  Mr. Carpainter as soon as\n"
+"  possible."
+msgstr ""
+
+msgid ""
+"* (Carpainter's a\n"
+"  stupid name.)"
+msgstr ""
+
+msgid ""
+"* (Did he like... paint\n"
+"  cars and then make\n"
+"  a cult about it?)"
+msgstr ""
+
+msgid ""
+"* ... Sorry about beating you\n"
+"  up."
+msgstr ""
+
+msgid ""
+"* Now that you put it like\n"
+"  that..."
+msgstr ""
+
+msgid ""
+"* I'm actually more convinced.\n"
+"* Screw you!"
+msgstr ""
+
+msgid ""
+"* There are only three people\n"
+"  remaining."
+msgstr ""
+
+msgid ""
+"* I don't wanna stay,^05 I'll get\n"
+"  outta here..."
+msgstr ""
+
+msgid ""
+"* Maybe I'll worship the color\n"
+"  green next."
+msgstr ""
+
+msgid ""
+"* I could totally get a\n"
+"  greenhouse made."
+msgstr ""
+
+msgid ""
+"* Maybe have a moss farm or\n"
+"  something."
+msgstr ""
+
+msgid "* Moss...?"
+msgstr ""
+
+msgid ""
+"* It looks like almost everyone\n"
+"  woke up and left..."
+msgstr ""
+
+msgid ""
+"* Seems like this whole\n"
+"  thing was a bust\n"
+"  after all,^05 huh."
+msgstr ""
+
+msgid ""
+"* It feels so nice to be out\n"
+"  of the house again!"
+msgstr ""
+
+msgid ""
+"* I wonder if this is how it'd\n"
+"  feel going to the surface for\n"
+"  the first time."
+msgstr ""
+
+msgid ""
+"* Wow,^05 what an \"ice\" party\n"
+"  we have here!!!"
+msgstr ""
+
+msgid ""
+"* ENOUGH WITH THE\n"
+"  PUNS!!!"
+msgstr ""
+
+msgid ""
+"* Whatever!!!^05\n"
+"* Everyone is here!!!"
+msgstr ""
+
+msgid "* Did you guys do this?"
+msgstr ""
+
+msgid ""
+"* Yeah!^05\n"
+"* We got everyone to\n"
+"  be nicer!"
+msgstr ""
+
+msgid ""
+"* And... made the\n"
+"  crazy ones less crazy."
+msgstr ""
+
+msgid "* Thanks a lot,^05 you guys."
+msgstr ""
+
+msgid ""
+"* (This is the one\n"
+"  nice thing I'm doing\n"
+"  for them.)"
+msgstr ""
+
+msgid ""
+"* Consider yourselves honorary\n"
+"  members of our squad."
+msgstr ""
+
+msgid ""
+"* Even though you don't have\n"
+"  feathers,^05 and no respect for\n"
+"  puns."
+msgstr ""
+
+msgid ""
+"* Now I know what you're\n"
+"  thinking."
+msgstr ""
+
+msgid "* \"Wasn't there four red drakes?\""
+msgstr ""
+
+msgid ""
+"* No,^05 but NOW I'm\n"
+"  worried."
+msgstr ""
+
+msgid ""
+"* Okay,^05 that dude is chilling\n"
+"  somewhere else."
+msgstr ""
+
+msgid ""
+"* They needed to reflect on this\n"
+"  whole thing,^05 so they aren't\n"
+"  hanging out."
+msgstr ""
+
+msgid "* I hope they're okay."
+msgstr ""
+
+msgid "* So...^05 what about you?"
+msgstr ""
+
+msgid ""
+"* Me?^05\n"
+"* I'm fine!"
+msgstr ""
+
+msgid ""
+"* I found my friend Snowy,^05\n"
+"  so it's all good."
+msgstr ""
+
+msgid ""
+"* ...^05 I'm really hungry though,^05\n"
+"  so we should grab a bite\n"
+"  somewhere."
+msgstr ""
+
+msgid "* Being feral felt so weird."
+msgstr ""
+
+msgid ""
+"* Everything I did was in this\n"
+"  weird desperation to survive."
+msgstr ""
+
+msgid ""
+"* Case in point: ^05I know what\n"
+"  tree bark tastes like now."
+msgstr ""
+
+msgid "* ...^05 why?"
+msgstr ""
+
+msgid "* I ate a whole tree."
+msgstr ""
+
+msgid "* Man,^05 I'm so hungry..."
+msgstr ""
+
+msgid "* How hungry."
+msgstr ""
+
+msgid ""
+"* Definitely not hungry enough\n"
+"  to eat this spaghetti."
+msgstr ""
+
+msgid ""
+"* Bet this was made by that\n"
+"  tall skeleton man,^05 which means\n"
+"  it sucks!"
+msgstr ""
+
+msgid "* More for me."
+msgstr ""
+
+msgid "* Y'know what,^05 fine."
+msgstr ""
+
+msgid "* I'll let you have it."
+msgstr ""
+
+msgid ""
+"* ... If you can get it off\n"
+"  the table,^05 that is."
+msgstr ""
+
+msgid "* DAMN IT!!!"
+msgstr ""
+
+msgid "* I'm the coolest!"
+msgstr ""
+
+msgid ""
+"* I'm telling the truth!^05\n"
+"* I'm cooler!"
+msgstr ""
+
+msgid "* What is this big sign for!!!"
+msgstr ""
+
+msgid ""
+"* This thing isn't gonna stop\n"
+"  me because I can't read!"
+msgstr ""
+
+msgid ""
+"* You're literally in a high-\n"
+"  level writing course."
+msgstr ""
+
+msgid "* Why do I hang out with you."
+msgstr ""
+
+msgid ""
+"* I-^05it must be easier to\n"
+"  do things yourself...!"
+msgstr ""
+
+msgid ""
+"* (You shouldn't take the torch\n"
+"  with you.)"
+msgstr ""

@@ -1,0 +1,888 @@
+#
+msgid ""
+msgstr ""
+
+msgid ""
+"* (You felt that you shouldn't\n"
+"  advance.)"
+msgstr ""
+
+msgid ""
+"* (You and Noelle combined your\n"
+"  powers to become familiar with\n"
+"  the new world before you.)"
+msgstr ""
+
+msgid ""
+"* (You are filled with the power\n"
+"  of team-based magic.)"
+msgstr ""
+
+msgid "svsie\n"
+msgstr ""
+
+msgid ""
+"* (It may be a good idea to\n"
+"  keep on going.)"
+msgstr ""
+
+msgid ""
+"* (After all,^05 you're already\n"
+"  pretty strong.)"
+msgstr ""
+
+msgid "* It's a fake plant."
+msgstr ""
+
+msgid "* Painted blue,^05 of course."
+msgstr ""
+
+msgid "* [NO_TEXT]"
+msgstr ""
+
+msgid ""
+"* I could explain what the\n"
+"  <color=#FFFF00FF>hospital system</color> is about..."
+msgstr ""
+
+msgid ""
+"* But you guys don't seem\n"
+"  like the kind of people that\n"
+"  would use it."
+msgstr ""
+
+msgid ""
+"* Yeah...^05 something about you\n"
+"  screams \"autoheal when\n"
+"  knocked out...\""
+msgstr ""
+
+msgid ""
+"* I imagine the only thing of\n"
+"  use would be the healer,^05\n"
+"  who can heal concussions."
+msgstr ""
+
+msgid ""
+"* But if he's gone,^05 then\n"
+"  you'd just have to deal\n"
+"  with it."
+msgstr ""
+
+msgid "* Hey man,^05 no judging!"
+msgstr ""
+
+msgid ""
+"* What if I judged YOUR\n"
+"  religion?"
+msgstr ""
+
+msgid ""
+"* Dude,^05 if you're doing\n"
+"  stuff like sacrifices,^05\n"
+"  you're in a cult."
+msgstr ""
+
+msgid ""
+"* You aren't doing doing\n"
+"  sacrifices,^05 right?"
+msgstr ""
+
+msgid "* ..."
+msgstr ""
+
+msgid ""
+"* It appears all of you are\n"
+"  in good condition."
+msgstr ""
+
+msgid ""
+"* You aren't in need of any\n"
+"  treatment."
+msgstr ""
+
+msgid ""
+"* (It's a hospital bed.)\n"
+"* (It's incredibly comfortable.)"
+msgstr ""
+
+msgid ""
+"* (...But then you thought\n"
+"  about the cost.)"
+msgstr ""
+
+msgid ""
+"* (There's a sandwich inside\n"
+"  the box.)\n"
+"* (Take it?)"
+msgstr ""
+
+msgid "* (You got the Skip Sandwich.)"
+msgstr ""
+
+msgid ""
+"* (You are carrying too\n"
+"  many items.)"
+msgstr ""
+
+msgid "* (The box is empty.)"
+msgstr ""
+
+msgid "* (There's no response.)"
+msgstr ""
+
+msgid "* (No problem here.)"
+msgstr ""
+
+msgid "* Aiiiiiieeee!"
+msgstr ""
+
+msgid "* Is something wrong???"
+msgstr ""
+
+msgid ""
+"* I screamed because I didn't\n"
+"  know what to do."
+msgstr ""
+
+msgid ""
+"* I'm too tired to scream\n"
+"  again."
+msgstr ""
+
+msgid ""
+"* (The chair that he's sitting\n"
+"  on is much taller than him.)"
+msgstr ""
+
+msgid "* Use that bomb wisely."
+msgstr ""
+
+msgid ""
+"* I want this town to remain\n"
+"  stable at least."
+msgstr ""
+
+msgid ""
+"* (Something about this statue\n"
+"  is eerie.)"
+msgstr ""
+
+msgid ""
+"* Heh heh heh...^10\n"
+"* That overweight kid helped me."
+msgstr ""
+
+msgid "* We <color=#FF0000FF>kidnapped Paula</color>."
+msgstr ""
+
+msgid ""
+"* She's hidden in the <color=#FFFF00FF>mountain\n"
+"  cabin</color>,^05 you know."
+msgstr ""
+
+msgid "* You did WHAT???"
+msgstr ""
+
+msgid ""
+"* Oh...^05 OH!^10\n"
+"* Now I've done it!"
+msgstr ""
+
+msgid ""
+"* Y-^05you know I was joking,^05\n"
+"  right???"
+msgstr ""
+
+msgid "* SHUT UP, CREEP."
+msgstr ""
+
+msgid "* Mountain cabin?"
+msgstr ""
+
+msgid ""
+"* Didn't we see one\n"
+"  coming here...?"
+msgstr ""
+
+msgid "* I think so."
+msgstr ""
+
+msgid ""
+"* But how do we\n"
+"  get there without\n"
+"  breaking our knees?"
+msgstr ""
+
+msgid ""
+"* I think I saw\n"
+"  a cave entrance\n"
+"  down there."
+msgstr ""
+
+msgid ""
+"* M-^05maybe it connects\n"
+"  to somewhere in\n"
+"  this town...?"
+msgstr ""
+
+msgid ""
+"* You kidnapped someone\n"
+"  and put them in a\n"
+"  <color=#FFFF00FF>mountain cabin</color>?"
+msgstr ""
+
+msgid ""
+"* What was their name\n"
+"  again?"
+msgstr ""
+
+msgid "* ... ^10P-^05Paula..."
+msgstr ""
+
+msgid ""
+"* Thanks for that,\n"
+"  ^05freak."
+msgstr ""
+
+msgid "* (...!)"
+msgstr ""
+
+msgid ""
+"* (It appears to be a cave\n"
+"  entrance.)"
+msgstr ""
+
+msgid "* (It's sealed off.)"
+msgstr ""
+
+msgid ""
+"* Welcome to the headquarters of\n"
+"  Happy-Happyism."
+msgstr ""
+
+msgid ""
+"* One day, Mr. Carpainter\n"
+"  received a revelation."
+msgstr ""
+
+msgid "* He now speaks the real truth."
+msgstr ""
+
+msgid "* That sounds so dumb."
+msgstr ""
+
+msgid ""
+"* Now that you put it like\n"
+"  that..."
+msgstr ""
+
+msgid ""
+"* I'm actually more convinced.\n"
+"* Screw you!"
+msgstr ""
+
+msgid ""
+"* \"We trust you.\n"
+"  Feel free to shop here.\""
+msgstr ""
+
+msgid "* (What will you buy?)"
+msgstr ""
+
+msgid ""
+"* Though you may not believe it,^05\n"
+"  I am a healer."
+msgstr ""
+
+msgid ""
+"* If you have a condition that\n"
+"  cannot be treated at the\n"
+"  hospital..."
+msgstr ""
+
+msgid "* It's my job to cure you."
+msgstr ""
+
+msgid ""
+"* It appears that you are not\n"
+"  suffering of anything\n"
+"  strange..."
+msgstr ""
+
+msgid ""
+"* Nor are you suffering a\n"
+"  concussion."
+msgstr ""
+
+msgid "* Come back when necessary."
+msgstr ""
+
+msgid "* Blue, blue!"
+msgstr ""
+
+msgid ""
+"* I wish for everything in\n"
+"  this world to become blue."
+msgstr ""
+
+msgid ""
+"* ...^05 You in the green shirt\n"
+"  would look great being blue."
+msgstr ""
+
+msgid ""
+"* (I'm just a plain ol' cow,^05\n"
+"  but Mr. Carpainter's messages\n"
+"  always mo^02o^02o^02o^02ve me.)"
+msgstr ""
+
+msgid ""
+"* I heard many footprints exist\n"
+"  deep down in the east cave."
+msgstr ""
+
+msgid ""
+"* People call that place Lilliput\n"
+"  Steps,^05 and it makes them feel\n"
+"  uneasy."
+msgstr ""
+
+msgid ""
+"* I think one person said they\n"
+"  saw a strange grey door over\n"
+"  there."
+msgstr ""
+
+msgid ""
+"* How did it take that long\n"
+"  before they sealed up the\n"
+"  cave entrance?"
+msgstr ""
+
+msgid ""
+"* (All of our products are\n"
+"  blessed.)\n"
+"         --Blue-Blue Drugstore"
+msgstr ""
+
+msgid ""
+"* Oh hell no,^05 we\n"
+"  are NOT going in\n"
+"  there."
+msgstr ""
+
+msgid "* (There's a sign on the door.)"
+msgstr ""
+
+msgid ""
+"* \"The recruitment center will\n"
+"  open back up at 1:00 PM!\""
+msgstr ""
+
+msgid ""
+"* \"Welcome to Happy Happy\n"
+"  Village!\""
+msgstr ""
+
+msgid ""
+"* When I painted everything\n"
+"  blue,^05 as Mr. Carpainter said,^05\n"
+"  my wife returned home!"
+msgstr ""
+
+msgid ""
+"* (Why is he telling\n"
+"  us this stuff???)"
+msgstr ""
+
+msgid "* (Knock knock knock)"
+msgstr ""
+
+msgid ""
+"*\\tam in here.^10\n"
+"*\\tboing!"
+msgstr ""
+
+msgid ""
+"*\\t...^15\n"
+"*\\tyou ^N, ^10yes?"
+msgstr ""
+
+msgid ""
+"*\\ti hear magic man want\n"
+"\\tto see you.^05\n"
+"*\\tbut who magic man?"
+msgstr ""
+
+msgid ""
+"*\\thuh?^05\n"
+"*\\tyou name actually kris?"
+msgstr ""
+
+msgid ""
+"*\\tmaybe dream not real.^10\n"
+"*\\tzoom!"
+msgstr ""
+
+msgid ""
+"*\\tweird dream.^05\n"
+"*\\tboing!"
+msgstr ""
+
+msgid ""
+"* I think that those who\n"
+"  won't paint everything blue\n"
+"  are opposed to peace."
+msgstr ""
+
+msgid ""
+"* That doesn't make\n"
+"  any sense."
+msgstr ""
+
+msgid ""
+"* Really?\n"
+"^05* Sounds to me like you're\n"
+"  opposed to peace."
+msgstr ""
+
+msgid ""
+"* I'm gonna get someone\n"
+"  to kick your butts."
+msgstr ""
+
+msgid ""
+"* You sure you wanna\n"
+"  try that...?"
+msgstr ""
+
+msgid ""
+"* Kris,^05 I do NOT trust\n"
+"  this place."
+msgstr ""
+
+msgid "* Let's not go in."
+msgstr ""
+
+msgid ""
+"* Hey!^05\n"
+"* No animals allowed inside!"
+msgstr ""
+
+msgid ""
+"* WHAT???\n"
+"^05* ANIMAL???"
+msgstr ""
+
+msgid "* (feral animal sounds)"
+msgstr ""
+
+msgid "* Mr. Carpainter wants a girl."
+msgstr ""
+
+msgid ""
+"* Oh my GOD, I\n"
+"  don't even know who\n"
+"  he is!!!!!"
+msgstr ""
+
+msgid "* No no no,^05 not like that."
+msgstr ""
+
+msgid ""
+"* I meant he's looking for a\n"
+"  girl who can be the high\n"
+"  priestess of Happy-happism."
+msgstr ""
+
+msgid ""
+"* So cult shit?\n"
+"^10* Pass."
+msgstr ""
+
+msgid ""
+"* Mr. Carpainter communicates\n"
+"  with the divine."
+msgstr ""
+
+msgid ""
+"* So he's able to deliver\n"
+"  inspired messages."
+msgstr ""
+
+msgid ""
+"* Sounds like some\n"
+"  weird cult shit."
+msgstr ""
+
+msgid ""
+"* You aren't doing\n"
+"  sacrifices,^05 right?"
+msgstr ""
+
+msgid ""
+"* \"Meager Livin' Farm\"\n"
+"* (Lodgings available)"
+msgstr ""
+
+msgid ""
+"* (This blue,^05 blue town is\n"
+"  unsettling to you,^05 but one\n"
+"  thing lies in your mind.)"
+msgstr ""
+
+msgid ""
+"* (You're filled with the power\n"
+"  of paint thinner.)"
+msgstr ""
+
+msgid "* Hello there,^05 young travellers!"
+msgstr ""
+
+msgid ""
+"* I am not your enemy,^05 but an\n"
+"  average mole."
+msgstr ""
+
+msgid ""
+"* I would like to add a bit\n"
+"  of flavor to your experience."
+msgstr ""
+
+msgid ""
+"* Or would a bit of advice be\n"
+"  more useful to you...?"
+msgstr ""
+
+msgid "* I'm willing to help either way!"
+msgstr ""
+
+msgid ""
+"* Did you notice the blue\n"
+"  bullets in the last fight?"
+msgstr ""
+
+msgid ""
+"* Those weren't just for show.^05\n"
+"* You can actually do something\n"
+"  special to avoid them!"
+msgstr ""
+
+msgid ""
+"* If your SOUL isn't moving,^05 then\n"
+"  they'll phase through you!"
+msgstr ""
+
+msgid ""
+"* Though I hear if they hit you\n"
+"  on a moving platform,^05 it'll\n"
+"  hurt even if you stand still."
+msgstr ""
+
+msgid ""
+"* So be careful to not be\n"
+"  moving AT ALL."
+msgstr ""
+
+msgid "* (Shouldn't go back.)"
+msgstr ""
+
+msgid ""
+"* Only Ness can absorb the\n"
+"  power of this place."
+msgstr ""
+
+msgid ""
+"* (For some reason,^05 there's a\n"
+"  burger inside.)^05\n"
+"* (Take it?)"
+msgstr ""
+
+msgid "* (You got the Hamburger.)"
+msgstr ""
+
+msgid ""
+"* (The calming tranquility ahead\n"
+"  fills you with a certain\n"
+"  power.)"
+msgstr ""
+
+msgid "*\\tthis is really nice."
+msgstr ""
+
+msgid ""
+"*\\ti haven't been outside\n"
+"\\tin so long."
+msgstr ""
+
+msgid ""
+"*\\tnever take what you\n"
+"\\thave for granted."
+msgstr ""
+
+msgid ""
+"*\\tbecause someday,^05 it\n"
+"\\tmay just vanish."
+msgstr ""
+
+msgid ""
+"* What the hell does\n"
+"  that mean...?"
+msgstr ""
+
+msgid ""
+"*\\ti dunno.^10\n"
+"*\\tmaybe you'll find out\n"
+"\\tsomeday."
+msgstr ""
+
+msgid "* ?????"
+msgstr ""
+
+msgid "* Humm dee dum dum dum..."
+msgstr ""
+
+msgid ""
+"* I'm hunting for mushrooms,\n"
+"^10  but I bought too many from\n"
+"  a kid with a red hat."
+msgstr ""
+
+msgid ""
+"* Would you be willing to\n"
+"  buy one of them for 15G?"
+msgstr ""
+
+msgid ""
+"* Thank you.\n"
+"  It's a weight lifted off\n"
+"  my basket."
+msgstr ""
+
+msgid "* (You got the Quiet Shroom.)"
+msgstr ""
+
+msgid ""
+"* If I don't get anyone to\n"
+"  buy these,^10 they'll turn\n"
+"  evil again!"
+msgstr ""
+
+msgid ""
+"* You don't have enough space\n"
+"  to carry it."
+msgstr ""
+
+msgid ""
+"* That'll surely make the shroom\n"
+"  angry.^05\n"
+"* You can keep your money."
+msgstr ""
+
+msgid "* (Wait,^05 angry?)"
+msgstr ""
+
+msgid ""
+"* Oh... ^10you don't have enough\n"
+"  money."
+msgstr ""
+
+msgid ""
+"* (You could give it to\n"
+"  us for free...)"
+msgstr ""
+
+msgid ""
+"* (Cross bridge to Happy-Happy\n"
+"  Village)"
+msgstr ""
+
+msgid ""
+"* How the hell can we\n"
+"  cross it if it's\n"
+"  BROKEN???"
+msgstr ""
+
+msgid ""
+"* Maybe there's another\n"
+"  way around...?"
+msgstr ""
+
+msgid ""
+"* \"WARNING: You may loop around\n"
+"  here if you don't know\n"
+"  where you're going.\""
+msgstr ""
+
+msgid ""
+"* I wonder who made the bridge\n"
+"  impassable?"
+msgstr ""
+
+msgid "* Why would someone do this?"
+msgstr ""
+
+msgid ""
+"* That's what I'M\n"
+"  saying!!!!"
+msgstr ""
+
+msgid ""
+"* (There's a hard hat inside\n"
+"  the box.)\n"
+"* (Take it?)"
+msgstr ""
+
+msgid "* (You got the Hard Hat.)"
+msgstr ""
+
+msgid ""
+"* (This bridge has seen better\n"
+"  days.)"
+msgstr ""
+
+msgid ""
+"* (You'll never get across at\n"
+"  this rate.)"
+msgstr ""
+
+msgid ""
+"* (Perhaps there's another way\n"
+"  around...?)"
+msgstr ""
+
+msgid ""
+"* What.^10\n"
+"* What?^10\n"
+"* WHAT!?"
+msgstr ""
+
+msgid ""
+"* Can't a girl relax by a\n"
+"  waterfall in peace!?"
+msgstr ""
+
+msgid "* God forbid women do ANYTHING."
+msgstr ""
+
+msgid "* I'll kick your ass sometime!"
+msgstr ""
+
+msgid ""
+"* (The juxtaposition of the\n"
+"  calming river and the ambush of\n"
+"  enemies confuses you.)"
+msgstr ""
+
+msgid ""
+"* (You're filled with the power\n"
+"  of chaos.)"
+msgstr ""
+
+msgid ""
+"* A few of the enemies here will\n"
+"  want you to do something\n"
+"  to become friends with them."
+msgstr ""
+
+msgid ""
+"* For example, the UFOs will want\n"
+"  you to slow down, and the\n"
+"  robots will want to spin."
+msgstr ""
+
+msgid ""
+"* It might be worthwhile to have\n"
+"  the human ACT-^05 err... do the\n"
+"  things they want by themself."
+msgstr ""
+
+msgid ""
+"* They'll even change your SOUL\n"
+"  to help you do those things!"
+msgstr ""
+
+msgid ""
+"* Of course,^05 if you choose to\n"
+"  defeat them,^05 then don't worry\n"
+"  about that stuff."
+msgstr ""
+
+msgid ""
+"* (It's a chair.)\n"
+"* (It looks oddly familiar.)"
+msgstr ""
+
+msgid ""
+"* (For some strange reason,^05 a\n"
+"  giant toilet-shaped toilet is\n"
+"  blocking the way.)"
+msgstr ""
+
+msgid "* Congratulation!"
+msgstr ""
+
+msgid "* You cheated."
+msgstr ""
+
+msgid "* Are you proud?"
+msgstr ""
+
+msgid "* (Happy-Happy Village ahead.)"
+msgstr ""
+
+msgid ""
+"* I'm from the bicycle shop\n"
+"  \"Punk-Sure\"!"
+msgstr ""
+
+msgid ""
+"* Bicycles are so much fun\n"
+"  and are so convenient..."
+msgstr ""
+
+msgid ""
+"* Unfortunately for you three,\n"
+"  I don't have a three-seating\n"
+"  bike."
+msgstr ""
+
+msgid ""
+"* Now you'll never know the\n"
+"  fast speed of bike riding!"
+msgstr ""
+
+msgid ""
+"* We don't even need a\n"
+"  bike.\n"
+"* We can run."
+msgstr ""
+
+msgid ""
+"* W-what???^10\n"
+"* But I thought my gimmick was\n"
+"  unique!!!"
+msgstr ""
+
+msgid ""
+"* (This bruised mushroom appears\n"
+"  to have weird feet indentions\n"
+"  near its base.)"
+msgstr ""
+
+msgid ""
+"* (Looks like it was beaten back\n"
+"  to normal.)"
+msgstr ""
+
+msgid "* (Take it with you?)"
+msgstr ""
+
+msgid "* (You left the shroom alone.)"
+msgstr ""
+
+msgid ""
+"* (Peaceful Rest Valley ahead.\n"
+"  Proceed through cave.)"
+msgstr ""

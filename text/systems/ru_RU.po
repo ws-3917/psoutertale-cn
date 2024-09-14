@@ -1,0 +1,2310 @@
+#
+msgid ""
+msgstr ""
+
+msgid "(You take a deep breath.)"
+msgstr "(Ты делаешь глубокий вдох.)"
+
+msgid "(You're filled with determination.)"
+msgstr "(Ты наполнен решимостью.)"
+
+msgid "You cannot give up just yet..."
+msgstr "Ты ещё не можешь сдаться..."
+
+msgid ""
+"$(name)!\n"
+"Stay determined..."
+msgstr ""
+"$(name)!\n"
+"Сохраняй решимость..."
+
+msgid "Our fate rests upon you..."
+msgstr "Наша судьба зависит от тебя..."
+
+msgid "You're going to be alright!"
+msgstr "Ты будешь в порядке!"
+
+msgid "Don't lose hope!"
+msgstr "Не теряй надежду!"
+
+msgid "It cannot end now!"
+msgstr "Это не может закончиться здесь!"
+
+msgid "    * Escaped..."
+msgstr "    * Удалось сбежать..."
+
+msgid "    * I'm outta here."
+msgstr "    * Я сваливаю."
+
+msgid "    * I've got better to do."
+msgstr "    * У меня есть дела по важнее."
+
+msgid "    * Don't slow me down."
+msgstr "    * Не мешай мне."
+
+msgid ""
+"    * Ran away with $(x) EXP\n"
+"      and $(y)G."
+msgstr ""
+"    * Убежал с $(x) ОП\n"
+"      и $(y)З."
+
+msgid "* Assist"
+msgstr "* Помочь"
+
+msgid "* Flee"
+msgstr "* Сбежать"
+
+msgid "* Spare"
+msgstr "* Пощадить"
+
+msgid ""
+"<32>{#p/story}* YOU WON!\n"
+"* You earned $(x) EXP and $(y)G."
+msgstr ""
+"<32>{#p/story}* ПОБЕДА!\n"
+"* Награда $(x) ОП и $(y)З."
+
+msgid ""
+"<32>{#p/story}* YOU WON!\n"
+"* You earned $(x) EXP and $(y)G.\n"
+"* Your LOVE increased."
+msgstr ""
+"<32>{#p/story}* ПОБЕДА!\n"
+"* Награда $(x) ОП и $(y)З.\n"
+"* Твой УР повысился."
+
+msgid "ERROR"
+msgstr "ОШИБКА"
+
+msgid "DISMISS"
+msgstr "ЗАКРЫТЬ"
+
+msgid "Click To Dismiss"
+msgstr "Нажмите чтобы закрыть"
+
+msgid ""
+"An error occured! Please send\n"
+"screenshot to developer."
+msgstr ""
+"Произошла ошибка! Пожалуйста отправь\n"
+"скриншот разработчику."
+
+msgid "CONTROL"
+msgstr "УПРАВЛЕНИЕ"
+
+msgid "GENERAL"
+msgstr "ОСНОВНОЕ"
+
+msgid "BATTLE"
+msgstr "БИТВА"
+
+msgid "FixMusic"
+msgstr "Фиксированная музыка"
+
+msgid "FixPlayer"
+msgstr "Фиксированный игрок"
+
+msgid "InfiniteG"
+msgstr "Бесконечные G"
+
+msgid "Interact"
+msgstr "Взаимодействовать"
+
+msgid "Input"
+msgstr "Ввод"
+
+msgid "Movement"
+msgstr "Движение"
+
+msgid "Noclip"
+msgstr "Ноуклип"
+
+msgid "Save"
+msgstr "Сохранить"
+
+msgid "SkipText"
+msgstr "Пропустить Текст"
+
+msgid "Freecam"
+msgstr "Бесплатная камера"
+
+msgid "CanAssist"
+msgstr "Может помочь"
+
+msgid "ClearBox"
+msgstr "ОчиститьКоробку"
+
+msgid "Exit"
+msgstr "Выход"
+
+msgid "ResetBox"
+msgstr "Перезапустить Ящик"
+
+msgid "ResetMenu"
+msgstr "Перезапустить Меню"
+
+msgid "CanFlee"
+msgstr "Суметь сбежать"
+
+msgid "InfiniteHP"
+msgstr "Бесконечное здоровье"
+
+msgid "PacifyAll"
+msgstr "Усмирить всех"
+
+msgid "Suicide"
+msgstr "Суицид"
+
+msgid "WeakenAll"
+msgstr "Ослабить всех"
+
+msgid "$(x) FPS"
+msgstr "$(x) ФПС"
+
+msgid "Halt"
+msgstr "Остановка"
+
+msgid "GAME SPEED"
+msgstr "СКОРОСТЬ ИГРЫ"
+
+msgid "$(x)x"
+msgstr ""
+
+msgid "More"
+msgstr "Больше"
+
+msgid "Less"
+msgstr "Менее"
+
+msgid "$(x)s/frame"
+msgstr ""
+
+msgid "GODHOME"
+msgstr "Дом бога"
+
+msgid "ROOM"
+msgstr "КОМНАТА"
+
+msgid "Teleport"
+msgstr "Телепорт"
+
+msgid "ENCOUNTER"
+msgstr "Столкновение"
+
+msgid "Start"
+msgstr "Старт"
+
+msgid "ARMOR"
+msgstr "БРОНЯ"
+
+msgid "WEAPON"
+msgstr "ОРУЖИЕ"
+
+msgid "INSPECT"
+msgstr "Проверить"
+
+msgid "LAYERS"
+msgstr "Слои"
+
+msgid "TYPES"
+msgstr "Виды"
+
+msgid "Base"
+msgstr "База"
+
+msgid "Below"
+msgstr "Ниже"
+
+msgid "Main"
+msgstr "Главный"
+
+msgid "Above"
+msgstr "Выше"
+
+msgid "Menu"
+msgstr "Меню"
+
+msgid "Hitbox"
+msgstr "Хитбокс"
+
+msgid "Sprite"
+msgstr "Спрайт"
+
+msgid "Text"
+msgstr "Текст"
+
+msgid "EXPLORER"
+msgstr "Исследователь"
+
+msgid "Base (Explorer)"
+msgstr "Базированый (Проводник)"
+
+msgid "Below (Explorer)"
+msgstr "Нижний (Проводник)"
+
+msgid "Main (Explorer)"
+msgstr "Главный (Проводник)"
+
+msgid "Above (Explorer)"
+msgstr "Верхний (Проводник)"
+
+msgid "Menu (Explorer)"
+msgstr "Меню (Проводник)"
+
+msgid "A"
+msgstr "А"
+
+msgid "C"
+msgstr "С"
+
+msgid "R"
+msgstr ""
+
+msgid "E"
+msgstr ""
+
+msgid "H"
+msgstr ""
+
+msgid "O"
+msgstr ""
+
+msgid "P"
+msgstr ""
+
+msgid "S"
+msgstr ""
+
+msgid "T"
+msgstr ""
+
+msgid "Press [TAB] to cycle debug info"
+msgstr "Нажмите [TAB], чтобы просмотреть отладочную информацию"
+
+msgid "Acceleration"
+msgstr "Ускорение"
+
+msgid "Active"
+msgstr "Активный"
+
+msgid "Alpha"
+msgstr "Альфа"
+
+msgid "Anchor"
+msgstr "Якорь"
+
+msgid "B"
+msgstr ""
+
+msgid "Blend"
+msgstr "Смесь"
+
+msgid "Border"
+msgstr "Граница"
+
+msgid "Computed Size"
+msgstr "Вычисленный размер"
+
+msgid "Content"
+msgstr "Контент"
+
+msgid "Crop"
+msgstr "Урожай"
+
+msgid "Down"
+msgstr "Вниз"
+
+msgid "Duration"
+msgstr "Продолжительность"
+
+msgid "EXP"
+msgstr "ОП"
+
+msgid "Extent"
+msgstr "Степень"
+
+msgid "F"
+msgstr ""
+
+msgid "Face"
+msgstr "Лицо"
+
+msgid "False"
+msgstr "Ложный"
+
+msgid "Fill"
+msgstr "Заполнить"
+
+msgid "Font Family"
+msgstr "Семейство шрифтов"
+
+msgid "Font Size"
+msgstr "Размер шрифта"
+
+msgid "Frames"
+msgstr "Кадры"
+
+msgid "Gravity"
+msgstr "Гравитация"
+
+msgid "Group"
+msgstr "Группа"
+
+msgid "HP"
+msgstr "ОЗ"
+
+msgid "Index"
+msgstr "Индекс"
+
+msgid "Inert"
+msgstr "Вялый"
+
+msgid "Key"
+msgstr "Ключ"
+
+msgid "Last Saved Time"
+msgstr "Последнее сохраненное время"
+
+msgid "Layer"
+msgstr "Слой"
+
+msgid "Layers"
+msgstr "Слои"
+
+msgid "Left"
+msgstr "Лево"
+
+msgid "Metadata"
+msgstr "Метаданные"
+
+msgid "Music"
+msgstr "Музыка"
+
+msgid "Namespace"
+msgstr "Название помещения"
+
+msgid "NONE"
+msgstr "Никто"
+
+msgid "none"
+msgstr "никто"
+
+msgid "Objects"
+msgstr "Объект"
+
+msgid "Oversaver"
+msgstr "Над спасателем"
+
+msgid "Parallax"
+msgstr "Смещение"
+
+msgid "Position"
+msgstr "Позиция"
+
+msgid "Primed"
+msgstr "Загрунтованный"
+
+msgid "Priority"
+msgstr "Приоритет"
+
+msgid "REGISTRY"
+msgstr "Регистрация"
+
+msgid "Renderer"
+msgstr "Рендеринг"
+
+msgid "Resources"
+msgstr "Ресурсы"
+
+msgid "Reverse"
+msgstr "Реверс"
+
+msgid "Right"
+msgstr "Право"
+
+msgid "Room"
+msgstr "Комната"
+
+msgid "Room State"
+msgstr "Состояние комнаты"
+
+msgid "Rotation"
+msgstr "Вращение"
+
+msgid "Scale"
+msgstr "Масштаб"
+
+msgid "Shop Selection"
+msgstr "Выбор магазина"
+
+msgid "Size"
+msgstr "Размер"
+
+msgid "Spacing"
+msgstr "Расстояние"
+
+msgid "Spin"
+msgstr "Вращение"
+
+msgid "Sprites"
+msgstr "Спрайты"
+
+msgid "Step"
+msgstr "Шаг"
+
+msgid "Stroke"
+msgstr "Инсульт"
+
+msgid "Subcrop"
+msgstr "Субкультура"
+
+msgid "Talk"
+msgstr "Говорить"
+
+msgid "Target"
+msgstr "Цель"
+
+msgid "Time"
+msgstr ""
+
+msgid "Tint"
+msgstr "Оттенок"
+
+msgid "Tracked Assets"
+msgstr "Отслеживаемые активы"
+
+msgid "True"
+msgstr "Да"
+
+msgid "UNKNOWN"
+msgstr "НЕИЗВЕСТНЫЙ"
+
+msgid "Up"
+msgstr "Вверх"
+
+msgid "Vars"
+msgstr "Вары"
+
+msgid "Velocity"
+msgstr "Скорость"
+
+msgid "Volatile"
+msgstr "Летучий"
+
+msgid "SAVEMOD"
+msgstr "Cохранить мод"
+
+msgid "SAVE EDITOR"
+msgstr "Cохранить редактор"
+
+msgid "Data (Booleans)"
+msgstr "Данные (логические)"
+
+msgid "Data (Numbers)"
+msgstr "Данные (Номера)"
+
+msgid "Data (Strings)"
+msgstr "Данные (Строки)"
+
+msgid "Flags (Booleans)"
+msgstr "Флаги (логические)"
+
+msgid "Flags (Numbers)"
+msgstr "Флаги (Цифры)"
+
+msgid "Flags (Strings)"
+msgstr "Флаги (Строки)"
+
+msgid "NAVIGATION"
+msgstr "Навигация"
+
+msgid "Prev"
+msgstr "Предыдущий"
+
+msgid "Next"
+msgstr "Следующий"
+
+msgid "Enter Value"
+msgstr "Введите значение"
+
+msgid "Back"
+msgstr "Назад"
+
+msgid "STORAGE"
+msgstr "ХРАНИЛИЩЕ"
+
+msgid "STORAGE EDITOR"
+msgstr "РЕДАКТОР ХРАНИЛИЩА"
+
+msgid "SELECTION"
+msgstr "ВЫБОР"
+
+msgid "Inventory"
+msgstr "Инвентарь"
+
+msgid "Dim. Box A"
+msgstr "Объёмный. Ящик А"
+
+msgid "Dim. Box B"
+msgstr "Объёмный. Ящик Б"
+
+msgid "Clear File"
+msgstr "Очистить файл"
+
+msgid "Notice"
+msgstr "Уведомление"
+
+msgid "Open"
+msgstr "Открыть"
+
+msgid "SAVE files"
+msgstr "Сохранить файлы"
+
+msgid "Open File"
+msgstr "Открыть Файл"
+
+msgid "Save File"
+msgstr "Сохранить Файл"
+
+msgid "That file could not be parsed."
+msgstr "Этот файл не удалось разобрать."
+
+msgid "OK"
+msgstr "ОК"
+
+msgid "Cancel"
+msgstr "Отмена"
+
+msgid "Clear this file?"
+msgstr "Очистить этот файл?"
+
+msgid ""
+"Your SAVE file from the\n"
+"OUTERTALE demo has been\n"
+"moved to a timeline slot."
+msgstr ""
+"Ваш сохраненный файл из\n"
+"демо-версии OUTERTALE был\n"
+"перемещен в раздел временной шкалы."
+
+msgid "Save this file?"
+msgstr "Сохранить этот файл?"
+
+msgid ""
+"Copy the text below into\n"
+"a JSON file to save it\n"
+"to your device."
+msgstr ""
+"Скопируйте приведенный ниже текст в\n"
+"JSON-файл, чтобы сохранить его\n"
+"на своем устройстве."
+
+msgid "Load this file?"
+msgstr "Загрузить этот файл?"
+
+msgid "§fill=#ff0§< DEVELOPER >§fill=#fff§"
+msgstr "§fill=#ff0§< СОЗДАТЕЛЬ >§fill=#fff§"
+
+msgid "spacey_432"
+msgstr ""
+
+msgid ""
+msgstr ""
+
+msgid "§fill=#ff0§< WRITER >§fill=#fff§"
+msgstr "§fill=#ff0§< ПИСАТЕЛЬ >§fill=#fff§"
+
+msgid "Balgamlı Kedi"
+msgstr ""
+
+msgid "Bilge \"mnwary\""
+msgstr ""
+
+msgid "Dischnie"
+msgstr "Обеденный стол"
+
+msgid "Efe Kaya"
+msgstr ""
+
+msgid "Ghostly"
+msgstr ""
+
+msgid "InvincibleRacoon"
+msgstr ""
+
+msgid "Jojoton56"
+msgstr ""
+
+msgid "Kiwi \"Quinn\""
+msgstr ""
+
+msgid "My Aster"
+msgstr "Моя Астор."
+
+msgid "neo9174"
+msgstr ""
+
+msgid "Rise"
+msgstr ""
+
+msgid "ThatGuyWhoLikesFood"
+msgstr ""
+
+msgid "Turbulation"
+msgstr ""
+
+msgid "Zaxento The Greedy"
+msgstr ""
+
+msgid "§fill=#ff0§< ARTIST >§fill=#fff§"
+msgstr "§fill=#ff0§< ХУДОЖНИК >§fill=#fff§"
+
+msgid "Burge"
+msgstr ""
+
+msgid "Deskius"
+msgstr ""
+
+msgid "DESM.al"
+msgstr ""
+
+msgid "Discarded Vessel"
+msgstr ""
+
+msgid "Fired"
+msgstr ""
+
+msgid "Funtermore"
+msgstr ""
+
+msgid "HolyOranges"
+msgstr ""
+
+msgid "major_memestar"
+msgstr ""
+
+msgid "MattSpriteMaster"
+msgstr ""
+
+msgid "Medi0creking"
+msgstr ""
+
+msgid "NerNot1"
+msgstr ""
+
+msgid "PhyreFM"
+msgstr ""
+
+msgid "Pongy25"
+msgstr ""
+
+msgid "PoTheWinterCorder"
+msgstr "По Зимней границе"
+
+msgid "ProctorDorkchop02"
+msgstr ""
+
+msgid "ScarletScaledDragon"
+msgstr "Алый чешуйчатый дракон"
+
+msgid "semi"
+msgstr "полу"
+
+msgid "Soup Taels"
+msgstr ""
+
+msgid "SquigglyWiggley"
+msgstr "Волнистый, извивающийся"
+
+msgid "Starkiteckt"
+msgstr ""
+
+msgid "supper12"
+msgstr ""
+
+msgid "Valor52"
+msgstr ""
+
+msgid "§fill=#ff0§< TECHNICIAN >§fill=#fff§"
+msgstr "§fill=#ff0§< СПЕЦИАЛИСТ >§fill=#fff§"
+
+msgid "Codetoil"
+msgstr ""
+
+msgid "ryi3r"
+msgstr "Ryi3r"
+
+msgid "ws3917"
+msgstr ""
+
+msgid "§fill=#ff0§< TESTER >§fill=#fff§"
+msgstr "§fill=#ff0§< ТЕСТЕР >§fill=#fff§"
+
+msgid "Alden"
+msgstr ""
+
+msgid "Aspey"
+msgstr ""
+
+msgid "blue"
+msgstr "Синий"
+
+msgid "Brad"
+msgstr ""
+
+msgid "brayjamin"
+msgstr ""
+
+msgid "ClamsyMoe"
+msgstr ""
+
+msgid "delta"
+msgstr "Дельта"
+
+msgid "DR4GON HE4RT"
+msgstr ""
+
+msgid "Dubituar"
+msgstr ""
+
+msgid "Emurry"
+msgstr ""
+
+msgid "Enzolos"
+msgstr ""
+
+msgid "EvanGamesGoodman"
+msgstr ""
+
+msgid "FireWizard72X"
+msgstr ""
+
+msgid "FuLiNT"
+msgstr ""
+
+msgid "gardnaeden"
+msgstr ""
+
+msgid "Gon UT"
+msgstr ""
+
+msgid "Green Tea"
+msgstr "Зелёный Чай"
+
+msgid "Huggies!"
+msgstr "Обнимашки!"
+
+msgid "ilovecookies"
+msgstr ""
+
+msgid "Jago128"
+msgstr ""
+
+msgid "Joe98912"
+msgstr ""
+
+msgid "Jonkler"
+msgstr ""
+
+msgid "lil tanski"
+msgstr "Тански, Лил"
+
+msgid "MR. PETER"
+msgstr "Мистер Питер."
+
+msgid "MSBen"
+msgstr "Мсбен"
+
+msgid "Murder--Sans_MDR"
+msgstr "Убийство - Sans MDR"
+
+msgid "Nanorasmus"
+msgstr "Нанорасмус"
+
+msgid "NepAnime"
+msgstr "Непал"
+
+msgid "Shaun Duz Stuffs"
+msgstr "Шон Дуз Стаффс"
+
+msgid "SHCyank"
+msgstr "ШКьянк"
+
+msgid "petar3644"
+msgstr "Пайта 3644"
+
+msgid "PixelToons Jaafar"
+msgstr "Пиксель Тоонс Джаафар"
+
+msgid "Prezmop"
+msgstr "Пресмоп"
+
+msgid "prymus-agd"
+msgstr "Праймус АГД"
+
+msgid "Quin"
+msgstr "Квин."
+
+msgid "RadicalRic"
+msgstr "Радикальный Рик"
+
+msgid "Raelynn"
+msgstr "Рэйлин."
+
+msgid "retr22800"
+msgstr "Попробуйте 22800"
+
+msgid "RoCtD_14159"
+msgstr "RoCtD 14159"
+
+msgid "sonicisawesome222"
+msgstr "Sonicisawesome 222"
+
+msgid "spaceknife234"
+msgstr "Космический нож 234"
+
+msgid "superkippy"
+msgstr "Суперкиппи"
+
+msgid "Teecup"
+msgstr "Текуп"
+
+msgid "Tem in a Cowboy Hat"
+msgstr "Тема в ковбойской шляпе"
+
+msgid "Tenbrooks"
+msgstr "Тембрукс"
+
+msgid "The Fallen Angel"
+msgstr "Падший ангел"
+
+msgid "TheAsriel"
+msgstr "Асриль"
+
+msgid "Wild Pasta"
+msgstr "Дикая Италия"
+
+msgid "Xiao_Akatsuki"
+msgstr "Маленький Кацуки"
+
+msgid "xNoodlePlayz"
+msgstr "XNoodlePlayz"
+
+msgid "§fill=#ff0§< SPECIAL THANKS >§fill=#fff§"
+msgstr "§fill=#ff0§< ОСОБАЯ БЛАГОДАРНОСТЬ >§fill=#fff§"
+
+msgid ""
+"§fill=#808080§For being there for me when I\n"
+"need someone to lean on, and\n"
+"teaching me life lessons that\n"
+"have made me a better person.§fill=#fff§"
+msgstr ""
+"§fill=#808080§За то, что был рядом со мной,\n"
+"когда я нуждался в поддержке, и\n"
+"преподал мне жизненные уроки,\n"
+"которые сделали меня лучше.§fill=#fff§"
+
+msgid ""
+"§fill=#808080§For being one of the friendliest\n"
+"people I know, the first person\n"
+"to believe in my vision, and\n"
+"inspiring me to finish the game.§fill=#fff§"
+msgstr ""
+"§fill=#808080§За то что ты один из \n"
+"самых приветливых людей которых я знаю,\n"
+"веру в моё виденье и вдохновение завершить игру.§fill=#fff§"
+
+msgid ""
+"§fill=#808080§For sticking with me at every\n"
+"stage of development, right from\n"
+"the start. Regardless of the era,\n"
+"he's always been there to help.§fill=#fff§"
+msgstr "Он всегда там помогает. § fill = # fff §"
+
+msgid ""
+"§fill=#808080§For being a voice of reason when\n"
+"it comes to many aspects of the\n"
+"game, and encouraging me to take\n"
+"testing seriously.§fill=#fff§"
+msgstr "Тщательное тестирование. § fill = # fff §"
+
+msgid ""
+"§fill=#808080§For being reliable, brutally\n"
+"honest, giving me lots of\n"
+"criticism and ideas, and being\n"
+"trustworthy from the day we met.§fill=#fff§"
+msgstr ""
+"С того дня, как мы встретились, мы заслужили доверие. § fill = # fff §"
+
+msgid ""
+"§fill=#808080§For helping me write crucial\n"
+"parts of the game, supporting my\n"
+"vision, and helping me express\n"
+"myself in a whole new way.§fill=#fff§"
+msgstr "Я по - новому. § fill = # fff §"
+
+msgid ""
+"§fill=#808080§For being there to help towards\n"
+"the end of development, and\n"
+"ensuring the game's writing\n"
+"reaches its full potential.§fill=#fff§"
+msgstr "Полностью реализовать свой потенциал. § fill = # fff §"
+
+msgid "Brought to you by §fill=#ff0§The Mavis & Co.§fill=#fff§"
+msgstr "От § fill = # ff0 § The Mavis & Co. для вас § fill = # fff §"
+
+msgid "(( CAST ))"
+msgstr "((Актерский состав)"
+
+msgid "FROGGIT"
+msgstr "* ФРОГГИТ"
+
+msgid ""
+"Pondering\n"
+"Life"
+msgstr "Жизнь"
+
+msgid ""
+"Professional\n"
+"Frog"
+msgstr "Лягушка"
+
+msgid ""
+"Pondering\n"
+"Love"
+msgstr "Любовь"
+
+msgid ""
+"Hopping In\n"
+"Fear"
+msgstr "Страх"
+
+msgid "FLUTTERLYTE"
+msgstr "* Трепетун"
+
+msgid ""
+"Learning To\n"
+"Fly"
+msgstr "Лети."
+
+msgid ""
+"Emboldening\n"
+"Aviator"
+msgstr "Пилоты"
+
+msgid ""
+"Searching The\n"
+"Skies"
+msgstr "Небо"
+
+msgid ""
+"Evasively\n"
+"Maneuvering"
+msgstr "Мобильность"
+
+msgid "GELATINI"
+msgstr "* желатин"
+
+msgid ""
+"Found A New\n"
+"Space Station"
+msgstr "Космическая станция"
+
+msgid ""
+"Backup\n"
+"Dancer"
+msgstr "Танцоры"
+
+msgid ""
+"Exotic Jelly\n"
+"Dancer"
+msgstr "Танцоры"
+
+msgid ""
+"Found A New\n"
+"Galaxy"
+msgstr "Галактика"
+
+msgid "OCULOUX"
+msgstr "* Окулус"
+
+msgid ""
+"Slightly\n"
+"Bully-Like"
+msgstr "Понравилось издеваться"
+
+msgid ""
+"Reformed\n"
+"Bully"
+msgstr "Угрозы"
+
+msgid ""
+"Slightly\n"
+"Flirtatious"
+msgstr "легкомысленный"
+
+msgid "SILENTE"
+msgstr "* Силенте"
+
+msgid ""
+"Exceedingly\n"
+"Agreeable"
+msgstr "Согласен."
+
+msgid ""
+"Casually\n"
+"Enjoys Life"
+msgstr "Наслаждайтесь жизнью"
+
+msgid ""
+"In Love From\n"
+"Afar"
+msgstr "Афар"
+
+msgid ""
+"Endangerment\n"
+"Denier"
+msgstr "Даниэль."
+
+msgid "MUSHY"
+msgstr "* Мушка"
+
+msgid "Balgamlı Kedi & ScarletScaledDragon"
+msgstr "Скачать Balgamlı Kedi & ScarletScaledDragon"
+
+msgid ""
+"Shooting\n"
+"Blanks"
+msgstr "Одеяло"
+
+msgid ""
+"Quick-Draw\n"
+"Magician"
+msgstr "Волшебник."
+
+msgid ""
+"Gunshot\n"
+"Heart-Throb"
+msgstr "Тромб сердца"
+
+msgid ""
+"Spraying And\n"
+"Praying"
+msgstr "Молитва."
+
+msgid "LURKSALOT"
+msgstr "ЛУРКСАЛОТ"
+
+msgid ""
+"Keeping To\n"
+"Themselves"
+msgstr "Они сами."
+
+msgid ""
+"Seeking\n"
+"Physical Contact"
+msgstr "Физический контакт"
+
+msgid ""
+"Stoically\n"
+"Uninvolved"
+msgstr "Не участвовать"
+
+msgid "STARDRAKE"
+msgstr "* Стардрейк"
+
+msgid ""
+"Still Looking\n"
+"For Laughs"
+msgstr "Для смеха"
+
+msgid ""
+"Semi-Successful\n"
+"Comedian"
+msgstr "Комедианты"
+
+msgid ""
+"Popular With The\n"
+"Grown-Ups"
+msgstr "Взрослые"
+
+msgid "CHILLDRAKE"
+msgstr "* Чилдрейк"
+
+msgid ""
+"Still Looking\n"
+"For Supporters"
+msgstr "Для сторонников"
+
+msgid ""
+"Gained A Cult\n"
+"Following"
+msgstr "Ниже приводится"
+
+msgid ""
+"Trades Kisses\n"
+"For Supporters"
+msgstr "Для сторонников"
+
+msgid ""
+"Anti-Bullying\n"
+"Activist"
+msgstr "Активисты"
+
+msgid "ASTRO SERF"
+msgstr "* Астро Серф"
+
+msgid ""
+"Thinking About\n"
+"Its Antenna"
+msgstr "Его антенна"
+
+msgid ""
+"Radio Station\n"
+"Sensation"
+msgstr "Чувство"
+
+msgid ""
+"Love Is On\n"
+"The Air"
+msgstr "Воздух"
+
+msgid ""
+"Emergency\n"
+"Broadcaster"
+msgstr "Радиовещательная компания"
+
+msgid "JERRY"
+msgstr "Джерри."
+
+msgid ""
+"Getting Ditched\n"
+"On The Daily"
+msgstr "The Daily Mail"
+
+msgid ""
+"Getting Ditched\n"
+"Slightly Less"
+msgstr "Немного меньше."
+
+msgid ""
+"On The Road To\n"
+"Redemption"
+msgstr "Выкуп."
+
+msgid "WHIZKARAT"
+msgstr "* Визкарат"
+
+msgid "Zaxento The Greedy & semi"
+msgstr "Жадность и наполовину"
+
+msgid ""
+"Having An\n"
+"Identity Crisis"
+msgstr "Кризис идентичности"
+
+msgid ""
+"Newest Member Of\n"
+"Mouse Society"
+msgstr "Общество крыс"
+
+msgid ""
+"Getting Frisky\n"
+"With The Mice"
+msgstr "& Мыши"
+
+msgid ""
+"Scurried Back To\n"
+"Cat Society"
+msgstr "Общество кошек"
+
+msgid "DOGGO"
+msgstr "* Догго"
+
+msgid ""
+"Believes In The\n"
+"Almighty Wrench"
+msgstr "Всемогущий ключ"
+
+msgid ""
+"Found His Own\n"
+"Seeing-Eye Wolf"
+msgstr "Увидеть глаза волка"
+
+msgid ""
+"In Love With His\n"
+"Seeing-Eye Wolf"
+msgstr "Увидеть глаза волка"
+
+msgid ""
+"Running To His\n"
+"Seeing-Eye Wolf"
+msgstr "Увидеть глаза волка"
+
+msgid "CANIS MINOR"
+msgstr "* Малый Пёс"
+
+msgid ""
+"Searching For\n"
+"Affection"
+msgstr "Эмоции"
+
+msgid ""
+"Found A Loving\n"
+"Owner"
+msgstr "Владелец"
+
+msgid ""
+"Found An Owning\n"
+"Lover"
+msgstr "Любовник."
+
+msgid ""
+"Desperate For\n"
+"Affection"
+msgstr "Эмоции"
+
+msgid "DOGAMY & DOGARESSA"
+msgstr "Догами и Догареса"
+
+msgid ""
+"Still Thinking\n"
+"About Fetch"
+msgstr "О компании Fetch"
+
+msgid ""
+"Reigning Puppy-Dog\n"
+"Eyes Champions"
+msgstr "Чемпион по глазам"
+
+msgid ""
+"Caught In Each-\n"
+"Other's Gaze"
+msgstr "Взгляд других"
+
+msgid ""
+"Defensive Puppy-\n"
+"Dog Eyes Engaged"
+msgstr "Обручение глаз собаки"
+
+msgid "CANIS MAJOR"
+msgstr "* Большой Пёс"
+
+msgid ""
+"Unaware Of\n"
+"Life's Changes"
+msgstr "Жизнь меняется."
+
+msgid ""
+"Excited By\n"
+"Life's Changes"
+msgstr "Жизнь меняется."
+
+msgid ""
+"Touched By\n"
+"Life's Changes"
+msgstr "Жизнь меняется."
+
+msgid "SKRUBBINGTON"
+msgstr "* Скрубингтон"
+
+msgid ""
+"Only 99.1\n"
+"Percent Clean"
+msgstr "Процент чистоты"
+
+msgid ""
+"Power-Washing\n"
+"Powerhouse"
+msgstr "Здание электростанции"
+
+msgid ""
+"Hot Tub\n"
+"Manufacturer"
+msgstr "Производитель"
+
+msgid ""
+"Overpowered\n"
+"Pressure Washer"
+msgstr "стиральная машина высокого давления"
+
+msgid "GELATA"
+msgstr "* Гелата"
+
+msgid ""
+"Looking For A\n"
+"Baby Sitter"
+msgstr "Детская няня"
+
+msgid ""
+"Slime-Powered\n"
+"Barstool"
+msgstr "Барный стул"
+
+msgid ""
+"Sexy Sitcom\n"
+"Regular"
+msgstr "Обычный"
+
+msgid ""
+"Glorified\n"
+"Wrestling Prop"
+msgstr "Борьба с опорой"
+
+msgid "RADTILE"
+msgstr ":: Радиоактивные материалы"
+
+msgid "Balgamlı Kedi & Zaxento The Greedy"
+msgstr "Balgamlı Kedi & Zaxento - Жадность"
+
+msgid ""
+"Wallowing In\n"
+"Imperfection"
+msgstr "Несовершенство."
+
+msgid ""
+"Improving His\n"
+"Self-Image"
+msgstr "Самообразие"
+
+msgid ""
+"Dating His Own\n"
+"Reflection"
+msgstr "Размышления"
+
+msgid ""
+"Headed For An\n"
+"Ugly Future"
+msgstr "Уродливое будущее"
+
+msgid "SHYREN"
+msgstr "* Хирон"
+
+msgid ""
+"Back To Taking\n"
+"Piano Lessons"
+msgstr "Уроки фортепиано"
+
+msgid ""
+"Mettaton's\n"
+"New Lead Singer"
+msgstr "Новый вокалист"
+
+msgid ""
+"In Love With\n"
+"A Ghost"
+msgstr "Призрак."
+
+msgid ""
+"Can't Sing Without\n"
+"A Synthesizer"
+msgstr "Синтезатор"
+
+msgid "DOGE"
+msgstr "* Щенок"
+
+msgid ""
+"Construction Site\n"
+"Drill Sergeant"
+msgstr "Инструкторы"
+
+msgid ""
+"Bought A Lifetime\n"
+"Spa Subscription"
+msgstr "Спа - пакеты"
+
+msgid ""
+"Felt Puppy Love\n"
+"For The First Time"
+msgstr "Впервые"
+
+msgid "MUFFET"
+msgstr "* Маффины"
+
+msgid ""
+"Looking For Her\n"
+"Next Payout"
+msgstr "Следующий платеж"
+
+msgid ""
+"Caring For The\n"
+"Spider Clans"
+msgstr "Пауки"
+
+msgid ""
+"Picnic Date\n"
+"Matchmaker"
+msgstr "Лунный старость"
+
+msgid "HOTWIRE"
+msgstr "* Горячая линия"
+
+msgid ""
+"Waiting For The\n"
+"Beat To Drop"
+msgstr "Ударь."
+
+msgid ""
+"Lightning-Fast\n"
+"Rapper"
+msgstr "Хищные птицы"
+
+msgid ""
+"Rapper Turned\n"
+"Love Song Writer"
+msgstr "Любовные писатели"
+
+msgid ""
+"Rap Battling To\n"
+"The Near-Death"
+msgstr "На грани смерти"
+
+msgid "TSUNDERIDEX"
+msgstr "* Синдрекс"
+
+msgid ""
+"Flying Deeper\n"
+"Into Denial"
+msgstr "Отрицание"
+
+msgid ""
+"Sneaking Up On\n"
+"You At Warp Speed"
+msgstr "Ты на кривой скорости."
+
+msgid ""
+"Tsun To Be\n"
+"Your Dere-Dere"
+msgstr "Твои права."
+
+msgid ""
+"Finally Met\n"
+"Its Match"
+msgstr "Это соревнование."
+
+msgid "PERIGEE"
+msgstr "* Перигей"
+
+msgid ""
+"Another Day,\n"
+"Another Conflict"
+msgstr "Еще один конфликт"
+
+msgid ""
+"Interplanetary\n"
+"Ambassador"
+msgstr "Посол"
+
+msgid ""
+"Encouraging Love\n"
+"In Others"
+msgstr "В других"
+
+msgid ""
+"Showing Kindness\n"
+"Through The Pain"
+msgstr "Через боль"
+
+msgid "RG 03 & RG 04"
+msgstr "RG 03 и RG 04"
+
+msgid ""
+"In Search Of\n"
+"Childhood Friends"
+msgstr "Друзья детства"
+
+msgid ""
+"Use Your\n"
+"Imagination"
+msgstr "Воображение"
+
+msgid ""
+"Please Use Your\n"
+"Imagination"
+msgstr "Воображение"
+
+msgid ""
+"Royal Guard\n"
+"Retirees"
+msgstr "Пенсионеры"
+
+msgid "GLYDE"
+msgstr "Грэд!"
+
+msgid ""
+"Not Your Ideal\n"
+"Business Partner"
+msgstr "Оперативные партнеры"
+
+msgid ""
+"A Little Less\n"
+"Shady Than Usual"
+msgstr "Темнее, чем обычно"
+
+msgid ""
+"Not Your Ideal\n"
+"Bedfellow"
+msgstr "Бедферро"
+
+msgid "BURGERPANTS"
+msgstr "Воры."
+
+msgid ""
+"Running Hastily\n"
+"At The Life Ahead"
+msgstr "В будущей жизни"
+
+msgid ""
+"Looking Forward\n"
+"To The Life Ahead"
+msgstr "Жизнь в будущее"
+
+msgid ""
+"Finding Love\n"
+"In The Life Ahead"
+msgstr "В будущей жизни"
+
+msgid "COZMO"
+msgstr "* Козмо"
+
+msgid ""
+"Looking For A\n"
+"Dictionary"
+msgstr "Словарь"
+
+msgid ""
+"Famous\n"
+"Magician"
+msgstr "Волшебник."
+
+msgid ""
+"Found A New Kind\n"
+"Of Magic"
+msgstr "Магия"
+
+msgid "TERRESTRIA"
+msgstr "* Террестрия"
+
+msgid ""
+"In Search Of\n"
+"The Past"
+msgstr "В прошлом."
+
+msgid ""
+"Renowned\n"
+"Historian"
+msgstr "Историки"
+
+msgid ""
+"Has A Crush On\n"
+"The Homeworld"
+msgstr "Дом"
+
+msgid "FINAL FROGGIT"
+msgstr "* Последняя лягушка"
+
+msgid ""
+"Keeping Its\n"
+"Wisdom To Itself"
+msgstr "Сама мудрость"
+
+msgid ""
+"Sharing Its\n"
+"Wisdom Openly"
+msgstr "Мудрость открыто"
+
+msgid ""
+"Using Its Wisdom\n"
+"For Love"
+msgstr "Ради любви"
+
+msgid ""
+"Using Its Wisdom\n"
+"For Survival"
+msgstr "Чтобы выжить"
+
+msgid "FLUTTERKNYTE"
+msgstr "* Флуттеркнит"
+
+msgid ""
+"Still Working\n"
+"Every Day"
+msgstr "Каждый день."
+
+msgid ""
+"Finally Took\n"
+"A Break"
+msgstr "Отдохни."
+
+msgid ""
+"Looking For Some\n"
+"Private Time"
+msgstr "Частное время"
+
+msgid ""
+"Working Harder\n"
+"Out Of Fear"
+msgstr "Из страха"
+
+msgid "EYEWALKER PRIME"
+msgstr "* Eyewalker Prime"
+
+msgid ""
+"Still A\n"
+"Big Bully"
+msgstr ""
+"Остался\n"
+"Большим задирой"
+
+msgid ""
+"Domineering\n"
+"Eye Doctor"
+msgstr "Офтальмолог"
+
+msgid ""
+"Domineering\n"
+"Leather Tailor"
+msgstr "Кожаный портной"
+
+msgid ""
+"Overthrown By\n"
+"An Oculoux"
+msgstr "Глаз дьявола"
+
+msgid "SILENCIO"
+msgstr "* Силенсио"
+
+msgid ""
+"Still A\n"
+"Shameless Coward"
+msgstr "Бесстыдный трус."
+
+msgid ""
+"A Little Less Of\n"
+"A Coward"
+msgstr "Трус."
+
+msgid ""
+"In Love With\n"
+"Its Fear"
+msgstr "Это страх."
+
+msgid ""
+"Running Faster\n"
+"Than Ever Before"
+msgstr "Больше, чем когда - либо"
+
+msgid "MUSHKETEER"
+msgstr ":: Мушкеттер"
+
+msgid "Balgamlı Kedi & Ghostly"
+msgstr "Balgamlı Kedi & Призрак"
+
+msgid ""
+"One Mushroom\n"
+"Army"
+msgstr "Армия"
+
+msgid ""
+"Hardened Warrior\n"
+"Seeking Peace"
+msgstr "В поисках мира"
+
+msgid ""
+"Defeated By The\n"
+"Power Of Love"
+msgstr "Сила любви."
+
+msgid ""
+"Scared\n"
+"Straight"
+msgstr ""
+"Боится\n"
+"Силы"
+
+msgid "PAPYRUS"
+msgstr "ПАПИРУС"
+
+msgid "ProctorDorkchop02 & MattSpriteMaster"
+msgstr "ProctorDorkchop02 и MattSpriteMaster"
+
+msgid "SANS"
+msgstr "САНС"
+
+msgid "ProctorDorkchop02 & Fired"
+msgstr "Прокурор Dorkchop02 & уволен"
+
+msgid "UNDYNE"
+msgstr "АНДАЙН"
+
+msgid "ALPHYS"
+msgstr "АЛЬФИС"
+
+msgid "MEW MEW"
+msgstr "МЯУ МЯУ"
+
+msgid "NAPSTABLOOK"
+msgstr "НАБСТАБЛУК"
+
+msgid "METTATON"
+msgstr "МЕТТАТОН"
+
+msgid "TORIEL"
+msgstr "ТОРИЭЛЬ"
+
+msgid "ASGORE"
+msgstr "АЗГОР"
+
+msgid "MONSTER KID"
+msgstr "МОНСТРЁНОК"
+
+msgid "ASRIEL"
+msgstr "АЗРИЭЛЬ"
+
+msgid "Medi0creking & MattSpriteMaster"
+msgstr "Medi0creking и MattSpriteMaster"
+
+msgid "[↑ or ↓] to Select / [Z or ENTER] to Confirm"
+msgstr "[↑ или ↓] чтобы Выбрать / [Z или ENTER] чтобы Подтвердить"
+
+msgid ""
+"To whom it may concern,\n"
+"\n"
+"This game contains §fill=#ff0§flashing images§fill=#fff§\n"
+"which may be reduced via the\n"
+"§fill=#ff0§settings menu§fill=#fff§.\n"
+"\n"
+msgstr "§ fill = # ff0 § Меню Настройки § fill = # fff §."
+
+msgid "§fill=#808080§Press [Z or ENTER] to Continue"
+msgstr "§ fill = # 80080 § Нажмите [Z или ENTER] Продолжить"
+
+msgid "Quitting"
+msgstr "Выходим"
+
+msgid "Quitting."
+msgstr "Выходим."
+
+msgid "Quitting.."
+msgstr "Выходим.."
+
+msgid "Thank you for playing Outertale."
+msgstr "Спасибо за то, что сыграли в Outertale."
+
+msgid "Working on this project has been an honor,"
+msgstr "Работа над этим проектом была для меня большой честью,"
+
+msgid "and a pleasure on my part."
+msgstr "и с удовольствием с моей стороны."
+
+msgid "When I started this journey, I never"
+msgstr "Когда я начинал это приключение, я никогда"
+
+msgid "thought I'd get this far, but here we"
+msgstr "Не думал, что заберусь так далеко, но вот мы"
+
+msgid "are anyway, at the end."
+msgstr "в любом случае, в конце."
+
+msgid "For me, UNDERTALE was a life-changing"
+msgstr "Для меня UNDERTALE стал судьбоносным."
+
+msgid "experience, and one that was very hard to"
+msgstr "опыт, который было очень трудно"
+
+msgid "let go of after I first played it."
+msgstr "после того, как я впервые сыграл в нее."
+
+msgid "So, with OUTERTALE, I wanted to give you"
+msgstr "Поэтому, создавая «OUTERTALE», я хотел дать тебе"
+
+msgid "another chance to exist in a world like it,"
+msgstr "еще один шанс на существование в мире, подобном этому,"
+
+msgid "as if it were your first time."
+msgstr "как будто это твой первый раз."
+
+msgid "I hope I've given you that chance."
+msgstr "Надеюсь, я дал тебе этот шанс."
+
+msgid "I hope you've come away satisfied with"
+msgstr "Я надеюсь, что ты остался доволен"
+
+msgid "the time you've spent in this world."
+msgstr "время, проведенное в этом мире."
+
+msgid "No matter what you've done in your life,"
+msgstr "Неважно, что ты сделал в своей жизни,"
+
+msgid "your actions here speak volumes about the"
+msgstr "твои действия здесь говорят о том"
+
+msgid "kind of person you really are."
+msgstr "каким человеком ты на самом деле являешься."
+
+msgid "It's because of you that you got the ending"
+msgstr "Это благодаря тебе ты получил концовку"
+
+msgid "you did, and nothing can take that"
+msgstr "ты сделал это, и ничто не может это отменить"
+
+msgid "experience away from you."
+msgstr "опыт, который ты отнимаешь у себя."
+
+msgid "Despite your mistakes... you are awesome,"
+msgstr "Несмотря на ошибки... ты потрясающий,"
+
+msgid "and you deserve love and attention."
+msgstr "и ты заслуживаешь любви и внимания."
+
+msgid "Remember that, okay?"
+msgstr "Помни это, хорошо?"
+
+msgid "Take care of yourself, \"$(x).\""
+msgstr "Береги себя, «$(x)»."
+
+msgid "THE END"
+msgstr "КОНЕЦ"
+
+msgid "THE END...?"
+msgstr "КОНЕЦ...?"
+
+msgid "Restarting"
+msgstr "Перезапуск"
+
+msgid "Restarting."
+msgstr "Перезапуск."
+
+msgid "Restarting.."
+msgstr "Перезапуск.."
+
+msgid "OUTERTALE"
+msgstr ""
+
+msgid "OUTERTALE...?"
+msgstr ""
+
+msgid "GAMEPAD SETUP"
+msgstr "НАСТРОЙКА КНОПОК"
+
+msgid ""
+"Use an input on your gamepad to assign\n"
+"it to the in-game action.\n"
+"\n"
+"Use the input again to confirm, or use\n"
+"other inputs to assign those as well.\n"
+"\n"
+"Press ESC to skip setup."
+msgstr ""
+"Нажмите кнопку на геймпаде чтобы настроить\n"
+"её под действие в игре.\n"
+"\n"
+"Нажмите кнопку снова для подтверждения,\n"
+"или нажмите другие кнопки чтобы их тоже настроить.\n"
+"\n"
+"Нажмите ESC чтобы пропустить настройку."
+
+msgid "Inputs Assigned: $(x)"
+msgstr "Выбранное Управление: $(x)"
+
+msgid "[Z or ENTER] - Confirm"
+msgstr "[Z или ENTER] - Подтвердить"
+
+msgid "[X or SHIFT] - Cancel"
+msgstr "[X или SHIFT] - Отменить"
+
+msgid "[C or CTRL] - Menu (In-game)"
+msgstr "[C или CTRL] - Меню (В игре)"
+
+msgid "[UP or W] - Move Up"
+msgstr "[UP или W] - Вверх"
+
+msgid "[LEFT or A] - Move Left"
+msgstr "[LEFT или A] - Влево"
+
+msgid "[DOWN or S] - Move Down"
+msgstr "[DOWN или S] - Вниз"
+
+msgid "[RIGHT or D] - Move Right"
+msgstr "[RIGHT or D] - Вправо"
+
+msgid "[F4] - Fullscreen"
+msgstr "[F4] - Полный экран"
+
+msgid ""
+"Setup complete.\n"
+"Press any button to continue."
+msgstr ""
+"Настройка завершена.\n"
+"Нажмите любую кнопку чтобы продолжить."
+
+msgid ""
+"\n"
+"Note: On this platform, the gamepad may\n"
+"not always be able to enter fullscreen."
+msgstr ""
+"\n"
+"Примечание: На этой платформе, геймпад не\n"
+"всегда сможет входить в Полный экран."
+
+msgid ""
+"A gamepad has already been set up.\n"
+"Press any button to continue, or press\n"
+"any button three times in rapid\n"
+"succession to restart setup.\n"
+"\n"
+"Press ESC to skip setup."
+msgstr ""
+"Геймпад уже был настроен.\n"
+"Нажмите любую кнопку чтобы продолжить, или\n"
+"нажмите любую кнопку три раза подряд\n"
+"чтобы перезапустить настройку.\n"
+"\n"
+"Нажмите ESC чтобы пропустить настройку."
+
+msgid "Asriel"
+msgstr "Азриель"
+
+msgid "The Oblivion"
+msgstr "Забвение"
+
+msgid "DISABLED"
+msgstr "ВЫКЛЮЧЕНЫ"
+
+msgid "ENABLED"
+msgstr "ВКЛЮЧЕНЫ"
+
+msgid "Press [X] to Finish"
+msgstr "Нажмите [X] чтобы Завершить"
+
+msgid "Frisk"
+msgstr "Фриск"
+
+msgid "G"
+msgstr "З"
+
+msgid "INF"
+msgstr "БЕСК."
+
+msgid "[PRESS Z OR ENTER]"
+msgstr "[НАЖМИТЕ Z ИЛИ ENTER]"
+
+msgid "LV"
+msgstr "УР"
+
+msgid ""
+"§mystify=ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz§aaaaaa§mystify=§"
+msgstr ""
+
+msgid ""
+"{@mystify=ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz}aaaaaa{@mystify=}"
+msgstr ""
+
+msgid "{@mystify=abcdefghijklmnopqrstuvwxyz}aaaaaa{@mystify=}"
+msgstr ""
+
+msgid "{@mystify=ABCDEFGHIJKLMNOPQRSTUVWXYZ}aaaaaa{@mystify=}"
+msgstr ""
+
+msgid "No"
+msgstr "Нет"
+
+msgid "§fill=#0f0§NOMINAL"
+msgstr "§fill=#0f0§НОМИНАЛ"
+
+msgid "$(x)%"
+msgstr ""
+
+msgid "player"
+msgstr "игрок"
+
+msgid "Settings"
+msgstr "Настройки"
+
+msgid "?"
+msgstr ""
+
+msgid "XM"
+msgstr "ЭВ"
+
+msgid "Yes"
+msgstr "Да"
+
+msgid "INVENTORY"
+msgstr "ИНВЕНТАРЬ"
+
+msgid "BOX"
+msgstr "КОРОБКА"
+
+msgid "KEYRING"
+msgstr "БРЕЛОК"
+
+msgid "Is this name correct?"
+msgstr "Это верное имя?"
+
+msgid ""
+"A name has already\n"
+"been chosen."
+msgstr "Имя уже было выбрано."
+
+msgid "Go back"
+msgstr "Назад"
+
+msgid "OUTERTALE V5.03 (c) 2024 SPACEY_432"
+msgstr ""
+
+msgid "* (HP fully restored.)"
+msgstr "* (ОЗ полностью восстановлено.)"
+
+msgid "* (You recovered $(x) HP.)"
+msgstr "* (Вы восстановили $(x) ОЗ.)"
+
+msgid "* (You lost $(x) HP.)"
+msgstr "* (Вы потеряли $(x) ОЗ.)"
+
+msgid "* (HP fully depleted.)"
+msgstr "* (ОЗ полностью утрачено.)"
+
+msgid "* (You gained $(x) HP.)"
+msgstr "* (Вы получили $(x) ОЗ.)"
+
+msgid "USE"
+msgstr "ИСП"
+
+msgid "EQUIP"
+msgstr "ОСНАСТИТЬ"
+
+msgid "INFO"
+msgstr "ИНФО"
+
+msgid "DROP"
+msgstr "ВЫБРОС"
+
+msgid "Continue"
+msgstr "Продолжить"
+
+msgid "Observe"
+msgstr "Наблюдать"
+
+msgid "Reset"
+msgstr "Сброс"
+
+msgid "True Reset"
+msgstr "Истинный Сброс"
+
+msgid "Name the stranded human."
+msgstr "Назовите застрявшего человека."
+
+msgid "Quit"
+msgstr "Выйти"
+
+msgid "Backspace"
+msgstr "Удалить"
+
+msgid "Done"
+msgstr "Готово"
+
+msgid "§fill=#808080§ [ESC] - Quit / [ENTER] - Done"
+msgstr "§fill=#808080§ [ESC] - Выйти / [ENTER] - Готово"
+
+msgid "Return"
+msgstr "Назад"
+
+msgid "File saved."
+msgstr "Файл сохранён."
+
+msgid "SETTINGS"
+msgstr "НАСТРОЙКИ"
+
+msgid "EXIT"
+msgstr "ВЫЙТИ"
+
+msgid "LANGUAGE"
+msgstr "ЯЗЫК"
+
+msgid "ENGLISH"
+msgstr "РУССКИЙ"
+
+msgid "SOUND FX"
+msgstr "ЗВУКОВЫЕ ЭФФЕКТЫ"
+
+msgid "MUSIC"
+msgstr "МУЗЫКА"
+
+msgid "FANCY GRAPHICS"
+msgstr "СПЕЦ. ЭФФЕКТЫ"
+
+msgid "FLASHING IMAGERY"
+msgstr "МИГАЮЩИЕ ИЗОБРАЖЕНИЯ"
+
+msgid "NORMAL"
+msgstr "ОБЫЧНЫЕ"
+
+msgid "REDUCED"
+msgstr "УМЕНЬШЕННЫЕ"
+
+msgid "TOUCH CONTROLS"
+msgstr "СЕНСОРНОЕ УПРАВЛЕНИЕ"
+
+msgid "LEFT"
+msgstr "СЛЕВА"
+
+msgid "RIGHT"
+msgstr "СПРАВА"
+
+msgid "HIDDEN"
+msgstr "СКРЫТЫ"
+
+msgid "DEADZONE"
+msgstr "МЁРТВАЯ ЗОНА"
+
+msgid "OPEN MOD FOLDER"
+msgstr "ОТКРЫТЬ ПАПКУ МОДОВ"
+
+msgid "RESTART"
+msgstr "ПЕРЕЗАГРУЗКА"
+
+msgid "ITEM"
+msgstr "ВЕЩИ"
+
+msgid "STAT"
+msgstr "СТАТ"
+
+msgid "CELL"
+msgstr "ТЕЛ"
+
+msgid "CONF"
+msgstr "КОНФ"
+
+msgid "--- Instruction ---"
+msgstr "--- Инструкция ---"
+
+msgid "[Hold ESC] - Restart"
+msgstr "[Зажать ESC] - Перезагрузка"
+
+msgid "When HP is 0, you lose."
+msgstr "Когда ОЗ будет на нуле, вы проиграете."
+
+msgid "Begin Game"
+msgstr "Начать Игру"
+
+msgid "AT"
+msgstr "АТ"
+
+msgid "DF"
+msgstr "ЗЩ"
+
+msgid "GOLD"
+msgstr "ЗОЛОТО"
+
+msgid "NEXT"
+msgstr "СЛЕД"
+
+msgid ""
+"§fill=#ff0§Warning:\n"
+"Non-canon\n"
+"timeline."
+msgstr ""
+"§fill=#ff0§Внимание:\n"
+"Не-каноничная\n"
+"линия времени."
+
+msgid "KILLS"
+msgstr "УБИТО"
+
+msgid "BULLY"
+msgstr "ЗАПУГАНО"
+
+msgid "FLIRT"
+msgstr "ФЛИРТЫ"
+
+msgid "STATUS"
+msgstr "СТАТУС"
+
+msgid "\"$(x)\""
+msgstr ""
+
+msgid ""
+"<24>{#p/storyteller}Long ago, two species ruled the solar system: HUMANS and"
+" MONSTERS.{^35}{}"
+msgstr ""
+"<24>{#p/storyteller}Давным-давно, два вида правили солнечной системой: ЛЮДИ "
+"и МОНСТРЫ.{^35}{}"
+
+msgid "<24>As time passed, a war broke out between the two species.{^35}{}"
+msgstr "<24>Со временем, между ними разрослась война.{^35}{}"
+
+msgid ""
+"<24>After the MONSTERS' home planet was destroyed, HUMANS declared "
+"victory.{^35}{}"
+msgstr ""
+"<24>Когда родная планета МОНСТРОВ была уничтожена, ЛЮДИ объявили "
+"победу.{^35}{}"
+
+msgid ""
+"<24>The remaining MONSTERS were banished to an abandoned outpost.{^35}{}"
+msgstr "<24>Оставшихся МОНСТРОВ изгнали на заброшенный аванпост.{^35}{}"
+
+msgid ""
+"<24>A powerful force field was erected, and the MONSTERS were sealed "
+"in.{^35}{}"
+msgstr ""
+"<24>Мощный силовой барьер был возведён, и МОНСТРОВ запечатали в нём.{^35}{}"
+
+msgid "<24>Many years later.{^8}.{^8}.{^35}{}"
+msgstr "<24>Много лет спустя.{^8}.{^8}.{^35}{}"
+
+msgid ""
+"<#24>     EBOTT SECTOR     \n"
+"         251X{^35}{}"
+msgstr ""
+"<#24>     СЕКТОР ЭБОТТ     \n"
+"         251X{^35}{}"
+
+msgid "<24>Tales speak of a place from which spacecraft never return.{^35}{}"
+msgstr ""
+"<24>Легенды гласят, что космические корабли никогда не возвращаются "
+"оттуда.{^35}{}"
+
+msgid "<24>{^100}{}"
+msgstr ""
+
+msgid "<24>{^35}{}"
+msgstr ""
+
+msgid "Resume Canon Timeline"
+msgstr "Продолжить Каноничный Таймлайн"
+
+msgid "Start Canon Timeline"
+msgstr "Начать Каноничный Таймлайн"
+
+msgid "Other Slots"
+msgstr "Другие Слоты"
+
+msgid "Bisect"
+msgstr "Создать"
+
+msgid "Delete"
+msgstr "Удал."
+
+msgid "[ESC] to Cancel / [ENTER] to Confirm"
+msgstr "[ESC] чтобы отменить / [ENTER] чтобы подтвердить"
+
+msgid "Press any button on your gamepad to open the keyboard."
+msgstr "Нажмите любую клавишу на геймпаде, чтобы открыть клавиатуру."
+
+msgid "Launch"
+msgstr "Запуск"
+
+msgid "Rename"
+msgstr "Имя"
+
+msgid "Create New"
+msgstr "Создать новый"
+
+msgid "Enter Timeline Name"
+msgstr "Введите имя таймлайна"
+
+msgid "Are You Sure?"
+msgstr "Вы уверены?"

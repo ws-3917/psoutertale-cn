@@ -1,0 +1,141 @@
+D:/psot/text/v52.1/aerialis/zh_CN.po -> D:/psot/text/v53/aerialis/zh_CN.po
+消失文本 #1
+原文：<32>* "Fingers crossed."
+译文：<32>* “祈祷吧。”
+
+消失文本 #2
+原文：<32>{#p/human}* (You drank the Orange Soda.)
+译文：<32>{#p/human}* （你喝掉了橙汁汽水。）
+
+比较完毕. 共丢失 2 条文本.
+
+D:/psot/text/v52.1/citadel/zh_CN.po -> D:/psot/text/v53/citadel/zh_CN.po
+消失文本 #1
+原文：<25>{#p/asriel2}{#f/15}* ...
+译文：<25>{#p/asriel2}{#f/15}* ...
+
+消失文本 #2
+原文：<32>{#p/human}* (You threw away the Heart Locket.)
+译文：<32>{#p/human}* （你扔掉了心形挂坠。）
+
+消失文本 #3
+原文：<32>{#p/human}* (You drank the Starling Tea.)
+译文：<32>{#p/human}* （你喝掉了星花茶。）
+
+比较完毕. 共丢失 3 条文本.
+
+D:/psot/text/v52.1/common/zh_CN.po -> D:/psot/text/v53/common/zh_CN.po
+消失文本 #1
+原文：<32>{#p/human}* (...)\n* (Despite everything, you smile a little at Sans's joke.)
+译文：<32>{#p/human}* （...）
+* （泪眼朦胧之中，你还是
+  回应了Sans的烂笑话。）
+
+比较完毕. 共丢失 1 条文本.
+
+D:/psot/text/v52.1/foundry/zh_CN.po -> D:/psot/text/v53/foundry/zh_CN.po
+消失文本 #1
+原文：<32>{#p/basic}* There is a inscription inscribed on the pedastal.
+译文：<32>{#p/basic}* 底座上刻着铭文。
+
+消失文本 #2
+原文：<18>{#p/asriel1}{#i/4}It sounds like it came from over here...
+译文：<18>{#p/asriel1}{#i/4}听上去像是从这附近
+传来的声音...
+
+消失文本 #3
+原文：<32>{#p/human}* (You threw away the Cheesecake.)
+译文：<32>{#p/human}* （你把芝士蛋糕扔掉了。）
+
+消失文本 #4
+原文：<32>{#p/human}* (You drank the Nebula Tea.)
+译文：<32>{#p/human}* （你喝掉了星云茶。）
+
+消失文本 #5
+原文：<32>{#k/0}* The heroic, wacky, and sometimes shy neighors I live with out here are all I could ever ask for.
+译文：<32>{#k/0}* 能有这些或英勇、或古怪、
+  或有点害羞的邻居，
+  我就已经知足。
+
+比较完毕. 共丢失 5 条文本.
+
+D:/psot/text/v52.1/outlands/zh_CN.po -> D:/psot/text/v53/outlands/zh_CN.po
+消失文本 #1
+原文：<32>{#p/basic}* "Did you know that snails have a chainsaw-like tounge called a radula?"
+译文：<32>{#p/basic}* “你知道吗？
+   蜗牛的齿舌长得像链锯一样。”
+
+消失文本 #2
+原文：<32>{#p/human}* (You drank the Water.)
+译文：<32>{#p/human}* （你喝下了水。）
+
+消失文本 #3
+原文：<32>{#p/human}* (You threw away the Chocolate Bar.)
+译文：<32>{#p/human}* （你把巧克力棒扔掉了。）
+
+消失文本 #4
+原文：<32>{#p/human}* (You threw away the Fizzli Soda.)
+译文：<32>{#p/human}* （你扔掉了呲呲汽水。）
+
+消失文本 #5
+原文：<32>{#p/human}* (You drank the Fizzli Soda.)
+译文：<32>{#p/human}* （你喝掉了呲呲汽水。）
+
+消失文本 #6
+原文：<32>{#p/human}* (You threw away the Sizzli Steak.)
+译文：<32>{#p/human}* （你把牛排扔掉了。）
+
+比较完毕. 共丢失 6 条文本.
+
+D:/psot/text/v52.1/starton/zh_CN.po -> D:/psot/text/v53/starton/zh_CN.po
+消失文本 #1
+原文：<23>{#p/papyrusnt}"A FLASHLIGHT DID NOT COUNT AS NOT A LIGHTBULB!!"
+译文：<23>{#p/papyrusnt}“手电筒算不上灯泡！！”
+
+消失文本 #2
+原文：<32>{#p/story}* Canis Major love fetch!
+译文：<32>{#p/story}* Canis Major喜欢巡回游戏！
+
+消失文本 #3
+原文：<32>{#p/human}* (You threw away the Computer Chip.)
+译文：<32>{#p/human}* （你把“芯”型薯片扔掉了。）
+
+消失文本 #4
+原文：<25>{#p/undyne}{#f/17}I RAN.
+译文：<25>{#p/undyne}{#f/17}我跑过来的。
+
+比较完毕. 共丢失 4 条文本.
+
+D:/psot/text/v52.1/systems/zh_CN.po -> D:/psot/text/v53/systems/zh_CN.po
+消失文本 #1
+原文：My Cocoa
+译文：My Cocoa
+
+比较完毕. 共丢失 1 条文本.
+
+D:/psot/text/v52.1/values/zh_CN.po -> D:/psot/text/v53/values/zh_CN.po
+消失文本 #1
+原文：- DISCLAIMER -
+译文：- 游戏声明 -
+
+消失文本 #2
+原文：1. PS!OUTERTALE is made by Spacey_432.\nOur team is working on the translation.\n2. If you find any untranslated text or dialogue,\nplease kindly let us know instead of\nassuming we are lazy.\n3. Please avoid asking questions already answered \nin the FAQ.  (Examples: "How do I change the language?",\n"How do I defeat Toriel?", or "How do I run the game?").\nOur translators are focused on providing \nthe best translation and may not have time \nto address these inquiries.
+译文：1.PS!OUTERTALE是Spacey_432制作的游戏，
+  PSOT汉化组负责中文翻译（以及“三角旅者”的翻译），
+  汉化交流群群号：797416533(QQ)
+2.中文翻译已完成41%，如果发现未翻译的文本或对话，
+  请耐心等待。所有多语言翻译中，中文进度是最快的。
+  所以尽量不要反馈对话没有翻译的问题。
+3.一些常见问题（比如“怎么把语言改成中文？”、
+  “怎么下载？”、“怎么解压游戏？”），
+  建议先查阅“Q群管家”，常见问题答案都在那里。
+  汉化组需要花更多时间推进汉化，接受bug反馈。
+  所以过于基础的问题可能不会解答。
+4.如果对游戏比较失望，不想继续测试或游玩，
+  您可以选择删除游戏，而不要辱骂我们和作者。
+  汉化组和作者都付出了很多努力，希望能相互理解。
+
+再次感谢您对本游戏与汉化组的支持，10秒后自动进入游戏。
+
+比较完毕. 共丢失 2 条文本.
+

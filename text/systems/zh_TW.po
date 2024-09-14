@@ -1,0 +1,2345 @@
+#
+msgid ""
+msgstr ""
+
+msgid "(You take a deep breath.)"
+msgstr "（你深吸了一口氣。）"
+
+msgid "(You're filled with determination.)"
+msgstr "（你充滿了決心。）"
+
+msgid "You cannot give up just yet..."
+msgstr "現在還不能放棄..."
+
+msgid ""
+"$(name)!\n"
+"Stay determined..."
+msgstr ""
+"$(name)！\n"
+"保持你的決心..."
+
+msgid "Our fate rests upon you..."
+msgstr ""
+"我們的命運都\n"
+"寄託於你..."
+
+msgid "You're going to be alright!"
+msgstr "你會沒事的！"
+
+msgid "Don't lose hope!"
+msgstr "別失去希望！"
+
+msgid "It cannot end now!"
+msgstr "現在還不能結束！"
+
+msgid "    * Escaped..."
+msgstr "   * 先走一步..."
+
+msgid "    * I'm outta here."
+msgstr "   * 我先撤了。"
+
+msgid "    * I've got better to do."
+msgstr "   * 我還有別的事要做。"
+
+msgid "    * Don't slow me down."
+msgstr "   * 別拖我後腿。"
+
+msgid ""
+"    * Ran away with $(x) EXP\n"
+"      and $(y)G."
+msgstr ""
+"   * 你逃跑了，\n"
+"   * 你獲得了$(x) EXP和$(y)G。"
+
+msgid "* Assist"
+msgstr "* 外援"
+
+msgid "* Flee"
+msgstr "* 逃跑"
+
+msgid "* Spare"
+msgstr "* 饒恕"
+
+msgid ""
+"<32>{#p/story}* YOU WON!\n"
+"* You earned $(x) EXP and $(y)G."
+msgstr ""
+"<32>{#p/story}* 你勝利了！\n"
+"* 你獲得了$(x) EXP和$(y)G。"
+
+msgid ""
+"<32>{#p/story}* YOU WON!\n"
+"* You earned $(x) EXP and $(y)G.\n"
+"* Your LOVE increased."
+msgstr ""
+"<32>{#p/story}* 你勝利了！\n"
+"* 你獲得了$(x) EXP和$(y)G。\n"
+"* 你的LOVE增加了。"
+
+msgid "ERROR"
+msgstr "錯誤"
+
+msgid "DISMISS"
+msgstr "忽略"
+
+msgid "Click To Dismiss"
+msgstr "點擊此處忽略錯誤"
+
+msgid ""
+"An error occured! Please send\n"
+"screenshot to developer."
+msgstr ""
+"程式出現錯誤！\n"
+"請將錯誤資訊截圖傳送給開發者。"
+
+msgid "CONTROL"
+msgstr "快捷功能"
+
+msgid "GENERAL"
+msgstr "主世界"
+
+msgid "BATTLE"
+msgstr "戰鬥中"
+
+msgid "FixMusic"
+msgstr "音樂初始化"
+
+msgid "FixPlayer"
+msgstr "角色初始化"
+
+msgid "InfiniteG"
+msgstr "無限金錢"
+
+msgid "Interact"
+msgstr "允許角色互動"
+
+msgid "Input"
+msgstr "允許遊戲輸入"
+
+msgid "Movement"
+msgstr "允許角色移動"
+
+msgid "Noclip"
+msgstr "無視牆體"
+
+msgid "Save"
+msgstr "儲存"
+
+msgid "SkipText"
+msgstr "跳過文本"
+
+msgid "Freecam"
+msgstr "自由視角"
+
+msgid "CanAssist"
+msgstr "允許外援"
+
+msgid "ClearBox"
+msgstr "清除彈幕"
+
+msgid "Exit"
+msgstr "退出戰鬥"
+
+msgid "ResetBox"
+msgstr "重置框體大小"
+
+msgid "ResetMenu"
+msgstr "重置選單"
+
+msgid "CanFlee"
+msgstr "允許逃跑"
+
+msgid "InfiniteHP"
+msgstr "無限HP"
+
+msgid "PacifyAll"
+msgstr "安撫所有敵人"
+
+msgid "Suicide"
+msgstr "自殺"
+
+msgid "WeakenAll"
+msgstr "清空敵人血條"
+
+msgid "$(x) FPS"
+msgstr "$(x)幀"
+
+msgid "Halt"
+msgstr "暫停"
+
+msgid "GAME SPEED"
+msgstr "遊戲倍速"
+
+msgid "$(x)x"
+msgstr "$(x)倍速"
+
+msgid "More"
+msgstr "加速"
+
+msgid "Less"
+msgstr "減速"
+
+msgid "$(x)s/frame"
+msgstr "每幀$(x)秒"
+
+msgid "GODHOME"
+msgstr "傳送/戰鬥"
+
+msgid "ROOM"
+msgstr "房間"
+
+msgid "Teleport"
+msgstr "傳送"
+
+msgid "ENCOUNTER"
+msgstr "戰鬥"
+
+msgid "Start"
+msgstr "開始"
+
+msgid "ARMOR"
+msgstr "防具"
+
+msgid "WEAPON"
+msgstr "武器"
+
+msgid "INSPECT"
+msgstr "察看圖層"
+
+msgid "LAYERS"
+msgstr "圖層"
+
+msgid "TYPES"
+msgstr "類別"
+
+msgid "Base"
+msgstr "基層"
+
+msgid "Below"
+msgstr "下層"
+
+msgid "Main"
+msgstr "主層"
+
+msgid "Above"
+msgstr "上層"
+
+msgid "Menu"
+msgstr "選單層"
+
+msgid "Hitbox"
+msgstr "碰撞箱"
+
+msgid "Sprite"
+msgstr "貼圖"
+
+msgid "Text"
+msgstr "文本"
+
+msgid "EXPLORER"
+msgstr "瀏覽"
+
+msgid "Base (Explorer)"
+msgstr "基層"
+
+msgid "Below (Explorer)"
+msgstr "下層"
+
+msgid "Main (Explorer)"
+msgstr "主層"
+
+msgid "Above (Explorer)"
+msgstr "上層"
+
+msgid "Menu (Explorer)"
+msgstr "選單層"
+
+msgid "A"
+msgstr "動"
+
+msgid "C"
+msgstr "NPC"
+
+msgid "R"
+msgstr "方"
+
+msgid "E"
+msgstr "形"
+
+msgid "H"
+msgstr "箱"
+
+msgid "O"
+msgstr "物"
+
+msgid "P"
+msgstr "人"
+
+msgid "S"
+msgstr "圖"
+
+msgid "T"
+msgstr "文"
+
+msgid "Press [TAB] to cycle debug info"
+msgstr "按[TAB]鍵瀏覽除錯資訊"
+
+msgid "Acceleration"
+msgstr "對象加速度"
+
+msgid "Active"
+msgstr "動態"
+
+msgid "Alpha"
+msgstr "不透明度"
+
+msgid "Anchor"
+msgstr "錨點定位方式"
+
+msgid "B"
+msgstr "暴力饒恕過？"
+
+msgid "Blend"
+msgstr "渲染方式"
+
+msgid "Border"
+msgstr "邊框設定"
+
+msgid "Computed Size"
+msgstr "實際尺寸"
+
+msgid "Content"
+msgstr "對象內容"
+
+msgid "Crop"
+msgstr "裁剪區域坐標"
+
+msgid "Down"
+msgstr "下"
+
+msgid "Duration"
+msgstr "動畫時長（幀）"
+
+msgid "EXP"
+msgstr "EXP"
+
+msgid "Extent"
+msgstr "延伸尺寸"
+
+msgid "F"
+msgstr "調情過？"
+
+msgid "Face"
+msgstr "面部朝向"
+
+msgid "False"
+msgstr "否"
+
+msgid "Fill"
+msgstr "填充顏色"
+
+msgid "Font Family"
+msgstr "字體"
+
+msgid "Font Size"
+msgstr "字體大小"
+
+msgid "Frames"
+msgstr "當前幀源檔案"
+
+msgid "Gravity"
+msgstr "重力"
+
+msgid "Group"
+msgstr "戰鬥組"
+
+msgid "HP"
+msgstr "HP"
+
+msgid "Index"
+msgstr "當前播放幀"
+
+msgid "Inert"
+msgstr "未激活"
+
+msgid "Key"
+msgstr "名稱"
+
+msgid "Last Saved Time"
+msgstr "上次存檔時間"
+
+msgid "Layer"
+msgstr "圖層編號"
+
+msgid "Layers"
+msgstr "包含圖層"
+
+msgid "Left"
+msgstr "左"
+
+msgid "Metadata"
+msgstr "元數據"
+
+msgid "Music"
+msgstr "音樂"
+
+msgid "Namespace"
+msgstr "命名空間"
+
+msgid "NONE"
+msgstr "無"
+
+msgid "none"
+msgstr "無"
+
+msgid "Objects"
+msgstr "對象數"
+
+msgid "Oversaver"
+msgstr "自動存檔"
+
+msgid "Parallax"
+msgstr "視差滾動"
+
+msgid "Position"
+msgstr "位置坐標"
+
+msgid "Primed"
+msgstr "蓄能狀態"
+
+msgid "Priority"
+msgstr "優先級"
+
+msgid "REGISTRY"
+msgstr "存檔變量"
+
+msgid "Renderer"
+msgstr "圖像渲染器"
+
+msgid "Resources"
+msgstr "已使用資源"
+
+msgid "Reverse"
+msgstr "倒放資源"
+
+msgid "Right"
+msgstr "右"
+
+msgid "Room"
+msgstr "房間"
+
+msgid "Room State"
+msgstr "房間狀態"
+
+msgid "Rotation"
+msgstr "旋轉角度"
+
+msgid "Scale"
+msgstr "縮放"
+
+msgid "Shop Selection"
+msgstr "當前選項（商店選單）"
+
+msgid "Size"
+msgstr "設定尺寸"
+
+msgid "Spacing"
+msgstr "間距"
+
+msgid "Spin"
+msgstr "快速旋轉"
+
+msgid "Sprites"
+msgstr "資源參數"
+
+msgid "Step"
+msgstr "更新頻率"
+
+msgid "Stroke"
+msgstr "輪廓描邊"
+
+msgid "Subcrop"
+msgstr "子區域裁剪坐標"
+
+msgid "Talk"
+msgstr "正在說話"
+
+msgid "Target"
+msgstr "針對目標"
+
+msgid "Time"
+msgstr "持續時間"
+
+msgid "Tint"
+msgstr "顏色值"
+
+msgid "Tracked Assets"
+msgstr "當前跟蹤的資源"
+
+msgid "True"
+msgstr "是"
+
+msgid "UNKNOWN"
+msgstr "未知"
+
+msgid "Up"
+msgstr "上"
+
+msgid "Vars"
+msgstr "變量"
+
+msgid "Velocity"
+msgstr "移動速度"
+
+msgid "Volatile"
+msgstr "敵人"
+
+msgid "SAVEMOD"
+msgstr "編輯存檔"
+
+msgid "SAVE EDITOR"
+msgstr "存檔編輯器"
+
+msgid "Data (Booleans)"
+msgstr "數據（布爾型）"
+
+msgid "Data (Numbers)"
+msgstr "數據（數值型）"
+
+msgid "Data (Strings)"
+msgstr "數據（字符串型）"
+
+msgid "Flags (Booleans)"
+msgstr "節點（布爾型）"
+
+msgid "Flags (Numbers)"
+msgstr "節點（數值型）"
+
+msgid "Flags (Strings)"
+msgstr "節點（字符串型）"
+
+msgid "NAVIGATION"
+msgstr "翻頁"
+
+msgid "Prev"
+msgstr "上一頁"
+
+msgid "Next"
+msgstr "下一頁"
+
+msgid "Enter Value"
+msgstr "輸入變量值"
+
+msgid "Back"
+msgstr "返回"
+
+msgid "STORAGE"
+msgstr "物品庫存"
+
+msgid "STORAGE EDITOR"
+msgstr "物品庫存編輯器"
+
+msgid "SELECTION"
+msgstr "選擇容器"
+
+msgid "Inventory"
+msgstr "物品欄"
+
+msgid "Dim. Box A"
+msgstr "次元箱 A"
+
+msgid "Dim. Box B"
+msgstr "次元箱 B"
+
+msgid "Clear File"
+msgstr "刪除存檔"
+
+msgid "Notice"
+msgstr "提示"
+
+msgid "Open"
+msgstr "打開"
+
+msgid "SAVE files"
+msgstr "存檔檔案"
+
+msgid "Open File"
+msgstr "匯入存檔"
+
+msgid "Save File"
+msgstr "匯出存檔"
+
+msgid "That file could not be parsed."
+msgstr "無法解析存檔。"
+
+msgid "OK"
+msgstr "確定"
+
+msgid "Cancel"
+msgstr "取消"
+
+msgid "Clear this file?"
+msgstr "刪除這個存檔嗎？"
+
+msgid ""
+"Your SAVE file from the\n"
+"OUTERTALE demo has been\n"
+"moved to a timeline slot."
+msgstr ""
+"已將您的OUTERTALE demo存檔\n"
+"移動到其他時間軸槽位中。"
+
+msgid "Save this file?"
+msgstr "將存檔儲存到其他位置嗎？"
+
+msgid ""
+"Copy the text below into\n"
+"a JSON file to save it\n"
+"to your device."
+msgstr ""
+"新建一個JSON檔案，\n"
+"將下列內容複製進去\n"
+"並儲存到裝置中。"
+
+msgid "Load this file?"
+msgstr "讀取這個存檔嗎？"
+
+msgid "§fill=#ff0§< DEVELOPER >§fill=#fff§"
+msgstr "§fill=#ff0§< 遊戲開發者 >§fill=#fff§"
+
+msgid "spacey_432"
+msgstr "spacey_432"
+
+msgid ""
+msgstr ""
+
+msgid "§fill=#ff0§< WRITER >§fill=#fff§"
+msgstr "§fill=#ff0§< 文本編寫 >§fill=#fff§"
+
+msgid "Balgamlı Kedi"
+msgstr "Balgamlı Kedi"
+
+msgid "Bilge \"mnwary\""
+msgstr "Bilge \"mnwary\""
+
+msgid "Dischnie"
+msgstr "Dischnie"
+
+msgid "Efe Kaya"
+msgstr "Efe Kaya"
+
+msgid "Ghostly"
+msgstr "Ghostly"
+
+msgid "InvincibleRacoon"
+msgstr "InvincibleRacoon"
+
+msgid "Jojoton56"
+msgstr "Jojoton56"
+
+msgid "Kiwi \"Quinn\""
+msgstr "Kiwi \"Quinn\""
+
+msgid "My Aster"
+msgstr "My Aster"
+
+msgid "neo9174"
+msgstr "neo9174"
+
+msgid "Rise"
+msgstr "Rise"
+
+msgid "ThatGuyWhoLikesFood"
+msgstr "ThatGuyWhoLikesFood"
+
+msgid "Turbulation"
+msgstr "Turbulation"
+
+msgid "Zaxento The Greedy"
+msgstr "Zaxento The Greedy"
+
+msgid "§fill=#ff0§< ARTIST >§fill=#fff§"
+msgstr "§fill=#ff0§< 美工 >§fill=#fff§"
+
+msgid "Burge"
+msgstr "Burge"
+
+msgid "Deskius"
+msgstr "Deskius"
+
+msgid "DESM.al"
+msgstr "DESM.al"
+
+msgid "Discarded Vessel"
+msgstr "Discarded Vessel"
+
+msgid "Fired"
+msgstr "Fired"
+
+msgid "Funtermore"
+msgstr "Funtermore"
+
+msgid "HolyOranges"
+msgstr "HolyOranges"
+
+msgid "major_memestar"
+msgstr "major_memestar"
+
+msgid "MattSpriteMaster"
+msgstr "MattSpriteMaster"
+
+msgid "Medi0creking"
+msgstr "Medi0creking"
+
+msgid "NerNot1"
+msgstr "NerNot1"
+
+msgid "PhyreFM"
+msgstr "PhyreFM"
+
+msgid "Pongy25"
+msgstr "Pongy25"
+
+msgid "PoTheWinterCorder"
+msgstr "PoTheWinterCorder"
+
+msgid "ProctorDorkchop02"
+msgstr "ProctorDorkchop02"
+
+msgid "ScarletScaledDragon"
+msgstr "ScarletScaledDragon"
+
+msgid "semi"
+msgstr "semi"
+
+msgid "Soup Taels"
+msgstr "Soup Taels"
+
+msgid "SquigglyWiggley"
+msgstr "SquigglyWiggley"
+
+msgid "Starkiteckt"
+msgstr "Starkiteckt"
+
+msgid "supper12"
+msgstr "supper12"
+
+msgid "Valor52"
+msgstr "Valor52"
+
+msgid "§fill=#ff0§< TECHNICIAN >§fill=#fff§"
+msgstr "§fill=#ff0§< 技術助理 >§fill=#fff§"
+
+msgid "Codetoil"
+msgstr "Codetoil"
+
+msgid "ryi3r"
+msgstr "ryi3r"
+
+msgid "ws3917"
+msgstr "ws3917"
+
+msgid "§fill=#ff0§< TESTER >§fill=#fff§"
+msgstr "§fill=#ff0§< 遊戲測試 >§fill=#fff§"
+
+msgid "Alden"
+msgstr "Alden"
+
+msgid "Aspey"
+msgstr "Aspey"
+
+msgid "blue"
+msgstr "blue"
+
+msgid "Brad"
+msgstr "Brad"
+
+msgid "brayjamin"
+msgstr "brayjamin"
+
+msgid "ClamsyMoe"
+msgstr "ClamsyMoe"
+
+msgid "delta"
+msgstr "delta"
+
+msgid "DR4GON HE4RT"
+msgstr "DR4GON HE4RT"
+
+msgid "Dubituar"
+msgstr "Dubituar"
+
+msgid "Emurry"
+msgstr "Emurry"
+
+msgid "Enzolos"
+msgstr "Enzolos"
+
+msgid "EvanGamesGoodman"
+msgstr "EvanGamesGoodman"
+
+msgid "FireWizard72X"
+msgstr "FireWizard72X"
+
+msgid "FuLiNT"
+msgstr "FuLiNT"
+
+msgid "gardnaeden"
+msgstr "gardnaeden"
+
+msgid "Gon UT"
+msgstr "Gon UT"
+
+msgid "Green Tea"
+msgstr "Green Tea"
+
+msgid "Huggies!"
+msgstr "Huggies!"
+
+msgid "ilovecookies"
+msgstr "ilovecookies"
+
+msgid "Jago128"
+msgstr "Jago128"
+
+msgid "Joe98912"
+msgstr "Joe98912"
+
+msgid "Jonkler"
+msgstr "Jonkler"
+
+msgid "lil tanski"
+msgstr "lil tanski"
+
+msgid "MR. PETER"
+msgstr "MR. PETER"
+
+msgid "MSBen"
+msgstr "MSBen"
+
+msgid "Murder--Sans_MDR"
+msgstr "Murder--Sans_MDR"
+
+msgid "Nanorasmus"
+msgstr "Nanorasmus"
+
+msgid "NepAnime"
+msgstr "NepAnime"
+
+msgid "Shaun Duz Stuffs"
+msgstr "Shaun Duz Stuffs"
+
+msgid "SHCyank"
+msgstr "SHCyank"
+
+msgid "petar3644"
+msgstr "petar3644"
+
+msgid "PixelToons Jaafar"
+msgstr "PixelToons Jaafar"
+
+msgid "Prezmop"
+msgstr "Prezmop"
+
+msgid "prymus-agd"
+msgstr "prymus-agd"
+
+msgid "Quin"
+msgstr "Quin"
+
+msgid "RadicalRic"
+msgstr "RadicalRic"
+
+msgid "Raelynn"
+msgstr "Raelynn"
+
+msgid "retr22800"
+msgstr "retr22800"
+
+msgid "RoCtD_14159"
+msgstr "RoCtD_14159"
+
+msgid "sonicisawesome222"
+msgstr "sonicisawesome222"
+
+msgid "spaceknife234"
+msgstr "spaceknife234"
+
+msgid "superkippy"
+msgstr "superkippy"
+
+msgid "Teecup"
+msgstr "Teecup"
+
+msgid "Tem in a Cowboy Hat"
+msgstr "Tem in a Cowboy Hat"
+
+msgid "Tenbrooks"
+msgstr "Tenbrooks"
+
+msgid "The Fallen Angel"
+msgstr "The Fallen Angel"
+
+msgid "TheAsriel"
+msgstr "TheAsriel"
+
+msgid "Wild Pasta"
+msgstr "Wild Pasta"
+
+msgid "Xiao_Akatsuki"
+msgstr "Xiao_Akatsuki"
+
+msgid "xNoodlePlayz"
+msgstr "xNoodlePlayz"
+
+msgid "§fill=#ff0§< SPECIAL THANKS >§fill=#fff§"
+msgstr "§fill=#ff0§< 特別鳴謝 >§fill=#fff§"
+
+msgid ""
+"§fill=#808080§For being there for me when I\n"
+"need someone to lean on, and\n"
+"teaching me life lessons that\n"
+"have made me a better person.§fill=#fff§"
+msgstr ""
+"§fill=#808080§感謝你給我依靠，\n"
+"教會我人生的道理，\n"
+"讓我變得更好。§fill=#fff§"
+
+msgid ""
+"§fill=#808080§For being one of the friendliest\n"
+"people I know, the first person\n"
+"to believe in my vision, and\n"
+"inspiring me to finish the game.§fill=#fff§"
+msgstr ""
+"§fill=#808080§你是第一個支援我夢想的人，\n"
+"也是我最暖心的夥伴。\n"
+"在你的激勵下，\n"
+"我才能完成這款遊戲。§fill=#fff§"
+
+msgid ""
+"§fill=#808080§For sticking with me at every\n"
+"stage of development, right from\n"
+"the start. Regardless of the era,\n"
+"he's always been there to help.§fill=#fff§"
+msgstr ""
+"§fill=#808080§感謝你從遊戲開發之初\n"
+"就一直陪伴我。\n"
+"無論何時，你總會在\n"
+"我最需要幫助的時候支援我。§fill=#fff§"
+
+msgid ""
+"§fill=#808080§For being a voice of reason when\n"
+"it comes to many aspects of the\n"
+"game, and encouraging me to take\n"
+"testing seriously.§fill=#fff§"
+msgstr ""
+"§fill=#808080§感謝你在遊戲的許多方面\n"
+"給出了很棒的建議，\n"
+"鼓勵我認真對待測試工作。§fill=#fff§"
+
+msgid ""
+"§fill=#808080§For being reliable, brutally\n"
+"honest, giving me lots of\n"
+"criticism and ideas, and being\n"
+"trustworthy from the day we met.§fill=#fff§"
+msgstr ""
+"§fill=#808080§感謝你直言不諱，\n"
+"給予我大量批評和建議。\n"
+"從認識的那天起\n"
+"你就非常值得信賴。§fill=#fff§"
+
+msgid ""
+"§fill=#808080§For helping me write crucial\n"
+"parts of the game, supporting my\n"
+"vision, and helping me express\n"
+"myself in a whole new way.§fill=#fff§"
+msgstr ""
+"§fill=#808080§感謝你幫助我撰寫了\n"
+"遊戲中的關鍵劇情，\n"
+"並始終支援我的夢想，\n"
+"讓我能以全新的方式表達自我。§fill=#fff§"
+
+msgid ""
+"§fill=#808080§For being there to help towards\n"
+"the end of development, and\n"
+"ensuring the game's writing\n"
+"reaches its full potential.§fill=#fff§"
+msgstr ""
+"§fill=#808080§感謝你從遊戲開發之初\n"
+"一直陪伴到遊戲正式發布。\n"
+"有了你的幫助，遊戲的劇情\n"
+"才能發揮到最佳水準。§fill=#fff§"
+
+msgid "Brought to you by §fill=#ff0§The Mavis & Co.§fill=#fff§"
+msgstr "特別鳴謝 由§fill=#ff0§Mavis與朋友們§fill=#fff§提供"
+
+msgid "(( CAST ))"
+msgstr "(( 演員表 ))"
+
+msgid "FROGGIT"
+msgstr "FROGGIT"
+
+msgid ""
+"Pondering\n"
+"Life"
+msgstr ""
+
+msgid ""
+"Professional\n"
+"Frog"
+msgstr ""
+
+msgid ""
+"Pondering\n"
+"Love"
+msgstr ""
+
+msgid ""
+"Hopping In\n"
+"Fear"
+msgstr ""
+
+msgid "FLUTTERLYTE"
+msgstr "FLUTTERLYTE"
+
+msgid ""
+"Learning To\n"
+"Fly"
+msgstr ""
+
+msgid ""
+"Emboldening\n"
+"Aviator"
+msgstr ""
+
+msgid ""
+"Searching The\n"
+"Skies"
+msgstr ""
+
+msgid ""
+"Evasively\n"
+"Maneuvering"
+msgstr ""
+
+msgid "GELATINI"
+msgstr "GELATINI"
+
+msgid ""
+"Found A New\n"
+"Space Station"
+msgstr ""
+
+msgid ""
+"Backup\n"
+"Dancer"
+msgstr ""
+
+msgid ""
+"Exotic Jelly\n"
+"Dancer"
+msgstr ""
+
+msgid ""
+"Found A New\n"
+"Galaxy"
+msgstr ""
+
+msgid "OCULOUX"
+msgstr "OCULOUX"
+
+msgid ""
+"Slightly\n"
+"Bully-Like"
+msgstr ""
+
+msgid ""
+"Reformed\n"
+"Bully"
+msgstr ""
+
+msgid ""
+"Slightly\n"
+"Flirtatious"
+msgstr ""
+
+msgid "SILENTE"
+msgstr "SILENTE"
+
+msgid ""
+"Exceedingly\n"
+"Agreeable"
+msgstr ""
+
+msgid ""
+"Casually\n"
+"Enjoys Life"
+msgstr ""
+
+msgid ""
+"In Love From\n"
+"Afar"
+msgstr ""
+
+msgid ""
+"Endangerment\n"
+"Denier"
+msgstr ""
+
+msgid "MUSHY"
+msgstr "MUSHY"
+
+msgid "Balgamlı Kedi & ScarletScaledDragon"
+msgstr "Balgamlı Kedi & ScarletScaledDragon"
+
+msgid ""
+"Shooting\n"
+"Blanks"
+msgstr ""
+
+msgid ""
+"Quick-Draw\n"
+"Magician"
+msgstr ""
+
+msgid ""
+"Gunshot\n"
+"Heart-Throb"
+msgstr ""
+
+msgid ""
+"Spraying And\n"
+"Praying"
+msgstr ""
+
+msgid "LURKSALOT"
+msgstr "LURKSALOT"
+
+msgid ""
+"Keeping To\n"
+"Themselves"
+msgstr ""
+
+msgid ""
+"Seeking\n"
+"Physical Contact"
+msgstr ""
+
+msgid ""
+"Stoically\n"
+"Uninvolved"
+msgstr ""
+
+msgid "STARDRAKE"
+msgstr "STARDRAKE"
+
+msgid ""
+"Still Looking\n"
+"For Laughs"
+msgstr ""
+
+msgid ""
+"Semi-Successful\n"
+"Comedian"
+msgstr ""
+
+msgid ""
+"Popular With The\n"
+"Grown-Ups"
+msgstr ""
+
+msgid "CHILLDRAKE"
+msgstr "CHILLDRAKE"
+
+msgid ""
+"Still Looking\n"
+"For Supporters"
+msgstr ""
+
+msgid ""
+"Gained A Cult\n"
+"Following"
+msgstr ""
+
+msgid ""
+"Trades Kisses\n"
+"For Supporters"
+msgstr ""
+
+msgid ""
+"Anti-Bullying\n"
+"Activist"
+msgstr ""
+
+msgid "ASTRO SERF"
+msgstr "ASTRO SERF"
+
+msgid ""
+"Thinking About\n"
+"Its Antenna"
+msgstr ""
+
+msgid ""
+"Radio Station\n"
+"Sensation"
+msgstr ""
+
+msgid ""
+"Love Is On\n"
+"The Air"
+msgstr ""
+
+msgid ""
+"Emergency\n"
+"Broadcaster"
+msgstr ""
+
+msgid "JERRY"
+msgstr "JERRY"
+
+msgid ""
+"Getting Ditched\n"
+"On The Daily"
+msgstr ""
+
+msgid ""
+"Getting Ditched\n"
+"Slightly Less"
+msgstr ""
+
+msgid ""
+"On The Road To\n"
+"Redemption"
+msgstr ""
+
+msgid "WHIZKARAT"
+msgstr "WHIZKARAT"
+
+msgid "Zaxento The Greedy & semi"
+msgstr "Zaxento The Greedy & semi"
+
+msgid ""
+"Having An\n"
+"Identity Crisis"
+msgstr ""
+
+msgid ""
+"Newest Member Of\n"
+"Mouse Society"
+msgstr ""
+
+msgid ""
+"Getting Frisky\n"
+"With The Mice"
+msgstr ""
+
+msgid ""
+"Scurried Back To\n"
+"Cat Society"
+msgstr ""
+
+msgid "DOGGO"
+msgstr "DOGGO"
+
+msgid ""
+"Believes In The\n"
+"Almighty Wrench"
+msgstr ""
+
+msgid ""
+"Found His Own\n"
+"Seeing-Eye Wolf"
+msgstr ""
+
+msgid ""
+"In Love With His\n"
+"Seeing-Eye Wolf"
+msgstr ""
+
+msgid ""
+"Running To His\n"
+"Seeing-Eye Wolf"
+msgstr ""
+
+msgid "CANIS MINOR"
+msgstr "CANIS MINOR"
+
+msgid ""
+"Searching For\n"
+"Affection"
+msgstr ""
+
+msgid ""
+"Found A Loving\n"
+"Owner"
+msgstr ""
+
+msgid ""
+"Found An Owning\n"
+"Lover"
+msgstr ""
+
+msgid ""
+"Desperate For\n"
+"Affection"
+msgstr ""
+
+msgid "DOGAMY & DOGARESSA"
+msgstr "DOGAMY & DOGARESSA"
+
+msgid ""
+"Still Thinking\n"
+"About Fetch"
+msgstr ""
+
+msgid ""
+"Reigning Puppy-Dog\n"
+"Eyes Champions"
+msgstr ""
+
+msgid ""
+"Caught In Each-\n"
+"Other's Gaze"
+msgstr ""
+
+msgid ""
+"Defensive Puppy-\n"
+"Dog Eyes Engaged"
+msgstr ""
+
+msgid "CANIS MAJOR"
+msgstr "CANIS MAJOR"
+
+msgid ""
+"Unaware Of\n"
+"Life's Changes"
+msgstr ""
+
+msgid ""
+"Excited By\n"
+"Life's Changes"
+msgstr ""
+
+msgid ""
+"Touched By\n"
+"Life's Changes"
+msgstr ""
+
+msgid "SKRUBBINGTON"
+msgstr "SKRUBBINGTON"
+
+msgid ""
+"Only 99.1\n"
+"Percent Clean"
+msgstr ""
+
+msgid ""
+"Power-Washing\n"
+"Powerhouse"
+msgstr ""
+
+msgid ""
+"Hot Tub\n"
+"Manufacturer"
+msgstr ""
+
+msgid ""
+"Overpowered\n"
+"Pressure Washer"
+msgstr ""
+
+msgid "GELATA"
+msgstr "GELATA"
+
+msgid ""
+"Looking For A\n"
+"Baby Sitter"
+msgstr ""
+
+msgid ""
+"Slime-Powered\n"
+"Barstool"
+msgstr ""
+
+msgid ""
+"Sexy Sitcom\n"
+"Regular"
+msgstr ""
+
+msgid ""
+"Glorified\n"
+"Wrestling Prop"
+msgstr ""
+
+msgid "RADTILE"
+msgstr "RADTILE"
+
+msgid "Balgamlı Kedi & Zaxento The Greedy"
+msgstr "Balgamlı Kedi & Zaxento The Greedy"
+
+msgid ""
+"Wallowing In\n"
+"Imperfection"
+msgstr ""
+
+msgid ""
+"Improving His\n"
+"Self-Image"
+msgstr ""
+
+msgid ""
+"Dating His Own\n"
+"Reflection"
+msgstr ""
+
+msgid ""
+"Headed For An\n"
+"Ugly Future"
+msgstr ""
+
+msgid "SHYREN"
+msgstr "SHYREN"
+
+msgid ""
+"Back To Taking\n"
+"Piano Lessons"
+msgstr ""
+
+msgid ""
+"Mettaton's\n"
+"New Lead Singer"
+msgstr ""
+
+msgid ""
+"In Love With\n"
+"A Ghost"
+msgstr ""
+
+msgid ""
+"Can't Sing Without\n"
+"A Synthesizer"
+msgstr ""
+
+msgid "DOGE"
+msgstr "DOGE"
+
+msgid ""
+"Construction Site\n"
+"Drill Sergeant"
+msgstr ""
+
+msgid ""
+"Bought A Lifetime\n"
+"Spa Subscription"
+msgstr ""
+
+msgid ""
+"Felt Puppy Love\n"
+"For The First Time"
+msgstr ""
+
+msgid "MUFFET"
+msgstr "MUFFET"
+
+msgid ""
+"Looking For Her\n"
+"Next Payout"
+msgstr ""
+
+msgid ""
+"Caring For The\n"
+"Spider Clans"
+msgstr ""
+
+msgid ""
+"Picnic Date\n"
+"Matchmaker"
+msgstr ""
+
+msgid "HOTWIRE"
+msgstr "HOTWIRE"
+
+msgid ""
+"Waiting For The\n"
+"Beat To Drop"
+msgstr ""
+
+msgid ""
+"Lightning-Fast\n"
+"Rapper"
+msgstr ""
+
+msgid ""
+"Rapper Turned\n"
+"Love Song Writer"
+msgstr ""
+
+msgid ""
+"Rap Battling To\n"
+"The Near-Death"
+msgstr ""
+
+msgid "TSUNDERIDEX"
+msgstr "TSUNDERIDEX"
+
+msgid ""
+"Flying Deeper\n"
+"Into Denial"
+msgstr ""
+
+msgid ""
+"Sneaking Up On\n"
+"You At Warp Speed"
+msgstr ""
+
+msgid ""
+"Tsun To Be\n"
+"Your Dere-Dere"
+msgstr ""
+
+msgid ""
+"Finally Met\n"
+"Its Match"
+msgstr ""
+
+msgid "PERIGEE"
+msgstr "PERIGEE"
+
+msgid ""
+"Another Day,\n"
+"Another Conflict"
+msgstr ""
+
+msgid ""
+"Interplanetary\n"
+"Ambassador"
+msgstr ""
+
+msgid ""
+"Encouraging Love\n"
+"In Others"
+msgstr ""
+
+msgid ""
+"Showing Kindness\n"
+"Through The Pain"
+msgstr ""
+
+msgid "RG 03 & RG 04"
+msgstr "三號守衛 & 四號守衛"
+
+msgid ""
+"In Search Of\n"
+"Childhood Friends"
+msgstr ""
+
+msgid ""
+"Use Your\n"
+"Imagination"
+msgstr ""
+
+msgid ""
+"Please Use Your\n"
+"Imagination"
+msgstr ""
+
+msgid ""
+"Royal Guard\n"
+"Retirees"
+msgstr ""
+
+msgid "GLYDE"
+msgstr "GLYDE"
+
+msgid ""
+"Not Your Ideal\n"
+"Business Partner"
+msgstr ""
+
+msgid ""
+"A Little Less\n"
+"Shady Than Usual"
+msgstr ""
+
+msgid ""
+"Not Your Ideal\n"
+"Bedfellow"
+msgstr ""
+
+msgid "BURGERPANTS"
+msgstr "漢堡褲"
+
+msgid ""
+"Running Hastily\n"
+"At The Life Ahead"
+msgstr ""
+
+msgid ""
+"Looking Forward\n"
+"To The Life Ahead"
+msgstr ""
+
+msgid ""
+"Finding Love\n"
+"In The Life Ahead"
+msgstr ""
+
+msgid "COZMO"
+msgstr "COZMO"
+
+msgid ""
+"Looking For A\n"
+"Dictionary"
+msgstr ""
+
+msgid ""
+"Famous\n"
+"Magician"
+msgstr ""
+
+msgid ""
+"Found A New Kind\n"
+"Of Magic"
+msgstr ""
+
+msgid "TERRESTRIA"
+msgstr "TERRESTRIA"
+
+msgid ""
+"In Search Of\n"
+"The Past"
+msgstr ""
+
+msgid ""
+"Renowned\n"
+"Historian"
+msgstr ""
+
+msgid ""
+"Has A Crush On\n"
+"The Homeworld"
+msgstr ""
+
+msgid "FINAL FROGGIT"
+msgstr "FINAL FROGGIT"
+
+msgid ""
+"Keeping Its\n"
+"Wisdom To Itself"
+msgstr ""
+
+msgid ""
+"Sharing Its\n"
+"Wisdom Openly"
+msgstr ""
+
+msgid ""
+"Using Its Wisdom\n"
+"For Love"
+msgstr ""
+
+msgid ""
+"Using Its Wisdom\n"
+"For Survival"
+msgstr ""
+
+msgid "FLUTTERKNYTE"
+msgstr "FLUTTERKNYTE"
+
+msgid ""
+"Still Working\n"
+"Every Day"
+msgstr ""
+
+msgid ""
+"Finally Took\n"
+"A Break"
+msgstr ""
+
+msgid ""
+"Looking For Some\n"
+"Private Time"
+msgstr ""
+
+msgid ""
+"Working Harder\n"
+"Out Of Fear"
+msgstr ""
+
+msgid "EYEWALKER PRIME"
+msgstr "EYEWALKER PRIME"
+
+msgid ""
+"Still A\n"
+"Big Bully"
+msgstr ""
+
+msgid ""
+"Domineering\n"
+"Eye Doctor"
+msgstr ""
+
+msgid ""
+"Domineering\n"
+"Leather Tailor"
+msgstr ""
+
+msgid ""
+"Overthrown By\n"
+"An Oculoux"
+msgstr ""
+
+msgid "SILENCIO"
+msgstr "SILENCIO"
+
+msgid ""
+"Still A\n"
+"Shameless Coward"
+msgstr ""
+
+msgid ""
+"A Little Less Of\n"
+"A Coward"
+msgstr ""
+
+msgid ""
+"In Love With\n"
+"Its Fear"
+msgstr ""
+
+msgid ""
+"Running Faster\n"
+"Than Ever Before"
+msgstr ""
+
+msgid "MUSHKETEER"
+msgstr "MUSHKETEER"
+
+msgid "Balgamlı Kedi & Ghostly"
+msgstr "Balgamlı Kedi & Ghostly"
+
+msgid ""
+"One Mushroom\n"
+"Army"
+msgstr ""
+
+msgid ""
+"Hardened Warrior\n"
+"Seeking Peace"
+msgstr ""
+
+msgid ""
+"Defeated By The\n"
+"Power Of Love"
+msgstr ""
+
+msgid ""
+"Scared\n"
+"Straight"
+msgstr ""
+
+msgid "PAPYRUS"
+msgstr "PAPYRUS"
+
+msgid "ProctorDorkchop02 & MattSpriteMaster"
+msgstr "ProctorDorkchop02 & MattSpriteMaster"
+
+msgid "SANS"
+msgstr "SANS"
+
+msgid "ProctorDorkchop02 & Fired"
+msgstr "ProctorDorkchop02 & Fired"
+
+msgid "UNDYNE"
+msgstr "UNDYNE"
+
+msgid "ALPHYS"
+msgstr "ALPHYS"
+
+msgid "MEW MEW"
+msgstr "MEW MEW"
+
+msgid "NAPSTABLOOK"
+msgstr "NAPSTABLOOK"
+
+msgid "METTATON"
+msgstr "METTATON"
+
+msgid "TORIEL"
+msgstr "TORIEL"
+
+msgid "ASGORE"
+msgstr "ASGORE"
+
+msgid "MONSTER KID"
+msgstr "怪物小孩"
+
+msgid "ASRIEL"
+msgstr "ASRIEL"
+
+msgid "Medi0creking & MattSpriteMaster"
+msgstr "Medi0creking & MattSpriteMaster"
+
+msgid "[↑ or ↓] to Select / [Z or ENTER] to Confirm"
+msgstr "[↑或↓] 選擇語言 / [Z 或 ENTER] 確認"
+
+msgid ""
+"To whom it may concern,\n"
+"\n"
+"This game contains §fill=#ff0§flashing images§fill=#fff§\n"
+"which may be reduced via the\n"
+"§fill=#ff0§settings menu§fill=#fff§.\n"
+"\n"
+msgstr ""
+"警告：\n"
+"\n"
+"遊戲內包含§fill=#ff0§閃爍畫面§fill=#fff§。\n"
+"如果您對此十分敏感或無法耐受，\n"
+"可以通過§fill=#ff0§遊戲設定§fill=#fff§將其關閉。\n"
+
+msgid "§fill=#808080§Press [Z or ENTER] to Continue"
+msgstr "§fill=#808080§按[Z或ENTER]繼續"
+
+msgid "Quitting"
+msgstr "正在退出"
+
+msgid "Quitting."
+msgstr "正在退出."
+
+msgid "Quitting.."
+msgstr "正在退出.."
+
+msgid "Thank you for playing Outertale."
+msgstr ""
+
+msgid "Working on this project has been an honor,"
+msgstr ""
+
+msgid "and a pleasure on my part."
+msgstr ""
+
+msgid "When I started this journey, I never"
+msgstr ""
+
+msgid "thought I'd get this far, but here we"
+msgstr ""
+
+msgid "are anyway, at the end."
+msgstr ""
+
+msgid "For me, UNDERTALE was a life-changing"
+msgstr ""
+
+msgid "experience, and one that was very hard to"
+msgstr ""
+
+msgid "let go of after I first played it."
+msgstr ""
+
+msgid "So, with OUTERTALE, I wanted to give you"
+msgstr ""
+
+msgid "another chance to exist in a world like it,"
+msgstr ""
+
+msgid "as if it were your first time."
+msgstr ""
+
+msgid "I hope I've given you that chance."
+msgstr ""
+
+msgid "I hope you've come away satisfied with"
+msgstr ""
+
+msgid "the time you've spent in this world."
+msgstr ""
+
+msgid "No matter what you've done in your life,"
+msgstr ""
+
+msgid "your actions here speak volumes about the"
+msgstr ""
+
+msgid "kind of person you really are."
+msgstr ""
+
+msgid "It's because of you that you got the ending"
+msgstr ""
+
+msgid "you did, and nothing can take that"
+msgstr ""
+
+msgid "experience away from you."
+msgstr ""
+
+msgid "Despite your mistakes... you are awesome,"
+msgstr ""
+
+msgid "and you deserve love and attention."
+msgstr ""
+
+msgid "Remember that, okay?"
+msgstr ""
+
+msgid "Take care of yourself, \"$(x).\""
+msgstr ""
+
+msgid "THE END"
+msgstr "劇終"
+
+msgid "THE END...?"
+msgstr "劇終...？"
+
+msgid "Restarting"
+msgstr "正在重啟"
+
+msgid "Restarting."
+msgstr "正在重啟."
+
+msgid "Restarting.."
+msgstr "正在重啟.."
+
+msgid "OUTERTALE"
+msgstr "OUTERTALE / 域外傳說"
+
+msgid "OUTERTALE...?"
+msgstr "OUTERTALE...? / 域外傳說..？"
+
+msgid "GAMEPAD SETUP"
+msgstr "控制器設定"
+
+msgid ""
+"Use an input on your gamepad to assign\n"
+"it to the in-game action.\n"
+"\n"
+"Use the input again to confirm, or use\n"
+"other inputs to assign those as well.\n"
+"\n"
+"Press ESC to skip setup."
+msgstr ""
+"從遊戲控制器上選擇一個按鍵\n"
+"用來控制遊戲中的某個操作。\n"
+"\n"
+"按下相同的按鍵進行確認，\n"
+"或按下其他按鍵重新設定。\n"
+"\n"
+"按 [ESC] 跳過設定。"
+
+msgid "Inputs Assigned: $(x)"
+msgstr "輸入分配到：$(x)"
+
+msgid "[Z or ENTER] - Confirm"
+msgstr "[Z 或 ENTER] - 確認/互動"
+
+msgid "[X or SHIFT] - Cancel"
+msgstr "[X 或 SHIFT] - 返回"
+
+msgid "[C or CTRL] - Menu (In-game)"
+msgstr "[C 或 CTRL] - 選單（遊戲內）"
+
+msgid "[UP or W] - Move Up"
+msgstr "[↑ 或 W] - 上移"
+
+msgid "[LEFT or A] - Move Left"
+msgstr "[← 或 A] - 左移"
+
+msgid "[DOWN or S] - Move Down"
+msgstr "[↓ 或 S] - 下移"
+
+msgid "[RIGHT or D] - Move Right"
+msgstr "[→ 或 D] - 右移"
+
+msgid "[F4] - Fullscreen"
+msgstr "[F4] - 全螢幕"
+
+msgid ""
+"Setup complete.\n"
+"Press any button to continue."
+msgstr ""
+"設定完成。\n"
+"按任意鍵繼續。"
+
+msgid ""
+"\n"
+"Note: On this platform, the gamepad may\n"
+"not always be able to enter fullscreen."
+msgstr ""
+"\n"
+"注意：在本平臺執行遊戲時，\n"
+"可能無法用控制器開啟全螢幕。"
+
+msgid ""
+"A gamepad has already been set up.\n"
+"Press any button to continue, or press\n"
+"any button three times in rapid\n"
+"succession to restart setup.\n"
+"\n"
+"Press ESC to skip setup."
+msgstr ""
+"遊戲控制器設定完成，\n"
+"按任意鍵繼續。\n"
+"或者連按某個鍵三次\n"
+"重新設定控制器。"
+
+msgid "Asriel"
+msgstr "Asriel"
+
+msgid "The Oblivion"
+msgstr "幻境"
+
+msgid "DISABLED"
+msgstr "關閉"
+
+msgid "ENABLED"
+msgstr "開啟"
+
+msgid "Press [X] to Finish"
+msgstr "按 [X] 返回"
+
+msgid "Frisk"
+msgstr "Frisk"
+
+msgid "G"
+msgstr "G"
+
+msgid "INF"
+msgstr "\\u221e"
+
+msgid "[PRESS Z OR ENTER]"
+msgstr "[按 Z 或 ENTER]"
+
+msgid "LV"
+msgstr "LV"
+
+msgid ""
+"§mystify=ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz§aaaaaa§mystify=§"
+msgstr ""
+"§mystify=天地玄黃宇宙洪荒日月盈昃辰宿列張寒來暑往秋收冬藏閏餘成歲律呂調陽雲騰致雨露結為霜金生麗水玉出崑岡劍號巨闕珠稱夜光果珍李柰菜重芥姜海鹹河淡鱗潛羽翔龍師火帝鳥官人皇始制文字乃服衣裳推位讓國有虞陶唐§新名字§mystify=§"
+
+msgid ""
+"{@mystify=ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz}aaaaaa{@mystify=}"
+msgstr ""
+"{@mystify=天地玄黃宇宙洪荒日月盈昃辰宿列張寒來暑往秋收冬藏閏餘成歲律呂調陽雲騰致雨露結為霜金生麗水玉出崑岡劍號巨闕珠稱夜光果珍李柰菜重芥姜海鹹河淡鱗潛羽翔龍師火帝鳥官人皇始制文字乃服衣裳推位讓國有虞陶唐}新名字{@mystify=}"
+
+msgid "{@mystify=abcdefghijklmnopqrstuvwxyz}aaaaaa{@mystify=}"
+msgstr ""
+"{@mystify=天地玄黃宇宙洪荒日月盈昃辰宿列張寒來暑往秋收冬藏閏餘成歲律呂調陽雲騰致雨露結為霜金生麗水玉出崑岡劍號巨闕珠稱夜光果珍李柰菜重芥姜海鹹河淡鱗潛羽翔龍師火帝鳥官人皇始制文字乃服衣裳推位讓國有虞陶唐}新名字{@mystify=}"
+
+msgid "{@mystify=ABCDEFGHIJKLMNOPQRSTUVWXYZ}aaaaaa{@mystify=}"
+msgstr ""
+"{@mystify=天地玄黃宇宙洪荒日月盈昃辰宿列張寒來暑往秋收冬藏閏餘成歲律呂調陽雲騰致雨露結為霜金生麗水玉出崑岡劍號巨闕珠稱夜光果珍李柰菜重芥姜海鹹河淡鱗潛羽翔龍師火帝鳥官人皇始制文字乃服衣裳推位讓國有虞陶唐}新名字{@mystify=}"
+
+msgid "No"
+msgstr "否"
+
+msgid "§fill=#0f0§NOMINAL"
+msgstr "§fill=#0f0§正常"
+
+msgid "$(x)%"
+msgstr "$(x)%"
+
+msgid "player"
+msgstr "玩家"
+
+msgid "Settings"
+msgstr "遊戲設定"
+
+msgid "?"
+msgstr "?"
+
+msgid "XM"
+msgstr "靈勢"
+
+msgid "Yes"
+msgstr "是"
+
+msgid "INVENTORY"
+msgstr "物品欄"
+
+msgid "BOX"
+msgstr "箱子"
+
+msgid "KEYRING"
+msgstr "鑰匙串"
+
+msgid "Is this name correct?"
+msgstr "確定要選擇這個名字嗎？"
+
+msgid ""
+"A name has already\n"
+"been chosen."
+msgstr "已經選定了一個名字。"
+
+msgid "Go back"
+msgstr "返回"
+
+msgid "OUTERTALE V5.03 (c) 2024 SPACEY_432"
+msgstr "OUTERTALE V5.03 (c) 2024 SPACEY_432 繁體中文版 PSOT漢化組"
+
+msgid "* (HP fully restored.)"
+msgstr "* （HP已回滿。）"
+
+msgid "* (You recovered $(x) HP.)"
+msgstr "* （你回復了$(x) HP。）"
+
+msgid "* (You lost $(x) HP.)"
+msgstr "* （你失去了$(x) HP。）"
+
+msgid "* (HP fully depleted.)"
+msgstr "* （HP已清零。）"
+
+msgid "* (You gained $(x) HP.)"
+msgstr "* （你額外獲得$(x) HP。）"
+
+msgid "USE"
+msgstr "使用"
+
+msgid "EQUIP"
+msgstr "裝備"
+
+msgid "INFO"
+msgstr "資訊"
+
+msgid "DROP"
+msgstr "丟棄"
+
+msgid "Continue"
+msgstr "繼續"
+
+msgid "Observe"
+msgstr "旁觀"
+
+msgid "Reset"
+msgstr "重置"
+
+msgid "True Reset"
+msgstr "真正的重置"
+
+msgid "Name the stranded human."
+msgstr "為受困的人類命名："
+
+msgid "Quit"
+msgstr "返回"
+
+msgid "Backspace"
+msgstr "刪除"
+
+msgid "Done"
+msgstr "確定"
+
+msgid "§fill=#808080§ [ESC] - Quit / [ENTER] - Done"
+msgstr ""
+"§fill=#808080§鍵盤輸入，支援中文。\n"
+"\n"
+"[ENTER] - 確定\n"
+"[BACKSPACE] - 刪除\n"
+"[ESC] - 返回"
+
+msgid "Return"
+msgstr "返回"
+
+msgid "File saved."
+msgstr "進度已儲存！"
+
+msgid "SETTINGS"
+msgstr "遊戲設定"
+
+msgid "EXIT"
+msgstr "返回"
+
+msgid "LANGUAGE"
+msgstr "語言"
+
+msgid "ENGLISH"
+msgstr "繁體中文(人名不譯)"
+
+msgid "SOUND FX"
+msgstr "音效"
+
+msgid "MUSIC"
+msgstr "音樂"
+
+msgid "FANCY GRAPHICS"
+msgstr "視覺特效"
+
+msgid "FLASHING IMAGERY"
+msgstr "閃爍畫面"
+
+msgid "NORMAL"
+msgstr "預設"
+
+msgid "REDUCED"
+msgstr "削減"
+
+msgid "TOUCH CONTROLS"
+msgstr "方向鍵位置"
+
+msgid "LEFT"
+msgstr "左側"
+
+msgid "RIGHT"
+msgstr "右側"
+
+msgid "HIDDEN"
+msgstr "隱藏"
+
+msgid "DEADZONE"
+msgstr "搖杆死區"
+
+msgid "OPEN MOD FOLDER"
+msgstr "打開Mod目錄"
+
+msgid "RESTART"
+msgstr "重啟"
+
+msgid "ITEM"
+msgstr "物品"
+
+msgid "STAT"
+msgstr "狀態"
+
+msgid "CELL"
+msgstr "手機"
+
+msgid "CONF"
+msgstr "設定"
+
+msgid "--- Instruction ---"
+msgstr "---- 操作介紹 ----"
+
+msgid "[Hold ESC] - Restart"
+msgstr "[長按 ESC] - 重啟"
+
+msgid "When HP is 0, you lose."
+msgstr "當 HP 降至 0，你就輸了。"
+
+msgid "Begin Game"
+msgstr "開始遊戲"
+
+msgid "AT"
+msgstr "攻擊"
+
+msgid "DF"
+msgstr "防禦"
+
+msgid "GOLD"
+msgstr "金錢"
+
+msgid "NEXT"
+msgstr "升級需"
+
+msgid ""
+"§fill=#ff0§Warning:\n"
+"Non-canon\n"
+"timeline."
+msgstr ""
+"§fill=#ff0§警告：\n"
+"不是\n"
+"主時間軸。"
+
+msgid "KILLS"
+msgstr "擊殺"
+
+msgid "BULLY"
+msgstr "擊敗"
+
+msgid "FLIRT"
+msgstr "調情"
+
+msgid "STATUS"
+msgstr "生命體徵"
+
+msgid "\"$(x)\""
+msgstr "「$(x)」"
+
+msgid ""
+"<24>{#p/storyteller}Long ago, two species ruled the solar system: HUMANS and"
+" MONSTERS.{^35}{}"
+msgstr ""
+"<24>{#p/storyteller}很久以前，\n"
+"太陽系由兩個物種統治著：\n"
+"人類和怪物。{^35}{}"
+
+msgid "<24>As time passed, a war broke out between the two species.{^35}{}"
+msgstr ""
+"<24>隨著時間的推移，\n"
+"兩個物種之間爆發了戰爭。{^35}{}"
+
+msgid ""
+"<24>After the MONSTERS' home planet was destroyed, HUMANS declared "
+"victory.{^35}{}"
+msgstr ""
+"<24>最終，\n"
+"怪物的母星被摧毀，\n"
+"人類宣布了勝利。{^35}{}"
+
+msgid ""
+"<24>The remaining MONSTERS were banished to an abandoned outpost.{^35}{}"
+msgstr ""
+"<24>他們將剩下的怪物\n"
+"流放到一個廢棄的前哨站。{^35}{}"
+
+msgid ""
+"<24>A powerful force field was erected, and the MONSTERS were sealed "
+"in.{^35}{}"
+msgstr ""
+"<24>隨後，建起一道強大的力場，\n"
+"將怪物們封印在內。{^35}{}"
+
+msgid "<24>Many years later.{^8}.{^8}.{^35}{}"
+msgstr "<24>許多年後.{^16}.{^16}.{^35}{}"
+
+msgid ""
+"<#24>     EBOTT SECTOR     \n"
+"         251X{^35}{}"
+msgstr ""
+"<#24>       EBOTT區      \n"
+"        251X{^35}{}"
+
+msgid "<24>Tales speak of a place from which spacecraft never return.{^35}{}"
+msgstr ""
+"<24>傳說，宇宙中有一個地方，\n"
+"發射到那裡的飛船\n"
+"都再也沒有返航。{^35}{}"
+
+msgid "<24>{^100}{}"
+msgstr "<24>{^100}{}"
+
+msgid "<24>{^35}{}"
+msgstr "<24>{^35}{}"
+
+msgid "Resume Canon Timeline"
+msgstr "重返主時間軸"
+
+msgid "Start Canon Timeline"
+msgstr "開啟主時間軸"
+
+msgid "Other Slots"
+msgstr "其他時間軸槽位"
+
+msgid "Bisect"
+msgstr "切分"
+
+msgid "Delete"
+msgstr "刪除"
+
+msgid "[ESC] to Cancel / [ENTER] to Confirm"
+msgstr "[ESC]取消 / [ENTER]確定"
+
+msgid "Press any button on your gamepad to open the keyboard."
+msgstr "按控制器上任意按鈕打開鍵盤。"
+
+msgid "Launch"
+msgstr "進入"
+
+msgid "Rename"
+msgstr "重命名"
+
+msgid "Create New"
+msgstr "新建"
+
+msgid "Enter Timeline Name"
+msgstr "輸入時間軸名稱"
+
+msgid "Are You Sure?"
+msgstr "確定刪除嗎？"

@@ -1,0 +1,329 @@
+#
+msgid ""
+msgstr ""
+
+msgid "en_US"
+msgstr "tr_TR"
+
+msgid ""
+msgstr ""
+
+msgid "You must choose a name."
+msgstr "Bir isim seçmelisin."
+
+msgid "No?"
+msgstr "Hayır mı?"
+
+msgid "Hm...?"
+msgstr "Ha...?"
+
+msgid "Maybe?"
+msgstr "Belki mi?"
+
+msgid "Yes?"
+msgstr "Evet mi?"
+
+msgid ""
+"Take heart.\n"
+"There is nothing to be afraid of here."
+msgstr ""
+
+msgid "A light-hearted spirit will serve you well on your journey."
+msgstr ""
+
+msgid ""
+"Take heart.\n"
+"Your frustrations are behind you now."
+msgstr ""
+
+msgid ""
+"Take heart.\n"
+"The story is yours, no matter what you feel."
+msgstr ""
+
+msgid "May tranquility come upon you as you embark on your journey."
+msgstr ""
+
+msgid ""
+"Take heart.\n"
+"Your story is as interesting as you make it."
+msgstr ""
+
+msgid "May your quality of speech translate to action on your journey."
+msgstr ""
+
+msgid "A courageous heart will serve you well on your journey."
+msgstr ""
+
+msgid "A sense of serenity will do you wonders on your journey."
+msgstr ""
+
+msgid "May your ingenuity surpass the challenges on your journey."
+msgstr ""
+
+msgid "A confident mindset will take you far on your journey."
+msgstr ""
+
+msgid "May your inginuity surpass the challanges on your journey."
+msgstr ""
+
+msgid "May balance come upon you as you embark on your journey."
+msgstr ""
+
+msgid ""
+"Take heart.\n"
+"There is much to be learned on the road ahead."
+msgstr ""
+
+msgid "May the tapestry of chaos and order satisfy you on your journey."
+msgstr ""
+
+msgid "May your story gain meaning in this cocoon amidst the darkness."
+msgstr ""
+
+msgid "May the experience be as playful as you desire."
+msgstr ""
+
+msgid "May the experience be as excessive as you desire."
+msgstr ""
+
+msgid ""
+"Take heart.\n"
+"You have nothing to feel ashamed of now."
+msgstr ""
+
+msgid "A temperate ego will take you far on your journey."
+msgstr ""
+
+msgid "May the experience provide the sustenance you require."
+msgstr ""
+
+msgid "May your story bring forth the emotion you strive to feel."
+msgstr ""
+
+msgid "May your choices be as effortless as they come."
+msgstr ""
+
+msgid ""
+"Take heart.\n"
+"There is much companionship to be had here."
+msgstr ""
+
+msgid "May your fortune carry you forward on your journey."
+msgstr ""
+
+msgid "May the tapestry of chaos and order please you on your journey."
+msgstr ""
+
+msgid ""
+"Take heart.\n"
+"Your story is as uplifting as you make it."
+msgstr ""
+
+msgid "May your stability provide a solid foundation on your journey."
+msgstr ""
+
+msgid "May the experience only add to your state of satisfaction."
+msgstr ""
+
+msgid "May the experience be as comforting as you desire."
+msgstr ""
+
+msgid "May the experience provide the energy you require."
+msgstr ""
+
+msgid "May your overflowing energy power you through your journey."
+msgstr ""
+
+msgid "I am honored by your choice."
+msgstr "Seçimin beni onurlandırdı."
+
+msgid "Let the experiment begin."
+msgstr "Deney başlasın."
+
+msgid "The true name."
+msgstr "Gerçek isim."
+
+msgid "This name is incorrect."
+msgstr "Gerçek isim."
+
+msgid ""
+"............\n"
+"(They're powerless to stop you.)"
+msgstr ""
+"............\n"
+"(Seni durdurmaya güçleri yetmez.)"
+
+msgid ""
+"............\n"
+"(It's not much for conversation.)"
+msgstr ""
+"............\n"
+"(Pek konuşkan değil.)"
+
+msgid "Hello."
+msgstr "Merhaba."
+
+msgid "Saddle up!"
+msgstr "Hazır ol!"
+
+msgid "Well... I suppose that works..."
+msgstr "Pekala... Sanırım bu iş görür..."
+
+msgid "I think you should think of your own name, my child."
+msgstr "Bence kendine başka bir isim seçmelisin, küçüğüm."
+
+msgid "Really..."
+msgstr "Gerçekten mi..."
+
+msgid "Nice try, idiot."
+msgstr "İyi deneme, aptal."
+
+msgid "Don't you mean \"Eyewalker?\""
+msgstr ""
+
+msgid "Check out my antenna!"
+msgstr "Antenime bak!"
+
+msgid "Guh huh huh, nice one."
+msgstr "Gah hah hah, komikmiş."
+
+msgid "Huh? What's that smell?"
+msgstr "Ha? Bu koku da ne?"
+
+msgid "It's m-moving! I-I-It's shaking!"
+msgstr "O ha-hareket ediyor... O-O... titriyor!"
+
+msgid "Jerry."
+msgstr ""
+
+msgid "(The dog jumped into your lap.)"
+msgstr "(Köpek kucağına zıpladı.)"
+
+msgid "(Pant pant)"
+msgstr ""
+
+msgid "I'LL ALLOW IT!!!!"
+msgstr "KABUL EDİYORUM!!!!"
+
+msgid "ok."
+msgstr "tamam."
+
+msgid "nope."
+msgstr "yok."
+
+msgid "A \"stellar\" choice."
+msgstr "\"Parlak\" seçim."
+
+msgid "A pleasing nomenclature, no?"
+msgstr ""
+
+msgid "I am not amused."
+msgstr "İlging gelmedi."
+
+msgid "Roar."
+msgstr "Kükreme."
+
+msgid "Wah ha ha! Why not?"
+msgstr "Wah ha ha! Neden olmasın?"
+
+msgid "What. What! WHAT!"
+msgstr "Ne. Ne! NE!"
+
+msgid "That's my name!!"
+msgstr "O benim ismim!!"
+
+msgid ""
+"Ahuhuhu~\n"
+"You must have great taste, dearie~"
+msgstr ""
+"Ahuhuhu~\n"
+"Harika zevklerin olmalı, canım~"
+
+msgid ""
+"Hey!\n"
+"Only Skrubby gets to call me that!"
+msgstr ""
+"Hey!\n"
+"Bana sadece Skrubby öyle diyebilir!"
+
+msgid "Sorry, but you're a letter shy."
+msgstr "Üzgünüm, ama bir harf eksik."
+
+msgid "...?"
+msgstr ""
+
+msgid "Clean name."
+msgstr "Temiz isim."
+
+msgid "hOI!"
+msgstr "m0rAba!"
+
+msgid "Ngah, fine."
+msgstr "Ngah, peki."
+
+msgid "Get your OWN name!"
+msgstr "KENDİ ismini al!"
+
+msgid "Uh.... OK?"
+msgstr "Ah.... Peki?"
+
+msgid "D-don't do that."
+msgstr "Y-yapma."
+
+msgid "You are really scraping the bottom of the barrel."
+msgstr "Sınırı gerçekten zorluyorsun."
+
+msgid "Like, OK I guess."
+msgstr "Yani, olur sanırım."
+
+msgid "You like my name, little buddy?"
+msgstr "İsmimi sevdin mi, küçük dostum?"
+
+msgid "Bratty! Bratty! That's MY name!"
+msgstr "Bratty! Bratty! Bu BENİM ismim!"
+
+msgid "A fellow wizard?"
+msgstr "Benim gibi bir büyücü mü?"
+
+msgid "Slick choice, homeslice."
+msgstr "Sağlam seçim, kanzi."
+
+msgid "Now you're just being rude, darling."
+msgstr "Şimdi sadece kabasın, canım."
+
+msgid "OOOOH!!! ARE YOU PROMOTING MY BRAND?"
+msgstr "VAYY!!! MARKAMI MI TANITIYORSUN?"
+
+msgid "Is this name correct? ;)"
+msgstr "Bu isim doğru mu? ;)"
+
+msgid "Hot, but not hot enough."
+msgstr "Sıcak, ama yeterince değil."
+
+msgid "You don't have to do that..."
+msgstr "Yapmak zorunda değilsin..."
+
+msgid "You KNEW!?"
+msgstr "BİLİYOR muydun?"
+
+msgid "Respect my AUTHORITY!"
+msgstr "OTORİTEME saygı göster!"
+
+msgid "Ahh! Thank you~"
+msgstr "Ahh! Teşekkürler~"
+
+msgid "Thanks for, uh, using my name."
+msgstr "İsmimi kullandığın için ehh, teşekkürler."
+
+msgid "You can?"
+msgstr "Olur?"
+
+msgid "You cannot."
+msgstr "Olmaz."
+
+msgid "... fine."
+msgstr "... peki."
+
+msgid "..."
+msgstr ""

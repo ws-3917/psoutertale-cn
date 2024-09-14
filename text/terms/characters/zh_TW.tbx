@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE martif PUBLIC "ISO 12200:1999A//DTD MARTIF core (DXFcdV04)//EN" "TBXcdv04.dtd">
+<martif type="TBX" xml:lang="en">
+    <martifHeader>
+        <fileDesc>
+            <sourceDesc>
+                <p>Translate Toolkit</p>
+            </sourceDesc>
+        </fileDesc>
+    </martifHeader>
+    <text>
+        <body>
+            <termEntry id="username">
+                <langSet xml:lang="en"><tig><term>ALPHYS</term></tig></langSet>
+                <langSet xml:lang="zh_TW"><tig><term>艾菲斯</term></tig></langSet>
+            </termEntry>
+            <termEntry id="group">
+                <langSet xml:lang="en"><tig><term>Royal Guard</term></tig></langSet>
+                <langSet xml:lang="zh_TW"><tig><term>皇家衛隊</term></tig></langSet>
+            </termEntry>
+            <termEntry id="group">
+                <langSet xml:lang="en"><tig><term>ELITE squad</term></tig></langSet>
+                <langSet xml:lang="zh_TW"><tig><term>特戰隊</term></tig></langSet>
+            </termEntry>
+            <termEntry id="group">
+                <langSet xml:lang="en"><tig><term>the canine unit</term></tig></langSet>
+                <langSet xml:lang="zh_TW"><tig><term>犬衛隊</term></tig></langSet>
+            </termEntry>
+            <termEntry id="username">
+                <langSet xml:lang="en"><tig><term>COOLSKELETON95</term></tig></langSet>
+                <langSet xml:lang="zh_TW"><tig><term>酷炫骷髏95</term></tig></langSet>
+                <note from="translator">Papyrus</note>
+            </termEntry>
+            <termEntry id="username">
+                <langSet xml:lang="en"><tig><term>STRONGFISH91</term></tig></langSet>
+                <langSet xml:lang="zh_TW"><tig><term>壯魚91</term></tig></langSet>
+                <note from="translator">Undyne</note>
+            </termEntry>
+            <termEntry id="main-character">
+                <langSet xml:lang="en"><tig><term>Frisk</term></tig></langSet>
+                <langSet xml:lang="zh_TW"><tig><term>弗裡斯克</term></tig></langSet>
+            </termEntry>
+            <termEntry id="main-character">
+                <langSet xml:lang="en"><tig><term>Twinkly</term></tig></langSet>
+                <langSet xml:lang="zh_TW"><tig><term>閃閃</term></tig></langSet>
+            </termEntry>
+            <termEntry id="main-character">
+                <langSet xml:lang="en"><tig><term>Asriel</term></tig></langSet>
+                <langSet xml:lang="zh_TW"><tig><term>艾斯利爾</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>RG 03</term></tig></langSet>
+                <langSet xml:lang="zh_TW"><tig><term>三號守衛</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>RG 04</term></tig></langSet>
+                <langSet xml:lang="zh_TW"><tig><term>四號守衛</term></tig></langSet>
+            </termEntry>
+        </body>
+    </text>
+</martif>

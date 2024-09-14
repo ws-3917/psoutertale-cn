@@ -1,0 +1,345 @@
+#
+msgid ""
+msgstr ""
+
+msgid "en_US"
+msgstr "cs_CZ"
+
+msgid ""
+msgstr ""
+
+msgid "You must choose a name."
+msgstr "Musíš si vybrat jména."
+
+msgid "No?"
+msgstr "Ne?"
+
+msgid "Hm...?"
+msgstr ""
+
+msgid "Maybe?"
+msgstr "Možná?"
+
+msgid "Yes?"
+msgstr "Ano?"
+
+msgid ""
+"Take heart.\n"
+"There is nothing to be afraid of here."
+msgstr ""
+"Vzchopte se.\n"
+"Tady se není čeho bát."
+
+msgid "A light-hearted spirit will serve you well on your journey."
+msgstr "Na vaší cestě vám dobře poslouží lehkovážný duch."
+
+msgid ""
+"Take heart.\n"
+"Your frustrations are behind you now."
+msgstr ""
+"Vzchopte se.\n"
+"Vaše frustrace jsou nyní za vámi."
+
+msgid ""
+"Take heart.\n"
+"The story is yours, no matter what you feel."
+msgstr ""
+"Vzchopte se.\n"
+"Příběh je váš, bez ohledu na to, co cítíte."
+
+msgid "May tranquility come upon you as you embark on your journey."
+msgstr "Kéž na vás přijde klid, když se vydáte na cestu."
+
+msgid ""
+"Take heart.\n"
+"Your story is as interesting as you make it."
+msgstr ""
+"Vzchopte se.\n"
+"Tvůj příběh je stejně zajímavý, jak si ho uděláš."
+
+msgid "May your quality of speech translate to action on your journey."
+msgstr "Ať se vaše kvalita řeči promítne do činů na vaší cestě."
+
+msgid "A courageous heart will serve you well on your journey."
+msgstr "Odvážné srdce vám na vaší cestě dobře poslouží."
+
+msgid "A sense of serenity will do you wonders on your journey."
+msgstr "Pocit klidu s vámi na vaší cestě udělá zázraky."
+
+msgid "May your ingenuity surpass the challenges on your journey."
+msgstr "Ať vaše vynalézavost překoná výzvy na vaší cestě."
+
+msgid "A confident mindset will take you far on your journey."
+msgstr "Sebevědomé myšlení vás dovede daleko na vaší cestě."
+
+msgid "May your inginuity surpass the challanges on your journey."
+msgstr "Ať vaše vynalézavost překoná výzvy na vaší cestě."
+
+msgid "May balance come upon you as you embark on your journey."
+msgstr "Kéž na vás přijde rovnováha, když se vydáte na cestu."
+
+msgid ""
+"Take heart.\n"
+"There is much to be learned on the road ahead."
+msgstr ""
+"Vzchopte se.\n"
+"Na cestě před námi se lze mnohému naučit."
+
+msgid "May the tapestry of chaos and order satisfy you on your journey."
+msgstr "Kéž vás tapisérie chaosu a řádu uspokojí na vaší cestě."
+
+msgid "May your story gain meaning in this cocoon amidst the darkness."
+msgstr "Ať váš příběh získá smysl v tomto zámotku uprostřed temnoty."
+
+msgid "May the experience be as playful as you desire."
+msgstr "Ať je zážitek tak hravý, jak si přejete."
+
+msgid "May the experience be as excessive as you desire."
+msgstr "Kéž je zážitek tak přehnaný, jak si přejete."
+
+msgid ""
+"Take heart.\n"
+"You have nothing to feel ashamed of now."
+msgstr ""
+"Vzchopte se.\n"
+"Teď se nemáš za co stydět."
+
+msgid "A temperate ego will take you far on your journey."
+msgstr "Umírněné ego vás na vaší cestě dovede daleko."
+
+msgid "May the experience provide the sustenance you require."
+msgstr "Kéž vám zkušenost poskytne obživu, kterou požadujete."
+
+msgid "May your story bring forth the emotion you strive to feel."
+msgstr "Kéž váš příběh vyvolá emoce, které se snažíte cítit."
+
+msgid "May your choices be as effortless as they come."
+msgstr "Ať jsou vaše volby tak snadné, jak přicházejí."
+
+msgid ""
+"Take heart.\n"
+"There is much companionship to be had here."
+msgstr ""
+"Vzchopte se.\n"
+"Je zde mnoho přátelství."
+
+msgid "May your fortune carry you forward on your journey."
+msgstr "Ať vás vaše jmění nese na vaší cestě vpřed."
+
+msgid "May the tapestry of chaos and order please you on your journey."
+msgstr "Kéž vás na vaší cestě potěší tapisérie chaosu a řádu."
+
+msgid ""
+"Take heart.\n"
+"Your story is as uplifting as you make it."
+msgstr ""
+"Vzchopte se.\n"
+"Váš příběh je tak povznášející, jak si ho uděláte."
+
+msgid "May your stability provide a solid foundation on your journey."
+msgstr "Ať vám vaše stabilita poskytne pevný základ na vaší cestě."
+
+msgid "May the experience only add to your state of satisfaction."
+msgstr "Kéž tato zkušenost jen přispěje k vašemu stavu spokojenosti."
+
+msgid "May the experience be as comforting as you desire."
+msgstr "Nechť je tato zkušenost tak uklidňující, jak si přejete."
+
+msgid "May the experience provide the energy you require."
+msgstr "Kéž vám tato zkušenost dodá potřebnou energii."
+
+msgid "May your overflowing energy power you through your journey."
+msgstr "Kéž vás vaše překypující energie posílí na vaší cestě."
+
+msgid "I am honored by your choice."
+msgstr "Jsem poctěn vaší volbou."
+
+msgid "Let the experiment begin."
+msgstr "Nechť experiment začne."
+
+msgid "The true name."
+msgstr "Pravé jméno."
+
+msgid "This name is incorrect."
+msgstr "Tento název je nesprávný."
+
+msgid ""
+"............\n"
+"(They're powerless to stop you.)"
+msgstr ""
+"............\n"
+"(Jsou bezmocní, aby vás zastavili.)"
+
+msgid ""
+"............\n"
+"(It's not much for conversation.)"
+msgstr ""
+"............\n"
+"(Není to moc na konverzaci.)"
+
+msgid "Hello."
+msgstr "Ahoj."
+
+msgid "Saddle up!"
+msgstr "Osedlej se!"
+
+msgid "Well... I suppose that works..."
+msgstr "Dobře... Předpokládám, že to funguje..."
+
+msgid "I think you should think of your own name, my child."
+msgstr "Myslím, že bys měl myslet na své vlastní jméno, mé dítě."
+
+msgid "Really..."
+msgstr "Vážně..."
+
+msgid "Nice try, idiot."
+msgstr "Pěkný pokus, idiote."
+
+msgid "Don't you mean \"Eyewalker?\""
+msgstr "Nemyslíte \"Eyewalker\"?"
+
+msgid "Check out my antenna!"
+msgstr "Podívejte se na mou anténu!"
+
+msgid "Guh huh huh, nice one."
+msgstr "Guh huh huh, pěkný."
+
+msgid "Huh? What's that smell?"
+msgstr "Co? Co je to za vůni?"
+
+msgid "It's m-moving! I-I-It's shaking!"
+msgstr "H-hýbe se! T-T-Třese se!"
+
+msgid "Jerry."
+msgstr ""
+
+msgid "(The dog jumped into your lap.)"
+msgstr "(Pes vám skočil do klína.)"
+
+msgid "(Pant pant)"
+msgstr ""
+
+msgid "I'LL ALLOW IT!!!!"
+msgstr "DOVOLÍM TO!!!"
+
+msgid "ok."
+msgstr ""
+
+msgid "nope."
+msgstr "ne."
+
+msgid "A \"stellar\" choice."
+msgstr "\"Hvězdná\" volba."
+
+msgid "A pleasing nomenclature, no?"
+msgstr "Příjemná nomenklatura, ne?"
+
+msgid "I am not amused."
+msgstr "Nebaví mě to."
+
+msgid "Roar."
+msgstr "Řev."
+
+msgid "Wah ha ha! Why not?"
+msgstr "Wah ha ha! Proč ne?"
+
+msgid "What. What! WHAT!"
+msgstr "Co. Co! CO!"
+
+msgid "That's my name!!"
+msgstr "To je moje jméno!!"
+
+msgid ""
+"Ahuhuhu~\n"
+"You must have great taste, dearie~"
+msgstr ""
+"Ahuhuhu~\n"
+"Musíš mít skvělý vkus, drahoušku~"
+
+msgid ""
+"Hey!\n"
+"Only Skrubby gets to call me that!"
+msgstr ""
+"Hej!\n"
+"Tak mi může říkat jen Skrubby!"
+
+msgid "Sorry, but you're a letter shy."
+msgstr "Promiňte, ale jste dopis stydlivý."
+
+msgid "...?"
+msgstr ""
+
+msgid "Clean name."
+msgstr "Čistý název."
+
+msgid "hOI!"
+msgstr ""
+
+msgid "Ngah, fine."
+msgstr "Ngah, dobře."
+
+msgid "Get your OWN name!"
+msgstr "Získejte své VLASTNÍ jméno!"
+
+msgid "Uh.... OK?"
+msgstr ""
+
+msgid "D-don't do that."
+msgstr "N-nedělejte to."
+
+msgid "You are really scraping the bottom of the barrel."
+msgstr "Opravdu škrábete na dně sudu."
+
+msgid "Like, OK I guess."
+msgstr "Jako, dobře, myslím."
+
+msgid "You like my name, little buddy?"
+msgstr "Líbí se ti moje jméno, kamaráde?"
+
+msgid "Bratty! Bratty! That's MY name!"
+msgstr "Bratty! Bratty! To je MOJE jméno!"
+
+msgid "A fellow wizard?"
+msgstr "Kolega kouzelník?"
+
+msgid "Slick choice, homeslice."
+msgstr "Úhledná volba, domácí řez."
+
+msgid "Now you're just being rude, darling."
+msgstr "Teď jsi jen hrubý, miláčku."
+
+msgid "OOOOH!!! ARE YOU PROMOTING MY BRAND?"
+msgstr "OOOOH!! PROPAGUJETE MOU ZNAČKU?"
+
+msgid "Is this name correct? ;)"
+msgstr "Je tento název správný? ;)"
+
+msgid "Hot, but not hot enough."
+msgstr "Horko, ale ne dost horko."
+
+msgid "You don't have to do that..."
+msgstr "To nemusíte dělat..."
+
+msgid "You KNEW!?"
+msgstr "VÍŠ!?"
+
+msgid "Respect my AUTHORITY!"
+msgstr "Respektujte mou AUTORITU!"
+
+msgid "Ahh! Thank you~"
+msgstr "Ahh! Děkuju~"
+
+msgid "Thanks for, uh, using my name."
+msgstr "Díky za, ehm, použití mého jména."
+
+msgid "You can?"
+msgstr "Můžeš?"
+
+msgid "You cannot."
+msgstr "Nemůžeš."
+
+msgid "... fine."
+msgstr "... dobře."
+
+msgid "..."
+msgstr ""

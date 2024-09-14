@@ -1,0 +1,419 @@
+#
+msgid ""
+msgstr ""
+
+msgid "en_US"
+msgstr "ja_JP"
+
+msgid ""
+msgstr ""
+
+msgid "You must choose a name."
+msgstr "なまえを　つけてください。"
+
+msgid "No?"
+msgstr "いいえ？"
+
+msgid "Hm...?"
+msgstr "えっ？"
+
+msgid "Maybe?"
+msgstr "たぶん？"
+
+msgid "Yes?"
+msgstr "はい？"
+
+msgid ""
+"Take heart.\n"
+"There is nothing to be afraid of here."
+msgstr ""
+"ゆうきを　だして。\n"
+"なにも　おそれることは　ないよ。"
+
+msgid "A light-hearted spirit will serve you well on your journey."
+msgstr ""
+"ようきな　せいしんは\n"
+"たびで　よくやくだつでしょう。"
+
+msgid ""
+"Take heart.\n"
+"Your frustrations are behind you now."
+msgstr ""
+"ゆうきを　だして。\n"
+"ざせつはもう　すぎさったよ。"
+
+msgid ""
+"Take heart.\n"
+"The story is yours, no matter what you feel."
+msgstr ""
+"ゆうきを　だして。\n"
+"なにを　かんじても\n"
+"ものがたりは　あなたのものですよ。"
+
+msgid "May tranquility come upon you as you embark on your journey."
+msgstr ""
+"たびが　じゅんちょうで\n"
+"ありますように。"
+
+msgid ""
+"Take heart.\n"
+"Your story is as interesting as you make it."
+msgstr ""
+"ゆうきを　だして。\n"
+"かきたければ　おもしろい\n"
+"じんせいを　かくことができるよ。"
+
+msgid "May your quality of speech translate to action on your journey."
+msgstr ""
+"ことばのしつが　たびのなかで\n"
+"こうどうに　かわりますように。"
+
+msgid "A courageous heart will serve you well on your journey."
+msgstr ""
+"ゆうきあるこころは\n"
+"たびで　よくやくだつでしょう。"
+
+msgid "A sense of serenity will do you wonders on your journey."
+msgstr ""
+"しずかなかんじは　たびに\n"
+"きせきを　おこすでしょう。"
+
+msgid "May your ingenuity surpass the challenges on your journey."
+msgstr ""
+"ちえが　たびのちょうせんに\n"
+"うちかちますように。"
+
+msgid "A confident mindset will take you far on your journey."
+msgstr ""
+"じしんをも　つきもちが\n"
+"さらに　ぜんしんさせるでしょう。"
+
+msgid "May your inginuity surpass the challanges on your journey."
+msgstr ""
+"ちえが　たびのちょうせんに\n"
+"うちかちますように。"
+
+msgid "May balance come upon you as you embark on your journey."
+msgstr ""
+"たびが　こうへいで\n"
+"ありますように。"
+
+msgid ""
+"Take heart.\n"
+"There is much to be learned on the road ahead."
+msgstr ""
+"ゆうきを　だして。\n"
+"これからのみちで\n"
+"まなぶべきことは　たくさんあります。"
+
+msgid "May the tapestry of chaos and order satisfy you on your journey."
+msgstr ""
+"こんらんと　ちつじょのきぬが\n"
+"たびを　じゅうじつさせますように。"
+
+msgid "May your story gain meaning in this cocoon amidst the darkness."
+msgstr ""
+"くらやみの　まゆのなかで\n"
+"ものがたりが　いみを　もちますように。"
+
+msgid "May the experience be as playful as you desire."
+msgstr ""
+"このけいけんが　のぞむように\n"
+"おもしろく　なりますように。"
+
+msgid "May the experience be as excessive as you desire."
+msgstr ""
+"このけいけんが　のぞむように\n"
+"じゅうじつしますように。"
+
+msgid ""
+"Take heart.\n"
+"You have nothing to feel ashamed of now."
+msgstr ""
+"ゆうきを　だして。\n"
+"なにも　はじることは　ないよ。"
+
+msgid "A temperate ego will take you far on your journey."
+msgstr ""
+"てきどなワガママが\n"
+"さらに　とおざけるでしょう。"
+
+msgid "May the experience provide the sustenance you require."
+msgstr ""
+"このけいけんが\n"
+"えいように　なりますように。"
+
+msgid "May your story bring forth the emotion you strive to feel."
+msgstr ""
+"ものがたりが　けんめいに\n"
+"かんじる　かんじょうを\n"
+"あたえますように。"
+
+msgid "May your choices be as effortless as they come."
+msgstr ""
+"せんたくが　らくに\n"
+"なりますように。"
+
+msgid ""
+"Take heart.\n"
+"There is much companionship to be had here."
+msgstr ""
+"ゆうきを　だして。\n"
+"たくさんの　ともたちが\n"
+"できますよ。"
+
+msgid "May your fortune carry you forward on your journey."
+msgstr ""
+"こううんが　たびを\n"
+"ぜんしんさせます　ように。"
+
+msgid "May the tapestry of chaos and order please you on your journey."
+msgstr ""
+"こんらんと　ちつじょのきぬが\n"
+"たびを　よろこばせますように。"
+
+msgid ""
+"Take heart.\n"
+"Your story is as uplifting as you make it."
+msgstr ""
+"ゆうきを　だして。\n"
+"かきたければ　わくわくする\n"
+"じんせいを　かくことができるよ。"
+
+msgid "May your stability provide a solid foundation on your journey."
+msgstr ""
+"りせいが　たびの　きょうこな\n"
+"きばんと　なりますように。"
+
+msgid "May the experience only add to your state of satisfaction."
+msgstr ""
+"このけいけんが　まんぞくかんを\n"
+"ますだけで　ありますように。"
+
+msgid "May the experience be as comforting as you desire."
+msgstr ""
+"このけいけんが　のぞむように\n"
+"なぐさめに　なりますように。"
+
+msgid "May the experience provide the energy you require."
+msgstr ""
+"このけいけんが　ひつような\n"
+"エネルギーに　なりますように。"
+
+msgid "May your overflowing energy power you through your journey."
+msgstr ""
+"あふれるエネルギーが\n"
+"たびのちからに　なりますように。"
+
+msgid "I am honored by your choice."
+msgstr "こうえいの　いたり。"
+
+msgid "Let the experiment begin."
+msgstr "じっけんを　はじめよう。"
+
+msgid "The true name."
+msgstr "ほんとうのなまえ。"
+
+msgid "This name is incorrect."
+msgstr "ちょっとちがう　なまえ。"
+
+msgid ""
+"............\n"
+"(They're powerless to stop you.)"
+msgstr ""
+"…………\n"
+"(とめるちからは　ない)"
+
+msgid ""
+"............\n"
+"(It's not much for conversation.)"
+msgstr ""
+"…………\n"
+"(かいわは　はずまなかった)"
+
+msgid "Hello."
+msgstr "こんにちは。"
+
+msgid "Saddle up!"
+msgstr "じゅんび　ばんたんだ！"
+
+msgid "Well... I suppose that works..."
+msgstr ""
+
+msgid "I think you should think of your own name, my child."
+msgstr ""
+"ちゃんと　なまえを\n"
+"かんがえるのよ。"
+
+msgid "Really..."
+msgstr ""
+
+msgid "Nice try, idiot."
+msgstr "あますぎるよ　バカ。"
+
+msgid "Don't you mean \"Eyewalker?\""
+msgstr ""
+"「アイウォーカー」の\n"
+"ことですか？"
+
+msgid "Check out my antenna!"
+msgstr ""
+
+msgid "Guh huh huh, nice one."
+msgstr ""
+
+msgid "Huh? What's that smell?"
+msgstr ""
+
+msgid "It's m-moving! I-I-It's shaking!"
+msgstr ""
+
+msgid "Jerry."
+msgstr "ジェリー。"
+
+msgid "(The dog jumped into your lap.)"
+msgstr ""
+
+msgid "(Pant pant)"
+msgstr "(へっ…　へっ…)"
+
+msgid "I'LL ALLOW IT!!!!"
+msgstr ""
+"オレさまは\n"
+"べつに\n"
+"いいよッ！"
+
+msgid "ok."
+msgstr "ほーい。"
+
+msgid "nope."
+msgstr "ダメだぜ。"
+
+msgid "A \"stellar\" choice."
+msgstr ""
+
+msgid "A pleasing nomenclature, no?"
+msgstr ""
+
+msgid "I am not amused."
+msgstr ""
+
+msgid "Roar."
+msgstr ""
+
+msgid "Wah ha ha! Why not?"
+msgstr ""
+"ワッハッハッ！\n"
+"そりゃあいい！"
+
+msgid "What. What! WHAT!"
+msgstr ""
+"あ？　なんだよ！\n"
+"ああんッ！！"
+
+msgid "That's my name!!"
+msgstr ""
+
+msgid ""
+"Ahuhuhu~\n"
+"You must have great taste, dearie~"
+msgstr ""
+
+msgid ""
+"Hey!\n"
+"Only Skrubby gets to call me that!"
+msgstr ""
+
+msgid "Sorry, but you're a letter shy."
+msgstr ""
+
+msgid "...?"
+msgstr "…？"
+
+msgid "Clean name."
+msgstr "せいけつな　なまえ。"
+
+msgid "hOI!"
+msgstr "ホィ！"
+
+msgid "Ngah, fine."
+msgstr ""
+
+msgid "Get your OWN name!"
+msgstr ""
+"ひとの　なまえを\n"
+"パクるな！"
+
+msgid "Uh.... OK?"
+msgstr ""
+"う…　うん\n"
+"いいよ…"
+
+msgid "D-don't do that."
+msgstr "ダ…　ダメだよっ！"
+
+msgid "You are really scraping the bottom of the barrel."
+msgstr ""
+"…なまえの\n"
+"ネタぎれ？"
+
+msgid "Like, OK I guess."
+msgstr "べつに　いいけどぉ～？"
+
+msgid "You like my name, little buddy?"
+msgstr ""
+
+msgid "Bratty! Bratty! That's MY name!"
+msgstr ""
+"アリゲッティ！　みて！\n"
+"アタシのなまえ\n"
+"だしぃ～！"
+
+msgid "A fellow wizard?"
+msgstr ""
+
+msgid "Slick choice, homeslice."
+msgstr ""
+
+msgid "Now you're just being rude, darling."
+msgstr ""
+
+msgid "OOOOH!!! ARE YOU PROMOTING MY BRAND?"
+msgstr ""
+"おお！！キミ！！\n"
+"せんでん　してくれるのかい？"
+
+msgid "Is this name correct? ;)"
+msgstr ""
+"このなまえで\n"
+"よろしいですか？(^_-)☆"
+
+msgid "Hot, but not hot enough."
+msgstr ""
+
+msgid "You don't have to do that..."
+msgstr ""
+
+msgid "You KNEW!?"
+msgstr "わかるんですか！？"
+
+msgid "Respect my AUTHORITY!"
+msgstr ""
+
+msgid "Ahh! Thank you~"
+msgstr ""
+
+msgid "Thanks for, uh, using my name."
+msgstr ""
+
+msgid "You can?"
+msgstr "そのなまえは　けっこう？"
+
+msgid "You cannot."
+msgstr "そのなまえは　ダメだ。"
+
+msgid "... fine."
+msgstr ""
+
+msgid "..."
+msgstr "…"

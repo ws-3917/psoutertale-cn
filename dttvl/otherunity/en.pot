@@ -1,0 +1,762 @@
+#
+msgid ""
+msgstr ""
+
+msgid ""
+"T\n"
+"P"
+msgstr ""
+
+msgid "* MnstrCndy"
+msgstr ""
+
+msgid "    X-Pick On"
+msgstr ""
+
+msgid "* Cope, Seeth, Mald"
+msgstr ""
+
+msgid ""
+"@SARAH\n"
+"REWRITE THE FUCKING BATTLE\n"
+"SYSTEM IT SUCKS DICK\n"
+msgstr ""
+
+msgid ""
+"hue\n"
+"\"hue\"\n"
+"<color=#FFFFFF80>Animation by\n"
+"dramgon_</color>"
+msgstr ""
+
+msgid "- Sprite Artists -"
+msgstr ""
+
+msgid ""
+"Tulip\n"
+"\"TheFamiliarScoot\""
+msgstr ""
+
+msgid ""
+"Sarah Mullins\n"
+"TheFamiliarScoot\n"
+"I'm an issue\n"
+"marxvee\n"
+"Diane Sparks\n"
+"Sonnakai\n"
+"sophiedeergirl"
+msgstr ""
+
+msgid "\"IN RUINS\""
+msgstr ""
+
+msgid ""
+"Shaunt\n"
+"\"SeanTG246\""
+msgstr ""
+
+msgid "\"OH, MOTHER\""
+msgstr ""
+
+msgid ""
+"Writing this assuming everyone will think that Section 3 is lame because it's based on my interpretation of Underfell.  I hope you liked it in spite of that, though!!!\n"
+"\n"
+"Here's to more to come.\n"
+"\n"
+"- Sarah"
+msgstr ""
+
+msgid ""
+"Chloe\n"
+"\"LumaHoneyy\""
+msgstr ""
+
+msgid "- Programmers -"
+msgstr ""
+
+msgid "- Writers -"
+msgstr ""
+
+msgid ""
+"based on\n"
+"Earthbound / MOTHER 2 by Shigesato Itoi"
+msgstr ""
+
+msgid ""
+"Autumn\n"
+"\"Diddy\""
+msgstr ""
+
+msgid "jevilhumor\n"
+msgstr ""
+
+msgid ""
+"lvk\n"
+"\n"
+"\n"
+"Blaster\n"
+"\n"
+"\n"
+"\n"
+"Toby Fox, Temmie Chang, UNDERTALE and DELTARUNE teams\n"
+"\n"
+"Shayy\n"
+"\n"
+"\n"
+"BornLosersGaming\n"
+"\n"
+"\n"
+"HUECYCLES\n"
+"\n"
+"Dorked\n"
+"\n"
+"\n"
+"Subna\n"
+"\n"
+"\n"
+"\n"
+"SuperKirbyLover\n"
+"\n"
+"feelinfungal\n"
+"\n"
+"\n"
+"Kasssm\n"
+"EllisBros\n"
+"Nickolas\n"
+"\n"
+"GonerBoy\n"
+"StarGazer88\n"
+"\n"
+"\n"
+"goldenanomaly\n"
+"\n"
+"Chara Violet\n"
+"\n"
+"Team Undertale Yellow"
+msgstr ""
+
+msgid "- Playtesters -"
+msgstr ""
+
+msgid "v3\n"
+msgstr ""
+
+msgid "- Section Credits -"
+msgstr ""
+
+msgid "- Music -"
+msgstr ""
+
+msgid ""
+"based on\n"
+"UNDERTALE by Toby Fox"
+msgstr ""
+
+msgid ""
+"RENREN\n"
+"LexiTheTT\n"
+"LazyGales\n"
+"Frakture\n"
+"TygressLongheart\n"
+"gabbo\n"
+"lex3x\n"
+"Autumn / Diddy\n"
+"TheTuneHero\n"
+"HUECYCLES\n"
+"Eribetra\n"
+"Sawsk"
+msgstr ""
+
+msgid ""
+"TheFamiliarScoot\\r\n"
+"Beethovenus\\r\n"
+"YippieTB\n"
+"Just a BLU Toon\\r\n"
+"RoseTitania\\r\n"
+"cubicSimulation\n"
+"LumaHoneyy\n"
+"malloryFireflies\\r\n"
+"parfae\\r\n"
+"tubba\n"
+"jevilhumor\\r\n"
+"Shaunt / SeanTG246\\r\n"
+"asukaaa\n"
+"Octo\n"
+"SweetheartStan\n"
+"Valor52\n"
+"Autumn / Diddy"
+msgstr ""
+
+msgid ""
+"Sarah\n"
+"\"vyletbunni\""
+msgstr ""
+
+msgid ""
+"Sarah Mullins\n"
+"Beethovenus\n"
+"cubicSimulation\n"
+"LumaHoneyy"
+msgstr ""
+
+msgid ""
+"Sarah Mullins\n"
+"cippbi\n"
+"cubicSimulation\n"
+"LumaHoneyy\n"
+"jevilhumor\n"
+"Shaunt\\r / SeanTG246\n"
+"TheTuneHero\\r\n"
+"HUECYCLES\\r\n"
+"A Sick-Ass Werewolf\n"
+"PixelToons Jaafar\n"
+"Autumn / Diddy\n"
+"The Winterer\n"
+"Valor52"
+msgstr ""
+
+msgid "- Special Thanks -"
+msgstr ""
+
+msgid ""
+"Mari\n"
+"\"SweetheartStan\""
+msgstr ""
+
+msgid ""
+"UNITALE Monster Dust Code\n"
+"\n"
+"Earthbound Distortional Background Shader\n"
+"\n"
+"Literally everything\n"
+"\n"
+"\n"
+"\n"
+"Cool Streamer and friend\n"
+"\n"
+"Cool YouTube Channel\n"
+"Voice of Kris\n"
+"\n"
+"Dess Interpretation\n"
+"\n"
+"Inverted Fate Papyrus Appearance\n"
+"\n"
+"Goku\n"
+"<color=#FFFFFF80>(UNDERTALE: Legend of the Dragon Balls)</color>\n"
+"\n"
+"Old Diddy Sprites\n"
+"\n"
+"Mario Bros. Title Background\n"
+"\n"
+"UNDERTALE:\n"
+"Papyrus's BELIEF\n"
+"<color=#FFFFFF80>(Music in UNO)</color>\n"
+"\n"
+"Noel Design Inspiration\n"
+"<color=#FFFFFF80>(DELTA_EXPERIMENT)</color>\n"
+"\n"
+"Kris Ice Slide Poses\n"
+"\n"
+"Sister Kid Design\n"
+"\n"
+"Frostermit\n"
+"Clover Run Animation\n"
+"Music in UNO!!!"
+msgstr ""
+
+msgid "Gaster Blasted Ending\n"
+msgstr ""
+
+msgid ""
+"based on\n"
+"GG!UNDERFELL by VyletBunni"
+msgstr ""
+
+msgid "marxvee\n"
+msgstr ""
+
+msgid "lex3x\n"
+msgstr ""
+
+msgid "\"HELL'S FOREST\""
+msgstr ""
+
+msgid ""
+"Sophie\n"
+"\"sophiedeergirl\""
+msgstr ""
+
+msgid "[press z or enter to restart the game]"
+msgstr ""
+
+msgid ""
+"A crash log has been saved\n"
+"to the game's \"logs\" folder."
+msgstr ""
+
+msgid ""
+"\n"
+"       \n"
+"       Whoops, an unknown error occurred...\n"
+"    Please report this to the developers!"
+msgstr ""
+
+msgid "- EXCEPTION HANDLER -"
+msgstr ""
+
+msgid "* This is a bruh moment."
+msgstr ""
+
+msgid "Eribetra\n"
+msgstr ""
+
+msgid "HUECYCLES\n"
+msgstr ""
+
+msgid ""
+"Hope you enjoyed this dumb, silly mode!\n"
+"\n"
+"\n"
+":3"
+msgstr ""
+
+msgid "TheTuneHero\n"
+msgstr ""
+
+msgid "Beethovenus\n"
+msgstr ""
+
+msgid ""
+"Chloe\n"
+"\"LumaHoneyy\"\n"
+msgstr ""
+
+msgid "Understood\n"
+msgstr ""
+
+msgid ""
+"-- CONTENT WARNING --\\r\n"
+"One specific path of this game\n"
+"contains graphic\\r content depicting\n"
+"pixelized blood.\n"
+"<color=#888888FF>(Can be set with \"Content Setting\" in Options)</color>\n"
+"This path also prompts the player\n"
+"to kill animal characters.\n"
+"\\r\n"
+"<color=#FF0000FF>You will know if\n"
+"you're on said path.</color>"
+msgstr ""
+
+msgid ""
+"--- WARNING ---\n"
+"Your system appears to not support certain graphical aspects.\\r\n"
+"\\rTo remedy this issue, Low Graphics\n"
+"has been set to ON.\\r\n"
+"\\r\n"
+"If you wish to disable this setting, you may\n"
+"in the Options menu. Do be warned that this may\n"
+"cause crashes or freezing if set to\n"
+"OFF on your system."
+msgstr ""
+
+msgid ""
+"This game is unaffiliated\n"
+"with Toby Fox."
+msgstr ""
+
+msgid "[press z or enter to continue]"
+msgstr ""
+
+msgid ""
+"* To the whole left of me\n"
+"  is a HUGE loading zone."
+msgstr ""
+
+msgid "* It doesn't load a new scene."
+msgstr ""
+
+msgid "* It just reloads this scene."
+msgstr ""
+
+msgid "* (You're carrying too much.)"
+msgstr ""
+
+msgid "* x"
+msgstr ""
+
+msgid "* [NO_TEXT]"
+msgstr ""
+
+msgid "* Huh?"
+msgstr ""
+
+msgid "* You're here...?"
+msgstr ""
+
+msgid "* Talking to^20 ME????"
+msgstr ""
+
+msgid "* ..."
+msgstr ""
+
+msgid "* I love you so much."
+msgstr ""
+
+msgid ""
+"* (You felt that you shouldn't\n"
+"  advance.)"
+msgstr ""
+
+msgid ""
+"* Well,^10 hello there,\n"
+"  Kris!"
+msgstr ""
+
+msgid ""
+"* I do believe that a\n"
+"  strange human named <color=#FFFF00FF>Sarah</color>\n"
+"  removed <color=#FFFF00FF>Player Pronouns</color>."
+msgstr ""
+
+msgid ""
+"* Apparently they were not\n"
+"  needed for this."
+msgstr ""
+
+msgid "* What's good my dude?"
+msgstr ""
+
+msgid ""
+"* Want a free test item?\n"
+"\n"
+"         Yes         No"
+msgstr ""
+
+msgid "* (You got the Test Food.)"
+msgstr ""
+
+msgid "* Sad."
+msgstr ""
+
+msgid ""
+"* HEY YOU LITTLE [FunGuy]\n"
+"!"
+msgstr ""
+
+msgid ""
+"* [Did I just catch you\n"
+"  having fun?!]"
+msgstr ""
+
+msgid ""
+"* WELL TWO IN THREE [Teens]\n"
+"  THINK [ChildEndangerment]\n"
+"  SHOULDN\"T HAVE [\"Fun\"]"
+msgstr ""
+
+msgid ""
+"* SO THAT [\"Fun\"] IS\n"
+"  OFFICIALLY\n"
+"  [Eviction Notice]"
+msgstr ""
+
+msgid "* [LORE_NOT_FOUND]"
+msgstr ""
+
+msgid "* you wanna have a bad time?"
+msgstr ""
+
+msgid "* What the hell is your issue?"
+msgstr ""
+
+msgid ""
+"* Hey!^10\n"
+"* No swearing!"
+msgstr ""
+
+msgid ""
+"* You should listen to your\n"
+"  mother."
+msgstr ""
+
+msgid ""
+"* YES!! LISTEN TO THE\n"
+"  KING!!!"
+msgstr ""
+
+msgid ""
+"* Wait...^10\n"
+"* Is that older me?"
+msgstr ""
+
+msgid ""
+"* ...^20\n"
+"* Where am I?"
+msgstr ""
+
+msgid "* I don't know!"
+msgstr ""
+
+msgid "* <color=#ff0000ff>It's time.</color>"
+msgstr ""
+
+msgid ""
+"* NO IT ISN'T, LUCIFER.^05\n"
+"* IT IS NOT THE PERFECT\n"
+"  TIME TO PLAY."
+msgstr ""
+
+msgid ""
+"* Yeah, you're right.^10\n"
+"* My bad."
+msgstr ""
+
+msgid ""
+"* And here we end off this\n"
+"  weird NPC dialogue with\n"
+"  <color=#ffff00ff>BATTLE TEXT</color>."
+msgstr ""
+
+msgid ""
+"* A^02h^02h^02.^02.^02.^10\n"
+"* Battle text...^05\n"
+"* A very crinkly sound."
+msgstr ""
+
+msgid ""
+"* If you touch that really\n"
+"  big red rabbit^05, you'll die."
+msgstr ""
+
+msgid ""
+"* But it'll be a MAGICAL death.^10\n"
+"* A reverse cymbal..."
+msgstr ""
+
+msgid "* Do not speak to me."
+msgstr ""
+
+msgid "* For I am..."
+msgstr ""
+
+msgid "* <color=#ff0000ff>DARK TORIEL</color>."
+msgstr ""
+
+msgid "* Why am I down here?"
+msgstr ""
+
+msgid "* Is this just..."
+msgstr ""
+
+msgid "* A <color=#ffff00ff>TEST</color>???"
+msgstr ""
+
+msgid ""
+"* pee games\n"
+"\n"
+"* pee games"
+msgstr ""
+
+msgid "Kris\n"
+msgstr ""
+
+msgid "<                                                 >"
+msgstr ""
+
+msgid ""
+"$ - 1G\n"
+"SPACE - 1/8"
+msgstr ""
+
+msgid ""
+"* (The rabbits here all seem\n"
+"  to have come from the wrong\n"
+"  time.)"
+msgstr ""
+
+msgid ""
+"* (You're filled with the power\n"
+"  of development history.)"
+msgstr ""
+
+msgid "* Hello there,^05 young travellers!"
+msgstr ""
+
+msgid ""
+"* I am not your enemy,^05 but an\n"
+"  average mole."
+msgstr ""
+
+msgid ""
+"* I would like to add a bit\n"
+"  of flavor to your experience."
+msgstr ""
+
+msgid ""
+"* Or would a bit of advice be\n"
+"  more useful to you...?"
+msgstr ""
+
+msgid "* I'm willing to help either way!"
+msgstr ""
+
+msgid ""
+"* Press ^Z to interact\n"
+"  with deez"
+msgstr ""
+
+msgid "su_inquisitive"
+msgstr ""
+
+msgid "sans_neutral"
+msgstr ""
+
+msgid "tl`no_neutral`Funny 3: The Threequel"
+msgstr ""
+
+msgid "no_neutral"
+msgstr ""
+
+msgid ""
+"* (There is an ancient text\n"
+"  written here.)"
+msgstr ""
+
+msgid "* SORRY NOTHING"
+msgstr ""
+
+msgid "* Smooth Brain"
+msgstr ""
+
+msgid "* Square Brian"
+msgstr ""
+
+msgid ""
+"* Let me in, god damn\n"
+"  it."
+msgstr ""
+
+msgid ""
+"* You wanna GO???\n"
+"\n"
+"         Hell yea    NO!!!!!"
+msgstr ""
+
+msgid "* What a shame."
+msgstr ""
+
+msgid "* I can't feel my feelings!"
+msgstr ""
+
+msgid "* Whew!"
+msgstr ""
+
+msgid "* Use the box?"
+msgstr ""
+
+msgid ""
+"* (You're filled with\n"
+"  determination.)"
+msgstr ""
+
+msgid "* puter"
+msgstr ""
+
+msgid ""
+"* (You decided to wash your\n"
+"  hands before dying.)"
+msgstr ""
+
+msgid "* There is no door."
+msgstr ""
+
+msgid "* It isn't working."
+msgstr ""
+
+msgid ""
+"* (It's hard to say what exactly\n"
+"  this is, but it disturbs you.)"
+msgstr ""
+
+msgid ""
+"* (You were easily able to\n"
+"  take the elevator to the\n"
+"  end of this strange place.)"
+msgstr ""
+
+msgid ""
+"[Z or ENTER] - Confirm\n"
+"[X or SHIFT] - Cancel\n"
+"[C or CTRL] - Menu (In-game)\n"
+"[F4] - Fullscreen\n"
+"[Hold ESC] - Quit\n"
+"When HP is 0, you lose."
+msgstr ""
+
+msgid ""
+"Kris and Susie go places that\n"
+"they shouldn't be at"
+msgstr ""
+
+msgid ""
+"If you see this\n"
+"you shouldn't be"
+msgstr ""
+
+msgid "Button Style\n"
+msgstr ""
+
+msgid ""
+"deltatraveler vVER\n"
+"vyletbunni 2021-2024"
+msgstr ""
+
+msgid "[press z or enter]"
+msgstr ""
+
+msgid "Low Graphics\n"
+msgstr ""
+
+msgid "[press x to go back]"
+msgstr ""
+
+msgid "Easy Mode\n"
+msgstr ""
+
+msgid "OFF\n"
+msgstr ""
+
+msgid "Back\n"
+msgstr ""
+
+msgid "XBOX\n"
+msgstr ""
+
+msgid "Controls...\n"
+msgstr ""
+
+msgid "Gamepad\n"
+msgstr ""
+
+msgid "Auto-Run\n"
+msgstr ""
+
+msgid "Copy\n"
+msgstr ""
+
+msgid "10\n"
+msgstr ""
+
+msgid ""
+"Gamepad Controls\n"
+"\n"
+msgstr ""
+
+msgid "Keyboard Controls\n"
+msgstr ""
+
+msgid "<   PAGE 1   >"
+msgstr ""
+
+msgid "[EMPTY]"
+msgstr ""

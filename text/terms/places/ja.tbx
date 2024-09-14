@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE martif PUBLIC "ISO 12200:1999A//DTD MARTIF core (DXFcdV04)//EN" "TBXcdv04.dtd">
+<martif type="TBX" xml:lang="en">
+    <martifHeader>
+        <fileDesc>
+            <sourceDesc>
+                <p>Translate Toolkit</p>
+            </sourceDesc>
+        </fileDesc>
+    </martifHeader>
+    <text>
+        <body>
+            <termEntry id="Homeland">
+                <langSet xml:lang="en"><tig><term>Krios</term></tig></langSet>
+                <langSet xml:lang="ja"><tig><term>クリオス</term></tig></langSet>
+            </termEntry>
+            <termEntry id="New World Star System">
+                <langSet xml:lang="en"><tig><term>Kasterborous</term></tig></langSet>
+                <langSet xml:lang="ja"><tig><term>カスタボロス</term></tig></langSet>
+            </termEntry>
+            <termEntry id="New World Planet">
+                <langSet xml:lang="en"><tig><term>Eurybia</term></tig></langSet>
+                <langSet xml:lang="ja"><tig><term>エウリュビア</term></tig></langSet>
+            </termEntry>
+            <termEntry id="Outlands savepoint">
+                <langSet xml:lang="en"><tig><term>Crash Site</term></tig></langSet>
+                <langSet xml:lang="ja"><tig><term>らっかてん</term></tig></langSet>
+            </termEntry>
+            <termEntry id="Outlands savepoint">
+                <langSet xml:lang="en"><tig><term>Entrance</term></tig></langSet>
+                <langSet xml:lang="ja"><tig><term>アウトランドのいりぐち</term></tig></langSet>
+            </termEntry>
+            <termEntry id="Outlands savepoint">
+                <langSet xml:lang="en"><tig><term>Rest Area</term></tig></langSet>
+                <langSet xml:lang="ja"><tig><term>きゅうけいじょ</term></tig></langSet>
+            </termEntry>
+            <termEntry id="Outlands savepoint">
+                <langSet xml:lang="en"><tig><term>Stærmite Hole</term></tig></langSet>
+                <langSet xml:lang="ja"><tig><term>ポシダニのあな</term></tig></langSet>
+            </termEntry>
+            <termEntry id="Outlands savepoint">
+                <langSet xml:lang="en"><tig><term>Courtyard</term></tig></langSet>
+                <langSet xml:lang="ja"><tig><term>なかにわ</term></tig></langSet>
+            </termEntry>
+            <termEntry id="Starton savepoint">
+                <langSet xml:lang="en"><tig><term>Landing Zone</term></tig></langSet>
+                <langSet xml:lang="ja"><tig><term>はっちゃくじょう</term></tig></langSet>
+            </termEntry>
+            <termEntry id="Starton savepoint">
+                <langSet xml:lang="en"><tig><term>Spaghetti Junction</term></tig></langSet>
+                <langSet xml:lang="ja"><tig><term>スパゲティJCT</term></tig></langSet>
+            </termEntry>
+            <termEntry id="Starton savepoint">
+                <langSet xml:lang="en"><tig><term>Moon Rock Road</term></tig></langSet>
+                <langSet xml:lang="ja"><tig><term>つきいわのみち</term></tig></langSet>
+            </termEntry>
+            <termEntry id="Starton savepoint">
+                <langSet xml:lang="en"><tig><term>Town</term></tig></langSet>
+                <langSet xml:lang="ja"><tig><term>スタートンのまち</term></tig></langSet>
+            </termEntry>
+            <termEntry id="Foundry savepoint">
+                <langSet xml:lang="en"><tig><term>Checkpoint</term></tig></langSet>
+                <langSet xml:lang="ja"><tig><term>チェックポイント</term></tig></langSet>
+            </termEntry>
+            <termEntry id="Foundry savepoint">
+                <langSet xml:lang="en"><tig><term>Crossing</term></tig></langSet>
+                <langSet xml:lang="ja"><tig><term>まがりかど</term></tig></langSet>
+            </termEntry>
+            <termEntry id="Foundry savepoint">
+                <langSet xml:lang="en"><tig><term>Dark Zone</term></tig></langSet>
+                <langSet xml:lang="ja"><tig><term>ダークゾーン</term></tig></langSet>
+            </termEntry>
+            <termEntry id="Foundry savepoint">
+                <langSet xml:lang="en"><tig><term>Abyss</term></tig></langSet>
+                <langSet xml:lang="ja"><tig><term>さいかそう</term></tig></langSet>
+            </termEntry>
+            <termEntry id="Foundry savepoint">
+                <langSet xml:lang="en"><tig><term>Vending Machine</term></tig></langSet>
+                <langSet xml:lang="ja"><tig><term>じはんきのへや</term></tig></langSet>
+            </termEntry>
+            <termEntry id="Foundry savepoint">
+                <langSet xml:lang="en"><tig><term>Trash Zone</term></tig></langSet>
+                <langSet xml:lang="ja"><tig><term>ゴミエリア</term></tig></langSet>
+            </termEntry>
+            <termEntry id="Aerialis savepoint">
+                <langSet xml:lang="en"><tig><term>Lab</term></tig></langSet>
+                <langSet xml:lang="ja"><tig><term>ラボ</term></tig></langSet>
+            </termEntry>
+            <termEntry id="Main area">
+                <langSet xml:lang="en"><tig><term>Archive Six</term></tig></langSet>
+                <langSet xml:lang="ja"><tig><term>アーカイブシックス</term></tig></langSet>
+            </termEntry>
+            <termEntry id="Foundry Savepoint">
+                <langSet xml:lang="en"><tig><term>Quiet Area</term></tig></langSet>
+                <langSet xml:lang="ja"><tig><term>せいじゃくのエリア</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>Rec Center</term></tig></langSet>
+                <langSet xml:lang="ja"><tig><term>かいてんろうか</term></tig></langSet>
+            </termEntry>
+            <termEntry id="Main area">
+                <langSet xml:lang="en"><tig><term>Aerialis</term></tig></langSet>
+                <langSet xml:lang="ja"><tig><term>エアリアル</term></tig></langSet>
+            </termEntry>
+            <termEntry id="Main area">
+                <langSet xml:lang="en"><tig><term>Citadel</term></tig></langSet>
+                <langSet xml:lang="ja"><tig><term>シタデル</term></tig></langSet>
+            </termEntry>
+            <termEntry id="Main area">
+                <langSet xml:lang="en"><tig><term>CORE</term></tig></langSet>
+                <langSet xml:lang="ja"><tig><term>コア</term></tig></langSet>
+            </termEntry>
+            <termEntry id="Main area">
+                <langSet xml:lang="en"><tig><term>Foundry</term></tig></langSet>
+                <langSet xml:lang="ja"><tig><term>ファウンドリー</term></tig></langSet>
+            </termEntry>
+            <termEntry id="Main area">
+                <langSet xml:lang="en"><tig><term>Outlands</term></tig></langSet>
+                <langSet xml:lang="ja"><tig><term>アウトランド</term></tig></langSet>
+            </termEntry>
+            <termEntry id="Main area">
+                <langSet xml:lang="en"><tig><term>Starton</term></tig></langSet>
+                <langSet xml:lang="ja"><tig><term>スタートン</term></tig></langSet>
+            </termEntry>
+            <termEntry id="The shelter for Monsters">
+                <langSet xml:lang="en"><tig><term>the outpost</term></tig></langSet>
+                <langSet xml:lang="ja"><tig><term>ぜんしょうきち</term></tig></langSet>
+            </termEntry>
+        </body>
+    </text>
+</martif>

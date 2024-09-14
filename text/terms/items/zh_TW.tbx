@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE martif PUBLIC "ISO 12200:1999A//DTD MARTIF core (DXFcdV04)//EN" "TBXcdv04.dtd">
+<martif type="TBX" xml:lang="en">
+    <martifHeader>
+        <fileDesc>
+            <sourceDesc>
+                <p>Translate Toolkit</p>
+            </sourceDesc>
+        </fileDesc>
+    </martifHeader>
+    <text>
+        <body>
+            <termEntry id="consumable">
+                <langSet xml:lang="en"><tig><term>Monster Candy</term></tig></langSet>
+                <langSet xml:lang="zh_TW"><tig><term>怪物糖果</term></tig></langSet>
+            </termEntry>
+            <termEntry id="weapon">
+                <langSet xml:lang="en"><tig><term>Rusty Spanner</term></tig></langSet>
+                <langSet xml:lang="zh_TW"><tig><term>生鏽的扳手</term></tig></langSet>
+            </termEntry>
+            <termEntry id="special">
+                <langSet xml:lang="en"><tig><term>Super Starwalker 1</term></tig></langSet>
+                <langSet xml:lang="zh_TW"><tig><term>超級星之行者1</term></tig></langSet>
+            </termEntry>
+            <termEntry id="special(in sentence)">
+                <langSet xml:lang="en"><tig><term>Super Starwalker 1</term></tig></langSet>
+                <langSet xml:lang="zh_TW"><tig><term>《超級星之行者1》</term></tig></langSet>
+            </termEntry>
+            <termEntry id="special(in sentence)">
+                <langSet xml:lang="en"><tig><term>Super Starwalker 2</term></tig></langSet>
+                <langSet xml:lang="zh_TW"><tig><term>《超級星之行者2》</term></tig></langSet>
+            </termEntry>
+            <termEntry id="special(in sentence)">
+                <langSet xml:lang="en"><tig><term>Super Starwalker 3</term></tig></langSet>
+                <langSet xml:lang="zh_TW"><tig><term>《超級星之行者3》</term></tig></langSet>
+            </termEntry>
+            <termEntry id="special">
+                <langSet xml:lang="en"><tig><term>Super Starwalker 3</term></tig></langSet>
+                <langSet xml:lang="zh_TW"><tig><term>超級星之行者3</term></tig></langSet>
+            </termEntry>
+            <termEntry id="special">
+                <langSet xml:lang="en"><tig><term>Super Starwalker 2</term></tig></langSet>
+                <langSet xml:lang="zh_TW"><tig><term>超級星之行者2</term></tig></langSet>
+            </termEntry>
+            <termEntry id="key">
+                <langSet xml:lang="en"><tig><term>The Epiphany</term></tig></langSet>
+                <langSet xml:lang="zh_TW"><tig><term>頓悟</term></tig></langSet>
+            </termEntry>
+            <termEntry id="key">
+                <langSet xml:lang="en"><tig><term>Legendary Artifact</term></tig></langSet>
+                <langSet xml:lang="zh_TW"><tig><term>神器</term></tig></langSet>
+            </termEntry>
+            <termEntry id="weapon(short-name)">
+                <langSet xml:lang="en"><tig><term>Spanner</term></tig></langSet>
+                <langSet xml:lang="zh_TW"><tig><term>舊扳手</term></tig></langSet>
+            </termEntry>
+            <termEntry id="weapon">
+                <langSet xml:lang="en"><tig><term>Little Dipper</term></tig></langSet>
+                <langSet xml:lang="zh_TW"><tig><term>小熊座</term></tig></langSet>
+            </termEntry>
+            <termEntry id="weapon">
+                <langSet xml:lang="en"><tig><term>Power Glove</term></tig></langSet>
+                <langSet xml:lang="zh_TW"><tig><term>超能手套</term></tig></langSet>
+            </termEntry>
+            <termEntry id="weapon(short-name)">
+                <langSet xml:lang="en"><tig><term>Dipper</term></tig></langSet>
+                <langSet xml:lang="zh_TW"><tig><term>小熊座</term></tig></langSet>
+            </termEntry>
+            <termEntry id="weapon">
+                <langSet xml:lang="en"><tig><term>Power Glove?</term></tig></langSet>
+                <langSet xml:lang="zh_TW"><tig><term>超能手套？</term></tig></langSet>
+            </termEntry>
+            <termEntry id="weapon(short-name)">
+                <langSet xml:lang="en"><tig><term>Glove?</term></tig></langSet>
+                <langSet xml:lang="zh_TW"><tig><term>超能手套？</term></tig></langSet>
+            </termEntry>
+            <termEntry id="weapon(short-name)">
+                <langSet xml:lang="en"><tig><term>Boots</term></tig></langSet>
+                <langSet xml:lang="zh_TW"><tig><term>懸浮靴</term></tig></langSet>
+            </termEntry>
+            <termEntry id="weapon(short-name)">
+                <langSet xml:lang="en"><tig><term>Goggles</term></tig></langSet>
+                <langSet xml:lang="zh_TW"><tig><term>AR護目鏡</term></tig></langSet>
+            </termEntry>
+            <termEntry id="weapon(short-name)">
+                <langSet xml:lang="en"><tig><term>Goggles?</term></tig></langSet>
+                <langSet xml:lang="zh_TW"><tig><term>AR護目鏡？</term></tig></langSet>
+            </termEntry>
+            <termEntry id="weapon">
+                <langSet xml:lang="en"><tig><term>Hoverboots</term></tig></langSet>
+                <langSet xml:lang="zh_TW"><tig><term>懸浮靴</term></tig></langSet>
+            </termEntry>
+            <termEntry id="armor(short-name)">
+                <langSet xml:lang="en"><tig><term>Spacesuit</term></tig></langSet>
+                <langSet xml:lang="zh_TW"><tig><term>太空衣</term></tig></langSet>
+            </termEntry>
+            <termEntry id="armor(short-name)">
+                <langSet xml:lang="en"><tig><term>Emitter</term></tig></langSet>
+                <langSet xml:lang="zh_TW"><tig><term>力場護盾</term></tig></langSet>
+            </termEntry>
+            <termEntry id="armor(short-name)">
+                <langSet xml:lang="en"><tig><term>Emitter?</term></tig></langSet>
+                <langSet xml:lang="zh_TW"><tig><term>力場護盾？</term></tig></langSet>
+            </termEntry>
+            <termEntry id="armor">
+                <langSet xml:lang="en"><tig><term>Halo</term></tig></langSet>
+                <langSet xml:lang="zh_TW"><tig><term>光環</term></tig></langSet>
+            </termEntry>
+            <termEntry id="armor">
+                <langSet xml:lang="en"><tig><term>Field Emitter</term></tig></langSet>
+                <langSet xml:lang="zh_TW"><tig><term>力場護盾</term></tig></langSet>
+            </termEntry>
+            <termEntry id="consumable">
+                <langSet xml:lang="en"><tig><term>Sizzli Steak</term></tig></langSet>
+                <langSet xml:lang="zh_TW"><tig><term>滋滋牛排</term></tig></langSet>
+            </termEntry>
+            <termEntry id="armor">
+                <langSet xml:lang="en"><tig><term>Field Emitter?</term></tig></langSet>
+                <langSet xml:lang="zh_TW"><tig><term>力場護盾？</term></tig></langSet>
+            </termEntry>
+            <termEntry id="armor">
+                <langSet xml:lang="en"><tig><term>Flight Suit</term></tig></langSet>
+                <langSet xml:lang="zh_TW"><tig><term>飛行服</term></tig></langSet>
+            </termEntry>
+            <termEntry id="key">
+                <langSet xml:lang="en"><tig><term>Sanctuary</term></tig></langSet>
+                <langSet xml:lang="zh_TW"><tig><term>聖所</term></tig></langSet>
+            </termEntry>
+            <termEntry id="consumable">
+                <langSet xml:lang="en"><tig><term>Water</term></tig></langSet>
+                <langSet xml:lang="zh_TW"><tig><term>水</term></tig></langSet>
+            </termEntry>
+            <termEntry id="consumable">
+                <langSet xml:lang="en"><tig><term>Licorice</term></tig></langSet>
+                <langSet xml:lang="zh_TW"><tig><term>甘草糖</term></tig></langSet>
+            </termEntry>
+            <termEntry id="consumable">
+                <langSet xml:lang="en"><tig><term>Δ-9</term></tig></langSet>
+                <langSet xml:lang="zh_TW"><tig><term>大麻素</term></tig></langSet>
+            </termEntry>
+            <termEntry id="consumable">
+                <langSet xml:lang="en"><tig><term>Radiant Swirl</term></tig></langSet>
+                <langSet xml:lang="zh_TW"><tig><term>光彩旋渦</term></tig></langSet>
+            </termEntry>
+            <termEntry id="consumable">
+                <langSet xml:lang="en"><tig><term>Fizzli Soda</term></tig></langSet>
+                <langSet xml:lang="zh_TW"><tig><term>呲呲汽水</term></tig></langSet>
+            </termEntry>
+            <termEntry id="consumable">
+                <langSet xml:lang="en"><tig><term>Fried Snails</term></tig></langSet>
+                <langSet xml:lang="zh_TW"><tig><term>焗蝸牛</term></tig></langSet>
+            </termEntry>
+            <termEntry id="consumable(in-sentence)">
+                <langSet xml:lang="en"><tig><term>Burnt Pie</term></tig></langSet>
+                <langSet xml:lang="zh_TW"><tig><term>烤糊的派</term></tig></langSet>
+            </termEntry>
+            <termEntry id="consumable">
+                <langSet xml:lang="en"><tig><term>Butterscotch Pie</term></tig></langSet>
+                <langSet xml:lang="zh_TW"><tig><term>奶油糖肉桂派</term></tig></langSet>
+            </termEntry>
+            <termEntry id="consumable">
+                <langSet xml:lang="en"><tig><term>Snail Pie</term></tig></langSet>
+                <langSet xml:lang="zh_TW"><tig><term>蝸牛派</term></tig></langSet>
+            </termEntry>
+            <termEntry id="consumable">
+                <langSet xml:lang="en"><tig><term>Burnt Pie</term></tig></langSet>
+                <langSet xml:lang="zh_TW"><tig><term>糊派</term></tig></langSet>
+            </termEntry>
+            <termEntry id="consumable">
+                <langSet xml:lang="en"><tig><term>Exoberries</term></tig></langSet>
+                <langSet xml:lang="zh_TW"><tig><term>洋梅</term></tig></langSet>
+            </termEntry>
+            <termEntry id="consumable">
+                <langSet xml:lang="en"><tig><term>Pie Soup</term></tig></langSet>
+                <langSet xml:lang="zh_TW"><tig><term>派粥</term></tig></langSet>
+            </termEntry>
+            <termEntry id="consumable">
+                <langSet xml:lang="en"><tig><term>Chocolate Bar</term></tig></langSet>
+                <langSet xml:lang="zh_TW"><tig><term>巧克力</term></tig></langSet>
+            </termEntry>
+            <termEntry id="consumable">
+                <langSet xml:lang="en"><tig><term>Rations</term></tig></langSet>
+                <langSet xml:lang="zh_TW"><tig><term>口糧</term></tig></langSet>
+            </termEntry>
+            <termEntry id="consumable">
+                <langSet xml:lang="en"><tig><term>Vortex Pop</term></tig></langSet>
+                <langSet xml:lang="zh_TW"><tig><term>渦旋棒棒糖</term></tig></langSet>
+            </termEntry>
+            <termEntry id="consumable">
+                <langSet xml:lang="en"><tig><term>Exoberry Jell-O Pie</term></tig></langSet>
+                <langSet xml:lang="zh_TW"><tig><term>洋梅果凍派</term></tig></langSet>
+            </termEntry>
+            <termEntry id="consumable">
+                <langSet xml:lang="en"><tig><term>Computer Chip</term></tig></langSet>
+                <langSet xml:lang="zh_TW"><tig><term>「芯」型薯片</term></tig></langSet>
+            </termEntry>
+            <termEntry id="consumable">
+                <langSet xml:lang="en"><tig><term>Ghost Fruit</term></tig></langSet>
+                <langSet xml:lang="zh_TW"><tig><term>幽靈水果</term></tig></langSet>
+            </termEntry>
+            <termEntry id="consumable(short-name)">
+                <langSet xml:lang="en"><tig><term>Candy</term></tig></langSet>
+                <langSet xml:lang="zh_TW"><tig><term>怪物糖果</term></tig></langSet>
+            </termEntry>
+            <termEntry id="consumable">
+                <langSet xml:lang="en"><tig><term>Milkshake</term></tig></langSet>
+                <langSet xml:lang="zh_TW"><tig><term>奶昔</term></tig></langSet>
+            </termEntry>
+            <termEntry id="consumable">
+                <langSet xml:lang="en"><tig><term>Cheesecake</term></tig></langSet>
+                <langSet xml:lang="zh_TW"><tig><term>芝士蛋糕</term></tig></langSet>
+            </termEntry>
+            <termEntry id="key(short-name)">
+                <langSet xml:lang="en"><tig><term>Artifact</term></tig></langSet>
+                <langSet xml:lang="zh_TW"><tig><term>神器</term></tig></langSet>
+            </termEntry>
+            <termEntry id="key(short-name)">
+                <langSet xml:lang="en"><tig><term>Epiphany</term></tig></langSet>
+                <langSet xml:lang="zh_TW"><tig><term>頓悟</term></tig></langSet>
+            </termEntry>
+            <termEntry id="consumable(short-name)">
+                <langSet xml:lang="en"><tig><term>Soda</term></tig></langSet>
+                <langSet xml:lang="zh_TW"><tig><term>呲呲汽水</term></tig></langSet>
+            </termEntry>
+            <termEntry id="consumable(short-name)">
+                <langSet xml:lang="en"><tig><term>Steak</term></tig></langSet>
+                <langSet xml:lang="zh_TW"><tig><term>滋滋牛排</term></tig></langSet>
+            </termEntry>
+            <termEntry id="consumable(short-name)">
+                <langSet xml:lang="en"><tig><term>Snails</term></tig></langSet>
+                <langSet xml:lang="zh_TW"><tig><term>焗蝸牛</term></tig></langSet>
+            </termEntry>
+            <termEntry id="consumable(short-name)">
+                <langSet xml:lang="en"><tig><term>Pie</term></tig></langSet>
+                <langSet xml:lang="zh_TW"><tig><term>派</term></tig></langSet>
+            </termEntry>
+            <termEntry id="consumable(short-name-2)">
+                <langSet xml:lang="en"><tig><term>Berry Pie</term></tig></langSet>
+                <langSet xml:lang="zh_TW"><tig><term>洋梅派</term></tig></langSet>
+            </termEntry>
+            <termEntry id="consumable(short-name)">
+                <langSet xml:lang="en"><tig><term>Chocolate</term></tig></langSet>
+                <langSet xml:lang="zh_TW"><tig><term>巧克力</term></tig></langSet>
+            </termEntry>
+            <termEntry id="consumable(short-name)">
+                <langSet xml:lang="en"><tig><term>Chip</term></tig></langSet>
+                <langSet xml:lang="zh_TW"><tig><term>「芯」型薯片</term></tig></langSet>
+            </termEntry>
+            <termEntry id="consumable(short-name)">
+                <langSet xml:lang="en"><tig><term>Swirl</term></tig></langSet>
+                <langSet xml:lang="zh_TW"><tig><term>光彩漩渦</term></tig></langSet>
+            </termEntry>
+            <termEntry id="consumable(short-name-1)">
+                <langSet xml:lang="en"><tig><term>Exoberry Pie</term></tig></langSet>
+                <langSet xml:lang="zh_TW"><tig><term>洋梅果凍派</term></tig></langSet>
+            </termEntry>
+            <termEntry id="consumable(short-name-2)">
+                <langSet xml:lang="en"><tig><term>Star Tea</term></tig></langSet>
+                <langSet xml:lang="zh_TW"><tig><term>星花茶</term></tig></langSet>
+            </termEntry>
+            <termEntry id="consumable(short-name-1)">
+                <langSet xml:lang="en"><tig><term>Starling Tea</term></tig></langSet>
+                <langSet xml:lang="zh_TW"><tig><term>星花茶</term></tig></langSet>
+            </termEntry>
+            <termEntry id="consumable">
+                <langSet xml:lang="en"><tig><term>Starling Floweer Tea</term></tig></langSet>
+                <langSet xml:lang="zh_TW"><tig><term>星花茶</term></tig></langSet>
+            </termEntry>
+            <termEntry id="key">
+                <langSet xml:lang="en"><tig><term>Computer Chip</term></tig></langSet>
+                <langSet xml:lang="zh_TW"><tig><term>晶片</term></tig></langSet>
+            </termEntry>
+            <termEntry id="key(short-name)">
+                <langSet xml:lang="en"><tig><term>Chip</term></tig></langSet>
+                <langSet xml:lang="zh_TW"><tig><term>晶片</term></tig></langSet>
+            </termEntry>
+            <termEntry id="armor">
+                <langSet xml:lang="en"><tig><term>AR Headset?</term></tig></langSet>
+                <langSet xml:lang="zh_TW"><tig><term>AR眼鏡？</term></tig></langSet>
+            </termEntry>
+            <termEntry id="armor(short-name)">
+                <langSet xml:lang="en"><tig><term>Headset</term></tig></langSet>
+                <langSet xml:lang="zh_TW"><tig><term>AR眼鏡</term></tig></langSet>
+            </termEntry>
+            <termEntry id="armor(short-name)">
+                <langSet xml:lang="en"><tig><term>Tem Armor</term></tig></langSet>
+                <langSet xml:lang="zh_TW"><tig><term>Tem盔甲</term></tig></langSet>
+                <note from="translator">人名不譯版</note>
+            </termEntry>
+            <termEntry id="armor">
+                <langSet xml:lang="en"><tig><term>Temmie Armor</term></tig></langSet>
+                <langSet xml:lang="zh_TW"><tig><term>Temmie盔甲</term></tig></langSet>
+                <note from="translator">人名不譯版</note>
+            </termEntry>
+            <termEntry id="armor">
+                <langSet xml:lang="en"><tig><term>AR Headset</term></tig></langSet>
+                <langSet xml:lang="zh_TW"><tig><term>AR眼鏡</term></tig></langSet>
+            </termEntry>
+            <termEntry id="armor(short-name)">
+                <langSet xml:lang="en"><tig><term>Headset?</term></tig></langSet>
+                <langSet xml:lang="zh_TW"><tig><term>AR眼鏡？</term></tig></langSet>
+            </termEntry>
+            <termEntry id="armor">
+                <langSet xml:lang="en"><tig><term>Worn Spacesuit</term></tig></langSet>
+                <langSet xml:lang="zh_TW"><tig><term>破損的太空衣</term></tig></langSet>
+            </termEntry>
+            <termEntry id="consumable">
+                <langSet xml:lang="en"><tig><term>exoberry</term></tig></langSet>
+                <langSet xml:lang="zh_TW"><tig><term>洋梅</term></tig></langSet>
+            </termEntry>
+            <termEntry id="weapon">
+                <langSet xml:lang="en"><tig><term>Datapad</term></tig></langSet>
+                <langSet xml:lang="zh_TW"><tig><term>平板電腦</term></tig></langSet>
+            </termEntry>
+            <termEntry id="weapon">
+                <langSet xml:lang="en"><tig><term>Datapad?</term></tig></langSet>
+                <langSet xml:lang="zh_TW"><tig><term>平板電腦？</term></tig></langSet>
+            </termEntry>
+            <termEntry id="consumable">
+                <langSet xml:lang="en"><tig><term>Slider Trio</term></tig></langSet>
+                <langSet xml:lang="zh_TW"><tig><term>三隻小漢堡</term></tig></langSet>
+            </termEntry>
+            <termEntry id="consumable">
+                <langSet xml:lang="en"><tig><term>Corn Dog</term></tig></langSet>
+                <langSet xml:lang="zh_TW"><tig><term>玉米熱狗</term></tig></langSet>
+            </termEntry>
+            <termEntry id="consumable">
+                <langSet xml:lang="en"><tig><term>Corn Dog Sword</term></tig></langSet>
+                <langSet xml:lang="zh_TW"><tig><term>玉狗聖劍</term></tig></langSet>
+            </termEntry>
+            <termEntry id="consumable">
+                <langSet xml:lang="en"><tig><term>Slider</term></tig></langSet>
+                <langSet xml:lang="zh_TW"><tig><term>小漢堡</term></tig></langSet>
+            </termEntry>
+            <termEntry id="consumable(short-name-2)">
+                <langSet xml:lang="en"><tig><term>Sliders</term></tig></langSet>
+                <langSet xml:lang="zh_TW"><tig><term>小漢堡</term></tig></langSet>
+            </termEntry>
+            <termEntry id="consumable">
+                <langSet xml:lang="en"><tig><term>Slider Duo</term></tig></langSet>
+                <langSet xml:lang="zh_TW"><tig><term>兩隻小漢堡</term></tig></langSet>
+            </termEntry>
+            <termEntry id="consumable">
+                <langSet xml:lang="en"><tig><term>Flamin' Grillby</term></tig></langSet>
+                <langSet xml:lang="zh_TW"><tig><term>烈焰Grillby</term></tig></langSet>
+            </termEntry>
+            <termEntry id="consumable">
+                <langSet xml:lang="en"><tig><term>Corn Goat</term></tig></langSet>
+                <langSet xml:lang="zh_TW"><tig><term>玉米熱羊</term></tig></langSet>
+            </termEntry>
+            <termEntry id="consumable(short-name)">
+                <langSet xml:lang="en"><tig><term>Grillby</term></tig></langSet>
+                <langSet xml:lang="zh_TW"><tig><term>Grillby</term></tig></langSet>
+            </termEntry>
+            <termEntry id="consumable(short-name)">
+                <langSet xml:lang="en"><tig><term>Dog Sword</term></tig></langSet>
+                <langSet xml:lang="zh_TW"><tig><term>玉狗聖劍</term></tig></langSet>
+            </termEntry>
+        </body>
+    </text>
+</martif>

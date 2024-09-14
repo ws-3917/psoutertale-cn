@@ -1,0 +1,2584 @@
+#
+msgid ""
+msgstr ""
+
+msgid "(You take a deep breath.)"
+msgstr "(Derin bir nefes aldın.)"
+
+msgid "(You're filled with determination.)"
+msgstr "(İçin azimle dolu.)"
+
+msgid "You cannot give up just yet..."
+msgstr "Şu anda pes edemezsin..."
+
+msgid ""
+"$(name)!\n"
+"Stay determined..."
+msgstr ""
+"$(name)!\n"
+"Azimli kal..."
+
+msgid "Our fate rests upon you..."
+msgstr "Kaderimiz senin elinde..."
+
+msgid "You're going to be alright!"
+msgstr "İyi olacaksın!"
+
+msgid "Don't lose hope!"
+msgstr "Umudunu kaybetme!"
+
+msgid "It cannot end now!"
+msgstr "Şu anda bitemez!"
+
+msgid "    * Escaped..."
+msgstr "    * Kaçtık..."
+
+msgid "    * I'm outta here."
+msgstr "    * Ben kaçar."
+
+msgid "    * I've got better to do."
+msgstr "    * Yapacağım daha önemli işler var."
+
+msgid "    * Don't slow me down."
+msgstr "    * Beni yavaşlatma."
+
+msgid ""
+"    * Ran away with $(x) EXP\n"
+"      and $(y)G."
+msgstr "    * $(x) DP ve $(y)A ile kaçtın."
+
+msgid "* Assist"
+msgstr "* Yardımcı Ol"
+
+msgid "* Flee"
+msgstr "* Kaç"
+
+msgid "* Spare"
+msgstr "* Bağışla"
+
+msgid ""
+"<32>{#p/story}* YOU WON!\n"
+"* You earned $(x) EXP and $(y)G."
+msgstr ""
+"<32>{#p/story}* KAZANDIN!\n"
+"* Kazancın: $(x) TP ve $(y)A."
+
+msgid ""
+"<32>{#p/story}* YOU WON!\n"
+"* You earned $(x) EXP and $(y)G.\n"
+"* Your LOVE increased."
+msgstr ""
+"<32>{#p/story}* KAZANDIN!\n"
+"* Kazancın: $(x) TP ve $(y)A.\n"
+"* SEVGİ'n arttı."
+
+msgid "ERROR"
+msgstr "HATA"
+
+msgid "DISMISS"
+msgstr "GÖRMEZDEN GEL"
+
+msgid "Click To Dismiss"
+msgstr "Görmezden gelmek için tıkla"
+
+msgid ""
+"An error occured! Please send\n"
+"screenshot to developer."
+msgstr ""
+"Bir hatayla karşılaştın!\n"
+"Lütfen hatayı geliştiriciye gönder."
+
+msgid "CONTROL"
+msgstr "KONTROL"
+
+msgid "GENERAL"
+msgstr "GENEL"
+
+msgid "BATTLE"
+msgstr "SAVAŞ"
+
+msgid "FixMusic"
+msgstr ""
+
+msgid "FixPlayer"
+msgstr ""
+
+msgid "InfiniteG"
+msgstr "SonsuzA"
+
+msgid "Interact"
+msgstr "Etkileşim"
+
+msgid "Input"
+msgstr "Giriş"
+
+msgid "Movement"
+msgstr "Hareket"
+
+msgid "Noclip"
+msgstr ""
+
+msgid "Save"
+msgstr "Kaydet"
+
+msgid "SkipText"
+msgstr ""
+
+msgid "Freecam"
+msgstr ""
+
+msgid "CanAssist"
+msgstr "YardımcıOlVar"
+
+msgid "ClearBox"
+msgstr ""
+
+msgid "Exit"
+msgstr "Çıkış"
+
+msgid "ResetBox"
+msgstr ""
+
+msgid "ResetMenu"
+msgstr ""
+
+msgid "CanFlee"
+msgstr ""
+
+msgid "InfiniteHP"
+msgstr "SınırsızCAN"
+
+msgid "PacifyAll"
+msgstr ""
+
+msgid "Suicide"
+msgstr "Özkıyım"
+
+msgid "WeakenAll"
+msgstr ""
+
+msgid "$(x) FPS"
+msgstr ""
+
+msgid "Halt"
+msgstr ""
+
+msgid "GAME SPEED"
+msgstr ""
+
+msgid "$(x)x"
+msgstr ""
+
+msgid "More"
+msgstr ""
+
+msgid "Less"
+msgstr ""
+
+msgid "$(x)s/frame"
+msgstr ""
+
+msgid "GODHOME"
+msgstr ""
+
+msgid "ROOM"
+msgstr ""
+
+msgid "Teleport"
+msgstr ""
+
+msgid "ENCOUNTER"
+msgstr ""
+
+msgid "Start"
+msgstr ""
+
+msgid "ARMOR"
+msgstr "ZIRH"
+
+msgid "WEAPON"
+msgstr "SİLAH"
+
+msgid "INSPECT"
+msgstr ""
+
+msgid "LAYERS"
+msgstr ""
+
+msgid "TYPES"
+msgstr ""
+
+msgid "Base"
+msgstr ""
+
+msgid "Below"
+msgstr ""
+
+msgid "Main"
+msgstr ""
+
+msgid "Above"
+msgstr ""
+
+msgid "Menu"
+msgstr ""
+
+msgid "Hitbox"
+msgstr ""
+
+msgid "Sprite"
+msgstr ""
+
+msgid "Text"
+msgstr ""
+
+msgid "EXPLORER"
+msgstr ""
+
+msgid "Base (Explorer)"
+msgstr ""
+
+msgid "Below (Explorer)"
+msgstr ""
+
+msgid "Main (Explorer)"
+msgstr ""
+
+msgid "Above (Explorer)"
+msgstr ""
+
+msgid "Menu (Explorer)"
+msgstr ""
+
+msgid "A"
+msgstr ""
+
+msgid "C"
+msgstr ""
+
+msgid "R"
+msgstr ""
+
+msgid "E"
+msgstr ""
+
+msgid "H"
+msgstr ""
+
+msgid "O"
+msgstr ""
+
+msgid "P"
+msgstr ""
+
+msgid "S"
+msgstr ""
+
+msgid "T"
+msgstr ""
+
+msgid "Press [TAB] to cycle debug info"
+msgstr ""
+
+msgid "Acceleration"
+msgstr ""
+
+msgid "Active"
+msgstr ""
+
+msgid "Alpha"
+msgstr ""
+
+msgid "Anchor"
+msgstr ""
+
+msgid "B"
+msgstr ""
+
+msgid "Blend"
+msgstr ""
+
+msgid "Border"
+msgstr ""
+
+msgid "Computed Size"
+msgstr ""
+
+msgid "Content"
+msgstr ""
+
+msgid "Crop"
+msgstr ""
+
+msgid "Down"
+msgstr ""
+
+msgid "Duration"
+msgstr ""
+
+msgid "EXP"
+msgstr ""
+
+msgid "Extent"
+msgstr ""
+
+msgid "F"
+msgstr ""
+
+msgid "Face"
+msgstr ""
+
+msgid "False"
+msgstr ""
+
+msgid "Fill"
+msgstr ""
+
+msgid "Font Family"
+msgstr ""
+
+msgid "Font Size"
+msgstr ""
+
+msgid "Frames"
+msgstr ""
+
+msgid "Gravity"
+msgstr ""
+
+msgid "Group"
+msgstr ""
+
+msgid "HP"
+msgstr "CAN"
+
+msgid "Index"
+msgstr ""
+
+msgid "Inert"
+msgstr ""
+
+msgid "Key"
+msgstr ""
+
+msgid "Last Saved Time"
+msgstr ""
+
+msgid "Layer"
+msgstr ""
+
+msgid "Layers"
+msgstr ""
+
+msgid "Left"
+msgstr ""
+
+msgid "Metadata"
+msgstr ""
+
+msgid "Music"
+msgstr ""
+
+msgid "Namespace"
+msgstr ""
+
+msgid "NONE"
+msgstr ""
+
+msgid "none"
+msgstr ""
+
+msgid "Objects"
+msgstr ""
+
+msgid "Oversaver"
+msgstr ""
+
+msgid "Parallax"
+msgstr ""
+
+msgid "Position"
+msgstr ""
+
+msgid "Primed"
+msgstr ""
+
+msgid "Priority"
+msgstr ""
+
+msgid "REGISTRY"
+msgstr ""
+
+msgid "Renderer"
+msgstr ""
+
+msgid "Resources"
+msgstr ""
+
+msgid "Reverse"
+msgstr ""
+
+msgid "Right"
+msgstr ""
+
+msgid "Room"
+msgstr ""
+
+msgid "Room State"
+msgstr ""
+
+msgid "Rotation"
+msgstr ""
+
+msgid "Scale"
+msgstr ""
+
+msgid "Shop Selection"
+msgstr ""
+
+msgid "Size"
+msgstr ""
+
+msgid "Spacing"
+msgstr ""
+
+msgid "Spin"
+msgstr ""
+
+msgid "Sprites"
+msgstr ""
+
+msgid "Step"
+msgstr ""
+
+msgid "Stroke"
+msgstr ""
+
+msgid "Subcrop"
+msgstr ""
+
+msgid "Talk"
+msgstr "Konuş"
+
+msgid "Target"
+msgstr "Hedef"
+
+msgid "Time"
+msgstr "Süre"
+
+msgid "Tint"
+msgstr ""
+
+msgid "Tracked Assets"
+msgstr ""
+
+msgid "True"
+msgstr ""
+
+msgid "UNKNOWN"
+msgstr ""
+
+msgid "Up"
+msgstr ""
+
+msgid "Vars"
+msgstr ""
+
+msgid "Velocity"
+msgstr ""
+
+msgid "Volatile"
+msgstr ""
+
+msgid "SAVEMOD"
+msgstr ""
+
+msgid "SAVE EDITOR"
+msgstr ""
+
+msgid "Data (Booleans)"
+msgstr ""
+
+msgid "Data (Numbers)"
+msgstr ""
+
+msgid "Data (Strings)"
+msgstr ""
+
+msgid "Flags (Booleans)"
+msgstr ""
+
+msgid "Flags (Numbers)"
+msgstr ""
+
+msgid "Flags (Strings)"
+msgstr ""
+
+msgid "NAVIGATION"
+msgstr ""
+
+msgid "Prev"
+msgstr ""
+
+msgid "Next"
+msgstr ""
+
+msgid "Enter Value"
+msgstr ""
+
+msgid "Back"
+msgstr ""
+
+msgid "STORAGE"
+msgstr "DEPOLAMA"
+
+msgid "STORAGE EDITOR"
+msgstr ""
+
+msgid "SELECTION"
+msgstr "SEÇİM"
+
+msgid "Inventory"
+msgstr "Envanter"
+
+msgid "Dim. Box A"
+msgstr "Boy. Kutu A"
+
+msgid "Dim. Box B"
+msgstr "Boy. Kutu B"
+
+msgid "Clear File"
+msgstr ""
+
+msgid "Notice"
+msgstr ""
+
+msgid "Open"
+msgstr ""
+
+msgid "SAVE files"
+msgstr ""
+
+msgid "Open File"
+msgstr ""
+
+msgid "Save File"
+msgstr ""
+
+msgid "That file could not be parsed."
+msgstr ""
+
+msgid "OK"
+msgstr ""
+
+msgid "Cancel"
+msgstr ""
+
+msgid "Clear this file?"
+msgstr ""
+
+msgid ""
+"Your SAVE file from the\n"
+"OUTERTALE demo has been\n"
+"moved to a timeline slot."
+msgstr ""
+
+msgid "Save this file?"
+msgstr ""
+
+msgid ""
+"Copy the text below into\n"
+"a JSON file to save it\n"
+"to your device."
+msgstr ""
+
+msgid "Load this file?"
+msgstr ""
+
+msgid "§fill=#ff0§< DEVELOPER >§fill=#fff§"
+msgstr "§fill=#ff0§< GELİŞTİRİCİ >§fill=#fff§"
+
+msgid "spacey_432"
+msgstr ""
+
+msgid ""
+msgstr ""
+
+msgid "§fill=#ff0§< WRITER >§fill=#fff§"
+msgstr "§fill=#ff0§< YAZARLAR >§fill=#fff§"
+
+msgid "Balgamlı Kedi"
+msgstr ""
+
+msgid "Bilge \"mnwary\""
+msgstr ""
+
+msgid "Dischnie"
+msgstr ""
+
+msgid "Efe Kaya"
+msgstr ""
+
+msgid "Ghostly"
+msgstr ""
+
+msgid "InvincibleRacoon"
+msgstr ""
+
+msgid "Jojoton56"
+msgstr ""
+
+msgid "Kiwi \"Quinn\""
+msgstr ""
+
+msgid "My Aster"
+msgstr ""
+
+msgid "neo9174"
+msgstr ""
+
+msgid "Rise"
+msgstr ""
+
+msgid "ThatGuyWhoLikesFood"
+msgstr ""
+
+msgid "Turbulation"
+msgstr ""
+
+msgid "Zaxento The Greedy"
+msgstr ""
+
+msgid "§fill=#ff0§< ARTIST >§fill=#fff§"
+msgstr "§fill=#ff0§< ÇİZİMLER >§fill=#fff§"
+
+msgid "Burge"
+msgstr ""
+
+msgid "Deskius"
+msgstr ""
+
+msgid "DESM.al"
+msgstr ""
+
+msgid "Discarded Vessel"
+msgstr ""
+
+msgid "Fired"
+msgstr ""
+
+msgid "Funtermore"
+msgstr ""
+
+msgid "HolyOranges"
+msgstr ""
+
+msgid "major_memestar"
+msgstr ""
+
+msgid "MattSpriteMaster"
+msgstr ""
+
+msgid "Medi0creking"
+msgstr ""
+
+msgid "NerNot1"
+msgstr ""
+
+msgid "PhyreFM"
+msgstr ""
+
+msgid "Pongy25"
+msgstr ""
+
+msgid "PoTheWinterCorder"
+msgstr ""
+
+msgid "ProctorDorkchop02"
+msgstr ""
+
+msgid "ScarletScaledDragon"
+msgstr ""
+
+msgid "semi"
+msgstr ""
+
+msgid "Soup Taels"
+msgstr ""
+
+msgid "SquigglyWiggley"
+msgstr ""
+
+msgid "Starkiteckt"
+msgstr ""
+
+msgid "supper12"
+msgstr ""
+
+msgid "Valor52"
+msgstr ""
+
+msgid "§fill=#ff0§< TECHNICIAN >§fill=#fff§"
+msgstr "§fill=#ff0§< TEKNİSYEN >§fill=#fff§"
+
+msgid "Codetoil"
+msgstr ""
+
+msgid "ryi3r"
+msgstr ""
+
+msgid "ws3917"
+msgstr ""
+
+msgid "§fill=#ff0§< TESTER >§fill=#fff§"
+msgstr "§fill=#ff0§< TESTERLAR >§fill=#fff§"
+
+msgid "Alden"
+msgstr ""
+
+msgid "Aspey"
+msgstr ""
+
+msgid "blue"
+msgstr ""
+
+msgid "Brad"
+msgstr ""
+
+msgid "brayjamin"
+msgstr ""
+
+msgid "ClamsyMoe"
+msgstr ""
+
+msgid "delta"
+msgstr ""
+
+msgid "DR4GON HE4RT"
+msgstr ""
+
+msgid "Dubituar"
+msgstr ""
+
+msgid "Emurry"
+msgstr ""
+
+msgid "Enzolos"
+msgstr ""
+
+msgid "EvanGamesGoodman"
+msgstr ""
+
+msgid "FireWizard72X"
+msgstr ""
+
+msgid "FuLiNT"
+msgstr ""
+
+msgid "gardnaeden"
+msgstr ""
+
+msgid "Gon UT"
+msgstr ""
+
+msgid "Green Tea"
+msgstr ""
+
+msgid "Huggies!"
+msgstr ""
+
+msgid "ilovecookies"
+msgstr ""
+
+msgid "Jago128"
+msgstr ""
+
+msgid "Joe98912"
+msgstr ""
+
+msgid "Jonkler"
+msgstr ""
+
+msgid "lil tanski"
+msgstr ""
+
+msgid "MR. PETER"
+msgstr ""
+
+msgid "MSBen"
+msgstr ""
+
+msgid "Murder--Sans_MDR"
+msgstr ""
+
+msgid "Nanorasmus"
+msgstr ""
+
+msgid "NepAnime"
+msgstr ""
+
+msgid "Shaun Duz Stuffs"
+msgstr ""
+
+msgid "SHCyank"
+msgstr ""
+
+msgid "petar3644"
+msgstr ""
+
+msgid "PixelToons Jaafar"
+msgstr ""
+
+msgid "Prezmop"
+msgstr ""
+
+msgid "prymus-agd"
+msgstr ""
+
+msgid "Quin"
+msgstr ""
+
+msgid "RadicalRic"
+msgstr ""
+
+msgid "Raelynn"
+msgstr ""
+
+msgid "retr22800"
+msgstr ""
+
+msgid "RoCtD_14159"
+msgstr ""
+
+msgid "sonicisawesome222"
+msgstr ""
+
+msgid "spaceknife234"
+msgstr ""
+
+msgid "superkippy"
+msgstr ""
+
+msgid "Teecup"
+msgstr ""
+
+msgid "Tem in a Cowboy Hat"
+msgstr ""
+
+msgid "Tenbrooks"
+msgstr ""
+
+msgid "The Fallen Angel"
+msgstr ""
+
+msgid "TheAsriel"
+msgstr ""
+
+msgid "Wild Pasta"
+msgstr ""
+
+msgid "Xiao_Akatsuki"
+msgstr ""
+
+msgid "xNoodlePlayz"
+msgstr ""
+
+msgid "§fill=#ff0§< SPECIAL THANKS >§fill=#fff§"
+msgstr "§fill=#ff0§< ÖZEL TEŞEKKÜRLER >§fill=#fff§"
+
+msgid ""
+"§fill=#808080§For being there for me when I\n"
+"need someone to lean on, and\n"
+"teaching me life lessons that\n"
+"have made me a better person.§fill=#fff§"
+msgstr ""
+"§fill=#808080§Arkamı yaslayacak birine ihtiyacım olduğunda\n"
+"yanımda olduğu için, ve beni\n"
+"daha iyi biri haline getiren\n"
+"hayat dersleri verdiği için.§fill=#fff§"
+
+msgid ""
+"§fill=#808080§For being one of the friendliest\n"
+"people I know, the first person\n"
+"to believe in my vision, and\n"
+"inspiring me to finish the game.§fill=#fff§"
+msgstr ""
+"§fill=#808080§Bildiğim en dost canlısı\n"
+"kişilerden biri olduğu için,\n"
+"hayallerime inanan ilk kişi olup\n"
+"oyunu bitirebilmemde bana ilham\n"
+"verdiği için.§fill=#fff§"
+
+msgid ""
+"§fill=#808080§For sticking with me at every\n"
+"stage of development, right from\n"
+"the start. Regardless of the era,\n"
+"he's always been there to help.§fill=#fff§"
+msgstr ""
+"§fill=#808080§Oyunun gelişiminin her aşamasında\n"
+"yanımda olduğu için, en başından beri. Çağ\n"
+"ne olursa olsun her zaman yardım için\n"
+"buradaydı.§fill=#fff§"
+
+msgid ""
+"§fill=#808080§For being a voice of reason when\n"
+"it comes to many aspects of the\n"
+"game, and encouraging me to take\n"
+"testing seriously.§fill=#fff§"
+msgstr ""
+"§fill=#808080§Oyunun birçok yönüyle ilgili\n"
+"sağduyulu olduğu ve beni\n"
+"test etmeyi ciddiye almaya\n"
+"teşvik ettiği için.§fill=#fff§"
+
+msgid ""
+"§fill=#808080§For being reliable, brutally\n"
+"honest, giving me lots of\n"
+"criticism and ideas, and being\n"
+"trustworthy from the day we met.§fill=#fff§"
+msgstr ""
+"§fill=#808080§Güvenilir olduğu, acımasızca dürüst\n"
+"davrandığı, bana pek çok eleştiri ve\n"
+"fikir verdiği ve tanıştığımız günden\n"
+"beri sadık olduğu için.§fill=#fff§"
+
+msgid ""
+"§fill=#808080§For helping me write crucial\n"
+"parts of the game, supporting my\n"
+"vision, and helping me express\n"
+"myself in a whole new way.§fill=#fff§"
+msgstr ""
+"§fill=#808080§Oyunun kritik bölümlerini yazmama\n"
+"yardım ettiği, hayalimi desteklediği\n"
+"ve kendimi tamamen yeni bir şekilde\n"
+"ifade etmeme yardımcı olduğu için.§fill=#fff§"
+
+msgid ""
+"§fill=#808080§For being there to help towards\n"
+"the end of development, and\n"
+"ensuring the game's writing\n"
+"reaches its full potential.§fill=#fff§"
+msgstr ""
+"§fill=#808080§Geliştirmenin sonlarına doğru\n"
+"yardım etmek için orada olduğu ve\n"
+"oyunun yazımının tam potansiyeline\n"
+"ulaşmasını sağladığı için.§fill=#fff§"
+
+msgid "Brought to you by §fill=#ff0§The Mavis & Co.§fill=#fff§"
+msgstr "§fill=#ff0§The Mavis & Co.§fill=#fff§ tarafından sizlere sunuldu"
+
+msgid "(( CAST ))"
+msgstr "(( KAST ))"
+
+msgid "FROGGIT"
+msgstr "FROGGİT"
+
+msgid ""
+"Pondering\n"
+"Life"
+msgstr ""
+"Hayat Üstüne\n"
+"Kafa Yoruyor"
+
+msgid ""
+"Professional\n"
+"Frog"
+msgstr ""
+"Profesyonel\n"
+"Kurbağa"
+
+msgid ""
+"Pondering\n"
+"Love"
+msgstr ""
+"Aşka\n"
+"Kafa Yoruyor"
+
+msgid ""
+"Hopping In\n"
+"Fear"
+msgstr ""
+"Korkuyla\n"
+"Zıplıyor"
+
+msgid "FLUTTERLYTE"
+msgstr ""
+
+msgid ""
+"Learning To\n"
+"Fly"
+msgstr ""
+"Uçmayı\n"
+"Öğreniyor"
+
+msgid ""
+"Emboldening\n"
+"Aviator"
+msgstr ""
+"Cesaret Veren\n"
+"Uçuşçu"
+
+msgid ""
+"Searching The\n"
+"Skies"
+msgstr ""
+"Göklerde\n"
+"Arayışta"
+
+msgid ""
+"Evasively\n"
+"Maneuvering"
+msgstr ""
+"Kaçışlı\n"
+"Manevralar"
+
+msgid "GELATINI"
+msgstr "GELATİNİ"
+
+msgid ""
+"Found A New\n"
+"Space Station"
+msgstr ""
+"Yeni Bir Uzay\n"
+"İstasyonu Buldu"
+
+msgid ""
+"Backup\n"
+"Dancer"
+msgstr ""
+"Yedek\n"
+"Dansçı"
+
+msgid ""
+"Exotic Jelly\n"
+"Dancer"
+msgstr ""
+"Egzotik Jel\n"
+"Dansçısı"
+
+msgid ""
+"Found A New\n"
+"Galaxy"
+msgstr ""
+"Yeni Bir\n"
+"Galaksi Buldu"
+
+msgid "OCULOUX"
+msgstr ""
+
+msgid ""
+"Slightly\n"
+"Bully-Like"
+msgstr ""
+"Kısmen\n"
+"Zorbamsı"
+
+msgid ""
+"Reformed\n"
+"Bully"
+msgstr ""
+"Islah Olmuş\n"
+"Zorba"
+
+msgid ""
+"Slightly\n"
+"Flirtatious"
+msgstr ""
+"Kısmen\n"
+"Çapkın"
+
+msgid "SILENTE"
+msgstr "SİLENTE"
+
+msgid ""
+"Exceedingly\n"
+"Agreeable"
+msgstr ""
+"İnanılmaz\n"
+"Uzlaşmacı"
+
+msgid ""
+"Casually\n"
+"Enjoys Life"
+msgstr ""
+"Sadece Hayatın\n"
+"Tadını Çıkarıyor"
+
+msgid ""
+"In Love From\n"
+"Afar"
+msgstr ""
+"Uzaklarda\n"
+"Aşkla Dolu"
+
+msgid ""
+"Endangerment\n"
+"Denier"
+msgstr ""
+"Tehlike\n"
+"İnkarcısı"
+
+msgid "MUSHY"
+msgstr ""
+
+msgid "Balgamlı Kedi & ScarletScaledDragon"
+msgstr ""
+
+msgid ""
+"Shooting\n"
+"Blanks"
+msgstr ""
+"Kurusıkı\n"
+"Atıyor"
+
+msgid ""
+"Quick-Draw\n"
+"Magician"
+msgstr ""
+"Eli Çabuk\n"
+"Sihirbaz"
+
+msgid ""
+"Gunshot\n"
+"Heart-Throb"
+msgstr ""
+"Tam Kalbinden\n"
+"Vuruldu"
+
+msgid ""
+"Spraying And\n"
+"Praying"
+msgstr ""
+"Sıkıyor Ve\n"
+"Dua Ediyor"
+
+msgid "LURKSALOT"
+msgstr ""
+
+msgid ""
+"Keeping To\n"
+"Themselves"
+msgstr ""
+"Kimseye Söz\n"
+"Etmiyorlar"
+
+msgid ""
+"Seeking\n"
+"Physical Contact"
+msgstr ""
+"Fiziksel Temas\n"
+"Arayışında"
+
+msgid ""
+"Stoically\n"
+"Uninvolved"
+msgstr ""
+"Sabırlıca\n"
+"Alakasız"
+
+msgid "STARDRAKE"
+msgstr ""
+
+msgid ""
+"Still Looking\n"
+"For Laughs"
+msgstr ""
+"Hala Kahkaha\n"
+"Bekleyişinde"
+
+msgid ""
+"Semi-Successful\n"
+"Comedian"
+msgstr ""
+"Yarı Başarılı\n"
+"Komedyen"
+
+msgid ""
+"Popular With The\n"
+"Grown-Ups"
+msgstr ""
+"Büyükler Arasında\n"
+"Popüler"
+
+msgid "CHILLDRAKE"
+msgstr ""
+
+msgid ""
+"Still Looking\n"
+"For Supporters"
+msgstr ""
+"Hala Destekçi\n"
+"Arıyor"
+
+msgid ""
+"Gained A Cult\n"
+"Following"
+msgstr ""
+"Koyu Hayranlar\n"
+"Kazandı"
+
+msgid ""
+"Trades Kisses\n"
+"For Supporters"
+msgstr ""
+"Destekçiler İçin\n"
+"Öpücük Takaslıyor"
+
+msgid ""
+"Anti-Bullying\n"
+"Activist"
+msgstr ""
+"Zorbalık Karşıtı\n"
+"Aktivist"
+
+msgid "ASTRO SERF"
+msgstr ""
+
+msgid ""
+"Thinking About\n"
+"Its Antenna"
+msgstr ""
+"Aklı\n"
+"Anteninde"
+
+msgid ""
+"Radio Station\n"
+"Sensation"
+msgstr ""
+"Radyo İstasyonu\n"
+"Algılaması"
+
+msgid ""
+"Love Is On\n"
+"The Air"
+msgstr ""
+"Havada Aşk\n"
+"Kokusu Var"
+
+msgid ""
+"Emergency\n"
+"Broadcaster"
+msgstr ""
+"Acil Durum\n"
+"Yayıncısı"
+
+msgid "JERRY"
+msgstr ""
+
+msgid ""
+"Getting Ditched\n"
+"On The Daily"
+msgstr ""
+"Her Gün\n"
+"Ekilmeye Devam"
+
+msgid ""
+"Getting Ditched\n"
+"Slightly Less"
+msgstr ""
+"Artık Daha\n"
+"Az Ekiliyor"
+
+msgid ""
+"On The Road To\n"
+"Redemption"
+msgstr ""
+"Kendini Affettirme\n"
+"Yolunda"
+
+msgid "WHIZKARAT"
+msgstr "WHİZKARAT"
+
+msgid "Zaxento The Greedy & semi"
+msgstr ""
+
+msgid ""
+"Having An\n"
+"Identity Crisis"
+msgstr ""
+"Benlik Krizi\n"
+"Altında"
+
+msgid ""
+"Newest Member Of\n"
+"Mouse Society"
+msgstr ""
+"Fare Topluluğunun\n"
+"En Yeni Üyesi"
+
+msgid ""
+"Getting Frisky\n"
+"With The Mice"
+msgstr ""
+"Farelerle\n"
+"Oynaklaşıyor"
+
+msgid ""
+"Scurried Back To\n"
+"Cat Society"
+msgstr ""
+"Hızla Kedi\n"
+"Topluluğuna Döndü"
+
+msgid "DOGGO"
+msgstr ""
+
+msgid ""
+"Believes In The\n"
+"Almighty Wrench"
+msgstr ""
+"Yüce Somun\n"
+"Anahtarına İnanıyor"
+
+msgid ""
+"Found His Own\n"
+"Seeing-Eye Wolf"
+msgstr ""
+"Kendi Rehber\n"
+"Kurdunu Edindi"
+
+msgid ""
+"In Love With His\n"
+"Seeing-Eye Wolf"
+msgstr ""
+"Kendi Rehber\n"
+"Kurduna Aşık"
+
+msgid ""
+"Running To His\n"
+"Seeing-Eye Wolf"
+msgstr ""
+"Kendi Rehber\n"
+"Kurduna Kaçıyor"
+
+msgid "CANIS MINOR"
+msgstr "CANİS MİNOR"
+
+msgid ""
+"Searching For\n"
+"Affection"
+msgstr "İlgi Arayışında"
+
+msgid ""
+"Found A Loving\n"
+"Owner"
+msgstr ""
+"Sevgi Dolu Bir\n"
+"Sahip Buldu"
+
+msgid ""
+"Found An Owning\n"
+"Lover"
+msgstr ""
+"Varlıklı Bir\n"
+"Sevgili Buldu"
+
+msgid ""
+"Desperate For\n"
+"Affection"
+msgstr ""
+"İlgiye\n"
+"Muhtaç"
+
+msgid "DOGAMY & DOGARESSA"
+msgstr ""
+
+msgid ""
+"Still Thinking\n"
+"About Fetch"
+msgstr ""
+"Hala Git Getir\n"
+"Oynamayı Düşünüyorlar"
+
+msgid ""
+"Reigning Puppy-Dog\n"
+"Eyes Champions"
+msgstr ""
+"Yavru Köpek\n"
+"Bakışı Şampiyonları"
+
+msgid ""
+"Caught In Each-\n"
+"Other's Gaze"
+msgstr ""
+"Birbirlerinin\n"
+"Bakışlarında Kayıplar"
+
+msgid ""
+"Defensive Puppy-\n"
+"Dog Eyes Engaged"
+msgstr ""
+"Defansif Köpek\n"
+"Bakışı Aktif"
+
+msgid "CANIS MAJOR"
+msgstr "CANİS MAJOR"
+
+msgid ""
+"Unaware Of\n"
+"Life's Changes"
+msgstr ""
+"Hayatın Değişiminden\n"
+"Bihaber"
+
+msgid ""
+"Excited By\n"
+"Life's Changes"
+msgstr ""
+"Hayatın Değişiminden\n"
+"Heyecanlı"
+
+msgid ""
+"Touched By\n"
+"Life's Changes"
+msgstr ""
+"Hayatın Değişiminden\n"
+"Etkilenmiş"
+
+msgid "SKRUBBINGTON"
+msgstr "SKRUBBİNGTON"
+
+msgid ""
+"Only 99.1\n"
+"Percent Clean"
+msgstr ""
+"Sadece Yüzde\n"
+"99.1 Arınmış"
+
+msgid ""
+"Power-Washing\n"
+"Powerhouse"
+msgstr ""
+"Güçlü Yıkamalı\n"
+"Güçlü Kişi"
+
+msgid ""
+"Hot Tub\n"
+"Manufacturer"
+msgstr ""
+"Jakuzi\n"
+"İmalatçısı"
+
+msgid ""
+"Overpowered\n"
+"Pressure Washer"
+msgstr ""
+"Aşırı Güçlü\n"
+"Basınçlı Yıkamacı"
+
+msgid "GELATA"
+msgstr ""
+
+msgid ""
+"Looking For A\n"
+"Baby Sitter"
+msgstr ""
+"Bebek Bakıcısı\n"
+"Arayışında"
+
+msgid ""
+"Slime-Powered\n"
+"Barstool"
+msgstr ""
+"Balçıkla Çalışan\n"
+"Bar Taburesi"
+
+msgid ""
+"Sexy Sitcom\n"
+"Regular"
+msgstr ""
+"Seksi Sitkom\n"
+"Müdavimi"
+
+msgid ""
+"Glorified\n"
+"Wrestling Prop"
+msgstr ""
+"Onurlu\n"
+"Güreş İpi"
+
+msgid "RADTILE"
+msgstr "RADTİLE"
+
+msgid "Balgamlı Kedi & Zaxento The Greedy"
+msgstr ""
+
+msgid ""
+"Wallowing In\n"
+"Imperfection"
+msgstr ""
+"Kusurluluk\n"
+"İçinde Yüzüyor"
+
+msgid ""
+"Improving His\n"
+"Self-Image"
+msgstr ""
+"Öz İmajını\n"
+"Geliştiriyor"
+
+msgid ""
+"Dating His Own\n"
+"Reflection"
+msgstr ""
+"Kendi Yansımasıyla\n"
+"Çıkıyor"
+
+msgid ""
+"Headed For An\n"
+"Ugly Future"
+msgstr ""
+"Çirkin Bir\n"
+"Geleceğe Yol Aldı"
+
+msgid "SHYREN"
+msgstr ""
+
+msgid ""
+"Back To Taking\n"
+"Piano Lessons"
+msgstr ""
+"Piyano Dersleri\n"
+"Almaya Döndü"
+
+msgid ""
+"Mettaton's\n"
+"New Lead Singer"
+msgstr ""
+"Mettaton'un Yeni\n"
+"Solisti"
+
+msgid ""
+"In Love With\n"
+"A Ghost"
+msgstr ""
+"Bir Hayalete\n"
+"Aşık"
+
+msgid ""
+"Can't Sing Without\n"
+"A Synthesizer"
+msgstr ""
+"Autotune'suz Şarkı\n"
+"Söyleyemiyor"
+
+msgid "DOGE"
+msgstr ""
+
+msgid ""
+"Construction Site\n"
+"Drill Sergeant"
+msgstr ""
+"Şantiye\n"
+"Eğitim Çavuşu"
+
+msgid ""
+"Bought A Lifetime\n"
+"Spa Subscription"
+msgstr ""
+"Bir Spa'nın\n"
+"Ömürlük Abonesi"
+
+msgid ""
+"Felt Puppy Love\n"
+"For The First Time"
+msgstr ""
+"İlk Kez Yavru\n"
+"Köpek Gibi Sevildi"
+
+msgid "MUFFET"
+msgstr ""
+
+msgid ""
+"Looking For Her\n"
+"Next Payout"
+msgstr ""
+"Bir Sonraki\n"
+"Ödemeyi Bekliyor"
+
+msgid ""
+"Caring For The\n"
+"Spider Clans"
+msgstr ""
+"Örümcek Klanlarına\n"
+"Değer Veriyor"
+
+msgid ""
+"Picnic Date\n"
+"Matchmaker"
+msgstr ""
+"Piknik Randevusu\n"
+"Çöpçatanı"
+
+msgid "HOTWIRE"
+msgstr "HOTWİRE"
+
+msgid ""
+"Waiting For The\n"
+"Beat To Drop"
+msgstr ""
+"Ritmin Düşeceği\n"
+"Anı Bekliyor"
+
+msgid ""
+"Lightning-Fast\n"
+"Rapper"
+msgstr ""
+"Yıldırım\n"
+"Hızında Rapçi"
+
+msgid ""
+"Rapper Turned\n"
+"Love Song Writer"
+msgstr ""
+"Rapçiydi Aşk\n"
+"Şarkılarına Geçti"
+
+msgid ""
+"Rap Battling To\n"
+"The Near-Death"
+msgstr ""
+"Yaklaşan Ölümle\n"
+"Rap Savaşında"
+
+msgid "TSUNDERIDEX"
+msgstr ""
+
+msgid ""
+"Flying Deeper\n"
+"Into Denial"
+msgstr ""
+"İnkarın İçine\n"
+"Alabildiğine Uçuyor"
+
+msgid ""
+"Sneaking Up On\n"
+"You At Warp Speed"
+msgstr ""
+"Son Hız\n"
+"Peşinde"
+
+msgid ""
+"Tsun To Be\n"
+"Your Dere-Dere"
+msgstr ""
+
+msgid ""
+"Finally Met\n"
+"Its Match"
+msgstr ""
+"Sonunda Uygun\n"
+"Partneri Buldu"
+
+msgid "PERIGEE"
+msgstr "PERİGEE"
+
+msgid ""
+"Another Day,\n"
+"Another Conflict"
+msgstr ""
+"Yeni Bir Gün,\n"
+"Yeni Bir Sorun"
+
+msgid ""
+"Interplanetary\n"
+"Ambassador"
+msgstr ""
+"Gezegenler Arası\n"
+"Büyükelçi"
+
+msgid ""
+"Encouraging Love\n"
+"In Others"
+msgstr ""
+"Diğerlerine Aşkı\n"
+"Aşılıyor"
+
+msgid ""
+"Showing Kindness\n"
+"Through The Pain"
+msgstr ""
+"Acı İçinden\n"
+"Nezaket Gösteriyor"
+
+msgid "RG 03 & RG 04"
+msgstr "KM 03 & KM 04"
+
+msgid ""
+"In Search Of\n"
+"Childhood Friends"
+msgstr ""
+"Çocukluk Arkadaşlarını\n"
+"Arıyorlar"
+
+msgid ""
+"Use Your\n"
+"Imagination"
+msgstr ""
+"Hayal Gücünü\n"
+"Kullan"
+
+msgid ""
+"Please Use Your\n"
+"Imagination"
+msgstr ""
+"Hayal Gücünü\n"
+"Kullan... Lütfen"
+
+msgid ""
+"Royal Guard\n"
+"Retirees"
+msgstr ""
+"Emekli Kraliyet\n"
+"Muhafızları"
+
+msgid "GLYDE"
+msgstr ""
+
+msgid ""
+"Not Your Ideal\n"
+"Business Partner"
+msgstr ""
+"Pek Uygun Bir\n"
+"İş Ortağı Değil"
+
+msgid ""
+"A Little Less\n"
+"Shady Than Usual"
+msgstr ""
+"Normalden Daha\n"
+"Az Sıkıntılı"
+
+msgid ""
+"Not Your Ideal\n"
+"Bedfellow"
+msgstr ""
+"Pek Uygun Bir\n"
+"Yatak Arkadaşı Değil"
+
+msgid "BURGERPANTS"
+msgstr ""
+
+msgid ""
+"Running Hastily\n"
+"At The Life Ahead"
+msgstr ""
+"Önündeki Hayata\n"
+"Aceleyle Koşuyor"
+
+msgid ""
+"Looking Forward\n"
+"To The Life Ahead"
+msgstr ""
+"Önündeki Hayatı\n"
+"Merak Ediyor"
+
+msgid ""
+"Finding Love\n"
+"In The Life Ahead"
+msgstr ""
+"Önündeki Hayatında\n"
+"Aşkı Arıyor"
+
+msgid "COZMO"
+msgstr ""
+
+msgid ""
+"Looking For A\n"
+"Dictionary"
+msgstr ""
+"Bir Sözlük\n"
+"Arıyor"
+
+msgid ""
+"Famous\n"
+"Magician"
+msgstr ""
+"Meşhur\n"
+"Sihirbaz"
+
+msgid ""
+"Found A New Kind\n"
+"Of Magic"
+msgstr ""
+"Yeni Bir Tür\n"
+"Sihir Buldu"
+
+msgid "TERRESTRIA"
+msgstr "TERRESTRİA"
+
+msgid ""
+"In Search Of\n"
+"The Past"
+msgstr ""
+"Geçmişin\n"
+"Arayışında"
+
+msgid ""
+"Renowned\n"
+"Historian"
+msgstr ""
+"Tanınmış\n"
+"Tarihçi"
+
+msgid ""
+"Has A Crush On\n"
+"The Homeworld"
+msgstr ""
+"Ana Gezegeninden\n"
+"Hoşlanıyor"
+
+msgid "FINAL FROGGIT"
+msgstr "SON FROGGİT"
+
+msgid ""
+"Keeping Its\n"
+"Wisdom To Itself"
+msgstr ""
+"Bilgeliğini Kendine\n"
+"Saklamakta"
+
+msgid ""
+"Sharing Its\n"
+"Wisdom Openly"
+msgstr ""
+"Bilgelini Başkalarıyla\n"
+"Paylaşmakta"
+
+msgid ""
+"Using Its Wisdom\n"
+"For Love"
+msgstr ""
+"Bilgeliğini Aşk\n"
+"İçin Kullanmakta"
+
+msgid ""
+"Using Its Wisdom\n"
+"For Survival"
+msgstr ""
+"Bilgeliğini Yaşamak\n"
+"İçin Kullanmakta"
+
+msgid "FLUTTERKNYTE"
+msgstr ""
+
+msgid ""
+"Still Working\n"
+"Every Day"
+msgstr ""
+"Hala Her Gün\n"
+"Çalışıyor"
+
+msgid ""
+"Finally Took\n"
+"A Break"
+msgstr ""
+"Sonunda Mola\n"
+"Verdi"
+
+msgid ""
+"Looking For Some\n"
+"Private Time"
+msgstr ""
+"Biraz Kişisel\n"
+"Zaman Arıyor"
+
+msgid ""
+"Working Harder\n"
+"Out Of Fear"
+msgstr ""
+"Korkudan Daha\n"
+"Çok Çalışıyor"
+
+msgid "EYEWALKER PRIME"
+msgstr "EYEWALKER PRİME"
+
+msgid ""
+"Still A\n"
+"Big Bully"
+msgstr ""
+"Hala Koca\n"
+"Bir Zorba"
+
+msgid ""
+"Domineering\n"
+"Eye Doctor"
+msgstr ""
+"Otoriter\n"
+"Göz Doktoru"
+
+msgid ""
+"Domineering\n"
+"Leather Tailor"
+msgstr ""
+"Otoriter\n"
+"Derici"
+
+msgid ""
+"Overthrown By\n"
+"An Oculoux"
+msgstr ""
+"Yerine Başka\n"
+"Oculoux Geçti"
+
+msgid "SILENCIO"
+msgstr "SİLENCİO"
+
+msgid ""
+"Still A\n"
+"Shameless Coward"
+msgstr ""
+"Hala Utanmaz\n"
+"Bir Korkak"
+
+msgid ""
+"A Little Less Of\n"
+"A Coward"
+msgstr ""
+"Artık Pek De\n"
+"Korkak Değil"
+
+msgid ""
+"In Love With\n"
+"Its Fear"
+msgstr ""
+"Korkusuna\n"
+"Aşık"
+
+msgid ""
+"Running Faster\n"
+"Than Ever Before"
+msgstr ""
+"Her Zamankinden\n"
+"Daha Hızlı Koşuyor"
+
+msgid "MUSHKETEER"
+msgstr ""
+
+msgid "Balgamlı Kedi & Ghostly"
+msgstr ""
+
+msgid ""
+"One Mushroom\n"
+"Army"
+msgstr ""
+"Tek Mantarlık\n"
+"Ordu"
+
+msgid ""
+"Hardened Warrior\n"
+"Seeking Peace"
+msgstr ""
+"Eski Savaşçı\n"
+"Barış Arayışında"
+
+msgid ""
+"Defeated By The\n"
+"Power Of Love"
+msgstr ""
+"Sevginin Gücüyle\n"
+"Yenildi"
+
+msgid ""
+"Scared\n"
+"Straight"
+msgstr ""
+"Direkt\n"
+"Korkmuş"
+
+msgid "PAPYRUS"
+msgstr ""
+
+msgid "ProctorDorkchop02 & MattSpriteMaster"
+msgstr ""
+
+msgid "SANS"
+msgstr ""
+
+msgid "ProctorDorkchop02 & Fired"
+msgstr ""
+
+msgid "UNDYNE"
+msgstr ""
+
+msgid "ALPHYS"
+msgstr ""
+
+msgid "MEW MEW"
+msgstr ""
+
+msgid "NAPSTABLOOK"
+msgstr ""
+
+msgid "METTATON"
+msgstr ""
+
+msgid "TORIEL"
+msgstr "TORİEL"
+
+msgid "ASGORE"
+msgstr ""
+
+msgid "MONSTER KID"
+msgstr "CANAVAR ÇOCUK"
+
+msgid "ASRIEL"
+msgstr "ASRİEL"
+
+msgid "Medi0creking & MattSpriteMaster"
+msgstr ""
+
+msgid "[↑ or ↓] to Select / [Z or ENTER] to Confirm"
+msgstr "Seçmek için [↑ veya ↓] / Onaylamak için [Z veya ENTER]"
+
+msgid ""
+"To whom it may concern,\n"
+"\n"
+"This game contains §fill=#ff0§flashing images§fill=#fff§\n"
+"which may be reduced via the\n"
+"§fill=#ff0§settings menu§fill=#fff§.\n"
+"\n"
+msgstr ""
+"Etkilenebilmesi olası kişilere,\n"
+"\n"
+"Bu oyunda §fill=#ff0§parlak ışıklar§fill=#fff§ mevcut.\n"
+"Ama dilerseniz §fill=#ff0§ayarlar menüsünden§fill=#fff§\n"
+"seviyesini düşürebilirsiniz.\n"
+"\n"
+
+msgid "§fill=#808080§Press [Z or ENTER] to Continue"
+msgstr "§fill=#808080§Devam etmek için [Z veya ENTER]'a basın"
+
+msgid "Quitting"
+msgstr "Çıkılıyor"
+
+msgid "Quitting."
+msgstr "Çıkılıyor."
+
+msgid "Quitting.."
+msgstr "Çıkılıyor.."
+
+msgid "Thank you for playing Outertale."
+msgstr "(Şimdi Sırada Geliştiricinin Sözleri)"
+
+msgid "Working on this project has been an honor,"
+msgstr "Outertale'i oynadığın için teşekkürler."
+
+msgid "and a pleasure on my part."
+msgstr "Bu projede çalışmak benim için bir gurur ve memnuniyetti."
+
+msgid "When I started this journey, I never"
+msgstr "Bu yolculuğa başladığımda, hiç"
+
+msgid "thought I'd get this far, but here we"
+msgstr "bu kadar mesafe kat edebileceğimi düşünmezdim,"
+
+msgid "are anyway, at the end."
+msgstr "ama işte buradayız, işin sonunda."
+
+msgid "For me, UNDERTALE was a life-changing"
+msgstr "Benim için, UNDERTALE hayat değiştirici"
+
+msgid "experience, and one that was very hard to"
+msgstr "bir deneyimdi, ilk kez oynadıktan"
+
+msgid "let go of after I first played it."
+msgstr "sonra bırakması zor bir türden."
+
+msgid "So, with OUTERTALE, I wanted to give you"
+msgstr "O yüzden OUTERTALE ile, sana"
+
+msgid "another chance to exist in a world like it,"
+msgstr "tekrar böyle bir evrende bulunma şansı vermek istedim,"
+
+msgid "as if it were your first time."
+msgstr "adeta ilk kez oynuyormuşçasına."
+
+msgid "I hope I've given you that chance."
+msgstr "Umarım sana öyle bir şans verebilmişimdir."
+
+msgid "I hope you've come away satisfied with"
+msgstr "Ve umarım bu oyunda geçirdiğin zamandan"
+
+msgid "the time you've spent in this world."
+msgstr "sonra tatmin olmuşsundur."
+
+msgid "No matter what you've done in your life,"
+msgstr "Hayatında ne yaptığın fark etmeksizin,"
+
+msgid "your actions here speak volumes about the"
+msgstr "burada yaptığın şeyler kişiliğin"
+
+msgid "kind of person you really are."
+msgstr "hakkında pek çok şey anlatıyor."
+
+msgid "It's because of you that you got the ending"
+msgstr "Senden ötürü sana böyle bir son"
+
+msgid "you did, and nothing can take that"
+msgstr "denk geldi, bu deneyimi de senden"
+
+msgid "experience away from you."
+msgstr "hiçbir şey alamaz."
+
+msgid "Despite your mistakes... you are awesome,"
+msgstr "Hatalarına rağmen... sen mükemmelsin,"
+
+msgid "and you deserve love and attention."
+msgstr "ayrıca ilgi ve sevgiyi hak ediyorsun."
+
+msgid "Remember that, okay?"
+msgstr "Bunu hatırla, olur mu?"
+
+msgid "Take care of yourself, \"$(x).\""
+msgstr "Kendine iyi bak, \"$(x).\""
+
+msgid "THE END"
+msgstr "SON"
+
+msgid "THE END...?"
+msgstr "SON...?"
+
+msgid "Restarting"
+msgstr "Tekrar Başlıyor"
+
+msgid "Restarting."
+msgstr "Tekrar Başlıyor."
+
+msgid "Restarting.."
+msgstr "Tekrar Başlıyor.."
+
+msgid "OUTERTALE"
+msgstr ""
+
+msgid "OUTERTALE...?"
+msgstr ""
+
+msgid "GAMEPAD SETUP"
+msgstr "GAMEPAD KURULUMU"
+
+msgid ""
+"Use an input on your gamepad to assign\n"
+"it to the in-game action.\n"
+"\n"
+"Use the input again to confirm, or use\n"
+"other inputs to assign those as well.\n"
+"\n"
+"Press ESC to skip setup."
+msgstr ""
+"Tuş ataması yapmak için\n"
+"gamepad’inizdeki herhangi\n"
+"bir tuşa basın.\n"
+"\n"
+"Atamayı onaylamak için\n"
+"tekrar aynı tuşa basın\n"
+"ya da başka bir tuşa geçin.\n"
+"\n"
+"Bu aşamayı geçmek için [ESC]."
+
+msgid "Inputs Assigned: $(x)"
+msgstr "Atanmış Tuşlar: $(x)"
+
+msgid "[Z or ENTER] - Confirm"
+msgstr "[Z veya ENTER] - Onayla"
+
+msgid "[X or SHIFT] - Cancel"
+msgstr "[X veya SHIFT] - İptal"
+
+msgid "[C or CTRL] - Menu (In-game)"
+msgstr "[C veya CTRL] - Menü (Oyun İçi)"
+
+msgid "[UP or W] - Move Up"
+msgstr "[ÜST OK veya W] - Yukarı"
+
+msgid "[LEFT or A] - Move Left"
+msgstr "[SOL OK veya A] - Sol"
+
+msgid "[DOWN or S] - Move Down"
+msgstr "[ALT OK veya S] - Aşağı"
+
+msgid "[RIGHT or D] - Move Right"
+msgstr "[SAĞ OK veya D] - Sağ"
+
+msgid "[F4] - Fullscreen"
+msgstr "[F4] - Tam Ekran"
+
+msgid ""
+"Setup complete.\n"
+"Press any button to continue."
+msgstr ""
+"Kurulum tamamlandı.\n"
+"Devam etmek için herhangi bir tuşa basın."
+
+msgid ""
+"\n"
+"Note: On this platform, the gamepad may\n"
+"not always be able to enter fullscreen."
+msgstr ""
+"\n"
+"Not: Bu platformda, gamepad her zaman tam ekrana giremeyebilir."
+
+msgid ""
+"A gamepad has already been set up.\n"
+"Press any button to continue, or press\n"
+"any button three times in rapid\n"
+"succession to restart setup.\n"
+"\n"
+"Press ESC to skip setup."
+msgstr ""
+"Önceden kurulu bir gamepad mevcut.\n"
+"Devam etmek için herhangi bir tuşa basın ya da kurulumu baştan başlatmak\n"
+"için aynı tuşa hızlıca\n"
+"üç kere basın.\n"
+"\n"
+"Kurulumu geçmek için [ESC]."
+
+msgid "Asriel"
+msgstr ""
+
+msgid "The Oblivion"
+msgstr "Hiçlik"
+
+msgid "DISABLED"
+msgstr "DEVRE DIŞI"
+
+msgid "ENABLED"
+msgstr "ETKİN"
+
+msgid "Press [X] to Finish"
+msgstr "Bitirmek için [X]’e basın."
+
+msgid "Frisk"
+msgstr ""
+
+msgid "G"
+msgstr "A"
+
+msgid "INF"
+msgstr "SONSUZ"
+
+msgid "[PRESS Z OR ENTER]"
+msgstr "[Z VEYA ENTER’A BASIN]"
+
+msgid "LV"
+msgstr "SV"
+
+msgid ""
+"§mystify=ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz§aaaaaa§mystify=§"
+msgstr ""
+
+msgid ""
+"{@mystify=ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz}aaaaaa{@mystify=}"
+msgstr ""
+
+msgid "{@mystify=abcdefghijklmnopqrstuvwxyz}aaaaaa{@mystify=}"
+msgstr ""
+
+msgid "{@mystify=ABCDEFGHIJKLMNOPQRSTUVWXYZ}aaaaaa{@mystify=}"
+msgstr ""
+
+msgid "No"
+msgstr "Hayır"
+
+msgid "§fill=#0f0§NOMINAL"
+msgstr ""
+
+msgid "$(x)%"
+msgstr "%$(x)"
+
+msgid "player"
+msgstr "oyuncu"
+
+msgid "Settings"
+msgstr "Ayarlar"
+
+msgid "?"
+msgstr ""
+
+msgid "XM"
+msgstr "EM"
+
+msgid "Yes"
+msgstr "Evet"
+
+msgid "INVENTORY"
+msgstr "ENVANTER"
+
+msgid "BOX"
+msgstr "KUTU"
+
+msgid "KEYRING"
+msgstr "ANAHTARLIK"
+
+msgid "Is this name correct?"
+msgstr "Bu isim doğru mu?"
+
+msgid ""
+"A name has already\n"
+"been chosen."
+msgstr ""
+"Çoktan bir isim\n"
+"seçilmiş."
+
+msgid "Go back"
+msgstr "Geri dön"
+
+msgid "OUTERTALE V5.03 (c) 2024 SPACEY_432"
+msgstr ""
+
+msgid "* (HP fully restored.)"
+msgstr "* (CAN'ın tamamen doldu.)"
+
+msgid "* (You recovered $(x) HP.)"
+msgstr "* ($(x) CAN yeniledin.)"
+
+msgid "* (You lost $(x) HP.)"
+msgstr "* ($(x) CAN kaybettin.)"
+
+msgid "* (HP fully depleted.)"
+msgstr "* (CAN'ın tamamen sıfırlandı.)"
+
+msgid "* (You gained $(x) HP.)"
+msgstr "* ($(x) CAN kazandın.)"
+
+msgid "USE"
+msgstr "KULLAN"
+
+msgid "EQUIP"
+msgstr "KUŞAN"
+
+msgid "INFO"
+msgstr "BİLGİ"
+
+msgid "DROP"
+msgstr "BIRAK"
+
+msgid "Continue"
+msgstr "Devam Et"
+
+msgid "Observe"
+msgstr "İzle"
+
+msgid "Reset"
+msgstr "Sıfırla"
+
+msgid "True Reset"
+msgstr "Gerçekten Sıfırla"
+
+msgid "Name the stranded human."
+msgstr "Mahsur kalmış insanı adlandır."
+
+msgid "Quit"
+msgstr "Çık"
+
+msgid "Backspace"
+msgstr ""
+
+msgid "Done"
+msgstr "Bitir"
+
+msgid "§fill=#808080§ [ESC] - Quit / [ENTER] - Done"
+msgstr "§fill=#808080§ [ESC] - Çık / [ENTER] - Bitir"
+
+msgid "Return"
+msgstr "Geri Dön"
+
+msgid "File saved."
+msgstr "Dosya kaydedildi."
+
+msgid "SETTINGS"
+msgstr "AYARLAR"
+
+msgid "EXIT"
+msgstr "ÇIK"
+
+msgid "LANGUAGE"
+msgstr "DİL"
+
+msgid "ENGLISH"
+msgstr "TÜRKÇE"
+
+msgid "SOUND FX"
+msgstr "SES EFEKTİ"
+
+msgid "MUSIC"
+msgstr "MÜZİK"
+
+msgid "FANCY GRAPHICS"
+msgstr "SÜSLÜ GRAFİKLER"
+
+msgid "FLASHING IMAGERY"
+msgstr "YANARDÖNERLİ GÖRSELLER"
+
+msgid "NORMAL"
+msgstr ""
+
+msgid "REDUCED"
+msgstr "AZALTILMIŞ"
+
+msgid "TOUCH CONTROLS"
+msgstr "DOKUNMATİK KONTROL"
+
+msgid "LEFT"
+msgstr "SOLDA"
+
+msgid "RIGHT"
+msgstr "SAĞDA"
+
+msgid "HIDDEN"
+msgstr "GİZLİ"
+
+msgid "DEADZONE"
+msgstr "BOŞLUK"
+
+msgid "OPEN MOD FOLDER"
+msgstr "MOD DOSYASINI AÇ"
+
+msgid "RESTART"
+msgstr "TEKRAR BAŞLAT"
+
+msgid "ITEM"
+msgstr "EŞYA"
+
+msgid "STAT"
+msgstr "DURUM"
+
+msgid "CELL"
+msgstr "CEP"
+
+msgid "CONF"
+msgstr "AYAR"
+
+msgid "--- Instruction ---"
+msgstr "--- Yönerge ---"
+
+msgid "[Hold ESC] - Restart"
+msgstr "[ESC Basılı Tut] - Tekrar Başla"
+
+msgid "When HP is 0, you lose."
+msgstr "CAN'ın 0’a düşerse, kaybedersin."
+
+msgid "Begin Game"
+msgstr "Oyuna Başla"
+
+msgid "AT"
+msgstr "SL"
+
+msgid "DF"
+msgstr "SV"
+
+msgid "GOLD"
+msgstr "ALTIN"
+
+msgid "NEXT"
+msgstr "SONRAKİ"
+
+msgid ""
+"§fill=#ff0§Warning:\n"
+"Non-canon\n"
+"timeline."
+msgstr ""
+"§fill=#ff0§Uyarı:\n"
+"Asıl zaman\n"
+"çizelgesi\n"
+"değil."
+
+msgid "KILLS"
+msgstr "ÖLEN"
+
+msgid "BULLY"
+msgstr "ZORBA"
+
+msgid "FLIRT"
+msgstr "FLÖRT"
+
+msgid "STATUS"
+msgstr "DURUM"
+
+msgid "\"$(x)\""
+msgstr ""
+
+msgid ""
+"<24>{#p/storyteller}Long ago, two species ruled the solar system: HUMANS and"
+" MONSTERS.{^35}{}"
+msgstr ""
+"<24>{#p/storyteller}Uzun zaman önce, Güneş Sistemi'ne iki ırk hükmediyordu: "
+"İNSANLAR VE CANAVARLAR.{^35}{}"
+
+msgid "<24>As time passed, a war broke out between the two species.{^35}{}"
+msgstr "<24>Zaman geçtikçe, iki türün arasında bir savaş çıktı.{^35}{}"
+
+msgid ""
+"<24>After the MONSTERS' home planet was destroyed, HUMANS declared "
+"victory.{^35}{}"
+msgstr ""
+"<24>CANAVARLARIN ana gezegeni yok edilince İNSANLAR zafer ilan etti.{^35}{}"
+
+msgid ""
+"<24>The remaining MONSTERS were banished to an abandoned outpost.{^35}{}"
+msgstr ""
+"<24>Geriye kalan CANAVARLAR terk edilmiş bir karakola sürülmüştü.{^35}{}"
+
+msgid ""
+"<24>A powerful force field was erected, and the MONSTERS were sealed "
+"in.{^35}{}"
+msgstr ""
+"<24>Kuvvetli bir güç kalkanı oluşturuldu, CANAVARLAR içine "
+"hapsedildi.{^35}{}"
+
+msgid "<24>Many years later.{^8}.{^8}.{^35}{}"
+msgstr "<24>Yıllar yıllar sonra.{^8}.{^8}.{^35}{}"
+
+msgid ""
+"<#24>     EBOTT SECTOR     \n"
+"         251X{^35}{}"
+msgstr ""
+"<#24>     EBOTT SEKTÖRÜ     \n"
+"         251X{^35}{}"
+
+msgid "<24>Tales speak of a place from which spacecraft never return.{^35}{}"
+msgstr ""
+"<24>Masallar hiçbir uzay mekiğinin geri dönemediği bir yerden "
+"bahseder.{^35}{}"
+
+msgid "<24>{^100}{}"
+msgstr ""
+
+msgid "<24>{^35}{}"
+msgstr ""
+
+msgid "Resume Canon Timeline"
+msgstr "Asıl Zaman Çizelgesine Devam"
+
+msgid "Start Canon Timeline"
+msgstr "Yeni Asıl Zaman Çizelgesi"
+
+msgid "Other Slots"
+msgstr "Diğer Slotlar"
+
+msgid "Bisect"
+msgstr "Çoğalt"
+
+msgid "Delete"
+msgstr "Sil"
+
+msgid "[ESC] to Cancel / [ENTER] to Confirm"
+msgstr "İptal için [ESC] / Onaylamak için [ENTER]"
+
+msgid "Press any button on your gamepad to open the keyboard."
+msgstr "Klavyeyi açmak için gamepad'inizdeki herhangi bir tuşa basın."
+
+msgid "Launch"
+msgstr "Yükle"
+
+msgid "Rename"
+msgstr "Yeni İsim"
+
+msgid "Create New"
+msgstr "Yenisini Oluştur"
+
+msgid "Enter Timeline Name"
+msgstr "Zaman Çizelgesi Adı"
+
+msgid "Are You Sure?"
+msgstr "Emin Misin?"
