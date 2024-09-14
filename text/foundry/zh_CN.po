@@ -1,22 +1,20 @@
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-14 05:28+0000\n"
-"PO-Revision-Date: 2024-09-14 05:28+0000\n"
-"Last-Translator: errosia <ericyan2008@foxmail.com>\n"
+"PO-Revision-Date: 2024-09-14 14:49+0000\n"
+"Last-Translator: WS-3917 <ws3917@outlook.com>\n"
 "Language-Team: Chinese (Simplified) <https://ws3917.site/projects/"
 "project-spacetime/3-foundry/zh_Hans/>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: ENCODING\n"
+"Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 5.6.2\n"
 
 #
-
 msgid "<32>{#p/basic}* ..."
 msgstr "<32>{#p/basic}* ..."
 
@@ -352,13 +350,13 @@ msgid "<32>{#p/basic}* There is an inscription inscribed on the pedastal."
 msgstr "<32>{#p/basic}* 底座上刻着铭文。"
 
 msgid "<32>* \"Two halves, split by the ivories.\""
-msgstr "<32>* “琴音喈喈，分为二别。”"
+msgstr "<32>* “琴台静立其间，两侧别有洞天。”"
 
 msgid "<32>* \"If the prince's is your left, then whose is your right?"
-msgstr "<32>* “左居王子，右居者谁？”"
+msgstr "<32>* “王子曲成左门启，谁人可使右室显？”"
 
 msgid "<32>* \"And what is their melody?\""
-msgstr "<32>* “奏其旋律，訇然谜解。”"
+msgstr "<32>* “再奏谜自开。”"
 
 msgid "<32>{#p/basic}* The tome is attached firmly to the pedastal."
 msgstr "<32>{#p/basic}* 这册书牢牢地固定在底座上。"
@@ -7197,25 +7195,25 @@ msgid ""
 msgstr ""
 
 msgid "<32>{#p/basic}* ... there's a riddle here."
-msgstr "<32>{#p/basic}* ...这里有个谜题。"
+msgstr "<32>{#p/basic}* ...上面刻着一个谜题。"
 
 msgid ""
 "<32>* \"Flip the switch and bring a friend to a place you've been before "
 "again...\""
-msgstr "<32>* “开关既已启，同友归故地。”"
+msgstr "<32>* “玄机暗中已动，携友故地重游。”"
 
 msgid "<32>* \"A figure not unlike my own, a statue carved and set in stone.\""
-msgstr "<32>* “石像同我辈，不差一毫厘。”"
+msgstr "<32>* “石像如我立当中，顿悟旋律路自通。”"
 
 msgid ""
 "<32>* \"Follow the sequence of notes divined, to unlock the path to the "
 "other side...\""
-msgstr "<32>* “循音复奏曲，别路方可莅。”"
+msgstr "<32>* “借力破迷踪。”"
 
 msgid ""
 "<32>* \"Bring the item to the room nextdoor, and all the power will be "
 "yours.\""
-msgstr "<32>* “携物邻间至，随后力盈体。”"
+msgstr "[DEL]"
 
 msgid ""
 "<32>{#p/human}* (It also mentions bringing an item to a specific area.)"
