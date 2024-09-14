@@ -1,6 +1,21 @@
-#
+#, fuzzy
 msgid ""
 msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-09-14 16:28+0000\n"
+"PO-Revision-Date: 2024-09-14 16:28+0000\n"
+"Last-Translator: MurderSans_MDR <z127568254@163.com>\n"
+"Language-Team: Chinese (Simplified) <https://ws3917.site/projects/"
+"project-spacetime/4-aerialis/zh_Hans/>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: ENCODING\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.6.2\n"
+
+#
 
 msgid "<32>{#p/human}* (It appears the terminal is beyond your access level.)"
 msgstr ""
@@ -7968,8 +7983,6 @@ msgstr "<25>{#p/asriel2}{#f/8}* 只能换条路走了。"
 msgid "<32>{#p/human}* (Where would you like to go?)"
 msgstr "<32>{#p/human}* （你想去哪里？）"
 
-msgid ""
-msgstr ""
 
 msgid "Floor L1"
 msgstr "左一层"
@@ -9705,13 +9718,13 @@ msgid ""
 msgstr ""
 
 msgid "<25>{#p/asriel2}{#f/13}* Uh, $(name)...?"
-msgstr ""
+msgstr "<25>{#p/asriel2}{#f/13}* 呃... $(name)？ゑ"
 
 msgid "<25>* I think we've gone a little too far."
-msgstr ""
+msgstr "<25>* 咱俩好像走过头了。ゑ"
 
 msgid "<25>{#p/asriel2}{#f/13}* $(name)...?"
-msgstr ""
+msgstr "<25>{#p/asriel2}{#f/13}* ...$(name)？ゑ"
 
 msgid ""
 "<32>{#p/basic}{#npc/a}* Oh...\n"
@@ -13179,7 +13192,7 @@ msgid "<32>{#p/story}* It's a space-faring nightmare!"
 msgstr ""
 
 msgid "<32>{#p/asriel2}* One left."
-msgstr ""
+msgstr "<32>{#p/asriel2}* 只剩一个了。"
 
 msgid "<32>{#p/story}* Only Astro Serf remains."
 msgstr ""
@@ -18783,7 +18796,7 @@ msgid ""
 msgstr ""
 
 msgid "<11>{#p/basic}{~}Team attack."
-msgstr ""
+msgstr "<11>{#p/basic}{~}组合技。"
 
 msgid "<11>{#p/basic}{~}We'll stop you..."
 msgstr ""
@@ -18844,25 +18857,25 @@ msgid ""
 msgstr ""
 
 msgid "<11>{#p/basic}{~}{@random=1.1/1.1}Suffer."
-msgstr ""
+msgstr "<11>{#p/basic}{~}{@random=1.1/1.1}下地狱吧。ゑ"
 
 msgid "<11>{#p/basic}{~}{@random=1.1/1.1}I'll never know..."
 msgstr ""
 
 msgid "<11>{#p/basic}{~}{@random=1.1/1.1}No mercy."
-msgstr "<11>{#p/basic}{~}{@random=1.1/1.1}不可饶恕。"
+msgstr "<11>{#p/basic}{~}{@random=1.1/1.1}死有余辜。ゑ"
 
 msgid "<11>{#p/basic}{~}{@random=1.1/1.1}It's too late..."
 msgstr ""
 
 msgid "<11>{#p/basic}{~}{@random=1.1/1.1}Unforgiv- able."
-msgstr ""
+msgstr "<11>{#p/basic}{~}{@random=1.1/1.1}禽兽不如。ゑ"
 
 msgid "<11>{#p/basic}{~}{@random=1.1/1.1}I missed my chance..."
 msgstr ""
 
 msgid "<11>{#p/basic}{~}{@random=1.1/1.1}Die."
-msgstr ""
+msgstr "<11>{#p/basic}{~}{@random=1.1/1.1}给我去死。ゑ"
 
 msgid "<11>{#p/basic}{~}{@random=1.1/1.1}It can't be..."
 msgstr ""
@@ -19136,7 +19149,7 @@ msgid ""
 msgstr ""
 
 msgid "<11>{#p/basic}{~}Team attack!"
-msgstr ""
+msgstr "<11>{#p/basic}{~}组合技！"
 
 msgid "<11>{#p/basic}{~}Once and for all!"
 msgstr "<11>{#p/basic}{~}一劳永逸！"
@@ -19157,25 +19170,27 @@ msgid "<11>{#p/basic}{~}Oh you know it, girl!"
 msgstr ""
 
 msgid "<11>{#p/basic}{~}{@random=1.1/1.1}It's over for you!!"
-msgstr "<11>{#p/basic}{~}{@random=1.1/1.1}你完了！！"
+msgstr "<11>{#p/basic}{~}{@random=1.1/1.1}你完蛋了！！ゑ"
 
 msgid "<11>{#p/basic}{~}{@random=1.1/1.1}How could you do this to me...!?"
 msgstr ""
 
 msgid "<11>{#p/basic}{~}{@random=1.1/1.1}Don't even try!!"
-msgstr "<11>{#p/basic}{~}{@random=1.1/1.1}你敢！！"
+msgstr "<11>{#p/basic}{~}{@random=1.1/1.1}休想得逞！！ゑ"
 
 msgid "<11>{#p/basic}{~}{@random=1.1/1.1}She was my only friend...!"
 msgstr ""
 
 msgid "<11>{#p/basic}{~}{@random=1.1/1.1}Prepare to be wiped out!!"
-msgstr "<11>{#p/basic}{~}{@random=1.1/1.1}我灭了你！！"
+msgstr ""
+"<11>{#p/basic}{~}{@random=1.1/1.1}老子\n"
+"宰了你！！ゑ"
 
 msgid "<11>{#p/basic}{~}{@random=1.1/1.1}She was everything to me...!"
 msgstr ""
 
 msgid "<11>{#p/basic}{~}{@random=1.1/1.1}I'm gonna make you pay!!"
-msgstr "<11>{#p/basic}{~}{@random=1.1/1.1}给我付出代价！！"
+msgstr "<11>{#p/basic}{~}{@random=1.1/1.1}血债血偿！ゑ"
 
 msgid "<11>{#p/basic}{~}{@random=1.1/1.1}What kind of creature are you...!?"
 msgstr ""
