@@ -1,6 +1,21 @@
-#
+#, fuzzy
 msgid ""
 msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-09-14 14:49+0000\n"
+"PO-Revision-Date: 2024-09-14 14:49+0000\n"
+"Last-Translator: MurderSans_MDR <z127568254@163.com>\n"
+"Language-Team: Chinese (Simplified) <https://ws3917.site/projects/"
+"project-spacetime/5-citadel/zh_Hans/>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: ENCODING\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.6.2\n"
+
+#
 
 msgid "<32>{#p/human}* (You feel a darkness gathering inside of you.)"
 msgstr "<32>{#p/human}* （一股暗流在你心中充盈。）"
@@ -14142,8 +14157,6 @@ msgid ""
 "* Immovable meets unstoppable.\n"
 "* The end of the line."
 msgstr ""
-"<32>{#p/story}* 力场 - 攻击0 防御{^2}\\u221e{^1}\n"
-"* 矛盾已相向，江海不同归。"
 
 msgid "<32>{#p/story}* It's time to put your fighting spirit to good use."
 msgstr ""
@@ -15548,8 +15561,6 @@ msgstr "<11>{*}{#e/asgore/2}{#v/3}{#i/10}{@random=1.1/1.1}..."
 msgid "<11>{*}{#e/asgore/2}{#v/3}{#i/7}{@random=1.1/1.1}Goodbye..."
 msgstr "<11>{*}{#e/asgore/2}{#v/3}{#i/12}{@random=1.1/1.1}永别了..."
 
-msgid ""
-msgstr ""
 
 msgid "N/A"
 msgstr "无"
