@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-15 11:28+0000\n"
-"PO-Revision-Date: 2024-09-15 12:28+0000\n"
+"PO-Revision-Date: 2024-09-15 13:28+0000\n"
 "Last-Translator: forestfamily4 <hyper.developer.ink@gmail.com>\n"
 "Language-Team: Japanese <https://ws3917.site/projects/project-spacetime/"
 "1-outlands/ja/>\n"
@@ -1487,7 +1487,7 @@ msgid ""
 msgstr "<17>{#p/human}＊（3ページめをひらいた…　2ねんほど　たっているようだ）"
 
 msgid "<32>{#p/asriel1}{#v/2}* \"Azzys Diary, K-506.03.\""
-msgstr "<17>{#p/asriel1}{#v/2}＊「アズのにっき　Kれき506年　3月」"
+msgstr "<17>{#p/asriel1}{#v/2}＊「アズのにっき　Kれき506ねん　3かつ」"
 
 msgid ""
 "<32>* \"My old diary was in a box of toys And i wanted to put more in it.\""
@@ -1506,103 +1506,108 @@ msgid ""
 msgstr "<17>＊「こないだ　ともだちと　ケンカして　それから　はなしていません。」"
 
 msgid "<32>* \"Im worryed about them... i hope theyre not still mad.\""
-msgstr "<17>＊「しんぱいだな…　おこってないと　いいんだけど…」"
+msgstr "<17>＊「しんぱいです…　おこってないと　いいんだけど…」"
 
 msgid "<32>{#p/human}* (You turn to the fourth page...)"
 msgstr "<17>{#p/human}＊（4ページめをひらいた…)"
 
 msgid "<32>{#p/asriel1}{#v/2}* \"Azzys Diary, K-506.03\""
-msgstr ""
+msgstr "<17>{#p/asriel1}{#v/2}＊「アズのにっき　Kれき506ねん　3がつ」"
 
 msgid ""
 "<32>* \"i talked with my frend, they say theyre not upset anymore, so thats "
 "good\""
-msgstr ""
+msgstr "<17>＊「ともだちと　はなしました。　もうおこってないって。　よかった」"
 
 msgid ""
 "<32>* \"Mommy and I were watching the sky out side And we saw a shooting "
 "star.\""
-msgstr ""
+msgstr "<17>＊「ママと　いっしょに　ほしを　みにでかけました。　そこで　"
+"ながれぼしをみれて…」"
 
 msgid ""
 "<32>* \"She said to make a wish... I wished that one day a human wood come "
 "down.\""
-msgstr ""
+msgstr "<17>＊「ママが　ねがいごとを　しなさい　って。　いつかニンゲンと　あいたい…　"
+"とねがいました。」"
 
 msgid "<32>* \"Mommy and Daddy tell so many storys about them...\""
-msgstr ""
+msgstr "<17>＊「ママとパパは　ニンゲンについて　いろいろ　おしえてくれました。」"
 
 msgid "<32>* \"They cant all be bad rite?\""
-msgstr ""
+msgstr "<17>＊「すべてのニンゲンが　あくにん　なわけないでしょ？」"
 
 msgid "<32>{#p/human}* (You turn to the fifth page...)"
-msgstr ""
+msgstr "<17>{#p/human}＊（5ページめをひらいた…)"
 
 msgid "<32>* \"Not alot to say today.\""
-msgstr ""
+msgstr "<17>＊「とくに　かくべきことが　ありません。」"
 
 msgid "<32>* \"Maybe this diary idea is silly.\""
-msgstr ""
+msgstr "<17>＊「こんなの　やるイミが　ないかもしれない。」"
 
 msgid ""
 "<32>* \"Mom saw me riting in it the other day and said she was proud of "
 "me.\""
-msgstr ""
+msgstr "<17>＊「ママは　にっきを　かいてるボクをみて　ほこらしげだったけど…」"
 
 msgid "<32>* \"Is it realy that importint?\""
-msgstr ""
+msgstr "<17>＊「そんなに　ほめられる　ようなこと　なのかな？」"
 
 msgid ""
 "<32>{#p/human}* (You turn to the sixth page... seems like a few more years "
 "went by.)"
-msgstr ""
+msgstr "<17>{#p/human}＊（6ページめをひらいた…　4ねんほど　たっているようだ）"
 
 msgid "<32>{#p/asriel1}{#v/1}* \"Azzy's Diary, K-510.08\""
-msgstr ""
+msgstr "<17>{#p/asriel1}{#v/1}＊「アズのにっき　Kれき51年0　8月」"
 
 msgid "<32>* \"Seems I cant write in this thing for too long at once.\""
-msgstr ""
+msgstr "<17>＊「にっきをみるに　やっぱボクは　みっかぼうず　だな。」"
 
 msgid ""
 "<32>* \"But today I saw the book again and chose to write some more in it.\""
-msgstr ""
+msgstr "<17>＊「でも　きょうからは　ちゃんと　かこうとおもう。」"
 
 msgid ""
 "<32>* \"The past few years have been good, I went to school and learned lots"
 " of things.\""
-msgstr ""
+msgstr "<17>＊「ここすうねん　たのしかった。　がっこうにいくようになって　たくさん　"
+"べんきょうできた。」"
 
 msgid ""
 "<32>* \"Like how to add numbers.\"\n"
 "* \"And how to use a computer.\""
-msgstr ""
+msgstr "<17>＊「たしざんだったり、パソコンのつかいかただったり。」"
 
 msgid "<32>* \"Mom said Im too young to make an online acount tho.\""
-msgstr ""
+msgstr "<17>＊「でも　ママは　ネットでアカウントを　つくっちゃ　ダメだって。」"
 
 msgid "<32>* \"Maybe one day when Im older I can have one.\""
-msgstr ""
+msgstr "<17>＊「おおきくなって　つくれたら　いいな…」"
 
 msgid "<32>{#p/human}* (You turn to the seventh page...)"
-msgstr ""
+msgstr "<17>{#p/human}＊（7ページめをひらいた…）"
 
 msgid "<32>{#p/asriel1}{#v/1}* \"Azzy's Diary, K-510.08.\""
-msgstr ""
+msgstr "<17>{#p/asriel1}{#v/1}＊「アズのにっき　Kれき510年　8月」"
 
 msgid ""
 "<32>* \"That smart guy visited again today. He said he had a bad dream about"
 " a human.\""
-msgstr ""
+msgstr "<17>＊「あのせんせいが　またいえにきた。　ニンゲンについて　わるいゆめを　"
+"みたらしい。」"
 
 msgid ""
 "<32>* \"Oh, did I mention him? He is the science person dad talks to alot.\""
-msgstr ""
+msgstr "<17>＊「えっと　せんせい　ってのは　パパが　よくはなしてる　"
+"かがくしゃだよ。」"
 
 msgid "<32>* \"He invented alot of things that we use now.\""
-msgstr ""
+msgstr "<17>＊「せんせいは　はつめいか　なんだ。」"
 
 msgid "<32>* \"Like the replicaters and fabricaters and gravity plate things.\""
-msgstr ""
+msgstr "<17>＊「ふくせいきとか　」"
 
 msgid "<32>* \"But he looked at me really odd Like I was so scary.\""
 msgstr ""
