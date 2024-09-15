@@ -971,7 +971,7 @@ export default {
       confirm2: '已經選定了一個名字。',
       confirm3: '返回',
 
-      footer: 'OUTERTALE V5.04 (c) 2024 SPACEY_432',
+      footer: 'OUTERTALE V5.04 (c) 2024 SPACEY_432 繁體中文版 PSOT漢化組',
 
       heal1: '* （HP已回滿。）',
       heal2: '* （你回復了$(x) HP。）',

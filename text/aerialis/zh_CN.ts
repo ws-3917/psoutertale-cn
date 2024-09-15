@@ -2887,36 +2887,36 @@ export default {
          operaX4: () =>
             [
                [
-                  "<25>{*}{#p/asriel2}{#f/10}* So tell me, what's this little song about?{^30}{%}",
-                  '<32>{*}{#p/mettaton}{#x1}* OH, ASRIEL...{^30}{%}',
-                  '<32>{*}{#x2}* HAVEN\'T YOU HEARD OF A THING CALLED \"SPOILERS?\"{^30}{%}',
-                  '<25>{*}{#p/asriel2}{#f/6}* Figures.{^30}{%}'
+                  "<25>{*}{#p/asriel2}{#f/10}* 跟我说说，\n  你打算唱啥呢？{^30}{%}",
+                  '<32>{*}{#p/mettaton}{#x1}* ASRIEL啊...{^30}{%}',
+                  '<32>{*}{#x2}* 难道你不知道\n  这叫“剧透”吗？{^30}{%}',
+                  '<25>{*}{#p/asriel2}{#f/6}* 也是意料之中了。{^30}{%}'
                ],
                [
-                  "<25>{*}{#p/asriel2}{#f/7}* I already know this show's just about me.{^30}{%}",
-                  '<32>{*}{#p/mettaton}{#x1}* OH, DO YOU NOW?{^30}{%}',
-                  "<32>{*}{#x2}* WELL, I'M AFRAID THAT WON'T STOP ME FROM DOING IT.{^30}{%}",
+                  "<25>{*}{#p/asriel2}{#f/7}* 我已经知道\n  你打算唱我了。{^30}{%}",
+                  '<32>{*}{#p/mettaton}{#x1}* 哦，你知道了啊。{^30}{%}',
+                  "<32>{*}{#x2}* 没事，这不影响我接着唱。{^30}{%}",
                   '<25>{*}{#p/asriel2}{#f/8}* ...{^30}{%}'
                ]
             ][Math.min(SAVE.flag.n.ga_asriel54++, 1)],
          operaX5: () => [
-            "<32>{#p/mettaton}* WELL, THAT'S ALL.",
-            "<32>{#x1}* OH, AND, I FORGOT TO MENTION THAT I'M NOT REALLY HERE.",
-            '<32>* MY CONTROL CHIP IS ALREADY INSTALLED IN THE NEW BODY.',
+            "<32>{#p/mettaton}* 就这样，我唱完了。",
+            "<32>{#x1}* 哦，忘了说了，\n  我本人不在这。",
+            '<32>* 我的控制芯片\n  已经插到新机体上了。',
             ...(SAVE.flag.n.ga_asriel55++ < 1
                ? [
-                  '<25>{#p/asriel2}{#f/10}* ... a new body?',
-                  '<32>{#p/mettaton}* OH, YOU WANT TO SEE IT?',
-                  "<32>* WELL.\n* YOU WON'T HAVE TO WAIT MUCH LONGER."
+                  '<25>{#p/asriel2}{#f/10}* ...新机体？',
+                  '<32>{#p/mettaton}* 怎么，想观摩观摩？',
+                  "<32>* 别急嘛。\n* 我不会让你等太久的。"
                ]
                : []),
-            '<32>{#p/mettaton}* SEE YOU SOON...'
+            '<32>{#p/mettaton}* 待会见...'
          ],
-         operaX7: ["<25>{#p/asriel2}{#f/8}* Something tells me this won't be as easy as we'd hoped."],
-         operaY1: ['<25>{*}{#p/asriel2}{#f/13}* What are you- {%}'],
-         operaY2: ['<25>{*}{#p/asriel2}{#f/15}* $(name).\n* What are you doing.{^40}{%}'],
-         operaY3: ["<25>{*}{#p/asriel2}{#f/15}* This can't go on...{^40}{%}"],
-         operaY4: ['<25>{*}{#p/asriel2}{#f/16}* Thanks anyway, $(name).{^40}{%}'],
+         operaX7: ["<25>{#p/asriel2}{#f/8}* 看来事情不简单，真失望。"],
+         operaY1: ['<25>{*}{#p/asriel2}{#f/13}* 你说什- {%}'],
+         operaY2: ['<25>{*}{#p/asriel2}{#f/15}* $(name)。\n* 你在干啥。{^40}{%}'],
+         operaY3: ["<25>{*}{#p/asriel2}{#f/15}* 快停下...{^40}{%}"],
+         operaY4: ['<25>{*}{#p/asriel2}{#f/16}* $(name)，\n  用不着这样。{^40}{%}'],
          end1: (rgk: boolean) => [
             '<32>{#p/mettaton}* 终于...',
             ...(SAVE.flag.b.legs
@@ -3421,7 +3421,7 @@ export default {
             "<32>{#p/human}* （你检查着Asriel的脑袋，\n  防止等会摔下来。）",
             '<25>{#p/asriel2}{#f/16}* 为啥非得这样。'
          ],
-         kneeler2: ['<25>{#p/asriel2}{#f/8}* 谢了哈。'],
+         kneeler2: ['<25>{#p/asriel2}{#f/8}* 真没必要。'],
          topdesk1: () =>
             SAVE.data.b.svr || world.bad_lizard > 1 || world.genocide || SAVE.data.n.state_foundry_undyne === 2
                ? ["<32>{#p/human}* （屏幕上的图像令你叹为观止。）\n* （你不会在做白日梦吧。）"]
@@ -5916,14 +5916,14 @@ export default {
                      '<25>{#f/10}{#x1}* 看看这安保门，都烧坏了。'
                   ]
                : [
-                  '<25>{#p/asriel2}{#f/13}* ... to think this damage was caused by her magic...',
-                  '<25>{#p/asriel2}{#f/1}* What fearsome power.'
+                  '<25>{#p/asriel2}{#f/13}* ...一想到如此严重的破坏\n  是她的魔法造成的...',
+                  '<25>{#p/asriel2}{#f/1}* 我就感到后怕。'
                ],
          hotelElectrics: [
-            '<25>{#p/asriel2}{#f/10}* That note on the counter, did you see it?',
-            '<25>{#f/6}* If Alphys was here earlier, that could explain the lights.',
-            '<25>{#f/15}* But to short circuit the entirety of the rec center in one go...',
-            "<25>{#f/16}* ... that shouldn't even be possible..."
+            '<25>{#p/asriel2}{#f/10}* 柜台上那些便条\n  你看了吗？',
+            '<25>{#f/6}* Alphys来过这，\n  那就说得通这儿的电路\n  什么情况了。',
+            '<25>{#f/15}* 不过就来那么会，\n  能把这儿的电器全烧坏了？',
+            "<25>{#f/16}* ...这也太荒唐了吧..."
          ],
          hotel2: () =>
             [
@@ -9628,118 +9628,118 @@ export default {
    i_starfait: {
       battle: {
          description: 'There is such a thing as too much sugar.',
-         name: 'Starfaint'
+         name: '新星咖啡'
       },
-      drop: ['<32>{#p/human}* (You throw away the Starfaint.)'],
+      drop: ['<32>{#p/human}* （你把新星咖啡扔掉了。）'],
       info: () =>
          SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
             ? ['<32>{#p/human}* （23 HP。）']
-            : ['<32>{#p/basic}* \"Starfaint\" Heals 23 HP\n* There is such a thing as too much sugar.'],
-      name: 'Starfaint',
-      use: ['<32>{#p/human}* (You consume the Starfaint.)']
+            : ['<32>{#p/basic}* “新星咖啡” 回复23 HP\n* 明显加糖加多了。'],
+      name: '新星咖啡',
+      use: ['<32>{#p/human}* （你喝掉了新星咖啡。）']
    },
    i_legendary_hero: {
       battle: {
-         description: "A shieldwich you can hold to heal after the opponent's turn.",
-         name: 'H.Y.G.'
+         description: "回合中保护，回合后回血，\n这三明治简直碉堡了。",
+         name: '星园烁宠'
       },
-      drop: ['<32>{#p/human}* (You throw away the Hold Yer Grane.)'],
+      drop: ['<32>{#p/human}* （你把星园烁宠扔掉了。）'],
       info: () =>
          SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
             ? ['<32>{#p/human}* （40 HP。）']
             : [
-               '<33>{#p/basic}* \"Hold Yer Grane\" Heals 40 HP\n* A shieldwich you can hold to heal after the opponent\'s turn.'
+               '<33>{#p/basic}* “星园烁宠” 回复40 HP\n* 回合中保护，回合后回血，\n  这三明治简直碉堡了。'
             ],
-      name: 'Hold Yer Grane',
+      name: '星园烁宠',
       use: () =>
          battler.active
             ? [
-               '<32>{#p/human}* (You brandish the Hold Yer Grane proudly.)',
+               '<32>{#p/human}* （你自豪地挥舞着星园烁宠。）',
                '<32>{#p/story}* 本回合，你的防御力提升！'
             ]
-            : ['<32>{#p/human}* (You eat the Hold Yer Grane.)']
+            : ['<32>{#p/human}* （你吃掉了猛男汉堡。）']
    },
    i_glamburger: {
       battle: {
-         description: 'This high-octane hamburger harbors a certain spicy kick.',
-         name: 'Slamburger'
+         description: '汉堡火辣辣，打人顶呱呱。',
+         name: '猛男汉堡'
       },
       drop: () => [
-         '<32>{#p/human}* (You knocked the Slamburger out of the park.)',
+         '<32>{#p/human}* （你拿猛男汉堡来了个全垒打。）',
          ...(SAVE.data.b.svr || world.darker || SAVE.data.b.ufokinwotm8
             ? []
-            : ["<32>{#p/basic}* And that's a home run!"])
+            : ["<32>{#p/basic}* 明明是本垒打！"])
       ],
       info: () =>
          SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
             ? ['<32>{#p/human}* （34 HP。）']
-            : ['<32>{#p/basic}* \"Slamburger\" Heals 34 HP\n* This high-octane hamburger harbors a certain spicy kick.'],
-      name: 'Slamburger',
+            : ['<32>{#p/basic}* “猛男汉堡” 回复34 HP\n* 汉堡火辣辣，打人顶呱呱。'],
+      name: '猛男汉堡',
       use: () => [
-         '<32>{#p/human}* (You slammed down the Slamburger.)',
+         '<32>{#p/human}* （你猛得吞下猛男汉堡。）',
          ...(SAVE.data.b.svr || world.darker || SAVE.data.b.ufokinwotm8
             ? []
-            : ["<32>{#p/basic}* Careful, it's hot in more ways than one!"])
+            : ["<32>{#p/basic}* 小心，里面放了好几种辣椒呢！"])
       ]
    },
    i_face_steak: {
       battle: {
-         description: 'How the turns have tabled.',
-         name: "G's Envy"
+         description: '这就叫“攻守易形”。',
+         name: "Glyde的爱"
       },
-      drop: ["<32>{#p/human}* (You throw away the Glyde's Envy.)"],
+      drop: ["<32>{#p/human}* （你把Glyde的爱扔掉了。）"],
       info: () =>
          SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
             ? ['<32>{#p/human}* （55 HP。）']
-            : ['<32>{#p/basic}* \"Glyde\'s Envy\" Heals 55 HP\n* How the turns have tabled.'],
-      name: "Glyde's Envy",
-      use: ["<32>{#p/human}* (You consume the Glyde's Envy.)"]
+            : ['<32>{#p/basic}* “Glyde的爱” 回复55 HP\n* 这就叫“攻守易形”。'],
+      name: "Glyde的爱",
+      use: ["<32>{#p/human}* （你尽情享受着Glyde的爱。）"]
    },
    i_starfait_x: {
       battle: {
          description: '...',
-         name: 'Startaint'
+         name: '新星吗啡'
       },
-      drop: ['<32>{#p/human}* (You throw away the Startaint.)'],
-      info: ['<32>{#p/basic}* \"Startaint\" Heals -23 HP\n* ...'],
-      name: 'Startaint',
-      use: ['<32>{#p/human}* (You consume the Startaint.)']
+      drop: ['<32>{#p/human}* （你把“新星吗啡”扔掉了。）'],
+      info: ['<32>{#p/basic}* “新星吗啡” 回复-23 HP\n* ...'],
+      name: '新星吗啡',
+      use: ['<32>{#p/human}* （你吸食了新星吗啡。）']
    },
    i_legendary_hero_x: {
       battle: {
          description: '...',
-         name: 'H.Y.P.'
+         name: '猩猿硕虫'
       },
-      drop: ['<32>{#p/human}* (You throw away the Hold Yer Pain.)'],
-      info: ['<32>{#p/basic}* \"Hold Yer Pain\" Heals -40 HP\n* ...'],
-      name: 'Hold Yer Pain',
+      drop: ['<32>{#p/human}* （你把猩猿硕虫扔掉了。）'],
+      info: ['<32>{#p/basic}* “猩猿硕虫” 回复-40 HP\n* ...'],
+      name: '猩猿硕虫',
       use: () =>
          battler.active
             ? [
-               '<32>{#p/human}* (You brandish the Hold Yer Pain anxiously.)',
-               '<32>{#p/story}* DEFENSE down for this turn!'
+               '<32>{#p/human}* （你慌乱地挥舞着猩猿硕虫。）',
+               '<32>{#p/story}* 本回合，你的防御力降低！'
             ]
-            : ['<32>{#p/human}* (You eat the Hold Yer Pain.)']
+            : ['<32>{#p/human}* （你吃掉了猩猿硕虫。）']
    },
    i_glamburger_x: {
       battle: {
          description: '...',
-         name: 'Slamdunker'
+         name: '猛烂汉堡'
       },
-      drop: ['<32>{#p/human}* (You dunk the Slamdunker into the trash.)'],
-      info: ['<32>{#p/basic}* \"Slamdunker\" Heals -34 HP\n* ...'],
-      name: 'Slamdunker',
-      use: ['<32>{#p/human}* (You slammed down the Slamdunker.)']
+      drop: ['<32>{#p/human}* （你把猛烂汉堡扔到了垃圾堆。）'],
+      info: ['<32>{#p/basic}* “猛烂汉堡” 回复-34 HP\n* ...'],
+      name: '猛烂汉堡',
+      use: ['<32>{#p/human}* （你猛地吞下了猛烂汉堡。）']
    },
    i_face_steak_x: {
       battle: {
          description: '...',
-         name: 'Envy'
+         name: 'Undyne的哀'
       },
-      drop: ["<32>{#p/human}* (You throw away the Undyne's Envy.)"],
-      info: ['<32>{#p/basic}* \"Undyne\'s Envy\" Heals -55 HP\n* ...'],
-      name: "Undyne's Envy",
-      use: ["<32>{#p/human}* (You eat the Undyne's Envy.)"]
+      drop: ["<32>{#p/human}* （你把Undyne的哀扔掉了。）"],
+      info: ['<32>{#p/basic}* “Undyne的哀” 回复-55 HP\n* ...'],
+      name: "Undyne的哀",
+      use: ["<32>{#p/human}* （你把Undyne的哀都咽到肚子里。）"]
    },
    i_trash: {
       battle: {
@@ -10067,12 +10067,12 @@ export default {
    i_demise: {
       battle: {
          description: '...',
-         name: 'Demise'
+         name: '自作孽不可活'
       },
-      drop: ["<32>{#p/human}* (You throw away the Plunderer's Demise.)"],
-      info: ['<32>{#p/basic}* \"Plunderer\'s Demise\"\n* Heals -99 HP\n* ...'],
-      name: "Plunderer's Demise",
-      use: ["<32>{#p/human}* (You eat the Plunderer's Demise.)"]
+      drop: ["<32>{#p/human}* （你把“自作孽不可活”扔掉了。）"],
+      info: ['<32>{#p/basic}* “自作孽不可活” 回复-99 HP\n* ...'],
+      name: "自作孽不可活",
+      use: ["<32>{#p/human}* （你吃掉了“自作孽不可活”。）"]
    },
 
    k_liftgate: {
@@ -11189,7 +11189,7 @@ export default {
       menuPrompt3: () =>
          world.bulrun ? '<23>{#p/basic}* ...但是大家都逃走了。' : '<23>{#p/basic}* ...但是谁也没有来。',
       note: () => [
-         "<32>{#p/basic}* 这里有一些便条。",
+         "<32>{#p/basic}* 你找到几张便条。",
          {
             b: '<16>* “如果你看到了\n   这个...”',
             c: world.bullied
@@ -11249,24 +11249,24 @@ export default {
                   ],
                   [
                      {
-                        b: '<16>* \"Mettaton came through here, and he\'s taking everyone...\"',
+                        b: '<16>* “Mettaton\n  来了这儿，\n  把大家伙\n  都带到了...”',
                         c: '<16>* “一个特别特别\n   安全的地方！”'
                      },
-                     { b: '<16>* \"But Alphys...\"', c: '<16>* \"Alphys.\"' },
-                     { b: '<16>* \"She seemed...\"', c: '<16>* \"... super duper pissed.\"' },
+                     { b: '<16>* “不过Alphys...”', c: '<16>* “Alphys。”' },
+                     { b: '<16>* “她看起来...”', c: '<16>* \"...超级无敌生气。\"' },
                      {
-                        b: '<16>* \"I\'ve never seen her like that before.\"',
-                        c: '<16>* \"I\'ve never seen ANYTHING like that before.\"',
+                        b: '<16>* “以前从没见过\n  她这样。”',
+                        c: '<16>* “以前从没见过\n  她摆那副臭脸。”',
                         s: true
                      },
-                     { b: '<16>* \"And Mettaton...\"', c: '<16>* \"... isn\'t very happy either.\"' },
+                     { b: '<16>* “而且，\n  Mettaton...”', c: '<16>* “...也不太高兴。”' },
                      {
-                        b: '<16>* \"He says he\'s gonna slap your face.\"',
-                        c: '<16>* \"He says he\'s gonna kick your butt!\"',
+                        b: '<16>* “他说要\n  给你一记耳光。”',
+                        c: '<16>* “他说要\n  踹烂你的屁股！”',
                         s: true
                      },
-                     { b: '<16>* \"Or did he say he\'d destroy you...?\"', c: '<16>* \"Uh... I forgot.\"' },
-                     { b: '<16>* \"Well, I\'d be CRAZY afraid if I were you.\"', c: '<16>* \"God, TELL me about it...\"' }
+                     { b: '<16>* “还有，\n  他有没有说...\n  要灭了你来着？”', c: '<16>* “呃...\n  记不清了。”' },
+                     { b: '<16>* “反正，我要是你，\n  这会都吓尿裤子了。”', c: '<16>* \"God, TELL me about it...\"' }
                   ]
                ][Math.max(world.bad_lizard - 2, 0)],
                {
@@ -11278,7 +11278,7 @@ export default {
       ],
       sell1: () =>
          adultEvac()
-            ? ['<30>{#p/human}* （你从收银机里发现了5G。）']
+            ? ['<30>{#p/human}* （你从收银机里拿走了5G。）']
             : world.meanie
                ? [
                   {

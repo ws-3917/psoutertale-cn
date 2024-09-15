@@ -313,10 +313,10 @@ export default {
             '<13>{#f/13}＊…'
          ],
          d50: [
-            '<13>{#p/asriel1}{#f/13}＊けっきょく　ボクはタマシイを　じぶんのなかへ　とりもどしたみたいだね。',
+            '<13>{#p/asriel1}{#f/13}＊けっきょく　ボクはタマシイを　とりもどしたみたいだね。',
             '<13>{#f/15}＊もともとの　タマシイ。',
             '<13>{#f/16}＊…',
-            "<13>{#f/16}＊$(name)のタマシイは　いっしょにしんだとき　ボクのタマシイを　つつみこんだのだろうね。",
+            "<13>{#f/16}＊$(name)のタマシイは　いっしょにしんだとき　ボクのタマシイを　つつみこんだのだとおもう。",
             '<13>{#f/13}＊…ボクを　まもってくれたんだ。　ボクがここに　もどってくるまで。',
             '<13>{#f/17}＊ただ　ボクに　あうためだけに　ずっとまってたんだ。',
             '<13>{#f/13}＊だから　ボクにできるのは　かんしゃすることだけ…',
@@ -599,98 +599,98 @@ export default {
             '<17>「」',
             '<17>＊「ボクのへやに　まどをつけて　ほしいといったけと　パパが　すいどうかんが　あるからムリって」',
             '<17>＊「パパと　ママは　おもてのへやに　まどをつけろ　らしい」',
-            '<17>＊「いつもどおり　きょうも　いいひ　てす。」'
+            '<17>＊「いつもどおり　きょうも　ステキなひ　てす。」'
          ],
          [
             '<17>{#p/human}＊（3ページめをひらいた…　2ねんほど　たっているようだ）',
-            '<17>{#p/asriel1}{#v/2}＊「アズのにっき　Kれき506年　3月」',
+            '<17>{#p/asriel1}{#v/2}＊「アズのにっき　Kれき506ねん　3かつ」',
             '<17>＊「おもちゃばこに　むかしの　にっきが　ありました。　たしかに　もっとかこうって　おもってたな。」',
             '<17>＊「さいごに　かいた　日のことは　まだかきかけの　ようです。」',
             '<17>＊「」',
-            '<17>＊「」',
-            '<32>* \"Im worryed about them... i hope theyre not still mad.\"'
+            '<17>＊「こないだ　ともだちと　ケンカして　それから　はなしていません。」',
+            '<17>＊「しんぱいです…　おこってないと　いいんだけど…」'
          ],
          [
-            '<32>{#p/human}* (You turn to the fourth page...)',
-            '<32>{#p/asriel1}{#v/2}* \"Azzys Diary, K-506.03\"',
-            '<32>* \"i talked with my frend, they say theyre not upset anymore, so thats good\"',
-            '<32>* \"Mommy and I were watching the sky out side And we saw a shooting star.\"',
-            '<32>* \"She said to make a wish... I wished that one day a human wood come down.\"',
-            '<32>* \"Mommy and Daddy tell so many storys about them...\"',
-            '<32>* \"They cant all be bad rite?\"'
+            '<17>{#p/human}＊（4ページめをひらいた…)',
+            '<17>{#p/asriel1}{#v/2}＊「アズのにっき　Kれき506ねん　3がつ」',
+            '<17>＊「ともだちと　はなしました。　もうおこってないって。　よかった」',
+            '<17>＊「ママと　いっしょに　ほしを　みにでかけました。　そこで　ながれぼしをみれて…」',
+            '<17>＊「ママが　ねがいごとを　しなさい　って。　いつかニンゲンと　あいたい…　とねがいました。」',
+            '<17>＊「ママとパパは　ニンゲンについて　いろいろ　おしえてくれました。」',
+            '<17>＊「すべてのニンゲンが　あくにん　なわけないでしょ？」'
          ],
          [
-            '<32>{#p/human}* (You turn to the fifth page...)',
-            '<32>{#p/asriel1}{#v/2}* \"Azzys Diary, K-506.03\"',
-            '<32>* \"Not alot to say today.\"',
-            '<32>* \"Maybe this diary idea is silly.\"',
-            '<32>* \"Mom saw me riting in it the other day and said she was proud of me.\"',
-            '<32>* \"Is it realy that importint?\"'
+            '<17>{#p/human}＊（5ページめをひらいた…)',
+            '<17>{#p/asriel1}{#v/2}＊「アズのにっき　Kれき506ねん　3がつ」',
+            '<17>＊「とくに　かくべきことが　ありません。」',
+            '<17>＊「こんなの　やるイミが　ないかもしれない。」',
+            '<17>＊「ママは　にっきを　かいてるボクをみて　ほこらしげだったけど…」',
+            '<17>＊「そんなに　ほめられる　ようなこと　なのかな？」'
          ],
          [
-            '<32>{#p/human}* (You turn to the sixth page... seems like a few more years went by.)',
-            '<32>{#p/asriel1}{#v/1}* \"Azzy\'s Diary, K-510.08\"',
-            '<32>* \"Seems I cant write in this thing for too long at once.\"',
-            '<32>* \"But today I saw the book again and chose to write some more in it.\"',
-            '<32>* \"The past few years have been good, I went to school and learned lots of things.\"',
-            '<32>* \"Like how to add numbers.\"\n* \"And how to use a computer.\"',
-            '<32>* \"Mom said Im too young to make an online acount tho.\"',
-            '<32>* \"Maybe one day when Im older I can have one.\"'
+            '<17>{#p/human}＊（6ページめをひらいた…　4ねんほど　たっているようだ）',
+            '<17>{#p/asriel1}{#v/1}＊「アズのにっき　Kれき510年　8月」',
+            '<17>＊「にっきをみるに　やっぱボクは　みっかぼうず　だな。」',
+            '<17>＊「でも　きょうからは　ちゃんと　かこうとおもう。」',
+            '<17>＊「ここすうねん　たのしかった。　がっこうにいくようになって　たくさん　べんきょうできた。」',
+            '<17>＊「たしざんだったり、パソコンのつかいかただったり。」',
+            '<17>＊「でも　ママは　ネットでアカウントを　つくっちゃ　ダメだって。」',
+            '<17>＊「おおきくなって　つくれたら　いいな…」'
          ],
          [
-            '<32>{#p/human}* (You turn to the seventh page...)',
-            '<32>{#p/asriel1}{#v/1}* \"Azzy\'s Diary, K-510.08.\"',
-            '<32>* \"That smart guy visited again today. He said he had a bad dream about a human.\"',
-            '<32>* \"Oh, did I mention him? He is the science person dad talks to alot.\"',
-            '<32>* \"He invented alot of things that we use now.\"',
-            '<32>* \"Like the replicaters and fabricaters and gravity plate things.\"',
-            '<32>* \"But he looked at me really odd Like I was so scary.\"',
-            '<32>* \"Did I do somthing wrong?\"'
+            '<17>{#p/human}＊（7ページめをひらいた…）',
+            '<17>{#p/asriel1}{#v/1}＊「アズのにっき　Kれき510年　8月」',
+            '<17>＊「あのせんせいが　またいえにきた。　ニンゲンについて　わるいゆめを　みたらしい。」',
+            '<17>＊「えっと　せんせい　ってのは　パパが　よくはなしてる　かがくしゃだよ。」',
+            '<17>＊「せんせいは　はつめいか　なんだ。」',
+            '<17>＊「ふくせいきとか　ナノこうぞうマシンとか　じゅうりょくはっせいそうちとか。」',
+            '<17>＊「でも　せんせいの　ようすがヘン。　まるでボクが　こわいかお　してるみたい。」',
+            '<17>＊「なんかわるいことしたかな？」'
          ],
          [
-            '<32>{#p/human}* (You turn to the eighth page...)',
-            '<32>{#p/asriel1}{#v/1}* \"Azzy\'s Diary, K-510.08.\"',
-            '<32>* \"A new star appeared in the sky today.\"',
-            '<32>* \"A really brite one.\"',
-            '<32>* \"I wonder why more stars dont appear like that all the time.\"',
-            '<32>* \"Also we are gonna move to the new citadel when its made.\"',
-            '<32>* \"I saw the blue prints of it, it looks amazing so far!\"',
-            '<32>* \"It will be alot better than living in the factory too.\"'
+            '<17>{#p/human}＊（8ぺーじめをひらいた…）',
+            '<17>{#p/asriel1}{#v/1}＊「アズのにっき　Kれき510年　8月」',
+            '<17>＊「きょう　あたらしい星が　うまれたみたい。」',
+            '<17>＊「とてもまぶしい星。」',
+            '<17>＊「なんで　いつもは　星がうまれる　なんてことが　ないんだろう？　ふしぎだな。」',
+            '<17>＊「ところで　こうじが　おわったら　シタデルへひっこしをする　らしい。」',
+            '<17>＊「シタデルの　せっけいずは　すごく　かっこよかった！」',
+            '<17>＊「こうじょうの　なかでの　せいかつと　くらべたら　だんちがいなんだろうね。」'
          ],
          [
-            '<32>{#p/human}* (You turn to the ninth page... seems a day was skipped.)',
-            '<32>{#p/asriel1}{#v/1}* \"Azzy\'s Diary, K-510.09.\"',
-            '<32>* \"I met a real human yesterday. They crashed in the trash area near our house.\"',
-            '<32>* \"I helped them out of the reck and they said thanks.\"',
-            '<32>* \"I didnt think it would ever happen, but here they are.\"',
-            '<32>* \"And they are actually he{#p/basic}f{#p/asriel1}{#v/1}h{#p/basic}sj haha azzy is a stinky butt and he{#p/asriel1}{#v/1}vh{#p/basic}v{#p/asriel1}{#v/1}j{#p/basic}a{#p/asriel1}{#v/1}s\"',
-            '<32>* \"Okay so Im actually hiding under the covers so $(name) cant mess up what Im writing.\"',
-            '<32>* \"They can be a bit mean some times, but thats ok.\"',
-            '<32>* \"Mom did that battle thing with them and there heart was red and upside down.\"',
-            '<32>* \"Its really nice to have someone else to talk to everyday.\"'
+            '<17>{#p/human}＊（9ページめをひらいた…　2日後にかかれたようだ。）',
+            '<17>{#p/asriel1}{#v/1}＊「アズのにっき　Kれき510年　9月」',
+            '<17>＊「きのう　ニンゲンとあった。　うちのちかくの　ゴミエリアに　ふじちゃくしたんだ。」',
+            '<17>＊「がれきをどかして　たすけてあげた。　ニンゲンはかんしゃしてた。」',
+            '<17>＊「こんなこと　おきるなんて。　でもこれはげんじつ。」',
+            '<17>＊「そしてニンゲー{#p/basic}　ア{#p/asriel1}{#v/1}ズのバー{#p/basic}カバーカ　まーぬけーー{#p/asriel1}{#v/1}ー」',
+            '<17>＊「よし。　ベッドのしたに　かくれたぞ。　$(name)が　じゃまできない　ようにね。」',
+            '<17>＊「ニンゲンは　たまに　ちょっといじわるなんだ。　でも　それは　だいじょうぶ。」',
+            '<17>＊「ママが　ニンゲンとたたかって　わかったこと。　ニンゲンの　タマシイは　あかくてさかさま。」',
+            '<17>＊「まいにち　はなしあいてが　いるのは　とっても　ステキなことだ。」'
          ],
          [
-            '<32>{#p/human}* (You turn to the tenth page...)',
-            '<32>{#p/asriel1}{#v/1}* \"Azzy\'s Diary, K-510.09.\"',
-            '<32>* \"Mom said shes gonna adopt $(name) into the family.\"',
-            '<32>* \"I dont know what adopt means but she said I will be like their brother.\"',
-            '<32>* \"But thats good Cuz then I can spend more time with them.\"',
-            '<32>* \"Me and $(name) are gonna do everything together!\"',
-            '<32>* \"Also they said sorry for what happend in the last diary page.\"',
-            '<32>* \"I didnt tell them yet but, I forgive them.\"',
+            '<17>{#p/human}＊（10ページめをひらいた…）',
+            '<17>{#p/asriel1}{#v/1}＊「アズのにっき　Kれき510年　9月」',
+            '<17>＊「$(name)と　かぞくになった。　ママが　ようしにすることを　きめたんだって。」',
+            '<17>＊「‘ようし’のイミは　しらないけど　$(name)と　きょうだいに　なるようなことらしい。」',
+            '<17>＊「とにかく　ニンゲンと　すごすじかんが　ふえてうれしい。」',
+            '<17>＊「ボクと$(name)は　いつでもいっしょ　だからね！」',
+            '<17>＊「そういや　$(name)は　きのうの　らくがきについて　ごめんなさいしてた。」',
+            '<17>＊「まだつたえてないけど、　ゆるしてる。」',
             '<17>{#p/basic}＊…'
          ],
          [
-            '<32>{#p/human}* (You turn to the eleventh page.)',
-            '<32>{#p/asriel1}* \"Asriel\'s Diary, K-515.09\"',
-            '<32>* \"$(name) said it\'s time for the plan.\"',
-            '<32>* \"I was scared, but they said I could do it.\"',
-            '<32>* \"After this entry, I\'ll wait for them to eat the poisoned pie we made...\"',
-            '<32>* \"And then we can save everyone together.\"',
-            '<32>* \"If something goes wrong, and you\'re reading this later...\"',
-            '<32>* \"I want you to know that you\'re the best, $(name).\"',
+            '<17>{#p/human}＊（11ページめをひらいた…）',
+            '<17>{#p/asriel1}＊「アズのにっき　K歴515年　9月」',
+            '<17>＊「ケッコウの日がきた。」',
+            '<17>＊「こわい。　だけど　$(name)は　ボクならできる　っていう。」',
+            '<17>＊「これをかきおえたら、　$(name)に　どく入りパイを　たべさせる。」',
+            '<17>＊「そしてボクたちは　モンスターを　すくう。」',
+            '<17>＊「もしうまくいかなくて　これを　よんでいるのなら…」',
+            '<17>＊「これだけはいわせて。　キミは　サイコウのあいぼうだ。　$(name)。」',
             '<17>{#p/basic}＊…',
-            '<32>{#p/human}* (It sounds like someone is crying...)'
+            '<17>{#p/human}＊（だれかの　ないている　こえがきこえる…）'
          ]
       ],
       backdesk: {
@@ -2702,7 +2702,7 @@ export default {
                '<25>{#f/15}* Nothing was ever found... not even their SOUL.',
                "<25>{#f/15}* So... I can't help but wonder if they're... still out there.",
                '<17>{#p/basic}＊…',
-               '<32>{#p/human}* (It sounds like someone is crying...)'
+               '<17>{#p/human}＊（だれかの　ないている　こえがきこえる…）'
             ],
             [
                '<25>{#p/asriel1}{#f/17}* Frisk, thank you for listening to me.',

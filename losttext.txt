@@ -1,0 +1,28 @@
+D:/psot/text/v53.9/aerialis/zh_CN.po -> D:/psot/text/v54/aerialis/zh_CN.po
+比较完毕. 共丢失 0 条文本.
+
+D:/psot/text/v53.9/citadel/zh_CN.po -> D:/psot/text/v54/citadel/zh_CN.po
+比较完毕. 共丢失 0 条文本.
+
+D:/psot/text/v53.9/common/zh_CN.po -> D:/psot/text/v54/common/zh_CN.po
+比较完毕. 共丢失 0 条文本.
+
+D:/psot/text/v53.9/foundry/zh_CN.po -> D:/psot/text/v54/foundry/zh_CN.po
+比较完毕. 共丢失 0 条文本.
+
+D:/psot/text/v53.9/outlands/zh_CN.po -> D:/psot/text/v54/outlands/zh_CN.po
+比较完毕. 共丢失 0 条文本.
+
+D:/psot/text/v53.9/starton/zh_CN.po -> D:/psot/text/v54/starton/zh_CN.po
+比较完毕. 共丢失 0 条文本.
+
+D:/psot/text/v53.9/systems/zh_CN.po -> D:/psot/text/v54/systems/zh_CN.po
+消失文本 #1
+原文：OUTERTALE V5.03 (c) 2024 SPACEY_432
+译文：OUTERTALE V5.03 (c) 2024 SPACEY_432 简体中文版 PSOT汉化组
+
+比较完毕. 共丢失 1 条文本.
+
+D:/psot/text/v53.9/values/zh_CN.po -> D:/psot/text/v54/values/zh_CN.po
+比较完毕. 共丢失 0 条文本.
+

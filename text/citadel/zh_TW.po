@@ -653,13 +653,13 @@ msgstr ""
 "* 越勒越緊... 越勒越緊..."
 
 msgid "<25>{#f/16}* ..."
-msgstr ""
-"<25>{#f/16}* 生命一點點離她而去。\n"
-"* 她氣若遊絲，\n"
-"  哀求我馬上停手..."
+msgstr "<25>{#f/16}* ..."
 
 msgid "<25>{#f/6}* My own mother, strangled to death by my own magic..."
-msgstr "<25>{#f/6}* ..."
+msgstr ""
+"<25>{#f/6}* 生命一點點離她而去。\n"
+"* 她氣若遊絲，\n"
+"  哀求我馬上停手...[ADD]<25>{#f/6}* ..."
 
 msgid "<25>{#f/8}* Begging me to stop as the life drained out of her body."
 msgstr "<25>{#f/8}* 我把她活活勒死了。"
@@ -11169,7 +11169,7 @@ msgid "<32>{#p/human}* (There are no more written entries here.)"
 msgstr ""
 
 msgid "<32>{#p/human}* (You look inside the bureau...)"
-msgstr "<32>{#p/human}* （你往衣櫃裡瞅了一醃...）"
+msgstr "<32>{#p/human}* （你往衣櫃裡瞅了一眼...）"
 
 msgid "<25>{#p/asriel1}{#f/19}* Looks like the humans got their clothes back."
 msgstr ""
