@@ -1,6 +1,21 @@
-#
+#, fuzzy
 msgid ""
 msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-09-15 20:28+0000\n"
+"PO-Revision-Date: 2024-09-15 20:28+0000\n"
+"Last-Translator: MurderSans_MDR <z127568254@163.com>\n"
+"Language-Team: Chinese (Simplified) <https://ws3917.site/projects/"
+"project-spacetime/3-foundry/zh_Hans/>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: ENCODING\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.6.2\n"
+
+#
 
 msgid "<32>{#p/basic}* ..."
 msgstr "<32>{#p/basic}* ..."
@@ -17952,7 +17967,7 @@ msgid "Undyne's personal recipe...?"
 msgstr "...Undyne的独家秘方？"
 
 msgid "Odd Snack"
-msgstr ""
+msgstr "迷之零食"
 
 msgid "<32>{#p/human}* (You throw away the Odd Snack.)"
 msgstr ""
