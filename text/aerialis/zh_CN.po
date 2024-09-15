@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-15 06:28+0000\n"
-"PO-Revision-Date: 2024-09-15 06:28+0000\n"
+"PO-Revision-Date: 2024-09-15 07:22+0000\n"
 "Last-Translator: MurderSans_MDR <z127568254@163.com>\n"
 "Language-Team: Chinese (Simplified) <https://ws3917.site/projects/"
 "project-spacetime/4-aerialis/zh_Hans/>\n"
@@ -4810,6 +4810,8 @@ msgstr "<25>{#p/asriel2}{#f/13}* ...{%100}"
 
 msgid "<25>{#f/4}* You know what we have to do, $(name).{%100}"
 msgstr ""
+"<25>{#f/4}* $(name)，\n"
+"  知道我们要做啥吧。{%100}"
 
 msgid ""
 "<25>{#p/asriel2}{#f/15}* Are we...\n"
@@ -4817,10 +4819,10 @@ msgid ""
 msgstr "<25>{#p/asriel2}{#f/15}* 你... 来吗？{%200}"
 
 msgid "<25>{#p/asriel2}{#f/16}* ... we don't have time for this.{%200}"
-msgstr ""
+msgstr "<25>{#p/asriel2}{#f/16}* ...我们没时间胡闹。{%200}"
 
 msgid "<25>{#p/asriel2}{#f/15}* Not again.{%200}"
-msgstr ""
+msgstr "<25>{#p/asriel2}{#f/15}* 别再耍性子了。{%200}"
 
 msgid "<25>{#p/asriel2}{#f/16}* Or are we just going to stand here.{%200}"
 msgstr ""
@@ -4831,6 +4833,8 @@ msgid ""
 "<25>{#p/asriel2}{#f/13}* $(name), please...\n"
 "* Don't do this again...{%200}"
 msgstr ""
+"<25>{#p/asriel2}{#f/13}* $(name)，求你了...\n"
+"* 别再耍性子了...{%200}"
 
 msgid "<25>{#p/asriel2}{#f/13}* I guess we are.{%200}"
 msgstr "<25>{#p/asriel2}{#f/13}* 还真是。{%200}"
@@ -4839,6 +4843,8 @@ msgid ""
 "<25>{#p/asriel2}{#f/3}* ...\n"
 "* This is so stupid.{%200}"
 msgstr ""
+"<25>{#p/asriel2}{#f/3}* ...\n"
+"* 杵在这真是蠢爆了。{%200}"
 
 msgid "<25>{#p/asriel2}{#f/5}* So how's your day been, huh?{%200}"
 msgstr "<25>{#p/asriel2}{#f/5}* 今天过得咋样？{%200}"
@@ -4882,16 +4888,16 @@ msgstr ""
 "* 算我求你了。{%200}"
 
 msgid "<25>{#p/asriel2}{#f/15}* Almost there..."
-msgstr ""
+msgstr "<25>{#p/asriel2}{#f/15}* 可算快结束了..."
 
 msgid "<25>{#p/asriel2}{#f/13}* Uh... ready.{%200}"
 msgstr "<25>{#p/asriel2}{#f/13}* 呃... 我准备好了。{%200}"
 
 msgid "<25>{#p/asriel2}{#f/13}* Come on...{%200}"
-msgstr ""
+msgstr "<25>{#p/asriel2}{#f/13}* 别磨蹭了...{%200}"
 
 msgid "<25>{#p/asriel2}{#f/1}* There."
-msgstr ""
+msgstr "<25>{#p/asriel2}{#f/1}* 成了。"
 
 msgid "<25>{#p/asriel2}{#f/6}* ..."
 msgstr "<25>{#p/asriel2}{#f/6}* ..."
@@ -4902,54 +4908,64 @@ msgstr ""
 "  就等来个这？"
 
 msgid "<32>{#p/mettaton}* DO MY SENSORS DECIEVE?"
-msgstr ""
+msgstr "<32>{#p/mettaton}* 我的传感器没出错吧？"
 
 msgid "<32>* DEAR VIEWERS, WE MIGHT HAVE TO CHANGE THIS SHOW'S RATING..."
 msgstr ""
+"<32>* 亲爱的观众朋友们，\n"
+"  我们得调整一下节目的评级了..."
 
 msgid "<32>* FROM \"SHAMEFUL\" TO \"ULTRA SHAMEFUL\" OF COURSE!"
-msgstr ""
+msgstr "<32>* 从“有点烂”降成“烂透了”！"
 
 msgid ""
 "<32>* I CAN'T SAY MANY IN YOUR PLACE WOULD BE WILLING TO HUMILIATE "
 "THEMSELVES LIKE THAT."
 msgstr ""
+"<32>* 没几个人会想看这种节目，\n"
+"  污了自己的眼睛的。"
 
 msgid "<32>{#p/mettaton}* WELL, THAT WAS..."
 msgstr "<32>{#p/mettaton}* 呃，这真是..."
 
 msgid "<32>* UH... I DON'T REALLY KNOW WHAT TO CALL THAT."
-msgstr ""
+msgstr "<32>* ...我有什么话术好用吗？"
 
 msgid "<32>* THANKS FOR WAITING, I GUESS?"
 msgstr ""
+"<32>* 也许...\n"
+"  感谢你们的耐心与支持？"
 
 msgid "<32>* IT SURE MADE MY JOB A WHOLE LOT EASIER."
 msgstr ""
+"<32>* 你们这一等，\n"
+"  我的事儿好办多了。"
 
 msgid "<32>* MY PREPARATIONS ARE NEARLY COMPLETE."
-msgstr ""
+msgstr "<32>* 我马上就完成准备工作了。"
 
 msgid "<32>* IF YOU HAVE ANY LAST WORDS FOR THE RESIDENTS OF THE OUTPOST..."
 msgstr ""
+"<32>* 要是你俩有啥遗言\n"
+"  想对前哨站居民说..."
 
 msgid "<32>* NOW WOULD BE THE PERFECT TIME TO SHARE THEM."
-msgstr ""
+msgstr "<32>* 现在这个时机再合适不过了。"
 
 msgid "<25>{#p/asriel2}{#f/15}* ..."
 msgstr "<25>{#p/asriel2}{#f/15}* ..."
 
 msgid "<25>{#f/2}* Nah."
-msgstr ""
+msgstr "<25>{#f/2}* 没啥要说的。"
 
 msgid "<25>{#p/asriel2}{#f/6}* Come on, get down."
-msgstr ""
+msgstr "<25>{#p/asriel2}{#f/6}* 下来吧。"
 
 msgid "<25>{#p/asriel2}{#f/8}* ..."
 msgstr "<25>{#p/asriel2}{#f/8}* ..."
 
 msgid "<25>{#p/asriel2}{#f/6}* Onward to the elevator."
-msgstr ""
+msgstr "<25>{#p/asriel2}{#f/6}* 咱去电梯。"
 
 msgid ""
 "<32>{#p/basic}{#x1}* Halt!\n"
@@ -7675,12 +7691,14 @@ msgid ""
 "<32>{#p/human}* (You check Asriel's head to make sure it's safe to climb "
 "up.)"
 msgstr ""
+"<32>{#p/human}* （你检查着Asriel的脑袋，\n"
+"  防止等会摔下来。）"
 
 msgid "<25>{#p/asriel2}{#f/16}* Why are you like this."
-msgstr ""
+msgstr "<25>{#p/asriel2}{#f/16}* 为啥非得这样。"
 
 msgid "<25>{#p/asriel2}{#f/8}* Thanks, I guess."
-msgstr ""
+msgstr "<25>{#p/asriel2}{#f/8}* 谢了哈。"
 
 msgid ""
 "<32>{#p/human}* (You marvel at the imagery on the computer's screen.)\n"
