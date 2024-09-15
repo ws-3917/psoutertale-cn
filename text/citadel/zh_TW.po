@@ -1,6 +1,21 @@
-#
+#, fuzzy
 msgid ""
 msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-09-15 07:47+0000\n"
+"PO-Revision-Date: 2024-09-15 07:47+0000\n"
+"Last-Translator: WS-3917 <ws3917@outlook.com>\n"
+"Language-Team: Chinese (Traditional) <https://ws3917.site/projects/"
+"project-spacetime/5-citadel/zh_Hant/>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: ENCODING\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.6.2\n"
+
+#
 
 msgid "<32>{#p/human}* (You feel a darkness gathering inside of you.)"
 msgstr "<32>{#p/human}* （一股暗流在你心中充盈。）"
@@ -13375,7 +13390,7 @@ msgstr "<32>{#p/basic}* 突然間，記憶如潮水般湧回！"
 msgid "<32>{#p/human}* (You offer the Lost Soul a bottle of exoberry punch.)"
 msgstr ""
 "<32>{#p/human}* （你讓迷失的靈魂\n"
-"  給你倒一杯洋梅潘趣酒。）"
+"  給你倒一杯洋梅果酒。）"
 
 msgid ""
 "<32>{#p/human}* (She seems bothered by it, yet familiar with it at the same "
@@ -13856,7 +13871,7 @@ msgstr ""
 "<08>{#p/papyrus}{#e/papyrus/10}喔！\n"
 "有了這些水果，\n"
 "我們就能\n"
-"自製潘趣酒了！"
+"自製果酒了！"
 
 msgid "<11>{#p/sans}{#e/sans/2}just don't make a mess like last time."
 msgstr ""
@@ -15653,8 +15668,6 @@ msgstr "<11>{*}{#e/asgore/2}{#v/3}{#i/10}{@random=1.1/1.1}..."
 msgid "<11>{*}{#e/asgore/2}{#v/3}{#i/7}{@random=1.1/1.1}Goodbye..."
 msgstr "<11>{*}{#e/asgore/2}{#v/3}{#i/12}{@random=1.1/1.1}永別了..."
 
-msgid ""
-msgstr ""
 
 msgid "N/A"
 msgstr "無"
