@@ -165,7 +165,7 @@ def replace_strings(text, translation_dict):
             else:
                 # 转义双引号以防止注入
                 translated_string = translated_string.replace('"', r'\"')
-                if quote_type == 1 or "[ADD]" in final_string:
+                if quote_type == 1 or "[ADD]" in translated_string:
                     result.append(f"'{translated_string.replace("'", r"\'")}'")
                 else:
                     result.append(f'"{translated_string}"')
