@@ -4,7 +4,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-15 06:28+0000\n"
 "PO-Revision-Date: 2024-09-15 08:25+0000\n"
-"Last-Translator: WS-3917 <ws3917@outlook.com>\n"
+"Last-Translator: MurderSans_MDR <z127568254@163.com>\n"
 "Language-Team: Chinese (Simplified) <https://ws3917.site/projects/"
 "project-spacetime/4-aerialis/zh_Hans/>\n"
 "Language: zh_CN\n"
@@ -6416,13 +6416,13 @@ msgid "<32>{#p/mettaton}* WHY HELLO!"
 msgstr ""
 
 msgid "<32>* WHY DON'T YOU TWO COME INTO THE LIMELIGHT?"
-msgstr ""
+msgstr "<32>* 为何不来这聚光灯下呢？"
 
 msgid "<32>{#p/mettaton}* THAT'S BETTER..."
-msgstr ""
+msgstr "<32>{#p/mettaton}* 好多了..."
 
 msgid "<32>{#p/mettaton}* NOW, ALLOW ME TO SING YOU TWO A LITTLE SONG."
-msgstr ""
+msgstr "<32>{#p/mettaton}* 我给你们唱首小曲吧。"
 
 msgid ""
 "<25>{*}{#p/asriel2}{#f/10}* So tell me, what's this little song "
@@ -11932,28 +11932,36 @@ msgstr ""
 
 msgid "<25>{#p/asriel2}{#f/6}* It's dark... this isn't normal at all."
 msgstr ""
+"<25>{#p/asriel2}{#f/6}* 真奇怪，\n"
+"  这里不该这么黑啊。ゑ"
 
 msgid ""
 "<25>{#f/7}* Someone must've come through and shorted out the electrics."
 msgstr ""
+"<25>{#f/7}* 肯定是有人\n"
+"  把供电系统弄短路了。ゑ"
 
 msgid "<25>{#p/asriel2}{#f/10}* Seriously, who turned out the lights?"
 msgstr ""
+"<25>{#p/asriel2}{#f/10}* 说实在的，\n"
+"  到底是谁熄了灯呢？"
 
 msgid "<25>{#p/asriel2}{#f/15}* Come to think of it..."
-msgstr ""
+msgstr "<25>{#p/asriel2}{#f/15}* 仔细想想..."
 
 msgid "<25>{#f/16}* This does look like it was caused by magic."
 msgstr ""
+"<25>{#f/16}* 这次停电\n"
+"  像是魔法造成的。"
 
 msgid "<26>{#f/3}* So that's that, I guess."
-msgstr ""
+msgstr "<26>{#f/3}* 我大概明白了。"
 
 msgid "<25>{#p/asriel2}{#f/10}* No security field...?"
-msgstr ""
+msgstr "<25>{#p/asriel2}{#f/10}* ...安保屏障去哪了？"
 
 msgid "<25>{#f/10}{#x1}* And look, the emitters are burnt out."
-msgstr ""
+msgstr "<25>{#f/10}{#x1}* 看看这安保门，都烧坏了。"
 
 msgid ""
 "<25>{#p/asriel2}{#f/13}* ... to think this damage was caused by her magic..."
