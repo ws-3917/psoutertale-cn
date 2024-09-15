@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-15 11:28+0000\n"
-"PO-Revision-Date: 2024-09-15 14:28+0000\n"
+"PO-Revision-Date: 2024-09-15 14:49+0000\n"
 "Last-Translator: forestfamily4 <hyper.developer.ink@gmail.com>\n"
 "Language-Team: Japanese <https://ws3917.site/projects/project-spacetime/"
 "1-outlands/ja/>\n"
@@ -1712,36 +1712,36 @@ msgstr "<17>＊「そういや　$(name)は　きのうの　らくがきにつ�
 "ごめんなさいしてた。」"
 
 msgid "<32>* \"I didnt tell them yet but, I forgive them.\""
-msgstr ""
+msgstr "<17>＊「まだつたえてないけど、　ゆるしてる。」"
 
 msgid "<32>{#p/human}* (You turn to the eleventh page.)"
-msgstr ""
+msgstr "<17>{#p/human}＊（11ページめをひらいた…）"
 
 msgid "<32>{#p/asriel1}* \"Asriel's Diary, K-515.09\""
-msgstr ""
+msgstr "<17>{#p/asriel1}＊「アズのにっき　K歴515年　9月」"
 
 msgid "<32>* \"$(name) said it's time for the plan.\""
-msgstr ""
+msgstr "<17>＊「ケッコウの日がきた。」"
 
 msgid "<32>* \"I was scared, but they said I could do it.\""
-msgstr ""
+msgstr "<17>＊「こわい。　だけど　$(name)は　ボクならできる　っていう。」"
 
 msgid ""
 "<32>* \"After this entry, I'll wait for them to eat the poisoned pie we "
 "made...\""
-msgstr ""
+msgstr "<17>＊「これをかきおえたら、　$(name)に　どく入りパイを　たべさせる。」"
 
 msgid "<32>* \"And then we can save everyone together.\""
-msgstr ""
+msgstr "<17>＊「そしてボクたちは　モンスターを　すくう。」"
 
 msgid "<32>* \"If something goes wrong, and you're reading this later...\""
-msgstr ""
+msgstr "<17>＊「もしうまくいかなくて　これを　よんでいるのなら…」"
 
 msgid "<32>* \"I want you to know that you're the best, $(name).\""
-msgstr ""
+msgstr "<17>＊「これだけはいわせて。　キミは　サイコウのあいぼうだ。　$(name)。」"
 
 msgid "<32>{#p/human}* (It sounds like someone is crying...)"
-msgstr ""
+msgstr "<17>{#p/human}＊（だれかの　ないている　こえがきこえる…）"
 
 msgid "<32>{#p/basic}* There's a backpack strung up on this coat rack."
 msgstr ""
