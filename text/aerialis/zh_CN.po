@@ -1,4 +1,3 @@
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
@@ -11,12 +10,11 @@ msgstr ""
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: ENCODING\n"
+"Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 5.6.2\n"
 
 #
-
 msgid "<32>{#p/human}* (It appears the terminal is beyond your access level.)"
 msgstr ""
 
@@ -4918,7 +4916,7 @@ msgid ""
 msgstr ""
 
 msgid "<32>{#p/mettaton}* WELL, THAT WAS..."
-msgstr ""
+msgstr "<32>{#p/mettaton}* 呃，这真是..."
 
 msgid "<32>* UH... I DON'T REALLY KNOW WHAT TO CALL THAT."
 msgstr ""
@@ -8028,7 +8026,6 @@ msgstr "<25>{#p/asriel2}{#f/8}* 只能换条路走了。"
 
 msgid "<32>{#p/human}* (Where would you like to go?)"
 msgstr "<32>{#p/human}* （你想去哪里？）"
-
 
 msgid "Floor L1"
 msgstr "左一层"
