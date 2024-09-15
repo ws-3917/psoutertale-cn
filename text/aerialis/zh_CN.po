@@ -1,22 +1,20 @@
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-15 08:58+0000\n"
-"PO-Revision-Date: 2024-09-15 08:58+0000\n"
+"PO-Revision-Date: 2024-09-15 09:28+0000\n"
 "Last-Translator: MurderSans_MDR <z127568254@163.com>\n"
 "Language-Team: Chinese (Simplified) <https://ws3917.site/projects/"
 "project-spacetime/4-aerialis/zh_Hans/>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: ENCODING\n"
+"Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 5.6.2\n"
 
 #
-
 msgid "<32>{#p/human}* (It appears the terminal is beyond your access level.)"
 msgstr ""
 
@@ -6430,71 +6428,87 @@ msgid ""
 "<25>{*}{#p/asriel2}{#f/10}* So tell me, what's this little song "
 "about?{^30}{%}"
 msgstr ""
+"<25>{*}{#p/asriel2}{#f/10}* 跟我说说，\n"
+"  你打算唱啥呢？{^30}{%}"
 
 msgid "<32>{*}{#p/mettaton}{#x1}* OH, ASRIEL...{^30}{%}"
-msgstr ""
+msgstr "<32>{*}{#p/mettaton}{#x1}* ASRIEL啊...{^30}{%}"
 
 msgid "<32>{*}{#x2}* HAVEN'T YOU HEARD OF A THING CALLED \"SPOILERS?\"{^30}{%}"
 msgstr ""
+"<32>{*}{#x2}* 难道你不知道\n"
+"  这叫“剧透”吗？{^30}{%}"
 
 msgid "<25>{*}{#p/asriel2}{#f/6}* Figures.{^30}{%}"
-msgstr ""
+msgstr "<25>{*}{#p/asriel2}{#f/6}* 也是意料之中了。{^30}{%}"
 
 msgid ""
 "<25>{*}{#p/asriel2}{#f/7}* I already know this show's just about me.{^30}{%}"
 msgstr ""
+"<25>{*}{#p/asriel2}{#f/7}* 我已经知道\n"
+"  你打算唱我了。{^30}{%}"
 
 msgid "<32>{*}{#p/mettaton}{#x1}* OH, DO YOU NOW?{^30}{%}"
-msgstr ""
+msgstr "<32>{*}{#p/mettaton}{#x1}* 哦，你知道了啊。{^30}{%}"
 
 msgid ""
 "<32>{*}{#x2}* WELL, I'M AFRAID THAT WON'T STOP ME FROM DOING IT.{^30}{%}"
-msgstr ""
+msgstr "<32>{*}{#x2}* 没事，这不影响我接着唱。{^30}{%}"
 
 msgid "<25>{*}{#p/asriel2}{#f/8}* ...{^30}{%}"
 msgstr "<25>{*}{#p/asriel2}{#f/8}* ...{^30}{%}"
 
 msgid "<32>{#p/mettaton}* WELL, THAT'S ALL."
-msgstr ""
+msgstr "<32>{#p/mettaton}* 就这样，我唱完了。"
 
 msgid "<32>{#x1}* OH, AND, I FORGOT TO MENTION THAT I'M NOT REALLY HERE."
 msgstr ""
+"<32>{#x1}* 哦，忘了说了，\n"
+"  我本人不在这。"
 
 msgid "<32>* MY CONTROL CHIP IS ALREADY INSTALLED IN THE NEW BODY."
 msgstr ""
+"<32>* 我的控制芯片\n"
+"  已经插到新机体上了。"
 
 msgid "<25>{#p/asriel2}{#f/10}* ... a new body?"
-msgstr ""
+msgstr "<25>{#p/asriel2}{#f/10}* ...新机体？"
 
 msgid "<32>{#p/mettaton}* OH, YOU WANT TO SEE IT?"
-msgstr ""
+msgstr "<32>{#p/mettaton}* 怎么，想观摩观摩？"
 
 msgid ""
 "<32>* WELL.\n"
 "* YOU WON'T HAVE TO WAIT MUCH LONGER."
 msgstr ""
+"<32>* 别急嘛。\n"
+"* 我不会让你等太久的。"
 
 msgid "<32>{#p/mettaton}* SEE YOU SOON..."
-msgstr ""
+msgstr "<32>{#p/mettaton}* 待会见..."
 
 msgid ""
 "<25>{#p/asriel2}{#f/8}* Something tells me this won't be as easy as we'd "
 "hoped."
-msgstr ""
+msgstr "<25>{#p/asriel2}{#f/8}* 看来事情不简单，真失望。"
 
 msgid "<25>{*}{#p/asriel2}{#f/13}* What are you- {%}"
-msgstr ""
+msgstr "<25>{*}{#p/asriel2}{#f/13}* 你说什- {%}"
 
 msgid ""
 "<25>{*}{#p/asriel2}{#f/15}* $(name).\n"
 "* What are you doing.{^40}{%}"
 msgstr ""
+"<25>{*}{#p/asriel2}{#f/15}* $(name)。\n"
+"* 你在干啥。{^40}{%}"
 
 msgid "<25>{*}{#p/asriel2}{#f/15}* This can't go on...{^40}{%}"
-msgstr ""
+msgstr "<25>{*}{#p/asriel2}{#f/15}* 快停下...{^40}{%}"
 
 msgid "<25>{*}{#p/asriel2}{#f/16}* Thanks anyway, $(name).{^40}{%}"
 msgstr ""
+"<25>{*}{#p/asriel2}{#f/16}* $(name)，\n"
+"  用不着这样。{^40}{%}"
 
 msgid "<32>{#p/mettaton}* AT LAST..."
 msgstr "<32>{#p/mettaton}* 终于..."
@@ -8050,7 +8064,6 @@ msgstr "<25>{#p/asriel2}{#f/8}* 只能换条路走了。"
 
 msgid "<32>{#p/human}* (Where would you like to go?)"
 msgstr "<32>{#p/human}* （你想去哪里？）"
-
 
 msgid "Floor L1"
 msgstr "左一层"
@@ -22013,10 +22026,10 @@ msgid "<23>{#p/basic}{#k/0/0}{@fill=#ffbbdc}* No rush or anything."
 msgstr ""
 
 msgid "<23>{#p/basic}* ... but nobody came."
-msgstr "<23>{#p/basic}* ...但是谁也没有来。"
+msgstr "<23>{#p/basic}* ...但是谁也没有来。ゑ"
 
 msgid "<32>{#p/basic}* There's a series of notes here."
-msgstr "<32>{#p/basic}* 这里有一些便条。"
+msgstr "<32>{#p/basic}* 你找到几张便条。ゑ"
 
 msgid "<16>* \"If you're reading this...\""
 msgstr ""
@@ -22206,7 +22219,7 @@ msgstr ""
 "* “喵哈哈！！！”"
 
 msgid "<30>{#p/human}* (You took 5G from the till.)"
-msgstr "<30>{#p/human}* （你从收银机里发现了5G。）"
+msgstr "<30>{#p/human}* （你从收银机里拿走了5G。）"
 
 msgid "<16>{#k/2/6}* Um, excuse me?"
 msgstr ""
