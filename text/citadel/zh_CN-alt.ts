@@ -135,7 +135,7 @@ export default {
                "<25>{#f/16}* 我纵使可以随心所欲，\n  但一直觉得... 缺点什么。"
             ],
             (re: boolean) => [
-               '<25>{#p/asriel2}{#f/15}* 那时，我从昏迷中苏醒。\n  却发现自己变成了\n  一颗星星。',
+               '<25>{#p/asriel2}{#f/15}* 那时，我从昏迷中苏醒。\n  却发现自己变成了一颗星星。',
                "<25>{#f/16}* 我没有手，没有腿，\n  什么都做不了。",
                "<25>{#f/13}* 我不知所措，希望有人\n  能来帮助我，关心我...",
                '<25>{#f/13}* 我大声呼救...',
@@ -150,8 +150,8 @@ export default {
                "<25>{#p/asriel2}{#f/15}* 我不仅失去四肢，\n  更失去了“爱与被爱”的能力。",
                '<25>{#f/23}* 我很害怕，我很忧虑。\n* 我别无所求，\n  只希望能让一切恢复正常。',
                "<25>{#f/13}* 所以，我去找父亲，\n  希望他能救救我。",
-               "<25>{#f/17}* 父亲说，会一直关心我，\n  照顾我...",
-               "<25>{#f/13}* ...但终究治标不治本。"
+               "<25>{#f/17}* 父亲说，会一直照顾我...",
+               "<25>{#f/13}* ...但他再怎么努力，\n  终究治标不治本。"
             ],
             (re: boolean) => [
                ...(re
@@ -176,7 +176,7 @@ export default {
                '<25>{#f/13}* 一想到谁都救不了自己...',
                '<26>{#f/23}* 我就想马上去死。',
                '<25>{#f/15}* 我放弃了一切... 选择自尽。',
-               '<25>{#f/16}* ...可是...\n* 当“死亡”的时刻来临时...',
+               '<25>{#f/16}* ...可是...\n* 当“死亡”来临时...',
                '<25>{#f/7}* 眼前却突然闪过许多\n  扑朔迷离的景象...',
                '<25>{#f/6}* 之后，我猛然发现自己\n  又回到了醒来的时间点。'
             ],
@@ -188,12 +188,12 @@ export default {
                     ]
                   : []),
                "<25>{#p/asriel2}{#f/13}* 一开始，我也纳闷\n  为什么会“回来”...",
-               '<25>{#f/15}* ...所以，我做了个实验：\n  看看能不能主动回溯时间。',
+               '<25>{#f/15}* ...所以，我做了个实验。\n  看看能不能主动回溯时间。',
                '<25>{#f/16}* 我屏息凝神，集中注意力。\n* 于是... 时间回溯了。',
                "<25>{#f/15}* 我非常吃惊...",
                "<25>{#f/17}* 自己居然获得了\n  “回溯时间”的能力。",
                "<25>{#f/23}* 一开始，我想用这种能力\n  做点好事。",
-               "<25>{#f/15}* 所谓“助人自助”。\n  既然我做不到“自助”...",
+               "<25>{#f/15}* 所谓“助人自助”，\n  既然我做不到“自助”...",
                '<25>{#f/16}* 起码还能“助人”。'
             ],
             (re: boolean) => [
@@ -203,22 +203,24 @@ export default {
                        '<25>{#f/16}* ...想起来了。\n* 一开始，我用“时间回溯”的能力\n  帮助怪物。'
                     ]
                   : []),
-               "<25>{#p/asriel2}{#f/23}* 其实，做好事并不简单。\n* 一开始，帮他们干活\n  总要花很大的力气。",
-               '<25>{#f/15}* ...渐渐地，\n  就越做越熟练了。',
+               "<25>{#p/asriel2}{#f/23}* 其实，做好事并不容易。\n* 一开始，给他们干活\n  总要花很大的力气。",
+               '<25>{#f/15}* ...渐渐地，\n  我越做越熟练了。',
                '<25>{#f/5}* 很快，那些活\n  我闭眼睛都能干好。',
-               '<25>{#f/9}* 呵。\n* 我还真试过呢。',
+               '<25>{#f/9}* 嘿嘿，我还真试过呢。',
                '<25>{#f/13}* 把这事挂在嘴边，\n  好像是在炫耀...',
                '<25>{#f/9}* 但说到底...\n  我干得再快，帮得再多，\n  又有什么用呢？',
-               '<25>{#f/5}* 再怎么救人也无法就己...',
-               '<25>{#f/15}* 尽管如此，\n  我还是努力帮助别人，\n  拯救别人...',
-               '<25>{#f/15}* 以及，努力做个好人。'
+               '<25>{#f/5}* 帮得再多，\n  我也救不了自己...',
+               '<25>{#f/15}* 尽管如此，\n  我还是努力帮助他们，\n  拯救他们...',
+               '<25>{#f/15}* 努力做个好人。'
             ],
             (re: boolean) => [
                ...(re ? [ '<25>{#p/asriel2}{#f/15}* 之前说到，\n  一开始，我努力帮助别人。' ] : []),
                '<25>{#p/asriel2}{#f/16}* 但很快，\n  我发现不对劲。',
-               '<25>{#f/15}* 无论重置多少次，\n  他们的回答永远是那几句，\n  故事的结局永远是那一种..',
+               '<25>{#f/15}* 无论重置多少次...',
+'<25>{#f/15}* 他们的回答永远是那几句，\n  故事的结局永远是那一种...',
                "<25>{#f/16}* “做个好人”开始变得无聊了。",
-               '<25>{#f/6}* 你想说“那试试别的行动呗？”\n* 呵，什么调情、约会、挑逗...\n  早试过了。',
+               '<25>{#f/6}* 你想说，\n  “那就试试别的行动呗？”',
+'<25>{#f/6}* 呵，什么调情、约会、挑逗...\n  早试过了。',
                '<25>{#f/7}* 做多了，也就腻了。',
                "<25>{#f/10}* 我当然可以继续循环，\n  但有什么意思呢？",
                '<25>{#f/6}* 该换换口味了。'
@@ -227,12 +229,12 @@ export default {
                ...(re
                   ? [ "<25>{#p/asriel2}{#f/6}* 之前说到，\n  我当老好人当腻了。" ]
                   : []),
-               "<25>{#p/asriel2}{#f/4}* 不过，一开始\n  稍微坏一点就行。",
-               '<25>{#f/3}* 说点狠话，耍耍嘴皮子，\n  就差不多了。',
+               "<25>{#p/asriel2}{#f/4}* 不过，一开始\n  我不想对他们太坏。",
+               '<25>{#f/3}* 说点狠话，骂骂人，\n  就差不多了。',
                '<25>{#f/10}* 有时我会感觉心虚，难过。\n* 但转念一想，也没多恶劣。',
-               '<25>{#f/6}* 如果我发现人们的反应\n  又开始重复，\n  我就对他们更狠一点。',
+               '<25>{#f/6}* 如果我发现\n  人们的反应又开始重复，\n  我就更狠一点。',
                '<25>{#f/8}* 这里骂一句，那里怼一句。',
-               '<25>{#f/7}* 骂得多，就麻木了。',
+               '<25>{#f/7}* 骂得多，就不在乎了。',
                "<25>{#f/9}* 那段时间，\n  我最多只是耍耍嘴皮子。\n* 从没动过手，更没杀过人。"
             ],
             (re: boolean) => [
@@ -241,13 +243,14 @@ export default {
                "<25>{#f/16}* 没什么大不了的，\n  只要别失手打死了就行。",
                "<25>{#f/10}* 受点伤，算的了什么？\n  怪物有的是办法疗伤。",
                "<25>{#f/4}* 即使真出了意外，\n  我可以直接重置，\n  他们又能活蹦乱跳。",
-               "<25>{#f/3}* ...但意外真的发生了。\n* 那一刻，\n  我才知道自己多么天真。"
+               "<25>{#f/3}* ...但意外真的发生了。',
+'<25>{#f/3}* 那一刻，\n  我才知道自己多么天真。"
             ],
             (re: boolean) => [
                ...(re ? [ "<26>{#p/asriel2}{#f/3}* 之前说到，我感觉\n  “言语攻击”没什么意思，\n  想给他们来点“物理攻击”。" ] : []),
-               '<25>{#p/asriel2}{#f/13}* 可能是被揍人的快感\n  冲昏头脑了...\n  我玩了点“新花样”。',
+               '<25>{#p/asriel2}{#f/13}* 可能是冲昏了头脑...\n  我玩了点“新花样”。',
                '<25>{#f/15}* 我用魔法，把亲生母亲\n  吊了起来。\n* 越勒越紧... 越勒越紧...',
-               '<25>{#f/16}* 生命一点点离她而去\n  她气若游丝，\n  哀求我马上停手...',
+               '<25>{#f/16}* 生命一点点离她而去。\n* 她气若游丝，\n  哀求我马上停手...',
                '<25>{#f/6}* ...',
                '<25>{#f/8}* 我把她活活勒死了。',
                "<25>{#f/7}* 我惊恐万分，马上重置。\n* 但那地狱般的景象\n  却久久挥之不去。",
@@ -263,7 +266,7 @@ export default {
                     ]
                   : [ '<25>{#p/asriel2}{#f/16}* 有了第一次，\n  就会有第二次，第三次...' ]),
                '<26>{#f/15}* “万事开头难。”\n* 杀了一次人，\n  就能下得去手了。',
-               '<26>{#f/15}* 很快，情况变成这样：\n  我心情不好，杀个人找安慰；\n  我想找乐子，杀个人爽一把。',
+               '<26>{#f/15}* 很快，情况变成这样：\n  我心情不好，杀个人找安慰。\n  我想找乐子，杀个人爽一把。',
                '<26>{#f/16}* 第一次杀人纯粹只是意外。\n  现在却一发不可收拾。',
                '<26>{#f/7}* 但我不怕，\n  杀了就杀了呗，\n  反正我能无限重置。',
                '<25>{#f/6}* 一旦我开始这么想...\n  就再也没有回头路了。'
@@ -277,7 +280,7 @@ export default {
                '<25>{#f/3}* ...什么都没有。',
                '<25>{#f/3}* 没有情绪共鸣。\n* 没有意义可言。\n* 只有空虚。',
                '<25>{#f/15}* 我一无所有。\n  没有朋友，没有自由...\n* 于是，我改变了想法。',
-               '<26>{#f/23}* 我最后一次重置。\n  这一次，我任由时间向前，\n  不再干预时间线。'
+               '<26>{#f/23}* 我最后一次重置。\n* 这一次，我任由时间向前，\n  不再干预时间线。'
             ],
             (re: boolean) => [
                ...(re
@@ -286,13 +289,13 @@ export default {
                        '<25>{#f/23}* 所以，在这次重置后，\n  我不再干预时间线。'
                     ]
                   : []),
-               "<25>{#p/asriel2}{#f/17}* 但有了你，$(name)，\n  一切都不一样了。",
+               "<25>{#p/asriel2}{#f/17}* 但有了你，$(name)，\n  就不一样了。",
                '<25>{#f/23}* 你知道吗？有你陪着我，\n  我真的非常高兴。',
                "<25>{#f/13}* 有你在身边，我不再孤独。",
                "<25>{#f/15}* 有你在身边，我不再绝望。",
-               "<25>{#f/16}* 而且，你不是也\n  总想“给他们自由”嘛？\n* 我也帮你实现愿望了。",
-               '<25>{#f/13}* 毕竟，死了最自由了，\n  你说是吧？\n* 呵。',
-               '<25>{#f/23}* 我们还真是合作愉快啊。'
+               "<25>{#f/16}* 而且，你不是也想\n  “给他们自由”嘛？",
+               '<25>{#f/13}* 我可以帮你实现愿望。',
+               '<25>{#f/23}* 我们永远都是好伙伴。'
             ]
          ],
          monologueX1: [
@@ -306,7 +309,7 @@ export default {
          monologueX3: [
             '<25>{#p/asriel2}{#f/17}* 以前，我们就这样\n  手牵着手，在城市漫步...',
             '<25>{#f/23}* 现在，趁还有机会，\n  我们走完这最后一程。',
-            "<25>{#f/16}* ...之后，\n  把它炸成碎片。"
+            "<25>{#f/16}* ...之后，\n  把一切都炸成碎片。"
          ],
          monologueX4: () => [
             '<25>{#p/asriel2}{#f/16}* 景色真美。',
@@ -315,11 +318,11 @@ export default {
                     "<25>{#f/13}* 但前哨站的末日\n  已经到了。",
                     "<25>{#f/7}* $(name)，\n  那些怪物根本不懂我们。",
                     "<25>{#f/6}* 他们还相信\n  宇宙就是个大避难所。",
-                    "<25>{#f/8}* 还天真地以为，\n  “星空之大，足以容下每一个人。”",
+                    "<25>{#f/8}* 还天真地以为，\n  “星空之大，能容下每一个人。”",
                     "<25>{#f/6}* 但我们俩\n  可不跟那群蠢货一般见识。",
                     "<25>{#f/7}* 谁也阻止不了我们。",
                     "<25>{#f/9}* 嘻嘻。\n* 想来也是真有意思...",
-                    '<25>{#f/13}* 这信念让所有人\n  疏远我们...',
+                    '<25>{#f/13}* 这种信念，\n  让所有人疏远我们...',
                     '<25>{#f/16}* ...却也让我们的纽带\n  愈加牢固。',
                     '<26>{#f/17}* 听着，$(name)。\n  只要我们上了飞船，\n  离开这鬼地方...',
                     "<25>{#f/17}* 就能永远在一起了。",
@@ -2564,7 +2567,7 @@ export default {
                     '<25>{#f/13}* 诚然，你从没杀过\n  任何一只怪物。',
                     '<25>{#f/13}* 但你也一次次将他们\n  推向生死边缘...',
                     '<25>{#f/15}* 一次，又一次，又一次...',
-                    '<25>{#f/16}* 生命一点点离她而去\n  她气若游丝，\n  哀求我马上停手...',
+                    '<25>{#f/16}* 生命一点点离她而去。\n* 她气若游丝，\n  哀求我马上停手...',
                     "<25>{#f/21}* 弗里斯克，\n  他们现在都很怕你。",
                     '<26>{#f/23}* 而且...\n  我也很怕你。',
                     '<25>{#f/22}* ...'
@@ -3414,13 +3417,13 @@ export default {
                ? [ '<32>{#p/human}* (The note on the envelope wants you to enjoy the tea.)' ]
                : [
                     "<32>{#p/basic}* 茶杯上贴着一张纸条...",
-                    '<32>{#p/basic}* “我为你沏了杯茶。”\n* “无论你是谁，我都衷心希望\n  你能喜欢它。”'
+                    '<32>{#p/basic}* “我为你沏了杯茶。”\n* “无论你是谁，我都衷心希望\n   你能喜欢它。”'
                  ],
          tea1: [ '<32>{#p/human}* （你带走了星花茶。）' ],
          tea2: () =>
             SAVE.data.b.svr
                ? [ '<32>{#p/human}* (You run your hand across the countertop.)' ]
-               : [ '<32>{#p/basic}* 台面很干净。' ],
+               : [ '<32>{#p/basic}* 案板上面什么都没有。' ],
          fireplace1: () =>
             SAVE.data.b.svr
                ? [
@@ -3464,9 +3467,9 @@ export default {
                     [ "<25>{#p/asriel1}{#f/13}* That was after they'd begged for it for two years." ]
                  ][Math.min(asrielinter.fridgetrap1++, 1)]
                : world.darker
-               ? [ "<32>{#p/basic}* You really wouldn't like what's in the fridge." ]
+               ? [ "<32>{#p/basic}* 你一点也不喜欢\n  冰箱里的食物。" ]
                : [
-                    "<32>{#p/basic}* 里面放着很多名牌巧克力\n  和更大的蜗牛。"
+                    "<32>{#p/basic}* 里面有很多名牌巧克力，\n  还有一大堆蜗牛。\n* 比她家里还多。"
                  ],
          fridgetrap2: () => [
             ...(SAVE.data.b.svr
@@ -3786,9 +3789,9 @@ export default {
             SAVE.data.b.svr
                ? [ '<32>{#p/human}* (You stop to see the flowers.)' ]
                : world.darker
-               ? [ '<32>{#p/basic}* 一园子星花。' ]
+               ? [ '<32>{#p/basic}* 满园星花。' ]
                : [
-                    '<32>{#p/basic}* A garden of Starling flowers, positioned optimally near a large window.',
+                    '<32>{#p/basic}* 满园星花，\n  最适合种在大窗户旁边了。',
                     ...(SAVE.data.b.oops ? [] : [ '<32>{#p/basic}* Asgore sure knows his stuff!' ])
                  ],
          bastion: pager.create(
@@ -4245,7 +4248,7 @@ export default {
             SAVE.data.b.svr
                ? [ '<32>{#p/human}* (You stare graciously into the now-abandoned city...)' ]
                : world.genocide && SAVE.data.b.armaloop
-               ? [ "<32>{#p/basic}* A sense of panic consumes the Citadel's very being." ]
+               ? [ "<32>{#p/basic}* 首塔此刻混乱不堪。" ]
                : world.genocide || world.bad_robot || SAVE.data.b.svr || world.runaway
                ? [ '<32>{#p/basic}* 诡异的黑暗笼罩着首塔。' ]
                : [ '<32>{#p/basic}* 首塔的景象在非钢化窗户外闪闪发光。' ],
@@ -4260,11 +4263,11 @@ export default {
                        "<32>{#p/basic}* 一个书架。",
                        '<32>{#p/human}* （你取下了一本书...）',
                        '<32>{#p/basic}* 书上的标记是“大图书馆手册”。',
-                       '<32>* “欢迎来到大图书馆，\n   这里是各种主题知识的\n   大本营。”',
-                       '<32>* “这里的每条走廊上都有\n   关于历史、文化、科学、技术等的书籍。”',
-                       '<32>* “喜欢冒险的读者，\n   可以找到著名小说家的作品。”',
-                       '<32>* “Andori、特雷莉亚、Strax\n   Seterra、Vashta Nerada和\n   许多其他人都装饰着我们的墙壁。”',
-                       '<33>* \"Visit the Grand Library of Krios today, and your first\n  ten books will be 1/2KT on us.\"',
+                       '<32>* “欢迎来到大图书馆，\n   在这里，你能了解到\n   各行各业的知识。”',
+                       '<32>* “在不同的走廊，\n   你能读到不同学科的书籍。\n   有历史、文化、科学、技术...”',
+                       '<32>* “如果你喜欢探险小说，\n   也能在这里一饱眼福。”',
+                       '<32>* “很多怪物都为这里捐过书，\n   有Andori、特雷莉亚、Strax\n   Seterra、Vashta Nerada...”',
+                       '<33>* “快来克里乌斯大图书馆吧！\n   今日来馆，还能享受\n   前十本半价的优惠哦。”',
                        '<32>{#p/human}* （你把书放回了书架。）'
                     ],
             () =>
@@ -4273,7 +4276,7 @@ export default {
                   : [
                        "<32>{#p/basic}* 一个书架。",
                        '<32>{#p/human}* （你取下了一本书...）',
-                       '<32>{#p/basic}* This book has been signed by \"Toriel Dreemurr.\"',
+                       '<32>{#p/basic}* 署名是“托丽尔·逐梦”。',
                        '<32>{#p/basic}* “《逐梦家族的美味秘笈：蜗牛派》”',
                        '<32>* “蜗牛派是逐梦家族的\n   一道风味独特的传统美食。”',
                        '<32>* “制作它其实非常简单，\n   只需五个步骤：”',
@@ -4342,7 +4345,7 @@ export default {
                     [ '<25>{#p/asriel1}{#f/13}* Maybe this is what $(name) and other humans shed?' ],
                     [ "<25>{#p/asriel1}{#f/17}* I'll get back to you on my human hair-shedding theory." ]
                  ][Math.min(asrielinter.c_ak_sink++, 2)]
-               : [ '<32>{#p/basic}* 下水道里卡着一些黄色的毛发。' ],
+               : [ '<32>{#p/basic}* 下水道里堵满了\n  黄色的羊毛。' ],
          c_ak_teacheck: () =>
             SAVE.data.b.svr
                ? [
@@ -4368,14 +4371,14 @@ export default {
                  ][Math.min(asrielinter.c_ak_teacheck++, 3)]
                : world.genocide || world.bad_robot
                ? SAVE.data.b.c_state_switch2
-                  ? [ "<32>{#p/basic}* It's a teapot.\n* There's nothing left for you here." ]
+                  ? [ "<32>{#p/basic}* 一个茶壶。\n* 没什么可做的。" ]
                   : [
-                       "<32>{#p/basic}* It's a teapot.\n* There's a switch on the counter underneath it...",
-                       '<32>{#p/human}{#c.switch2}* (You pressed the switch.)'
+                       "<32>{#p/basic}* 一个茶壶。\n* 壶底的台子上有个开关...",
+                       '<32>{#p/human}{#c.switch2}* （你按下了开关。）'
                     ]
                : SAVE.data.n.plot === 72
-               ? [ "<32>{#p/basic}* It's a teapot.\n* Despite the passage of time, it continues to steam." ]
-               : [ "<32>{#p/basic}* 一个茶壶。\n* 厨房里弥漫着星花茶的味道。" ],
+               ? [ "<32>{#p/basic}* 一个茶壶。\n* 过了这么久，还在冒热气。" ]
+               : [ "<32>{#p/basic}* 一个茶壶。\n* 厨房里弥漫着\n  星花茶的清香。" ],
          c_ak_stove: () =>
             SAVE.data.b.svr
                ? [
@@ -4395,12 +4398,12 @@ export default {
                     [ "<25>{#p/asriel1}{#f/4}* A scientist's gonna science whether you like it or not." ]
                  ][Math.min(asrielinter.c_ak_stove++, 2)]
                : SAVE.data.n.plot !== 72 || world.runaway
-               ? [ '<32>{#p/basic}* 炉子上面有点脏，但其它部分还可以。' ]
+               ? [ '<32>{#p/basic}* 灶台有点脏，\n  别的地方却很干净。' ]
                : [ '<32>{#p/basic}* Smells like marinara sauce.' ],
          c_ak_trash: () =>
             SAVE.data.b.svr
                ? [ "<32>{#p/human}* (You can't make out what's in the trash...)" ]
-               : [ '<32>{#p/basic}* 令人惊讶的是，这个垃圾桶\n  完全是空的。' ],
+               : [ '<32>{#p/basic}* 垃圾桶里\n  居然什么都没有。' ],
          
          c_ah_door: () =>
             SAVE.data.b.svr
@@ -4421,7 +4424,7 @@ export default {
                        [ '<25>{#p/asriel1}{#f/23}* ... oh, Dad...' ]
                     ][Math.min(asrielinter.c_ah_door++, 2)]
                  ]
-               : [ '<32>{#p/basic}* “房间正在翻修。”' ],
+               : [ '<32>{#p/basic}* “房间翻修中。”' ],
          c_ah_mirror: () =>
             SAVE.data.b.svr
                ? [ "<25>{#p/asriel1}{#f/24}* It's us..." ]
@@ -4466,7 +4469,7 @@ export default {
             SAVE.data.b.svr
                ? [ "<32>{#p/human}* (You can't find anything in here besides several of the exact same outfit.)" ]
                : world.darker
-               ? [ '<32>{#p/basic}* A cabinet full of clothes.' ]
+               ? [ '<32>{#p/basic}* 衣柜。' ]
                : [
                     '<32>{#p/basic}* 衣柜里挂满了黄蓝条纹衫。',
                     '<32>{#p/basic}* 有些东西还真是永恒不变啊...'
@@ -4494,9 +4497,9 @@ export default {
                     [ '<25>{#p/asriel1}{#f/20}* Do action figures count as toys?\n* Those are cool.' ]
                  ][Math.min(asrielinter.c_aa_box++, 3)]
                : world.darker
-               ? [ '<32>{#p/basic}* A box of model starships.' ]
+               ? [ '<32>{#p/basic}* 一盒星际飞船模型。' ]
                : [
-                    "<32>{#p/basic}* 一盒完好无损的星际飞船模型。",
+                    "<32>{#p/basic}* 一盒星际飞船模型，\n  完好无损。",
                     '<33>{#p/basic}* 闻起来像老式胶水。'
                  ],
          c_aa_frame: () =>
@@ -4505,8 +4508,8 @@ export default {
                     Math.min(asrielinter.c_aa_frame++, 1)
                  ]
                : SAVE.data.b.oops
-               ? [ "<32>{#p/basic}* It's a hand-drawn image." ]
-               : [ "<32>{#p/basic}* It's a hand-drawn image...", '<32>* An image of the family.' ],
+               ? [ "<32>{#p/basic}* 一张手绘。" ]
+               : [ "<32>{#p/basic}* 这是一张手绘...", '<32>* 画的是全家福。' ],
          c_aa_paper: () =>
             SAVE.data.b.svr
                ? [ '<32>{#p/human}* (You roll the crayon back and forth underneath your hand.)' ]
@@ -4525,10 +4528,10 @@ export default {
                     [ '<25>{#p/asriel1}{#f/13}* Frisk...', '<25>{#f/17}* I know we have something better to do.' ]
                  ][Math.min(asrielinter.c_aa_deathbed++, 2)]
                : world.darker
-               ? [ "<32>{#p/basic}* 只是另一张床罢了。" ]
+               ? [ "<32>{#p/basic}* 另一张床。" ]
                : SAVE.data.b.oops
                ? [ "<32>{#p/basic}* 这张床绝对没什么特别的。" ]
-               : [ '<32>{#p/basic}* My bed.' ],
+               : [ '<32>{#p/basic}* 我的床。' ],
          
          c_aa_chair: () =>
             SAVE.data.b.svr
@@ -4541,7 +4544,7 @@ export default {
                ? [ '<32>{#p/human}* (The bed seems to be way too large for you.)' ]
                : world.darker
                ? [ "<32>{#p/basic}* 国王尺寸的床。" ]
-               : [ "<32>{#p/basic}* 国王尺寸的床。\n* 字面意思上的。" ],
+               : [ "<32>{#p/basic}* 国王尺寸的床。\n* 也是国王的床。" ],
          c_aa_diary: pager.create(
             0,
             ...CosmosUtils.populate(
@@ -4550,7 +4553,7 @@ export default {
                   SAVE.data.b.svr
                      ? [ '<32>{#p/human}* (The diary seems to outline important events in relation to Asgore.)' ]
                      : world.genocide || world.runaway
-                     ? [ '<32>{#p/human}* (You try to open the diary, but the pages are completely blacked out.)' ]
+                     ? [ '<32>{#p/human}* （你想看看日记，\n  但所有的页都被撕掉了。）' ]
                      : SAVE.data.n.plot === 72
                      ? [
                           '<32>{#p/human}* (You look to the newly-written diary entry.)',
@@ -4570,7 +4573,7 @@ export default {
                      : [
                           [
                              '<32>{#p/human}* （你看了一眼被标记的日记。）',
-                             '<32>{#p/asgore}* \"Asgore\'s diary, K-516.01\"',
+                             '<32>{#p/asgore}* “艾斯戈尔的日记，克历516年1月。”',
                              '<32>* “在这艰难的时刻，除了我自己，\n   我没有人可以求助。”',
                              '<32>* “或许写几页日记能\n   缓解一下我的伤痛。”',
                              '<32>* “我现在有很多感受。”',
@@ -4585,7 +4588,7 @@ export default {
                           ],
                           [
                              '<32>{#p/human}* （你开始看下一部分。）',
-                             '<32>{#p/asgore}* \"Asgore\'s diary, K-516.02\"',
+                             '<32>{#p/asgore}* “艾斯戈尔的日记，克历516年2月。”',
                              '<32>* “今天葛森来拜访我了。”',
                              '<32>* “他谈到了他在行星理事会的时候。”',
                              '<32>* “谈到了离开家人，\n   以及给自己的责任。”',
@@ -4594,7 +4597,7 @@ export default {
                           ],
                           [
                              '<32>{#p/human}* （你开始看下一部分。）',
-                             '<32>{#p/asgore}* \"Asgore\'s diary, K-524.10\"',
+                             '<32>{#p/asgore}* “艾斯戈尔的日记，克历524年10月。”',
                              '<32>* “自$(name)以后，第一个人类\n   来到了前哨站。”',
                              '<32>* “虽然多年来对人类的\n   蔑视已经平息了...”',
                              '<32>* \"Much of it still lingers, buried under the surface.\"',
@@ -4605,7 +4608,7 @@ export default {
                           ],
                           [
                              '<32>{#p/human}* （你开始看下一部分。）',
-                             '<32>{#p/asgore}* \"Asgore\'s diary, K-535.04\"',
+                             '<32>{#p/asgore}* “艾斯戈尔的日记，克历535年4月。”',
                              '<32>* “又一个人类来到了这里。”',
                              '<32>* \"They seem to be familiar with Gerson, as well as other former council members.\"',
                              '<32>* \"Now, I ask myself.\"\n* \"How?\"',
@@ -4616,7 +4619,7 @@ export default {
                           ],
                           [
                              '<32>{#p/human}* （你开始看下一部分。）',
-                             '<32>{#p/asgore}* \"Asgore\'s diary, K-549.07\"',
+                             '<32>{#p/asgore}* “艾斯戈尔的日记，克历549年7月。”',
                              '<32>* \"Since I last wrote to this diary, another child has crash-landed.\"',
                              '<32>* \"Thomas and I have the process of guiding them down to a science now.\"',
                              '<32>* \"With each new arrival, the flame of my hope grows stronger.\"',
@@ -4625,7 +4628,7 @@ export default {
                           ],
                           [
                              '<32>{#p/human}* （你开始看下一部分。）',
-                             '<32>{#p/asgore}* \"Asgore\'s diary, K-567.11\"',
+                             '<32>{#p/asgore}* “艾斯戈尔的日记，克历567年11月。”',
                              '<32>* \"Today I must say goodbye to the second of two children to arrive this year.\"',
                              '<32>* \"The first entered the archive immediately, but the other chose to stay for a while.\"',
                              '<32>* \"I have learned a lot from them.\"',
@@ -4635,7 +4638,7 @@ export default {
                           ],
                           [
                              '<32>{#p/human}* （你开始看下一部分。）',
-                             '<32>{#p/asgore}* \"Asgore\'s diary, K-587.03\"',
+                             '<32>{#p/asgore}* “艾斯戈尔的日记，克历587年3月。”',
                              '<32>* \"The sixth human since $(name) came through a few days ago.\"',
                              '<32>* \"I write not due to their arrival, but because the professor died shortly after.\"',
                              '<32>* \"Thomas Nue Roman.\"\n* \"Your funeral service will take place in a few days.\"',
@@ -4644,7 +4647,7 @@ export default {
                           ],
                           [
                              '<32>{#p/human}* （你开始看下一部分。）',
-                             '<32>{#p/asgore}* \"Asgore\'s diary, K-615.09\"',
+                             '<32>{#p/asgore}* “艾斯戈尔的日记，克历615年9月。”',
                              '<32>* \"Today, on the anniversary of that awful tragedy, one last human has crash-landed.\"',
                              '<32>* \"Suddenly, the prospect of freedom is intimidating.\"',
                              '<32>* \"Was he right in thinking we would become complacent?\"',
@@ -4661,7 +4664,7 @@ export default {
          c_aa_bureau: () =>
             SAVE.data.b.svr
                ? [
-                    '<32>{#p/human}* (You look inside the bureau...)',
+                    '<32>{#p/human}* （你往衣柜里瞅了一腌...）',
                     ...[
                        [ '<25>{#p/asriel1}{#f/19}* Looks like the humans got their clothes back.' ],
                        [ '<25>{#p/asriel1}{#f/19}* ...', '<25>* I regret ever wondering why they were in here.' ],
@@ -4675,12 +4678,12 @@ export default {
                  ]
                : SAVE.data.n.plot === 72 || world.genocide || world.bad_robot || world.trueKills > 29
                ? [
-                    '<32>{#p/human}* (You look inside the bureau...)',
-                    '<32>{#p/basic}* Seems to have been recently emptied of its clothes.'
+                    '<32>{#p/human}* （你往衣柜里瞅了一腌...）',
+                    '<32>{#p/basic}* 看起来，所有的衣服\n  刚刚都被拿走了。'
                  ]
                : [
-                    '<32>{#p/human}* (You look inside the bureau...)',
-                    "<32>{#p/basic}* It's a collection of wildly- varying children's clothes."
+                    '<32>{#p/human}* （你往衣柜里瞅了一腌...）',
+                    "<32>{#p/basic}* 里面挂满了\n  各种奇怪的儿童服装。"
                  ],
          c_aa_macaroni: () =>
             SAVE.data.b.svr
@@ -4698,7 +4701,7 @@ export default {
                     [ '<25>{#p/asriel1}{#f/20}* Always remember the Starling flower made of faux-macaroni.' ]
                  ][Math.min(asrielinter.c_aa_macaroni++, 2)]
                : SAVE.data.b.oops
-               ? [ '<32>{#p/basic}* A Starling flower made of dried, glued-together foodstuff.' ]
+               ? [ '<32>{#p/basic}* 一朵星花，\n  由干燥的食材粘合而成。' ]
                : [ '<32>{#p/basic}* It\'s Asriel\'s hand-made Starling flower.\n* It says \"For King Dad.\"' ],
          c_aa_underwear: () =>
             SAVE.data.n.plot === 72 && !SAVE.data.b.svr && !world.runaway
@@ -4714,17 +4717,17 @@ export default {
                          ][Math.min(asrielinter.c_aa_underwear++, 3)]
                        : world.genocide || world.bad_robot
                        ? SAVE.data.b.c_state_switch1
-                          ? [ '<32>{#p/basic}* 没有什么别的东西了。' ]
+                          ? [ '<32>{#p/basic}* 没什么有价值的东西。' ]
                           : [
-                               "<32>{#p/basic}* 这里面有个开关...",
+                               "<32>{#p/basic}* 里面有个开关...",
                                '<32>{#p/human}{#c.switch1}* （你按下了开关。）'
                             ]
                        : world.darker
-                       ? [ "<32>{#p/basic}* It's just an underwear drawer." ]
+                       ? [ "<32>{#p/basic}* 只是个装内裤的床头柜。" ]
                        : [
-                            '<32>{#p/basic}* 真可怕！',
-                            "<33>{#p/basic}* 这是艾斯戈尔的内衣抽屉。\n* 出人意料地干净。",
-                            '<33>{#p/basic}* ...大部分都是粉色，手工编织的，\n  上面缝着“我的老爹”的字样。'
+                            '<32>{#p/basic}* 真羞人！',
+                            "<33>{#p/basic}* 这是艾斯戈尔的床头柜。\n  里面装着他的内裤。\n* 没想到居然这么整洁。",
+                            '<33>{#p/basic}* ...大部分内裤\n  都是手工编织的粉色内裤。\n  上面锈着“大老爹”三个字。'
                          ])
                  ]
       }
@@ -5486,7 +5489,7 @@ export default {
             ...(s ? [ '<32>{#p/basic}* 突然间，记忆如潮水般涌回！' ] : [])
          ],
          punch: (s: boolean) => [
-            '<32>{#p/human}* （你让迷失的灵魂\n  给你倒一杯洋梅潘趣酒。）',
+            '<32>{#p/human}* （你让迷失的灵魂\n  给你倒一杯洋梅果酒。）',
             '<32>{#p/human}* （她有些不满，\n  但也感到十分亲切...）',
             ...(s ? [ '<32>{#p/basic}* 突然间，记忆如潮水般涌回！' ] : [])
          ],
@@ -5733,7 +5736,7 @@ export default {
                '<32>{#p/basic}* 突然间，记忆如潮水般涌回！'
             ],
             talk: [
-               [ '<08>{#p/papyrus}{#e/papyrus/10}哦！\n有了这些水果，\n我们就能\n自制潘趣酒了！' ],
+               [ '<08>{#p/papyrus}{#e/papyrus/10}哦！\n有了这些水果，\n我们就能\n自制果酒了！' ],
                [ "<11>{#p/sans}{#e/sans/2}不要像\n上次一样\n搞砸哦。" ]
             ]
          },

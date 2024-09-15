@@ -5029,7 +5029,7 @@ export default {
       pose: '* 摆姿势',
       praise: '* 称赞',
       promise: '* 许诺',
-      punch: '* 潘趣酒',
+      punch: '* 果酒',
       puzzle: '* 谜题',
       puzzlehelp: '* 谜题求助',
       rap: '* 说唱',

@@ -1,21 +1,6 @@
-#, fuzzy
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-15 07:47+0000\n"
-"PO-Revision-Date: 2024-09-15 07:47+0000\n"
-"Last-Translator: WS-3917 <ws3917@outlook.com>\n"
-"Language-Team: Chinese (Traditional) <https://ws3917.site/projects/"
-"project-spacetime/3-foundry/zh_Hant/>\n"
-"Language: zh_TW\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: ENCODING\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.6.2\n"
-
-#
 
 msgid "<32>{#p/basic}* ..."
 msgstr "<32>{#p/basic}* ..."
@@ -17432,11 +17417,13 @@ msgid "<32>{#p/human}* (You throw away the Legendary Artifact.)"
 msgstr "<32>{#p/human}* （你把神器扔掉了。）"
 
 msgid "<32>{#p/basic}* The dog dances even harder!"
-msgstr ""
+msgstr "<32>{#p/basic}* 狗子跳得更起勁了！"
 
 msgid ""
 "<32>{#p/basic}* ... the dog's sighing quiets down, even if you can't tell."
 msgstr ""
+"<32>{#p/basic}* ...不知為何，\n"
+"  狗子不再嘆氣了，"
 
 msgid ""
 "<32>{#p/human}* (Inscribed with the signature of a former world leader.)"
@@ -17456,9 +17443,11 @@ msgstr ""
 msgid ""
 "<32>{#p/basic}* ... the dog's dancing slows down, even if you can't tell."
 msgstr ""
+"<32>{#p/basic}* ...不知為何，\n"
+"  狗子跳得沒那麼起勁了。"
 
 msgid "<32>{#p/basic}* The dog sighs even louder!"
-msgstr ""
+msgstr "<32>{#p/basic}* 狗子的嘆氣更響了！"
 
 msgid "<32>{#p/human}* (Nothing happens.)"
 msgstr "<32>{#p/human}* （什麼都沒發生。）"
@@ -17537,10 +17526,10 @@ msgid "Sourced from a tree that grew on the monsters' homeworld."
 msgstr "取材自怪物故園裡的一棵樹。ゑ"
 
 msgid "Sap"
-msgstr "樹液ゑ"
+msgstr "樹膠ゑ"
 
 msgid "<32>{#p/human}* (You throw away the Tree Sap.)"
-msgstr "<32>{#p/human}* （你把樹液扔掉了。）"
+msgstr "<32>{#p/human}* （你把樹膠扔掉了。）"
 
 msgid "<32>{#p/human}* (35 HP.)"
 msgstr "<32>{#p/human}* （35 HP。）"
@@ -17549,14 +17538,14 @@ msgid ""
 "<32>{#p/basic}* \"Tree Sap\" Heals 35 HP\n"
 "* Sourced from a tree that grew on the monsters' homeworld."
 msgstr ""
-"<32>{#p/basic}* 「樹液」 回復35 HP\n"
+"<32>{#p/basic}* 「樹膠」 回復35 HP\n"
 "* 取材自怪物故園裡的一棵樹。"
 
 msgid "Tree Sap"
-msgstr "樹液"
+msgstr "樹膠"
 
 msgid "<32>{#p/human}* (You chewed the Tree Sap.)"
-msgstr ""
+msgstr "<32>{#p/human}* （你嚼了一塊樹膠。）"
 
 msgid ""
 "Expand your reality!\n"
@@ -17667,7 +17656,7 @@ msgid "<32>{#p/basic}* A picturesque landscape..."
 msgstr "<32>{#p/basic}* 風景如畫..."
 
 msgid "<32>{#p/human}* (You rip up the Postcard.)"
-msgstr ""
+msgstr "<32>{#p/human}* （你撕碎了明信片。）"
 
 msgid "<32>{#p/story}* ATTACK up by ${2 + battler.at_bonus}!"
 msgstr "<32>{#p/story}* 你的攻擊力提升了${2 + battler.at_bonus}點！"
@@ -17676,6 +17665,9 @@ msgid ""
 "<32>{#p/human}* (You daydream about the landscape on the Postcard.)\n"
 "* (Nothing happens.)"
 msgstr ""
+"<32>{#p/human}* （你在腦海裡幻想著\n"
+"  明信片上面的美景。）\n"
+"* （什麼都沒發生。）"
 
 msgid "With great confections come great sweetsponsibilities."
 msgstr ""
@@ -17690,6 +17682,8 @@ msgstr "<32>{#p/human}* （你把芝士蛋糕扔掉了。）"
 
 msgid "<32>{#p/basic}* And the cycle of abandonment continues."
 msgstr ""
+"<32>{#p/basic}* 短暫獲得主人後，\n"
+"  它又被遺棄了。"
 
 msgid ""
 "<25>{#p/sans}{#f/3}* ... oh.\n"
@@ -17721,9 +17715,13 @@ msgid ""
 "<25>{#p/sans}{#f/0}* ... oh.\n"
 "* you actually ate it?"
 msgstr ""
+"<25>{#p/sans}{#f/0}* ...喔？\n"
+"* 你真把它吃掉了？"
 
 msgid "<25>{#p/sans}{#f/2}* i had no idea anyone liked my baking skills."
 msgstr ""
+"<25>{#p/sans}{#f/2}* 沒想到居然有人會\n"
+"  認可我的廚藝。"
 
 msgid "A bag of chisps from far beyond the stars."
 msgstr "一包來自星河彼端的薯片。"
@@ -18430,7 +18428,7 @@ msgid "0G - Nebula Tea"
 msgstr "0G - 星雲茶"
 
 msgid "0G - Tree Sap"
-msgstr "0G - 樹液"
+msgstr "0G - 樹膠"
 
 msgid "45G - Datapad?"
 msgstr "45G - 平板電腦？"
@@ -18442,7 +18440,7 @@ msgid "16G - Nebula Tea"
 msgstr "16G - 星雲茶"
 
 msgid "25G - Tree Sap"
-msgstr "25G - 樹液"
+msgstr "25G - 樹膠"
 
 msgid "25G - Datapad?"
 msgstr "25G - 平板電腦？"
@@ -18460,7 +18458,7 @@ msgid "5G - Nebula Tea"
 msgstr "5G - 星雲茶"
 
 msgid "5G - Tree Sap"
-msgstr "5G - 樹液"
+msgstr "5G - 樹膠"
 
 msgid "55G - Datapad"
 msgstr "55G - 平板電腦"

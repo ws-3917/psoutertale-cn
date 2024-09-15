@@ -1030,7 +1030,7 @@ export default {
             '<25>{#g/alphysGarbo}* Are they all seriously about himself?',
             '<25>{#g/alphysGarboCenter}* Man.',
             '<25>{#g/alphysWelp}* \"What is Mettaton\'s most successful product line?\"',
-            choicer.create('* （你要怎麼回答？）', 'MTT Beauty', 'MTT Cooking', 'MTT Tech', 'MTT TV')
+            choicer.create('* （你要怎麼回答？）', 'MTT美妝', 'MTT廚具', 'MTT科技', 'MTT電視臺')
          ],
          barricade2b1: [
             "<25>{#p/alphys}{#g/alphysCutscene2}* Yeah... that's probably the right answer.",
@@ -1424,14 +1424,14 @@ export default {
          cookerX8: [ "<25>{#p/asriel2}{#f/3}* 咱們走。" ],
          cookerX9: [
             '<32>{#p/event}* 鈴鈴，鈴鈴...',
-            "<32>{#p/mettaton}* I SEE YOU'VE MADE IT ACROSS THE GAP.",
+            "<32>{#p/mettaton}* 瞅見你倆飛過虛空了。",
             '<32>* ...',
-            '<32>* PERHAPS...',
-            '<32>* TRUSTING A LOW-LEVEL SERVICE WORKER TO GUARD THAT LIFTGATE...',
-            "<32>* WASN'T THE GREATEST PLAN.",
+            '<32>* 看來...',
+            '<32>* 派一個低級服務員\n  去守著那臺升降門...',
+            "<32>* 是我失策了。",
             '<32>* ...',
-            '<32>* OH WELL.',
-            "<32>* I'M GOING TO KILL YOU ANYWAY."
+            '<32>* 唉，好吧。',
+            "<32>* 反正我早晚滅了你們。"
          ],
          whatthefuck: [
             "<32>{#p/basic}* 別擔心，我不會有事的！\n* 看看這些光圈吶！\n* 老闆不會炒我魷魚的..."
@@ -2173,99 +2173,99 @@ export default {
          ],
          moneyX1: [
             '<32>{#p/event}* 鈴鈴，鈴鈴...',
-            '<32>{#p/mettaton}* OH DEAR, IS THAT...\n* IS THAT WHAT IT LOOKS LIKE?',
-            "<32>* OH, I DO BELIEVE THAT IT'S...",
-            '<32>* A TRAP!',
-            '<32>* AND, OF COURSE...'
+            '<32>{#p/mettaton}* 親吶...\n* 我沒看錯吧。',
+            "<32>* 太不可思議了，這兒竟然...",
+            '<32>* 有陷阱欸！',
+            '<32>* 還有，我都不用多說了...'
          ],
          moneyX2a: [
-            "<32>* YOU'RE ON LIVE TV AGAIN!",
-            '<32>* HOW WILL YOU TWO ESCAPE THE ROOM THIS TIME?',
+            "<32>* 你們又上電視啦！",
+            '<32>* 這次，你們又得如何逃生呢？',
             '<32>* 哈哈哈...'
          ],
-         moneyX2b: [ '<32>* ONLY -TIME- WILL TELL...{%200}' ],
+         moneyX2b: [ '<32>* 只有【時間】能給我們答案...{%200}' ],
          moneyX3: () =>
             [
                [
-                  '<25>{#p/asriel2}{#f/10}* Hmm...{%100}',
-                  '<25>* The control console is up on that platform...{%100}',
+                  '<25>{#p/asriel2}{#f/10}* 嗯...{%100}',
+                  '<25>* 控制臺就在那個平臺上...{%100}',
                   '<25>{#f/16}* ...{%100}',
-                  '<25>{#f/13}* This is going to be a little embarrassing, but...{%100}',
-                  '<25>{#f/13}* If I kneel in front of the platform...{%100}',
-                  '<25>{#f/16}* You can... maybe climb onto me to get up there and cancel the timer.{%100}',
-                  '<25>{#f/15}* I hope this works...{%100}'
+                  '<25>{#f/13}* 有點難為情，不過...{%100}',
+                  '<25>{#f/13}* 我跪在平臺前...{%100}',
+                  '<25>{#f/16}* 你就可以...\n  試試踩著我上那兒，\n  關掉計時器。{%100}',
+                  '<25>{#f/15}* 大概能行吧...{%100}'
                ],
-               [ '<25>{#p/asriel2}{#f/13}* ...{%100}', '<25>{#f/4}* You know what we have to do, $(name).{%100}' ]
+               [ '<25>{#p/asriel2}{#f/13}* ...{%100}', '<25>{#f/4}* $(name)，\n  知道我們要做啥吧。{%100}' ]
             ][Math.min(SAVE.flag.n.ga_asrielMoneyX3++, 1)],
          moneyT1: (i: number) =>
             [
-               [ '<25>{#p/asriel2}{#f/15}* Are we...\n* ... going to do this?{%200}' ],
-               [ "<25>{#p/asriel2}{#f/16}* ... we don't have time for this.{%200}" ],
-               [ '<25>{#p/asriel2}{#f/15}* Not again.{%200}' ],
+               [ '<25>{#p/asriel2}{#f/15}* 你... 來嗎？{%200}' ],
+               [ "<25>{#p/asriel2}{#f/16}* ...我們沒時間胡鬧。{%200}" ],
+               [ '<25>{#p/asriel2}{#f/15}* 別再耍性子了。{%200}' ],
                []
             ][Math.min(i, 3)],
          moneyT2: (i: number) =>
             [
-               [ '<25>{#p/asriel2}{#f/16}* Or are we just going to stand here.{%200}' ],
-               [ "<25>{#p/asriel2}{#f/13}* $(name), please...\n* Don't do this again...{%200}" ],
+               [ '<25>{#p/asriel2}{#f/16}* 還是說你覺得...\n  我們傻愣在這就行。{%200}' ],
+               [ "<25>{#p/asriel2}{#f/13}* $(name)，求你了...\n* 別再耍性子了...{%200}" ],
                []
             ][Math.min(i, 2)],
          moneyT3: (i: number) =>
             [
-               [ '<25>{#p/asriel2}{#f/13}* I guess we are.{%200}' ],
-               [ '<25>{#p/asriel2}{#f/3}* ...\n* This is so stupid.{%200}' ],
+               [ '<25>{#p/asriel2}{#f/13}* 還真是。{%200}' ],
+               [ '<25>{#p/asriel2}{#f/3}* ...\n* 杵在這真是蠢爆了。{%200}' ],
                []
             ][Math.min(i, 2)],
          moneyT4: (i: number) =>
             [
                [
-                  "<25>{#p/asriel2}{#f/5}* So how's your day been, huh?{%200}",
-                  '<25>{#p/asriel2}{#f/13}* Pretty good?\n* ...{%200}'
+                  "<25>{#p/asriel2}{#f/5}* 今天過得咋樣？{%200}",
+                  '<25>{#p/asriel2}{#f/13}* 應該不錯？\n* ...{%200}'
                ],
                []
             ][Math.min(i, 1)],
          moneyT5: (i: number) =>
-            [ [ "<25>{#p/asriel2}{#f/4}* I'm amazed at how you can just stand there without getting bored.{%200}" ], [] ][
+            [ [ "<25>{#p/asriel2}{#f/4}* 杵在那愣著不無聊嗎。\n  真是驚到我了。{%200}" ], [] ][
                Math.min(i, 1)
             ],
-         moneyT6: (i: number) => [ [ '<25>{#p/asriel2}{#f/3}* ...\n* $(name)?{%200}' ], [] ][Math.min(i, 1)],
-         moneyT7: (i: number) => [ [ '<25>{#p/asriel2}{#f/13}* $(name).{%200}' ], [] ][Math.min(i, 1)],
+         moneyT6: (i: number) => [ [ '<25>{#p/asriel2}{#f/3}* ...\n* $(name)？{%200}' ], [] ][Math.min(i, 1)],
+         moneyT7: (i: number) => [ [ '<25>{#p/asriel2}{#f/13}* $(name)。{%200}' ], [] ][Math.min(i, 1)],
          moneyT8: (i: number) =>
-            [ [ "<25>{#p/asriel2}{#f/7}* We could've been off the outpost by this point.{%200}" ], [] ][Math.min(i, 1)],
+            [ [ "<25>{#p/asriel2}{#f/7}* 有這時間杵那兒，\n  我們都離開前哨站了。{%200}" ], [] ][Math.min(i, 1)],
          moneyT9: (i: number) =>
-            [ [ '<25>{#p/asriel2}{#f/6}* ...\n* Please.{%200}' ], [ '<25>{#p/asriel2}{#f/15}* Almost there...' ] ][
+            [ [ '<25>{#p/asriel2}{#f/6}* ...\n* 算我求你了。{%200}' ], [ '<25>{#p/asriel2}{#f/15}* 可算快結束了...' ] ][
                Math.min(i, 1)
             ],
          moneyX4: () =>
-            [ [ '<25>{#p/asriel2}{#f/13}* Uh... ready.{%200}' ], [ '<25>{#p/asriel2}{#f/13}* Come on...{%200}' ] ][
+            [ [ '<25>{#p/asriel2}{#f/13}* 呃... 我準備好了。{%200}' ], [ '<25>{#p/asriel2}{#f/13}* 別磨蹭了...{%200}' ] ][
                Math.min(SAVE.flag.n.ga_asrielMoneyX4++, 1)
             ],
-         moneyX4a: [ '<25>{#p/asriel2}{#f/1}* There.' ],
-         moneyX4b: [ '<25>{#p/asriel2}{#f/6}* ...', '<25>{#p/asriel2}{#f/7}* Did we seriously just wait for that?' ],
+         moneyX4a: [ '<25>{#p/asriel2}{#f/1}* 成了。' ],
+         moneyX4b: [ '<25>{#p/asriel2}{#f/6}* ...', '<25>{#p/asriel2}{#f/7}* 浪費這麼久，\n  就等來個這？' ],
          moneyX5a: [
             '<32>{#p/event}* 鈴鈴，鈴鈴...',
-            '<32>{#p/mettaton}* DO MY SENSORS DECIEVE?', 
-            "<32>* DEAR VIEWERS, WE MIGHT HAVE TO CHANGE THIS SHOW'S RATING...",
-            '<32>* FROM \"SHAMEFUL\" TO \"ULTRA SHAMEFUL\" OF COURSE!',
-            "<32>* I CAN'T SAY MANY IN YOUR PLACE WOULD BE WILLING TO HUMILIATE THEMSELVES LIKE THAT."
+            '<32>{#p/mettaton}* 我的傳感器沒出錯吧？', 
+            "<32>* 親愛的觀眾朋友們，\n  我們得調整一下節目的評級了...",
+            '<32>* 從「有點爛」降成「爛透了」！',
+            "<32>* 沒幾個人會想看這種節目，\n  汙了自己的眼睛的。"
          ],
          moneyX5b: [
             '<32>{#p/event}* 鈴鈴，鈴鈴...',
-            '<32>{#p/mettaton}* WELL, THAT WAS...',
-            "<32>* UH... I DON'T REALLY KNOW WHAT TO CALL THAT.",
-            '<32>* THANKS FOR WAITING, I GUESS?',
-            '<32>* IT SURE MADE MY JOB A WHOLE LOT EASIER.'
+            '<32>{#p/mettaton}* 呃，這真是...',
+            "<32>* ...我有什麼話術好用嗎？",
+            '<32>* 也許...\n  感謝你們的耐心與支援？',
+            '<32>* 你們這一等，\n  我的事兒好辦多了。'
          ],
          moneyX5c: [
             '<32>* ...',
-            '<32>* MY PREPARATIONS ARE NEARLY COMPLETE.',
-            '<32>* IF YOU HAVE ANY LAST WORDS FOR THE RESIDENTS OF THE OUTPOST...',
-            '<32>* NOW WOULD BE THE PERFECT TIME TO SHARE THEM.'
+            '<32>* 我馬上就完成準備工作了。',
+            '<32>* 要是你倆有啥遺言\n  想對前哨站居民說...',
+            '<32>* 現在這個時機再合適不過了。'
          ],
          moneyX6a: [ '<25>{#p/asriel2}{#f/15}* ...' ],
-         moneyX6b: [ '<25>{#f/2}* Nah.' ],
-         moneyX7: [ '<25>{#p/asriel2}{#f/6}* Come on, get down.' ],
-         moneyX8: [ '<25>{#p/asriel2}{#f/8}* ...', '<25>{#p/asriel2}{#f/6}* Onward to the elevator.' ],
+         moneyX6b: [ '<25>{#f/2}* 沒啥要說的。' ],
+         moneyX7: [ '<25>{#p/asriel2}{#f/6}* 下來吧。' ],
+         moneyX8: [ '<25>{#p/asriel2}{#f/8}* ...', '<25>{#p/asriel2}{#f/6}* 咱去電梯。' ],
          rg2a: [ "<32>{#p/basic}{#x1}* Halt!\n* You've gone far enough!{#x3}" ],
          rg2b: () =>
             world.genocide
@@ -2878,11 +2878,11 @@ export default {
                [ '<32>{#p/mettaton}* HERE WE GO INDEED, DARLING!' ],
                [ '<32>{#p/mettaton}* WHY HELLO!' ]
             ][Math.min(SAVE.flag.n.ga_asriel53 - 1, 2)],
-            "<32>* WHY DON'T YOU TWO COME INTO THE LIMELIGHT?"
+            "<32>* 為何不來這聚光燈下呢？"
          ],
          operaX3: [
-            "<32>{#p/mettaton}* THAT'S BETTER...",
-            '<32>{#p/mettaton}* NOW, ALLOW ME TO SING YOU TWO A LITTLE SONG.'
+            "<32>{#p/mettaton}* 好多了...",
+            '<32>{#p/mettaton}* 我給你們唱首小曲吧。'
          ],
          operaX4: () =>
             [
@@ -3406,22 +3406,22 @@ export default {
          labdisplay: '-人類實時數據-\nEXP　$(x)\nHP 　$(y)\n金錢 $(z)\n距離 $(w)',
          exofountain1: () => [
             SAVE.data.b.svr
-               ? '<32>{#p/human}* (You feel the urge to drink from a fountain of punch.)'
-               : '<32>{#p/basic}* This extravagant fountain is filled with exoberry punch.',
-            choicer.create('* （喝一口嗎？）', '是', '否')
+               ? '<32>{#p/human}* （看著噴泉中的果酒，\n  你禁不住想抿一口。）'
+               : '<32>{#p/basic}* 這座奢侈的噴泉\n  盛滿了洋梅果酒。',
+            choicer.create('* （抿一口嗎？）', '是', '否')
          ],
-         exofountain2a: [ '<32>{#p/human}* (You chose not to take a sip.)' ],
+         exofountain2a: [ '<32>{#p/human}* （你打算不這麼做。）' ],
          exofountain2b: () => [
-            '<32>{#p/human}* （你喝了噴泉中的酒。）\n* （HP已回滿。）',
+            '<32>{#p/human}* （你抿了一口噴泉中的果酒。）\n* （HP已回滿。）',
             ...(world.genocide && SAVE.flag.n.ga_asrielDrink++ < 1
-               ? [ '<25>{#p/asriel2}{#f/15}* You are properly crazy.' ]
+               ? [ '<25>{#p/asriel2}{#f/15}* 你腦子沒壞吧。' ]
                : [])
          ],
          kneeler: [
-            "<32>{#p/human}* (You check Asriel's head to make sure it's safe to climb up.)",
-            '<25>{#p/asriel2}{#f/16}* Why are you like this.'
+            "<32>{#p/human}* （你檢查著Asriel的腦袋，\n  防止等會摔下來。）",
+            '<25>{#p/asriel2}{#f/16}* 為啥非得這樣。'
          ],
-         kneeler2: [ '<25>{#p/asriel2}{#f/8}* Thanks, I guess.' ],
+         kneeler2: [ '<25>{#p/asriel2}{#f/8}* 謝了哈。' ],
          topdesk1: () =>
             SAVE.data.b.svr || world.bad_lizard > 1 || world.genocide || SAVE.data.n.state_foundry_undyne === 2
                ? [ "<32>{#p/human}* （屏幕上的圖像令你嘆為觀止。）\n* （你不會在做白日夢吧。）" ]
@@ -4410,31 +4410,31 @@ export default {
          corenote6: () => [
             '<32>{#p/basic}* 一盒錄音帶，標著「Asgore」。',
             '<32>{#p/human}* （你聽了聽內容...）',
-            "<32>{#p/alphys}* I know I haven't always been the best at my job, but...",
-            '<32>* You always made me feel like I was contributing something.',
-            '<32>* And, even though those experiments were risky...',
-            '<32>* I had the support of the whole outpost to find us a faster way out of here.',
-            "<32>* Well, boss... we did it.\n* You won't have to live another day on this stupid outpost.",
-            '<32>* I should have known something would go wrong...',
-            '<32>* I should have noticed the dust on that Starling flower...',
-            '<32>* I should have contained it while I had the chance...',
-            "<32>* But I didn't.",
-            '<32>* Because of me, and my hubris, that child has carved a path of destruction.',
-            "<32>* I've lost so many people that I care about already...",
-            '<32>* Seeing them die from the comfort of my own lab, while I do nothing to stop it.',
-            "<32>* Mettaton's going to give it his all, but if he fails...",
-            "<32>* ... you're next.",
-            "<32>* I don't know what I'd do if I had to watch another one of my friends die.",
-            "<32>* I don't know how I'd feel if I knew I could have done something to save you.",
-            "<32>* I do know you're not going to fight back, and I do know they're not going to care.",
-            "<32>* If I don't do something before it's too late...",
+            "<32>{#p/alphys}* 我知道，自己並不擅長\n  這份工作...",
+            '<32>* 但有你的支援，讓我覺得\n  自己的努力有了意義。',
+            '<32>* 整個前哨站的大家\n  都支援著我們...',
+            '<32>* 所以，即便實驗風險再大，\n  我也暗下決心：\n  一定要讓大家逃出去。',
+            "<32>* 最終... 我們成功了。\n* 您終於不用在這個破前哨站\n  苦苦等待人類到來。",
+            '<32>* 但我就顧著高興，\n  居然沒預感到\n  實驗會出岔子...',
+            '<32>* 居然沒注意到\n  塵埃落到了那朵星花上...',
+            '<32>* 要是我早點發現，\n  果斷把那朵星花隔離起來...\n  就不會出事。',
+            "<32>* 但我沒有在意。",
+            '<32>* 因為我，因為我的自負，\n  那孩子走上了不歸路。',
+            "<32>* 許多朋友也因我而死...",
+            '<32>* 我在實驗室眼睜睜地\n  看著他們一個接一個死去，\n  自己卻只是袖手旁觀。',
+            "<32>* Mettaton說，\n  會盡全力阻止他們。",
+            "<32>* 但他要是失敗了...\n* 下一個遭殃的就是你。",
+            "<32>* 我不知道，\n  當又一個摯友死在我面前時，\n  我該如何應對。",
+            "<32>* 我不知道，在你身處危險時\n  我要是再一次選擇袖手旁觀，\n  又該怎麼面對自己。",
+            "<32>* 我只知道，你不會還手。\n  而他們會毫不留情地殺了你。",
+            "<32>* 要是我再磨蹭下去...",
             '<32>* ...',
-            '<32>{#p/human}* (You hear Alphys drop the recorder and run into the elevator.)',
+            '<32>{#p/human}* （你聽到放下錄音機，\n  衝向電梯的聲音。）',
             ...(SAVE.flag.n.genocide_milestone < 5
                ? SAVE.flag.n.ga_asrielCorenote++ < 1
                   ? [
-                       '<25>{#p/asriel2}{#f/3}* Alphys running away as always, I take it.',
-                       '<25>{#p/asriel2}{#f/4}* A pity.'
+                       '<25>{#p/asriel2}{#f/3}* Alphys又逃跑了，我理解。',
+                       '<25>{#p/asriel2}{#f/4}* 畢竟她就是個窩囊廢。'
                     ]
                   : []
                : SAVE.flag.n.ga_asrielAlphysCom4++ < 1
@@ -4617,7 +4617,7 @@ export default {
             SAVE.data.b.svr
                ? [ '<32>{#p/human}* (You run the nigh-invisible water over your hands.)' ]
                : [
-                    "<32>{#p/basic}* 一個水槽，通過複製器供水。",
+                    "<32>{#p/basic}* 這是一個水槽，通過複製器供水。",
                     ...(mtt
                        ? [
                             '<32>{#p/mettaton}* 材料越複雜，\n  就需要越多時間來複製。',
@@ -5883,9 +5883,9 @@ export default {
          asriel52: () =>
             [
                [
-                  "<25>{#p/asriel2}{#f/6}* Let me guess, the elevator couldn't take us to the third floor?",
+                  "<25>{#p/asriel2}{#f/6}* 讓我猜猜，\n  那臺破電梯沒法直達三樓？",
                   '<25>{#f/8}* ...',
-                  "<25>{#f/7}* I should have known he'd make us take the long way up."
+                  "<25>{#f/7}* 早該料到\n  他會讓我們跑斷腿的。"
                ],
                [ '<25>{#p/asriel2}{#f/8}* One floor down, two floors to go...' ]
             ][Math.min(SAVE.flag.n.ga_asriel52++, 1)],
@@ -5897,23 +5897,23 @@ export default {
                  ]
                : [
                     [
-                       "<25>{#p/asriel2}{#f/6}* It's dark... this isn't normal at all.",
-                       "<25>{#f/7}* Someone must've come through and shorted out the electrics."
+                       "<25>{#p/asriel2}{#f/6}* 真奇怪，\n  這裡不該這麼黑啊。",
+                       "<25>{#f/7}* 肯定是有人\n  把供電系統弄短路了。"
                     ],
-                    [ '<25>{#p/asriel2}{#f/10}* Seriously, who turned out the lights?' ],
+                    [ '<25>{#p/asriel2}{#f/10}* 說實在的，\n  到底是誰熄了燈呢？' ],
                     []
                  ][Math.min(SAVE.flag.n.ga_asrielHotel0++, 1)],
          hotel1: () =>
             SAVE.flag.n.genocide_milestone < 5
                ? SAVE.flag.b.asriel_electrics
                   ? [
-                       '<25>{#p/asriel2}{#f/15}* Come to think of it...',
-                       '<25>{#f/16}* This does look like it was caused by magic.',
-                       "<26>{#f/3}* So that's that, I guess."
+                       '<25>{#p/asriel2}{#f/15}* 仔細想想...',
+                       '<25>{#f/16}* 這次停電\n  像是魔法造成的。',
+                       "<26>{#f/3}* 我大概明白了。"
                     ]
                   : [
-                       '<25>{#p/asriel2}{#f/10}* No security field...?',
-                       '<25>{#f/10}{#x1}* And look, the emitters are burnt out.'
+                       '<25>{#p/asriel2}{#f/10}* ...安保屏障去哪了？',
+                       '<25>{#f/10}{#x1}* 看看這安保門，都燒壞了。'
                     ]
                : [
                     '<25>{#p/asriel2}{#f/13}* ... to think this damage was caused by her magic...',
@@ -6628,7 +6628,7 @@ export default {
             : [ '<32>{#p/story}* The smiling eyes step forth!' ],
       rg: () => (world.goatbro ? [ '<32>{#p/asriel2}* 一號和二號守衛。' ] : [ '<32>{#p/story}* 皇家衛隊襲來！' ]),
       spacetopTsundere: () =>
-         world.goatbro ? [ '<32>{#p/asriel2}* These crazies...' ] : [ "<32>{#p/story}* It's a space-faring nightmare!" ],
+         world.goatbro ? [ '<32>{#p/asriel2}* 一個個都是瘋傢伙...' ] : [ "<32>{#p/story}* It's a space-faring nightmare!" ],
       spacetopTsundereX: (spacetop: boolean) =>
          world.goatbro
             ? [ '<32>{#p/asriel2}* 只剩一個了。' ]
@@ -7133,7 +7133,7 @@ export default {
       turn8react2: [ '<20>{#p/mettaton}那。是。啥。' ],
       turn8reactMD1b: [ "<20>{#p/basic}Hope I didn't go too hard on you.", '<20>{#p/basic}See ya next time, human!' ],
       turn8reactMD2b: [ '<20>{#p/basic}可悲。\n可悲！\n可-悲-！', '<20>{#p/basic}你活該。' ],
-      missIndicator: 'Misses: $(x)',
+      missIndicator: '漏擊：$(x)',
 
       idleTalk1: () =>
          world.bad_lizard < 2 && !iFancyYourVilliany()
@@ -10089,11 +10089,11 @@ export default {
       sidebarCellPms2: '按 [X] 返回',
       sidebarCellPms3: {
          alphysBadLizard: {
-            author: 'SYSTEM',
+            author: '系統資訊',
             pm: 'An evacuation notice has been issued in your area. Vacate at once.'
          },
          alphys0: {
-            author: 'SYSTEM',
+            author: '系統資訊',
             pm: "Thank you for creating an account on the outpost's #1 social network!"
          },
          alphys1: {
@@ -10256,7 +10256,7 @@ export default {
                   : 'i thought i told the royal guard not to go after anyone WTF???'
          },
          alphysX0: {
-            author: 'SYSTEM',
+            author: '系統資訊',
             pm: '聊天記錄已清空。'
          },
          alphysX1: {
@@ -11359,7 +11359,7 @@ export default {
             : [
                  'About You Two',
                  SAVE.data.n.plot < 68 ? 'Thrift Shop' : SAVE.data.b.killed_mettaton ? 'Mettaton' : 'Grand Finale',
-                 [ 'Area Ownership', '§fill=#ff0§Burgie (NEW)', 'Burgie' ][Math.min(SAVE.data.n.shop_gossip_hub, 2)],
+                 [ 'Area Ownership', '§fill=#ff0§Burgie (NEW)', '堡堡' ][Math.min(SAVE.data.n.shop_gossip_hub, 2)],
                  [ 'Alphys', '§fill=#ff0§Royal Scientist (NEW)', '§fill=#ff0§Asgore (NEW)', 'Asgore' ][
                     Math.min(SAVE.data.n.shop_gossip_alphys, 3)
                  ],

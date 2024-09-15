@@ -3062,7 +3062,7 @@ export default {
                        [ '<25>{#p/asriel1}{#f/13}* ...' ]
                     ][Math.min(asrielinter.w_th_door++, 3)]
                  ]
-               : [ '<32>{#p/basic}* “房间正在翻修。”' ],
+               : [ '<32>{#p/basic}* “房间翻修中。”' ],
          w_th_mirror: () =>
             SAVE.data.b.svr
                ? [ "<25>{#p/asriel1}{#f/24}* 这是我们..." ]

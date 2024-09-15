@@ -7402,7 +7402,7 @@ msgid ""
 msgstr ""
 
 msgid "<32>{#p/basic}* \"Room under renovations.\""
-msgstr "<32>{#p/basic}* 「房間正在翻修。」"
+msgstr "<32>{#p/basic}* 「房間翻修中。」"
 
 msgid "<25>{#p/asriel1}{#f/24}* It's us..."
 msgstr "<25>{#p/asriel1}{#f/24}* 這是我們..."

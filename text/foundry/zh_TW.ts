@@ -2966,7 +2966,7 @@ export default {
             : [
                  '<32>{#p/basic}* 「開關既已啟，同友歸故地。」',
                  '<32>* 「石像如我立當中，頓悟旋律路自通。」',
-                 '<32>* 「借力破迷蹤。」',
+                 '<32>* 「借力破迷蹤。」'
                  '<32>* ...這裡的開關\n  已經被拉下來了。'
               ],
       temstatueNormuh: () =>
@@ -4202,7 +4202,7 @@ export default {
          '* 零食櫃\n* 裡面有超多好東西！',
          '* 水\n* 聰明的選擇',
          '* 糖\n* 適合放在茶裡。',
-         '* 洋梅潘趣酒\n* 自家做的... 她是這麼說的。',
+         '* 洋梅果酒\n* 自家做的... 她是這麼說的。',
          "* 熱巧克力\n* 藍色圓罐。",
          '* 茶\n* 毫無疑問是正確選項？',
          '* 冰箱\n* 對於一頓飯來說太多了。',
@@ -4243,7 +4243,7 @@ export default {
          pager.create(
             0,
             [
-               '<25>{#p/undyne}{#f/1}* 啊... 洋梅潘趣酒。',
+               '<25>{#p/undyne}{#f/1}* 啊... 洋梅果酒。',
                "<25>{#f/14}* 我想，Papyrus喜歡這東西，\n  所以沒什麼問題。"
             ],
             [ '<25>{#p/undyne}{#f/17}* 你到底選不選這個？' ]
@@ -4279,7 +4279,7 @@ export default {
       unddate21: () => [ choicer.create('* （要選這個喝嗎？）', '是', '否') ],
       unddate22: [
          [ '<25>{#p/undyne}{#f/16}* 也... 行吧。' ],
-         [ "<25>{#p/undyne}{#f/1}* 來喝點潘趣酒，補充水分吧！" ],
+         [ "<25>{#p/undyne}{#f/1}* 來喝點果酒，補充水分吧！" ],
          [ '<25>{#p/undyne}{#f/14}* 開始無與倫比的\n  熱可可時間吧！' ],
          [ '<25>{#p/undyne}{#f/14}* 馬上給你上茶。' ]
       ],
@@ -4305,7 +4305,7 @@ export default {
          ],
          [
             "<25>{#p/undyne}{#f/17}* 你在等什麼？\n* 快點喝啊！",
-            '<32>{#p/human}{#s/heal}* （你抿了一口潘趣酒。）',
+            '<32>{#p/human}{#s/heal}* （你抿了一口果酒。）',
             "<32>{#p/basic}* 實在太酸了，\n  你的嘴唇都皺起來了..."
          ],
          [
@@ -4339,7 +4339,7 @@ export default {
          ],
          [
             "<25>{#p/undyne}{#f/12}* 你知道嗎，\n  你會選那個當喝的\n  還挺不錯的。",
-            '<25>{#f/12}* 洋梅潘趣酒...',
+            '<25>{#f/12}* 洋梅果酒...',
             '<25>{#f/1}* 那是Alphys和Papyrus\n  一起「發明」出來的。',
             "<25>{#f/16}* 我雖然不太喜歡，\n  但是當我把這個拿給\n  Asgore的時候...",
             "<25>{#f/12}* 這麼說吧，\n  他把它投入了批量生產。"
@@ -4414,7 +4414,7 @@ export default {
       ],
       unddate32: [
          [ "<25>{#f/12}* 你的水喝完了，是吧？" ],
-         [ "<25>{#f/12}* 你的潘趣酒喝完了，是吧？" ],
+         [ "<25>{#f/12}* 你的果酒喝完了，是吧？" ],
          [ "<25>{#f/12}* 你的熱巧克力喝完了，\n  是吧？" ],
          [ "<25>{#f/12}* 你的茶喝完了，是吧？" ]
       ],
@@ -7220,8 +7220,8 @@ export default {
          ...(!SAVE.data.b.svr && game.room === 's_secret' && SAVE.data.n.state_starton_trashprogress < 2 // NO-TRANSLATE
 
             ? SAVE.data.b.s_state_papsink
-               ? [ '<32>{#p/basic}* The dog dances even harder!' ]
-               : [ "<32>{#p/basic}* ... the dog's sighing quiets down, even if you can't tell." ]
+               ? [ '<32>{#p/basic}* 狗子跳得更起勁了！' ]
+               : [ "<32>{#p/basic}* ...不知為何，\n  狗子不再嘆氣了，" ]
             : [])
       ],
       info: () =>
@@ -7241,8 +7241,8 @@ export default {
             : !SAVE.data.b.svr && game.room === 's_secret' && SAVE.data.n.state_starton_trashprogress < 2 // NO-TRANSLATE
 
             ? SAVE.data.b.s_state_papsink
-               ? [ "<32>{#p/basic}* ... the dog's dancing slows down, even if you can't tell." ]
-               : [ '<32>{#p/basic}* The dog sighs even louder!' ]
+               ? [ "<32>{#p/basic}* ...不知為何，\n  狗子跳得沒那麼起勁了。" ]
+               : [ '<32>{#p/basic}* 狗子的嘆氣更響了！' ]
             : [ '<32>{#p/human}* （什麼都沒發生。）' ])
       ]
    },
@@ -7290,15 +7290,15 @@ export default {
    i_sap: {
       battle: {
          description: "取材自怪物故園裡的一棵樹。",
-         name: '樹液'
+         name: '樹膠'
       },
-      drop: [ '<32>{#p/human}* （你把樹液扔掉了。）' ],
+      drop: [ '<32>{#p/human}* （你把樹膠扔掉了。）' ],
       info: () =>
          SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
             ? [ '<32>{#p/human}* （35 HP。）' ]
-            : [ '<32>{#p/basic}* 「樹液」 回復35 HP\n* 取材自怪物故園裡的一棵樹。' ],
-      name: '樹液',
-      use: [ '<32>{#p/human}* (You chewed the Tree Sap.)' ]
+            : [ '<32>{#p/basic}* 「樹膠」 回復35 HP\n* 取材自怪物故園裡的一棵樹。' ],
+      name: '樹膠',
+      use: [ '<32>{#p/human}* （你嚼了一塊樹膠。）' ]
    },
    i_goggles: {
       battle: {
@@ -7366,13 +7366,13 @@ export default {
       use: () =>
          world.meanie
             ? [
-                 '<32>{#p/human}* (You rip up the Postcard.)',
+                 '<32>{#p/human}* （你撕碎了明信片。）',
                  battler.active
                     ? `<32>{#p/story}* 你的攻擊力提升了${2 + battler.at_bonus}點！`
                     : '<32>{#p/human}* （無事發生。）'
               ]
             : battler.active
-            ? [ '<32>{#p/human}* (You daydream about the landscape on the Postcard.)\n* (Nothing happens.)' ]
+            ? [ '<32>{#p/human}* （你在腦海裡幻想著\n  明信片上面的美景。）\n* （什麼都沒發生。）' ]
             : []
    },
    i_quiche: {
@@ -7384,7 +7384,7 @@ export default {
          '<32>{#p/human}* （你把芝士蛋糕扔掉了。）',
          ...(SAVE.data.b.svr || world.darker || SAVE.data.b.ufokinwotm8
             ? []
-            : [ '<32>{#p/basic}* And the cycle of abandonment continues.' ]),
+            : [ '<32>{#p/basic}* 短暫獲得主人後，\n  它又被遺棄了。' ]),
          ...(!battler.active &&
          (fetchCharacters()
             .find(c => c.key === 'sans') // NO-TRANSLATE
@@ -7409,8 +7409,8 @@ export default {
 
             ?.position.extentOf(player) ?? 200) < 200
             ? [
-                 '<25>{#p/sans}{#f/0}* ... oh.\n* you actually ate it?',
-                 '<25>{#p/sans}{#f/2}* i had no idea anyone liked my baking skills.'
+                 '<25>{#p/sans}{#f/0}* ...喔？\n* 你真把它吃掉了？',
+                 '<25>{#p/sans}{#f/2}* 沒想到居然有人會\n  認可我的廚藝。'
               ]
             : [])
       ]
@@ -7726,23 +7726,23 @@ export default {
             : [ '<32>{#p/basic}{#k/0}* 在外面小心點，孩子！' ],
       item: () =>
          world.runaway
-            ? [ '0G - 平板電腦？', '0G - AR眼鏡？', '0G - 星雲茶', '0G - 樹液', '離開' ]
+            ? [ '0G - 平板電腦？', '0G - AR眼鏡？', '0G - 星雲茶', '0G - 樹膠', '離開' ]
             : world.genocide || world.killed0 || startonATE() || SAVE.data.s.state_foundry_deathroom === 'f_hub' // NO-TRANSLATE
 
-            ? [ '45G - 平板電腦？', '45G - AR眼鏡？', '16G - 星雲茶', '25G - 樹液', '離開' ]
+            ? [ '45G - 平板電腦？', '45G - AR眼鏡？', '16G - 星雲茶', '25G - 樹膠', '離開' ]
             : SAVE.data.n.plot === 72
             ? [
                  SAVE.data.b.item_padd ? '25G - 平板電腦？' : '35G - 平板電腦',
                  SAVE.data.b.item_goggles ? '25G - AR眼鏡？' : '35G - AR眼鏡',
                  '5G - 星雲茶',
-                 '5G - 樹液',
+                 '5G - 樹膠',
                  '離開'
               ]
             : [
                  SAVE.data.b.item_padd ? '45G - 平板電腦？' : '55G - 平板電腦',
                  SAVE.data.b.item_goggles ? '45G - AR眼鏡？' : '55G - AR眼鏡',
                  '16G - 星雲茶',
-                 '25G - 樹液',
+                 '25G - 樹膠',
                  '離開'
               ],
       itemInfo: () => [
