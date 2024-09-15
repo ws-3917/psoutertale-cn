@@ -1,21 +1,7 @@
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-14 15:28+0000\n"
-"PO-Revision-Date: 2024-09-15 05:28+0000\n"
-"Last-Translator: Maxim Aksenov <me6696154@gmail.com>\n"
-"Language-Team: Russian <https://ws3917.site/projects/project-spacetime/"
-"3-foundry/ru/>\n"
-"Language: ru_RU\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.6.2\n"
 
-#
 msgid "<32>{#p/basic}* ..."
 msgstr ""
 
@@ -4953,7 +4939,6 @@ msgstr ""
 "<32>{#p/radio}{#v/1}* Так, никакой паники!\n"
 "* Мы же не просто позволим всем им пройтись по нам, верно?"
 
-#, fuzzy
 msgid "<32>{#v/0}* You say that like you mean it literally."
 msgstr "<32>{#v/0}* Ты говоришь это, как будто ты имеешь в виду буквально."
 
@@ -4981,7 +4966,6 @@ msgstr ""
 msgid "<33>{#p/without}* well, the way i see it..."
 msgstr "<33>{#p/without}* Ну, как я понимаю..."
 
-#, fuzzy
 msgid ""
 "<32>{#p/without}* you're just a-{@fill=#ff0}void{@fill=#fff}-ing the "
 "problem."
@@ -4999,7 +4983,6 @@ msgstr ""
 msgid "<25>{#p/asriel1}{#f/23}* ..."
 msgstr "<25>{#p/asriel1}{#f/23}* ..."
 
-#, fuzzy
 msgid ""
 "<32>{#p/undyne}* You don't get it, this isn't some rowdy teen... get outta "
 "there before you get hurt!"
@@ -5027,7 +5010,6 @@ msgstr "<32>{#p/undyne}* Сентиментальность!!"
 msgid "<25>{#p/kidd}{#f/1}* Man, isn't the Royal Guard brave or what?"
 msgstr "<25>{#p/kidd}{#f/1}* Боже мой, Королевская гвардия не очень храбрая?"
 
-#, fuzzy
 msgid "<25>{#f/3}* I'm glad we have them to protect us...!"
 msgstr "<25>{#f/3}* Я рад, что они нас защищают...!"
 
@@ -5040,8 +5022,8 @@ msgid ""
 "<32>{#v/1}* We're gonna have to do better than just walking up and saying "
 "\"Howdy.\""
 msgstr ""
-"<32>{#v/1}* Нам придется сделать нечто большее, чем просто подойти и сказать "
-"\"Привет.\""
+"<32>{#v/1}* Нам придется сделать нечто большее, чем просто подойти и сказать"
+" \"Привет.\""
 
 msgid "<32>{#v/0}* ... isn't that Erogot's preferred way of saying Hello?"
 msgstr "<32>{#v/0}* ... разве не так Эрогот предпочитает говорить Привет?"
@@ -5151,7 +5133,6 @@ msgstr ""
 msgid "<32>{#v/0}* The same way a pet might be."
 msgstr "<32>{#v/0}* Так же, как и домашнее животное."
 
-#, fuzzy
 msgid ""
 "<32>{#v/1}* ...\n"
 "* We've got a listener calling into the station."
@@ -5162,7 +5143,6 @@ msgstr ""
 msgid "<32>{#p/alphys}* How strange..."
 msgstr "<32>{#p/alphys}* Как странно..."
 
-#, fuzzy
 msgid "<32>* So our SOULs have been absorbed into another being."
 msgstr "<32>* Таким образом, наши ДУШИ были поглощены другим существом."
 
@@ -5172,7 +5152,6 @@ msgstr ""
 "<32>* Это может быть своего рода \"отдельный самолет\", где мы ранее "
 "содержались..."
 
-#, fuzzy
 msgid ""
 "<32>* ... wait.\n"
 "* There m-might be a way I could contact the others!"
@@ -5183,13 +5162,12 @@ msgstr ""
 msgid "<25>{#p/asriel1}{#f/10}* ..."
 msgstr "<25>{#p/asriel1}{#f/10}* ..."
 
-#, fuzzy
 msgid ""
 "<32>{#p/basic}* Asriel and the human are on their way. I'll intercept them "
 "as soon as they come through."
 msgstr ""
-"<32>{#p/basic}* Азриэль и человек уже в пути. Я перехвачу их, как только они "
-"придут."
+"<32>{#p/basic}* Азриэль и человек уже в пути. Я перехвачу их, как только они"
+" придут."
 
 msgid ""
 "<32>{#p/basic}* The human's on their way.\n"
@@ -5223,7 +5201,6 @@ msgstr ""
 "<32>{#p/basic}* Это тот момент, к которому я долго готовился.\n"
 "* Я не дрогну!"
 
-#, fuzzy
 msgid ""
 "<32>{#p/undyne}* Yeah!! Get out there and show 'em what the ELITE squad are "
 "all about!!"
@@ -5426,7 +5403,6 @@ msgstr "<32>{#p/asgore}* Пожалуйста. Вернись..."
 msgid "<25>{#p/asriel1}{#f/25}* ..."
 msgstr "<25>{#p/asriel1}{#f/25}* ..."
 
-#, fuzzy
 msgid "<32>{#p/undyne}* Mind if I ask you a favor?"
 msgstr "<32>{#p/undyne}* Не возражаешь, если я попрошу тебя об услуге?"
 

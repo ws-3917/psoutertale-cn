@@ -1388,39 +1388,40 @@ export default {
          ],
          robocaller3: [
             '<32>{#p/event}* 铃铃，铃铃...',
-            "<32>{#p/mettaton}* I SEE YOU'VE ARRIVED ON SET.",
-            '<32>* SMILE FOR THE CAMERAS, HOTSHOTS...'
+            "<32>{#p/mettaton}* 已经到片场了啊。",
+            '<32>* 那就对着镜头笑一个吧...'
          ],
          robocaller4: [
-            "<32>* BECAUSE YOU'RE ON LIVE TV!",
-            "<32>* IT'S A TRUE SHAME I CAN'T BE THERE IN PERSON, BUT HEY...",
+            "<32>* 毕竟你们上电视了，大明星！",
+            "<32>* 唉，可惜了，我去不了现场。\n  不过呢...",
             "<32>* THAT -IS- HOW IT TENDS TO GO THESE DAYS, ISN'T IT?",
-            '<32>* ANYWAY. THE SMALL AUDIENCE WE HAVE LEFT IS GOING TO ENJOY WATCHING YOU STRUGGLE.',
-            '<32>* HOW WILL YOU GET ACROSS THE GAP WITH NO JETPACK?\n* OH, IF ONLY I KNEW...',
-            '<32>* WELL, BEST OF LUCK!'
+            '<32>* 说回正题。\n  你们又没有喷气背包，\n  怎么才能飞过那片虚空呢？',
+            '<32>* 哎呀，我好像也不知道呢...',
+'<32>* 苦恼吧，挣扎吧。\n  剩下几位观众有好戏看啦。',
+            '<32>* 祝你们好运哦！'
          ],
          robocaller4x: [
-            '<25>{#p/asriel2}{#f/8}* Really?\n* \"Best of luck?\"',
-            '<25>{#f/6}* Be careful what you wish for, dolt.',
-            "<25>{#f/7}* There's a liftgate straight ahead of us."
+            '<25>{#p/asriel2}{#f/8}* “祝你们好运”？\n* 认真的吗？',
+            '<25>{#f/6}* 蠢货，祝福也要挑挑人啊。',
+            "<25>{#f/7}* 咱去前头那个升降门。"
          ],
          cookerX1: [
-            '<32>{#p/basic}* Ah, there you are...\n* I thought you might show up...',
-            '<32>* This liftgate was placed here to help the others evacuate.',
-            "<32>* Now that they have, though, I'm afraid I can't let anyone else through.",
-            '<32>{|}* So, if you could just- {%}'
+            '<32>{#p/basic}* 你们来了啊...\n* 我就知道...',
+            '<32>* 这个升降门是用来疏散民众的。',
+            "<32>* 不过现在大伙都走了，\n  再有人想用的话，\n  恐怕我得拦着。",
+            '<32>{|}* 所以你们能- {%}'
          ],
-         cookerX2: [ '<25>{#p/asriel2}{#f/6}* Stay out of our way.' ],
-         cookerX3: [ "<32>{#p/basic}* Ah...!\n* I don't think...\n* I can really do that..." ],
+         cookerX2: [ '<25>{#p/asriel2}{#f/6}* 滚开。' ],
+         cookerX3: [ "<32>{#p/basic}* ...啊！\n* 看来我... 做不到..." ],
          cookerX4: [
-            '<32>{#p/basic}* I-I mean...\n* I could make an exception...',
-            "<32>* Just... don't tell the boss..."
+            '<32>{#p/basic}* 我-我是说...\n* 通融一下也没什么...',
+            "<32>* 别... 别让我老板知道就好..."
          ],
-         cookerX5a: [ '<25>{#p/asriel2}{#f/2}* Oh?\n* So you ARE going to let us through?' ],
-         cookerX5b: [ '<25>{#f/1}* Good.' ],
-         cookerX6: [ "<32>{#p/basic}* ... y-yeah!\n* O-of course I'll let you through!" ],
-         cookerX7: [ '<25>{#p/asriel2}{#f/3}* That was probably a smart choice.' ],
-         cookerX8: [ "<25>{#p/asriel2}{#f/3}* Let's go." ],
+         cookerX5a: [ '<25>{#p/asriel2}{#f/2}* 哦？\n* 你打算放我们过去了？' ],
+         cookerX5b: [ '<25>{#f/1}* 太好了。' ],
+         cookerX6: [ "<32>{#p/basic}* ...当-当然！\n* 我-我保证不拦你们！" ],
+         cookerX7: [ '<25>{#p/asriel2}{#f/3}* 你是个聪明人。' ],
+         cookerX8: [ "<25>{#p/asriel2}{#f/3}* 咱们走。" ],
          cookerX9: [
             '<32>{#p/event}* 铃铃，铃铃...',
             "<32>{#p/mettaton}* I SEE YOU'VE MADE IT ACROSS THE GAP.",
@@ -1433,7 +1434,7 @@ export default {
             "<32>* I'M GOING TO KILL YOU ANYWAY."
          ],
          whatthefuck: [
-            "<32>{#p/basic}* Don't worry, I'll be okay!\n* Just look at these rings!\n* I can't be fired forever..."
+            "<32>{#p/basic}* 别担心，我不会有事的！\n* 看看这些光圈呐！\n* 老板不会炒我鱿鱼的..."
          ],
          puzzleReaction2a: [
             '<32>{#p/event}* 铃铃，铃铃...',
@@ -4319,8 +4320,8 @@ export default {
             SAVE.data.b.svr
                ? [ "<32>{#p/human}* (The sign's contents seem to have been crossed out.)" ]
                : SAVE.data.n.plot < 68
-               ? [ '<32>{#p/basic}* \"Warning: Television filming may be in progress nearby.\"' ]
-               : [ '<32>{#p/basic}* \"Update: Television filming on indefinite hiatus.\"' ],
+               ? [ '<32>{#p/basic}* “警告：前方可能正在拍摄节目。”' ]
+               : [ '<32>{#p/basic}* “更新：节目停播。”' ],
          labcounter: (mtt: boolean) =>
             SAVE.data.b.svr
                ? [ "<32>{#p/human}* (You run your hands across the countertop.)\n* (It's pleasantly smooth.)" ]
@@ -4546,7 +4547,7 @@ export default {
                ? [ '<32>{#p/human}* (This setup strikes you as rather dangerous.)' ]
                : [
                     world.darker
-                       ? '<32>{#p/basic}* 在传送带上的化学品。'
+                       ? '<32>{#p/basic}* 传送带上有几瓶化学试剂。'
                        : SAVE.data.n.plot === 72
                        ? "<32>{#p/basic}* Chemicals on conveyor belts.\n* Somehow, nothing's ever gone wrong with this."
                        : '<32>{#p/basic}* Chemicals on conveyor belts.\n* What could possibly go wrong?',
@@ -4616,7 +4617,7 @@ export default {
             SAVE.data.b.svr
                ? [ '<32>{#p/human}* (You run the nigh-invisible water over your hands.)' ]
                : [
-                    "<32>{#p/basic}* 这是一个以复制器供水的水槽。",
+                    "<32>{#p/basic}* 一个水槽，通过复制器供水。",
                     ...(mtt
                        ? [
                             '<32>{#p/mettaton}* 材料越复杂，\n  就需要越多时间来复制。',
@@ -4697,8 +4698,8 @@ export default {
          ),
          puzzlestop1b: () =>
             [
-               [ '<25>{#p/asriel2}{#f/13}* Uh, $(name)...?', "<25>* I think we've gone a little too far." ],
-               [ '<25>{#p/asriel2}{#f/13}* $(name)...?' ],
+               [ '<25>{#p/asriel2}{#f/13}* 呃... $(name)？', "<25>* 咱俩好像走过头了。" ],
+               [ '<25>{#p/asriel2}{#f/13}* ...$(name)？' ],
                [ '<25>{#p/asriel2}{#f/13}* ...' ]
             ][Math.min(SAVE.flag.n.ga_asrielPuzzleStop1++, 2)]
       },
@@ -6630,7 +6631,7 @@ export default {
          world.goatbro ? [ '<32>{#p/asriel2}* These crazies...' ] : [ "<32>{#p/story}* It's a space-faring nightmare!" ],
       spacetopTsundereX: (spacetop: boolean) =>
          world.goatbro
-            ? [ '<32>{#p/asriel2}* One left.' ]
+            ? [ '<32>{#p/asriel2}* 只剩一个了。' ]
             : spacetop
             ? [ '<32>{#p/story}* Only Astro Serf remains.' ]
             : [ '<32>{#p/story}* Only Tsunderidex remains.' ],
@@ -6638,7 +6639,7 @@ export default {
          world.goatbro ? [ '<32>{#p/asriel2}* The hot-headed army arrives.' ] : [ "<32>{#p/story}* It's a fiery cavalry!" ],
       pyropeTsundereX: (pyrope: boolean) =>
          world.goatbro
-            ? [ '<32>{#p/asriel2}* One left.' ]
+            ? [ '<32>{#p/asriel2}* 只剩一个了。' ]
             : pyrope
             ? [ '<32>{#p/story}* Only Hotwire remains.' ]
             : [ '<32>{#p/story}* Only Tsunderidex remains.' ],
@@ -9200,7 +9201,7 @@ export default {
       act_check4: [ '<32>{#p/story}* RG 03 - ATK 30 DEF 20\n* Broken.' ],
       act_check5: [ '<33>{#p/story}* RG 03 - ATK 30 DEF 20\n* Wants badly to say something...' ],
       act_check6: [ '<32>{#p/story}* RG 03 - ATK 30 DEF 20\n* Eager to make up for her lack of conviction.' ],
-      randTalk1: () => [ '<11>{#p/basic}{~}Team attack.' ],
+      randTalk1: () => [ '<11>{#p/basic}{~}组合技。' ],
       randTalk2: () =>
          world.bad_lizard > 1 ? [ "<11>{#p/basic}{~}我们会\n阻止你的。" ] : [ "<11>{#p/basic}{~}We're just friends..." ],
       randTalk3: () =>
@@ -9231,23 +9232,23 @@ export default {
             : [ '<32>{#p/story}* 03 puts on a brave face.\n* 04 replies non-verbally with her own bravery.' ],
       randTalkLone1: () =>
          world.bad_lizard > 1
-            ? [ '<11>{#p/basic}{~}{@random=1.1/1.1}Suffer.' ]
+            ? [ '<11>{#p/basic}{~}{@random=1.1/1.1}下地狱吧。' ]
             : [ "<11>{#p/basic}{~}{@random=1.1/1.1}I'll never know..." ],
       randTalkLone2: () =>
          world.bad_lizard > 1
-            ? [ '<11>{#p/basic}{~}{@random=1.1/1.1}不可饶恕。' ]
+            ? [ '<11>{#p/basic}{~}{@random=1.1/1.1}死有余辜。' ]
             : [ "<11>{#p/basic}{~}{@random=1.1/1.1}It's too late..." ],
       randTalkLone3: () =>
          world.bad_lizard > 1
-            ? [ '<11>{#p/basic}{~}{@random=1.1/1.1}Unforgiv- able.' ]
+            ? [ '<11>{#p/basic}{~}{@random=1.1/1.1}禽兽不如。' ]
             : [ '<11>{#p/basic}{~}{@random=1.1/1.1}I missed my chance...' ],
       randTalkLone4: () =>
          world.bad_lizard > 1
-            ? [ '<11>{#p/basic}{~}{@random=1.1/1.1}Die.' ]
+            ? [ '<11>{#p/basic}{~}{@random=1.1/1.1}给我去死。' ]
             : [ "<11>{#p/basic}{~}{@random=1.1/1.1}It can't be..." ],
       randStatusLone: () =>
          world.goatbro
-            ? [ '<32>{#p/asriel2}* One left.' ]
+            ? [ '<32>{#p/asriel2}* 只剩一个了。' ]
             : world.bad_lizard > 1
             ? [ '<32>{#p/story}* 01 seems even more focused than before.' ]
             : [ '<32>{#p/story}* 03 is in disarray.' ],
@@ -9353,7 +9354,7 @@ export default {
       act_check4: [ '<32>{#p/story}* RG 04 - ATK 30 DEF 20\n* Broken.' ],
       act_check5: [ '<33>{#p/story}* RG 04 - ATK 30 DEF 20\n* Feeling somewhat exposed...' ],
       act_check6: [ '<32>{#p/story}* RG 04 - ATK 30 DEF 20\n* Eager to see you dead.' ],
-      randTalk1: () => [ '<11>{#p/basic}{~}Team attack!' ],
+      randTalk1: () => [ '<11>{#p/basic}{~}组合技！' ],
       randTalk2: () =>
          world.bad_lizard > 1 ? [ '<11>{#p/basic}{~}一劳永逸！' ] : [ '<11>{#p/basic}{~}Absolutely!' ],
       randTalk3: () =>
@@ -9362,23 +9363,23 @@ export default {
          world.bad_lizard > 1 ? [ '<11>{#p/basic}{~}Totally, bro!' ] : [ '<11>{#p/basic}{~}Oh you know it, girl!' ],
       randTalkLone1: () =>
          world.bad_lizard > 1
-            ? [ "<11>{#p/basic}{~}{@random=1.1/1.1}你完了！！" ]
+            ? [ "<11>{#p/basic}{~}{@random=1.1/1.1}你完蛋了！！" ]
             : [ '<11>{#p/basic}{~}{@random=1.1/1.1}How could you do this to me...!?' ],
       randTalkLone2: () =>
          world.bad_lizard > 1
-            ? [ "<11>{#p/basic}{~}{@random=1.1/1.1}你敢！！" ]
+            ? [ "<11>{#p/basic}{~}{@random=1.1/1.1}休想得逞！！" ]
             : [ '<11>{#p/basic}{~}{@random=1.1/1.1}She was my only friend...!' ],
       randTalkLone3: () =>
          world.bad_lizard > 1
-            ? [ '<11>{#p/basic}{~}{@random=1.1/1.1}我灭了你！！' ]
+            ? [ '<11>{#p/basic}{~}{@random=1.1/1.1}老子\n宰了你！！' ]
             : [ '<11>{#p/basic}{~}{@random=1.1/1.1}She was everything to me...!' ],
       randTalkLone4: () =>
          world.bad_lizard > 1
-            ? [ "<11>{#p/basic}{~}{@random=1.1/1.1}给我付出代价！！" ]
+            ? [ "<11>{#p/basic}{~}{@random=1.1/1.1}血债血偿！" ]
             : [ '<11>{#p/basic}{~}{@random=1.1/1.1}What kind of creature are you...!?' ],
       randStatusLone: () =>
          world.goatbro
-            ? [ '<32>{#p/asriel2}* One left.' ]
+            ? [ '<32>{#p/asriel2}* 只剩一个了。' ]
             : world.bad_lizard > 1
             ? [ '<32>{#p/story}* 02 has lost his temper.' ]
             : [ '<32>{#p/story}* 04 is in shambles.' ],

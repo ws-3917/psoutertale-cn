@@ -2939,16 +2939,18 @@ msgid "<25>{#g/alphysFR}* You have a death wish."
 msgstr ""
 
 msgid "<32>{#p/mettaton}* I SEE YOU'VE ARRIVED ON SET."
-msgstr ""
+msgstr "<32>{#p/mettaton}* 已經到片場了啊。"
 
 msgid "<32>* SMILE FOR THE CAMERAS, HOTSHOTS..."
-msgstr ""
+msgstr "<32>* 那就對著鏡頭笑一個吧..."
 
 msgid "<32>* BECAUSE YOU'RE ON LIVE TV!"
-msgstr ""
+msgstr "<32>* 畢竟你們上電視了，大明星！"
 
 msgid "<32>* IT'S A TRUE SHAME I CAN'T BE THERE IN PERSON, BUT HEY..."
 msgstr ""
+"<32>* 唉，可惜了，我去不了現場。\n"
+"  不過呢..."
 
 msgid "<32>* THAT -IS- HOW IT TENDS TO GO THESE DAYS, ISN'T IT?"
 msgstr ""
@@ -2957,77 +2959,97 @@ msgid ""
 "<32>* ANYWAY. THE SMALL AUDIENCE WE HAVE LEFT IS GOING TO ENJOY WATCHING YOU"
 " STRUGGLE."
 msgstr ""
+"<32>* 說回正題。\n"
+"  你們又沒有噴氣背包，\n"
+"  怎麼才能飛過那片虛空呢？"
 
 msgid ""
 "<32>* HOW WILL YOU GET ACROSS THE GAP WITH NO JETPACK?\n"
 "* OH, IF ONLY I KNEW..."
 msgstr ""
+"<32>* 哎呀，我好像也不知道呢...[ADD]<32>* 苦惱吧，掙扎吧。\n"
+"  剩下幾位觀眾有好戲看啦。"
 
 msgid "<32>* WELL, BEST OF LUCK!"
-msgstr ""
+msgstr "<32>* 祝你們好運喔！"
 
 msgid ""
 "<25>{#p/asriel2}{#f/8}* Really?\n"
 "* \"Best of luck?\""
 msgstr ""
+"<25>{#p/asriel2}{#f/8}* 「祝你們好運」？\n"
+"* 認真的嗎？"
 
 msgid "<25>{#f/6}* Be careful what you wish for, dolt."
-msgstr ""
+msgstr "<25>{#f/6}* 蠢貨，祝福也要挑挑人啊。"
 
 msgid "<25>{#f/7}* There's a liftgate straight ahead of us."
-msgstr ""
+msgstr "<25>{#f/7}* 咱去前頭那個升降門。"
 
 msgid ""
 "<32>{#p/basic}* Ah, there you are...\n"
 "* I thought you might show up..."
 msgstr ""
+"<32>{#p/basic}* 你們來了啊...\n"
+"* 我就知道..."
 
 msgid "<32>* This liftgate was placed here to help the others evacuate."
-msgstr ""
+msgstr "<32>* 這個升降門是用來疏散民眾的。"
 
 msgid ""
 "<32>* Now that they have, though, I'm afraid I can't let anyone else "
 "through."
 msgstr ""
+"<32>* 不過現在大夥都走了，\n"
+"  再有人想用的話，\n"
+"  恐怕我得攔著。"
 
 msgid "<32>{|}* So, if you could just- {%}"
-msgstr ""
+msgstr "<32>{|}* 所以你們能- {%}"
 
 msgid "<25>{#p/asriel2}{#f/6}* Stay out of our way."
-msgstr ""
+msgstr "<25>{#p/asriel2}{#f/6}* 滾開。"
 
 msgid ""
 "<32>{#p/basic}* Ah...!\n"
 "* I don't think...\n"
 "* I can really do that..."
 msgstr ""
+"<32>{#p/basic}* ...啊！\n"
+"* 看來我... 做不到..."
 
 msgid ""
 "<32>{#p/basic}* I-I mean...\n"
 "* I could make an exception..."
 msgstr ""
+"<32>{#p/basic}* 我-我是說...\n"
+"* 通融一下也沒什麼..."
 
 msgid "<32>* Just... don't tell the boss..."
-msgstr ""
+msgstr "<32>* 別... 別讓我老闆知道就好..."
 
 msgid ""
 "<25>{#p/asriel2}{#f/2}* Oh?\n"
 "* So you ARE going to let us through?"
 msgstr ""
+"<25>{#p/asriel2}{#f/2}* 喔？\n"
+"* 你打算放我們過去了？"
 
 msgid "<25>{#f/1}* Good."
-msgstr ""
+msgstr "<25>{#f/1}* 太好了。"
 
 msgid ""
 "<32>{#p/basic}* ... y-yeah!\n"
 "* O-of course I'll let you through!"
 msgstr ""
+"<32>{#p/basic}* ...當-當然！\n"
+"* 我-我保證不攔你們！"
 
 msgid "<25>{#p/asriel2}{#f/3}* That was probably a smart choice."
-msgstr ""
+msgstr "<25>{#p/asriel2}{#f/3}* 你是個聰明人。"
 
 msgid "<25>{#p/asriel2}{#f/3}* Let's go."
-msgstr ""
+msgstr "<25>{#p/asriel2}{#f/3}* 咱們走。"
 
 msgid "<32>{#p/mettaton}* I SEE YOU'VE MADE IT ACROSS THE GAP."
 msgstr ""
@@ -3052,6 +3074,9 @@ msgid ""
 "* Just look at these rings!\n"
 "* I can't be fired forever..."
 msgstr ""
+"<32>{#p/basic}* 別擔心，我不會有事的！\n"
+"* 看看這些光圈吶！\n"
+"* 老闆不會炒我魷魚的..."
 
 msgid "<25>{#p/alphys}{#g/alphysSide}* You got to the checkpoint!"
 msgstr ""
@@ -4744,7 +4769,7 @@ msgid "<25>* The control console is up on that platform...{%100}"
 msgstr ""
 
 msgid "<25>{#f/16}* ...{%100}"
-msgstr ""
+msgstr "<25>{#f/16}* ...{%100}"
 
 msgid "<25>{#f/13}* This is going to be a little embarrassing, but...{%100}"
 msgstr ""
@@ -4761,7 +4786,7 @@ msgid "<25>{#f/15}* I hope this works...{%100}"
 msgstr ""
 
 msgid "<25>{#p/asriel2}{#f/13}* ...{%100}"
-msgstr ""
+msgstr "<25>{#p/asriel2}{#f/13}* ...{%100}"
 
 msgid "<25>{#f/4}* You know what we have to do, $(name).{%100}"
 msgstr ""
@@ -5384,7 +5409,7 @@ msgid "<25>{#p/alphys}{#g/alphysInquisitive}* Are you coming?"
 msgstr ""
 
 msgid "<25>{*}{#p/alphys}{#g/alphysWelp}* ...{^40}{%}"
-msgstr ""
+msgstr "<25>{*}{#p/alphys}{#g/alphysWelp}* ...{^40}{%}"
 
 msgid "<25>{#p/asriel2}{#f/1}* It's time to end this."
 msgstr ""
@@ -5515,7 +5540,7 @@ msgid "<32>{*}{#x2}* I'M TRYING TO RUN A SHOW HERE.{^30}{%}"
 msgstr ""
 
 msgid "<25>{*}{#p/alphys}{#g/alphysWTF}* ...{^30}{%}"
-msgstr ""
+msgstr "<25>{*}{#p/alphys}{#g/alphysWTF}* ...{^30}{%}"
 
 msgid "<32>{*}* MY, MY...{^30}{%}"
 msgstr "<32>{*}* 我的天啊...{^30}{%}"
@@ -6375,7 +6400,7 @@ msgid ""
 msgstr ""
 
 msgid "<25>{*}{#p/asriel2}{#f/8}* ...{^30}{%}"
-msgstr ""
+msgstr "<25>{*}{#p/asriel2}{#f/8}* ...{^30}{%}"
 
 msgid "<32>{#p/mettaton}* WELL, THAT'S ALL."
 msgstr ""
@@ -8986,10 +9011,10 @@ msgid "<32>{#p/human}* (The sign's contents seem to have been crossed out.)"
 msgstr ""
 
 msgid "<32>{#p/basic}* \"Warning: Television filming may be in progress nearby.\""
-msgstr ""
+msgstr "<32>{#p/basic}* 「警告：前方可能正在拍攝節目。」"
 
 msgid "<32>{#p/basic}* \"Update: Television filming on indefinite hiatus.\""
-msgstr ""
+msgstr "<32>{#p/basic}* 「更新：節目停播。」ゑ"
 
 msgid ""
 "<32>{#p/human}* (You run your hands across the countertop.)\n"
@@ -9470,7 +9495,7 @@ msgid "<32>{#p/human}* (This setup strikes you as rather dangerous.)"
 msgstr ""
 
 msgid "<32>{#p/basic}* Chemicals on conveyor belts."
-msgstr "<32>{#p/basic}* 在傳送帶上的化學品。"
+msgstr "<32>{#p/basic}* 傳送帶上有幾瓶化學試劑。"
 
 msgid ""
 "<32>{#p/basic}* Chemicals on conveyor belts.\n"
@@ -9613,7 +9638,7 @@ msgid "<32>{#p/human}* (You run the nigh-invisible water over your hands.)"
 msgstr ""
 
 msgid "<32>{#p/basic}* It's a sink with a replicator- powered water supply."
-msgstr "<32>{#p/basic}* 這是一個以複製器供水的水槽。"
+msgstr "<32>{#p/basic}* 一個水槽，通過複製器供水。"
 
 msgid ""
 "<32>{#p/mettaton}* THE MORE COMPLEX THE MATERIAL, THE MORE POWER IT TAKES TO"
@@ -9705,13 +9730,13 @@ msgid ""
 msgstr ""
 
 msgid "<25>{#p/asriel2}{#f/13}* Uh, $(name)...?"
-msgstr ""
+msgstr "<25>{#p/asriel2}{#f/13}* 呃... $(name)？ゑ"
 
 msgid "<25>* I think we've gone a little too far."
-msgstr ""
+msgstr "<25>* 咱倆好像走過頭了。ゑ"
 
 msgid "<25>{#p/asriel2}{#f/13}* $(name)...?"
-msgstr ""
+msgstr "<25>{#p/asriel2}{#f/13}* ...$(name)？ゑ"
 
 msgid ""
 "<32>{#p/basic}{#npc/a}* Oh...\n"
@@ -11911,7 +11936,7 @@ msgid ""
 msgstr ""
 
 msgid "<25>{*}{#f/6}* ...{^40}{%}"
-msgstr ""
+msgstr "<25>{*}{#f/6}* ...{^40}{%}"
 
 msgid "<25>{*}{#f/7}* I guess no- {%}"
 msgstr ""
@@ -13179,7 +13204,7 @@ msgid "<32>{#p/story}* It's a space-faring nightmare!"
 msgstr ""
 
 msgid "<32>{#p/asriel2}* One left."
-msgstr ""
+msgstr "<32>{#p/asriel2}* 只剩一個了。"
 
 msgid "<32>{#p/story}* Only Astro Serf remains."
 msgstr ""
@@ -13780,7 +13805,7 @@ msgstr ""
 "不要給提示嗎？{^30}{%}"
 
 msgid "<20>{*}...{^30}{%}"
-msgstr ""
+msgstr "<20>{*}...{^30}{%}"
 
 msgid "<20>{*}ANYWAY...{^30}{%}"
 msgstr "<20>{*}總之...{^30}{%}"
@@ -18783,7 +18808,7 @@ msgid ""
 msgstr ""
 
 msgid "<11>{#p/basic}{~}Team attack."
-msgstr ""
+msgstr "<11>{#p/basic}{~}組合技。"
 
 msgid "<11>{#p/basic}{~}We'll stop you..."
 msgstr ""
@@ -18844,25 +18869,25 @@ msgid ""
 msgstr ""
 
 msgid "<11>{#p/basic}{~}{@random=1.1/1.1}Suffer."
-msgstr ""
+msgstr "<11>{#p/basic}{~}{@random=1.1/1.1}下地獄吧。ゑ"
 
 msgid "<11>{#p/basic}{~}{@random=1.1/1.1}I'll never know..."
 msgstr ""
 
 msgid "<11>{#p/basic}{~}{@random=1.1/1.1}No mercy."
-msgstr "<11>{#p/basic}{~}{@random=1.1/1.1}不可饒恕。"
+msgstr "<11>{#p/basic}{~}{@random=1.1/1.1}死有餘辜。ゑ"
 
 msgid "<11>{#p/basic}{~}{@random=1.1/1.1}It's too late..."
 msgstr ""
 
 msgid "<11>{#p/basic}{~}{@random=1.1/1.1}Unforgiv- able."
-msgstr ""
+msgstr "<11>{#p/basic}{~}{@random=1.1/1.1}禽獸不如。ゑ"
 
 msgid "<11>{#p/basic}{~}{@random=1.1/1.1}I missed my chance..."
 msgstr ""
 
 msgid "<11>{#p/basic}{~}{@random=1.1/1.1}Die."
-msgstr ""
+msgstr "<11>{#p/basic}{~}{@random=1.1/1.1}給我去死。ゑ"
 
 msgid "<11>{#p/basic}{~}{@random=1.1/1.1}It can't be..."
 msgstr ""
@@ -19136,7 +19161,7 @@ msgid ""
 msgstr ""
 
 msgid "<11>{#p/basic}{~}Team attack!"
-msgstr ""
+msgstr "<11>{#p/basic}{~}組合技！"
 
 msgid "<11>{#p/basic}{~}Once and for all!"
 msgstr "<11>{#p/basic}{~}一勞永逸！"
@@ -19157,25 +19182,27 @@ msgid "<11>{#p/basic}{~}Oh you know it, girl!"
 msgstr ""
 
 msgid "<11>{#p/basic}{~}{@random=1.1/1.1}It's over for you!!"
-msgstr "<11>{#p/basic}{~}{@random=1.1/1.1}你完了！！"
+msgstr "<11>{#p/basic}{~}{@random=1.1/1.1}你完蛋了！！ゑ"
 
 msgid "<11>{#p/basic}{~}{@random=1.1/1.1}How could you do this to me...!?"
 msgstr ""
 
 msgid "<11>{#p/basic}{~}{@random=1.1/1.1}Don't even try!!"
-msgstr "<11>{#p/basic}{~}{@random=1.1/1.1}你敢！！"
+msgstr "<11>{#p/basic}{~}{@random=1.1/1.1}休想得逞！！ゑ"
 
 msgid "<11>{#p/basic}{~}{@random=1.1/1.1}She was my only friend...!"
 msgstr ""
 
 msgid "<11>{#p/basic}{~}{@random=1.1/1.1}Prepare to be wiped out!!"
-msgstr "<11>{#p/basic}{~}{@random=1.1/1.1}我滅了你！！"
+msgstr ""
+"<11>{#p/basic}{~}{@random=1.1/1.1}老子\n"
+"宰了你！！ゑ"
 
 msgid "<11>{#p/basic}{~}{@random=1.1/1.1}She was everything to me...!"
 msgstr ""
 
 msgid "<11>{#p/basic}{~}{@random=1.1/1.1}I'm gonna make you pay!!"
-msgstr "<11>{#p/basic}{~}{@random=1.1/1.1}給我付出代價！！"
+msgstr "<11>{#p/basic}{~}{@random=1.1/1.1}血債血償！ゑ"
 
 msgid "<11>{#p/basic}{~}{@random=1.1/1.1}What kind of creature are you...!?"
 msgstr ""

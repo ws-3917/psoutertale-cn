@@ -233,66 +233,66 @@ export default {
                '<25>{#f/6}* 如果我发现人们的反应\n  又开始重复，\n  我就对他们更狠一点。',
                '<25>{#f/8}* 这里骂一句，那里怼一句。',
                '<25>{#f/7}* 骂得多，就麻木了。',
-               "<25>{#f/9}* 那段时间，\n  我最多只是动动嘴皮子。\n* 从没动过手，更没杀过人。"
+               "<25>{#f/9}* 那段时间，\n  我最多只是耍耍嘴皮子。\n* 从没动过手，更没杀过人。"
             ],
             (re: boolean) => [
                ...(re ? [ "<26>{#p/asriel2}{#f/4}* 之前说到，\n  我开始骂他们，怼他们了。" ] : []),
-               '<25>{#p/asriel2}{#f/15}* “言语攻击”玩腻了，\n  我又想... 要不试试\n  动手揍揍他们？',
+               '<25>{#p/asriel2}{#f/15}* “言语攻击”玩腻了，\n  我又想... \n  要不试试动手揍人？',
                "<25>{#f/16}* 没什么大不了的，\n  只要别失手打死了就行。",
-               "<25>{#f/10}* 受点伤，有什么大不了的？\n  怪物有的是办法疗伤。",
-               "<25>{#f/4}* 真出了意外的话，\n  我直接重置就行，\n  他们就又能活蹦乱跳。",
-               "<25>{#f/3}* ...但意外真的发生时，\n  我才知道自己多么天真。"
+               "<25>{#f/10}* 受点伤，算的了什么？\n  怪物有的是办法疗伤。",
+               "<25>{#f/4}* 即使真出了意外，\n  我可以直接重置，\n  他们又能活蹦乱跳。",
+               "<25>{#f/3}* ...但意外真的发生了。\n* 那一刻，\n  我才知道自己多么天真。"
             ],
             (re: boolean) => [
-               ...(re ? [ "<26>{#p/asriel2}{#f/3}* Like I said before, I'd gotten the idea to attack them." ] : []),
-               '<25>{#p/asriel2}{#f/13}* I guess you could say I got carried away...',
-               '<25>{#f/15}* Pulled... just a little too tightly...',
-               '<25>{#f/16}* ...',
-               '<25>{#f/6}* My own mother, strangled to death by my own magic...',
-               '<25>{#f/8}* Begging me to stop as the life drained out of her body.',
-               "<25>{#f/7}* Even after a RESET, the image wouldn't leave my mind.",
-               '<25>{#f/13}* I panicked, and tried making up for it by being nice to her.',
-               "<25>{#f/15}* But I couldn't forget about what I'd done.",
-               "<25>{#f/15}* I just... couldn't look at her... at anyone... the same way again."
+               ...(re ? [ "<26>{#p/asriel2}{#f/3}* 之前说到，我感觉\n  “言语攻击”没什么意思，\n  想给他们来点“物理攻击”。" ] : []),
+               '<25>{#p/asriel2}{#f/13}* 可能是被揍人的快感\n  冲昏头脑了...\n  我玩了点“新花样”。',
+               '<25>{#f/15}* 我用魔法，把亲生母亲\n  吊了起来。\n* 越勒越紧... 越勒越紧...',
+               '<25>{#f/16}* 生命一点点离她而去\n  她气若游丝，\n  哀求我马上停手...',
+               '<25>{#f/6}* ...',
+               '<25>{#f/8}* 我把她活活勒死了。',
+               "<25>{#f/7}* 我惊恐万分，马上重置。\n* 但那地狱般的景象\n  却久久挥之不去。",
+               '<25>{#f/13}* 重置后，为了让自己心安，\n  我不停做好事，\n  努力做个孝子。',
+               "<25>{#f/15}* 但自作孽，不可活。",
+               "<25>{#f/15}* 我不敢直视她的目光...\n  不敢直视每一个人..."
             ],
             (re: boolean) => [
                ...(re
                   ? [
-                       "<26>{#p/asriel2}{#f/15}* Like I said before, I couldn't forget about what I'd done.",
-                       '<25>{#f/16}* And, after that, things only got worse.'
+                       "<26>{#p/asriel2}{#f/15}* 之前说到，\n  第一次杀人后，\n  噩梦般的景象久久挥之不去。",
+                       '<25>{#f/16}* 但有了第一次，\n  就会有第二次，第三次...'
                     ]
-                  : [ '<25>{#p/asriel2}{#f/16}* After that, things only got worse.' ]),
-               '<26>{#f/15}* I guess, after screwing up once, it got easier to do it again.',
-               '<26>{#f/15}* And soon, be it out of frustration, or raw curiosity...',
-               '<26>{#f/16}* What began as an accident spiraled out of control.',
-               '<26>{#f/7}* But, hey, when it came down to it, I could always RESET, right?',
-               '<25>{#f/6}* And once I told myself THAT... there really was no going back.'
+                  : [ '<25>{#p/asriel2}{#f/16}* 有了第一次，\n  就会有第二次，第三次...' ]),
+               '<26>{#f/15}* “万事开头难。”\n* 杀了一次人，\n  就能下得去手了。',
+               '<26>{#f/15}* 很快，情况变成这样：\n  我心情不好，杀个人找安慰；\n  我想找乐子，杀个人爽一把。',
+               '<26>{#f/16}* 第一次杀人纯粹只是意外。\n  现在却一发不可收拾。',
+               '<26>{#f/7}* 但我不怕，\n  杀了就杀了呗，\n  反正我能无限重置。',
+               '<25>{#f/6}* 一旦我开始这么想...\n  就再也没有回头路了。'
             ],
             (re: boolean) => [
-               '<25>{#p/asriel2}{#f/6}* With each new RESET, my actions became more and more twisted.',
-               '<25>{#f/7}* I subjected them... all of them... to horrors beyond compare.',
-               '<25>{#f/15}* I did it again, and again, and again...',
-               "<25>{#f/16}* I did it so many times, I'd become completely numb to it.",
-               '<25>{#f/3}* Then, finally, after all of that...',
-               '<25>{#f/3}* ... nothing.',
-               '<25>{#f/3}* I felt nothing.\n* It meant nothing.\n* It was all for nothing.',
-               '<25>{#f/15}* As I stood alone in my empty world, I knew what had to be done.',
-               '<26>{#f/23}* So I RESET, and let time move forward without me.'
+               '<25>{#p/asriel2}{#f/6}* 重置得越多，\n  折磨他们的损招就越多。',
+               '<25>{#f/7}* 我把他们千刀万剐...\n* 我让他们自相残杀...\n* 我使他们如堕地狱...',
+               '<25>{#f/15}* 他们死而复生。\n* 他们生而复死。\n* 他们生不如死。',
+               "<25>{#f/16}* 一次又一次，\n  一次又一次...\n* 我彻底麻木了。",
+               '<25>{#f/3}* 好事、坏事、善事、恶事...\n  什么都做过了，\n  最后，我感受到什么呢？',
+               '<25>{#f/3}* ...什么都没有。',
+               '<25>{#f/3}* 没有情绪共鸣。\n* 没有意义可言。\n* 只有空虚。',
+               '<25>{#f/15}* 我一无所有。\n  没有朋友，没有自由...\n* 于是，我改变了想法。',
+               '<26>{#f/23}* 我最后一次重置。\n  这一次，我任由时间向前，\n  不再干预时间线。'
             ],
             (re: boolean) => [
                ...(re
                   ? [
-                       '<26>{#p/asriel2}{#f/16}* Like I said before, I knew it was all for nothing.',
-                       '<25>{#f/23}* So I RESET, and let time move forward without me.'
+                       '<26>{#p/asriel2}{#f/16}* 之前说到，\n  我发现一切都毫无意义。',
+                       '<25>{#f/23}* 所以，在这次重置后，\n  我不再干预时间线。'
                     ]
                   : []),
-               "<25>{#p/asriel2}{#f/17}* Don't you see, $(name)?",
-               '<25>{#f/23}* This is why I was so excited to be with you after all this time.',
-               "<25>{#f/13}* With you by my side, I won't have to do it alone anymore.",
-               "<25>{#f/15}* With you by my side... it'll finally mean something for once.",
-               "<25>{#f/16}* Besides, this is what you've always wanted, isn't it?",
-               '<25>{#f/13}* To \"set them free?\"',
-               '<25>{#f/23}* ... heh.\n* We really do make the perfect team.'
+               "<25>{#p/asriel2}{#f/17}* 但有了你，$(name)，\n  一切都不一样了。",
+               '<25>{#f/23}* 你知道吗？有你陪着我，\n  我真的非常高兴。',
+               "<25>{#f/13}* 有你在身边，我不再孤独。",
+               "<25>{#f/15}* 有你在身边，我不再绝望。",
+               "<25>{#f/16}* 而且，你不是也\n  总想“给他们自由”嘛？\n* 我也帮你实现愿望了。",
+               '<25>{#f/13}* 毕竟，死了最自由了，\n  你说是吧？\n* 呵。',
+               '<25>{#f/23}* 我们还真是合作愉快啊。'
             ]
          ],
          monologueX1: [
@@ -301,39 +301,39 @@ export default {
          ],
          monologueX2: () => [
             '<25>{#p/asriel2}{#f/16}* ...来，握住我的手。',
-            ...(SAVE.data.b.water ? [ "<25>{#f/13}* 别担心，杯子我来拿..." ] : [])
+            ...(SAVE.data.b.water ? [ "<25>{#f/13}* 别担心，杯子我帮你拿..." ] : [])
          ],
          monologueX3: [
-            '<25>{#p/asriel2}{#f/17}* We might as well do it while we still have the chance, right?',
-            '<25>{#f/23}* Walking hand-in-hand, past the city, like we always wanted to...',
-            "<25>{#f/16}* ... and THEN we'll blow it to pieces."
+            '<25>{#p/asriel2}{#f/17}* 以前，我们就这样\n  手牵着手，在城市漫步...',
+            '<25>{#f/23}* 现在，趁还有机会，\n  我们走完这最后一程。',
+            "<25>{#f/16}* ...之后，\n  把它炸成碎片。"
          ],
          monologueX4: () => [
-            '<25>{#p/asriel2}{#f/16}* 唉，风景不错。',
+            '<25>{#p/asriel2}{#f/16}* 景色真美。',
             ...(SAVE.flag.n.ga_asrielMonologueY < 2
                ? [
-                    "<25>{#f/13}* But the outpost's time has come.",
-                    "<25>{#f/7}* Listen, $(name).\n* These monsters just don't understand us.",
-                    "<25>{#f/6}* They'd like to pretend that the universe is a perfect place.",
-                    "<25>{#f/8}* They'd like to think that anyone can be redeemed.",
-                    "<25>{#f/6}* But you and I?\n* We don't fit within their world view.",
-                    "<25>{#f/7}* We're irredeemable.",
-                    "<25>{#f/9}* Heh.\n* Isn't it funny?",
-                    '<25>{#f/13}* The one thing that keeps us from relating to anyone else...',
-                    '<25>{#f/16}* ... is precisely what binds us together.',
-                    '<26>{#f/17}* Listen, once we hitch a ride and escape this place...',
-                    "<25>{#f/17}* We'll be together forever, $(name).",
-                    "<25>{#f/23}* It's our destiny."
+                    "<25>{#f/13}* 但前哨站的末日\n  已经到了。",
+                    "<25>{#f/7}* $(name)，\n  那些怪物根本不懂我们。",
+                    "<25>{#f/6}* 他们还相信\n  宇宙就是个大避难所。",
+                    "<25>{#f/8}* 还天真地以为，\n  “星空之大，足以容下每一个人。”",
+                    "<25>{#f/6}* 但我们俩\n  可不跟那群蠢货一般见识。",
+                    "<25>{#f/7}* 谁也阻止不了我们。",
+                    "<25>{#f/9}* 嘻嘻。\n* 想来也是真有意思...",
+                    '<25>{#f/13}* 这信念让所有人\n  疏远我们...',
+                    '<25>{#f/16}* ...却也让我们的纽带\n  愈加牢固。',
+                    '<26>{#f/17}* 听着，$(name)。\n  只要我们上了飞船，\n  离开这鬼地方...',
+                    "<25>{#f/17}* 就能永远在一起了。",
+                    "<25>{#f/23}* 这就是天意。"
                  ]
                : [
-                    '<25>{#f/13}* But you know what we have to do now.',
-                    "<25>{#f/17}* Come on, let's get back to where we were..."
+                    '<25>{#f/13}* 该说的我都说了。',
+                    "<25>{#f/17}* 继续干正事吧。"
                  ])
          ],
-         monologueX5: [ '<25>{#p/asriel2}{#f/17}* Lead the way.' ],
+         monologueX5: [ '<25>{#p/asriel2}{#f/17}* 你来带路。' ],
          monologueY: [
-            "<25>{#p/asriel2}{#f/16}* ... I'm not going to repeat myself.",
-            "<26>{#f/13}* You know why we're here."
+            "<25>{#p/asriel2}{#f/16}* ...我不想废话。",
+            "<26>{#f/13}* 为什么来这，要干什么，\n  你比我都清楚。"
          ],
          afterfight1: [ '<25>{#p/asriel2}{#f/8}* ...真费劲。' ],
          afterfight2: () =>
@@ -2564,7 +2564,7 @@ export default {
                     '<25>{#f/13}* 诚然，你从没杀过\n  任何一只怪物。',
                     '<25>{#f/13}* 但你也一次次将他们\n  推向生死边缘...',
                     '<25>{#f/15}* 一次，又一次，又一次...',
-                    '<25>{#f/16}* ...',
+                    '<25>{#f/16}* 生命一点点离她而去\n  她气若游丝，\n  哀求我马上停手...',
                     "<25>{#f/21}* Frisk，\n  他们现在都很怕你。",
                     '<26>{#f/23}* 而且...\n  我也很怕你。',
                     '<25>{#f/22}* ...'
