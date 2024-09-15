@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-15 08:58+0000\n"
-"PO-Revision-Date: 2024-09-15 15:28+0000\n"
+"PO-Revision-Date: 2024-09-15 16:09+0000\n"
 "Last-Translator: WS-3917 <ws3917@outlook.com>\n"
 "Language-Team: Chinese (Simplified) <https://ws3917.site/projects/"
 "project-spacetime/4-aerialis/zh_Hans/>\n"
@@ -19777,12 +19777,14 @@ msgstr "<32>{#p/human}* （你喝掉了新星咖啡。）"
 
 msgid "A shieldwich you can hold to heal after the opponent's turn."
 msgstr ""
+"回合中保护，回合后回血，\n"
+"这三明治简直碉堡了。"
 
 msgid "H.Y.G."
-msgstr ""
+msgstr "星园烁宠"
 
 msgid "<32>{#p/human}* (You throw away the Hold Yer Grane.)"
-msgstr ""
+msgstr "<32>{#p/human}* （你把星园烁宠扔掉了。）"
 
 msgid "<32>{#p/human}* (40 HP.)"
 msgstr "<32>{#p/human}* （40 HP。）"
@@ -19791,30 +19793,33 @@ msgid ""
 "<33>{#p/basic}* \"Hold Yer Grane\" Heals 40 HP\n"
 "* A shieldwich you can hold to heal after the opponent's turn."
 msgstr ""
+"<33>{#p/basic}* “星园烁宠” 回复40 HP\n"
+"* 回合中保护，回合后回血，\n"
+"  这三明治简直碉堡了。"
 
 msgid "Hold Yer Grane"
 msgstr "星园烁宠"
 
 msgid "<32>{#p/human}* (You brandish the Hold Yer Grane proudly.)"
-msgstr ""
+msgstr "<32>{#p/human}* （你自豪地挥舞着星园烁宠。）"
 
 msgid "<32>{#p/story}* DEFENSE up for this turn!"
 msgstr "<32>{#p/story}* 本回合，你的防御力提升！"
 
 msgid "<32>{#p/human}* (You eat the Hold Yer Grane.)"
-msgstr ""
+msgstr "<32>{#p/human}* （你吃掉了猛男汉堡。）"
 
 msgid "This high-octane hamburger harbors a certain spicy kick."
-msgstr ""
+msgstr "汉堡火辣辣，打人顶呱呱。"
 
 msgid "Slamburger"
 msgstr "猛男汉堡"
 
 msgid "<32>{#p/human}* (You knocked the Slamburger out of the park.)"
-msgstr ""
+msgstr "<32>{#p/human}* （你拿猛男汉堡来了个全垒打。）"
 
 msgid "<32>{#p/basic}* And that's a home run!"
-msgstr ""
+msgstr "<32>{#p/basic}* 明明是本垒打！"
 
 msgid "<32>{#p/human}* (34 HP.)"
 msgstr "<32>{#p/human}* （34 HP。）"
@@ -19823,21 +19828,23 @@ msgid ""
 "<32>{#p/basic}* \"Slamburger\" Heals 34 HP\n"
 "* This high-octane hamburger harbors a certain spicy kick."
 msgstr ""
+"<32>{#p/basic}* “猛男汉堡” 回复34 HP\n"
+"* 汉堡火辣辣，打人顶呱呱。"
 
 msgid "<32>{#p/human}* (You slammed down the Slamburger.)"
-msgstr ""
+msgstr "<32>{#p/human}* （你猛得吞下猛男汉堡。）"
 
 msgid "<32>{#p/basic}* Careful, it's hot in more ways than one!"
-msgstr ""
+msgstr "<32>{#p/basic}* 小心，里面放了好几种辣椒呢！"
 
 msgid "How the turns have tabled."
-msgstr ""
+msgstr "这就叫“攻守易形”。"
 
 msgid "G's Envy"
-msgstr ""
+msgstr "Glyde的爱"
 
 msgid "<32>{#p/human}* (You throw away the Glyde's Envy.)"
-msgstr ""
+msgstr "<32>{#p/human}* （你把Glyde的爱扔掉了。）"
 
 msgid "<32>{#p/human}* (55 HP.)"
 msgstr "<32>{#p/human}* （55 HP。）"
@@ -19853,7 +19860,7 @@ msgid "Glyde's Envy"
 msgstr "Glyde的爱"
 
 msgid "<32>{#p/human}* (You consume the Glyde's Envy.)"
-msgstr ""
+msgstr "<32>{#p/human}* （你尽情享受着Glyde的爱。）"
 
 msgid "..."
 msgstr "..."
@@ -19862,69 +19869,77 @@ msgid "Startaint"
 msgstr "新星吗啡"
 
 msgid "<32>{#p/human}* (You throw away the Startaint.)"
-msgstr ""
+msgstr "<32>{#p/human}* （你把“新星吗啡”扔掉了。）"
 
 msgid ""
 "<32>{#p/basic}* \"Startaint\" Heals -23 HP\n"
 "* ..."
 msgstr ""
+"<32>{#p/basic}* “新星吗啡” 回复-23 HP\n"
+"* ..."
 
 msgid "<32>{#p/human}* (You consume the Startaint.)"
-msgstr ""
+msgstr "<32>{#p/human}* （你吸食了新星吗啡。）"
 
 msgid "H.Y.P."
-msgstr ""
+msgstr "猩猿硕虫"
 
 msgid "<32>{#p/human}* (You throw away the Hold Yer Pain.)"
-msgstr ""
+msgstr "<32>{#p/human}* （你把猩猿硕虫扔掉了。）"
 
 msgid ""
 "<32>{#p/basic}* \"Hold Yer Pain\" Heals -40 HP\n"
 "* ..."
 msgstr ""
+"<32>{#p/basic}* “猩猿硕虫” 回复-40 HP\n"
+"* ..."
 
 msgid "Hold Yer Pain"
 msgstr "猩猿硕虫"
 
 msgid "<32>{#p/human}* (You brandish the Hold Yer Pain anxiously.)"
-msgstr ""
+msgstr "<32>{#p/human}* （你慌乱地挥舞着猩猿硕虫。）"
 
 msgid "<32>{#p/story}* DEFENSE down for this turn!"
-msgstr ""
+msgstr "<32>{#p/story}* 本回合，你的防御力降低！"
 
 msgid "<32>{#p/human}* (You eat the Hold Yer Pain.)"
-msgstr ""
+msgstr "<32>{#p/human}* （你吃掉了猩猿硕虫。）"
 
 msgid "Slamdunker"
 msgstr "猛烂汉堡"
 
 msgid "<32>{#p/human}* (You dunk the Slamdunker into the trash.)"
-msgstr ""
+msgstr "<32>{#p/human}* （你把猛烂汉堡扔到了垃圾堆。）"
 
 msgid ""
 "<32>{#p/basic}* \"Slamdunker\" Heals -34 HP\n"
 "* ..."
 msgstr ""
+"<32>{#p/basic}* “猛烂汉堡” 回复-34 HP\n"
+"* ..."
 
 msgid "<32>{#p/human}* (You slammed down the Slamdunker.)"
-msgstr ""
+msgstr "<32>{#p/human}* （你猛地吞下了猛烂汉堡。）"
 
 msgid "Envy"
-msgstr ""
+msgstr "Undyne的哀"
 
 msgid "<32>{#p/human}* (You throw away the Undyne's Envy.)"
-msgstr ""
+msgstr "<32>{#p/human}* （你把Undyne的哀扔掉了。）"
 
 msgid ""
 "<32>{#p/basic}* \"Undyne's Envy\" Heals -55 HP\n"
 "* ..."
 msgstr ""
+"<32>{#p/basic}* “Undyne的哀” 回复-55 HP\n"
+"* ..."
 
 msgid "Undyne's Envy"
 msgstr "Undyne的哀"
 
 msgid "<32>{#p/human}* (You eat the Undyne's Envy.)"
-msgstr ""
+msgstr "<32>{#p/human}* （你把Undyne的哀都咽到肚子里。）"
 
 msgid "Are you brave enough to eat literal garbage?"
 msgstr ""
@@ -20431,22 +20446,24 @@ msgid "<32>{#p/human}* (You drink the Orange Soda.)"
 msgstr "<32>{#p/human}* （你喝掉了橙汁汽水。）"
 
 msgid "Demise"
-msgstr ""
+msgstr "自作孽不可活"
 
 msgid "<32>{#p/human}* (You throw away the Plunderer's Demise.)"
-msgstr ""
+msgstr "<32>{#p/human}* （你把“自作孽不可活”扔掉了。）"
 
 msgid ""
 "<32>{#p/basic}* \"Plunderer's Demise\"\n"
 "* Heals -99 HP\n"
 "* ..."
 msgstr ""
+"<32>{#p/basic}* “自作孽不可活” 回复-99 HP\n"
+"* ..."
 
 msgid "Plunderer's Demise"
-msgstr ""
+msgstr "自作孽不可活"
 
 msgid "<32>{#p/human}* (You eat the Plunderer's Demise.)"
-msgstr ""
+msgstr "<32>{#p/human}* （你吃掉了“自作孽不可活”。）"
 
 msgid "Liftgate Pass"
 msgstr "升降门通行证"
