@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-14 15:28+0000\n"
-"PO-Revision-Date: 2024-09-15 04:28+0000\n"
+"PO-Revision-Date: 2024-09-15 05:28+0000\n"
 "Last-Translator: Maxim Aksenov <me6696154@gmail.com>\n"
 "Language-Team: Russian <https://ws3917.site/projects/project-spacetime/"
 "3-foundry/ru/>\n"
@@ -5424,10 +5424,11 @@ msgid "<32>{#p/asgore}* Please... come back..."
 msgstr "<32>{#p/asgore}* Пожалуйста. Вернись..."
 
 msgid "<25>{#p/asriel1}{#f/25}* ..."
-msgstr ""
+msgstr "<25>{#p/asriel1}{#f/25}* ..."
 
+#, fuzzy
 msgid "<32>{#p/undyne}* Mind if I ask you a favor?"
-msgstr "<32>{#p/undyne}* Не возражаете, если я сделаю вам одолжение?"
+msgstr "<32>{#p/undyne}* Не возражаешь, если я попрошу тебя об услуге?"
 
 msgid ""
 "<32>{#p/basic}* Ahuhuhu~\n"
