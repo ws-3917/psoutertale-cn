@@ -931,7 +931,7 @@ export default {
       confirm2: 'Un nombre ya ha sido\nescogido.',
       confirm3: 'Regresar',
 
-      footer: 'OUTERTALE V5.03 (c) 2024 SPACEY_432',
+      footer: 'OUTERTALE V5.04 (c) 2024 SPACEY_432',
 
       heal1: '* (PV restaurados.)',
       heal2: '* (Has recuperado $(x) PV.)',

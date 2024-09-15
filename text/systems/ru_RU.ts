@@ -931,7 +931,7 @@ export default {
       confirm2: 'Имя уже было выбрано.',
       confirm3: 'Назад',
 
-      footer: 'OUTERTALE V5.03 (c) 2024 SPACEY_432',
+      footer: 'OUTERTALE V5.04 (c) 2024 SPACEY_432',
 
       heal1: '* (ОЗ полностью восстановлено.)',
       heal2: '* (Вы восстановили $(x) ОЗ.)',

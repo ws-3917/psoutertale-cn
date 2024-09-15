@@ -2051,7 +2051,7 @@ msgstr "Имя уже было выбрано."
 msgid "Go back"
 msgstr "Назад"
 
-msgid "OUTERTALE V5.03 (c) 2024 SPACEY_432"
+msgid "OUTERTALE V5.04 (c) 2024 SPACEY_432"
 msgstr ""
 
 msgid "* (HP fully restored.)"

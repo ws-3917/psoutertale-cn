@@ -2073,8 +2073,8 @@ msgstr "已经选定了一个名字。"
 msgid "Go back"
 msgstr "返回"
 
-msgid "OUTERTALE V5.03 (c) 2024 SPACEY_432"
-msgstr "OUTERTALE V5.03 (c) 2024 SPACEY_432 简体中文版 PSOT汉化组"
+msgid "OUTERTALE V5.04 (c) 2024 SPACEY_432"
+msgstr ""
 
 msgid "* (HP fully restored.)"
 msgstr "* （HP已回满。）"

@@ -931,7 +931,7 @@ export default {
       confirm2: 'Jméno již bylo\nbyl vybrán.',
       confirm3: 'Zpět',
 
-      footer: 'OUTERTALE V5.03 (c) 2024 SPACEY_432',
+      footer: 'OUTERTALE V5.04 (c) 2024 SPACEY_432',
 
       heal1: '* (ZB plně obnoveno.)',
       heal2: '* (Získali jste zpět $(x) ZB.)',

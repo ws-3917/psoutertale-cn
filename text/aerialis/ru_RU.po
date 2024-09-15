@@ -19281,6 +19281,11 @@ msgid ""
 msgstr "* Скептики."
 
 msgid ""
+"<32>{#p/asriel2}* RG 01.\n"
+"* Just one left."
+msgstr ""
+
+msgid ""
 "<32>{#p/story}* RG 01 - ATK 30 DEF 20\n"
 "* Intent on ending you, even if it kills him."
 msgstr "* Намерение положить конец вам, даже если это убьет его."
@@ -19635,6 +19640,11 @@ msgid ""
 "<33>{#p/story}* RG 04 - ATK 30 DEF 20\n"
 "* Believes in friendship, but isn't against something more..."
 msgstr "* Верьте в дружбу, но не против большего..."
+
+msgid ""
+"<32>{#p/asriel2}* RG 02.\n"
+"* Just one left."
+msgstr ""
 
 msgid ""
 "<32>{#p/story}* RG 02 - ATK 30 DEF 20\n"

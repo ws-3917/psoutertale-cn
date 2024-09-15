@@ -930,7 +930,7 @@ export default {
       confirm2: 'A name has already\nbeen chosen.',
       confirm3: 'Go back',
 
-      footer: 'OUTERTALE V5.03 (c) 2024 SPACEY_432',
+      footer: 'OUTERTALE V5.04 (c) 2024 SPACEY_432',
 
       heal1: '* (HP fully restored.)',
       heal2: '* (You recovered $(x) HP.)',

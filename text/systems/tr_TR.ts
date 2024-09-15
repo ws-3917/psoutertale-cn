@@ -931,7 +931,7 @@ export default {
       confirm2: 'Çoktan bir isim\nseçilmiş.',
       confirm3: 'Geri dön',
 
-      footer: 'OUTERTALE V5.03 (c) 2024 SPACEY_432',
+      footer: 'OUTERTALE V5.04 (c) 2024 SPACEY_432',
 
       heal1: '* (CAN\'ın tamamen doldu.)',
       heal2: '* ($(x) CAN yeniledin.)',

@@ -931,7 +931,7 @@ export default {
       confirm2: 'すでに　なまえが\nつけられています。',
       confirm3: 'もどる',
 
-      footer: 'OUTERTALE V5.03 (c) 2024 SPACEY_432',
+      footer: 'OUTERTALE V5.04 (c) 2024 SPACEY_432',
 
       heal1: '＊(HPが　まんタンになった)',
       heal2: '＊(HPが　$(x)かいふくした)',
