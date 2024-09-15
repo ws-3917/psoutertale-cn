@@ -1,6 +1,21 @@
-#
+#, fuzzy
 msgid ""
 msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-09-15 07:47+0000\n"
+"PO-Revision-Date: 2024-09-15 07:47+0000\n"
+"Last-Translator: WS-3917 <ws3917@outlook.com>\n"
+"Language-Team: Chinese (Traditional) <https://ws3917.site/projects/"
+"project-spacetime/3-foundry/zh_Hant/>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: ENCODING\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.6.2\n"
+
+#
 
 msgid "<32>{#p/basic}* ..."
 msgstr "<32>{#p/basic}* ..."
@@ -9809,7 +9824,7 @@ msgid ""
 "* Exoberry Punch\n"
 "* Made locally... or so they say."
 msgstr ""
-"* 洋梅潘趣酒\n"
+"* 洋梅果酒\n"
 "* 自家做的... 她是這麼說的。"
 
 msgid ""
@@ -9900,7 +9915,7 @@ msgstr ""
 "  好嗎？"
 
 msgid "<25>{#p/undyne}{#f/1}* Ah... exoberry punch."
-msgstr "<25>{#p/undyne}{#f/1}* 啊... 洋梅潘趣酒。"
+msgstr "<25>{#p/undyne}{#f/1}* 啊... 洋梅果酒。"
 
 msgid "<25>{#f/14}* Well, Papyrus loves this stuff, so I guess it's alright."
 msgstr ""
@@ -9974,7 +9989,7 @@ msgid "<25>{#p/undyne}{#f/16}* Okay, I guess..."
 msgstr "<25>{#p/undyne}{#f/16}* 也... 行吧。"
 
 msgid "<25>{#p/undyne}{#f/1}* Let's fruit-punch your ticket to hydration!"
-msgstr "<25>{#p/undyne}{#f/1}* 來喝點潘趣酒，補充水分吧！"
+msgstr "<25>{#p/undyne}{#f/1}* 來喝點果酒，補充水分吧！"
 
 msgid "<25>{#p/undyne}{#f/14}* No time like hot cocoa time!"
 msgstr ""
@@ -10043,7 +10058,7 @@ msgstr ""
 "* 快點喝啊！"
 
 msgid "<32>{#p/human}{#s/heal}* (You take a sip of the punch.)"
-msgstr "<32>{#p/human}{#s/heal}* （你抿了一口潘趣酒。）"
+msgstr "<32>{#p/human}{#s/heal}* （你抿了一口果酒。）"
 
 msgid "<32>{#p/basic}* It's so sour, your lips are already puckered up..."
 msgstr ""
@@ -10126,7 +10141,7 @@ msgstr ""
 "  還挺不錯的。"
 
 msgid "<25>{#f/12}* Exoberry punch..."
-msgstr "<25>{#f/12}* 洋梅潘趣酒..."
+msgstr "<25>{#f/12}* 洋梅果酒..."
 
 msgid "<25>{#f/1}* Alphys and Papyrus sort of \"invented\" it together."
 msgstr ""
@@ -10381,7 +10396,7 @@ msgid "<25>{#f/12}* You're out of water, aren't you?"
 msgstr "<25>{#f/12}* 你的水喝完了，是吧？"
 
 msgid "<25>{#f/12}* You're out of punch, aren't you?"
-msgstr "<25>{#f/12}* 你的潘趣酒喝完了，是吧？"
+msgstr "<25>{#f/12}* 你的果酒喝完了，是吧？"
 
 msgid "<25>{#f/12}* You're out of cocoa, aren't you?"
 msgstr ""
