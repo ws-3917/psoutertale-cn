@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-15 06:28+0000\n"
-"PO-Revision-Date: 2024-09-15 07:22+0000\n"
-"Last-Translator: MurderSans_MDR <z127568254@163.com>\n"
+"PO-Revision-Date: 2024-09-15 07:47+0000\n"
+"Last-Translator: WS-3917 <ws3917@outlook.com>\n"
 "Language-Team: Chinese (Simplified) <https://ws3917.site/projects/"
 "project-spacetime/4-aerialis/zh_Hans/>\n"
 "Language: zh_CN\n"
@@ -2153,16 +2153,16 @@ msgid "<25>{#g/alphysNervousLaugh}* \"Who has the biggest crush on Mettaton?\""
 msgstr ""
 
 msgid "Alphys"
-msgstr ""
+msgstr "Alphys"
 
 msgid "Asgore"
-msgstr ""
+msgstr "Asgore"
 
 msgid "Papyrus"
-msgstr ""
+msgstr "Papyrus"
 
 msgid "Undyne"
-msgstr ""
+msgstr "Undyne"
 
 msgid "<25>{#p/alphys}{#g/alphysInquisitive}* ... huh?"
 msgstr ""
@@ -2249,16 +2249,16 @@ msgid "<25>{#g/alphysWelp}* \"What is Mettaton's most successful product line?\"
 msgstr ""
 
 msgid "MTT Beauty"
-msgstr ""
+msgstr "MTT美妆"
 
 msgid "MTT Cooking"
-msgstr ""
+msgstr "MTT厨具"
 
 msgid "MTT Tech"
-msgstr ""
+msgstr "MTT科技"
 
 msgid "MTT TV"
-msgstr ""
+msgstr "MTT卫视"
 
 msgid ""
 "<25>{#p/alphys}{#g/alphysCutscene2}* Yeah... that's probably the right "
@@ -2333,13 +2333,13 @@ msgid "Model 42"
 msgstr "42号模型"
 
 msgid "Hapstablook"
-msgstr ""
+msgstr "Hapstablook"
 
 msgid "Aidrian"
-msgstr ""
+msgstr "Aidrian"
 
 msgid "Mettaton"
-msgstr ""
+msgstr "Mettaton"
 
 msgid "<25>{#p/alphys}{#g/alphysCutscene2}* Ah, about that..."
 msgstr "<25>{#p/alphys}{#g/alphysCutscene2}* 啊，关于这个..."
@@ -8258,10 +8258,10 @@ msgid "<32>{#p/human}* (You take in the wish flower's aura.)"
 msgstr ""
 
 msgid "{*}{#d.sysx}{%}"
-msgstr ""
+msgstr "{*}{#d.sysx}{%}"
 
 msgid "{*}{#d.sys}{%}"
-msgstr ""
+msgstr "{*}{#d.sys}{%}"
 
 msgid "<32>{#p/basic}* It's a wish flower."
 msgstr "<32>{#p/basic}* 一朵蒲公罂。"
@@ -14560,7 +14560,7 @@ msgid "<20>{#p/basic}Serves you right."
 msgstr "<20>{#p/basic}你活该。"
 
 msgid "Misses: $(x)"
-msgstr ""
+msgstr "漏击：$(x)"
 
 msgid "<20>{#p/mettaton}SO WE'VE MADE IT TO THE END, EH?"
 msgstr ""
@@ -19575,7 +19575,7 @@ msgid "<32>{#p/event}{#a.radiostart}* ..."
 msgstr "<32>{#p/event}{#a.radiostart}* ..."
 
 msgid "{*}{#a.radiostop}{%}"
-msgstr ""
+msgstr "{*}{#a.radiostop}{%}"
 
 msgid ""
 "<32>{#p/human}* (You turned on the Old Radio.)\n"
@@ -20387,7 +20387,7 @@ msgid "Press [X] to Finish"
 msgstr "按 [X] 返回"
 
 msgid "SYSTEM"
-msgstr ""
+msgstr "系统信息"
 
 msgid "An evacuation notice has been issued in your area. Vacate at once."
 msgstr ""
@@ -20479,7 +20479,7 @@ msgid "i finally started watching the last season and its actually good WTF"
 msgstr ""
 
 msgid "NAPSTABLOOK22"
-msgstr ""
+msgstr "NAPSTABLOOK22"
 
 msgid "alphys... can you please respond to my private messages..."
 msgstr ""
@@ -21377,7 +21377,7 @@ msgid "§fill=#ff0§Glyde (NEW)"
 msgstr ""
 
 msgid "Glyde"
-msgstr ""
+msgstr "Glyde"
 
 msgid "Your Future"
 msgstr "你的未来"
@@ -22258,7 +22258,7 @@ msgid "§fill=#ff0§Burgie (NEW)"
 msgstr ""
 
 msgid "Burgie"
-msgstr ""
+msgstr "堡堡"
 
 msgid "§fill=#ff0§Royal Scientist (NEW)"
 msgstr ""
@@ -22276,10 +22276,10 @@ msgid "<16>{#k/4/4}* Are we okay?"
 msgstr ""
 
 msgid "<16>{#k/2/6/0}"
-msgstr ""
+msgstr "<16>{#k/2/6/0}"
 
 msgid "{*}{#s/meow}{%}"
-msgstr ""
+msgstr "{*}{#s/meow}{%}"
 
 msgid "<16>{#k/6/8}* Mmm hm hm, you're too cute."
 msgstr ""
@@ -22288,7 +22288,7 @@ msgid "<16>* Of course we're okay!"
 msgstr ""
 
 msgid "{*}{#k/0/0/1}{%}"
-msgstr ""
+msgstr "{*}{#k/0/0/1}{%}"
 
 msgid "<16>{#k/0/0}* I'm Bratty, and this is my best friend, Catty."
 msgstr ""
@@ -22559,7 +22559,7 @@ msgid ""
 msgstr ""
 
 msgid "<16>{#k/2/4/0}"
-msgstr ""
+msgstr "<16>{#k/2/4/0}"
 
 msgid "<16>{#k/2/8}* You did not just say that out loud."
 msgstr ""
