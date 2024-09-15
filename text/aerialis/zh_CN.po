@@ -1,6 +1,21 @@
-#
+#, fuzzy
 msgid ""
 msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-09-15 06:28+0000\n"
+"PO-Revision-Date: 2024-09-15 06:28+0000\n"
+"Last-Translator: MurderSans_MDR <z127568254@163.com>\n"
+"Language-Team: Chinese (Simplified) <https://ws3917.site/projects/"
+"project-spacetime/4-aerialis/zh_Hans/>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: ENCODING\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.6.2\n"
+
+#
 
 msgid "<32>{#p/human}* (It appears the terminal is beyond your access level.)"
 msgstr ""
@@ -3052,22 +3067,24 @@ msgid "<25>{#p/asriel2}{#f/3}* Let's go."
 msgstr "<25>{#p/asriel2}{#f/3}* 咱们走。"
 
 msgid "<32>{#p/mettaton}* I SEE YOU'VE MADE IT ACROSS THE GAP."
-msgstr ""
+msgstr "<32>{#p/mettaton}* 瞅见你俩飞过虚空了。"
 
 msgid "<32>* PERHAPS..."
-msgstr ""
+msgstr "<32>* 看来..."
 
 msgid "<32>* TRUSTING A LOW-LEVEL SERVICE WORKER TO GUARD THAT LIFTGATE..."
 msgstr ""
+"<32>* 派一个低级服务员\n"
+"  去守着那台升降门..."
 
 msgid "<32>* WASN'T THE GREATEST PLAN."
-msgstr ""
+msgstr "<32>* 是我失策了。"
 
 msgid "<32>* OH WELL."
-msgstr ""
+msgstr "<32>* 唉，好吧。"
 
 msgid "<32>* I'M GOING TO KILL YOU ANYWAY."
-msgstr ""
+msgstr "<32>* 反正我早晚灭了你们。"
 
 msgid ""
 "<32>{#p/basic}* Don't worry, I'll be okay!\n"
@@ -4743,47 +4760,52 @@ msgid ""
 "<32>{#p/mettaton}* OH DEAR, IS THAT...\n"
 "* IS THAT WHAT IT LOOKS LIKE?"
 msgstr ""
+"<32>{#p/mettaton}* 亲呐...\n"
+"* 我没看错吧。"
 
 msgid "<32>* OH, I DO BELIEVE THAT IT'S..."
-msgstr ""
+msgstr "<32>* 太不可思议了，这儿竟然..."
 
 msgid "<32>* A TRAP!"
-msgstr ""
+msgstr "<32>* 有陷阱欸！"
 
 msgid "<32>* AND, OF COURSE..."
-msgstr ""
+msgstr "<32>* 还有，我都不用多说了..."
 
 msgid "<32>* YOU'RE ON LIVE TV AGAIN!"
-msgstr ""
+msgstr "<32>* 你们又上电视啦！"
 
 msgid "<32>* HOW WILL YOU TWO ESCAPE THE ROOM THIS TIME?"
-msgstr ""
+msgstr "<32>* 这次，你们又得如何逃生呢？"
 
 msgid "<32>* ONLY -TIME- WILL TELL...{%200}"
-msgstr ""
+msgstr "<32>* 只有【时间】能给我们答案...{%200}"
 
 msgid "<25>{#p/asriel2}{#f/10}* Hmm...{%100}"
-msgstr ""
+msgstr "<25>{#p/asriel2}{#f/10}* 嗯...{%100}"
 
 msgid "<25>* The control console is up on that platform...{%100}"
-msgstr ""
+msgstr "<25>* 控制台就在那个平台上...{%100}"
 
 msgid "<25>{#f/16}* ...{%100}"
 msgstr "<25>{#f/16}* ...{%100}"
 
 msgid "<25>{#f/13}* This is going to be a little embarrassing, but...{%100}"
-msgstr ""
+msgstr "<25>{#f/13}* 有点难为情，不过...{%100}"
 
 msgid "<25>{#f/13}* If I kneel in front of the platform...{%100}"
-msgstr ""
+msgstr "<25>{#f/13}* 我跪在平台前...{%100}"
 
 msgid ""
 "<25>{#f/16}* You can... maybe climb onto me to get up there and cancel the "
 "timer.{%100}"
 msgstr ""
+"<25>{#f/16}* 你就可以...\n"
+"  试试踩着我上那儿，\n"
+"  关掉计时器。{%100}"
 
 msgid "<25>{#f/15}* I hope this works...{%100}"
-msgstr ""
+msgstr "<25>{#f/15}* 大概能行吧...{%100}"
 
 msgid "<25>{#p/asriel2}{#f/13}* ...{%100}"
 msgstr "<25>{#p/asriel2}{#f/13}* ...{%100}"
@@ -4794,7 +4816,7 @@ msgstr ""
 msgid ""
 "<25>{#p/asriel2}{#f/15}* Are we...\n"
 "* ... going to do this?{%200}"
-msgstr ""
+msgstr "<25>{#p/asriel2}{#f/15}* 你... 来吗？{%200}"
 
 msgid "<25>{#p/asriel2}{#f/16}* ... we don't have time for this.{%200}"
 msgstr ""
@@ -4804,6 +4826,8 @@ msgstr ""
 
 msgid "<25>{#p/asriel2}{#f/16}* Or are we just going to stand here.{%200}"
 msgstr ""
+"<25>{#p/asriel2}{#f/16}* 还是说你觉得...\n"
+"  我们傻愣在这就行。{%200}"
 
 msgid ""
 "<25>{#p/asriel2}{#f/13}* $(name), please...\n"
@@ -4811,7 +4835,7 @@ msgid ""
 msgstr ""
 
 msgid "<25>{#p/asriel2}{#f/13}* I guess we are.{%200}"
-msgstr ""
+msgstr "<25>{#p/asriel2}{#f/13}* 还真是。{%200}"
 
 msgid ""
 "<25>{#p/asriel2}{#f/3}* ...\n"
@@ -4819,41 +4843,51 @@ msgid ""
 msgstr ""
 
 msgid "<25>{#p/asriel2}{#f/5}* So how's your day been, huh?{%200}"
-msgstr ""
+msgstr "<25>{#p/asriel2}{#f/5}* 今天过得咋样？{%200}"
 
 msgid ""
 "<25>{#p/asriel2}{#f/13}* Pretty good?\n"
 "* ...{%200}"
 msgstr ""
+"<25>{#p/asriel2}{#f/13}* 应该不错？\n"
+"* ...{%200}"
 
 msgid ""
 "<25>{#p/asriel2}{#f/4}* I'm amazed at how you can just stand there without "
 "getting bored.{%200}"
 msgstr ""
+"<25>{#p/asriel2}{#f/4}* 杵在那愣着不无聊吗。\n"
+"  真是惊到我了。{%200}"
 
 msgid ""
 "<25>{#p/asriel2}{#f/3}* ...\n"
 "* $(name)?{%200}"
 msgstr ""
+"<25>{#p/asriel2}{#f/3}* ...\n"
+"* $(name)？{%200}"
 
 msgid "<25>{#p/asriel2}{#f/13}* $(name).{%200}"
-msgstr ""
+msgstr "<25>{#p/asriel2}{#f/13}* $(name)。{%200}"
 
 msgid ""
 "<25>{#p/asriel2}{#f/7}* We could've been off the outpost by this "
 "point.{%200}"
 msgstr ""
+"<25>{#p/asriel2}{#f/7}* 有这时间杵那儿，\n"
+"  我们都离开前哨站了。{%200}"
 
 msgid ""
 "<25>{#p/asriel2}{#f/6}* ...\n"
 "* Please.{%200}"
 msgstr ""
+"<25>{#p/asriel2}{#f/6}* ...\n"
+"* 算我求你了。{%200}"
 
 msgid "<25>{#p/asriel2}{#f/15}* Almost there..."
 msgstr ""
 
 msgid "<25>{#p/asriel2}{#f/13}* Uh... ready.{%200}"
-msgstr ""
+msgstr "<25>{#p/asriel2}{#f/13}* 呃... 我准备好了。{%200}"
 
 msgid "<25>{#p/asriel2}{#f/13}* Come on...{%200}"
 msgstr ""
@@ -4866,6 +4900,8 @@ msgstr "<25>{#p/asriel2}{#f/6}* ..."
 
 msgid "<25>{#p/asriel2}{#f/7}* Did we seriously just wait for that?"
 msgstr ""
+"<25>{#p/asriel2}{#f/7}* 浪费这么久，\n"
+"  就等来个这？"
 
 msgid "<32>{#p/mettaton}* DO MY SENSORS DECIEVE?"
 msgstr ""
@@ -7993,8 +8029,6 @@ msgstr "<25>{#p/asriel2}{#f/8}* 只能换条路走了。"
 msgid "<32>{#p/human}* (Where would you like to go?)"
 msgstr "<32>{#p/human}* （你想去哪里？）"
 
-msgid ""
-msgstr ""
 
 msgid "Floor L1"
 msgstr "左一层"
@@ -9638,7 +9672,7 @@ msgid "<32>{#p/human}* (You run the nigh-invisible water over your hands.)"
 msgstr ""
 
 msgid "<32>{#p/basic}* It's a sink with a replicator- powered water supply."
-msgstr "<32>{#p/basic}* 一个水槽，通过复制器供水。"
+msgstr "<32>{#p/basic}* 这是一个水槽，通过复制器供水。"
 
 msgid ""
 "<32>{#p/mettaton}* THE MORE COMPLEX THE MATERIAL, THE MORE POWER IT TAKES TO"
@@ -11821,12 +11855,16 @@ msgid ""
 "<25>{#p/asriel2}{#f/6}* Let me guess, the elevator couldn't take us to the "
 "third floor?"
 msgstr ""
+"<25>{#p/asriel2}{#f/6}* 让我猜猜，\n"
+"  那台破电梯没法直达三楼？"
 
 msgid "<25>{#f/8}* ..."
 msgstr "<25>{#f/8}* ..."
 
 msgid "<25>{#f/7}* I should have known he'd make us take the long way up."
 msgstr ""
+"<25>{#f/7}* 早该料到\n"
+"  他会让我们跑断腿的。"
 
 msgid "<25>{#p/asriel2}{#f/8}* One floor down, two floors to go..."
 msgstr ""
@@ -13198,7 +13236,7 @@ msgid "<32>{#p/story}* The Royal Guard attacks!"
 msgstr "<32>{#p/story}* 皇家卫队袭来！"
 
 msgid "<32>{#p/asriel2}* These crazies..."
-msgstr ""
+msgstr "<32>{#p/asriel2}* 一个个都是疯家伙..."
 
 msgid "<32>{#p/story}* It's a space-faring nightmare!"
 msgstr ""
