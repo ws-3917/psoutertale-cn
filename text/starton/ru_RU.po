@@ -1,6 +1,22 @@
-#
+#, fuzzy
 msgid ""
 msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-09-18 14:30+0000\n"
+"PO-Revision-Date: 2024-09-18 14:30+0000\n"
+"Last-Translator: Maxim Aksenov <me6696154@gmail.com>\n"
+"Language-Team: Russian <https://ws3917.site/projects/project-spacetime/"
+"2-starton/ru/>\n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: ENCODING\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 5.6.2\n"
+
+#
 
 msgid ""
 "<32>{#p/basic}* A standard-issue CITADEL long- range telescope, circa 261X."
@@ -288,17 +304,18 @@ msgid "<32>{#p/human}* (It sounds like a song is currently playing.)"
 msgstr "<32>{#p/human}* (Звучит песня, которая сейчас играет)."
 
 msgid "<32>{#p/basic}* Currently playing \"Track 01\""
-msgstr "<32>{#p/basic}* В данный момент воспроизводится \"Трек 01\""
+msgstr "<32>{#p/basic}* Сейчас играет \"Трек 01\""
 
 msgid "<32>{#p/basic}* Currently playing \"Track 02\""
-msgstr "<32>{#p/basic}* В данный момент воспроизводится \"Трек 02\""
+msgstr "<32>{#p/basic}* Сейчас играет \"Трек 02\""
 
 msgid "<32>{#p/basic}* Currently playing \"Track 03\""
-msgstr "<32>{#p/basic}* В данный момент воспроизводится \"Трек 03\""
+msgstr "<32>{#p/basic}* Сейчас играет \"Трек 03\""
 
 msgid "* (Stop playback?)"
 msgstr "* (Прекратить воспроизведение?)"
 
+#, fuzzy
 msgid "<32>{#p/basic}{#npc/a}* That's more like it!"
 msgstr "<32>{#p/basic}{#npc/a}* Так-то лучше!"
 
@@ -315,13 +332,17 @@ msgid ""
 "* ...\n"
 "* ..."
 msgstr ""
+"<32>{#p/basic}* ...\n"
+"* ...\n"
+"* ..."
 
 msgid "<32>{#npc/a}* Grillbz says he's heard this song somewhere before."
 msgstr "<32>{#npc/a}* Гриллбз говорит, что где-то уже слышал эту песню."
 
+#, fuzzy
 msgid "<32>{#p/basic}{#npc/a}* You sure know a lot of music offhand, kid..."
 msgstr ""
-"<32>{#p/basic}{#npc/a}* Ты, конечно, знаешь много музыки наизусть, парень..."
+"<32>{#p/basic}{#npc/a}* Ты, конечно, знаешь много музыки наизусть, малыш..."
 
 msgid "<32>* You must be really tasty."
 msgstr "<32>* Ты, наверное, очень вкусный."
@@ -334,80 +355,81 @@ msgid ""
 msgstr ""
 "<15>{#p/papyrus}{#e/papyrus/21}Я ОТВЕЧАЮ НА ТЕЛЕФОННЫЙ ЗВОНОК С БАЛКОНА..."
 
+#, fuzzy
 msgid "<15>{#p/papyrus}{#e/papyrus/19}AND THIS IS WHERE IT LEADS ME!?"
-msgstr "<15>{#p/papyrus}{#e/papyrus/19} И ВОТ К ЧЕМУ ЭТО ПРИВЕЛО?"
+msgstr "<15>{#p/papyrus}{#e/papyrus/19}И ВОТ КУДА ЭТО МЕНЯ ПРИВЕЛО!?"
 
 msgid ""
 "<15>{#p/papyrus}{#e/papyrus/14}I'LL HAVE YOU KNOW, I'M A SHOE-IN FOR THE "
 "ROYAL GUARD."
 msgstr ""
-"<15>{#p/papyrus}{#e/papyrus/14}Ты знаешь, что я вхожу в королевскую гвардию."
+"<15>{#p/papyrus}{#e/papyrus/14}ТЫ ДОЛЖЕН ЗНАТЬ, ЧТО Я ХОЧУ ПОПАСТЬ В "
+"КОРОЛЕВСКУЮ ГВАРДИЮ."
 
 msgid "<15>{#p/papyrus}{#e/papyrus/15}SO, WHATEVER YOU TWO ARE PLANNING..."
-msgstr "<15>{#p/papyrus}{#e/papyrus/15} Итак, что бы ты ни планировал..."
+msgstr "<15>{#p/papyrus}{#e/papyrus/15}ТАК ЧТО, ЧТО БЫ ТЫ НИ ПЛАНИРОВАЛ..."
 
 msgid "<15>{#p/papyrus}{#e/papyrus/24}... WAIT, THAT VOICE..."
-msgstr "<15>{#p/papyrus}{#e/papyrus/24}... ПОДОЖДИТЕ, ЭТОТ ГОЛОС..."
+msgstr "<15>{#p/papyrus}{#e/papyrus/24}... ПОДОЖДИ, ЭТОТ ГОЛОС..."
 
 msgid ""
 "<15>{#p/papyrus}{#e/papyrus/22}ARE YOU THE ONE WHO CALLED ME ON THE PHONE "
 "EARLIER!?"
 msgstr ""
-"<15>{#p/papyrus}{#e/papyrus/22} ТЫ ТОТ, КТО ПЕРЕЗВОНИЛ МНЕ ПО ТЕЛЕФОНУ "
-"РАНЬШЕ!?"
+"<15>{#p/papyrus}{#e/papyrus/22}ТЫ ТОТ, КТО ЗВОНИЛ МНЕ ПО ТЕЛЕФОНУ РАНЬШЕ!?"
 
 msgid ""
 "<15>{#p/papyrus}{#e/papyrus/20}... OF COURSE!\n"
 "THAT EXPLAINS EVERYTHING!"
 msgstr ""
 "<15>{#p/papyrus}{#e/papyrus/20}... КОНЕЧНО!\n"
-"ЭТО ВСЕ ОБЪЯСНЯЕТ!"
+"ЭТО ВСЁ ОБЪЯСНЯЕТ!"
 
 msgid ""
 "<15>{#p/papyrus}{#e/papyrus/10}WELL THEN.\n"
 "I'M GLAD TO HAVE FINALLY MET YOU."
 msgstr ""
-"<15>{#p/papyrus}{#e/papyrus/10} Ну что ж.\n"
+"<15>{#p/papyrus}{#e/papyrus/10}НУ ЧТО Ж.\n"
 "Я РАД, ЧТО НАКОНЕЦ-ТО ВСТРЕТИЛ ТЕБЯ."
 
 msgid ""
 "<15>{#p/papyrus}{#e/papyrus/24}TO BE HONEST, YOU KIND OF REMIND ME OF..."
-msgstr ""
-"<15>{#p/papyrus}{#e/papyrus/24}ЧТОБЫ БЫТЬ ЧЕСТНЫМ, ТЫ НАПОМИНАЕШЬ МНЕ..."
+msgstr "<15>{#p/papyrus}{#e/papyrus/24}ЕСЛИ ЧЕСТНО, ТЫ МНЕ НАПОМИНАЕШЬ..."
 
 msgid "<15>{#p/papyrus}{#e/papyrus/20}... HEY, WAIT A SECOND!!"
 msgstr "<15>{#p/papyrus}{#e/papyrus/20}... ЭЙ, ПОДОЖДИ СЕКУНДУ!!"
 
 msgid "<15>{#p/papyrus}{#e/papyrus/22}DID YOU BRING A -HUMAN- WITH YOU!?!?"
-msgstr "<15>{#p/papyrus}{#e/papyrus/22}Ты взял с собой человека!?!?"
+msgstr "<15>{#p/papyrus}{#e/papyrus/22}ТЫ ВЗЯЛ С СОБОЙ ЧЕЛОВЕКА?!?!?"
 
 msgid ""
 "<15>{#p/papyrus}{#e/papyrus/10}WOWIE!!\n"
 "THIS JUST GETS BETTER AND BETTER!!"
 msgstr ""
-"<15>{#p/papyrus}{#e/papyrus/10} ВАУ!!!\n"
-"ЭТО СТАНОВИТСЯ ВСЁ ЛУЧШЕ И ЛУЧШЕ!!!"
+"<15>{#p/papyrus}{#e/papyrus/10}ВАУ!!\n"
+"ЭТО СТАНОВИТСЯ ВСЁ ЛУЧШЕ И ЛУЧШЕ!!"
 
+#, fuzzy
 msgid "<15>{#p/papyrus}{#e/papyrus/20}SO, WHAT ARE WE DOING HERE ANYWAY?"
-msgstr "<15>{#p/papyrus}{#e/papyrus/20} ИТАК, ЧТО ЖЕ МЫ ЗДЕСЬ ДЕЛАЕМ?"
+msgstr "<15>{#p/papyrus}{#e/papyrus/20}ИТАК, ЧТО МЫ ЗДЕСЬ ДЕЛАЕМ?"
 
 msgid "<32>{#p/asriel2}* Ready, $(name)?"
-msgstr "<32>{#p/asriel2}* Готов $(name)?"
+msgstr "<32>{#p/asriel2}* Готов, $(name)?"
 
 msgid "* (What should Asriel do?)"
 msgstr "* (Что делать Азриэлю?)"
 
 msgid "Mercy"
-msgstr "Пощаду"
+msgstr "Пощадить"
 
 msgid "Act"
-msgstr "Действие"
+msgstr "Действовать"
 
 msgid "Magic"
 msgstr "Магию"
 
 msgid "Fight"
-msgstr "Битва"
+msgstr "Атаковать"
 
 msgid "<32>{#p/asriel2}* Let's just get this over with."
 msgstr "<32>{#p/asriel2}* Давай просто покончим с этим."
@@ -416,10 +438,10 @@ msgid "<32>{#p/asriel2}* Mercy, huh?"
 msgstr "<32>{#p/asriel2}* Пощада, да?"
 
 msgid "<32>{#p/asriel2}* Mercy... I think I like that word."
-msgstr "<32>{#p/asriel2}* Пощада... Кажется, мне нравится это слово."
+msgstr "<32>{#p/asriel2}* Пощада... Я думаю, мне нравится это слово."
 
 msgid "<32>{#p/asriel2}* Let's show him some \"Mercy.\""
-msgstr "<32>{#p/asriel2}* Давайте покажем ему немного \"Пощады.\""
+msgstr "<32>{#p/asriel2}* Давай покажем ему \"Пощаду.\""
 
 msgid ""
 "<32>{#p/asriel2}* Act...?\n"
@@ -439,7 +461,7 @@ msgid ""
 "* The force that binds us monsters together."
 msgstr ""
 "<32>{#p/asriel2}* Магия.\n"
-"* Сила, связывающая нас, монстров, одно целое."
+"* Сила, связывающая нас, монстров, вместе."
 
 msgid "<32>{#p/asriel2}* Or, in this case..."
 msgstr "<32>{#p/asriel2}* Или, в данном случае..."
@@ -448,10 +470,10 @@ msgid "<33>{#p/asriel2}* The force that rips them apart."
 msgstr "<33>{#p/asriel2}* Сила, которая разрывает их на части."
 
 msgid "<32>{#p/asriel2}* Fight... the ideal choice."
-msgstr "<32>{#p/asriel2}* Битва... идеальный выбор."
+msgstr "<32>{#p/asriel2}* Атака... идеальный выбор."
 
 msgid "<32>{#p/asriel2}* Hee hee hee..."
-msgstr "<32>{#p/asriel2}* Хи-хи-хи..."
+msgstr "<32>{#p/asriel2}* Хе-хе-хе..."
 
 msgid ""
 "<15>{#p/papyrus}{#e/papyrus/27}SANS!\n"
@@ -5879,8 +5901,6 @@ msgstr "ПРИВЕТ!"
 msgid "SAVE YOURSELVES..."
 msgstr "СОХРАНИТЕ СЕБЯ..."
 
-msgid ""
-msgstr ""
 
 msgid "FAILED TO CONNECT..."
 msgstr "НЕ УДАЛОСЬ ПОДКЛЮЧИТЬСЯ..."
