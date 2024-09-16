@@ -1,6 +1,22 @@
-#
+#, fuzzy
 msgid ""
 msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-09-18 14:30+0000\n"
+"PO-Revision-Date: 2024-09-18 14:30+0000\n"
+"Last-Translator: NobleEpuz <zhenyakuznecovm@gmail.com>\n"
+"Language-Team: Russian <https://ws3917.site/projects/project-spacetime/"
+"1-outlands/ru/>\n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: ENCODING\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 5.6.2\n"
+
+#
 
 msgid ""
 "<25>{#p/toriel}{#f/1}* I hear there is a certain kind of fluid in "
@@ -229,8 +245,9 @@ msgstr ""
 "<25>{#f/1}* Они говорят, что их двоюродный брат пытался обратиться к вам за "
 "помощью, но..."
 
+#, fuzzy
 msgid "<25>{#f/5}* You were unavailable at the time."
-msgstr ""
+msgstr "<25>{#f/5}* Вы были недоступны в это время."
 
 msgid "<25>{#f/1}* ... you did have a good reason, did you not?"
 msgstr "<25>{#f/1}* ... у вас ведь была веская причина, не так ли?"
@@ -253,7 +270,7 @@ msgstr ""
 "<26>{#f/1}* Хотя, на мой вкус, некоторые тексты были немного... жестокими."
 
 msgid "<25>{#f/5}* ..."
-msgstr ""
+msgstr "<25>{#f/5}* ..."
 
 msgid ""
 "<25>{#f/0}* Do not worry, my child.\n"
@@ -359,7 +376,7 @@ msgid "<25>{#p/toriel}{#f/5}* You have probably been to the Citadel by now."
 msgstr "<25>{#p/toriel}{#f/5}* Вы, наверное, уже побывали в Цитадели."
 
 msgid "<25>{#p/toriel}{#f/9}* ..."
-msgstr ""
+msgstr "<25>{#p/toriel}{#f/9}* ..."
 
 msgid "<25>{#p/toriel}{#f/10}* Be good, won't you?"
 msgstr "<25>{#p/toriel}{#f/10}* Веди себя хорошо, ладно?"
@@ -433,8 +450,9 @@ msgstr ""
 msgid "<32>* If you've seen everyone else you wanted to see..."
 msgstr "<32>* Если вы уже видели всех, кого хотели увидеть..."
 
+#, fuzzy
 msgid "<32>* ..."
-msgstr ""
+msgstr "<32>* ..."
 
 msgid "<32>* You know what to do."
 msgstr "<32>* Ты знаешь, что делать."
@@ -459,7 +477,7 @@ msgid "<32>{#p/basic}* Your best friend, remember?"
 msgstr "<32>{#p/basic}* Твой лучший друг, помнишь?"
 
 msgid "<25>{#p/asriel1}{#f/25}* ...!"
-msgstr ""
+msgstr "<25>{#p/asriel1}{#f/25}* ...!"
 
 msgid "<25>{#f/25}* $(name)...?"
 msgstr ""
