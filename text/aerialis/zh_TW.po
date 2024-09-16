@@ -21191,58 +21191,58 @@ msgid "<32>{#p/basic}{#k/6}* Any time, little buddy."
 msgstr "<32>{#p/basic}{#k/6}* 隨時再來啊，小傢伙。"
 
 msgid "0G - Starfaint"
-msgstr ""
+msgstr "0G - 新星咖啡"
 
 msgid "0G - Hold Yer Grane"
-msgstr ""
+msgstr "0G - 星園爍寵"
 
 msgid "0G - Slamburger"
-msgstr ""
+msgstr "0G - 猛男漢堡"
 
 msgid "§fill=#808080§--- UNAVAILABLE ---"
 msgstr "§fill=#808080§---- 售罄 ----"
 
 msgid "0G - Glyde's Envy"
-msgstr ""
+msgstr "0G - Glyde的愛"
 
 msgid "Exit"
 msgstr "離開"
 
 msgid "5G - Starfaint"
-msgstr ""
+msgstr "5G - 新星咖啡"
 
 msgid "10G - Hold Yer Grane"
-msgstr ""
+msgstr "10G - 星園爍寵"
 
 msgid "5G - Slamburger"
-msgstr ""
+msgstr "5G - 猛男漢堡"
 
 msgid "49G - Glyde's Envy"
-msgstr ""
+msgstr "49G - Glyde的愛"
 
 msgid "32G - Startaint"
-msgstr ""
+msgstr "32G - 新星嗎啡"
 
 msgid "60G - Hold Yer Pain"
-msgstr ""
+msgstr "60G - 猩猿碩蟲"
 
 msgid "48G - Slamdunker"
-msgstr ""
+msgstr "48G - 猛爛漢堡"
 
 msgid "138G - Undyne's Envy"
-msgstr ""
+msgstr "138G - Undyne的哀"
 
 msgid "16G - Starfaint"
-msgstr ""
+msgstr "16G - 新星咖啡"
 
 msgid "30G - Hold Yer Grane"
-msgstr ""
+msgstr "30G - 星園爍寵"
 
 msgid "24G - Slamburger"
-msgstr ""
+msgstr "24G - 猛男漢堡"
 
 msgid "69G - Glyde's Envy"
-msgstr ""
+msgstr "69G - Glyde的愛"
 
 msgid ""
 "Heals -23HP\n"

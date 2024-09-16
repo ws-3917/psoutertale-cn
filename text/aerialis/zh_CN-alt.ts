@@ -10837,33 +10837,33 @@ export default {
       item: () =>
          world.runaway
             ? [
-               '0G - Starfaint',
-               '0G - Hold Yer Grane',
-               '0G - Slamburger',
-               SAVE.data.b.item_face_steak ? '§fill=#808080§---- 售罄 ----' : "0G - Glyde's Envy",
+               '0G - 新星咖啡',
+               '0G - 星园烁宠',
+               '0G - 猛男汉堡',
+               SAVE.data.b.item_face_steak ? '§fill=#808080§---- 售罄 ----' : "0G - 老滑头的爱",
                '离开'
             ]
             : SAVE.data.n.plot === 72
                ? [
-                  '5G - Starfaint',
-                  '10G - Hold Yer Grane',
-                  '5G - Slamburger',
-                  SAVE.data.b.item_face_steak ? '§fill=#808080§---- 售罄 ----' : "49G - Glyde's Envy",
+                  '5G - 新星咖啡',
+                  '10G - 星园烁宠',
+                  '5G - 猛男汉堡',
+                  SAVE.data.b.item_face_steak ? '§fill=#808080§---- 售罄 ----' : "49G - 老滑头的爱",
                   '离开'
                ]
                : world.genocide || world.killed0 || burger()
                   ? [
-                     '32G - Startaint',
-                     '60G - Hold Yer Pain',
-                     '48G - Slamdunker',
-                     SAVE.data.b.item_face_steak ? '§fill=#808080§---- 售罄 ----' : "138G - Undyne's Envy",
+                     '32G - 新星吗啡',
+                     '60G - 猩猿硕虫',
+                     '48G - 猛烂汉堡',
+                     SAVE.data.b.item_face_steak ? '§fill=#808080§---- 售罄 ----' : "138G - 安黛因的哀",
                      '离开'
                   ]
                   : [
-                     '16G - Starfaint',
-                     '30G - Hold Yer Grane',
-                     '24G - Slamburger',
-                     SAVE.data.b.item_face_steak ? '§fill=#808080§---- 售罄 ----' : "69G - Glyde's Envy",
+                     '16G - 新星咖啡',
+                     '30G - 星园烁宠',
+                     '24G - 猛男汉堡',
+                     SAVE.data.b.item_face_steak ? '§fill=#808080§---- 售罄 ----' : "69G - 老滑头的爱",
                      '离开'
                   ],
       itemInfo: () =>
