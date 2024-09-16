@@ -1,6 +1,22 @@
-#
+#, fuzzy
 msgid ""
 msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-09-18 14:30+0000\n"
+"PO-Revision-Date: 2024-09-18 14:30+0000\n"
+"Last-Translator: Maxim Aksenov <me6696154@gmail.com>\n"
+"Language-Team: Russian <https://ws3917.site/projects/project-spacetime/"
+"3-foundry/ru/>\n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: ENCODING\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 5.6.2\n"
+
+#
 
 msgid "<32>{#p/basic}* ..."
 msgstr ""
@@ -3956,8 +3972,9 @@ msgstr ""
 "* Вместо этого я спрашиваю Рэдди.\n"
 "* Спасибо за ничего."
 
+#, fuzzy
 msgid "<32>{#p/alphys}* Y-you're welcome??"
-msgstr "<32>{#p/alphys}* Не за что?"
+msgstr "<32>{#p/alphys}* Т-ты пришёл??"
 
 msgid "<32>{#p/basic}* Hey... everything's gonna be okay, kiddo."
 msgstr "<32>{#p/basic}* Эй... всё будет хорошо, малыш."
@@ -4781,8 +4798,9 @@ msgstr ""
 "<32>{#p/alphys}* (Какая-то система связи... должно быть, бездействовала "
 "сотни лет!)"
 
+#, fuzzy
 msgid "<32>{#p/basic}* Gosh, where could I be..."
-msgstr "<32>{#p/basic}* Боже мой, где я."
+msgstr "<32>{#p/basic}* Боже, где же я мог быть..."
 
 msgid ""
 "<32>* We were out hunting for trash, but then this bright white light came "
@@ -5005,18 +5023,22 @@ msgstr ""
 "не прийти сюда!?"
 
 msgid "<32>{#p/undyne}* Dogamy!!"
-msgstr "<32>{#p/undyne}* Сентиментальность!!"
+msgstr "<32>{#p/undyne}* Догамий!!"
 
+#, fuzzy
 msgid "<25>{#p/kidd}{#f/1}* Man, isn't the Royal Guard brave or what?"
-msgstr "<25>{#p/kidd}{#f/1}* Боже мой, Королевская гвардия не очень храбрая?"
+msgstr "<25>{#p/kidd}{#f/1}* Парень, ну разве Королевская Гвардия не храбрая?"
 
 msgid "<25>{#f/3}* I'm glad we have them to protect us...!"
 msgstr "<25>{#f/3}* Я рад, что они нас защищают...!"
 
+#, fuzzy
 msgid ""
 "<32>{#p/radio}{#v/1}* Yeah, yeah...\n"
 "* If we're gonna be all lovey-dovey with E.T. here..."
-msgstr "* Если мы хотим быть с Э.Т...."
+msgstr ""
+"<32>{#p/radio}{#v/1}* Да, да...\n"
+"* Если мы собираемся делать всё это влюбленный-голубь с этим Э. Т. здесь..."
 
 msgid ""
 "<32>{#v/1}* We're gonna have to do better than just walking up and saying "
@@ -5149,8 +5171,8 @@ msgstr "<32>* Таким образом, наши ДУШИ были поглощ
 msgid ""
 "<32>* This could be a kind of \"separate plane\" where we're held before..."
 msgstr ""
-"<32>* Это может быть своего рода \"отдельный самолет\", где мы ранее "
-"содержались..."
+"<32>* Это может быть своего рода \"отдельная планета\", где мы находимся "
+"до..."
 
 msgid ""
 "<32>* ... wait.\n"
@@ -5176,9 +5198,9 @@ msgstr ""
 "<32>{#p/basic}* Люди уже в пути.\n"
 "* Я перехвачу их, как только они пройдут."
 
+#, fuzzy
 msgid "<32>{#p/undyne}* I trust you know what you're getting into, Doge."
-msgstr ""
-"<32>{#p/undyne}* Я уверен, что вы знаете, с чем вы столкнетесь, собака."
+msgstr "<32>{#p/undyne}* Я верю, что вы знаете, во что ввязываетесь, Доги."
 
 msgid ""
 "<32>{#p/basic}* They are responsible for the deaths in Starton.\n"
@@ -5207,10 +5229,14 @@ msgid ""
 msgstr ""
 "<32>{#p/undyne}* Да!! Выходи и покажите им всем, что такое ЭЛИТНЫЙ отряд!!"
 
+#, fuzzy
 msgid ""
 "<32>{#p/radio}{#v/0}* Welcome, dear caller, to The Midnight Rush!\n"
 "* Got anything for us?"
-msgstr "* Есть что - нибудь для нас?"
+msgstr ""
+"<32>{#p/radio}{#v/0}* Добро пожаловать, дорогой слушатель, на Полночный Пик!"
+"\n"
+"* Есть что-нибудь для нас?"
 
 msgid ""
 "<32>{#p/human}* Yeah, I've got a few words.\n"
@@ -5264,10 +5290,13 @@ msgstr ""
 msgid "<25>{#p/asriel1}{#f/21}* ..."
 msgstr "<25>{#p/asriel1}{#f/21}* ..."
 
+#, fuzzy
 msgid ""
 "<32>{#p/basic}* Skrubby of foundry crew.\n"
 "* Concerned over circumstances regarding human."
-msgstr ":: Уделение внимания ситуациям, связанным с людьми."
+msgstr ""
+"<32>{#p/basic}* Скрабби из Литейной бригады.\n"
+"* Обеспокоен обстоятельствами, связанными с человеком."
 
 msgid ""
 "<32>{#p/alphys}* H-hey, uh...\n"
@@ -5312,93 +5341,124 @@ msgstr ""
 msgid "<32>{#p/radio}{#v/1}* Yeah... well..."
 msgstr "<32>{#p/radio}{#v/1}* Да... хорошо..."
 
+#, fuzzy
 msgid ""
 "<32>{#p/basic}* My name is Thomas Roman.\n"
 "* Royal scientist, and trusted associate of the crown."
-msgstr "* Королевский ученый, доверенный помощник короны."
+msgstr ""
+"<32>{#p/basic}* Меня зовут Томас Роман.\n"
+"* Королевский ученый и доверенный помощник престола."
 
 msgid ""
 "<32>{#p/alphys}* Professor Roman?\n"
 "* But you're..."
-msgstr "* Но ты."
+msgstr ""
+"<32>{#p/alphys}* Профессор Роман?\n"
+"* Но ты..."
 
 msgid ""
 "<32>{#p/alphys}* He's repeating...\n"
 "* It must just be the professor in everyone's memory."
-msgstr "* Должно быть, это профессор, которого все помнят."
+msgstr ""
+"<32>{#p/alphys}* Он повторяет...\n"
+"* Это, должно быть, просто профессор в памяти каждого."
 
 msgid "<25>{#p/asriel1}{#f/3}* ..."
-msgstr ""
+msgstr "<25>{#p/asriel1}{#f/3}* ..."
 
+#, fuzzy
 msgid ""
 "<23>{#p/papyrusnt}THIS IS PAPYRUS.\n"
 "FEEL FREE TO LEAVE A MESSAGE AT THE TONE!"
-msgstr "Пожалуйста, оставьте сообщение в любое время!"
+msgstr ""
+"<23>{#p/papyrusnt}ЭТО ПАПИРУС.\n"
+"НЕ СТЕСНЯЙСЯ ОСТАВЛЯТЬ СООБЩЕНИЯ ПО ТЕЛЕФОНУ!"
 
+#, fuzzy
 msgid "<33>{#p/undyne}* Damn it..."
-msgstr "<33>{#p/undyne}* Проклятье."
+msgstr "<33>{#p/undyne}* Проклятье..."
 
 msgid "<33>{#p/undyne}* I should never have let this happen to you, Papyrus."
 msgstr ""
-"<33>{#p/undyne}* Я не должен позволять этому случиться с тобой, Papyrus."
+"<33>{#p/undyne}* Я не должна была допустить, чтобы это случилось с тобой, "
+"Папирус."
 
+#, fuzzy
 msgid "<33>{#p/undyne}* You and your brother deserved better than this."
-msgstr ""
-"<33>{#p/undyne}* Вы и Ваш брат заслуживаете лучшего обращения, чем это."
+msgstr "<33>{#p/undyne}* Ты и твой брат заслуживали лучшего чем это."
 
+#, fuzzy
 msgid "<32>{#p/undyne}* ... and even Doge has failed to capture the human."
-msgstr "<32>{#p/undyne}* ... Даже Додж не смог поймать этого человека."
+msgstr "<32>{#p/undyne}* ... и даже Доги не смогли поймать человека."
 
 msgid ""
 "<32>{#p/sans}{#f/7}* i'll be honest, this doesn't sound good.\n"
 "* evacuate the foundry?"
-msgstr "* Эвакуировать литейный завод?"
+msgstr ""
+"<32>{#p/sans}{#f/7}* Скажу честно, звучит не очень.\n"
+"* Эвакуировать Литейную?"
 
 msgid ""
 "<33>{#p/undyne}* At this point, everyone knows about what's going on.\n"
 "* They'll evacuate."
-msgstr "* Они будут эвакуированы."
+msgstr ""
+"<33>{#p/undyne}* На данный момент все знают о том, что происходит.\n"
+"* Они эвакуируются."
 
 msgid ""
 "<32>{#p/sans}{#f/7}* i feel like it's better to be safe than sorry.\n"
 "* but what do i know."
-msgstr "* Но я что - то знаю."
+msgstr ""
+"<32>{#p/sans}{#f/7}* Мне кажется, что лучше перестраховаться, чем потом "
+"жалеть.\n"
+"* но что я знаю."
 
+#, fuzzy
 msgid ""
 "<32>{#p/radio}{#v/0}* Hey, cheer up.\n"
 "* Don't let that guy bring you down, alright?"
-msgstr "* Не позволяй этому парню сбить тебя с ног, хорошо?"
+msgstr ""
+"<32>{#p/radio}{#v/0}* Эй, не унывай.\n"
+"* Не позволяй этому парню опустить тебя, хорошо?"
 
 msgid ""
 "<32>{#v/1}* But he's got a point...\n"
 "* For many, this situation might be overwhelming."
-msgstr "* Для многих эта ситуация может быть подавляющей."
+msgstr ""
+"<32>{#v/1}* Но он прав...\n"
+"* Для многих эта ситуация может оказаться ошеломляющей."
 
+#, fuzzy
 msgid ""
 "<32>* And not everybody's intentions are as pure as you and your... pet "
 "obsession."
-msgstr "<32>* Не все имеют такие намерения, как ты и ты. Животные одержимы."
+msgstr ""
+"<32>* И не у всех намерения так чисты, как у тебя и твоей... домашней "
+"одержимости."
 
 msgid "<32>{#v/0}* Now wait just a minute!"
-msgstr "<32>{#v/0}* Теперь подождите!"
+msgstr "<32>{#v/0}* Сейчас, подожди минутку!"
 
 msgid ""
 "<32>{#p/alphys}* Yeah, just think of who you'd like to see, and you'll be "
 "with them."
 msgstr ""
-"<32>{#p/alphys}* Да, подумайте о том, кого вы хотите видеть, и вы будете с "
+"<32>{#p/alphys}* Да, просто подумай, кого бы ты хотел увидеть, и ты будешь с "
 "ними."
 
 msgid "<32>{#p/asgore}* Asriel... are you there?"
-msgstr "<32>{#p/asgore}* Аслиль. Ты здесь?"
+msgstr "<32>{#p/asgore}* Азриэль... ты здесь?"
 
+#, fuzzy
 msgid ""
 "<32>{#p/alphys}* Huh, it's not working...\n"
 "* Maybe there's not enough of him left in us?"
-msgstr "* Может быть, его в нашем теле недостаточно?"
+msgstr ""
+"<32>{#p/alphys}* Ха, не работает...\n"
+"* Может быть, в нас осталось мало его самого?"
 
 msgid "<32>{#p/asgore}* Please... come back..."
-msgstr "<32>{#p/asgore}* Пожалуйста. Вернись..."
+msgstr "<32>{#p/asgore}* Пожалуйста... вернись..."
 
 msgid "<25>{#p/asriel1}{#f/25}* ..."
 msgstr "<25>{#p/asriel1}{#f/25}* ..."
@@ -5406,154 +5466,199 @@ msgstr "<25>{#p/asriel1}{#f/25}* ..."
 msgid "<32>{#p/undyne}* Mind if I ask you a favor?"
 msgstr "<32>{#p/undyne}* Не возражаешь, если я попрошу тебя об услуге?"
 
+#, fuzzy
 msgid ""
 "<32>{#p/basic}* Ahuhuhu~\n"
 "* Anything for the one who now occupies the old nest~"
-msgstr "Сделайте все для тех, кто сейчас занимает старое гнездо"
+msgstr ""
+"<32>{#p/basic}* Ахухуху~\n"
+"* Что-нибудь для того, кто теперь занимает старое гнездо~"
 
 msgid ""
 "<33>{#p/undyne}* Track down the human and their accomplice. Take them to me.\n"
 "* Biggest payout you've ever had."
-msgstr "* Самые большие расходы за всю историю."
+msgstr ""
+"<33>{#p/undyne}* Выследите человека и его сообщника. Отведите их ко мне.\n"
+"* Самое большое вознаграждение в твоей жизни."
 
+#, fuzzy
 msgid ""
 "<33>{#p/undyne}* Track down the human and take them to me.\n"
 "* Biggest payout you've ever had."
-msgstr "* Самые большие расходы за всю историю."
+msgstr ""
+"<33>{#p/undyne}* Выследите человека и отведите его ко мне.\n"
+"* Самое большое вознаграждение в твоей жизни."
 
 msgid ""
 "<32>{#p/basic}* Hmmm...\n"
 "* I'll see what I can do~"
-msgstr "* Я посмотрю, что можно сделать*"
+msgstr ""
+"<32>{#p/basic}* Хммм...\n"
+"* Посмотрим, что я смогу сделать~"
 
 msgid "<25>{#p/kidd}{#f/4}* Not THAT spider..."
-msgstr "<25>{#p/kidd}{#f/4}* Это не тот паук."
+msgstr "<25>{#p/kidd}{#f/4}* Не ЭТОТ паук..."
 
+#, fuzzy
 msgid ""
 "<32>{#p/radio}{#v/1}* Now, now.\n"
 "* There's no shame in admitting what you like."
-msgstr "Не стыдно признавать, что нравится."
+msgstr ""
+"<32>{#p/radio}{#v/1}* Сейчас, сейчас.\n"
+"* Нет ничего плохого в том, чтобы признаться в том, что тебе нравится."
 
 msgid "<32>{#v/0}* It's not like that at all!"
 msgstr "<32>{#v/0}* Это совсем не так!"
 
+#, fuzzy
 msgid ""
 "<32>{#v/1}* Speaking of love, queue the jazz tune that's been blowing up in "
 "clubs everywhere..."
 msgstr ""
-"<32>{#v/1}* Говоря о любви, пожалуйста, поставьте в очередь популярный джаз "
-"в разных клубах."
+"<32>{#v/1}* Говоря о любви, на очереди джазовая мелодия, которая звучит в "
+"клубах повсюду..."
 
+#, fuzzy
 msgid "<32>{#v/1}* \"Married to an Alien!\""
-msgstr "<32>{#v/1}* \"Вышла замуж за инопланетянина!\""
+msgstr "<32>{#v/1}* \"Замуж за пришельца!\""
 
+#, fuzzy
 msgid ""
 "<25>{#p/kidd}{#f/2}* Pfft, only a human could come up with a title like "
 "THAT."
-msgstr ""
-"<25>{#p/kidd}{#f/2}* Pfft, только человек может придумать такой заголовок."
+msgstr "<25>{#p/kidd}{#f/2}* Пфф, только человек мог придумать ТАКОЕ название."
 
+#, fuzzy
 msgid "<32>{#p/undyne}* I can't keep holding on..."
-msgstr "<32>{#p/undyne}* Я не могу продолжать настаивать."
+msgstr "<32>{#p/undyne}* Я не могу больше терпеть..."
 
+#, fuzzy
 msgid "<32>{#p/undyne}* The others... have already slipped away..."
-msgstr "<32>{#p/undyne}* Другие. Уже ускользнул."
+msgstr "<32>{#p/undyne}* Остальные... уже ушли..."
 
 msgid "<32>{#p/undyne}* It's like they don't know who they are anymore..."
-msgstr "<32>{#p/undyne}* Они, кажется, не знают, кто они."
+msgstr "<32>{#p/undyne}* Это как будто они больше не знают, кто они такие..."
 
+#, fuzzy
 msgid ""
 "<32>{#p/undyne}* No... no!\n"
 "* Not like this...\n"
 "* I can't forget who I am!"
-msgstr "* Я не могу забыть, кто я!"
+msgstr ""
+"<32>{#p/undyne}* Нет... нет!\n"
+"* Не так...\n"
+"* Я не могу забыть, кто я!"
 
 msgid "<32>{#p/mettaton}* OH, DOCTOR..."
-msgstr "<32>{#p/metaton}* О, доктор..."
+msgstr "<32>{#p/mettaton}* О, ДОКТОР..."
 
 msgid "<32>{#p/mettaton}* I SHOULD HAVE KNOWN YOU'D RUN OFF LIKE THIS..."
-msgstr "<32>{#p/metaton}* Я должен был знать, что ты сбежишь так."
+msgstr "<32>{#p/mettaton}* Я ДОЛЖЕН БЫЛ ДОГАДАТЬСЯ, ЧТО ТЫ ТАК СБЕЖИШЬ..."
 
+#, fuzzy
 msgid ""
 "<32>{#p/mettaton}* ...\n"
 "* DAMN IT..."
-msgstr "* Проклятье."
+msgstr ""
+"<32>{#p/mettaton}* ...\n"
+"* ПРОКЛЯТЬЕ..."
 
 msgid "<32>{#p/mettaton}* DON'T YOU UNDERSTAND?"
-msgstr "<32>{#p/metaton}* Вы не понимаете?"
+msgstr "<32>{#p/mettaton}* РАЗВЕ ТЫ НЕ ПОНИМАЕШЬ?"
 
 msgid "<32>{#p/mettaton}* I CAN'T PERFECT THOSE DEFENSES WITHOUT YOU..."
-msgstr "<32>{#p/metaton}* Я не могу совершенствовать эти защиты без тебя."
+msgstr "<32>{#p/mettaton}* Я НЕ МОГУ СОВЕРШЕНСТВОВАТЬ ЭТУ ЗАЩИТУ БЕЗ ТЕБЯ..."
 
 msgid ""
 "<32>{#p/mettaton}* WELL, THEY'LL BE HERE SOON.\n"
 "* I DON'T KNOW WHAT I'D DO IF I WERE YOU, BUT..."
-msgstr "* Если бы я был на вашем месте, я бы не знал, что бы я сделал, но..."
+msgstr ""
+"<32>{#p/mettaton}* НУ, ОНИ СКОРО БУДУТ ЗДЕСЬ.\n"
+"* Я НЕ ЗНАЮ, ЧТО БЫ Я СДЕЛАЛ НА ТВОЁМ МЕСТЕ, НО..."
 
+#, fuzzy
 msgid "<32>{#p/mettaton}* WHETHER YOU STAND YOUR GROUND HERE, OR RETREAT..."
-msgstr "<32>{#p/metaton}* Не важно, стоишь ты здесь или отдыхаешь."
+msgstr "<32>{#p/mettaton}* БУДЕШЬ ЛИ ТЫ СТОЯТЬ НА СВОЁМ ИЛИ ОТСТУПИШЬ..."
 
+#, fuzzy
 msgid "<33>{#p/mettaton}* I'LL DO MY BEST TO SUPPORT YOU."
-msgstr "<33>{#p/metaton}* Я сделаю все возможное, чтобы поддержать вас."
+msgstr "<33>{#p/mettaton}* Я СДЕЛАЮ ВСЕ ВОЗМОЖНОЕ, ЧТОБЫ ПОМОЧЬ ТЕБЕ."
 
 msgid "<32>{#p/alphys}* ... ehehe..."
-msgstr "<32>{#p/alphys}* ... Ха - ха."
+msgstr "<32>{#p/alphys}* ... ехехе..."
 
+#, fuzzy
 msgid "<33>* The same goes to you, Mettaton."
-msgstr "<33>* Меттон, ты тоже."
+msgstr "<33>* То же самое касается и тебя, Меттатон."
 
 msgid ""
 "<32>{#p/alphys}* Wait, wait!\n"
 "* This would be perfect for my date with Undyne..."
-msgstr "* Это идеально подходит для моей встречи с Ундин."
+msgstr ""
+"<32>{#p/alphys}* Подожди, подожди!\n"
+"* Это было бы идеально для моего свидания с Андайн..."
 
+#, fuzzy
 msgid "<32>{#p/mettaton}* OH WOULD IT NOW?"
-msgstr "<32>{#p/metaton}* О, теперь будет?"
+msgstr "<32>{#p/mettaton}* О, НЕУЖЕЛИ СЕЙЧАС?"
 
 msgid ""
 "<32>{#p/alphys}* Mettaton!?\n"
 "* Where did you...\n"
 "* ... I'm not d-dating anyone!"
-msgstr "* ..... Я ни с кем не встречаюсь!"
+msgstr ""
+"<32>{#p/alphys}* Меттатон!?\n"
+"* Где ты...\n"
+"* ... Я ни с кем не встречаюсь!"
 
+#, fuzzy
 msgid ""
 "<32>{#p/mettaton}* OH, DON'T YOU WORRY.\n"
 "* YOUR SECRET'S SAFE WITH ME...\n"
 "* ... PROBABLY."
-msgstr "* ..... Возможно."
+msgstr ""
+"<32>{#p/mettaton}* О, НЕ ТЫ БОИШЬСЯ.\n"
+"* ТВОЙ СЕКРЕТ В БЕЗОПАСНОСТИ СО МНОЙ...\n"
+"* ... ВОЗМОЖНО."
 
 msgid "<25>{#p/kidd}{#f/1}* Alphys wants to marry UNDYNE!?"
-msgstr "<25>{#p/kidd}{#f/1}* Alphys хочет выйти замуж за UNDYNE!?"
+msgstr "<25>{#p/kidd}{#f/1}* Альфис хочет выйти замуж за АНДАЙН!?"
 
 msgid "<25>{#f/6}* You really DO learn something new every day..."
-msgstr "<25>{#f/6}* Вы действительно учитесь чему - то новому каждый день."
+msgstr "<25>{#f/6}* Ты правда каждый день учишься чему-то новому..."
 
 msgid "<32>{#p/basic}{#npc/a}* With a new world comes new kinds of stars."
-msgstr ""
-"<32>{#p/basic}{#npc/a}* С приходом нового мира появляются новые звезды."
+msgstr "<32>{#p/basic}{#npc/a}* С новым миром приходят новые виды звезд."
 
+#, fuzzy
 msgid "<32>* These signal stars may be the least of our worries..."
-msgstr "<32>* Эти сигнальные звезды, вероятно, меньше всего нас беспокоят."
+msgstr ""
+"<32>* Эти сигнальные звезды могут оказаться наименьшими из наших опасений..."
 
 msgid ""
 "<32>{#p/basic}{#npc/a}* This is a signal star.\n"
 "* When it picks up a signal, it repeats it over and over..."
-msgstr "* Когда он получает сигнал, он повторяет его снова и снова."
-
-msgid "<32>{#p/basic}{#npc/a}* Hopefully the stars out there are more honest."
 msgstr ""
-"<32>{#p/basic}{#npc/a}* Желаю, чтобы звезды снаружи были более честными."
+"<32>{#p/basic}{#npc/a}* Это сигнальная звезда.\n"
+"* Когда она принимает сигнал, она повторяет его снова и снова..."
+
+#, fuzzy
+msgid "<32>{#p/basic}{#npc/a}* Hopefully the stars out there are more honest."
+msgstr "<32>{#p/basic}{#npc/a}* Надеюсь, звезды там где-то более честные."
 
 msgid "<32>{#p/basic}{#npc/a}* Never trust a star."
-msgstr "<32>{#p/basic}{#npc/a}* Никогда не верьте звездам."
+msgstr "<32>{#p/basic}{#npc/a}* Никогда не доверяй звезде."
 
 msgid "<32>* Dishonesty is their one defining trait."
-msgstr "<32>* Нечестность является одной из их определяющих характеристик."
+msgstr "<32>* Нечестность - их одна отличительная черта."
 
+#, fuzzy
 msgid ""
 "<32>{#p/basic}* Raddy of the foundry crew.\n"
 "* We've no time to keep running the show here."
-msgstr "* У нас нет времени продолжать выступать здесь."
+msgstr ""
+"<32>{#p/basic}* Рэдди из литейной бригады.\n"
+"* У нас нет времени продолжать управлять представлением здесь."
 
 msgid ""
 "<32>* Don't worry about pipes, unless you're slidin' through em to escape!"
@@ -5561,14 +5666,18 @@ msgstr ""
 "<32>* Не беспокойтесь о трубопроводе, если вы не хотите просверлить внутрь и"
 " убежать!"
 
+#, fuzzy
 msgid ""
 "<32>* Got it, Skrubby?\n"
 "* Large lata?\n"
 "* My teeny tini?"
-msgstr "* Мой маленький Тини?"
+msgstr ""
+"<32>* Понял, Скрабби?\n"
+"* Большая лата?\n"
+"* Моя маленькая тини?"
 
 msgid "<32>* We've gotta go, right away."
-msgstr "<32>* Нам надо идти, сейчас же."
+msgstr "<32>* Мы должны идти, прямо сейчас."
 
 msgid ""
 "<32>{#p/basic}* Raddy of the foundry crew.\n"
@@ -5590,38 +5699,50 @@ msgstr "<32>* Пришло время праздновать полностью!
 msgid ""
 "<32>{#p/basic}* Skrubby of foundry crew.\n"
 "* Reporting on success of maintenance with Raddy."
-msgstr ":: Сообщает об успешном техническом обслуживании совместно с Raddy."
+msgstr ""
+"<32>{#p/basic}* Скрабби из Литейной бригады.\n"
+"* Докладывает об успешном ремонте вместе с Рэдди."
 
 msgid ""
 "<32>{#p/alphys}* That's... g-great...\n"
 "* Look, I-I can't deal with this right now, so just..."
-msgstr "* Послушайте, я сейчас не могу справиться с этой штукой, так..."
+msgstr ""
+"<32>{#p/alphys}* Это... з-здорово...\n"
+"* Слушай, я-я не могу справиться с этим прямо сейчас, так просто..."
 
 msgid "<32>{#p/alphys}* Uh... g-glad you could fix it!"
-msgstr "<32>{#p/alphys}* Мм... Рад, что ты его починил!"
+msgstr "<32>{#p/alphys}* Ээ... р-рада, что ты смог это починить!"
 
+#, fuzzy
 msgid "<32>{#p/basic}* No problem, thx for being one hundred percent useless."
-msgstr "<32>{#p/basic}* Нет проблем, спасибо, что стопроцентно бесполезны."
+msgstr ""
+"<32>{#p/basic}* Без проблем, спасибо за то, что вы на сто процентов "
+"бесполезны."
 
+#, fuzzy
 msgid "<32>{#p/alphys}* ... any time."
-msgstr "<32>{#p/alphys}* ... В любое время."
+msgstr "<32>{#p/alphys}* ... в любое время."
 
 msgid "<25>{#p/kidd}{#npc/a}{#f/3}* H... hey..."
-msgstr "<25>{#p/kidd}{#npc/a}{#f/3}* H..."
+msgstr "<25>{#p/kidd}{#npc/a}{#f/3}* Э... эй..."
 
+#, fuzzy
 msgid "<25>{#p/asriel2}{#f/15}{#npc}* Weirdo."
-msgstr ""
+msgstr "<25>{#p/asriel2}{#f/15}{#npc}* Извращенец."
 
+#, fuzzy
 msgid ""
 "<25>{#p/kidd}{#npc/a}{#f/1}* ... y-yeah, hi!\n"
 "* Uh, haha!"
-msgstr "* Ха - ха!"
+msgstr ""
+"<25>{#p/kidd}{#npc/a}{#f/1}* ... д-да, привет!\n"
+"* Ух, хаха!"
 
 msgid "<25>{#p/kidd}{#npc/a}{#f/1}* How was lunch?"
-msgstr "<25>{#p/kidd}{#npc/a}{#f/1}* Как насчет обеда?"
+msgstr "<25>{#p/kidd}{#npc/a}{#f/1}* Как прошёл обед?"
 
 msgid "<25>{#f/1}* Did that short skeleton make everyone laugh again?"
-msgstr "<25>{#f/1}* Этот карликовый скелет снова заставляет всех смеяться?"
+msgstr "<25>{#f/1}* Неужели этот коротышка-скелет снова всех рассмешил?"
 
 msgid "<25>{#p/kidd}{#npc/a}{#f/2}* Yo, are you here to see her too?"
 msgstr "<25>{#p/kidd}{#npc/a}{#f/2}* Yo, Вы тоже пришли к ней?"
@@ -5629,22 +5750,26 @@ msgstr "<25>{#p/kidd}{#npc/a}{#f/2}* Yo, Вы тоже пришли к ней?"
 msgid ""
 "<25>{#f/1}* Haha.\n"
 "* She's the coolest!!"
-msgstr "* Она самая крутая!"
+msgstr ""
+"<25>{#f/1}* Хаха.\n"
+"* Она классная!!"
 
 msgid "<25>{#f/2}* I wanna be just like her when I grow up..."
-msgstr "<25>{#f/2}* Когда я вырасту, я хочу быть таким же, как она."
+msgstr "<25>{#f/2}* Я хочу быть таким же, как она, когда я вырасту..."
 
 msgid "<25>{#p/kidd}{#npc/a}{#f/4}* ..."
-msgstr ""
+msgstr "<25>{#p/kidd}{#npc/a}{#f/4}* ..."
 
 msgid ""
 "<25>{#p/kidd}{#npc/a}{#f/3}* He always gets kicked out for pulling awful "
 "pranks."
-msgstr "<25>{#p/kidd}{#npc/a}{#f/3}* Его всегда выгоняют за розыгрыш."
+msgstr "<25>{#p/kidd}{#npc/a}{#f/3}* Его всегда выгоняют за ужасные розыгрыши."
 
+#, fuzzy
 msgid "<25>{#p/kidd}{#npc/a}{#f/1}* You go on ahead."
-msgstr "<25>{#p/kidd}{#npc/a}{#f/1}* Вы идете первым."
+msgstr "<25>{#p/kidd}{#npc/a}{#f/1}* Ты идёшь вперёд."
 
+#, fuzzy
 msgid "<25>{#f/1}* I'll catch up with you soon!"
 msgstr "<25>{#f/1}* Я скоро догоню тебя!"
 
@@ -5652,43 +5777,48 @@ msgid ""
 "<32>{#p/basic}{#npc/a}* My friend Shortsy and I plan to become the new "
 "world's premiere architects."
 msgstr ""
-"<32>{#p/basic}{#npc/a}* Я и мой друг Шортси планируем стать новым ведущим "
-"архитектором в мире."
+"<32>{#p/basic}{#npc/a}* Мой друг Шорти и я планируем стать главными "
+"архитекторами нового мира."
 
+#, fuzzy
 msgid ""
 "<32>* We'll build bridges, spires, space stations... if you can imagine it, "
 "we can build it!"
 msgstr ""
-"<32>* Мы построим мосты, шпиль, космическую станцию... Если вы можете себе "
-"представить, мы сможем его построить!"
+"<32>* Мы построим мосты, шпиль, космическую станцию... если ты можешь "
+"представить это, мы сможем его построить!"
 
 msgid "<32>* As always, I'll be in charge of carrying the tools."
-msgstr ""
-"<32>* Как всегда, я буду нести ответственность за ношение инструментов."
+msgstr "<32>* Как всегда, я буду отвечать за переноску инструментов."
 
 msgid ""
 "<32>{#p/basic}{#npc/a}* My friend Shortsy and I plan to build a bridge."
-msgstr ""
-"<32>{#p/basic}{#npc/a}* Мы с моим другом Шортси планируем построить мост."
+msgstr "<32>{#p/basic}{#npc/a}* Мой друг Шорти и я планируем построить мост."
 
 msgid ""
 "<32>* He's got his reasons, but personally, I'm just tired of using that "
 "unstable raft."
 msgstr ""
-"У него были свои причины, но лично мне просто надоело использовать этот "
+"<32>* У него есть свои причины, но лично, я просто устал использовать этот "
 "неустойчивый плот."
 
 msgid "<32>* Let's hope we can do something a little better than that."
-msgstr "<32>Я надеюсь, что мы сможем сделать немного лучше."
+msgstr ""
+"<32>* Будем надеяться, что мы сможем сделать что-то немного лучше, чем это."
 
+#, fuzzy
 msgid ""
 "<32>{#p/basic}{#npc/a}* How'd you like our bridge?\n"
 "* Was it stable?\n"
 "* Was it gravitationally secure?"
-msgstr "Безопасно ли это с точки зрения гравитации?"
+msgstr ""
+"<32>{#p/basic}{#npc/a}* Как вам понравился наш мост?\n"
+"* Устойчив ли он?\n"
+"* Был ли он гравитационно безопасен?"
 
 msgid "<32>* Well, Shortsy said it's fine, and they're kinda the expert here."
-msgstr "<32>* Хорошо, Шортси говорит, что это хорошо, они здесь эксперты."
+msgstr ""
+"<32>* Ну, Шортси сказал, что всё в порядке, и они тут вроде бы эксперты."
 
 msgid "<32>* I'm mostly just here to carry around the tools!"
 msgstr "<32>Я здесь в основном за инструментами!"
@@ -5696,12 +5826,16 @@ msgstr "<32>Я здесь в основном за инструментами!"
 msgid ""
 "<32>{#p/basic}{#npc/a}* Shortsy told me about a new kind of tool recently..."
 msgstr ""
-"<32>{#p/basic}{#npc/a}* Shortsy недавно рассказал мне о новом инструменте."
+"<32>{#p/basic}{#npc/a}* Шортси недавно рассказал мне о новом виде "
+"инструмента..."
 
+#, fuzzy
 msgid ""
 "<32>{#p/basic}{#npc/a}* Instability and I don't get along very well.\n"
 "* That's just how I am."
-msgstr "* Я такой."
+msgstr ""
+"<32>{#p/basic}{#npc/a}* Нестабильность и я не очень хорошо ладим.\n"
+"* Это просто мой характер."
 
 msgid ""
 "<32>{#p/basic}{#npc/a}* Don't get it twisted.\n"
@@ -5709,65 +5843,77 @@ msgid ""
 "* That's just what I do."
 msgstr "* Вот что я делаю."
 
+#, fuzzy
 msgid ""
 "<32>{#p/basic}{#npc/a}* My buddy Longsy and I want to become full-time "
 "architects."
 msgstr ""
-"<32>{#p/basic}{#npc/a}* Я и мой друг Лэнси хотим стать архитекторами на "
-"полный рабочий день."
+"<32>{#p/basic}{#npc/a}* Мой приятель Лонгси и я хотим стать архитекторами на "
+"полное-время."
 
 msgid "<32>* I've invented a brand new tool for Longsy to use..."
-msgstr "<32>* Я изобрел совершенно новый инструмент для использования Ланси."
+msgstr "<32>* Я изобрел совершенно новый инструмент для Лонгси..."
 
 msgid "<32>* ... called the builder's wand."
-msgstr "<32>* ..... Его называют палочкой строителя."
+msgstr "<32>* ... называется палочкой строителя."
 
 msgid ""
 "<32>{#p/basic}{#npc/a}* My buddy Longsy and I want to build a new bridge to "
 "impress the king."
 msgstr ""
-"<32>{#p/basic}{#npc/a}* Я и мой друг Ланси хотели построить новый мост, "
-"чтобы произвести впечатление на короля."
+"<32>{#p/basic}{#npc/a}* Мой приятель Лонгси и я хотим построить новый мост, "
+"чтобы впечатлить короля."
 
 msgid "<32>* It'll be the straightest, most sturdy bridge you've ever seen."
 msgstr ""
-"<32>* Это будет самый прямой и прочный мост, который вы когда - либо видели."
+"<32>* Это будет самый прямой, самый прочный мост, который ты когда-либо "
+"видел."
 
+#, fuzzy
 msgid "<32>* I'll make sure of it!"
-msgstr "<32>Я это гарантирую!"
+msgstr "<32>* Я сделаю это обязательно!"
 
 msgid "<32>{#p/basic}{#npc/a}* Take a look at our newest bridge."
-msgstr "<32>{#p/basic}{#npc/a}* Посмотрите на наш последний мост."
+msgstr "<32>{#p/basic}{#npc/a}* Посмотри на наш новейший мост."
 
 msgid "<32>* Longsy and I figure this will be enough to impress the king..."
 msgstr ""
-"Мы с Лэнси считаем, что этого достаточно, чтобы произвести впечатление на "
-"короля."
+"<32>* Лонгси и я думаем, что этого будет достаточно, чтобы впечатлить "
+"короля..."
 
 msgid "<32>* It needs to be if we're going to work alongside him!"
-msgstr "<32>* Если мы хотим работать с ним, это должно быть!"
+msgstr "<32>* Это нужно, если мы собираемся работать вместе с ним!"
 
+#, fuzzy
 msgid ""
 "<32>{#p/basic}{#npc/a}* With enough power, it could create anything you can "
 "imagine..."
 msgstr ""
-"<32>{#p/basic}{#npc/a}* При наличии достаточной силы он может создать все, "
-"что вы можете себе представить."
+"<32>{#p/basic}{#npc/a}* Обладая достаточной силой, он может создать всё, что "
+"только можно себе представить..."
 
+#, fuzzy
 msgid ""
 "<32>{#p/basic}{#npc/a}* I'm set on doing nothing less than the best.\n"
 "* That's just how I am."
-msgstr "* Я такой."
+msgstr ""
+"<32>{#p/basic}{#npc/a}* Я настроен на то, чтобы делать только самое лучшее.\n"
+"* Это просто мой характер."
 
 msgid ""
 "<32>{#p/basic}{#npc/a}* No need to thank us, it's only a community service.\n"
 "* That's just what I do."
-msgstr "* Вот что я делаю."
+msgstr ""
+"<32>{#p/basic}{#npc/a}* Не стоит нас благодарить, это только общественная "
+"работа.\n"
+"* Это просто то, что я делаю."
 
 msgid ""
 "<32>{#p/basic}{#npc/a}* (Snail snail...)\n"
 "* Everyone's leaving, it seems."
-msgstr "* Кажется, все уходят."
+msgstr ""
+"<32>{#p/basic}{#npc/a}* (Улитка-улитка...)\n"
+"* Кажется, все уходят."
 
 msgid ""
 "<32>{#p/basic}{#npc/a}* (Snail snail...)\n"
@@ -5782,34 +5928,40 @@ msgstr "* Нам пора идти."
 msgid ""
 "<32>{#p/basic}{#npc/a}* (Snail snail...)\n"
 "* All's well that ends well..."
-msgstr "* Конец хороший."
+msgstr ""
+"<32>{#p/basic}{#npc/a}* (Улитка-улитка...)\n"
+"* Всё хорошо, что хорошо кончается..."
 
+#, fuzzy
 msgid "<32>{#p/basic}{#npc/a}* The smell of grass grows ever closer now..."
-msgstr "<32>{#p/basic}{#npc/a}* Вкус травы становится все ближе и ближе."
+msgstr "<32>{#p/basic}{#npc/a}* Запах травы становится всё ближе..."
 
 msgid "<33>* Soon, I will see it for myself."
-msgstr "<33>* Скоро увидим своими глазами."
+msgstr "<33>* Скоро я сам увижу это."
 
 msgid "<32>{#p/basic}{#npc/a}* I feel the grass has faded."
 msgstr "<32>{#p/basic}{#npc/a}* Я чувствую, что трава выцвела."
 
 msgid "<32>* Don't you...?"
-msgstr "<32>* Ты не..."
+msgstr "<32>* Не ты...?"
 
+#, fuzzy
 msgid "<32>{#p/basic}{#npc/a}* The grass may already be too far gone."
-msgstr "<32>{#p/basic}{#npc/a}* Трава, возможно, зашла слишком далеко."
+msgstr "<32>{#p/basic}{#npc/a}* Трава может быть уже слишком далеко."
 
 msgid "<32>* Or am I wrong...?"
-msgstr "<32>* Или я ошибаюсь."
+msgstr "<32>* Или я не прав...?"
 
 msgid "<32>{#p/basic}{#npc/a}* What's grass?"
 msgstr "<32>{#p/basic}{#npc/a}* Что такое трава?"
 
+#, fuzzy
 msgid "<32>* Can it find you?"
-msgstr "<32>Сможет ли он найти вас?"
+msgstr "<32>* Ты можешь найти её?"
 
+#, fuzzy
 msgid "<32>* Can it eat you?"
-msgstr "<32>Может ли он съесть вас?"
+msgstr "<32>* Ты можешь её съесть?"
 
 msgid "<32>* Can it kill you?"
 msgstr "<32>Может ли он убить вас?"
@@ -5851,10 +6003,13 @@ msgid ""
 "* im temmie!!!"
 msgstr "* Я Тэмми!!"
 
+#, fuzzy
 msgid ""
 "<32>* and dis is my friend...\n"
 "* temmie!!!"
-msgstr "* Тэмми!!"
+msgstr ""
+"<32>* и это моя подруга...\n"
+"* Темми!!!"
 
 msgid ""
 "<32>{#p/tem}{#npc/a}* yaYA!!!\n"
@@ -5867,22 +6022,22 @@ msgid ""
 msgstr "* Если Темс может пойти в новый дом, который можно сделать,"
 
 msgid "<32>{#p/tem}{#npc/a}* LOT OF TEMS HISTORY!!!"
-msgstr "<32>{#p/tem}{#npc/a}* TEMS имеет долгую историю!!"
+msgstr "<32>{#p/tem}{#npc/a}* НАШИ ТЭМ ИМЕЮТ БОГАТУЮ ИСТОРИЮ!!!"
 
 msgid "<32>* don forget my friend!"
-msgstr "<32>Не забывайте о друзьях!"
+msgstr "<32>* не забывай о моих друзьях!"
 
 msgid "<32>{#p/tem}{#npc/a}* A pleasing development, no?"
 msgstr "<32>{#p/tem}{#npc/a}* Это приятное развитие, не так ли?"
 
 msgid "<32>{*}{#p/tem}{#i/5}{#s.stop}* I know what you did."
-msgstr "<32>{*}{#p/tem}{#i/5}{#s.stop}* Я знаю, что вы сделали."
+msgstr "<32>{*}{#p/tem}{#i/5}{#s.stop}* Я знаю, что ты сделал."
 
 msgid "{*}{#s.resume}{%}"
-msgstr "› › › › › › › › › › › › › › › › › 82"
+msgstr "{*}{#s.resume}{%}"
 
 msgid "<32>{#p/tem}{#npc/a}* Hi."
-msgstr "<32>{#p/tem}{#npc/a}* Здравствуйте."
+msgstr "<32>{#p/tem}{#npc/a}* Привет."
 
 msgid "<32>* I'm Bob."
 msgstr "<32>* Я Боб."
@@ -5896,77 +6051,91 @@ msgstr ""
 msgid ""
 "<32>* humans...\n"
 "* such a..."
-msgstr "* Такой."
+msgstr ""
+"<32>* люди...\n"
+"* такие..."
 
 msgid "<32>* HEROES!!!!"
-msgstr "<32>* Герой!!!"
+msgstr "<32>* ГЕРОИ!!!!"
 
 msgid "<32>* CUTE!!!!"
-msgstr "<32>* Милый!!"
+msgstr "<32>* МИЛЫЕ!!!!"
 
+#, fuzzy
 msgid ""
 "<32>{#p/tem}{#npc/a}* everyones go free...\n"
 "* BUT TEM!!!"
-msgstr "* Но TEM!!!"
+msgstr ""
+"<32>{#p/tem}{#npc/a}* все уйдут на свободу...\n"
+"* НО ТЭМ!!!"
 
 msgid ""
 "<32>* TEM NOT LEAV!!!\n"
 "* TEM WATCH EG!!!"
-msgstr "* Смотрите, например!!"
+msgstr ""
+"<32>* ТЭМ НЕ УЙДЁТ!!!\n"
+"* ТЭМ СМОТРИТ ЗА ЯЙЦОМ!!!"
 
 msgid "<32>* tem will be happily fambily,"
 msgstr "<32>* Тем будет счастлив,"
 
 msgid "<32>{#p/tem}{#npc/a}* tem... WATCH EGG!!!"
-msgstr "<32>{#p/tem}{#npc/a}* tem. Смотри яйцо!"
+msgstr "<32>{#p/tem}{#npc/a}* тэм... СМОТРИТ ЗА ЯЙЦОМ!!!"
 
 msgid "<32>* eg... wil HATCH!!!"
 msgstr "<32>* Например... будет ненавидеть!!"
 
+#, fuzzy
 msgid "<32>* tem... PROUD PARENT!!"
-msgstr "<32>* ... Гордые родители!"
+msgstr "<32>* тэм... ГОРДЫЙ РОДИТЕЛЬ!!"
 
 msgid "<32>{#p/human}* (But the box was empty.)"
-msgstr "<32>{#p/human}* (но коробка пуста)."
+msgstr "<32>{#p/human}* (Но сундук был пуст.)"
 
 msgid "<32>{#p/basic}* There is one postcard in the box."
-msgstr "<32>{#p/basic}* В коробке есть открытка."
+msgstr "<32>{#p/basic}* В сундуке находится одна открытка."
 
 msgid "<32>{#p/basic}* There are multiple postcards in the box."
-msgstr "<32>{#p/basic}* В коробке несколько открыток."
+msgstr "<32>{#p/basic}* В сундуке несколько открыток."
 
 msgid "* (Take a postcard?)"
-msgstr "* (С открыткой?)"
+msgstr "* (Взять открытку?)"
 
 msgid "<32>{#p/human}* (You got the Postcard.)"
-msgstr "<32>{#p/human}* (Вы получили открытку.)"
+msgstr "<32>{#p/human}* (Ты взял Открытку.)"
 
+#, fuzzy
 msgid "<32>{#p/human}* (You can't seem to use the switch anymore.)"
 msgstr ""
-"<32>{#p/human}* (Кажется, вы больше не можете использовать этот "
-"переключатель.)"
+"<32>{#p/human}* (Похоже, ты больше не можешь использовать переключатель.)"
 
+#, fuzzy
 msgid "<32>{#p/basic}* It's stuck, like always."
-msgstr "<32>{#p/basic}* Он застрял, как обычно."
+msgstr "<32>{#p/basic}* Он застрял, как всегда."
 
 msgid "<32>{#p/basic}* The switch, quite shockingly, is stuck."
-msgstr "<32>{#p/basic}* Шокирует то, что переключатель застрял."
+msgstr "<32>{#p/basic}* Выключатель, как ни странно, заклинило."
 
 msgid "<32>* What a turn of events!"
-msgstr "<32>> Это действительно большой поворот!"
+msgstr "<32>* Какой поворот событий!"
 
+#, fuzzy
 msgid ""
 "<32>{#p/basic}* The switch is stuck.\n"
 "* Naturally."
-msgstr "* Конечно."
+msgstr ""
+"<32>{#p/basic}* Выключатель застрял.\n"
+"* Естественно."
 
 msgid "<32>{#p/basic}* Believe it or not..."
-msgstr "<32>{#p/basic}* Верьте или нет."
+msgstr "<32>{#p/basic}* Веришь в это или нет..."
 
 msgid ""
 "<32>* The switch isn't stuck, it's just out of service.\n"
 "* Oh wait."
-msgstr "* О, погоди."
+msgstr ""
+"<32>* Выключатель не застрял, он просто вышел из строя.\n"
+"* О, подожди."
 
 msgid ""
 "<32>{#p/human}* (The note attached to this cheesecake describes how it was "
@@ -7264,8 +7433,9 @@ msgid ""
 "* ANY GOOD LIVING SPACE REQUIRES AT LEAST ONE COUCH!"
 msgstr "В любом хорошем жилом пространстве нужен хотя бы один диван!"
 
+#, fuzzy
 msgid "<32>{#p/mettaton}* PREFERABLY MTT-BRAND."
-msgstr "<32>{#p/metaton}* Предпочтительный бренд MTT."
+msgstr "<32>{#p/mettaton}* ПРЕДЛАГАЕТСЯ МТТ-БРЕНД."
 
 msgid ""
 "<32>{#p/finalghost}* This seems like an entirely pointless requirement."
