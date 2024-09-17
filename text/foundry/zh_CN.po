@@ -1,22 +1,20 @@
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-15 20:28+0000\n"
-"PO-Revision-Date: 2024-09-15 20:28+0000\n"
-"Last-Translator: MurderSans_MDR <z127568254@163.com>\n"
+"PO-Revision-Date: 2024-09-18 14:29+0000\n"
+"Last-Translator: onezhazha <1561536469@qq.com>\n"
 "Language-Team: Chinese (Simplified) <https://ws3917.site/projects/"
 "project-spacetime/3-foundry/zh_Hans/>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: ENCODING\n"
+"Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 5.6.2\n"
 
 #
-
 msgid "<32>{#p/basic}* ..."
 msgstr "<32>{#p/basic}* ..."
 
@@ -12552,7 +12550,7 @@ msgid "<32>{#p/kidding}* Just us now!"
 msgstr "<32>{#p/kidding}* 只剩我们了！"
 
 msgid "<32>{#p/story}* Gelata is all alone now."
-msgstr ""
+msgstr "<32>{#p/story}* 现在只剩Gelata一个了。"
 
 msgid "<32>{#p/story}* Gelatini now blorbs solo."
 msgstr ""
@@ -12567,9 +12565,11 @@ msgid ""
 "<32>{#p/story}* Skrubbington straddles up.\n"
 "* Much to its dismay, Gelata is also here..."
 msgstr ""
+"<32>{#p/story}* Skrubbington跨坐着。\n"
+"* 可惜Gelata也来了..."
 
 msgid "<32>{#p/story}* Skrubbington is not sure how to feel anymore."
-msgstr ""
+msgstr "<32>{#p/story}* Skrubbington不知道该怎么办。"
 
 msgid "tweet"
 msgstr "啾啾"
@@ -12584,7 +12584,7 @@ msgid "<08>{#p/basic}{~}Thx for warning!"
 msgstr ""
 
 msgid "<08>{#p/basic}{~}Skrub u entire body.."
-msgstr ""
+msgstr "<08>{#p/basic}{~}清洗你的身体.."
 
 msgid "<08>{#p/basic}{~}Special service just for you!"
 msgstr ""
@@ -12623,11 +12623,17 @@ msgid ""
 "<32>{#p/story}* SKRUBBINGTON - ATK 18 DEF 5\n"
 "* This humble germophobe seeks to cleanse the whole galaxy."
 msgstr ""
+"<32>{#p/story}* SKRUBBINGTON - 攻击 18 防御 5\n"
+"* 这个卑微的细菌恐惧症患者\n"
+"  想要清理整个星系。"
 
 msgid ""
 "<33>{#p/story}* SKRUBBINGTON - ATK 18 DEF 5\n"
 "* This humble germophobe wants to go home to wash its wounds."
 msgstr ""
+"<33>{#p/story}* SKRUBBINGTON - 攻击 18 防御 5\n"
+"* 这个卑微的细菌恐惧症患者\n"
+"  想要回家清洗伤口。"
 
 msgid ""
 "<32>{#p/story}* SKRUBBINGTON - ATK 18 DEF 5\n"
@@ -12638,6 +12644,9 @@ msgid ""
 "<32>{#p/story}* SKRUBBINGTON - ATK 18 DEF 5\n"
 "* This humble germophobe's love story is as soapy as it gets."
 msgstr ""
+"<32>{#p/story}* SKRUBBINGTON - ATK 18 DEF 5\n"
+"* 这个卑微的细菌恐惧症患者\n"
+"  的爱情故事像肥皂一样。"
 
 msgid "* Skrubbington"
 msgstr "* Skrubbington"
@@ -12649,22 +12658,22 @@ msgid "<32>{#p/kidding}* Skrubby's here!"
 msgstr "<32>{#p/kidding}* Skrubby来了！"
 
 msgid "<32>{#p/story}* Skrubbington strolls in."
-msgstr ""
+msgstr "<32>{#p/story}* Skrubbington漫步过来了。"
 
 msgid "<08>{#p/basic}{~}Skrub u SOUL"
-msgstr ""
+msgstr "<08>{#p/basic}{~}清洗你的灵魂"
 
 msgid "<08>{#p/basic}{~}Skrub u hands"
-msgstr ""
+msgstr "<08>{#p/basic}{~}清洗你的手"
 
 msgid "<08>{#p/basic}{~}Skrub u face"
-msgstr ""
+msgstr "<08>{#p/basic}{~}清洗你的脸"
 
 msgid "<08>{#p/basic}{~}Skrub u hair"
-msgstr ""
+msgstr "<08>{#p/basic}{~}清洗你的头发"
 
 msgid "<08>{#p/basic}{~}Skrub u feet"
-msgstr ""
+msgstr "<08>{#p/basic}{~}清洗你的脚"
 
 msgid "<08>{#p/basic}{~}Skrub a dub-dubs"
 msgstr ""
@@ -12682,6 +12691,8 @@ msgstr ""
 
 msgid "<08>{#p/basic}{~}\\x00*whistle whistle*"
 msgstr ""
+"<08>{#p/basic}{~}\\x00*吹着\n"
+"口哨*"
 
 msgid "<08>{#p/basic}{~}Green means clean"
 msgstr ""
@@ -12696,7 +12707,7 @@ msgid "<32>{#p/kidding}* Look at the little bird!"
 msgstr ""
 
 msgid "<32>{#p/story}* Skrubbington is friends with a little bird."
-msgstr ""
+msgstr "<32>{#p/story}* Skrubbington和一只小鸟交了朋友。"
 
 msgid ""
 "<32>{#p/kidding}* You should've SEEN when it tried to clean my school lunch "
@@ -12704,13 +12715,13 @@ msgid ""
 msgstr ""
 
 msgid "<32>{#p/story}* Skrubbington is rinsing off a saucer."
-msgstr ""
+msgstr "<32>{#p/story}* Skrubbington正在洗小碟子。"
 
 msgid "<33>{#p/kidding}* We should go spacesuit-shining with this one."
 msgstr ""
 
 msgid "<32>{#p/story}* Skrubbington is looking for some good clean fun."
-msgstr ""
+msgstr "<32>{#p/story}* Skrubbington想洗点好玩的东西。"
 
 msgid ""
 "<32>{#p/kidding}* Squeaky clean?\n"
@@ -12718,19 +12729,19 @@ msgid ""
 msgstr ""
 
 msgid "<32>{#p/story}* Smells like detergent."
-msgstr ""
+msgstr "<32>{#p/story}* 洗涤剂的味道。"
 
 msgid "<32>{#p/kidding}* You do NOT wanna get dirty around this one, dude."
 msgstr ""
 
 msgid "<32>{#p/story}* Skrubbington wonders if stardust is sanitary."
-msgstr ""
+msgstr "<32>{#p/story}* Skrubbington好奇星尘干不干净。"
 
 msgid "<32>{#p/kidding}* Is... everything okay?"
 msgstr "<32>{#p/kidding}* 一切... 还好吗？"
 
 msgid "<32>{#p/story}* Skrubbington is revolted at its own wounds."
-msgstr ""
+msgstr "<32>{#p/story}* Skrubbington讨厌自己的伤口。"
 
 msgid "<32>{#p/human}* (You tell a joke about a rusty piece of space junk.)"
 msgstr ""
@@ -12744,24 +12755,26 @@ msgid ""
 msgstr ""
 
 msgid "<32>{#p/human}* (You give Skrubbington a friendly pat.)"
-msgstr ""
+msgstr "<32>{#p/human}* （你友好地摸了摸Skrubbington。）"
 
 msgid ""
 "<32>{#p/basic}* Skrubbington can't stand your slime-covered hands and runs "
 "away!"
 msgstr ""
+"<32>{#p/basic}* Skrubbington实在受不了你那\n"
+"  黏糊糊的手，于是跑掉了！"
 
 msgid "<32>{#p/basic}* Skrubbington recoils from your touch."
-msgstr ""
+msgstr "<32>{#p/basic}* Skrubbington后退，躲开了你的手。"
 
 msgid "<32>{#p/basic}* Skrubbington is flattered."
-msgstr ""
+msgstr "<32>{#p/basic}* Skrubbington受宠若惊。"
 
 msgid "<32>{#p/human}* (You ask Skrubbington to clean you.)"
-msgstr ""
+msgstr "<32>{#p/human}* （你问Skrubbington能不能把你清洗一下。）"
 
 msgid "<32>{#p/basic}* Skrubbington hops around excitedly."
-msgstr ""
+msgstr "<32>{#p/basic}* Skrubbington高兴地跳来跳去。"
 
 msgid ""
 "<08>{#p/basic}{~}No!\n"
@@ -12772,22 +12785,22 @@ msgid "<08>{#p/basic}{~}Sparkle and shine!"
 msgstr ""
 
 msgid "<32>{#p/basic}* Skrubbington resumes cleaning."
-msgstr ""
+msgstr "<32>{#p/basic}* Skrubbington继续清洗。"
 
 msgid "<08>{#p/basic}{~}\\x00*sexy shuffle*"
-msgstr ""
+msgstr "<08>{#p/basic}{~}\\x00*性感扭动*"
 
 msgid "<08>{#p/basic}{~}\\x00*slime sounds*"
-msgstr ""
+msgstr "<08>{#p/basic}{~}\\x00*黏液的声音*"
 
 msgid "<08>{#p/basic}{~}Guoooh.."
 msgstr ""
 
 msgid "<08>{#p/basic}{~}\\x00*erotic shuffle*"
-msgstr ""
+msgstr "<08>{#p/basic}{~}\\x00*性感扭动*"
 
 msgid "<08>{#p/basic}{~}\\x00*happy shuffle*"
-msgstr ""
+msgstr "<08>{#p/basic}{~}\\x00*高兴地扭动*"
 
 msgid "<08>{#p/basic}{~}\\x00*slimy embrace*"
 msgstr ""
@@ -12796,7 +12809,7 @@ msgid "<08>{#p/basic}{~}Final roar."
 msgstr ""
 
 msgid "<08>{#p/basic}{~}\\x00*shiny shuffle*"
-msgstr ""
+msgstr "<08>{#p/basic}{~}\\x00*闪亮地扭动*"
 
 msgid "<32>{#p/asriel2}* Gelata."
 msgstr "<32>{#p/asriel2}* Gelata。"
@@ -12805,7 +12818,7 @@ msgid "<32>{#p/kidding}* Woah!"
 msgstr "<32>{#p/kidding}* 哇！"
 
 msgid "<32>{#p/story}* Gelata appears!"
-msgstr ""
+msgstr "<32>{#p/story}* Gelata出现了！"
 
 msgid ""
 "<32>{#p/asriel2}* Gelata, the slimy gelatin.\n"
@@ -12818,31 +12831,41 @@ msgid ""
 "<32>{#p/story}* GELATA - ATK 18 DEF 18\n"
 "* Not so tini anymore."
 msgstr ""
+"<32>{#p/story}* GELATA - 攻击 18 防御 18\n"
+"* 并不是很小。"
 
 msgid ""
 "<32>{#p/story}* GELATA - ATK 18 DEF 18\n"
 "* Not in the best of shape."
 msgstr ""
+"<32>{#p/story}* GELATA - 攻击 18 防御 18\n"
+"* 状态并不是很好。"
 
 msgid ""
 "<32>{#p/story}* GELATA - ATK 18 DEF 18\n"
 "* Not against becoming a full- time jelly cushion."
 msgstr ""
+"<32>{#p/story}* GELATA - 攻击 18 防御 18\n"
+"* 允许成为全职果冻垫。"
 
 msgid ""
 "<32>{#p/story}* GELATA - ATK 18 DEF 18\n"
 "* Not your ideal relationship..."
 msgstr ""
+"<32>{#p/story}* GELATA - 攻击 18 防御 18\n"
+"* 和你的关系并没有想象的那么好..."
 
 msgid ""
 "<32>{#p/human}* (You try to topple Gelata, but it hasn't been weakened "
 "enough.)"
-msgstr ""
+msgstr "<32>{#p/human}* （你试图推倒Gelata，但它还没有那么弱。）"
 
 msgid ""
 "<32>{#p/human}* (You topple Gelata.)\n"
 "* (Its body parts collapse and roll into the distance.)"
 msgstr ""
+"<32>{#p/human}* （你推倒了Gelata。）\n"
+"* （它的身体塌陷了，滚到了远处。）"
 
 msgid "* Gelata"
 msgstr "* Gelata"
@@ -12854,13 +12877,13 @@ msgid "<08>{#p/basic}{~}Roar."
 msgstr "<08>{#p/basic}{~}吼。"
 
 msgid "<08>{#p/basic}{~}\\x00*eager shuffle*"
-msgstr ""
+msgstr "<08>{#p/basic}{~}\\x00*e急切地扭动*"
 
 msgid "<32>{#p/kidding}* What does it want?"
 msgstr ""
 
 msgid "<32>{#p/story}* Gelata wants to carry you."
-msgstr ""
+msgstr "<32>{#p/story}* Gelata想背着你。"
 
 msgid "<32>{#p/kidding}* I wonder what would happen if I hugged it."
 msgstr ""
@@ -12868,19 +12891,19 @@ msgstr ""
 "  会发生什么。"
 
 msgid "<32>{#p/story}* Gelata wobbles anxiously."
-msgstr ""
+msgstr "<32>{#p/story}* Gelata焦虑地摇晃着。"
 
 msgid "<32>{#p/kidding}* So icky... I love it!"
 msgstr "<32>{#p/kidding}* 黏糊糊的... 但我喜欢！"
 
 msgid "<32>{#p/story}* Gelata mills about nearby."
-msgstr ""
+msgstr "<32>{#p/story}* Gelata磨动着地面。"
 
 msgid "<32>{#p/kidding}* This all seems kinda slimy."
 msgstr "<32>{#p/kidding}* 啥都黏糊糊的。"
 
 msgid "<32>{#p/story}* Smells like a jell-o store."
-msgstr ""
+msgstr "<32>{#p/story}* 果冻店的味道。"
 
 msgid "<32>{#p/asriel2}* Almost dead."
 msgstr "<32>{#p/asriel2}* 离死不远了。"
@@ -12895,6 +12918,8 @@ msgid ""
 "<32>{#p/human}* (You offer a handshake.)\n"
 "* (Gelata engulfs you in slime.)"
 msgstr ""
+"<32>{#p/human}* （你向Gelata伸出了手。）\n"
+"* （Gelata用黏液把你包裹了起来。）"
 
 msgid "<32>{#p/story}* SPEED decreased!"
 msgstr "<32>{#p/story}* 你的移速下降了！"
@@ -12903,20 +12928,24 @@ msgid ""
 "<32>{#p/human}* (You sit on top of Gelata.)\n"
 "* (Gelata now feels that it has been useful to you.)"
 msgstr ""
+"<32>{#p/human}* （你坐在了Gelata上面。）\n"
+"* （Gelata很高兴能帮到你。）"
 
 msgid "<32>{#p/kidding}* Can I come sit too!?"
 msgstr ""
 
 msgid "<32>{#p/story}* Gelata seems happy with your presence."
-msgstr ""
+msgstr "<32>{#p/story}* Gelata很高兴你来了。"
 
 msgid ""
 "<32>{#p/human}* (You wiggle your hips.)\n"
 "* (Gelata does a tornado spin.)"
 msgstr ""
+"<32>{#p/human}* （你扭动着臀部。）\n"
+"* （Gelata像旋风一样转起来。）"
 
 msgid "<32>{#p/basic}* A meaningful conversation...?"
-msgstr ""
+msgstr "<32>{#p/basic}* 真是一场有意义的交流...？"
 
 msgid ""
 "<32>{#p/asriel2}* Gelatini...\n"
@@ -12947,7 +12976,7 @@ msgid "<32>{#p/kidding}* Do Gelatinis always sit this still?"
 msgstr ""
 
 msgid "<32>{#p/story}* Gelatini isn't moving."
-msgstr ""
+msgstr "<32>{#p/story}* Gelatini不动了。"
 
 msgid "<32>{#p/kidding}* Something's off with that Gelatini..."
 msgstr ""
@@ -12966,13 +12995,13 @@ msgid "<32>{#p/kidding}* This seems kinda weird."
 msgstr ""
 
 msgid "<32>{#p/human}* (You approach Gelatini.)"
-msgstr ""
+msgstr "<32>{#p/human}* （你靠近了Gelatini。）"
 
 msgid "<32>{#p/human}* (You wiggle your hips.)"
 msgstr ""
 
 msgid "<32>{#p/human}* (You give Gelatini a big slap.)"
-msgstr ""
+msgstr "<32>{#p/human}* （你使劲扇了Gelatini一巴掌。）"
 
 msgid ""
 "<32>{#p/story}* SHYREN - ATK 19 DEF 0\n"
