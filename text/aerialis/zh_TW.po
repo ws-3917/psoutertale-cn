@@ -1,6 +1,21 @@
-#
+#, fuzzy
 msgid ""
 msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-09-18 14:29+0000\n"
+"PO-Revision-Date: 2024-09-18 14:29+0000\n"
+"Last-Translator: Wasneet Potato <wasneetpotato@outlook.com>\n"
+"Language-Team: Chinese (Traditional) <https://ws3917.site/projects/"
+"project-spacetime/4-aerialis/zh_Hant/>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: ENCODING\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.6.2\n"
+
+#
 
 msgid "<32>{#p/human}* (It appears the terminal is beyond your access level.)"
 msgstr ""
@@ -8052,8 +8067,6 @@ msgstr "<25>{#p/asriel2}{#f/8}* 只能換條路走了。"
 msgid "<32>{#p/human}* (Where would you like to go?)"
 msgstr "<32>{#p/human}* （你想去哪裡？）"
 
-msgid ""
-msgstr ""
 
 msgid "Floor L1"
 msgstr "左一層"
@@ -20502,13 +20515,13 @@ msgid "finally met the human that was kinda nervewracking LOL"
 msgstr "終於見到人類了，有點傷腦筋www"
 
 msgid "well i just met the human"
-msgstr ""
+msgstr "呃我剛剛遇見人類了。ゐ"
 
 msgid "ok good"
-msgstr ""
+msgstr "OK讚啦ゐ"
 
 msgid "still cant believe mettaton gave them a moniker???"
-msgstr ""
+msgstr "還是真不敢信mettaton居然給他們取了個綽號？？？"
 
 msgid "still cant believe mettaton wanted me to fight them???"
 msgstr ""
@@ -20546,10 +20559,10 @@ msgid "ok mettaton could you like not keep doing this to me thanks"
 msgstr ""
 
 msgid "ok ill be honest i have no idea how that worked out LOL"
-msgstr ""
+msgstr "好吧講真我也不知道結果會怎樣wwwゐ"
 
 msgid "wow, i shouldve known those bombs were just TV props LOL"
-msgstr ""
+msgstr "挖靠我居然沒想到那些炸彈只是電視道具wwwゐ"
 
 msgid "NOOOO they were so close"
 msgstr ""
@@ -20690,13 +20703,13 @@ msgid "heh... remember that time he showed off the new gravity plating?"
 msgstr ""
 
 msgid "and the whole set just started floating into the sky? OMG YES LMAO"
-msgstr ""
+msgstr "然後整個場景就開始飄向天空？挖靠讚啦XDゐ"
 
 msgid "pfft, he really thought that would work, huh?"
 msgstr ""
 
 msgid "i remember asgore trying everything he could to hold it down XD"
-msgstr ""
+msgstr "我記得asgore盡了全力來壓住它笑死ゐ"
 
 msgid ""
 "man what a day\n"
