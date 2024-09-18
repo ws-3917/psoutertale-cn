@@ -1,6 +1,21 @@
-#
+#, fuzzy
 msgid ""
 msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-09-18 14:30+0000\n"
+"PO-Revision-Date: 2024-09-18 14:30+0000\n"
+"Last-Translator: Wasneet Potato <wasneetpotato@outlook.com>\n"
+"Language-Team: Chinese (Simplified) <https://ws3917.site/projects/"
+"deltatraveler/r1-overworld/zh_Hans/>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: ENCODING\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.6.2\n"
+
+#
 
 msgid "* Use the box?"
 msgstr ""
@@ -8,7 +23,7 @@ msgstr ""
 msgid ""
 "* (You felt that you shouldn't\n"
 "  advance.)"
-msgstr "* (你觉得你不应该前进。)"
+msgstr "* (你臆断你不应该前进。)"
 
 msgid ""
 "* (You're filled with\n"
@@ -795,7 +810,7 @@ msgid ""
 "  possible."
 msgstr ""
 "* 那就快去见\n"
-"  颜料匠先生。"
+"  车漆匠先生。"
 
 msgid ""
 "* (Carpainter's a\n"
