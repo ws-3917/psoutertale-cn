@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-18 14:29+0000\n"
-"PO-Revision-Date: 2024-09-18 14:29+0000\n"
-"Last-Translator: WS-3917 <ws3917@outlook.com>\n"
+"PO-Revision-Date: 2024-09-19 02:59+0000\n"
+"Last-Translator: MurderSans_MDR <z127568254@163.com>\n"
 "Language-Team: Chinese (Simplified) <https://ws3917.site/projects/"
 "project-spacetime/4-aerialis/zh_Hans/>\n"
 "Language: zh_CN\n"
@@ -13,7 +13,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 5.6.2\n"
-
 
 msgid "<32>{#p/human}* (It appears the terminal is beyond your access level.)"
 msgstr ""
@@ -12063,17 +12062,20 @@ msgstr ""
 "  我俩还真把他们吓破胆了。"
 
 msgid "<25>{#p/asriel2}{#f/3}* Finally, the central control room."
-msgstr ""
+msgstr "<25>{#p/asriel2}{#f/3}* 总算到主控室了。"
 
 msgid "<25>{#f/3}* From here, there's practically a control for everything."
-msgstr ""
+msgstr "<25>{#f/3}* 在这，咱简直可以掌控一切。"
 
 msgid ""
 "<25>{#f/15}* Gravity plating, heat distribution, even the atmosphere..."
 msgstr ""
+"<25>{#f/15}* 不管是重力调控，\n"
+"  还是热量分配，\n"
+"  甚至是大气管理..."
 
 msgid "<25>{#f/4}* It all runs through this system."
-msgstr ""
+msgstr "<25>{#f/4}* 都由这儿的系统运转。"
 
 msgid "<25>{#f/3}* Let's see if my royal access codes still hold weight."
 msgstr ""
@@ -12082,38 +12084,45 @@ msgid "<25>{#f/2}* I wouldn't put it past them to forget..."
 msgstr ""
 
 msgid "<25>{#p/asriel2}{#f/6}* Okay, we made it back."
-msgstr ""
+msgstr "<25>{#p/asriel2}{#f/6}* 咱又回来了。"
 
 msgid "<25>{#f/7}* Let's give those royal access codes a try."
-msgstr ""
+msgstr "<25>{#f/7}* 我用皇室访问码试试。"
 
 msgid ""
 "<26>{*}{#p/asriel2}{#f/6}* System, extend the bridge, authorization Asriel "
 "STARLING-4-7-7-4.{^40}{%}"
 msgstr ""
+"<26>{*}{#p/asriel2}{#f/6}* Asriel呼叫系统，\n"
+"  请开启伸缩桥。\n"
+"* 授权码是STARLING-4-7-7-4。{^40}{%}"
 
 msgid "<25>{*}{#f/6}* ...{^40}{%}"
 msgstr "<25>{*}{#f/6}* ...{^40}{%}"
 
 msgid "<25>{*}{#f/7}* I guess no- {%}"
-msgstr ""
+msgstr "<25>{*}{#f/7}* 看来没- {%}"
 
 msgid "<25>{#p/asriel2}{#f/10}* I guess so."
-msgstr ""
+msgstr "<25>{#p/asriel2}{#f/10}* 看来能用。"
 
 msgid ""
 "<25>{#p/asriel2}{#f/3}* Think you can get the back door unlocked while I set"
 " this up?"
 msgstr ""
+"<25>{#p/asriel2}{#f/3}* 我在这篡改系统，\n"
+"  你能把后门解开吗？"
 
 msgid "<25>{#f/4}* Pick a side, left or right, and hit the switch at the end."
 msgstr ""
+"<25>{#f/4}* 左或右，选一条路，\n"
+"  按下尽头的开关。"
 
 msgid "<25>{#f/1}* I'll be waiting."
-msgstr ""
+msgstr "<25>{#f/1}* 等你好消息。"
 
 msgid "<25>{#f/4}* You do your part, and I'll do mine."
-msgstr ""
+msgstr "<25>{#f/4}* 你忙你的，我忙我的。"
 
 msgid "<25>{#p/asriel2}{#f/8}* Wrong way, $(name)."
 msgstr ""
@@ -13348,6 +13357,8 @@ msgstr ""
 
 msgid "<32>{#p/story}* Final Froggit and Flutterknyte appeared before you!"
 msgstr ""
+"<32>{#p/story}* Final Froggit和Flutterknyte\n"
+"  在你面前现身了！"
 
 msgid "<32>{#p/story}* Flutterknyte now flies solo."
 msgstr ""
