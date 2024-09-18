@@ -1,17 +1,16 @@
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-18 14:29+0000\n"
 "PO-Revision-Date: 2024-09-18 14:29+0000\n"
-"Last-Translator: MurderSans_MDR <z127568254@163.com>\n"
+"Last-Translator: errosia <ericyan2008@foxmail.com>\n"
 "Language-Team: Chinese (Simplified) <https://ws3917.site/projects/"
 "project-spacetime/4-aerialis/zh_Hans/>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: ENCODING\n"
+"Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 5.6.2\n"
 
@@ -3821,7 +3820,7 @@ msgid "<25>{#p/sans}{#g/sansBlink}* eh, i'm not really in the mood."
 msgstr "<25>{#p/sans}{#g/sansBlink}* 呃，我现在没心情。"
 
 msgid "<25>{#p/sans}* anne."
-msgstr ""
+msgstr "<25>{#p/sans}* 小鸡。"
 
 msgid "<32>{#p/mettaton}* HOW ABOUT YOU, BLOOKY?"
 msgstr "<32>{#p/mettaton}* BLOOKY，你想票掉谁呢？"
@@ -3833,11 +3832,13 @@ msgid "<32>{#p/mettaton}* HMM..."
 msgstr "<32>{#p/mettaton}* 嗯..."
 
 msgid "<32>* WHY \"ANNE?\""
-msgstr ""
+msgstr "<32>* 什么“小鸡”？"
 
 msgid ""
 "<25>{#p/sans}{#g/sansLaugh1}* 'cause this ANNE droid is driving me crazy."
 msgstr ""
+"<25>{#p/sans}{#g/sansLaugh1}* 我真是受够这个\n"
+"  叽叽喳喳的小鸡器人了。"
 
 msgid "<32>{#p/mettaton}* YOU'RE DISQUALIFIED!"
 msgstr "<32>{#p/mettaton}* 你被取消比赛资格了！"
@@ -12844,52 +12845,66 @@ msgid "<32>* You were fortunate to have done so when you did."
 msgstr ""
 
 msgid "<25>{#p/alphys}{#g/alphysNeutralSweat}* ... h-hiya."
-msgstr ""
+msgstr "<25>{#p/alphys}{#g/alphysNeutralSweat}* ...你-你好呀。"
 
 msgid "<25>* That's the elevator to the Citadel."
-msgstr ""
+msgstr "<25>* 那是去往首塔的电梯。"
 
 msgid ""
 "<25>{#g/alphysInquisitive}* I'd have you go there straight away, but..."
 msgstr ""
+"<25>{#g/alphysInquisitive}* 我没有想阻拦你的意思，\n"
+"  但是..."
 
 msgid "<25>{#g/alphysWelp}* It's... kind of not working right now."
-msgstr ""
+msgstr "<25>{#g/alphysWelp}* 这玩意... 出了点问题。"
 
 msgid "<25>{#g/alphysCutscene3}* You'll have to go through the CORE instead."
 msgstr ""
+"<25>{#g/alphysCutscene3}* 现在你得通过核心\n"
+"  才能去到首塔。"
 
 msgid ""
 "<25>{#g/alphysUhButHeresTheDeal}* When you're ready, head down there and "
 "I'll call you back!"
 msgstr ""
+"<25>{#g/alphysUhButHeresTheDeal}* 等你准备好了，\n"
+"  就往那边走吧，\n"
+"  到时我会再给你回电话的！"
 
 msgid "<25>{#p/alphys}{#g/alphysSmileSweat}* Okay, you're here."
-msgstr ""
+msgstr "<25>{#p/alphys}{#g/alphysSmileSweat}* 好，你到了。"
 
 msgid ""
 "<25>{#g/alphysSmileSweat}* I'll keep an open line between us while you're "
 "down here..."
 msgstr ""
+"<25>{#g/alphysSmileSweat}* 你在核心的这段时间，\n"
+"  我会和你保持电话联系..."
 
 msgid "<25>{#g/alphysWelp}* ... just in case something bad happens."
-msgstr ""
+msgstr "<25>{#g/alphysWelp}* ...以防有什么意外。"
 
 msgid ""
 "<25>{#g/alphysInquisitive}* The ELITE squad members who patrol here SHOULD "
 "be on break, but..."
 msgstr ""
+"<25>{#g/alphysInquisitive}* 在这里巡逻的特战队成员\n"
+"  现在本该在休息，\n"
+"  不过..."
 
 msgid "<25>{#g/alphysNeutralSweat}* ... well, I can't make any guarantees."
-msgstr ""
+msgstr "<25>{#g/alphysNeutralSweat}* ...呃，我担保不了。"
 
 msgid ""
 "<25>{#g/alphysInquisitive}* Since we're here ahead of schedule, the ELITE "
 "squad is off-duty."
 msgstr ""
+"<25>{#g/alphysInquisitive}* 我们提前到了，\n"
+"  特战队应该没在执勤。"
 
 msgid "<25>{#g/alphysNeutralSweat}* ... let's hope that makes things easier."
-msgstr ""
+msgstr "<25>{#g/alphysNeutralSweat}* ...希望这一路上畅通无阻。"
 
 msgid "<25>{#p/alphys}{#g/alphysWelp}* Okay, ready to continue?"
 msgstr ""
@@ -12927,7 +12942,7 @@ msgid ""
 msgstr ""
 
 msgid "<25>{*}{#p/alphys}{#g/alphysShocked}* Watch out!{^999}"
-msgstr ""
+msgstr "<25>{*}{#p/alphys}{#g/alphysShocked}* 小心！{^999}"
 
 msgid ""
 "<25>{#p/alphys}{#g/alphysCutscene3}* Huh?\n"
@@ -12956,13 +12971,13 @@ msgid "<32>{#p/basic}* ... guess you didn't need my help after all."
 msgstr ""
 
 msgid "<25>{#p/alphys}{#g/alphysSideSad}* No... why..."
-msgstr ""
+msgstr "<25>{#p/alphys}{#g/alphysSideSad}* 不... 为什么..."
 
 msgid "<25>{#g/alphysWorried}* ..."
 msgstr "<25>{#g/alphysWorried}* ..."
 
 msgid "<25>* Couldn't there have been... another way?"
-msgstr ""
+msgstr "<25>* 难道就没有... 别的方法吗？"
 
 msgid "<25>{#g/alphysThatSucks}* ..."
 msgstr "<25>{#g/alphysThatSucks}* ..."
@@ -16689,7 +16704,7 @@ msgid "<32>{#p/basic}* Cozmo is knocked out!"
 msgstr ""
 
 msgid "<32>{#p/alphys}* Uh oh."
-msgstr ""
+msgstr "<32>{#p/alphys}* 糟糕。"
 
 msgid "<32>{#p/story}* Cozmo came through in a flash!"
 msgstr "<32>{#p/story}* Cozmo在瞬息间突然现身！"
@@ -16698,16 +16713,24 @@ msgid ""
 "<32>{#p/alphys}* Cozmo's what you'd call a \"traditional\" magic user.\n"
 "* Its orbs are its strength..."
 msgstr ""
+"<32>{#p/alphys}* Cozmo就是一个你所说的\n"
+"  “传统”意义上的魔法师。\n"
+"* 它的力量源自于它的魔球..."
 
 msgid ""
 "<32>{#p/story}* COZMO - ATK 29 DEF 24\n"
 "* This enigmatic ELITE squad member speaks in magic words."
 msgstr ""
+"<32>{#p/story}* COZMO - 攻击29 防御24\n"
+"* 这个高深莫测的特战队成员\n"
+"  总说着咒语。"
 
 msgid ""
 "<32>{#p/story}* COZMO - ATK 29 DEF 24\n"
 "* Not playing with a full deck."
 msgstr ""
+"<32>{#p/story}* COZMO - 攻击29 防御24\n"
+"* 智障。"
 
 msgid ""
 "<32>{#p/story}* COZMO - ATK 29 DEF 24\n"
@@ -16725,37 +16748,45 @@ msgid ""
 msgstr ""
 
 msgid "<32>{#p/alphys}* It's Cozmo."
-msgstr ""
+msgstr "<32>{#p/alphys}* 这是Cozmo。"
 
 msgid "<32>{#p/story}* Cozmo does a mysterious jig."
-msgstr "<32>{#p/story}* Cozmo跳着神秘的舞蹈。"
+msgstr "<32>{#p/story}* Cozmo跳着不可思议的舞蹈。"
 
 msgid "<32>{#p/story}* Cozmo flaunts its orbs in a menacing manner."
-msgstr ""
+msgstr "<32>{#p/story}* Cozmo气势汹汹地卖弄着它的魔球。"
 
 msgid "<32>{#p/story}* Cozmo whispers non-terrestrial swear words."
-msgstr ""
+msgstr "<32>{#p/story}* Cozmo嘀咕着艰深晦涩的脏话。"
 
 msgid "<32>{#p/story}* Cozmo peers at you with piercing eyes."
-msgstr ""
+msgstr "<32>{#p/story}* Cozmo以火眼金睛凝视着你。"
 
 msgid "<32>{#p/story}* Smells like... magic."
-msgstr ""
+msgstr "<32>{#p/story}* 闻起来像... 魔法。"
 
 msgid "<20>{#p/basic}{~}Abra cadabra."
 msgstr ""
+"<20>{#p/basic}{~}急急\n"
+"如律令。"
 
 msgid "<20>{#p/basic}{~}A la kazam!!"
-msgstr ""
+msgstr "<20>{#p/basic}{~}变变变！！"
 
 msgid "<20>{#p/basic}{~}Tinkle tinkle hoy."
 msgstr ""
+"<20>{#p/basic}{~}神明啊，\n"
+"显灵吧。"
 
 msgid "<20>{#p/basic}{~}Hocus pocus."
 msgstr ""
+"<20>{#p/basic}{~}嘛咪\n"
+"嘛咪哄。"
 
 msgid "<21>{#p/basic}{~}Please and thank you."
 msgstr ""
+"<21>{#p/basic}{~}请，\n"
+"谢谢。"
 
 msgid "<32>{#p/human}* (You dance.)"
 msgstr ""
@@ -16818,36 +16849,44 @@ msgid "<32>{#p/story}* Cozmo is out of options."
 msgstr ""
 
 msgid "<32>{#p/human}* (You play dead.)"
-msgstr ""
+msgstr "<32>{#p/human}* （你选择装死。）"
 
 msgid "<32>{#p/basic}* Cozmo's orbs begin to act strangely to each other..."
 msgstr ""
 
 msgid "<32>{#p/alphys}* What the...?"
-msgstr ""
+msgstr "<32>{#p/alphys}* 搞什么...？"
 
 msgid "<20>{#p/basic}{~}\\x00*chants of confusion*"
 msgstr ""
 
 msgid "<32>{#p/alphys}* I guess that works...?"
-msgstr ""
+msgstr "<32>{#p/alphys}* 我想，这起作用了...？"
 
 msgid "<32>{#p/story}* Cozmo's orbs don't know how to handle this."
 msgstr ""
 
 msgid "<20>{#p/basic}{~}Utter inconfidence."
 msgstr ""
+"<20>{#p/basic}{~}实在\n"
+"灰心丧气。"
 
 msgid "<20>{#p/basic}{~}Total vexation."
 msgstr ""
+"<20>{#p/basic}{~}彻底\n"
+"心烦意乱。"
 
 msgid "<20>{#p/basic}{~}Radical confusion."
 msgstr ""
+"<20>{#p/basic}{~}完全\n"
+"乱成一团。"
 
 msgid ""
 "<32>{#p/human}* (You play dead.)\n"
 "* (Nothing changes.)"
 msgstr ""
+"<32>{#p/human}* （你选择装死。）\n"
+"* （没什么变化。）"
 
 msgid ""
 "<32>{#p/human}* (You flirt with Cozmo.)\n"
@@ -16891,7 +16930,7 @@ msgid ""
 msgstr ""
 
 msgid "<32>{#p/alphys}* Wow... I guess that's that."
-msgstr ""
+msgstr "<32>{#p/alphys}* 哇... 我想就这样吧。"
 
 msgid "<32>{#p/story}* Cozmo is enchanted."
 msgstr ""
