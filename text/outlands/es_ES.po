@@ -1,22 +1,20 @@
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-18 14:30+0000\n"
-"PO-Revision-Date: 2024-09-18 14:30+0000\n"
+"PO-Revision-Date: 2024-09-19 02:59+0000\n"
 "Last-Translator: Stefano <stefanobuendia@hotmail.com>\n"
 "Language-Team: Spanish <https://ws3917.site/projects/project-spacetime/"
 "1-outlands/es/>\n"
 "Language: es_ES\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: ENCODING\n"
+"Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 5.6.2\n"
 
 #
-
 msgid ""
 "<25>{#p/toriel}{#f/1}* I hear there is a certain kind of fluid in "
 "Aerialis..."
@@ -2787,7 +2785,6 @@ msgstr ""
 "<25>{#f/0}* No hay problema.\n"
 "* Lo operaré por ti."
 
-#, fuzzy
 msgid "<25>{#f/0}* ..."
 msgstr "<25>{#f/0}* ..."
 
@@ -2829,85 +2826,102 @@ msgid ""
 "<25>{#p/toriel}{#f/0}* ... ah, very good.\n"
 "* And with such a positive attiude!"
 msgstr ""
+"<25>{#p/toriel}{#f/0}* ... ah, muy bien.\n"
+"* ¡Y con una actitud tan positiva!"
 
 msgid ""
 "<32>{#p/human}* (...)\n"
 "* (You tell Toriel you do not know the answer.)"
 msgstr ""
+"<32>{#p/human}* (...)\n"
+"* (Le dices a Toriel que no sabes la respuesta.)"
 
 msgid ""
 "<25>{#p/toriel}{#f/1}* ... is something wrong?\n"
 "* You seem to have something on your mind."
 msgstr ""
+"<25>{#p/toriel}{#f/1}* ... ¿Tienes algún problema?\n"
+"* Parece que tienes algo en mente."
 
 msgid "<25>{#f/5}* ... hmm..."
-msgstr ""
+msgstr "<25>{#f/5}* ... hmm..."
 
 msgid ""
 "<25>{#f/0}* Well, alright.\n"
 "* I will solve the riddle for you this time."
 msgstr ""
+"<25>{#f/0}* Bueno, esta bien.\n"
+"* Esta vez te resolveré el acertijo."
 
 msgid "<25>{#p/toriel}{#f/5}* ..."
-msgstr ""
+msgstr "<25>{#p/toriel}{#f/5}* ..."
 
 msgid "<25>{#f/5}* I see."
-msgstr ""
+msgstr "<25>{#f/5}* Ya veo."
 
 msgid "<25>{#p/toriel}{#f/0}* ..."
-msgstr ""
+msgstr "<25>{#p/toriel}{#f/0}* ..."
 
 msgid "<25>{#f/0}* I suppose I can solve the riddle for you this time."
-msgstr ""
+msgstr "<25>{#f/0}* Supongo que esta vez te puedo resolver el acertijo."
 
 msgid ""
 "<25>{#p/toriel}{#f/5}* And... {#x1}there.\n"
 "* The pathway is clear."
 msgstr ""
+"<25>{#p/toriel}{#f/5}* Y... {#x1}ahí.\n"
+"* El camino está despejado."
 
 msgid ""
 "<25>{#p/toriel}* And... {#x1}there!\n"
 "* The pathway is clear!"
 msgstr ""
+"<25>{#p/toriel}* Y... {#x1}¡ahí!\n"
+"* ¡El camino está despejado!"
 
 msgid "<25>{#p/toriel}{#f/5}* I will wait for you to enter the next room."
 msgstr ""
+"<25>{#p/toriel}{#f/5}* Esperaré a que entres en la siguiente habitación."
 
 msgid "<25>{#p/toriel}* Once ready, you may enter the next room."
 msgstr ""
+"<25>{#p/toriel}* Una vez que estés listo, podrás entrar en la siguiente "
+"habitación."
 
 msgid "<32>{#p/human}* (But you still couldn't reach the terminal.)"
-msgstr ""
+msgstr "<32>{#p/human}* (Pero todavía no puedes alcanzar el terminal.)"
 
 msgid "<32>{#p/basic}* Even now, the terminal still stands as tall as ever."
-msgstr ""
+msgstr "<32>{#p/basic}* Incluso ahora, el terminal sigue tan alto como siempre."
 
 msgid "<32>{#p/human}* (You got the Little Dipper.)"
-msgstr ""
+msgstr "<32>{#p/human}* (Conseguiste el Cucharon Pequeño.)"
 
 msgid "* (Equip the Little Dipper?)"
-msgstr ""
+msgstr "* (¿Equiparte el Cucharón Pequeño?)"
 
 msgid ""
 "<25>{#p/toriel}{#f/1}* Pies are for eating, not for splattering on the "
 "floor."
 msgstr ""
+"<25>{#p/toriel}{#f/1}* Las tartas son para comer, no para salpicarlo en el "
+"suelo."
 
 msgid "<25>{#p/toriel}{#f/1}* Please do not spill food on the floor."
-msgstr ""
+msgstr "<25>{#p/toriel}{#f/1}* Por favor no derrames comida en el suelo."
 
 msgid ""
 "<25>{#p/toriel}{#f/1}* What did those poor fried snails ever do to you."
-msgstr ""
+msgstr "<25>{#p/toriel}{#f/1}* Qué te han hecho esos pobres caracoles fritos."
 
 msgid "<32>{#p/basic}{#n1}* Aww c'mon! ;)"
-msgstr ""
+msgstr "<32>{#p/basic}{#n1}* Aww ¡vamos! ;)"
 
 msgid "<32>* I poured my heart into that! ;)"
-msgstr ""
+msgstr "<32>* ¡Puse mi corazón en eso! ;)"
 
 msgid "<32>{#p/basic}{#n1}* Seriously!? ;)"
-msgstr ""
+msgstr "<32>{#p/basic}{#n1}* ¡¿Enserio!? ;)"
 
 msgid "<32>* That steak was utterly priceless! ;)"
 msgstr ""
