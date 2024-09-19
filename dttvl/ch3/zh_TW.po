@@ -54,7 +54,7 @@ msgstr "* [沒_有_文_本]"
 msgid ""
 "* (You felt that you shouldn't\n"
 "  advance.)"
-msgstr "* (你覺得你不應該前進。)"
+msgstr "* (你臆斷你不應該前進。)"
 
 msgid ""
 "* I wish me and my little\n"
@@ -99,7 +99,7 @@ msgstr ""
 "^05  迷你？"
 
 msgid "* What's wrong with being small?"
-msgstr "* 小又怎樣？"
+msgstr "* 迷你又怎樣？"
 
 msgid "* Nevermind."
 msgstr "* 還是算了吧。"

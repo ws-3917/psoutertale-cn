@@ -323,7 +323,7 @@ msgid "Heals 15 HP`24"
 msgstr "回復15HP`24"
 
 msgid "Creates a LIGHT shield`50"
-msgstr "創造光盾50"
+msgstr "創造光盾`50"
 
 msgid "Deals all FIRE Damage`36"
 msgstr ""
@@ -987,7 +987,7 @@ msgid "DrawDeck"
 msgstr ""
 
 msgid "Mr.Carpainter"
-msgstr "顏料匠先生"
+msgstr "車漆匠先生"
 
 msgid "carpainter"
 msgstr ""

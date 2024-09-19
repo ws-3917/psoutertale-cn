@@ -470,7 +470,7 @@ msgstr ""
 msgid ""
 "* (You felt that you shouldn't\n"
 "  advance.)"
-msgstr "* (你覺得你不應該前進。)"
+msgstr "* (你臆斷你不應該前進。)"
 
 msgid ""
 "* Well,^10 hello there,\n"

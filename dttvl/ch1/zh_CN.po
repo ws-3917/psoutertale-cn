@@ -1,20 +1,7 @@
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-18 14:30+0000\n"
-"PO-Revision-Date: 2024-09-19 02:59+0000\n"
-"Last-Translator: Wasneet Potato <wasneetpotato@outlook.com>\n"
-"Language-Team: Chinese (Simplified) <https://ws3917.site/projects/"
-"deltatraveler/s1-undertale/zh_Hans/>\n"
-"Language: zh_CN\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.6.2\n"
 
-#
 msgid "* (It's a large flower.)"
 msgstr "* (一朵很大的花。)"
 
