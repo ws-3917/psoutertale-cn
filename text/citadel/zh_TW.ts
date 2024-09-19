@@ -5996,7 +5996,7 @@ export default {
       friend1: [ "<20>{#p/asgore}{#e/asgore/5}怎麼了？" ],
       friend2: [ "<20>{#p/alphys}{#e/alphys/15}那道力場...\n還沒被擊碎！" ],
       friend3: [ '<20>{#p/asgore}{#e/asgore/12}{#e/alphys/4}...\n清楚為什麼嗎？' ],
-      friend4a: [ "<20>{#p/alphys}{#e/alphys/6}也許...\n他打得還不夠狠？", '{*}{#e/alphys/1}{%}' ],
+      friend4a: [ "<20>{#p/alphys}{#e/alphys/6}也許...\n人類還沒使上勁兒？", '{*}{#e/alphys/1}{%}' ],
       friend4b: [
          "<20>{#p/alphys}不，不是這樣...",
          '<20>{#p/alphys}{#e/asgore/1}...',

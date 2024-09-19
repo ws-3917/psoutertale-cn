@@ -4728,7 +4728,7 @@ export default {
                ? [ '<32>{#p/basic}* A tiny doghouse.' ]
                : SAVE.data.n.plot === 72
                ? [ '<32>{#p/basic}* I wonder if this doghouse also travels in time.' ]
-               : [ '<32>{#p/basic}* 多麼小巧的狗屋啊！', '<32>{#p/basic}* 裡面應該比外面看起來大。' ],
+               : [ '<32>{#p/basic}* 多麼小巧的狗屋啊！', '<32>{#p/basic}* 裡頭看起來比外邊大。' ],
          s_doghouse_sign: () =>
             SAVE.data.b.svr
                ? [ "<32>{#p/human}* (You struggle to explain what's written on this sign.)" ]
@@ -6814,8 +6814,8 @@ export default {
             : [ '<15>{#p/papyrus}{#f/20}帕派瑞斯:\n舉世無雙意面王！' ],
       turnTalk6: () =>
          world.postnoot
-            ? [ '<15>{#p/papyrus}{#f/20}以及在皇家衛隊\n的一席之地！' ]
-            : [ '<15>{#p/papyrus}{#f/20}帕派瑞斯:\n皇家衛隊成員！' ],
+            ? [ '<15>{#p/papyrus}{#f/20}以及在特戰隊\n的一席之地！' ]
+            : [ '<15>{#p/papyrus}{#f/20}帕派瑞斯:\n特戰隊成員！' ],
       turnTalk7: [ '<15>{#p/papyrus}{#f/10}安黛因一定會\n為我感到驕傲！！' ],
       turnTalk8: [ '<15>{#p/papyrus}{#f/20}國王會在首塔\n為我建造一座\n雕像！！！' ],
       turnTalk9: [ "<15>{#p/papyrus}{#f/10}... 我也會\n讓我兄弟\n擁有一座的。" ],
@@ -7124,14 +7124,14 @@ export default {
    },
    i_fruit: {
       battle: {
-         description: '非歐幾何形狀的水果，\n裡頭比外表還大。',
+         description: '非歐幾何形狀的水果，\n裡頭比外邊還大。',
          name: '幽靈水果'
       },
       drop: [ '<32>{#p/human}* (You fold the Ghost Fruit in on itself.)' ],
       info: () =>
          SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
             ? [ '<32>{#p/human}* （15 HP。）' ]
-            : [ '<32>{#p/basic}* 「幽靈水果」 回復15 HP\n* 非歐幾何形狀的水果，\n  裡頭比外表還大。' ],
+            : [ '<32>{#p/basic}* 「幽靈水果」 回復15 HP\n* 非歐幾何形狀的水果，\n  裡頭比外邊還大。' ],
       name: '幽靈水果',
       use: [ "<32>{#p/human}* (You unpacked the Ghost Fruit's many dimensions.)" ]
    },

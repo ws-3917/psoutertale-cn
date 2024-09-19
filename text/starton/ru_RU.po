@@ -1,22 +1,6 @@
-#, fuzzy
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-18 14:30+0000\n"
-"PO-Revision-Date: 2024-09-18 14:30+0000\n"
-"Last-Translator: Maxim Aksenov <me6696154@gmail.com>\n"
-"Language-Team: Russian <https://ws3917.site/projects/project-spacetime/"
-"2-starton/ru/>\n"
-"Language: ru_RU\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: ENCODING\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.6.2\n"
-
-#
 
 msgid ""
 "<32>{#p/basic}* A standard-issue CITADEL long- range telescope, circa 261X."
@@ -315,7 +299,6 @@ msgstr "<32>{#p/basic}* Сейчас играет \"Трек 03\""
 msgid "* (Stop playback?)"
 msgstr "* (Прекратить воспроизведение?)"
 
-#, fuzzy
 msgid "<32>{#p/basic}{#npc/a}* That's more like it!"
 msgstr "<32>{#p/basic}{#npc/a}* Так-то лучше!"
 
@@ -339,7 +322,6 @@ msgstr ""
 msgid "<32>{#npc/a}* Grillbz says he's heard this song somewhere before."
 msgstr "<32>{#npc/a}* Гриллбз говорит, что где-то уже слышал эту песню."
 
-#, fuzzy
 msgid "<32>{#p/basic}{#npc/a}* You sure know a lot of music offhand, kid..."
 msgstr ""
 "<32>{#p/basic}{#npc/a}* Ты, конечно, знаешь много музыки наизусть, малыш..."
@@ -355,7 +337,6 @@ msgid ""
 msgstr ""
 "<15>{#p/papyrus}{#e/papyrus/21}Я ОТВЕЧАЮ НА ТЕЛЕФОННЫЙ ЗВОНОК С БАЛКОНА..."
 
-#, fuzzy
 msgid "<15>{#p/papyrus}{#e/papyrus/19}AND THIS IS WHERE IT LEADS ME!?"
 msgstr "<15>{#p/papyrus}{#e/papyrus/19}И ВОТ КУДА ЭТО МЕНЯ ПРИВЕЛО!?"
 
@@ -409,7 +390,6 @@ msgstr ""
 "<15>{#p/papyrus}{#e/papyrus/10}ВАУ!!\n"
 "ЭТО СТАНОВИТСЯ ВСЁ ЛУЧШЕ И ЛУЧШЕ!!"
 
-#, fuzzy
 msgid "<15>{#p/papyrus}{#e/papyrus/20}SO, WHAT ARE WE DOING HERE ANYWAY?"
 msgstr "<15>{#p/papyrus}{#e/papyrus/20}ИТАК, ЧТО МЫ ЗДЕСЬ ДЕЛАЕМ?"
 
@@ -5901,6 +5881,8 @@ msgstr "ПРИВЕТ!"
 msgid "SAVE YOURSELVES..."
 msgstr "СОХРАНИТЕ СЕБЯ..."
 
+msgid ""
+msgstr ""
 
 msgid "FAILED TO CONNECT..."
 msgstr "НЕ УДАЛОСЬ ПОДКЛЮЧИТЬСЯ..."

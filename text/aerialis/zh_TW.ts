@@ -1434,7 +1434,8 @@ export default {
             "<32>* 反正我早晚滅了你們。"
          ],
          whatthefuck: [
-            "<32>{#p/basic}* 別擔心，我不會有事的！\n* 看看這些光圈吶！\n* 老闆不會炒我魷魚的..."
+            '<32>{#p/basic}* 不用擔心，我不會有事的！\n* 這些光圈能證明！',
+'<32>{#p/basic}* 就算老闆炒我魷魚，\n  我也肯定能復職的...'
          ],
          puzzleReaction2a: [
             '<32>{#p/event}* 鈴鈴，鈴鈴...',
@@ -1745,7 +1746,7 @@ export default {
                ]
                : world.dead_skeleton
                   ? ['<25>{#p/sans}* ...', "<25>{#p/sans}{#g/sansBlink}* 呃，我現在沒心情。"]
-                  : ['<25>{#p/sans}* anne.'],
+                  : ['<25>{#p/sans}* 小雞。'],
          moneyVote2a: () =>
             iRespeccYourVilliany()
                ? ['<32>{#p/mettaton}* BLOOKY，你想票掉誰呢？']
@@ -1753,8 +1754,8 @@ export default {
                   ? ["<32>{#p/mettaton}* 好吧，少了一票。", '<32>{#p/mettaton}* BLOOKY，你想票掉誰呢？']
                   : [
                      '<32>{#p/mettaton}* 嗯...',
-                     '<32>* WHY \"ANNE?\"',
-                     "<25>{#p/sans}{#g/sansLaugh1}* 'cause this ANNE droid is driving me crazy.",
+                     '<32>* 什麼「小雞」？',
+                     "<25>{#p/sans}{#g/sansLaugh1}* 我真是受夠這個\n  嘰嘰喳喳的小雞器人了。",
                      "<32>{#p/mettaton}* 你被取消比賽資格了！",
                      '<25>{#p/sans}{#g/sansLaugh2}* 呵呵，值了。',
                      '<32>{#p/mettaton}* 呃... BLOOKY，你想票掉誰呢？'
@@ -4279,28 +4280,28 @@ export default {
                : world.darker
                   ? ['<32>{#p/basic}* 一個遊戲節目的操作臺。']
                   : SAVE.data.b.a_state_moneyfish
-                     ? ['<32>{#p/basic}* A game show console.\n* The first-hand witness to an awesome competition.']
-                     : ['<32>{#p/basic}* A game show console.\n* The unfortunate first-hand witness to an awful pun.'],
+                     ? ['<32>{#p/basic}* 一個遊戲節目的操作臺。\n* 這就是精彩比賽的一手見證。']
+                     : ['<32>{#p/basic}* 一個遊戲節目的操作臺。\n* 糟糕雙關笑話的一手見證。'],
          gameshow_terminal2: () =>
             SAVE.data.b.svr
                ? ['<32>{#p/human}* (You place your hands on the sympathetic console.)']
                : world.darker
                   ? ['<32>{#p/basic}* 一個遊戲節目的操作臺。']
-                  : ['<32>{#p/basic}* A game show console.\n* This console seems specially- equipped for ghosts.'],
+                  : ['<32>{#p/basic}* 一個遊戲節目的操作臺。\n* 看上去是專門給幽靈準備的。'],
          gameshow_terminal3: () =>
             SAVE.data.b.svr
                ? ['<32>{#p/human}* (You place your hands on the familiar console.)']
                : world.darker
                   ? ['<32>{#p/basic}* 一個遊戲節目的操作臺。']
-                  : ["<33>{#p/basic}* A game show console.\n* This one's tailor-made for you."],
+                  : ["<33>{#p/basic}* 一個遊戲節目的操作臺。\n* 為你量身定做的。"],
          gameshow_terminal4: () =>
             SAVE.data.b.svr
                ? ['<32>{#p/human}* (You place your hands on the friendly console.)']
                : world.darker
                   ? ['<32>{#p/basic}* 一個遊戲節目的操作臺。']
                   : SAVE.data.n.state_foundry_muffet === 1
-                     ? ['<32>{#p/basic}* A game show console.\n* Smells like... a substitution.']
-                     : ['<32>{#p/basic}* A game show console.\n* Who needs arms with consoles like these?'],
+                     ? ['<32>{#p/basic}* 一個遊戲節目的操作臺。\n* 有一股...山寨品的味道。']
+                     : ['<32>{#p/basic}* 一個遊戲節目的操作臺。\n* 有了這樣的操作臺，誰還用手臂呢？'],
          a_path2_sign: () =>
             SAVE.data.b.svr
                ? ['<32>{#p/human}* (The sign establishes a limit for the number of monsters a liftgate can hoist.)']
@@ -4357,16 +4358,16 @@ export default {
             SAVE.data.b.svr
                ? ['<32>{#p/human}* (You stop to see the flower.)']
                : world.darker
-                  ? ['<32>{#p/basic}* A Starling flower.']
+                  ? ['<32>{#p/basic}* 一盆星花。']
                   : ['<32>{#p/basic}* Beware, the lone Starling flower.'],
          coredoor: ["<32>{#p/basic}* 鎖住了。"],
-         deadbot: ["<32>{#p/basic}* It's just a husk."],
+         deadbot: ["<32>{#p/basic}* 就是個空殼。"],
          deadbot2: ["<32>{#p/basic}* He's all out of juice."],
          corenote1: [
             '<32>{#p/basic}* 一盒錄音帶，標著「Toriel」。',
             '<32>{#p/human}* （你聽了聽內容...）',
-            '<32>{#p/alphys}* Asgore has told me a lot about you.',
-            '<32>* Your pies, your stories, even the way you made him laugh...',
+            '<32>{#p/alphys}* Asgore常跟我談起你。',
+            '<32>* 說你做得一手好派，\n  講故事也是一把好手，\n  還有你會怎麼逗他笑...',
             '<32>* And your loving care for the humans who come here.',
             '<32>* Despite your misconceptions about Asgore, you tried to be a positive light.',
             "<32>* Because of me, you'll never get to share that light again."
@@ -4525,21 +4526,21 @@ export default {
             SAVE.data.b.svr
                ? ["<32>{#p/human}* (You can't make out what's in the box...)"]
                : [
-                  "<32>{#p/basic}* It's a bunch of mostly-empty cardboard boxes.",
+                  "<32>{#p/basic}* 一堆紙板箱，基本上是空的。",
                   '<32>{#p/basic}* This dull box has a few test tubes lying at the bottom.'
                ],
          cardboard2: () =>
             SAVE.data.b.svr
                ? ["<32>{#p/human}* (You can't make out what's in the box...)"]
                : [
-                  "<32>{#p/basic}* It's a bunch of mostly-empty cardboard boxes.",
+                  "<32>{#p/basic}* 一堆紙板箱，基本上是空的。",
                   '<32>{#p/basic}* This tall box reeks of exotic chemicals.'
                ],
          cardboard3: () =>
             SAVE.data.b.svr
                ? ["<32>{#p/human}* (You can't make out what's in the box...)"]
                : [
-                  "<32>{#p/basic}* It's a bunch of mostly-empty cardboard boxes.",
+                  "<32>{#p/basic}* 一堆紙板箱，基本上是空的。",
                   '<32>{#p/basic}* This small box contains papers all written in an odd font.'
                ],
          labchem: (mtt: boolean) =>
@@ -5719,13 +5720,13 @@ export default {
                         "<32>* ... maybe I'll stumble across that one later."
                      ]
                      : [
-                        "<32>{#p/basic}{#npc/a}* Security kicked me out for taking in the wish flowers' auras.",
+                        "<32>{#p/basic}{#npc/a}* 那蒲公罌仙氣十足，我就聞了下，\n  結果保安把我轟出來了。",
                         SAVE.data.b.killed_mettaton
                            ? '<32>* That famous guy has everyone distracted, so I could probably go back in...'
                            : world.genocide
-                              ? '<32>* The lights went off a while ago, so I could probably go back in...'
+                              ? '<32>* 前不久燈突然滅了，\n  也許我能趁這會溜回去...'
                               : '<32>* The guards have clocked out, so I could probably go back in...',
-                        "<32>* ... but, ahh, this here's the best one I've found so far..."
+                        "<32>* 不過...\n  啊，我聞了這麼多，\n  還是這朵的仙氣最濃..."
                      ],
             ["<32>{#p/basic}{#npc/a}* Don't worry about me, I'm just here... taking in a wish flower's aura."]
          ),
@@ -5920,7 +5921,7 @@ export default {
                   '<25>{#p/asriel2}{#f/1}* 我就感到後怕。'
                ],
          hotelElectrics: [
-            '<25>{#p/asriel2}{#f/10}* 櫃檯上那些便條\n  你看了嗎？',
+            '<25>{#p/asriel2}{#f/10}* 櫃檯上那幾張字條\n  你看了嗎？',
             '<25>{#f/6}* Alphys來過這，\n  那就說得通這兒的電路\n  什麼情況了。',
             '<25>{#f/15}* 不過就來那麼會，\n  能把這兒的電器全燒壞了？',
             "<25>{#f/16}* ...這也太荒唐了吧..."
@@ -5929,48 +5930,48 @@ export default {
             [
                [
                   "<25>{#p/asriel2}{#f/3}* Abandoned.\n* As you'd expect.",
-                  "<25>{#f/4}* ... come on, let's get to the CORE."
+                  "<25>{#f/4}* ...不管了，咱去核心。"
                ],
                []
             ][Math.min(SAVE.flag.n.ga_asrielHotel2++, 1)],
          core0: () =>
             [
                [
-                  '<25>{#p/asriel2}{#f/3}* At last...',
+                  '<25>{#p/asriel2}{#f/3}* 可算到了...',
                   '<25>{#f/4}* The central source of power for the outpost.',
-                  '<25>{#p/asriel2}{#f/8}* Stay close. ELITE squad members might be lurking nearby.'
+                  '<25>{#p/asriel2}{#f/8}* 跟緊我。\n  搞不好特戰隊員會在這蹲點。'
                ],
                []
             ][Math.min(SAVE.flag.n.ga_asrielCore0++, 1)],
-         core1: ['<25>{#p/asriel2}{#f/10}* No guards...?', '<25>{#f/15}* Golly... they really ARE afraid of us.'],
+         core1: ['<25>{#p/asriel2}{#f/10}* ...沒人守著？', '<25>{#f/15}* 哎呀呀...\n  我倆還真把他們嚇破膽了。'],
          core2: () =>
             [
                [
-                  '<25>{#p/asriel2}{#f/3}* Finally, the central control room.',
-                  "<25>{#f/3}* From here, there's practically a control for everything.",
-                  '<25>{#f/15}* Gravity plating, heat distribution, even the atmosphere...',
-                  '<25>{#f/4}* It all runs through this system.',
+                  '<25>{#p/asriel2}{#f/3}* 總算到主控室了。',
+                  "<25>{#f/3}* 在這，咱簡直可以掌控一切。",
+                  '<25>{#f/15}* 不管是重力調控，\n  還是熱量分配，\n  甚至是大氣管理...',
+                  '<25>{#f/4}* 都由這兒的系統運轉。',
                   "<25>{#f/3}* Let's see if my royal access codes still hold weight.",
                   "<25>{#f/2}* I wouldn't put it past them to forget..."
                ],
                [
-                  '<25>{#p/asriel2}{#f/6}* Okay, we made it back.',
-                  ...(SAVE.flag.b.asriel_access ? [] : ["<25>{#f/7}* Let's give those royal access codes a try."])
+                  '<25>{#p/asriel2}{#f/6}* 咱又回來了。',
+                  ...(SAVE.flag.b.asriel_access ? [] : ["<25>{#f/7}* 我用皇室訪問碼試試。"])
                ]
             ][Math.min(SAVE.flag.n.ga_asrielCore2++, 1)],
          core3: () => [
-            '<26>{*}{#p/asriel2}{#f/6}* System, extend the bridge, authorization Asriel STARLING-4-7-7-4.{^40}{%}',
-            ...(SAVE.flag.b.asriel_access ? [] : ['<25>{*}{#f/6}* ...{^40}{%}', '<25>{*}{#f/7}* I guess no- {%}'])
+            '<26>{*}{#p/asriel2}{#f/6}* Asriel呼叫系統，\n  請開啟伸縮橋。\n* 授權碼是STARLING-4-7-7-4。{^40}{%}',
+            ...(SAVE.flag.b.asriel_access ? [] : ['<25>{*}{#f/6}* ...{^40}{%}', '<25>{*}{#f/7}* 看來沒- {%}'])
          ],
-         core4a: ['<25>{#p/asriel2}{#f/10}* I guess so.'],
+         core4a: ['<25>{#p/asriel2}{#f/10}* 看來能用。'],
          core4b: () =>
             [
                [
-                  '<25>{#p/asriel2}{#f/3}* Think you can get the back door unlocked while I set this up?',
-                  '<25>{#f/4}* Pick a side, left or right, and hit the switch at the end.',
-                  "<25>{#f/1}* I'll be waiting."
+                  '<25>{#p/asriel2}{#f/3}* 我在這篡改系統，\n  你能把後門解開嗎？',
+                  '<25>{#f/4}* 左或右，選一條路，\n  按下盡頭的開關。',
+                  "<25>{#f/1}* 等你好訊息。"
                ],
-               ["<25>{#f/4}* You do your part, and I'll do mine."]
+               ["<25>{#f/4}* 你忙你的，我忙我的。"]
             ][Math.min(SAVE.flag.n.ga_asrielCore4++, 1)],
          core5: ['<25>{#p/asriel2}{#f/8}* Wrong way, $(name).'],
          core6a: () =>
@@ -6036,7 +6037,7 @@ export default {
          ],
          core8d: ['<25>{#p/asriel2}{#f/10}* 忽視了什麼？'],
          core8e: ['<32>{*}{#p/mettaton}{#f/1}* NEO之力。{^40}{%}'],
-         azzyBpants: ['<25>{#p/asriel2}{#f/8}* Golly.\n* Why is HE still around.']
+         azzyBpants: ['<25>{#p/asriel2}{#f/8}* 天吶。\n* 這傢伙怎麼還在。']
       },
       coreswitched: () =>
          SAVE.data.b.svr
@@ -6325,28 +6326,28 @@ export default {
             ],
       core1: [
          '<32>{#p/event}* 鈴鈴，鈴鈴...',
-         '<25>{#p/alphys}{#g/alphysNeutralSweat}* ... h-hiya.',
-         "<25>* That's the elevator to the Citadel.",
-         "<25>{#g/alphysInquisitive}* I'd have you go there straight away, but...",
-         "<25>{#g/alphysWelp}* It's... kind of not working right now.",
-         "<25>{#g/alphysCutscene3}* You'll have to go through the CORE instead.",
-         "<25>{#g/alphysUhButHeresTheDeal}* When you're ready, head down there and I'll call you back!"
+         '<25>{#p/alphys}{#g/alphysNeutralSweat}* ...你-你好呀。',
+         "<25>* 那是去往首塔的電梯。",
+         "<25>{#g/alphysInquisitive}* 我沒有想阻攔你的意思，\n  但是...",
+         "<25>{#g/alphysWelp}* 這玩意... 出了點問題。",
+         "<25>{#g/alphysCutscene3}* 現在你得通過核心\n  才能去到首塔。",
+         "<25>{#g/alphysUhButHeresTheDeal}* 等你準備好了，\n  就往那邊走吧，\n  到時我會再給你回電話的！"
       ],
       core2a: () =>
          [
             [
                '<32>{#p/event}* 鈴鈴，鈴鈴...',
-               "<25>{#p/alphys}{#g/alphysSmileSweat}* Okay, you're here.",
-               "<25>{#g/alphysSmileSweat}* I'll keep an open line between us while you're down here...",
-               '<25>{#g/alphysWelp}* ... just in case something bad happens.',
+               "<25>{#p/alphys}{#g/alphysSmileSweat}* 好，你到了。",
+               "<25>{#g/alphysSmileSweat}* 你在核心的這段時間，\n  我會和你保持電話聯繫...",
+               '<25>{#g/alphysWelp}* ...以防有什麼意外。',
                ...(SAVE.data.n.plot < 66.2
                   ? [
-                     '<25>{#g/alphysInquisitive}* The ELITE squad members who patrol here SHOULD be on break, but...',
-                     "<25>{#g/alphysNeutralSweat}* ... well, I can't make any guarantees."
+                     '<25>{#g/alphysInquisitive}* 在這裡巡邏的特戰隊成員\n  現在本該在休息，\n  不過...',
+                     "<25>{#g/alphysNeutralSweat}* ...呃，我擔保不了。"
                   ]
                   : [
-                     "<25>{#g/alphysInquisitive}* Since we're here ahead of schedule, the ELITE squad is off-duty.",
-                     "<25>{#g/alphysNeutralSweat}* ... let's hope that makes things easier."
+                     "<25>{#g/alphysInquisitive}* 我們提前到了，\n  特戰隊應該沒在執勤。",
+                     "<25>{#g/alphysNeutralSweat}* ...希望這一路上暢通無阻。"
                   ])
             ],
             SAVE.data.n.plot < 66.2
@@ -6381,7 +6382,7 @@ export default {
             ],
             ['<25>{#p/alphys}{#g/alphysCutscene3}* ...']
          ][Math.min(SAVE.data.n.state_aerialis_coreleave++, 3)],
-      core3: ['<25>{*}{#p/alphys}{#g/alphysShocked}* Watch out!{^999}'],
+      core3: ['<25>{*}{#p/alphys}{#g/alphysShocked}* 小心！{^999}'],
       core4: () =>
          SAVE.data.b.legendary_madjick
             ? ["<25>{#p/alphys}{#g/alphysCutscene3}* Huh?\n* What's with that item?"]
@@ -6399,12 +6400,12 @@ export default {
                   ]
                   : world.bad_lizard === 0
                      ? [
-                        '<25>{#p/alphys}{#g/alphysSideSad}* No... why...',
+                        '<25>{#p/alphys}{#g/alphysSideSad}* 不... 為什麼...',
                         '<25>{#g/alphysWorried}* ...',
-                        "<25>* Couldn't there have been... another way?"
+                        "<25>* 難道就沒有... 別的方法嗎？"
                      ]
                      : [
-                        '<25>{#p/alphys}{#g/alphysSideSad}* No... why...',
+                        '<25>{#p/alphys}{#g/alphysSideSad}* 不... 為什麼...',
                         '<25>{#g/alphysThatSucks}* ...',
                         "<25>* At least it won't be long until we're outta here."
                      ],
@@ -6617,7 +6618,7 @@ export default {
       froggitexWhimsalot: () =>
          !world.badder_lizard
             ? ['<32>{#p/alphys}* The f-first pair of guards.']
-            : ['<32>{#p/story}* Final Froggit and Flutterknyte appeared before you!'],
+            : ['<32>{#p/story}* Final Froggit和Flutterknyte\n  在你面前現身了！'],
       froggitexWhimsalotX: (whimmer: boolean) =>
          whimmer ? ['<32>{#p/story}* Flutterknyte now flies solo.'] : ['<32>{#p/story}* Final Froggit hops alone.'],
       astigmatism: () =>
@@ -6641,7 +6642,7 @@ export default {
          world.goatbro
             ? ['<32>{#p/asriel2}* 只剩一個了。']
             : pyrope
-               ? ['<32>{#p/story}* Only Hotwire remains.']
+               ? ['<32>{#p/story}* 只剩Hotwire了。']
                : ['<32>{#p/story}* Only Tsunderidex remains.'],
       astigmatismMigospelX: ['<32>{#p/story}* Eyewalker Prime takes charge of this battle!']
    },
@@ -8047,38 +8048,38 @@ export default {
       ],
       old_spray_text: ['<32>{#p/human}* （你噴灑了糖霧。）\n* （好甜...）', '<32>{#p/basic}* Cozmo is knocked out!'],
       status1: () =>
-         !world.badder_lizard ? ['<32>{#p/alphys}* Uh oh.'] : ['<32>{#p/story}* Cozmo在瞬息間突然現身！'],
+         !world.badder_lizard ? ['<32>{#p/alphys}* 糟糕。'] : ['<32>{#p/story}* Cozmo在瞬息間突然現身！'],
       act_check: () =>
          !world.badder_lizard
-            ? ['<32>{#p/alphys}* Cozmo\'s what you\'d call a \"traditional\" magic user.\n* Its orbs are its strength...']
-            : ['<32>{#p/story}* COZMO - ATK 29 DEF 24\n* This enigmatic ELITE squad member speaks in magic words.'],
-      act_check2: ['<32>{#p/story}* COZMO - ATK 29 DEF 24\n* Not playing with a full deck.'],
+            ? ['<32>{#p/alphys}* Cozmo就是一個你所說的\n  「傳統」意義上的魔法師。\n* 它的力量源自於它的魔球...']
+            : ['<32>{#p/story}* COZMO - 攻擊29 防禦24\n* 這個高深莫測的特戰隊成員\n  總說著咒語。'],
+      act_check2: ['<32>{#p/story}* COZMO - 攻擊29 防禦24\n* 智障。'],
       act_check3: ['<32>{#p/story}* COZMO - ATK 29 DEF 24\n* A magician, out of tricks...'],
       act_check4: ['<32>{#p/story}* COZMO - ATK 29 DEF 24\n* No magic words could save this old magician now.'],
       act_check5: [
          '<32>{#p/story}* COZMO - ATK 29 DEF 24\n* The power of love is stronger than even the oldest magic.'
       ],
       idleStatus1: () =>
-         !world.badder_lizard ? ["<32>{#p/alphys}* It's Cozmo."] : ['<32>{#p/story}* Cozmo跳著神秘的舞蹈。'],
+         !world.badder_lizard ? ["<32>{#p/alphys}* 這是Cozmo。"] : ['<32>{#p/story}* Cozmo跳著不可思議的舞蹈。'],
       idleStatus2: () =>
          !world.badder_lizard
-            ? ["<32>{#p/alphys}* It's Cozmo."]
-            : ['<32>{#p/story}* Cozmo flaunts its orbs in a menacing manner.'],
+            ? ["<32>{#p/alphys}* 這是Cozmo。"]
+            : ['<32>{#p/story}* Cozmo氣勢洶洶地賣弄著它的魔球。'],
       idleStatus3: () =>
          !world.badder_lizard
-            ? ["<32>{#p/alphys}* It's Cozmo."]
-            : ['<32>{#p/story}* Cozmo whispers non-terrestrial swear words.'],
+            ? ["<32>{#p/alphys}* 這是Cozmo。"]
+            : ['<32>{#p/story}* Cozmo嘀咕著艱深晦澀的髒話。'],
       idleStatus4: () =>
          !world.badder_lizard
-            ? ["<32>{#p/alphys}* It's Cozmo."]
-            : ['<32>{#p/story}* Cozmo peers at you with piercing eyes.'],
+            ? ["<32>{#p/alphys}* 這是Cozmo。"]
+            : ['<32>{#p/story}* Cozmo以火眼金睛凝視著你。'],
       idleStatus5: () =>
-         !world.badder_lizard ? ["<32>{#p/alphys}* It's Cozmo."] : ['<32>{#p/story}* Smells like... magic.'],
-      idleTalk1: ['<20>{#p/basic}{~}Abra cadabra.'],
-      idleTalk2: ['<20>{#p/basic}{~}A la kazam!!'],
-      idleTalk3: ['<20>{#p/basic}{~}Tinkle tinkle hoy.'],
-      idleTalk4: ['<20>{#p/basic}{~}Hocus pocus.'],
-      idleTalk5: ['<21>{#p/basic}{~}Please and thank you.'],
+         !world.badder_lizard ? ["<32>{#p/alphys}* 這是Cozmo。"] : ['<32>{#p/story}* 聞起來像... 魔法。'],
+      idleTalk1: ['<20>{#p/basic}{~}急急\n如律令。'],
+      idleTalk2: ['<20>{#p/basic}{~}變變變！！'],
+      idleTalk3: ['<20>{#p/basic}{~}神明啊，\n顯靈吧。'],
+      idleTalk4: ['<20>{#p/basic}{~}嘛咪\n嘛咪哄。'],
+      idleTalk5: ['<21>{#p/basic}{~}請，\n謝謝。'],
       danceText1: ['<32>{#p/human}* (You dance.)', "<32>{#p/basic}* Cozmo's gravity orb grows near..."],
       danceTalk1: ['<20>{#p/basic}{~}Magnum gravitas!!'],
       danceStatus1: () =>
@@ -8109,19 +8110,19 @@ export default {
             ? ['<32>{#p/alphys}* You can probably spare it now.']
             : ['<32>{#p/story}* Cozmo is out of options.'],
       playdeadText1: () => [
-         '<32>{#p/human}* (You play dead.)',
+         '<32>{#p/human}* （你選擇裝死。）',
          "<32>{#p/basic}* Cozmo's orbs begin to act strangely to each other...",
-         ...(!world.badder_lizard ? ['<32>{#p/alphys}* What the...?'] : [])
+         ...(!world.badder_lizard ? ['<32>{#p/alphys}* 搞什麼...？'] : [])
       ],
       playdeadTalk: ['<20>{#p/basic}{~}\x00*chants of confusion*'],
       playdeadStatus: () =>
          !world.badder_lizard
-            ? ['<32>{#p/alphys}* I guess that works...?']
+            ? ['<32>{#p/alphys}* 我想，這起作用了...？']
             : ["<32>{#p/story}* Cozmo's orbs don't know how to handle this."],
-      playdeadIdleTalk1: ['<20>{#p/basic}{~}Utter inconfidence.'],
-      playdeadIdleTalk2: ['<20>{#p/basic}{~}Total vexation.'],
-      playdeadIdleTalk3: ['<20>{#p/basic}{~}Radical confusion.'],
-      playdeadText2: ['<32>{#p/human}* (You play dead.)\n* (Nothing changes.)'],
+      playdeadIdleTalk1: ['<20>{#p/basic}{~}實在\n灰心喪氣。'],
+      playdeadIdleTalk2: ['<20>{#p/basic}{~}徹底\n心煩意亂。'],
+      playdeadIdleTalk3: ['<20>{#p/basic}{~}完全\n亂成一團。'],
+      playdeadText2: ['<32>{#p/human}* （你選擇裝死。）\n* （沒什麼變化。）'],
       flirtText0: () => [
          '<32>{#p/human}* (You flirt with Cozmo.)\n* (No effect.)',
          ...(!world.badder_lizard ? ['<32>{#p/alphys}* Yeah, good luck with that...'] : [])
@@ -8142,7 +8143,7 @@ export default {
       flirtTalk2: ["<20>{#p/basic}{~}Ah!\nIt's amazing!"],
       flirtStatus2: () =>
          !world.badder_lizard
-            ? ["<32>{#p/alphys}* Wow... I guess that's that."]
+            ? ["<32>{#p/alphys}* 哇... 我想就這樣吧。"]
             : ['<32>{#p/story}* Cozmo is enchanted.'],
       flirtText3: () => [
          '<32>{#p/human}* (You flirt.)\n* (Nothing changes.)',
@@ -8922,15 +8923,15 @@ export default {
       act_check: () =>
          world.goatbro
             ? ['<32>{#p/asriel2}* Hotwire，說唱呆子。\n* 腦子這麼活絡，\n  卻把才華浪費在這種小兒科上。']
-            : ['<32>{#p/story}* HOTWIRE - ATK 29 DEF 14\n* For this devious monster, no scheme is too complex.'],
+            : ['<32>{#p/story}* HOTWIRE - 攻擊 29 防禦 14\n* 這種怪物很狡猾，任何計畫對它來說都不複雜。'],
       act_check2: [
-         '<32>{#p/story}* HOTWIRE - ATK 29 DEF 14\n* The spark is fading for this otherwise ignited monster.'
+         '<32>{#p/story}* HOTWIRE - 攻擊 29 防禦 14\n* 這個怪物點燃的火花正在熄滅。'
       ],
-      act_check3: ["<32>{#p/story}* HOTWIRE - ATK 29 DEF 14\n* This smoking hothead's rhymes might just catch fire."],
-      act_check4: ['<32>{#p/story}* HOTWIRE - ATK 29 DEF 14\n* Re-kindling its love for rap, a-one-liner at a time.'],
-      act_flirt: ['<32>{#p/human}* (You flirt with Hotwire.)', '<32>{#p/basic}* Hotwire flirts back!'],
-      act_diss: ['<32>{#p/human}* (You let your best diss track loose on Hotwire.)'],
-      dissTalk1: ['<08>{#p/basic}{~}If you wanna call me crap', '<08>{#p/basic}{~}You better know how to rap!'],
+      act_check3: ["<32>{#p/story}* HOTWIRE - 攻擊 29 防禦 14\n* 這個冒煙蠢貨的押韻詞容易著火。"],
+      act_check4: ['<32>{#p/story}* HOTWIRE - 攻擊 29 防禦 14\n* 重新點燃了對說唱的熱愛，每次一句。'],
+      act_flirt: ['<32>{#p/human}* （你對Hotwire調情。）', '<32>{#p/basic}* Hotwire也向你調情！'],
+      act_diss: ['<32>{#p/human}* （你使勁貶損Hotwire。）'],
+      dissTalk1: ['<08>{#p/basic}{~}你若罵我不會說唱', '<08>{#p/basic}{~}我可得說你行你上！'],
       dissTalk2: [
          '<08>{#p/basic}{~}Your disses are trash',
          '<08>{#p/basic}{~}So you might as well dash',
@@ -8942,12 +8943,12 @@ export default {
          "<08>{#p/basic}{~}I'm the original hot streak",
          '<08>{#p/basic}{~}I make your insults look weak!'
       ],
-      sparkText1: ["<32>{#p/human}* (You spark Hotwire's cables.)", "<32>{#p/basic}* Hotwire's confidence grows."],
-      sparkText2: ["<32>{#p/human}* (You spark Hotwire's cables.)", '<32>{#p/basic}* Hotwire is peaking!'],
-      sparkText3: ["<32>{#p/human}* (You spark Hotwire's cables.)", '<32>{#p/basic}* Hotwire is already powered up.'],
-      rapText1: ['<32>{#p/human}* (You rap at Hotwire.)', '<32>{#p/basic}* Hotwire is indifferent towards you.'],
-      rapText2: ['<32>{#p/human}* (You rap at Hotwire.)', '<32>{#p/basic}* Hotwire is disappointed in you.'],
-      rapText3: ['<32>{#p/human}* (You rap at Hotwire.)', '<32>{#p/basic}* Hotwire is disgusted at you.'],
+      sparkText1: ["<32>{#p/human}* （你點亮了Hotwire的引線。）", "<32>{#p/basic}* Hotwire的自信不斷增加。"],
+      sparkText2: ["<32>{#p/human}* （你點亮了Hotwire的引線。）", '<32>{#p/basic}* Hotwire達到了巔峰！'],
+      sparkText3: ["<32>{#p/human}* （你點亮了Hotwire的引線。）", '<32>{#p/basic}* Hotwire已經通電了。'],
+      rapText1: ['<32>{#p/human}* （你向Hotwire說唱。）', '<32>{#p/basic}* Hotwire對你很冷漠。'],
+      rapText2: ['<32>{#p/human}* （你向Hotwire說唱。）', '<32>{#p/basic}* Hotwire對你很失望。'],
+      rapText3: ['<32>{#p/human}* （你向Hotwire說唱。）', '<32>{#p/basic}* Hotwire感到你很噁心。'],
       idleTalk1: ['<08>{#p/basic}{~}No shame on this flame', '<08>{#p/basic}{~}I cannot be tamed!'],
       idleTalk2: ["<08>{#p/basic}{~}The name's Hotwire", "<08>{#p/basic}{~}I'm super hot fire!"],
       idleTalk3: ['<08>{#p/basic}{~}Even a noose', "<08>{#p/basic}{~}Won't stop me letting loose!"],
@@ -8998,19 +8999,19 @@ export default {
          '<08>{#p/basic}{~}One mistake is all it takes',
          '<08>{#p/basic}{~}Before I land a rhyme in your face!'
       ],
-      status1: ['<32>{#p/story}* Hotwire is looking for that extra little boost.'],
-      status2: ['<32>{#p/story}* Hotwire is rhyming up a storm.'],
-      status3: ['<32>{#p/story}* Hotwire is protected by its winsome smile.'],
-      status4: ['<32>{#p/story}* Hotwire reaches for the turbocharger.'],
+      status1: ['<32>{#p/story}* Hotwire正在尋找額外的動力。'],
+      status2: ['<32>{#p/story}* Hotwire吟唱起了一場風暴。'],
+      status3: ['<32>{#p/story}* Hotwire被它迷人的微笑保護了起來。'],
+      status4: ['<32>{#p/story}* Hotwire嘗試渦輪增壓。'],
       status5: ['<32>{#p/story}* Smells like lyricism.'],
-      sparkStatus1A: ['<32>{#p/story}* Hotwire is shocked at its own brilliance.'],
-      sparkStatus2A: ['<32>{#p/story}* Hotwire begins its ignition sequence... manually.'],
-      sparkStatus3A: ['<32>{#p/story}* Hotwire gets things going whether we like it or not.'],
-      sparkStatus1B: ['<32>{#p/story}* Hotwire is feeling electric.'],
-      sparkStatus2B: ['<32>{#p/story}* Hotwire has reached its true level.'],
-      sparkStatus3B: ['<32>{#p/story}* Hotwire is turbocharged.'],
+      sparkStatus1A: ['<32>{#p/story}* Hotwire被它的輝煌震驚了。'],
+      sparkStatus2A: ['<32>{#p/story}* Hotwire啟動了點火程式...手動地。'],
+      sparkStatus3A: ['<32>{#p/story}* 不管我們喜不喜歡，Hotwire仍然我行我素。'],
+      sparkStatus1B: ['<32>{#p/story}* Hotwire很興奮。'],
+      sparkStatus2B: ['<32>{#p/story}* Hotwire的能力完全釋放了出來。'],
+      sparkStatus3B: ['<32>{#p/story}* Hotwire正在渦輪增壓。'],
       hurtStatus: () =>
-         world.goatbro ? ['<32>{#p/asriel2}* 離死不遠了。'] : ['<32>{#p/story}* Hotwire is spiraling out of control.']
+         world.goatbro ? ['<32>{#p/asriel2}* 離死不遠了。'] : ['<32>{#p/story}* Hotwire要失控了。']
    },
 
    b_opponent_perigee: {
@@ -9627,7 +9628,7 @@ export default {
    },
    i_starfait: {
       battle: {
-         description: 'There is such a thing as too much sugar.',
+         description: '明顯加糖加多了。',
          name: '新星咖啡'
       },
       drop: ['<32>{#p/human}* （你把新星咖啡扔掉了。）'],
@@ -10107,17 +10108,17 @@ export default {
                   ? 'uhhhh nobody saw that right' 
                   : [
                      '終於見到人類了，有點傷腦筋www', 
-                     'well i just met the human' 
+                     '呃我剛剛遇見人類了。' 
                   ][SAVE.data.n.bad_lizard]
          },
          alphys2: {
             author: 'ALPHYS',
             pm: () =>
                SAVE.data.n.state_foundry_undyne
-                  ? 'ok good' 
+                  ? 'OK讚啦' 
                   : [
                      iFancyYourVilliany()
-                        ? 'still cant believe mettaton gave them a moniker???'
+                        ? '還是真不敢信mettaton居然給他們取了個綽號？？？'
                         : 'still cant believe mettaton wanted me to fight them???', 
                      'they seem... nice?' 
                   ][SAVE.data.n.bad_lizard]
@@ -10154,10 +10155,10 @@ export default {
                SAVE.data.n.state_foundry_undyne === 1
                   ? 'ok mettaton could you like not keep doing this to me thanks' 
                   : SAVE.data.n.state_aerialis_crafterresult === 0
-                     ? 'ok ill be honest i have no idea how that worked out LOL' 
+                     ? '好吧講真我也不知道結果會怎樣www' 
                      : SAVE.data.n.bad_lizard < 1
                         ? [
-                           'wow, i shouldve known those bombs were just TV props LOL', 
+                           '挖靠我居然沒想到那些炸彈只是電視道具www', 
                            'NOOOO they were so close', 
                            "let's go the human made it to the end", 
                            'anyone who wasnt watching just now missed out big time' 
@@ -10277,7 +10278,7 @@ export default {
          },
          alphysX4: {
             author: 'ALPHYS',
-            pm: 'and the whole set just started floating into the sky? OMG YES LMAO'
+            pm: '然後整個場景就開始飄向天空？挖靠讚啦XD'
          },
          alphysX5: {
             author: '懶骨.',
@@ -10285,7 +10286,7 @@ export default {
          },
          alphysX6: {
             author: 'ALPHYS',
-            pm: 'i remember asgore trying everything he could to hold it down XD'
+            pm: '我記得asgore盡了全力來壓住它笑死'
          },
          alphysX7: {
             author: 'ALPHYS',
@@ -11189,7 +11190,7 @@ export default {
       menuPrompt3: () =>
          world.bulrun ? '<23>{#p/basic}* ...但是大家都逃走了。' : '<23>{#p/basic}* ...但是誰也沒有來。',
       note: () => [
-         "<32>{#p/basic}* 你找到幾張便條。",
+         "<32>{#p/basic}* 你找到幾張字條。",
          {
             b: '<16>* 「如果你看到了\n   這個...」',
             c: world.bullied
@@ -11972,7 +11973,7 @@ export default {
             SAVE.data.n.plot < 65
                ? SAVE.data.b.a_state_hapstablook
                   ? [
-                     '<32>{#p/human}* (Pondering the backstory of a certain TV superstar fills you with determination.)'
+                     '<32>{#p/human}* （思考著這位電視明星的故事，\n  這使你充滿了決心。）'
                   ]
                   : ["<32>{#p/human}* （Mettaton這番荒唐的胡鬧\n  使你充滿了決心。）"]
                : SAVE.data.n.plot < 68

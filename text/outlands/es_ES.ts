@@ -990,45 +990,45 @@ export default {
                     '<25>{#p/asriel1}{#f/13}* Una vez, ella me dijo algo...',
                     '<25>{#f/17}* \"Esta silla me recuerda a mi hogar.\"',
                     '<25>{#f/13}* Pero ella ya estaba en su hogar, así que le pregunte a que se refería.',
-                    '<25>{#f/17}* Turns out she had this at her home...',
-                    '<25>{#f/23}* ... on the old homeworld.'
+                    '<25>{#f/17}* Resulta que ella tenía esto en su casa...',
+                    '<25>{#f/23}* ... en su antiguo hogar natal.'
                  ],
                  [
-                    "<25>{#p/asriel1}{#f/13}* I don't know much about that world, Frisk...",
-                    '<25>{#f/17}* But I hear it was very... idyllic.',
-                    '<25>{#f/20}* Sure, there were lots of advances in magic and technology...',
-                    '<25>{#f/17}* But people loved it, because life was so... simple.'
+                    "<25>{#p/asriel1}{#f/13}* No se mucho sobre ese mundo, Frisk...",
+                    '<25>{#f/17}* Pero escuche que era muy... idílico.',
+                    '<25>{#f/20}* Seguro, ahí había muchos avances en magia y tecnología...',
+                    '<25>{#f/17}* Pero la gente lo amaba, porque la vida era tan... simple.'
                  ],
-                 [ "<25>{#p/asriel1}{#f/23}* What I wouldn't give to have a simple life." ]
+                 [ "<25>{#p/asriel1}{#f/23}* Lo que daría por tener una vida sencilla." ]
               ][Math.min(asrielinter.chair3++, 3)]
             : world.darker
-            ? [ '<32>{#p/basic}* A reading chair.' ]
-            : [ '<32>{#p/basic}* A comfy reading chair...', '<32>* Seems like the right size for Toriel.' ],
-      chair4: [ '<25>{#p/toriel}{#n1}* Ah, there you are.', '<25>* I have left your breakfast on the table for you.' ],
+            ? [ '<32>{#p/basic}* Una silla para leer.' ]
+            : [ '<32>{#p/basic}* Una cómoda silla para leer...', '<32>* Parece del tamaño perfecto para Toriel.' ],
+      chair4: [ '<25>{#p/toriel}{#n1}* Ah, ahí estas.', '<25>* Te deje tu desayuno en la mesa para ti.' ],
       closetrocket: {
          a: () => [
-            '<32>{#p/human}* (You look inside the chest...)',
+            '<32>{#p/human}* (Miras adentro del armario..)',
             ...(SAVE.data.b.svr
                ? [
                     [
-                       "<25>{#p/asriel1}{#f/13}* Yeah, uh, that's about all you'll find in there.",
-                       "<25>{#f/17}* I'm not sure why Toriel put this here.",
-                       '<25>{#f/17}* $(name) and I were never interested in comic books.'
+                       "<25>{#p/asriel1}{#f/13}* Si, eh, eso es todo lo que puedes encontrar ahí.",
+                       "<25>{#f/17}* No estoy seguro de porque Toriel puso esto aquí.",
+                       '<25>{#f/17}* $(name) y yo nunca estuvimos interesados en los comics.'
                     ],
-                    [ '<25>{#p/asriel1}{#f/10}* I guess she just wanted to pretend we were living here...?' ],
-                    [ '<25>{#p/asriel1}{#f/13}* The things a mother does to make herself feel better...' ]
+                    [ '<25>{#p/asriel1}{#f/10}* ¿Supongo que ella solo quiere pretender que vivimos aquí...?' ],
+                    [ '<25>{#p/asriel1}{#f/13}* Las cosas que hace una madre para sentirse mejor...' ]
                  ][Math.min(asrielinter.closetrocket_a++, 2)]
                : [ '<32>{#p/basic}* Nada más que encontrar aquí..' ])
          ],
          b: () => [
-            '<32>{#p/human}* (You look inside the chest...)',
+            '<32>{#p/human}* (Miras adentro del armario..)',
             ...(SAVE.data.b.svr
                ? []
                : [ "<32>{#p/basic}* ¿Qué es eso?\n* ¿Un comic edición limitada de Super Starwalker?" ]),
-            '<32>{#s/equip}{#p/human}* (You got the Super Starwalker 3.)'
+            '<32>{#s/equip}{#p/human}* (Conseguiste Super Starwalker 3.)'
          ],
          b2: () => [
-            '<32>{#p/human}* (You look inside the chest...)',
+            '<32>{#p/human}* (Miras adentro del armario..)',
             ...(SAVE.data.b.svr
                ? []
                : [ "<32>{#p/basic}* ¿Qué es eso?\n* ¿Un comic edición limitada de Super Starwalker?" ]),
@@ -1039,97 +1039,97 @@ export default {
          a1: () =>
             SAVE.flag.b.$svr
                ? [
-                    "<32>{#p/human}* I've seen the effect you've had on this world...",
-                    '<32>* A perfect ending, where everyone gets to be happy...',
-                    "<32>* There's something special about that."
+                    "<32>{#p/human}* Ya vi el efecto que tuviste en este mundo...",
+                    '<32>* Un final perfecto, donde todos son felices...',
+                    "<32>* Hay algo especial sobre eso."
                  ]
                : [
-                    '<32>{#p/human}* A world not bound by association...',
-                    '<32>* Existing purely for the sake of its own beauty...',
-                    "<32>* There's something special about that."
+                    '<32>{#p/human}* Un mundo sin asociaciones...',
+                    '<32>* Existir puramente por su propia belleza...',
+                    "<32>* Hay algo especial sobre eso."
                  ],
          a2: () =>
             SAVE.flag.b.$svr
-               ? [ '<32>* That being said...', "<32>* It seems it wasn't enough to satisfy your... curiosity." ]
-               : [ '<32>* Tell me...', '<32>* Does that not pique your... curiosity?' ]
+               ? [ '<32>* Habiendo dicho eso...', "<32>* Parece que no fue suficiente para satisfacer tu... curiosidad." ]
+               : [ '<32>* Dime...', '<32>* Eso no despierta tu... curiosidad?' ]
       },
       danger_puzzle1: () => [
-         '<25>{#p/toriel}* In this room lies a new kind of puzzle.',
+         '<25>{#p/toriel}* En esta habitación hay un nuevo tipo de puzzle.',
          [ 1, 5 ].includes(SAVE.data.n.state_wastelands_dummy)
-            ? '<25>{#f/3}* Perhaps you will do better here than with the dummy.'
-            : '<25>{#f/1}* Do you think you can solve it?'
+            ? '<25>{#f/3}* Quizá te vaya mejor aquí que con el maniquí.'
+            : '<25>{#f/1}* ¿Crees que puedas resolverlo?'
       ],
       danger_puzzle2: () =>
          world.darker
-            ? [ "<32>{#p/basic}* It's too tall for you to reach." ]
-            : [ "<32>{#p/basic}* This terminal's staggering height towers over you, blocking your eager approach." ],
+            ? [ "<32>{#p/basic}* Esta muy alto para que puedas alcanzarlo." ]
+            : [ "<32>{#p/basic}* La asombrosa altura de esta terminal se eleva sobre ti, bloqueando tu ansiosa aproximación." ],
       danger_puzzle3: () => [
          [ 1, 5 ].includes(SAVE.data.n.state_wastelands_dummy)
-            ? '<25>{#p/toriel}{#f/3}* What is it now...'
-            : '<25>{#p/toriel}{#f/1}* What is the problem?\n* Do you need assistance?'
+            ? '<25>{#p/toriel}{#f/3}* Qué pasa ahora...'
+            : '<25>{#p/toriel}{#f/1}* ¿Cuál es el problema?\n* ¿Necesitas ayuda?'
       ],
       danger_puzzle4: () => [
          ...([ 1, 5 ].includes(SAVE.data.n.state_wastelands_dummy)
-            ? [ '<25>{#p/toriel}{#f/5}* Ah... I see.', '<25>{#f/5}* The terminal is too high for you to reach it.' ]
+            ? [ '<25>{#p/toriel}{#f/5}* Ah... ya veo.', '<25>{#f/5}* El terminal está demasiado alto para que puedas alcanzarlo.' ]
             : [
-                 '<25>{#p/toriel}{#f/7}* ... oh my.',
-                 '<25>{#f/6}* It seems there is a bit of a design fault here.',
-                 '<25>{#f/1}* So the terminal is too high for you to reach it...?'
+                 '<25>{#p/toriel}{#f/7}* ... oh mi.',
+                 '<25>{#f/6}* Parece que hay un error de diseño aquí.',
+                 '<25>{#f/5}* ¿Así que el terminal está demasiado alto para que puedas alcanzarlo?'
               ]),
-         '<25>{#f/0}* No matter.\n* I will operate it for you.',
+         '<25>{#f/0}* No hay problema.\n* Lo operaré por ti.',
          '<25>{#f/0}* ...',
-         '<25>{#f/0}* There is a riddle to be solved here.\n* Would you like to try?',
-         choicer.create('* (Solve the riddle?)', 'Si', 'No')
+         '<25>{#f/0}* Aquí hay un acertijo por resolver.\n* ¿Te gustaría resolverlo?',
+         choicer.create('* (¿Resolver el acertijo?)', 'Si', 'No')
       ],
       danger_puzzle5a: [
-         '<25>{#p/toriel}* Excellent!\n* The eagerness to learn and grow is important.',
-         '<25>{#f/0}* Especially for a youngster such as yourself.'
+         '<25>{#p/toriel}* ¡Excelente!\n* Es importante el afán de aprender y crecer.',
+         '<25>{#f/0}* Especialmente para un joven como tú.'
       ],
       danger_puzzle5b: [
-         '<25>{#p/toriel}{#f/0}* The riddle takes the form of a question.',
-         "<25>{#p/toriel}{#f/1}* \"What's baked like a cake and rhymes with 'lie?'\""
+         '<25>{#p/toriel}{#f/0}* El acertijo toma la forma de una pregunta.',
+         "<25>{#p/toriel}{#f/1}* \"¿Qué se hornea como un pastel y rima con carta?\""
       ],
       danger_puzzle5c: [
-         '<32>{#p/human}* (...)\n* (You tell Toriel the answer.)',
-         '<25>{#p/toriel}{#f/0}* ... ah, very good.\n* And with such a positive attiude!'
+         '<32>{#p/human}* (...)\n* (Le dices a Toriel la respuesta.)',
+         '<25>{#p/toriel}{#f/0}* ... ah, muy bien.\n* ¡Y con una actitud tan positiva!'
       ],
       danger_puzzle5d: [
-         '<32>{#p/human}* (...)\n* (You tell Toriel you do not know the answer.)',
-         '<25>{#p/toriel}{#f/1}* ... is something wrong?\n* You seem to have something on your mind.',
+         '<32>{#p/human}* (...)\n* (Le dices a Toriel que no sabes la respuesta.)',
+         '<25>{#p/toriel}{#f/1}* ... ¿Tienes algún problema?\n* Parece que tienes algo en mente.',
          '<25>{#f/5}* ... hmm...',
-         '<25>{#f/0}* Well, alright.\n* I will solve the riddle for you this time.'
+         '<25>{#f/0}* Bueno, esta bien.\n* Esta vez te resolveré el acertijo.'
       ],
       danger_puzzle5e: () =>
          [ 1, 5 ].includes(SAVE.data.n.state_wastelands_dummy)
-            ? [ '<25>{#p/toriel}{#f/5}* ...', '<25>{#f/5}* I see.' ]
-            : [ '<25>{#p/toriel}{#f/0}* ...', '<25>{#f/0}* I suppose I can solve the riddle for you this time.' ],
+            ? [ '<25>{#p/toriel}{#f/5}* ...', '<25>{#f/5}* Ya veo.' ]
+            : [ '<25>{#p/toriel}{#f/0}* ...', '<25>{#f/0}* Supongo que esta vez te puedo resolver el acertijo.' ],
       danger_puzzle6: () => [
          [ 1, 5 ].includes(SAVE.data.n.state_wastelands_dummy) && SAVE.data.b.w_state_riddleskip
-            ? '<25>{#p/toriel}{#f/5}* And... {#x1}there.\n* The pathway is clear.'
-            : '<25>{#p/toriel}* And... {#x1}there!\n* The pathway is clear!'
+            ? '<25>{#p/toriel}{#f/5}* Y... {#x1}ahí.\n* El camino está despejado.'
+            : '<25>{#p/toriel}* Y... {#x1}¡ahí!\n* ¡El camino está despejado!'
       ],
       danger_puzzle7: () => [
          [ 1, 5 ].includes(SAVE.data.n.state_wastelands_dummy) && SAVE.data.b.w_state_riddleskip
-            ? '<25>{#p/toriel}{#f/5}* I will wait for you to enter the next room.'
-            : '<25>{#p/toriel}* Once ready, you may enter the next room.'
+            ? '<25>{#p/toriel}{#f/5}* Esperaré a que entres en la siguiente habitación.'
+            : '<25>{#p/toriel}* Una vez que estés listo, podrás entrar en la siguiente habitación.'
       ],
       danger_puzzle8: () =>
          SAVE.data.b.svr
-            ? [ "<32>{#p/human}* (But you still couldn't reach the terminal.)" ]
-            : [ '<32>{#p/basic}* Even now, the terminal still stands as tall as ever.' ],
+            ? [ "<32>{#p/human}* (Pero todavía no puedes alcanzar el terminal.)" ]
+            : [ '<32>{#p/basic}* Incluso ahora, el terminal sigue tan alto como siempre.' ],
       denie: [ "<32>{#p/human}* (Llevas demasiado encima para tomar eso.)" ],
       dipper: {
          a: () => [
-            '<32>{#p/human}* (You got the Little Dipper.)',
-            choicer.create('* (Equip the Little Dipper?)', 'Si', 'No')
+            '<32>{#p/human}* (Conseguiste el Cucharon Pequeño.)',
+            choicer.create('* (¿Equiparte el Cucharón Pequeño?)', 'Si', 'No')
          ],
          b: [ "<32>{#p/human}* (Llevas demasiado encima para tomar eso.)" ]
       },
-      drop_pie: [ '<25>{#p/toriel}{#f/1}* Pies are for eating, not for splattering on the floor.' ],
-      drop_pie3: [ '<25>{#p/toriel}{#f/1}* Please do not spill food on the floor.' ],
-      drop_snails: [ '<25>{#p/toriel}{#f/1}* What did those poor fried snails ever do to you.' ],
-      drop_soda: [ "<32>{#p/basic}{#n1}* Aww c'mon! ;)", '<32>* I poured my heart into that! ;)' ],
-      drop_steak: [ '<32>{#p/basic}{#n1}* Seriously!? ;)', '<32>* That steak was utterly priceless! ;)' ],
+      drop_pie: [ '<25>{#p/toriel}{#f/1}* Las tartas son para comer, no para salpicarlo en el suelo.' ],
+      drop_pie3: [ '<25>{#p/toriel}{#f/1}* Por favor no derrames comida en el suelo.' ],
+      drop_snails: [ '<25>{#p/toriel}{#f/1}* Qué te han hecho esos pobres caracoles fritos.' ],
+      drop_soda: [ "<32>{#p/basic}{#n1}* Aww ¡vamos! ;)", '<32>* ¡Puse mi corazón en eso! ;)' ],
+      drop_steak: [ '<32>{#p/basic}{#n1}* ¡¿Enserio!? ;)', '<32>* That steak was utterly priceless! ;)' ],
       dummy1: [
          '<25>{#p/toriel}{#f/0}* Your next lesson involves encounters with other monsters.',
          '<25>{#f/1}* As a human roaming the outpost, it is likely you will be attacked...',

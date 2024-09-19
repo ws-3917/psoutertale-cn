@@ -6370,7 +6370,7 @@ msgid ""
 "* They never do..."
 msgstr ""
 "<25>{#p/toriel}{#f/9}* ...\n"
-"* 它總是聽不到讚美..."
+"* 每次都是這樣..."
 
 msgid ""
 "<32>{#p/human}* (You activate the terminal, but there's no incoming "

@@ -5238,7 +5238,7 @@ export default {
             ? [ '<32>{#p/asriel2}* 只剩一個了。' ]
             : world.kiddo && SAVE.data.n.state_foundry_muffet !== 1
             ? [ '<32>{#p/kidding}* 只剩我們了！' ]
-            : [ '<32>{#p/story}* Gelata is all alone now.' ],
+            : [ '<32>{#p/story}* 現在只剩大黏簇一個了。' ],
       moldsmalMoldbygg2b: () =>
          world.goatbro
             ? [ '<32>{#p/asriel2}* 只剩一個了。' ]
@@ -5250,19 +5250,19 @@ export default {
             ? [ '<32>{#p/asriel2}* 矛盾二人組。' ]
             : world.kiddo && SAVE.data.n.state_foundry_muffet !== 1
             ? [ '<32>{#p/kidding}* 哇，你好...' ]
-            : [ '<32>{#p/story}* Skrubbington straddles up.\n* Much to its dismay, Gelata is also here...' ],
+            : [ '<32>{#p/story}* 刷潔頓跨坐著。\n* 可惜大黏簇也來了...' ],
       woshuaMoldbygg2a: () =>
          world.goatbro
             ? [ '<32>{#p/asriel2}* 只剩一個了。' ]
             : world.kiddo && SAVE.data.n.state_foundry_muffet !== 1
             ? [ '<32>{#p/kidding}* 只剩我們了！' ]
-            : [ '<32>{#p/story}* Gelata is all alone now.' ],
+            : [ '<32>{#p/story}* 現在只剩大黏簇一個了。' ],
       woshuaMoldbygg2b: () =>
          world.goatbro
             ? [ '<32>{#p/asriel2}* 只剩一個了。' ]
             : world.kiddo && SAVE.data.n.state_foundry_muffet !== 1
             ? [ '<32>{#p/kidding}* 只剩我們了！' ]
-            : [ '<32>{#p/story}* Skrubbington is not sure how to feel anymore.' ]
+            : [ '<32>{#p/story}* 刷潔頓不知道該怎麼辦。' ]
    },
    b_opponent_woshua: {
       tweet: '啾啾',
@@ -5272,7 +5272,7 @@ export default {
             world.meanie
                ? [ '<08>{#p/basic}{~}Skrubby will retreat now..', '<08>{#p/basic}{~}Thx for warning!' ]
                : SAVE.data.b.oops && world.flirt > 9
-               ? [ '<08>{#p/basic}{~}Skrub u entire body..', '<08>{#p/basic}{~}Special service just for you!' ]
+               ? [ '<08>{#p/basic}{~}清洗你的身體..', '<08>{#p/basic}{~}Special service just for you!' ]
                : SAVE.data.b.oops
                ? [
                     '<08>{#p/basic}{~}Even if u get dirty sometimes..',
@@ -5286,16 +5286,16 @@ export default {
          world.goatbro
             ? [ "<32>{#p/asriel2}* 刷潔頓，潔癖狂魔。\n* 眼裡容不下半點灰塵。" ]
             : [
-                 '<32>{#p/story}* SKRUBBINGTON - ATK 18 DEF 5\n* This humble germophobe seeks to cleanse the whole galaxy.'
+                 '<32>{#p/story}* 刷潔頓 - 攻擊 18 防禦 5\n* 這個卑微的細菌恐懼症患者\n  想要清理整個星系。'
               ],
       act_check2: [
-         '<33>{#p/story}* SKRUBBINGTON - ATK 18 DEF 5\n* This humble germophobe wants to go home to wash its wounds.'
+         '<33>{#p/story}* 刷潔頓 - 攻擊 18 防禦 5\n* 這個卑微的細菌恐懼症患者\n  想要回家清洗傷口。'
       ],
       act_check3: [
          '<32>{#p/story}* SKRUBBINGTON - ATK 18 DEF 5\n* One wheel closer to a cleaner future for monsterkind.'
       ],
       act_check4: [
-         "<32>{#p/story}* SKRUBBINGTON - ATK 18 DEF 5\n* This humble germophobe's love story is as soapy as it gets."
+         "<32>{#p/story}* 刷潔頓 - ATK 18 DEF 5\n* 這個卑微的細菌恐懼症患者\n  的愛情故事像肥皂一樣。"
       ],
       name: '* 刷潔頓',
       status1: () =>
@@ -5303,129 +5303,129 @@ export default {
             ? [ '<32>{#p/asriel2}* 刷潔頓。' ]
             : world.kiddo && SAVE.data.n.state_foundry_muffet !== 1
             ? [ "<32>{#p/kidding}* 刷刷來了！" ]
-            : [ '<32>{#p/story}* Skrubbington strolls in.' ],
-      idleTalk1a: [ '<08>{#p/basic}{~}Skrub u SOUL' ],
-      idleTalk1b: [ '<08>{#p/basic}{~}Skrub u hands' ],
-      idleTalk1c: [ '<08>{#p/basic}{~}Skrub u face' ],
-      idleTalk1d: [ '<08>{#p/basic}{~}Skrub u hair' ],
-      idleTalk1e: [ '<08>{#p/basic}{~}Skrub u feet' ],
+            : [ '<32>{#p/story}* 刷潔頓漫步過來了。' ],
+      idleTalk1a: [ '<08>{#p/basic}{~}清洗你的靈魂' ],
+      idleTalk1b: [ '<08>{#p/basic}{~}清洗你的手' ],
+      idleTalk1c: [ '<08>{#p/basic}{~}清洗你的臉' ],
+      idleTalk1d: [ '<08>{#p/basic}{~}清洗你的頭髮' ],
+      idleTalk1e: [ '<08>{#p/basic}{~}清洗你的腳' ],
       idleTalk2a: [ '<08>{#p/basic}{~}Skrub a dub-dubs' ],
       idleTalk2b: [ '<08>{#p/basic}{~}Oops, I meant..\nSkrub a sub-SUBS' ],
       idleTalk2c: [ '<08>{#p/basic}{~}Skrub a sub-subs' ],
       idleTalk3: () =>
-         world.trueKills > 0 ? [ '<08>{#p/basic}{~}Your SOUL is unclean.' ] : [ '<08>{#p/basic}{~}\x00*whistle whistle*' ],
+         world.trueKills > 0 ? [ '<08>{#p/basic}{~}Your SOUL is unclean.' ] : [ '<08>{#p/basic}{~}\x00*吹著\n口哨*' ],
       cleanTalk: [ '<08>{#p/basic}{~}Green means clean' ],
       jokeTalk1: [ "<08>{#p/basic}{~}NO. THAT JOKE'S TOO.. DIRTY" ],
       jokeTalk2: [ "<08>{#p/basic}{~}EUGH.. I CAN'T BELIEVE THIS" ],
       randStatus1: () =>
          world.kiddo && SAVE.data.n.state_foundry_muffet !== 1
             ? [ '<32>{#p/kidding}* Look at the little bird!' ]
-            : [ '<32>{#p/story}* Skrubbington is friends with a little bird.' ],
+            : [ '<32>{#p/story}* 刷潔頓和一隻小鳥交了朋友。' ],
       randStatus2: () =>
          world.kiddo && SAVE.data.n.state_foundry_muffet !== 1
             ? [ "<32>{#p/kidding}* You should've SEEN when it tried to clean my school lunch off." ]
-            : [ '<32>{#p/story}* Skrubbington is rinsing off a saucer.' ],
+            : [ '<32>{#p/story}* 刷潔頓正在洗小碟子。' ],
       randStatus3: () =>
          world.kiddo && SAVE.data.n.state_foundry_muffet !== 1
             ? [ '<33>{#p/kidding}* We should go spacesuit-shining with this one.' ]
-            : [ '<32>{#p/story}* Skrubbington is looking for some good clean fun.' ],
+            : [ '<32>{#p/story}* 刷潔頓想洗點好玩的東西。' ],
       randStatus4: () =>
          world.kiddo && SAVE.data.n.state_foundry_muffet !== 1
             ? [ '<32>{#p/kidding}* Squeaky clean?\n* This is gonna be FREAKY clean.' ]
-            : [ '<32>{#p/story}* Smells like detergent.' ],
+            : [ '<32>{#p/story}* 洗滌劑的味道。' ],
       randStatus5: () =>
          world.kiddo && SAVE.data.n.state_foundry_muffet !== 1
             ? [ '<32>{#p/kidding}* You do NOT wanna get dirty around this one, dude.' ]
-            : [ '<32>{#p/story}* Skrubbington wonders if stardust is sanitary.' ],
+            : [ '<32>{#p/story}* 刷潔頓好奇星塵幹不乾淨。' ],
       hurtStatus: () =>
          world.kiddo && SAVE.data.n.state_foundry_muffet !== 1
             ? [ '<32>{#p/kidding}* 一切... 還好嗎？' ]
-            : [ '<32>{#p/story}* Skrubbington is revolted at its own wounds.' ],
+            : [ '<32>{#p/story}* 刷潔頓討厭自己的傷口。' ],
       jokeText1: [ '<32>{#p/human}* (You tell a joke about a rusty piece of space junk.)' ],
       jokeText2: [ '<32>{#p/human}* (You tell a joke about atmospheric pollution.)' ],
       jokeText3: [ '<32>{#p/human}* (You tell a joke about two starships that got stuck in a trash barge.)' ],
       touchText0: [
-         '<32>{#p/human}* (You give Skrubbington a friendly pat.)',
-         "<32>{#p/basic}* Skrubbington can't stand your slime-covered hands and runs away!"
+         '<32>{#p/human}* （你友好地摸了摸刷潔頓。）',
+         "<32>{#p/basic}* 刷潔頓實在受不了你那\n  黏糊糊的手，於是跑掉了！"
       ],
       touchText1: [
-         '<32>{#p/human}* (You give Skrubbington a friendly pat.)',
-         '<32>{#p/basic}* Skrubbington recoils from your touch.'
+         '<32>{#p/human}* （你友好地摸了摸刷潔頓。）',
+         '<32>{#p/basic}* 刷潔頓後退，躲開了你的手。'
       ],
       touchText2: [
-         '<32>{#p/human}* (You give Skrubbington a friendly pat.)',
-         '<32>{#p/basic}* Skrubbington is flattered.'
+         '<32>{#p/human}* （你友好地摸了摸刷潔頓。）',
+         '<32>{#p/basic}* 刷潔頓受寵若驚。'
       ],
       cleanText1: [
-         '<32>{#p/human}* (You ask Skrubbington to clean you.)',
-         '<32>{#p/basic}* Skrubbington hops around excitedly.'
+         '<32>{#p/human}* （你問刷潔頓能不能把你清洗一下。）',
+         '<32>{#p/basic}* 刷潔頓高興地跳來跳去。'
       ],
       flirtTalk1: [ '<08>{#p/basic}{~}No!\nUnclean romance!' ],
       flirtTalk2: [ '<08>{#p/basic}{~}Sparkle and shine!' ],
       cleanText2: [
-         '<32>{#p/human}* (You ask Skrubbington to clean you.)',
-         '<32>{#p/basic}* Skrubbington resumes cleaning.'
+         '<32>{#p/human}* （你問刷潔頓能不能把你清洗一下。）',
+         '<32>{#p/basic}* 刷潔頓繼續清洗。'
       ]
    },
    b_opponent_moldbygg: {
-      sexyChat: [ '<08>{#p/basic}{~}\x00*sexy shuffle*' ],
+      sexyChat: [ '<08>{#p/basic}{~}\x00*性感扭動*' ],
       epiphany: [
-         [ '<08>{#p/basic}{~}\x00*slime sounds*' ],
+         [ '<08>{#p/basic}{~}\x00*黏液的聲音*' ],
          () =>
             world.meanie
                ? [ '<08>{#p/basic}{~}Guoooh..' ]
                : SAVE.data.b.oops && world.flirt > 9
-               ? [ '<08>{#p/basic}{~}\x00*erotic shuffle*' ]
+               ? [ '<08>{#p/basic}{~}\x00*性感扭動*' ]
                : SAVE.data.b.oops
-               ? [ '<08>{#p/basic}{~}\x00*happy shuffle*' ]
+               ? [ '<08>{#p/basic}{~}\x00*高興地扭動*' ]
                : [ '<08>{#p/basic}{~}\x00*slimy embrace*' ],
          [ '<08>{#p/basic}{~}Final roar.' ],
-         [ '<08>{#p/basic}{~}\x00*shiny shuffle*' ]
+         [ '<08>{#p/basic}{~}\x00*閃亮地扭動*' ]
       ],
       status1: () =>
          world.goatbro
             ? [ '<32>{#p/asriel2}* 大黏簇。' ]
             : world.kiddo && SAVE.data.n.state_foundry_muffet !== 1
             ? [ '<32>{#p/kidding}* 哇！' ]
-            : [ '<32>{#p/story}* Gelata appears!' ],
+            : [ '<32>{#p/story}* 大黏簇出現了！' ],
       act_check: () =>
          world.goatbro
             ? [ '<32>{#p/asriel2}* 大黏簇，噁心粘球。\n* 為啥我要多費口舌給你解釋這些？' ]
-            : [ '<32>{#p/story}* GELATA - ATK 18 DEF 18\n* Not so tini anymore.' ],
-      act_check2: [ '<32>{#p/story}* GELATA - ATK 18 DEF 18\n* Not in the best of shape.' ],
-      act_check3: [ '<32>{#p/story}* GELATA - ATK 18 DEF 18\n* Not against becoming a full- time jelly cushion.' ],
-      act_check4: [ '<32>{#p/story}* GELATA - ATK 18 DEF 18\n* Not your ideal relationship...' ],
-      act_topple1: [ "<32>{#p/human}* (You try to topple Gelata, but it hasn't been weakened enough.)" ],
-      act_topple2: [ '<32>{#p/human}* (You topple Gelata.)\n* (Its body parts collapse and roll into the distance.)' ],
+            : [ '<32>{#p/story}* 大黏簇 - 攻擊 18 防禦 18\n* 並不是很小。' ],
+      act_check2: [ '<32>{#p/story}* 大黏簇 - 攻擊 18 防禦 18\n* 狀態並不是很好。' ],
+      act_check3: [ '<32>{#p/story}* 大黏簇 - 攻擊 18 防禦 18\n* 允許成為全職果凍墊。' ],
+      act_check4: [ '<32>{#p/story}* 大黏簇 - 攻擊 18 防禦 18\n* 和你的關係並沒有想像的那麼好...' ],
+      act_topple1: [ "<32>{#p/human}* （你試圖推倒大黏簇，但它還沒有那麼弱。）" ],
+      act_topple2: [ '<32>{#p/human}* （你推倒了大黏簇。）\n* （它的身體塌陷了，滾到了遠處。）' ],
       name: '* 大黏簇',
       idleTalk1: [ '<08>{#p/basic}{~}Guoooh!' ],
-      idleTalk2: [ '<08>{#p/basic}{~}\x00*slime sounds*' ],
+      idleTalk2: [ '<08>{#p/basic}{~}\x00*黏液的聲音*' ],
       idleTalk3: [ '<08>{#p/basic}{~}吼。' ],
-      idleTalk4: [ '<08>{#p/basic}{~}\x00*eager shuffle*' ],
+      idleTalk4: [ '<08>{#p/basic}{~}\x00*e急切地扭動*' ],
       randStatus1: () =>
          world.goatbro
             ? [ '<32>{#p/asriel2}* 大黏簇。' ]
             : world.kiddo && SAVE.data.n.state_foundry_muffet !== 1
             ? [ '<32>{#p/kidding}* What does it want?' ]
-            : [ '<32>{#p/story}* Gelata wants to carry you.' ],
+            : [ '<32>{#p/story}* 大黏簇想背著你。' ],
       randStatus2: () =>
          world.goatbro
             ? [ '<32>{#p/asriel2}* 大黏簇。' ]
             : world.kiddo && SAVE.data.n.state_foundry_muffet !== 1
             ? [ '<32>{#p/kidding}* 我好奇我要是抱抱它\n  會發生什麼。' ]
-            : [ '<32>{#p/story}* Gelata wobbles anxiously.' ],
+            : [ '<32>{#p/story}* 大黏簇焦慮地搖晃著。' ],
       randStatus3: () =>
          world.goatbro
             ? [ '<32>{#p/asriel2}* 大黏簇。' ]
             : world.kiddo && SAVE.data.n.state_foundry_muffet !== 1
             ? [ '<32>{#p/kidding}* 黏糊糊的... 但我喜歡！' ]
-            : [ '<32>{#p/story}* Gelata mills about nearby.' ],
+            : [ '<32>{#p/story}* 大黏簇磨動著地面。' ],
       randStatus4: () =>
          world.goatbro
             ? [ '<32>{#p/asriel2}* 大黏簇。' ]
             : world.kiddo && SAVE.data.n.state_foundry_muffet !== 1
             ? [ '<32>{#p/kidding}* 啥都黏糊糊的。' ]
-            : [ '<32>{#p/story}* Smells like a jell-o store.' ],
+            : [ '<32>{#p/story}* 果凍店的味道。' ],
       hurtStatus: () =>
          world.goatbro
             ? [ '<32>{#p/asriel2}* 離死不遠了。' ]
@@ -5433,19 +5433,19 @@ export default {
             ? [ "<32>{#p/kidding}* 大黏簇的狀態看起來不太好..." ]
             : [ '<32>{#p/story}* Gelata has seen better days.' ],
       act_handshake: [
-         '<32>{#p/human}* (You offer a handshake.)\n* (Gelata engulfs you in slime.)',
+         '<32>{#p/human}* （你向大黏簇伸出了手。）\n* （大黏簇用黏液把你包裹了起來。）',
          '<32>{#p/story}* 你的移速下降了！'
       ],
-      act_sit: [ '<32>{#p/human}* (You sit on top of Gelata.)\n* (Gelata now feels that it has been useful to you.)' ],
+      act_sit: [ '<32>{#p/human}* （你坐在了大黏簇上面。）\n* （大黏簇很高興能幫到你。）' ],
       distanceStatus: () =>
          world.goatbro
             ? [ '<32>{#p/asriel2}* 大黏簇。' ]
             : world.kiddo && SAVE.data.n.state_foundry_muffet !== 1
             ? [ '<32>{#p/kidding}* Can I come sit too!?' ]
-            : [ '<32>{#p/story}* Gelata seems happy with your presence.' ],
+            : [ '<32>{#p/story}* 大黏簇很高興你來了。' ],
       act_flirt: [
-         '<32>{#p/human}* (You wiggle your hips.)\n* (Gelata does a tornado spin.)',
-         '<32>{#p/basic}* A meaningful conversation...?'
+         '<32>{#p/human}* （你扭動著臀部。）\n* （大黏簇像旋風一樣轉起來。）',
+         '<32>{#p/basic}* 真是一場有意義的交流...？'
       ]
    },
    b_opponent_moldfake: {
@@ -5461,7 +5461,7 @@ export default {
             ? [ '<32>{#p/asriel2}* 小黏團。' ]
             : world.kiddo && SAVE.data.n.state_foundry_muffet !== 1
             ? [ '<32>{#p/kidding}* Do Gelatinis always sit this still?' ]
-            : [ "<32>{#p/story}* Gelatini isn't moving." ],
+            : [ "<32>{#p/story}* 小黏團不動了。" ],
       fakeStatus2: () =>
          world.goatbro
             ? [ '<32>{#p/asriel2}* 小黏團。' ]
@@ -5479,10 +5479,10 @@ export default {
             ? [ '<32>{#p/asriel2}* 小黏團。' ]
             : world.kiddo && SAVE.data.n.state_foundry_muffet !== 1
             ? [ '<32>{#p/kidding}* This seems kinda weird.' ]
-            : [ '<32>{#p/story}* Smells like a jell-o store.' ],
-      act_imitate: [ '<32>{#p/human}* (You approach Gelatini.)', '<32>{#p/basic}* ...突然！' ],
+            : [ '<32>{#p/story}* 果凍店的味道。' ],
+      act_imitate: [ '<32>{#p/human}* （你靠近了小黏團。）', '<32>{#p/basic}* ...突然！' ],
       act_flirt: [ '<32>{#p/human}* (You wiggle your hips.)', '<32>{#p/basic}* ...突然！' ],
-      act_slap: [ '<32>{#p/human}* (You give Gelatini a big slap.)', '<32>{#p/basic}* ...突然！' ]
+      act_slap: [ '<32>{#p/human}* （你使勁扇了小黏團一巴掌。）', '<32>{#p/basic}* ...突然！' ]
    },
    b_opponent_shyren: {
       act_check: [ '<32>{#p/story}* 害羞塞壬 - 攻擊19 防禦0\n* 一位先知性歌手，因自己的羞怯\n  而躊躇不前。' ],
@@ -7546,10 +7546,10 @@ export default {
    i_snack: {
       battle: {
          description: "...安黛因的獨家秘方？",
-         name: 'Odd Snack'
+         name: '迷之零食'
       },
       drop: () => [
-         '<32>{#p/human}* (You throw away the Odd Snack.)',
+         '<32>{#p/human}* （你把迷之零食扔掉了。）',
          ...(game.room === 'f_kitchen' // NO-TRANSLATE
 
             ? ((SAVE.data.b.drop_snack = true),
@@ -7560,9 +7560,9 @@ export default {
          SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
             ? [ '<32>{#p/human}* （15 HP。）' ]
             : [ '<32>{#p/basic}* 「迷之零食」 回復15 HP\n* ...安黛因的獨家秘方？' ],
-      name: 'Odd Snack',
+      name: '迷之零食',
       use: () => [
-         '<32>{#p/human}* (You eat the Odd Snack.)',
+         '<32>{#p/human}* （你吃掉了迷之零食。）',
          ...(game.room === 'f_kitchen' // NO-TRANSLATE
 
             ? [
