@@ -1,6 +1,21 @@
-#
+#, fuzzy
 msgid ""
 msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-09-21 10:25+0000\n"
+"PO-Revision-Date: 2024-09-21 10:25+0000\n"
+"Last-Translator: Stefano <stefanobuendia@hotmail.com>\n"
+"Language-Team: Spanish <https://ws3917.site/projects/project-spacetime/"
+"1-outlands/es/>\n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: ENCODING\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.6.2\n"
+
+#
 
 msgid ""
 "<25>{#p/toriel}{#f/1}* I hear there is a certain kind of fluid in "
@@ -2915,260 +2930,287 @@ msgid "<32>{#p/basic}{#n1}* Seriously!? ;)"
 msgstr "<32>{#p/basic}{#n1}* ¡¿Enserio!? ;)"
 
 msgid "<32>* That steak was utterly priceless! ;)"
-msgstr ""
+msgstr "<32>* ¡Ese filete no tenía precio! ;)"
 
 msgid ""
 "<25>{#p/toriel}{#f/0}* Your next lesson involves encounters with other "
 "monsters."
 msgstr ""
+"<25>{#p/toriel}{#f/0}* Tu próxima lección implica encuentros con otros "
+"monstruos."
 
 msgid ""
 "<25>{#f/1}* As a human roaming the outpost, it is likely you will be "
 "attacked..."
 msgstr ""
+"<25>{#f/1}* Como eres un humano deambulando por el outpost, es probable que "
+"te ataquen..."
 
 msgid "<25>{#f/0}* If that happens, you will enter what is known as a FIGHT."
-msgstr ""
+msgstr "<25>{#f/0}* Si eso pasa, entrarás en lo que se conoce como una PELEA."
 
 msgid "<25>{#f/0}* Thankfully, there are several ways to resolve one."
-msgstr ""
+msgstr "<25>{#f/0}* Afortunadamente, hay varias formas de resolver una pelea."
 
 msgid "<25>{#f/1}* For now, I suggest striking up a friendly conversation..."
-msgstr ""
+msgstr "<25>{#f/1}* Por ahora, Te sugiero entablar una conversación amistosa..."
 
 msgid ""
 "<25>{#f/0}* ... thereby giving me a chance to sort out the conflict for you."
 msgstr ""
+"<25>{#f/0}* ... dándome así la oportunidad de resolver el conflicto por ti."
 
 msgid "<25>{#p/toriel}* To start, you may practice talking with the dummy."
 msgstr ""
+"<25>{#p/toriel}* Para empezar, puedes practicar hablando con el maniquí."
 
 msgid "<25>{#p/toriel}{#f/7}* ... you think that I am the dummy?"
-msgstr ""
+msgstr "<25>{#p/toriel}{#f/7}* ... ¿Crees que soy el maniquí?"
 
 msgid ""
 "<25>{#f/6}* Hahaha!\n"
 "* How adorable!"
 msgstr ""
+"<25>{#f/6}* ¡Jajaja!\n"
+"* ¡Qué adorable!"
 
 msgid "<25>{#f/0}* Unfortunately, I am but a worrisome old lady."
 msgstr ""
+"<25>{#f/0}* Desafortunadamente, no soy más que una señora mayor preocupada."
 
 msgid "<25>{#p/toriel}* There is nothing to be afraid of, my child."
-msgstr ""
+msgstr "<25>{#p/toriel}* No hay nada que tener miedo, mi niño."
 
 msgid "<25>* A simple training dummy cannot harm you."
-msgstr ""
+msgstr "<25>* Un simple maniquí de entrenamiento no puede lastimarte."
 
 msgid "<25>{#p/toriel}{#f/1}* Go on, little one..."
-msgstr ""
+msgstr "<25>{#p/toriel}{#f/1}* Vamos, pequeño..."
 
 msgid ""
 "<25>{#p/toriel}{#f/2}* Child, no!\n"
 "* The dummy was not made for fighting!"
 msgstr ""
+"<25>{#p/toriel}{#f/2}* ¡Niño, no!\n"
+"* ¡El muñeco no esta hecho para pelear!"
 
 msgid "<25>{#f/1}* Besides, we do not want to hurt anyone, do we?"
-msgstr ""
+msgstr "<25>{#f/1}* Además, no queremos dañar a nadie, ¿verdad?"
 
 msgid "<25>{#f/0}* Come now."
-msgstr ""
+msgstr "<25>{#f/0}* Vamos."
 
 msgid ""
 "<25>{#p/toriel}* Excellent!\n"
 "* You appear to be quite the fast learner."
 msgstr ""
+"<25>{#p/toriel}* ¡Excelente!\n"
+"* Parece que aprendes muy rápido."
 
 msgid "<25>{#p/toriel}{#f/1}* You ran away...?"
-msgstr ""
+msgstr "<25>{#p/toriel}{#f/1}* ¿Tú huiste...?"
 
 msgid "<25>{#f/0}* Actually, that may have been a wise choice."
-msgstr ""
+msgstr "<25>{#f/0}* De hecho, puede que haya sido una sabia elección."
 
 msgid "<26>{#f/1}* By escaping, you have avoided any potential conflict..."
-msgstr ""
+msgstr "<26>{#f/1}* Habiendo escapado, evitaste cualquier posible conflicto..."
 
 msgid "<25>{#f/0}* ... even if it WAS only a simple training dummy."
-msgstr ""
+msgstr "<25>{#f/0}* ... incluso si solo ERA un simple muñeco de entrenamiento."
 
 msgid "<25>{#p/toriel}{#f/3}* ..."
-msgstr ""
+msgstr "<25>{#p/toriel}{#f/3}* ..."
 
 msgid "<25>{#f/4}* ..."
-msgstr ""
+msgstr "<25>{#f/4}* ..."
 
 msgid "<25>{#f/0}* The next room awaits."
-msgstr ""
+msgstr "<25>{#f/0}* La siguiente habitación espera."
 
 msgid "<25>{#f/6}* The next room awaits."
-msgstr ""
+msgstr "<25>{#f/6}* La siguiente habitación espera."
 
 msgid "<25>{#p/toriel}{#f/7}* My child, that is..."
-msgstr ""
+msgstr "<25>{#p/toriel}{#f/7}* Mi niño, eso es..."
 
 msgid ""
 "<25>{#f/0}* ... that is perhaps the most adorable thing I have ever seen."
 msgstr ""
+"<25>{#f/0}* ... eso es quizás la cosa más adorable que he visto hasta ahora."
 
 msgid "<25>{#f/0}* In any case, you have handled this lesson admirably."
-msgstr ""
+msgstr "<25>{#f/0}* En cualquier caso, manejaste esta lección admirablemente."
 
 msgid "<25>{#p/toriel}* The next room awaits."
-msgstr ""
+msgstr "<25>{#p/toriel}* La siguiente habitación espera."
 
 msgid ""
 "<25>{#p/toriel}{#f/2}* My goodness, child!\n"
 "* Have mercy!"
 msgstr ""
+"<25>{#p/toriel}{#f/2}* ¡Dios mío, niño!\n"
+"* ¡Ten piedad!"
 
 msgid "<25>{#f/1}* ..."
-msgstr ""
+msgstr "<25>{#f/1}* ..."
 
 msgid "<25>{#f/0}* Thankfully, that was only a training dummy."
-msgstr ""
+msgstr "<25>{#f/0}* Afortunadamente, ese solo fue un maniquí de entrenamiento."
 
 msgid "<25>{#f/1}* In the future, however, it would be wise..."
-msgstr ""
+msgstr "<25>{#f/1}* Sin embargo, en el futuro, seria prudente..."
 
 msgid "<25>{#f/0}* ... not to slap people half to death!"
-msgstr ""
+msgstr "<25>{#f/0}* ... ¡No matar a la gente a bofetadas!"
 
 msgid ""
 "<26>{#f/0}* Anywho.\n"
 "* The next room awaits."
 msgstr ""
+"<26>{#f/0}* Como sea.\n"
+"* La siguiente habitación espera."
 
 msgid "<25>{#p/toriel}{#f/1}{#n1}* Tasty, is it not?"
-msgstr ""
+msgstr "<25>{#p/toriel}{#f/1}{#n1}* Delicioso, ¿verdad?"
 
 msgid "<25>{#p/toriel}{#f/0}{#n1}* I hope your breakfast sufficed."
 msgstr ""
+"<25>{#p/toriel}{#f/0}{#n1}* Espero que tu desayuno haya sido suficiente."
 
 msgid "<32>{#p/basic}* Aaron pulled out his phone and snapped a picture."
-msgstr ""
+msgstr "<32>{#p/basic}* Aaron sacó su teléfono y tomó una foto."
 
 msgid ""
 "<32>{#p/basic}{#n1}* Ooh, I could definitely put this on an poster somewhere"
 " ;)"
 msgstr ""
+"<32>{#p/basic}{#n1}* Ooh, definitivamente podría poner esto en un póster en "
+"alguna parte ;)"
 
 msgid "<32>{#p/basic}* Aaron shot you with a wink."
-msgstr ""
+msgstr "<32>{#p/basic}* Aaron te hizo un guiño."
 
 msgid "<32>{#p/basic}{#n1}* You like the product, lassy? ;)"
-msgstr ""
+msgstr "<32>{#p/basic}{#n1}* ¿Te gusta el producto, joven? ;)"
 
 msgid "<32>{#p/basic}* Who does he think he is?"
-msgstr ""
+msgstr "<32>{#p/basic}* ¿Quién se cree que es?"
 
 msgid "<32>* You've been nothing but kind to everyone we've met."
-msgstr ""
+msgstr "<32>* No has sido más que amable con todos los que hemos conocido."
 
 msgid "<32>* That talking star really needs to get a life..."
-msgstr ""
+msgstr "<32>* Enserio esa estrella parlante necesita conseguirse una vida..."
 
 msgid "<25>{#p/twinkly}{#f/12}* You idiot..."
-msgstr ""
+msgstr "<25>{#p/twinkly}{#f/12}* Tú, idiota..."
 
 msgid "<25>* Didn't you hear me before!?"
-msgstr ""
+msgstr "<25>* ¡¿Qué acaso no me escuchaste antes!?"
 
 msgid "<25>* I thought I told you not to screw it up!"
-msgstr ""
+msgstr "<25>* ¡Creí haberte dicho que no lo arruinaras!"
 
 msgid "<25>* Now look what you've done to our plan."
-msgstr ""
+msgstr "<25>* Ahora mira lo que le hiciste a nuestro plan."
 
 msgid "<25>{#f/8}* ..."
-msgstr ""
+msgstr "<25>{#f/8}* ..."
 
 msgid "<25>{#f/6}* You better fix this, $(name)."
-msgstr ""
+msgstr "<25>{#f/6}* Sera mejor que arregles esto, $(name)."
 
 msgid "<25>{#f/5}* It's our destiny."
-msgstr ""
+msgstr "<25>{#f/5}* Es nuestro destino."
 
 msgid "<25>{#p/twinkly}{#f/5}* Howdy, $(name)."
-msgstr ""
+msgstr "<25>{#p/twinkly}{#f/5}* Hola, $(name)."
 
 msgid "<25>{#f/5}* Seems you don't want to play with me anymore."
-msgstr ""
+msgstr "<25>{#f/5}* Parece que ya no quieres jugar conmigo."
 
 msgid "<25>{#f/6}* I tried being patient with you, but here we are..."
-msgstr ""
+msgstr "<25>{#f/6}* Intente ser paciente contigo, pero aquí estamos..."
 
 msgid "<25>{#f/6}* Back at the beginning again."
-msgstr ""
+msgstr "<25>{#f/6}* De vuelta al inicio otra vez."
 
 msgid "<25>{#f/8}* Again, and again..."
-msgstr ""
+msgstr "<25>{#f/8}* Una y otra y otra vez..."
 
 msgid "<25>{#f/5}* You must think this is all very funny."
-msgstr ""
+msgstr "<25>{#f/5}* Debes pensar que todo esto es muy divertido."
 
 msgid ""
 "<25>{#f/7}* Teasing me with the chance to be with you, only to tear it "
 "away..."
 msgstr ""
+"<25>{#f/7}* Burlándote de mí con la oportunidad de estar contigo, sólo para "
+"arrebatármela..."
 
 msgid "<25>{#f/5}* Well, that's fine."
-msgstr ""
+msgstr "<25>{#f/5}* Bueno, eso esta bien."
 
 msgid ""
 "<25>{#f/5}* If that's the game you're going to play, then go right ahead."
-msgstr ""
+msgstr "<25>{#f/5}* Si ese es el juego que vas a jugar, entonces adelante."
 
 msgid "<25>{#f/11}* Just don't expect to be in control for long..."
-msgstr ""
+msgstr "<25>{#f/11}* Solo no esperes tener el control durante mucho tiempo...."
 
 msgid "<25>{#f/7}* Sooner or later, you're going to regret what you've done."
-msgstr ""
+msgstr "<25>{#f/7}* Tarde o temprano, vas a arrepentirte de lo que has hecho."
 
 msgid "<25>{#p/twinkly}{#f/6}* Howdy, $(name)."
-msgstr ""
+msgstr "<25>{#p/twinkly}{#f/6}* Hola, $(name)."
 
 msgid "<25>{#f/6}* I've had some time to think about what happened."
-msgstr ""
+msgstr "<25>{#f/6}* He tenido algo de tiempo para pensar sobre lo que paso."
 
 msgid "<25>{#f/5}* It was thrilling, at first..."
-msgstr ""
+msgstr "<25>{#f/5}* Fue emocionante, al principio..."
 
 msgid "<25>* The thought of taking the outpost by force together..."
-msgstr ""
+msgstr "<25>* La idea de tomar el outpost a la fuerza juntos..."
 
 msgid "<25>{#f/6}* But now, I'm not sure."
-msgstr ""
+msgstr "<25>{#f/6}* Pero ahora, no estoy seguro."
 
 msgid "<25>{#f/8}* I guess... I got a bit carried away back there."
-msgstr ""
+msgstr "<25>{#f/8}* Supongo... que me dejé llevar un poco allí atrás."
 
 msgid ""
 "<25>{#f/5}* But that's okay, right?\n"
 "* You'll forgive me, won't you?"
 msgstr ""
+"<25>{#f/5}* Pero eso esta bien, ¿verdad?\n"
+"* Me perdonaras, ¿no es así?"
 
 msgid "<25>{#f/6}* I'm still not really sure what happened back there..."
-msgstr ""
+msgstr "<25>{#f/6}* Aún no estoy muy seguro de lo que paso ahí atrás"
 
 msgid "<25>{#f/5}* It's... kinda scaring me, haha..."
-msgstr ""
+msgstr "<25>{#f/5}* Me está... asustando un poco, jaja..."
 
 msgid "<25>{#f/8}* Maybe... we should hold off on things for now."
-msgstr ""
+msgstr "<25>{#f/8}* Tal vez... deberíamos esperar un poco por ahora."
 
 msgid ""
 "<25>{#f/5}* But that's okay, right?\n"
 "* You'll be fine with that, won't you?"
 msgstr ""
+"<25>{#f/5}* Pero eso esta bien, ¿verdad?\n"
+"* Estarás bien con eso, ¿no es así?"
 
 msgid "<25>{#f/6}* ..."
-msgstr ""
+msgstr "<25>{#f/6}* ..."
 
 msgid "<25>{#f/8}* Goodbye, $(name)..."
-msgstr ""
+msgstr "<25>{#f/8}* Adiós, $(name)..."
 
 msgid "<25>{#f/5}* I'll be back before you know it."
-msgstr ""
+msgstr "<25>{#f/5}* Volveré antes de que te des cuenta."
 
 msgid "<32>{#p/basic}* Sorry, did I miss something?"
 msgstr ""
