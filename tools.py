@@ -596,9 +596,16 @@ def process_place(place):
     shutil.copy(f"{SRC_PATH}/languages/en_US/text/{place}.ts", f"{TRANS_PATH}/text/{place}/en.ts")
     ts2po(f"{TRANS_PATH}/text/{place}/en.ts", f"{TRANS_PATH}/text/{place}/en.pot")
 
-    # 使用进程池并行处理不同的语言
+    # 首先处理 zh_CN
+    process_language(place, 'zh_CN')
+
+    # 然后处理 zh_TW
+    process_language(place, 'zh_TW')
+
+    # 处理其他语言，使用进程池并行处理
+    other_langs = [lang for lang in LANG if lang not in ('zh_CN', 'zh_TW')]
     with ProcessPoolExecutor() as executor:
-        lang_futures = [executor.submit(process_language, place, lang) for lang in LANG]
+        lang_futures = [executor.submit(process_language, place, lang) for lang in other_langs]
         for future in as_completed(lang_futures):
             try:
                 future.result()
