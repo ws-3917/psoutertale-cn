@@ -1,6 +1,9 @@
 import re, polib, os, sys, datetime, zhconv, string, random
 from termcolor import colored
 from options import *
+from concurrent.futures import ProcessPoolExecutor, as_completed
+import shutil
+from concurrent.futures import ThreadPoolExecutor
 sys.path.append(os.getcwd())
 s2c_pattern = re.compile("|".join(map(re.escape, S2T_DICT.keys())))
 name_pattern = re.compile(r'(?<![a-zA-Z/-])(?:{})(?![a-zA-Z/-])'.format(CN_NAME_DICT), re.IGNORECASE)
@@ -484,92 +487,191 @@ def po2ts(source_ts, translation_dict, dist, insert_content=True, lang="zh_CN"):
         file.write(final_content)
 
 # 加载最新的资源文件
+
 def task_loadassets():
     """
-    执行更新资源的任务，包括从仓库拉取最新代码，复制必要文件等。
+    执行更新资源的任务，包括复制必要文件等。
     """
-    print(colored("--> 拉取最新资源", "blue"))
-    bashcmd(f"cd {TRANS_PATH} && git pull github master")
     print(colored("--> 更新字体、贴图资源", "blue"))
 
-    # 额外更新一下英文字体
-    bashcmd(f"cp -rf {GMS_PATH}/dist/psot/* {TRANS_PATH}/fonts/")
-    bashcmd(f"cp -f {GMS_PATH}/dist/psot/en_US/* {SRC_PATH}/languages/en_US/assets/fonts")
+    # 更新英文字体
+    copy_fonts_and_assets()
 
-    for lang in LANG:
-        # 按语言更新字体资源
-        bashcmd(f"rm -rf {SRC_PATH}/languages/{lang}/assets")
-        bashcmd(f"mkdir -p {SRC_PATH}/languages/{lang}/assets/fonts {TRANS_PATH}/fonts/{lang} "
-                f"{SRC_PATH}/languages/{lang}/assets/images {SRC_PATH}/languages/{lang}/text")
-        bashcmd(f"cp -f {GMS_PATH}/dist/psot/{lang}/* {SRC_PATH}/languages/{lang}/assets/fonts")
+    # 更新 build 和 package 配置文件
+    shutil.copy(f"{TRANS_PATH}/assets/build.sh", f"{SRC_PATH}/build.sh")
+    shutil.copy(f"{TRANS_PATH}/assets/package.json", f"{SRC_PATH}/package.json")
 
-        # 统一更新贴图资源
-        bashcmd(f"cp -rf {TRANS_PATH}/images/{lang}/* {SRC_PATH}/languages/{lang}/assets/images")
-        
-        # 更新build和package配置文件
-        bashcmd(f"cp {TRANS_PATH}/assets/build.sh {SRC_PATH}")
-        bashcmd(f"cp {TRANS_PATH}/assets/package.json {SRC_PATH}")
+    # 并行处理每个语言的资源更新
+    with ThreadPoolExecutor() as executor:
+        executor.map(process_language_assets, LANG)
 
-        # 更新sources, index文件
-        bashcmd(f"cp -f {SRC_PATH}/languages/en_US/{{index,sources}}.ts {SRC_PATH}/languages/{lang}")
-        
+def copy_fonts_and_assets():
+    """
+    更新英文字体和资产文件。
+    """
+    # 更新英文字体到 TRANS_PATH/fonts
+    fonts_src = f"{GMS_PATH}/dist/psot/"
+    fonts_dest = f"{TRANS_PATH}/fonts/"
+    copy_directory_contents(fonts_src, fonts_dest)
+
+    # 更新英文字体到 SRC_PATH/languages/en_US/assets/fonts
+    fonts_src_en = f"{GMS_PATH}/dist/psot/en_US/"
+    fonts_dest_en = f"{SRC_PATH}/languages/en_US/assets/fonts"
+    copy_directory_contents(fonts_src_en, fonts_dest_en)
+
+def process_language_assets(lang):
+    """
+    处理单个语言的资源更新。
+    """
+    try:
+        print(colored(f" -> 处理语言: {lang}", "yellow"))
+        lang_assets_path = f"{SRC_PATH}/languages/{lang}/assets"
+        # 删除旧的资产目录
+        shutil.rmtree(lang_assets_path, ignore_errors=True)
+
+        # 创建必要的目录
+        os.makedirs(f"{SRC_PATH}/languages/{lang}/assets/fonts", exist_ok=True)
+        os.makedirs(f"{TRANS_PATH}/fonts/{lang}", exist_ok=True)
+        os.makedirs(f"{SRC_PATH}/languages/{lang}/assets/images", exist_ok=True)
+        os.makedirs(f"{SRC_PATH}/languages/{lang}/text", exist_ok=True)
+
+        # 复制字体文件
+        fonts_src_lang = f"{GMS_PATH}/dist/psot/{lang}/"
+        fonts_dest_lang = f"{SRC_PATH}/languages/{lang}/assets/fonts"
+        copy_directory_contents(fonts_src_lang, fonts_dest_lang, files_only=True)
+
+        # 复制图片资源
+        images_src = f"{TRANS_PATH}/images/{lang}/"
+        images_dest = f"{SRC_PATH}/languages/{lang}/assets/images"
+        copy_directory_contents(images_src, images_dest)
+
+        # 复制 sources 和 index 文件
+        shutil.copy(f"{SRC_PATH}/languages/en_US/index.ts", f"{SRC_PATH}/languages/{lang}/index.ts")
+        shutil.copy(f"{SRC_PATH}/languages/en_US/sources.ts", f"{SRC_PATH}/languages/{lang}/sources.ts")
+
         if 'zh_' in lang:
-            bashcmd(f"mkdir -p {SRC_PATH}/languages/{lang}/assets-alt/images {SRC_PATH}/languages/{lang}/text-alt")
-            bashcmd(f"cp -rf {TRANS_PATH}/images/{lang}-alt/* {SRC_PATH}/languages/{lang}/assets-alt/images")
-            bashcmd(f"cp -f {SRC_PATH}/languages/en_US/{{index-alt,sources-alt}}.ts {SRC_PATH}/languages/{lang}")
+            # 创建额外的目录
+            os.makedirs(f"{SRC_PATH}/languages/{lang}/assets-alt/images", exist_ok=True)
+            os.makedirs(f"{SRC_PATH}/languages/{lang}/text-alt", exist_ok=True)
+
+            # 复制额外的图片资源
+            images_alt_src = f"{TRANS_PATH}/images/{lang}-alt/"
+            images_alt_dest = f"{SRC_PATH}/languages/{lang}/assets-alt/images"
+            copy_directory_contents(images_alt_src, images_alt_dest)
+
+            # 复制额外的 sources 和 index 文件
+            shutil.copy(f"{SRC_PATH}/languages/en_US/index-alt.ts", f"{SRC_PATH}/languages/{lang}/index-alt.ts")
+            shutil.copy(f"{SRC_PATH}/languages/en_US/sources-alt.ts", f"{SRC_PATH}/languages/{lang}/sources-alt.ts")
+
+    except Exception as e:
+        print(colored(f"处理语言 {lang} 时出现错误: {e}", "red"))
+
+def copy_directory_contents(src_dir, dest_dir, files_only=False):
+    """
+    复制目录内容，从 src_dir 到 dest_dir。
+
+    参数:
+    - src_dir: 源目录路径
+    - dest_dir: 目标目录路径
+    - files_only: 如果为 True，则只复制文件，不复制子目录
+    """
+    if not os.path.exists(src_dir):
+        print(colored(f"源目录不存在: {src_dir}", "red"))
+        return
+
+    os.makedirs(dest_dir, exist_ok=True)
+
+    for item in os.listdir(src_dir):
+        s = os.path.join(src_dir, item)
+        d = os.path.join(dest_dir, item)
+        if os.path.isdir(s):
+            if not files_only:
+                shutil.copytree(s, d, dirs_exist_ok=True)
+        else:
+            shutil.copy2(s, d)
+
+def process_place(place):
+    print(colored(f" -> {place}", "yellow"))
+    os.makedirs(f"{TRANS_PATH}/text/{place}", exist_ok=True)
+    shutil.copy(f"{SRC_PATH}/languages/en_US/text/{place}.ts", f"{TRANS_PATH}/text/{place}/en.ts")
+    ts2po(f"{TRANS_PATH}/text/{place}/en.ts", f"{TRANS_PATH}/text/{place}/en.pot")
+
+    # 使用进程池并行处理不同的语言
+    with ProcessPoolExecutor() as executor:
+        lang_futures = [executor.submit(process_language, place, lang) for lang in LANG]
+        for future in as_completed(lang_futures):
+            try:
+                future.result()
+            except Exception as exc:
+                print(colored(f"处理语言时出现异常: {exc}", "red"))
+
+def process_language(place, lang):
+    source_path = f"{TRANS_PATH}/text/{place}/en.pot"
+    dist_path = f"{TRANS_PATH}/text/{place}/{lang}.po"
+    if not os.path.exists(dist_path):
+        open(dist_path, 'a').close()
+    merge_po_files(source_path, dist_path, dist_path)
+    # 繁中自动生成
+    if lang == "zh_TW":
+        merge_po_files(dist_path.replace(lang, "zh_CN"), dist_path, dist_path)
+    transdict = load_dict(dist_path)
+    if place == 'values':
+        source_ts = f"{TRANS_PATH}/assets/values-{lang}.ts"
+    else:
+        source_ts = f"{TRANS_PATH}/text/{place}/en.ts"
+    output_ts = f"{TRANS_PATH}/text/{place}/{lang}.ts"
+    po2ts(source_ts, transdict, output_ts, lang=lang)
+    dest_ts = f"{SRC_PATH}/languages/{lang}/text/{place}.ts"
+    os.makedirs(os.path.dirname(dest_ts), exist_ok=True)
+    shutil.copy(output_ts, dest_ts)
+
+    # 0713 - 人名替换版翻译字典
+    if 'zh_' in lang:
+        transdict_alt = replace_character_name(transdict, CN_NAME_DICT, lang == 'zh_TW')
+        if place == 'values':
+            source_ts = f"{TRANS_PATH}/assets/values-{lang}.ts"
+        else:
+            source_ts = f"{TRANS_PATH}/text/{place}/en.ts"
+        output_alt_ts = f"{TRANS_PATH}/text/{place}/{lang}-alt.ts"
+        po2ts(source_ts, transdict_alt, output_alt_ts, lang=lang)
+        dest_alt_ts = f"{SRC_PATH}/languages/{lang}/text-alt/{place}.ts"
+        os.makedirs(os.path.dirname(dest_alt_ts), exist_ok=True)
+        shutil.copy(output_alt_ts, dest_alt_ts)
+
+def process_term(term):
+    convert_s2t(f"{TRANS_PATH}/text/terms/{term}/zh_CN.tbx", f"{TRANS_PATH}/text/terms/{term}/zh_TW.tbx")
+
 
 # 更新翻译任务
 def task_update():
     """
     更新翻译任务，将翻译应用到项目文件。
     """
+    print(colored("--> 拉取最新资源", "blue"))
+    bashcmd(f"cd {TRANS_PATH} && git pull github master")
     task_loadassets()
     print(colored("--> 将翻译字典合并至代码", "blue"))
-    for place in PLACELIST:
-        # 初始化
-        print(colored(f" -> {place}", "yellow"))
-        bashcmd(f"mkdir -p {TRANS_PATH}/text/{place}")
-        bashcmd(f"cp {SRC_PATH}/languages/en_US/text/{place}.ts {TRANS_PATH}/text/{place}/en.ts")
-        ts2po(f"{TRANS_PATH}/text/{place}/en.ts", f"{TRANS_PATH}/text/{place}/en.pot")
-
-        # 更新文本
-        for lang in LANG:
-            print(colored(f"  - {lang}", "green"))
-            source_path = f"{TRANS_PATH}/text/{place}/en.pot"
-            dist_path = f"{TRANS_PATH}/text/{place}/{lang}.po"
-            if not os.path.exists(dist_path):
-                bashcmd(f"echo '' > {dist_path}")
-            merge_po_files(source_path, dist_path, dist_path)
-            # 繁中自动生成
-            if lang == "zh_TW":
-                merge_po_files(dist_path.replace(lang, "zh_CN"), dist_path, dist_path)
-            transdict = load_dict(f"{TRANS_PATH}/text/{place}/{lang}.po")
-            if place == 'values':
-                po2ts(f"{TRANS_PATH}/assets/values-{lang}.ts", transdict, f"{TRANS_PATH}/text/{place}/{lang}.ts", lang=lang)
-            else:
-                po2ts(f"{TRANS_PATH}/text/{place}/en.ts", transdict, f"{TRANS_PATH}/text/{place}/{lang}.ts", lang=lang)
-            bashcmd(f"cp {TRANS_PATH}/text/{place}/{lang}.ts {SRC_PATH}/languages/{lang}/text/{place}.ts")
-            # 0713 - 人名替换版翻译字典
-            if 'zh_' in lang:
-                transdict_alt = replace_character_name(transdict, CN_NAME_DICT, bool(lang == 'zh_TW'))
-                if place == 'values':
-                    po2ts(f"{TRANS_PATH}/assets/values-{lang}.ts", transdict_alt, f"{TRANS_PATH}/text/{place}/{lang}-alt.ts", lang=lang)
-                else:
-                    po2ts(f"{TRANS_PATH}/text/{place}/en.ts", transdict_alt, f"{TRANS_PATH}/text/{place}/{lang}-alt.ts", lang=lang)
-                bashcmd(f"cp {TRANS_PATH}/text/{place}/{lang}-alt.ts {SRC_PATH}/languages/{lang}/text-alt/{place}.ts")
+    
+    # 使用进程池并行处理不同的 place
+    with ProcessPoolExecutor() as executor:
+        futures = [executor.submit(process_place, place) for place in PLACELIST]
+        for future in as_completed(futures):
+            # 捕获可能的异常
+            try:
+                future.result()
+            except Exception as exc:
+                print(colored(f"处理 place 时出现异常: {exc}", "red"))
 
     # 0717 更新繁中术语表
     print(colored("--> 更新术语表", "blue"))
-    for term in TERMS:
-        convert_s2t(f"{TRANS_PATH}/text/terms/{term}/zh_CN.tbx", f"{TRANS_PATH}/text/terms/{term}/zh_TW.tbx")
+    with ProcessPoolExecutor() as executor:
+        executor.map(process_term, TERMS)
 
     # 推送更改
     print(colored("--> 推送更改到Git仓库", "blue"))
     current_time = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-    # git remote add origin git@gitee.com:ws-3917/psoutertale-cn.git
-    # git remote add github git@github.com:ws-3917/psoutertale-cn.git
-    bashcmd(f"cd {TRANS_PATH} && git add . && git commit -m '{current_time} Update translation. \\nAuthor: {TRANS_AUTHOR}'")
-    bashcmd(f"cd {TRANS_PATH} && git push origin master && git push -u github master")
+    #bashcmd(f"cd {TRANS_PATH} && git add . && git commit -m '{current_time} Update translation. \\nAuthor: {TRANS_AUTHOR}'")
+    #bashcmd(f"cd {TRANS_PATH} && git push origin master && git push -u github master")
 
     print(colored("--- 文本更新完成", "green"))
 
@@ -762,7 +864,6 @@ def task_dttvl_update(update_lang = "zh_CN"):
     print(colored(f" -> 更新翻译字典", "yellow"))
     for place in DTTVL_PLACELIST:
         print(colored(f" -- {place}", "green"))
-        #for lang in LANG:
         for lang in ["zh_CN", "zh_TW"]:
             source_path = f"{TRANS_PATH}/dttvl/{place}/en.pot"
             dist_path = f"{TRANS_PATH}/dttvl/{place}/{lang}.po"
@@ -781,12 +882,6 @@ def task_dttvl_update(update_lang = "zh_CN"):
     
     for root, _, files in os.walk(f"{TRANS_PATH}/dttvl/cs"):
         for file in files:
-            # skip_merge = False
-            # for lang in LANG:
-            #     if lang in file:
-            #         skip_merge = True
-            # if skip_merge:
-            #     continue
             full_path = os.path.join(root, file).replace('\\', '/')
             po2ts(full_path, transdict, f"{DTTVL_PATH}{full_path.replace(f"{TRANS_PATH}/dttvl/cs", "")}", insert_content=False, lang=update_lang)
             # 人名翻译版代码待定
