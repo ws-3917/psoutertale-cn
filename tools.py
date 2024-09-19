@@ -892,16 +892,16 @@ def task_dttvl_update(update_lang = "zh_CN"):
             full_path = os.path.join(root, file).replace('\\', '/')
             po2ts(full_path, transdict, f"{DTTVL_PATH}{full_path.replace(f"{TRANS_PATH}/dttvl/cs", "")}", insert_content=False, lang=update_lang)
             # 人名翻译版代码待定
-    for i in range(3):
-        for root, _, files in os.walk(f"{TRANS_PATH}/dttvl/{DTTVL_DIRLIST[i]}"):
-            for file in files:
-                full_path = os.path.join(root, file).replace('\\', '/')
-                po2ts(full_path, transdict, f"{TRANS_PATH}/dttvl/temp", insert_content=False, lang=update_lang)
-                # 人名翻译版代码待定
-                with open(f"{TRANS_PATH}/dttvl/temp", 'r', encoding='utf-8') as utfile:
-                    content = utfile.read().replace("\\'", "''")
-                with open(f"{DTTVL_PATHX}{full_path.replace(f"{TRANS_PATH}/dttvl/", "")}", 'w', encoding='utf-8') as utfile:
-                    utfile.write(content)
+    # for i in range(3):
+    #     for root, _, files in os.walk(f"{TRANS_PATH}/dttvl/{DTTVL_DIRLIST[i]}"):
+    #         for file in files:
+    #             full_path = os.path.join(root, file).replace('\\', '/')
+    #             po2ts(full_path, transdict, f"{TRANS_PATH}/dttvl/temp", insert_content=False, lang=update_lang)
+    #             # 人名翻译版代码待定
+    #             with open(f"{TRANS_PATH}/dttvl/temp", 'r', encoding='utf-8') as utfile:
+    #                 content = utfile.read().replace("\\'", "''")
+    #             with open(f"{DTTVL_PATHX}{full_path.replace(f"{TRANS_PATH}/dttvl/", "")}", 'w', encoding='utf-8') as utfile:
+    #                 utfile.write(content)
         
     print(colored("--> 推送更改到Git仓库", "blue"))
     current_time = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
