@@ -2699,7 +2699,7 @@ export default {
                          ]),
                     "<25>{#f/13}* That's the kind of thing I'm talking about.",
                     "<25>{#f/22}* ...做了那些事，\n  我怎么还有脸活在这世上。",
-                    choicer.create('* (What will you do?)', 'Protest', 'Do not')
+                    choicer.create('* （你要怎么做？）', '辩解', '站着不动')
                  ]
                : [
                     SAVE.flag.n.killed_sans > 0
@@ -2713,7 +2713,7 @@ export default {
                     '<25>{#f/13}* Friends, family, bystanders...',
                     "<25>{#f/22}* There's no excuse for what I've done.",
                     ...(SAVE.data.b.oops ? [] : [ '<32>{#p/basic}* 艾斯利尔...' ]),
-                    choicer.create('* (What will you do?)', 'Forgive', 'Do not')
+                    choicer.create('* （你要怎么做？）', '原谅他', '站着不动')
                  ],
          sad4a: () => [
             ...(world.runaway
@@ -2790,7 +2790,7 @@ export default {
                     ...(SAVE.data.b.oops ? [] : [ "<32>{#p/basic}* No! You can't just walk away!" ]),
                     '<25>{#p/asriel1}{#f/23}* Just go be with the people who love you.'
                  ]),
-            choicer.create('* (What will you do?)', '安慰他', 'Do not')
+            choicer.create('* （你要怎么做？）', '安慰他', '站着不动')
          ],
          sad6: () =>
             world.runaway

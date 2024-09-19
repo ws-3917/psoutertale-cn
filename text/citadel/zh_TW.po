@@ -6537,13 +6537,13 @@ msgstr ""
 "  我怎麼還有臉活在這世上。"
 
 msgid "* (What will you do?)"
-msgstr ""
+msgstr "* （你要怎麼做？）"
 
 msgid "Protest"
-msgstr ""
+msgstr "辯解"
 
 msgid "Do not"
-msgstr ""
+msgstr "站著不動"
 
 msgid "<25>{#p/asriel1}{#f/13}* I understand if you can't forgive me."
 msgstr ""
@@ -6575,7 +6575,7 @@ msgid "<25>{#f/22}* There's no excuse for what I've done."
 msgstr ""
 
 msgid "Forgive"
-msgstr ""
+msgstr "原諒他"
 
 msgid "<25>{#p/asriel1}{#f/25}* Wh... what?"
 msgstr ""
