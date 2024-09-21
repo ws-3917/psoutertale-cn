@@ -1,6 +1,21 @@
-#
+#, fuzzy
 msgid ""
 msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-09-23 03:26+0000\n"
+"PO-Revision-Date: 2024-09-23 03:26+0000\n"
+"Last-Translator: forestfamily4 <hyper.developer.ink@gmail.com>\n"
+"Language-Team: Japanese <https://ws3917.site/projects/project-spacetime/"
+"1-outlands/ja/>\n"
+"Language: ja_JP\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: ENCODING\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.6.2\n"
+
+#
 
 msgid ""
 "<25>{#p/toriel}{#f/1}* I hear there is a certain kind of fluid in "
@@ -1711,163 +1726,174 @@ msgid "<32>{#p/human}* (It sounds like someone is crying...)"
 msgstr "<17>{#p/human}＊（だれかの　ないている　こえがきこえる…）"
 
 msgid "<32>{#p/basic}* There's a backpack strung up on this coat rack."
-msgstr ""
+msgstr "<17>{#p/basic}＊この　コートハンガーに　リュックが　つるされている。"
 
 msgid "<32>{#p/human}* (You look inside the backpack...)"
-msgstr ""
+msgstr "<17>{#p/human}＊（リュックの　なかみを　みてみた…）"
 
 msgid "<32>{#p/human}* (But there was nothing left to find within.)"
-msgstr ""
+msgstr "<17>{#p/human}＊（なかには　なにも　なかった）"
 
 msgid "<32>{#p/basic}* Nothing left to find here."
-msgstr ""
+msgstr "<17>{#p/basic}＊ここには　なにも　ない"
 
 msgid ""
 "<32>{#p/basic}* What's this?\n"
 "* A limited edition Super Starwalker comic strip?"
 msgstr ""
+"<17>{#p/basic}＊なんだ？\n"
+"＊あの　げんていばんの　『超スターウォーカー』　じゃないか？"
 
 msgid "<32>{#s/equip}{#p/human}* (You got the Super Starwalker 2.)"
 msgstr "<18>{#p/human}＊(『超スターウォーカーⅡ』を　てにいれた)"
 
 msgid "<32>{#p/human}* (You're carrying too much to take that.)"
-msgstr ""
+msgstr "<17>{#p/human}＊（これいじょう　アイテムを　もてない）"
 
 msgid ""
 "<32>{#p/human}* (If you sleep here now, you may miss something important.)"
-msgstr ""
+msgstr "<17>{#p/human}＊（ここでねると　なにかだいじなことを　わすれてしまう　"
+"かもしれない）"
 
 msgid "* (Go to sleep?)"
-msgstr ""
+msgstr "＊（ねる？）"
 
 msgid "<25>{#p/toriel}{#f/5}* Oh dear."
-msgstr ""
+msgstr "<13>{#p/toriel}{#f/5}＊まあ…"
 
 msgid ""
 "<25>{#f/1}* Perhaps my actions have done more harm than I first imagined..."
-msgstr ""
+msgstr "<13>{#f/1}＊おもってたよりも　あなたを　きづつけて　しまったかも…"
 
 msgid ""
 "<25>{#f/0}* ...\n"
 "* Worry not, my child."
 msgstr ""
+"<13>{#f/0}＊…\n"
+"＊しんぱいしないで。"
 
 msgid ""
 "<25>* I will make sure you get a good night's rest for the journey ahead."
-msgstr ""
+msgstr "<13>＊たびにそなえて　ぐっすり　ねられるように　してあげます。"
 
 msgid ""
 "<32>{#p/human}* (Toriel sits next to you and sings a lullaby to put you to "
 "sleep.)"
-msgstr ""
+msgstr "<17>{#p/human}＊（トリエルが　あなたのとなりに　すわって　こもりうたを　"
+"うたっている）"
 
 msgid "<32>{#p/napstablook}* Zzz... Zzz..."
-msgstr ""
+msgstr "<17>{#p/napstablook}＊グーグーグー…　グーグーグー…"
 
 msgid "<32>* Zzz... Zzz..."
-msgstr ""
+msgstr "<17>＊グーグーグー…　グーグーグー…"
 
 msgid ""
 "<32>{#p/basic}* This ghost keeps saying 'z' out loud repeatedly, pretending "
 "to sleep."
-msgstr ""
+msgstr "<17>{#p/basic}＊この　おばけは　「グーグー」と　いいつづけて　ねたふりを　"
+"している。"
 
 msgid "* (Try to walk through it?)"
-msgstr ""
+msgstr "＊（ムリヤリ　どかす？）"
 
 msgid "<32>{#p/basic}* The ghost is still blocking the way."
-msgstr ""
+msgstr "<17>{#p/basic}＊この　おばけは　いまだに　みちを　ふさいでいる。"
 
 msgid ""
 "<32>{#p/napstablook}* i usually visit this place to get some peace and "
 "quiet..."
-msgstr ""
+msgstr "<17>{#p/napstablook}＊いつもネ…　おだやかで　しずかな　このへやに　"
+"くるんだケド…"
 
 msgid "<32>* but today i met someone nice..."
-msgstr ""
+msgstr "<17>＊きょうはネ…　いいひとに　であっちゃッタ…"
 
 msgid "<32>* well, i'll get out of your way now"
-msgstr ""
+msgstr "<17>＊ジャマだよネ。　いまどくネ。"
 
 msgid "<32>* cya..."
-msgstr ""
+msgstr "<17>＊じゃネ…"
 
 msgid ""
 "<32>{#p/napstablook}* so um...\n"
 "* you really like me, huh"
 msgstr ""
+"<17>{#p/napstablook}＊えっと…\n"
+"＊そんなに　おばけが　スキなんだ…　あッ…"
 
 msgid "<32>* heh... thank you..."
-msgstr ""
+msgstr "<17>＊アリガト…"
 
 msgid "<32>* and, uh... sorry i got in your way before..."
-msgstr ""
+msgstr "<17>＊あッ…　ジャマだよネ…"
 
 msgid "<32>* i'll go somewhere else now"
-msgstr ""
+msgstr "<17>＊べつの　ばしょに　いくつもりだヨ。"
 
 msgid "<32>* but... don't worry..."
-msgstr ""
+msgstr "<17>あ…　だいじょうブ…"
 
 msgid "<32>* you'll see me again later..."
-msgstr ""
+msgstr "<17>＊たぶん　また　あう　カラ…"
 
 msgid "<32>* if you want to..."
-msgstr ""
+msgstr "<17>＊もし　よかったらだケド…"
 
 msgid "<32>* well, cya..."
-msgstr ""
+msgstr "<17>＊えっト…　じゃネ…"
 
 msgid "<32>{#p/napstablook}* so um... you really despise me, huh"
-msgstr ""
+msgstr "<17>{#p/napstablook}＊えット…　ほんとに　おばけのこと　きらい　なんだネ…　"
+"ハハ…"
 
 msgid "<32>* that's... nice..."
-msgstr ""
+msgstr "<17>＊そんな　かんがえモ…　アリだと　おもうヨ…"
 
 msgid "<32>* well, i'll be on my way now"
-msgstr ""
+msgstr "<17>＊あッ…　ジャマだよネ…"
 
 msgid "<32>* bye..."
-msgstr ""
+msgstr "<17>＊じゃネ…"
 
 msgid "<32>{#p/napstablook}* so um... that happened..."
-msgstr ""
+msgstr "<17>{#p/napstablook}＊えット…　そういうことも　あるよネ…"
 
 msgid "<32>* uh... i gotta go now"
-msgstr ""
+msgstr "<17>＊あ…　いかないト…"
 
 msgid "<32>{#p/napstablook}* you didn't even say anything to me..."
-msgstr ""
+msgstr "<17>{#p/napstablook}＊ひとことも　しゃべって　くれなかったネ…"
 
 msgid "<32>* that's... i don't even know what that is..."
-msgstr ""
+msgstr "<17>＊えット…　どういうことか　わからなクテ…"
 
 msgid "<32>* well, i'll be going now"
-msgstr ""
+msgstr "<17>＊あ…　いかないト…"
 
 msgid "<32>{#p/human}* (You got the Fried Snails.)"
 msgstr ""
 
 msgid "<32>{#p/human}* (You approach the vending machine.)"
-msgstr ""
+msgstr "<17>{#p/human}＊（じはんきに　ちかづいた）"
 
 msgid "* (What will you make?)"
-msgstr ""
+msgstr "＊（なにを　つくる？）"
 
 msgid "Candy"
 msgstr ""
 
 msgid "Water"
-msgstr ""
+msgstr "水"
 
 msgid "Δ-9"
 msgstr "カンナビノイド"
 
 msgid "Nothing"
-msgstr ""
+msgstr "やめる"
 
 msgid "<32>{#p/basic}* Synthesize something with the vending machine?"
-msgstr ""
+msgstr "<17>{#p/basic}＊じはんきで　なにか　ごうせいする？"
 
 msgid ""
 "<32>{#p/human}* (You got the $(x).)\n"
@@ -1880,160 +1906,175 @@ msgid "<32>{#p/human}* (You got the $(x).)"
 msgstr "<18>{#p/human}＊($(x)を　てにいれた)"
 
 msgid "<32>{#p/basic}* The machine is beginning to malfunction."
-msgstr ""
+msgstr "<17>{#p/basic}＊じはんきが　あやしげな　おとをたてている…"
 
 msgid "<32>{#p/basic}* The machine broke down."
-msgstr ""
+msgstr "<17>{#p/basic}＊じはんきは　こしょうした。"
 
 msgid "<25>{#p/asriel1}{#f/13}* Out of service again?"
-msgstr ""
+msgstr "<13>{#p/asriel1}{#f/13}＊また　つかえなく　なったのか？"
 
 msgid "<25>{#f/17}* Yeah, that's... by design, actually."
-msgstr ""
+msgstr "<13>{#f/17}＊まあ…　ほんとは　シヨウなんだけど。"
 
 msgid ""
 "<25>{#f/13}* This machine runs on the Outlands' own power supply, so..."
-msgstr ""
+msgstr "<13>{#f/13}＊このじはんきは　アウトランドの　エネルギーを　つかってる　から…"
 
 msgid ""
 "<25>{#f/15}* To avoid using too much power, Toriel just made it break "
 "itself."
-msgstr ""
+msgstr "<13>{#f/15}＊トリエルが　つかいすぎない　ように　せってい　したんだ。"
 
 msgid "<26>{#f/20}* Not that she'd tell you."
-msgstr ""
+msgstr "<13>{#f/20}＊トリエルは　おしえて　くれないと　おもうけど。"
 
 msgid ""
 "<25>{#p/asriel1}{#f/13}* The reason that power supply is so small, though..."
-msgstr ""
+msgstr "<13>{#p/asriel1}{#f/13}＊なんで　ここの　エネルギーが　すくないのか　"
+"っていうと…"
 
 msgid ""
 "<25>{#f/17}* It's because, unlike the CORE, it only uses background "
 "radiation."
-msgstr ""
+msgstr "<13>{#f/17}＊コアとちがって　ハイケイホウシャしか　つかってないんだ。"
 
 msgid "<25>{#f/13}* To put it into numbers, I'd say..."
-msgstr ""
+msgstr "<13>{#f/13}＊その　りょうを　けいさんすると…"
 
 msgid ""
 "<25>{#f/15}* It generates about ten- thousandths of the power the CORE does."
-msgstr ""
+msgstr "<13>{#f/15}＊ざっと　コアのエネルギーの　1パー　ぐらいだね。"
 
 msgid "<25>{#p/asriel1}{#f/13}* Hmm..."
-msgstr ""
+msgstr "<13>{#p/asriel2}{#f/13}＊…"
 
 msgid "<25>{#f/15}* I wonder if, despite its low capacity..."
-msgstr ""
+msgstr "<13>{#f/15}＊しゅつりょくが　そんなに　ひくいのに…"
 
 msgid ""
 "<25>{#f/13}* This generator would be enough to power a small atmospheric "
 "system."
-msgstr ""
+msgstr "<13>{#f/13}＊ここの　さんそせいせい　システムが　うごいてるのは　"
+"ふしぎだよね。"
 
 msgid "<25>{#f/17}* If the CORE was destroyed, could people survive here...?"
-msgstr ""
+msgstr "<13>{#f/17}＊もしもコアが　こわれたら　モンスターたちは　いきられるのかな…？"
 
 msgid "<26>{#p/asriel1}{#f/20}* ... asking for a friend."
-msgstr ""
+msgstr "<13>{#p/asriel1}{#f/20}＊…べつの　おともだちを　たよったら　どうかな。"
 
 msgid "<32>{#p/basic}* It's out of service."
-msgstr ""
+msgstr "<17>{#p/basic}＊つかえない。"
 
 msgid "<32>{#p/human}* (You decide not to make anything.)"
-msgstr ""
+msgstr "<17>{#p/human}＊（なにも　つくらないことにした）"
 
 msgid "<32>{#p/human}* (You're carrying too much.)"
-msgstr ""
+msgstr "<17>{#p/human}＊（これいじょう　アイテムを　もてない）"
 
 msgid ""
 "<25>{#p/toriel}{#f/1}{#n1}* What is it, my child?\n"
 "* Are you hungry?"
 msgstr ""
+"<13>{#p/toriel}{#f/1}{#n1}＊どうしたの？\n"
+"＊おなかが　すいた　のかしら？"
 
 msgid ""
 "<25>{#f/0}* Perhaps you would like to know more about the book I am reading."
 msgstr ""
+"<13>{#f/0}＊わかったわ。\n"
+"＊この　ほんの　ことを　しりたいのね。"
 
 msgid "{#n1!}* (What do you say?)"
-msgstr ""
+msgstr "{#n1!}＊（どう　こたえる？）"
 
 msgid "Hungry"
-msgstr ""
+msgstr "ハラペコ"
 
 msgid "Book"
-msgstr ""
+msgstr "ほん"
 
 msgid "Home"
-msgstr ""
+msgstr "うち"
 
 msgid "<25>{#p/toriel}{#n1}* What is it, my child?"
-msgstr ""
+msgstr "<13>{#p/toriel}{#n1}＊なにか　ごようかしら？"
 
 msgid "<25>{#p/toriel}{#n1}* Well, let me know if you need anything."
-msgstr ""
+msgstr "<13>{#p/toriel}{#n1}＊ほしいものが　あれば　おしえてね。"
 
 msgid "<25>{#p/toriel}{#n1}* Well, let me know if you change your mind."
-msgstr ""
+msgstr "<13>{#p/toriel}{#n1}＊きが　かわったら　おしえてね。"
 
 msgid "<25>{#p/toriel}{#f/1}{#n1}* Restless night?"
-msgstr ""
+msgstr "<13>{#p/toriel}{#f/1}{#n1}＊ねつけない　のかしら？"
 
 msgid ""
 "<25>{#f/1}* ...\n"
 "* If you like, I can read you this book..."
 msgstr ""
+"<13>{#f/1}＊…\n"
+"＊じゃあ　あんたに　このほんを　よんであげられるわ。"
 
 msgid ""
 "<25>{#f/0}* It is called \"Generous Monster\" and it was written by a human."
-msgstr ""
+msgstr "<13>{#f/0}＊ニンゲンの　かいた　「おおらかモンスター」　っていう　ほん。"
 
 msgid "{#n1!}* (Read the book?)"
-msgstr ""
+msgstr "{#n1!}＊（ほんを　よんでもらう？）"
 
 msgid "<25>{#p/toriel}{#n1}{#f/1}* Back for a visit?"
-msgstr ""
+msgstr "<13>{#p/toriel}{#n1}{#f/1}＊もどってきたのかしら？"
 
 msgid "<25>{#f/0}* Well, feel free to stay as long as you need."
-msgstr ""
+msgstr "<13>{#f/0}＊もちろん　すきなだけ　ここに　いてくれて　かまわないわ。"
 
 msgid "<26>{#p/toriel}{#n1}{#f/5}* I shall remain here, as I always have..."
-msgstr ""
+msgstr "<13>{#p/toriel}{#n1}{#f/5}＊いつもどおり　ここにいる　よてい　ですから。"
 
 msgid ""
 "<25>{#p/toriel}{#f/1}{#n1}* Are you hungry?\n"
 "* Would you like me to make you a breakfast?"
 msgstr ""
+"<13>{#p/toriel}{#f/1}{#n1}＊おなか　すいてない？\n"
+"＊あさごはん　でも　つくりましょうか？"
 
 msgid "{#n1!}* (Have breakfast?)"
-msgstr ""
+msgstr "{#n1!}＊（あさごはんを　たべる？）"
 
 msgid ""
 "<25>{#p/toriel}{#n1}* Wonderful!\n"
 "* I will be in the kitchen preparing it."
 msgstr ""
+"<13>{#p/toriel}{#n1}＊そうこなくちゃ！\n"
+"＊キッチンで　ごはんの　じゅんびを　しておくわね。"
 
 msgid ""
 "<25>{#p/toriel}{#f/1}{#n1}* Have you changed your mind about breakfast?"
-msgstr ""
+msgstr "<13>{#p/toriel}{#f/1}{#n1}＊やっぱり　あさごはんを　たべたいの？"
 
 msgid ""
 "<25>{#p/toriel}{#f/3}{#n1}* You expect me to make another after you dropped "
 "the first one?"
-msgstr ""
+msgstr "<13>{#p/toriel}{#f/3}{#n1}＊おとしたからって　もういちど　あさごはんを　"
+"つくってほしいの？"
 
 msgid "<25>{#f/4}* This child..."
-msgstr ""
+msgstr "<13>{#f/4}＊あなたというコは…"
 
 msgid ""
 "<25>{#f/0}* No, little one.\n"
 "* I will not prepare another breakfast."
 msgstr ""
+"<13>{#f/0}＊いけません。\n"
+"＊つくりません　からね。"
 
 msgid "<25>{#p/toriel}{#n1}* I have already served breakfast, little one."
-msgstr ""
+msgstr "<13>{#p/toriel}{#n1}＊もう　あさごはんは　つくりました。"
 
 msgid "<25>{#f/1}* We cannot have more than one breakfast per day, can we?"
-msgstr ""
+msgstr "<13>{#f/1}＊"
 
 msgid "<25>{#f/0}* That would be silly."
 msgstr ""
@@ -7350,13 +7391,13 @@ msgid "<25>{#f/5}* Let's get started, shall we?"
 msgstr "<13>{#f/5}＊さぁ　はじめよう！"
 
 msgid "<25>{#f/7}* But you already KNEW that, didn'tcha?"
-msgstr "<13>{#f/7}＊でも　キミは　しってたんでしょう？"
+msgstr "<13>{#f/7}＊でも　キミは　しってたんだろ？"
 
 msgid "<25>{#f/5}* Still, it's up to me to show you the ropes."
-msgstr "<13>{#f/5}＊しかし　やっぱりけいけんを　おしえてあげないと　いけませんよ。"
+msgstr "<13>{#f/5}＊やっぱりボクが　やりかたを　おしえてあげないとね。"
 
 msgid "<25>* Let's get started, shall we?"
-msgstr "<13>＊さぁ　はじめましょう！"
+msgstr "<13>＊さぁ　はじめようか。"
 
 msgid "<25>{#p/twinkly}{#f/6}* Okay, that's enough."
 msgstr "<13>{#p/twinkly}{#f/6}＊おい。　いいかげんにしろよ。"
@@ -7368,7 +7409,7 @@ msgid "<25>{#f/6}* Do as you wish."
 msgstr "<13>{#f/6}＊すきにすればいい。"
 
 msgid "<25>{#f/7}* Just don't expect to get past me so easily."
-msgstr "<13>{#f/7}＊でも　ボクのところを　とおらなければ　なりませんよ。"
+msgstr "<13>{#f/7}＊まいかい　ボクのところを　とおらなければ　ならないけどね。"
 
 msgid "<25>{#p/twinkly}{#f/6}* Don't you have anything better to do?"
 msgstr "<13>{#p/twinkly}{#f/6}＊キミ　よっぽど　ヒマなんだね。"
@@ -7386,26 +7427,26 @@ msgid ""
 msgstr "<13>{#p/twinkly}{#f/11}＊ちょうどしたことを　わすれてしまったと　おもう？"
 
 msgid "<25>{#f/7}* Filthy shard dodger."
-msgstr "<13>{#f/7}＊きたない　ドッジカケラ　プレーヤー。"
+msgstr "<13>{#f/7}＊にげてばっかりの　ひきょうもの。"
 
 msgid "<25>{#p/twinkly}{#f/7}* I can play this game all day, idiot."
 msgstr "<13>{#p/twinkly}{#f/7}＊このまま　じかんを　むだにしてもいい。"
 
 msgid ""
 "<25>{#f/11}* Either way, since you already know what's coming next...{%15}"
-msgstr "<25>{#f/11}＊なにが　おこるか　わかってるんですから…{%15}"
+msgstr "<25>{#f/11}＊なにが　おこるか　わかってるんだから…{%15}"
 
 msgid "<25>{#p/twinkly}{#f/6}* Howdy."
 msgstr "<13>{#p/twinkly}{#f/6}＊ハロー。"
 
 msgid "<25>* Seems I'll be fireballed if I stick around too long."
-msgstr "<13>＊あまりながく　ここにいたら　ファイヤーボールに　うたれますよ。"
+msgstr "<13>＊あまりにながく　ここにいたら　いんせきにでも　うたれそうだ。"
 
 msgid "<25>{#f/8}* A shame, really..."
 msgstr "<13>{#f/8}＊ざんねんだな…"
 
 msgid "<25>{#f/7}* I was gonna have SO much fun with you."
-msgstr "<13>{#f/7}＊ゆっくり　あそびたいと　おもっていましたのに。"
+msgstr "<13>{#f/7}＊ゆーーっくり　あそびたいと　おもっていたのに。"
 
 msgid "<25>{#f/5}* Well, see ya!"
 msgstr "<13>{#f/5}＊じゃ　またね！"
