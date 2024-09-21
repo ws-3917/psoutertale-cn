@@ -1,6 +1,21 @@
-#
+#, fuzzy
 msgid ""
 msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-09-21 10:25+0000\n"
+"PO-Revision-Date: 2024-09-21 10:25+0000\n"
+"Last-Translator: errosia <ericyan2008@foxmail.com>\n"
+"Language-Team: Chinese (Simplified) <https://ws3917.site/projects/"
+"project-spacetime/3-foundry/zh_Hans/>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: ENCODING\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.6.2\n"
+
+#
 
 msgid "<32>{#p/basic}* ..."
 msgstr "<32>{#p/basic}* ..."
@@ -3334,7 +3349,7 @@ msgid ""
 "* They're going to transplant me to the new homeworld."
 msgstr ""
 "<32>{#p/basic}* 意思是我将自由。\n"
-"* 会有人把我移植到新家乡。"
+"* 会有人把我移植到新家园。"
 
 msgid ""
 "<32>* But why should you care?\n"
@@ -19200,7 +19215,7 @@ msgid ""
 "<32>{#p/basic}{#k/0}* Erogot, the king of the last great era of our "
 "homeworld."
 msgstr ""
-"<32>{#p/basic}{#k/0}* Erogot，我们家园\n"
+"<32>{#p/basic}{#k/0}* Erogot，我们故园\n"
 "  上一个伟大时代的国王。"
 
 msgid "<32>* I'm sure you've read about him at some point."
