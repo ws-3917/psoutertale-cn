@@ -1,6 +1,21 @@
-#
+#, fuzzy
 msgid ""
 msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-09-21 10:25+0000\n"
+"PO-Revision-Date: 2024-09-21 10:25+0000\n"
+"Last-Translator: errosia <ericyan2008@foxmail.com>\n"
+"Language-Team: Chinese (Simplified) <https://ws3917.site/projects/"
+"project-spacetime/2-starton/zh_Hans/>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: ENCODING\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.6.2\n"
+
+#
 
 msgid ""
 "<32>{#p/basic}* A standard-issue CITADEL long- range telescope, circa 261X."
@@ -807,10 +822,10 @@ msgstr ""
 "  不方便把手伸进去。）"
 
 msgid "<32>{#p/basic}* Mom says that we're going to a new homeworld soon."
-msgstr "<32>{#p/basic}* 妈妈说我们很快就要去新的母世界了。"
+msgstr "<32>{#p/basic}* 妈妈说我们很快就要去新家园了。"
 
 msgid "<32>* ... what's a homeworld?"
-msgstr "<32>* ... 母世界是什么啊？"
+msgstr "<32>* ... 新家园是什么啊？"
 
 msgid ""
 "<32>{#p/basic}* Mom says that sleeping could recover your health "
@@ -823,7 +838,7 @@ msgid "<32>* ... what's maximum HP?"
 msgstr "<32>* ...HP上限是什么啊？"
 
 msgid "<32>{#p/basic}* Do humans have a homeworld?"
-msgstr "<32>{#p/basic}* 人类也有母世界吗？"
+msgstr "<32>{#p/basic}* 人类也有家园吗？"
 
 msgid "<32>{#p/basic}* Is it something monsters have?"
 msgstr "<32>{#p/basic}* 这是母亲才有的东西吗？"
@@ -5916,8 +5931,6 @@ msgstr "哈喽！"
 msgid "SAVE YOURSELVES..."
 msgstr "自求多福吧..."
 
-msgid ""
-msgstr ""
 
 msgid "FAILED TO CONNECT..."
 msgstr "网络连接失败..."
