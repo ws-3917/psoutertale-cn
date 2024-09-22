@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-21 10:25+0000\n"
-"PO-Revision-Date: 2024-09-21 10:25+0000\n"
-"Last-Translator: MurderSans_MDR <z127568254@163.com>\n"
+"PO-Revision-Date: 2024-09-23 03:26+0000\n"
+"Last-Translator: errosia <ericyan2008@foxmail.com>\n"
 "Language-Team: Chinese (Simplified) <https://ws3917.site/projects/"
 "project-spacetime/4-aerialis/zh_Hans/>\n"
 "Language: zh_CN\n"
@@ -15,7 +15,6 @@ msgstr ""
 "X-Generator: Weblate 5.6.2\n"
 
 #
-
 msgid "<32>{#p/human}* (It appears the terminal is beyond your access level.)"
 msgstr ""
 
@@ -8068,7 +8067,6 @@ msgstr "<25>{#p/asriel2}{#f/8}* 只能换条路走了。"
 msgid "<32>{#p/human}* (Where would you like to go?)"
 msgstr "<32>{#p/human}* （你想去哪里？）"
 
-
 msgid "Floor L1"
 msgstr "左一层"
 
@@ -12951,39 +12949,50 @@ msgid "<25>{#g/alphysNeutralSweat}* ... let's hope that makes things easier."
 msgstr "<25>{#g/alphysNeutralSweat}* ...希望这一路上畅通无阻。"
 
 msgid "<25>{#p/alphys}{#g/alphysWelp}* Okay, ready to continue?"
-msgstr ""
+msgstr "<25>{#p/alphys}{#g/alphysWelp}* 准备好继续前进了吗？"
 
 msgid ""
 "<25>{#g/alphysNeutralSweat}* Remember, g-gotta keep an eye out for the ELITE"
 " squad members."
 msgstr ""
+"<25>{#g/alphysNeutralSweat}* 别忘了，你-你得\n"
+"  留意那些特战队成员。"
 
 msgid "<25>{#g/alphysNeutralSweat}* Remember, g-gotta unlock that door..."
 msgstr ""
+"<25>{#g/alphysNeutralSweat}* 别忘了，你-你得\n"
+"  把那扇门给打开。"
 
 msgid "<25>{#g/alphysNeutralSweat}* We're almost to the end, you know..."
-msgstr ""
+msgstr "<25>{#g/alphysNeutralSweat}* 欸，我们都快到头了..."
 
 msgid "<25>{#p/alphys}{#g/alphysWelp}* I'll be on the line."
-msgstr ""
+msgstr "<25>{#p/alphys}{#g/alphysWelp}* 我会一直在线的。"
 
 msgid ""
 "<25>{#p/alphys}{#g/alphysInquisitive}* If you're leaving the CORE, I'll hang"
 " up the phone for now."
 msgstr ""
+"<25>{#p/alphys}{#g/alphysInquisitive}* 如果你打算离开核心，\n"
+"  我就先把电话挂了。"
 
 msgid "<25>{#g/alphysCutscene2}* I'll call you back when y-you return here!"
 msgstr ""
+"<25>{#g/alphysCutscene2}* 等你-你回来\n"
+"  我再打给你！"
 
 msgid "<25>{#p/alphys}{#g/alphysNervousLaugh}* Leaving again?"
-msgstr ""
+msgstr "<25>{#p/alphys}{#g/alphysNervousLaugh}* 又要走了？"
 
 msgid "<25>{#g/alphysWelp}* Alright then."
-msgstr ""
+msgstr "<25>{#g/alphysWelp}* 那好吧。"
 
 msgid ""
 "<25>{#g/alphysFR}* You better not be doing this just to see how I react."
 msgstr ""
+"<25>{#g/alphysFR}* 你最好不是为了\n"
+"  看我有什么反应\n"
+"  才这么做的。"
 
 msgid "<25>{*}{#p/alphys}{#g/alphysShocked}* Watch out!{^999}"
 msgstr "<25>{*}{#p/alphys}{#g/alphysShocked}* 小心！{^999}"
@@ -13036,25 +13045,31 @@ msgstr "<25>{#g/alphysThatSucks}* ..."
 
 msgid "<25>* At least it won't be long until we're outta here."
 msgstr ""
+"<25>* 至少我们很快\n"
+"  就能出去了。"
 
 msgid "<25>{*}{#p/alphys}{#g/alphysOhGodNo}* Wait!!!{^999}"
-msgstr ""
+msgstr "<25>{*}{#p/alphys}{#g/alphysOhGodNo}* 等下！！！{^999}"
 
 msgid "<25>{#p/alphys}{#g/alphysWTF}* I can't believe what I'm seeing..."
-msgstr ""
+msgstr "<25>{#p/alphys}{#g/alphysWTF}* 我不敢相信我的眼睛..."
 
 msgid "<32>{#p/basic}* ... guess you don't need my help this time, huh?"
-msgstr ""
+msgstr "<32>{#p/basic}* ...看来你这回用不着我帮，是吗？"
 
 msgid ""
 "<32>{#p/basic}* Take it from me.\n"
 "* Sentimentality is my specialty!"
 msgstr ""
+"<32>{#p/basic}* 相信我吧。\n"
+"* 我心思可细腻了！"
 
 msgid ""
 "<32>{#p/basic}* Magic words and warrior songs are the lifeblood of these old"
 " homeworld heroes."
 msgstr ""
+"<32>{#p/basic}* 魔咒和战歌可是\n"
+"  这帮故园老英雄的命脉。"
 
 msgid ""
 "<32>{#p/basic}* Heh.\n"
@@ -13064,13 +13079,13 @@ msgstr ""
 "* 有时候你只需唱出恰当的高音。"
 
 msgid "<25>{#g/alphysWelp}* At least you both survived this time."
-msgstr ""
+msgstr "<25>{#g/alphysWelp}* 至少你俩都活下来了。"
 
 msgid "<25>* The next room awaits."
 msgstr ""
 
 msgid "<32>{#p/human}* (You hear a long sigh.)"
-msgstr ""
+msgstr "<32>{#p/human}* （你听到了一声长叹。）"
 
 msgid "<25>{#p/alphys}{#g/alphysWorried}* ..."
 msgstr "<25>{#p/alphys}{#g/alphysWorried}* ..."
