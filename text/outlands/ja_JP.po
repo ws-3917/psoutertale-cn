@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-23 03:26+0000\n"
-"PO-Revision-Date: 2024-09-24 02:29+0000\n"
+"PO-Revision-Date: 2024-09-24 03:29+0000\n"
 "Last-Translator: forestfamily4 <hyper.developer.ink@gmail.com>\n"
 "Language-Team: Japanese <https://ws3917.site/projects/project-spacetime/"
 "1-outlands/ja/>\n"
@@ -2080,37 +2080,39 @@ msgstr "<13>{#f/0}＊おなかが　はちきれて　しまうわよ。"
 msgid ""
 "<25>{#p/toriel}{#n1}* Ah, the book!\n"
 "* Yes, it is quite the fun little read."
-msgstr "<13>{#p/toriel}{#n1}＊"
+msgstr ""
+"<13>{#p/toriel}{#n1}＊ほんを　よみたいのね！\n"
+"＊そうね。　ほんを　よむのは　いいことよ。"
 
 msgid "<25>{#f/0}* It is called \"Generous Monster\" and was written by a human."
-msgstr ""
+msgstr "<13>{#f/0}＊ニンゲンの　かいた　「きまえのよいモンスター」　っていう　ほん。"
 
 msgid "<25>{#f/1}* Would you like me to read it to you?"
-msgstr ""
+msgstr "<13>{#f/1}＊よんであげましょうか？"
 
 msgid "<25>{#p/toriel}{#n1}* Splendid!"
-msgstr ""
+msgstr "<13>{#p/toriel}{#n1}＊サイコウ！"
 
 msgid "<25>{#g/torielCompassionSmile}* ..."
-msgstr ""
+msgstr "<13>{#g/torielCompassionSmile}＊…"
 
 msgid "<25>{#p/toriel}{#f/1}{#n1}* Do you want me to read you the book now?"
-msgstr ""
+msgstr "<13>{#p/toriel}{#f/1}{#n1}＊ほんを　よんでほしいの？"
 
 msgid "<25>{#p/toriel}{#f/1}{#n1}* Do you want me to read you the book again?"
-msgstr ""
+msgstr "<13>{#p/toriel}{#f/1}{#n1}＊もういちど　ほんを　よんでほしいの？"
 
 msgid "<25>{#p/toriel}{#f/1}{#n1}* Alright, then..."
-msgstr ""
+msgstr "<13>{#p/toriel}{#f/1}{#n1}＊わかったわ…"
 
 msgid "<25>{#p/toriel}{#g/torielCompassionSmile}* ..."
-msgstr ""
+msgstr "<13>{#p/toriel}{#g/torielCompassionSmile}＊…"
 
 msgid "<25>{#f/1}{#n1}* \"Once, there was a monster...\""
-msgstr ""
+msgstr "<13>{#f/1}{#n1}＊「むかしむかし　あるところに　モンスターが　いました。」"
 
 msgid "<25>{#f/0}* \"And she loved a little human.\""
-msgstr ""
+msgstr "<13>{#f/0}＊「」"
 
 msgid "<25>{#f/1}* \"And every day, the human would come visit...\""
 msgstr ""
@@ -4038,7 +4040,7 @@ msgid "<25>{#f/5}* It is time to go home."
 msgstr ""
 
 msgid "<32>{#p/human}{#s/equip}* (You got the CELL.)"
-msgstr "<18>{#p/human}{#s/equip}＊(ケイタイを　てにいれた)"
+msgstr "<18>{#p/human}{#s/equip}＊(ケータイを　てにいれた)"
 
 msgid "<25>{#p/toriel}* You did it!"
 msgstr ""
