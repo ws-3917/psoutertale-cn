@@ -1,12 +1,25 @@
-#
+#, fuzzy
 msgid ""
 msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-09-24 12:29+0000\n"
+"PO-Revision-Date: 2024-09-24 12:29+0000\n"
+"Last-Translator: 暁々_Akatsuki <jiashuo570@gmail.com>\n"
+"Language-Team: Japanese <https://ws3917.site/projects/project-spacetime/"
+"7-values/ja/>\n"
+"Language: ja_JP\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: ENCODING\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.7.2\n"
+
+#
 
 msgid "en_US"
 msgstr "ja_JP"
 
-msgid ""
-msgstr ""
 
 msgid "You must choose a name."
 msgstr "なまえを　つけてください。"
@@ -246,7 +259,7 @@ msgstr ""
 "かんがえるのよ。"
 
 msgid "Really..."
-msgstr ""
+msgstr "マジで…"
 
 msgid "Nice try, idiot."
 msgstr "あますぎるよ　バカ。"
@@ -290,7 +303,7 @@ msgid "nope."
 msgstr "ダメだぜ。"
 
 msgid "A \"stellar\" choice."
-msgstr ""
+msgstr "「ステラ」な　なまえだな。"
 
 msgid "A pleasing nomenclature, no?"
 msgstr ""
