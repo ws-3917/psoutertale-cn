@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-21 10:25+0000\n"
-"PO-Revision-Date: 2024-09-24 04:29+0000\n"
+"PO-Revision-Date: 2024-09-24 05:29+0000\n"
 "Last-Translator: Stefano <stefanobuendia@hotmail.com>\n"
 "Language-Team: Spanish <https://ws3917.site/projects/project-spacetime/"
 "1-outlands/es/>\n"
@@ -3238,7 +3238,7 @@ msgid "<25>{#f/11}{#v/0}* You think you can just break the rules, don'tcha?"
 msgstr "<25>{#f/11}{#v/0}* Piensas que puedes romper las reglas, ¿no?"
 
 msgid "<25>{#f/7}{#v/0}* Hee hee hee..."
-msgstr "<25>{#f/7}{#v/0}* Je Je Je..."
+msgstr "<25>{#f/7}{#v/0}* Ji ji ji..."
 
 msgid "<25>{#f/0}{#v/1}* In this world, it's KILL or BE killed."
 msgstr "<25>{#f/0}{#v/1}* En este mundo, es MATAR o MORIR."
@@ -3289,36 +3289,39 @@ msgid ""
 "<25>{#p/twinkly}{#f/6}{#v/0}* So you spared the life of everyone you came "
 "across."
 msgstr ""
+"<25>{#p/twinkly}{#f/6}{#v/0}* Así que perdonaste la vida de todos con los "
+"que te cruzaste."
 
 msgid "<25>{#f/5}{#v/0}* I bet you feel really great."
-msgstr ""
+msgstr "<25>{#f/5}{#v/0}* Apuesto a que te sientes genial."
 
 msgid "<25>{#f/2}{#v/1}* But what will you do if you meet a serial murderer?"
 msgstr ""
+"<25>{#f/2}{#v/1}* ¿Pero qué harás si te encuentras con un asesino despiadado?"
 
 msgid "<25>{#f/9}{#v/0}* You'll die, and you'll die, and you'll die..."
-msgstr ""
+msgstr "<25>{#f/9}{#v/0}* Morirás y morirás y morirás..."
 
 msgid "<25>{#f/5}{#v/0}* Eventually, you'll tire of trying."
-msgstr ""
+msgstr "<25>{#f/5}{#v/0}* Hasta que eventualmente te canses de intentarlo."
 
 msgid "<25>{#f/11}{#v/0}* What then, huh?"
-msgstr ""
+msgstr "<25>{#f/11}{#v/0}* ¿Qué harás entonces, eh?"
 
 msgid "<25>{#f/2}{#v/1}* Will you KILL out of frustration?"
-msgstr ""
+msgstr "<25>{#f/2}{#v/1}* ¿Matarás por tu frustración?"
 
 msgid "<25>{#f/14}{#v/1}* Or will you simply GIVE UP?"
-msgstr ""
+msgstr "<25>{#f/14}{#v/1}* ¿O simplemente te rendirás?"
 
 msgid "<25>{#f/11}{#v/0}* Hee hee hee..."
-msgstr ""
+msgstr "<25>{#f/11}{#v/0}* Ji ji ji..."
 
 msgid "<25>{#f/7}{#v/0}* This is gonna be SO much fun."
-msgstr ""
+msgstr "<25>{#f/7}{#v/0}* Esto va a ser TAN divertido."
 
 msgid "<25>{#f/9}{#v/0}* I'll be watching!"
-msgstr ""
+msgstr "<25>{#f/9}{#v/0}* ¡Te estaré vigilando!"
 
 msgid ""
 "<25>{#p/twinkly}{#f/6}{#v/0}* So you managed to stay out of a few measly "
