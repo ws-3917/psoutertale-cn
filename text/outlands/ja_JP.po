@@ -1,22 +1,20 @@
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-23 03:26+0000\n"
-"PO-Revision-Date: 2024-09-23 03:26+0000\n"
+"PO-Revision-Date: 2024-09-24 02:29+0000\n"
 "Last-Translator: forestfamily4 <hyper.developer.ink@gmail.com>\n"
 "Language-Team: Japanese <https://ws3917.site/projects/project-spacetime/"
 "1-outlands/ja/>\n"
 "Language: ja_JP\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: ENCODING\n"
+"Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.6.2\n"
+"X-Generator: Weblate 5.7.2\n"
 
 #
-
 msgid ""
 "<25>{#p/toriel}{#f/1}* I hear there is a certain kind of fluid in "
 "Aerialis..."
@@ -2019,7 +2017,7 @@ msgstr ""
 
 msgid ""
 "<25>{#f/0}* It is called \"Generous Monster\" and it was written by a human."
-msgstr "<13>{#f/0}＊ニンゲンの　かいた　「おおらかモンスター」　っていう　ほん。"
+msgstr "<13>{#f/0}＊ニンゲンの　かいた　「きまえのよいモンスター」　っていう　ほん。"
 
 msgid "{#n1!}* (Read the book?)"
 msgstr "{#n1!}＊（ほんを　よんでもらう？）"
@@ -2071,18 +2069,18 @@ msgstr ""
 "＊つくりません　からね。"
 
 msgid "<25>{#p/toriel}{#n1}* I have already served breakfast, little one."
-msgstr "<13>{#p/toriel}{#n1}＊もう　あさごはんは　つくりました。"
+msgstr "<13>{#p/toriel}{#n1}＊あさごはんは　もう　つくったわよ。"
 
 msgid "<25>{#f/1}* We cannot have more than one breakfast per day, can we?"
-msgstr "<13>{#f/1}＊"
+msgstr "<13>{#f/1}＊あさごはんは　いちにち　にかいも　たべられません。"
 
 msgid "<25>{#f/0}* That would be silly."
-msgstr ""
+msgstr "<13>{#f/0}＊おなかが　はちきれて　しまうわよ。"
 
 msgid ""
 "<25>{#p/toriel}{#n1}* Ah, the book!\n"
 "* Yes, it is quite the fun little read."
-msgstr ""
+msgstr "<13>{#p/toriel}{#n1}＊"
 
 msgid "<25>{#f/0}* It is called \"Generous Monster\" and was written by a human."
 msgstr ""
