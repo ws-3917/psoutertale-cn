@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-23 03:26+0000\n"
-"PO-Revision-Date: 2024-09-24 04:29+0000\n"
+"PO-Revision-Date: 2024-09-24 05:29+0000\n"
 "Last-Translator: forestfamily4 <hyper.developer.ink@gmail.com>\n"
 "Language-Team: Japanese <https://ws3917.site/projects/project-spacetime/"
 "1-outlands/ja/>\n"
@@ -2158,10 +2158,10 @@ msgstr "<13>{#f/1}＊「『あたらしい　うちを　さがすのに　く�
 
 msgid ""
 "<25>{#f/5}* \"'Sorry,' said the monster, 'but I am too poor to own a car.'\""
-msgstr "<13>{#f/5}＊「『あるくしか　ないんだ』」"
+msgstr "<13>{#f/5}＊「『ごめんね　わたしには　くるまを　かう　おかねは　ないの』」"
 
 msgid "<25>{#f/5}* \"'All I have is my own two feet.'\""
-msgstr "<13>{#f/5}＊「『ごめんね　わたしは　くるまを　かう　おかねは　ないの』」"
+msgstr "<13>{#f/5}＊「『あるくしか　ないの』」"
 
 msgid "<25>{#f/0}* \"'Climb on my back, and I can run you to where you need.'\""
 msgstr "<13>{#f/0}＊「『わたしの　せなかに　のってよ　どこへでも　つれていくから』」"
@@ -2199,10 +2199,10 @@ msgstr "<13>{#f/1}＊「『かぞくと　こどもが　ほしくて…』」"
 
 msgid ""
 "<25>{#f/5}* \"'Sorry,' said the monster, 'but I cannot give that to you.'\""
-msgstr "<13>{#f/0}＊「『でも　ボクは　ひとりみ　なんだ』」"
+msgstr "<13>{#f/5}＊「『ごめんね　わたしには　それを　あげることは　できないわ』」"
 
 msgid "<25>{#f/5}* \"'I am only one person.'\""
-msgstr "<13>{#f/5}＊「『ごめんね　わたしは　それを　あげることは　できないわ』」"
+msgstr "<13>{#f/5}＊「『ただの　モンスターだもの』」"
 
 msgid "<25>{#f/0}* \"'Visit for a while, and we can find you a date.'\""
 msgstr "<13>{#f/0}＊「『しばらく　あそびに　おいでよ　あいてを　"
@@ -2212,110 +2212,118 @@ msgid "<25>{#f/0}* \"'Then you can find love and be happy.'\""
 msgstr "<13>{#f/0}＊「『あいを　みつけられるし　しあわせでしょう？』」"
 
 msgid "<25>{#f/1}* \"And so the human visited their old friend for a while...\""
-msgstr "<13>{#f/1}＊「そうして　ニンゲンは　モンスター」"
+msgstr "<13>{#f/1}＊「そうして　ニンゲンは　しばらく　モンスターのところで　"
+"すごしました。」"
 
 msgid "<25>{#f/0}* \"And the monster found them someone they might like.\""
-msgstr "<13>{#f/0}＊「」"
+msgstr "<13>{#f/0}＊「モンスターは　ニンゲンの　すきそうな　あいてを　みつけて　"
+"あげました。」"
 
 msgid "<25>{#f/5}* \"But the human stayed away for a long time.\""
-msgstr "<13>{#f/5}＊「」"
+msgstr "<13>{#f/5}＊「しかし　ニンゲンは　しばらく　もどってきませんでした。」"
 
 msgid "<25>{#f/1}* \"When they finally returned, the monster was so happy...\""
-msgstr "<13>{#f/1}＊「」"
+msgstr "<13>{#f/1}＊「ニンゲンが　さいごに　もどってきたとき　モンスターは　"
+"しあわせでした…」"
 
 msgid "<25>{#f/9}* \"She could hardly speak.\""
-msgstr "<13>{#f/9}＊「」"
+msgstr "<13>{#f/9}＊「ことばが　でてこないほど。」"
 
 msgid "<25>{#f/1}* \"'Come, human,' she whispered...\""
-msgstr "<13>{#f/1}＊「」"
+msgstr "<13>{#f/1}＊「『こっちにきて』　モンスターは　ささやきました。」"
 
 msgid "<25>{#f/1}* \"'Come and visit.'\""
-msgstr "<13>{#f/1}＊「」"
+msgstr "<13>{#f/1}＊「『あそびにおいでよ』」"
 
 msgid "<25>{#f/5}* \"'I am too old and busy to visit,' said the human.\""
-msgstr "<13>{#f/5}＊「」"
+msgstr "<13>{#f/5}＊「『ボクはもう　なんども　あそびにいけるほど　わかくないんだ』」"
 
 msgid "<25>{#f/1}* \"'I want a place to rest for the night...'\""
-msgstr "<13>{#f/1}＊「」"
+msgstr "<13>{#f/1}＊「『きょう　とまれる　ばしょが　ほしくて…』」"
 
 msgid ""
 "<25>{#f/5}* \"'Sorry,' said the monster, 'but I do not have a bed your "
 "size.'\""
-msgstr "<13>{#f/5}＊「」"
+msgstr "<13>{#f/5}＊「『ごめんね　わたしは　あなたようのベッドを　もってないの』」"
 
 msgid "<25>{#f/5}* \"'I am still too poor to afford one.'\""
-msgstr "<13>{#f/5}＊「」"
+msgstr "<13>{#f/5}＊「『あなたのベッドを　かう　おかねは　ないもの』」"
 
 msgid "<25>{#f/0}* \"'Sleep with me for the night.'\""
-msgstr "<13>{#f/0}＊「」"
+msgstr "<13>{#f/0}＊「『こんやは　わたしと　いっしょに　ねようよ』」"
 
 msgid "<25>{#f/0}* \"'Then you can get some rest and be happy.'\""
-msgstr "<13>{#f/0}＊「」"
+msgstr "<13>{#f/0}＊「『やすめるし　しあわせでしょう？』」"
 
 msgid "<25>{#f/1}* \"And so the human and the monster cuddled together...\""
-msgstr "<13>{#f/1}＊「」"
+msgstr "<13>{#f/1}＊「そうして　ニンゲンと　モンスターは　だきあって」"
 
 msgid "<25>{#f/0}* \"And the monster was able to put the human to sleep.\""
-msgstr "<13>{#f/0}＊「」"
+msgstr "<13>{#f/0}＊「モンスターは　ニンゲンを　じぶんのうえに　"
+"ねかせてあげました。」"
 
 msgid "<25>{#f/5}* \"... but not really.\""
-msgstr "<13>{#f/5}＊「」"
+msgstr "<13>{#f/5}＊「…いいえ。　ほんとうは　できませんでした。」"
 
 msgid "<25>{#f/9}* \"And after a long time, the human came back again.\""
-msgstr "<13>{#f/9}＊「」"
+msgstr "<13>{#f/9}＊「それから　ひさしぶりに　ニンゲンが　もどってきました。」"
 
 msgid ""
 "<25>{#f/5}* \"'I am sorry, human,' said the monster, 'but I have fallen "
 "down.'\""
-msgstr "<13>{#f/5}＊「」"
+msgstr "<13>{#f/5}＊「『ごめんね　ころんでしまったの』」"
 
 msgid "<25>{#f/5}* \"'My legs are giving out, I cannot take you anywhere.'\""
-msgstr "<13>{#f/5}＊「」"
+msgstr "<13>{#f/5}＊「『わたしの　あしは　もう　うごかないから　"
+"どこにもつれていけない』」"
 
 msgid "<25>{#f/10}* \"'There is nowhere else I want to be,' said the human.\""
-msgstr "<13>{#f/10}＊「」"
+msgstr "<13>{#f/10}＊「『ボクは　いきたい　ばしょなんて　ないんだ』」"
 
 msgid ""
 "<26>{#f/5}* \"'I cannot find you a date, I know no one else' said the "
 "monster.\""
-msgstr "<13>{#f/5}＊「」"
+msgstr "<13>{#f/5}＊「『デートの　あいても　みつけられない　もう　しりあいは　"
+"いないの』」"
 
 msgid "<25>{#f/10}* \"'There is no one else I want to be with,' said the human.\""
-msgstr "<13>{#f/10}＊「」"
+msgstr "<13>{#f/10}＊「『ボクには　いっしょに　いたいひと　なんて　いないんだ』」"
 
 msgid "<25>{#f/5}* \"'I am too weak for you to sleep on me', said the monster.\""
-msgstr "<13>{#f/5}＊「」"
+msgstr "<13>{#f/5}＊「『わたしは　よわっていて　もう　あなたと　ねられない』」"
 
 msgid "<25>{#f/10}* \"'I do not need sleep any longer,' said the human.\""
-msgstr "<13>{#f/10}＊「」"
+msgstr "<13>{#f/10}＊「『ボクは　もう　やすむ　ひつようは　ないんだ』」"
 
 msgid "<25>{#f/5}* \"'I am sorry,' sighed the monster."
-msgstr "<13>{#f/5}＊「」"
+msgstr "<13>{#f/5}＊「『ごめんね』　モンスターは　ためいきを　つきました。」"
 
 msgid ""
 "<25>{#f/5}* \"'I wish I had something to offer, but I have nothing left.'\""
-msgstr "<13>{#f/5}＊「」"
+msgstr "<13>{#f/5}＊「『あなたに　なにか　あげられたら　いいのに　もう　"
+"なにもないの』」"
 
 msgid "<25>{#f/9}* \"'I am just an old monster approaching her death.'\""
-msgstr "<13>{#f/9}＊「」"
+msgstr "<13>{#f/9}＊「『わたしは　としを　とった　ただの　しにかけの　"
+"モンスターなの』」"
 
 msgid "<25>{#f/5}* \"'I am sorry...'\""
-msgstr "<13>{#f/5}＊「」"
+msgstr "<13>{#f/5}＊「『ごめんね…』」"
 
 msgid "<25>{#f/10}* \"'I do not need very much now,' said the human.\""
-msgstr "<13>{#f/10}＊「」"
+msgstr "<13>{#f/10}＊「『もう　なにも　いらないんだ』」"
 
 msgid "<25>{#f/10}* \"'Just a hug from my best friend before I die.'\""
-msgstr "<13>{#f/10}＊「」"
+msgstr "<13>{#f/10}＊「『しぬまえに　いちどだけ　しんゆうの　ハグが　ほしいだけ』」"
 
 msgid "<25>{#f/1}* \"'Well,' said the monster, straightening her posture...\""
-msgstr "<13>{#f/1}＊「」"
+msgstr "<13>{#f/1}＊「『じゃあ…』　モンスターは　おきあがって　いいました。」"
 
 msgid "<25>{#f/0}* \"'Well, an old monster is always here for that.'\""
-msgstr "<13>{#f/0}＊「」"
+msgstr "<13>{#f/0}＊「『わたしは　いつでも　ここにいるよ』」"
 
 msgid "<25>{#f/0}* \"'Come, human, come to me. Be with me one last time.'\""
-msgstr "<13>{#f/0}＊「」"
+msgstr "<13>{#f/0}＊「『こっちにきて　』」"
 
 msgid "<25>{#f/9}* \"And so the human did.\""
 msgstr "<13>{#f/9}＊「」"
