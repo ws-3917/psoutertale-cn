@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-21 10:25+0000\n"
-"PO-Revision-Date: 2024-09-24 06:29+0000\n"
+"PO-Revision-Date: 2024-09-24 07:29+0000\n"
 "Last-Translator: errosia <ericyan2008@foxmail.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://ws3917.site/projects/"
 "project-spacetime/4-aerialis/zh_Hans/>\n"
@@ -18005,33 +18005,37 @@ msgstr ""
 
 msgid "<08>{#p/basic}{~}\\x00*shuffle shuffle*"
 msgstr ""
+"<08>{#p/basic}{~}\\x00*飞来\n"
+"飞去*"
 
 msgid "<32>{#p/story}* Flutterknyte is in serious trouble."
-msgstr ""
+msgstr "<32>{#p/story}* Flutterknyte大难临头。"
 
 msgid "<32>{#p/story}* Flutterknyte continues to mutter justifications."
 msgstr ""
+"<32>{#p/story}* Flutterknyte继续嘟囔着\n"
+"  那些正当理由。"
 
 msgid "<32>{#p/story}* Flutterknyte is hovering."
-msgstr ""
+msgstr "<32>{#p/story}* Flutterknyte在徘徊着。"
 
 msgid "<32>{#p/story}* Smells like pears."
-msgstr ""
+msgstr "<32>{#p/story}* 梨的味道扑面而来。"
 
 msgid "<32>{#p/story}* Flutterknyte takes slow, steady breaths."
-msgstr ""
+msgstr "<32>{#p/story}* Flutterknyte的呼吸缓慢而平稳。"
 
 msgid "<32>{#p/story}* Flutterknyte ponders their future."
-msgstr ""
+msgstr "<32>{#p/story}* Flutterknyte思考着未来。"
 
 msgid "<32>{#p/alphys}* Looks like Flutterknyte will accept your mercy now."
-msgstr ""
+msgstr "<32>{#p/alphys}* 看来Flutterknyte准备接受你的仁慈。"
 
 msgid "<32>{#p/alphys}* Looks like it'll accept your mercy now."
-msgstr ""
+msgstr "<32>{#p/alphys}* 看来它准备接受你的仁慈。"
 
 msgid "<32>{#p/story}* Flutterknyte is at rest."
-msgstr ""
+msgstr "<32>{#p/story}* Flutterknyte正在休息。"
 
 msgid "* Eyewalker Prime"
 msgstr "* Eyewalker Prime"
