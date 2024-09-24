@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-23 03:26+0000\n"
-"PO-Revision-Date: 2024-09-24 06:29+0000\n"
+"PO-Revision-Date: 2024-09-24 08:29+0000\n"
 "Last-Translator: forestfamily4 <hyper.developer.ink@gmail.com>\n"
 "Language-Team: Japanese <https://ws3917.site/projects/project-spacetime/"
 "1-outlands/ja/>\n"
@@ -1066,7 +1066,8 @@ msgstr "<13>{#f/17}＊…そのときは　けんか　してないことが　�
 msgid ""
 "<25>{#p/asriel1}{#f/13}* This other time, $(name) and I were making dinner "
 "for Mom and Dad."
-msgstr "<13>{#p/asriel1}{#f/13}＊こんどは　$(name)とボクで　ママとパパに　ゆうしょくを　つくってたんだ。"
+msgstr "<13>{#p/asriel1}{#f/13}＊こんどは　$(name)とボクだけで　ゆうしょくを　"
+"つくってたんだ。"
 
 msgid "<25>{#f/15}* They kept wanting to make it more spicy..."
 msgstr "<13>{#f/15}＊もっと　からくしよう　ってずっと　いいつづけてたよ。"
@@ -1083,7 +1084,7 @@ msgid ""
 "<25>{#f/13}* But, back then, I was more into sweets.\n"
 "* Most monsters are."
 msgstr ""
-"<13>{#f/13}＊とうじは　あまいものの　ほうが　すきだったな。\n"
+"<13>{#f/13}＊あのときは　あまいものの　ほうが　すきだったな。\n"
 "＊モンスターはみんなそう。"
 
 msgid ""
@@ -1094,11 +1095,11 @@ msgid "<25>{#f/20}* You can imagine how that turned out."
 msgstr "<13>{#f/20}＊どうなったかは　わかるよね。"
 
 msgid "<25>{#f/17}* Mom made us clean up the mess, of course."
-msgstr "<13>{#f/17}＊もちろん　ママは　ちらかしたものを　そうじしなさい　って。"
+msgstr "<13>{#f/17}＊もちろん　かあさんは　ちらかしたものを　そうじしなさい　って。"
 
 msgid ""
 "<25>{#f/13}* Then, Dad took us out to eat, and we both got what we wanted."
-msgstr "<13>{#f/13}＊パパは　そのあと　そとにつれていって　くれて　ほしいものを　たべられたよ。"
+msgstr "<13>{#f/13}＊そのあと　とうさんと　いっしょに　がいしょく　しにいったよ。"
 
 msgid ""
 "<25>{#p/asriel1}{#f/15}* $(name) and I...\n"
@@ -1178,7 +1179,7 @@ msgid "<25>{#f/23}* ... it means a lot."
 msgstr "<13>{#f/23}＊…ほんとうにうれしい。"
 
 msgid "<25>{#f/13}* Mom, Dad..."
-msgstr "<13>{#f/13}＊ママ　パパ…"
+msgstr "<13>{#f/13}＊かあさん　とうさん…"
 
 msgid "<25>{#f/13}* Sans, Papyrus, Undyne, Alphys..."
 msgstr "<13>{#f/13}＊サンズ　パピルス　アンダイン　アルフィー…"
@@ -1238,7 +1239,7 @@ msgid "<32>{#p/human}* (You feel the inviting warmth of the fireplace...)"
 msgstr "<17>{#p/human}＊(だんろの　あたたかさに　つられてしまう…)"
 
 msgid "* (Crawl inside?)"
-msgstr "＊(なかへはいる？)"
+msgstr "＊(なかへ　はいる？)"
 
 msgid "<32>{#p/basic}* An ordinary fireplace."
 msgstr "<17>{#p/basic}＊ごくふつうのだんろだ。"
@@ -1598,7 +1599,7 @@ msgid ""
 msgstr "<17>＊「えっと　せんせい　ってのは　パパが　よくはなしてる　かがくしゃだよ。」"
 
 msgid "<32>* \"He invented alot of things that we use now.\""
-msgstr "<17>＊「せんせいは　はつめいか　なんだ。」"
+msgstr "<17>＊「せんせいは　はつめいか　なんだ。　たとえば…」"
 
 msgid "<32>* \"Like the replicaters and fabricaters and gravity plate things.\""
 msgstr "<17>＊「ふくせいきとか　ナノこうぞうマシンとか　じゅうりょくはっせいそうちとか。」"
@@ -1733,7 +1734,7 @@ msgid "<32>{#p/human}* (But there was nothing left to find within.)"
 msgstr "<17>{#p/human}＊（なかには　なにも　なかった）"
 
 msgid "<32>{#p/basic}* Nothing left to find here."
-msgstr "<17>{#p/basic}＊ここには　なにも　ない"
+msgstr "<17>{#p/basic}＊ここには　なにも　ない。"
 
 msgid ""
 "<32>{#p/basic}* What's this?\n"
@@ -2323,27 +2324,29 @@ msgid "<25>{#f/0}* \"'Well, an old monster is always here for that.'\""
 msgstr "<13>{#f/0}＊「『わたしは　いつでも　ここにいるよ』」"
 
 msgid "<25>{#f/0}* \"'Come, human, come to me. Be with me one last time.'\""
-msgstr "<13>{#f/0}＊「『こっちにきて　』」"
+msgstr "<13>{#f/0}＊「『こっちにきて　さいごは　いっしょに　すごそうよ』」"
 
 msgid "<25>{#f/9}* \"And so the human did.\""
 msgstr "<13>{#f/9}＊「ニンゲンは　そうしました。」"
 
 msgid "<25>{#f/10}* \"And the monster was happy.\""
-msgstr "<13>{#f/10}＊「」"
+msgstr "<13>{#f/10}＊「そして　モンスターは　しあわせでした。」"
 
 msgid "<25>{#f/0}{#n1}* Well, that was the story."
-msgstr ""
+msgstr "<13>{#f/0}{#n1}＊おしまい。"
 
 msgid "<25>{#f/1}* I hope you liked it..."
-msgstr ""
+msgstr "<13>{#f/1}＊きにいったかしら…"
 
 msgid "<25>{#f/0}{#n1}* Well, that is all."
-msgstr ""
+msgstr "<13>{#f/0}{#n1}＊おしまい。"
 
 msgid ""
 "<25>{#p/toriel}{#f/1}{#n1}* Home...?\n"
 "* Could you be a little more specific?"
 msgstr ""
+"<13>{#p/toriel}{#f/1}{#n1}＊うち…？\n"
+"＊もうすこし　くわしく　いって　くれないかしら？"
 
 msgid ""
 "<99>{#p/human}{#n1!}* (What do you say?){!}\n"
@@ -2352,7 +2355,7 @@ msgid ""
 msgstr ""
 
 msgid "<25>{#p/toriel}{#f/1}{#n1}* But... this is your home now, is it not?"
-msgstr ""
+msgstr "<13>{#p/toriel}{#f/1}{#n1}＊でも…　いまは　ここが　あなたの　おうちでしょ？"
 
 msgid ""
 "<99>{#p/human}{#n1!}* (What do you say?){!}\n"
@@ -2361,42 +2364,43 @@ msgid ""
 msgstr ""
 
 msgid "<25>{#p/toriel}{#f/5}{#n1}* Please, try to understand..."
-msgstr ""
+msgstr "<13>{#p/toriel}{#f/5}{#n1}＊わかってね…"
 
 msgid "<25>{#p/toriel}{#f/9}* I only want the best for you."
-msgstr ""
+msgstr "<13>{#p/toriel}{#f/9}＊これは　あなたの　ためなの。"
 
 msgid "<25>{#p/toriel}{#f/5}{#n1}* My child..."
-msgstr ""
+msgstr "<13>{#p/toriel}{#f/5}{#n1}＊あなた…"
 
 msgid "<25>{#p/toriel}{#f/5}{#n1}* ..."
-msgstr ""
+msgstr "<13>{#p/toriel}{#f/5}{#n1}* …"
 
 msgid "<25>{#p/toriel}{#f/9}{#n1}* ..."
-msgstr ""
+msgstr "<13>{#p/toriel}{#f/9}{#n1}* …"
 
 msgid "<25>{#p/toriel}{#f/9}* Please, wait here."
-msgstr ""
+msgstr "<13>{#p/toriel}{#f/9}＊ここで　まってなさい。"
 
 msgid "<25>{#p/toriel}{#f/5}* There is something I have to do."
-msgstr ""
+msgstr "<13>{#p/toriel}{#f/5}＊わたしは　ようじが　あるから。"
 
 msgid ""
 "<25>{#p/asriel1}{#f/20}* I still can't believe she moved this all the way "
 "from the Citadel."
-msgstr ""
+msgstr "<13>{#p/asriel1}{#f/20}＊いまだに　わざわざ　シタデルから　いどうした　のが　"
+"しんじられない。"
 
 msgid "<25>{#f/17}* But... I understand why she'd want to."
-msgstr ""
+msgstr "<13>{#f/17}＊だけど…　トリエルが　そうしたいと　おもったのも　わかる。"
 
 msgid "<25>{#f/13}* Mom and this chair of hers go pretty far back.."
-msgstr ""
+msgstr "<13>{#f/13}＊かあさんにとって　このイスは　おもいいれの　ふかいものなんだ…"
 
 msgid "<25>{#p/asriel1}{#f/13}* One time, she told me something..."
-msgstr ""
+msgstr "<13>{#p/asriel1}{#f/13}＊あるとき　おしえてくれたよ…"
 
 msgid "<25>{#f/17}* \"This chair reminds me of home.\""
-msgstr ""
+msgstr "<13>{#f/17}＊「このイスは」"
 
 msgid ""
 "<25>{#f/13}* But she was already at home, so I asked her what she meant."
