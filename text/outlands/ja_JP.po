@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-23 03:26+0000\n"
-"PO-Revision-Date: 2024-09-25 03:29+0000\n"
+"PO-Revision-Date: 2024-09-25 04:29+0000\n"
 "Last-Translator: forestfamily4 <hyper.developer.ink@gmail.com>\n"
 "Language-Team: Japanese <https://ws3917.site/projects/project-spacetime/"
 "1-outlands/ja/>\n"
@@ -2494,16 +2494,16 @@ msgid "<32>* That being said..."
 msgstr "<17>＊そうは　いっても…"
 
 msgid "<32>* It seems it wasn't enough to satisfy your... curiosity."
-msgstr "<17>＊いまだに　みたされていない　ようです。　あなたの　こうきしんは。"
+msgstr "<17>＊いまだに　みたされていない　ようです。　あなたの　コウキシンは。"
 
 msgid "<32>* Tell me..."
 msgstr "<17>＊おしえてください。"
 
 msgid "<32>* Does that not pique your... curiosity?"
-msgstr "<17>＊このことは　こうきしんを　そそりませんか？"
+msgstr "<17>＊このことは　コウキシンを　そそりませんか？"
 
 msgid "<25>{#p/toriel}* In this room lies a new kind of puzzle."
-msgstr ""
+msgstr "<13>{#p/toriel}＊この"
 
 msgid "<25>{#f/3}* Perhaps you will do better here than with the dummy."
 msgstr ""
