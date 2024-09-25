@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-23 03:26+0000\n"
-"PO-Revision-Date: 2024-09-25 02:29+0000\n"
+"PO-Revision-Date: 2024-09-25 03:29+0000\n"
 "Last-Translator: forestfamily4 <hyper.developer.ink@gmail.com>\n"
 "Language-Team: Japanese <https://ws3917.site/projects/project-spacetime/"
 "1-outlands/ja/>\n"
@@ -2475,31 +2475,32 @@ msgid "<32>{#s/equip}{#p/human}* (You got the Super Starwalker 3.)"
 msgstr "<18>{#s/equip}{#p/human}＊(『超スターウォーカーⅢ』を　てにいれた)"
 
 msgid "<32>{#p/human}* I've seen the effect you've had on this world..."
-msgstr ""
+msgstr "<17>{#p/human}＊あなたが　このせかいに　どんな　えいきょうを　およぼしたか　"
+"みていました。"
 
 msgid "<32>* A perfect ending, where everyone gets to be happy..."
-msgstr ""
+msgstr "<17>＊かんぺきな　エンディング。　そして　みんなが　しあわせになりました。"
 
 msgid "<32>* There's something special about that."
-msgstr ""
+msgstr "<17>＊しかし　まだ　とくべつな　ものがあります。"
 
 msgid "<32>{#p/human}* A world not bound by association..."
-msgstr ""
+msgstr "<17>{#p/human}＊しがらみに　とらわれない　せかい…"
 
 msgid "<32>* Existing purely for the sake of its own beauty..."
-msgstr ""
+msgstr "<17>＊それじたいの　うつくしさの　ためだけに　そんざいする　せかい…"
 
 msgid "<32>* That being said..."
-msgstr ""
+msgstr "<17>＊そうは　いっても…"
 
 msgid "<32>* It seems it wasn't enough to satisfy your... curiosity."
-msgstr ""
+msgstr "<17>＊いまだに　みたされていない　ようです。　あなたの　こうきしんは。"
 
 msgid "<32>* Tell me..."
-msgstr ""
+msgstr "<17>＊おしえてください。"
 
 msgid "<32>* Does that not pique your... curiosity?"
-msgstr ""
+msgstr "<17>＊このことは　こうきしんを　そそりませんか？"
 
 msgid "<25>{#p/toriel}* In this room lies a new kind of puzzle."
 msgstr ""
