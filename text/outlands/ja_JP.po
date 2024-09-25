@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-23 03:26+0000\n"
-"PO-Revision-Date: 2024-09-25 01:29+0000\n"
+"PO-Revision-Date: 2024-09-25 02:29+0000\n"
 "Last-Translator: forestfamily4 <hyper.developer.ink@gmail.com>\n"
 "Language-Team: Japanese <https://ws3917.site/projects/project-spacetime/"
 "1-outlands/ja/>\n"
@@ -2414,7 +2414,7 @@ msgid "<25>{#f/23}* ... on the old homeworld."
 msgstr "<13>{#f/23}＊つまり　ふるさとに　あったもの　だって　わかった。"
 
 msgid "<25>{#p/asriel1}{#f/13}* I don't know much about that world, Frisk..."
-msgstr "<13>{#p/asriel1}{#f/13}＊その　ほしのことは　あまり　しらないけど"
+msgstr "<13>{#p/asriel1}{#f/13}＊その　ほしのことは　あまり　しらないけど…"
 
 msgid "<25>{#f/17}* But I hear it was very... idyllic."
 msgstr "<13>{#f/17}＊とても　のどかな　ところだと　きいたよ。"
@@ -2425,48 +2425,51 @@ msgstr "<13>{#f/20}＊たしかに　まほうと　かがく　ぎじゅつの�
 "めざましかった。"
 
 msgid "<25>{#f/17}* But people loved it, because life was so... simple."
-msgstr ""
+msgstr "<13>{#f/17}＊でも　モンスターたちは　そぼくな　せいかつが　だいすきだった。"
 
 msgid "<25>{#p/asriel1}{#f/23}* What I wouldn't give to have a simple life."
-msgstr ""
+msgstr "<13>{#p/asriel1}{#f/23}＊そぼくな　せいかつを　おくるためには　"
+"なんでもするよ。"
 
 msgid "<32>{#p/basic}* A reading chair."
-msgstr ""
+msgstr "<17>{#p/basic}＊ほんを　よむための　イス。"
 
 msgid "<32>{#p/basic}* A comfy reading chair..."
-msgstr ""
+msgstr "<17>{#p/basic}＊ほんを　よむための　ふかふかな　イス。"
 
 msgid "<32>* Seems like the right size for Toriel."
-msgstr ""
+msgstr "<17>＊トリエルに　ぴったりの　サイズだ。"
 
 msgid "<25>{#p/toriel}{#n1}* Ah, there you are."
-msgstr ""
+msgstr "<13>{#p/toriel}{#n1}＊あっ。　そこに　いたのね。"
 
 msgid "<25>* I have left your breakfast on the table for you."
-msgstr ""
+msgstr "<13>＊テーブルの　うえに　あさごはんを　おいておきました。"
 
 msgid "<32>{#p/human}* (You look inside the chest...)"
-msgstr ""
+msgstr "<17>{#p/human}＊（はこの　なかを　のぞいてみた…）"
 
 msgid ""
 "<25>{#p/asriel1}{#f/13}* Yeah, uh, that's about all you'll find in there."
-msgstr ""
+msgstr "<13>{#p/asriel1}{#f/13}＊そこで　みつかるのは　これだけだよ。"
 
 msgid "<25>{#f/17}* I'm not sure why Toriel put this here."
-msgstr ""
+msgstr "<13>{#f/17}＊どうして　トリエルが　こんなとこに　いれたのか　わからないな。"
 
 msgid "<25>{#f/17}* $(name) and I were never interested in comic books."
-msgstr ""
+msgstr "<13>{#f/17}＊$(name)と　ボクは　マンガなんて　きょうみ　なかったのにね。"
 
 msgid ""
 "<25>{#p/asriel1}{#f/10}* I guess she just wanted to pretend we were living "
 "here...?"
-msgstr ""
+msgstr "<13>{#p/asriel1}{#f/10}＊ボクたちが　ここに　いるように　おもいこみ　"
+"たかった　のだとおもう。"
 
 msgid ""
 "<25>{#p/asriel1}{#f/13}* The things a mother does to make herself feel "
 "better..."
-msgstr ""
+msgstr "<13>{#p/asriel1}{#f/13}＊気を　しっかりもつ　ために　ひつような　"
+"ことだったんだ…"
 
 msgid "<32>{#s/equip}{#p/human}* (You got the Super Starwalker 3.)"
 msgstr "<18>{#s/equip}{#p/human}＊(『超スターウォーカーⅢ』を　てにいれた)"
