@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-21 10:25+0000\n"
-"PO-Revision-Date: 2024-09-23 03:26+0000\n"
-"Last-Translator: wildpasta <supe204784@gmail.com>\n"
+"PO-Revision-Date: 2024-09-28 08:29+0000\n"
+"Last-Translator: Maxim Aksenov <me6696154@gmail.com>\n"
 "Language-Team: Russian <https://ws3917.site/projects/project-spacetime/"
 "3-foundry/ru/>\n"
 "Language: ru_RU\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.6.2\n"
+"X-Generator: Weblate 5.7.2\n"
 
 #
 msgid "<32>{#p/basic}* ..."
@@ -6737,12 +6737,13 @@ msgstr ""
 "* ...\n"
 "* ..."
 
+#, fuzzy
 msgid ""
 "<32>* ... Grillbz didn't mention customers, but said seeing you is a nice "
 "relief."
 msgstr ""
-"<32>* ..... Грилбуз не упомянул о клиентах, но сказал, что встреча с вами "
-"была хорошим облегчением."
+"<32>* ... Гриллбз не сказал о клиентах, но сказал, что видеть тебя это "
+"приятное облегчение."
 
 msgid "<25>{#p/sans}{#f/0}* how strange."
 msgstr "<25>{#p/sans}{#f/0}* как странно."
@@ -6754,8 +6755,9 @@ msgstr "<25>{#p/sans}* Приятель, почему бы тебе не под�
 msgid "<25>{#p/sans}* whoops, watch where you sit down in here."
 msgstr "<25>{#p/sans}* Упс, смотри, куда садишься."
 
+#, fuzzy
 msgid "<25>{#f/2}* some weirdo musta put a whoopee cushion on the seat."
-msgstr "<25>{#f/2}* Некоторые чудаки должны поставить подушку на сиденье."
+msgstr "<25>{#f/2}* какой-то шутник, должно быть, положил на сиденье подушку."
 
 msgid ""
 "<25>{#f/0}* ... anyway, let's order.\n"
@@ -6768,48 +6770,56 @@ msgid ""
 "<99>{#p/human}* (What do you say?){!}\n"
 "§shift=64§Flamin'\n"
 "§shift=64§Grillbys§shift=56§Sliders{#c/0/8/7}"
-msgstr "§ Смещение = 64 § Грильби § Смещение = 56 § Ползунок {#c/0/8/7}"
+msgstr ""
+"<99>{#p/human}* (Что ты скажешь?)\n"
+"§shift=64§Огненный\n"
+"§shift=64§Гриллби§shift=56§Cэндвич{#c/0/8/7}"
 
 msgid "<26>{#p/sans}{#f/2}* hey, that's pretty good."
-msgstr "<26>{#p/sans}{#f/2}* Эй, это хорошо."
+msgstr "<26>{#p/sans}{#f/2}* эй, это очень хорошо."
 
 msgid "<25>{#p/sans}* grillby, we'll have two flamin' versions of yourself."
-msgstr "<25>{#p/sans}* grilby, у нас будет две великолепные версии."
+msgstr "<25>{#p/sans}* гриллби, у нас будет две огненные версии тебя."
 
+#, fuzzy
 msgid "<25>{#p/sans}* grillby, we'll have two sets of sliders."
-msgstr "<25>{#p/sans}* grilby, у нас будет две группы ползунов."
+msgstr "<25>{#p/sans}* гриллби, у нас будет два набора сэндвичей."
 
 msgid "<25>{#p/sans}* so, what'd you think of my brother's attacks?"
-msgstr "<25>{#p/sans}* Итак, что вы думаете о нападении моего брата?"
+msgstr "<25>{#p/sans}* и так, что ты думаешь об атаках моего брата?"
 
 msgid "Easy"
 msgstr "Легко."
 
 msgid "Hard"
-msgstr "Жесткий"
+msgstr "Сложно"
 
 msgid ""
 "<25>{#p/sans}* easy?\n"
 "* get outta here."
-msgstr "* Уйди отсюда."
+msgstr ""
+"<25>{#p/sans}* легко?\n"
+"* уходи отсюда."
 
 msgid "<25>{#f/3}* papyrus's attacks are anything BUT easy."
 msgstr "<25>{#f/3}* Нападение папируса отнюдь не является легким."
 
 msgid "<25>{#f/0}* you'd be surprised how long he spent working on 'em."
-msgstr "<25>{#f/0}* Вы будете удивлены, как долго он их изучал."
+msgstr "<25>{#f/0}* Ты удивишься, как долго он над ними работал."
 
 msgid ""
 "<26>{#f/0}* oh well.\n"
 "* at least he took breaks."
-msgstr "* По крайней мере, он отдыхал."
+msgstr ""
+"<26>{#f/0}* о ну.\n"
+"* по крайней мере, он делал перерывы."
 
 msgid "<25>{#f/2}* and by that, i mean he brought his attack manuals outside."
 msgstr ""
 "<25>{#f/2}* Я имею в виду, что он вынес свое руководство по атаке наружу."
 
 msgid "<25>{#p/sans}{#f/0}* tell me about it."
-msgstr "<25>{#p/sans}{#f/0}* Расскажите мне."
+msgstr "<25>{#p/sans}{#f/0}* расскажи мне об этом."
 
 msgid "<25>{#f/3}* once, after a particularly long day of attack revisions..."
 msgstr "<25>{#f/3}* Один раз, после особенно длинного дня атаки изменен..."
