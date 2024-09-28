@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-21 10:25+0000\n"
-"PO-Revision-Date: 2024-09-28 08:29+0000\n"
+"PO-Revision-Date: 2024-09-28 09:29+0000\n"
 "Last-Translator: errosia <ericyan2008@foxmail.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://ws3917.site/projects/"
 "project-spacetime/4-aerialis/zh_Hans/>\n"
@@ -18583,12 +18583,16 @@ msgstr ""
 
 msgid "<08>{#p/basic}{~}No time like war time.."
 msgstr ""
+"<08>{#p/basic}{~}没有比\n"
+"战时\n"
+"更美好的\n"
+"时刻了.."
 
 msgid "<32>{#p/asriel2}* Almost dead."
 msgstr "<32>{#p/asriel2}* 离死不远了。"
 
 msgid "<32>{#p/story}* Mushketeer sets out on its final push."
-msgstr ""
+msgstr "<32>{#p/story}* Mushketeer开始了最后的攻势。"
 
 msgid "<32>{#p/asriel2}* Mushketeer."
 msgstr "<32>{#p/asriel2}* Mushketeer。"
@@ -18603,28 +18607,28 @@ msgid "<32>{#p/story}* Mushketeer blocks the way!"
 msgstr "<32>{#p/story}* Mushketeer挡住了去路！"
 
 msgid "<32>{#p/story}* Mushketeer stands firm."
-msgstr ""
+msgstr "<32>{#p/story}* Mushketeer坚定不移。"
 
 msgid "<32>{#p/story}* Mushketeer wants to be a hero."
-msgstr ""
+msgstr "<32>{#p/story}* Mushketeer想做一个英雄。"
 
 msgid "<32>{#p/story}* Mushketeer is preparing for a shootout."
-msgstr ""
+msgstr "<32>{#p/story}* Mushketeer在为交火做准备。"
 
 msgid "<32>{#p/story}* Mushketeer reaches around for their gun."
-msgstr ""
+msgstr "<32>{#p/story}* Mushketeer伸手去拿枪。"
 
 msgid "<32>{#p/story}* Smells like dry dirt."
-msgstr ""
+msgstr "<32>{#p/story}* 干燥泥土的味道扑面而来。"
 
 msgid "<32>{#p/story}* Mushketeer, the pray 'n' spray specialist."
 msgstr ""
 
 msgid "<32>{#p/story}* Mushketeer is on edge."
-msgstr ""
+msgstr "<32>{#p/story}* Mushketeer紧张不安。"
 
 msgid "<32>{#p/story}* Mushketeer darts their eyes around."
-msgstr ""
+msgstr "<32>{#p/story}* Mushketeer急速扫视着四周。"
 
 msgid ""
 "<32>{#p/asriel2}* Mushketeer, the gun-toter.\n"
@@ -18666,9 +18670,11 @@ msgstr ""
 
 msgid "<32>{#p/human}* (You invite Mushketeer to a private shootout.)"
 msgstr ""
+"<32>{#p/human}* （你邀请Mushketeer来参加\n"
+"  一场私下的枪战。）"
 
 msgid "<32>{#p/alphys}* Nahhhh."
-msgstr ""
+msgstr "<32>{#p/alphys}* 别吧。"
 
 msgid ""
 "<08>{#p/basic}{~}Hey!\n"
