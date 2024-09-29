@@ -1,6 +1,21 @@
-#
+#, fuzzy
 msgid ""
 msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-09-29 08:29+0000\n"
+"PO-Revision-Date: 2024-09-29 08:29+0000\n"
+"Last-Translator: Chickenytboi <misazacek08@gmail.com>\n"
+"Language-Team: Czech <https://ws3917.site/projects/project-spacetime/"
+"0-systems/cs/>\n"
+"Language: cs_CZ\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: ENCODING\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Weblate 5.7.2\n"
+
+#
 
 msgid "(You take a deep breath.)"
 msgstr "(Zhluboka se nadechnete.)"
@@ -118,7 +133,7 @@ msgid "Movement"
 msgstr "Pohyb"
 
 msgid "Noclip"
-msgstr ""
+msgstr "Noclip"
 
 msgid "Save"
 msgstr "Uložit"
@@ -127,22 +142,22 @@ msgid "SkipText"
 msgstr "PřeskočitText"
 
 msgid "Freecam"
-msgstr ""
+msgstr "Vol.kam"
 
 msgid "CanAssist"
-msgstr ""
+msgstr "MůžeAssist"
 
 msgid "ClearBox"
-msgstr ""
+msgstr "VymazBox"
 
 msgid "Exit"
-msgstr ""
+msgstr "Exit"
 
 msgid "ResetBox"
-msgstr ""
+msgstr "ResetBox"
 
 msgid "ResetMenu"
-msgstr ""
+msgstr "ResetMenu"
 
 msgid "CanFlee"
 msgstr "MůžeUtéct"
@@ -151,13 +166,13 @@ msgid "InfiniteHP"
 msgstr "NekonečnáHP"
 
 msgid "PacifyAll"
-msgstr ""
+msgstr "PacifikVše"
 
 msgid "Suicide"
 msgstr "Sebevražda"
 
 msgid "WeakenAll"
-msgstr ""
+msgstr "OslabitVše"
 
 msgid "$(x) FPS"
 msgstr "$(x) SZS"
@@ -193,7 +208,7 @@ msgid "ENCOUNTER"
 msgstr "SETKÁNÍ"
 
 msgid "Start"
-msgstr ""
+msgstr "Start"
 
 msgid "ARMOR"
 msgstr "BRNĚNÍ"
@@ -223,16 +238,16 @@ msgid "Above"
 msgstr "Nad"
 
 msgid "Menu"
-msgstr ""
+msgstr "Menu"
 
 msgid "Hitbox"
-msgstr ""
+msgstr "Hitbox"
 
 msgid "Sprite"
 msgstr "Skřítek"
 
 msgid "Text"
-msgstr ""
+msgstr "Text"
 
 msgid "EXPLORER"
 msgstr "PRŮZKUMNÍK"
@@ -253,31 +268,31 @@ msgid "Menu (Explorer)"
 msgstr "Nabídka (průzkumník)"
 
 msgid "A"
-msgstr ""
+msgstr "A"
 
 msgid "C"
-msgstr ""
+msgstr "C"
 
 msgid "R"
-msgstr ""
+msgstr "R"
 
 msgid "E"
-msgstr ""
+msgstr "E"
 
 msgid "H"
-msgstr ""
+msgstr "H"
 
 msgid "O"
-msgstr ""
+msgstr "O"
 
 msgid "P"
-msgstr ""
+msgstr "P"
 
 msgid "S"
-msgstr ""
+msgstr "S"
 
 msgid "T"
-msgstr ""
+msgstr "T"
 
 msgid "Press [TAB] to cycle debug info"
 msgstr "Stisknutím klávesy [TAB] můžete cyklicky přepínat informace o ladění"
@@ -295,7 +310,7 @@ msgid "Anchor"
 msgstr "Kotva"
 
 msgid "B"
-msgstr ""
+msgstr "B"
 
 msgid "Blend"
 msgstr "Směs"
@@ -325,7 +340,7 @@ msgid "Extent"
 msgstr "Rozsah"
 
 msgid "F"
-msgstr ""
+msgstr "F"
 
 msgid "Face"
 msgstr "Obličej"
@@ -355,7 +370,7 @@ msgid "HP"
 msgstr "ZB"
 
 msgid "Index"
-msgstr ""
+msgstr "Index"
 
 msgid "Inert"
 msgstr "Inertní"
@@ -376,13 +391,13 @@ msgid "Left"
 msgstr "Vlevo"
 
 msgid "Metadata"
-msgstr ""
+msgstr "Metadata"
 
 msgid "Music"
 msgstr "Hudba"
 
 msgid "Namespace"
-msgstr ""
+msgstr "Jmen.prost."
 
 msgid "NONE"
 msgstr "ŽÁDNÝ"
@@ -484,7 +499,7 @@ msgid "Up"
 msgstr "Nahoru"
 
 msgid "Vars"
-msgstr ""
+msgstr "Prom."
 
 msgid "Velocity"
 msgstr "Rychlost"
@@ -493,7 +508,7 @@ msgid "Volatile"
 msgstr "Nestálý"
 
 msgid "SAVEMOD"
-msgstr ""
+msgstr "ULOŽMOD"
 
 msgid "SAVE EDITOR"
 msgstr "ULOŽIT EDITOR"
@@ -571,7 +586,7 @@ msgid "That file could not be parsed."
 msgstr "Tento soubor nebylo možné analyzovat."
 
 msgid "OK"
-msgstr ""
+msgstr "OK"
 
 msgid "Cancel"
 msgstr "Zrušit"
@@ -607,268 +622,266 @@ msgid "§fill=#ff0§< DEVELOPER >§fill=#fff§"
 msgstr "§fill=#ff0§< VÝVOJÁŘ >§fill=#fff§"
 
 msgid "spacey_432"
-msgstr ""
+msgstr "spacey_432"
 
-msgid ""
-msgstr ""
 
 msgid "§fill=#ff0§< WRITER >§fill=#fff§"
 msgstr "§fill=#ff0§< SPISOVATEL >§fill=#fff§"
 
 msgid "Balgamlı Kedi"
-msgstr ""
+msgstr "Balgamlı Kedi"
 
 msgid "Bilge \"mnwary\""
-msgstr ""
+msgstr "Bilge \"mnwary\""
 
 msgid "Dischnie"
-msgstr ""
+msgstr "Dischnie"
 
 msgid "Efe Kaya"
-msgstr ""
+msgstr "Efe Kaya"
 
 msgid "Ghostly"
-msgstr ""
+msgstr "Ghostly"
 
 msgid "InvincibleRacoon"
-msgstr ""
+msgstr "InvincibleRacoon"
 
 msgid "Jojoton56"
-msgstr ""
+msgstr "Jojoton56"
 
 msgid "Kiwi \"Quinn\""
-msgstr ""
+msgstr "Kiwi \"Quinn\""
 
 msgid "My Aster"
-msgstr ""
+msgstr "My Aster"
 
 msgid "neo9174"
-msgstr ""
+msgstr "neo9174"
 
 msgid "Rise"
-msgstr ""
+msgstr "Rise"
 
 msgid "ThatGuyWhoLikesFood"
-msgstr ""
+msgstr "ThatGuyWhoLikesFood"
 
 msgid "Turbulation"
-msgstr ""
+msgstr "Turbulation"
 
 msgid "Zaxento The Greedy"
-msgstr ""
+msgstr "Zaxento The Greedy"
 
 msgid "§fill=#ff0§< ARTIST >§fill=#fff§"
 msgstr "§fill=#ff0§< UMĚLEC >§fill=#fff§"
 
 msgid "Burge"
-msgstr ""
+msgstr "Burge"
 
 msgid "Deskius"
-msgstr ""
+msgstr "Deskius"
 
 msgid "DESM.al"
-msgstr ""
+msgstr "DESM.al"
 
 msgid "Discarded Vessel"
-msgstr ""
+msgstr "Discarded Vessel"
 
 msgid "Fired"
-msgstr ""
+msgstr "Fired"
 
 msgid "Funtermore"
-msgstr ""
+msgstr "Funtermore"
 
 msgid "HolyOranges"
-msgstr ""
+msgstr "HolyOranges"
 
 msgid "major_memestar"
-msgstr ""
+msgstr "major_memestar"
 
 msgid "MattSpriteMaster"
-msgstr ""
+msgstr "MattSpriteMaster"
 
 msgid "Medi0creking"
-msgstr ""
+msgstr "Medi0creking"
 
 msgid "NerNot1"
-msgstr ""
+msgstr "NerNot1"
 
 msgid "PhyreFM"
-msgstr ""
+msgstr "PhyreFM"
 
 msgid "Pongy25"
-msgstr ""
+msgstr "Pongy25"
 
 msgid "PoTheWinterCorder"
-msgstr ""
+msgstr "PoTheWinterCorder"
 
 msgid "ProctorDorkchop02"
-msgstr ""
+msgstr "ProctorDorkchop02"
 
 msgid "ScarletScaledDragon"
-msgstr ""
+msgstr "ScarletScaledDragon"
 
 msgid "semi"
-msgstr ""
+msgstr "semi"
 
 msgid "Soup Taels"
-msgstr ""
+msgstr "Soup Taels"
 
 msgid "SquigglyWiggley"
-msgstr ""
+msgstr "SquigglyWiggley"
 
 msgid "Starkiteckt"
-msgstr ""
+msgstr "Starkiteckt"
 
 msgid "supper12"
-msgstr ""
+msgstr "supper12"
 
 msgid "Valor52"
-msgstr ""
+msgstr "Valor52"
 
 msgid "§fill=#ff0§< TECHNICIAN >§fill=#fff§"
 msgstr "§fill=#ff0§< TECHNIK >§fill=#fff§"
 
 msgid "Codetoil"
-msgstr ""
+msgstr "Codetoil"
 
 msgid "ryi3r"
-msgstr ""
+msgstr "ryi3r"
 
 msgid "ws3917"
-msgstr ""
+msgstr "ws3917"
 
 msgid "§fill=#ff0§< TESTER >§fill=#fff§"
 msgstr "§fill=#ff0§< ZKOUŠEČ >§fill=#fff§"
 
 msgid "Alden"
-msgstr ""
+msgstr "Alden"
 
 msgid "Aspey"
-msgstr ""
+msgstr "Aspey"
 
 msgid "blue"
-msgstr ""
+msgstr "blue"
 
 msgid "Brad"
-msgstr ""
+msgstr "Brad"
 
 msgid "brayjamin"
-msgstr ""
+msgstr "brayjamin"
 
 msgid "ClamsyMoe"
-msgstr ""
+msgstr "ClamsyMoe"
 
 msgid "delta"
-msgstr ""
+msgstr "delta"
 
 msgid "DR4GON HE4RT"
-msgstr ""
+msgstr "DR4GON HE4RT"
 
 msgid "Dubituar"
-msgstr ""
+msgstr "Dubituar"
 
 msgid "Emurry"
-msgstr ""
+msgstr "Emurry"
 
 msgid "Enzolos"
-msgstr ""
+msgstr "Enzolos"
 
 msgid "EvanGamesGoodman"
-msgstr ""
+msgstr "EvanGamesGoodman"
 
 msgid "FireWizard72X"
-msgstr ""
+msgstr "FireWizard72X"
 
 msgid "FuLiNT"
-msgstr ""
+msgstr "FuLiNT"
 
 msgid "gardnaeden"
-msgstr ""
+msgstr "gardnaeden"
 
 msgid "Gon UT"
-msgstr ""
+msgstr "Gon UT"
 
 msgid "Green Tea"
-msgstr ""
+msgstr "Green Tea"
 
 msgid "Huggies!"
-msgstr ""
+msgstr "Huggies!"
 
 msgid "ilovecookies"
-msgstr ""
+msgstr "ilovecookies"
 
 msgid "Jago128"
-msgstr ""
+msgstr "Jago128"
 
 msgid "Joe98912"
-msgstr ""
+msgstr "Joe98912"
 
 msgid "Jonkler"
-msgstr ""
+msgstr "Jonkler"
 
 msgid "lil tanski"
-msgstr ""
+msgstr "lil tanski"
 
 msgid "MR. PETER"
-msgstr ""
+msgstr "MR. PETER"
 
 msgid "MSBen"
-msgstr ""
+msgstr "MSBen"
 
 msgid "Murder--Sans_MDR"
-msgstr ""
+msgstr "Murder--Sans_MDR"
 
 msgid "Nanorasmus"
-msgstr ""
+msgstr "Nanorasmus"
 
 msgid "NepAnime"
-msgstr ""
+msgstr "NepAnime"
 
 msgid "Shaun Duz Stuffs"
-msgstr ""
+msgstr "Shaun Duz Stuffs"
 
 msgid "SHCyank"
-msgstr ""
+msgstr "SHCyank"
 
 msgid "petar3644"
-msgstr ""
+msgstr "petar3644"
 
 msgid "PixelToons Jaafar"
-msgstr ""
+msgstr "PixelToons Jaafar"
 
 msgid "Prezmop"
-msgstr ""
+msgstr "Prezmop"
 
 msgid "prymus-agd"
-msgstr ""
+msgstr "prymus-agd"
 
 msgid "Quin"
-msgstr ""
+msgstr "Quin"
 
 msgid "RadicalRic"
-msgstr ""
+msgstr "RadicalRic"
 
 msgid "Raelynn"
-msgstr ""
+msgstr "Raelynn"
 
 msgid "retr22800"
-msgstr ""
+msgstr "retr22800"
 
 msgid "RoCtD_14159"
-msgstr ""
+msgstr "RoCtD_14159"
 
 msgid "sonicisawesome222"
-msgstr ""
+msgstr "sonicisawesome222"
 
 msgid "spaceknife234"
-msgstr ""
+msgstr "spaceknife234"
 
 msgid "superkippy"
-msgstr ""
+msgstr "superkippy"
 
 msgid "Teecup"
-msgstr ""
+msgstr "Teecup"
 
 msgid "Tem in a Cowboy Hat"
 msgstr ""
