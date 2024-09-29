@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-21 10:25+0000\n"
-"PO-Revision-Date: 2024-09-28 09:29+0000\n"
+"PO-Revision-Date: 2024-09-29 06:29+0000\n"
 "Last-Translator: errosia <ericyan2008@foxmail.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://ws3917.site/projects/"
 "project-spacetime/4-aerialis/zh_Hans/>\n"
@@ -18687,55 +18687,60 @@ msgid ""
 msgstr ""
 
 msgid "<32>{#p/alphys}* Welp, that didn't work."
-msgstr ""
+msgstr "<32>{#p/alphys}* 好吧，那行不通。"
 
 msgid "<32>{#p/story}* Oh no, Mushketeer is serious."
-msgstr ""
+msgstr "<32>{#p/story}* 坏了，Mushketeer是认真的。"
 
 msgid "<32>{#p/alphys}* Wait, that worked?"
-msgstr ""
+msgstr "<32>{#p/alphys}* 等等，成了？"
 
 msgid "<32>{#p/story}* Oh yes, Mushketeer is serious."
-msgstr ""
+msgstr "<32>{#p/story}* 好了，Mushketeer是认真的。"
 
 msgid "<32>{#p/human}* (You come closer to Mushketeer.)"
-msgstr ""
+msgstr "<32>{#p/human}* （你靠近了Mushketeer。）"
 
 msgid "<32>{#p/basic}* Mushketeer's attacks get more intense!"
-msgstr ""
+msgstr "<32>{#p/basic}* Mushketeer的攻击变得更加猛烈！"
 
 msgid "<32>{#p/asriel2}* ...?"
 msgstr "<32>{#p/asriel2}* ...？"
 
 msgid "<32>{#p/alphys}* Careful..."
-msgstr ""
+msgstr "<32>{#p/alphys}* 小心..."
 
 msgid "<32>{#p/human}* (You come right next to Mushketeer.)"
-msgstr ""
+msgstr "<32>{#p/human}* （你来到Mushketeer身边。）"
 
 msgid "<32>{#p/basic}* Mushketeer's attacks go insane!"
-msgstr ""
+msgstr "<32>{#p/basic}* Mushketeer的攻击开始疯狂起来！"
 
 msgid "<32>{#p/asriel2}* $(name)...?"
-msgstr ""
+msgstr "<32>{#p/asriel2}* $(name)...？"
 
 msgid "<32>{#p/alphys}* Oh my god, be careful...!"
-msgstr ""
+msgstr "<32>{#p/alphys}* 我的老天，小心点啊...！"
 
 msgid "<32>{#p/human}* (But you were already right next to Mushketeer.)"
-msgstr ""
+msgstr "<32>{#p/human}* （但你已经在Mushketeer身边了。）"
 
 msgid "<32>{#p/asriel2}* I am starting to get worried."
 msgstr ""
 
 msgid "<32>{#p/alphys}* D-do anything other than this!!!"
-msgstr ""
+msgstr "<32>{#p/alphys}* 干-干点别的事吧！！！"
 
 msgid "<08>{#p/basic}{~}What do you think you're doing!"
 msgstr ""
+"<08>{#p/basic}{~}你以为\n"
+"你在\n"
+"干什么！"
 
 msgid "<08>{#p/basic}{~}What're you playin' at!"
 msgstr ""
+"<08>{#p/basic}{~}你在\n"
+"搞什么鬼！"
 
 msgid "<32>{#p/human}* (You try to disarm Mushketeer, but it's too far away.)"
 msgstr ""
