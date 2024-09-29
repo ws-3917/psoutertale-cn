@@ -1,12 +1,25 @@
-#
+#, fuzzy
 msgid ""
 msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-09-29 09:29+0000\n"
+"PO-Revision-Date: 2024-09-29 09:29+0000\n"
+"Last-Translator: Chickenytboi <misazacek08@gmail.com>\n"
+"Language-Team: Czech <https://ws3917.site/projects/project-spacetime/"
+"7-values/cs/>\n"
+"Language: cs_CZ\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: ENCODING\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Weblate 5.7.2\n"
+
+#
 
 msgid "en_US"
 msgstr "cs_CZ"
 
-msgid ""
-msgstr ""
 
 msgid "You must choose a name."
 msgstr "Musíš si vybrat jména."
@@ -15,7 +28,7 @@ msgid "No?"
 msgstr "Ne?"
 
 msgid "Hm...?"
-msgstr ""
+msgstr "Hm...?"
 
 msgid "Maybe?"
 msgstr "Možná?"
@@ -211,19 +224,19 @@ msgid "It's m-moving! I-I-It's shaking!"
 msgstr "H-hýbe se! T-T-Třese se!"
 
 msgid "Jerry."
-msgstr ""
+msgstr "Jerry."
 
 msgid "(The dog jumped into your lap.)"
 msgstr "(Pes vám skočil do klína.)"
 
 msgid "(Pant pant)"
-msgstr ""
+msgstr "(Pant pant)"
 
 msgid "I'LL ALLOW IT!!!!"
 msgstr "DOVOLÍM TO!!!"
 
 msgid "ok."
-msgstr ""
+msgstr "ok."
 
 msgid "nope."
 msgstr "ne."
@@ -267,13 +280,13 @@ msgid "Sorry, but you're a letter shy."
 msgstr "Promiňte, ale jste dopis stydlivý."
 
 msgid "...?"
-msgstr ""
+msgstr "...?"
 
 msgid "Clean name."
 msgstr "Čistý název."
 
 msgid "hOI!"
-msgstr ""
+msgstr "hOI!"
 
 msgid "Ngah, fine."
 msgstr "Ngah, dobře."
@@ -282,7 +295,7 @@ msgid "Get your OWN name!"
 msgstr "Získejte své VLASTNÍ jméno!"
 
 msgid "Uh.... OK?"
-msgstr ""
+msgstr "Uh.... OK?"
 
 msgid "D-don't do that."
 msgstr "N-nedělejte to."
@@ -342,4 +355,4 @@ msgid "... fine."
 msgstr "... dobře."
 
 msgid "..."
-msgstr ""
+msgstr "..."
