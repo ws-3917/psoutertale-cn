@@ -1,22 +1,20 @@
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-29 08:29+0000\n"
-"PO-Revision-Date: 2024-09-29 08:29+0000\n"
+"PO-Revision-Date: 2024-09-29 09:29+0000\n"
 "Last-Translator: Chickenytboi <misazacek08@gmail.com>\n"
 "Language-Team: Czech <https://ws3917.site/projects/project-spacetime/"
 "0-systems/cs/>\n"
 "Language: cs_CZ\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: ENCODING\n"
+"Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 "X-Generator: Weblate 5.7.2\n"
 
 #
-
 msgid "(You take a deep breath.)"
 msgstr "(Zhluboka se nadechnete.)"
 
@@ -624,7 +622,6 @@ msgstr "§fill=#ff0§< VÝVOJÁŘ >§fill=#fff§"
 msgid "spacey_432"
 msgstr "spacey_432"
 
-
 msgid "§fill=#ff0§< WRITER >§fill=#fff§"
 msgstr "§fill=#ff0§< SPISOVATEL >§fill=#fff§"
 
@@ -884,25 +881,25 @@ msgid "Teecup"
 msgstr "Teecup"
 
 msgid "Tem in a Cowboy Hat"
-msgstr ""
+msgstr "Tem in a Cowboy Hat"
 
 msgid "Tenbrooks"
-msgstr ""
+msgstr "Tenbrooks"
 
 msgid "The Fallen Angel"
-msgstr ""
+msgstr "The Fallen Angel"
 
 msgid "TheAsriel"
-msgstr ""
+msgstr "TheAsriel"
 
 msgid "Wild Pasta"
-msgstr ""
+msgstr "Wild Pasta"
 
 msgid "Xiao_Akatsuki"
-msgstr ""
+msgstr "Xiao_Akatsuki"
 
 msgid "xNoodlePlayz"
-msgstr ""
+msgstr "xNoodlePlayz"
 
 msgid "§fill=#ff0§< SPECIAL THANKS >§fill=#fff§"
 msgstr "§fill=#ff0§< ZVLÁŠTNÍ PODĚKOVÁNÍ >§fill=#fff§"
@@ -991,7 +988,7 @@ msgid "(( CAST ))"
 msgstr "(( OBSAZENÍ ))"
 
 msgid "FROGGIT"
-msgstr ""
+msgstr "FROGGIT"
 
 msgid ""
 "Pondering\n"
@@ -1022,7 +1019,7 @@ msgstr ""
 "ve strachu"
 
 msgid "FLUTTERLYTE"
-msgstr ""
+msgstr "FLUTTERLYTE"
 
 msgid ""
 "Learning To\n"
@@ -1053,7 +1050,7 @@ msgstr ""
 "manévrování"
 
 msgid "GELATINI"
-msgstr ""
+msgstr "GELATINI"
 
 msgid ""
 "Found A New\n"
@@ -1084,7 +1081,7 @@ msgstr ""
 "galaxii"
 
 msgid "OCULOUX"
-msgstr ""
+msgstr "OCULOUX"
 
 msgid ""
 "Slightly\n"
@@ -1108,7 +1105,7 @@ msgstr ""
 "koketní"
 
 msgid "SILENTE"
-msgstr ""
+msgstr "SILENTE"
 
 msgid ""
 "Exceedingly\n"
@@ -1139,10 +1136,10 @@ msgstr ""
 "Ohrožení"
 
 msgid "MUSHY"
-msgstr ""
+msgstr "MUSHY"
 
 msgid "Balgamlı Kedi & ScarletScaledDragon"
-msgstr ""
+msgstr "Balgamlı Kedi & ScarletScaledDragon"
 
 msgid ""
 "Shooting\n"
@@ -1173,7 +1170,7 @@ msgstr ""
 "a modlí se"
 
 msgid "LURKSALOT"
-msgstr ""
+msgstr "LURKSALOT"
 
 msgid ""
 "Keeping To\n"
@@ -1197,7 +1194,7 @@ msgstr ""
 "nezúčastněný"
 
 msgid "STARDRAKE"
-msgstr ""
+msgstr "STARDRAKE"
 
 msgid ""
 "Still Looking\n"
@@ -1221,7 +1218,7 @@ msgstr ""
 "u dospělý"
 
 msgid "CHILLDRAKE"
-msgstr ""
+msgstr "CHILLDRAKE"
 
 msgid ""
 "Still Looking\n"
@@ -1252,7 +1249,7 @@ msgstr ""
 "Šikaně"
 
 msgid "ASTRO SERF"
-msgstr ""
+msgstr "ASTRO SERF"
 
 msgid ""
 "Thinking About\n"
@@ -1281,7 +1278,7 @@ msgid ""
 msgstr "‘Nouzový vysílač"
 
 msgid "JERRY"
-msgstr ""
+msgstr "JERRY"
 
 msgid ""
 "Getting Ditched\n"
@@ -1305,10 +1302,10 @@ msgstr ""
 "vykoupení"
 
 msgid "WHIZKARAT"
-msgstr ""
+msgstr "WHIZKARAT"
 
 msgid "Zaxento The Greedy & semi"
-msgstr ""
+msgstr "Zaxento The Greedy & semi"
 
 msgid ""
 "Having An\n"
@@ -1339,7 +1336,7 @@ msgstr ""
 "kočičí společnosti"
 
 msgid "DOGGO"
-msgstr ""
+msgstr "DOGGO"
 
 msgid ""
 "Believes In The\n"
@@ -1370,7 +1367,7 @@ msgstr ""
 "s vidoucím okem"
 
 msgid "CANIS MINOR"
-msgstr ""
+msgstr "CANIS MINOR"
 
 msgid ""
 "Searching For\n"
@@ -1401,7 +1398,7 @@ msgstr ""
 "po náklonnosti"
 
 msgid "DOGAMY & DOGARESSA"
-msgstr ""
+msgstr "DOGAMY & DOGARESSA"
 
 msgid ""
 "Still Thinking\n"
@@ -1432,7 +1429,7 @@ msgstr ""
 "Oči zapojené"
 
 msgid "CANIS MAJOR"
-msgstr ""
+msgstr "CANIS MAJOR"
 
 msgid ""
 "Unaware Of\n"
@@ -1456,7 +1453,7 @@ msgstr ""
 "Změnami"
 
 msgid "SKRUBBINGTON"
-msgstr ""
+msgstr "SKRUBBINGTON"
 
 msgid ""
 "Only 99.1\n"
@@ -1487,7 +1484,7 @@ msgstr ""
 "tlaková myčka"
 
 msgid "GELATA"
-msgstr ""
+msgstr "GELATA"
 
 msgid ""
 "Looking For A\n"
@@ -1518,10 +1515,10 @@ msgstr ""
 "-ingová rekvizita"
 
 msgid "RADTILE"
-msgstr ""
+msgstr "RADTILE"
 
 msgid "Balgamlı Kedi & Zaxento The Greedy"
-msgstr ""
+msgstr "Balgamlı Kedi & Zaxento The Greedy"
 
 msgid ""
 "Wallowing In\n"
@@ -1552,7 +1549,7 @@ msgstr ""
 "ošklivé budoucnosti"
 
 msgid "SHYREN"
-msgstr ""
+msgstr "SHYREN"
 
 msgid ""
 "Back To Taking\n"
@@ -1583,7 +1580,7 @@ msgstr ""
 "bez syntezátoru"
 
 msgid "DOGE"
-msgstr ""
+msgstr "DOGE"
 
 msgid ""
 "Construction Site\n"
@@ -1607,7 +1604,7 @@ msgstr ""
 "štěněcí lásku"
 
 msgid "MUFFET"
-msgstr ""
+msgstr "MUFFET"
 
 msgid ""
 "Looking For Her\n"
@@ -1631,7 +1628,7 @@ msgstr ""
 "Piknikové rande"
 
 msgid "HOTWIRE"
-msgstr ""
+msgstr "HOTWIRE"
 
 msgid ""
 "Waiting For The\n"
@@ -1662,7 +1659,7 @@ msgstr ""
 "pokraji smrti"
 
 msgid "TSUNDERIDEX"
-msgstr ""
+msgstr "TSUNDERIDEX"
 
 msgid ""
 "Flying Deeper\n"
@@ -1693,7 +1690,7 @@ msgstr ""
 "svůj protějšek"
 
 msgid "PERIGEE"
-msgstr ""
+msgstr "PERIGEE"
 
 msgid ""
 "Another Day,\n"
@@ -1724,7 +1721,7 @@ msgstr ""
 "Skrze bolest"
 
 msgid "RG 03 & RG 04"
-msgstr ""
+msgstr "RG 03 & RG 04"
 
 msgid ""
 "In Search Of\n"
@@ -1742,243 +1739,311 @@ msgid ""
 "Please Use Your\n"
 "Imagination"
 msgstr ""
+"Prosím, použijte\n"
+"svou představivost"
 
 msgid ""
 "Royal Guard\n"
 "Retirees"
 msgstr ""
+"Důchodci z \n"
+"Královské gardy"
 
 msgid "GLYDE"
-msgstr ""
+msgstr "GLYDE"
 
 msgid ""
 "Not Your Ideal\n"
 "Business Partner"
 msgstr ""
+"Není to váš ideální\n"
+"Obchodní partner"
 
 msgid ""
 "A Little Less\n"
 "Shady Than Usual"
 msgstr ""
+"O něco méně\n"
+"Stinné než obvykle"
 
 msgid ""
 "Not Your Ideal\n"
 "Bedfellow"
 msgstr ""
+"Není to váš ideální\n"
+"Spolunocležník"
 
 msgid "BURGERPANTS"
-msgstr ""
+msgstr "BURGERPANTS"
 
 msgid ""
 "Running Hastily\n"
 "At The Life Ahead"
 msgstr ""
+"Spěšně běží za\n"
+"Životem před sebou"
 
 msgid ""
 "Looking Forward\n"
 "To The Life Ahead"
 msgstr ""
+"Těší se na život,\n"
+"Který je před ním"
 
 msgid ""
 "Finding Love\n"
 "In The Life Ahead"
 msgstr ""
+"Hledá lásku v životě,\n"
+"Který je před námi"
 
 msgid "COZMO"
-msgstr ""
+msgstr "COZMO"
 
 msgid ""
 "Looking For A\n"
 "Dictionary"
 msgstr ""
+"Hledá\n"
+"slovník"
 
 msgid ""
 "Famous\n"
 "Magician"
 msgstr ""
+"Slavný\n"
+"Kouzelník"
 
 msgid ""
 "Found A New Kind\n"
 "Of Magic"
 msgstr ""
+"Objevil nový\n"
+"Druh magie"
 
 msgid "TERRESTRIA"
-msgstr ""
+msgstr "TERRESTRIA"
 
 msgid ""
 "In Search Of\n"
 "The Past"
 msgstr ""
+"Hledá\n"
+"Minulosti"
 
 msgid ""
 "Renowned\n"
 "Historian"
 msgstr ""
+"Renomovaný\n"
+"Historik"
 
 msgid ""
 "Has A Crush On\n"
 "The Homeworld"
 msgstr ""
+"Je zamilovaný do\n"
+"Domovského světa"
 
 msgid "FINAL FROGGIT"
-msgstr ""
+msgstr "FINAL FROGGIT"
 
 msgid ""
 "Keeping Its\n"
 "Wisdom To Itself"
 msgstr ""
+"Nechává si svou\n"
+"Moudrost pro sebe"
 
 msgid ""
 "Sharing Its\n"
 "Wisdom Openly"
 msgstr ""
+"Otevřeně se dělí\n"
+"O svou moudrost"
 
 msgid ""
 "Using Its Wisdom\n"
 "For Love"
 msgstr ""
+"Používá jeho\n"
+"Moudrosti k lásce"
 
 msgid ""
 "Using Its Wisdom\n"
 "For Survival"
 msgstr ""
+"Používá jeho moud-\n"
+"rosti pro přežití"
 
 msgid "FLUTTERKNYTE"
-msgstr ""
+msgstr "FLUTTERKNYTE"
 
 msgid ""
 "Still Working\n"
 "Every Day"
 msgstr ""
+"Stále pracuje\n"
+"Každý den"
 
 msgid ""
 "Finally Took\n"
 "A Break"
 msgstr ""
+"Konečně si\n"
+"Dal pauzu"
 
 msgid ""
 "Looking For Some\n"
 "Private Time"
 msgstr ""
+"Hledá nějaký\n"
+"Soukromý čas"
 
 msgid ""
 "Working Harder\n"
 "Out Of Fear"
 msgstr ""
+"Pracuje tvrději\n"
+"Ze strachu"
 
 msgid "EYEWALKER PRIME"
-msgstr ""
+msgstr "EYEWALKER PRIME"
 
 msgid ""
 "Still A\n"
 "Big Bully"
 msgstr ""
+"Je stále\n"
+"Velký tyran"
 
 msgid ""
 "Domineering\n"
 "Eye Doctor"
 msgstr ""
+"Dominantní\n"
+"Oční lékař"
 
 msgid ""
 "Domineering\n"
 "Leather Tailor"
 msgstr ""
+"Dominantní\n"
+"Kožený krejčí"
 
 msgid ""
 "Overthrown By\n"
 "An Oculoux"
 msgstr ""
+"Svržen\n"
+"Oculouxem"
 
 msgid "SILENCIO"
-msgstr ""
+msgstr "SILENCIO"
 
 msgid ""
 "Still A\n"
 "Shameless Coward"
 msgstr ""
+"Stále nestydatý\n"
+"Zbabělec"
 
 msgid ""
 "A Little Less Of\n"
 "A Coward"
 msgstr ""
+"O něco méně\n"
+"Zbabělec"
 
 msgid ""
 "In Love With\n"
 "Its Fear"
 msgstr ""
+"Zamilovaný do\n"
+"Svého strachu"
 
 msgid ""
 "Running Faster\n"
 "Than Ever Before"
 msgstr ""
+"Běží rychleji než\n"
+"Kdy předtím"
 
 msgid "MUSHKETEER"
-msgstr ""
+msgstr "MUSHKETEER"
 
 msgid "Balgamlı Kedi & Ghostly"
-msgstr ""
+msgstr "Balgamlı Kedi & Ghostly"
 
 msgid ""
 "One Mushroom\n"
 "Army"
 msgstr ""
+"Jedna houbová\n"
+"Armáda"
 
 msgid ""
 "Hardened Warrior\n"
 "Seeking Peace"
 msgstr ""
+"Zocelený válečník\n"
+"hledá mír"
 
 msgid ""
 "Defeated By The\n"
 "Power Of Love"
 msgstr ""
+"Poražen silu\n"
+"Lásky"
 
 msgid ""
 "Scared\n"
 "Straight"
 msgstr ""
+"Vyděšený\n"
+"Rovný"
 
 msgid "PAPYRUS"
-msgstr ""
+msgstr "PAPYRUS"
 
 msgid "ProctorDorkchop02 & MattSpriteMaster"
-msgstr ""
+msgstr "ProctorDorkchop02 & MattSpriteMaster"
 
 msgid "SANS"
-msgstr ""
+msgstr "SANS"
 
 msgid "ProctorDorkchop02 & Fired"
-msgstr ""
+msgstr "ProctorDorkchop02 & Fired"
 
 msgid "UNDYNE"
-msgstr ""
+msgstr "UNDYNE"
 
 msgid "ALPHYS"
-msgstr ""
+msgstr "ALPHYS"
 
 msgid "MEW MEW"
-msgstr ""
+msgstr "MEW MEW"
 
 msgid "NAPSTABLOOK"
-msgstr ""
+msgstr "NAPSTABLOOK"
 
 msgid "METTATON"
-msgstr ""
+msgstr "METTATON"
 
 msgid "TORIEL"
-msgstr ""
+msgstr "TORIEL"
 
 msgid "ASGORE"
-msgstr ""
+msgstr "ASGORE"
 
 msgid "MONSTER KID"
-msgstr ""
+msgstr "MONSTER KID"
 
 msgid "ASRIEL"
-msgstr ""
+msgstr "ASRIEL"
 
 msgid "Medi0creking & MattSpriteMaster"
-msgstr ""
+msgstr "Medi0creking & MattSpriteMaster"
 
 msgid "[↑ or ↓] to Select / [Z or ENTER] to Confirm"
 msgstr "[↑ nebo ↓] vyberte / [Z nebo ENTER] potvrďte"
@@ -2101,10 +2166,10 @@ msgid "Restarting.."
 msgstr "Restartuje.."
 
 msgid "OUTERTALE"
-msgstr ""
+msgstr "OUTERTALE"
 
 msgid "OUTERTALE...?"
-msgstr ""
+msgstr "OUTERTALE...?"
 
 msgid "GAMEPAD SETUP"
 msgstr "NASTAVENÍ GAMEPADU"
@@ -2185,7 +2250,7 @@ msgstr ""
 "Stisknutím klávesy ESC přeskočte nastavení."
 
 msgid "Asriel"
-msgstr ""
+msgstr "Asriel"
 
 msgid "The Oblivion"
 msgstr "Zapomnění"
@@ -2200,7 +2265,7 @@ msgid "Press [X] to Finish"
 msgstr "Stiskněte [X] pro dokončení"
 
 msgid "Frisk"
-msgstr ""
+msgstr "Frisk"
 
 msgid "G"
 msgstr "Z"
@@ -2217,16 +2282,20 @@ msgstr "ÚN"
 msgid ""
 "§mystify=ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz§aaaaaa§mystify=§"
 msgstr ""
+"§mystify=ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz§aaaaaa§mystify="
+"§"
 
 msgid ""
 "{@mystify=ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz}aaaaaa{@mystify=}"
 msgstr ""
+"{@mystify=ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz}aaaaaa{@mystif"
+"y=}"
 
 msgid "{@mystify=abcdefghijklmnopqrstuvwxyz}aaaaaa{@mystify=}"
-msgstr ""
+msgstr "{@mystify=abcdefghijklmnopqrstuvwxyz}aaaaaa{@mystify=}"
 
 msgid "{@mystify=ABCDEFGHIJKLMNOPQRSTUVWXYZ}aaaaaa{@mystify=}"
-msgstr ""
+msgstr "{@mystify=ABCDEFGHIJKLMNOPQRSTUVWXYZ}aaaaaa{@mystify=}"
 
 msgid "No"
 msgstr "Ne"
@@ -2235,7 +2304,7 @@ msgid "§fill=#0f0§NOMINAL"
 msgstr "§fill=#0f0§NOMINÁLNÍ"
 
 msgid "$(x)%"
-msgstr ""
+msgstr "$(x)%"
 
 msgid "player"
 msgstr "hráč"
@@ -2244,7 +2313,7 @@ msgid "Settings"
 msgstr "Nastavení"
 
 msgid "?"
-msgstr ""
+msgstr "?"
 
 msgid "XM"
 msgstr "XH"
@@ -2275,7 +2344,7 @@ msgid "Go back"
 msgstr "Zpět"
 
 msgid "OUTERTALE V5.04 (c) 2024 SPACEY_432"
-msgstr ""
+msgstr "OUTERTALE V5.04 (c) 2024 SPACEY_432"
 
 msgid "* (HP fully restored.)"
 msgstr "* (ZB plně obnoveno.)"
@@ -2299,7 +2368,7 @@ msgid "EQUIP"
 msgstr "VYBAVIT"
 
 msgid "INFO"
-msgstr ""
+msgstr "INFO"
 
 msgid "DROP"
 msgstr "ODEVZDÁT"
@@ -2341,7 +2410,7 @@ msgid "SETTINGS"
 msgstr "NASTAVENÍ"
 
 msgid "EXIT"
-msgstr ""
+msgstr "EXIT"
 
 msgid "LANGUAGE"
 msgstr "JAZYK"
@@ -2392,7 +2461,7 @@ msgid "ITEM"
 msgstr "VĚCI"
 
 msgid "STAT"
-msgstr ""
+msgstr "STAT"
 
 msgid "CELL"
 msgstr "TEL"
@@ -2440,13 +2509,13 @@ msgid "BULLY"
 msgstr "TYRAN"
 
 msgid "FLIRT"
-msgstr ""
+msgstr "FLIRT"
 
 msgid "STATUS"
 msgstr "STAV"
 
 msgid "\"$(x)\""
-msgstr ""
+msgstr "\"$(x)\""
 
 msgid ""
 "<24>{#p/storyteller}Long ago, two species ruled the solar system: HUMANS and"
@@ -2489,10 +2558,10 @@ msgstr ""
 "<24>Příběhy hovoří o místě, odkud se kosmické lodě nikdy nevrátí.{^35}{}"
 
 msgid "<24>{^100}{}"
-msgstr ""
+msgstr "<24>{^100}{}"
 
 msgid "<24>{^35}{}"
-msgstr ""
+msgstr "<24>{^35}{}"
 
 msgid "Resume Canon Timeline"
 msgstr "Pokračovat Časová osa kánonu"
