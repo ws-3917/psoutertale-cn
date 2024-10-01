@@ -4,7 +4,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-21 10:25+0000\n"
 "PO-Revision-Date: 2024-10-01 05:29+0000\n"
-"Last-Translator: WS-3917 <ws3917@outlook.com>\n"
+"Last-Translator: MurderSans_MDR <z127568254@163.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://ws3917.site/projects/"
 "project-spacetime/4-aerialis/zh_Hans/>\n"
 "Language: zh_CN\n"
@@ -21700,7 +21700,7 @@ msgstr ""
 "那人又开始杀人了"
 
 msgid "welp."
-msgstr "唉，"
+msgstr "唉。"
 
 msgid "sans"
 msgstr "sans"
@@ -21768,6 +21768,8 @@ msgstr "是但你会帮我疏散的对吧？"
 
 msgid "i mean i think so? maybe we should start evacuating or something"
 msgstr ""
+"大概？\n"
+"也许我们动作得快点了"
 
 msgid ""
 "i can't make any promises.\n"
@@ -21780,7 +21782,7 @@ msgid "thanks"
 msgstr "谢了"
 
 msgid "sans people in the foundry are in serious danger"
-msgstr "sans 铸厂民众有难了"
+msgstr "sans 铸厂居民有难了"
 
 msgid "its the human... even the elite squad cant stop it"
 msgstr "那人在惹事... 特战队都没拦住"
@@ -21803,7 +21805,7 @@ msgid "oh right i need to do that"
 msgstr ""
 
 msgid "gotta go"
-msgstr ""
+msgstr "我出发了"
 
 msgid ""
 "good luck, alphys.\n"
@@ -21821,12 +21823,14 @@ msgstr "有点担忧啊"
 
 msgid "not gonna lie im kind of excited"
 msgstr ""
+"说实话\n"
+"我还蛮兴奋的"
 
 msgid "and by kind of i mean very"
 msgstr "我是说非常担忧"
 
 msgid "but like really scared at the same time"
-msgstr ""
+msgstr "不过也有点慌"
 
 msgid "don't you think you should do something about it?"
 msgstr "你不觉得你该做点什么吗？"
