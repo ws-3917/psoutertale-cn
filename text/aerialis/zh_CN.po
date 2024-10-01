@@ -4,7 +4,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-21 10:25+0000\n"
 "PO-Revision-Date: 2024-10-01 03:29+0000\n"
-"Last-Translator: MurderSans_MDR <z127568254@163.com>\n"
+"Last-Translator: WS-3917 <ws3917@outlook.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://ws3917.site/projects/"
 "project-spacetime/4-aerialis/zh_Hans/>\n"
 "Language: zh_CN\n"
@@ -21241,54 +21241,62 @@ msgid "ALPHYS"
 msgstr "ALPHYSゑ"
 
 msgid "uhhhh nobody saw that right"
-msgstr ""
+msgstr "呃呃呃应该就我看到了吧"
 
 msgid "finally met the human that was kinda nervewracking LOL"
 msgstr "终于见到人类了，有点伤脑筋www"
 
 msgid "well i just met the human"
-msgstr ""
+msgstr "见到那人了"
 
 msgid "ok good"
-msgstr ""
+msgstr "哦那就行"
 
 msgid "still cant believe mettaton gave them a moniker???"
 msgstr ""
+"没想到mettaton居然给那人\n"
+"起外号了？？？离谱"
 
 msgid "still cant believe mettaton wanted me to fight them???"
 msgstr ""
+"没想到mettaton居然让我跟\n"
+"那人打？？？离谱"
 
 msgid "they seem... nice?"
-msgstr ""
+msgstr "那人好像... 还行？"
 
 msgid "yeah that wouldve been pretty embarrasing otherwise"
-msgstr ""
+msgstr "不然尴尬死了"
 
 msgid "yeah lets hope that doesnt get blown out of proportion"
-msgstr ""
+msgstr "行吧希望这事别上热搜"
 
 msgid "yeah lets hope that doesnt happen again"
-msgstr ""
+msgstr "行吧希望别再整出这事"
 
 msgid "yeah lets hope nothing bad happens"
-msgstr ""
+msgstr "行吧希望别出啥岔子"
 
 msgid "oh my god i thought those guys were about to provoke the human"
 msgstr ""
+"吓死我了\n"
+"还以为那些家伙要惹人类"
 
 msgid ""
 "really guys?\n"
 "THERES ICE CREAM AT THE REC CENTER"
 msgstr ""
+"不是哥们？\n"
+"馋 冰 淇 淋 你 去 休 闲 回 廊 啊"
 
 msgid "awkward"
-msgstr ""
+msgstr "离谱"
 
 msgid "oh no."
-msgstr ""
+msgstr "哦不。"
 
 msgid "ok mettaton could you like not keep doing this to me thanks"
-msgstr ""
+msgstr "mettaton求你别这么搞我了求求了"
 
 msgid "ok ill be honest i have no idea how that worked out LOL"
 msgstr ""
@@ -21310,12 +21318,14 @@ msgstr ""
 
 msgid "wait how did the human get here if i never gave them a liftgate pass"
 msgstr ""
+"怪事了 我明明没给那人通行证\n"
+"那咋过来的"
 
 msgid "BTW has anyone else seen mew mew space adventure???"
 msgstr ""
 
 msgid "like did they just steal my spare cell phone or something"
-msgstr ""
+msgstr "是不是偷我备用机了"
 
 msgid "i finally started watching the last season and its actually good WTF"
 msgstr ""
@@ -21325,6 +21335,8 @@ msgstr "NAPSTABLOOK22"
 
 msgid "alphys... can you please respond to my private messages..."
 msgstr ""
+"alphys... 可以看一眼私信吗...\n"
+"给我回个话吧..."
 
 msgid "we did... that one time..."
 msgstr ""
@@ -21333,7 +21345,7 @@ msgid "COOLSKELETON95"
 msgstr "酷炫骷髅95"
 
 msgid "i'm... getting worried"
-msgstr ""
+msgstr "我好担心你..."
 
 msgid ""
 "ARE WE WATCHING \"TV SHOWS\" NOW?\n"
@@ -21353,6 +21365,8 @@ msgid ""
 "Alphys, HUH?\n"
 "Are you IGNORING MY COUSIN!?!?"
 msgstr ""
+"喂，Alphys！\n"
+"敢把我表亲当空气是吧？！？！"
 
 msgid ""
 "Mew Mew SPACE ADVENTURE???\n"
@@ -21360,7 +21374,7 @@ msgid ""
 msgstr ""
 
 msgid "please stay out of this"
-msgstr ""
+msgstr "别这样"
 
 msgid "let me guess youre one of those mew mew starfire fans arent you"
 msgstr ""
@@ -21370,6 +21384,8 @@ msgstr ""
 
 msgid "oh, so i'm just supposed to IGNORE my cousins' problems, AM I?"
 msgstr ""
+"嗯？那我就眼睁睁看着\n"
+"表亲没人搭理？"
 
 msgid ""
 "yeah, okay, but ask yourself this:\n"
@@ -21385,6 +21401,8 @@ msgid ""
 "with all due respect\n"
 "please shut up."
 msgstr ""
+"闭嘴\n"
+"不然我生气了。"
 
 msgid ""
 "LOLLLLLLLLLLL SPACE VENTURE\n"
@@ -21395,7 +21413,7 @@ msgid "im really starting to regret not adding a block function"
 msgstr ""
 
 msgid "gotta go."
-msgstr ""
+msgstr "我得走了。"
 
 msgid "another show already???"
 msgstr ""
@@ -21404,15 +21422,21 @@ msgid ""
 "well... alright\n"
 "ill look at what you sent me now"
 msgstr ""
+"呃... 我回来了\n"
+"看一眼你之前给我发了啥"
 
 msgid "for the record this mew mew doll thing never happened."
 msgstr ""
 
 msgid "no... come on... i thought i told them not to go after anyone"
 msgstr ""
+"不... 不要...\n"
+"明明警告过她们别抓人的"
 
 msgid "phew... i thought they'd be killed for sure there"
 msgstr ""
+"吓死我了...\n"
+"还以为她们肯定死翘翘了"
 
 msgid "i thought i told the royal guard not to go after anyone WTF???"
 msgstr ""
