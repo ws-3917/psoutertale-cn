@@ -4,7 +4,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-21 10:25+0000\n"
 "PO-Revision-Date: 2024-10-01 03:56+0000\n"
-"Last-Translator: WS-3917 <ws3917@outlook.com>\n"
+"Last-Translator: MurderSans_MDR <z127568254@163.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://ws3917.site/projects/"
 "project-spacetime/4-aerialis/zh_Hans/>\n"
 "Language: zh_CN\n"
@@ -2104,7 +2104,7 @@ msgid "<25>{#p/asriel2}{#f/16}* Cool."
 msgstr "<25>{#p/asriel2}{#f/16}* 酷哦。ゑ"
 
 msgid "$(x) updated status"
-msgstr ""
+msgstr "$(x)有新消息ゑ"
 
 msgid "<32>{#p/event}* Ring, ring..."
 msgstr "<32>{#p/event}* 铃铃，铃铃...ゑ"
@@ -2343,7 +2343,7 @@ msgid "<25>{#g/alphysNeutralSweat}* ..."
 msgstr "<25>{#g/alphysNeutralSweat}* ..."
 
 msgid "Model 42"
-msgstr "42号模型"
+msgstr "42型机器人ゑ"
 
 msgid "Hapstablook"
 msgstr "Hapstablook"
@@ -21440,7 +21440,7 @@ msgid "gotta go."
 msgstr "我得走了。"
 
 msgid "another show already???"
-msgstr ""
+msgstr "咋又开播了？？？"
 
 msgid ""
 "well... alright\n"
@@ -21451,6 +21451,8 @@ msgstr ""
 
 msgid "for the record this mew mew doll thing never happened."
 msgstr ""
+"我可把话说清楚了\n"
+"喵喵玩偶那事谁都没看见。"
 
 msgid "no... come on... i thought i told them not to go after anyone"
 msgstr ""
@@ -21464,6 +21466,8 @@ msgstr ""
 
 msgid "i thought i told the royal guard not to go after anyone WTF???"
 msgstr ""
+"都说了别抓人别抓人\n"
+"搞什么？？？"
 
 msgid "Your private message history was successfully cleared."
 msgstr "聊天记录已清空。"
