@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-21 10:25+0000\n"
-"PO-Revision-Date: 2024-10-01 13:29+0000\n"
+"PO-Revision-Date: 2024-10-01 14:13+0000\n"
 "Last-Translator: Holaamingo <1368779090@qq.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://ws3917.site/projects/"
 "project-spacetime/2-starton/zh_Hans/>\n"
@@ -989,27 +989,27 @@ msgstr ""
 "   人类获得了胜利。”"
 
 msgid "<32>* \"A settlement between the two species was signed, and...\""
-msgstr ""
+msgstr "<32>* “两个物种间签订了和约，然后...”"
 
 msgid "<32>* \"The remaining monsters were banished to an abandoned outpost.\""
-msgstr ""
+msgstr "<32>* “剩下的怪物被驱逐到了一个废弃的前哨站。”"
 
 msgid "<32>* \"Then, the humans gathered seven of their brightest minds.\""
-msgstr ""
+msgstr "<32>* “接着，人类集结了七位精英。”"
 
 msgid "<32>* \"Together, they formulated a plan, and eventually...\""
-msgstr ""
+msgstr "<32>* “他们一同制定了一个计划，最后...”"
 
 msgid ""
 "<32>* \"A powerful force field was erected, and the monsters were sealed "
 "in.\""
-msgstr ""
+msgstr "<32>* “一个强大的力场被建立了起来，怪物们被困在其中。”"
 
 msgid "<32>* Well, that's the story."
-msgstr ""
+msgstr "<32>* 嗯，这就是故事的内容了。"
 
 msgid "<32>{#p/basic}* Well, if you ever want me to read it, let me know."
-msgstr ""
+msgstr "<32>{#p/basic}* 好吧，如果你想让我读，就告诉我。"
 
 msgid ""
 "<32>{#p/basic}{#npc/a}* If you want a room, you'll need to ask me first."
