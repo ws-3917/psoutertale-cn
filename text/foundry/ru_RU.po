@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-21 10:25+0000\n"
-"PO-Revision-Date: 2024-10-01 12:29+0000\n"
+"PO-Revision-Date: 2024-10-01 13:29+0000\n"
 "Last-Translator: Maxim Aksenov <me6696154@gmail.com>\n"
 "Language-Team: Russian <https://ws3917.site/projects/project-spacetime/"
 "3-foundry/ru/>\n"
@@ -6913,59 +6913,64 @@ msgid "<25>{#f/3}* what about it?"
 msgstr "<25>{#f/3}* Как насчет этого?"
 
 msgid "<25>{#f/0}* well, papyrus told me something interesting the other day."
-msgstr ""
-"<25>{#f/0}* Ну, папирус рассказал мне несколько дней назад что - то "
-"интересное."
+msgstr "<25>{#f/0}* ну, на днях Папирус рассказал мне кое-что интересное."
 
 msgid "<25>* sometimes, when no one else is around..."
-msgstr "<25>* Иногда, когда вокруг нет других людей..."
+msgstr "<25>* иногда, когда никого нет рядом..."
 
 msgid "<25>* a star appears from the heavens and whispers things to him."
-msgstr "<25>* С неба появляется звезда и шепчет ему."
+msgstr "<25>* звезда появляется на небе и что-то шепчет ему."
 
 msgid ""
 "<25>* flattery...\n"
 "* advice...\n"
 "* encouragement..."
-msgstr "* Поощрение."
+msgstr ""
+"<25> * лесть...\n"
+"* совет...\n"
+"* поощрение..."
 
+#, fuzzy
 msgid "<25>{#f/3}* ... predictions."
-msgstr "<25>{#f/3}* ... Пророчество."
+msgstr "<25>{#f/3}* ... предсказания."
 
 msgid "<25>{#f/0}* weird, huh?"
-msgstr "<25>{#f/0}* Очень странно, не так ли?"
+msgstr "<25>{#f/0}* Странно, да?"
 
 msgid "<25>* someone must be using a signal star to play a trick on him."
 msgstr "<25>Кто - то, должно быть, дразнит его с помощью сигнальной звезды."
 
 msgid "<25>* keep an eye out, ok?"
-msgstr "<25>* Будьте осторожны, хорошо?"
+msgstr "<25>* будь осторожен, ладно?"
 
 msgid "<25>* thanks."
-msgstr "<25>* Спасибо."
+msgstr "<25>* спасибо."
 
 msgid ""
 "<25>{#p/sans}* ... er, grillby.\n"
 "* would you mind passing me the yamok sauce?"
 msgstr "* Не могли бы вы передать мне утку?"
 
+#, fuzzy
 msgid "<25>{#p/sans}{#f/8}* delicious."
-msgstr "<25>{#p/sans}{#f/8}* Вкусно."
+msgstr "<25>{#p/sans}{#f/8}* вкусно."
 
+#, fuzzy
 msgid "<25>{#p/sans}{#f/8}* well, i'll be at my station."
 msgstr "<25>{#p/sans}{#f/8}* Хорошо, я буду на своей станции."
 
 msgid "<25>{#f/8}* oh, and try to be nicer to people, will ya?"
-msgstr "<25>{#f/8}* О, попробуйте быть немного лучше для других, хорошо?"
+msgstr "<25>{#f/8}* о, и постарайся быть добрее к окружающим, ладно?"
 
 msgid "<25>{#f/9}* you might regret it otherwise."
-msgstr "<25>{#f/9}* В противном случае вы можете пожалеть об этом."
+msgstr "<25>{#f/9}* Иначе ты можешь пожалеть об этом."
 
 msgid "<25>{#f/8}* oh, and be sure to grab your food on the way out."
 msgstr "<25>{#f/8}* О, обязательно берите с собой еду, когда выходите."
 
+#, fuzzy
 msgid "<25>{#f/9}* you might need it soon."
-msgstr "<25>{#f/9}* Возможно, вам это понадобится в ближайшее время."
+msgstr "<25>{#f/9}* ты можешь скоро понадобиться."
 
 msgid "<25>{#p/sans}* i'm thinking about getting into the telescope business."
 msgstr "<25>{#p/sans}* Я думаю о вступлении в индустрию телескопов."
