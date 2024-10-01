@@ -1,6 +1,21 @@
-#
+#, fuzzy
 msgid ""
 msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-10-01 09:02+0000\n"
+"PO-Revision-Date: 2024-10-01 09:02+0000\n"
+"Last-Translator: WS-3917 <ws3917@outlook.com>\n"
+"Language-Team: Chinese (Traditional Han script) <https://ws3917.site/"
+"projects/project-spacetime/1-outlands/zh_Hant/>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: ENCODING\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.7.2\n"
+
+#
 
 msgid ""
 "<25>{#p/toriel}{#f/1}* I hear there is a certain kind of fluid in "
@@ -7646,7 +7661,7 @@ msgid ""
 "<32>{#p/basic}* One of Toriel's dining chairs.\n"
 "* Fit for a queen."
 msgstr ""
-"<32>{#p/basic}* Toriwl家有幾把餐椅，\n"
+"<32>{#p/basic}* Toriel家有幾把餐椅，\n"
 "  這把，是王后的餐椅。"
 
 msgid ""
