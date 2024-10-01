@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-21 10:25+0000\n"
-"PO-Revision-Date: 2024-10-01 05:29+0000\n"
+"PO-Revision-Date: 2024-10-01 12:29+0000\n"
 "Last-Translator: Maxim Aksenov <me6696154@gmail.com>\n"
 "Language-Team: Russian <https://ws3917.site/projects/project-spacetime/"
 "3-foundry/ru/>\n"
@@ -6832,8 +6832,7 @@ msgid "<25>{#f/0}* i gotta say, i was impressed by what i saw."
 msgstr "<25>{#f/0}* Должен сказать, я был впечатлён увиденным."
 
 msgid "<25>{#f/2}* maybe one day, i'll even design an attack of my own."
-msgstr ""
-"<25>{#f/2}* Возможно, однажды я даже спроектирую свою собственную атаку."
+msgstr "<25>{#f/2}* может быть, однажды я даже разработаю свою атаку."
 
 #, fuzzy
 msgid "<25>{#p/sans}* here comes the grub."
@@ -6844,10 +6843,11 @@ msgstr ""
 "<25>{#p/sans}* В любом случае, вы должны согласиться с тем, что он "
 "превзошел."
 
+#, fuzzy
 msgid ""
 "<25>{#f/0}* matter of fact, those attack designs of his are a good example."
 msgstr ""
-"<25>{#f/0}* На самом деле, его дизайн этих атак является хорошим примером."
+"<25>{#f/0}* на самом деле, его атакующие конструкции это хороший пример."
 
 msgid ""
 "<25>{#f/3}* not too long ago, papyrus visited the captain of the guard..."
@@ -6898,14 +6898,16 @@ msgstr "<25>{#p/sans}* Сигнальная звезда {@ fill = #003cff}{@ fi
 msgid ""
 "<25>{#p/sans}* well, lemme tell ya.\n"
 "* it's called the {@fill=#003cff}signal star{@fill=#fff}."
-msgstr "* Он называется сигнальная звезда {@ fill = #003cff}{@ fill = #fff}."
+msgstr ""
+"<25>{#p/sans}* Ну, я скажу тебе.\n"
+"* это называется {@fill=#003cff}сигнальная звезда{@fill=#fff}."
 
 msgid "<25>* they're all over the factory."
 msgstr "<25>* Завод был повсюду."
 
 msgid "<25>* once they pick up a signal, they'll repeat it over and over..."
 msgstr ""
-"<25>* Как только они получают сигнал, они повторяют его снова и снова."
+"<25>* как только они поймают сигнал, они будут повторять его снова и снова..."
 
 msgid "<25>{#f/3}* what about it?"
 msgstr "<25>{#f/3}* Как насчет этого?"
