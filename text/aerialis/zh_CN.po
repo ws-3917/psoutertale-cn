@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-21 10:25+0000\n"
-"PO-Revision-Date: 2024-10-01 11:29+0000\n"
-"Last-Translator: MurderSans_MDR <z127568254@163.com>\n"
+"PO-Revision-Date: 2024-10-01 12:29+0000\n"
+"Last-Translator: WS-3917 <ws3917@outlook.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://ws3917.site/projects/"
 "project-spacetime/4-aerialis/zh_Hans/>\n"
 "Language: zh_CN\n"
@@ -5502,7 +5502,7 @@ msgid "<25>{*}{#p/alphys}{#g/alphysWelp}* ...{^40}{%}"
 msgstr "<25>{*}{#p/alphys}{#g/alphysWelp}* ...{^40}{%}"
 
 msgid "<25>{#p/asriel2}{#f/1}* It's time to end this."
-msgstr ""
+msgstr "<25>{#p/asriel2}{#f/1}* 是时候动手了。"
 
 msgid "<25>{#p/alphys}{#g/alphysNeutralSweat}* Here we are."
 msgstr ""
@@ -5607,41 +5607,46 @@ msgid "<32>{#p/mettaton}* OH MY..."
 msgstr "<32>{#p/mettaton}* 天啊..."
 
 msgid "<32>* WHAT DO WE HAVE HERE?"
-msgstr "<32>* 看看谁来了？"
+msgstr "<32>* 快看，是谁来了！"
 
 msgid "<32>{#p/mettaton}* COULD IT BE?"
-msgstr "<32>{#p/mettaton}* 你会是..."
+msgstr "<32>{#p/mettaton}* 难道是..."
 
 msgid "<32>* THE NEMESIS OF MY DREAMS...?"
-msgstr ""
+msgstr "<32>* ...我的梦中情敌？"
 
 msgid "<32>* MY ONE TRUE LOVE...?"
-msgstr "<32>* 我的真爱吗...？"
+msgstr "<32>* ...我的真命天子？"
 
 msgid ""
 "<25>{*}{#p/alphys}{#g/alphysGarbo}* What the heck are you doing to them "
 "now...{^30}{%}"
 msgstr ""
+"<25>{*}{#p/alphys}{#g/alphysGarbo}* 你这破铁皮盒子\n"
+"  到底想干啥...{^30}{%}"
 
 msgid "<32>{*}{#p/mettaton}{#x1}* EXCUSE ME?{^30}{%}"
-msgstr ""
+msgstr "<32>{*}{#p/mettaton}{#x1}* 咋了博士？{^30}{%}"
 
 msgid "<32>{*}{#x2}* I'M TRYING TO RUN A SHOW HERE.{^30}{%}"
-msgstr ""
+msgstr "<32>{*}{#x2}* 我要演节目啊。{^30}{%}"
 
 msgid "<25>{*}{#p/alphys}{#g/alphysWTF}* ...{^30}{%}"
 msgstr "<25>{*}{#p/alphys}{#g/alphysWTF}* ...{^30}{%}"
 
 msgid "<32>{*}* MY, MY...{^30}{%}"
-msgstr "<32>{*}* 我的天啊...{^30}{%}"
+msgstr "<32>{*}* 苍天啊，大地啊...{^30}{%}"
 
 msgid "<32>{*}{#x1}* IT'S A SHAME ALPHYS ISN'T HERE TO SEE THIS.{^30}{%}"
 msgstr ""
-"<32>{*}{#x1}* ALPHYS没能亲眼看到\n"
-"  可真遗憾。{^30}{%}"
+"<32>{*}{#x1}* 真是太遗憾了！\n"
+"* 这么棒的演出，\n"
+"  ALPHYS居然无福消受啊！{^30}{%}"
 
 msgid "<32>{*}{#x2}* SHE WOULD'VE LOVED IT.{^30}{%}"
-msgstr "<32>{*}{#x2}* 她会喜欢的。{^30}{%}"
+msgstr ""
+"<32>{*}{#x2}* 她要是在的话，\n"
+"  肯定非常喜欢。{^30}{%}"
 
 msgid "Oh |my |friends..."
 msgstr ""
@@ -5650,7 +5655,7 @@ msgid "Oh |how |sad..."
 msgstr ""
 
 msgid "Oh |my |love..."
-msgstr ""
+msgstr "爱|人|啊..."
 
 msgid "Time's |run|ning |thin..."
 msgstr ""
@@ -5659,7 +5664,7 @@ msgid "It |is |to |see..."
 msgstr ""
 
 msgid "Please |run |a|way..."
-msgstr ""
+msgstr "请|你|速|离..."
 
 msgid "Soon |you'll |wish..."
 msgstr ""
@@ -5668,7 +5673,7 @@ msgid "Some |one |waste... "
 msgstr ""
 
 msgid "Mon|ster |king..."
-msgstr ""
+msgstr "怪|物|王..."
 
 msgid "You |ha|dn't |sinned..."
 msgstr ""
@@ -5677,7 +5682,7 @@ msgid "Their |time |on |me..."
 msgstr ""
 
 msgid "For|bids |your |stay..."
-msgstr ""
+msgstr "要|把|你|挡..."
 
 msgid "<25>{*}{#p/alphys}{#g/alphysInquisitive}* Huh?{^40}{%}"
 msgstr ""
@@ -5694,7 +5699,7 @@ msgid "I'll |ad|mit..."
 msgstr ""
 
 msgid "Hu|mans |must..."
-msgstr ""
+msgstr "人|类|都..."
 
 msgid "I |kill |you |dead..."
 msgstr ""
@@ -5703,7 +5708,7 @@ msgid "I |was |in|trigued..."
 msgstr ""
 
 msgid "Live |far |a|part..."
-msgstr ""
+msgstr "应|住|远|方..."
 
 msgid "Let's |re|hearse..."
 msgstr ""
@@ -5712,7 +5717,7 @@ msgid "But |you're |just..."
 msgstr ""
 
 msgid "E|ven |if..."
-msgstr ""
+msgstr "即|使|将..."
 
 msgid "The |life |you've |led..."
 msgstr ""
@@ -5721,7 +5726,7 @@ msgid "Not |in |my |league..."
 msgstr ""
 
 msgid "It |breaks |my |heart..."
-msgstr ""
+msgstr "我|心|给|伤..."
 
 msgid "Born |a |prince..."
 msgstr ""
@@ -5730,7 +5735,7 @@ msgid "You |should |find..."
 msgstr ""
 
 msgid "They'll |cast |you..."
-msgstr ""
+msgstr "你|会|被..."
 
 msgid "<25>{*}{#p/alphys}{#g/alphysGarboCenter}* Jeez.{^40}{%}"
 msgstr ""
@@ -5745,7 +5750,7 @@ msgid "Some|one |more |kind..."
 msgstr ""
 
 msgid "Out |in|to |space..."
-msgstr ""
+msgstr "太|空|流|放..."
 
 msgid "That |you'd |see..."
 msgstr ""
@@ -5757,6 +5762,8 @@ msgid ""
 "I|t'll |suck...|\n"
 "(quite |literally)"
 msgstr ""
+"那|太|糟...|\n"
+"（确实|啊）"
 
 msgid "Our |king|dom |free..."
 msgstr ""
@@ -5770,6 +5777,8 @@ msgid ""
 "And |then |you'll\n"
 "|die |a |lot."
 msgstr ""
+"你|定|会\n"
+"|死}翘|翘。"
 
 msgid ""
 "<25>{*}{#p/alphys}{#g/alphysGarbo}* Oh, so this is where it's going.{^40}{%}"
@@ -5779,7 +5788,7 @@ msgid "Then |one |day..."
 msgstr ""
 
 msgid "Real|ly |sad..."
-msgstr ""
+msgstr "悲|戚|戚..."
 
 msgid "You |lost |your |way..."
 msgstr ""
@@ -6441,96 +6450,95 @@ msgid "<32>* Call out for me like you did before, okay?"
 msgstr ""
 
 msgid "<25>{#p/asriel2}{#f/8}* Hello?"
-msgstr ""
+msgstr "<25>{#p/asriel2}{#f/8}* 有人吗？"
 
 msgid "<25>{#p/asriel2}{#f/8}* Here we go."
-msgstr ""
+msgstr "<25>{#p/asriel2}{#f/8}* 出来吧。"
 
 msgid "<32>{#p/mettaton}* HELLO, DARLING."
-msgstr ""
+msgstr "<32>{#p/mettaton}* 两位亲，你们好。"
 
 msgid "<32>{#p/mettaton}* HERE WE GO INDEED, DARLING!"
-msgstr ""
+msgstr "<32>{#p/mettaton}* 那我就出来了哦，亲！"
 
 msgid "<32>{#p/mettaton}* WHY HELLO!"
-msgstr ""
+msgstr "<32>{#p/mettaton}* 笑一个嘛！"
 
 msgid "<32>* WHY DON'T YOU TWO COME INTO THE LIMELIGHT?"
-msgstr "<32>* 为何不来这聚光灯下呢？"
+msgstr "<32>* 来，快到聚光灯下。"
 
 msgid "<32>{#p/mettaton}* THAT'S BETTER..."
 msgstr "<32>{#p/mettaton}* 好多了..."
 
 msgid "<32>{#p/mettaton}* NOW, ALLOW ME TO SING YOU TWO A LITTLE SONG."
-msgstr "<32>{#p/mettaton}* 我给你们唱首小曲吧。"
+msgstr "<32>{#p/mettaton}* 就让我送你们一支小曲吧。"
 
 msgid ""
 "<25>{*}{#p/asriel2}{#f/10}* So tell me, what's this little song "
 "about?{^30}{%}"
 msgstr ""
 "<25>{*}{#p/asriel2}{#f/10}* 跟我说说，\n"
-"  你打算唱啥呢？{^30}{%}"
+"  你要唱啥呢？{^30}{%}"
 
 msgid "<32>{*}{#p/mettaton}{#x1}* OH, ASRIEL...{^30}{%}"
 msgstr "<32>{*}{#p/mettaton}{#x1}* ASRIEL啊...{^30}{%}"
 
 msgid "<32>{*}{#x2}* HAVEN'T YOU HEARD OF A THING CALLED \"SPOILERS?\"{^30}{%}"
 msgstr ""
-"<32>{*}{#x2}* 难道你不知道\n"
-"  这叫“剧透”吗？{^30}{%}"
+"<32>{*}{#x2}* 我要是说了，\n"
+"  不就“剧透”了吗？{^30}{%}"
 
 msgid "<25>{*}{#p/asriel2}{#f/6}* Figures.{^30}{%}"
-msgstr "<25>{*}{#p/asriel2}{#f/6}* 也是意料之中了。{^30}{%}"
+msgstr "<25>{*}{#p/asriel2}{#f/6}* 猜到了。{^30}{%}"
 
 msgid ""
 "<25>{*}{#p/asriel2}{#f/7}* I already know this show's just about me.{^30}{%}"
-msgstr ""
-"<25>{*}{#p/asriel2}{#f/7}* 我已经知道\n"
-"  你打算唱我了。{^30}{%}"
+msgstr "<25>{*}{#p/asriel2}{#f/7}* 你要唱我，早知道了。{^30}{%}"
 
 msgid "<32>{*}{#p/mettaton}{#x1}* OH, DO YOU NOW?{^30}{%}"
 msgstr "<32>{*}{#p/mettaton}{#x1}* 哦，你知道了啊。{^30}{%}"
 
 msgid ""
 "<32>{*}{#x2}* WELL, I'M AFRAID THAT WON'T STOP ME FROM DOING IT.{^30}{%}"
-msgstr "<32>{*}{#x2}* 没事，这不影响我接着唱。{^30}{%}"
+msgstr ""
+"<32>{*}{#x2}* 你知道，关我什么事？\n"
+"* 以为这样，我就不唱了？{^30}{%}"
 
 msgid "<25>{*}{#p/asriel2}{#f/8}* ...{^30}{%}"
 msgstr "<25>{*}{#p/asriel2}{#f/8}* ...{^30}{%}"
 
 msgid "<32>{#p/mettaton}* WELL, THAT'S ALL."
-msgstr "<32>{#p/mettaton}* 就这样，我唱完了。"
+msgstr "<32>{#p/mettaton}* 好，我唱完了。"
 
 msgid "<32>{#x1}* OH, AND, I FORGOT TO MENTION THAT I'M NOT REALLY HERE."
 msgstr ""
-"<32>{#x1}* 哦，忘了说了，\n"
-"  我本人不在这。"
+"<32>{#x1}* 哦，忘了告诉你，\n"
+"  我本人不在这。\n"
+"* 你看到的，就是个空壳。"
 
 msgid "<32>* MY CONTROL CHIP IS ALREADY INSTALLED IN THE NEW BODY."
 msgstr ""
-"<32>* 我的控制芯片\n"
-"  已经插到新机体上了。"
+"<32>* 我的主控芯片\n"
+"  早就安装到新身体上了。"
 
 msgid "<25>{#p/asriel2}{#f/10}* ... a new body?"
-msgstr "<25>{#p/asriel2}{#f/10}* ...新机体？"
+msgstr "<25>{#p/asriel2}{#f/10}* ...新身体？"
 
 msgid "<32>{#p/mettaton}* OH, YOU WANT TO SEE IT?"
-msgstr "<32>{#p/mettaton}* 怎么，想观摩观摩？"
+msgstr "<32>{#p/mettaton}* 怎么，想看？"
 
 msgid ""
 "<32>* WELL.\n"
 "* YOU WON'T HAVE TO WAIT MUCH LONGER."
-msgstr ""
-"<32>* 别急嘛。\n"
-"* 我不会让你等太久的。"
+msgstr "<32>* 别着急，一会你们就能看到了。"
 
 msgid "<32>{#p/mettaton}* SEE YOU SOON..."
-msgstr "<32>{#p/mettaton}* 待会见..."
+msgstr "<32>{#p/mettaton}* 拜拜咯..."
 
 msgid ""
 "<25>{#p/asriel2}{#f/8}* Something tells me this won't be as easy as we'd "
 "hoped."
-msgstr "<25>{#p/asriel2}{#f/8}* 看来事情不简单，真失望。"
+msgstr "<25>{#p/asriel2}{#f/8}* 看来事情不简单。"
 
 msgid "<25>{*}{#p/asriel2}{#f/13}* What are you- {%}"
 msgstr "<25>{*}{#p/asriel2}{#f/13}* 你说什- {%}"
