@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-21 10:25+0000\n"
-"PO-Revision-Date: 2024-10-01 13:29+0000\n"
-"Last-Translator: Holaamingo <1368779090@qq.com>\n"
+"PO-Revision-Date: 2024-10-01 14:13+0000\n"
+"Last-Translator: WS-3917 <ws3917@outlook.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://ws3917.site/projects/"
 "project-spacetime/4-aerialis/zh_Hans/>\n"
 "Language: zh_CN\n"
@@ -5649,7 +5649,7 @@ msgstr ""
 "  肯定非常喜欢。{^30}{%}"
 
 msgid "Oh |my |friends..."
-msgstr ""
+msgstr "朋|友|啊..."
 
 msgid "Oh |how |sad..."
 msgstr ""
@@ -5658,7 +5658,7 @@ msgid "Oh |my |love..."
 msgstr "爱|人|啊..."
 
 msgid "Time's |run|ning |thin..."
-msgstr ""
+msgstr "光|阴|将|尽..."
 
 msgid "It |is |to |see..."
 msgstr ""
@@ -5667,7 +5667,7 @@ msgid "Please |run |a|way..."
 msgstr "请|你|速|离..."
 
 msgid "Soon |you'll |wish..."
-msgstr ""
+msgstr "终|有|悔..."
 
 msgid "Some |one |waste... "
 msgstr ""
@@ -5676,7 +5676,7 @@ msgid "Mon|ster |king..."
 msgstr "怪|物|王..."
 
 msgid "You |ha|dn't |sinned..."
-msgstr ""
+msgstr "过|往|深|罪..."
 
 msgid "Their |time |on |me..."
 msgstr ""
@@ -5693,7 +5693,7 @@ msgid ""
 msgstr "<25>{*}{#p/alphys}{#g/alphysWelp}* 你别说，还挺好听...{^40}{%}"
 
 msgid "But |be|fore..."
-msgstr ""
+msgstr "但|在|此..."
 
 msgid "I'll |ad|mit..."
 msgstr ""
@@ -5702,7 +5702,7 @@ msgid "Hu|mans |must..."
 msgstr "人|类|都..."
 
 msgid "I |kill |you |dead..."
-msgstr ""
+msgstr "我|将|你|灭..."
 
 msgid "I |was |in|trigued..."
 msgstr ""
@@ -5711,7 +5711,7 @@ msgid "Live |far |a|part..."
 msgstr "应|住|远|方..."
 
 msgid "Let's |re|hearse..."
-msgstr ""
+msgstr "且|回|首..."
 
 msgid "But |you're |just..."
 msgstr ""
@@ -5720,7 +5720,7 @@ msgid "E|ven |if..."
 msgstr "即|使|将..."
 
 msgid "The |life |you've |led..."
-msgstr ""
+msgstr "过|往|一|切..."
 
 msgid "Not |in |my |league..."
 msgstr ""
@@ -5729,7 +5729,7 @@ msgid "It |breaks |my |heart..."
 msgstr "我|心|给|伤..."
 
 msgid "Born |a |prince..."
-msgstr ""
+msgstr "生|为|王..."
 
 msgid "You |should |find..."
 msgstr ""
@@ -5744,7 +5744,7 @@ msgid "<25>{*}{#p/alphys}{#g/alphysCutscene1}* The sakura leaves...!{^40}{%}"
 msgstr "<25>{*}{#p/alphys}{#g/alphysCutscene1}* 是樱花花瓣！{^40}{%}"
 
 msgid "We |were |con|vinced..."
-msgstr ""
+msgstr "众|人|期|望..."
 
 msgid "Some|one |more |kind..."
 msgstr ""
@@ -5753,7 +5753,7 @@ msgid "Out |in|to |space..."
 msgstr "太|空|流|放..."
 
 msgid "That |you'd |see..."
-msgstr ""
+msgstr "你|能|将..."
 
 msgid "At |least |then..."
 msgstr ""
@@ -5766,7 +5766,7 @@ msgstr ""
 "（确实|啊）"
 
 msgid "Our |king|dom |free..."
-msgstr ""
+msgstr "王|国|解|放..."
 
 msgid ""
 "You |woul|dn't\n"
@@ -5785,19 +5785,19 @@ msgid ""
 msgstr "<25>{*}{#p/alphys}{#g/alphysGarbo}* 哦，原来如此。{^40}{%}"
 
 msgid "Then |one |day..."
-msgstr ""
+msgstr "奈|何|啊..."
 
 msgid "Real|ly |sad..."
 msgstr "悲|戚|戚..."
 
 msgid "You |lost |your |way..."
-msgstr ""
+msgstr "误|入|歧|途..."
 
 msgid "You're |gon|na |die..."
 msgstr "你|没|命|了..."
 
 msgid "Now |my |friends... "
-msgstr ""
+msgstr "只|能|让... "
 
 msgid "Cry |cry |cry..."
 msgstr "哭|哭|哭..."
@@ -5809,6 +5809,8 @@ msgid ""
 "Let's |bring |this\n"
 "|to |an |end."
 msgstr ""
+"汝|等\n"
+"|归|于|尘|土。"
 
 msgid ""
 "That's |what |you\n"
@@ -5912,23 +5914,28 @@ msgstr ""
 "  我还得准备一会。"
 
 msgid "<32>{#x3}* SOON, DARLING..."
-msgstr "<32>{#x3}* 很快，你就会知道..."
+msgstr "<32>{#x3}* 很快，你就知道..."
 
 msgid "<32>{*}* SOON, I'LL MAKE YOU WISH YOU'D NEVER MET ME.{^30}{#x4}{%}"
 msgstr ""
-"<32>{*}* 很快，我就会让你希望\n"
-"  从未遇见过我。{^30}{#x4}{%}"
+"<32>{*}* 遇到我，\n"
+"  你就倒了八辈子血霉了，亲。{^30}{#x4}{%}"
 
 msgid ""
 "<32>{#x1}* THERE'S SOMETHING MUCH, -MUCH- MORE EXCITING IN STORE COMING VERY"
 " SOON."
 msgstr ""
+"<32>{#x1}* 很快，你将见证一场\n"
+"  超——震撼的演出！"
 
 msgid "<32>{#x3}* SO, UNTIL THE NEXT AND FINAL EPISODE..."
 msgstr ""
+"<32>{#x3}* 所以...\n"
+"* 请你整装待发，保持形象，\n"
+"  准备迎接最终的..."
 
 msgid "<32>{*}* STAY FABULOUS!{^30}{#x4}{%}"
-msgstr ""
+msgstr "<32>{*}* 压轴好戏！{^30}{#x4}{%}"
 
 msgid ""
 "<32>{#p/mettaton}{#e/mettaton/0}* OH... RIGHT.\n"
