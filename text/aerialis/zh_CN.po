@@ -4,7 +4,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-21 10:25+0000\n"
 "PO-Revision-Date: 2024-10-01 05:20+0000\n"
-"Last-Translator: errosia <ericyan2008@foxmail.com>\n"
+"Last-Translator: MurderSans_MDR <z127568254@163.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://ws3917.site/projects/"
 "project-spacetime/4-aerialis/zh_Hans/>\n"
 "Language: zh_CN\n"
@@ -21684,10 +21684,12 @@ msgid "it's better than nothing."
 msgstr "比不说好。"
 
 msgid "that was close"
-msgstr ""
+msgstr "好险"
 
 msgid "yeah... guess i shouldn't have doubted my bro, heh."
 msgstr ""
+"嗯...\n"
+"不过我的兄弟果然是最棒的，嘿嘿。"
 
 msgid "yeah..."
 msgstr ""
@@ -21774,16 +21776,16 @@ msgid "thanks"
 msgstr "谢了"
 
 msgid "sans people in the foundry are in serious danger"
-msgstr ""
+msgstr "sans 铸厂民众有难了"
 
 msgid "its the human... even the elite squad cant stop it"
-msgstr ""
+msgstr "那人在惹事... 特战队都没拦住"
 
 msgid "its the human... theyre going after the residents down there"
-msgstr ""
+msgstr "他们... 在遭那人追杀"
 
 msgid "its the human... theyre killing everybody down there"
-msgstr ""
+msgstr "见过那人的... 全死了"
 
 msgid ""
 "well, it was nice while it lasted.\n"
