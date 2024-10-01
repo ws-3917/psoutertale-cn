@@ -4,7 +4,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-21 10:25+0000\n"
 "PO-Revision-Date: 2024-10-01 09:29+0000\n"
-"Last-Translator: MurderSans_MDR <z127568254@163.com>\n"
+"Last-Translator: WS-3917 <ws3917@outlook.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://ws3917.site/projects/"
 "project-spacetime/4-aerialis/zh_Hans/>\n"
 "Language: zh_CN\n"
@@ -13585,16 +13585,16 @@ msgid "<32>{#p/asriel2}* These crazies..."
 msgstr "<32>{#p/asriel2}* 一群疯子...ゑ"
 
 msgid "<32>{#p/story}* It's a space-faring nightmare!"
-msgstr ""
+msgstr "<32>{#p/story}* 太空配星舰，噩梦滚滚来！"
 
 msgid "<32>{#p/asriel2}* One left."
 msgstr "<32>{#p/asriel2}* 只剩一个了。"
 
 msgid "<32>{#p/story}* Only Astro Serf remains."
-msgstr ""
+msgstr "<32>{#p/story}* 这里只剩Astro Serf了。"
 
 msgid "<32>{#p/story}* Only Tsunderidex remains."
-msgstr ""
+msgstr "<32>{#p/story}* 这里只剩Tsunderidex了。"
 
 msgid "<32>{#p/asriel2}* The hot-headed army arrives."
 msgstr ""
