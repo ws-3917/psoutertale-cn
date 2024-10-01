@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-21 10:25+0000\n"
-"PO-Revision-Date: 2024-09-28 08:29+0000\n"
+"PO-Revision-Date: 2024-10-01 05:20+0000\n"
 "Last-Translator: Maxim Aksenov <me6696154@gmail.com>\n"
 "Language-Team: Russian <https://ws3917.site/projects/project-spacetime/"
 "3-foundry/ru/>\n"
@@ -6802,7 +6802,7 @@ msgstr ""
 "* уходи отсюда."
 
 msgid "<25>{#f/3}* papyrus's attacks are anything BUT easy."
-msgstr "<25>{#f/3}* Нападение папируса отнюдь не является легким."
+msgstr "<25>{#f/3}* атаки Папируса какие угодно, НО лёгкие."
 
 msgid "<25>{#f/0}* you'd be surprised how long he spent working on 'em."
 msgstr "<25>{#f/0}* Ты удивишься, как долго он над ними работал."
@@ -6822,23 +6822,22 @@ msgid "<25>{#p/sans}{#f/0}* tell me about it."
 msgstr "<25>{#p/sans}{#f/0}* расскажи мне об этом."
 
 msgid "<25>{#f/3}* once, after a particularly long day of attack revisions..."
-msgstr "<25>{#f/3}* Один раз, после особенно длинного дня атаки изменен..."
+msgstr "<25>{#f/3}* однажды, после особенно долгого дня пересмотра атак..."
 
 msgid ""
 "<25>{#f/0}* papyrus revealed all that he'd been working on up to that point."
-msgstr "<25>{#f/0}* Папирус раскрывает все, что он сделал до сих пор."
+msgstr "<25>{#f/0}* Папирус показал всё, над чем он работал до этого момента."
 
 msgid "<25>{#f/0}* i gotta say, i was impressed by what i saw."
-msgstr ""
-"<25>{#f/0}* Я должен сказать, что то, что я видел, произвело на меня "
-"глубокое впечатление."
+msgstr "<25>{#f/0}* Должен сказать, я был впечатлён увиденным."
 
 msgid "<25>{#f/2}* maybe one day, i'll even design an attack of my own."
 msgstr ""
 "<25>{#f/2}* Возможно, однажды я даже спроектирую свою собственную атаку."
 
+#, fuzzy
 msgid "<25>{#p/sans}* here comes the grub."
-msgstr "<25>{#p/sans}* Приехали черви."
+msgstr "<25>{#p/sans}* А вот и еда."
 
 msgid "<25>{#p/sans}* regardless, you have to agree he goes above and beyond."
 msgstr ""
@@ -6852,31 +6851,36 @@ msgstr ""
 
 msgid ""
 "<25>{#f/3}* not too long ago, papyrus visited the captain of the guard..."
-msgstr "<25>{#f/3}* Не так давно папирус навестил начальника охраны..."
+msgstr "<25>{#f/3}* недавно, Папирус посетил капитана гвардии..."
 
 msgid "<25>{#f/0}* and begged her to let him be in it."
-msgstr "<25>{#f/0}* и умолял ее впустить его."
+msgstr "<25>{#f/0}* и умолял её позволить ему быть в ней."
 
 msgid ""
 "<25>{#f/3}* well, she shut the door on him.\n"
 "* classic undyne move."
-msgstr "* Классическое действие undyne."
+msgstr ""
+"<25>{#f/3}* ну, она закрыла перед ним дверь.\n"
+"* Классический ход Андайн."
 
+#, fuzzy
 msgid ""
 "<25>{#f/0}* but when papyrus came back with his designs, a few hours "
 "later..."
 msgstr ""
-"<25>{#f/0}* Но через несколько часов, когда папирус вернулся со своим "
+"<25>{#f/0}* * но когда через несколько часов Папирус вернулся со своим "
 "дизайном..."
 
 msgid "<25>{#f/0}* undyne was impressed, and decided she'd give him..."
-msgstr "<25>{#f/0}* undyne был впечатлен и решил дать ему..."
+msgstr "<25>{#f/0}* Андайн была впечатлена и решила подарить ему..."
 
+#, fuzzy
 msgid "<25>{#f/2}* ... well, let's just call it \"warrior training.\""
-msgstr "<25>{#f/2}* ... Ладно, назовем это \"Тренировка воинов\"."
+msgstr "<25>{#f/2}* ... ну, давай назовём это просто \"воинской тренировкой\"."
 
+#, fuzzy
 msgid "<25>{#p/sans}* oh yeah, there's something i've been meaning to ask ya."
-msgstr "<25>{#p/sans}* О, да, я всегда хотел спросить тебя кое о чем."
+msgstr "<25>{#p/sans}* О да, я хотел спросить тебя кое о чём."
 
 msgid ""
 "<25>{#p/sans}{#f/3}* have you ever heard of a {@fill=#ff0}talking "
