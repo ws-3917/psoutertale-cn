@@ -1,35 +1,54 @@
-#
+#, fuzzy
 msgid ""
 msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-10-01 14:52+0000\n"
+"PO-Revision-Date: 2024-10-01 14:52+0000\n"
+"Last-Translator: Chistosito <souzadecarvalhofabio1@gmail.com>\n"
+"Language-Team: Spanish <https://ws3917.site/projects/project-spacetime/"
+"2-starton/es/>\n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: ENCODING\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.7.2\n"
+
+#
 
 msgid ""
 "<32>{#p/basic}* A standard-issue CITADEL long- range telescope, circa 261X."
 msgstr ""
 
 msgid "* (Use the telescope?)"
-msgstr ""
+msgstr "* (¿Usar el telescopio?)"
 
 msgid "Yes"
-msgstr ""
+msgstr "Sí"
 
 msgid "No"
-msgstr ""
+msgstr "No"
 
 msgid "<25>{#p/kidd}{#f/2}* You do stargazing??"
 msgstr ""
 
 msgid "<25>{#p/kidd}{#f/1}* Yo... I bet you just saw something really cool."
-msgstr ""
+msgstr "<25>{#p/kidd}{#f/1}* Oye... apuesto a que has visto algo muy guay."
 
 msgid ""
 "<25>{#f/7}* The last time I looked in a telescope, I saw a freaking "
 "SUPERNOVA!"
 msgstr ""
+"<25>{#f/7}* La última vez que miré en un telescopio, ¡Vi una maldita "
+"SUPERNOVA!"
 
 msgid ""
 "<25>{#p/kidd}{#f/3}* Here.\n"
 "* Take this."
 msgstr ""
+"<25>{#p/kidd}{#f/3}* Aquí.\n"
+"* Toma esto."
 
 msgid ""
 "<32>{#s/equip}{#p/human}* (The Premium Membership Voucher was added to your "
@@ -40,28 +59,30 @@ msgid ""
 "<25>{#p/kidd}{#f/7}* Now you can use ANY telescope, even the \"premium\" "
 "ones!"
 msgstr ""
+"<25>{#p/kidd}{#f/7}* ¡Ahora puedes usar CUALQUIER telescopio, hasta los "
+"\"premium\"!"
 
 msgid "<25>{#f/1}* That short skeleton gave me a bunch of these earlier."
-msgstr ""
+msgstr "<25>{#f/1}* Ese esqueleto bajito me dio un montón de esos antes."
 
 msgid "<25>{#f/2}* He also gave me some digital thing with a lot of money..."
-msgstr ""
+msgstr "<25>{#f/2}* También me dio una cosa digital con mucho dinero..."
 
 msgid "<25>{#f/1}* I guess he really likes me, haha."
-msgstr ""
+msgstr "<25>{#f/1}* Creo que le gusto, jaja."
 
 msgid ""
 "<25>{#p/kidd}{#f/3}* Anyway, I kinda just wanted to give you the voucher."
 msgstr ""
 
 msgid "<25>{#f/1}* I hope you see something cool with it, though!"
-msgstr ""
+msgstr "<25>{#f/1}* ¡Aunque espero que veas algo guay con ella!"
 
 msgid "<25>{#p/kidd}{#f/1}* I'll be in town!"
-msgstr ""
+msgstr "<25>{#p/kidd}{#f/1}* ¡Estaré en el pueblo!"
 
 msgid "<25>{#p/asriel1}{#f/17}* See anything you like?"
-msgstr ""
+msgstr "<25>{#p/asriel1}{#f/17}* ¿Ves algo que te guste?"
 
 msgid ""
 "<32>{#p/basic}* Stargazing in space...\n"
@@ -69,7 +90,7 @@ msgid ""
 msgstr ""
 
 msgid "<32>{#p/basic}* ..."
-msgstr ""
+msgstr "<32>{#p/basic}* ..."
 
 msgid "<32>* Asriel and I had a telescope just like this."
 msgstr ""
@@ -4894,8 +4915,6 @@ msgstr ""
 msgid "SAVE YOURSELVES..."
 msgstr ""
 
-msgid ""
-msgstr ""
 
 msgid "FAILED TO CONNECT..."
 msgstr ""
