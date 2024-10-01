@@ -4,7 +4,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-21 10:25+0000\n"
 "PO-Revision-Date: 2024-10-01 09:48+0000\n"
-"Last-Translator: WS-3917 <ws3917@outlook.com>\n"
+"Last-Translator: MurderSans_MDR <z127568254@163.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://ws3917.site/projects/"
 "project-spacetime/4-aerialis/zh_Hans/>\n"
 "Language: zh_CN\n"
@@ -13575,10 +13575,10 @@ msgid "<32>{#p/alphys}* Not these guys..."
 msgstr "<32>{#p/alphys}* 怎么是他们啊...ゑ"
 
 msgid "<32>{#p/story}* A smiling eye steps forth!"
-msgstr "<32>{#p/story}* 迎面走来的。是一只笑眼！"
+msgstr "<32>{#p/story}* 迎面走来的，是一只笑眼！"
 
 msgid "<32>{#p/story}* The smiling eyes step forth!"
-msgstr "<32>{#p/story}* 迎面走来的。是两双笑眼！"
+msgstr "<32>{#p/story}* 迎面走来的，是两双笑眼！"
 
 msgid "<32>{#p/asriel2}* RG 01 and 02."
 msgstr "<32>{#p/asriel2}* 一号守卫，二号守卫。ゑ"
@@ -13590,25 +13590,25 @@ msgid "<32>{#p/asriel2}* These crazies..."
 msgstr "<32>{#p/asriel2}* 一群疯子...ゑ"
 
 msgid "<32>{#p/story}* It's a space-faring nightmare!"
-msgstr "<32>{#p/story}* 太空配星舰，噩梦滚滚来！"
+msgstr "<32>{#p/story}* 太空配星舰，噩梦滚滚来！ゑ"
 
 msgid "<32>{#p/asriel2}* One left."
-msgstr "<32>{#p/asriel2}* 只剩一个了。"
+msgstr "<32>{#p/asriel2}* 只剩一个了。ゑ"
 
 msgid "<32>{#p/story}* Only Astro Serf remains."
-msgstr "<32>{#p/story}* 这里只剩Astro Serf了。"
+msgstr "<32>{#p/story}* 这里只剩Astro Serf了。ゑ"
 
 msgid "<32>{#p/story}* Only Tsunderidex remains."
-msgstr "<32>{#p/story}* 这里只剩Tsunderidex了。"
+msgstr "<32>{#p/story}* 这里只剩Tsunderidex了。ゑ"
 
 msgid "<32>{#p/asriel2}* The hot-headed army arrives."
 msgstr "<32>{#p/asriel2}* “爱上火”两人组来袭。"
 
 msgid "<32>{#p/story}* It's a fiery cavalry!"
-msgstr ""
+msgstr "<32>{#p/story}* 烈火骑兵来袭！"
 
 msgid "<32>{#p/story}* Only Hotwire remains."
-msgstr "<32>{#p/story}* 只剩Hotwire了。"
+msgstr "<32>{#p/story}* 这里只剩Hotwire了。ゑ"
 
 msgid "<32>{#p/story}* Eyewalker Prime takes charge of this battle!"
 msgstr "<32>{#p/story}* Eyewalker Prime掌控了战局！"
