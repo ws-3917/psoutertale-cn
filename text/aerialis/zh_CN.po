@@ -4814,10 +4814,10 @@ msgstr "<32>* 你们又上电视啦！ゑ"
 msgid "<32>* HOW WILL YOU TWO ESCAPE THE ROOM THIS TIME?"
 msgstr ""
 "<32>* 这次，两人又会上演什么\n"
-"  “死里逃生”的戏码呢？"
+"  “死里逃生”的戏码呢？ゑ"
 
 msgid "<32>* ONLY -TIME- WILL TELL...{%200}"
-msgstr "<32>* 就让【时间】告诉我们答案吧...{%200}"
+msgstr "<32>* 就让【时间】告诉我们答案吧...ゑ{%200}"
 
 msgid "<25>{#p/asriel2}{#f/10}* Hmm...{%100}"
 msgstr "<25>{#p/asriel2}{#f/10}* 嗯...{%100}"
