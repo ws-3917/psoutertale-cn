@@ -1,6 +1,21 @@
-#
+#, fuzzy
 msgid ""
 msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-10-02 03:29+0000\n"
+"PO-Revision-Date: 2024-10-02 03:29+0000\n"
+"Last-Translator: MurderSans_MDR <z127568254@163.com>\n"
+"Language-Team: Chinese (Simplified Han script) <https://ws3917.site/projects/"
+"project-spacetime/3-foundry/zh_Hans/>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: ENCODING\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.7.2\n"
+
+#
 
 msgid "<32>{#p/basic}* ..."
 msgstr "<32>{#p/basic}* ..."
@@ -16625,7 +16640,8 @@ msgstr "<08>{#e/kidd/6}他们... 他...ゑ"
 
 msgid "<08>{#e/kidd/7}He did some- thing to me..."
 msgstr ""
-"<08>{#e/kidd/7}他对我的身体\n"
+"<08>{#e/kidd/7}他对\n"
+"我的身体\n"
 "动了手脚...ゑ"
 
 msgid "<20>{#p/undyne}{#e/undyne/2}Your eye..."
