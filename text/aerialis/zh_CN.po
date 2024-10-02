@@ -1,22 +1,20 @@
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-02 05:01+0000\n"
-"PO-Revision-Date: 2024-10-02 05:01+0000\n"
+"PO-Revision-Date: 2024-10-02 05:11+0000\n"
 "Last-Translator: WS-3917 <ws3917@outlook.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://ws3917.site/projects/"
 "project-spacetime/4-aerialis/zh_Hans/>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: ENCODING\n"
+"Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 5.7.2\n"
 
 #
-
 msgid "<32>{#p/human}* (It appears the terminal is beyond your access level.)"
 msgstr ""
 
@@ -8134,7 +8132,6 @@ msgstr "<25>{#p/asriel2}{#f/8}* 只能换条路走了。"
 msgid "<32>{#p/human}* (Where would you like to go?)"
 msgstr "<32>{#p/human}* （你想去哪里？）"
 
-
 msgid "Floor L1"
 msgstr "左一层"
 
@@ -12865,7 +12862,7 @@ msgid ""
 "<32>{#p/basic}* Hey there...\n"
 "* Noticed you were here..."
 msgstr ""
-"<32>{#p/basic}* 你好哇...\n"
+"<32>{#p/basic}* 欢迎呀...\n"
 "* 看到你啦..."
 
 msgid ""
@@ -12873,14 +12870,19 @@ msgid ""
 "* Onionsan, y'hear!"
 msgstr ""
 "<32>{#p/basic}* 我是Onionsan！\n"
-"* Onionsan，你听到没！"
+"* 听到没，Onionsan！"
 
 msgid "<32>{#p/basic}* You two, don't look like you're up to any good..."
-msgstr "<32>{#p/basic}* 你俩，看着像坏事做尽了..."
+msgstr ""
+"<32>{#p/basic}* 你俩...\n"
+"  看着不像是好人..."
 
 msgid ""
 "<32>{#p/basic}* You, look like you've traveled a long way to get here..."
 msgstr ""
+"<32>{#p/basic}* 哎呀...\n"
+"  你肯定经历了长途跋涉\n"
+"  才到这里..."
 
 msgid ""
 "<32>{#p/basic}* Good thing, the rec center people will always forgive us!\n"
