@@ -1,6 +1,21 @@
-#
+#, fuzzy
 msgid ""
 msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-10-02 05:01+0000\n"
+"PO-Revision-Date: 2024-10-02 05:01+0000\n"
+"Last-Translator: WS-3917 <ws3917@outlook.com>\n"
+"Language-Team: Chinese (Simplified Han script) <https://ws3917.site/projects/"
+"project-spacetime/4-aerialis/zh_Hans/>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: ENCODING\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.7.2\n"
+
+#
 
 msgid "<32>{#p/human}* (It appears the terminal is beyond your access level.)"
 msgstr ""
@@ -6549,7 +6564,7 @@ msgid ""
 msgstr "<25>{#p/asriel2}{#f/8}* 看来事情不简单。ゑ"
 
 msgid "<25>{*}{#p/asriel2}{#f/13}* What are you- {%}"
-msgstr "<25>{*}{#p/asriel2}{#f/13}* 你说什-ゑ {%}"
+msgstr "<25>{*}{#p/asriel2}{#f/13}* 你说什- ゑ {%}"
 
 msgid ""
 "<25>{*}{#p/asriel2}{#f/15}* $(name).\n"
@@ -8119,8 +8134,6 @@ msgstr "<25>{#p/asriel2}{#f/8}* 只能换条路走了。"
 msgid "<32>{#p/human}* (Where would you like to go?)"
 msgstr "<32>{#p/human}* （你想去哪里？）"
 
-msgid ""
-msgstr ""
 
 msgid "Floor L1"
 msgstr "左一层"
@@ -8357,7 +8370,7 @@ msgid "{*}{#d.sys}{%}"
 msgstr "{*}{#d.sys}{%}"
 
 msgid "<32>{#p/basic}* It's a wish flower."
-msgstr "<32>{#p/basic}* 一朵蒲公罂。"
+msgstr "<32>{#p/basic}* 一株蒲公罂。"
 
 msgid "<32>{#p/basic}* Just any old wish flower."
 msgstr "<32>{#p/basic}* 一丛年代久远的蒲公罂而已。"
@@ -9215,7 +9228,7 @@ msgid "<32>{#p/human}* (It appears this game board is entirely empty.)"
 msgstr ""
 
 msgid "<32>{#p/basic}* It's a chess board."
-msgstr "<32>{#p/basic}* 一副棋盘。"
+msgstr "<32>{#p/basic}* 一张棋盘。"
 
 msgid ""
 "<32>{#p/basic}* It's a chess board.\n"
