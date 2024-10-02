@@ -7527,7 +7527,7 @@ export default {
          description: 'For once, it\'s not just \"pleasantly warm.\"',
          name: 'Grillby'
       },
-      drop: [ "<32>{#p/human}* （你把烈焰烤尔比像燃烧瓶一样丢了出去。）" ],
+      drop: [ "<32>{#p/human}* （你把烈焰Grillby像燃烧瓶一样丢了出去。）" ],
       info: () =>
          SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
             ? [ '<32>{#p/human}* （30 HP。）' ]

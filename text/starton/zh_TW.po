@@ -17563,7 +17563,7 @@ msgid "Grillby"
 msgstr "Grillby"
 
 msgid "<32>{#p/human}* (You tossed the Flamin' Grillby like a molotov.)"
-msgstr "<32>{#p/human}* （你把烈焰烤爾比像燃燒瓶一樣丟了出去。）"
+msgstr "<32>{#p/human}* （你把烈焰Grillby像燃燒瓶一樣丟了出去。）"
 
 msgid "<32>{#p/human}* (30 HP.)"
 msgstr "<32>{#p/human}* （30 HP。）"
