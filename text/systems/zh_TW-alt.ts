@@ -746,9 +746,9 @@ export default {
                name: '謎宇人',
                author: 'semi',
                text: {
-                  basic: 'Looking For A\nDictionary',
-                  spare: 'Famous\nMagician',
-                  flirt: 'Found A New Kind\nOf Magic',
+                  basic: '尋找著\n詞典',
+                  spare: '著名\n魔法師',
+                  flirt: '發現了\n新鮮的魔法',
                   bully: ''
                }
             },
@@ -756,9 +756,9 @@ export default {
                name: '特雷莉亞',
                author: 'major_memestar',
                text: {
-                  basic: 'In Search Of\nThe Past',
-                  spare: 'Renowned\nHistorian',
-                  flirt: 'Has A Crush On\nThe Homeworld',
+                  basic: '追尋著\n過去',
+                  spare: '著名\n歷史學家',
+                  flirt: '痴迷於\n故園',
                   bully: ''
                }
             },
@@ -766,10 +766,10 @@ export default {
                name: '終極蛙吉特',
                author: 'PoTheWinterCorder',
                text: {
-                  basic: 'Keeping Its\nWisdom To Itself',
-                  spare: 'Sharing Its\nWisdom Openly',
-                  flirt: 'Using Its Wisdom\nFor Love',
-                  bully: 'Using Its Wisdom\nFor Survival'
+                  basic: '將智慧\n藏在心裡',
+                  spare: '將智慧\n大方分享',
+                  flirt: '將智慧\n用於相愛',
+                  bully: '將智慧\n用於生存'
                }
             },
             whimsalot: {
@@ -786,10 +786,10 @@ export default {
                name: '眼行者',
                author: 'semi',
                text: {
-                  basic: 'Still A\nBig Bully',
-                  spare: 'Domineering\nEye Doctor',
-                  flirt: 'Domineering\nLeather Tailor',
-                  bully: 'Overthrown By\nAn Oculoux'
+                  basic: '仍然是個\n大惡霸',
+                  spare: '盛氣凌人的\n眼科醫生',
+                  flirt: '盛氣凌人的\n皮革裁縫',
+                  bully: '被一隻\n乾瞪眼\n推翻'
                }
             },
             migospel: {

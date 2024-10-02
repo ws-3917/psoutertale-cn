@@ -131,7 +131,7 @@ export default {
       napsta: "…………\n(とめるちからは　ない)",
       torie: 'Well... I suppose that works...',
       toriel: 'ちゃんと　なまえを\nかんがえるのよ。',
-      twink: 'Really...',
+      twink: 'マジで…',
       twinkl: 'あますぎるよ　バカ。',
       twinky: 'あますぎるよ　バカ。',
       walker: '「アイウォーカー」の\nことですか？',
@@ -149,9 +149,9 @@ export default {
       papyru: "オレさまは\nべつに\nいいよッ！",
       san: 'ほーい。',
       sans: 'ダメだぜ。',
-      sdrake: 'A \"stellar\" choice.',
+      sdrake: '「ステラ」な　なまえだな。',
       serf: 'Check out my antenna!',
-      starry: 'A \"stellar\" choice.',
+      starry: '「ステラ」な　なまえだな。',
 
       
       bob: 'A pleasing nomenclature, no?',

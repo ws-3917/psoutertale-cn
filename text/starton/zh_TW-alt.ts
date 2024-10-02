@@ -311,14 +311,14 @@ export default {
          0,
          () =>
             SAVE.data.n.plot === 72
-               ? [ "<32>{#p/basic}* 媽媽說我們很快就要去新的母世界了。", "<32>* ... 母世界是什麼啊？" ]
+               ? [ "<32>{#p/basic}* 媽媽說我們很快就要去新家園了。", "<32>* ... 新家園是什麼啊？" ]
                : [
                     '<32>{#p/basic}* 媽媽說，睡覺可以把你的\n  生命值恢復到{@fill=#ff0}HP上限以上{@fill=#fff}。',
                     "<32>* ...HP上限是什麼啊？"
                  ],
          () =>
             SAVE.data.n.plot === 72
-               ? [ '<32>{#p/basic}* 人類也有母世界嗎？' ]
+               ? [ '<32>{#p/basic}* 人類也有家園嗎？' ]
                : [ '<32>{#p/basic}* 這是母親才有的東西嗎？' ]
       ),
       emptytable1: () =>
@@ -348,26 +348,26 @@ export default {
       bedbook4: () => [ choicer.create('* （讓$(name)給你讀一下嗎？）', '是', '否') ],
       bedbook5: [
          '<32>{#p/basic}* 好，我看看...',
-         '<32>* \"Long ago, two species ruled the solar system: humans and monsters.\"',
-         '<32>* \"At first, the monsters were only visitors, soon to return to their own star system.\"',
-         '<32>* \"But the monsters became fascinated by humanity, and wanted to co-exist with them.\"',
-         '<32>* \"As such, they shared their technology with the humans, and forged an alliance.\"',
-         '<32>* \"Over the next few hundred years, monsters and humans lived in peace and harmony.\"',
-         '<32>* \"One day, the humans began to fear something about the monsters...\"',
-         '<32>* \"A fear that, without skilled leadership, was allowed to spiral out of control.\"',
-         '<32>* \"As time passed, a war broke out between the two species.\"',
-         '<32>* \"Many battles and skirmishes would occur all across the stars...\"',
-         '<32>* \"But the humans, filled with fear and determination, easily took control.\"',
-         '<32>* \"Then, on one fateful day, a massive weapon was fired at the monsters\' homeworld.\"',
-         '<32>* \"After the monsters\' home planet was destroyed, humans declared victory.\"',
-         '<32>* \"A settlement between the two species was signed, and...\"',
-         '<32>* \"The remaining monsters were banished to an abandoned outpost.\"',
-         '<32>* \"Then, the humans gathered seven of their brightest minds.\"',
-         '<32>* \"Together, they formulated a plan, and eventually...\"',
-         '<32>* \"A powerful force field was erected, and the monsters were sealed in.\"',
-         "<32>* Well, that's the story."
+         '<32>* 「很久很久以前，\n   太陽系由兩個種族統治著：\n   人類和怪物。」',
+         '<32>* 「起初，怪物們只是造訪了一下，\n   不久就回到了他們自己的星系。」',
+         '<32>* 「但是怪物們喜歡上了人類，\n   想和他們共同生活。」',
+         '<32>* 「因此，他們和人類分享了他們的科技，\n   並與人類結成了同盟。」',
+         '<32>* 「接下來數百年間，怪物與人類和平共處。」',
+         '<32>* 「有一天，人類開始對怪物的某種東西產生恐懼...」',
+         '<32>* 「一種沒有傑出的領導力\n   就會失控的恐懼。」',
+         '<32>* 「隨著時間的推移，\n   兩個物種之間爆發了戰爭。」',
+         '<32>* 「那時星際間會發生許多戰鬥和衝突。」',
+         '<32>* 「但是人類們，\n   充滿了恐懼與決心的人類們，\n   很容易佔據了上風。」',
+         '<32>* 「然後，\n   在那對未來有著重大影響的一天，\n   一件強大的武器向怪物的家園發射了。」',
+         '<32>* 「在怪物們的母星被摧毀之後，\n   人類獲得了勝利。」',
+         '<32>* 「兩個物種間籤訂了和約，然後...」',
+         '<32>* 「剩下的怪物被驅逐到了一個廢棄的前哨站。」',
+         '<32>* 「接著，人類集結了七位精英。」',
+         '<32>* 「他們一同制定了一個計畫，最後...」',
+         '<32>* 「一個強大的力場被建立了起來，怪物們被困在其中。」',
+         "<32>* 嗯，這就是故事的內容了。"
       ],
-      bedbook6: [ '<32>{#p/basic}* Well, if you ever want me to read it, let me know.' ],
+      bedbook6: [ '<32>{#p/basic}* 好吧，如果你想讓我讀，就告訴我。' ],
       beddoor1: [ "<32>{#p/basic}{#npc/a}* 如果你想訂房間，\n  你得先問我一聲。" ],
       beddoor2: [ "<32>{#p/basic}{#npc/a}* 如果你還想訂房間，\n  你得先問我一聲。" ],
       beddoor3: [ '<32>{#p/basic}{#npc/a}* 抱歉，小傢伙！\n* 這裡已經滿人了！' ],
@@ -7527,7 +7527,7 @@ export default {
          description: 'For once, it\'s not just \"pleasantly warm.\"',
          name: '烤爾比'
       },
-      drop: [ "<32>{#p/human}* (You tossed the Flamin' Grillby like a molotov.)" ],
+      drop: [ "<32>{#p/human}* （你把烈焰烤爾比像燃燒瓶一樣丟了出去。）" ],
       info: () =>
          SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
             ? [ '<32>{#p/human}* （30 HP。）' ]

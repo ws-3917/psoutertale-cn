@@ -3203,7 +3203,7 @@ export default {
                ? [ '<32>{#p/human}* (You note the fairly large size of the dining chair.)' ]
                : SAVE.data.n.state_wastelands_toriel === 2 || world.runaway
                ? [ '<32>{#p/basic}* 大餐椅。' ]
-               : [ "<32>{#p/basic}* Toriwl家有几把餐椅，\n  这把，是王后的餐椅。" ],
+               : [ "<32>{#p/basic}* 托丽尔家有几把餐椅，\n  这把，是王后的餐椅。" ],
          w_tl_bookshelf: pager.create(
             1,
             () =>
@@ -3504,11 +3504,11 @@ export default {
                                   '<32>* “赌注如此之高，\n   冲突可能已经无法避免...”'
                                ]
                              : [
-                                  '<32>{#p/toriel}{#f/21}* \"It has been an interesting day, to say the least.\"',
-                                  '<32>* \"A human arrived...\"',
-                                  '<32>* \"Then, tried to leave...\"',
-                                  '<32>* \"And then, the strangest thing happened.\"',
-                                  '<32>* \"A reminder I have been in need of for some time...\"'
+                                  '<32>{#p/toriel}{#f/21}* “坦率来讲，今天是有趣的一天。”',
+                                  '<32>* “一个人类来到了这里...”',
+                                  '<32>* “接着，试图离开...”',
+                                  '<32>* “然后，最奇怪的事情发生了。”',
+                                  '<32>* “我一直都很需要这句提醒啊...”'
                                ])
                        ]
             )
@@ -4660,98 +4660,98 @@ export default {
 
    c_call_toriel: <Partial<CosmosKeyed<CosmosProvider<string[]>, string>>>{
       w_start: [
-         '<25>{#p/toriel}{#f/0}* Ah, of course.\n* That must be where you crash-landed.',
-         '<25>{#f/0}* The other humans who came here landed there, too.',
-         '<25>{#f/1}* There must be something about the force field...',
-         '<25>{#f/0}* ... which always makes incoming craft fly in on this vector.'
+         '<25>{#p/toriel}{#f/0}* 啊，当然。\n* 那一定是你迫降的地方。',
+         '<25>{#f/0}* 其他来这里的人类\n  也是在那里降落的。',
+         '<25>{#f/0}* 到来的飞船总是沿着\n  这个航线飞进这里...',
+         '<25>{#f/1}* ...这肯定和力场有关系。'
       ],
       w_twinkly: () =>
          SAVE.data.b.toriel_twinkly
             ? [
-                 '<25>{#p/toriel}{#f/1}* Is that where I first found you?',
-                 '<25>{#f/5}* That talking star who tormented you has been a pest for some time.',
-                 '<25>{#f/1}* I have tried to reason with him before, but...',
-                 '<25>{#f/9}* My efforts never truly got anywhere.'
+                 '<25>{#p/toriel}{#f/1}* 那是我找到你的地方吗？',
+                 '<25>{#f/5}* 那个折磨你的\n  会说话的星星，\n  一直是个讨厌鬼。',
+                 '<25>{#f/1}* 我以前试过跟他讲道理，\n  但...',
+                 '<25>{#f/9}* 我的努力从未真正奏效。'
               ]
             : [
-                 '<25>{#p/toriel}{#f/1}* Is that where I first found you?',
-                 '<25>{#f/5}* All alone out there, by yourself...',
-                 '<25>{#f/0}* It is a good thing I was there to bring you in.'
+                 '<25>{#p/toriel}{#f/1}* 那是我找到你的地方吗？',
+                 '<25>{#f/5}* 就你一个人独自在外面...',
+                 '<25>{#f/0}* 幸好当时我在那里，\n  把你给带进来了。'
               ],
       w_entrance: [
-         '<25>{#p/toriel}{#f/1}* The entrance to the Outlands...',
-         '<25>{#f/0}* Indeed, the area before this is not actually part of it.',
-         '<25>{#f/5}* It is... more of an unmarked crash site.',
-         '<25>{#f/1}* After the first human crashed directly INTO the Outlands...',
-         '<25>{#f/0}* A separate platform seemed an obvious addition.'
+         '<25>{#p/toriel}{#f/1}* 外域的入口啊...',
+         '<25>{#f/0}* 在这之前的区域\n  确实不算外域的一部分。',
+         '<25>{#f/5}* 那边... \n  更像是一个无名坠落点。',
+         '<25>{#f/1}* 在第一个人类\n  直接坠入外域之后...',
+         '<25>{#f/0}* 添加一个独立的平台\n  就显得很有必要了。'
       ],
       w_lobby: [
-         '<25>{#p/toriel}{#f/0}* The puzzle in this room works well for demonstrations.',
-         '<25>{#f/1}* After all, why else would I build it?',
-         '<25>{#f/5}* Unfortunately, not every human understood this.',
-         '<25>{#f/3}* One of them even tried running at the security field directly...',
-         '<25>{#f/0}* ... suffice it to say, the use of healing magic was required.'
+         '<25>{#p/toriel}{#f/0}* 这个房间里的谜题\n  很适合用来做演示。',
+         '<25>{#f/1}* 不然，我还能\n  因为什么而制作它？',
+         '<25>{#f/5}* 不幸的是，\n  并非所有人类\n  都明白这一点。',
+         '<25>{#f/3}* 其中一个甚至试图\n  往安保屏障上冲...',
+         '<25>{#f/0}* ...我只能说，\n  治疗魔法是必需的。'
       ],
       w_tutorial: [
-         '<25>{#p/toriel}* If this puzzle is not my favorite, I do not know what is!',
-         '<25>* The way it teaches collaboration is a most valuable quality.',
-         '<25>{#f/1}* Since my dream job IS to become a teacher...',
+         '<25>{#p/toriel}* 如果这都不能算作\n  我最喜欢的谜题，\n  我就不知道什么才算了！',
+         '<25>* 它所教导的团队精神，\n  是一种最宝贵的品质。',
+         '<25>{#f/1}* 由于我梦想\n  成为一名教师...',
          '<25>{#f/0}* 所以总想找机会将这些\n  重要的东西教给别人。'
       ],
       w_dummy: () => [
-         '<25>{#p/toriel}{#f/1}* The training room...?',
+         '<25>{#p/toriel}{#f/1}* 训练室吗...?',
          ...(SAVE.data.n.plot < 42
             ? [
                  [
                     '<25>{#f/0}* 嘻嘻，我还是很高兴\n  你按照我教的方法\n  完成了任务。',
-                    '<25>{#f/1}* A friendly conversation is preferable to the alternative...',
-                    '<25>{#f/0}* And not just because it helps you make friends!'
+                    '<25>{#f/1}* 友好的交谈\n  比其它选择更可取...',
+                    '<25>{#f/0}* 可不仅仅是因为\n  那样能帮你交朋友！'
                  ],
                  [],
                  [
                     '<25>{#f/5}* ...',
                     '<25>{#f/5}* 虽然你没按我教的去做...',
-                    '<25>{#f/0}* At the very least, you avoided the conflict.',
-                    '<25>{#f/0}* Considering the alternatives, it was... a preferable outcome.'
+                    '<25>{#f/0}* 但至少你避免了冲突。',
+                    '<25>{#f/0}* 考虑到还有其它选择，\n  这算是... \n  一个较好的结果。'
                  ],
                  [
-                    '<25>{#f/0}* ... hmm.',
-                    '<25>{#f/0}* Truthfully, I still do not know how to react to what happened.',
-                    '<25>{#f/1}* It was mesmerising to watch, though...',
-                    '<25>{#f/3}* Just the two of you...\n* Staring at each other...',
+                    '<25>{#f/0}* ...嗯。',
+                    '<25>{#f/0}* 老实说，\n  我到现在还不知道\n  该怎么应对这事。',
+                    '<25>{#f/1}* 长时间看着某物\n  是容易入迷，\n  但是...',
+                    '<25>{#f/3}* 就你们俩这样...\n* 一直盯着对方...',
                     '<25>{#f/4}* ...'
                  ],
                  [
-                    '<25>{#f/1}* I cannot say I expected what happened, but...',
-                    '<25>{#f/0}* It was still endearing nonetheless.',
-                    '<25>{#f/0}* Surprisingly, you are the first human to try the approach.',
-                    '<25>{#f/1}* And it seemed such an obvious solution in hindsight...'
+                    '<25>{#f/1}* 我不能说我预料到了\n  会发生这种事，\n  但是...',
+                    '<25>{#f/0}* 这还是挺可爱的。',
+                    '<25>{#f/0}* 意外的是，\n  你竟然是第一个\n  尝试这种方法的人类。',
+                    '<25>{#f/1}* 现在看来，\n  这种解决办法\n  好像再明显不过了...'
                  ],
                  [],
                  [
                     '<25>{#f/5}* ...',
                     '<25>{#f/7}* ...',
-                    '<25>{#f/8}* Hahaha!\n* Ah, I cannot help but laugh!',
-                    '<25>{#f/6}* The shamelessness with which you chose to flirt...',
-                    '<25>{#f/1}* Certainly took me by surprise!',
-                    '<25>{#f/0}* Listen to me, my child.',
-                    '<25>{#f/9}* Flirting with your adversaries may not always be ideal.',
-                    '<25>{#f/10}* But, if you can do it like THAT again...',
-                    '<25>{#f/0}* There is no telling what you can accomplish this way.'
+                    '<25>{#f/8}* 哈哈哈！\n* 啊，我忍不住笑了！',
+                    '<25>{#f/6}* 你那\n  毫不掩饰的调情方式...',
+                    '<25>{#f/1}* 确实让我吃了一惊！',
+                    '<25>{#f/0}* 听我说，孩子。',
+                    '<25>{#f/9}* 向对手调情\n  可不一定总是好主意。',
+                    '<25>{#f/10}* 不过，\n  要是你能再像刚才那样...',
+                    '<25>{#f/0}* 谁知道\n  你还能用这种方式\n  做到什么呢。'
                  ]
               ][SAVE.data.n.state_wastelands_dummy]
             : [
-                 '<25>{#p/toriel}{#f/0}* Oh, right, about that.',
-                 '<25>{#p/toriel}{#f/0}* I recently discovered that a ghost was hiding in the dummy.',
-                 '<25>{#p/toriel}{#f/1}* They seemed bothered about something, but...',
-                 '<25>{#p/toriel}{#f/0}* After a little talk, I helped to calm them down.',
-                 '<25>{#p/toriel}{#f/1}* Hmm... I wonder where Lurksalot is now?'
+                 '<25>{#p/toriel}{#f/0}* 噢，对了，关于这个。',
+                 '<25>{#p/toriel}{#f/0}* 我最近发现有个幽灵\n  藏在这个假人里。',
+                 '<25>{#p/toriel}{#f/1}* 那幽灵看起来\n  在为什么事烦恼，\n  不过...',
+                 '<25>{#p/toriel}{#f/0}* 聊了一会儿后，\n  我帮那幽灵冷静了下来。',
+                 '<25>{#p/toriel}{#f/1}* 嗯...\n  不知道匿罗\n  现在在哪里呢。'
               ])
       ],
       w_coffin: [
          '<25>{#p/toriel}{#f/5}* ...',
-         '<25>{#f/5}* In times like this, it is important that we show respect.',
-         '<25>{#f/10}* ... do you understand?',
+         '<25>{#f/5}* 在这种时候，\n  表现出尊重是很重要的。',
+         '<25>{#f/10}* ...你明白了吗？',
          '<25>{#f/9}* 刚刚教你的东西，\n  比什么谜题和战斗技巧\n  重要得多。'
       ],
       w_danger: () =>
@@ -4928,14 +4928,14 @@ export default {
 
             ? [
                  '<32>{#s/phone}{#p/event}* 拨号中...',
-                 '<25>{#p/toriel}{#f/1}* Calling so soon...?',
-                 '<25>{#f/0}* ... I have not even gotten back to the house yet!',
-                 '<25>{#f/0}* Please, wait a moment before calling again.',
+                 '<25>{#p/toriel}{#f/1}* 这么快就打过来了...?',
+                 '<25>{#f/0}* ...我都还没回到家呢！',
+                 '<25>{#f/0}* 请稍等一会再打过来。',
                  '<32>{#s/equip}{#p/event}* 滴...'
               ]
             : [
                  '<32>{#w.stopThatGoat}{#s/phone}{#p/event}* 拨号中...',
-                 '<25>{#p/toriel}{#f/1}* Calling so soon...?',
+                 '<25>{#p/toriel}{#f/1}* 这么快就打过来了...?',
                  '<25>{#f/0}* ... I have not even left the room yet!',
                  '<25>{#f/2}* A moment to breathe would be nice!',
                  '<32>{#w.startThatGoat}{#s/equip}{#p/event}* 滴...'

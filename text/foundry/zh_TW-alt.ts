@@ -109,7 +109,7 @@ export default {
             ? [ '<32>{#p/human}* (The terminal appears to have been powered off.)' ]
             : [
                  '<32>{#p/human}* （你激活了終端。）',
-                 '<32>{#p/basic}* 「通路已打開！」\n* 「不必再進行任何操作。」'
+                 '<32>{#p/basic}* 「路通了！」\n* 「直接前進即可。」'
               ],
       quicksolve4: [ '<32>{#p/human}* （你激活了終端。）', '<32>{#p/basic}* 「請輸入控制程式碼！」' ],
       quicksolve5: [
@@ -542,7 +542,7 @@ export default {
                : 63 <= SAVE.data.n.plot && SAVE.data.b.a_state_hapstablook
                ? [ "<33>{#p/napstablook}* don't worry, they're alright...", '<32>* 至少，我是那麼希望的......' ]
                : 60 <= SAVE.data.n.plot
-               ? [ "<32>{#p/napstablook}* 希望他下次能對其他選手好一點吧........." ]
+               ? [ "<32>{#p/napstablook}* 希望他下次能對其他選手\n  好一點吧........." ]
                : 49 <= SAVE.data.n.plot
                ? [
                     '<32>{#p/napstablook}* 喔對了，我早些時候\n  看到你在達人秀上了...',
@@ -855,7 +855,7 @@ export default {
                ? SAVE.flag.n.ga_asrielStutter < 1
                   ? [
                        '<25>{#p/asgore}{#f/15}* 看來，\n  你還是跟他一夥了啊...',
-                       '<25>{#p/asriel2}{#f/7}* 誰都沒法\n  把我和$(name)分開。\n* 您該不會連這都不知道吧？',
+                       '<25>{#p/asriel2}{#f/7}* 誰都沒法把我\n  和$(name)分開。\n* 您不會連這都不知道吧？',
                        '<25>{#p/asgore}{#f/15}* $(name)... 我-我當然知道啊！\n* 那... 你-你倆旁邊的小孩\n  又是怎麼回事？',
                        "<25>{#p/asriel2}{#f/8}* 關你屁事。",
                        "<25>{#p/asgore}{#f/15}* （呃... 早該料到的...）",
@@ -869,43 +869,43 @@ export default {
                     ]
                   : [
                        '<25>{#p/asgore}{#f/15}* 看來，\n  你還是跟他一夥了啊...',
-                       '<25>{#p/asriel2}{#f/8}* 艾菲斯，沒人能分割\n  我和$(name)間的紐帶。',
-                       "<25>{#p/asriel2}{#f/7}* 不過你對這事完全沒數吧。"
+                       '<25>{#p/asriel2}{#f/8}* 誰都沒法把我\n  和$(name)分開，\n  艾菲斯。',
+                       "<25>{#p/asriel2}{#f/7}* 不過，我再怎麼跟你解釋，\n  都是對牛彈琴，\n* 你說是不？"
                     ]
                : [
                     '<25>{#p/asgore}{#f/15}* 看來，\n  你還是跟他一夥了啊...',
-                    '<25>{#p/asriel2}{#f/8}* 艾菲斯，沒人能分割\n  我和$(name)間的紐帶。',
+                    '<25>{#p/asriel2}{#f/8}* 誰都沒法把我\n  和$(name)分開，\n  艾菲斯。',
                     ...(SAVE.flag.n.ga_asrielQuestion < 1
-                       ? [ "<25>{#p/asriel2}{#f/7}* Like I don't already know you're planning to kill us." ]
+                       ? [ "<25>{#p/asriel2}{#f/7}* 你都準備好要殺我們了呢。\n* 別以為我不知道。" ]
                        : [ '<25>{#p/asriel2}{#f/7}* 真以為你能阻止我們？' ])
                  ],
          asgoreFinal2: () =>
             SAVE.flag.n.genocide_milestone < 5
                ? [
                     '<25>{#p/alphys}{#g/alphysThatSucks}* ...騙不過你，嗯？',
-                    '<25>{#p/asriel2}{#f/3}* 的確。',
-                    "<25>{#p/alphys}{#g/alphysGarbo}* ...\n* 倒還算說了句實話。",
+                    '<25>{#p/asriel2}{#f/3}* 是呢。',
+                    "<25>{#p/alphys}{#g/alphysGarbo}* ...\n* 起碼說了句實話。",
                     '<25>{#p/asriel2}{#f/13}* 看著好友死去，\n  你肯定急瘋了...',
                     "<25>{#p/asriel2}{#f/16}* 沒法和你感同身受呢。",
                     '<25>{#p/alphys}{#g/alphysIDK}* ...',
                     '<25>{#p/alphys}{#g/alphysNeutralSweat}* ...',
-                    '<25>{#p/alphys}{#g/alphysNeutralSweat}* 這主意糟透了。',
+                    '<25>{#p/alphys}{#g/alphysNeutralSweat}* 真-真不該來這裡。',
                     "<25>{|}{#p/asriel2}{#f/8}* 你不會又想- {%}"
                  ]
                : [
                     '<25>{#p/alphys}{#g/alphysOhGodNo}* 你說什麼？',
-                    "<25>* 與你們為敵...\n* 我-我哪來的勝算！",
+                    "<25>* 我...\n* 我-我哪敢對付你們啊！",
                     ...(SAVE.flag.n.ga_asrielQuestion < 1
-                       ? [ '<25>{#p/asriel2}{#f/10}* ...當真？', '<25>{#p/alphys}{#g/alphysIDK}* ...' ]
+                       ? [ '<25>{#p/asriel2}{#f/10}* ...是嗎？', '<25>{#p/alphys}{#g/alphysIDK}* ...' ]
                        : [ '<25>{#p/asriel2}{#f/7}* ...' ]),
                     '<25>{#p/alphys}{#g/alphysNeutralSweat}* ...',
-                    '<25>{#p/alphys}{#g/alphysNeutralSweat}* 這主意糟透了。'
+                    '<25>{#p/alphys}{#g/alphysNeutralSweat}* 真-真不該來這裡。'
                  ],
          asgoreFinal3: () =>
             SAVE.flag.n.genocide_milestone < 5
                ? [ '<25>{#p/asriel2}{#f/7}* 真是個膽小鬼。' ]
                : [
-                    [ "<25>{#p/asriel2}{#f/15}* 呵... 看來我話說太早了。" ],
+                    [ "<25>{#p/asriel2}{#f/15}* 呵... 把話說早了。" ],
                     [ '<25>{#p/asriel2}{#f/15}* 行吧。' ]
                  ][Math.min(SAVE.flag.n.ga_asrielQuestion++, 1)],
          asgoreMK1: [
@@ -1059,7 +1059,7 @@ export default {
                     '<25>{#p/asriel2}{#f/10}* 完活了？\n* 真快啊...',
                     '<25>{#f/3}* $(name)，你瞧：\n  優柔寡斷，磨磨嘰嘰\n  就是怪物的劣根性。',
                     '<25>{#f/16}* 什麼希望，恐懼，同理心...\n* 那群怪物就是被這毀了，\n  最後一個個都一事無成。',
-                    "<25>{#f/15}* 要是怪物全都能像\n  這崽子一樣說一不二，\n  那該多好啊。"
+                    "<25>{#f/15}* 要是怪物們都能像\n  這崽子一樣說一不二，\n  那該多好啊。"
                  ]
                : [ '<25>{#p/asriel2}{#f/4}* 擱這照葫蘆畫瓢呢。' ],
          asriel41: [ '<25>{#p/asriel2}{#f/3}* 小崽子，回來。' ],
@@ -1067,30 +1067,30 @@ export default {
          asriel43: () =>
             [
                [
-                  "<25>{#p/asriel2}{#f/16}* $(name)，結束了...",
-                  "<25>{#f/3}* 我們做到了。",
-                  '<25>{#f/2}* 皇家衛隊的隊長...',
-                  '<25>{#f/15}* 不會真覺得她有勝算吧？',
+                  "<25>{#p/asriel2}{#f/16}* 結束了...",
+                  "<25>{#f/3}* $(name)，我們贏了。",
+                  '<25>{#f/2}* 總算解決掉了\n  皇家衛隊的隊長...',
+                  '<25>{#f/15}* 她不會真覺得\n  自己能幹得過咱們吧？',
                   SAVE.flag.n.undying > 2
-                     ? '<25>{#f/8}* 她的確逼我們\n  回溯了幾次時間軸...'
+                     ? '<25>{#f/8}* 誠然，\n  她逼咱們回溯了好幾次...'
                      : SAVE.flag.n.undying > 1
-                     ? '<25>{#f/8}* 她的確逼我們\n  回溯了一次時間軸...'
-                     : '<25>{#f/8}* 敢和我們對著幹，\n  她的確很英勇...',
-                  '<25>{#f/7}* 不過嘛，你我都清楚，\n  她最終落得個什麼下場。'
+                     ? '<25>{#f/8}* 誠然，\n  她逼咱們回溯了一次...'
+                     : '<25>{#f/8}* 誠然，她夠英勇。\n  敢和我們對著幹...',
+                  '<25>{#f/7}* 但她再怎麼逞強，\n  終究也難逃厄運。'
                ],
                [
-                  '<25>{#p/asriel2}{#f/3}* ...這趟勝利的滋味，\n  要是能有第一次\n  那般甘甜就好了。',
+                  '<25>{#p/asriel2}{#f/3}* ...這次雖然勝了，\n  但沒第一回爽。',
                   '<25>{#f/4}* 唉，好吧。'
                ],
-               [ '<25>{#p/asriel2}{#f/6}* Killing Undyne is quickly becoming our hobby.' ],
+               [ '<25>{#p/asriel2}{#f/6}* 殺她都快成咱們的\n  家常便飯了。' ],
                [ '<25>{#p/asriel2}{#f/6}* ...' ]
             ][Math.min(SAVE.flag.n.ga_asriel43++, 3)],
          asriel44: [ '<25>{#p/asriel2}{#f/13}* 呃，$(name)，\n  你來帶路吧。' ],
          asriel45: [
-            '<25>{#p/asriel2}{#f/13}* Well, well, well...{%40}',
-            "<25>{#f/16}* I can't express how grateful I am for all your help.{%40}",
-            "<25>{#f/1}* This body might not be perfect, but for what it's worth...?{%40}",
-            "<25>{#f/2}* I won't miss being a stupid talking star.{%40}"
+            '<25>{#p/asriel2}{#f/13}* 嘻嘻嘻...{%40}',
+            "<25>{#f/16}* 有你幫助我，真是太好了。{%40}",
+            "<25>{#f/1}* 這身體確實不完美，\n  但那又怎樣？{%40}",
+            "<25>{#f/2}* 有了它...\n  我就再也不用當\n  會說話的蠢星星了。{%40}"
          ],
          asrielHug1: [ '<25>{#p/asriel2}{#f/13}* ...' ],
          asrielHug2: [ '<25>{*}{#p/asriel2}{#f/13}* $(name)...{^100}{%}' ],
@@ -1104,59 +1104,59 @@ export default {
          bombshell3: [
             '<32>{*}{@random=1.1/1.1}* 托麗爾...\n* 衫斯...\n* 帕派瑞斯...',
             '<32>{*}{@random=1.1/1.1}* 安黛因...',
-            "<32>{*}{@random=1.1/1.1}* 都-都怪我...",
-            '<32>{*}{@random=1.1/1.1}{#i/4}* 啊... 天-天吶...'
+            "<32>{*}{@random=1.1/1.1}* 是-是我...",
+            
          ],
          bombshell4: [ "<32>{*}{@random=1.1/1.1}{#i/5}* 是我害死了你們..." ],
          kidd1: [
             '<25>{#p/kidd}{#f/4}* 他叫你什麼來著？\n* $(name)... 是吧？',
-            '<25>{#f/3}* 好，$(name)。\n  這話可別告訴他喔，\n  跟他在一塊...',
-            '<25>{#f/4}* 我覺得很不自在。'
+            '<25>{#f/3}* 好，$(name)。\n  這話可別告訴他喔。',
+            '<25>{#f/4}* 跟他在一塊...\n  我覺得很不自在。'
          ],
          kiddFinal1: [
             '<25>{#p/kidd}{#f/11}* ...！',
-            "<25>{#p/asriel2}{#f/5}* 我就知道。\n* 看到安黛因你很激動吧？",
+            "<25>{#p/asriel2}{#f/5}* 我懂，我懂。\n* 很興奮，是不是呀？",
             '<25>{#p/kidd}{#f/9}* ...',
             "<25>{|}{#f/12}* 我沒有- {%}",
             "<25>{#p/asriel2}{#f/4}* 不用說了。\n* 沒關係的。",
-            '<25>{#p/asriel2}{#f/3}* 別忘了我們來幹嘛的就好。'
+            '<25>{#p/asriel2}{#f/3}* 別把正事給忘了就行。'
          ],
          kiddFinal2: () => [
             '<25>{#p/kidd}{#f/9}* 安黛因...',
             '<25>{#p/asriel2}{#f/10}* ...？',
-            '<25>{#f/6}* 我猜... 你還有顧慮？',
+            '<25>{#f/6}* 嗯...\n* 不敢了，是不是？',
             "<25>{|}{#p/kidd}{#f/12}* 對不起，我- {%}",
-            "<25>{#p/asriel2}{#f/13}* Undyne, schmundyne...\n* She's not the hero you take her for.",
-            '<25>{#p/asriel2}{#f/4}* 不... 我是說真英雄\n  可都是些會動腦子的人。',
+            "<25>{#p/asriel2}{#f/13}* 什麼「安黛因」，\n  「安呆因」...\n* 就她還配叫「英雄」？",
+            '<25>{#p/asriel2}{#f/4}* 真英雄...\n  都是靠智慧取勝的。',
             SAVE.flag.n.genocide_milestone < 5
                ? SAVE.flag.n.ga_asrielKiddFinal1++ < 1
-                  ? '<26>{#f/15}* 比如...\n* 呃，不像她的人。'
+                  ? '<26>{#f/15}* 比如...\n* 呃，總之不是她。'
                   : '<25>{#f/15}* 她可算不上。'
                : '<26>{#f/3}* 比如艾菲斯。',
             '<25>{#p/kidd}{#f/12}* 她... 真的...'
          ],
          kiddFinal3: () => [
             '<25>{#p/kidd}{#f/10}* ...',
-            "<25>{#f/10}* 安黛因不會死的。",
-            '<25>* 就算讓我去，她...',
-            "<25>* She'll be fine.\n* She'll be strong...",
+            "<25>{#f/10}* 安黛因不會死。",
+            '<25>* 即使我動手，她...',
+            "<25>* 她也不會死。\n* 她多強啊...",
             ...(SAVE.flag.n.ga_asrielKiddFinal3a < 1
-               ? [ '<25>{#p/asriel2}{#f/8}* （對，儘管說，\n  好讓你好受點...）' ]
+               ? [ '<25>{#p/asriel2}{#f/8}* （吹，隨便吹。）\n* （你高興就好。）' ]
                : []),
-            "<25>{#p/kidd}{#f/9}* 因為...\n* 她... 比其他怪物都強...",
+            "<25>{#p/kidd}{#f/9}* 因為...\n* 她... 是最強的...",
             "<25>{#f/12}* 她充滿了{@fill=#ff0}決心{@fill=#fff}...",
             ...(SAVE.flag.n.ga_asrielKiddFinal3a++ < 1
-               ? [ '<25>{#p/asriel2}{#f/10}* 呃... 沒事吧？\n* （我的天，這小傢伙\n  說什麼胡話呢？）' ]
+               ? [ '<25>{#p/asriel2}{#f/10}* 呃... 你沒事吧？\n* （我去，這崽子說什麼呢？）' ]
                : SAVE.flag.n.undying > 0 && SAVE.flag.n.ga_asrielKiddFinal3b++ < 1
-               ? [ '<25>{#p/asriel2}{#f/8}* （他怎麼知道？）' ]
+               ? [ '<25>{#p/asriel2}{#f/8}* （它怎麼知道？）' ]
                : [ '<25>{#p/asriel2}{#f/10}* ...' ])
          ],
          kiddFinal4: [ '<32>{#p/asriel2}{#f/6}* 她在那。' ],
-         kiddFinal5: [ '<32>{#f/6}* 給我上。', '<32>{#f/7}* ...' ],
-         kiddFinal6: [ '<32>{*}{#p/asriel2}{#f/14}{@random=1.1/1.1}{@fill=#f00}* 還不快去。{%100}' ],
+         kiddFinal5: [ '<32>{#f/6}* 崽子。', '<32>{#f/7}* ...' ],
+         kiddFinal6: [ '<32>{*}{#p/asriel2}{#f/14}{@random=1.1/1.1}{@fill=#f00}* 給我上。{%100}' ],
          kiddFinal7: [
             '<25>{#p/kidd}{#f/12}* ...',
-            '<25>{#p/undyne}{#f/13}* 搞什麼？\n* 你來這幹嘛！？',
+            '<25>{#p/undyne}{#f/13}* 你這毛孩子，\n  來這湊什麼熱鬧？！',
             '<25>{|}{#f/13}* 還有，你眼睛怎麼- {%}'
          ]
       },
@@ -1276,12 +1276,12 @@ export default {
                ? [ '<32>{#p/basic}* 意思是模糊的未來。' ]
                : SAVE.data.b.f_state_mushroomdanceGeno
                ? [
-                    "<32>{#p/basic}* 意思是我將自由。\n* 會有人把我移植到新家鄉。",
+                    "<32>{#p/basic}* 意思是我將自由。\n* 會有人把我移植到新家園。",
                     '<32>* But why should you care?\n* Unless...',
                     '<32>* ... unless you have absolved yourself of sin?'
                  ]
                : [
-                    "<32>{#p/basic}* 意思是我將自由。\n* 會有人把我移植到新家鄉。",
+                    "<32>{#p/basic}* 意思是我將自由。\n* 會有人把我移植到新家園。",
                     '<32>{#p/basic}* Goodbye, old outpost, for you have been my abode...'
                  ]
             : world.meanie || SAVE.data.s.state_foundry_deathroom === 'f_village' // NO-TRANSLATE
@@ -1818,7 +1818,7 @@ export default {
                : geno()
                ? [
                     '<32>{#s/echostart}{#p/event}{#npc/a}* 訊號開始...',
-                    '<32>{#p/basic}* 孩子，跟你講個壞訊息。\n* 那個人類剛從這兒走過。',
+                    '<32>{#p/basic}* 孩子，說個壞訊息。\n* 那人類剛經過這裡。',
                     ...(world.genocide
                        ? [
                             "<32>{#p/basic}* ...還帶了個同夥。",
@@ -1826,18 +1826,18 @@ export default {
                             "<32>{#p/basic}* 哇哈哈...\n* 我說了你也不信。"
                          ]
                        : [
-                            '<32>{#p/basic}* （那人在往這裡走嗎？）',
-                            "<32>{#p/basic}* 當然，\n  但你要過會兒才能看到那人。\n* 更不用說安黛因...",
-                            "<32>{#p/basic}* （是啊，她會阻止那個人類的。）\n* （畢竟，她可統領著皇家衛隊啊...）"
+                            '<32>{#p/basic}* （那人還在鑄廠嗎？）',
+                            "<32>{#p/basic}* 當然，但那人想碰到你\n  還要走好一會呢。\n* 更不用說安黛因了...",
+                            "<32>{#p/basic}* （是啊，她一定會阻止人類的。）\n* （畢竟，她可皇家衛隊的隊長啊...）"
                          ]),
                     '<32>{#s/echostop}{#p/event}{#npc}* 訊號終止。'
                  ]
                : [
                     '<32>{#s/echostart}{#p/event}{#npc/a}* 訊號開始...',
                     '<32>{#s/phone}* 鈴鈴，鈴鈴...',
-                    "<32>{#p/basic}* 很抱歉，\n  這裡的手機訊號不是很好。",
-                    '<32>* 到目前為止你看到什麼\n  有趣的東西了嗎？',
-                    '<32>* （... 這個嘛...）',
+                    "<32>{#p/basic}* 對不起，\n  這裡訊號不太好。",
+                    '<32>* 這段時間，\n  看到什麼有趣的東西了嗎？',
+                    '<32>* （...這個嘛...）',
                     '<32>* （流星算嗎？）',
                     '<32>{#s/echostop}{#p/event}{#npc}* 訊號終止。'
                  ],
@@ -1865,16 +1865,16 @@ export default {
                     '<32>{#s/echostart}{#p/event}{#npc/a}* 訊號開始...',
                     ...(world.genocide
                        ? [
-                            "<32>{#p/basic}* （你說那孩子起死回生了？）",
-                            '<32>{#p/basic}* （哇。）\n* （老瘋子，啥時候學來的胡話。）',
-                            '<32>{#p/basic}* ...你看我像在耍你嗎？',
-                            '<32>{#p/basic}* （呃... 你好像... 不是那種人。）\n* （哼。）'
+                            "<32>{#p/basic}* （你說，那孩子起死回生了？）",
+                            '<32>{#p/basic}* （哇。）\n* （老瘋子，今天你不是\n  一般地瘋啊！）',
+                            '<32>{#p/basic}* ...我是會拿這事\n  開玩笑的人嗎？',
+                            '<32>{#p/basic}* （呃... 你不是那種人。）\n* （哼。）'
                          ]
                        : [
-                            '<32>{#p/basic}* （所以，在這段時間內\n  我們該做什麼呢？）',
-                            "<32>{#p/basic}* 噢，要不像往常一樣搗鬼得了。",
-                            '<32>{#p/basic}* （言行都很瘋癲啊。）',
-                            '<32>{#p/basic}* 哇哈哈，你很懂嘛！'
+                            '<32>{#p/basic}* （孩子們都在疏散，\n  我們做點什麼呢？）',
+                            "<32>{#p/basic}* 噢，要不...\n  老一套，隨便糊弄糊弄他們吧。",
+                            '<32>{#p/basic}* （真不愧是你啊，怪老頭。）',
+                            '<32>{#p/basic}* 哇哈哈，你最懂我了！'
                          ]),
                     '<32>{#s/echostop}{#p/event}{#npc}* 訊號終止。'
                  ]
@@ -1883,7 +1883,7 @@ export default {
                     '<32>{#p/basic}* 喔！\n* 快許個願，孩子！',
                     "<32>* （...）\n* （永遠不會實現的。）",
                     '<32>* ...自由，是嗎？\n* 哇哈哈... 那我可有個\n  好訊息要告訴你了。',
-                    '<32>* 我在早些時候\n  看到一個人類過來了。',
+                    '<32>* 前不久，我剛看到\n  一個人類從這裡經過。',
                     '<32>{#s/echostop}{#p/event}{#npc}* 訊號終止。'
                  ],
          f_echo8: () =>
@@ -1908,18 +1908,18 @@ export default {
                : geno()
                ? [
                     '<32>{#s/echostart}{#p/event}{#npc/a}* 訊號開始...',
-                    '<32>{#p/basic}* （嘿... 要是這場風波過去了...）',
-                    '<32>* （我們... 一起去吃一頓？）',
-                    "<32>* 嗯？\n* 當然嘍！\n* 孩子，這沒啥不可以的！",
+                    '<32>{#p/basic}* （嘿... 等風波過去了...）',
+                    '<32>* （要不... 咱出去吃一頓？）',
+                    "<32>* 嗯？\n* 當然嘍！\n* 主意不錯，孩子！",
                     "<32>* 這樣我們就有盼頭了。",
                     '<32>{#s/echostop}{#p/event}{#npc}* 訊號終止。'
                  ]
                : [
                     '<32>{#s/echostart}{#p/event}{#npc/a}* 訊號開始...',
-                    "<32>{#p/basic}* （所以是真的...）\n* （自由真的越來越近了。）",
-                    '<32>* 可以這麼說。',
-                    "<32>* （看來一切都取決於\n  國王了，是吧？）",
-                    '<32>* ...如果真到那種情況了的話。',
+                    "<32>{#p/basic}* （看來，傳說是真的...）\n* （自由真的觸手可及了。）",
+                    '<32>* 或許吧。',
+                    "<32>* （就看國王怎麼做了，是吧？）",
+                    '<32>* ...到時候再說。',
                     '<32>{#s/echostop}{#p/event}{#npc}* 訊號終止。'
                  ],
          f_echo9: () =>
@@ -1944,18 +1944,18 @@ export default {
                : geno()
                ? [
                     '<32>{#s/echostart}{#p/event}{#npc/a}* 訊號開始...',
-                    "<32>{#p/basic}* （老人家，謝謝了...）\n* （和你嘮嘮嗑，有那麼會，\n  那些煩惱仿佛煙消雲散了。）",
+                    "<32>{#p/basic}* （謝謝你，老人家...）\n* （和你嘮嗑的時候，\n  那些煩惱啊，都忘了。）",
                     '<32>* 哇哈哈...\n* 能幫上忙，我可太高興了。',
-                    '<32>* 嘿，就算這場風波永遠不會過去...',
-                    '<32>* ...咱們一樣可以去吃一頓。',
-                    "<32>* （是啊...）\n* （那太好了。）",
+                    '<32>* 嘿，就算我們挺不過\n  這場風波...',
+                    '<32>* ...咱還得該吃吃，該喝喝。',
+                    "<32>* （是啊...）\n* （太好了。）",
                     '<32>{#s/echostop}{#p/event}{#npc}* 訊號終止。'
                  ]
                : [
                     '<32>{#s/echostart}{#p/event}{#npc/a}* 訊號開始...',
-                    "<32>{#p/basic}* （「真到那種情況了的話」...？）\n* （不然還能是什麼？\n  難不成還要把他放走嗎？）",
-                    '<32>* 我不知道。\n* 我心裡應該有答案了。',
-                    "<32>* （等一下...）\n* （難不成國王還有什麼事\n  瞞著我們嗎！？）",
+                    "<32>{#p/basic}* （「到時候再說」...？）\n* （不殺了那人，\n  難道還能放他走？）",
+                    '<32>* 我心裡應該有答案了。\n* 先不告訴你。',
+                    "<32>* （等一下...）\n* （難不成，國王還有事\n  瞞著我們！？）",
                     '<32>* 哇哈哈...\n* 晚點再跟你說，孩子。',
                     '<32>* （...啊！？！？）',
                     '<32>{#s/echostop}{#p/event}{#npc}* 訊號終止。'
@@ -2555,22 +2555,22 @@ export default {
          SAVE.data.b.svr
             ? [ "<32>{#p/human}* (You can't seem to use the switch anymore.)" ]
             : world.darker
-            ? [ "<32>{#p/basic}* It's stuck, like always." ]
-            : [ '<32>{#p/basic}* 令人震驚的是，\n  開關卡住了。', '<32>* 變化真大！' ],
+            ? [ "<32>{#p/basic}* 果然，又卡住了。" ]
+            : [ '<32>{#p/basic}* 沒想到，開關居然卡住了。', '<32>* 真是驚喜連連！' ],
       puzzle2switch: () =>
          SAVE.data.b.svr
             ? [ "<32>{#p/human}* (You can't seem to use the switch anymore.)" ]
             : world.darker
-            ? [ "<32>{#p/basic}* It's stuck, like always." ]
-            : [ '<32>{#p/basic}* The switch is stuck.\n* Naturally.' ],
+            ? [ "<32>{#p/basic}* 果然，又卡住了。" ]
+            : [ '<32>{#p/basic}* 好吧。\n* 開關還是卡住了。' ],
       puzzle3switch: () =>
          SAVE.data.b.svr
             ? [ "<32>{#p/human}* (You can't seem to use the switch anymore.)" ]
             : world.darker
-            ? [ "<32>{#p/basic}* It's stuck, like always." ]
+            ? [ "<32>{#p/basic}* 果然，又卡住了。" ]
             : [
-                 '<32>{#p/basic}* 不論你信不信...',
-                 "<32>* 這個開關沒有被卡住，\n  只是壞了而已。\n* 喔等等。"
+                 '<32>{#p/basic}* 這個開關沒卡住...',
+                 "<32>* ...只是壞了！\n* 信不信由你喔。"
               ],
       quiche1: () =>
          SAVE.data.b.svr
@@ -3229,7 +3229,7 @@ export default {
                        '<25>{#f/16}* Someone like that would know all about that sort of thing.'
                     ]
                  ][Math.min(asrielinter.f_gersonshop++, 2)]
-               : [ '<32>{#p/basic}* \"Gerson\'s Bits \'n\' Bobs!\"\n* \"A humble store for all your factory life needs!\"' ],
+               : [ '<32>{#p/basic}* 「這是葛森雜貨鋪！」\n* 「想要什麼，就來小店吧！\n   應有盡有！」' ],
          f_hub_sign: () =>
             SAVE.data.b.svr
                ? [ '<32>{#p/human}* (The sign lists off what lies in each direction.)' ]
@@ -3267,24 +3267,24 @@ export default {
             SAVE.data.b.svr
                ? [ '<32>{#p/human}* (The sign describes how a being can leave the force field.)' ]
                : [
-                    '<32>{#p/basic}* 「當人類把我們困住時，\n   他們用力場把我們\n   封印在了這裡。」',
-                    '<32>* 「唯有擁有強大靈魂的存在\n   才能離開。」'
+                    '<32>{#p/basic}* 「人類用一道力場\n   將我們囚禁於此。」',
+                    '<32>* 「一般人，沒有強大的靈魂，\n   根本無法離開。」'
                  ],
          f_path2: () =>
             SAVE.data.b.svr
                ? [ '<32>{#p/human}* (The sign describes how the force field can be broken.)' ]
                : [
-                    '<32>{#p/basic}* 「只有一種方法能把我們\n   解放出來。」',
-                    '<32>* 「如果有一股強大的，\n   相當於七個人類靈魂的力量，\n   施加到力場上...」',
-                    '<32>* 「力場就會被摧毀。」'
+                    '<32>{#p/basic}* 「想獲得自由，\n   只有一個辦法。」',
+                    '<32>* 「那就是...」',
+                    '<32>* 「用一股相當於七個人類靈魂的\n   強大力量擊打力場，\n   將其徹底摧毀。」'
                  ],
          f_path3: () =>
             SAVE.data.b.svr
                ? [ '<32>{#p/human}* (It appears this sign was very wrong indeed.)' ]
                : [
-                    '<32>{#p/basic}* 「但這個被詛咒的地方\n   在星系的邊緣地帶。」',
-                    '<32>* 「人類根本不可能找到這裡。」',
-                    '<32>* 「我們將永遠被困在這裡。」'
+                    '<32>{#p/basic}* 「但這片詛咒之地\n   遠在主星系外圍。」',
+                    '<32>* 「指望人類找到我們，\n   簡直就是天方夜譚。」',
+                    '<32>* 「我們將永遠困在這裡。」'
                  ],
          f_puzzle1_sign: () =>
             SAVE.data.b.svr
@@ -3341,16 +3341,16 @@ export default {
                     "<25>{#p/asriel1}{#f/20}* Yeah... this puzzle's a real pain in the butt."
                  ]
                : !world.genocide && world.trueKills < 30
-               ? [ '<32>{#p/basic}* 「謎題公會以該謎題不公平為由\n   關閉了這個謎題。」' ]
+               ? [ '<32>{#p/basic}* 「謎題公會認為該謎題\n   難度過於逆天，\n   因此取消了這個謎題。」' ]
                : world.postnoot && world.nootflags.has('f_puzzle3') // NO-TRANSLATE
 
                ? [
-                    '<32>{#p/basic}* 這塊告示牌上的內容...',
-                    '<32>* ... and crossed out again?'
+                    '<32>{#p/basic}* 告示牌上的內容\n  都被划去了...',
+                    '<32>* ...而且還劃了兩次？'
                  ]
                : [
-                    '<32>{#p/basic}* 這塊告示牌上的內容...',
-                    '<32>* ...已經被用難辨的鬼畫符劃掉了。'
+                    '<32>{#p/basic}* 告示牌上的內容\n  都被划去了...',
+                    '<32>* ...字跡簡直不堪入目。'
                  ],
          f_statue_kidd: () =>
             SAVE.data.b.svr
@@ -3449,10 +3449,10 @@ export default {
                  ]
                : world.goatbro
                ? [
-                    '<32>{#p/basic}* Seriously.\n* Seriously?\n* SERIOUSLY!?',
-                    '<32>{#p/basic}* You guys are genuinely adorable.',
+                    '<32>{#p/basic}* 真的嗎，\n* 真的嗎？\n* 真-的-嗎！？',
+                    '<32>{#p/basic}* 你們真是大好人。',
                     ...(SAVE.flag.n.ga_asrielDummy++ < 1
-                       ? [ '<25>{#p/asriel2}{#f/13}* Are we... really...', '<25>{#p/asriel2}{#f/16}* ...' ]
+                       ? [ '<25>{#p/asriel2}{#f/13}* 我們... 真讓它...', '<25>{#p/asriel2}{#f/16}* ...' ]
                        : [])
                  ]
                : SAVE.data.n.plot_date > 1.3 && SAVE.data.n.plot_date < 2.1
@@ -6946,62 +6946,63 @@ export default {
          '<32>{#p/basic}* 安黛因深表讚許。\n* 子彈速度已經快到\n  近乎失控了。'
       ],
       pleadText8: [ "<32>{#p/human}* （你告訴安黛因你不想再\n  戰鬥了。）\n* 她冷冰冰地瞪了你一眼。" ],
-      genoCutscene1: [ '<08>{#p/kidding}{#e/kidd/0}...', '<08>{#e/kidd/1}呃... 嗯？', '<08>{|}{#e/kidd/1}What is- {%}' ],
+      genoCutscene1: [ '<08>{#p/kidding}{#e/kidd/0}...', '<08>{#e/kidd/1}呃... 啊？', '<08>{|}{#e/kidd/1}怎麼- {%}' ],
       genoCutscene2: [ '<08>{#p/kidding}{#e/kidd/3}安黛因！！！', '<08>{#e/kidd/4}我...！' ],
       genoCutscene3: [ '<20>{#p/undyne}{#e/undyne/1}小子...？' ],
       genoCutscene3x: [
-         '<20>{#p/undyne}{#e/undyne/4}嘿，不用說什麼...',
-         "<20>{#e/kidd/7}小子，我沒事。",
-         '<20>{#p/undyne}趕緊逃吧，好嗎？'
+         '<20>{#p/undyne}{#e/undyne/4}嘿，別擔心，小子...',
+         "<20>{#e/kidd/7}我沒事。",
+         '<20>{#p/undyne}現在快逃，好嗎？'
       ],
       genoCutscene4: [
-         "<08>{#p/kidding}{#e/kidd/5}我控制\n不了\n自己...",
+         "<08>{#p/kidding}{#e/kidd/5}我控制不了\n自己...",
          '<08>{#e/kidd/6}他們... 他...',
-         '<08>{#e/kidd/7}不知道他\n對我\n做了什麼...'
+         '<08>{#e/kidd/7}他對我的身體\n動了手腳...'
       ],
-      genoCutscene5: [ '<20>{#p/undyne}{#e/undyne/2}你的眼睛...' ],
+      genoCutscene5: [ '<20>{#p/undyne}{#e/undyne/2}所以，你的眼睛...' ],
       genoCutscene6: [ '<08>{#p/kidding}{#e/kidd/6}我...', '<08>{#p/kidding}{#e/kidd/6}我...' ],
-      genoCutscene7: [ '<08>{#p/kidding}{#e/kidd/7}我\n打傷\n你了...' ],
-      genoCutscene8: [ "<20>{#p/undyne}{#e/undyne/3}小傷，沒什麼大不了的..." ],
+      genoCutscene7: [ '<08>{#p/kidding}{#e/kidd/7}我傷害了\n你...' ],
+      genoCutscene8: [ "<20>{#p/undyne}{#e/undyne/3}就是點小傷而已..." ],
       genoCutscene9: [
-         "<20>{#e/undyne/4}聽著，我會幹翻這些混蛋。",
-         "<20>你不用聽他們使喚了。",
-         '<20>趕緊逃吧，好嗎？'
+         "<20>{#e/undyne/4}這裡交給我，\n我會好好收拾這些壞蛋。",
+         "<20>你不用再當\n他們的傀儡了。",
+         '<20>現在快逃，好嗎？'
       ],
       genoCutscene10: [ '<08>{#e/kidd/8}{#p/kidding}...' ],
-      genoCutscene11: [ '<20>{#p/undyne}{#e/undyne/5}艾菲斯博士會照顧好你的。', '<20>{#e/undyne/6}逃啊！' ],
+      genoCutscene11: [ '<20>{#p/undyne}{#e/undyne/5}艾菲斯博士\n會照顧好你的。', '<20>{#e/undyne/6}快跑啊！' ],
       genoCutscene12a: [
-         '<20>{#p/undyne}{#e/undyne/7}...呵...\n「沒什麼大不了的...」',
-         '<20>...才怪。不知怎麼，\n只是那麼一擊...'
+         '<20>{#p/undyne}{#e/undyne/7}...呵...\n「就是點小傷而已...」',
+'<20>...才怪。',
+         '<20>不知怎麼，\n只是那麼一下...'
       ],
       genoCutscene12b: [ "<20>我就...", '<20>就...' ],
       genoCutscene12c: [ '<20>該...\n該死...', '<20>帕派瑞斯...\n艾斯戈爾...\n艾菲斯...' ],
-      genoCutscene12d: [ '<20>我就這樣...', "<20>{#e/undyne/8}讓你們失望了。" ],
-      genoCutscene12e: [ '<20>我...', "{#e/undyne/8}我不能..." ],
+      genoCutscene12d: [ '<20>對不起...', "<20>{#e/undyne/8}讓你們失望了。" ],
+      genoCutscene12e: [ '<20>我...', "{#e/undyne/8}我沒法..." ],
       genoCutscene13: [ '<20>{#p/undyne}...', '<11>{#e/undyne/12}不...' ],
       genoCutscene14: [
-         "<20>{*}{#p/undyne}{#e/undyne/11}我的身體...\n感覺要四分五裂了。{^15}{%15}",
-         "<20>{*}好像隨時...\n都可能粉身碎骨。{^15}{%15}",
-         '<20>{*}但從我的靈魂深處...{^15}{%15}',
+         "<20>{*}{#p/undyne}{#e/undyne/11}我的身體...\n已經要四分五裂。{^15}{%15}",
+         "<20>{*}好像隨時...\n都會化作灰燼。{^15}{%15}",
+         '<20>{*}但靈魂深處...{^15}{%15}',
          "<20>{*}燃起了一股\n無法描述的感覺。{^15}{%15}",
          "<20>{*}{#e/undyne/12}那燃起的炙熱\n不允許我死去。{^15}{%15}",
-         "<20>{*}{#e/undyne/11}那麼多人民...\n那麼多摯友...\n都慘死在暴行之下...{^15}{%15}",
-         "<20>{*}過了我這關，\n你們會毀掉一切...{^15}{%15}",
-         "<20>{*}大夥的希望，\n大夥的夢想，\n頃刻間就會化為烏有。{^15}{%15}",
-         "<20>{*}{#e/undyne/12}我不會讓你們\n如願以償的。{^15}{%15}",
-         '<20>{*}{#e/undyne/13}此時此刻，\n這星河裡的每個人...{^15}{%15}',
-         '<20>{*}我能夠清晰地感受到，\n他們齊心一致的意念。{^15}{%15}',
-         '<20>{*}我們都有一個\n共同的目標。{^15}{%15}',
+         "<20>{*}{#e/undyne/11}那麼多人民...\n那麼多摯友...\n都慘死於暴行之下。{^15}{%15}",
+         "<20>{*}過了我這關，\n你們將會毀滅一切...{^15}{%15}",
+         "<20>{*}大家的希望，\n大家的夢想，\n頃刻間都會化為烏有。{^15}{%15}",
+         "<20>{*}{#e/undyne/12}所以，我絕不會\n讓你們如願以償。{^15}{%15}",
+         '<20>{*}{#e/undyne/13}此時此刻，\n我能感受到...{^15}{%15}',
+         '<20>{*}這星河裡的每個人，\n大家心連心，同仇敵愾。{^15}{%15}',
+         '<20>{*}因為，我們都有一個\n共同的目標：{^15}{%15}',
          '<20>{*}{#e/undyne/14}那就是戰勝你。{^15}{%15}',
          '<20>{*}{#e/undyne/13}人類。艾斯利爾。\n...不，不管你們是誰。{^15}{%15}',
          '<20>{*}{#e/undyne/14}為了讓這星河存續下去...{^15}{%15}',
-         '<20>{*}{#e/undyne/15}{@random=1.1/1.1}我，安黛因，\n會將你們徹底擊垮！{^15}{%15}'
+         '<20>{*}{#e/undyne/15}{@random=1.1/1.1}我，安黛因，\n會將你徹底擊垮！{^15}{%15}'
       ],
       genoCutscene14x: [
          '<20>{#e/undyne/11}不...',
-         '<20>{#e/undyne/12}不能就這麼結束...！',
+         '<20>{#e/undyne/12}還沒完...！',
          '<20>{#e/undyne/13}大家，\n都需要我來守護！',
-         "<20>{#e/undyne/14}我不能讓他們失望！"
+         "<20>{#e/undyne/14}我絕不能讓他們失望！"
       ],
       genoCutscene15: [ "<20>{*}{#p/undyne}{#v/1}你們還得再加把勁。{%20}" ],
       genoCutscene15x: [ "<20>{#p/undyne}{#v/1}你們還得再加把勁！{%20}" ],
@@ -7014,13 +7015,13 @@ export default {
       ],
       genoDeath2: [
          '<20>{*}{#e/undyne/26}如果你...{^60}{%}',
-         "<20>{*}如果你覺得\n我就這麼放棄希望，\n那你就錯了。{^60}{%}",
-         "<20>{*}{#e/undyne/27}因為我...\n有朋友們支撐著。{^60}{%}",
-         '<20>{*}{#e/undyne/28}艾菲斯告訴我，\n如果我失敗了，\n她就會啟用備用計畫...{^60}{%}',
-         "<20>{*}{#e/undyne/29}現在她已經去\n通知艾斯戈爾，\n讓他吸收那6個\n人類靈魂。{^60}{%}"
+         "<20>{*}如果你以為\n我會放棄希望，\n那就錯了。{^60}{%}",
+         "<20>{*}{#e/undyne/27}因為...\n我有朋友。{^60}{%}",
+         '<20>{*}{#e/undyne/28}艾菲斯告訴我，\n如果我失敗了，\n就會啟用備用計畫...{^60}{%}',
+         "<20>{*}{#e/undyne/29}現在，\n她已經去通知艾斯戈爾，\n吸收那6個人類靈魂。{^60}{%}"
       ],
       genoDeath3: [ '<20>{*}{#p/undyne}{#v/1}{#e/undyne/30}{@random=1.1/1.1}有了那種力量...{^60}{%}' ],
-      genoDeath4: [ '<20>{*}{#p/undyne}{#v/1}{#e/undyne/30}{@random=1.1/1.1}這個世界勢必會\n存續下去...！{^60}{%}' ],
+      genoDeath4: [ '<20>{*}{#p/undyne}{#v/1}{#e/undyne/30}{@random=1.1/1.1}世界...\n勢必會...\n存續下去...！{^60}{%}' ],
       lowStatus1: [ '<32>{#p/story}* 星光閃爍...' ],
       lowStatus2: [ '<32>{#p/story}* 安黛因焦急地翻弄著她的長矛。' ],
       lowStatus3: [ '<32>{#p/story}* 星塵在你面前漂浮閃爍。' ],
@@ -7028,33 +7029,33 @@ export default {
       lowStatus5: [ '<32>{#p/story}* 有一瞬，長矛的攻勢停了下來。' ],
       genoStatus1: [ '<32>{#p/asriel2}* 怎麼會...' ],
       genoStatus2: [ '<32>{#p/asriel2}* 不...' ],
-      genoStatus3: [ '<32>{#p/asriel2}* 遊歷了這麼多條時間軸，\n  我也從沒見過她...' ],
-      genoStatus4: [ "<32>{#p/asriel2}* $(name)，光靠你打不過她。" ],
+      genoStatus3: [ '<32>{#p/asriel2}* 經歷那麼多條時間軸，\n  她也沒...' ],
+      genoStatus4: [ "<32>{#p/asriel2}* $(name)，光靠你自己\n  是不夠的。" ],
       genoStatus5: [ '<32>{#p/asriel2}* ...' ],
       trueGenoStatusX: (assistValue: number) =>
          assistValue < 2
-            ? [ "<32>{#p/asriel2}* Let's see how she likes THIS." ]
-            : [ '<32>{#p/asriel2}* 別忘了我們的戰術。' ],
-      trueGenoStatus1: [ '<32>{#p/asriel2}* 別走神了。' ],
-      trueGenoStatus2: [ "<32>{#p/asriel2}* 可別讓她唬到你了。" ],
-      trueGenoStatus3: [ '<32>{#p/asriel2}* 繼續攻擊就好...' ],
-      trueGenoStatus4: [ "<32>{#p/asriel2}* 她早晚會撐不住的。" ],
+            ? [ "<32>{#p/asriel2}* 看她還有什麼本事。" ]
+            : [ '<32>{#p/asriel2}* 按計畫行事。' ],
+      trueGenoStatus1: [ '<32>{#p/asriel2}* 別走神。' ],
+      trueGenoStatus2: [ "<32>{#p/asriel2}* 別讓她得逞。" ],
+      trueGenoStatus3: [ '<32>{#p/asriel2}* 繼續攻擊...' ],
+      trueGenoStatus4: [ "<32>{#p/asriel2}* 她遲早會完蛋。" ],
       trueGenoStatus5: [ '<32>{#p/asriel2}* 勝利終將屬於我們。' ],
       trueGenoStatusLow1: [ '<32>{#p/asriel2}* 她快死了...！' ],
-      trueGenoStatusLow2: [ '<32>{#p/asriel2}* ...加把勁！' ],
+      trueGenoStatusLow2: [ '<32>{#p/asriel2}* 加把勁！' ],
       asrielExplain: () => [
          ...(battler.volatile[0].vars.azzyAssist < 2
             ? [ "<20>{#p/asriel2}{#f/4}$(name)，\n你的攻擊傷不到她。" ]
             : [
-                 "<20>{#p/asriel2}{#f/8}上回交鋒，\n你沒能傷到她。",
-                 "<20>{#f/4}$(name)，\n你肯定沒忘吧？",
-                 '<20>{#f/3}Between then and now, though, I had a chance to think.'
+                 "<20>{#p/asriel2}{#f/8}$(name)，你還記得\n上次發生的事情吧？",
+                 "<20>{#f/4}你那麼攻擊她，\n但都無濟於事。",
+                 '<20>{#f/3}趁剛才那段時間\n我好好想了想。'
               ]),
          "<20>{#f/13}雖說...\n我還不太能駕馭\n這副身體的力量。",
-         '<20>{#f/16}但我想幫你，\n應該夠了。',
-         "<20>{#f/3}接下來，你先進攻，\n我則會用法術找出\n安黛因盔甲的破綻。",
-         "<20>{#f/4}你要瞄準它們，\n並逐一突破。",
-         '<20>{#f/3}祝好運...'
+         '<20>{#f/16}但這些力量\n足夠幫你了。',
+         "<20>{#f/3}接下來，你先進攻，\n我則會用法術找出\n安黛因盔甲的弱點。",
+         "<20>{#f/4}你要瞄準它們，\n逐一突破，不能出錯。",
+         '<20>{#f/3}一起加油吧...'
       ],
       neutralFinalStatus: [ '<32>{#p/story}* 安黛因充滿了決心。' ]
    },
@@ -7486,14 +7487,14 @@ export default {
    },
    i_flakes: {
       battle: {
-         description: 'Finally, a proper breakfast.',
+         description: '*終於，一頓像樣的早餐。',
          name: '提米薄片'
       },
       drop: [ '<32>{#p/human}* （你扔掉了提米薄片。）' ],
       info: () =>
          SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
             ? [ '<32>{#p/human}* （2 HP。）' ]
-            : [ '<32>{#p/basic}* \"Temmie Flakes\" Heals 2 HP\n* Finally, a proper breakfast.' ],
+            : [ '<32>{#p/basic}* 「提米薄片」回復2 HP\n* 終於，一頓像樣的早餐。' ],
       name: '提米薄片',
       use: [ '<32>{#p/human}* （你吃掉了提米薄片。）' ]
    },
@@ -7705,8 +7706,8 @@ export default {
          '<32>{#p/tem}{#k/1}* 哇嗷！！',
          '<32>{#k/2}* 尼帶著... $(x)！！！',
          SAVE.data.b.colleg
-            ? '<32>{#k/4}* hnnn....\n* i gota have dat $(x)s...\n* but i gota pay for gradskool,'
-            : '<32>{#k/4}* 哼嗯嗯嗯....\n* 我炒雞想要辣個$(x)...\n* 但我必須籌集我的大鞋鞋費，',
+            ? '<32>{#k/4}* 哼嗯嗯嗯....\n* 我炒雞想要辣個$(x)...\n* 但我還要攢研究僧鞋費，'
+            : '<32>{#k/4}* 哼嗯嗯嗯....\n* 我炒雞想要辣個$(x)...\n* 但我還要攢大鞋鞋費，',
          '<32>{#k/5}* 哼嗯嗯嗯嗯....！！！\n* 提咪一直都想要個$(x)...！'
       ],
       sellStory2: [ '<32>{#p/tem}{#k/2}* 但.. 但是...', '<32>{#k/4}* 卟！！！！！！！！！！！！' ],
@@ -7798,7 +7799,7 @@ export default {
          SAVE.data.n.plot === 72 ? '<23>{#p/basic}{#k/0}* 哇哈哈。' : "<23>{#p/basic}{#k/0}* 別見外喔。",
       menuPrompt3: () =>
          world.genocide
-            ? "<23>{#p/basic}{#k/3}* 小夥子，\n  你們幾個忙活啥呢？\n* 等等，當我沒問。\n  不關我的事，對吧？"
+            ? "<23>{#p/basic}{#k/3}* 你們幾個還想去哪？\n* 等等，當我沒問。\n  你們去哪，關我什麼事呢？"
             : '<24>{#p/basic}{#k/2}* 哇哈哈...\n* 您來啦。\n* 好一個禍亂滔天啊！',
       menuPrompt4: '<23>{#p/basic}* ...但是大家都逃走了。',
       note: [ '<32>{#p/human}* （但沒有人給你留字條。）' ],
@@ -7987,7 +7988,7 @@ export default {
                        "<32>{#k/3}* ...那次一別，\n  此後就再也沒能見到家人。"
                     ],
                     [
-                       '<32>{#p/basic}{#k/0}* 艾羅戈，我們家園\n  上一個偉大時代的國王。',
+                       '<32>{#p/basic}{#k/0}* 艾羅戈，我們故園\n  上一個偉大時代的國王。',
                        "<32>* 我相信你一定讀過他的故事。",
                        ...(SAVE.storage.inventory.has('artifact') // NO-TRANSLATE
 

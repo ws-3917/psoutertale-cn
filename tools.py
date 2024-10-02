@@ -1,4 +1,4 @@
-import re, polib, os, sys, datetime, zhconv, string, random
+import re, polib, os, sys, datetime, zhconv, random
 from termcolor import colored
 from options import *
 from concurrent.futures import ProcessPoolExecutor, as_completed
@@ -677,8 +677,8 @@ def task_update():
     # 推送更改
     print(colored("--> 推送更改到Git仓库", "blue"))
     current_time = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-    #bashcmd(f"cd {TRANS_PATH} && git add . && git commit -m '{current_time} Update translation. \\nAuthor: {TRANS_AUTHOR}'")
-    #bashcmd(f"cd {TRANS_PATH} && git push origin master && git push -u github master")
+    bashcmd(f"cd {TRANS_PATH} && git add . && git commit -m '{current_time} Update translation. \\nAuthor: {TRANS_AUTHOR}'")
+    bashcmd(f"cd {TRANS_PATH} && git push origin master && git push -u github master")
 
     print(colored("--- 文本更新完成", "green"))
 
@@ -718,7 +718,7 @@ def task_release(version, comment):
     print(colored("--> 更新web服务器资源", "blue"))
     bashcmd(f"cd {SRC_PATH}/app/dist && scp -qr assets {WEB_PATH}")
     print(colored("--> 推送更改到Git仓库", "blue"))
-    for reponame in [SRC_PATH, GMS_PATH, MODS_PATH, TEXT_PATH]:
+    for reponame in [SRC_PATH, GMS_PATH, TEXT_PATH]:
         print(colored(f" -> {reponame}", "yellow"))
         current_time = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
         bashcmd(f"cd {reponame} && git add . && git commit -m "

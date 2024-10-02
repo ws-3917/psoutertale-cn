@@ -25,7 +25,7 @@ const toriel_aerialis = () =>
            '<25>{#p/toriel}{#f/1}* Escuché que hay un cierto tipo de fluido en Aerialis...',
            '<25>{#f/0}* Usado primariamente para atenuar la electricidad.',
            '<25>{#f/1}* Si pudieras llevarte este fluido, ¿hasta donde lo llevarías?',
-           '<25>{#f/1}* ¿Podrías llevarlo todo el camino hasta la Ciudadela?',
+           '<25>{#f/1}* ¿Lo llevarías todo el camino hasta la Capital?',
            '<25>{#f/1}* ¿O simplemente te desharías de este en una papelera de reciclaje?',
            '<25>{#f/0}* Que decepcionante seria eso.'
         ]
@@ -150,7 +150,7 @@ const toriel_aerialis = () =>
            ]
       : [
            '<25>{#p/toriel}{#f/1}* ¿Está todo bien por ahí, pequeñín?',
-           '<25>{#p/toriel}{#f/5}* Probablemente ya hayas estado en la Ciudadela ya.',
+           '<25>{#p/toriel}{#f/5}* Probablemente ya hayas estado en la Capital.',
            '<25>{#p/toriel}{#f/9}* ...',
            "<25>{#p/toriel}{#f/10}* Se bueno, ¿vale?"
         ];
@@ -167,7 +167,7 @@ export default {
          ...(SAVE.data.b.oops ? [] : [ "<32>{#p/basic}* ¿Puede que haya una llave en algún lugar...?" ])
       ],
       secret2: [ '<32>{#p/human}* (Usas la llave secreta.)' ],
-      exit: () => [ choicer.create('* (Abandonar las Outlands?)', 'Si', 'No') ],
+      exit: () => [ choicer.create('* (Abandonar las Afueras?)', 'Si', 'No') ],
       nosleep: [ '<32>{#p/human}* (Parece que algo te ha interrumpido el sueño.)' ],
       noequip: [ '<32>{#p/human}* (Decides no equiparlo)' ],
       finaltext: {
@@ -248,7 +248,7 @@ export default {
          ],
          d22: [ '<25>{#p/asriel1}{#f/15}* $(name)...' ],
          d23: [
-            "<32>{#p/basic}* Si no fuera por ti, el puesto habría sido destruido en una segunda guerra.",
+            "<32>{#p/basic}* Si no fuera por ti, la estación espacial habría sido destruido en una segunda guerra.",
             '<32>* Si no fuera por ti, los mismos monstruos que supuestamente intentaba salvar...',
             '<32>* ... habrían muerto junto a nosotros.'
          ],
@@ -653,7 +653,7 @@ export default {
             '<32>* \"Una nueva estrella apareció en el cielo hoy.\"',
             '<32>* \"Una muy vrillante.\"',
             '<32>* \"Me pregunto por que más estrellas no aparecen así todo el tiempo.\"',
-            '<32>* \"Además nos vamos a mudar a la nueva Ciudadela cuando sea construida.\"',
+            '<32>* \"Además nos vamos a mudar a la nueva Capital cuando sea construida.\"',
             '<32>* \"¡Vi sus planos de construcción, se ve increíble por ahora!\"',
             '<32>* \"Va a ser mucho mejor que vivir en la fábrica también.\"'
          ],
@@ -801,7 +801,7 @@ export default {
                  [
                     '<25>{#p/asriel1}{#f/13}* ¿Fuera de servicio otra vez?',
                     "<25>{#f/17}* Si, eso es... por diseño, en realidad.",
-                    "<25>{#f/13}* Esta máquina funciona con la energía de las Outlands, así que...",
+                    "<25>{#f/13}* Esta máquina funciona con la energía de las Afueras, así que...",
                     '<25>{#f/15}* Para evitar usar mucha energía, Toriel hizo que se rompiera sola.',
                     "<26>{#f/20}* No que te lo fuera a decir."
                  ],
@@ -962,7 +962,7 @@ export default {
       ],
       chair2d2: [
          '<25>{#p/toriel}{#f/1}{#n1}* Pero... este es tu hogar ahora, ¿no es así?',
-         '<99>{#p/human}{#n1!}* (¿Qué dices?){!}\n§shift=144§Como salir\n§shift=64§Sorry§shift=40§de las Outlands{#c/0/8/2}'
+         '<99>{#p/human}{#n1!}* (¿Qué dices?){!}\n§shift=144§Como salir\n§shift=64§Sorry§shift=40§de las Afueras{#c/0/8/2}'
       ],
       chair2d3: [
          '<25>{#p/toriel}{#f/5}{#n1}* Por favor, trata de entender...',
@@ -970,7 +970,7 @@ export default {
       ],
       chair2d4: [
          '<25>{#p/toriel}{#f/5}{#n1}* Mi niño...',
-         '<99>{#p/human}{#n1!}* (¿Qué dices?){!}\n§shift=144§Como salir\n§shift=64§Sorry§shift=40§de las Outlands{#c/0/8/2}'
+         '<99>{#p/human}{#n1!}* (¿Qué dices?){!}\n§shift=144§Como salir\n§shift=64§Sorry§shift=40§de las Afueras{#c/0/8/2}'
       ],
       chair2d5: [ '<25>{#p/toriel}{#f/5}{#n1}* ...' ],
       chair2d6: [
@@ -982,7 +982,7 @@ export default {
          SAVE.data.b.svr
             ? [
                  [
-                    "<25>{#p/asriel1}{#f/20}* Todavía no puedo creer que ella haya movido esto desde la Ciudadela.",
+                    "<25>{#p/asriel1}{#f/20}* Todavía no puedo creer que ella haya movido esto desde la Capital.",
                     "<25>{#f/17}* Pero... Entiendo por qué ella querría.",
                     '<25>{#f/13}* Mamá y esta silla suya se remontan desde hace mucho tiempo..'
                  ],
@@ -1129,253 +1129,253 @@ export default {
       drop_pie3: [ '<25>{#p/toriel}{#f/1}* Por favor no derrames comida en el suelo.' ],
       drop_snails: [ '<25>{#p/toriel}{#f/1}* Qué te han hecho esos pobres caracoles fritos.' ],
       drop_soda: [ "<32>{#p/basic}{#n1}* Aww ¡vamos! ;)", '<32>* ¡Puse mi corazón en eso! ;)' ],
-      drop_steak: [ '<32>{#p/basic}{#n1}* ¡¿Enserio!? ;)', '<32>* That steak was utterly priceless! ;)' ],
+      drop_steak: [ '<32>{#p/basic}{#n1}* ¡¿Enserio!? ;)', '<32>* ¡Ese filete no tenía precio! ;)' ],
       dummy1: [
-         '<25>{#p/toriel}{#f/0}* Your next lesson involves encounters with other monsters.',
-         '<25>{#f/1}* As a human roaming the outpost, it is likely you will be attacked...',
-         '<25>{#f/0}* If that happens, you will enter what is known as a FIGHT.',
-         '<25>{#f/0}* Thankfully, there are several ways to resolve one.',
-         '<25>{#f/1}* For now, I suggest striking up a friendly conversation...',
-         '<25>{#f/0}* ... thereby giving me a chance to sort out the conflict for you.'
+         '<25>{#p/toriel}{#f/0}* Tu próxima lección implica encuentros con otros monstruos.',
+         '<25>{#f/1}* Como eres un humano deambulando por la estación espacial, es probable que te ataquen...',
+         '<25>{#f/0}* Si eso pasa, entrarás en lo que se conoce como una PELEA.',
+         '<25>{#f/0}* Afortunadamente, hay varias formas de resolver una pelea.',
+         '<25>{#f/1}* Por ahora, Te sugiero entablar una conversación amistosa...',
+         '<25>{#f/0}* ... dándome así la oportunidad de resolver el conflicto por ti.'
       ],
-      dummy2: [ '<25>{#p/toriel}* To start, you may practice talking with the dummy.' ],
+      dummy2: [ '<25>{#p/toriel}* Para empezar, puedes practicar hablando con el maniquí.' ],
       dummy3: [
-         '<25>{#p/toriel}{#f/7}* ... you think that I am the dummy?',
-         '<25>{#f/6}* Hahaha!\n* How adorable!',
-         '<25>{#f/0}* Unfortunately, I am but a worrisome old lady.'
+         '<25>{#p/toriel}{#f/7}* ... ¿Crees que soy el maniquí?',
+         '<25>{#f/6}* ¡Jajaja!\n* ¡Qué adorable!',
+         '<25>{#f/0}* Desafortunadamente, no soy más que una señora mayor preocupada.'
       ],
       dummy4: [
-         '<25>{#p/toriel}* There is nothing to be afraid of, my child.',
-         '<25>* A simple training dummy cannot harm you.'
+         '<25>{#p/toriel}* No hay nada que tener miedo, mi niño.',
+         '<25>* Un simple maniquí de entrenamiento no puede lastimarte.'
       ],
-      dummy5: [ '<25>{#p/toriel}{#f/1}* Go on, little one...' ],
+      dummy5: [ '<25>{#p/toriel}{#f/1}* Vamos, pequeño...' ],
       dummy6: [
-         '<25>{#p/toriel}{#f/2}* Child, no!\n* The dummy was not made for fighting!',
-         '<25>{#f/1}* Besides, we do not want to hurt anyone, do we?',
-         '<25>{#f/0}* Come now.'
+         '<25>{#p/toriel}{#f/2}* ¡Niño, no!\n* ¡El muñeco no esta hecho para pelear!',
+         '<25>{#f/1}* Además, no queremos dañar a nadie, ¿verdad?',
+         '<25>{#f/0}* Vamos.'
       ],
-      dummy7: [ '<25>{#p/toriel}* Excellent!\n* You appear to be quite the fast learner.' ],
+      dummy7: [ '<25>{#p/toriel}* ¡Excelente!\n* Parece que aprendes muy rápido.' ],
       dummy8: [
-         '<25>{#p/toriel}{#f/1}* You ran away...?',
-         '<25>{#f/0}* Actually, that may have been a wise choice.',
-         '<26>{#f/1}* By escaping, you have avoided any potential conflict...',
-         '<25>{#f/0}* ... even if it WAS only a simple training dummy.'
+         '<25>{#p/toriel}{#f/1}* ¿Tú huiste...?',
+         '<25>{#f/0}* De hecho, puede que haya sido una sabia elección.',
+         '<26>{#f/1}* Habiendo escapado, evitaste cualquier posible conflicto...',
+         '<25>{#f/0}* ... incluso si solo ERA un simple muñeco de entrenamiento.'
       ],
-      dummy9: [ '<25>{#p/toriel}{#f/3}* ...', '<25>{#f/4}* ...', '<25>{#f/0}* The next room awaits.' ],
-      dummy9a: [ '<25>{#p/toriel}{#f/3}* ...', '<25>{#f/4}* ...', '<25>{#f/6}* The next room awaits.' ],
+      dummy9: [ '<25>{#p/toriel}{#f/3}* ...', '<25>{#f/4}* ...', '<25>{#f/0}* La siguiente habitación espera.' ],
+      dummy9a: [ '<25>{#p/toriel}{#f/3}* ...', '<25>{#f/4}* ...', '<25>{#f/6}* La siguiente habitación espera.' ],
       dummy10: [
-         '<25>{#p/toriel}{#f/7}* My child, that is...',
-         '<25>{#f/0}* ... that is perhaps the most adorable thing I have ever seen.',
-         '<25>{#f/0}* In any case, you have handled this lesson admirably.',
-         '<25>{#f/0}* The next room awaits.'
+         '<25>{#p/toriel}{#f/7}* Mi niño, eso es...',
+         '<25>{#f/0}* ... eso es quizás la cosa más adorable que he visto hasta ahora.',
+         '<25>{#f/0}* En cualquier caso, manejaste esta lección admirablemente.',
+         '<25>{#f/0}* La siguiente habitación espera.'
       ],
-      dummy11: [ '<25>{#p/toriel}* The next room awaits.' ],
+      dummy11: [ '<25>{#p/toriel}* La siguiente habitación espera.' ],
       dummy12: [
-         '<25>{#p/toriel}{#f/2}* My goodness, child!\n* Have mercy!',
+         '<25>{#p/toriel}{#f/2}* ¡Dios mío, niño!\n* ¡Ten piedad!',
          '<25>{#f/1}* ...',
-         '<25>{#f/0}* Thankfully, that was only a training dummy.',
-         '<25>{#f/1}* In the future, however, it would be wise...',
-         '<25>{#f/0}* ... not to slap people half to death!',
-         '<26>{#f/0}* Anywho.\n* The next room awaits.'
+         '<25>{#f/0}* Afortunadamente, ese solo fue un maniquí de entrenamiento.',
+         '<25>{#f/1}* Sin embargo, en el futuro, seria prudente...',
+         '<25>{#f/0}* ... ¡No matar a la gente a bofetadas!',
+         '<26>{#f/0}* Como sea.\n* La siguiente habitación espera.'
       ],
-      eat_pie: [ '<25>{#p/toriel}{#f/1}{#n1}* Tasty, is it not?' ],
-      eat_snails: [ '<25>{#p/toriel}{#f/0}{#n1}* I hope your breakfast sufficed.' ],
+      eat_pie: [ '<25>{#p/toriel}{#f/1}{#n1}* Delicioso, ¿verdad?' ],
+      eat_snails: [ '<25>{#p/toriel}{#f/0}{#n1}* Espero que tu desayuno haya sido suficiente.' ],
       eat_soda: [
-         '<32>{#p/basic}* Aaron pulled out his phone and snapped a picture.',
-         '<32>{#p/basic}{#n1}* Ooh, I could definitely put this on an poster somewhere ;)'
+         '<32>{#p/basic}* Aaron sacó su teléfono y tomó una foto.',
+         '<32>{#p/basic}{#n1}* Ooh, definitivamente podría poner esto en un póster en alguna parte ;)'
       ],
       eat_steak: [
-         '<32>{#p/basic}* Aaron shot you with a wink.',
-         '<32>{#p/basic}{#n1}* You like the product, lassy? ;)'
+         '<32>{#p/basic}* Aaron te hizo un guiño.',
+         '<32>{#p/basic}{#n1}* ¿Te gusta el producto, joven? ;)'
       ],
       endtwinkly2: [
-         '<32>{#p/basic}* Who does he think he is?',
-         "<32>* You've been nothing but kind to everyone we've met.",
-         '<32>* That talking star really needs to get a life...'
+         '<32>{#p/basic}* ¿Quién se cree que es?',
+         "<32>* No has sido más que amable con todos los que hemos conocido.",
+         '<32>* Enserio esa estrella parlante necesita conseguirse una vida...'
       ],
       endtwinklyA1: [
-         '<25>{#p/twinkly}{#f/12}* You idiot...',
-         "<25>* Didn't you hear me before!?",
-         '<25>* I thought I told you not to screw it up!',
-         "<25>* Now look what you've done to our plan.",
+         '<25>{#p/twinkly}{#f/12}* Tú, idiota...',
+         "<25>* ¡¿Qué acaso no me escuchaste antes!?",
+         '<25>* ¡Creí haberte dicho que no lo arruinaras!',
+         "<25>* Ahora mira lo que le hiciste a nuestro plan.",
          '<25>{#f/8}* ...',
-         '<25>{#f/6}* You better fix this, $(name).',
-         "<25>{#f/5}* It's our destiny."
+         '<25>{#f/6}* Sera mejor que arregles esto, $(name).',
+         "<25>{#f/5}* Es nuestro destino."
       ],
       endtwinklyA2: () =>
          SAVE.flag.n.genocide_milestone < 1
             ? [
-                 '<25>{#p/twinkly}{#f/5}* Howdy, $(name).',
-                 "<25>{#f/5}* Seems you don't want to play with me anymore.",
-                 '<25>{#f/6}* I tried being patient with you, but here we are...',
-                 '<25>{#f/6}* Back at the beginning again.',
-                 '<25>{#f/8}* Again, and again...',
-                 '<25>{#f/5}* You must think this is all very funny.',
-                 '<25>{#f/7}* Teasing me with the chance to be with you, only to tear it away...',
-                 "<25>{#f/5}* Well, that's fine.",
-                 "<25>{#f/5}* If that's the game you're going to play, then go right ahead.",
-                 "<25>{#f/11}* Just don't expect to be in control for long...",
-                 "<25>{#f/7}* Sooner or later, you're going to regret what you've done."
+                 '<25>{#p/twinkly}{#f/5}* Hola, $(name).',
+                 "<25>{#f/5}* Parece que ya no quieres jugar conmigo.",
+                 '<25>{#f/6}* Intente ser paciente contigo, pero aquí estamos...',
+                 '<25>{#f/6}* De vuelta al inicio otra vez.',
+                 '<25>{#f/8}* Una y otra y otra vez...',
+                 '<25>{#f/5}* Debes pensar que todo esto es muy divertido.',
+                 '<25>{#f/7}* Burlándote de mí con la oportunidad de estar contigo, sólo para arrebatármela...',
+                 "<25>{#f/5}* Bueno, eso esta bien.",
+                 "<25>{#f/5}* Si ese es el juego que vas a jugar, entonces adelante.",
+                 "<25>{#f/11}* Solo no esperes tener el control durante mucho tiempo....",
+                 "<25>{#f/7}* Tarde o temprano, vas a arrepentirte de lo que has hecho."
               ]
             : [
-                 '<25>{#p/twinkly}{#f/6}* Howdy, $(name).',
+                 '<25>{#p/twinkly}{#f/6}* Hola, $(name).',
                  ...(SAVE.flag.n.genocide_milestone < 7
                     ? [
-                         "<25>{#f/6}* I've had some time to think about what happened.",
-                         '<25>{#f/5}* It was thrilling, at first...',
-                         '<25>* The thought of taking the outpost by force together...',
-                         "<25>{#f/6}* But now, I'm not sure.",
+                         "<25>{#f/6}* He tenido algo de tiempo para pensar sobre lo que paso.",
+                         '<25>{#f/5}* Fue emocionante, al principio...',
+                         '<25>* La idea de tomar la estación espacial a la fuerza juntos...',
+                         "<25>{#f/6}* Pero ahora, no estoy seguro.",
                          '<25>{#f/8}* ...',
-                         '<25>{#f/8}* I guess... I got a bit carried away back there.',
-                         "<25>{#f/5}* But that's okay, right?\n* You'll forgive me, won't you?"
+                         '<25>{#f/8}* Supongo... que me dejé llevar un poco allí atrás.',
+                         "<25>{#f/5}* Pero eso esta bien, ¿verdad?\n* Me perdonaras, ¿no es así?"
                       ]
                     : [
-                         "<25>{#f/6}* I'm still not really sure what happened back there...",
-                         "<25>{#f/5}* It's... kinda scaring me, haha...",
+                         "<25>{#f/6}* Aún no estoy muy seguro de lo que paso ahí atrás",
+                         "<25>{#f/5}* Me está... asustando un poco, jaja...",
                          '<25>{#f/8}* ...',
-                         '<25>{#f/8}* Maybe... we should hold off on things for now.',
-                         "<25>{#f/5}* But that's okay, right?\n* You'll be fine with that, won't you?"
+                         '<25>{#f/8}* Tal vez... deberíamos esperar un poco por ahora.',
+                         "<25>{#f/5}* Pero eso esta bien, ¿verdad?\n* Estarás bien con eso, ¿no es así?"
                       ]),
                  '<25>{#f/6}* ...',
-                 '<25>{#f/8}* Goodbye, $(name)...',
-                 ...(SAVE.flag.n.genocide_milestone < 7 ? [ "<25>{#f/5}* I'll be back before you know it." ] : [])
+                 '<25>{#f/8}* Adiós, $(name)...',
+                 ...(SAVE.flag.n.genocide_milestone < 7 ? [ "<25>{#f/5}* Volveré antes de que te des cuenta." ] : [])
               ],
       endtwinklyAreaction: [
-         '<32>{#p/basic}* Sorry, did I miss something?',
-         "<32>* I've never talked to him in my life, let alone go on some mission with him.",
-         "<32>* Oh well.\n* It wouldn't be the first time he's made up stories about me."
+         '<32>{#p/basic}* Perdón, ¿me he perdido algo?',
+         "<32>* Nunca he hablado con él en mi vida, y mucho menos ir a alguna misión con él.",
+         "<32>* Oh bueno.\n* No sería la primera vez que inventa historias sobre mí."
       ],
       endtwinklyB: () =>
          SAVE.data.b.w_state_lateleave
             ? [
-                 '<25>{#p/twinkly}{#f/5}{#v/0}* Well.\n* That was unexpected.',
-                 "<25>{#f/11}{#v/0}* You think you can just break the rules, don'tcha?",
-                 '<25>{#f/7}{#v/0}* Hee hee hee...',
-                 "<25>{#f/0}{#v/1}* In this world, it's KILL or BE killed."
+                 '<25>{#p/twinkly}{#f/5}{#v/0}* Bueno.\n* Eso fue inesperado.',
+                 "<25>{#f/11}{#v/0}* Piensas que puedes romper las reglas, ¿no?",
+                 '<25>{#f/7}{#v/0}* Ji ji ji...',
+                 "<25>{#f/0}{#v/1}* En este mundo, es MATAR o MORIR."
               ]
             : [
-                 '<25>{#p/twinkly}{#f/5}{#v/0}* Clever.\n* Verrrryy clever.',
-                 "<25>{#f/11}{#v/0}* You think you're really smart, don'tcha?",
-                 '<25>{#f/7}{#v/0}* Hee hee hee...',
-                 "<25>{#f/0}{#v/1}* In this world, it's KILL or BE killed."
+                 '<25>{#p/twinkly}{#f/5}{#v/0}* Listo.\n* Eres muyyyy listo.',
+                 "<25>{#f/11}{#v/0}* Realmente crees que eres inteligente, ¿verdad?",
+                 '<25>{#f/7}{#v/0}* Ji ji ji...',
+                 "<25>{#f/0}{#v/1}* En este mundo, es MATAR o MORIR."
               ],
       endtwinklyB2: [
-         '<25>{#f/8}{#v/0}* If you had just killed a FEW more monsters...',
-         "<25>{#f/9}{#v/0}* Well, maybe I shouldn't reveal my plans this early.",
-         '<25>{#f/7}{#v/0}* You know, $(name)...',
-         "<25>{#f/5}{#v/0}* It's only a matter of time before we're together again.",
-         '<25>{#f/6}{#v/0}* Try a little harder next time, and maybe...',
-         "<25>{#f/5}{#v/0}* You'll get to see something new.",
-         '<25>{#f/11}{#v/0}* Until we meet again...'
+         '<25>{#f/8}{#v/0}* Si solo hubieras matado a unos cuantos monstruos más...',
+         "<25>{#f/9}{#v/0}* Bueno, tal vez no debí revelar mis planes tan pronto.",
+         '<25>{#f/7}{#v/0}* Sabes, $(name)...',
+         "<25>{#f/5}{#v/0}* Es sólo cuestión de tiempo para que volvamos a estar juntos.",
+         '<25>{#f/6}{#v/0}* Inténtalo un poco más la próxima vez y tal vez...',
+         "<25>{#f/5}{#v/0}* Podrás ver algo nuevo.",
+         '<25>{#f/11}{#v/0}* Hasta que nos encontremos de nuevo...'
       ],
       endtwinklyB3: [
-         '<25>{#f/8}{#v/0}* If you had just killed ONE more monster...',
-         "<25>{#f/9}{#v/0}* Well, maybe I shouldn't reveal my plans this early.",
-         '<25>{#f/7}{#v/0}* You know, $(name)...',
-         "<25>{#f/5}{#v/0}* It's only a matter of time before we're together again.",
-         '<25>{#f/6}{#v/0}* Try a little harder next time, and maybe...',
-         "<25>{#f/5}{#v/0}* You'll get to see something new.",
-         '<25>{#f/11}{#v/0}* Until we meet again...'
+         '<25>{#f/8}{#v/0}* Si solo hubieras matado a UN monstruo más...',
+         "<25>{#f/9}{#v/0}* Bueno, tal vez no debí revelar mis planes tan pronto.",
+         '<25>{#f/7}{#v/0}* Sabes, $(name)...',
+         "<25>{#f/5}{#v/0}* Es sólo cuestión de tiempo para que volvamos a estar juntos.",
+         '<25>{#f/6}{#v/0}* Inténtalo un poco más la próxima vez y tal vez...',
+         "<25>{#f/5}{#v/0}* Podrás ver algo nuevo.",
+         '<25>{#f/11}{#v/0}* Hasta que nos encontremos de nuevo...'
       ],
       endtwinklyBA: () => [
          SAVE.data.n.state_wastelands_napstablook === 5
-            ? '<25>{#p/twinkly}{#f/6}{#v/0}* So you made it through without killing anyone.'
-            : '<25>{#p/twinkly}{#f/6}{#v/0}* So you spared the life of everyone you came across.',
-         '<25>{#f/5}{#v/0}* I bet you feel really great.',
-         '<25>{#f/2}{#v/1}* But what will you do if you meet a serial murderer?',
-         "<25>{#f/9}{#v/0}* You'll die, and you'll die, and you'll die...",
-         "<25>{#f/5}{#v/0}* Eventually, you'll tire of trying.",
-         '<25>{#f/11}{#v/0}* What then, huh?',
-         '<25>{#f/2}{#v/1}* Will you KILL out of frustration?',
-         '<25>{#f/14}{#v/1}* Or will you simply GIVE UP?',
-         '<25>{#f/11}{#v/0}* Hee hee hee...',
-         '<25>{#f/7}{#v/0}* This is gonna be SO much fun.',
-         "<25>{#f/9}{#v/0}* I'll be watching!"
+            ? '<25>{#p/twinkly}{#f/6}{#v/0}* Así que lo hiciste sin matar a nadie.'
+            : '<25>{#p/twinkly}{#f/6}{#v/0}* Así que perdonaste la vida de todos con los que te cruzaste.',
+         '<25>{#f/5}{#v/0}* Apuesto a que te sientes genial.',
+         '<25>{#f/2}{#v/1}* ¿Pero qué harás si te encuentras con un asesino despiadado?',
+         "<25>{#f/9}{#v/0}* Morirás y morirás y morirás...",
+         "<25>{#f/5}{#v/0}* Hasta que eventualmente te canses de intentarlo.",
+         '<25>{#f/11}{#v/0}* ¿Qué harás entonces, eh?',
+         '<25>{#f/2}{#v/1}* ¿Matarás por tu frustración?',
+         '<25>{#f/14}{#v/1}* ¿O simplemente te rendirás?',
+         '<25>{#f/11}{#v/0}* Ji ji ji...',
+         '<25>{#f/7}{#v/0}* Esto va a ser TAN divertido.',
+         "<25>{#f/9}{#v/0}* ¡Te estaré vigilando!"
       ],
       endtwinklyBB1: () => [
          SAVE.data.b.w_state_lateleave
-            ? "<25>{#p/twinkly}{#f/6}{#v/0}* So you managed to stay out of a few measly people's way."
-            : '<25>{#p/twinkly}{#f/6}{#v/0}* So you spared the life of a few measly people.',
-         '<25>{#f/11}{#v/0}* But what about the others, huh?',
+            ? "<25>{#p/twinkly}{#f/6}{#v/0}* Así que te las arreglaste para mantenerte fuera del camino de unas míseras personas."
+            : '<25>{#p/twinkly}{#f/6}{#v/0}* Así que le perdonaste la vida a unas míseras personas.',
+         '<25>{#f/11}{#v/0}* ¿Pero qué pasa con los demás, eh?',
          '<25>{#f/7}{#v/0}* Froggit, Flutterlyte, Gelatini, Silente, Oculoux, Mushy...',
-         "<25>{#f/6}{#v/0}* Don'tcha think any of them have families?",
-         "<25>{#f/8}{#v/0}* Don'tcha think any of them have friends?",
-         "<25>{#f/5}{#v/0}* Each one could've been someone else's Toriel.",
+         "<25>{#f/6}{#v/0}* ¿No crees que alguno de ellos tienen familias?",
+         "<25>{#f/8}{#v/0}* ¿No crees que alguno de ellos tiene amigos?",
+         "<25>{#f/5}{#v/0}* Cada uno podría haber sido la Toriel de otra persona",
          '<25>{#f/5}{#v/0}* ...',
-         '<25>{#f/7}{#v/0}* Selfish brat.',
-         '<25>{#f/0}{#v/1}* Monsters are dead because of you.'
+         '<25>{#f/7}{#v/0}* Mocoso egoísta.',
+         '<25>{#f/0}{#v/1}* Los monstruos han muerto por tu culpa.'
       ],
       endtwinklyBB2: () => [
          SAVE.data.b.w_state_lateleave
-            ? "<25>{#p/twinkly}{#f/6}{#v/0}* So you managed to stay out of one person's way."
-            : '<25>{#p/twinkly}{#f/6}{#v/0}* So you spared the life of a single person.',
-         '<25>{#f/11}{#v/0}* But what about everyone else, huh?',
+            ? "<25>{#p/twinkly}{#f/6}{#v/0}* Así que te las arreglaste para mantenerte fuera del camino de una persona."
+            : '<25>{#p/twinkly}{#f/6}{#v/0}* Así que le perdonaste la vida a una sola persona.',
+         '<25>{#f/11}{#v/0}* ¿Pero qué pasa con los demas, eh?',
          '<25>{#f/7}{#v/0}* Froggit, Flutterlyte, Gelatini, Silente, Oculoux, Mushy...',
-         "<25>{#f/0}{#v/0}* They're all gone now.",
-         "<25>{#f/11}{#v/0}* What's Toriel gonna do when she finds out, huh?",
-         '<25>{#f/2}{#v/1}* What if she KILLS herself out of grief?',
-         "<25>{#f/11}{#v/0}* If you think you're saving her just by SPARING her...",
-         "<25>{#f/7}{#v/0}* Then you're even dumber than I thought.",
-         '<25>{#f/9}* Well, see ya!'
+         "<25>{#f/0}{#v/0}* Ahora ya se han ido todos.",
+         "<25>{#f/11}{#v/0}* ¿Qué va a hacer Toriel cuando se entere, eh?",
+         '<25>{#f/2}{#v/1}* ¿Qué pasa si se suicida por la pena?',
+         "<25>{#f/11}{#v/0}* Si crees que la estás salvando sólo por perdonarla...",
+         "<25>{#f/7}{#v/0}* Entonces eres más tonto de lo que pensaba.",
+         '<25>{#f/9}* Bueno, ¡nos vemos!'
       ],
       endtwinklyBB3: () => [
          SAVE.data.b.w_state_lateleave
-            ? "<25>{#p/twinkly}{#f/6}{#v/0}* So you managed to stay out of almost everyone's way."
-            : '<25>{#p/twinkly}{#f/6}{#v/0}* So you spared the life of almost everyone.',
+            ? "<25>{#p/twinkly}{#f/6}{#v/0}* Así que te las arreglaste para mantenerte al margen de casi todo el mundo."
+            : '<25>{#p/twinkly}{#f/6}{#v/0}* Así que le perdonaste la vida a casi todos.',
          SAVE.data.b.w_state_lateleave
-            ? '<25>{#p/twinkly}{#f/11}{#v/0}* But what about the one you DID get in the way of, huh?'
-            : "<25>{#p/twinkly}{#f/11}{#v/0}* But what about the one you DIDN'T spare, huh?",
+            ? '<25>{#p/twinkly}{#f/11}{#v/0}* ¿Pero qué pasa con al que SÍ te pusiste en su camino, eh?'
+            : "<25>{#p/twinkly}{#f/11}{#v/0}* ¿Pero qué pasa con a quién NO perdonaste, eh?",
          '<25>{#f/7}{#v/0}* Froggit, Flutterlyte, Gelatini, Silente, Oculoux, Mushy...',
-         "<25>{#f/6}{#v/0}* Don'tcha think any of them have families?",
-         "<25>{#f/8}{#v/0}* Don'tcha think any of them have friends?",
-         "<25>{#f/5}{#v/0}* The one you killed could've been someone else's Toriel.",
+         "<25>{#f/6}{#v/0}* ¿No crees que alguno de ellos tienen familias?",
+         "<25>{#f/8}{#v/0}* ¿No crees que alguno de ellos tiene amigos?",
+         "<25>{#f/5}{#v/0}* A quién mataste podría haber sido la Toriel de alguien más.",
          '<25>{#f/5}{#v/0}* ...',
-         '<25>{#f/7}{#v/0}* Selfish brat.',
-         "<25>{#f/0}{#v/1}* Someone's dead because of you."
+         '<25>{#f/7}{#v/0}* Mocoso egoísta.',
+         "<25>{#f/0}{#v/1}* Alguien está muerto por tu culpa."
       ],
       endtwinklyBC: [
-         "<25>{#p/twinkly}{#f/5}{#v/0}* I'm sure you're well aware of that, though...",
-         "<25>{#f/6}{#v/0}* Considering you've already killed Toriel once before.",
-         "<25>{#f/7}{#v/0}* Ain't that right, brat?",
-         '<25>{#f/2}{#v/1}* You MURDERED her.',
-         "<25>{#f/7}{#v/0}* And then, you felt bad...\n* Ain't that right?",
-         '<25>{#f/7}{#v/0}* Hee hee hee...',
-         "<25>{#f/11}{#v/0}* Do you think you're the only one with that power?",
-         '<25>{#f/6}{#v/0}* The power to reshape the universe, purely by your determination...',
-         '<25>{#f/8}{#v/0}* The power to SAVE...',
-         '<25>{#f/7}{#v/0}* That used to be MY power, you know.',
-         '<25>{#f/6}{#v/0}* Seems YOUR desires for this world override MINE.',
-         '<25>{#f/5}{#v/0}* Well then.\n* Enjoy that power while you can.',
-         "<25>{#f/9}{#v/0}* I'll be watching!"
+         "<25>{#p/twinkly}{#f/5}{#v/0}* Aunque estoy seguro de que lo sabes muy bien...",
+         "<25>{#f/6}{#v/0}* Considerando que ya has matado a Toriel una vez antes.",
+         "<25>{#f/7}{#v/0}* ¿No es cierto, mocoso?",
+         '<25>{#f/2}{#v/1}* La ASESINASTE.',
+         "<25>{#f/7}{#v/0}* Y entonces, te sentiste mal...\n* ¿No es así?",
+         '<25>{#f/7}{#v/0}* Ji ji ji...',
+         "<25>{#f/11}{#v/0}* ¿Piensas que eres el único con ese poder?",
+         '<25>{#f/6}{#v/0}* El poder de remodelar el universo, sólo con tu determinación...',
+         '<25>{#f/8}{#v/0}* El poder para GUARDAR...',
+         '<25>{#f/7}{#v/0}* Ese solía ser mi poder, ¿sabes?.',
+         '<25>{#f/6}{#v/0}* Parece que TUS deseos para este mundo superan los míos.',
+         '<25>{#f/5}{#v/0}* Bien entonces.\n* Disfruta ese poder mientras puedas.',
+         "<25>{#f/9}{#v/0}* ¡Te estaré vigilando!"
       ],
       endtwinklyC: [
-         '<25>{#f/7}{#v/0}* After all, this used to be MY power.',
-         '<25>{#f/6}{#v/0}* The power to reshape the universe, purely by your determination...',
-         '<25>{#f/8}{#v/0}* The power to SAVE...',
-         '<25>{#f/6}{#v/0}* I thought I was the only one who could do that.',
-         '<25>{#f/6}{#v/0}* Seems YOUR desires for this world override MINE.',
-         '<25>{#f/5}{#v/0}* Well then.\n* Enjoy that power while you can.',
-         "<25>{#f/9}{#v/0}* I'll be watching!"
+         '<25>{#f/7}{#v/0}* Después de todo, ese solía ser MI poder.',
+         '<25>{#f/6}{#v/0}* El poder de remodelar el universo, sólo con tu determinación...',
+         '<25>{#f/8}{#v/0}* El poder para GUARDAR...',
+         '<25>{#f/6}{#v/0}* Yo pensé que era el único que podía hacer eso.',
+         '<25>{#f/6}{#v/0}* Parece que TUS deseos para este mundo superan los míos.',
+         '<25>{#f/5}{#v/0}* Bien entonces.\n* Disfruta ese poder mientras puedas.',
+         "<25>{#f/9}{#v/0}* ¡Te estaré vigilando!"
       ],
       endtwinklyD: [
-         "<25>{#p/twinkly}{#f/11}{#v/0}* You're one hell of a tease, huh?",
-         '<25>{#f/8}{#v/0}* Beating monsters to the brink of death, only to let them go...',
-         "<25>{#f/7}{#v/0}* What will you do if a monster doesn't WANT your mercy?",
-         '<25>{#f/6}{#v/0}* Will you snuff the light out of their eyes?',
-         '<25>{#f/5}{#v/0}* Or will you realize your faulty \"pacifism\" is for nothing?',
-         '<25>{#f/11}{#v/0}* Hee hee hee...',
-         '<25>{#f/7}{#v/0}* This is gonna be SO much fun.',
-         "<25>{#f/9}{#v/0}* I'll be watching!"
+         "<25>{#p/twinkly}{#f/11}{#v/0}* Eres un gran bromista, ¿Eh?",
+         '<25>{#f/8}{#v/0}* Golpeando a los monstruos hasta el borde de la muerte, solo para dejarlos ir ...',
+         "<25>{#f/7}{#v/0}* ¿Que harás cuando un monstruo no QUIERA tu piedad?",
+         '<25>{#f/6}{#v/0}* ¿Apagaras la luz de sus ojos?',
+         '<25>{#f/5}{#v/0}* ¿O te darás cuenta de que tu \"pacifismo\" defectuoso no sirve para nada?',
+         '<25>{#f/11}{#v/0}* Ji ji ji...',
+         '<25>{#f/7}{#v/0}* Esto va a ser TAN divertido.',
+         "<25>{#f/9}{#v/0}* ¡Te estaré vigilando!"
       ],
       endtwinklyE: [
-         "<25>{#p/twinkly}{#f/7}{#v/0}* Wow, you're utterly repulsive.",
-         '<26>{#f/11}{#v/0}* You got by peacefully...',
-         "<25>{#f/5}{#v/0}* Then, you figured that wasn't good enough for you.",
-         '<25>{#f/2}{#v/1}* So you KILLED her just to see what would happen.',
-         '<25>{#f/7}{#v/0}* Hee hee hee...',
-         '<25>{#f/0}{#v/0}* You did it out of BOREDOM.'
+         "<25>{#p/twinkly}{#f/7}{#v/0}* Wow, eres completamente repulsivo.",
+         '<26>{#f/11}{#v/0}* Te las arreglaste pacíficamente...',
+         "<25>{#f/5}{#v/0}* Entonces, te diste cuenta de que eso no era lo suficientemente bueno para ti.",
+         '<25>{#f/2}{#v/1}* Así que la MATASTE sólo para ver qué pasaba.',
+         '<25>{#f/7}{#v/0}* Ji ji ji...',
+         '<25>{#f/0}{#v/0}* Lo hiciste por ABURRIMIENTO.'
       ],
-      endtwinklyEA: [ "<25>{#f/11}{#v/0}* Don't think I don't know how this works..." ],
+      endtwinklyEA: [ "<25>{#f/11}{#v/0}* No creas que no sé cómo funciona esto..." ],
       endtwinklyEB: [ "<25>{#f/6}{#v/0}* It's sad, though..." ],
       endtwinklyF: [ '<25>{#p/twinkly}{#f/11}{#v/0}* Look at you, playing with her life like this...' ],
       endtwinklyFA: [ '<25>{#f/7}{#v/0}* Killing her, leaving her, killing her again...' ],
@@ -1385,14 +1385,14 @@ export default {
          '<25>{#f/6}{#v/0}* Endlessly toying with the lives of others...',
          '<25>{#f/8}{#v/0}* Watching how they react to every possible decision...',
          "<25>{#f/11}{#v/0}* Isn't it thrilling?",
-         '<25>{#f/7}{#v/0}* Hee hee hee...',
+         '<25>{#f/7}{#v/0}* Ji ji ji...',
          "<25>{#f/9}{#v/0}* I wonder what you'll do next.",
          "<25>{#f/5}{#v/0}* I'll be watching..."
       ],
       endtwinklyG: [
          "<25>{#p/twinkly}{#f/10}{#v/0}* You just can't get enough, can you~",
          '<25>{#f/11}{#v/0}* How many more times will you KILL her, eh?',
-         '<25>{#f/7}{#v/0}* Hee hee hee...',
+         '<25>{#f/7}{#v/0}* Ji ji ji...',
          '<25>{#f/0}{#v/1}* You kinda remind me of myself.',
          '<25>{#f/9}{#v/0}* Well, cya!'
       ],
@@ -1411,7 +1411,7 @@ export default {
          '<25>{#f/5}{#v/0}* And after all that KILLING...',
          '<25>{#f/11}{#v/0}* Say, was this your idea all along?',
          '<25>{#f/2}{#v/1}* To get a rush out of her death, then spare her once you got bored?',
-         '<25>{#f/7}{#v/0}* Hee hee hee...',
+         '<25>{#f/7}{#v/0}* Ji ji ji...',
          '<25>{#f/11}{#v/0}* What a saint you must think you are.',
          "<25>{#f/5}{#v/0}* But hey, it's not as if I don't know how this works..."
       ],
@@ -1419,7 +1419,7 @@ export default {
          '<25>{#p/twinkly}{#f/11}{#v/0}* Hee hee hee...',
          '<25>{#f/7}{#v/0}* I hope you like your choice.',
          "<25>{#f/9}{#v/0}* I mean, it's not as if you can go back and change fate.",
-         "<25>{#f/0}{#v/1}* In this world, it's KILL or BE killed.",
+         "<25>{#f/0}{#v/1}* En este mundo, es MATAR o MORIR.",
          '<25>{#f/5}{#v/0}* That old woman thought she could break the rules.',
          '<25>{#f/8}{#v/0}* She tried so hard to save you humans...',
          "<25>{#f/6}{#v/0}* But when it came down to it, she couldn't even save herself."
@@ -1429,7 +1429,7 @@ export default {
          '<25>{#f/11}{#v/0}* So you finally caved in and killed someone, huh?',
          '<25>{#f/7}{#v/0}* Well, I hope you like your choice.',
          "<25>{#f/9}{#v/0}* I mean, it's not as if you can go back and change fate.",
-         "<25>{#f/0}{#v/1}* In this world, it's KILL or BE killed.",
+         "<25>{#f/0}{#v/1}* En este mundo, es MATAR o MORIR.",
          "<25>{#f/8}{#v/0}* ... what's wrong?\n* Did she not last as long as you thought?",
          '<26>{#f/6}{#v/0}* Oh, how terrible.\n* Guess not everyone can be beat into submission.'
       ],
@@ -1442,7 +1442,7 @@ export default {
          '<25>{#f/11}{#v/0}* Hah!\n* What a joke.',
          '<25>{#f/6}{#v/0}* ...',
          '<25>{#f/6}{#v/0}* How did it feel to finally satisfy your violent side?',
-         '<25>{#f/7}{#v/0}* Hee hee hee...',
+         '<25>{#f/7}{#v/0}* Ji ji ji...',
          "<25>{#f/0}{#v/1}* I bet it felt GOOD, didn't it?",
          '<25>{#f/11}{#v/0}* I mean, I should know...'
       ],
@@ -1478,11 +1478,11 @@ export default {
          "<25>{#f/7}{#v/0}* Sooner or later, you'll be forced to realize that.",
          '<25>{#f/11}{#v/0}* And when that time comes...',
          "<25>{#f/5}{#v/0}* Well, let's just say I'm interested to see what happens.",
-         '<25>{#f/11}{#v/0}* Hee hee hee...',
+         '<25>{#f/11}{#v/0}* Ji ji ji...',
          '<25>{#f/9}{#v/0}* Good luck!'
       ],
       endtwinklyKB: [
-         '<25>{#f/11}{#v/0}* Hee hee hee...',
+         '<25>{#f/11}{#v/0}* Ji ji ji...',
          "<25>{#f/7}{#v/0}* Maybe that's why you killed that one monster.",
          '<25>{#f/8}{#v/0}* I mean, you went almost the whole way without killing anyone...',
          '<25>{#f/6}{#v/0}* But somewhere along the line, you screwed up.',
@@ -1491,7 +1491,7 @@ export default {
          '<25>{#f/11}{#v/0}* What a joke!'
       ],
       endtwinklyKC: [
-         '<25>{#f/11}{#v/0}* Hee hee hee...',
+         '<25>{#f/11}{#v/0}* Ji ji ji...',
          "<25>{#f/7}{#v/0}* Maybe that's why you killed those other monsters.",
          '<25>{#f/8}{#v/0}* I mean, you had a good run, but...',
          "<25>{#f/6}{#v/0}* What's the point in mercy if it doesn't mean anything?",
@@ -1503,7 +1503,7 @@ export default {
       ],
       endtwinklyKD: [
          "<25>{#f/11}{#v/0}* What's wrong with killing Toriel, huh?\n* Too good for that?",
-         '<25>{#f/7}{#v/0}* Hee hee hee...',
+         '<25>{#f/7}{#v/0}* Ji ji ji...',
          "<25>{#f/2}{#v/1}* I know you're still rotten to the core.",
          '<25>{#f/11}{#v/0}* I mean, you managed to take out everyone in your path...',
          '<25>{#f/6}{#v/0}* But when it came to the final hurdle, you failed.',
@@ -1518,7 +1518,7 @@ export default {
          '<25>{#f/6}{#v/0}* I dunno.',
          '<25>{#f/5}{#v/0}* There is one thing, though...',
          "<25>{#f/5}{#v/0}* One thing I KNOW you haven't done yet.",
-         '<25>{#f/11}{#v/0}* Hee hee hee...',
+         '<25>{#f/11}{#v/0}* Ji ji ji...',
          "<25>{#f/7}{#v/0}* That's right.",
          "<25>{#f/7}{#v/0}* You haven't killed everyone here in one run yet.",
          "<25>{#f/11}{#v/0}* Aren't you at least a LITTLE curious?",
@@ -2309,7 +2309,7 @@ export default {
          '<25>{#f/0}* Please, make yourself at home!'
       ],
       runaway1: [
-         [ '<25>{#p/toriel}{#f/1}* Should you not play at the house instead?', '<25>{#f/0}* Come now.' ],
+         [ '<25>{#p/toriel}{#f/1}* Should you not play at the house instead?', '<25>{#f/0}* Vamos.' ],
          [ '<25>{#p/toriel}{#f/9}* Child, it is dangerous to play out here.', '<25>{#f/5}* Trust me.' ],
          [ '<26>{#p/toriel}{#f/5}* The gravity is low here.\n* You will float away.' ],
          [ '<25>{#p/toriel}{#f/5}* The atmopsheric system is weak here.\n* You will suffocate.' ],

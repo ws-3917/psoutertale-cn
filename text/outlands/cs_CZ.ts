@@ -260,16 +260,16 @@ export default {
          ],
          d26: [
             '<25>{#p/asriel1}{#f/25}* Odpouštím vám, $(name)!',
-            "<25>{#f/23}* Alright?\n* You don't have to do this...",
-            '<25>{#f/22}* I know how strongly you felt back then, and...',
-            "<25>{#f/15}* I wouldn't want you to change your mind just because I..."
+            "<25>{#f/23}* Dobře?\n* Nemusíš to dělat...",
+            '<25>{#f/22}* Vím, jak silně jsi se tehdy cítil, a...',
+            "<25>{#f/15}* Nechtěl bych, abys změnil názor jen proto, že..."
          ],
          d27: [
-            '<32>{#p/basic}* No.\n* Not anymore.',
-            '<32>* People CAN change, Asriel...',
-            "<32>* Isn't that what you always believed?"
+            '<32>{#p/basic}* Ne.\n* Už ne.',
+            '<32>* Lidé se mohou změnit, Asriel...',
+            "<32>* Není to to, čemu jsi vždycky věřil?"
          ],
-         d28: [ '<25>{#p/asriel1}{#f/13}* ... I still do.' ],
+         d28: [ '<25>{#p/asriel1}{#f/13}* ... Pořád to věřím.' ],
          d29: [
             "<32>{#p/basic}* I've spent the past hundred years wallowing in self-pity.",
             "<32>* I've spent the past hundred years holding a grudge I never should've had.",

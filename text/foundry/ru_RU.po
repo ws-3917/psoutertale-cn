@@ -1,21 +1,7 @@
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-21 10:25+0000\n"
-"PO-Revision-Date: 2024-10-01 13:29+0000\n"
-"Last-Translator: Maxim Aksenov <me6696154@gmail.com>\n"
-"Language-Team: Russian <https://ws3917.site/projects/project-spacetime/"
-"3-foundry/ru/>\n"
-"Language: ru_RU\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.7.2\n"
 
-#
 msgid "<32>{#p/basic}* ..."
 msgstr ""
 
@@ -5627,8 +5613,8 @@ msgstr ""
 msgid ""
 "<32>* Don't worry about pipes, unless you're slidin' through em to escape!"
 msgstr ""
-"<32>* Не волнуйся о трубах, если ты не собираешься по ним пробираться, чтобы "
-"уйти!"
+"<32>* Не волнуйся о трубах, если ты не собираешься по ним пробираться, чтобы"
+" уйти!"
 
 msgid ""
 "<32>* Got it, Skrubby?\n"
@@ -6157,7 +6143,8 @@ msgid "<25>{#p/asriel1}{#f/13}* It's kind of funny to think about..."
 msgstr "<25>{#p/asriel1}{#f/13}* Это забавно, если подумать..."
 
 msgid "<25>{#f/13}* The house we used to live in is now lived in by Undyne."
-msgstr "<25>{#f/13}* Дом, в котором мы жили раньше, сейчас принадлежит Андайн."
+msgstr ""
+"<25>{#f/13}* Дом, в котором мы жили раньше, сейчас принадлежит Андайн."
 
 msgid "<25>{#f/17}* Or was, until the force field was destroyed."
 msgstr "<25>{#f/17}* Так было, пока силовое поле не было разрушено."
@@ -6445,7 +6432,8 @@ msgstr "<25>{#f/20}* Не то чтобы это стало менее инте�
 
 msgid ""
 "<25>{#p/asriel1}{#f/16}* I am surprised that Sans even keeps this around."
-msgstr "<25>{#p/asriel1}{#f/16}* Я удивлён, что Санс даже не забывает об этом."
+msgstr ""
+"<25>{#p/asriel1}{#f/16}* Я удивлён, что Санс даже не забывает об этом."
 
 msgid "<25>{#f/3}* He used to work at the lab, though, so..."
 msgstr "<25>{#f/3}* Он работал в лаборатории, так что..."
@@ -6552,7 +6540,6 @@ msgstr "<32>{#p/basic}* Кому - то любопытно."
 msgid "<32>{#p/basic}* Something dangerous..."
 msgstr "<32>{#p/basic}* Что - то опасное."
 
-#, fuzzy
 msgid "<32>{#p/basic}* Someone mysterious..."
 msgstr "<32>{#p/basic}* Кто-то таинственный..."
 
@@ -6582,8 +6569,8 @@ msgid ""
 "<32>* You think you can just walk by an ELITE squad volunteer and get away "
 "with it?"
 msgstr ""
-"<32>* Ты думаешь, что можешь просто пройти мимо ЭЛИТНОГО отряда волонтёров и "
-"остаться безнаказанным?"
+"<32>* Ты думаешь, что можешь просто пройти мимо ЭЛИТНОГО отряда волонтёров и"
+" остаться безнаказанным?"
 
 msgid ""
 "<32>* Ahuhuhu~\n"
@@ -6637,13 +6624,16 @@ msgstr "* Великий папирус."
 
 msgid ""
 "<25>{#f/2}* well... i consider that a {@fill=#ff0}great victory{@fill=#fff}."
-msgstr "<25>{#f/2}* Ну... я считаю это {@fill=#ff0}великой победой{@fill=#fff}."
+msgstr ""
+"<25>{#f/2}* Ну... я считаю это {@fill=#ff0}великой победой{@fill=#fff}."
 
 msgid "<25>{#f/0}* whaddya say we celebrate the occasion at grillby's?"
-msgstr "<25>{#f/0}* Как насчёт того, чтобы отпраздновать это событие в гриллби?"
+msgstr ""
+"<25>{#f/0}* Как насчёт того, чтобы отпраздновать это событие в гриллби?"
 
 msgid "<25>{#f/3}* getting in papyrus's good books earns you a spot in mine."
-msgstr "<25>{#f/3}* попав в хорошие книги Папируса, ты получаешь место в шахте."
+msgstr ""
+"<25>{#f/3}* попав в хорошие книги Папируса, ты получаешь место в шахте."
 
 msgid "Yeah"
 msgstr "Да"
@@ -6651,7 +6641,6 @@ msgstr "Да"
 msgid "Nah"
 msgstr "Нет"
 
-#, fuzzy
 msgid ""
 "<25>{#p/sans}* my offer remains.\n"
 "* grillby's?"
@@ -6690,7 +6679,6 @@ msgstr "<25>{#p/sans}* Быстрый короткий путь, да?"
 msgid "<25>{#p/sans}* hey everyone."
 msgstr "<25>{#p/sans}* Всем привет."
 
-#, fuzzy
 msgid ""
 "<32>{#p/basic}* Greetings, Sans.\n"
 "{#x1}* Hiya, Sansy~"
@@ -6705,12 +6693,12 @@ msgstr ""
 "<32>{#p/basic}* Привет, Санс.\n"
 "{#x1}* (Привет, Санс.)"
 
-#, fuzzy
 msgid ""
 "<32>{#p/basic}* I once heard you set the bar on fire with a flamin' grillby,"
 " is that true?"
 msgstr ""
-"<32>{#p/basic}* Я как-то слышал, что ты поджёг бар огнём гриллби, это правда?"
+"<32>{#p/basic}* Я как-то слышал, что ты поджёг бар огнём гриллби, это "
+"правда?"
 
 msgid ""
 "<25>{#p/sans}{#f/3}* huh?\n"
@@ -6724,7 +6712,6 @@ msgstr ""
 "<25>{#f/2}* единственное, что когда-либо поджигало ЭТОТ бар, - это мои "
 "смешные шутки."
 
-#, fuzzy
 msgid "<25>{#p/sans}{#f/3}* gee grillby, where'd everybody go?"
 msgstr "<25>{#p/sans}{#f/3}* Боже, гриллби, куда все пропали?"
 
@@ -6737,7 +6724,6 @@ msgstr ""
 "* ...\n"
 "* ..."
 
-#, fuzzy
 msgid ""
 "<32>* ... Grillbz didn't mention customers, but said seeing you is a nice "
 "relief."
@@ -6751,11 +6737,9 @@ msgstr "<25>{#p/sans}{#f/0}* как странно."
 msgid "<25>{#p/sans}* bud, why don't you come up here and take a seat?"
 msgstr "<25>{#p/sans}* Приятель, почему бы тебе не подойти и не сесть?"
 
-#, fuzzy
 msgid "<25>{#p/sans}* whoops, watch where you sit down in here."
 msgstr "<25>{#p/sans}* Упс, смотри, куда садишься."
 
-#, fuzzy
 msgid "<25>{#f/2}* some weirdo musta put a whoopee cushion on the seat."
 msgstr "<25>{#f/2}* какой-то шутник, должно быть, положил на сиденье подушку."
 
@@ -6781,7 +6765,6 @@ msgstr "<26>{#p/sans}{#f/2}* эй, это очень хорошо."
 msgid "<25>{#p/sans}* grillby, we'll have two flamin' versions of yourself."
 msgstr "<25>{#p/sans}* гриллби, у нас будет две огненные версии тебя."
 
-#, fuzzy
 msgid "<25>{#p/sans}* grillby, we'll have two sets of sliders."
 msgstr "<25>{#p/sans}* гриллби, у нас будет два набора сэндвичей."
 
@@ -6834,7 +6817,6 @@ msgstr "<25>{#f/0}* Должен сказать, я был впечатлён у
 msgid "<25>{#f/2}* maybe one day, i'll even design an attack of my own."
 msgstr "<25>{#f/2}* может быть, однажды я даже разработаю свою атаку."
 
-#, fuzzy
 msgid "<25>{#p/sans}* here comes the grub."
 msgstr "<25>{#p/sans}* А вот и еда."
 
@@ -6843,7 +6825,6 @@ msgstr ""
 "<25>{#p/sans}* В любом случае, вы должны согласиться с тем, что он "
 "превзошел."
 
-#, fuzzy
 msgid ""
 "<25>{#f/0}* matter of fact, those attack designs of his are a good example."
 msgstr ""
@@ -6863,7 +6844,6 @@ msgstr ""
 "<25>{#f/3}* ну, она закрыла перед ним дверь.\n"
 "* Классический ход Андайн."
 
-#, fuzzy
 msgid ""
 "<25>{#f/0}* but when papyrus came back with his designs, a few hours "
 "later..."
@@ -6874,11 +6854,9 @@ msgstr ""
 msgid "<25>{#f/0}* undyne was impressed, and decided she'd give him..."
 msgstr "<25>{#f/0}* Андайн была впечатлена и решила подарить ему..."
 
-#, fuzzy
 msgid "<25>{#f/2}* ... well, let's just call it \"warrior training.\""
 msgstr "<25>{#f/2}* ... ну, давай назовём это просто \"воинской тренировкой\"."
 
-#, fuzzy
 msgid "<25>{#p/sans}* oh yeah, there's something i've been meaning to ask ya."
 msgstr "<25>{#p/sans}* О да, я хотел спросить тебя кое о чём."
 
@@ -6907,7 +6885,8 @@ msgstr "<25>* Завод был повсюду."
 
 msgid "<25>* once they pick up a signal, they'll repeat it over and over..."
 msgstr ""
-"<25>* как только они поймают сигнал, они будут повторять его снова и снова..."
+"<25>* как только они поймают сигнал, они будут повторять его снова и "
+"снова..."
 
 msgid "<25>{#f/3}* what about it?"
 msgstr "<25>{#f/3}* Как насчет этого?"
@@ -6930,7 +6909,6 @@ msgstr ""
 "* совет...\n"
 "* поощрение..."
 
-#, fuzzy
 msgid "<25>{#f/3}* ... predictions."
 msgstr "<25>{#f/3}* ... предсказания."
 
@@ -6951,11 +6929,9 @@ msgid ""
 "* would you mind passing me the yamok sauce?"
 msgstr "* Не могли бы вы передать мне утку?"
 
-#, fuzzy
 msgid "<25>{#p/sans}{#f/8}* delicious."
 msgstr "<25>{#p/sans}{#f/8}* вкусно."
 
-#, fuzzy
 msgid "<25>{#p/sans}{#f/8}* well, i'll be at my station."
 msgstr "<25>{#p/sans}{#f/8}* Хорошо, я буду на своей станции."
 
@@ -6968,7 +6944,6 @@ msgstr "<25>{#f/9}* Иначе ты можешь пожалеть об этом.
 msgid "<25>{#f/8}* oh, and be sure to grab your food on the way out."
 msgstr "<25>{#f/8}* О, обязательно берите с собой еду, когда выходите."
 
-#, fuzzy
 msgid "<25>{#f/9}* you might need it soon."
 msgstr "<25>{#f/9}* ты можешь скоро понадобиться."
 

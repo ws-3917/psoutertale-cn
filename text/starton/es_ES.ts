@@ -23,167 +23,167 @@ export default {
    a_starton: {
       telescope1: () => [
          ...(SAVE.data.b.svr ? [] : [ '<32>{#p/basic}* A standard-issue CITADEL long- range telescope, circa 261X.' ]),
-         choicer.create('* (Use the telescope?)', 'Yes', 'No')
+         choicer.create('* (¿Usar el telescopio?)', 'Sí', 'No')
       ],
-      telescopeMeetup1: [ '<25>{#p/kidd}{#f/2}* You do stargazing??' ],
+      telescopeMeetup1: [ '<25>{#p/kidd}{#f/2}* ¿¿Estudias las estrellas??' ],
       telescopeMeetup2: [
-         '<25>{#p/kidd}{#f/1}* Yo... I bet you just saw something really cool.',
-         '<25>{#f/7}* The last time I looked in a telescope, I saw a freaking SUPERNOVA!'
+         '<25>{#p/kidd}{#f/1}* Oye... apuesto a que has visto algo muy guay.',
+         '<25>{#f/7}* La última vez que miré en un telescopio, ¡Vi una maldita SUPERNOVA!'
       ],
       telescopeMeetup3: [
-         '<25>{#p/kidd}{#f/3}* Here.\n* Take this.',
-         '<32>{#s/equip}{#p/human}* (The Premium Membership Voucher was added to your keyring.)',
-         '<25>{#p/kidd}{#f/7}* Now you can use ANY telescope, even the \"premium\" ones!',
-         '<25>{#f/1}* That short skeleton gave me a bunch of these earlier.',
-         '<25>{#f/2}* He also gave me some digital thing with a lot of money...',
-         '<25>{#f/1}* I guess he really likes me, haha.'
+         '<25>{#p/kidd}{#f/3}* Aquí.\n* Toma esto.',
+         '<32>{#s/equip}{#p/human}* (El Vale de Suscripción Premium fue añadido a tu llavero.)',
+         '<25>{#p/kidd}{#f/7}* ¡Ahora puedes usar CUALQUIER telescopio, hasta los \"premium\"!',
+         '<25>{#f/1}* Ese esqueleto bajito me dio un montón de esos antes.',
+         '<25>{#f/2}* También me dio una cosa digital con mucho dinero...',
+         '<25>{#f/1}* Creo que le gusto, jaja.'
       ],
       telescopeMeetup4: [
-         '<25>{#p/kidd}{#f/3}* Anyway, I kinda just wanted to give you the voucher.',
-         '<25>{#f/1}* I hope you see something cool with it, though!'
+         '<25>{#p/kidd}{#f/3}* Igualmente, solo quería darte el vale.',
+         '<25>{#f/1}* ¡Aunque espero que veas algo guay con ella!'
       ],
-      telescopeMeetup5: [ "<25>{#p/kidd}{#f/1}* I'll be in town!" ],
+      telescopeMeetup5: [ "<25>{#p/kidd}{#f/1}* ¡Estaré en el pueblo!" ],
       telescope2: () =>
          SAVE.data.b.svr
-            ? [ '<25>{#p/asriel1}{#f/17}* See anything you like?' ]
+            ? [ '<25>{#p/asriel1}{#f/17}* ¿Ves algo que te guste?' ]
             : SAVE.data.b.oops || SAVE.data.b.s_state_chargazer
-            ? [ '<32>{#p/basic}* Stargazing in space...\n* Truly, this is some outside- the-box thinking.' ]
+            ? [ '<32>{#p/basic}* Estudiando las estrellas en el espacio...\n* Realmente, este un pensamiento fuera de- la-caja.' ]
             : ((SAVE.data.b.s_state_chargazer = true),
               [
                  '<32>{#p/basic}* ...',
-                 '<32>* Asriel and I had a telescope just like this.',
-                 "<32>* We'd point it in random directions, hoping to see something exciting...",
-                 '<32>* ... we never saw much at all.',
-                 "<32>* Despite that, it didn't seem to matter to him...",
-                 '<32>* While I was focused on looking outward, he was just happy to spend time with me.',
+                 '<32>* Asriel y yo tuvimos un telescopio como este.',
+                 "<32>* Lo apuntaríamos en direcciones aleatorias, esperando ver algo emocionante...",
+                 '<32>* ... al final nunca vimos mucho.',
+                 "<32>* A pesar de eso, no parecía que le importara...",
+                 '<32>* Mientras yo me estaba enfocando en mirar afuera, él estaba feliz de pasar tiempo conmigo.',
                  '<32>* ...',
-                 '<32>{#p/human}* (You hear a sigh.)',
-                 "<32>{#p/basic}* ... uh, let's just get back to what we were doing."
+                 '<32>{#p/human}* (Escuchas un suspiro.)',
+                 "<32>{#p/basic}* ... eh, mejor volvamos a lo que estábamos haciendo."
               ]),
-      notv: [ "<32>{#p/basic}* It doesn't seem like there's anything interesting to watch." ],
-      nicecreamScoreReaction1a: [ '<32>{#p/basic}* Not bad for your first try...' ],
-      nicecreamScoreReaction1b: [ '<32>{#p/basic}* Not bad for your first try.' ],
-      nicecreamScoreReaction2a: [ '<32>{#p/basic}* You can do better than that...' ],
-      nicecreamScoreReaction2b: [ '<32>{#p/basic}* You can do better than that.' ],
+      notv: [ "<32>{#p/basic}* No parece que haya nada interesante para ver." ],
+      nicecreamScoreReaction1a: [ '<32>{#p/basic}* No está mal para tu primer intento...' ],
+      nicecreamScoreReaction1b: [ '<32>{#p/basic}* No está mal para tu primer intento.' ],
+      nicecreamScoreReaction2a: [ '<32>{#p/basic}* Puedes hacerlo mejor que eso...' ],
+      nicecreamScoreReaction2b: [ '<32>{#p/basic}* Puedes hacerlo mejor que eso.' ],
       nicecreamScoreReaction3a: [
-         "<32>{#p/basic}* You beat the top scorer...?\n* I don't think I've ever seen anyone do that..."
+         "<32>{#p/basic}* ¿Has ganado al récord...?\n* No creo haber visto a nadie hacer eso..."
       ],
       nicecreamScoreReaction3b: [
-         "<32>{#p/basic}* You beat the top scorer?\n* I don't think I've ever seen anyone do that!"
+         "<32>{#p/basic}* ¿Has ganado al récord?\n* ¡No creo haber visto a nadie hacer eso!"
       ],
-      nicecreamScoreReaction4a: [ '<33>{#p/basic}* You seem pretty good at this...' ],
-      nicecreamScoreReaction4b: [ '<32>{#p/basic}* You seem pretty good at this.' ],
-      nicecreamScoreReaction5a: [ '<32>{#p/basic}* You beat your high score...?' ],
-      nicecreamScoreReaction5b: [ '<32>{#p/basic}* Look at that, new high score!' ],
-      nicecreamScoreReaction6a: [ '<32>{#p/basic}* For a second, I thought you were going to beat the top scorer...' ],
+      nicecreamScoreReaction4a: [ '<33>{#p/basic}* Pareces muy bueno en esto...' ],
+      nicecreamScoreReaction4b: [ '<33>{#p/basic}* Pareces muy bueno en esto.' ],
+      nicecreamScoreReaction5a: [ '<32>{#p/basic}* ¿Superaste tu récord...?' ],
+      nicecreamScoreReaction5b: [ '<32>{#p/basic}* ¡Mira eso, nuevo récord!' ],
+      nicecreamScoreReaction6a: [ '<32>{#p/basic}* Por un momento, pensé que ibas a vencer el récord...' ],
       nicecreamScoreReaction6b: [
-         "<32>{#p/basic}* Woah, you could've beaten the top scorer!\n* Can you go all the way?"
+         "<32>{#p/basic}* ¡Guau, podrías haberle ganado al récord!\n* ¿Puedes llegar hasta allí?"
       ],
-      nicecreamScoreReaction7a: [ '<32>{#p/basic}* Looks like you could use some practice...' ],
-      nicecreamScoreReaction7b: [ '<32>{#p/basic}* Looks like you could use some practice.' ],
-      nicecreamScoreReaction8a: [ "<32>{#p/basic}* That's better..." ],
-      nicecreamScoreReaction8b: [ "<32>{#p/basic}* That's more like it." ],
+      nicecreamScoreReaction7a: [ '<32>{#p/basic}* Parece ser que podrías usar algo de práctica...' ],
+      nicecreamScoreReaction7b: [ '<32>{#p/basic}* Parece ser que podrías usar algo de práctica...' ],
+      nicecreamScoreReaction8a: [ "<32>{#p/basic}* Eso está mejor..." ],
+      nicecreamScoreReaction8b: [ "<32>{#p/basic}* Eso está mejor." ],
       nicecreamScoreReaction9a: [
-         '<32>{#p/basic}* You beat the top scorer on your first try...?\n* How in the world...'
+         '<32>{#p/basic}* ¿Ganaste al récord en tu primer intento...?\n* Cómo narices...'
       ],
-      nicecreamScoreReaction9b: [ "<32>{#p/basic}* You beat the top scorer on your first try?\n* You're a natural!" ],
-      nicecreamScoreReaction10a: [ "<32>{#p/basic}* For a first try, that's pretty good..." ],
-      nicecreamScoreReaction10b: [ "<32>{#p/basic}* For a first try, that's pretty good!" ],
-      nicecreamScoreReaction11a: [ '<32>{#p/basic}* You keep getting so close...' ],
-      nicecreamScoreReaction11b: [ '<32>{#p/basic}* Darn, you almost beat the top scorer again...\n* You can do it!' ],
-      noteleport: [ "<32>{#p/human}* (It doesn't seem to be powered on anymore.)" ],
-      evac: [ '<32>{#p/human}* (You feel the nearby monster presence dwindling.)' ],
-      shopclosed: [ '<32>{#p/human}* (But there was nothing left for you to do here.)' ],
-      jukebox0: [ "<32>{#p/basic}* It's out of service." ],
+      nicecreamScoreReaction9b: [ "<32>{#p/basic}* ¿Ganaste al récord en tu primer intento?\n* ¡Eres muy bueno!" ],
+      nicecreamScoreReaction10a: [ "<32>{#p/basic}* Por un primer intento, está bastante bien..." ],
+      nicecreamScoreReaction10b: [ "<32>{#p/basic}* ¡Por un primer intento, está bastante bien!" ],
+      nicecreamScoreReaction11a: [ '<32>{#p/basic}* Acabas llegando tan cerca...' ],
+      nicecreamScoreReaction11b: [ '<32>{#p/basic}* Maldita sea, casi ganas al récord otra vez...\n* ¡Puedes hacerlo!' ],
+      noteleport: [ "<32>{#p/human}* (No parece que tenga energía todavía.)" ],
+      evac: [ '<32>{#p/human}* (Sientes la presencia cercana de monstruos menguar.)' ],
+      shopclosed: [ '<32>{#p/human}* (Pero no había nada más para hacer aquí.)' ],
+      jukebox0: [ "<32>{#p/basic}* Está fuera de servicio." ],
       jukebox1: () => [
          SAVE.data.b.svr
-            ? '<32>{#p/human}* (You reach for the jukebox...)'
-            : "<32>{#p/basic}* This jukebox only plays music you've heard before.",
+            ? '<32>{#p/human}* (Te acercas al tocadiscos...)'
+            : "<32>{#p/basic}* Este tocadiscos solo toca música que ya hayas escuchado.",
          choicer.create(
-            '* (Play a song?)',
-            SAVE.data.b.napsta_performance ? 'Track 01' : '???',
-            2 <= SAVE.data.n.state_foundry_swansong ? 'Track 02' : '???',
-            2 <= SAVE.data.n.state_starton_trashprogress ? 'Track 03' : '???',
-            'Cancel'
+            '* (¿Tocar una canción?)',
+            SAVE.data.b.napsta_performance ? 'Canción 01' : '???',
+            2 <= SAVE.data.n.state_foundry_swansong ? 'Canción 02' : '???',
+            2 <= SAVE.data.n.state_starton_trashprogress ? 'Canción 03' : '???',
+            'Volver'
          )
       ],
       jukebox1x1: () =>
          SAVE.data.b.svr
-            ? [ "<32>{#p/human}* (But you couldn't play a song you didn't know yet.)" ]
-            : [ "<32>{#p/basic}* The cover depicts a spooky DJ playing to the crowd.\n* You can't know this song." ],
+            ? [ "<32>{#p/human}* (Pero no pudiste tocar una canción que no conocías.)" ]
+            : [ "<32>{#p/basic}* La portada enseña un DJ espeluznante tocando al público.\n* No puedes saber está canción todavía." ],
       jukebox1x2: () =>
          SAVE.data.b.svr
-            ? [ "<32>{#p/human}* (But you couldn't play a song you didn't know yet.)" ]
-            : [ "<33>{#p/basic}* The cover depicts a spooky DJ at their computer.\n* You can't know this song." ],
+            ? [ "<32>{#p/human}* (Pero no pudiste tocar una canción que no conocías.)" ]
+            : [ "<33>{#p/basic}* La portada enseña un DJ espeluznante en su ordenador.\n* No puedes saber está canción." ],
       jukebox1x3: () =>
          SAVE.data.b.svr
-            ? [ "<32>{#p/human}* (But you couldn't play a song you didn't know yet.)" ]
+            ? [ "<32>{#p/human}* (Pero no pudiste tocar una canción que no conocías.)" ]
             : [
-                 "<32>{#p/basic}* The cover depicts a little white dog surrounded by trash.\n* You can't know this song."
+                 "<32>{#p/basic}* La portada enseña un pequeño perro blanco rodeado de basura.\n* No puedes saber esta canción."
               ],
-      jukebox1y: [ '<32>{*}{#p/human}* (You select the disc...){^40}{%}' ],
+      jukebox1y: [ '<32>{*}{#p/human}* (Eliges el disco...){^40}{%}' ],
       jukebox2: () => [
          SAVE.data.b.svr
-            ? '<32>{#p/human}* (It sounds like a song is currently playing.)'
+            ? '<32>{#p/human}* (Suena como si una canción estuviera sonando.)'
             : [
-                 '<32>{#p/basic}* Currently playing \"Track 01\"',
-                 '<32>{#p/basic}* Currently playing \"Track 02\"',
-                 '<32>{#p/basic}* Currently playing \"Track 03\"'
+                 '<32>{#p/basic}* Reproduciendo \"Canción 01\"',
+                 '<32>{#p/basic}* Reproduciendo \"Canción 02\"',
+                 '<32>{#p/basic}* Reproduciendo \"Canción 03\"'
               ][SAVE.data.n.state_starton_jukebox - 1],
-         choicer.create('* (Stop playback?)', 'Yes', 'No')
+         choicer.create('* (¿Parar la canción?)', 'Sí', 'No')
       ],
-      jukebox3a1: [ "<32>{#p/basic}{#npc/a}* That's more like it!" ],
-      jukebox3a2: [ '<32>{#p/basic}{#npc/a}* (We love this kind of music.)' ],
-      jukebox3b: [ '<32>{#p/basic}{#npc/a}* Is that the song making the rounds at the dance club?' ],
+      jukebox3a1: [ "<32>{#p/basic}{#npc/a}* ¡Eso está mejor!" ],
+      jukebox3a2: [ '<32>{#p/basic}{#npc/a}* (Amamos este tipo de música.)' ],
+      jukebox3b: [ '<32>{#p/basic}{#npc/a}* ¿Es esa la canción que suena en el club de baile?' ],
       jukebox3c: [
          '<32>{#p/basic}* ...\n* ...\n* ...',
-         "<32>{#npc/a}* Grillbz says he's heard this song somewhere before."
+         "<32>{#npc/a}* Grillbz dice que ha escuchado esta canción en algún sitio antes."
       ],
       jukebox3d: [
-         '<32>{#p/basic}{#npc/a}* You sure know a lot of music offhand, kid...',
-         '<32>* You must be really tasty.'
+         '<32>{#p/basic}{#npc/a}* Seguro que sabes mucho de música, niño...',
+         '<32>* Debes de ser muy sabroso.'
       ],
       shockpapyrus0a: [
-         '<15>{#p/papyrus}{#e/papyrus/27}WHAT ON KRIOS IS GOING ON HERE??',
-         '<15>{#p/papyrus}{#e/papyrus/21}I ANSWER A PHONE CALL FROM MY BALCONY...',
-         '<15>{#p/papyrus}{#e/papyrus/19}AND THIS IS WHERE IT LEADS ME!?',
-         "<15>{#p/papyrus}{#e/papyrus/14}I'LL HAVE YOU KNOW, I'M A SHOE-IN FOR THE ROYAL GUARD.",
-         '<15>{#p/papyrus}{#e/papyrus/15}SO, WHATEVER YOU TWO ARE PLANNING...'
+         '<15>{#p/papyrus}{#e/papyrus/27}¿¿QUE EN KRIOS ESTÁ PASANDO AQUÍ??',
+         '<15>{#p/papyrus}{#e/papyrus/21}RESPONDO UNA LLAMADA DESDE MI BALCÓN...',
+         '<15>{#p/papyrus}{#e/papyrus/19}¿¡Y A ESTO ES A DÓNDE ME LLEVA!?',
+         "<15>{#p/papyrus}{#e/papyrus/14}OS DEJARÉ SABER, ESTOY PREPARÁNDOME PARA LA GUARDIA REAL.",
+         '<15>{#p/papyrus}{#e/papyrus/15}ASÍ QUE, LO QUE SEA QUE LOS DOS PLANEÁIS...'
       ],
       shockpapyrus0b: [
-         '<15>{#p/papyrus}{#e/papyrus/24}... WAIT, THAT VOICE...',
-         '<15>{#p/papyrus}{#e/papyrus/22}ARE YOU THE ONE WHO CALLED ME ON THE PHONE EARLIER!?'
+         '<15>{#p/papyrus}{#e/papyrus/24}... ESPERA, ESA VOZ...',
+         '<15>{#p/papyrus}{#e/papyrus/22}¿¡ERES QUIÉN ME LLAMÓ EN EL TELÉFONO ANTES!?'
       ],
       shockpapyrus0c: [
-         '<15>{#p/papyrus}{#e/papyrus/20}... OF COURSE!\nTHAT EXPLAINS EVERYTHING!',
-         "<15>{#p/papyrus}{#e/papyrus/10}WELL THEN.\nI'M GLAD TO HAVE FINALLY MET YOU.",
-         '<15>{#p/papyrus}{#e/papyrus/24}TO BE HONEST, YOU KIND OF REMIND ME OF...',
-         '<15>{#p/papyrus}{#e/papyrus/20}... HEY, WAIT A SECOND!!',
-         '<15>{#p/papyrus}{#e/papyrus/22}DID YOU BRING A -HUMAN- WITH YOU!?!?',
-         '<15>{#p/papyrus}{#e/papyrus/10}WOWIE!!\nTHIS JUST GETS BETTER AND BETTER!!',
-         '<15>{#p/papyrus}{#e/papyrus/20}SO, WHAT ARE WE DOING HERE ANYWAY?'
+         '<15>{#p/papyrus}{#e/papyrus/20}... ¡CLARO!\n¡ESO LO EXPLICA TODO!',
+         "<15>{#p/papyrus}{#e/papyrus/10}BUENO.\nESTOY ENCANTADO DE CONOCERTE.",
+         '<15>{#p/papyrus}{#e/papyrus/24}PARA SER HONESTO, ME RECUERDAS A...',
+         '<15>{#p/papyrus}{#e/papyrus/20}... ¡¡EY, ESPERA UN SEGUNDO!!',
+         '<15>{#p/papyrus}{#e/papyrus/22}¿¡¿¡HAS TRAÍDO A UN -HUMANO- CONTIGO!?!?',
+         '<15>{#p/papyrus}{#e/papyrus/10}¡¡GUAU!!\n¡¡ESTO VA DE MEJOR A MEJOR!!',
+         '<15>{#p/papyrus}{#e/papyrus/20}¿ENTONCES, QUE ESTAMOS HACIENDO AQUÍ?'
       ],
       shockpapyrus1: () =>
          [
             [
-               '<32>{#p/asriel2}* Ready, $(name)?',
-               choicer.create('* (What should Asriel do?)', 'Mercy', 'Act', 'Magic', 'Fight')
+               '<32>{#p/asriel2}* ¿Listo, $(name)?',
+               choicer.create('* (¿Qué debería de hacer Asriel?)', 'Perdonar', 'Actuar', 'Magia', 'Atacar')
             ],
-            [ "<32>{#p/asriel2}* Let's just get this over with." ]
+            [ "<32>{#p/asriel2}* Simplemente terminemos con esto." ]
          ][Math.min(SAVE.flag.n.ga_asrielPapyrus, 1)],
       shockpapyrus2a: [
-         '<32>{#p/asriel2}* Mercy, huh?',
-         '<32>{#p/asriel2}* Mercy... I think I like that word.',
-         '<32>{#p/asriel2}* Let\'s show him some \"Mercy.\"'
+         '<32>{#p/asriel2}* ¿Piedad, eh?',
+         '<32>{#p/asriel2}* Piedad... creo que me gusta esa palabra.',
+         '<32>{#p/asriel2}* Mostrémosle un poco de \"Piedad\".'
       ],
       shockpapyrus2b: [
-         "<32>{#p/asriel2}* Act...?\n* I'll show you how to act.",
-         '<32>{#p/asriel2}* First, you raise your arm...',
-         '<32>{#p/asriel2}* Then...!'
+         "<32>{#p/asriel2}* ¿Actuar...?\n* Te enseñaré como actuar.",
+         '<32>{#p/asriel2}* Primero, levanta el brazo...',
+         '<32>{#p/asriel2}* ¡Luego...!'
       ],
       shockpapyrus2c: [
-         '<32>{#p/asriel2}* Magic.\n* The force that binds us monsters together.',
-         '<32>{#p/asriel2}* Or, in this case...',
+         '<32>{#p/asriel2}* Magia.\n* La fuerza que nos une a nosotros los monstruos.',
+         '<32>{#p/asriel2}* O, en este caso...',
          '<33>{#p/asriel2}* The force that rips them apart.'
       ],
       shockpapyrus2d: [ '<32>{#p/asriel2}* Fight... the ideal choice.', '<32>{#p/asriel2}* Hee hee hee...' ],
@@ -329,7 +329,7 @@ export default {
          SAVE.data.b.svr
             ? [ '<32>{#p/human}* (The table strikes you as being rather lonesome.)' ]
             : [ "<32>{#p/basic}* It's just a lonely table.\n* Smells like hair." ],
-      balcony0: () => [ '<18>{#p/papyrus}ENJOYING THE VIEW?', choicer.create('* (What do you say?)', 'Yes', 'No') ],
+      balcony0: () => [ '<18>{#p/papyrus}ENJOYING THE VIEW?', choicer.create('* (What do you say?)', 'Sí', 'No') ],
       balcony1: [
          "<18>{#p/papyrus}{#f/9}GOOD!\nIT'S ABOUT TIME SOMEONE DID.",
          '<18>{#f/7}SANS BARELY EVER TAKES THE TIME TO LOOK OUTSIDE!!!'
@@ -345,7 +345,7 @@ export default {
             : [ "<32>{#p/basic}* It's a book, written in an ancient language." ],
       bedbook3a: [ '<32>{#p/basic}* Would you like me to read it?' ],
       bedbook3b: [ '<32>{#p/basic}* Read it again?' ],
-      bedbook4: () => [ choicer.create('* (Have $(name) read the book?)', 'Yes', 'No') ],
+      bedbook4: () => [ choicer.create('* (Have $(name) read the book?)', 'Sí', 'No') ],
       bedbook5: [
          '<32>{#p/basic}* Okay, here goes...',
          '<32>* \"Long ago, two species ruled the solar system: humans and monsters.\"',
@@ -373,12 +373,12 @@ export default {
       beddoor3: [ '<32>{#p/basic}{#npc/a}* Sorry, munchkin!\n* No more vacancies left here!' ],
       candy1: () =>
          postSIGMA()
-            ? [ "<32>{#p/basic}* It's out of service." ]
+            ? [ "<32>{#p/basic}* Está fuera de servicio." ]
             : [
                  SAVE.data.b.svr
                     ? '<32>{#p/human}* (You approach the vending machine.)'
                     : "<32>{#p/basic}* It's an exoberry-exclusive vending machine.",
-                 choicer.create('* (Buy the Exoberries for 8G?)', 'Yes', 'No')
+                 choicer.create('* (Buy the Exoberries for 8G?)', 'Sí', 'No')
               ],
       candy2: [ "<32>{#p/human}* (You don't have enough G.)" ],
       candy3: [ "<32>{#p/human}* (You're carrying too much.)" ],
@@ -834,29 +834,29 @@ export default {
          () => [
             "<32>{#p/basic}{#npc/a}* Welcome to Starred Inn!\n* Starton's premier hotel!",
             '<32>* One night will cost you 60G.',
-            choicer.create('* (Get a room?)', 'Yes', 'No')
+            choicer.create('* (Get a room?)', 'Sí', 'No')
          ],
          () => [
             '<32>{#p/basic}{#npc/a}* Changed your mind?',
             '<32>* Remember, one night is 60G.',
-            choicer.create('* (Get a room?)', 'Yes', 'No')
+            choicer.create('* (Get a room?)', 'Sí', 'No')
          ]
       ),
       innkeep1b: pager.create(
          0,
          () => [
             '<32>{#p/basic}{#npc/a}* Back again?\n* Remember, one night is 60G.',
-            choicer.create('* (Get a room again?)', 'Yes', 'No')
+            choicer.create('* (Get a room again?)', 'Sí', 'No')
          ],
-         () => [ '<32>{#p/basic}{#npc/a}* Changed your mind?', choicer.create('* (Get a room again?)', 'Yes', 'No') ]
+         () => [ '<32>{#p/basic}{#npc/a}* Changed your mind?', choicer.create('* (Get a room again?)', 'Sí', 'No') ]
       ),
       innkeep1c: pager.create(
          0,
          () => [
             '<33>{#p/basic}{#npc/a}* Back again?\n* Well, stay as long as you like!',
-            choicer.create('* (Get a room again?)', 'Yes', 'No')
+            choicer.create('* (Get a room again?)', 'Sí', 'No')
          ],
-         () => [ '<32>{#p/basic}{#npc/a}* Changed your mind?', choicer.create('* (Get a room again?)', 'Yes', 'No') ]
+         () => [ '<32>{#p/basic}{#npc/a}* Changed your mind?', choicer.create('* (Get a room again?)', 'Sí', 'No') ]
       ),
       innkeep2a: [
          "<32>{#p/basic}{#npc/a}* ... you don't even have 60G?",
@@ -955,7 +955,7 @@ export default {
                  '<18>{#p/papyrus}OHO, THE HUMAN ARRIVES!',
                  '<18>MY BROTHER AND I HAVE CREATED MANY PUZZLES.',
                  '<18>{#f/9}ARE YOU UP FOR THE CHALLENGE, HUMAN!?',
-                 choicer.create('* (What do you say?)', 'Yes', 'No'),
+                 choicer.create('* (What do you say?)', 'Sí', 'No'),
                  '<18>{#p/papyrus}CORRECT ANSWER!\nFOR YOU SEE...'
               ],
       maze2a: [
@@ -1087,8 +1087,8 @@ export default {
          "<32>{#p/basic}* Ice Dreams!\n* They're the frozen treats that'll set your mind ablaze!",
          SAVE.data.b.s_state_million ? '<32>* For you, 6G!' : '<32>* Now just 12G.'
       ],
-      nicecreamPrompt1: () => [ choicer.create('* (Buy the Ice Dream for $(x)G?)', 'Yes', 'No') ],
-      nicecreamPrompt2: () => [ choicer.create('* (Get an Ice Dream?)', 'Yes', 'No') ],
+      nicecreamPrompt1: () => [ choicer.create('* (Buy the Ice Dream for $(x)G?)', 'Sí', 'No') ],
+      nicecreamPrompt2: () => [ choicer.create('* (Get an Ice Dream?)', 'Sí', 'No') ],
       nicecreamSc4: [
          '<32>{#p/basic}* Well then...\n* Tell your friends...',
          "<32>* There's ice cream out here...\n* In the middle of nowhere..."
@@ -2417,7 +2417,7 @@ export default {
                ? SAVE.data.b.svr
                   ? [ '<32>{#p/human}* (But you already completed this puzzle beforehand.)' ]
                   : [ '<32>{#p/basic}* The terminal is now in an unlocked state.' ]
-               : [ "<32>{#p/basic}* It's out of service." ],
+               : [ "<32>{#p/basic}* Está fuera de servicio." ],
          microwave0: [ '<32>{#p/human}* (You look behind the microwave...)', '<32>{#p/basic}* Nothing useful here.' ],
          microwave1: () =>
             SAVE.data.b.svr
@@ -2453,7 +2453,7 @@ export default {
                ? [ "<32>{#p/human}* (But you didn't have any mail to send.)" ]
                : [
                     '<32>{#p/basic}* This mailbox is labelled \"PAPYRUS.\"',
-                    choicer.create('* (Look inside the mailbox?)', 'Yes', 'No')
+                    choicer.create('* (Look inside the mailbox?)', 'Sí', 'No')
                  ],
          papmail2: pager.create(
             0,
@@ -2507,7 +2507,7 @@ export default {
                : [ '<32>{#p/basic}* Once the home of a truly out- of-this-world creation.' ],
          xtower1: () => [
             ...(postSIGMA()
-               ? [ "<32>{#p/basic}* It's out of service." ]
+               ? [ "<32>{#p/basic}* Está fuera de servicio." ]
                : SAVE.data.b.svr
                ? [
                     '<32>{#p/human}* (The terminal appears to have been powered off.)',
@@ -2616,7 +2616,7 @@ export default {
          0,
          () =>
             postSIGMA()
-               ? [ "<32>{#p/basic}* It's out of service." ]
+               ? [ "<32>{#p/basic}* Está fuera de servicio." ]
                : [
                     ...(roomready()
                        ? [
@@ -2628,16 +2628,16 @@ export default {
                     SAVE.data.b.svr
                        ? '<32>{#p/human}* (You move towards the computer...)'
                        : "<32>{#p/basic}* The computer's web browser is opened to a social media site.",
-                    choicer.create("* (Log in to Papyrus's account?)", 'Yes', 'No')
+                    choicer.create("* (Log in to Papyrus's account?)", 'Sí', 'No')
                  ],
          () =>
             postSIGMA()
-               ? [ "<32>{#p/basic}* It's out of service." ]
+               ? [ "<32>{#p/basic}* Está fuera de servicio." ]
                : [
                     SAVE.data.b.svr
                        ? '<32>{#p/human}* (You move towards the computer...)'
                        : "<32>{#p/basic}* The computer's web browser is opened to a social media site.",
-                    choicer.create("* (Log in to Papyrus's account?)", 'Yes', 'No')
+                    choicer.create("* (Log in to Papyrus's account?)", 'Sí', 'No')
                  ]
       ),
       papcomputer2: [ '<32>{#p/human}* (You decide not to log in.)' ],
@@ -2794,13 +2794,13 @@ export default {
             SAVE.data.b.svr
                ? '<32>{#p/human}* (It seems a cache of coins was left here...)'
                : '<32>{#p/basic}* There are a bunch of loose coins inside...',
-            choicer.create('* (Take the coins?)', 'Yes', 'No')
+            choicer.create('* (Take the coins?)', 'Sí', 'No')
          ],
          () => [
             SAVE.data.b.svr
                ? "<32>{#p/human}* (The coins within haven't moved from where they were.)"
                : '<32>{#p/basic}* The coins are still here.',
-            choicer.create('* (Take the coins?)', 'Yes', 'No')
+            choicer.create('* (Take the coins?)', 'Sí', 'No')
          ]
       ),
       papcouch2: [ '<32>{#p/human}* (You decide not to take anything.)' ],
@@ -2871,9 +2871,9 @@ export default {
             SAVE.data.b.flirt_papyrus
                ? '<18>{#f/9}DO WHATEVER PEOPLE DO WHEN THEY DATE!'
                : '<18>{#f/9}\"HANG OUT\" LIKE A PAIR OF VERY COOL FRIENDS!',
-            choicer.create('* (What do you say?)', 'Yes', 'No')
+            choicer.create('* (What do you say?)', 'Sí', 'No')
          ],
-         () => [ '<18>{#p/papyrus}READY?', choicer.create('* (What do you say?)', 'Yes', 'No') ]
+         () => [ '<18>{#p/papyrus}READY?', choicer.create('* (What do you say?)', 'Sí', 'No') ]
       ),
       papdate4a: [ "<18>{#p/papyrus}OKAY, LET'S GO!" ],
       papdate4b: [ "<18>{#p/papyrus}I'LL KEEP WAITING HERE THEN!" ],
@@ -2885,9 +2885,9 @@ export default {
             SAVE.data.b.flirt_papyrus
                ? '<18>{#f/6}DO YOU WANT TO START DATING?'
                : '<18>{#f/6}DO YOU WANT TO START HANGING OUT?',
-            choicer.create('* (What do you say?)', 'Yes', 'No')
+            choicer.create('* (What do you say?)', 'Sí', 'No')
          ],
-         () => [ '<18>{#p/papyrus}{#f/6}READY TO START?', choicer.create('* (What do you say?)', 'Yes', 'No') ]
+         () => [ '<18>{#p/papyrus}{#f/6}READY TO START?', choicer.create('* (What do you say?)', 'Sí', 'No') ]
       ),
       papdate5a: () => [
          SAVE.data.b.flirt_papyrus
@@ -2949,7 +2949,7 @@ export default {
             ? '<15>{#f/10}WOULD LIKE TO GO ON A DATE WITH YOU!'
             : '<15>{#f/10}WOULD LIKE TO HANG OUT WITH YOU!'
       ],
-      papdate14: () => [ choicer.create('* (What do you say?)', 'Yes', 'No') ],
+      papdate14: () => [ choicer.create('* (What do you say?)', 'Sí', 'No') ],
       papdate15a: [ '<15>{#p/papyrus}{#f/12}R-REALLY???', '<15>{#f/11}WOWIE!!!' ],
       papdate15a1: [ "<15>{#f/24}I GUESS THAT MEANS IT'S TIME FOR STEP THREE..." ],
       papdate15b: [ '<15>{#p/papyrus}{#f/21}OH...', '<15>{#f/27}F-FORTUNATELY, IT ONLY SAYS TO ASK.' ],
@@ -3188,7 +3188,7 @@ export default {
          "<15>{#f/15}I'LL OPEN THE PRESENT MYSELF!!"
       ],
       papdate29: [ '<15>{#p/papyrus}{#f/20}DO YOU KNOW WHAT -THIS- IS?' ],
-      papdate30: () => [ choicer.create('* (Do you know what it is?)', 'Yes', 'No') ],
+      papdate30: () => [ choicer.create('* (Do you know what it is?)', 'Sí', 'No') ],
       papdate31a: [
          '<15>{#p/papyrus}{#f/26}SPAGHETTI.',
          "<15>{#f/24}THAT'S PROBABLY WHAT YOU'RE THINKING, ISN'T IT?",
@@ -3415,7 +3415,7 @@ export default {
       ],
       papsolu3a: () => [
          '<18>{#p/papyrus}{#f/9}DO YOU ABSOLUTELY, DAPSOLUTELY WANT THE SOLUTION???',
-         choicer.create('* (What do you say?)', 'Yes', 'No')
+         choicer.create('* (What do you say?)', 'Sí', 'No')
       ],
       papsolu3a1: () => [
          '<18>{#p/papyrus}THE! SOLUTION! IS!',
@@ -3572,7 +3572,7 @@ export default {
          '<25>{#p/sans}* oh, heheh.\n* guess i got a little {@fill=#ff0}carried away{@fill=#fff}, huh?',
          '<18>{#p/papyrus}{#f/4}YEAH, YEAH...',
          '<18>{#f/9}WELL!\nDO YOU UNDERSTAND THE EXPLANATION?',
-         choicer.create('* (What do you say?)', 'Yes', 'No')
+         choicer.create('* (What do you say?)', 'Sí', 'No')
       ],
       papyrus7: () => [
          "<18>{#p/papyrus}{#f/9}WELL, LET'S REVIEW THEN!",
@@ -3846,7 +3846,7 @@ export default {
          "<18>{#f/4}NOT TO MENTION, I'M GETTING TIRED OF CAPTURING YOU.",
          '<18>{#f/5}WOULD YOU LIKE TO PASS THROUGH...',
          '<18>{#f/5}... WITHOUT A BATTLE?',
-         choicer.create('* (What do you say?)', 'Yes', 'No')
+         choicer.create('* (What do you say?)', 'Sí', 'No')
       ],
       papyrusFinal7a: [ '<18>{#p/papyrus}{#f/31}...\nOKAY...', "<18>{#f/3}I GUESS I'LL ACCEPT MY FAILURE." ],
       papyrusFinal7b: [ '<18>{#p/papyrus}{#f/4}WELL, IF YOU SAY SO, THEN...', '<18>{#f/9}BY ALL MEANS!!!' ],
@@ -3854,7 +3854,7 @@ export default {
          '<18>{#p/papyrus}{#f/1}AGAIN??',
          '<18>{#f/4}... WELL, OKAY...',
          '<18>{#f/9}WILL YOU FORGO THE BATTLE THIS TIME??',
-         choicer.create('* (What do you say?)', 'Yes', 'No')
+         choicer.create('* (What do you say?)', 'Sí', 'No')
       ],
       papyrusFinal8a: [ '<18>{#p/papyrus}{#f/0}OKAY, HERE WE GO!' ],
       puzzle3: () => [
@@ -3867,7 +3867,7 @@ export default {
             ? []
             : [ "<25>{#p/asriel2}{#f/13}* She's been against us the whole time..." ]),
          '<32>{#p/basic}* \"Would you like to view the pattern?\"',
-         choicer.create('* (View the pattern?)', 'Yes', 'No')
+         choicer.create('* (View the pattern?)', 'Sí', 'No')
       ],
       robotx: () =>
          SAVE.data.b.svr
@@ -3880,12 +3880,12 @@ export default {
             '<32>* I want to see the galaxy...\n* But I cannot move.',
             '<32>* If you would be so kind, traveler, please...',
             '<32>* Take one of my computer chips and bring it to another computer very far away.',
-            choicer.create('* (Take a chip?)', 'Yes', 'No')
+            choicer.create('* (Take a chip?)', 'Sí', 'No')
          ],
          () => [
             '<32>{#p/basic}* If you would be so kind, traveler, please...',
             '<32>* Take one of my computer chips and bring it to another computer very far away.',
-            choicer.create('* (Take a chip?)', 'Yes', 'No')
+            choicer.create('* (Take a chip?)', 'Sí', 'No')
          ]
       ),
       robot2: () => [
@@ -3917,7 +3917,7 @@ export default {
       robot6: () => [
          '<32>{#p/basic}* How am I doing?\n* By \"I\" I mean the chip I gave you...',
          '<32>* Huh? You lost it...?\n* ... I suppose I can give you another one...',
-         choicer.create('* (Take another chip?)', 'Yes', 'No')
+         choicer.create('* (Take another chip?)', 'Sí', 'No')
       ],
       robot7: [
          '<32>{#p/basic}* Please be careful this time.',
@@ -4041,7 +4041,7 @@ export default {
       ],
       sansbook0: [ '<32>{#p/human}* (It appears this joke book has no clear ending.)' ],
       sansbook1: [ '<32>{#p/basic}* It\'s a book about non-euclidian geometry.\n* Property of \"ALPHYS.\"' ],
-      sansbook2: () => [ choicer.create('* (Take a look inside?)', 'Yes', 'No') ],
+      sansbook2: () => [ choicer.create('* (Take a look inside?)', 'Sí', 'No') ],
       sansbook3: [ '<32>{#p/human}* (You look inside the book...)' ],
       sansbook4: [ '<32>{#p/basic}* Inside the geometry book was a joke book.' ],
       sansbook5: [ '<32>{#p/basic}* Inside the joke book was another geometry book.' ],
@@ -4428,7 +4428,7 @@ export default {
                : SAVE.data.b.s_state_puzzlenote || (!world.genocide && world.edgy)
                ? [ "<32>{#p/basic}* It's un-activated." ]
                : postSIGMA()
-               ? [ "<32>{#p/basic}* It's out of service." ]
+               ? [ "<32>{#p/basic}* Está fuera de servicio." ]
                : [ '<32>{#p/basic}* What an unfortunate outcome.' ],
          s_secret_sign: () =>
             SAVE.data.b.svr

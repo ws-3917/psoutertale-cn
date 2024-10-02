@@ -8,13 +8,13 @@ LANG = ["cs_CZ", "es_ES", "ja_JP", "ru_RU", "tr_TR", "zh_CN", "zh_TW"]          
 TRANS_AUTHOR = "ws3917"             # 提交 commit 的作者名
 
 # 路径配置
-GMS_PATH = "D:/psot/gms"      # 字体生成工具路径
-TRANS_PATH = "D:/psot/cn"     # 翻译文件路径
-SRC_PATH = "D:/psot/src"      # 源代码路径
-DIST_PATH = "D:/psot/dist"    # 发布文件路径
+GMS_PATH = "D:/game/psoutertale-gms"      # 字体生成工具路径
+TRANS_PATH = "D:/game/psoutertale-cn"     # 翻译文件路径
+SRC_PATH = "D:/game/psoutertale-src"      # 源代码路径
+DIST_PATH = "D:/game/psoutertale-dist"    # 发布文件路径
 WEB_PATH = "ws-server:/www"    # 网页版游戏推送路径
-MODS_PATH = "D:/psot/mod"    # 模组路径
-TEXT_PATH = "D:/psot/text"    # 文本路径
+MODS_PATH = "D:/game/psoutertale-mod"    # 模组路径
+TEXT_PATH = "D:/game/psoutertale-text"    # 文本路径
 DTTVL_PATH = "D:/dttvl/src/Assets/Scripts/Assembly-CSharp/"
 DTTVL_PATHX = "D:/dttvl/src/Assets/"
 DTTVL_DIRLIST = [

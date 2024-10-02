@@ -44,18 +44,18 @@ export default {
          ],
          death7: [ "{#p/human}{#v/6}{@fill=#faff29}It's only a matter of time." ],
          cyan1: [
-            '<99>{*}{#p/human}{#v/6}{@fill=#faff29}A lost SOUL calls out to you.',
+            '<99>{*}{#p/human}{#v/6}{@fill=#faff29}ある　まよえるタマシイが　よびかけています。',
             '<99>{*}{@fill=#faff29}「{@mystify=にんたい}にんたい{@mystify=}」があれば　だっしゅつが　かのうです。',
-            '<99>{*}{#p/human}{#v/1}{@fill=#42fcff}You must reach my Little Dipper...',
-            '<99>{*}{#p/human}(Press [Z] to teleport.)'
+            '<99>{*}{#p/human}{#v/1}{@fill=#42fcff}かならず　ボクのこぐまざを　とります…',
+            '<99>{*}{#p/human}([Z]で　テレポートします)'
          ],
          cyan2: [
-            '<99>{*}{#p/human}{#v/1}{@fill=#42fcff}The entity lies in wait.',
-            '<99>{*}{@fill=#42fcff}With PATIENCE, you may survive it...'
+            '<99>{*}{#p/human}{#v/1}{@fill=#42fcff}あのそんざいは　まっている。',
+            '<99>{*}{@fill=#42fcff}「にんたい」があれば　いきのこるかもしれない…'
          ],
          orange1: [
-            '<99>{*}{#p/human}{#v/6}{@fill=#faff29}A lost SOUL calls out to you.',
-            '<99>{*}{@fill=#faff29}With {@mystify=BRAVERY}BRAVERY{@mystify=}, they may escape.',
+            '<99>{*}{#p/human}{#v/6}{@fill=#faff29}ある　まよえるタマシイが　よびかけています。',
+            '<99>{*}{@fill=#faff29}「{@mystify=にんたい}ゆうき{@mystify=}」があれば　だっしゅつが　かのうです。',
             "<99>{*}{#p/human}{#v/2}{@fill=#ff993d}Don't leave without my Power Glove!",
             '<99>{*}{#p/human}(Press [Z] to explode.)'
          ],
@@ -64,8 +64,8 @@ export default {
             '<99>{*}{@fill=#ff993d}With BRAVERY, you may overcome it!'
          ],
          blue1: [
-            '<99>{*}{#p/human}{#v/6}{@fill=#faff29}A lost SOUL calls out to you.',
-            '<99>{*}{@fill=#faff29}With {@mystify=INTEGRITY}INTEGRITY{@mystify=}, they can escape.',
+            '<99>{*}{#p/human}{#v/6}{@fill=#faff29}ある　まよえるタマシイが　よびかけています。',
+            '<99>{*}{@fill=#faff29}「{@mystify=にんたい}せいじつさ{@mystify=}」があれば　だっしゅつが　かのうです。',
             "<99>{*}{#p/human}{#v/3}{@fill=#003cff}I'll need my trusty Hoverboots."
          ],
          blue2: [
@@ -73,7 +73,7 @@ export default {
             '<99>{*}{@fill=#003cff}With INTEGRITY, you can surpass it.'
          ],
          purple1: [
-            '<99>{*}{#p/human}{#v/6}{@fill=#faff29}A lost SOUL calls out to you.',
+            '<99>{*}{#p/human}{#v/6}{@fill=#faff29}ある　まよえるタマシイが　よびかけています。',
             '<99>{*}{@fill=#faff29}With {@mystify=PERSEVERANCE}PERSEVERANCE{@mystify=}, they can escape.',
             '<99>{*}{#p/human}{#v/4}{@fill=#d535d9}A single Datapad can go a long way.'
          ],
@@ -82,7 +82,7 @@ export default {
             '<99>{*}{@fill=#d535d9}With PERSEVERANCE, you can outlast it!'
          ],
          green1: [
-            '<99>{*}{#p/human}{#v/6}{@fill=#faff29}A lost SOUL calls out to you.',
+            '<99>{*}{#p/human}{#v/6}{@fill=#faff29}ある　まよえるタマシイが　よびかけています。',
             '<99>{*}{@fill=#faff29}With {@mystify=KINDNESS}KINDNESS{@mystify=}, they can escape.',
             '<99>{*}{#p/human}{#v/5}{@fill=#00c000}The Tablaphone will set me free!'
          ],
@@ -2461,7 +2461,7 @@ export default {
          bad10: [ '<25>{*}{#p/twinkly}{#g/twinklyTwisted}{#v/1}* AND AGAIN!!!{^5}{%}' ],
          bad11: [
             '<25>{*}{#p/twinkly}{#g/twinklyCrazed}{#v/1}* AND AGAIN AND AGAIN AND AGAIN AND AGAIN AND AGAIN AND AGAIN AND {%}',
-            '<99>{*}{#p/twinkly}{#g/twinklyBroken}{#v/1}* AAAAHAHAHAHAHAHAHAHAHAHAHAH\n  AHAHAHAHAHAHAHAHAHAHAHAHAHA\n  HAHAHAHAHAHAHAHAHAHAHAHAHAH{^20}{%}'
+            '<99>{*}{#p/twinkly}{#g/twinklyBroken}{#v/1}＊あはははははははははははははは\n  ははははははははははははははは\n  ははははははははははははははは{^20}{%}'
          ],
          bad12: [ '<25>{*}{#p/twinkly}{#g/twinklyDead}{#v/0}* ...{^80}{%}', '<25>{*}* ... die.{^10}{%}' ],
          bad13: () => [
@@ -2475,18 +2475,18 @@ export default {
                   "<99>{#p/twinkly}{#v/1}It's good to see you here again.{^100}{%}"
                ],
                [
-                  '<99>{#p/twinkly}{#v/1}Oh, $(name)...{^100}{%}',
+                  '<99>{#p/twinkly}{#v/1}あら　$(name)…{^100}{%}',
                   '{#p/twinkly}{#v/1}How could you abandon me so.{^100}{%}'
                ]
             ][Math.min(SAVE.flag.n.neutral_twinkly_loop2, 2)],
-            '<99>{#p/twinkly}{#v/1}Do you feel... alone?{^100}{%}',
-            '<99>{#p/twinkly}{#v/1}Do you feel... trapped?{^100}{%}',
-            '<99>{#p/twinkly}{#v/1}Hee hee hee...{^100}{%}',
-            "<99>{#p/twinkly}{#v/1}... there's no escape!{^100}{%}",
-            '<99>{#p/twinkly}{#v/1}Asgore\'s precious \"archive...\"{^100}{%}',
-            "<99>{#p/twinkly}{#v/1}I've brought it into the real world!{^100}{%}",
-            '<99>{#p/twinkly}{#v/1}All you can do is walk forward...{^100}{%}',
-            '<99>{#p/twinkly}{#v/1}Closer, and closer...{^100}{%}',
+            '<99>{#p/twinkly}{#v/1}さみしい…　ですか？{^100}{%}',
+            '<99>{#p/twinkly}{#v/1}にげたい…　ですか？{^100}{%}',
+            '<99>{#p/twinkly}{#v/1}ヒヒヒ…{^100}{%}',
+            "<99>{#p/twinkly}{#v/1}…にげられませんよ！{^100}{%}",
+            '<99>{#p/twinkly}{#v/1}アズゴアの　だいじな　「アーカイブ」を…{^100}{%}',
+            "<99>{#p/twinkly}{#v/1}おまえが　たいけんする　ばんだ！{^100}{%}",
+            '<99>{#p/twinkly}{#v/1}まえに　すすむしか　ありません…{^100}{%}',
+            '<99>{#p/twinkly}{#v/1}おいで　おいで…{^100}{%}',
             "<99>{#p/twinkly}{#v/1}... you aren't afraid, are you?{^100}{%}",
             "<99>{#p/twinkly}{#v/1}You aren't going to run away?{^100}{%}",
             '<99>{#p/twinkly}{#v/1}Good.{^100}{%}',
@@ -5034,7 +5034,7 @@ export default {
    },
    b_opponent_asriel: {
       artifact: [ "<32>{#p/human}* (Asriel doesn't seem to care.)" ],
-      refuse: '{*}{#p/event}{#i/3}But it refused.',
+      refuse: '{*}{#p/event}{#i/3}いやだ。こわれるもんか。',
       name: () =>
          battler.volatile[0].container.objects[0]?.metadata.power === true
             ? '§fill=#ff7f7f§§swirl=2/1/1.05§§hue§* Asriel Dreemurr'

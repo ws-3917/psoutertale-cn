@@ -5736,7 +5736,7 @@ export default {
       act_check: () =>
          world.goatbro
             ? [ '<32>{#p/asriel2}* Doge, the callous dog.\n* Cares only for her work.' ]
-            : [ '<32>{#p/story}* DOGE - ATK 14 DEF 10\n* Pronounced \"dohj.\" Soft j.\n* Member of the ELITE squad.' ],
+            : [ '<18>{#p/story}＊ドージ - ATK 14 DEF 10\n＊「ジ」のはつおんは「や行い」です。\n＊ロイヤル・ガードの　いちいん。' ],
       act_flirt: () => [
          ...(dogecon() || world.goatbro
             ? [ '<32>{#p/human}* (You flirt with Doge.)', '<32>{#p/basic}* Doge ignores your attempts at flattery.' ]

@@ -19,7 +19,7 @@ export default {
       mercy_flee: '* Utéct',
       mercy_spare: '* Ušetřete',
 
-      victory1: '<32>{#p/story}* YOU WON!\n* You earned $(x) BP and $(y)Z.',
+      victory1: '<32>{#p/story}* VYHRÁLI JSTE!\n* Dostali jste $(x) BP and $(y)Z.',
       victory2: '<32>{#p/story}* VYHRÁLI JSTE!\n* Dostali jste $(x) BP a $(y)Z.\n* Vaše ÚN vzrostla.'
    },
 
@@ -46,19 +46,19 @@ export default {
                'Noclip',
                'Uložit',
                'PřeskočitText',
-               'Freecam'
+               'Vol.kam'
             ],
             [
-               'CanAssist',
-               'ClearBox',
+               'MůžeAssist',
+               'VymazBox',
                'Exit',
                'ResetBox',
                'ResetMenu',
                'MůžeUtéct',
                'NekonečnáHP',
-               'PacifyAll',
+               'PacifikVše',
                'Sebevražda',
-               'WeakenAll'
+               'OslabitVše'
             ]
          ],
          p_speed: {
@@ -146,7 +146,7 @@ export default {
             left: 'Vlevo',
             metadata: 'Metadata',
             music: 'Hudba',
-            namespace: 'Namespace',
+            namespace: 'Jmen.prost.',
             none1: 'ŽÁDNÝ',
             none2: 'žádný',
             objects: 'Objekty',
@@ -182,13 +182,13 @@ export default {
             true: 'Pravdivý',
             unknown: 'NEZNÁMÝ',
             up: 'Nahoru',
-            vars: 'Vars',
+            vars: 'Prom.',
             velocity: 'Rychlost',
             volatile: 'Nestálý'
          }
       },
       savemod: {
-         tab: 'SAVEMOD',
+         tab: 'ULOŽMOD',
          header1: 'ULOŽIT EDITOR',
          domains: [
             'Data (logické hodnoty)',
@@ -678,17 +678,17 @@ export default {
                text: {
                   basic: 'Hledá přáteli\nZ dětství',
                   spare: 'Použijte svou představivost',
-                  flirt: 'Please Use Your\nImagination',
-                  bully: 'Royal Guard\nRetirees'
+                  flirt: 'Prosím, použijte\nsvou představivost',
+                  bully: 'Důchodci z \nKrálovské gardy'
                }
             },
             glyde: {
                name: 'GLYDE',
                author: 'Burge',
                text: {
-                  basic: 'Not Your Ideal\nBusiness Partner',
-                  spare: 'A Little Less\nShady Than Usual',
-                  flirt: 'Not Your Ideal\nBedfellow',
+                  basic: 'Není to váš ideální\nObchodní partner',
+                  spare: 'O něco méně\nStinné než obvykle',
+                  flirt: 'Není to váš ideální\nSpolunocležník',
                   bully: ''
                }
             },
@@ -696,9 +696,9 @@ export default {
                name: 'BURGERPANTS',
                author: 'Pongy25',
                text: {
-                  basic: 'Running Hastily\nAt The Life Ahead',
-                  spare: 'Looking Forward\nTo The Life Ahead',
-                  flirt: 'Finding Love\nIn The Life Ahead',
+                  basic: 'Spěšně běží za\nŽivotem před sebou',
+                  spare: 'Těší se na život,\nKterý je před ním',
+                  flirt: 'Hledá lásku v životě,\nKterý je před námi',
                   bully: ''
                }
             },
@@ -706,9 +706,9 @@ export default {
                name: 'COZMO',
                author: 'semi',
                text: {
-                  basic: 'Looking For A\nDictionary',
-                  spare: 'Famous\nMagician',
-                  flirt: 'Found A New Kind\nOf Magic',
+                  basic: 'Hledá\nslovník',
+                  spare: 'Slavný\nKouzelník',
+                  flirt: 'Objevil nový\nDruh magie',
                   bully: ''
                }
             },
@@ -716,9 +716,9 @@ export default {
                name: 'TERRESTRIA',
                author: 'major_memestar',
                text: {
-                  basic: 'In Search Of\nThe Past',
-                  spare: 'Renowned\nHistorian',
-                  flirt: 'Has A Crush On\nThe Homeworld',
+                  basic: 'Hledá\nMinulosti',
+                  spare: 'Renomovaný\nHistorik',
+                  flirt: 'Je zamilovaný do\nDomovského světa',
                   bully: ''
                }
             },
@@ -726,50 +726,50 @@ export default {
                name: 'FINAL FROGGIT',
                author: 'PoTheWinterCorder',
                text: {
-                  basic: 'Keeping Its\nWisdom To Itself',
-                  spare: 'Sharing Its\nWisdom Openly',
-                  flirt: 'Using Its Wisdom\nFor Love',
-                  bully: 'Using Its Wisdom\nFor Survival'
+                  basic: 'Nechává si svou\nMoudrost pro sebe',
+                  spare: 'Otevřeně se dělí\nO svou moudrost',
+                  flirt: 'Používá jeho\nMoudrosti k lásce',
+                  bully: 'Používá jeho moud-\nrosti pro přežití'
                }
             },
             whimsalot: {
                name: 'FLUTTERKNYTE',
                author: 'spacey_432',
                text: {
-                  basic: 'Still Working\nEvery Day',
-                  spare: 'Finally Took\nA Break',
-                  flirt: 'Looking For Some\nPrivate Time',
-                  bully: 'Working Harder\nOut Of Fear'
+                  basic: 'Stále pracuje\nKaždý den',
+                  spare: 'Konečně si\nDal pauzu',
+                  flirt: 'Hledá nějaký\nSoukromý čas',
+                  bully: 'Pracuje tvrději\nZe strachu'
                }
             },
             astigmatism: {
                name: 'EYEWALKER PRIME',
                author: 'semi',
                text: {
-                  basic: 'Still A\nBig Bully',
-                  spare: 'Domineering\nEye Doctor',
-                  flirt: 'Domineering\nLeather Tailor',
-                  bully: 'Overthrown By\nAn Oculoux'
+                  basic: 'Je stále\nVelký tyran',
+                  spare: 'Dominantní\nOční lékař',
+                  flirt: 'Dominantní\nKožený krejčí',
+                  bully: 'Svržen\nOculouxem'
                }
             },
             migospel: {
                name: 'SILENCIO',
                author: 'Balgamlı Kedi',
                text: {
-                  basic: 'Still A\nShameless Coward',
-                  spare: 'A Little Less Of\nA Coward',
-                  flirt: 'In Love With\nIts Fear',
-                  bully: 'Running Faster\nThan Ever Before'
+                  basic: 'Stále nestydatý\nZbabělec',
+                  spare: 'O něco méně\nZbabělec',
+                  flirt: 'Zamilovaný do\nSvého strachu',
+                  bully: 'Běží rychleji než\nKdy předtím'
                }
             },
             mushketeer: {
                name: 'MUSHKETEER',
                author: 'Balgamlı Kedi & Ghostly',
                text: {
-                  basic: 'One Mushroom\nArmy',
-                  spare: 'Hardened Warrior\nSeeking Peace',
-                  flirt: 'Defeated By The\nPower Of Love',
-                  bully: 'Scared\nStraight'
+                  basic: 'Jedna houbová\nArmáda',
+                  spare: 'Zocelený válečník\nhledá mír',
+                  flirt: 'Poražen silu\nLásky',
+                  bully: 'Vyděšený\nRovný'
                }
             }
          },

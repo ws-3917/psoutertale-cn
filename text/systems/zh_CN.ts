@@ -746,9 +746,9 @@ export default {
                name: 'COZMO',
                author: 'semi',
                text: {
-                  basic: 'Looking For A\nDictionary',
-                  spare: 'Famous\nMagician',
-                  flirt: 'Found A New Kind\nOf Magic',
+                  basic: '寻找着\n词典',
+                  spare: '著名\n魔法师',
+                  flirt: '发现了\n新鲜的魔法',
                   bully: ''
                }
             },
@@ -756,9 +756,9 @@ export default {
                name: 'TERRESTRIA',
                author: 'major_memestar',
                text: {
-                  basic: 'In Search Of\nThe Past',
-                  spare: 'Renowned\nHistorian',
-                  flirt: 'Has A Crush On\nThe Homeworld',
+                  basic: '追寻着\n过去',
+                  spare: '著名\n历史学家',
+                  flirt: '痴迷于\n故园',
                   bully: ''
                }
             },
@@ -766,10 +766,10 @@ export default {
                name: 'FINAL FROGGIT',
                author: 'PoTheWinterCorder',
                text: {
-                  basic: 'Keeping Its\nWisdom To Itself',
-                  spare: 'Sharing Its\nWisdom Openly',
-                  flirt: 'Using Its Wisdom\nFor Love',
-                  bully: 'Using Its Wisdom\nFor Survival'
+                  basic: '将智慧\n藏在心里',
+                  spare: '将智慧\n大方分享',
+                  flirt: '将智慧\n用于相爱',
+                  bully: '将智慧\n用于生存'
                }
             },
             whimsalot: {
@@ -786,10 +786,10 @@ export default {
                name: 'EYEWALKER PRIME',
                author: 'semi',
                text: {
-                  basic: 'Still A\nBig Bully',
-                  spare: 'Domineering\nEye Doctor',
-                  flirt: 'Domineering\nLeather Tailor',
-                  bully: 'Overthrown By\nAn Oculoux'
+                  basic: '仍然是个\n大恶霸',
+                  spare: '盛气凌人的\n眼科医生',
+                  flirt: '盛气凌人的\n皮革裁缝',
+                  bully: '被一只\nOculoux\n推翻'
                }
             },
             migospel: {
@@ -831,7 +831,7 @@ export default {
                author: 'major_memestar'
             },
             mewmew: {
-               name: 'MEW MEW',
+               name: '喵喵',
                author: 'spacey_432'
             },
             napstablook: {

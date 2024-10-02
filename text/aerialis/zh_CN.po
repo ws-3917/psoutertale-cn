@@ -1,20 +1,7 @@
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-21 10:25+0000\n"
-"PO-Revision-Date: 2024-10-02 01:29+0000\n"
-"Last-Translator: Holaamingo <1368779090@qq.com>\n"
-"Language-Team: Chinese (Simplified Han script) <https://ws3917.site/projects/"
-"project-spacetime/4-aerialis/zh_Hans/>\n"
-"Language: zh_CN\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.7.2\n"
 
-#
 msgid "<32>{#p/human}* (It appears the terminal is beyond your access level.)"
 msgstr ""
 
@@ -8131,6 +8118,9 @@ msgstr "<25>{#p/asriel2}{#f/8}* 只能换条路走了。"
 
 msgid "<32>{#p/human}* (Where would you like to go?)"
 msgstr "<32>{#p/human}* （你想去哪里？）"
+
+msgid ""
+msgstr ""
 
 msgid "Floor L1"
 msgstr "左一层"
@@ -19703,11 +19693,6 @@ msgid ""
 msgstr ""
 
 msgid ""
-"<32>{#p/asriel2}* RG 01.\n"
-"* Just one left."
-msgstr ""
-
-msgid ""
 "<32>{#p/story}* RG 01 - ATK 30 DEF 20\n"
 "* Intent on ending you, even if it kills him."
 msgstr ""
@@ -20058,11 +20043,6 @@ msgstr ""
 msgid ""
 "<33>{#p/story}* RG 04 - ATK 30 DEF 20\n"
 "* Believes in friendship, but isn't against something more..."
-msgstr ""
-
-msgid ""
-"<32>{#p/asriel2}* RG 02.\n"
-"* Just one left."
 msgstr ""
 
 msgid ""

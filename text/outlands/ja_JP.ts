@@ -405,15 +405,15 @@ export default {
             "<13>{#f/17}＊…そのときは　けんか　してないことが　ただ　うれしかった。"
          ],
          e8: [
-            '<13>{#p/asriel1}{#f/13}＊こんどは　$(name)とボクで　ママとパパに　ゆうしょくを　つくってたんだ。',
+            '<13>{#p/asriel1}{#f/13}＊こんどは　$(name)とボクだけで　ゆうしょくを　つくってたんだ。',
             '<13>{#f/15}＊もっと　からくしよう　ってずっと　いいつづけてたよ。',
             '<13>{#f/3}＊しょうじき　いまなら　そんなふうに　だだをこねても　とめはしない。',
             '<13>{#f/20}＊なにか　からいものが　たべたくなってきたな。',
-            '<13>{#f/13}＊とうじは　あまいものの　ほうが　すきだったな。\n＊モンスターはみんなそう。',
+            '<13>{#f/13}＊あのときは　あまいものの　ほうが　すきだったな。\n＊モンスターはみんなそう。',
             '<13>{#f/15}＊さいしゅうてきに　ボウルで　ひっぱりあいを　はじめて…',
             '<13>{#f/20}＊どうなったかは　わかるよね。',
-            '<13>{#f/17}＊もちろん　ママは　ちらかしたものを　そうじしなさい　って。',
-            '<13>{#f/13}＊パパは　そのあと　そとにつれていって　くれて　ほしいものを　たべられたよ。'
+            '<13>{#f/17}＊もちろん　かあさんは　ちらかしたものを　そうじしなさい　って。',
+            '<13>{#f/13}＊そのあと　とうさんと　いっしょに　がいしょく　しにいったよ。'
          ],
          e9: [
             "<13>{#p/asriel1}{#f/15}＊$(name)とボクは…\n＊いけんが　あうことは　まったく　なかったな…",
@@ -446,7 +446,7 @@ export default {
             "<13>{#f/13}＊キミは　ボクが　すべてのかこを　のりこえる　てつだいをしてくれる。",
             '<13>{#f/23}＊…ほんとうにうれしい。',
             '<13>{#f/22}＊…',
-            '<13>{#f/13}＊ママ　パパ…',
+            '<13>{#f/13}＊かあさん　とうさん…',
             '<13>{#f/13}＊サンズ　パピルス　アンダイン　アルフィー…',
             "<13>{#f/15}＊そして　かこに　ボクが　ころしてしまった　みんなも…",
             "<13>{#f/16}＊…かおむけ　なんて　ぜったいにできない。",
@@ -481,7 +481,7 @@ export default {
          SAVE.data.b.svr
             ? [
                  '<17>{#p/human}＊(だんろの　あたたかさに　つられてしまう…)',
-                 choicer.create('＊(なかへはいる？)', 'はい', 'いいえ')
+                 choicer.create('＊(なかへ　はいる？)', 'はい', 'いいえ')
               ]
             : [
                  SAVE.data.n.state_wastelands_toriel === 2 || world.runaway
@@ -489,7 +489,7 @@ export default {
                     : "<17>{#p/basic}＊トリエルのだんろ。\n＊あつすぎず　ここちよい　あたたかさだ。",
                  ...(world.darker
                     ? []
-                    : [ '<17>＊なかへ　はいることもできる。', choicer.create('＊(なかへはいる？)', 'はい', 'いいえ') ])
+                    : [ '<17>＊なかへ　はいることもできる。', choicer.create('＊(なかへ　はいる？)', 'はい', 'いいえ') ])
               ],
       fireplace2a: [ '<17>{#p/human}＊(はいらないことにした。)' ],
       fireplace2b: () => [
@@ -642,7 +642,7 @@ export default {
             '<17>{#p/asriel1}{#v/1}＊「アズのにっき　Kれき510年　8月」',
             '<17>＊「あのせんせいが　またいえにきた。　ニンゲンについて　わるいゆめを　みたらしい。」',
             '<17>＊「えっと　せんせい　ってのは　パパが　よくはなしてる　かがくしゃだよ。」',
-            '<17>＊「せんせいは　はつめいか　なんだ。」',
+            '<17>＊「せんせいは　はつめいか　なんだ。　たとえば…」',
             '<17>＊「ふくせいきとか　ナノこうぞうマシンとか　じゅうりょくはっせいそうちとか。」',
             '<17>＊「でも　せんせいの　ようすがヘン。　まるでボクが　こわいかお　してるみたい。」',
             '<17>＊「なんかわるいことしたかな？」'
@@ -695,399 +695,399 @@ export default {
       ],
       backdesk: {
          a: () => [
-            ...(SAVE.data.b.svr ? [] : [ "<32>{#p/basic}* There's a backpack strung up on this coat rack." ]),
-            '<32>{#p/human}* (You look inside the backpack...)',
+            ...(SAVE.data.b.svr ? [] : [ "<17>{#p/basic}＊この　コートハンガーに　リュックが　つるされている。" ]),
+            '<17>{#p/human}＊（リュックの　なかみを　みてみた…）',
             ...(SAVE.data.b.svr
-               ? [ '<32>{#p/human}* (But there was nothing left to find within.)' ]
-               : [ '<32>{#p/basic}* Nothing left to find here.' ])
+               ? [ '<17>{#p/human}＊（なかには　なにも　なかった）' ]
+               : [ '<17>{#p/basic}＊ここには　なにも　ない。' ])
          ],
          b: () => [
-            ...(SAVE.data.b.svr ? [] : [ "<32>{#p/basic}* There's a backpack strung up on this coat rack." ]),
-            '<32>{#p/human}* (You look inside the backpack...)',
+            ...(SAVE.data.b.svr ? [] : [ "<17>{#p/basic}＊この　コートハンガーに　リュックが　つるされている。" ]),
+            '<17>{#p/human}＊（リュックの　なかみを　みてみた…）',
             ...(SAVE.data.b.svr
                ? []
-               : [ "<32>{#p/basic}* What's this?\n* A limited edition Super Starwalker comic strip?" ]),
+               : [ "<17>{#p/basic}＊なんだ？\n＊あの　げんていばんの　『超スターウォーカー』　じゃないか？" ]),
             '<18>{#p/human}＊(『超スターウォーカーⅡ』を　てにいれた)'
          ],
          b2: () => [
-            ...(SAVE.data.b.svr ? [] : [ "<32>{#p/basic}* There's a backpack strung up on this coat rack." ]),
-            '<32>{#p/human}* (You look inside the backpack...)',
+            ...(SAVE.data.b.svr ? [] : [ "<17>{#p/basic}＊この　コートハンガーに　リュックが　つるされている。" ]),
+            '<17>{#p/human}＊（リュックの　なかみを　みてみた…）',
             ...(SAVE.data.b.svr
                ? []
-               : [ "<32>{#p/basic}* What's this?\n* A limited edition Super Starwalker comic strip?" ]),
-            "<32>{#p/human}* (You're carrying too much to take that.)"
+               : [ "<17>{#p/basic}＊なんだ？\n＊あの　げんていばんの　『超スターウォーカー』　じゃないか？" ]),
+            "<17>{#p/human}＊（これいじょう　アイテムを　もてない）"
          ]
       },
       midsleep: () => [
-         '<32>{#p/human}* (If you sleep here now, you may miss something important.)',
-         choicer.create('* (Go to sleep?)', 'はい', 'いいえ')
+         '<17>{#p/human}＊（ここでねると　なにかだいじなことを　わすれてしまう　かもしれない）',
+         choicer.create('＊（ねる？）', 'はい', 'いいえ')
       ],
       bedfailToriel: [
-         '<25>{#p/toriel}{#f/5}* Oh dear.',
-         '<25>{#f/1}* Perhaps my actions have done more harm than I first imagined...',
-         '<25>{#f/0}* ...\n* Worry not, my child.',
-         "<25>* I will make sure you get a good night's rest for the journey ahead.",
-         '<32>{#p/human}* (Toriel sits next to you and sings a lullaby to put you to sleep.)'
+         '<13>{#p/toriel}{#f/5}＊まあ…',
+         '<13>{#f/1}＊おもってたよりも　あなたを　きづつけて　しまったかも…',
+         '<13>{#f/0}＊…\n＊しんぱいしないで。',
+         "<13>＊たびにそなえて　ぐっすり　ねられるように　してあげます。",
+         '<17>{#p/human}＊（トリエルが　あなたのとなりに　すわって　こもりうたを　うたっている）'
       ],
       blooky1: () => [
-         '<32>{#p/napstablook}* Zzz... Zzz...',
-         '<32>* Zzz... Zzz...',
-         "<32>{#p/basic}* This ghost keeps saying 'z' out loud repeatedly, pretending to sleep.",
-         choicer.create('* (Try to walk through it?)', 'はい', 'いいえ')
+         '<17>{#p/napstablook}＊グーグーグー…　グーグーグー…',
+         '<17>＊グーグーグー…　グーグーグー…',
+         "<17>{#p/basic}＊この　おばけは　「グーグー」と　いいつづけて　ねたふりを　している。",
+         choicer.create('＊（ムリヤリ　どかす？）', 'はい', 'いいえ')
       ],
       blooky2: () => [
-         '<32>{#p/basic}* The ghost is still blocking the way.',
-         choicer.create('* (Try to walk through it?)', 'はい', 'いいえ')
+         '<17>{#p/basic}＊この　おばけは　いまだに　みちを　ふさいでいる。',
+         choicer.create('＊（ムリヤリ　どかす？）', 'はい', 'いいえ')
       ],
       blooky3: [
-         '<32>{#p/napstablook}* i usually visit this place to get some peace and quiet...',
-         '<32>* but today i met someone nice...',
-         "<32>* well, i'll get out of your way now",
-         '<32>* cya...'
+         '<17>{#p/napstablook}＊いつもネ…　おだやかで　しずかな　このへやに　くるんだケド…',
+         '<17>＊きょうはネ…　いいひとに　であっちゃッタ…',
+         "<17>＊ジャマだよネ。　いまどくネ。",
+         '<17>＊じゃネ…'
       ],
       blooky4: [
-         '<32>{#p/napstablook}* so um...\n* you really like me, huh',
-         '<32>* heh... thank you...',
-         '<32>* and, uh... sorry i got in your way before...',
-         "<32>* i'll go somewhere else now",
-         "<32>* but... don't worry...",
-         "<32>* you'll see me again later...",
-         '<32>* if you want to...',
-         '<32>* well, cya...'
+         '<17>{#p/napstablook}＊えっと…\n＊そんなに　おばけが　スキなんだ…　あッ…',
+         '<17>＊アリガト…',
+         '<17>＊あッ…　ジャマだよネ…',
+         "<17>＊べつの　ばしょに　いくつもりだヨ。",
+         "<17>あ…　だいじょうブ…",
+         "<17>＊たぶん　また　あう　カラ…",
+         '<17>＊もし　よかったらだケド…',
+         '<17>＊えっト…　じゃネ…'
       ],
       blooky5: [
-         '<32>{#p/napstablook}* so um... you really despise me, huh',
-         "<32>* that's... nice...",
-         "<32>* well, i'll be on my way now",
-         '<32>* bye...'
+         '<17>{#p/napstablook}＊えット…　ほんとに　おばけのこと　きらい　なんだネ…　ハハ…',
+         "<17>＊そんな　かんがえモ…　アリだと　おもうヨ…",
+         "<17>＊あッ…　ジャマだよネ…",
+         '<17>＊じゃネ…'
       ],
       blooky6: [
-         '<32>{#p/napstablook}* so um... that happened...',
+         '<17>{#p/napstablook}＊えット…　そういうことも　あるよネ…',
          '<17>＊…',
-         '<32>* uh... i gotta go now',
-         '<32>* cya...'
+         '<17>＊あ…　いかないト…',
+         '<17>＊じゃネ…'
       ],
       blooky7: [
-         "<32>{#p/napstablook}* you didn't even say anything to me...",
-         "<32>* that's... i don't even know what that is...",
-         "<32>* well, i'll be going now",
-         '<32>* bye...'
+         "<17>{#p/napstablook}＊ひとことも　しゃべって　くれなかったネ…",
+         "<17>＊えット…　どういうことか　わからなクテ…",
+         "<17>＊あ…　いかないト…",
+         '<17>＊じゃネ…'
       ],
       breakfast: [ '<32>{#p/human}* (You got the Fried Snails.)' ],
-      breakslow: [ "<32>{#p/human}* (You're carrying too much to take that.)" ],
+      breakslow: [ "<17>{#p/human}＊（これいじょう　アイテムを　もてない）" ],
       candy1: () =>
          SAVE.data.b.svr
             ? [
-                 '<32>{#p/human}* (You approach the vending machine.)',
-                 choicer.create('* (What will you make?)', 'Candy', 'Water', 'カンナビノイド', 'Nothing')
+                 '<17>{#p/human}＊（じはんきに　ちかづいた）',
+                 choicer.create('＊（なにを　つくる？）', 'Candy', '水', 'カンナビノイド', 'やめる')
               ]
             : [
-                 '<32>{#p/basic}* Synthesize something with the vending machine?',
-                 choicer.create('* (What will you make?)', 'Candy', 'Water', 'カンナビノイド', 'Nothing')
+                 '<17>{#p/basic}＊じはんきで　なにか　ごうせいする？',
+                 choicer.create('＊（なにを　つくる？）', 'Candy', '水', 'カンナビノイド', 'やめる')
               ],
       candy2: [ '<18>{#p/human}＊($(x)を　てにいれた)\n＊([C]をおすと　メニューがひらく)' ],
       candy3: [ '<18>{#p/human}＊($(x)を　てにいれた)' ],
       candy4: () => [
          '<18>{#p/human}＊($(x)を　てにいれた)',
-         ...(SAVE.data.b.svr ? [] : [ '<32>{#p/basic}* The machine is beginning to malfunction.' ])
+         ...(SAVE.data.b.svr ? [] : [ '<17>{#p/basic}＊じはんきが　あやしげな　おとをたてている…' ])
       ],
       candy5: () => [
          '<18>{#p/human}＊($(x)を　てにいれた)',
-         ...(SAVE.data.b.svr ? [] : [ '<32>{#p/basic}* The machine broke down.' ])
+         ...(SAVE.data.b.svr ? [] : [ '<17>{#p/basic}＊じはんきは　こしょうした。' ])
       ],
       candy6: () =>
          SAVE.data.b.svr
             ? [
                  [
-                    '<25>{#p/asriel1}{#f/13}* Out of service again?',
-                    "<25>{#f/17}* Yeah, that's... by design, actually.",
-                    "<25>{#f/13}* This machine runs on the Outlands' own power supply, so...",
-                    '<25>{#f/15}* To avoid using too much power, Toriel just made it break itself.',
-                    "<26>{#f/20}* Not that she'd tell you."
+                    '<13>{#p/asriel1}{#f/13}＊また　つかえなく　なったのか？',
+                    "<13>{#f/17}＊まあ…　ほんとは　シヨウなんだけど。",
+                    "<13>{#f/13}＊このじはんきは　アウトランドの　エネルギーを　つかってる　から…",
+                    '<13>{#f/15}＊トリエルが　つかいすぎない　ように　せってい　したんだ。',
+                    "<13>{#f/20}＊トリエルは　おしえて　くれないと　おもうけど。"
                  ],
                  [
-                    '<25>{#p/asriel1}{#f/13}* The reason that power supply is so small, though...',
-                    "<25>{#f/17}* It's because, unlike the CORE, it only uses background radiation.",
-                    "<25>{#f/13}* To put it into numbers, I'd say...",
-                    '<25>{#f/15}* It generates about ten- thousandths of the power the CORE does.'
+                    '<13>{#p/asriel1}{#f/13}＊なんで　ここの　エネルギーが　すくないのか　っていうと…',
+                    "<13>{#f/17}＊コアとちがって　ハイケイホウシャしか　つかってないんだ。",
+                    "<13>{#f/13}＊その　りょうを　けいさんすると…",
+                    '<13>{#f/15}＊ざっと　コアのエネルギーの　1パー　ぐらいだね。'
                  ],
                  [
-                    '<25>{#p/asriel1}{#f/13}* Hmm...',
-                    '<25>{#f/15}* I wonder if, despite its low capacity...',
-                    '<25>{#f/13}* This generator would be enough to power a small atmospheric system.',
-                    '<25>{#f/17}* If the CORE was destroyed, could people survive here...?'
+                    '<13>{#p/asriel2}{#f/13}＊…',
+                    '<13>{#f/15}＊しゅつりょくが　そんなに　ひくいのに…',
+                    '<13>{#f/13}＊ここの　さんそせいせい　システムが　うごいてるのは　ふしぎだよね。',
+                    '<13>{#f/17}＊もしもコアが　こわれたら　モンスターたちは　いきられるのかな…？'
                  ],
-                 [ '<26>{#p/asriel1}{#f/20}* ... asking for a friend.' ]
+                 [ '<13>{#p/asriel1}{#f/20}＊…べつの　おともだちを　たよったら　どうかな。' ]
               ][Math.min(asrielinter.candy6++, 3)]
-            : [ "<32>{#p/basic}* It's out of service." ],
-      candy7: [ '<32>{#p/human}* (You decide not to make anything.)' ],
-      candy8: [ "<32>{#p/human}* (You're carrying too much.)" ],
+            : [ "<17>{#p/basic}＊つかえない。" ],
+      candy7: [ '<17>{#p/human}＊（なにも　つくらないことにした）' ],
+      candy8: [ "<17>{#p/human}＊（これいじょう　アイテムを　もてない）" ],
       chair1a: () => [
-         '<25>{#p/toriel}{#f/1}{#n1}* What is it, my child?\n* Are you hungry?',
-         '<25>{#f/0}* Perhaps you would like to know more about the book I am reading.',
-         choicer.create('{#n1!}* (What do you say?)', 'Hungry', 'Book', 'Home', 'Nothing')
+         '<13>{#p/toriel}{#f/1}{#n1}＊どうしたの？\n＊おなかが　すいた　のかしら？',
+         '<13>{#f/0}＊わかったわ。\n＊この　ほんの　ことを　しりたいのね。',
+         choicer.create('{#n1!}＊（どう　こたえる？）', 'ハラペコ', 'ほん', 'うち', 'やめる')
       ],
       chair1b: () => [
-         '<25>{#p/toriel}{#n1}* What is it, my child?',
-         choicer.create('{#n1!}* (What do you say?)', 'Hungry', 'Book', 'Home', 'Nothing')
+         '<13>{#p/toriel}{#n1}＊なにか　ごようかしら？',
+         choicer.create('{#n1!}＊（どう　こたえる？）', 'ハラペコ', 'ほん', 'うち', 'やめる')
       ],
-      chair1c: [ '<25>{#p/toriel}{#n1}* Well, let me know if you need anything.' ],
-      chair1d: [ '<25>{#p/toriel}{#n1}* Well, let me know if you change your mind.' ],
+      chair1c: [ '<13>{#p/toriel}{#n1}＊ほしいものが　あれば　おしえてね。' ],
+      chair1d: [ '<13>{#p/toriel}{#n1}＊きが　かわったら　おしえてね。' ],
       chair1e: () => [
-         '<25>{#p/toriel}{#f/1}{#n1}* Restless night?',
-         '<25>{#f/1}* ...\n* If you like, I can read you this book...',
-         '<25>{#f/0}* It is called \"Generous Monster\" and it was written by a human.',
-         choicer.create('{#n1!}* (Read the book?)', 'はい', 'いいえ')
+         '<13>{#p/toriel}{#f/1}{#n1}＊ねつけない　のかしら？',
+         '<13>{#f/1}＊…\n＊じゃあ　あんたに　このほんを　よんであげられるわ。',
+         '<13>{#f/0}＊ニンゲンの　かいた　「きまえのよいモンスター」　っていう　ほん。',
+         choicer.create('{#n1!}＊（ほんを　よんでもらう？）', 'はい', 'いいえ')
       ],
       chair1f: pager.create(
          0,
-         [ '<25>{#p/toriel}{#n1}{#f/1}* Back for a visit?', '<25>{#f/0}* Well, feel free to stay as long as you need.' ],
-         [ '<26>{#p/toriel}{#n1}{#f/5}* I shall remain here, as I always have...' ]
+         [ '<13>{#p/toriel}{#n1}{#f/1}＊もどってきたのかしら？', '<13>{#f/0}＊もちろん　すきなだけ　ここに　いてくれて　かまわないわ。' ],
+         [ '<13>{#p/toriel}{#n1}{#f/5}＊いつもどおり　ここにいる　よてい　ですから。' ]
       ),
       chair2a1: () => [
-         '<25>{#p/toriel}{#f/1}{#n1}* Are you hungry?\n* Would you like me to make you a breakfast?',
-         choicer.create('{#n1!}* (Have breakfast?)', 'はい', 'いいえ')
+         '<13>{#p/toriel}{#f/1}{#n1}＊おなか　すいてない？\n＊あさごはん　でも　つくりましょうか？',
+         choicer.create('{#n1!}＊（あさごはんを　たべる？）', 'はい', 'いいえ')
       ],
-      chair2a2: [ '<25>{#p/toriel}{#n1}* Wonderful!\n* I will be in the kitchen preparing it.' ],
+      chair2a2: [ '<13>{#p/toriel}{#n1}＊そうこなくちゃ！\n＊キッチンで　ごはんの　じゅんびを　しておくわね。' ],
       chair2a3: () => [
-         '<25>{#p/toriel}{#f/1}{#n1}* Have you changed your mind about breakfast?',
-         choicer.create('{#n1!}* (Have breakfast?)', 'はい', 'いいえ')
+         '<13>{#p/toriel}{#f/1}{#n1}＊やっぱり　あさごはんを　たべたいの？',
+         choicer.create('{#n1!}＊（あさごはんを　たべる？）', 'はい', 'いいえ')
       ],
       chair2a4: () =>
          SAVE.data.b.drop_snails
             ? [
-                 '<25>{#p/toriel}{#f/3}{#n1}* You expect me to make another after you dropped the first one?',
-                 '<25>{#f/4}* This child...',
-                 '<25>{#f/0}* No, little one.\n* I will not prepare another breakfast.'
+                 '<13>{#p/toriel}{#f/3}{#n1}＊おとしたからって　もういちど　あさごはんを　つくってほしいの？',
+                 '<13>{#f/4}＊あなたというコは…',
+                 '<13>{#f/0}＊いけません。\n＊つくりません　からね。'
               ]
             : [
-                 '<25>{#p/toriel}{#n1}* I have already served breakfast, little one.',
-                 '<25>{#f/1}* We cannot have more than one breakfast per day, can we?',
-                 '<25>{#f/0}* That would be silly.'
+                 '<13>{#p/toriel}{#n1}＊あさごはんは　もう　つくったわよ。',
+                 '<13>{#f/1}＊あさごはんは　いちにち　にかいも　たべられません。',
+                 '<13>{#f/0}＊おなかが　はちきれて　しまうわよ。'
               ],
       chair2c1: () => [
-         '<25>{#p/toriel}{#n1}* Ah, the book!\n* Yes, it is quite the fun little read.',
-         '<25>{#f/0}* It is called \"Generous Monster\" and was written by a human.',
-         '<25>{#f/1}* Would you like me to read it to you?',
-         choicer.create('{#n1!}* (Read the book?)', 'はい', 'いいえ')
+         '<13>{#p/toriel}{#n1}＊ほんを　よみたいのね！\n＊そうね。　ほんを　よむのは　いいことよ。',
+         '<13>{#f/0}＊ニンゲンの　かいた　「きまえのよいモンスター」　っていう　ほん。',
+         '<13>{#f/1}＊よんであげましょうか？',
+         choicer.create('{#n1!}＊（ほんを　よんでもらう？）', 'はい', 'いいえ')
       ],
-      chair2c2: [ '<25>{#p/toriel}{#n1}* Splendid!', '<25>{#g/torielCompassionSmile}* ...' ],
+      chair2c2: [ '<13>{#p/toriel}{#n1}＊サイコウ！', '<13>{#g/torielCompassionSmile}＊…' ],
       chair2c3: () => [
-         '<25>{#p/toriel}{#f/1}{#n1}* Do you want me to read you the book now?',
-         choicer.create('{#n1!}* (Read the book?)', 'はい', 'いいえ')
+         '<13>{#p/toriel}{#f/1}{#n1}＊ほんを　よんでほしいの？',
+         choicer.create('{#n1!}＊（ほんを　よんでもらう？）', 'はい', 'いいえ')
       ],
       chair2c4: () => [
-         '<25>{#p/toriel}{#f/1}{#n1}* Do you want me to read you the book again?',
-         choicer.create('{#n1!}* (Read the book?)', 'はい', 'いいえ')
+         '<13>{#p/toriel}{#f/1}{#n1}＊もういちど　ほんを　よんでほしいの？',
+         choicer.create('{#n1!}＊（ほんを　よんでもらう？）', 'はい', 'いいえ')
       ],
-      chair2c5: [ '<25>{#p/toriel}{#f/1}{#n1}* Alright, then...', '<25>{#p/toriel}{#g/torielCompassionSmile}* ...' ],
+      chair2c5: [ '<13>{#p/toriel}{#f/1}{#n1}＊わかったわ…', '<13>{#p/toriel}{#g/torielCompassionSmile}＊…' ],
       chair2c6: [
-         '<25>{#f/1}{#n1}* \"Once, there was a monster...\"',
-         '<25>{#f/0}* \"And she loved a little human.\"',
-         '<25>{#f/1}* \"And every day, the human would come visit...\"',
-         '<25>{#f/0}* \"And they would run and play together in the fields.\"',
-         '<25>{#f/1}* \"They\'d sing songs together, tell stories to each other...\"',
-         '<25>{#f/0}* \"And they would play hide-and-go seek.\"',
-         '<25>{#f/1}* \"And when the human was tired, she would tuck them into bed...\"',
-         '<25>{#f/0}* \"And the human loved the monster very much.\"',
-         '<25>{#f/0}* \"And the monster was happy.\"',
-         '<25>{#f/1}* \"But as time went by, and the human grew older...\"',
-         '<25>{#f/0}* \"The monster was often left alone.\"',
-         '<25>{#f/1}* \"Then one day, the human came back...\"',
-         '<25>{#f/0}* \"And the monster said \'Come, human, come and play!\'\"',
-         '<25>{#f/5}* \"\'I am too big to play,\' said the human.\"',
-         '<25>{#f/1}* \"\'I want to drive, to find a new home...\'\"',
-         "<25>{#f/5}* \"'Sorry,' said the monster, 'but I am too poor to own a car.'\"",
-         '<25>{#f/5}* \"\'All I have is my own two feet.\'\"',
-         '<25>{#f/0}* \"\'Climb on my back, and I can run you to where you need.\'\"',
-         '<25>{#f/0}* \"\'Then you can see the town and be happy.\'\"',
-         '<25>{#f/1}* \"And so the human climbed onto the monster\'s back...\"',
-         '<25>{#f/0}* \"And the monster took them to a new home.\"',
-         '<25>{#f/0}* \"And the monster was happy.\"',
-         '<25>{#f/1}* \"But the human stayed away for a long time...\"',
-         '<25>{#f/5}* \"And the monster was sad.\"',
-         '<25>{#f/0}* \"Then one day, the human came back.\"',
-         '<25>{#f/1}* \"And the monster smiled from ear to ear and said...\"',
-         '<25>{#f/1}* \"\'Come, human, come and ride on my back!\'\"',
-         '<25>{#f/5}* \"\'I am too sad to ride around,\' said the human.\"',
-         '<25>{#f/1}* \"\'I wish I had a family, and children of my own...\'\"',
-         "<25>{#f/5}* \"'Sorry,' said the monster, 'but I cannot give that to you.'\"",
-         '<25>{#f/5}* \"\'I am only one person.\'\"',
-         '<25>{#f/0}* \"\'Visit for a while, and we can find you a date.\'\"',
-         '<25>{#f/0}* \"\'Then you can find love and be happy.\'\"',
-         '<25>{#f/1}* \"And so the human visited their old friend for a while...\"',
-         '<25>{#f/0}* \"And the monster found them someone they might like.\"',
-         '<25>{#f/0}* \"And the monster was happy.\"',
-         '<25>{#f/5}* \"But the human stayed away for a long time.\"',
-         '<25>{#f/1}* \"When they finally returned, the monster was so happy...\"',
-         '<25>{#f/9}* \"She could hardly speak.\"',
-         '<25>{#f/1}* \"\'Come, human,\' she whispered...\"',
-         '<25>{#f/1}* \"\'Come and visit.\'\"',
-         '<25>{#f/5}* \"\'I am too old and busy to visit,\' said the human.\"',
-         '<25>{#f/1}* \"\'I want a place to rest for the night...\'\"',
-         "<25>{#f/5}* \"'Sorry,' said the monster, 'but I do not have a bed your size.'\"",
-         '<25>{#f/5}* \"\'I am still too poor to afford one.\'\"',
-         '<25>{#f/0}* \"\'Sleep with me for the night.\'\"',
-         '<25>{#f/0}* \"\'Then you can get some rest and be happy.\'\"',
-         '<25>{#f/1}* \"And so the human and the monster cuddled together...\"',
-         '<25>{#f/0}* \"And the monster was able to put the human to sleep.\"',
-         '<25>{#f/0}* \"And the monster was happy.\"',
-         '<25>{#f/5}* \"... but not really.\"',
-         '<25>{#f/9}* \"And after a long time, the human came back again.\"',
-         "<25>{#f/5}* \"'I am sorry, human,' said the monster, 'but I have fallen down.'\"",
-         '<25>{#f/5}* \"\'My legs are giving out, I cannot take you anywhere.\'\"',
-         '<25>{#f/10}* \"\'There is nowhere else I want to be,\' said the human.\"',
-         '<26>{#f/5}* \"\'I cannot find you a date, I know no one else\' said the monster.\"',
-         '<25>{#f/10}* \"\'There is no one else I want to be with,\' said the human.\"',
-         '<25>{#f/5}* \"\'I am too weak for you to sleep on me\', said the monster.\"',
-         '<25>{#f/10}* \"\'I do not need sleep any longer,\' said the human.\"',
-         "<25>{#f/5}* \"'I am sorry,' sighed the monster.",
-         '<25>{#f/5}* \"\'I wish I had something to offer, but I have nothing left.\'\"',
-         '<25>{#f/9}* \"\'I am just an old monster approaching her death.\'\"',
-         '<25>{#f/5}* \"\'I am sorry...\'\"',
-         '<25>{#f/10}* \"\'I do not need very much now,\' said the human.\"',
-         '<25>{#f/10}* \"\'Just a hug from my best friend before I die.\'\"',
-         '<25>{#f/1}* \"\'Well,\' said the monster, straightening her posture...\"',
-         '<25>{#f/0}* \"\'Well, an old monster is always here for that.\'\"',
-         '<25>{#f/0}* \"\'Come, human, come to me. Be with me one last time.\'\"',
-         '<25>{#f/9}* \"And so the human did.\"',
-         '<25>{#f/10}* \"And the monster was happy.\"'
+         '<13>{#f/1}{#n1}＊「むかしむかし　あるところに　モンスターが　いました。」',
+         '<13>{#f/0}＊「モンスターは　とある　ニンゲンの　こどもが　だいすきでした。」',
+         '<13>{#f/1}＊「まいにち　ニンゲンが　あそびにきては…」',
+         '<13>{#f/0}＊「ひろばで　いっしょに　はしりまわり　あそんだ　ものでした。」',
+         '<13>{#f/1}＊「うたを　うたったり　おはなししたり…」',
+         '<13>{#f/0}＊「かくれんぼを　しました。」',
+         '<13>{#f/1}＊「あそびつかれたら　ニンゲンを　ベッドに　つれてって　あげました。」',
+         '<13>{#f/0}＊「ニンゲンは　そんな　モンスターが　だいすきでした。」',
+         '<13>{#f/0}＊「そして　モンスターは　しあわせでした。」',
+         '<13>{#f/1}＊「ときがたつにつれ　ニンゲンは　おおきくなり…」',
+         '<13>{#f/0}＊「モンスターは　ひとりで　いることが　おおくなりました。」',
+         '<13>{#f/1}＊「それから　あるひ　もどってきた　ニンゲンに…」',
+         '<13>{#f/0}＊「『こっちにきて！　あそぼうよ！』　モンスターは　いいました。」',
+         '<13>{#f/5}＊「『ボクはもう　そとで　あそぶような　こども　じゃないんだ』」',
+         '<13>{#f/1}＊「『あたらしい　うちを　さがすのに　くるまがほしくて…』」',
+         "<13>{#f/5}＊「『ごめんね　わたしには　くるまを　かう　おかねは　ないの』」",
+         '<13>{#f/5}＊「『あるくしか　ないの』」',
+         '<13>{#f/0}＊「『わたしの　せなかに　のってよ　どこへでも　つれていくから』」',
+         '<13>{#f/0}＊「『まちへ　いけるし　しあわせ　でしょう？』」',
+         '<13>{#f/1}＊「そうして　ニンゲンは　モンスターに　のって…」',
+         '<13>{#f/0}＊「モンスターは　あたらしい　うちへ　つれていって　あげました。」',
+         '<13>{#f/0}＊「そして　モンスターは　しあわせでした。」',
+         '<13>{#f/1}＊「しかし　ニンゲンは　しばらく　もどってきませんでした。」',
+         '<13>{#f/5}＊「モンスターは　かなしげでした。」',
+         '<13>{#f/0}＊「それから　あるひ　もどってきた　ニンゲンに…」',
+         '<13>{#f/1}＊「モンスターは　えがおで　くちを　おおきく　あけて　いいました。」',
+         '<13>{#f/1}＊「『こっちにきて！　せなかに　のって！』」',
+         '<13>{#f/5}＊「『ボクは　かなしくて　どこかへ　いく　きぶん　じゃないんだ』」',
+         '<13>{#f/1}＊「『かぞくと　こどもが　ほしくて…』」',
+         "<13>{#f/5}＊「『ごめんね　わたしには　それを　あげることは　できないわ』」",
+         '<13>{#f/5}＊「『ただの　モンスターだもの』」',
+         '<13>{#f/0}＊「『しばらく　あそびに　おいでよ　あいてを　さがしてあげるから』」',
+         '<13>{#f/0}＊「『あいを　みつけられるし　しあわせでしょう？』」',
+         '<13>{#f/1}＊「そうして　ニンゲンは　しばらく　モンスターのところで　すごしました。」',
+         '<13>{#f/0}＊「モンスターは　ニンゲンの　すきそうな　あいてを　みつけて　あげました。」',
+         '<13>{#f/0}＊「そして　モンスターは　しあわせでした。」',
+         '<13>{#f/5}＊「しかし　ニンゲンは　しばらく　もどってきませんでした。」',
+         '<13>{#f/1}＊「ニンゲンが　さいごに　もどってきたとき　モンスターは　しあわせでした…」',
+         '<13>{#f/9}＊「ことばが　でてこないほど。」',
+         '<13>{#f/1}＊「『こっちにきて』　モンスターは　ささやきました。」',
+         '<13>{#f/1}＊「『あそびにおいでよ』」',
+         '<13>{#f/5}＊「『ボクはもう　なんども　あそびにいけるほど　わかくないんだ』」',
+         '<13>{#f/1}＊「『きょう　とまれる　ばしょが　ほしくて…』」',
+         "<13>{#f/5}＊「『ごめんね　わたしは　あなたようのベッドを　もってないの』」",
+         '<13>{#f/5}＊「『あなたのベッドを　かう　おかねは　ないもの』」',
+         '<13>{#f/0}＊「『こんやは　わたしと　いっしょに　ねようよ』」',
+         '<13>{#f/0}＊「『やすめるし　しあわせでしょう？』」',
+         '<13>{#f/1}＊「そうして　ニンゲンと　モンスターは　だきあって」',
+         '<13>{#f/0}＊「モンスターは　ニンゲンを　じぶんのうえに　ねかせてあげました。」',
+         '<13>{#f/0}＊「そして　モンスターは　しあわせでした。」',
+         '<13>{#f/5}＊「…いいえ。　ほんとうは　できませんでした。」',
+         '<13>{#f/9}＊「それから　ひさしぶりに　ニンゲンが　もどってきました。」',
+         "<13>{#f/5}＊「『ごめんね　ころんでしまったの』」",
+         '<13>{#f/5}＊「『わたしの　あしは　もう　うごかないから　どこにもつれていけない』」',
+         '<13>{#f/10}＊「『ボクは　いきたい　ばしょなんて　ないんだ』」',
+         '<13>{#f/5}＊「『デートの　あいても　みつけられない　もう　しりあいは　いないの』」',
+         '<13>{#f/10}＊「『ボクには　いっしょに　いたいひと　なんて　いないんだ』」',
+         '<13>{#f/5}＊「『わたしは　よわっていて　もう　あなたと　ねられない』」',
+         '<13>{#f/10}＊「『ボクは　もう　やすむ　ひつようは　ないんだ』」',
+         "<13>{#f/5}＊「『ごめんね』　モンスターは　ためいきを　つきました。」",
+         '<13>{#f/5}＊「『あなたに　なにか　あげられたら　いいのに　もう　なにもないの』」',
+         '<13>{#f/9}＊「『わたしは　としを　とった　ただの　しにかけの　モンスターなの』」',
+         '<13>{#f/5}＊「『ごめんね…』」',
+         '<13>{#f/10}＊「『もう　なにも　いらないんだ』」',
+         '<13>{#f/10}＊「『しぬまえに　いちどだけ　しんゆうの　ハグが　ほしいだけ』」',
+         '<13>{#f/1}＊「『じゃあ…』　モンスターは　おきあがって　いいました。」',
+         '<13>{#f/0}＊「『わたしは　いつでも　ここにいるよ』」',
+         '<13>{#f/0}＊「『こっちにきて　さいごは　いっしょに　すごそうよ』」',
+         '<13>{#f/9}＊「ニンゲンは　そうしました。」',
+         '<13>{#f/10}＊「そして　モンスターは　しあわせでした。」'
          
       ],
-      chair2c7: [ '<25>{#f/0}{#n1}* Well, that was the story.', '<25>{#f/1}* I hope you liked it...' ],
-      chair2c8: [ '<25>{#f/0}{#n1}* Well, that is all.' ],
+      chair2c7: [ '<13>{#f/0}{#n1}＊おしまい。', '<13>{#f/1}＊きにいったかしら…' ],
+      chair2c8: [ '<13>{#f/0}{#n1}＊おしまい。' ],
       chair2d1: [
-         '<25>{#p/toriel}{#f/1}{#n1}* Home...?\n* Could you be a little more specific?',
+         '<13>{#p/toriel}{#f/1}{#n1}＊うち…？\n＊もうすこし　くわしく　いって　くれないかしら？',
          '<99>{#p/human}{#n1!}* (What do you say?){!}\n§shift=48§Never§shift=72§When can I\n§shift=48§mind§shift=80§go home?{#c/0/6/4}'
       ],
       chair2d2: [
-         '<25>{#p/toriel}{#f/1}{#n1}* But... this is your home now, is it not?',
+         '<13>{#p/toriel}{#f/1}{#n1}＊でも…　いまは　ここが　あなたの　おうちでしょ？',
          '<99>{#p/human}{#n1!}* (What do you say?){!}\n§shift=144§How to exit\n§shift=64§Sorry§shift=40§the Outlands{#c/0/8/2}'
       ],
       chair2d3: [
-         '<25>{#p/toriel}{#f/5}{#n1}* Please, try to understand...',
-         '<25>{#p/toriel}{#f/9}* I only want the best for you.'
+         '<13>{#p/toriel}{#f/5}{#n1}＊わかってね…',
+         '<13>{#p/toriel}{#f/9}＊これは　あなたの　ためなの。'
       ],
       chair2d4: [
-         '<25>{#p/toriel}{#f/5}{#n1}* My child...',
+         '<13>{#p/toriel}{#f/5}{#n1}＊あなた…',
          '<99>{#p/human}{#n1!}* (What do you say?){!}\n§shift=144§How to exit\n§shift=64§Sorry§shift=40§the Outlands{#c/0/8/2}'
       ],
-      chair2d5: [ '<25>{#p/toriel}{#f/5}{#n1}* ...' ],
+      chair2d5: [ '<13>{#p/toriel}{#f/5}{#n1}* …' ],
       chair2d6: [
-         '<25>{#p/toriel}{#f/9}{#n1}* ...',
-         '<25>{#p/toriel}{#f/9}* Please, wait here.',
-         '<25>{#p/toriel}{#f/5}* There is something I have to do.'
+         '<13>{#p/toriel}{#f/9}{#n1}* …',
+         '<13>{#p/toriel}{#f/9}＊ここで　まってなさい。',
+         '<13>{#p/toriel}{#f/5}＊わたしは　ようじが　あるから。'
       ],
       chair3: () =>
          SAVE.data.b.svr
             ? [
                  [
-                    "<25>{#p/asriel1}{#f/20}* I still can't believe she moved this all the way from the Citadel.",
-                    "<25>{#f/17}* But... I understand why she'd want to.",
-                    '<25>{#f/13}* Mom and this chair of hers go pretty far back..'
+                    "<13>{#p/asriel1}{#f/20}＊いまだに　わざわざ　シタデルから　いどうした　のが　しんじられない。",
+                    "<13>{#f/17}＊だけど…　トリエルが　そうしたいと　おもったのも　わかる。",
+                    '<13>{#f/13}＊かあさんにとって　このイスは　おもいいれの　ふかいものなんだ…'
                  ],
                  [
-                    '<25>{#p/asriel1}{#f/13}* One time, she told me something...',
-                    '<25>{#f/17}* \"This chair reminds me of home.\"',
-                    '<25>{#f/13}* But she was already at home, so I asked her what she meant.',
-                    '<25>{#f/17}* Turns out she had this at her home...',
-                    '<25>{#f/23}* ... on the old homeworld.'
+                    '<13>{#p/asriel1}{#f/13}＊あるとき　おしえてくれたよ…',
+                    '<13>{#f/17}＊「このイスをみると　うちのことを　おもいだすの」',
+                    '<13>{#f/13}＊でも　そのとき　ホームに　いたから　どういう　いみか　たずねたんだ。',
+                    '<13>{#f/17}＊この　イスは　むかしのいえに　あったもの…',
+                    '<13>{#f/23}＊つまり　ふるさとに　あったもの　だって　わかった。'
                  ],
                  [
-                    "<25>{#p/asriel1}{#f/13}* I don't know much about that world, Frisk...",
-                    '<25>{#f/17}* But I hear it was very... idyllic.',
-                    '<25>{#f/20}* Sure, there were lots of advances in magic and technology...',
-                    '<25>{#f/17}* But people loved it, because life was so... simple.'
+                    "<13>{#p/asriel1}{#f/13}＊その　ほしのことは　あまり　しらないけど…",
+                    '<13>{#f/17}＊とても　のどかな　ところだと　きいたよ。',
+                    '<13>{#f/20}＊たしかに　まほうと　かがく　ぎじゅつの　はってんは　めざましかった。',
+                    '<13>{#f/17}＊でも　モンスターたちは　そぼくな　せいかつが　だいすきだった。'
                  ],
-                 [ "<25>{#p/asriel1}{#f/23}* What I wouldn't give to have a simple life." ]
+                 [ "<13>{#p/asriel1}{#f/23}＊そぼくな　せいかつを　おくるためには　なんでもするよ。" ]
               ][Math.min(asrielinter.chair3++, 3)]
             : world.darker
-            ? [ '<32>{#p/basic}* A reading chair.' ]
-            : [ '<32>{#p/basic}* A comfy reading chair...', '<32>* Seems like the right size for Toriel.' ],
-      chair4: [ '<25>{#p/toriel}{#n1}* Ah, there you are.', '<25>* I have left your breakfast on the table for you.' ],
+            ? [ '<17>{#p/basic}＊ほんを　よむための　イス。' ]
+            : [ '<17>{#p/basic}＊ほんを　よむための　ふかふかな　イス。', '<17>＊トリエルに　ぴったりの　サイズだ。' ],
+      chair4: [ '<13>{#p/toriel}{#n1}＊あっ。　そこに　いたのね。', '<13>＊テーブルの　うえに　あさごはんを　おいておきました。' ],
       closetrocket: {
          a: () => [
-            '<32>{#p/human}* (You look inside the chest...)',
+            '<17>{#p/human}＊（はこの　なかを　のぞいてみた…）',
             ...(SAVE.data.b.svr
                ? [
                     [
-                       "<25>{#p/asriel1}{#f/13}* Yeah, uh, that's about all you'll find in there.",
-                       "<25>{#f/17}* I'm not sure why Toriel put this here.",
-                       '<25>{#f/17}* $(name) and I were never interested in comic books.'
+                       "<13>{#p/asriel1}{#f/13}＊そこで　みつかるのは　これだけだよ。",
+                       "<13>{#f/17}＊どうして　トリエルが　こんなとこに　いれたのか　わからないな。",
+                       '<13>{#f/17}＊$(name)と　ボクは　マンガなんて　きょうみ　なかったのにね。'
                     ],
-                    [ '<25>{#p/asriel1}{#f/10}* I guess she just wanted to pretend we were living here...?' ],
-                    [ '<25>{#p/asriel1}{#f/13}* The things a mother does to make herself feel better...' ]
+                    [ '<13>{#p/asriel1}{#f/10}＊ボクたちが　ここに　いるように　おもいこみ　たかった　のだとおもう。' ],
+                    [ '<13>{#p/asriel1}{#f/13}＊気を　しっかりもつ　ために　ひつような　ことだったんだ…' ]
                  ][Math.min(asrielinter.closetrocket_a++, 2)]
-               : [ '<32>{#p/basic}* Nothing left to find here.' ])
+               : [ '<17>{#p/basic}＊ここには　なにも　ない。' ])
          ],
          b: () => [
-            '<32>{#p/human}* (You look inside the chest...)',
+            '<17>{#p/human}＊（はこの　なかを　のぞいてみた…）',
             ...(SAVE.data.b.svr
                ? []
-               : [ "<32>{#p/basic}* What's this?\n* A limited edition Super Starwalker comic strip?" ]),
+               : [ "<17>{#p/basic}＊なんだ？\n＊あの　げんていばんの　『超スターウォーカー』　じゃないか？" ]),
             '<18>{#s/equip}{#p/human}＊(『超スターウォーカーⅢ』を　てにいれた)'
          ],
          b2: () => [
-            '<32>{#p/human}* (You look inside the chest...)',
+            '<17>{#p/human}＊（はこの　なかを　のぞいてみた…）',
             ...(SAVE.data.b.svr
                ? []
-               : [ "<32>{#p/basic}* What's this?\n* A limited edition Super Starwalker comic strip?" ]),
-            "<32>{#p/human}* (You're carrying too much to take that.)"
+               : [ "<17>{#p/basic}＊なんだ？\n＊あの　げんていばんの　『超スターウォーカー』　じゃないか？" ]),
+            "<17>{#p/human}＊（これいじょう　アイテムを　もてない）"
          ]
       },
       goner: {
          a1: () =>
             SAVE.flag.b.$svr
                ? [
-                    "<32>{#p/human}* I've seen the effect you've had on this world...",
-                    '<32>* A perfect ending, where everyone gets to be happy...',
-                    "<32>* There's something special about that."
+                    "<17>{#p/human}＊あなたが　このせかいに　どんな　えいきょうを　およぼしたか　みていました。",
+                    '<17>＊かんぺきな　エンディング。　そして　みんなが　しあわせになりました。',
+                    "<17>＊しかし　まだ　とくべつな　ものがあります。"
                  ]
                : [
-                    '<32>{#p/human}* A world not bound by association...',
-                    '<32>* Existing purely for the sake of its own beauty...',
-                    "<32>* There's something special about that."
+                    '<17>{#p/human}＊しがらみに　とらわれない　せかい…',
+                    '<17>＊それじたいの　うつくしさの　ためだけに　そんざいする　せかい…',
+                    "<17>＊しかし　まだ　とくべつな　ものがあります。"
                  ],
          a2: () =>
             SAVE.flag.b.$svr
-               ? [ '<32>* That being said...', "<32>* It seems it wasn't enough to satisfy your... curiosity." ]
-               : [ '<32>* Tell me...', '<32>* Does that not pique your... curiosity?' ]
+               ? [ '<17>＊そうは　いっても…', "<17>＊いまだに　みたされていない　ようです。　あなたの　コウキシンは。" ]
+               : [ '<17>＊おしえてください。', '<17>＊このことは　コウキシンを　そそりませんか？' ]
       },
       danger_puzzle1: () => [
-         '<25>{#p/toriel}* In this room lies a new kind of puzzle.',
+         '<14>{#p/toriel}＊このへやには　いままでとは　ひとあじ　ちがう　パズルが　あります。',
          [ 1, 5 ].includes(SAVE.data.n.state_wastelands_dummy)
-            ? '<25>{#f/3}* Perhaps you will do better here than with the dummy.'
-            : '<25>{#f/1}* Do you think you can solve it?'
+            ? '<13>{#f/3}＊マネキンと　たたかうよりは　うまく　できる　はずよ。'
+            : '<13>{#f/1}＊じぶんで　とけるかしら？'
       ],
       danger_puzzle2: () =>
          world.darker
-            ? [ "<32>{#p/basic}* It's too tall for you to reach." ]
-            : [ "<32>{#p/basic}* This terminal's staggering height towers over you, blocking your eager approach." ],
+            ? [ "<17>{#p/basic}＊これは　あなたが　さわるには　たかすぎる。" ]
+            : [ "<17>{#p/basic}＊このターミナルは　みあげるほど　たかく　あなたの　パズルへの　いよくは　うちくだかれた。" ],
       danger_puzzle3: () => [
          [ 1, 5 ].includes(SAVE.data.n.state_wastelands_dummy)
-            ? '<25>{#p/toriel}{#f/3}* What is it now...'
-            : '<25>{#p/toriel}{#f/1}* What is the problem?\n* Do you need assistance?'
+            ? '<13>{#p/toriel}{#f/3}＊こんどは　どうしたの　かしら…'
+            : '<13>{#p/toriel}{#f/1}＊だいじょうぶ？\n＊なにか　てつだい　ましょうか？'
       ],
       danger_puzzle4: () => [
          ...([ 1, 5 ].includes(SAVE.data.n.state_wastelands_dummy)
-            ? [ '<25>{#p/toriel}{#f/5}* Ah... I see.', '<25>{#f/5}* The terminal is too high for you to reach it.' ]
+            ? [ '<13>{#p/toriel}{#f/5}＊あ…　わかったわ。', '<13>{#f/5}＊そのターミナルに　手が　とどかないのね。' ]
             : [
-                 '<25>{#p/toriel}{#f/7}* ... oh my.',
-                 '<25>{#f/6}* It seems there is a bit of a design fault here.',
-                 '<25>{#f/1}* So the terminal is too high for you to reach it...?'
+                 '<13>{#p/toriel}{#f/7}＊…あら。',
+                 '<13>{#f/6}＊これは　ユニバーサル　デザインとは　いえない　わね。',
+                 '<13>{#f/1}＊このターミナルに　手が　とどかない　のよね…？'
               ]),
-         '<25>{#f/0}* No matter.\n* I will operate it for you.',
-         '<25>{#f/0}* ...',
-         '<25>{#f/0}* There is a riddle to be solved here.\n* Would you like to try?',
-         choicer.create('* (Solve the riddle?)', 'はい', 'いいえ')
+         '<14>{#f/0}＊もんだい　ないわ。\n＊わたしが　かわりに　そうさ　してあげます。',
+         '<13>{#f/0}＊…',
+         '<13>{#f/0}＊ここに　とくべき　なぞなぞが　ある。\n＊といてみる？',
+         choicer.create('＊（なぞなぞを　とく？）', 'はい', 'いいえ')
       ],
       danger_puzzle5a: [
-         '<25>{#p/toriel}* Excellent!\n* The eagerness to learn and grow is important.',
-         '<25>{#f/0}* Especially for a youngster such as yourself.'
+         '<13>{#p/toriel}＊すばらしい！\n＊まなぼう　という　いよくは　だいじよ。',
+         '<13>{#f/0}＊とくに　あなたの　ような　こどもにはね。'
       ],
       danger_puzzle5b: [
-         '<25>{#p/toriel}{#f/0}* The riddle takes the form of a question.',
-         "<25>{#p/toriel}{#f/1}* \"What's baked like a cake and rhymes with 'lie?'\""
+         '<13>{#p/toriel}{#f/0}＊この　なぞなぞは　クイズの　かたちに　なっています。',
+         "<13>{#p/toriel}{#f/1}＊"
       ],
       danger_puzzle5c: [
          '<32>{#p/human}* (...)\n* (You tell Toriel the answer.)',
@@ -1117,13 +1117,13 @@ export default {
          SAVE.data.b.svr
             ? [ "<32>{#p/human}* (But you still couldn't reach the terminal.)" ]
             : [ '<32>{#p/basic}* Even now, the terminal still stands as tall as ever.' ],
-      denie: [ "<32>{#p/human}* (You're carrying too much to take that.)" ],
+      denie: [ "<17>{#p/human}＊（これいじょう　アイテムを　もてない）" ],
       dipper: {
          a: () => [
             '<18>{#p/human}＊(こぐまざを　てにいれた)',
             choicer.create('* (Equip the Little Dipper?)', 'はい', 'いいえ')
          ],
-         b: [ "<32>{#p/human}* (You're carrying too much to take that.)" ]
+         b: [ "<17>{#p/human}＊（これいじょう　アイテムを　もてない）" ]
       },
       drop_pie: [ '<25>{#p/toriel}{#f/1}* Pies are for eating, not for splattering on the floor.' ],
       drop_pie3: [ '<25>{#p/toriel}{#f/1}* Please do not spill food on the floor.' ],
@@ -1662,7 +1662,7 @@ export default {
          c: () =>
             SAVE.data.b.svr
                ? [
-                    '<32>{#p/human}* (But there was nothing left to find within.)',
+                    '<17>{#p/human}＊（なかには　なにも　なかった）',
                     ...[
                        [
                           '<25>{#p/asriel1}{#f/23}* Oh... $(name) ALWAYS used to root around in the fridge.',
@@ -1674,7 +1674,7 @@ export default {
                     ][Math.min(asrielinter.fridgetrap_c++, 1)]
                  ]
                : [ '<32>{#p/basic}* The chocolate bar has already been taken.' ],
-         d: [ "<32>{#p/human}* (You're carrying too much.)" ]
+         d: [ "<17>{#p/human}＊（これいじょう　アイテムを　もてない）" ]
       },
       front1: [
          '<25>{#p/toriel}{#f/1}* ... and you want to play one of your songs?',
@@ -1816,7 +1816,7 @@ export default {
       ],
       halo: {
          a: () => [ '<32>{#p/human}* (You got the Halo.)', choicer.create('* (Equip the Halo?)', 'はい', 'いいえ') ],
-         b: [ "<32>{#p/human}* (You're carrying too much to take that.)" ]
+         b: [ "<17>{#p/human}＊（これいじょう　アイテムを　もてない）" ]
       },
       indie1: () => [
          ...([ 1, 5 ].includes(SAVE.data.n.state_wastelands_dummy) && SAVE.data.b.w_state_riddleskip
@@ -1850,7 +1850,7 @@ export default {
          '<25>{#f/5}* Take my hand, young one...',
          '<25>{#f/5}* It is time to go home.'
       ],
-      indie2f: [ '<18>{#p/human}{#s/equip}＊(ケイタイを　てにいれた)' ],
+      indie2f: [ '<18>{#p/human}{#s/equip}＊(ケータイを　てにいれた)' ],
       indie3a: [ '<25>{#p/toriel}* You did it!' ],
       indie3b: [
          '<25>{#p/toriel}{#f/3}* My child, what took you so long!?',
@@ -1875,7 +1875,7 @@ export default {
          '<25>{#f/1}* The puzzles ahead are yet to be explained, and...',
          '<25>{#f/0}* Leaving the room on your own may prove to be dangerous.',
          '<25>{#f/10}* Here.\n* Take this CELL phone.',
-         '<18>{#p/human}{#s/equip}＊(ケイタイを　てにいれた)',
+         '<18>{#p/human}{#s/equip}＊(ケータイを　てにいれた)',
          ...([ 1, 5 ].includes(SAVE.data.n.state_wastelands_dummy) && SAVE.data.b.w_state_riddleskip
             ? [
                  '<25>{#p/toriel}{#f/1}* If you need anything while I am away, please...',
@@ -1995,7 +1995,7 @@ export default {
       lobby_puzzle2: [
          '<13>{#p/toriel}{#f/1}＊ヘンに　おもわれるかも　しれないけど…',
          '<14>{#f/0}＊ここで　パズルを　とくことは　わたしたちに　とって　ふつうのことなの。',
-         '<14>{#f/0}＊じかんと　すこしのしどうで　すぐに　なれるはずよ。'
+         '<14>{#f/0}＊すこしのあいだ　いっしょに　パズルを　とけば　すぐに　なれるはずよ。'
       ],
       lobby_puzzle3: [ '<13>{#p/toriel}＊じゅんびが　できましたら　すすみましょう。' ],
       loox: {
@@ -3669,16 +3669,16 @@ export default {
          "<13>{#f/5}＊さぁ　はじめよう！"
       ],
       twinkly3: [
-         "<13>{#f/7}＊でも　キミは　しってたんでしょう？",
+         "<13>{#f/7}＊でも　キミは　しってたんだろ？",
          '<25>{#f/8}* ...',
-         "<13>{#f/5}＊しかし　やっぱりけいけんを　おしえてあげないと　いけませんよ。",
-         "<13>＊さぁ　はじめましょう！"
+         "<13>{#f/5}＊やっぱりボクが　やりかたを　おしえてあげないとね。",
+         "<13>＊さぁ　はじめようか。"
       ],
       twinkly4: [
          "<13>{#p/twinkly}{#f/6}＊おい。　いいかげんにしろよ。",
          '<13>{#f/8}＊いつまでも　リセットして　いたいなら…',
          '<13>{#f/6}＊すきにすればいい。',
-         "<13>{#f/7}＊でも　ボクのところを　とおらなければ　なりませんよ。"
+         "<13>{#f/7}＊まいかい　ボクのところを　とおらなければ　ならないけどね。"
       ],
       twinkly5: [ "<13>{#p/twinkly}{#f/6}＊キミ　よっぽど　ヒマなんだね。" ],
       twinkly6: [
@@ -3687,15 +3687,15 @@ export default {
       ],
       twinkly6a: [
          "<13>{#p/twinkly}{#f/11}＊ちょうどしたことを　わすれてしまったと　おもう？",
-         '<13>{#f/7}＊きたない　ドッジカケラ　プレーヤー。'
+         '<13>{#f/7}＊にげてばっかりの　ひきょうもの。'
       ],
       twinkly7: [ '<13>{#p/twinkly}{#f/7}＊このまま　じかんを　むだにしてもいい。' ],
-      twinkly8: [ "<25>{#f/11}＊なにが　おこるか　わかってるんですから…{%15}" ],
+      twinkly8: [ "<25>{#f/11}＊なにが　おこるか　わかってるんだから…{%15}" ],
       twinkly9: [
          '<13>{#p/twinkly}{#f/6}＊ハロー。',
-         "<13>＊あまりながく　ここにいたら　ファイヤーボールに　うたれますよ。",
+         "<13>＊あまりにながく　ここにいたら　いんせきにでも　うたれそうだ。",
          '<13>{#f/8}＊ざんねんだな…',
-         '<13>{#f/7}＊ゆっくり　あそびたいと　おもっていましたのに。',
+         '<13>{#f/7}＊ゆーーっくり　あそびたいと　おもっていたのに。',
          '<25>{#f/6}* ...',
          '<13>{#f/5}＊じゃ　またね！'
       ],
@@ -3837,11 +3837,11 @@ export default {
    },
 
    b_opponent_froggit: {
-      act_check: [ '<32>{#p/story}* FROGGIT - ATK 4 DEF 5\n* Life is difficult for this monster.' ],
-      act_check2: [ '<32>{#p/story}* FROGGIT - ATK 4 DEF 5\n* Life is getting better for this monster.' ],
-      act_check3: [ "<32>{#p/story}* FROGGIT - ATK 4 DEF 5\n* Life just doesn't seem to get easier for this monster." ],
-      act_check4: [ '<32>{#p/story}* FROGGIT - ATK 4 DEF 5\n* Life is very confusing for this monster.' ],
-      act_check5: [ '<32>{#p/story}* FROGGIT - ATK 4 DEF 5\n* Life seems to be very lovely for this monster.' ],
+      act_check: [ '<17>{#p/story}＊フロギー - ATK 4 DEF 5\n＊カエルも　つらいよ。' ],
+      act_check2: [ '<17>{#p/story}＊フロギー - ATK 4 DEF 5\n＊カエルも　げんきだよ。' ],
+      act_check3: [ "<17>{#p/story}＊フロギー - ATK 4 DEF 5\n＊カエルもやはり　つらいよ。" ],
+      act_check4: [ '<17>{#p/story}＊フロギー - ATK 4 DEF 5\n＊カエルも　こんらんしたよ。' ],
+      act_check5: [ '<17>{#p/story}＊フロギー - ATK 4 DEF 5\n＊カエルも　しあわせだよ。' ],
       act_threat: [
          '<32>{#p/human}* (You threaten Froggit.)',
          "<32>{#p/basic}* Froggit doesn't understand what you said..."
@@ -4392,14 +4392,14 @@ export default {
    i_water: {
       battle: {
          description: 'Smells like Dihydrogen Monoxide.',
-         name: 'Water'
+         name: '水'
       },
       drop: [ '<18>{#p/human}＊(みずを　すてた)' ],
       info: () =>
          SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
             ? [ '<32>{#p/human}* (12 HP.)' ]
             : [ '<18>{#p/basic}＊みず - 12HPかいふく\n＊イッサンカニスイソの　ニオイがする。' ],
-      name: 'Water',
+      name: '水',
       use: () => [
          '<32>{#p/human}* (You drink the Water.)',
          ...(SAVE.data.b.ufokinwotm8 ? [] : [ "<33>{#p/human}* (You're filled with hydration.)" ]) 

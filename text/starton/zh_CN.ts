@@ -311,14 +311,14 @@ export default {
          0,
          () =>
             SAVE.data.n.plot === 72
-               ? [ "<32>{#p/basic}* 妈妈说我们很快就要去新的母世界了。", "<32>* ... 母世界是什么啊？" ]
+               ? [ "<32>{#p/basic}* 妈妈说我们很快就要去新家园了。", "<32>* ... 新家园是什么啊？" ]
                : [
                     '<32>{#p/basic}* 妈妈说，睡觉可以把你的\n  生命值恢复到{@fill=#ff0}HP上限以上{@fill=#fff}。',
                     "<32>* ...HP上限是什么啊？"
                  ],
          () =>
             SAVE.data.n.plot === 72
-               ? [ '<32>{#p/basic}* 人类也有母世界吗？' ]
+               ? [ '<32>{#p/basic}* 人类也有家园吗？' ]
                : [ '<32>{#p/basic}* 这是母亲才有的东西吗？' ]
       ),
       emptytable1: () =>
@@ -348,26 +348,26 @@ export default {
       bedbook4: () => [ choicer.create('* （让$(name)给你读一下吗？）', '是', '否') ],
       bedbook5: [
          '<32>{#p/basic}* 好，我看看...',
-         '<32>* \"Long ago, two species ruled the solar system: humans and monsters.\"',
-         '<32>* \"At first, the monsters were only visitors, soon to return to their own star system.\"',
-         '<32>* \"But the monsters became fascinated by humanity, and wanted to co-exist with them.\"',
-         '<32>* \"As such, they shared their technology with the humans, and forged an alliance.\"',
-         '<32>* \"Over the next few hundred years, monsters and humans lived in peace and harmony.\"',
-         '<32>* \"One day, the humans began to fear something about the monsters...\"',
-         '<32>* \"A fear that, without skilled leadership, was allowed to spiral out of control.\"',
-         '<32>* \"As time passed, a war broke out between the two species.\"',
-         '<32>* \"Many battles and skirmishes would occur all across the stars...\"',
-         '<32>* \"But the humans, filled with fear and determination, easily took control.\"',
-         '<32>* \"Then, on one fateful day, a massive weapon was fired at the monsters\' homeworld.\"',
-         '<32>* \"After the monsters\' home planet was destroyed, humans declared victory.\"',
-         '<32>* \"A settlement between the two species was signed, and...\"',
-         '<32>* \"The remaining monsters were banished to an abandoned outpost.\"',
-         '<32>* \"Then, the humans gathered seven of their brightest minds.\"',
-         '<32>* \"Together, they formulated a plan, and eventually...\"',
-         '<32>* \"A powerful force field was erected, and the monsters were sealed in.\"',
-         "<32>* Well, that's the story."
+         '<32>* “很久很久以前，\n   太阳系由两个种族统治着：\n   人类和怪物。”',
+         '<32>* “起初，怪物们只是造访了一下，\n   不久就回到了他们自己的星系。”',
+         '<32>* “但是怪物们喜欢上了人类，\n   想和他们共同生活。”',
+         '<32>* “因此，他们和人类分享了他们的科技，\n   并与人类结成了同盟。”',
+         '<32>* “接下来数百年间，怪物与人类和平共处。”',
+         '<32>* “有一天，人类开始对怪物的某种东西产生恐惧...”',
+         '<32>* “一种没有杰出的领导力\n   就会失控的恐惧。”',
+         '<32>* “随着时间的推移，\n   两个物种之间爆发了战争。”',
+         '<32>* “那时星际间会发生许多战斗和冲突。”',
+         '<32>* “但是人类们，\n   充满了恐惧与决心的人类们，\n   很容易占据了上风。”',
+         '<32>* “然后，\n   在那对未来有着重大影响的一天，\n   一件强大的武器向怪物的家园发射了。”',
+         '<32>* “在怪物们的母星被摧毁之后，\n   人类获得了胜利。”',
+         '<32>* “两个物种间签订了和约，然后...”',
+         '<32>* “剩下的怪物被驱逐到了一个废弃的前哨站。”',
+         '<32>* “接着，人类集结了七位精英。”',
+         '<32>* “他们一同制定了一个计划，最后...”',
+         '<32>* “一个强大的力场被建立了起来，怪物们被困在其中。”',
+         "<32>* 嗯，这就是故事的内容了。"
       ],
-      bedbook6: [ '<32>{#p/basic}* Well, if you ever want me to read it, let me know.' ],
+      bedbook6: [ '<32>{#p/basic}* 好吧，如果你想让我读，就告诉我。' ],
       beddoor1: [ "<32>{#p/basic}{#npc/a}* 如果你想订房间，\n  你得先问我一声。" ],
       beddoor2: [ "<32>{#p/basic}{#npc/a}* 如果你还想订房间，\n  你得先问我一声。" ],
       beddoor3: [ '<32>{#p/basic}{#npc/a}* 抱歉，小家伙！\n* 这里已经满人了！' ],
@@ -7527,7 +7527,7 @@ export default {
          description: 'For once, it\'s not just \"pleasantly warm.\"',
          name: 'Grillby'
       },
-      drop: [ "<32>{#p/human}* (You tossed the Flamin' Grillby like a molotov.)" ],
+      drop: [ "<32>{#p/human}* （你把烈焰烤尔比像燃烧瓶一样丢了出去。）" ],
       info: () =>
          SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
             ? [ '<32>{#p/human}* （30 HP。）' ]

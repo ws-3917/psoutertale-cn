@@ -1424,25 +1424,25 @@ export default {
                     '<25>{#g/alphysSideSad}* 那-那麼... 這樣一來...',
                     "<25>{#g/alphysCutscene3}* 也許你現在就不會打算殺我啦？？？"
                  ]
-               : [ "<25>{#p/asgore}{#f/0}* Isn't it pretty...?", '<25>{#p/asgore}{#f/0}* ...' ],
+               : [ "<25>{#p/asgore}{#f/0}* 挺美的，不是嗎...？", '<25>{#p/asgore}{#f/0}* ...' ],
          asgoreStoryPre2: () =>
             world.bad_robot
                ? [ '<25>{*}{#p/alphys}{#g/alphysOhGodNo}* 看你後面！！！{%}' ]
                : [
-                    '<25>{#p/asgore}{#f/6}* I apologize if I startled you, young one.',
-                    '<25>{#p/asgore}{#f/6}* Alphys informed me of your arrival.'
+                    '<25>{#p/asgore}{#f/6}* 年輕人，如果你被嚇著了，\n  那我先對你道個歉。',
+                    '<25>{#p/asgore}{#f/6}* Alphys告知了我\n  你會來到這裡。'
                  ],
          asgoreStoryPre3: () => [
             '<25>{#p/asgore}{#f/7}* ...',
             ...(SAVE.flag.b.waaaaaooaaooooaaaaaaooohooohooohstooooryofunderrtaaaaale
                ? [
-                    '<25>{#p/asgore}{#f/12}* Hm...?\n* You have already heard this story?',
+                    '<25>{#p/asgore}{#f/12}* 嗯...？\n* 你已經聽過這個故事了？',
                     '<25>{#p/asgore}{#f/5}* ...',
-                    '<25>{#p/asgore}{#f/6}* Well.',
-                    '<25>{#p/asgore}{#f/6}* If you have already heard it, there is no need to repeat it.',
-                    '<25>{#p/asgore}{#f/6}* You may continue forth on your own.'
+                    '<25>{#p/asgore}{#f/6}* 好吧。',
+                    '<25>{#p/asgore}{#f/6}* 如果你早已聽過，\n  那我也不必再複述一遍。',
+                    '<25>{#p/asgore}{#f/6}* 繼續一個人行進吧。'
                  ]
-               : [ '<25>{#p/asgore}{#f/7}* Come along.', '<25>{#p/asgore}{#f/7}* I would like to tell you a story.' ])
+               : [ '<25>{#p/asgore}{#f/7}* 來吧。', '<25>{#p/asgore}{#f/7}* 我有一個故事\n  要講給你聽。' ])
          ],
          alphysApproach1: [
             "<25>{#p/alphys}{#g/alphysSmileSweat}* 噢，你-你大概在想ASGORE在哪，\n  對吧？",
@@ -1471,98 +1471,98 @@ export default {
          ],
          alphysApproach3: [ "<25>{#p/alphys}{#g/alphysFR}* 只有一個人能做到。" ],
          asgoreStory1: [
-            '<25>{*}{#p/asgore}{#f/6}* A long time ago, a human child crash- landed on the outpost.{~}',
-            '<25>{*}{#p/asgore}{#f/6}* Injured, they called out for help.{~}'
+            '<25>{*}{#p/asgore}{#f/6}* 很久以前，一個人類小孩\n  在前哨站迫降。{~}',
+            '<25>{*}{#p/asgore}{#f/6}* 身受重傷的人類\n  開始大聲呼救。{~}'
          ],
          asgoreStory1r: [ '<32>{#p/basic}* ...{%40}', "<32>{#p/basic}* I'm sorry.{%40}" ],
          asgoreStory2: [
-            '<25>{*}{#p/asgore}{#f/7}* Asriel, our first-born son, heeded the call.{~}',
-            '<25>{*}{#p/asgore}{#f/7}* He brought them back home to our quarters.{~}'
+            '<25>{*}{#p/asgore}{#f/7}* 而我們的初生子Asriel\n  聽到了呼救聲。{~}',
+            '<25>{*}{#p/asgore}{#f/7}* 他把人類帶回了\n  我們家裡。{~}'
          ],
          asgoreStory2r: [ '<32>{#p/basic}* I did the best I could.{%40}' ],
          asgoreStory3: [
-            '<25>{*}{#p/asgore}{#f/6}* Over time, the two children became like siblings.{~}',
-            '<25>{*}{#p/asgore}{#f/6}* The outpost expanded, and so too did their kinship.{~}',
-            '<25>{*}{#p/asgore}{#f/6}* The outpost was filled with hope.{~}'
+            '<25>{*}{#p/asgore}{#f/6}* 慢慢的，\n  兩個孩子變得情同手足。{~}',
+            '<25>{*}{#p/asgore}{#f/6}* 他們之間的親情\n  隨著前哨站的擴建\n  也愈發緊密。{~}',
+            '<25>{*}{#p/asgore}{#f/6}* 整個前哨站充滿了希望。{~}'
          ],
          asgoreStory3r: [ '<32>{#p/basic}* I tried to follow my heart.{%40}' ],
          asgoreStory4: [
-            '<25>{*}{#p/asgore}{#f/1}* Then, one day...{~}',
-            '<25>{*}{#p/asgore}{#f/2}* A sickness took the human by surprise.{~}'
+            '<25>{*}{#p/asgore}{#f/1}* 然而，有一天...{~}',
+            '<25>{*}{#p/asgore}{#f/2}* 人類猝不及防地\n  感染了一種疾病。{~}'
          ],
          asgoreStory4r: [ '<32>{#p/basic}* I tried to do the right thing.{%40}' ],
          asgoreStory5: [
-            '<25>{*}{#p/asgore}{#f/1}* Fatally ill, the human had only one request.{~}',
-            '<25>{*}{#p/asgore}{#f/1}* To see the remains of our once great and bountiful world.{~}',
-            '<25>{*}{#p/asgore}{#f/2}* But there was nothing we could do.{~}'
+            '<25>{*}{#p/asgore}{#f/1}* 病入膏肓的人類\n  只有一個請求。{~}',
+            '<25>{*}{#p/asgore}{#f/1}* 想看看我們先前\n  那偉大富饒的世界\n  所殘存的遺址。{~}',
+            '<25>{*}{#p/asgore}{#f/2}* 但我們對此無能為力。{~}'
          ],
          asgoreStory5r: [ '<32>{#p/basic}* All I wanted was for him to see the universe.{%40}' ],
          asgoreStory6: [
-            '<25>{*}{#p/asgore}{#f/1}* The next day...{~}',
+            '<25>{*}{#p/asgore}{#f/1}* 第二天...{~}',
             '<25>{*}{#p/asgore}{#f/1}* ...{~}',
-            '<25>{*}{#p/asgore}{#f/2}* The human died.{~}'
+            '<25>{*}{#p/asgore}{#f/2}* 人類便與世長辭。{~}'
          ],
          asgoreStory6r: [ '<32>{#p/basic}* All I wanted was for him to be happy.{%40}' ],
          asgoreStory7: [
-            '<25>{*}{#p/asgore}{#f/15}* Asriel, wracked with grief, absorbed their SOUL.{~}',
-            '<25>{*}{#p/asgore}{#f/16}* Transforming into a being with unimaginable power.{~}'
+            '<25>{*}{#p/asgore}{#f/15}* Asriel悲痛欲絕，\n  吸收了這個人類的\n  靈魂。{~}',
+            '<25>{*}{#p/asgore}{#f/16}* 他化作了一個\n  擁有不可思議力量的\n  存在。{~}'
          ],
          asgoreStory7r: [ '<33>{#p/basic}* I never wanted to...{%40}' ],
          asgoreStory8: [
-            '<25>{*}{#p/asgore}{#f/4}* With his newfound power, Asriel crossed the force field.{~}',
-            "<25>{*}{#p/asgore}{#f/4}* The human's body in tow as he flew off in a small shuttle.{~}",
-            '<25>{*}{#p/asgore}{#f/4}* Hoping to find those legendary artifacts.{~}'
+            '<25>{*}{#p/asgore}{#f/4}* 憑藉著新獲得的力量，\n  Asriel穿過了力場。{~}',
+            "<25>{*}{#p/asgore}{#f/4}* 他開著一架小型飛船，\n  載著人類的遺體\n  飛向遠方。{~}",
+            '<25>{*}{#p/asgore}{#f/4}* 希望能找到那\n  傳說中的遺蹟。{~}'
          ],
          asgoreStory8r: [ '<32>{#p/basic}* ... to...{%40}' ],
          asgoreStory9: [
-            '<25>{*}{#p/asgore}{#f/1}* Soon, he stumbled onto what he was looking for.{~}',
-            '<25>{*}{#p/asgore}{#f/1}* Landing amidst the broken, scattered pieces...{~}',
-            "<25>{*}{#p/asgore}{#f/1}* The human's body was laid to rest.{~}"
+            '<25>{*}{#p/asgore}{#f/1}* 很快，他就發現了\n  自己所尋找的東西。{~}',
+            '<25>{*}{#p/asgore}{#f/1}* 飛船著陸在破碎飄零的\n  碎片之中...{~}',
+            "<25>{*}{#p/asgore}{#f/1}* 人類的遺體\n  也在此安葬。{~}"
          ],
          asgoreStory9r: [ '<32>{#p/basic}* ...{%40}' ],
          
          
          asgoreStory10: [
-            "<25>{*}{#p/asgore}{#f/5}* Suddenly, the shuttle's proximity alarm blared.{~}",
-            "<25>{*}{#p/asgore}{#f/5}* Scavengers had seen him holding a human's body.{~}",
-            '<25>{*}{#p/asgore}{#f/2}* They thought he had killed the child.{~}'
+            "<25>{*}{#p/asgore}{#f/5}* 突然，飛船的\n  近接感測警報\n  開始響起。{~}",
+            "<25>{*}{#p/asgore}{#f/5}* 拾荒者們看到了\n  抱著人類遺體的Asriel。{~}",
+            '<25>{*}{#p/asgore}{#f/2}* 他們以為是Asriel\n  殺死了這個小孩。{~}'
          ],
          asgoreStory11: [
-            '<25>{*}{#p/asgore}{#f/2}* The humans attacked him with everything they had.{~}',
-            '<25>{*}{#p/asgore}{#f/2}* Shot after shot, blow after blow...{~}',
-            '<25>{*}{#p/asgore}{#f/2}* In this form, he had the power to destroy them all.{~}'
+            '<25>{*}{#p/asgore}{#f/2}* 人類用盡所能\n  攻擊Asriel。{~}',
+            '<25>{*}{#p/asgore}{#f/2}* 一槍又一槍，\n  一擊又一擊...{~}',
+            '<25>{*}{#p/asgore}{#f/2}* 以Asriel現在的形態\n  是有力量將他們\n  盡數消滅的。{~}'
          ],
          asgoreStory12: [
-            '<25>{*}{#p/asgore}{#f/4}* But...{~}',
-            '<25>{*}{#p/asgore}{#f/4}* Asriel did not fight back.{~}'
+            '<25>{*}{#p/asgore}{#f/4}* 但是...{~}',
+            '<25>{*}{#p/asgore}{#f/4}* Asriel並沒有還手。{~}'
          ],
-         asgoreStory12r: [ '<32>{#p/human}* (You hear someone crying...){%40}' ],
+         asgoreStory12r: [ '<32>{#p/human}* （你聽見有人在哭...）{%40}' ],
          asgoreStory13: [
-            "<25>{*}{#p/asgore}{#f/9}* Clutching the human's body, Asriel took one last look outward...{~}",
-            '<25>{*}{#p/asgore}{#f/9}* Then he smiled... and walked away.{~}'
+            "<25>{*}{#p/asgore}{#f/9}* Asriel緊緊抱住\n  人類的遺體，向外界看了\n  最後一眼...{~}",
+            '<25>{*}{#p/asgore}{#f/9}* 然後他面帶微笑...\n  緩緩地離開了。{~}'
          ],
          asgoreStory13r: [ "<32>{#p/basic}* I c-couldn't...\n* He d-d-didn't let m-me...{%40}" ],
          asgoreStory14: [
-            '<25>{*}{#p/asgore}{#f/1}* Wounded, Asriel flew the damaged shuttle back home.{~}',
-            '<25>{*}{#p/asgore}{#f/1}* He exited the vehicle and collapsed.{~}',
-            '<25>{*}{#p/asgore}{#f/2}* His dust spread across the grove.{~}'
+            '<25>{*}{#p/asgore}{#f/1}* 傷痕累累的Asriel駕駛著\n  受損的飛船回到了家。{~}',
+            '<25>{*}{#p/asgore}{#f/1}* 他下了飛船，\n  然後癱倒在地。{~}',
+            '<25>{*}{#p/asgore}{#f/2}* 化作一團塵埃，\n  飄散在整個樹林裡。{~}'
          ],
          asgoreStory14r: [ '<32>{#p/basic}* ...{%40}' ],
          asgoreStory15: [
-            '<25>{*}{#p/asgore}{#f/13}* The outpost, MY outpost... fell into despair.{~}',
-            '<25>{*}{#p/asgore}{#f/13}* We had lost two children in one night.{~}',
-            '<25>{*}{#p/asgore}{#f/14}* Everything had once again been taken from us.{~}'
+            '<25>{*}{#p/asgore}{#f/13}* 前哨站，我的前哨站...\n  陷入了絕望。{~}',
+            '<25>{*}{#p/asgore}{#f/13}* 我們一夜之間就\n  失去了兩個孩子。{~}',
+            '<25>{*}{#p/asgore}{#f/14}* 我們的一切，又一次\n  被奪走了。{~}'
          ],
          asgoreStory15r: [ "<32>{#p/basic}* ... it's not fair...{%40}" ],
          asgoreStory16: [
-            '<25>{*}{#p/asgore}{#f/13}* In a fit of rage, I declared war on humanity.{~}',
-            '<25>{*}{#p/asgore}{#f/13}* No matter the cost, I was going to set us free.{~}',
-            '<25>{*}{#p/asgore}{#f/14}* ... and the people believed in me.{~}'
+            '<25>{*}{#p/asgore}{#f/13}* 於是，我一怒之下\n  向人類宣戰。{~}',
+            '<25>{*}{#p/asgore}{#f/13}* 無論付出多少代價，\n  我都要讓我們怪物\n  重獲自由。{~}',
+            '<25>{*}{#p/asgore}{#f/14}* ...而人民們都支援\n  我的決策。{~}'
          ],
          asgoreStory16r: [ "<32>{#p/basic}* It's not fair...!{%40}" ],
          asgoreStory17: [
-            '<25>{*}{#p/asgore}{#f/3}* When I came to my senses, it was far too late to go back.{~}',
-            '<25>{*}{#p/asgore}{#f/2}* The people had set their minds on war, and nothing could avert it.{~}',
+            '<25>{*}{#p/asgore}{#f/3}* 可我回過神來才發現，\n  一切都為時已晚。{~}',
+            '<25>{*}{#p/asgore}{#f/2}* 人民發動戰爭的意願\n  早已如洪水般\n  勢不可擋。{~}',
             '<25>{*}{#p/asgore}{#f/5}* At least, nothing done publicly.{~}'
          ],
          asgoreStory18: () =>
@@ -4557,19 +4557,19 @@ export default {
                      ? [ '<32>{#p/human}* （你想看看日記，\n  但所有的頁都被撕掉了。）' ]
                      : SAVE.data.n.plot === 72
                      ? [
-                          '<32>{#p/human}* (You look to the newly-written diary entry.)',
-                          '<32>{#p/asgore}* \"At last, monsterkind has been set free.\"',
-                          '<32>* \"Frisk, along with the six other human children who came here, have saved us all.\"',
-                          '<32>* \"Dr. Alphys started scanning for humans beyond the outpost, but could not find them.\"',
-                          '<32>* \"In fact, she could not locate a single human starship or base in the galaxy.\"',
-                          '<32>* \"This is rather surprising.\"\n* \"Did something happen to the human race as a whole?\"',
-                          '<32>* \"Or have they simply abandoned the galaxy, forgetting us in the process?\"',
-                          '<32>* \"Perhaps Frisk, or one of the other humans would know the answer.\"',
-                          '<32>* \"Regarding the other humans, they have been adopted by other monsters.\"',
-                          '<32>* \"From what one of them has told me, their ordeal in the archive was a tragedy.\"',
-                          '<32>* \"As a result, Alphys and I were careful to select worthy candidates for adoption.\"',
-                          '<32>* \"Regardless of what happens now, we can be happy that they are alive.\"',
-                          '<32>* \"After what took place, I am not sure a different group of humans would have survived.\"'
+                          '<32>{#p/human}* （你看了一眼最近寫好的日記。）',
+                          '<32>{#p/asgore}* 「最終，怪物一族自由了。」',
+                          '<32>* 「Frisk，和另外六個人類孩子救了我們全部。」',
+                          '<32>* 「Alphys博士開始在前哨站以外搜尋人類，\n   但是一無所獲。」',
+                          '<32>* 「事實上，\n   在星系中她甚至定位不到任何一艘人類星艦或太空站。」',
+                          '<32>* 「這相當令人驚訝。」\n  * 「人類們出什麼事了嗎？」',
+                          '<32>* 「還是說他們只是拋棄了這個星系，\n   在這期間遺忘掉了我們？」',
+                          '<32>* 「也許Frisk，或者其他人類知道答案。」',
+                          '<32>* 「至於其他人類，\n   其他怪物收養了他們。」',
+                          '<32>* 「他們中的一個人告訴我，\n   他們在檔案裡遭受的折磨簡直是場悲劇。」',
+                          '<32>* 「因此，我和Alphys小心地挑選了他們的收養者。」',
+                          '<32>* 「現在無論發生什麼\n   都沒有他們還活著更令我們欣慰了。」',
+                          '<32>* 「那之後，\n   我不敢確定還有沒有其他生還的人類了。」'
                        ]
                      : [
                           [
@@ -4581,7 +4581,7 @@ export default {
                              '<32>* 「我很憤怒，因為人類對我們\n   所做的一切，還因為我的孩子們。」',
                              '<32>* 「我很內疚，因為這場悲劇。」',
                              '<32>* 「我很悲傷，因為我不敢相信\n  人生竟然是如此殘酷。」',
-                             '<32>* 「即使在家園毀滅之後，\n   擁有一個家庭的想法\n   還是給了我希望。」',
+                             '<32>* 「即使在故園毀滅之後，\n   擁有一個家庭的想法\n   還是給了我希望。」',
                              '<32>* 「但是事實就是事實。」',
                              '<32>* 「無論我再怎麼看航行日誌，\n  結果都是一樣的。」',
                              '<32>* 「我的孩子們就這樣死了。」',
@@ -4601,7 +4601,7 @@ export default {
                              '<32>{#p/asgore}* 「Asgore的日記，克歷524年10月。」',
                              '<32>* 「自$(name)以後，第一個人類\n   來到了前哨站。」',
                              '<32>* 「雖然多年來對人類的\n   蔑視已經平息了...」',
-                             '<32>* \"Much of it still lingers, buried under the surface.\"',
+                             '<32>* 「但是仍留有餘焰，\n   在灰燼之下灼燒著。」',
                              '<32>* 「Thomas和我在盡最大努力保證\n   他們的安全，但這個任務實在是艱巨。」',
                              '<32>* 「很多人仍然堅持著我\n   很多年前的態度。」',
                              '<32>* 「無論年齡大小，他們都會殺掉人類。」',
@@ -4611,54 +4611,54 @@ export default {
                              '<32>{#p/human}* （你開始看下一部分。）',
                              '<32>{#p/asgore}* 「Asgore的日記，克歷535年4月。」',
                              '<32>* 「又一個人類來到了這裡。」',
-                             '<32>* \"They seem to be familiar with Gerson, as well as other former council members.\"',
-                             '<32>* \"Now, I ask myself.\"\n* \"How?\"',
-                             '<32>* \"Have they been raised on stories of the war?\"',
-                             '<32>* \"Were they sent here in the hopes of learning more about us?\"',
-                             '<32>* \"As per the settlement, only human military personnel are privy to our location.\"',
-                             '<32>* \"For the sake of our safety, I hope this is still the case.\"'
+                             '<32>* 「那孩子似乎很熟悉Gerson，\n   還有其他的行星理事會成員。」',
+                             '<32>* 「現在，我不禁問我自己。」\n   「怎麼會？」',
+                             '<32>* 「這孩子是聽著戰爭故事長大的嗎？」',
+                             '<32>* 「他們是被派來更多地了解我們的嗎？」',
+                             '<32>* 「按照合約，\n   應該只有人類軍方知道我們的位置。」',
+                             '<32>* 「出於安全考慮，我希望仍然如此。」'
                           ],
                           [
                              '<32>{#p/human}* （你開始看下一部分。）',
                              '<32>{#p/asgore}* 「Asgore的日記，克歷549年7月。」',
-                             '<32>* \"Since I last wrote to this diary, another child has crash-landed.\"',
-                             '<32>* \"Thomas and I have the process of guiding them down to a science now.\"',
-                             '<32>* \"With each new arrival, the flame of my hope grows stronger.\"',
-                             '<32>* \"I am starting to believe that we may indeed regain our freedom one day.\"',
-                             '<32>* \"That is, if the builder bots do not take over first.\"'
+                             '<32>* 「自上一篇日記以來，另一個人類孩子迫降了。」',
+                             '<32>* 「現在Thomas和我\n   把引導人類們的過程歸結為了一門科學。」',
+                             '<32>* 「每一個新的來訪者都讓我希望的火焰燒得更旺。」',
+                             '<32>* 「我開始相信，\n   有朝一日我們會重獲自由的。」',
+                             '<32>* 「當然，如果建築機器人沒有先接管一切的話。」'
                           ],
                           [
                              '<32>{#p/human}* （你開始看下一部分。）',
                              '<32>{#p/asgore}* 「Asgore的日記，克歷567年11月。」',
-                             '<32>* \"Today I must say goodbye to the second of two children to arrive this year.\"',
-                             '<32>* \"The first entered the archive immediately, but the other chose to stay for a while.\"',
-                             '<32>* \"I have learned a lot from them.\"',
-                             '<32>* \"Being as young as they are, holding a conversation was difficult.\"',
-                             '<32>* \"Their insights, however, helped me come to terms with $(name)\'s actions in the past.\"',
-                             '<32>* \"Our species may be more alike than I realized.\"'
+                             '<32>* 「今天我得和今年抵達的\n   兩個人類孩子中的第二個道別了。」',
+                             '<32>* 「第一個孩子立即進入了檔案，\n   但是另一個選擇再呆一會。」',
+                             '<32>* 「我從這些孩子身上學到了許多。」',
+                             '<32>* 「孩子們太小了，\n   溝通起來其實不太容易。」',
+                             '<32>* 「但是，\n   他們的洞察力幫助我理解了之前$(name)的很多舉動。」',
+                             '<32>* 「可能我們兩個物種之間的差異\n   並沒有我想的那麼大吧。」'
                           ],
                           [
                              '<32>{#p/human}* （你開始看下一部分。）',
                              '<32>{#p/asgore}* 「Asgore的日記，克歷587年3月。」',
-                             '<32>* \"The sixth human since $(name) came through a few days ago.\"',
-                             '<32>* \"I write not due to their arrival, but because the professor died shortly after.\"',
-                             '<32>* \"Thomas Nue Roman.\"\n* \"Your funeral service will take place in a few days.\"',
-                             '<32>* \"It is telling that even the brash younglings in training prepared speeches for you.\"',
-                             '<32>* \"Your work has impacted every life on this outpost, and you will not be forgotten.\"'
+                             '<32>* 「自$(name)以後的第六個人類幾天前抵達了。」',
+                             '<32>* 「這篇日記不是為那孩子的到來而寫的，\n   而是為那不久之後教授的死。」',
+                             '<32>* 「Thomas Nue Roman。」\n  * 「你的葬禮將在幾天後舉行。',
+                             '<32>* 「無疑，\n   即便是在訓練中最為傲慢的新秀都將為你演講。」',
+                             '<32>* 「你的豐功偉績惠及前哨站的所有人，\n   你將被永遠銘記。」'
                           ],
                           [
                              '<32>{#p/human}* （你開始看下一部分。）',
                              '<32>{#p/asgore}* 「Asgore的日記，克歷615年9月。」',
-                             '<32>* \"Today, on the anniversary of that awful tragedy, one last human has crash-landed.\"',
-                             '<32>* \"Suddenly, the prospect of freedom is intimidating.\"',
-                             '<32>* \"Was he right in thinking we would become complacent?\"',
-                             '<32>* \"For nearly two centuries, we have been trapped within a force field.\"',
-                             '<32>* \"Where would we go?\"',
-                             '<32>* \"What would we do next?\"',
-                             '<32>* \"How would we survive on our own?\"',
-                             '<32>* \"Hopefully those kinds of questions will soon be answered.\"'
+                             '<32>* 「今天，在那可怕悲劇的周年紀念日，\n   最後一個人類迫降了。」',
+                             '<32>* 「突然間，\n   嚮往已久的自由開始變得令人望而生畏。」',
+                             '<32>* 「他會不會正覺得我們在自鳴得意呢？」',
+                             '<32>* 「我們被禁足在這立場裡了近兩個世紀。」',
+                             '<32>* 「我們應到何方？」',
+                             '<32>* 「我們要做什麼？」',
+                             '<32>* 「我們怎麼自己生存下來呢？」',
+                             '<32>* 「但願這些問題不久之後能找到答案。」'
                           ],
-                          [ '<32>{#p/human}* (There are no more written entries here.)' ]
+                          [ '<32>{#p/human}* （再往後，就都是空白了。）' ]
                        ][i]
             )
          ),
@@ -6383,7 +6383,7 @@ export default {
       friend71: [
          "<15>{#p/papyrus}{#e/papyrus/1}說的沒錯！\n人類，你會贏的！",
          '<15>{#e/papyrus/1}JUST DO WHAT I, THE GREAT PAPYRUS, WOULD DO...',
-         '<15>{#e/papyrus/2}BELIEVE IN YOU!!!'
+         '<15>{#e/papyrus/2}相信自己！！！'
       ],
       friend72: [
          '<20>{#p/undyne}{#e/undyne/11}哈，你都過我這關了，\n又有誰能難住你？',
