@@ -1,22 +1,20 @@
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-02 09:45+0000\n"
-"PO-Revision-Date: 2024-10-02 09:45+0000\n"
-"Last-Translator: WS-3917 <ws3917@outlook.com>\n"
+"PO-Revision-Date: 2024-10-02 17:29+0000\n"
+"Last-Translator: MurderSans_MDR <z127568254@163.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://ws3917.site/projects/"
 "project-spacetime/2-starton/zh_Hans/>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: ENCODING\n"
+"Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 5.7.2\n"
 
 #
-
 msgid ""
 "<32>{#p/basic}* A standard-issue CITADEL long- range telescope, circa 261X."
 msgstr ""
@@ -5951,7 +5949,6 @@ msgstr "哈喽！"
 
 msgid "SAVE YOURSELVES..."
 msgstr "自求多福吧..."
-
 
 msgid "FAILED TO CONNECT..."
 msgstr "网络连接失败..."
@@ -13609,6 +13606,8 @@ msgstr ""
 
 msgid "<32>{#p/human}* (You tell Stardrake that they aren't funny.)"
 msgstr ""
+"<32>{#p/human}* （你说Stardrake\n"
+"  没有一点幽默细胞。）"
 
 msgid ""
 "<32>{#p/human}* (You mock Chilldrake for protesting out in the middle of "
@@ -13628,7 +13627,7 @@ msgstr ""
 msgid ""
 "<32>{#p/basic}* Stardrake struggles to make a retort, and slinks away "
 "utterly crushed..."
-msgstr ""
+msgstr "<32>{#p/basic}* 他百口莫辩，灰溜溜地逃走了..."
 
 msgid "<32>{#p/asriel2}* Almost dead."
 msgstr "<32>{#p/asriel2}* 离死不远了。"
@@ -13956,6 +13955,8 @@ msgstr ""
 
 msgid "<08>{#p/basic}{~}The signal here sucks."
 msgstr ""
+"<08>{#p/basic}{~}这儿的信号\n"
+"烂透了。"
 
 msgid "<08>{#p/basic}{~}I love humans!"
 msgstr ""
@@ -14072,9 +14073,11 @@ msgstr "<32>{#p/basic}* Whizkarat发出了刺耳的嘶嘶声！"
 
 msgid "<32>{#p/human}* (You pluck another whisker from Whizkarat's face.)"
 msgstr ""
+"<32>{#p/human}* （你又拔下了Whizkarat\n"
+"  脸上的一根胡须。）"
 
 msgid "<32>{#p/basic}* Whizkarat scurries away!"
-msgstr ""
+msgstr "<32>{#p/basic}* Whizkarat吃痛，匆匆跑开了！"
 
 msgid ""
 "<32>{#p/human}* (You try to pluck a whisker, but Whizkarat pretends it has "
@@ -14103,7 +14106,7 @@ msgid "<08>{#p/basic}{~}\\x00*purrs gently*"
 msgstr ""
 
 msgid "<32>{#p/story}* Whizkarat is nearing demise."
-msgstr ""
+msgstr "<32>{#p/story}* Whizkarat快断气了。"
 
 msgid "<08>{#p/basic}{~}What food do they eat?"
 msgstr ""
