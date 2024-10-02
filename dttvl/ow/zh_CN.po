@@ -1,6 +1,21 @@
-#
+#, fuzzy
 msgid ""
 msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-10-02 05:01+0000\n"
+"PO-Revision-Date: 2024-10-02 05:01+0000\n"
+"Last-Translator: Wasneet Potato <wasneetpotato@outlook.com>\n"
+"Language-Team: Chinese (Simplified Han script) <https://ws3917.site/projects/"
+"deltatraveler/r1-overworld/zh_Hans/>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: ENCODING\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.7.2\n"
+
+#
 
 msgid "* Use the box?"
 msgstr ""
@@ -150,9 +165,7 @@ msgstr ""
 msgid ""
 "* Where are the other\n"
 "  two?"
-msgstr ""
-"* 另外\n"
-"  两个呢?"
+msgstr "* 另外两个呢?"
 
 msgid ""
 "* So me and a few other dudes\n"
