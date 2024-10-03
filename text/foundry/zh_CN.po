@@ -4,7 +4,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-02 03:29+0000\n"
 "PO-Revision-Date: 2024-10-03 07:27+0000\n"
-"Last-Translator: MurderSans_MDR <z127568254@163.com>\n"
+"Last-Translator: WS-3917 <ws3917@outlook.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://ws3917.site/projects/"
 "project-spacetime/3-foundry/zh_Hans/>\n"
 "Language: zh_CN\n"
@@ -19706,19 +19706,19 @@ msgid "<32>{#k/0}* Said she'd \"given up\" on tryin'a capture you."
 msgstr "<32>{#k/0}* 她说，“不想”抓你了。ゑ"
 
 msgid "<32>{#k/4}* What happened back there...?"
-msgstr ""
+msgstr "<32>{#k/4}* 到底咋回事？"
 
 msgid "<32>{#p/basic}{#k/3}* Undyne?"
 msgstr "<32>{#p/basic}{#k/3}* Undyne？"
 
 msgid "<32>{#k/0}* I haven't heard from her in a while."
-msgstr ""
+msgstr "<32>{#k/0}* 这段时间一直没看到她。"
 
 msgid "<32>{#k/4}* She just kinda... disappeared."
-msgstr ""
+msgstr "<32>{#k/4}* 好像... 失踪了。."
 
 msgid "<32>{#k/3}* Was that your doing?"
-msgstr ""
+msgstr "<32>{#k/3}* 是你干的吧？"
 
 msgid "<32>{#k/1}* You killed her, just like you killed everyone else."
 msgstr ""
