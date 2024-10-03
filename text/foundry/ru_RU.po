@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-03 09:29+0000\n"
-"PO-Revision-Date: 2024-10-03 10:29+0000\n"
+"PO-Revision-Date: 2024-10-03 12:29+0000\n"
 "Last-Translator: Maxim Aksenov <me6696154@gmail.com>\n"
 "Language-Team: Russian <https://ws3917.site/projects/project-spacetime/"
 "3-foundry/ru/>\n"
@@ -6894,8 +6894,9 @@ msgstr ""
 "<25>{#p/sans}* Ну, я скажу тебе.\n"
 "* это называется {@fill=#003cff}сигнальная звезда{@fill=#fff}."
 
+#, fuzzy
 msgid "<25>* they're all over the factory."
-msgstr "<25>* Завод был повсюду."
+msgstr "<25>* Они повсюду на фабрике."
 
 msgid "<25>* once they pick up a signal, they'll repeat it over and over..."
 msgstr ""
@@ -6903,7 +6904,7 @@ msgstr ""
 "снова..."
 
 msgid "<25>{#f/3}* what about it?"
-msgstr "<25>{#f/3}* Как насчет этого?"
+msgstr "<25>{#f/3}* что насчёт этого?"
 
 msgid "<25>{#f/0}* well, papyrus told me something interesting the other day."
 msgstr "<25>{#f/0}* ну, на днях Папирус рассказал мне кое-что интересное."
