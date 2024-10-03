@@ -1,6 +1,22 @@
-#
+#, fuzzy
 msgid ""
 msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-10-03 09:29+0000\n"
+"PO-Revision-Date: 2024-10-03 09:29+0000\n"
+"Last-Translator: Maxim Aksenov <me6696154@gmail.com>\n"
+"Language-Team: Russian <https://ws3917.site/projects/project-spacetime/"
+"3-foundry/ru/>\n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: ENCODING\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 5.7.2\n"
+
+#
 
 msgid "<32>{#p/basic}* ..."
 msgstr ""
@@ -6915,8 +6931,10 @@ msgstr "<25>{#f/3}* ... предсказания."
 msgid "<25>{#f/0}* weird, huh?"
 msgstr "<25>{#f/0}* Странно, да?"
 
+#, fuzzy
 msgid "<25>* someone must be using a signal star to play a trick on him."
-msgstr "<25>Кто - то, должно быть, дразнит его с помощью сигнальной звезды."
+msgstr ""
+"<25>* кто-то должен использовать сигнальную звезду, чтобы разыграть его."
 
 msgid "<25>* keep an eye out, ok?"
 msgstr "<25>* будь осторожен, ладно?"
@@ -6924,10 +6942,13 @@ msgstr "<25>* будь осторожен, ладно?"
 msgid "<25>* thanks."
 msgstr "<25>* спасибо."
 
+#, fuzzy
 msgid ""
 "<25>{#p/sans}* ... er, grillby.\n"
 "* would you mind passing me the yamok sauce?"
-msgstr "* Не могли бы вы передать мне утку?"
+msgstr ""
+"<25>{#p/sans}* ... э, гриллби.\n"
+"* ты не мог бы передать мне соус ямок?"
 
 msgid "<25>{#p/sans}{#f/8}* delicious."
 msgstr "<25>{#p/sans}{#f/8}* вкусно."
@@ -6941,17 +6962,19 @@ msgstr "<25>{#f/8}* о, и постарайся быть добрее к окр�
 msgid "<25>{#f/9}* you might regret it otherwise."
 msgstr "<25>{#f/9}* Иначе ты можешь пожалеть об этом."
 
+#, fuzzy
 msgid "<25>{#f/8}* oh, and be sure to grab your food on the way out."
-msgstr "<25>{#f/8}* О, обязательно берите с собой еду, когда выходите."
+msgstr "<25>{#f/8}* о, и не забудь взять еду по пути к выходу."
 
 msgid "<25>{#f/9}* you might need it soon."
 msgstr "<25>{#f/9}* ты можешь скоро понадобиться."
 
+#, fuzzy
 msgid "<25>{#p/sans}* i'm thinking about getting into the telescope business."
-msgstr "<25>{#p/sans}* Я думаю о вступлении в индустрию телескопов."
+msgstr "<25>{#p/sans}* Я думаю заняться бизнесом, связанным с телескопами."
 
 msgid "<25>{#f/3}* this here is what you'd call a PREMIUM telescope."
-msgstr "<25>{#f/3}* Это то, что вы называете усовершенствованным телескопом."
+msgstr "<25>{#f/3}* Это то, что ты называешь ПРЕМИУМ телескопом."
 
 msgid "<25>{#f/3}* i was planning on waiting to show it off tomorrow..."
 msgstr "<25>{#f/3}* Я собирался показать это завтра."
@@ -6963,21 +6986,24 @@ msgstr ""
 "использовать их заранее."
 
 msgid "<25>{#f/2}* but, since i know you, you can use it early."
-msgstr "<25>{#f/2}* Но так как я вас знаю, вы можете использовать его раньше."
+msgstr ""
+"<25>{#f/2}* но, поскольку я тебя знаю, ты можешь использовать его раньше."
 
 msgid "<25>{#f/0}* howzzabout it?"
 msgstr "<25>{#f/0}* Как насчет этого?"
 
 msgid "<25>{#p/sans}{#f/2}* wanna try my telescope?"
-msgstr "<25>{#p/sans}{#f/2}* Хочешь попробовать мой телескоп?"
+msgstr "<25>{#p/sans}{#f/2}* хочешь испытать мой телескоп?"
 
 msgid ""
 "<25>{#p/sans}* lemme guess...\n"
 "* it doesn't work?"
-msgstr "* Это не работает?"
+msgstr ""
+"<25>{#p/sans}* позволь угадать...\n"
+"* не работает?"
 
 msgid "<25>{#f/3}* oh, sorry, i thought you knew."
-msgstr "<25>{#f/3}* О, простите, я думал, вы знаете."
+msgstr "<25>{#f/3}* о, прости, я думал, ты знаешь."
 
 msgid "<25>{#f/2}* a premium membership requires a premium subscription."
 msgstr ""
@@ -6989,13 +7015,16 @@ msgstr "<25>{#p/kidd}{#f/2}* Ты шутишь, да?"
 msgid ""
 "<25>{#p/sans}{#f/0}* nope.\n"
 "* premium subscription."
-msgstr "* Расширенная подписка."
+msgstr ""
+"<25>{#p/sans}{#f/0}* нет.\n"
+"* премиум-подписка."
 
+#, fuzzy
 msgid "<25>{#p/kidd}{#f/1}* Darn!"
 msgstr "<25>{#p/kidd}{#f/1}* Проклятье!"
 
 msgid "<25>{#f/2}* a premium telescope requires a premium membership."
-msgstr "<25>{#f/2}* Усовершенствованные телескопы требуют высокого членства."
+msgstr "<25>{#f/2}* премиум телескоп требует премиум-членства."
 
 msgid "<25>{#p/kidd}{#f/1}* What if I give them my membership voucher?"
 msgstr "<25>{#p/kidd}{#f/1}* Что, если я дам им свои членские талоны?"
@@ -7003,10 +7032,12 @@ msgstr "<25>{#p/kidd}{#f/1}* Что, если я дам им свои членс
 msgid ""
 "<25>{#p/sans}{#f/0}* oh.\n"
 "* well, that'd require a premium subscription."
-msgstr "* Хм, это требует платной подписки."
+msgstr ""
+"<25>{#p/sans}{#f/0}* о.\n"
+"* ну, для этого нужна премиум-подписка."
 
 msgid "<25>{#p/sans}{#f/2}* oh well..."
-msgstr "<25>{#p/sans}{#f/2}* О, ну..."
+msgstr "<25>{#p/sans}{#f/2}* о, ну..."
 
 msgid ""
 "<32>{#p/tem}{#npc/a}* p...\n"
