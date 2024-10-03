@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-02 09:45+0000\n"
-"PO-Revision-Date: 2024-10-02 19:29+0000\n"
+"PO-Revision-Date: 2024-10-03 08:29+0000\n"
 "Last-Translator: MurderSans_MDR <z127568254@163.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://ws3917.site/projects/"
 "project-spacetime/2-starton/zh_Hans/>\n"
@@ -4087,14 +4087,18 @@ msgstr ""
 
 msgid "<32>{#npc/a}* Grillbz is real sorry for the lack of other customers."
 msgstr ""
+"<32>{#npc/a}* 今天店里这么冷清，\n"
+"  Grillbz实在很对不起。"
 
 msgid "<32>* Personally, I think they're just afraid..."
-msgstr ""
+msgstr "<32>* 我看，那些老主顾可能就是怕了..."
 
 msgid ""
 "<32>* You know.\n"
 "* Of that bully."
 msgstr ""
+"<32>* 怕那个恶霸。\n"
+"* 当然喽。"
 
 msgid "<32>{#npc/a}* Grillbz said he found his new colors in an e-magazine."
 msgstr ""
@@ -4292,12 +4296,14 @@ msgid ""
 "<32>{#p/basic}{#npc/a}* Word around town is there's a bully going and "
 "beating people up."
 msgstr ""
+"<32>{#p/basic}{#npc/a}* 听传言说，有个瞎晃悠的恶霸，\n"
+"  路上的人全都被他揍了。"
 
 msgid "<32>* But Grillbz and I decided to keep the bar open."
-msgstr ""
+msgstr "<32>* 不过我和Grillbz可不打算关店跑路。"
 
 msgid "<32>* No bully's gonna keep us from running THIS establishment!"
-msgstr ""
+msgstr "<32>* 区区恶霸，怎能逼得走咱们！"
 
 msgid ""
 "<32>{#p/basic}{#npc/a}* Those dogs are part of the ROYAL GUARD, the military"
@@ -8746,36 +8752,36 @@ msgid "<18>... HEH?"
 msgstr "<18>...嘿？"
 
 msgid "<23>{#p/papyrus}{#f/30}HUMAN."
-msgstr "<23>{#p/papyrus}{#f/30}人类。"
+msgstr "<23>{#p/papyrus}{#f/30}人类。ゑ"
 
 msgid "<23>ALLOW ME TO TELL YOU ABOUT SOME COMPLEX FEELINGS."
 msgstr ""
 "<23>请允许我倾诉\n"
-"一些复杂的情感。"
+"一些复杂的情感。ゑ"
 
 msgid "<23>FEELINGS LIKE..."
-msgstr "<23>就像..."
+msgstr "<23>就像...ゑ"
 
 msgid "<23>THE SADNESS OF LOSING SOMEONE SPECIAL."
-msgstr "<23>失去至亲的悲痛。"
+msgstr "<23>失去至亲的悲痛。ゑ"
 
 msgid "<23>THE GUILT OF NOT BEING ABLE TO SAVE THEM."
-msgstr "<23>无能为力的自责。"
+msgstr "<23>无能为力的自责。ゑ"
 
 msgid "<23>THE DESIRE TO SEE THEM ONE LAST TIME."
-msgstr "<23>阴阳两隔的怀念。"
+msgstr "<23>阴阳两隔的怀念。ゑ"
 
 msgid "<23>THESE FEELINGS..."
-msgstr "<23>这些情感..."
+msgstr "<23>这些情感...ゑ"
 
 msgid "<23>THE STRESS OF KNOWING SO MANY PEOPLE HAVE BEEN KILLED."
-msgstr "<23>众生罹难的心痛。"
+msgstr "<23>众生罹难的心痛。ゑ"
 
 msgid "<23>THE HOPELESSNESS OF THINKING YOU CAN'T DO ANYTHING TO STOP IT."
-msgstr "<23>无能为力的绝望。"
+msgstr "<23>无能为力的绝望。ゑ"
 
 msgid "<23>THE DESIRE TO MAKE A CHANGE FOR THE BETTER."
-msgstr "<23>改过自新的理想。"
+msgstr "<23>改过自新的理想。ゑ"
 
 msgid "<23>THE JOY OF FINDING ANOTHER PASTA LOVER."
 msgstr ""
@@ -8794,71 +8800,71 @@ msgstr ""
 "也同样很酷的渴望。"
 
 msgid "<18>{#f/31}THEY MUST BE WHAT YOU ARE FEELING, RIGHT NOW."
-msgstr "<18>{#f/31}肯定正萦绕在你心头。"
+msgstr "<18>{#f/31}肯定正萦绕在你心头。ゑ"
 
 msgid "<18>{#f/32}I CAN HARDLY IMAGINE WHAT THAT MUST FEEL LIKE..."
 msgstr ""
 "<18>{#f/32}很难想象这些情感\n"
-"究竟是怎样的..."
+"究竟是怎样的...ゑ"
 
 msgid "<18>{#f/6}AFTER ALL, I AM VERY... GREAT..."
-msgstr "<18>{#f/6}毕竟，我很... 伟大..."
+msgstr "<18>{#f/6}毕竟，我很... 伟大...ゑ"
 
 msgid "<18>{#f/32}{#x1}..."
-msgstr "<18>{#f/32}{#x1}..."
+msgstr "<18>{#f/32}{#x1}...ゑ"
 
 msgid "<18>{#f/31}DESPITE EVERYTHING THAT HAS HAPPENED, I STILL..."
 msgstr ""
 "<18>{#f/31}人类，尽管你做了\n"
 "很多错事...\n"
-"我..."
+"我...ゑ"
 
 msgid "<18>{#f/5}I STILL BELIEVE IN YOU, HUMAN."
-msgstr "<18>{#f/5}我仍然相信你！"
+msgstr "<18>{#f/5}我仍然相信你！ゑ"
 
 msgid "<18>{#f/31}I KNOW YOU CAN DO BETTER."
 msgstr ""
 "<18>{#f/31}我知道，\n"
-"你可以浪子回头。"
+"你可以浪子回头。ゑ"
 
 msgid "<18>{#f/31}I KNOW YOU HAVE IT IN YOU TO CHANGE."
 msgstr ""
 "<18>{#f/31}我知道，\n"
-"你愿意变得更好。"
+"你愿意变得更好。ゑ"
 
 msgid "<18>{#f/4}NO MATTER WHAT RIDICULOUS THING 'ASRIEL' SAYS..."
 msgstr ""
 "<18>{#f/4}不管那个“ASRIEL”\n"
-"说了什么荒唐的话，"
+"说了什么荒唐的话，ゑ"
 
 msgid "<18>{#f/5}NO MATTER HOW IRREDEEMABLE YOU THINK YOU ARE..."
 msgstr ""
 "<18>{#f/5}不管你觉得自己\n"
-"多么不可救药，"
+"多么不可救药，ゑ"
 
 msgid "<18>{#f/6}{#x2}I KNOW, DEEP DOWN, THERE'S STILL GOOD IN YOU!"
 msgstr ""
 "<18>{#f/6}{#x2}但我知道，在内心深处，\n"
-"你还是个好人！"
+"你还是个好人！ゑ"
 
 msgid "<18>{#f/0}SO LET ME HELP YOU FIND THAT GOODNESS."
-msgstr "<18>{#f/0}我会让你的善良重见天日！"
+msgstr "<18>{#f/0}我会让你的善良重见天日！ゑ"
 
 msgid "<18>{#f/0}LET ME HELP YOU DISCOVER YOUR TRUE POTENTIAL."
-msgstr "<18>{#f/0}我会让你的潜能尽数释放！"
+msgstr "<18>{#f/0}我会让你的潜能尽数释放！ゑ"
 
 msgid "<18>{#f/4}AND MOST OF ALL..."
-msgstr "<18>{#f/4}最终..."
+msgstr "<18>{#f/4}最终...ゑ"
 
 msgid "<18>{#f/9}LET ME SHOW YOU THAT YOU CAN STILL BE GREAT!!!"
 msgstr ""
 "<18>{#f/9}我会让你知道，\n"
-"你仍然是最棒的！！！"
+"你仍然是最棒的！！！ゑ"
 
 msgid "<18>{#f/0}I, PAPYRUS, WELCOME YOU WITH OPEN ARMS!"
 msgstr ""
 "<18>{#f/0}我，PAPYRUS，\n"
-"敞开双臂欢迎你！"
+"敞开双臂欢迎你！ゑ"
 
 msgid "<18>{#f/0}THEY MUST BE WHAT YOU ARE FEELING RIGHT NOW!!"
 msgstr ""
@@ -10601,7 +10607,7 @@ msgid ""
 msgstr ""
 
 msgid "<32>{#p/basic}* It's a dispenser of some kind."
-msgstr "<32>{#p/basic}* 某种型号的喷酱机。"
+msgstr "<32>{#p/basic}* 某种型号的喷酱机。ゑ"
 
 msgid ""
 "<32>{#p/basic}* It's a mouse hole.\n"
@@ -11444,13 +11450,13 @@ msgid "<32>{#p/human}* (You can't make out what's under the tray table...)"
 msgstr ""
 
 msgid "<32>{#p/basic}* It's a tray table."
-msgstr "<32>{#p/basic}* 一张折叠式餐桌。"
+msgstr "<32>{#p/basic}* 一张折叠式餐桌。ゑ"
 
 msgid "<32>* The camera on the underside has been taken away."
 msgstr ""
 
 msgid "<32>* There's a camera hidden on its underside."
-msgstr "<32>* 下面藏了个摄像头。"
+msgstr "<32>* 下面藏了个摄像头。ゑ"
 
 msgid ""
 "<25>{#p/asriel1}{#f/16}* I don't think tasting any of these would be a good "
@@ -11706,7 +11712,7 @@ msgid ""
 msgstr ""
 
 msgid "<32>{#p/basic}* The librarby's check-out book."
-msgstr "<32>{#p/basic}* 图书倌的借阅记录。"
+msgstr "<32>{#p/basic}* 图书倌的借阅记录。ゑ"
 
 msgid ""
 "<32>{#p/human}* (The books on this bookshelf consist of information, some of"
@@ -16056,6 +16062,8 @@ msgstr "<32>{#p/story}* Papyrus挡住了去路！"
 
 msgid "<15>{#p/papyrus}{#f/24}SO, YOU'RE SERIOUS..."
 msgstr ""
+"<15>{#p/papyrus}{#f/24}看来，\n"
+"你要来真的..."
 
 msgid "<15>{#p/papyrus}{#f/24}SO, YOU WON'T FIGHT..."
 msgstr ""
@@ -18029,9 +18037,11 @@ msgid ""
 "<32>{#p/napstablook}{#k/0}* oh...\n"
 "* i'm not sure what to say, really..."
 msgstr ""
+"<32>{#p/napstablook}{#k/0}* 哦...\n"
+"* 说些什么好呢，不太确定啊..."
 
 msgid "<32>{#k/3}* uhh... hello, i guess?"
-msgstr ""
+msgstr "<32>{#k/3}* 呃，也许... 你好?"
 
 msgid ""
 "<32>{#p/napstablook}{#k/4}* heh...\n"
