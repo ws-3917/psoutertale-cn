@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-02 05:01+0000\n"
-"PO-Revision-Date: 2024-10-03 14:25+0000\n"
+"PO-Revision-Date: 2024-10-03 14:29+0000\n"
 "Last-Translator: MurderSans_MDR <z127568254@163.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://ws3917.site/projects/"
 "project-spacetime/4-aerialis/zh_Hans/>\n"
@@ -13694,13 +13694,13 @@ msgid ""
 msgstr "<25>{#p/alphys}{#g/alphysCutscene3}* 你现在本应该已经到首塔了。"
 
 msgid "<25>{#p/alphys}{#g/alphysGarbo}* You've hit both switches."
-msgstr "<25>{#p/alphys}{#g/alphysGarbo}* 俩开关你都按了。"
+msgstr "<25>{#p/alphys}{#g/alphysGarbo}* 俩开关你都按了。ゑ"
 
 msgid "<25>{#p/alphys}{#g/alphysGarboCenter}* Happy now?"
-msgstr "<25>{#p/alphys}{#g/alphysGarboCenter}* 这下满意了？"
+msgstr "<25>{#p/alphys}{#g/alphysGarboCenter}* 这下满意了？ゑ"
 
 msgid "<25>{#p/alphys}{#g/alphysWelp}* W-wait, there's someone ahead."
-msgstr "<25>{#p/alphys}{#g/alphysWelp}* 停，前-前面有东西。"
+msgstr "<25>{#p/alphys}{#g/alphysWelp}* 停，前-前面有东西。ゑ"
 
 msgid ""
 "<25>{#p/alphys}{#g/alphysNeutralSweat}* Let me see if I can clear the way "
@@ -13714,13 +13714,13 @@ msgstr "<32>{|}{#p/human}* （又是强制- {%}"
 
 msgid ""
 "<25>{#p/alphys}{#g/alphysCutscene3}* They're not on the intercom system."
-msgstr "<25>{#p/alphys}{#g/alphysCutscene3}* 内网系统的名单上没有它。"
+msgstr "<25>{#p/alphys}{#g/alphysCutscene3}* 内网系统的名单上没有它。ゑ"
 
 msgid "<25>{#g/alphysUhButHeresTheDeal}* They're not even part of the guard!"
-msgstr "<25>{#g/alphysUhButHeresTheDeal}* 它甚至连守卫都不是！"
+msgstr "<25>{#g/alphysUhButHeresTheDeal}* 它甚至连守卫都不是！ゑ"
 
 msgid "<25>{#g/alphysWelp}* ... this is not good."
-msgstr "<25>{#g/alphysWelp}* ...不妙。"
+msgstr "<25>{#g/alphysWelp}* ...不妙。ゑ"
 
 msgid ""
 "<32>{#p/basic}* So you think you can just cross a bridge and make it to the "
@@ -13744,7 +13744,7 @@ msgid "<25>* Are we clear?"
 msgstr "<25>* 我们能前进了？"
 
 msgid "<26>{#p/alphys}{#g/alphysNeutralSweat}* Did... did you really..."
-msgstr "<26>{#p/alphys}{#g/alphysNeutralSweat}* 你... 你把它..."
+msgstr "<26>{#p/alphys}{#g/alphysNeutralSweat}* 你... 你把它...ゑ"
 
 msgid "<25>{#g/alphysHaveSomeCompassion}* ... okay..."
 msgstr "<25>{#g/alphysHaveSomeCompassion}* ...好吧..."
