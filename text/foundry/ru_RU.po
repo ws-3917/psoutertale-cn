@@ -1,23 +1,21 @@
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-03 09:29+0000\n"
-"PO-Revision-Date: 2024-10-03 09:29+0000\n"
+"PO-Revision-Date: 2024-10-03 10:29+0000\n"
 "Last-Translator: Maxim Aksenov <me6696154@gmail.com>\n"
 "Language-Team: Russian <https://ws3917.site/projects/project-spacetime/"
 "3-foundry/ru/>\n"
 "Language: ru_RU\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: ENCODING\n"
+"Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 5.7.2\n"
 
 #
-
 msgid "<32>{#p/basic}* ..."
 msgstr ""
 
@@ -7039,18 +7037,23 @@ msgstr ""
 msgid "<25>{#p/sans}{#f/2}* oh well..."
 msgstr "<25>{#p/sans}{#f/2}* о, ну..."
 
+#, fuzzy
 msgid ""
 "<32>{#p/tem}{#npc/a}* p...\n"
 "* tem heard human loves to pet tem..."
-msgstr "* Тем слышал, что люди любят ласкать Тема."
+msgstr ""
+"<32>{#p/tem}{#npc/a}* п...\n"
+"* Тэм слышала, что человек любит гладить Тэм..."
 
 msgid ""
 "<32>* u wana...\n"
 "* PET???"
-msgstr "Полиэфирные пищевые упаковочные материалы"
+msgstr ""
+"<32>* Ты хочешь...\n"
+"* ГЛАДИТЬ???"
 
 msgid "{#npc}* (What do you say?)"
-msgstr "{#npc}* (Вы говорите?)"
+msgstr "{#npc}* (Что скажешь?)"
 
 msgid "Yuz."
 msgstr "Юз."
@@ -7059,29 +7062,31 @@ msgid "Nuu!"
 msgstr "Нуу!"
 
 msgid "<32>{#p/human}* (You pet temmie.)"
-msgstr "<32>{#p/human}* (Ты меня до смерти любишь)"
+msgstr "<32>{#p/human}* (Ты гладишь Тэмми.)"
 
 msgid "<32>{#p/tem}{#npc/a}* uwawawawah....."
 msgstr "<32>{#p/tem}{#npc/a}* uwawawawah..."
 
 msgid "<32>{#p/tem}{#npc/a}* ..."
-msgstr ""
+msgstr "<32>{#p/tem}{#npc/a}* ..."
 
+#, fuzzy
 msgid "<32>{#p/tem}{#npc/a}* Go away."
 msgstr "<32>{#p/tem}{#npc/a}* Уходи."
 
 msgid "<32>{#p/human}* (You continue petting temmie.)"
-msgstr "<32>{#p/human}* (Вы продолжаете ласкать temmie.)"
+msgstr "<32>{#p/human}* (Ты продолжаешь гладить Тэмми.)"
 
+#, fuzzy
 msgid "<32>{#p/human}* (You flip the switch behind the statue.)"
-msgstr "<32>{#p/human}* (Вы переворачиваете переключатель за статуей.)"
+msgstr "<32>{#p/human}* (Ты нажимаешь на кнопку за статуей.)"
 
 msgid ""
 "<32>{#p/human}* (The riddle here describes a statue like this one and hints "
 "at a sequence of notes.)"
 msgstr ""
-"<32>{#p/human}* (Загадка здесь описывает статую, подобную этой, и "
-"подразумевает ряд нот."
+"<32>{#p/human}* (Загадка описывает статую, похожую на эту, и намекает на "
+"последовательность нот.)"
 
 msgid ""
 "<32>{#p/human}* (It also mentions bringing an item to a specific opposing "
@@ -7091,14 +7096,13 @@ msgstr ""
 "комнату другой стороны.)"
 
 msgid "<32>{#p/basic}* ... there's a riddle here."
-msgstr "<32>{#p/basic}* ... Вот загадка."
+msgstr "<32>{#p/basic}* ... здесь есть загадка."
 
 msgid ""
 "<32>* \"Flip the switch and bring a friend to a place you've been before "
 "again...\""
 msgstr ""
-"<32>* \"Включите выключатель и приведите друзей туда, где вы были "
-"раньше...\""
+"<32>* \"Нажми на переключатель и приведи друга в место, где ты уже был...\""
 
 msgid "<32>* \"A figure not unlike my own, a statue carved and set in stone.\""
 msgstr "<32>* \"Человек, похожий на меня, статуя, вырезанная на камне\"."
@@ -7106,7 +7110,9 @@ msgstr "<32>* \"Человек, похожий на меня, статуя, вы
 msgid ""
 "<32>* \"Follow the sequence of notes divined, to unlock the path to the "
 "other side...\""
-msgstr "<32>* \"В порядке нот гадания откройте дорогу в другую сторону...\""
+msgstr ""
+"<32>* \"Следуй за показанной последовательностью нот, чтобы открыть путь на "
+"другую сторону...\""
 
 msgid ""
 "<32>* \"Bring the item to the room nextdoor, and all the power will be "
