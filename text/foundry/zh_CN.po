@@ -4,7 +4,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-02 03:29+0000\n"
 "PO-Revision-Date: 2024-10-03 07:18+0000\n"
-"Last-Translator: MurderSans_MDR <z127568254@163.com>\n"
+"Last-Translator: WS-3917 <ws3917@outlook.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://ws3917.site/projects/"
 "project-spacetime/3-foundry/zh_Hans/>\n"
 "Language: zh_CN\n"
@@ -19673,18 +19673,20 @@ msgstr "<32>{#k/1}* 她死了。ゑ"
 
 msgid "<32>{#k/3}* You expectin' me to throw a party for you or somethin'?"
 msgstr ""
+"<32>{#k/3}* 赖着不走，\n"
+"  是等着我给你俩办庆功宴吗？"
 
 msgid "<32>{#k/1}* Get outta my sight."
-msgstr ""
+msgstr "<32>{#k/1}* 现在给我滚。"
 
 msgid "<32>{#p/basic}{#k/1}* ..."
 msgstr "<32>{#p/basic}{#k/1}* ..."
 
 msgid "<32>{#k/1}* You've got a real twisted sense of humor, kiddo."
-msgstr ""
+msgstr "<32>{#k/1}* 小子，你可真幽默。"
 
 msgid "<32>{#k/3}* Killing her in front of me like that..."
-msgstr ""
+msgstr "<32>{#k/3}* 还当我面把她杀了..."
 
 msgid "<32>{#k/1}* You're lucky I don't walk out there and kill you myself."
 msgstr ""
