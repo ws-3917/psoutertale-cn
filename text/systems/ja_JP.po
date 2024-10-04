@@ -1,6 +1,21 @@
-#
+#, fuzzy
 msgid ""
 msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-10-04 04:29+0000\n"
+"PO-Revision-Date: 2024-10-04 04:29+0000\n"
+"Last-Translator: forestfamily4 <hyper.developer.ink@gmail.com>\n"
+"Language-Team: Japanese <https://ws3917.site/projects/project-spacetime/"
+"0-systems/ja/>\n"
+"Language: ja_JP\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: ENCODING\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.7.2\n"
+
+#
 
 msgid "(You take a deep breath.)"
 msgstr "(しんこきゅう　した)"
@@ -250,7 +265,7 @@ msgid "Above (Explorer)"
 msgstr "Above (表示)"
 
 msgid "Menu (Explorer)"
-msgstr "Main (表示)"
+msgstr "Menu (表示)"
 
 msgid "A"
 msgstr ""
@@ -608,8 +623,6 @@ msgstr "§fill=#ff0§< かいはつ >§fill=#fff§"
 msgid "spacey_432"
 msgstr ""
 
-msgid ""
-msgstr ""
 
 msgid "§fill=#ff0§< WRITER >§fill=#fff§"
 msgstr "§fill=#ff0§< テキスト >§fill=#fff§"
@@ -975,7 +988,7 @@ msgstr ""
 "ありがとうございます。§fill=#fff§"
 
 msgid "Brought to you by §fill=#ff0§The Mavis & Co.§fill=#fff§"
-msgstr "§fill=#ff0§Mavisとおともたち§fill=#fff§　ていきょう"
+msgstr "§fill=#ff0§Mavisとおともだち§fill=#fff§　ていきょう"
 
 msgid "(( CAST ))"
 msgstr ""
