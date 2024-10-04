@@ -1,22 +1,20 @@
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-04 07:29+0000\n"
-"PO-Revision-Date: 2024-10-04 07:29+0000\n"
+"PO-Revision-Date: 2024-10-04 08:29+0000\n"
 "Last-Translator: WS-3917 <ws3917@outlook.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://ws3917.site/projects/"
 "project-spacetime/4-aerialis/zh_Hans/>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: ENCODING\n"
+"Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 5.7.2\n"
 
 #
-
 msgid "<32>{#p/human}* (It appears the terminal is beyond your access level.)"
 msgstr ""
 
@@ -8204,7 +8202,6 @@ msgstr "<25>{#p/asriel2}{#f/8}* 只能换条路走了。"
 
 msgid "<32>{#p/human}* (Where would you like to go?)"
 msgstr "<32>{#p/human}* （你想去哪里？）"
-
 
 msgid "Floor L1"
 msgstr "左一层"
@@ -19963,87 +19960,103 @@ msgid "<11>{#p/basic}{~}Careful, girl."
 msgstr "<11>{#p/basic}{~}姑娘，当心。"
 
 msgid "<32>{#p/story}* 01 and 02 attack in sync."
-msgstr ""
+msgstr "<32>{#p/story}* 一号和二号配合默契。"
 
 msgid ""
 "<33>{#p/story}* 03 is living in the friendzone.\n"
 "* 04 doesn't question it."
 msgstr ""
+"<33>{#p/story}* 三号想继续和四号做普通朋友。\n"
+"* 四号没有异议。"
 
 msgid "<32>{#p/story}* 01 and 02 prepare their next assault."
 msgstr ""
+"<32>{#p/story}* 一号和二号正准备施展\n"
+"  下一轮组合技。"
 
 msgid ""
 "<32>{#p/story}* 03 casts her doubts aside for just a moment.\n"
 "* 04 breathes a sigh of relief."
 msgstr ""
+"<32>{#p/story}* 三号不再顾虑。\n"
+"* 四号松了口气。"
 
 msgid "<32>{#p/story}* 01 and 02 slam their bodies together brotastically."
 msgstr ""
+"<32>{#p/story}* 一号和二号互相媳戏，\n"
+"  身子不停地撞来撞去。"
 
 msgid ""
 "<32>{#p/story}* 03 ponders about 04's history.\n"
 "* 04 shrugs."
 msgstr ""
+"<32>{#p/story}* 三号细细回忆着四号的过往。\n"
+"* 四号耸耸肩，毫不在意。"
 
 msgid "<32>{#p/story}* Smells like men's body spray."
-msgstr ""
+msgstr "<32>{#p/story}* 空气中飘来阵阵男士体香。"
 
 msgid "<32>{#p/story}* Smells like perfume."
-msgstr ""
+msgstr "<32>{#p/story}* 空气中飘来阵阵香水芬芳。"
 
 msgid "<32>{#p/story}* 01 and 02 refer to themselves as \"brotally swagical.\""
 msgstr ""
+"<32>{#p/story}* 一号和二号说\n"
+"  他们是“最酷的铁哥们”。"
 
 msgid ""
 "<32>{#p/story}* 03 puts on a brave face.\n"
 "* 04 replies non-verbally with her own bravery."
 msgstr ""
+"<32>{#p/story}* 三号鼓起了勇气。\n"
+"* 四号回应以无言的勇气。"
 
 msgid "<11>{#p/basic}{~}{@random=1.1/1.1}Suffer."
 msgstr "<11>{#p/basic}{~}{@random=1.1/1.1}下地狱吧。ゑ"
 
 msgid "<11>{#p/basic}{~}{@random=1.1/1.1}I'll never know..."
-msgstr ""
+msgstr "<11>{#p/basic}{~}{@random=1.1/1.1}再也无从得知..."
 
 msgid "<11>{#p/basic}{~}{@random=1.1/1.1}No mercy."
 msgstr "<11>{#p/basic}{~}{@random=1.1/1.1}死有余辜。ゑ"
 
 msgid "<11>{#p/basic}{~}{@random=1.1/1.1}It's too late..."
-msgstr ""
+msgstr "<11>{#p/basic}{~}{@random=1.1/1.1}一切都晚了..."
 
 msgid "<11>{#p/basic}{~}{@random=1.1/1.1}Unforgiv- able."
 msgstr "<11>{#p/basic}{~}{@random=1.1/1.1}禽兽不如。ゑ"
 
 msgid "<11>{#p/basic}{~}{@random=1.1/1.1}I missed my chance..."
-msgstr ""
+msgstr "<11>{#p/basic}{~}{@random=1.1/1.1}永远没机会..."
 
 msgid "<11>{#p/basic}{~}{@random=1.1/1.1}Die."
 msgstr "<11>{#p/basic}{~}{@random=1.1/1.1}给我去死。ゑ"
 
 msgid "<11>{#p/basic}{~}{@random=1.1/1.1}It can't be..."
-msgstr ""
+msgstr "<11>{#p/basic}{~}{@random=1.1/1.1}不要啊..."
 
 msgid "<32>{#p/story}* 01 seems even more focused than before."
-msgstr ""
+msgstr "<32>{#p/story}* 一号变得更加专注。"
 
 msgid "<32>{#p/story}* 03 is in disarray."
-msgstr ""
+msgstr "<32>{#p/story}* 三号已经彻底懵了。"
 
 msgid "<32>{#p/human}* (You flirt with 03.)"
-msgstr ""
+msgstr "<32>{#p/human}* （你向三号守卫调情。）"
 
 msgid "<11>{#p/basic}{~}Flirting is strictly forbidden."
-msgstr ""
+msgstr "<11>{#p/basic}{~}不准调情。"
 
 msgid "<11>{#p/basic}{~}You think that's gonna work on us?"
 msgstr ""
+"<11>{#p/basic}{~}这招对我们\n"
+"根本没用。"
 
 msgid "<11>{#p/basic}{~}Flirting is... ack..."
-msgstr ""
+msgstr "<11>{#p/basic}{~}调情可真... 唉..."
 
 msgid "<11>{#p/basic}{~}That's not really... ack..."
-msgstr ""
+msgstr "<11>{#p/basic}{~}感觉也... 唉..."
 
 msgid "<11>{#p/basic}{~}..."
 msgstr "<11>{#p/basic}{~}..."
@@ -20052,53 +20065,68 @@ msgid ""
 "<32>{#p/story}* 03 struggles to contain her feelings.\n"
 "* 04 seems confused..."
 msgstr ""
+"<32>{#p/story}* 三号努力克制自己的情愫。\n"
+"* 四号有点不解..."
 
 msgid ""
 "<32>{#p/story}* 03's feelings are bursting at the seams.\n"
 "* 04 seems concerned..."
 msgstr ""
+"<32>{#p/story}* 三号快要按捺不住自己的心意。\n"
+"* 四号有些担忧..."
 
 msgid ""
 "<32>{#p/human}* (You flirt with 03.)\n"
 "* (She accepts the compliment, but remains focused on 04.)"
 msgstr ""
+"<32>{#p/human}* （你向三号守卫调情。）\n"
+"* （她回应了你的赞美，\n"
+"  但仍痴情于四号。）"
 
 msgid ""
 "<32>{#p/human}* (You flirt with 01.)\n"
 "* (He doesn't seem to react in any significant way.)"
 msgstr ""
+"<32>{#p/human}* （你向一号守卫调情。）\n"
+"* （他根本不搭理你。）"
 
 msgid ""
 "<32>{#p/human}* (You try to pull on 03's glove, but she slaps your hand "
 "away.)"
 msgstr ""
+"<32>{#p/human}* （你伸手去拉三号的手套，\n"
+"  结果被她一把推开。）"
 
 msgid "<11>{#p/basic}{~}Paws off, sister."
-msgstr ""
+msgstr "<11>{#p/basic}{~}给我收敛点。"
 
 msgid "<11>{#p/basic}{~}No touchy."
-msgstr ""
+msgstr "<11>{#p/basic}{~}不准碰我。"
 
 msgid "<11>{#p/basic}{~}That's off- limits to you."
-msgstr ""
+msgstr "<11>{#p/basic}{~}出格了。"
 
 msgid "<11>{#p/basic}{~}Nope."
-msgstr ""
+msgstr "<11>{#p/basic}{~}走开。"
 
 msgid ""
 "<32>{#p/story}* It would seem some boundaries are better left uncrossed."
-msgstr ""
+msgstr "<32>{#p/story}* 看来，有些红线真不能乱碰。"
 
 msgid ""
 "<32>{#p/human}* (You try to pull on 03's glove, but she raises it out of "
 "your reach.)"
 msgstr ""
+"<32>{#p/human}* （你伸手去拉三号的手套，\n"
+"  她猛地抬起爪子，你扑了个空。）"
 
 msgid "<32>{#p/story}* 03 towers above you, masking her true expression."
 msgstr ""
+"<32>{#p/story}* 三号俯视着你，\n"
+"  竭力掩藏内心的感受。"
 
 msgid "<32>{#p/human}* (You hold 03's paw.)"
-msgstr ""
+msgstr "<32>{#p/human}* （你抓住了三号的爪子。）"
 
 msgid "<32>{#p/basic}* 03 mistakenly believes 04 is holding her paw..."
 msgstr ""
@@ -20356,12 +20384,16 @@ msgstr "<11>{#p/basic}{~}{@random=1.1/1.1}你完蛋了！！ゑ"
 
 msgid "<11>{#p/basic}{~}{@random=1.1/1.1}How could you do this to me...!?"
 msgstr ""
+"<11>{#p/basic}{~}{@random=1.1/1.1}为什么要\n"
+"这样对我！？"
 
 msgid "<11>{#p/basic}{~}{@random=1.1/1.1}Don't even try!!"
 msgstr "<11>{#p/basic}{~}{@random=1.1/1.1}休想得逞！！ゑ"
 
 msgid "<11>{#p/basic}{~}{@random=1.1/1.1}She was my only friend...!"
 msgstr ""
+"<11>{#p/basic}{~}{@random=1.1/1.1}我就她一个\n"
+"朋友啊...！"
 
 msgid "<11>{#p/basic}{~}{@random=1.1/1.1}Prepare to be wiped out!!"
 msgstr ""
@@ -20370,12 +20402,16 @@ msgstr ""
 
 msgid "<11>{#p/basic}{~}{@random=1.1/1.1}She was everything to me...!"
 msgstr ""
+"<11>{#p/basic}{~}{@random=1.1/1.1}她就是\n"
+"我的唯一..."
 
 msgid "<11>{#p/basic}{~}{@random=1.1/1.1}I'm gonna make you pay!!"
 msgstr "<11>{#p/basic}{~}{@random=1.1/1.1}血债血偿！ゑ"
 
 msgid "<11>{#p/basic}{~}{@random=1.1/1.1}What kind of creature are you...!?"
 msgstr ""
+"<11>{#p/basic}{~}{@random=1.1/1.1}你到底是\n"
+"什么怪物！？"
 
 msgid "<32>{#p/story}* 02 has lost his temper."
 msgstr ""
