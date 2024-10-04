@@ -1,23 +1,21 @@
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-04 04:29+0000\n"
-"PO-Revision-Date: 2024-10-04 04:29+0000\n"
+"PO-Revision-Date: 2024-10-04 17:29+0000\n"
 "Last-Translator: Maxim Aksenov <me6696154@gmail.com>\n"
 "Language-Team: Russian <https://ws3917.site/projects/project-spacetime/"
 "3-foundry/ru/>\n"
 "Language: ru_RU\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: ENCODING\n"
+"Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 5.7.2\n"
 
 #
-
 msgid "<32>{#p/basic}* ..."
 msgstr ""
 
@@ -7198,13 +7196,14 @@ msgid "<25>{#f/2}* didja make a new friend while i was gone?"
 msgstr "<25>{#f/2}* Когда меня не было, ты завел нового друга?"
 
 msgid "<25>{#f/0}* ... heh."
-msgstr "<25>{#f/0}* ... Ха - ха."
+msgstr "<25>{#f/0}* ... хех."
 
 msgid "<25>{#f/0}* i guess you're okay."
 msgstr "<25>{#f/0}* я думаю, ты в порядке."
 
+#, fuzzy
 msgid "<25>{#f/3}* i did want to keep a closer eye on you, but..."
-msgstr "<25>{#f/3}* Я действительно хочу пристально следить за вами, но..."
+msgstr "<25>{#f/3}* я хотел присматривать за тобой, но..."
 
 #, fuzzy
 msgid ""
@@ -7218,7 +7217,7 @@ msgid ""
 msgstr "* Я должен позвонить своему агенту по мошенничеству со страховкой."
 
 msgid "<25>{#f/0}* in the meantime, you should be fine for now."
-msgstr "<25>{#f/0}* В то же время, вы должны быть в порядке сейчас."
+msgstr "<25>{#f/0}* в это время ты должен быть в порядке сейчас."
 
 msgid "<25>{#f/3}* the area ahead of you seems pretty empty, by my estimate."
 msgstr ""
@@ -7227,27 +7226,32 @@ msgstr ""
 msgid ""
 "<25>{#f/2}* but hey.\n"
 "* i could be wrong."
-msgstr "* Я могу ошибаться."
+msgstr ""
+"<25>{#f/2}* но эй.\n"
+"* Я могу ошибаться."
 
+#, fuzzy
 msgid "<25>{#f/0}* in the meantime, you shouldn't have too much more trouble."
-msgstr "<25>{#f/0}* В то же время, у вас не должно быть много проблем."
+msgstr "<25>{#f/0}* в это время у тебя не должно быть больших проблем."
 
 msgid "<25>{#f/3}* the area ahead of you will be evacuated soon."
-msgstr "<25>{#f/3}* Предыдущая зона будет эвакуирована в ближайшее время."
+msgstr "<25>{#f/3}* область перед тобой скоро будет эвакуирована."
 
 msgid "<25>{#f/2}* hmm... i wonder if anyone will still be out there."
 msgstr "<25>{#f/2}* Эм... Я хочу знать, будет ли там кто - нибудь еще."
 
+#, fuzzy
 msgid "<25>{#f/0}* in the meantime, just be careful what you do next."
-msgstr "<25>{#f/0}* В то же время, следующий шаг должен быть осторожным."
+msgstr "<25>{#f/0}* в это время, просто будь осторожен, что ты делаешь дальше."
 
+#, fuzzy
 msgid "<25>{#f/3}* it'd be a shame if we had to evacuate the foundry as well."
-msgstr ""
-"<25>{#f/3}* Было бы позором, если бы нам также пришлось эвакуировать "
-"литейный завод."
+msgstr "<25>{#f/3}* Будет очень жаль, если мы эвакуируем литейную также."
 
+#, fuzzy
 msgid "<25>{#f/0}* in the meantime, just be careful who you talk to."
-msgstr "<25>{#f/0}* В то же время, будьте осторожны, с кем поговорить."
+msgstr ""
+"<25>{#f/0}* в то же время, просто будь осторожен с кем ты разговариваешь."
 
 msgid ""
 "<25>{#f/3}* rumor has it, someone's been roughhousing folks in the factory."
@@ -7259,12 +7263,15 @@ msgid ""
 "<25>{#f/3}* rumor has it, someone's been causing havoc near the trash "
 "depository."
 msgstr ""
-"<25>{#f/3}* Ходят слухи, что кто - то создал хаос возле мусорных свалок."
+"<25>{#f/3}* Ходят слухи, что кто-то устроил хаос возле мусорного хранилища."
 
+#, fuzzy
 msgid ""
 "<32>{#p/basic}* A bastion box.\n"
 "* There's a human inside..."
-msgstr "* Внутри был один человек."
+msgstr ""
+"<32>{#p/basic}* Бастионный сундук.\n"
+"* Внутри находится человек..."
 
 msgid ""
 "<32>{#p/finalghost}* Hello there.\n"
