@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-04 07:29+0000\n"
-"PO-Revision-Date: 2024-10-04 17:29+0000\n"
+"PO-Revision-Date: 2024-10-04 18:29+0000\n"
 "Last-Translator: MurderSans_MDR <z127568254@163.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://ws3917.site/projects/"
 "project-spacetime/4-aerialis/zh_Hans/>\n"
@@ -23545,10 +23545,12 @@ msgid ""
 msgstr ""
 
 msgid "<23>{#p/basic}{#k/0/0}{@fill=#ffbbdc}* Check it out!"
-msgstr ""
+msgstr "<23>{#p/basic}{#k/0/0}{@fill=#ffbbdc}* 快来看看吧！"
 
 msgid "<23>{#p/basic}{#k/0/0}{@fill=#ffbbdc}* No rush or anything."
 msgstr ""
+"<23>{#p/basic}{#k/0/0}{@fill=#ffbbdc}* 走过路过，不要错过。\n"
+"  别急着走嘛。"
 
 msgid "<23>{#p/basic}* ... but nobody came."
 msgstr "<23>{#p/basic}* ...但是谁也没有来。ゑ"
@@ -23776,16 +23778,18 @@ msgid "<30>{#p/human}* (You took 5G from the till.)"
 msgstr "<30>{#p/human}* （你从收银机里拿走了5G。）"
 
 msgid "<16>{#k/2/6}* Um, excuse me?"
-msgstr ""
+msgstr "<16>{#k/2/6}* 呃，等一下？"
 
 msgid "<16>{#k/2/6}* Like, what are you doing?"
-msgstr ""
+msgstr "<16>{#k/2/6}* 那个，你在干啥？"
 
 msgid "<16>{#k/1/0}* We don't hand out stuff for free."
 msgstr ""
 
 msgid "<16>{#k/1/0}* Yeah, go steal somewhere else!"
 msgstr ""
+"<16>{#k/1/0}* 没错，想偷东西\n"
+"  别来我们这儿！"
 
 msgid ""
 "<16>{#k/7/0}* Oh, wow.\n"
@@ -23868,22 +23872,22 @@ msgid "Godlike Being"
 msgstr ""
 
 msgid "OuterNet Shutdown"
-msgstr ""
+msgstr "域外网咋关了"
 
 msgid "The Humans"
-msgstr ""
+msgstr "聊聊人类"
 
 msgid "About You Two"
-msgstr ""
+msgstr "聊聊你俩"
 
 msgid "Thrift Shop"
-msgstr ""
+msgstr "聊聊这旧货铺"
 
 msgid "Grand Finale"
 msgstr ""
 
 msgid "Area Ownership"
-msgstr ""
+msgstr "这地儿归谁"
 
 msgid "§fill=#ff0§Burgie (NEW)"
 msgstr ""
@@ -23959,6 +23963,8 @@ msgstr ""
 
 msgid "<16>{#k/0/6}* It's like, a second-hand store."
 msgstr ""
+"<16>{#k/0/6}* 其实这就是个，呃，\n"
+"  二手商店。"
 
 msgid "<16>{#k/0/2}* No it's like, a BARGAIN outlet!"
 msgstr ""
@@ -24053,9 +24059,13 @@ msgstr ""
 
 msgid "<16>{#k/2/1}* Oh yeah, we're technically the owners here."
 msgstr ""
+"<16>{#k/2/1}* 啊没错，严格说来\n"
+"  我们就是主人。"
 
 msgid "<16>* Oh yeah, we practically RULE this zone."
 msgstr ""
+"<16>* 啊没错，这地儿\n"
+"  可以算归我们管。"
 
 msgid "<16>{#k/2/6}* So like, originally..."
 msgstr ""
@@ -24078,21 +24088,26 @@ msgstr ""
 
 msgid "<16>* We haven't questioned it since."
 msgstr ""
+"<16>* 姐俩也没质疑过\n"
+"  这码事。"
 
 msgid "<16>{#k/2/1}* So like, originally, Mettaton was in charge here, right?"
 msgstr ""
+"<16>{#k/2/1}* 那个，一开始，\n"
+"  这儿归Mettaton来着，\n"
+"  对吧？"
 
 msgid "<16>{#k/1/1}* Totally in charge."
-msgstr ""
+msgstr "<16>{#k/1/1}* 完完全全。"
 
 msgid "<16>{#k/2/5}* But then..."
-msgstr ""
+msgstr "<16>{#k/2/5}* 不过后来..."
 
 msgid "<16>* Then..."
-msgstr ""
+msgstr "<16>* 后来呢..."
 
 msgid "<16>{#k/4/4}* Burgie decided to \"overthrow\" him."
-msgstr ""
+msgstr "<16>{#k/4/4}* Burgie决定“推翻”他。"
 
 msgid ""
 "<16>{#k/2/4}* By having, like, a really strong word with him or something."
@@ -24100,27 +24115,39 @@ msgstr ""
 
 msgid "<16>{#k/2/6}* I think he blackmailed him."
 msgstr ""
+"<16>{#k/2/6}* 我觉得吧，\n"
+"  Burgie就是敲诈了他一手。"
 
 msgid "<16>* I think he had an accomplice."
 msgstr ""
+"<16>* 我觉得吧，\n"
+"  他肯定还找了个同谋。"
 
 msgid "<16>{#k/1/0/1}* Anyway, he said we could be the new owners."
 msgstr ""
+"<16>{#k/1/0/1}* 话又说回来，后来他说\n"
+"  这一带可以让我们管。"
 
 msgid "<16>{#k/2/0}* Burgie?"
 msgstr ""
 
 msgid "<16>{#k/0/5}* Yeah, he's alright."
-msgstr ""
+msgstr "<16>{#k/0/5}* 啊，他人还不错。"
 
 msgid "<16>* Eh, he's cool."
-msgstr ""
+msgstr "<16>* 哎呀，他还挺酷的。"
 
 msgid "<16>{#k/2/6}* He used to act all weird around us, but..."
 msgstr ""
+"<16>{#k/2/6}* 以前，他待在\n"
+"  姐俩身边的时候，\n"
+"  表现得不咋自然，\n"
+"  不过..."
 
 msgid "<16>* ... he kinda keeps to himself now."
 msgstr ""
+"<16>* ...他现在\n"
+"  不咋和人来往了。"
 
 msgid "<16>{#k/0/5}* Like, the last time we heard from him..."
 msgstr ""
@@ -24132,10 +24159,10 @@ msgid "<16>* He said he was \"done seeking love\" or whatever."
 msgstr ""
 
 msgid "<16>{#k/2/6}* Kinda sounds like..."
-msgstr ""
+msgstr "<16>{#k/2/6}* 听起来就像..."
 
 msgid "<16>* Sorta feels like..."
-msgstr ""
+msgstr "<16>* 感觉就像..."
 
 msgid "<16>{#k/5/8}* He TOTALLY saw us as a fantasy."
 msgstr ""
@@ -24148,21 +24175,23 @@ msgstr ""
 
 msgid "<16>{#k/2/5}* Catty, we would have said no."
 msgstr ""
+"<16>{#k/2/5}* Catty，我们保准会\n"
+"  回绝他的。"
 
 msgid "<16>{#k/2/1}* ... or would we have said yes?"
-msgstr ""
+msgstr "<16>{#k/2/1}* ...说不准会答应呢？"
 
 msgid "<16>{#k/4/1}* No."
-msgstr ""
+msgstr "<16>{#k/4/1}* 回绝。"
 
 msgid "<16>{#k/4/8}* Yes."
-msgstr ""
+msgstr "<16>{#k/4/8}* 答应。"
 
 msgid "<16>{#k/1/8}* No."
-msgstr ""
+msgstr "<16>{#k/1/8}* 回绝。"
 
 msgid "<16>{#k/1/7}* YES!"
-msgstr ""
+msgstr "<16>{#k/1/7}* 答-应！"
 
 msgid "<16>{#k/4/7}* ..."
 msgstr "<16>{#k/4/7}* ..."
@@ -24171,18 +24200,24 @@ msgid "<16>{#k/5/6}* Catty, don't you have ANY standards?"
 msgstr ""
 
 msgid "<16>{#k/5/8}* Nope!!!"
-msgstr ""
+msgstr "<16>{#k/5/8}* 没呀！！！"
 
 msgid "<16>{#k/0/0}* There's not much more to say about Burgie, but-"
 msgstr ""
+"<16>{#k/0/0}* 关于Burgie，\n"
+"  我们没啥好说的了，\n"
+"  不过"
 
 msgid ""
 "<16>{#k/0/8}* ... no, wait!\n"
 "* Can you go ask him to make us some food?"
 msgstr ""
+"<16>{#k/0/8}* ...不，等下！\n"
+"* 你能让他给姐俩\n"
+"  做点吃的吗？"
 
 msgid "<16>{#k/4/8}* Catty!"
-msgstr ""
+msgstr "<16>{#k/4/8}* Catty！"
 
 msgid ""
 "<16>{#k/4/1}* What?\n"
