@@ -1,6 +1,21 @@
-#
+#, fuzzy
 msgid ""
 msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-10-04 08:29+0000\n"
+"PO-Revision-Date: 2024-10-04 08:29+0000\n"
+"Last-Translator: Chickenytboi <misazacek08@gmail.com>\n"
+"Language-Team: Czech <https://ws3917.site/projects/project-spacetime/"
+"4-aerialis/cs/>\n"
+"Language: cs_CZ\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: ENCODING\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Weblate 5.7.2\n"
+
+#
 
 msgid "<32>{#p/human}* (It appears the terminal is beyond your access level.)"
 msgstr "<32>{#p/human}* (Zdá se, že terminál je mimo vaši úroveň přístupu.)"
@@ -40,7 +55,7 @@ msgid "<25>{#p/alphys}{#g/alphysNeutralSweat}* Seriously."
 msgstr "<25>{#p/alphys}{#g/alphysNeutralSweat}* Vážně."
 
 msgid "<25>{#p/alphys}{#g/alphysNeutralSweat}* ..."
-msgstr ""
+msgstr "<25>{#p/alphys}{#g/alphysNeutralSweat}* ..."
 
 msgid "<32>{#p/human}* (You notice you're alone.)"
 msgstr "<32>{#p/human}* (Všimli jste si, že jste sami.)"
@@ -129,12 +144,14 @@ msgid ""
 "<32>{#p/basic}* Huhehehaw...\n"
 "* Golly gosharoo, I think I'm in mortal danger!"
 msgstr ""
+"<32>{#p/basic}* Huhehehaw...\n"
+"* Golly gosharoo, myslím, že jsem ve smrtelném nebezpečí!"
 
 msgid "<32>{#p/human}* (But there was nothing left for you to do here.)"
-msgstr ""
+msgstr "<32>{#p/human}* (Ale ti tu nezbývalo nic.)"
 
 msgid "<25>{#p/alphys}{#g/alphysNervousLaugh}* Uh, h-hey..."
-msgstr ""
+msgstr "<25>{#p/alphys}{#g/alphysNervousLaugh}* Eh, h-hej..."
 
 msgid ""
 "<25>{#p/alphys}{#g/alphysNeutralSweat}* Sorry about... running off and "
@@ -7348,8 +7365,6 @@ msgstr ""
 msgid "<32>{#p/human}* (Where would you like to go?)"
 msgstr ""
 
-msgid ""
-msgstr ""
 
 msgid "Floor L1"
 msgstr ""
