@@ -4,7 +4,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-04 07:29+0000\n"
 "PO-Revision-Date: 2024-10-04 09:29+0000\n"
-"Last-Translator: MurderSans_MDR <z127568254@163.com>\n"
+"Last-Translator: WS-3917 <ws3917@outlook.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://ws3917.site/projects/"
 "project-spacetime/4-aerialis/zh_Hans/>\n"
 "Language: zh_CN\n"
@@ -20143,30 +20143,44 @@ msgstr "<32>{#p/human}* （你抓住了三号的爪子。）"
 
 msgid "<32>{#p/basic}* 03 mistakenly believes 04 is holding her paw..."
 msgstr ""
+"<32>{#p/basic}* 三号把你的手\n"
+"  错认成了四号的爪子..."
 
 msgid "<11>{#p/basic}{~}04...!"
-msgstr ""
+msgstr "<11>{#p/basic}{~}四号...！"
 
 msgid "<11>{#p/basic}{~}That bracelet..."
-msgstr ""
+msgstr "<11>{#p/basic}{~}那只手镯..."
 
 msgid "<11>{#p/basic}{~}04, I..."
 msgstr ""
+"<11>{#p/basic}{~}四号，\n"
+"我..."
 
 msgid "<11>{#p/basic}{~}04, we..."
 msgstr ""
+"<11>{#p/basic}{~}四号，\n"
+"我们..."
 
 msgid "<11>{#p/basic}{~}04, you..."
 msgstr ""
+"<11>{#p/basic}{~}四号，\n"
+"你..."
 
 msgid "<11>{#p/basic}{~}04, it's..."
 msgstr ""
+"<11>{#p/basic}{~}四号，\n"
+"这太..."
 
 msgid "<32>{#p/story}* The solar winds begin to shift towards your favor."
 msgstr ""
+"<32>{#p/story}* 太阳风开始转向，\n"
+"  助你一路顺风。"
 
 msgid "<32>{#p/human}* (You whisper to 03 to open up about her feelings.)"
 msgstr ""
+"<32>{#p/human}* （你和三号守卫悄悄说，\n"
+"  有爱就要大声说出来。）"
 
 msgid ""
 "<32>{#p/human}* (You whisper to 03.)\n"
@@ -20176,31 +20190,38 @@ msgstr ""
 "* （什么都没发生。）"
 
 msgid "<11>{#p/basic}{~}04..."
-msgstr ""
+msgstr "<11>{#p/basic}{~}四号..."
 
 msgid "<11>{#p/basic}{~}... yeah, 03?"
 msgstr ""
+"<11>{#p/basic}{~}...怎么了，\n"
+"三号？"
 
 msgid "<11>{#p/basic}{~}Look at me, 04..."
-msgstr ""
+msgstr "<11>{#p/basic}{~}看我的手..."
 
 msgid "<11>{#p/basic}{~}But that's..."
-msgstr ""
+msgstr "<11>{#p/basic}{~}那是..."
 
 msgid "<11>{#p/basic}{~}The bracelet of unity..."
-msgstr ""
+msgstr "<11>{#p/basic}{~}是团结手镯。"
 
 msgid "<11>{#p/basic}{~}Remember?"
-msgstr ""
+msgstr "<11>{#p/basic}{~}记得吗？"
 
 msgid "<11>{#p/basic}{~}It's you..."
-msgstr ""
+msgstr "<11>{#p/basic}{~}是你！"
 
 msgid "<11>{#p/basic}{~}I thought I'd lost you, all those years ago..."
 msgstr ""
+"<11>{#p/basic}{~}这么多年\n"
+"没见到你了..."
 
 msgid "<11>{#p/basic}{~}I thought I'd never see you again."
 msgstr ""
+"<11>{#p/basic}{~}我以为，\n"
+"咱们再也\n"
+"无缘相见。"
 
 msgid ""
 "<11>{#p/basic}{~}But now...\n"
