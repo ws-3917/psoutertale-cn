@@ -1,6 +1,21 @@
-#
+#, fuzzy
 msgid ""
 msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-10-04 08:29+0000\n"
+"PO-Revision-Date: 2024-10-04 08:29+0000\n"
+"Last-Translator: Chickenytboi <misazacek08@gmail.com>\n"
+"Language-Team: Czech <https://ws3917.site/projects/project-spacetime/"
+"1-outlands/cs/>\n"
+"Language: cs_CZ\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: ENCODING\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Weblate 5.7.2\n"
+
+#
 
 msgid ""
 "<25>{#p/toriel}{#f/1}* I hear there is a certain kind of fluid in "
@@ -701,44 +716,49 @@ msgstr "<25>{#p/asriel1}{#f/13}* ... Pořád to věřím."
 
 msgid ""
 "<32>{#p/basic}* I've spent the past hundred years wallowing in self-pity."
-msgstr ""
+msgstr "<32>{#p/basic}* Posledních sto let jsem se utápěl v sebelítosti."
 
 msgid ""
 "<32>* I've spent the past hundred years holding a grudge I never should've "
 "had."
 msgstr ""
+"<32>* Posledních sto let jsem v sobě choval zášť, kterou jsem nikdy neměl "
+"mít."
 
 msgid "<32>* In all that time, I wondered what kept me alive..."
-msgstr ""
+msgstr "<32>* Po celou tu dobu jsem přemýšlel, co mě drží naživu..."
 
 msgid "<32>* And now, I finally know the answer."
-msgstr ""
+msgstr "<32>* A teď konečně znám odpověď."
 
 msgid "<25>{#p/asriel1}{#f/15}* ...?"
-msgstr ""
+msgstr "<25>{#p/asriel1}{#f/15}* ...?"
 
 msgid "<32>{#p/basic}* ... it's you, Asriel."
-msgstr ""
+msgstr "<32>{#p/základní}* ... jsi to ty, Asrieli."
 
 msgid "<32>* You're the one who's been keeping me alive."
-msgstr ""
+msgstr "<32>* Ty jsi ten, kdo mě drží naživu."
 
 msgid "<32>{#p/basic}* Think of it like... an unfulfilled promise."
-msgstr ""
+msgstr "<32>{#p/basic}* Přemýšlej o tom jako... nesplněné zaslíbení."
 
 msgid ""
 "<32>* Holding that grudge... thinking about you in the way that I did..."
 msgstr ""
+"<32>* Držím v sobě tu zášť... myslím na tebe tak, jak jsem na tebe myslel "
+"já..."
 
 msgid ""
 "<32>* Knowing I could've been so much more for you than I ultimately was."
 msgstr ""
+"<32>* Věděl jsem, že jsem pro tebe mohl být mnohem víc, než jsem nakonec byl."
 
 msgid "<32>* All this time, that's what's been holding me back."
-msgstr ""
+msgstr "<32>* Celou tu dobu mě to drželo zpátky."
 
 msgid "<25>{#p/asriel1}{#f/23}* $(name)..."
-msgstr ""
+msgstr "<25>{#p/asriel1}{#f/23}* $(name)..."
 
 msgid ""
 "<32>{#p/basic}* Asriel.\n"
@@ -748,15 +768,17 @@ msgstr ""
 "* Můj bratr."
 
 msgid "<32>* You deserve to know the truth."
-msgstr ""
+msgstr "<32>* Zasloužíš si znát pravdu."
 
 msgid ""
 "<25>{*}{#p/asriel1}{#f/25}* Huh?\n"
 "* But you already- {%}"
 msgstr ""
+"<25>{*}{#p/asriel1}{#f/25}* Cože?\n"
+"* Ale vy už- {%}"
 
 msgid "<32>{#p/basic}* I forgive you, too."
-msgstr ""
+msgstr "<32>{#p/basic}* Také vám odpouštím."
 
 msgid "<25>{#p/asriel1}{#f/30}{#i/4}* ...!"
 msgstr ""
