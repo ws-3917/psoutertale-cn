@@ -1,12 +1,25 @@
-#
+#, fuzzy
 msgid ""
 msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-10-04 06:34+0000\n"
+"PO-Revision-Date: 2024-10-04 06:34+0000\n"
+"Last-Translator: WS-3917 <ws3917@outlook.com>\n"
+"Language-Team: Chinese (Simplified Han script) <https://ws3917.site/projects/"
+"project-spacetime/7-values/zh_Hans/>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: ENCODING\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.7.2\n"
+
+#
 
 msgid "en_US"
 msgstr "zh_CN"
 
-msgid ""
-msgstr ""
 
 msgid "You must choose a name."
 msgstr "你必须选定一个名字。"
@@ -145,6 +158,9 @@ msgstr ""
 
 msgid "May your story bring forth the emotion you strive to feel."
 msgstr ""
+"愿你心潮澎湃，\n"
+"让故事化作涓涓细流，\n"
+"滋润心间。"
 
 msgid "May your choices be as effortless as they come."
 msgstr ""
@@ -185,6 +201,8 @@ msgstr ""
 
 msgid "May the experience only add to your state of satisfaction."
 msgstr ""
+"愿你心想事成，\n"
+"让心中的满足只增不减。"
 
 msgid "May the experience be as comforting as you desire."
 msgstr ""
