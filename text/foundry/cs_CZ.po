@@ -1,9 +1,24 @@
-#
+#, fuzzy
 msgid ""
 msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-10-04 08:29+0000\n"
+"PO-Revision-Date: 2024-10-04 08:29+0000\n"
+"Last-Translator: Chickenytboi <misazacek08@gmail.com>\n"
+"Language-Team: Czech <https://ws3917.site/projects/project-spacetime/"
+"3-foundry/cs/>\n"
+"Language: cs_CZ\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: ENCODING\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Weblate 5.7.2\n"
+
+#
 
 msgid "<32>{#p/basic}* ..."
-msgstr ""
+msgstr "<32>{#p/basic}* ..."
 
 msgid "<32>{#p/basic}* I'm going to pretend you didn't just sell that locket."
 msgstr ""
@@ -35,7 +50,7 @@ msgstr ""
 "<25>{#f/9}* Pokud jste se mi pokusili dovolat, měla jsem vypnutý telefon."
 
 msgid "<25>{#f/13}* ..."
-msgstr ""
+msgstr "<25>{#f/13}* ..."
 
 msgid "<25>{#f/13}* I am sorry for all that I did, little one."
 msgstr "<25>{#f/13}* Omlouvám se za všechno, co jsem udělala, maličká."
@@ -50,7 +65,7 @@ msgid ""
 msgstr "<25>{#f/9}* Teprve se začínám smiřovat se svým chováním v minulosti."
 
 msgid "<25>{#f/10}* ..."
-msgstr ""
+msgstr "<25>{#f/10}* ..."
 
 msgid "<25>{#f/10}* I suppose it is nice to see you here."
 msgstr "<25>{#f/10}* Myslím, že jsem ráda, že vás tu vidím."
@@ -86,7 +101,7 @@ msgstr ""
 "* Ale ne teď."
 
 msgid "<25>{#f/5}* ..."
-msgstr ""
+msgstr "<25>{#f/5}* ..."
 
 msgid ""
 "<25>{#p/toriel}{#f/5}* ... huh?\n"
@@ -102,7 +117,7 @@ msgstr ""
 "<32>{#p/human}* (Opakujete radu, kterou vám dal Toriel v Archivu šest.)"
 
 msgid "<25>{#p/toriel}{#f/2}* ..."
-msgstr ""
+msgstr "<25>{#p/toriel}{#f/2}* ..."
 
 msgid "<25>{#f/1}* Those words..."
 msgstr "<25>{#f/1}* Ta slova..."
@@ -128,14 +143,17 @@ msgid ""
 "<25>{#f/5}* I know the transport ship is leaving soon, and I will not miss "
 "it."
 msgstr ""
+"<25>{#f/5}* Vím, že transportní loď brzy odjíždí, a nenechám si ji ujít."
 
 msgid "<25>{#f/9}* For now, however, I must collect my thoughts."
-msgstr ""
+msgstr "<25>{#f/9}* Prozatím si však musím utřídit myšlenky."
 
 msgid ""
 "<25>{#f/1}* ... thank you for being good, Frisk.\n"
 "* You have been the best."
 msgstr ""
+"<25>{#f/1}* ... děkuji ti, že jsi dobrý, Frisku.\n"
+"* Byl jsi nejlepší."
 
 msgid ""
 "<25>{#p/toriel}{#f/10}* Do not worry, Frisk.\n"
