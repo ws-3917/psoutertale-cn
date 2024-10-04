@@ -1,6 +1,21 @@
-#
+#, fuzzy
 msgid ""
 msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-10-04 04:29+0000\n"
+"PO-Revision-Date: 2024-10-04 04:29+0000\n"
+"Last-Translator: Stefano <stefanobuendia@hotmail.com>\n"
+"Language-Team: Spanish <https://ws3917.site/projects/project-spacetime/"
+"0-systems/es/>\n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: ENCODING\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.7.2\n"
+
+#
 
 msgid "(You take a deep breath.)"
 msgstr "(Tomas un respiro profundo.)"
@@ -609,8 +624,6 @@ msgstr "§fill=#ff0§< DESARROLLADOR >§fill=#fff§"
 msgid "spacey_432"
 msgstr "spacey_432"
 
-msgid ""
-msgstr ""
 
 msgid "§fill=#ff0§< WRITER >§fill=#fff§"
 msgstr "§fill=#ff0§< ESCRITOR >§fill=#fff§"
@@ -2509,7 +2522,7 @@ msgid ""
 " MONSTERS.{^35}{}"
 msgstr ""
 "<24>{#p/storyteller}Hace tiempo, dos especies habitaban el sistema solar: "
-"HUMANOS y MONSTROUS.{^35}{}"
+"HUMANOS y MONSTRUOS.{^35}{}"
 
 msgid "<24>As time passed, a war broke out between the two species.{^35}{}"
 msgstr ""
