@@ -2389,6 +2389,8 @@ msgid ""
 "<25>{#p/alphys}{#g/alphysCutscene2}* Yeah... that's probably the right "
 "answer."
 msgstr ""
+"<25>{#p/alphys}{#g/alphysCutscene2}* 没错...\n"
+"  估计这就是正确答案。"
 
 msgid ""
 "<25>{#g/alphysTheFactIs}* He really wants his TV shows to take off, but..."
