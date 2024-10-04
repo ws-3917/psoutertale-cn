@@ -1,6 +1,21 @@
-#
+#, fuzzy
 msgid ""
 msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-10-04 04:29+0000\n"
+"PO-Revision-Date: 2024-10-04 04:29+0000\n"
+"Last-Translator: MurderSans_MDR <z127568254@163.com>\n"
+"Language-Team: Chinese (Simplified Han script) <https://ws3917.site/projects/"
+"project-spacetime/3-foundry/zh_Hans/>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: ENCODING\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.7.2\n"
+
+#
 
 msgid "<32>{#p/basic}* ..."
 msgstr "<32>{#p/basic}* ..."
@@ -449,7 +464,7 @@ msgid "* (Take it?)"
 msgstr "* （拿走它吗？）"
 
 msgid "<32>{#p/human}* (You got the Space Tofu.)"
-msgstr "<32>{#p/human}* （你拿了一块太空豆腐。）"
+msgstr "<32>{#p/human}* （你拿了一份太空豆腐。）"
 
 msgid "<32>{#p/human}* (You're carrying too much.)"
 msgstr "<32>{#p/human}* （你带的东西太多了。）"
