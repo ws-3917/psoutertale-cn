@@ -1,6 +1,22 @@
-#
+#, fuzzy
 msgid ""
 msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-10-04 04:29+0000\n"
+"PO-Revision-Date: 2024-10-04 04:29+0000\n"
+"Last-Translator: Maxim Aksenov <me6696154@gmail.com>\n"
+"Language-Team: Russian <https://ws3917.site/projects/project-spacetime/"
+"3-foundry/ru/>\n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: ENCODING\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 5.7.2\n"
+
+#
 
 msgid "<32>{#p/basic}* ..."
 msgstr ""
@@ -6611,16 +6627,22 @@ msgstr "<33>{#p/basic}* Изменить со спины."
 msgid "<25>{#p/sans}* thanks for treatin' me, bud."
 msgstr "<25>{#p/sans}* Спасибо, что позаботились обо мне, приятель."
 
+#, fuzzy
 msgid "<25>* glad we could talk."
-msgstr "<25>Я рад, что мы можем поговорить."
+msgstr "<25>* Рад, что мы смогли поговорить."
 
+#, fuzzy
 msgid "<25>{#p/sans}{#f/2}* maybe later we could go out for dinner."
-msgstr "<25>{#p/sans}{#f/2}* Возможно, позже мы сможем выйти на ужин."
+msgstr ""
+"<25>{#p/sans}{#f/2}* может быть, позже мы могли бы сходить куда-нибудь "
+"поужинать."
 
 msgid ""
 "<25>{#p/sans}* hey, i heard you made up with my bro.\n"
 "* the great papyrus."
-msgstr "* Великий папирус."
+msgstr ""
+"<25>{#p/sans}* Эй, я слышал, ты помирился с моим братом.\n"
+"* великим папирусом."
 
 msgid ""
 "<25>{#f/2}* well... i consider that a {@fill=#ff0}great victory{@fill=#fff}."
@@ -6797,9 +6819,11 @@ msgstr ""
 "<26>{#f/0}* о ну.\n"
 "* по крайней мере, он делал перерывы."
 
+#, fuzzy
 msgid "<25>{#f/2}* and by that, i mean he brought his attack manuals outside."
 msgstr ""
-"<25>{#f/2}* Я имею в виду, что он вынес свое руководство по атаке наружу."
+"<25>{#f/2}* и под этим я подразумеваю, что он вывел свои атакующие "
+"руководства наружу."
 
 msgid "<25>{#p/sans}{#f/0}* tell me about it."
 msgstr "<25>{#p/sans}{#f/0}* расскажи мне об этом."
@@ -6822,8 +6846,8 @@ msgstr "<25>{#p/sans}* А вот и еда."
 
 msgid "<25>{#p/sans}* regardless, you have to agree he goes above and beyond."
 msgstr ""
-"<25>{#p/sans}* В любом случае, вы должны согласиться с тем, что он "
-"превзошел."
+"<25>{#p/sans}* в любом случае, ты должен согласиться, что он превосходит все "
+"ожидания."
 
 msgid ""
 "<25>{#f/0}* matter of fact, those attack designs of his are a good example."
@@ -7128,7 +7152,7 @@ msgid "* (Stomp on them?)"
 msgstr "* (Наступить на них?)"
 
 msgid "<32>{#p/human}* (You decide not to stomp.)"
-msgstr "<32>{#p/human}* (Вы решили не топать ногами.)"
+msgstr "<32>{#p/human}* (Ты решил не топать.)"
 
 msgid ""
 "<32>{#p/basic}* With the might of your indomitable soles, you charged up the"
@@ -7156,7 +7180,7 @@ msgstr ""
 "поступить с моей кухней."
 
 msgid "<25>{#p/undyne}{#f/4}* ..."
-msgstr ""
+msgstr "<25>{#p/undyne}{#f/4}* ..."
 
 msgid "<25>{#p/sans}{#f/0}* hey, you there?"
 msgstr "<25>{#p/sans}{#f/0}* Эй, ты здесь?"
@@ -7168,8 +7192,7 @@ msgid "<25>{#f/2}* didja fall into a wormhole or something?"
 msgstr "<25>{#f/2}* didja упала в червоточину?"
 
 msgid "<25>{#f/3}* some kid seemed really antsy to see you again."
-msgstr ""
-"<25>{#f/3}* Некоторые дети, похоже, действительно хотят видеть вас снова."
+msgstr "<25>{#f/3}* Какой-то ребёнок, похоже, очень хотел увидеть тебя снова."
 
 msgid "<25>{#f/2}* didja make a new friend while i was gone?"
 msgstr "<25>{#f/2}* Когда меня не было, ты завел нового друга?"
@@ -7178,16 +7201,16 @@ msgid "<25>{#f/0}* ... heh."
 msgstr "<25>{#f/0}* ... Ха - ха."
 
 msgid "<25>{#f/0}* i guess you're okay."
-msgstr "<25>{#f/0}* Я думаю, ты в порядке."
+msgstr "<25>{#f/0}* я думаю, ты в порядке."
 
 msgid "<25>{#f/3}* i did want to keep a closer eye on you, but..."
 msgstr "<25>{#f/3}* Я действительно хочу пристально следить за вами, но..."
 
+#, fuzzy
 msgid ""
 "<25>{#f/0}* for some reason, this premium telescope can't see through walls."
 msgstr ""
-"<25>{#f/0}* По какой - то причине этот усовершенствованный телескоп не может"
-" видеть что - то сквозь стены."
+"<25>{#f/0}* По какой-то причине этот премиум телескоп не видит сквозь стены."
 
 msgid ""
 "<25>{#f/2}* what a scam.\n"
