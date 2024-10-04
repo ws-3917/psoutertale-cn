@@ -89,7 +89,7 @@ msgstr ""
 "  思維定勢的想法。"
 
 msgid "<32>{#p/basic}* ..."
-msgstr "<32>{#p/basic}* ..."
+msgstr "<32>{#p/basic}* ...ゑ"
 
 msgid "<32>* Asriel and I had a telescope just like this."
 msgstr ""
@@ -2903,18 +2903,20 @@ msgstr ""
 "* 沒看出來，你還挺機靈的。"
 
 msgid "<18>{#p/papyrus}{#f/1}WHAT!?"
-msgstr ""
+msgstr "<18>{#p/papyrus}{#f/1}啥！？"
 
 msgid "<18>{#f/7}HOW DID YOU MANAGE TO DO THAT!?!?"
-msgstr ""
+msgstr "<18>{#f/7}你咋做到的！？！？"
 
 msgid "<18>THAT WAS SUPPOSED TO BE TOTALLY IMPOSSIBLE!"
-msgstr ""
+msgstr "<18>這謎題是個人都過不去啊！"
 
 msgid ""
 "<18>{#f/9}... WELL THEN!\n"
 "I SHALL HAVE TO STEP UP MY GAME!"
 msgstr ""
+"<18>{#f/9}...哎呀，行吧！\n"
+"我得快點布置自己的謎題了！"
 
 msgid "<25>{#p/sans}{#f/0}* well, that's it."
 msgstr "<25>{#p/sans}{#f/0}* 好了，謎題結束了。"
@@ -4072,14 +4074,18 @@ msgstr ""
 
 msgid "<32>{#npc/a}* Grillbz is real sorry for the lack of other customers."
 msgstr ""
+"<32>{#npc/a}* 今天店裡這麼冷清，\n"
+"  Grillbz實在很對不起。"
 
 msgid "<32>* Personally, I think they're just afraid..."
-msgstr ""
+msgstr "<32>* 我看，那些老主顧可能就是怕了..."
 
 msgid ""
 "<32>* You know.\n"
 "* Of that bully."
 msgstr ""
+"<32>* 怕那個惡霸。\n"
+"* 當然嘍。"
 
 msgid "<32>{#npc/a}* Grillbz said he found his new colors in an e-magazine."
 msgstr ""
@@ -4277,12 +4283,14 @@ msgid ""
 "<32>{#p/basic}{#npc/a}* Word around town is there's a bully going and "
 "beating people up."
 msgstr ""
+"<32>{#p/basic}{#npc/a}* 聽傳言說，有個瞎晃悠的惡霸，\n"
+"  路上的人全都被他揍了。"
 
 msgid "<32>* But Grillbz and I decided to keep the bar open."
-msgstr ""
+msgstr "<32>* 不過我和Grillbz可不打算關店跑路。"
 
 msgid "<32>* No bully's gonna keep us from running THIS establishment!"
-msgstr ""
+msgstr "<32>* 區區惡霸，怎能逼得走咱們！"
 
 msgid ""
 "<32>{#p/basic}{#npc/a}* Those dogs are part of the ROYAL GUARD, the military"
@@ -4646,9 +4654,13 @@ msgstr ""
 msgid ""
 "<32>{#p/basic}{#npc/a}* A badly wounded dog just walked through here..."
 msgstr ""
+"<32>{#p/basic}{#npc/a}* 剛有隻小狗經過這兒，\n"
+"  身上全是傷..."
 
 msgid "<32>* What kind of person would beat up a cute little dog?"
 msgstr ""
+"<32>* 到底是有多沒良心，\n"
+"  才能對小可愛下毒手啊？"
 
 msgid ""
 "<32>{#p/basic}{#npc/a}* Don't worry, champ.\n"
@@ -4675,7 +4687,7 @@ msgid "<32>{#p/basic}{#npc/a}* Have you seen it?"
 msgstr ""
 
 msgid "<32>{#p/basic}{#npc/a}* Despicable."
-msgstr ""
+msgstr "<32>{#p/basic}{#npc/a}* 惡劣，真惡劣。"
 
 msgid ""
 "<32>{#p/basic}{#npc/a}* Hah-\n"
@@ -5928,8 +5940,7 @@ msgstr ""
 "評分..\n"
 "一塌糊塗。\n"
 "新聞來源：\n"
-"就，這是\n"
-"真的嗎？"
+"就，這是真的嗎？"
 
 msgid "HOWDY!"
 msgstr "哈囉！"
@@ -6671,13 +6682,15 @@ msgid "<15>{#p/papyrus}{#f/24}OH..."
 msgstr "<15>{#p/papyrus}{#f/24}喔..."
 
 msgid "<15>{#f/21}BUT DESPITE THAT..."
-msgstr ""
+msgstr "<15>{#f/21}不過，你嘴上那麼說..."
 
 msgid "<15>{#f/21}YOU STILL CHOSE TO WEAR CLOTHING TODAY OF ALL DAYS...?"
 msgstr ""
+"<15>{#f/21}...但這一整天，\n"
+"你還是好好穿了衣服？"
 
 msgid "<15>{#f/24}IT'S ALMOST LIKE..."
-msgstr ""
+msgstr "<15>{#f/24}也就是說..."
 
 msgid "<15>{#f/13}LIKE YOUR INTEREST IN ME WAS PREDESTINED~"
 msgstr ""
@@ -7168,6 +7181,8 @@ msgstr ""
 
 msgid "<15>{#f/15}I'LL OPEN THE PRESENT MYSELF!!"
 msgstr ""
+"<15>{#f/15}我自己拆\n"
+"不就好了！！"
 
 msgid "<15>{#p/papyrus}{#f/20}DO YOU KNOW WHAT -THIS- IS?"
 msgstr ""
@@ -8025,21 +8040,21 @@ msgid "<18>{#p/papyrus}REALLY!?"
 msgstr "<18>{#p/papyrus}真的！？"
 
 msgid "<18>{#f/0}IS THERE ANY LEFT FOR..."
-msgstr ""
+msgstr "<18>{#f/0}有給我剩..."
 
 msgid "<18>{#f/4}... WAIT."
-msgstr ""
+msgstr "<18>{#f/4}...等下。"
 
 msgid "<18>{#f/0}IT'S RIGHT THERE IN YOUR ITEMS!!"
-msgstr ""
+msgstr "<18>{#f/0}你帶著它呢！！"
 
 msgid "<18>{#f/9}WHAT WERE YOU PLANNING, HUMAN?"
-msgstr ""
+msgstr "<18>{#f/9}人類，你怎麼打算的？"
 
 msgid ""
 "* (What will you do with\n"
 "  Papyrus' spaghetti?)"
-msgstr ""
+msgstr "* （你要拿Papyrus的意面怎麼辦呢？）"
 
 msgid "Share it"
 msgstr "一起吃吧"
@@ -8730,36 +8745,36 @@ msgid "<18>... HEH?"
 msgstr "<18>...嘿？"
 
 msgid "<23>{#p/papyrus}{#f/30}HUMAN."
-msgstr "<23>{#p/papyrus}{#f/30}人類。"
+msgstr "<23>{#p/papyrus}{#f/30}人類。ゑ"
 
 msgid "<23>ALLOW ME TO TELL YOU ABOUT SOME COMPLEX FEELINGS."
 msgstr ""
 "<23>請允許我傾訴\n"
-"一些複雜的情感。"
+"一些複雜的情感。ゑ"
 
 msgid "<23>FEELINGS LIKE..."
-msgstr "<23>就像..."
+msgstr "<23>就像...ゑ"
 
 msgid "<23>THE SADNESS OF LOSING SOMEONE SPECIAL."
-msgstr "<23>失去至親的悲痛。"
+msgstr "<23>失去至親的悲痛。ゑ"
 
 msgid "<23>THE GUILT OF NOT BEING ABLE TO SAVE THEM."
-msgstr "<23>無能為力的自責。"
+msgstr "<23>無能為力的自責。ゑ"
 
 msgid "<23>THE DESIRE TO SEE THEM ONE LAST TIME."
-msgstr "<23>陰陽兩隔的懷念。"
+msgstr "<23>陰陽兩隔的懷念。ゑ"
 
 msgid "<23>THESE FEELINGS..."
-msgstr "<23>這些情感..."
+msgstr "<23>這些情感...ゑ"
 
 msgid "<23>THE STRESS OF KNOWING SO MANY PEOPLE HAVE BEEN KILLED."
-msgstr "<23>眾生罹難的心痛。"
+msgstr "<23>眾生罹難的心痛。ゑ"
 
 msgid "<23>THE HOPELESSNESS OF THINKING YOU CAN'T DO ANYTHING TO STOP IT."
-msgstr "<23>無能為力的絕望。"
+msgstr "<23>無能為力的絕望。ゑ"
 
 msgid "<23>THE DESIRE TO MAKE A CHANGE FOR THE BETTER."
-msgstr "<23>改過自新的理想。"
+msgstr "<23>改過自新的理想。ゑ"
 
 msgid "<23>THE JOY OF FINDING ANOTHER PASTA LOVER."
 msgstr ""
@@ -8778,71 +8793,71 @@ msgstr ""
 "也同樣很酷的渴望。"
 
 msgid "<18>{#f/31}THEY MUST BE WHAT YOU ARE FEELING, RIGHT NOW."
-msgstr "<18>{#f/31}肯定正縈繞在你心頭。"
+msgstr "<18>{#f/31}肯定正縈繞在你心頭。ゑ"
 
 msgid "<18>{#f/32}I CAN HARDLY IMAGINE WHAT THAT MUST FEEL LIKE..."
 msgstr ""
 "<18>{#f/32}很難想像這些情感\n"
-"究竟是怎樣的..."
+"究竟是怎樣的...ゑ"
 
 msgid "<18>{#f/6}AFTER ALL, I AM VERY... GREAT..."
-msgstr "<18>{#f/6}畢竟，我很... 偉大..."
+msgstr "<18>{#f/6}畢竟，我很... 偉大...ゑ"
 
 msgid "<18>{#f/32}{#x1}..."
-msgstr "<18>{#f/32}{#x1}..."
+msgstr "<18>{#f/32}{#x1}...ゑ"
 
 msgid "<18>{#f/31}DESPITE EVERYTHING THAT HAS HAPPENED, I STILL..."
 msgstr ""
 "<18>{#f/31}人類，儘管你做了\n"
 "很多錯事...\n"
-"我..."
+"我...ゑ"
 
 msgid "<18>{#f/5}I STILL BELIEVE IN YOU, HUMAN."
-msgstr "<18>{#f/5}我仍然相信你！"
+msgstr "<18>{#f/5}我仍然相信你！ゑ"
 
 msgid "<18>{#f/31}I KNOW YOU CAN DO BETTER."
 msgstr ""
 "<18>{#f/31}我知道，\n"
-"你可以浪子回頭。"
+"你可以浪子回頭。ゑ"
 
 msgid "<18>{#f/31}I KNOW YOU HAVE IT IN YOU TO CHANGE."
 msgstr ""
 "<18>{#f/31}我知道，\n"
-"你願意變得更好。"
+"你願意變得更好。ゑ"
 
 msgid "<18>{#f/4}NO MATTER WHAT RIDICULOUS THING 'ASRIEL' SAYS..."
 msgstr ""
 "<18>{#f/4}不管那個「ASRIEL」\n"
-"說了什麼荒唐的話，"
+"說了什麼荒唐的話，ゑ"
 
 msgid "<18>{#f/5}NO MATTER HOW IRREDEEMABLE YOU THINK YOU ARE..."
 msgstr ""
 "<18>{#f/5}不管你覺得自己\n"
-"多麼不可救藥，"
+"多麼不可救藥，ゑ"
 
 msgid "<18>{#f/6}{#x2}I KNOW, DEEP DOWN, THERE'S STILL GOOD IN YOU!"
 msgstr ""
 "<18>{#f/6}{#x2}但我知道，在內心深處，\n"
-"你還是個好人！"
+"你還是個好人！ゑ"
 
 msgid "<18>{#f/0}SO LET ME HELP YOU FIND THAT GOODNESS."
-msgstr "<18>{#f/0}我會讓你的善良重見天日！"
+msgstr "<18>{#f/0}我會讓你的善良重見天日！ゑ"
 
 msgid "<18>{#f/0}LET ME HELP YOU DISCOVER YOUR TRUE POTENTIAL."
-msgstr "<18>{#f/0}我會讓你的潛能盡數釋放！"
+msgstr "<18>{#f/0}我會讓你的潛能盡數釋放！ゑ"
 
 msgid "<18>{#f/4}AND MOST OF ALL..."
-msgstr "<18>{#f/4}最終..."
+msgstr "<18>{#f/4}最終...ゑ"
 
 msgid "<18>{#f/9}LET ME SHOW YOU THAT YOU CAN STILL BE GREAT!!!"
 msgstr ""
 "<18>{#f/9}我會讓你知道，\n"
-"你仍然是最棒的！！！"
+"你仍然是最棒的！！！ゑ"
 
 msgid "<18>{#f/0}I, PAPYRUS, WELCOME YOU WITH OPEN ARMS!"
 msgstr ""
 "<18>{#f/0}我，PAPYRUS，\n"
-"敞開雙臂歡迎你！"
+"敞開雙臂歡迎你！ゑ"
 
 msgid "<18>{#f/0}THEY MUST BE WHAT YOU ARE FEELING RIGHT NOW!!"
 msgstr ""
@@ -10585,7 +10600,7 @@ msgid ""
 msgstr ""
 
 msgid "<32>{#p/basic}* It's a dispenser of some kind."
-msgstr "<32>{#p/basic}* 某種型號的噴醬機。"
+msgstr "<32>{#p/basic}* 某種型號的噴醬機。ゑ"
 
 msgid ""
 "<32>{#p/basic}* It's a mouse hole.\n"
@@ -11428,13 +11443,13 @@ msgid "<32>{#p/human}* (You can't make out what's under the tray table...)"
 msgstr ""
 
 msgid "<32>{#p/basic}* It's a tray table."
-msgstr "<32>{#p/basic}* 一張摺疊式餐桌。"
+msgstr "<32>{#p/basic}* 一張摺疊式餐桌。ゑ"
 
 msgid "<32>* The camera on the underside has been taken away."
 msgstr ""
 
 msgid "<32>* There's a camera hidden on its underside."
-msgstr "<32>* 下面藏了個攝像頭。"
+msgstr "<32>* 下面藏了個攝像頭。ゑ"
 
 msgid ""
 "<25>{#p/asriel1}{#f/16}* I don't think tasting any of these would be a good "
@@ -11690,7 +11705,7 @@ msgid ""
 msgstr ""
 
 msgid "<32>{#p/basic}* The librarby's check-out book."
-msgstr "<32>{#p/basic}* 圖書倌的借閱記錄。"
+msgstr "<32>{#p/basic}* 圖書倌的借閱記錄。ゑ"
 
 msgid ""
 "<32>{#p/human}* (The books on this bookshelf consist of information, some of"
@@ -12675,7 +12690,7 @@ msgid ""
 "<#32>  - \"with all due respect,\"\n"
 "  sans"
 msgstr ""
-"<#32>- \"恕我冒昧了，\"\n"
+"<#32>- 「恕我冒昧了，」\n"
 "  sans"
 
 msgid "<32>{#p/basic}* It's a note from Papyrus..."
@@ -13596,6 +13611,8 @@ msgstr ""
 
 msgid "<32>{#p/human}* (You tell Stardrake that they aren't funny.)"
 msgstr ""
+"<32>{#p/human}* （你說Stardrake\n"
+"  沒有一點幽默細胞。）"
 
 msgid ""
 "<32>{#p/human}* (You mock Chilldrake for protesting out in the middle of "
@@ -13615,7 +13632,7 @@ msgstr ""
 msgid ""
 "<32>{#p/basic}* Stardrake struggles to make a retort, and slinks away "
 "utterly crushed..."
-msgstr ""
+msgstr "<32>{#p/basic}* 他百口莫辯，灰溜溜地逃走了..."
 
 msgid "<32>{#p/asriel2}* Almost dead."
 msgstr "<32>{#p/asriel2}* 離死不遠了。"
@@ -13943,6 +13960,8 @@ msgstr ""
 
 msgid "<08>{#p/basic}{~}The signal here sucks."
 msgstr ""
+"<08>{#p/basic}{~}這兒的訊號\n"
+"爛透了。"
 
 msgid "<08>{#p/basic}{~}I love humans!"
 msgstr ""
@@ -14059,9 +14078,11 @@ msgstr "<32>{#p/basic}* Whizkarat發出了刺耳的嘶嘶聲！"
 
 msgid "<32>{#p/human}* (You pluck another whisker from Whizkarat's face.)"
 msgstr ""
+"<32>{#p/human}* （你又拔下了Whizkarat\n"
+"  臉上的一根鬍鬚。）"
 
 msgid "<32>{#p/basic}* Whizkarat scurries away!"
-msgstr ""
+msgstr "<32>{#p/basic}* Whizkarat吃痛，匆匆跑開了！"
 
 msgid ""
 "<32>{#p/human}* (You try to pluck a whisker, but Whizkarat pretends it has "
@@ -14090,7 +14111,7 @@ msgid "<08>{#p/basic}{~}\\x00*purrs gently*"
 msgstr ""
 
 msgid "<32>{#p/story}* Whizkarat is nearing demise."
-msgstr ""
+msgstr "<32>{#p/story}* Whizkarat快斷氣了。"
 
 msgid "<08>{#p/basic}{~}What food do they eat?"
 msgstr ""
@@ -15622,23 +15643,36 @@ msgstr "<15>{#p/papyrus}{#f/20}..."
 
 msgid "<15>{#p/papyrus}{#f/27}SAY... IS IT GETTING DARK OUT HERE?"
 msgstr ""
+"<15>{#p/papyrus}{#f/27}怎麼...\n"
+"天暗下來了？"
 
 msgid "<15>{#f/27}MAYBE CAPTURING YOU WASN'T SUCH A GREAT IDEA..."
 msgstr ""
+"<15>{#f/27}看來抓你\n"
+"不是啥好主意..."
 
 msgid "<15>{#f/15}YEAH!!! I CAN TELL YOU'RE DESPERATE FOR MY MERCY!"
 msgstr ""
+"<15>{#f/15}沒錯！！\n"
+"我敢說，你正渴求著\n"
+"我的仁慈！"
 
 msgid "<15>{#f/20}I, THE GREAT PAPYRUS, WILL OBLIGE YOU!!"
 msgstr ""
+"<15>{#f/20}我，偉大的PAPYRUS，\n"
+"樂意為您效勞！"
 
 msgid "<15>{#f/20}I WILL {@fill=#f00}SPARE{@fill=#000} YOU, HUMAN!!!"
 msgstr ""
+"<15>{#f/20}人類，\n"
+"我會{@fill=#f00}饒恕{@fill=#000}你！！！"
 
 msgid ""
 "<15>{#f/27}SO... NOW'S YOUR CHANCE... TO ACCEPT MY "
 "{@fill=#f00}MERCY{@fill=#000}..."
 msgstr ""
+"<15>{#f/27}...是時候... 接受...\n"
+"我的{@fill=#f00}仁慈{@fill=#000}了..."
 
 msgid ""
 "<32>{#p/story}* PAPYRUS - ATK 3 DEF 3\n"
@@ -16003,7 +16037,7 @@ msgid ""
 msgstr ""
 
 msgid "<32>{#p/story}* Papyrus's aura is rising."
-msgstr ""
+msgstr "<32>{#p/story}* Papyrus的氣場越來越強。"
 
 msgid "<32>{#p/story}* Special attack."
 msgstr "<32>{#p/story}* 特殊攻擊。"
@@ -16034,6 +16068,8 @@ msgstr "<32>{#p/story}* Papyrus擋住了去路！"
 
 msgid "<15>{#p/papyrus}{#f/24}SO, YOU'RE SERIOUS..."
 msgstr ""
+"<15>{#p/papyrus}{#f/24}看來，\n"
+"你要來真的..."
 
 msgid "<15>{#p/papyrus}{#f/24}SO, YOU WON'T FIGHT..."
 msgstr ""
@@ -17204,9 +17240,13 @@ msgid ""
 "<18>{#p/papyrus}{#f/8}NOOO!!\n"
 "WHAT HAVE YOU DONE!?!?"
 msgstr ""
+"<18>{#p/papyrus}{#f/8}別啊！！\n"
+"你怎麼能這麼對它！？！？"
 
 msgid "<18>{#f/5}... THE SPAGHETTI I MADE FOR YOU..."
 msgstr ""
+"<18>{#f/5}...那是我親自下廚\n"
+"為你做的意面啊..."
 
 msgid "<18>{#f/4}... IS... ACTUALLY KIND OF OLD, TO BE HONEST."
 msgstr ""
@@ -17241,19 +17281,21 @@ msgid ""
 msgstr ""
 
 msgid "<18>{#f/6}... IS CONSUMABLE NO LONGER!!"
-msgstr ""
+msgstr "<18>{#f/6}...吃不了了啦！！"
 
 msgid "<18>{#f/4}STILL... MAYBE IT'S FOR THE BEST."
-msgstr ""
+msgstr "<18>{#f/4}不過... 這樣也好。"
 
 msgid "<18>{#f/5}LIKE, MAYBE SEEING YOU THROW THAT AWAY..."
-msgstr ""
+msgstr "<18>{#f/5}你丟掉了那份意面..."
 
 msgid "<18>{#f/6}WILL ENCOURAGE ME TO MAKE A EVEN -BETTER- DISH!"
-msgstr ""
+msgstr "<18>{#f/6}那我就做一份【更贊的】！"
 
 msgid "<18>{#f/9}YEAH! LOOK AT HOW ENCOURAGED I AM RIGHT NOW!"
 msgstr ""
+"<18>{#f/9}沒錯！\n"
+"你看我，充滿了鬥志！"
 
 msgid ""
 "<25>{#p/undyne}{#f/17}* YEAH!!\n"
@@ -18001,9 +18043,11 @@ msgid ""
 "<32>{#p/napstablook}{#k/0}* oh...\n"
 "* i'm not sure what to say, really..."
 msgstr ""
+"<32>{#p/napstablook}{#k/0}* 喔...\n"
+"* 說些什麼好呢，不太確定啊..."
 
 msgid "<32>{#k/3}* uhh... hello, i guess?"
-msgstr ""
+msgstr "<32>{#k/3}* 呃，也許... 你好?"
 
 msgid ""
 "<32>{#p/napstablook}{#k/4}* heh...\n"
@@ -18289,13 +18333,19 @@ msgstr "<32>{#k/0}* 沒事..."
 msgid ""
 "<32>{#p/napstablook}{#k/0}* oh, there's not much to say about my life..."
 msgstr ""
+"<32>{#p/napstablook}{#k/0}* 喔，我的生活蠻平淡的，\n"
+"  拿不出什麼好聊的事..."
 
 msgid "<32>{#k/3}* meeting you was the highlight of my weekend..."
 msgstr ""
+"<32>{#k/3}* 碰上你這事，\n"
+"  都算這周末比較出彩的了..."
 
 msgid ""
 "<32>{#k/6}* and thanks to people like you, there probably never will be..."
 msgstr ""
+"<32>{#k/6}* 而且有你在這，\n"
+"  我的生活估計也不會有啥起色了..."
 
 msgid "<32>{#k/3}* i'm just... pluggin' along..."
 msgstr ""

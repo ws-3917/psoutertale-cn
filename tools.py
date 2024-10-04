@@ -17,34 +17,6 @@ def plain_text(text, _):
 def bashcmd(cmd):
     os.system(f"bash -c \"{cmd}\"")
 
-# 生成强密码
-def generate_strong_password(length):
-    # 定义字符集，排除容易混淆的字符和特殊shell字符
-    lowercase = 'abcdefghjkmnpqrstuvwxyz'  # 排除 i, l, o
-    uppercase = 'ABCDEFGHJKLMNPQRSTUVWXYZ'  # 排除 I, O
-    digits = '23456789'  # 排除 0, 1
-    symbols = '+@#$%^*='  # 仅使用一些安全的特殊字符
-    
-    # 合并所有字符集
-    all_chars = lowercase + uppercase + digits + symbols
-    
-    # 确保密码包含至少一个小写字母、一个大写字母、一个数字和一个符号
-    password = [
-        random.choice(lowercase),
-        random.choice(uppercase),
-        random.choice(digits),
-        random.choice(symbols)
-    ]
-    
-    # 填充剩余的字符
-    for _ in range(length - 4):
-        password.append(random.choice(all_chars))
-    
-    # 打乱密码顺序
-    random.shuffle(password)
-    
-    return ''.join(password)
-
 # 通用的字符串解析函数，可处理字符串定界符与内容
 def parse_strings(text, on_match, on_non_match=None):
     """
@@ -655,7 +627,7 @@ def task_update():
     更新翻译任务，将翻译应用到项目文件。
     """
     print(colored("--> 拉取最新资源", "blue"))
-    bashcmd(f"cd {TRANS_PATH} && git pull github master")
+    bashcmd(f"cd {TRANS_PATH} && git pull origin master")
     task_loadassets()
     print(colored("--> 将翻译字典合并至代码", "blue"))
     
@@ -697,11 +669,6 @@ def task_release(version, comment):
     bashcmd(f"cp -rf {TRANS_PATH}/text/* {TEXT_PATH}/v{version}")
     print(colored("--> 开始构建游戏", "blue"))
     bashcmd(f"cd {SRC_PATH} && ./build.sh")
-    # 0801 - 压缩文件
-    print(colored("--> 压缩生成的文件", "blue"))
-    temp_pswd = generate_strong_password(24)
-    bashcmd(f"cd {SRC_PATH}/app/dist && 7z a win.zip win-unpacked/")
-    bashcmd(f"cd {SRC_PATH}/app/dist && 7z a and.zip and.apk")
     print(colored("--> 复制各平台游戏到目标文件夹", "blue"))
     for platname in PLATFORMS:
         print(colored(f" -> {PLATNAME_DICT[platname]} - V{version}", "yellow"))
@@ -713,10 +680,9 @@ def task_release(version, comment):
             bashcmd(f"cp '{SRC_PATH}/app/dist/{platname}.zip' '{DIST_PATH}/{filename}.zip'")
     # 生成SHA256校验码
     bashcmd(f"cd {DIST_PATH} && sha256sum *V{version}* > PSOT-V{version}-sha256.txt")
-    bashcmd(f"cd {DIST_PATH} && echo 'PWD: {temp_pswd}' >> PSOT-V{version}-sha256.txt")
     # 上传到web服务器
     print(colored("--> 更新web服务器资源", "blue"))
-    bashcmd(f"cd {SRC_PATH}/app/dist && scp -qr assets {WEB_PATH}")
+    bashcmd(f"cd {SRC_PATH}/app/dist && rsync -az --delete assets {WEB_PATH}")
     print(colored("--> 推送更改到Git仓库", "blue"))
     for reponame in [SRC_PATH, GMS_PATH, TEXT_PATH]:
         print(colored(f" -> {reponame}", "yellow"))
@@ -724,7 +690,6 @@ def task_release(version, comment):
         bashcmd(f"cd {reponame} && git add . && git commit -m "
                 f"'{current_time}: V{version} - {comment}.\\nAuthor: {TRANS_AUTHOR}\\nPS! Outertale {reponame.split('/')[-1]}.'")
         bashcmd(f"cd {reponame} && git push origin master && git push -u github master")
-    print(colored(f" -> 文件密码：{temp_pswd}", "yellow"))
     print(colored(f"--- 已发布: V{version} - {comment}.", "green"))
 
 # 比较两个 PO 文件翻译字典之间的差异
@@ -866,7 +831,7 @@ def task_dttvl_copyfiles():
 def task_dttvl_update(update_lang = "zh_CN"):
     print(colored(f"--> 更新DTTVL翻译", "blue"))
     print(colored("--> 拉取最新资源", "blue"))
-    bashcmd(f"cd {TRANS_PATH} && git pull github master")
+    bashcmd(f"cd {TRANS_PATH} && git pull origin master")
     # 更新翻译字典
     print(colored(f" -> 更新翻译字典", "yellow"))
     for place in DTTVL_PLACELIST:

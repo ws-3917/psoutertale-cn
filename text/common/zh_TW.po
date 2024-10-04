@@ -11768,7 +11768,7 @@ msgid "* Spark"
 msgstr "* 引燃"
 
 msgid "* Stare"
-msgstr "* 凝視"
+msgstr "* 瞪眼"
 
 msgid "* Steal"
 msgstr "* 偷竊"
@@ -12448,7 +12448,7 @@ msgid "<32>{#p/basic}* It's Gelatini's happy color!"
 msgstr "<32>{#p/basic}* 這是Gelatini高興時的顏色！"
 
 msgid "<32>{#p/human}* (You give Gelatini a big slap.)"
-msgstr "<32>{#p/human}* （你使勁地給了Galatini一巴掌。）"
+msgstr "<32>{#p/human}* （你使勁扇了Gelatini一巴掌。）"
 
 msgid "<32>{#p/basic}* Gelatini is jostled, but remains ultimately unfazed."
 msgstr ""
@@ -12457,8 +12457,8 @@ msgstr ""
 
 msgid "<32>{#p/human}* (You deliver your mightiest slap to Gelatini.)"
 msgstr ""
-"<32>{#p/human}* （你用盡全身力氣扇了Gelatini\n"
-"  一巴掌。）"
+"<32>{#p/human}* （你用盡全身力氣，\n"
+"  狠狠扇了Gelatini一巴掌。）ゑ"
 
 msgid "<32>{#p/basic}* Gelatini is shaken to its core!"
 msgstr "<32>{#p/basic}* Gelatini的根基被動搖了！"
@@ -12620,9 +12620,13 @@ msgid ""
 "<08>{#p/basic}{~}What?\n"
 "What are you doing?"
 msgstr ""
+"<08>{#p/basic}{~}啊？\n"
+"你在做甚？"
 
 msgid "<08>{#p/basic}{~}But.. it can't be..!"
 msgstr ""
+"<08>{#p/basic}{~}不是.. 這\n"
+"怎麼可能！"
 
 msgid ""
 "<08>{#p/basic}{~}Woah..\n"
@@ -12912,10 +12916,10 @@ msgid "<32>* Are we hitting them too hard...?"
 msgstr "<32>* 我們打得那麼狠嗎...？"
 
 msgid "<25>* They seemed really scared..."
-msgstr ""
+msgstr "<25>* 對手好像嚇壞了..."
 
 msgid "<25>* I hope we didn't hurt them too badly or something..."
-msgstr ""
+msgstr "<25>* 希望我們下手沒那麼重..."
 
 msgid "<25>{#p/kidd}{#f/7}* That one too...!"
 msgstr "<25>{#p/kidd}{#f/7}* 那位也...！"

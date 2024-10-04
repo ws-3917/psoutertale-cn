@@ -128,6 +128,7 @@ CN_NAME_DICT = dict({
     "Mew Mew": "喵喵",
     "Charles": "查尔斯",
     "Vulkin": "迷你火山",
+    "Onionsan": "洋葱桑",
 
     "the Pyromaniacs": "热火朝天",
     "Pyromaniacs": "热火朝天",
@@ -232,7 +233,24 @@ REPLACE_DICT = dict({
     r'(您今天过得怎样？["\'],\s+choicer.create\(["\']\* （你要怎么回答？）["\'],\s+)["\']好听["\'],\s+["\']不好听["\']': r'\1"愉快", "糟糕"',
     r'(督吉 - 攻擊14 防禦10\\n)\* 讀作「ㄉㄨ ·ㄐㄧ」。尾字輕聲。\\n\* 特戰隊成員。': r"\1* 读作[dəʊʒ]。尾音不爆破。\\n* 特战队成员。",
     r"(DOGE - 攻击14 防御10\\n)\* 读作“dū ji”。轻声的“ji”。\\n\* 特战队成员。": r'\1* 读作[dəʊʒ]。尾音不爆破。\\n* 特战队成员。',
-    # 汉化组信息
+    # 翻译组信息
+    # cs_CZ
+    r'(\],\n\s+)(\[\s*["\']Přináší vám)': r'''
+        \1[
+            '§fill=#ff0§< ČEŠTÍ PŘEKLADATELÉ >§fill=#fff§',
+            'Chickenytboi',
+            'petar3664',
+        ],\n\2''',
+    # es_ES
+    r'(\],\n\s+)(\[\s*["\']Traído a)': r'''
+        \1[
+            '§fill=#ff0§< TRADUCTORES AL ESPAÑOL >§fill=#fff§',
+            'Chistosito',
+            'Stefano9000',
+            'DR4GON_HE4RT',
+            'Manuel',
+        ],\n\2''',
+    # zh_CN / zh_TW
     r'(\],\n\s+)(\[\s*["\']特别鸣谢)': r'''
         \1[
             "§fill=#ff0§< 汉化组成员 >§fill=#fff§",

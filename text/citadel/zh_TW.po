@@ -13278,7 +13278,7 @@ msgid ""
 "stronger.)"
 msgstr ""
 "<32>* （還有某個存在\n"
-"  也開始在Asriel靈魂深處迴響，\n"
+"  也開始在Asriel靈魂深處迴響。）\n"
 "* （愈發強烈。）"
 
 msgid ""

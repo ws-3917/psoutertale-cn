@@ -1,21 +1,7 @@
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-03 09:29+0000\n"
-"PO-Revision-Date: 2024-10-03 18:29+0000\n"
-"Last-Translator: Maxim Aksenov <me6696154@gmail.com>\n"
-"Language-Team: Russian <https://ws3917.site/projects/project-spacetime/"
-"3-foundry/ru/>\n"
-"Language: ru_RU\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.7.2\n"
 
-#
 msgid "<32>{#p/basic}* ..."
 msgstr ""
 
@@ -6894,7 +6880,6 @@ msgstr ""
 "<25>{#p/sans}* Ну, я скажу тебе.\n"
 "* это называется {@fill=#003cff}сигнальная звезда{@fill=#fff}."
 
-#, fuzzy
 msgid "<25>* they're all over the factory."
 msgstr "<25>* Они повсюду на фабрике."
 
@@ -6930,7 +6915,6 @@ msgstr "<25>{#f/3}* ... предсказания."
 msgid "<25>{#f/0}* weird, huh?"
 msgstr "<25>{#f/0}* Странно, да?"
 
-#, fuzzy
 msgid "<25>* someone must be using a signal star to play a trick on him."
 msgstr ""
 "<25>* кто-то должен использовать сигнальную звезду, чтобы разыграть его."
@@ -6941,7 +6925,6 @@ msgstr "<25>* будь осторожен, ладно?"
 msgid "<25>* thanks."
 msgstr "<25>* спасибо."
 
-#, fuzzy
 msgid ""
 "<25>{#p/sans}* ... er, grillby.\n"
 "* would you mind passing me the yamok sauce?"
@@ -6961,14 +6944,12 @@ msgstr "<25>{#f/8}* о, и постарайся быть добрее к окр�
 msgid "<25>{#f/9}* you might regret it otherwise."
 msgstr "<25>{#f/9}* Иначе ты можешь пожалеть об этом."
 
-#, fuzzy
 msgid "<25>{#f/8}* oh, and be sure to grab your food on the way out."
 msgstr "<25>{#f/8}* о, и не забудь взять еду по пути к выходу."
 
 msgid "<25>{#f/9}* you might need it soon."
 msgstr "<25>{#f/9}* ты можешь скоро понадобиться."
 
-#, fuzzy
 msgid "<25>{#p/sans}* i'm thinking about getting into the telescope business."
 msgstr "<25>{#p/sans}* Я думаю заняться бизнесом, связанным с телескопами."
 
@@ -7018,7 +6999,6 @@ msgstr ""
 "<25>{#p/sans}{#f/0}* нет.\n"
 "* премиум-подписка."
 
-#, fuzzy
 msgid "<25>{#p/kidd}{#f/1}* Darn!"
 msgstr "<25>{#p/kidd}{#f/1}* Проклятье!"
 
@@ -7038,7 +7018,6 @@ msgstr ""
 msgid "<25>{#p/sans}{#f/2}* oh well..."
 msgstr "<25>{#p/sans}{#f/2}* о, ну..."
 
-#, fuzzy
 msgid ""
 "<32>{#p/tem}{#npc/a}* p...\n"
 "* tem heard human loves to pet tem..."
@@ -7071,14 +7050,12 @@ msgstr "<32>{#p/tem}{#npc/a}* uwawawawah..."
 msgid "<32>{#p/tem}{#npc/a}* ..."
 msgstr "<32>{#p/tem}{#npc/a}* ..."
 
-#, fuzzy
 msgid "<32>{#p/tem}{#npc/a}* Go away."
 msgstr "<32>{#p/tem}{#npc/a}* Уходи."
 
 msgid "<32>{#p/human}* (You continue petting temmie.)"
 msgstr "<32>{#p/human}* (Ты продолжаешь гладить Тэмми.)"
 
-#, fuzzy
 msgid "<32>{#p/human}* (You flip the switch behind the statue.)"
 msgstr "<32>{#p/human}* (Ты нажимаешь на кнопку за статуей.)"
 
