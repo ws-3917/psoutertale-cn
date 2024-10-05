@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-04 11:29+0000\n"
-"PO-Revision-Date: 2024-10-04 12:15+0000\n"
+"PO-Revision-Date: 2024-10-05 04:29+0000\n"
 "Last-Translator: lBKnaTbwUP8MulTo5HtlxeSKvORhNx <dosdossus@gmail.com>\n"
 "Language-Team: Russian <https://ws3917.site/projects/project-spacetime/"
 "1-outlands/ru/>\n"
@@ -515,7 +515,7 @@ msgstr ""
 "* Мистер \"просто иди и будь с людьми, которые тебя любят\"."
 
 msgid "<32>* But you deserve to know the truth about me, Asriel..."
-msgstr "<32>* Но ты ты заслуживаешь знать правду обо мне, Азриэль..."
+msgstr "<32>* Но ты заслуживаешь знать правду обо мне, Азриэль..."
 
 msgid "<32>* About everything."
 msgstr "<32>* Обо всём на свете."
@@ -536,16 +536,16 @@ msgid "<32>{#p/basic}* ... does it matter?"
 msgstr "<32>{#p/basic}* ... разве это имеет значение?"
 
 msgid "<32>* You were right to forget about me the way you did back there."
-msgstr "<32>* Ты был прав, когда забыл обо мне так, как поступил тогда."
+msgstr "<32>* Ты правильно сделал, забыв обо мне тогда."
 
 msgid "<32>* The truth is, I've been a terrible person..."
 msgstr "<32>* Правда в том, что я был ужасным человеком..."
 
 msgid "<32>* And I'm not the friend, or the sibling you wish you had."
-msgstr "<32>* И я не тот друг или брат, которого ты хотел бы иметь."
+msgstr "<32>* И я не тот друг или брат, которого ты бы хотел."
 
 msgid "<25>{#p/asriel1}{#f/13}* $(name), I..."
-msgstr "<25>{#p/asriel1}{#f/13}* $(name), я..."
+msgstr "<25>{#p/asriel1}{#f/13}* $(name), Я..."
 
 msgid "<32>{#p/basic}* It's alright, Asriel."
 msgstr "<32>{#p/basic}* Все в порядке, Азриэль."
