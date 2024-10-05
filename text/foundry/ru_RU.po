@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-04 04:29+0000\n"
-"PO-Revision-Date: 2024-10-05 08:29+0000\n"
+"PO-Revision-Date: 2024-10-05 15:21+0000\n"
 "Last-Translator: Maxim Aksenov <me6696154@gmail.com>\n"
 "Language-Team: Russian <https://ws3917.site/projects/project-spacetime/"
 "3-foundry/ru/>\n"
@@ -6539,26 +6539,30 @@ msgstr ""
 msgid "<32>{#p/basic}* ... huh?"
 msgstr "<32>{#p/basic}* ... хм?"
 
+#, fuzzy
 msgid "<32>{#p/basic}* There's something advancing in the dark."
-msgstr "<32>{#p/basic}* В темноте что - то движется вперед."
+msgstr "<32>{#p/basic}* Здесь есть что-то, двигается в темноте."
 
 msgid "<32>{#p/basic}* There's someone roving in the dark."
 msgstr "<32>{#p/basic}* Здесь кто-то бродит в темноте."
 
+#, fuzzy
 msgid "<32>{#p/basic}* Something powerful..."
-msgstr "<32>{#p/basic}* Некоторые мощные вещи."
+msgstr "<32>{#p/basic}* Что-то сильное..."
 
+#, fuzzy
 msgid "<32>{#p/basic}* Someone curious..."
-msgstr "<32>{#p/basic}* Кому - то любопытно."
+msgstr "<32>{#p/basic}* Кто-то любопытный..."
 
+#, fuzzy
 msgid "<32>{#p/basic}* Something dangerous..."
-msgstr "<32>{#p/basic}* Что - то опасное."
+msgstr "<32>{#p/basic}* Что-то опасное..."
 
 msgid "<32>{#p/basic}* Someone mysterious..."
 msgstr "<32>{#p/basic}* Кто-то таинственный..."
 
 msgid "<32>{#p/basic}* Something..."
-msgstr "<32>{#p/basic}* Некоторые."
+msgstr "<32>{#p/basic}* Что-то..."
 
 msgid "<32>{#p/basic}* Someone..."
 msgstr "<32>{#p/basic}* Кто-то..."
