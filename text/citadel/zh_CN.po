@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-04 20:29+0000\n"
-"PO-Revision-Date: 2024-10-05 06:29+0000\n"
+"PO-Revision-Date: 2024-10-05 07:29+0000\n"
 "Last-Translator: MurderSans_MDR <z127568254@163.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://ws3917.site/projects/"
 "project-spacetime/5-citadel/zh_Hans/>\n"
@@ -3043,7 +3043,7 @@ msgid ""
 msgstr ""
 
 msgid "<32>{#p/human}* (You catch your breath...)"
-msgstr ""
+msgstr "<32>{#p/human}* （你倒吸了一口凉气...）"
 
 msgid "<25>{*}{#p/twinkly}{#f/19}{#e/twinkly/15}Wow."
 msgstr "<25>{*}{#p/twinkly}{#f/19}{#e/twinkly/15}呀。"
@@ -3190,22 +3190,24 @@ msgid "<25>{*}(And ask that you be allowed to carry on.)"
 msgstr ""
 
 msgid "<25>{*}(You're so alone.)"
-msgstr ""
+msgstr "<25>{*}（好寂寞...）"
 
 msgid "<25>{*}(You're so afraid.)"
-msgstr ""
+msgstr "<25>{*}（好害怕...）"
 
 msgid "<25>{*}(You'd do anything to get another chance...)"
-msgstr ""
+msgstr "<25>{*}（你多么盼着能重新做人...）"
 
 msgid "<25>{*}(... even if it means forgetting everything you've ever known.)"
 msgstr ""
+"<25>{*}（...不管付出什么代价，\n"
+"  忘记一切都行。）"
 
 msgid "<25>{*}(But the choice wasn't yours to make.)"
-msgstr ""
+msgstr "<25>{*}（可你没得选。）"
 
 msgid "<25>{*}(It's someone else's choice, now.)"
-msgstr ""
+msgstr "<25>{*}（你只能看着别人替你选择。）"
 
 msgid "<25>{*}{#p/twinkly}{#f/19}{#e/twinkly/0}Hi."
 msgstr ""
