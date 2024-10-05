@@ -145,6 +145,9 @@ msgstr ""
 
 msgid "May your story bring forth the emotion you strive to feel."
 msgstr ""
+"願你心潮澎湃，\n"
+"讓故事化作涓涓細流，\n"
+"滋潤心間。"
 
 msgid "May your choices be as effortless as they come."
 msgstr ""
@@ -185,6 +188,8 @@ msgstr ""
 
 msgid "May the experience only add to your state of satisfaction."
 msgstr ""
+"願你心想事成，\n"
+"讓心中的滿足只增不減。"
 
 msgid "May the experience be as comforting as you desire."
 msgstr ""
