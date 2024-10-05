@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-04 07:29+0000\n"
-"PO-Revision-Date: 2024-10-05 15:00+0000\n"
-"Last-Translator: MurderSans_MDR <z127568254@163.com>\n"
+"PO-Revision-Date: 2024-10-05 15:21+0000\n"
+"Last-Translator: WS-3917 <ws3917@outlook.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://ws3917.site/projects/"
 "project-spacetime/4-aerialis/zh_Hans/>\n"
 "Language: zh_CN\n"
@@ -22997,22 +22997,22 @@ msgid "<30>{#p/basic}{#k/6}* It's not happening, pal."
 msgstr "<30>{#p/basic}{#k/6}* 这事找我没戏，小家伙。ゑ"
 
 msgid "Romantic Advice"
-msgstr ""
+msgstr "恋爱心得"
 
 msgid "Where To Go Next"
-msgstr ""
+msgstr "下一步去哪"
 
 msgid "My Future"
-msgstr ""
+msgstr "我的未来"
 
 msgid "Life Advice"
 msgstr "人生感悟"
 
 msgid "§fill=#ff0§Taking Charge (NEW)"
-msgstr ""
+msgstr "§fill=#ff0§主动出击（新）"
 
 msgid "Taking Charge"
-msgstr ""
+msgstr "主动出击"
 
 msgid "Power Outage"
 msgstr "突然停电"
@@ -23021,7 +23021,7 @@ msgid "Where We Are"
 msgstr "我们在哪"
 
 msgid "§fill=#ff0§Glyde (NEW)"
-msgstr ""
+msgstr "§fill=#ff0§Glyde（新）"
 
 msgid "Glyde"
 msgstr "Glyde"
@@ -23949,10 +23949,10 @@ msgid "<16>* Guess you'll need to look for it yourself!"
 msgstr ""
 
 msgid "Is Everyone Okay"
-msgstr ""
+msgstr "大伙没事吧"
 
 msgid "Godlike Being"
-msgstr ""
+msgstr "神祇出现了"
 
 msgid "OuterNet Shutdown"
 msgstr "域外网咋关了"
@@ -23967,22 +23967,22 @@ msgid "Thrift Shop"
 msgstr "聊聊这旧货铺"
 
 msgid "Grand Finale"
-msgstr ""
+msgstr "压轴好戏"
 
 msgid "Area Ownership"
-msgstr "这地儿归谁"
+msgstr "这地方归谁"
 
 msgid "§fill=#ff0§Burgie (NEW)"
-msgstr ""
+msgstr "§fill=#ff0§堡堡（新）"
 
 msgid "Burgie"
 msgstr "堡堡"
 
 msgid "§fill=#ff0§Royal Scientist (NEW)"
-msgstr ""
+msgstr "§fill=#ff0§皇家科学员（新）"
 
 msgid "§fill=#ff0§Asgore (NEW)"
-msgstr ""
+msgstr "§fill=#ff0§Asgore（新）"
 
 msgid "<09>{#p/basic}{#k/0/0}{@fill=#ffbbdc}So, like, what's up?"
 msgstr ""
