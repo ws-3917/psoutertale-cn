@@ -1,22 +1,20 @@
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-04 20:29+0000\n"
-"PO-Revision-Date: 2024-10-04 20:29+0000\n"
+"PO-Revision-Date: 2024-10-05 06:29+0000\n"
 "Last-Translator: MurderSans_MDR <z127568254@163.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://ws3917.site/projects/"
 "project-spacetime/5-citadel/zh_Hans/>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: ENCODING\n"
+"Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 5.7.2\n"
 
 #
-
 msgid "<32>{#p/human}* (You feel a darkness gathering inside of you.)"
 msgstr "<32>{#p/human}* （一股暗流在你心中充盈。）"
 
@@ -7001,100 +6999,100 @@ msgid "<32>* I just need to see him before he's... gone for good."
 msgstr ""
 
 msgid "<32>{#s/phone}{#p/event}* Ring, ring..."
-msgstr "<32>{#s/phone}{#p/event}* 铃铃，铃铃..."
+msgstr "<32>{#s/phone}{#p/event}* 铃铃，铃铃...ゑ"
 
 msgid "<18>{#p/papyrus}{#f/6}SORRY IF YOU TRIED TO CALL US BEFORE..."
 msgstr ""
 "<18>{#p/papyrus}{#f/6}对不起，\n"
-"我们没接你电话..."
+"我们没接你电话...ゑ"
 
 msgid "<18>{#p/papyrus}{#f/6}THE LINES AREN'T DOWN OR ANYTHING, WE JUST..."
 msgstr ""
 "<18>{#p/papyrus}{#f/6}不是因为信号不好，\n"
-"或者电话断线。"
+"或者电话断线。ゑ"
 
 msgid "<18>{#p/papyrus}{#f/5}... WE'VE BEEN IGNORING YOU."
 msgstr ""
 "<18>{#p/papyrus}{#f/5}单纯是因为...\n"
-"不想搭理你。"
+"不想搭理你。ゑ"
 
 msgid "<18>{#f/5}IT'S STRANGE... WE ALL SORT OF KNOW YOUR NAME NOW."
 msgstr ""
 "<18>{#f/5}真奇怪...\n"
 "你的大名突然传遍了\n"
-"整个怪物世界。"
+"整个怪物世界。ゑ"
 
 msgid "<18>{#f/6}WE'RE ALL... KIND OF TERRIFIED OF YOU."
 msgstr ""
 "<18>{#f/6}而且，每个怪物...\n"
-"都非常害怕你。"
+"都非常害怕你。ゑ"
 
 msgid "<18>{#f/4}... WELL, MOST OF US, ANYWAY."
 msgstr ""
 "<18>{#f/4}...也许说得太绝对，\n"
-"但大体没错。"
+"但大体没错。ゑ"
 
 msgid ""
 "<25>{#p/undyne}{#f/12}* Yeah.\n"
 "* What he said."
 msgstr ""
 "<25>{#p/undyne}{#f/12}* 对。\n"
-"* 就是这样。"
+"* 就是这样。ゑ"
 
 msgid "<18>{#p/papyrus}{#f/5}..."
-msgstr "<18>{#p/papyrus}{#f/5}..."
+msgstr "<18>{#p/papyrus}{#f/5}...ゑ"
 
 msgid "<18>{#p/papyrus}{#f/5}... TO BE HONEST, I THINK SHE'S AFRAID, TOO."
 msgstr ""
 "<18>{#p/papyrus}{#f/5}...我感觉，\n"
-"就连她都开始怕你了。"
+"就连她都开始怕你了。ゑ"
 
 msgid "<25>{#p/undyne}{#f/17}* Am not!"
-msgstr "<25>{#p/undyne}{#f/17}* 我才不怕呢！"
+msgstr "<25>{#p/undyne}{#f/17}* 我才不怕呢！ゑ"
 
 msgid "<18>{#f/5}IT WASN'T AN EASY CHOICE TO MAKE, BUT..."
 msgstr ""
 "<18>{#f/5}我们纠结了很久，\n"
-"最后还是决定..."
+"最后还是决定...ゑ"
 
 msgid "<18>{#f/31}WE'VE ALREADY LEFT TO LOOK FOR OUR NEW HOMEWORLD."
 msgstr ""
 "<18>{#f/31}抛弃你，先走一步\n"
-"寻找新家园。"
+"寻找新家园。ゑ"
 
 msgid ""
 "<18>{#f/6}I KNOW, I KNOW!\n"
 "BUT DON'T WORRY..."
 msgstr ""
 "<18>{#f/6}知道你不好受！\n"
-"所以别担心..."
+"所以别担心...ゑ"
 
 msgid "<18>{#f/5}... YOU'LL STILL HAVE THE CORE TO KEEP YOU COMPANY."
 msgstr ""
 "<18>{#f/5}...我们还给你\n"
-"留了个核心。"
+"留了个核心。ゑ"
 
 msgid "<25>{#p/undyne}{#f/12}* Until that runs out of power, of course."
 msgstr ""
 "<25>{#p/undyne}{#f/12}* 过不了多久，\n"
-"  那玩意就没能量了哦。"
+"  那玩意就没能量了哦。ゑ"
 
 msgid "<18>{#p/papyrus}{#f/5}JUST... DON'T COME AFTER US, OKAY?"
 msgstr ""
 "<18>{#p/papyrus}{#f/5}求求你...\n"
-"别来找我们，行吗？"
+"别来找我们，行吗？ゑ"
 
 msgid "<18>{#f/31}IT'S PROBABLY FOR THE BEST THAT WE NEVER MEET AGAIN."
-msgstr "<18>{#f/31}我们都不想再见到你。"
+msgstr "<18>{#f/31}我们都不想再见到你。ゑ"
 
 msgid "<18>{#f/3}..."
-msgstr "<18>{#f/3}..."
+msgstr "<18>{#f/3}...ゑ"
 
 msgid "<18>{#f/3}WELL... GOODBYE."
-msgstr ""
+msgstr "<18>{#f/3}唉... 你好走吧。"
 
 msgid "<25>{#p/undyne}{#f/1}* Enjoy the solitude!!"
-msgstr ""
+msgstr "<25>{#p/undyne}{#f/1}* 好好享受一个人的世界！！"
 
 msgid "<32>{#s/equip}{#p/event}* Click..."
 msgstr "<32>{#s/equip}{#p/event}* 滴..."
@@ -15832,7 +15830,6 @@ msgstr "<11>{*}{#e/asgore/2}{#v/3}{#i/10}{@random=1.1/1.1}..."
 
 msgid "<11>{*}{#e/asgore/2}{#v/3}{#i/7}{@random=1.1/1.1}Goodbye..."
 msgstr "<11>{*}{#e/asgore/2}{#v/3}{#i/12}{@random=1.1/1.1}永别了..."
-
 
 msgid "N/A"
 msgstr "无"
