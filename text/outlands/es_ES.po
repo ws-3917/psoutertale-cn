@@ -1,6 +1,21 @@
-#
+#, fuzzy
 msgid ""
 msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-10-06 16:29+0000\n"
+"PO-Revision-Date: 2024-10-06 16:29+0000\n"
+"Last-Translator: Stefano <stefanobuendia@hotmail.com>\n"
+"Language-Team: Spanish <https://ws3917.site/projects/project-spacetime/"
+"1-outlands/es/>\n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: ENCODING\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.7.2\n"
+
+#
 
 msgid ""
 "<25>{#p/toriel}{#f/1}* I hear there is a certain kind of fluid in "
@@ -3533,13 +3548,13 @@ msgid ""
 msgstr "<25>{#p/twinkly}{#f/11}{#v/0}* Mírate, jugando así con su vida..."
 
 msgid "<25>{#f/7}{#v/0}* Killing her, leaving her, killing her again..."
-msgstr ""
+msgstr "<25>{#f/7}{#v/0}* Matandola, abandonándola, matandola de nuevo..."
 
 msgid "<25>{#f/7}{#v/0}* Leaving her, killing her, leaving her again..."
-msgstr ""
+msgstr "<25>{#f/7}{#v/0}* Abandonándola, matandola, abandonándola de nuevo..."
 
 msgid "<25>{#f/11}{#v/0}* It's fun, isn't it?"
-msgstr ""
+msgstr "<25>{#f/11}{#v/0}* Es divertido, ¿no es así?"
 
 msgid "<25>{#f/6}{#v/0}* Endlessly toying with the lives of others..."
 msgstr ""
