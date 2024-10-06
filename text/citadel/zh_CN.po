@@ -15251,13 +15251,15 @@ msgstr ""
 
 msgid "<20>{#e/twinkly/2}{#v/1}Considering you ROBBED me of mine."
 msgstr ""
+"<20>{#e/twinkly/2}{#v/1}告诉你，\n"
+"我可被你折磨得够呛。"
 
 msgid ""
 "<20>{#p/twinkly}{#e/twinkly/11}{#v/0}What's that?\n"
 "You want your SAVE file back?"
 msgstr ""
-"<20>{#p/twinkly}{#e/twinkly/11}{#v/0}啥意思？\n"
-"你想把存档要回去？"
+"<20>{#p/twinkly}{#e/twinkly/11}{#v/0}怎么啦？\n"
+"想把存档要回去？"
 
 msgid "<20>{#p/twinkly}{#e/twinkly/11}{#v/0}Oh, $(name)..."
 msgstr "<20>{#p/twinkly}{#e/twinkly/11}{#v/0}哦，$(name)..."
