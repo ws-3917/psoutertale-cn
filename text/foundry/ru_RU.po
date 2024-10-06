@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-05 16:29+0000\n"
-"PO-Revision-Date: 2024-10-06 09:26+0000\n"
+"PO-Revision-Date: 2024-10-06 10:29+0000\n"
 "Last-Translator: Maxim Aksenov <me6696154@gmail.com>\n"
 "Language-Team: Russian <https://ws3917.site/projects/project-spacetime/"
 "3-foundry/ru/>\n"
@@ -7288,34 +7288,38 @@ msgstr ""
 "людьми, так что..."
 
 msgid "<32>* I'm not sure what else to say about that."
-msgstr "<32>Я не знаю, что еще сказать."
+msgstr "<32>* Я не знаю, что ещё сказать по этому поводу."
 
+#, fuzzy
 msgid "<32>{#p/finalghost}* ... much to my dismay."
-msgstr "<32>{#p/finalghost}* ... Это меня расстраивает."
+msgstr "<32>{#p/finalghost}* ... к моему огорчению."
 
 msgid "<32>* Being forced out of your dummy outright is kind of annoying."
 msgstr ""
-"<32>* Это немного раздражает быть полностью выгнанным из вашего манекена."
+"<32>* Быть вынужденным покинуть свой манекен в открытую - это неприятно."
 
 msgid "<32>{#p/finalghost}* It was rather silly how you ran away from me."
-msgstr "<32>{#p/finalghost}* Ты так глупо убегаешь от меня."
+msgstr "<32>{#p/finalghost}* Это было довольно глупо, когда ты убежал от меня."
 
 msgid ""
 "<32>* Toriel had every right to be worried about you running from an "
 "inanimate object."
 msgstr ""
-"У Ториэла есть все основания опасаться, что вы сбежите с неживых объектов."
+"<32>* Ториэль имела полное право беспокоиться о том, что ты убегаешь от "
+"неодушевлённого объекта."
 
 msgid "<32>{#p/finalghost}* ... not that I have any right to."
-msgstr "<32>{#p/finalghost}* ... Я не имею на это права."
+msgstr "<32>{#p/finalghost}* ... не то чтобы я имел на это право."
 
 msgid ""
 "<32>* I mean, how could you actually be that boring?\n"
 "* It must be a skill."
-msgstr "* Это должно быть умение."
+msgstr ""
+"<32>* Я имею в виду, как ты можешь быть таким скучным?\n"
+"* Это должно быть навык."
 
 msgid "<32>{#p/finalghost}* ... ha..."
-msgstr "<32>{#p/finalghost}* ... Ха..."
+msgstr "<32>{#p/finalghost}* ... ха..."
 
 msgid ""
 "<32>* ... maybe, when I get another vessel, the two of us can... do our "
@@ -7400,22 +7404,27 @@ msgid ""
 msgstr "* Вау!"
 
 msgid "<32>* I haven't felt this happy in a long time."
-msgstr "<32>Я давно не был так счастлив."
+msgstr "<32>* Я давно не чувствовала себя таким счастливым."
 
+#, fuzzy
 msgid "<32>{#p/basic}* Sometimes all it takes is the right vessel, mew!!"
-msgstr "<32>{#p/basic}* Иногда требуется только правильное судно, мяу!!"
+msgstr "<32>{#p/basic}* Иногда всё, что нужно, - это правильный сосуд, миу!!"
 
+#, fuzzy
 msgid ""
 "<32>{#p/mettaton}{#e/mettaton/9}* WHILE BLOOKY'S BUSY AT THE SHOP, WE "
 "DECIDED WE'D LOOK AFTER THEIR FARM ONCE MORE."
 msgstr ""
-"<32>{#p/metaton}{#e/metaton/9}* Когда Броки занят в магазине, мы решили "
-"позаботиться о своей ферме снова."
+"<32>{#p/mettaton}{#e/mettaton/9}* ПОКА БЛУКИ ЗАНЯТ В МАГАЗИНЕ, МЫ РЕШИЛИ ЕЩЕ "
+"РАЗ ПРИСМОТРЕТЬ ЗА ИХ ФЕРМОЙ."
 
 msgid ""
 "<32>{#e/mettaton/8}* OF COURSE, IT'S ONLY FOR A DAY BEFORE WE LEAVE THE OUTPOST.\n"
 "* BUT STILL."
-msgstr "* Но это по - прежнему так."
+msgstr ""
+"<32>{#e/mettaton/8}* КОНЕЧНО, ЭТО ВСЕГО ЛИШЬ НА ДЕНЬ, ДО ТОГО КАК МЫ ПОКИНЕМ "
+"АВАНПОСТ.\n"
+"* НО ВСЁ ЖЕ."
 
 msgid ""
 "<32>{#e/mettaton/36}* THINKING BACK, I'VE BEEN PRETTY OVER-DRAMATIC ABOUT "
