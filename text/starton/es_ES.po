@@ -1,6 +1,21 @@
-#
+#, fuzzy
 msgid ""
 msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-10-06 10:29+0000\n"
+"PO-Revision-Date: 2024-10-06 10:29+0000\n"
+"Last-Translator: Chistosito <souzadecarvalhofabio1@gmail.com>\n"
+"Language-Team: Spanish <https://ws3917.site/projects/project-spacetime/"
+"2-starton/es/>\n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: ENCODING\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.7.2\n"
+
+#
 
 msgid ""
 "<32>{#p/basic}* A standard-issue CITADEL long- range telescope, circa 261X."
@@ -446,75 +461,77 @@ msgid "<32>{#p/asriel2}* Fight... the ideal choice."
 msgstr "<32>{#p/asriel2}* Luchar... la opción ideal."
 
 msgid "<32>{#p/asriel2}* Hee hee hee..."
-msgstr ""
+msgstr "<32>{#p/asriel2}* Ji ji ji..."
 
 msgid ""
 "<15>{#p/papyrus}{#e/papyrus/27}SANS!\n"
 "YOU'RE HURT!"
 msgstr ""
+"<15>{#p/papyrus}{#e/papyrus/27}¡SANS!\n"
+"¡ESTÁS HERIDO!"
 
 msgid "<20>{#p/sans}papyrus, didn't i tell you to stay at home?"
-msgstr ""
+msgstr "<20>{#p/sans}papyrus, ¿no te dije que te quedaras en casa?"
 
 msgid "{*}{#e/papyrus/21}{%}"
-msgstr ""
+msgstr "{*}{#e/papyrus/21}{%}"
 
 msgid "<20>{#p/sans}... don't worry bro, it's just yamok sauce."
-msgstr ""
+msgstr "<20>{#p/sans}... no te preocupes hermano, es solo salsa yamok."
 
 msgid "{*}{#e/papyrus/26}{%}"
-msgstr ""
+msgstr "{*}{#e/papyrus/26}{%}"
 
 msgid "<15>{#p/papyrus}{#e/papyrus/21}BUT YOU'RE HURT..."
-msgstr ""
+msgstr "<15>{#p/papyrus}{#e/papyrus/21}PERO ESTÁS HERIDO..."
 
 msgid "<20>{#p/sans}yeah, that's what happens when you act on instinct."
-msgstr ""
+msgstr "<20>{#p/sans}si, es lo que pasa cuando actúas por instinto."
 
 msgid "<20>{#p/sans}... not much i can do about it now."
-msgstr ""
+msgstr "<20>{#p/sans}... no hay mucho que pueda hacer ahora."
 
 msgid "<20>{#p/sans}so..."
-msgstr ""
+msgstr "<20>{#p/sans}así que..."
 
 msgid "<20>guess that's it, huh?"
-msgstr ""
+msgstr "<20>supongo que eso es todo, ¿eh?"
 
 msgid "<20>..."
-msgstr ""
+msgstr "<20>..."
 
 msgid "<20>just..."
-msgstr ""
+msgstr "<20>solo..."
 
 msgid "<20>promise me you'll be fine without me, bro."
-msgstr ""
+msgstr "<20>prométeme que estarás bien sin mí, hermano."
 
 msgid "<20>promise me you'll be g-{^5}great."
 msgstr ""
 
 msgid "<20>after all..."
-msgstr ""
+msgstr "<20>después de todo..."
 
 msgid "<20>{|}{#p/sans}you're the... great p-{^5}papyrus.{^20}{%}"
 msgstr ""
 
 msgid "<15>{#p/papyrus}{#e/papyrus/33}N-NO...{^40}{%}"
-msgstr ""
+msgstr "<15>{#p/papyrus}{#e/papyrus/33}N-NO...{^40}{%}"
 
 msgid "<32>{#p/human}{#npc}* (You got the Flamin' Grillby.)"
-msgstr ""
+msgstr "<32>{#p/human}{#npc}* (Conseguiste el Flamin' Grillby.)"
 
 msgid "<32>{#p/human}{#npc}* (You got the Sliders.)"
 msgstr ""
 
 msgid "<32>{#p/human}{#npc}* (You're carrying too much.)"
-msgstr ""
+msgstr "<32>{#p/human}{#npc}* (Estás llevando demasiado.)"
 
 msgid "<25>{#p/sans}{#f/0}* finally."
-msgstr ""
+msgstr "<25>{#p/sans}{#f/0}* finalmente."
 
 msgid "<25>{#f/3}* i've been wondering when you'd show up."
-msgstr ""
+msgstr "<25>{#f/3}* estaba pensado cuando vendrías."
 
 msgid "<25>{#f/0}* i dunno if you recall, but back when we first met..."
 msgstr ""
@@ -4949,8 +4966,6 @@ msgstr ""
 msgid "SAVE YOURSELVES..."
 msgstr ""
 
-msgid ""
-msgstr ""
 
 msgid "FAILED TO CONNECT..."
 msgstr ""
