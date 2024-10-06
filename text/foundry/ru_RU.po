@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-05 16:29+0000\n"
-"PO-Revision-Date: 2024-10-06 05:05+0000\n"
+"PO-Revision-Date: 2024-10-06 09:09+0000\n"
 "Last-Translator: Maxim Aksenov <me6696154@gmail.com>\n"
 "Language-Team: Russian <https://ws3917.site/projects/project-spacetime/"
 "3-foundry/ru/>\n"
@@ -7133,11 +7133,12 @@ msgstr ""
 "<32>{#p/basic}* \"Включите выключатель и приведите друга туда, где вы были "
 "раньше...\""
 
+#, fuzzy
 msgid "<32>* ... the switch back here has already been pulled."
-msgstr "<32>* ..... Переключатель здесь был выключен."
+msgstr "<32>* ... выключатель здесь уже выдернут."
 
 msgid "<32>{#p/human}* (The sign emphasizes the fame of the statue.)"
-msgstr "<32>{#p/human}* (знак подчеркивает славу статуи)."
+msgstr "<32>{#p/human}* (Знак подчеркивает известность статуи.)"
 
 msgid ""
 "<32>{#p/basic}* \"Statue of tem... very famus\"\n"
