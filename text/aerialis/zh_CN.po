@@ -1,22 +1,20 @@
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-05 16:29+0000\n"
-"PO-Revision-Date: 2024-10-05 16:29+0000\n"
-"Last-Translator: MurderSans_MDR <z127568254@163.com>\n"
+"PO-Revision-Date: 2024-10-06 05:05+0000\n"
+"Last-Translator: WS-3917 <ws3917@outlook.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://ws3917.site/projects/"
 "project-spacetime/4-aerialis/zh_Hans/>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: ENCODING\n"
+"Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 5.7.2\n"
 
 #
-
 msgid "<32>{#p/human}* (It appears the terminal is beyond your access level.)"
 msgstr ""
 
@@ -7469,7 +7467,7 @@ msgid "<32>* I'm not really sure what I'm going to do."
 msgstr "<32>* 我还没想好做什么。"
 
 msgid "<32>* I'm going to have some business to attend to."
-msgstr "<32>* 我要处理点事情。"
+msgstr "<32>* 我要去忙点正事。"
 
 msgid "<32>* Oh, and by the way, $(name)..."
 msgstr ""
@@ -8327,7 +8325,6 @@ msgstr "<25>{#p/asriel2}{#f/8}* 只能换条路走了。"
 
 msgid "<32>{#p/human}* (Where would you like to go?)"
 msgstr "<32>{#p/human}* （你想去哪里？）"
-
 
 msgid "Floor L1"
 msgstr "左一层"
