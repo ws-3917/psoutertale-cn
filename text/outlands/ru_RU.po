@@ -2979,10 +2979,10 @@ msgid "<25>{#p/toriel}{#f/1}* You ran away...?"
 msgstr "<25>{#p/toriel}{#f/1}* Ты убежал...?"
 
 msgid "<25>{#f/0}* Actually, that may have been a wise choice."
-msgstr "<25>{#f/0}* На самом деле, возможно, это был мудрый выбор."
+msgstr "<25>{#f/0}* А вообще, возможно, это был мудрый выбор."
 
 msgid "<26>{#f/1}* By escaping, you have avoided any potential conflict..."
-msgstr "<26>{#f/1}* Сбежав, вы избежали любого потенциального конфликта..."
+msgstr "<26>{#f/1}* Убежав, ты избежал потенциальных конфликтов..."
 
 msgid "<25>{#f/0}* ... even if it WAS only a simple training dummy."
 msgstr ""
