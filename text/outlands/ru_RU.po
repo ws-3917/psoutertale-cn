@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-06 06:29+0000\n"
-"PO-Revision-Date: 2024-10-06 08:41+0000\n"
+"PO-Revision-Date: 2024-10-06 08:46+0000\n"
 "Last-Translator: lBKnaTbwUP8MulTo5HtlxeSKvORhNx <dosdossus@gmail.com>\n"
 "Language-Team: Russian <https://ws3917.site/projects/project-spacetime/"
 "1-outlands/ru/>\n"
@@ -3231,11 +3231,11 @@ msgstr "<25>{#f/8}{#v/0}* Если бы только ты убил ЧУТЬ по
 
 msgid "<25>{#f/9}{#v/0}* Well, maybe I shouldn't reveal my plans this early."
 msgstr ""
-"<25>{#f/9}{#v/0}* Что ж, может быть, мне не стоит раскрывать свои планы так "
-"рано?"
+"<25>{#f/9}{#v/0}* Что ж, возможно, мне не стоит так рано рассказывать свои "
+"планы."
 
 msgid "<25>{#f/7}{#v/0}* You know, $(name)..."
-msgstr "<25>{#f/7}{#v/0}* Ты знаешь, $(name)..."
+msgstr "<25>{#f/7}{#v/0}* Знаешь, $(name)..."
 
 msgid ""
 "<25>{#f/5}{#v/0}* It's only a matter of time before we're together again."
@@ -3244,39 +3244,36 @@ msgstr ""
 
 msgid "<25>{#f/6}{#v/0}* Try a little harder next time, and maybe..."
 msgstr ""
-"<25>{#f/6}{#v/0}* В следующий раз постарайся немного усерднее, и, может "
-"быть..."
+"<25>{#f/6}{#v/0}* В следующий раз постарайся чуть лучше, и, может быть..."
 
 msgid "<25>{#f/5}{#v/0}* You'll get to see something new."
-msgstr "<25>{#f/5}{#v/0}* Вы сможете увидеть что-то новое."
+msgstr "<25>{#f/5}{#v/0}* Сможешь увидеть что-то новое."
 
 msgid "<25>{#f/11}{#v/0}* Until we meet again..."
-msgstr "<25>{#f/11}{#v/0}* Пока мы не встретимся снова..."
+msgstr "<25>{#f/11}{#v/0}* До встречи..."
 
 msgid "<25>{#f/8}{#v/0}* If you had just killed ONE more monster..."
-msgstr "<25>{#f/8}{#v/0}* Если бы ты только убил еще одного монстра..."
+msgstr "<25>{#f/8}{#v/0}* Если бы только ты убил еще ОДНОГО монстра..."
 
 msgid ""
 "<25>{#p/twinkly}{#f/6}{#v/0}* So you made it through without killing anyone."
-msgstr ""
-"<25>{#p/twinkly}{#f/6}{#v/0}* Итак, вы справились с этим, никого не убив."
+msgstr "<25>{#p/twinkly}{#f/6}{#v/0}* Итак, ты сумел пройти, никого не убив."
 
 msgid ""
 "<25>{#p/twinkly}{#f/6}{#v/0}* So you spared the life of everyone you came "
 "across."
 msgstr ""
-"<25>{#p/twinkly}{#f/6}{#v/0}* Итак, ты сохранил жизнь всем, с кем "
-"сталкивался."
+"<25>{#p/twinkly}{#f/6}{#v/0}* Итак, ты сохранил жизнь каждого встречного."
 
 msgid "<25>{#f/5}{#v/0}* I bet you feel really great."
-msgstr "<25>{#f/5}{#v/0}* Держу пари, ты чувствуешь себя просто великолепно."
+msgstr "<25>{#f/5}{#v/0}* Наверняка ты отлично себя чувствуешь."
 
 msgid "<25>{#f/2}{#v/1}* But what will you do if you meet a serial murderer?"
 msgstr ""
-"<25>{#f/2}{#v/1}* Но что вы будете делать, если встретите серийного убийцу?"
+"<25>{#f/2}{#v/1}* Но что ты будешь делать, если встретишь серийного убийцу?"
 
 msgid "<25>{#f/9}{#v/0}* You'll die, and you'll die, and you'll die..."
-msgstr "<25>{#f/9}{#v/0}* Ты умрешь, и ты умрешь, и ты умрешь..."
+msgstr "<25>{#f/9}{#v/0}* Ты умрёшь, и умрёшь, и умрёшь..."
 
 msgid "<25>{#f/5}{#v/0}* Eventually, you'll tire of trying."
 msgstr "<25>{#f/5}{#v/0}* В конце концов, вы устанете от попыток."
