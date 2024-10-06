@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-06 06:29+0000\n"
-"PO-Revision-Date: 2024-10-06 12:29+0000\n"
+"PO-Revision-Date: 2024-10-06 13:13+0000\n"
 "Last-Translator: lBKnaTbwUP8MulTo5HtlxeSKvORhNx <dosdossus@gmail.com>\n"
 "Language-Team: Russian <https://ws3917.site/projects/project-spacetime/"
 "1-outlands/ru/>\n"
@@ -3586,24 +3586,22 @@ msgstr "<25>{#f/11}{#v/0}* Каким же святым ты себя счита
 
 msgid ""
 "<25>{#f/5}{#v/0}* But hey, it's not as if I don't know how this works..."
-msgstr ""
-"<25>{#f/5}{#v/0}* Но эй, это не значит, что я не знаю, как это работает..."
+msgstr "<25>{#f/5}{#v/0}* Но эй, не то чтобы я не знаю, как это работает..."
 
 msgid "<25>{#p/twinkly}{#f/11}{#v/0}* Hee hee hee..."
 msgstr "<25>{#p/twinkly}{#f/11}{#v/0}* Хи-хи-хи..."
 
 msgid "<25>{#f/7}{#v/0}* I hope you like your choice."
-msgstr "<25>{#f/7}{#v/0}* Я надеюсь, вам понравится ваш выбор."
+msgstr "<25>{#f/7}{#v/0}* Надеюсь, ты доволен своим выбором."
 
 msgid ""
 "<25>{#f/9}{#v/0}* I mean, it's not as if you can go back and change fate."
 msgstr ""
-"<25>{#f/9}{#v/0}* Я имею в виду, что ты не можешь вернуться назад и изменить"
-" судьбу."
+"<25>{#f/9}{#v/0}* В смысле, не то чтобы ты можешь вернуться назад и всё "
+"изменить."
 
 msgid "<25>{#f/5}{#v/0}* That old woman thought she could break the rules."
-msgstr ""
-"<25>{#f/5}{#v/0}* Эта старая женщина думала, что может нарушать правила."
+msgstr "<25>{#f/5}{#v/0}* Та старая женщина думала, что может нарушать правила."
 
 msgid "<25>{#f/8}{#v/0}* She tried so hard to save you humans..."
 msgstr "<25>{#f/8}{#v/0}* Она так старалась спасти вас, людей..."
@@ -3615,10 +3613,10 @@ msgstr ""
 "<25>{#f/6}{#v/0}* Но когда дошло до дела, она не смогла спасти даже себя."
 
 msgid "<25>{#f/11}{#v/0}* So you finally caved in and killed someone, huh?"
-msgstr "<25>{#f/11}{#v/0}* Значит, ты наконец сдался и убил кого-то, да?"
+msgstr "<25>{#f/11}{#v/0}* Так ты наконец сдался и убил кого-то, да?"
 
 msgid "<25>{#f/7}{#v/0}* Well, I hope you like your choice."
-msgstr "<25>{#f/7}{#v/0}* Что ж, я надеюсь, вам понравится ваш выбор."
+msgstr "<25>{#f/7}{#v/0}* Что ж, надеюсь, ты доволен своим выбором."
 
 msgid ""
 "<25>{#f/8}{#v/0}* ... what's wrong?\n"
@@ -3632,10 +3630,10 @@ msgid ""
 "* Guess not everyone can be beat into submission."
 msgstr ""
 "<26>{#f/6}{#v/0}* О, как это ужасно.\n"
-"* Думаю, не каждого можно заставить подчиниться."
+"* Видимо, не каждого можно заставить подчиниться."
 
 msgid "<25>{#f/11}{#v/0}* What an idiot!"
-msgstr "<25>{#f/11}{#v/0}* Что за идиот!"
+msgstr "<25>{#f/11}{#v/0}* Что за идиотка!"
 
 msgid "<25>{#f/7}{#v/0}* What a shame for her."
 msgstr "<25>{#f/7}{#v/0|* Какой позор для неё."
@@ -3668,13 +3666,13 @@ msgstr ""
 "<25>{#f/6}{#v/0}* Каково это было - наконец-то утолить свою жестокую натуру?"
 
 msgid "<25>{#f/0}{#v/1}* I bet it felt GOOD, didn't it?"
-msgstr "<25>{#f/0}{#v/1}* Я держу пари, это было приятно, не так ли?"
+msgstr "<25>{#f/0}{#v/1}* Наверняка это было ПРИЯТНО, не правда ли?"
 
 msgid "<25>{#f/11}{#v/0}* I mean, I should know..."
-msgstr "<25>{#f/11}{#v/0}* Я имею в виду, я должен знать..."
+msgstr "<25>{#f/11}{#v/0}* В смысле, я то знаю..."
 
 msgid "<25>{#p/twinkly}{#f/5}{#v/0}* Nice to see you again."
-msgstr "<25>{#p/twinkly}{#f/5}{#v/0}* Приятно видеть вас снова."
+msgstr "<25>{#p/twinkly}{#f/5}{#v/0}* Приятно снова тебя видеть."
 
 msgid ""
 "<25>{#f/6}{#v/0}* By the way, you're the most boring person in the galaxy."
@@ -3696,19 +3694,19 @@ msgstr ""
 "<25>{#f/2}{#v/1}* Ты не хуже меня знаешь, что либо УБЕЙ, либо будешь убит."
 
 msgid "<25>{#p/twinkly}{#f/6}* Aren't you getting tired of this?"
-msgstr "<25>{#p/twinkly}{#f/6}* Тебе это еще не надоело?"
+msgstr "<25>{#p/twinkly}{#f/6}* Тебе это ещё не надоело?"
 
 msgid ""
 "<25>{#f/2}{#v/1}* You KNOW deep down that part of you wants to hurt her."
 msgstr ""
-"<25>{#f/2}{#v/1}* В глубине души ты знаешь, что какая-то часть тебя хочет "
-"причинить ей боль."
+"<25>{#f/2}{#v/1}* В глубине души ты ЗНАЕШЬ, что какая-то часть тебя хочет ей "
+"навредить."
 
 msgid ""
 "<25>{#f/14}{#v/1}* A few good hits, and she'd be dead before your very eyes."
 msgstr ""
-"<25>{#f/14}{#v/1}* Несколько хороших ударов, и она была бы мертва прямо у "
-"тебя на глазах."
+"<25>{#f/14}{#v/1}* Парочка хороших ударов, и она падёт прямо у тебя на "
+"глазах."
 
 msgid "<25>{#f/11}{#v/0}* Wouldn't that be exciting?"
 msgstr "<25>{#f/11}{#v/0}* Разве это не было бы захватывающе?"
@@ -3717,16 +3715,16 @@ msgid "<25>{#f/8}{#v/0}* ..."
 msgstr "<25>{#f/8}{#v/0}* ..."
 
 msgid "<25>{#f/7}{#v/0}* See ya, idiot."
-msgstr "<25>{#f/7}{#v/0}* Пока, идиот."
+msgstr "<25>{#f/7}{#v/0}* Увидимся, идиот."
 
 msgid ""
 "<25>{#p/twinkly}{#f/8}{#v/0}* Are you doing this just to see how I react?"
 msgstr ""
-"<25>{#p/twinkly}{#f/8}{#v/0}* Ты делаешь это только для того, чтобы "
-"посмотреть, как я отреагирую?"
+"<25>{#p/twinkly}{#f/8}{#v/0}* Ты делаешь это только чтобы посмотреть, как я "
+"отреагирую?"
 
 msgid "<25>{#f/6}{#v/0}* Is that what this is about?"
-msgstr "<25>{#f/6}{#v/0}* Так вот в чем дело?"
+msgstr "<25>{#f/6}{#v/0}* В этом дело?"
 
 msgid "<25>{#f/7}{#v/0}* Well, don't expect to get anything else outta me."
 msgstr "<25>{#f/7}{#v/0}* Что ж, не надейся вытянуть из меня что-нибудь еще."
@@ -3736,14 +3734,13 @@ msgstr "<25>{#f/6}{#v/0}* Весь этот скучный пацифизм на
 
 msgid ""
 "<25>{#f/11}{#v/0}* Now, if something more interesting were to happen..."
-msgstr ""
-"<25>{#f/11}{#v/0}* Вот если бы случилось что-нибудь более интересное..."
+msgstr "<25>{#f/11}{#v/0}* Вот если бы случилось что-то поинтереснее..."
 
 msgid "<25>{#f/9}{#v/0}* Perhaps I'd be more inclined to talk."
-msgstr "<25>{#f/9}{#v/0}* Возможно, я был бы более склонен к разговору."
+msgstr "<25>{#f/9}{#v/0}* Возможно, тогда я бы поговорил."
 
 msgid "<25>{#f/7}{#v/0}* Sooner or later, you'll be forced to realize that."
-msgstr "<25>{#f/7}{#v/0}* Рано или поздно вам придется это осознать."
+msgstr "<25>{#f/7}{#v/0}* Рано или поздно тебе придется это осознать."
 
 msgid "<25>{#f/11}{#v/0}* And when that time comes..."
 msgstr "<25>{#f/11}{#v/0}* И когда это время придет..."
@@ -3755,59 +3752,52 @@ msgstr ""
 "выйдет."
 
 msgid "<25>{#f/9}{#v/0}* Good luck!"
-msgstr "<25>{#f/9}{#v/0}* Хорошо удачи!"
+msgstr "<25>{#f/9}{#v/0}* Удачи!"
 
 msgid "<25>{#f/7}{#v/0}* Maybe that's why you killed that one monster."
-msgstr ""
-"<25>{#f/7}{#v/0}* Может быть, именно поэтому ты убил того единственного "
-"монстра."
+msgstr "<25>{#f/7}{#v/0}* Может, именно поэтому ты убил того монстра."
 
 msgid ""
 "<25>{#f/8}{#v/0}* I mean, you went almost the whole way without killing "
 "anyone..."
 msgstr ""
-"<25>{#f/8}{#v/0}* Я имею в виду, что ты прошел почти весь путь, никого не "
-"убив..."
+"<25>{#f/8}{#v/0}* В смысле, ты прошёл почти весь путь, никого не убив..."
 
 msgid "<25>{#f/6}{#v/0}* But somewhere along the line, you screwed up."
 msgstr "<25>{#f/6}{#v/0}* Но в какой-то момент ты облажался."
 
 msgid ""
 "<25>{#f/5}{#v/0}* All that good karma you had went straight down the toilet."
-msgstr ""
-"<25>{#f/5}{#v/0}* Вся твоя хорошая карма была спущена прямиком в унитаз."
+msgstr "<25>{#f/5}{#v/0}* Вся твоя хорошая карма смыта прямиком в унитаз."
 
 msgid "<25>{#f/11}{#v/0}* Golly, you can't do anything right!"
-msgstr "<25>{#f/11}{#v/0}* Боже мой, ты ничего не можешь сделать правильно!"
+msgstr "<25>{#f/11}{#v/0}* Божечки, да ты ничего не можешь сделать правильно!"
 
 msgid "<25>{#f/11}{#v/0}* What a joke!"
 msgstr "<25>{#f/11}{#v/0}* Что за шутка!"
 
 msgid "<25>{#f/7}{#v/0}* Maybe that's why you killed those other monsters."
-msgstr ""
-"<25>{#f/7}{#v/0}* Может быть, именно поэтому ты убил тех других монстров."
+msgstr "<25>{#f/7}{#v/0}* Может, именно поэтому ты убил тех монстров."
 
 msgid "<25>{#f/8}{#v/0}* I mean, you had a good run, but..."
-msgstr "<25>{#f/8}{#v/0}* Я имею в виду, у тебя была хорошая пробежка, но..."
+msgstr "<25>{#f/8}{#v/0}* В смысле, это был хороший забег, но..."
 
 msgid ""
 "<25>{#f/6}{#v/0}* What's the point in mercy if it doesn't mean anything?"
-msgstr ""
-"<25>{#f/6}{#v/0}* Какой смысл в милосердии, если оно ничего не значит?"
+msgstr "<25>{#f/6}{#v/0}* Какой смысл в пощаде, если она ничего не значит?"
 
 msgid "<25>{#f/7}{#v/0}* And believe me, after you did what you did..."
-msgstr ""
-"<25>{#f/7}{#v/0}* И поверь мне, после того, как ты сделал то, что сделал..."
+msgstr "<25>{#f/7}{#v/0}* И поверь мне, после того, как ты сделал это..."
 
 msgid "<25>{#f/2}{#v/1}* It doesn't mean JACK."
-msgstr "<25>{#f/2} {#v/1}* Это не означает Джека."
+msgstr "<25>{#f/2} {#v/1}* Это не означает НИ ЧЕРТА."
 
 msgid ""
 "<25>{#f/11}{#v/0}* What's wrong with killing Toriel, huh?\n"
 "* Too good for that?"
 msgstr ""
 "<25>{#f/11}{#v/0}* Что плохого в том, чтобы убить Ториэль, а?\n"
-"* Слишком хороший для этого?"
+"* Слишком хороший для такого?"
 
 msgid "<25>{#f/2}{#v/1}* I know you're still rotten to the core."
 msgstr "<25>{#f/2}{#v/1}* Я знаю, что ты всё ещё прогнил насквозь."
@@ -3815,8 +3805,7 @@ msgstr "<25>{#f/2}{#v/1}* Я знаю, что ты всё ещё прогнил 
 msgid ""
 "<25>{#f/11}{#v/0}* I mean, you managed to take out everyone in your path..."
 msgstr ""
-"<25>{#f/11}{#v/0}* Я имею в виду, что тебе удалось уничтожить всех на своем "
-"пути..."
+"<25>{#f/11}{#v/0}* В смысле, тебе удалось уничтожить всех на своем пути..."
 
 msgid "<25>{#f/6}{#v/0}* But when it came to the final hurdle, you failed."
 msgstr ""
@@ -3828,10 +3817,10 @@ msgid ""
 "* Golly..."
 msgstr ""
 "<25>{#p/twinkly}{#f/6}{#v/0}* Снова вернулся, да?\n"
-"* Боже мой..."
+"* Божечки..."
 
 msgid "<25>{#f/8}{#v/0}* You've changed the timeline around so much..."
-msgstr "<25>{#f/8}{#v/0}* Ты так сильно изменил временную шкалу..."
+msgstr "<25>{#f/8}{#v/0}* Ты так сильно изменил временную линию..."
 
 msgid "<25>{#f/6}{#v/0}* I don't even know what to think now."
 msgstr "<25>{#f/6}{#v/0}* Я даже не знаю, что теперь и думать."
@@ -3843,43 +3832,43 @@ msgid ""
 msgstr ""
 "<25>{#f/8}{#v/0}* Ты добрый?\n"
 "* Злой?\n"
-"* Просто любопытствуешь?"
+"* Просто любопытный?"
 
 msgid "<25>{#f/6}{#v/0}* I dunno."
-msgstr "<25>{#f/6}{#v/0}* Я не знаю."
+msgstr "<25>{#f/6}{#v/0}* Не знаю."
 
 msgid "<25>{#f/5}{#v/0}* There is one thing, though..."
 msgstr "<25>{#f/5}{#v/0}* Однако есть одна вещь..."
 
 msgid "<25>{#f/5}{#v/0}* One thing I KNOW you haven't done yet."
-msgstr "<25>{#f/5}{#v/0}* Я ЗНАЮ, что ты еще не сделал одной вещи."
+msgstr "<25>{#f/5}{#v/0}* ОДНА вещь, которую я ЗНАЮ, что ты не сделал."
 
 msgid "<25>{#f/7}{#v/0}* That's right."
-msgstr "<25>{#f/7}{#v/0}* Это правильно."
+msgstr "<25>{#f/7}{#v/0}* Все верно."
 
 msgid "<25>{#f/7}{#v/0}* You haven't killed everyone here in one run yet."
-msgstr "<25>{#f/7}{#v/0}* Ты еще не убил всех здесь за один раз."
+msgstr "<25>{#f/7}{#v/0}* Ты ещё не убил здесь всех в одном забеге."
 
 msgid "<25>{#f/11}{#v/0}* Aren't you at least a LITTLE curious?"
-msgstr "<25>{#f/11}{#v/0}* Неужели тебе хотя бы немного не любопытно?"
+msgstr "<25>{#f/11}{#v/0}* Неужели тебе хоть ЧУТЬ-ЧУТЬ не любопытно?"
 
 msgid "<25>{#f/8}{#v/0}* Come on, $(name)..."
 msgstr "<25>{#f/8}{#v/0}* Давай, $(name)..."
 
 msgid "<25>{#f/5}{#v/0}* I know you're in there somewhere."
-msgstr "<25>{#f/5}{#v/0}* Я знаю, что ты где-то там, внутри."
+msgstr "<25>{#f/5}{#v/0}* Я знаю, ты где-то там, внутри."
 
 msgid "<25>{#p/twinkly}{#f/6}{#v/0}* Well well, we meet again."
 msgstr "<25>{#p/twinkly}{#f/6}{#v/0}* Ну что ж, мы снова встретились."
 
 msgid "<25>{#f/8}{#v/0}* How many times is this now?"
-msgstr "<25>{#f/8}{#v/0}* Сколько раз это уже повторяется?"
+msgstr "<25>{#f/8}{#v/0}* Который это раз?"
 
 msgid ""
 "<25>{#f/6}{#v/0}* Whatever.\n"
 "* Doesn't matter."
 msgstr ""
-"<25>{#f/6}{#v/0}* Сколько угодно.\n"
+"<25>{#f/6}{#v/0}* Ну и ладно.\n"
 "* Не имеет значения."
 
 msgid "<25>{#f/6}{#v/0}* You KNOW what you have to do, $(name)."
@@ -3889,30 +3878,31 @@ msgid "<25>{#f/5}{#v/0}* I'll be waiting."
 msgstr "<25>{#f/5}{#v/0}* Я буду ждать."
 
 msgid "<25>{#p/toriel}{#f/13}* You wish to return \"home,\" do you not?"
-msgstr "<25>{#p/toriel}{#f/13}* Вы хотите вернуться \"домой\", не так ли?"
+msgstr "<25>{#p/toriel}{#f/13}* Ты хочешь вернуться \"домой\", не так ли?"
 
 msgid "<25>{#f/9}* ..."
 msgstr "<25>{#f/9}* ..."
 
 msgid "<25>{#f/9}* If you leave here, I will not be able to protect you."
-msgstr "<25>{#f/9}* Если ты уйдешь отсюда, я не смогу защитить тебя."
+msgstr "<25>{#f/9}* Если ты уйдёшь отсюда, я не смогу защитить тебя."
 
 msgid ""
 "<25>{#f/9}* I will not be able to save you from the dangers that lie ahead."
 msgstr ""
-"<25>{#f/9}* Я не смогу спасти тебя от опасностей, которые ждут тебя впереди."
+"<25>{#f/9}* Я не смогу защитить тебя от опасностей, которые ждут тебя "
+"впереди."
 
 msgid "<25>{#f/13}* So, please, little one..."
-msgstr "<25>{#f/13}* Так что, пожалуйста, малыш..."
+msgstr "<25>{#f/13}* Так что, пожалуйста, дитя..."
 
 msgid "<25>{#f/9}* Go back the other way."
-msgstr "<25>{#f/9}* Возвращайся другим путем."
+msgstr "<25>{#f/9}* Возвращайся назад."
 
 msgid ""
 "<25>{#p/toriel}{#f/13}* Every human that ends up here meets the same fate."
 msgstr ""
-"<25>{#p/toriel}{#f/13}* Каждого человека, оказавшегося здесь, постигает та "
-"же участь."
+"<25>{#p/toriel}{#f/13}* Каждого человека, оказавшегося здесь, постигает одна "
+"и та же участь."
 
 msgid "<25>{#f/9}* I have seen it repeat time and time again."
 msgstr "<25>{#f/9}* Я видела, как это повторялось снова и снова."
@@ -3927,7 +3917,7 @@ msgid "<25>{#f/9}* ... they die."
 msgstr "<25>{#f/9}* ... они умирают."
 
 msgid "<25>{#f/13}* My child..."
-msgstr "<25>{#f/13}* Моё дитя..."
+msgstr "<25>{#f/13}* Дитя моё..."
 
 msgid "<25>{#f/13}* If you leave the Outlands..."
 msgstr "<25>{#f/13}* Если ты покинешь Запределье..."
@@ -3937,21 +3927,21 @@ msgid ""
 "* {@fill=#f00}ASGORE{@fill=#fff}...\n"
 "* Will take your SOUL."
 msgstr ""
-"<25>{#f/9}* Они...\n"
-"* {@fill=#f00}Азгор{@fill=#fff}...\n"
+"<25>{#f/9}* Он...\n"
+"* {@fill=#f00}АЗГОР{@fill=#fff}...\n"
 "* Заберёт твою ДУШУ."
 
 msgid "<25>{#f/13}* I did not want to say this, but..."
 msgstr "<25>{#f/13}* Я не хотела этого говорить, но....."
 
 msgid "<25>{#f/11}* I cannot allow you to continue this way."
-msgstr "<25>{#f/11}* Я не могу позволить тебе продолжать в том же духе."
+msgstr "<25>{#f/11}* Я не могу позволить тебе пройти дальше."
 
 msgid "<25>{#f/9}* For your own sake, child..."
-msgstr "<25>{#f/9}* Ради твоего же блага, моё дитя..."
+msgstr "<25>{#f/9}* Ради твоего же блага, дитя..."
 
 msgid "<25>{#f/9}* Do not follow me into the next room."
-msgstr "<25>{#f/9}* Не ходи за мной в соседнюю комнату."
+msgstr "<25>{#f/9}* Не иди за мной в следующую комнату."
 
 msgid "<25>{#p/toriel}{#p/toriel}{#f/13}* ..."
 msgstr "<25>{#p/toriel}{#p/toriel}{#f/13}* ..."
@@ -3960,12 +3950,11 @@ msgid "<25>{#f/10}* ... of course."
 msgstr "<25>{#f/10}* ... конечно."
 
 msgid "<25>{#f/9}* Perhaps it was always meant to come to this."
-msgstr "<25>{#f/9}* Возможно, так и должно было случиться с самого начала."
+msgstr "<25>{#f/9}* Возможно, так и должно было быть с самого начала."
 
 msgid "<25>{#f/9}* Perhaps I was foolish to think you would be any different."
 msgstr ""
-"<25>{#f/9}* Возможно, я была глупой, думая, что с тобой все будет по-"
-"другому."
+"<25>{#f/9}* Возможно, было глупо думать, что с тобой всё будет по-другому."
 
 msgid "<25>{#f/13}* I am afraid there is little choice now."
 msgstr "<25>{#f/13}* Боюсь, что сейчас у нас нет особого выбора."
