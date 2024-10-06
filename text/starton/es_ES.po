@@ -1,22 +1,20 @@
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-06 10:29+0000\n"
-"PO-Revision-Date: 2024-10-06 10:29+0000\n"
+"PO-Revision-Date: 2024-10-06 11:29+0000\n"
 "Last-Translator: Chistosito <souzadecarvalhofabio1@gmail.com>\n"
 "Language-Team: Spanish <https://ws3917.site/projects/project-spacetime/"
 "2-starton/es/>\n"
 "Language: es_ES\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: ENCODING\n"
+"Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 5.7.2\n"
 
 #
-
 msgid ""
 "<32>{#p/basic}* A standard-issue CITADEL long- range telescope, circa 261X."
 msgstr ""
@@ -535,107 +533,124 @@ msgstr "<25>{#f/3}* estaba pensado cuando vendrías."
 
 msgid "<25>{#f/0}* i dunno if you recall, but back when we first met..."
 msgstr ""
+"<25>{#f/0}* no sé si te acuerdas, pero cuando nos conocimos por primera "
+"vez..."
 
 msgid ""
 "<25>{#f/0}* i told papyrus to focus more on the \"gravity\" of the "
 "situation."
 msgstr ""
+"<25>{#f/0}* le dije a papyrus que se enfocara en la \"gravedad\" del asunto."
 
 msgid "<25>{#f/0}* what did i mean by that, you ask?"
-msgstr ""
+msgstr "<25>{#f/0}* ¿a qué me refería con eso, dices?"
 
 msgid "<25>{#f/3}* well."
-msgstr ""
+msgstr "<25>{#f/3}* bueno."
 
 msgid "<25>{#f/2}* you're about to {@fill=#003cff}find out{@fill=#fff}."
-msgstr ""
+msgstr "<25>{#f/2}* estás apunto de {@fill=#003cff}averiguarlo{@fill=#fff}."
 
 msgid "<25>{#p/sans}{#f/0}* welcome back."
-msgstr ""
+msgstr "<25>{#p/sans}{#f/0}* bienvenido de vuelta."
 
 msgid "<25>{#f/2}* ready to find out what awaits you?"
-msgstr ""
+msgstr "<25>{#f/2}* listo de ver lo que te espera?"
 
 msgid "<25>{#p/sans}{#f/0}* go on, take a look."
-msgstr ""
+msgstr "<25>{#p/sans}{#f/0}* continúa, mira un poco."
 
 msgid "<25>{#f/2}* it's right up there, bucko."
-msgstr ""
+msgstr "<25>{#f/2}* está justo ahí arriba, muchacho."
 
 msgid "<25>{#p/sans}{#f/2}* it's right up there, bucko."
-msgstr ""
+msgstr "<25>{#p/sans}{#f/2}* * está justo ahí arriba, muchacho."
 
 msgid ""
 "<25>{#p/sans}{#f/2}* don't worry, it's not dangerous... even if it tries to "
 "be."
 msgstr ""
+"<25>{#p/sans}{#f/2}* no te preocupes, no es peligroso, incluso si lo intenta "
+"ser."
 
 msgid "<25>{#p/sans}{#f/2}* thanks for the help."
-msgstr ""
+msgstr "<25>{#p/sans}{#f/2}* gracias por ayudar."
 
 msgid "<25>{#p/sans}{#f/0}* sooo... whaddya think?"
-msgstr ""
+msgstr "<25>{#p/sans}{#f/0}* entonces... ¿qué piensas?"
 
 msgid "<25>{#f/3}* i call it the \"trash planet.\""
-msgstr ""
+msgstr "<25>{#f/3}* lo llamo el \"planeta de la basura.\""
 
 msgid ""
 "<25>{#f/0}* ... actually, this thing's been growing in size for quite a "
 "while."
-msgstr ""
+msgstr "<25>{#f/0}* ... de hecho, esta cosa ha estado creciendo por un rato."
 
 msgid "<25>{#f/0}* if it gets any larger, well..."
-msgstr ""
+msgstr "<25>{#f/0}* si crece un poco más, bueno..."
 
 msgid ""
 "<25>{#f/2}* let's just say we'd be in a {@fill=#ff0}world{@fill=#fff} of "
 "trouble."
 msgstr ""
+"<25>{#f/2}* digamos que estaríamos en un {@fill=#ff0}mundo{@fill=#fff} de "
+"problemas."
 
 msgid ""
 "<25>{#f/0}* don't worry, though.\n"
 "* with your help, it'll be gone in no time."
 msgstr ""
+"<25>{#f/0}* pero no te preocupes.\n"
+"* con tu ayuda, desaparecerá en poco tiempo."
 
 msgid "<25>{#f/2}* i even found you some music to keep you motivated."
-msgstr ""
+msgstr "<25>{#f/2}* incluso encontré música para motivarte."
 
 msgid ""
 "* Press [Z] repeatedly to shake\n"
 "  out all the trash!"
 msgstr ""
+"* Pulsa [Z] repetidamente para sacudir\n"
+"  toda la basura fuera!"
 
 msgid ""
 "<25>{#p/sans}{#f/3}* wow.\n"
 "* all in one go, huh?"
 msgstr ""
+"<25>{#p/sans}{#f/3}* guau.\n"
+"* ¿todo de una, eh?"
 
 msgid "<25>{#f/2}* ... well i'll be turned upside down."
-msgstr ""
+msgstr "<25>{#f/2}* ... bueno, estaré patas arriba."
 
 msgid "<25>{#f/0}* guess i gotta give you some kinda reward."
-msgstr ""
+msgstr "<25>{#f/0}* supongo que te tengo que dar un tipo de recompensa."
 
+#, fuzzy
 msgid ""
 "<25>{#f/0}* ...\n"
 "* here.\n"
 "* have this on me."
 msgstr ""
+"<25>{#f/0}* ...\n"
+"* aquí tienes.\n"
+"* ten esto conmigo."
 
 msgid "<32>{#p/human}* (Sans tossed you something.)"
-msgstr ""
+msgstr "<32>{#p/human}* (Sans te ha dado algo.)"
 
 msgid "<32>{#s/equip}{#p/human}* (You got the Corn Dog Sword.)"
-msgstr ""
+msgstr "<32>{#s/equip}{#p/human}* (Conseguiste la Espada Perruna de Maíz.)"
 
 msgid "<25>{#p/sans}{#f/2}* use it wisely."
-msgstr ""
+msgstr "<25>{#p/sans}{#f/2}* úsala con cuidado."
 
 msgid "<32>{#p/human}* (You're carrying too much.)"
-msgstr ""
+msgstr "<32>{#p/human}* (Llevas demasiado encima.)"
 
 msgid "<25>{#p/sans}{#f/3}* no room, huh?"
-msgstr ""
+msgstr "<25>{#p/sans}{#f/3}* ¿no hay sitio, eh?"
 
 msgid ""
 "<25>{#p/sans}{#f/2}* don't worry.\n"
@@ -4965,7 +4980,6 @@ msgstr ""
 
 msgid "SAVE YOURSELVES..."
 msgstr ""
-
 
 msgid "FAILED TO CONNECT..."
 msgstr ""
