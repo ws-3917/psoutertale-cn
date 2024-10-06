@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-06 06:29+0000\n"
-"PO-Revision-Date: 2024-10-06 07:18+0000\n"
+"PO-Revision-Date: 2024-10-06 07:20+0000\n"
 "Last-Translator: lBKnaTbwUP8MulTo5HtlxeSKvORhNx <dosdossus@gmail.com>\n"
 "Language-Team: Russian <https://ws3917.site/projects/project-spacetime/"
 "1-outlands/ru/>\n"
@@ -3081,31 +3081,31 @@ msgid "<25>* I thought I told you not to screw it up!"
 msgstr "<25>* Кажется, я говорил тебе не облажаться!"
 
 msgid "<25>* Now look what you've done to our plan."
-msgstr "<25>* А теперь посмотри, что ты сделал с нашим планом."
+msgstr "<25>* А теперь посмотри, что ты наделал с нашим планом."
 
 msgid "<25>{#f/8}* ..."
 msgstr "<25>{#f/8}* ..."
 
 msgid "<25>{#f/6}* You better fix this, $(name)."
-msgstr "<25>{#f/6}* Тебе лучше это исправить, $(name)."
+msgstr "<25>{#f/6}* Тебе стоит это исправить, $(name)."
 
 msgid "<25>{#f/5}* It's our destiny."
 msgstr "<25>{#f/5}* Это наша судьба."
 
 msgid "<25>{#p/twinkly}{#f/5}* Howdy, $(name)."
-msgstr "<25>{#p/twinkly}{#f/5}* Привет, $(name)."
+msgstr "<25>{#p/twinkly}{#f/5}* Приветик, $(name)."
 
 msgid "<25>{#f/5}* Seems you don't want to play with me anymore."
 msgstr "<25>{#f/5}* Кажется, ты больше не хочешь играть со мной."
 
 msgid "<25>{#f/6}* I tried being patient with you, but here we are..."
-msgstr "<25>{#f/6}* Я старался быть терпеливым с тобой, но вот мы здесь..."
+msgstr "<25>{#f/6}* Я старался быть терпеливым, но вот мы здесь..."
 
 msgid "<25>{#f/6}* Back at the beginning again."
-msgstr "<25>{#f/6}* Снова возвращаемся к началу."
+msgstr "<25>{#f/6}* Снова вернулись в начало."
 
 msgid "<25>{#f/8}* Again, and again..."
-msgstr "<25>{#f/8}* Опять, и опять..."
+msgstr "<25>{#f/8}* Снова и снова..."
 
 msgid "<25>{#f/5}* You must think this is all very funny."
 msgstr "<25>{#f/5}* Тебе, должно быть, все это кажется очень забавным."
