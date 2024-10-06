@@ -1,20 +1,7 @@
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-06 10:29+0000\n"
-"PO-Revision-Date: 2024-10-06 11:29+0000\n"
-"Last-Translator: Chistosito <souzadecarvalhofabio1@gmail.com>\n"
-"Language-Team: Spanish <https://ws3917.site/projects/project-spacetime/"
-"2-starton/es/>\n"
-"Language: es_ES\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.7.2\n"
 
-#
 msgid ""
 "<32>{#p/basic}* A standard-issue CITADEL long- range telescope, circa 261X."
 msgstr ""
@@ -570,8 +557,8 @@ msgid ""
 "<25>{#p/sans}{#f/2}* don't worry, it's not dangerous... even if it tries to "
 "be."
 msgstr ""
-"<25>{#p/sans}{#f/2}* no te preocupes, no es peligroso, incluso si lo intenta "
-"ser."
+"<25>{#p/sans}{#f/2}* no te preocupes, no es peligroso, incluso si lo intenta"
+" ser."
 
 msgid "<25>{#p/sans}{#f/2}* thanks for the help."
 msgstr "<25>{#p/sans}{#f/2}* gracias por ayudar."
@@ -627,7 +614,6 @@ msgstr "<25>{#f/2}* ... bueno, estaré patas arriba."
 msgid "<25>{#f/0}* guess i gotta give you some kinda reward."
 msgstr "<25>{#f/0}* supongo que te tengo que dar un tipo de recompensa."
 
-#, fuzzy
 msgid ""
 "<25>{#f/0}* ...\n"
 "* here.\n"
@@ -4979,6 +4965,9 @@ msgid "HOWDY!"
 msgstr ""
 
 msgid "SAVE YOURSELVES..."
+msgstr ""
+
+msgid ""
 msgstr ""
 
 msgid "FAILED TO CONNECT..."

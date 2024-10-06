@@ -186,78 +186,78 @@ export default {
          '<32>{#p/asriel2}* O, en este caso...',
          '<33>{#p/asriel2}* La fuerza que los separa.'
       ],
-      shockpapyrus2d: [ '<32>{#p/asriel2}* Luchar... la opción ideal.', '<32>{#p/asriel2}* Hee hee hee...' ],
-      sansDeath1: [ "<15>{#p/papyrus}{#e/papyrus/27}SANS!\nYOU'RE HURT!" ],
-      sansDeath2: [ "<20>{#p/sans}papyrus, didn't i tell you to stay at home?", '{*}{#e/papyrus/21}{%}' ],
-      sansDeath3: [ "<20>{#p/sans}... don't worry bro, it's just yamok sauce.", '{*}{#e/papyrus/26}{%}' ],
-      sansDeath4: [ "<15>{#p/papyrus}{#e/papyrus/21}BUT YOU'RE HURT..." ],
+      shockpapyrus2d: [ '<32>{#p/asriel2}* Luchar... la opción ideal.', '<32>{#p/asriel2}* Ji ji ji...' ],
+      sansDeath1: [ "<15>{#p/papyrus}{#e/papyrus/27}¡SANS!\n¡ESTÁS HERIDO!" ],
+      sansDeath2: [ "<20>{#p/sans}papyrus, ¿no te dije que te quedaras en casa?", '{*}{#e/papyrus/21}{%}' ],
+      sansDeath3: [ "<20>{#p/sans}... no te preocupes hermano, es solo salsa yamok.", '{*}{#e/papyrus/26}{%}' ],
+      sansDeath4: [ "<15>{#p/papyrus}{#e/papyrus/21}PERO ESTÁS HERIDO..." ],
       sansDeath5: [
-         "<20>{#p/sans}yeah, that's what happens when you act on instinct.",
-         '<20>{#p/sans}... not much i can do about it now.',
+         "<20>{#p/sans}si, es lo que pasa cuando actúas por instinto.",
+         '<20>{#p/sans}... no hay mucho que pueda hacer ahora.',
          '{*}{#e/papyrus/21}{%}'
       ],
       sansDeath6: [
-         '<20>{#p/sans}so...',
-         "<20>guess that's it, huh?",
+         '<20>{#p/sans}así que...',
+         "<20>supongo que eso es todo, ¿eh?",
          '<20>...',
-         '<20>just...',
-         "<20>promise me you'll be fine without me, bro.",
+         '<20>solo...',
+         "<20>prométeme que estarás bien sin mí, hermano.",
          "<20>promise me you'll be g-{^5}great.",
          '<20>...',
-         '<20>after all...'
+         '<20>después de todo...'
       ],
       sansDeath7: [ "<20>{|}{#p/sans}you're the... great p-{^5}papyrus.{^20}{%}" ],
       sansDeath8: [ '<15>{#p/papyrus}{#e/papyrus/33}N-NO...{^40}{%}' ],
       fast_food1: () => [
          SAVE.data.b.fryz
-            ? "<32>{#p/human}{#npc}* (You got the Flamin' Grillby.)"
+            ? "<32>{#p/human}{#npc}* (Conseguiste el Flamin' Grillby.)"
             : '<32>{#p/human}{#npc}* (You got the Sliders.)'
       ],
-      fast_food2: [ "<32>{#p/human}{#npc}* (You're carrying too much.)" ],
+      fast_food2: [ "<32>{#p/human}{#npc}* (Estás llevando demasiado.)" ],
       aussie: pager.create(
          0,
          () =>
             SAVE.data.n.state_starton_trashprogress < 1
                ? [
-                    '<25>{#p/sans}{#f/0}* finally.',
-                    "<25>{#f/3}* i've been wondering when you'd show up.",
-                    '<25>{#f/0}* i dunno if you recall, but back when we first met...',
-                    '<25>{#f/0}* i told papyrus to focus more on the \"gravity\" of the situation.',
-                    '<25>{#f/0}* what did i mean by that, you ask?',
-                    '<25>{#f/3}* well.',
-                    "<25>{#f/2}* you're about to {@fill=#003cff}find out{@fill=#fff}."
+                    '<25>{#p/sans}{#f/0}* finalmente.',
+                    "<25>{#f/3}* estaba pensado cuando vendrías.",
+                    '<25>{#f/0}* no sé si te acuerdas, pero cuando nos conocimos por primera vez...',
+                    '<25>{#f/0}* le dije a papyrus que se enfocara en la \"gravedad\" del asunto.',
+                    '<25>{#f/0}* ¿a qué me refería con eso, dices?',
+                    '<25>{#f/3}* bueno.',
+                    "<25>{#f/2}* estás apunto de {@fill=#003cff}averiguarlo{@fill=#fff}."
                  ]
-               : [ '<25>{#p/sans}{#f/0}* welcome back.', '<25>{#f/2}* ready to find out what awaits you?' ],
+               : [ '<25>{#p/sans}{#f/0}* bienvenido de vuelta.', '<25>{#f/2}* listo de ver lo que te espera?' ],
          () =>
             SAVE.data.n.state_starton_trashprogress < 1
-               ? [ '<25>{#p/sans}{#f/0}* go on, take a look.', "<25>{#f/2}* it's right up there, bucko." ]
-               : [ "<25>{#p/sans}{#f/2}* it's right up there, bucko." ],
+               ? [ '<25>{#p/sans}{#f/0}* continúa, mira un poco.', "<25>{#f/2}* está justo ahí arriba, muchacho." ]
+               : [ "<25>{#p/sans}{#f/2}* * está justo ahí arriba, muchacho." ],
          () =>
             SAVE.data.n.state_starton_trashprogress < 2
-               ? [ "<25>{#p/sans}{#f/2}* don't worry, it's not dangerous... even if it tries to be." ]
-               : [ '<25>{#p/sans}{#f/2}* thanks for the help.' ]
+               ? [ "<25>{#p/sans}{#f/2}* no te preocupes, no es peligroso, incluso si lo intenta ser." ]
+               : [ '<25>{#p/sans}{#f/2}* gracias por ayudar.' ]
       ),
       trashhunt1: [
-         '<25>{#p/sans}{#f/0}* sooo... whaddya think?',
-         '<25>{#f/3}* i call it the \"trash planet.\"',
-         "<25>{#f/0}* ... actually, this thing's been growing in size for quite a while.",
-         '<25>{#f/0}* if it gets any larger, well...',
-         "<25>{#f/2}* let's just say we'd be in a {@fill=#ff0}world{@fill=#fff} of trouble.",
-         "<25>{#f/0}* don't worry, though.\n* with your help, it'll be gone in no time.",
-         '<25>{#f/2}* i even found you some music to keep you motivated.'
+         '<25>{#p/sans}{#f/0}* entonces... ¿qué piensas?',
+         '<25>{#f/3}* lo llamo el \"planeta de la basura.\"',
+         "<25>{#f/0}* ... de hecho, esta cosa ha estado creciendo por un rato.",
+         '<25>{#f/0}* si crece un poco más, bueno...',
+         "<25>{#f/2}* digamos que estaríamos en un {@fill=#ff0}mundo{@fill=#fff} de problemas.",
+         "<25>{#f/0}* pero no te preocupes.\n* con tu ayuda, desaparecerá en poco tiempo.",
+         '<25>{#f/2}* incluso encontré música para motivarte.'
       ],
-      trashhunt2: '* Press [Z] repeatedly to shake\n  out all the trash!',
+      trashhunt2: '* Pulsa [Z] repetidamente para sacudir\n  toda la basura fuera!',
       trashhunt3: () => [
-         '<25>{#p/sans}{#f/3}* wow.\n* all in one go, huh?',
-         "<25>{#f/2}* ... well i'll be turned upside down.",
-         '<25>{#f/0}* guess i gotta give you some kinda reward.',
-         '<25>{#f/0}* ...\n* here.\n* have this on me.',
-         '<32>{#p/human}* (Sans tossed you something.)',
+         '<25>{#p/sans}{#f/3}* guau.\n* ¿todo de una, eh?',
+         "<25>{#f/2}* ... bueno, estaré patas arriba.",
+         '<25>{#f/0}* supongo que te tengo que dar un tipo de recompensa.',
+         '<25>{#f/0}* ...\n* aquí tienes.\n* ten esto conmigo.',
+         '<32>{#p/human}* (Sans te ha dado algo.)',
          ...(SAVE.storage.inventory.size < 8
-            ? [ '<32>{#s/equip}{#p/human}* (You got the Corn Dog Sword.)', '<25>{#p/sans}{#f/2}* use it wisely.' ]
+            ? [ '<32>{#s/equip}{#p/human}* (Conseguiste la Espada Perruna de Maíz.)', '<25>{#p/sans}{#f/2}* úsala con cuidado.' ]
             : [
-                 "<32>{#p/human}* (You're carrying too much.)",
-                 '<25>{#p/sans}{#f/3}* no room, huh?',
+                 "<32>{#p/human}* (Llevas demasiado encima.)",
+                 '<25>{#p/sans}{#f/3}* ¿no hay sitio, eh?',
                  "<25>{#p/sans}{#f/2}* don't worry.\n* i'll leave it in my room for you."
               ])
       ],
@@ -295,12 +295,12 @@ export default {
       sanscab3: () => [
          ...(SAVE.data.b.svr ? [] : [ "<32>{#p/basic}* There's an odd... item, inside of this envelope." ]),
          SAVE.storage.inventory.size < 8
-            ? '<32>{#s/equip}{#p/human}* (You got the Corn Dog Sword.)'
-            : "<32>{#p/human}* (You're carrying too much.)"
+            ? '<32>{#s/equip}{#p/human}* (Conseguiste la Espada Perruna de Maíz.)'
+            : "<32>{#p/human}* (Llevas demasiado encima.)"
       ],
       cream_get: [ '<32>{#p/human}* (You got the Ice Dream.)' ],
       cream_deny: [ '<32>{#p/basic}* Nothing left.' ],
-      cream_full: [ "<32>{#p/human}* (You're carrying too much.)" ],
+      cream_full: [ "<32>{#p/human}* (Llevas demasiado encima.)" ],
       cream_get_archive: [
          '<32>{#p/human}* (You reach into the cart.)',
          '<32>{#p/human}{#s/equip}* (You got the Ice Dream.)'
@@ -381,7 +381,7 @@ export default {
                  choicer.create('* (Buy the Exoberries for 8G?)', 'Sí', 'No')
               ],
       candy2: [ "<32>{#p/human}* (You don't have enough G.)" ],
-      candy3: [ "<32>{#p/human}* (You're carrying too much.)" ],
+      candy3: [ "<32>{#p/human}* (Llevas demasiado encima.)" ],
       candy4: [ '<32>{#p/human}* (You got the Exoberries.)' ],
       candy5: [ '<32>{#p/human}* (You decide not to buy.)' ],
       capstation1: [
@@ -945,7 +945,7 @@ export default {
       maze1: () =>
          world.edgy
             ? [
-                 '<25>{#p/sans}{#f/0}* welcome back.',
+                 '<25>{#p/sans}{#f/0}* bienvenido de vuelta.',
                  "<25>{#p/sans}{#f/3}* it's a shame papyrus can't be here, because...",
                  "<25>{#p/sans}{#f/2}* he's been working very hard on this puzzle for a long time.",
                  "<25>{#p/sans}{#f/0}* but that's alright.",

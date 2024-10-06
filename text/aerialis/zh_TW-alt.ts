@@ -3177,7 +3177,7 @@ export default {
                ? '<32>* 我想回家看看親人。'
                : SAVE.data.n.state_starton_papyrus === 1
                   ? "<32>* 我還沒想好做什麼。"
-                  : "<32>* 我要處理點事情。",
+                  : "<32>* 我要去忙點正事。",
             ...(SAVE.data.b.oops
                ? []
                : [
@@ -6771,7 +6771,7 @@ export default {
          '<20>{#p/basic}{#e/bpants/12}為什麼總要我來\n趕走這死傢伙？',
          '<20>...',
          '<20>{#e/bpants/0}小傢伙，對不住了，\n給你添麻煩了。',
-         "<20>{#e/bpants/11}我叫Burgie。\n很高興見到你。",
+         "<20>{#e/bpants/11}很高興認識你，\n叫我堡兄就行。",
          ...(ateThreshold() || (world.badder_lizard && world.bad_lizard > 1)
             ? [
                "<20>{#e/bpants/6}老滑頭來這鬧事有...",
@@ -10884,7 +10884,7 @@ export default {
             ]
             : [
                '回復23 HP\n有人嫌太甜\n有人超留戀。',
-               '回復40 HP\n英雄，\n不再只是個\n傳說。',
+               '回復40 HP\n別管這個叫\n「傳說英雄」。',
                '回復34 HP\n不想被傷害\n就要去抗爭。',
                "Heals 55HP\n這事...\n說來話長啊。"
             ],
@@ -11371,7 +11371,7 @@ export default {
             : [
                '聊聊你倆',
                SAVE.data.n.plot < 68 ? '聊聊這舊貨鋪' : SAVE.data.b.killed_mettaton ? '鎂塔頓' : '壓軸好戲',
-               ['這地方歸誰', '§fill=#ff0§堡堡（新）', '堡堡'][Math.min(SAVE.data.n.shop_gossip_hub, 2)],
+               ['這地方歸誰', '§fill=#ff0§堡兄（新）', '堡兄'][Math.min(SAVE.data.n.shop_gossip_hub, 2)],
                ['艾菲斯', '§fill=#ff0§皇家科學員（新）', '§fill=#ff0§艾斯戈爾（新）', '艾斯戈爾'][
                Math.min(SAVE.data.n.shop_gossip_alphys, 3)
                ],
@@ -11589,7 +11589,7 @@ export default {
                               c: '<16>* 後來呢...'
                            },
                            {
-                              b: '<16>{#k/4/4}* Burgie決定「推翻」他。',
+                              b: '<16>{#k/4/4}* 堡兄決定「推翻」他。',
                               c: '',
                               s: true
                            },
@@ -11604,7 +11604,7 @@ export default {
                               s: true
                            },
                            {
-                              b: '<16>{#k/2/6}* 我覺得吧，\n  Burgie就是敲詐了他一手。',
+                              b: '<16>{#k/2/6}* 我覺得吧，\n  堡兄就是敲詐了他一手。',
                               c: '<16>* 我覺得吧，\n  他肯定還找了個同謀。',
                               s: true
                            },
@@ -11702,7 +11702,7 @@ export default {
                   ],
                   [
                      {
-                        b: "<16>{#k/0/0}* 關於Burgie，\n  我們沒啥好說的了，\n  不過",
+                        b: "<16>{#k/0/0}* 關於堡兄，\n  我們沒啥好說的了，\n  不過-",
                         c: '<16>{#k/0/8}* ...不，等下！\n* 你能讓他給姐倆\n  做點吃的嗎？'
                      },
                      {

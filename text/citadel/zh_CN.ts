@@ -2332,40 +2332,40 @@ export default {
          
          clover1: [ "<32>{#p/human}{#v/6}{@fill=#faff29}* 多美啊..." ],
          clover2: [
-            "<32>{#p/human}{#v/6}{@fill=#faff29}* ...\n* 行吧，这话估计该等他来说。",
-            '<32>{@fill=#faff29}* 曾经，这般美景是多么寻常...',
-            '<32>{@fill=#faff29}* ...但我一来，就把一切都毁了。',
-            '<32>{@fill=#faff29}* My bionic implant gave us top- level access to the system.',
-            '<32>{@fill=#faff29}* 那之后，我们要啥有啥...\n  但这是有代价的。',
-            "<32>{@fill=#faff29}* 那末日般的景象，\n  你想必已经见过了。",
-            "<32>{@fill=#faff29}* 我们创造的每个世界，\n  你肯定都去过了。\n* 你取得的“灵势”可不会撒谎。",
-            '<32>{@fill=#faff29}* ...“灵势”当然是个缩写。\n* 全称叫“灵魂势能”。',
-            "<32>{@fill=#faff29}* 我们的灵魂，\n  就是靠着它联系在一起的。",
-            "<32>{@fill=#faff29}* It's what you need to break the force field."
+            "<32>{#p/human}{#v/6}{@fill=#faff29}* ...\n* 不过，这话换他来说，\n  估计更合适。",
+            '<32>{@fill=#faff29}* 曾经，这样的美景\n  稀松平常，随处可见...',
+            '<32>{@fill=#faff29}* ...但我一来，\n  把一切都毁了。',
+            '<32>{@fill=#faff29}* 我的体内有仿生植入体，\n  使用它，就可以夺取\n  系统的最高权限。',
+            '<32>{@fill=#faff29}* 有了最高权限，\n  我们想要啥，就有啥...\n* 肆意滥用权限，最终付出了代价。',
+            "<32>{@fill=#faff29}* 你取得的“灵势”告诉我，\n  你已经去过我们创造的\n  所有子世界...",
+            "<32>{@fill=#faff29}* 那末日般的景象，\n  想必你已经见过了。",
+            '<32>{@fill=#faff29}* “灵势”...\n* 当然也是个缩写，\n  全称叫“灵魂势能”。',
+            "<32>{@fill=#faff29}* 我们的灵魂，\n  就是靠它联结在一起。",
+            "<32>{@fill=#faff29}* 而有了它，\n  你就能一举打碎力场。"
          ],
          clover3: [
-            "<32>{#p/human}{#v/6}{@fill=#faff29}* I don't know if we'll be aware of what happened here.",
-            '<32>{@fill=#faff29}* This is only a subconscious realm, after all.',
-            '<32>{@fill=#faff29}* Still, even when a nightmare like ours comes to an end...',
-            '<32>{@fill=#faff29}* Is it ever truly forgotten?'
+            "<32>{#p/human}{#v/6}{@fill=#faff29}* 这里是潜意识时空，\n  人的意识触及不到这里。",
+            '<32>{@fill=#faff29}* 所以，我不知道\n  自己醒来后，是否还会记得\n  这里发生的一切，',
+            '<32>{@fill=#faff29}* 但没关系。\n  即使我们的噩梦终将画上句号...\n  即使我们终将遗忘一切...',
+            '<32>{@fill=#faff29}* 也一定有人会记得这些。'
          ],
          clover4: () => [
             "<32>{#p/human}{#v/6}{@fill=#faff29}* ...\n* 你该走了。",
-            '<32>{@fill=#faff29}* 退出终端就在主干道的尽头。',
+            '<32>{@fill=#faff29}* 离开这里的终端\n  就在主干道的尽头。',
             ...(SAVE.data.b.oops
-               ? [ '<32>{@fill=#faff29}* ... take care...', '<32>{@fill=#faff29}* Got it?' ]
+               ? [ '<32>{@fill=#faff29}* ...多多保重...', '<32>{@fill=#faff29}* 好吗？' ]
                : [
-                    '<32>{@fill=#faff29}* ... but before you go...',
-                    "<32>{@fill=#faff29}* Frisk?\n* That's your name, isn't it?",
-                    "<32>{@fill=#faff29}* Forgive me.\n* I couldn't help but wonder what was on your mind.",
-                    "<32>{@fill=#faff29}* ...\n* You're a good person, Frisk.",
-                    '<32>{@fill=#faff29}* And from what I can tell...',
-                    "<32>{@fill=#faff29}* So is the one who's been making all those choices for you.",
+                    '<32>{@fill=#faff29}* ...走之前，我有个问题...',
+                    "<32>{@fill=#faff29}* 你的名字，\n  是叫Frisk吗？",
+                    "<32>{@fill=#faff29}* 抱歉。\n* 只是你一言不发，我有点好奇\n  你在想些什么。",
+                    "<32>{@fill=#faff29}* ...\n* Frisk，你是个好人。",
+                    '<32>{@fill=#faff29}* 而且...',
+                    "<32>{@fill=#faff29}* 那个人，\n  一直在幕后，为你出谋划策的人，\n* 也是个好人。",
                     '<32>{@fill=#faff29}* ...',
-                    "<32>{@fill=#faff29}* Frisk and I won't remember this conversation, but there's a chance you might.",
-                    "<32>{@fill=#faff29}* If you're really out there somewhere, listening...",
-                    "<32>{@fill=#faff29}* ... don't forget about the lives we've led in this place.",
-                    "<32>{@fill=#faff29}* No matter the world, real or virtual, memories like ours don't deserve to be forgotten."
+                    "<32>{@fill=#faff29}* 这一切，我跟Frisk或许都会忘记。\n* 但你不会。",
+                    "<32>{@fill=#faff29}* 如果此刻，\n  你正在某处看着我们...",
+                    "<32>{@fill=#faff29}* ...请不要忘记\n  我们的经历，我们的故事。\n* 请不要忘记这里发生的一切。",
+                    "<32>{@fill=#faff29}* 不管这世界是真是假。\n* 这里的记忆，\n  都是最珍贵的东西。"
                  ])
          ],
 
@@ -3620,39 +3620,39 @@ export default {
                   '<32>{#p/human}{#v/5}{@fill=#00c000}* ...怎么醒了？'
                ],
                [
-                  "<32>{#p/human}{#v/5}{@fill=#00c000}* 我睡了好久，\n  啥都记不得了...",
+                  "<32>{#p/human}{#v/5}{@fill=#00c000}* 我睡了好久，\n  啥都不记得了...",
                   '<32>{#p/human}{#v/5}{@fill=#00c000}* ...哦！',
-                  '<32>{#p/human}{#v/5}{@fill=#00c000}* 老伙计，是你吗！？\n* 是你在那吗！？'
+                  '<32>{#p/human}{#v/5}{@fill=#00c000}* 老朋友，是你吗！？\n* 是你在那吗！？'
                ],
                [
                   '<32>{#p/human}{#v/5}{@fill=#00c000}* ...',
-                  '<32>{#p/human}{#v/5}{@fill=#00c000}* 也不见得。',
-                  '<32>{#p/human}{#v/5}{@fill=#00c000}* 唉，依稀记得上次醒的时候，\n  爆发了一场灾难...',
+                  '<32>{#p/human}{#v/5}{@fill=#00c000}* 应该不是你。',
+                  '<32>{#p/human}{#v/5}{@fill=#00c000}* 哦，依稀记得\n  上次醒来时，\n  爆发了一场灾难...',
                   '<32>{#p/human}{#v/5}{@fill=#00c000}* 灾难后的末日之景，\n  就是如此吗？',
-                  '<32>{#p/human}{#v/5}{@fill=#00c000}* 糟透了...'
+                  '<32>{#p/human}{#v/5}{@fill=#00c000}* 真是糟透了...'
                ],
                [
-                  "<32>{#p/human}{#v/5}{@fill=#00c000}* 我想想...\n* 当时好像是系统的内存溢出了...",
+                  "<32>{#p/human}{#v/5}{@fill=#00c000}* 我想想...\n* 当时，好像是系统的内存溢出了...\n  导致我陷入沉睡。",
                   "<32>{#p/human}{#v/5}{@fill=#00c000}* 现在我醒了...\n  说明有人在释放内存空间！",
-                  "<32>{#p/human}{#v/5}{@fill=#00c000}* ...应该吧？"
+                  "<32>{#p/human}{#v/5}{@fill=#00c000}* ...是这样吧？"
                ],
                [
                   '<32>{#p/human}{#v/5}{@fill=#00c000}* 我懂了。',
-                  "<32>{#p/human}{#v/5}{@fill=#00c000}* 咱马上能出去了！",
-                  '<32>{#p/human}{#v/5}{@fill=#00c000}* 老伙计，听到了吗？\n* 你觉得你撑不下去了...\n  但你做到了！'
+                  "<32>{#p/human}{#v/5}{@fill=#00c000}* 咱马上就能出去了！",
+                  '<32>{#p/human}{#v/5}{@fill=#00c000}* 老朋友，你看到了吗！\n* 你没有失败，没有死，\n  你成功了！'
                ],
                [
-                  '<32>{#p/human}{#v/5}{@fill=#00c000}* 我接着说。',
-                  "<32>{#p/human}{#v/5}{@fill=#00c000}* 我身体都没了，\n  照理没法移动...",
-                  '<32>{#p/human}{#v/5}{@fill=#00c000}* 那奇怪了...',
+                  '<32>{#p/human}{#v/5}{@fill=#00c000}* 不过...',
+                  "<32>{#p/human}{#v/5}{@fill=#00c000}* 我连身体都没了，\n  照理没法移动...",
+                  '<32>{#p/human}{#v/5}{@fill=#00c000}* 那就奇怪了...',
                   '<32>{#p/human}{#v/5}{@fill=#00c000}* 我这幅视野是哪来的？',
-                  '<32>{#p/human}{#v/5}{@fill=#00c000}* 什么时候离地面这么远了...'
+                  '<32>{#p/human}{#v/5}{@fill=#00c000}* 还有，\n  我怎么离地面这么远了...'
                ],
                [
-                  "<32>{#p/human}{#v/5}{@fill=#00c000}* 那片光芒... 越来越明亮了！",
-                  '<32>{#p/human}{#v/5}{@fill=#00c000}* ...噩梦终于要结束了吗？\n* 我们在走向自由之门吗？'
+                  "<32>{#p/human}{#v/5}{@fill=#00c000}* 那团光晕... \n  越来越耀眼了！",
+                  '<32>{#p/human}{#v/5}{@fill=#00c000}* ...噩梦终于要结束了吗？\n  自由要来了吗？'
                ],
-               [ '<32>{#p/human}{#v/5}{@fill=#00c000}* 喂？' ],
+               [ '<32>{#p/human}{#v/5}{@fill=#00c000}* 有人吗？' ],
                []
             ][ca_state.floor],
          toomuch1: [ "<32>{#p/human}* （你带的东西太多了。）" ],
@@ -4149,19 +4149,19 @@ export default {
             ][cf2_state.time],
          cf2_blookextra: [ '<32>{#p/human}* （似乎永远都建不成。）' ],
          ca_neuteral: [
-            "<32>{#p/basic}* 我只是个“片段”。\n* 其实就是系统储存的一段数据。",
-            '<32>{#p/basic}* 眼下，你可以与我交互。',
-            '<32>{#p/basic}* 也只有你可以。',
-            '<32>{#p/basic}* 在“档案”系统中，\n  有一种机制让我们保持联系：',
-            '<32>{#p/basic}* 你可以走开，没人拦你...\n  但你很可能会绕回来。',
-            '<32>{#p/basic}* 不过...\n  一旦你离开这一层，\n  这种联系就会被切断。',
-            '<32>{#p/basic}* 之后，你就再也无法与我交互了。',
-            '<32>{#p/basic}* 系统会把我认作孤立片段，\n  并将我的存在抹除。',
-            '<32>{#p/basic}* 你解完谜题，看着头目消散的时候，\n  系统便会删除这个地区。',
-            '<33>{#p/basic}* 我们是“片段”中\n  最后的残留了。',
-            '<32>{#p/basic}* 等你到达这个地区的第十层，\n  我们便也可以从这个世界解脱。',
-            '<32>{#p/basic}* Perhaps then, a small part of what once was will re-surface through the open pathway.',
-            '<32>{#p/basic}* 那之后，也许“档案”存储的数据\n  会在你的记忆中长存。'
+            "<32>{#p/basic}* 我只是个“片段”。\n* 或者说，系统储存的一段数据。",
+            '<32>{#p/basic}* 此刻，你可以与我交互。',
+            '<32>{#p/basic}* 而其他人则不行。',
+            '<32>{#p/basic}* 在“档案”系统中，\n  我们可以通过这种机制\n  保持联系：',
+            '<32>{#p/basic}* 在本层，你可以到处走动。\n  无论你去哪，都可以重新回到这里。',
+            '<32>{#p/basic}* 不过... 一旦你离开这一层，\n  你将再也无法返回这里，\n  我们的联系也会随之切断。',
+            '<32>{#p/basic}* 之后，\n  你就再也无法与我交互了。',
+            '<32>{#p/basic}* 你离开后，\n  系统就会把我当成孤立片段，\n  抹除我的存在。',
+            '<32>{#p/basic}* 其他子空间也是。\n* 当你解完了谜题，打败了Boss，\n  这个子空间就会被系统删除。',
+            '<33>{#p/basic}* 现在，系统剩下的片段，\n  只有我们了。',
+            '<32>{#p/basic}* 当你到达第十层，\n  我们也可以从这世上解脱。',
+            '<32>{#p/basic}* 到那时，也许\n  某种尘封已久的东西\n  将再度显现。',
+            '<32>{#p/basic}* 到那时，\n  也许“档案”留存的数据会\n  永远烙印在你的记忆之中。'
          ],
          ca_starling: [ '<32>{#p/human}* （你看了看这些花。）' ],
          cr_pillar1: () =>
@@ -4894,27 +4894,27 @@ export default {
    },
    b_opponent_archive1: {
       name: () => (battler.volatile[0].sparable ? '* Toriel' : '* 546f7269656c'),
-      status0: [ '<32>{#p/human}* （546f7269656c现在\n  正站在你面前。）' ],
-      status1: [ '<32>{#p/human}* （546f7269656c\n  似乎想为你安排一日起居。）' ],
+      status0: [ '<32>{#p/human}* （此刻，546f7269656c\n  正站在你的面前。）' ],
+      status1: [ '<32>{#p/human}* （看起来，要按特定的顺序行动，\n  546f7269656c才能完成任务。）' ],
 
-      act_dinnertimeX: [ '<32>{#p/human}* (But you have already eaten your dinner.)' ],
+      act_dinnertimeX: [ '<32>{#p/human}* （可是，你已经吃过晚餐了。）' ],
       dinnerTalk: [ '<11>{#p/toriel}孩子，\n{@fill=#42fcff}{@mystify=吃慢点喫漫奌}吃慢点{@mystify=}{@fill=#ffffff}。' ],
-      dinnerStatus: [ '<32>{#p/human}* （546f7269656c\n  似乎想和你一起读些什么。）' ],
+      dinnerStatus: [ '<32>{#p/human}* （看起来，546f7269656c\n  想给你读点什么。）' ],
 
-      act_storytimeX: [ '<32>{#p/human}* （可是，你已经读过一篇故事了。）' ],
-      act_storytimeE: [ '<32>{#p/human}* (But 546f7269656c was not yet ready to read you a story.)' ],
+      act_storytimeX: [ '<32>{#p/human}* （可是，你们已经读完故事了。）' ],
+      act_storytimeE: [ '<32>{#p/human}* （可是，546f7269656c\n  现在还不想给你读故事。）' ],
       storyTalk: [
          '<11>{#p/toriel}从前，\n有一只{@fill=#42fcff}{@mystify=怪物圣忽恠㹅径勿}怪物{@mystify=}{@fill=#ffffff}...'
       ],
-      storyStatus: [ '<32>{#p/human}* (546f7269656c has one more thing to do.)' ],
+      storyStatus: [ '<32>{#p/human}* （546f7269656c\n  还想为你做一件事。）' ],
 
-      act_bedtimeX: [ '<32>{#p/human}* (But you have already been put to sleep.)' ],
-      act_bedtimeE: [ '<32>{#p/human}* (But 546f7269656c was not yet ready to put you to sleep.)' ],
+      act_bedtimeX: [ '<32>{#p/human}* （可是，她已经哄过你了。）' ],
+      act_bedtimeE: [ '<32>{#p/human}* （可是，546f7269656c\n  现在和不想哄你睡觉。）' ],
       bedTalk: [ '<11>{#p/toriel}孩子，晚安。' ],
-      bedStatus: [ '<32>{#p/human}* （Toriel完成了\n  她在这个世界的任务。）' ],
+      bedStatus: [ '<32>{#p/human}* （Toriel完成了自己的使命。）' ],
 
-      act_talkE: [ "<32>{#p/human}* （可是，546f7269656c\n  还未安排好你的一日起居。）" ],
-      act_talkN: [ '<32>{#p/human}* （在消散前，Toriel\n  向你传授了些人生建议。）' ],
+      act_talkE: [ "<32>{#p/human}* （可是，546f7269656c\n  还没有完成她的使命。）" ],
+      act_talkN: [ '<32>{#p/human}* （在消散前，Toriel送给你\n  一则人生心得。）' ],
 
       act_puzzlehelp: [ '<32>{#p/human}* （可是，谜题都解完了。）' ],
       puzzlehelpTalk1: [
@@ -4929,7 +4929,7 @@ export default {
    },
    b_opponent_archive2: {
       name: () => (battler.volatile[0].sparable ? '* Gerson' : '* 476572736f6e'),
-      status0: [ '<32>{#p/human}* （476572736f6e\n  正站在训练场的对侧。）' ],
+      status0: [ '<32>{#p/human}* （476572736f6e\n  正站在训练场的对面。）' ],
       status1: [ '<32>{#p/human}* （476572736f6e让你先出招。）' ],
 
       act_challengeX: [ '<32>{#p/human}* （可是，你已经通过挑战了。）' ],
@@ -4939,99 +4939,99 @@ export default {
       ],
 
       challengeFail: [
-         '<11>{*}{#p/basic}你败了！\n保持{@fill=#ff993d}{@mystify=专注專註传主抟宔}专注{@mystify=}{@fill=#ffffff}！{^30}{%}'
+         '<11>{*}{#p/basic}不合格！\n下回{@fill=#ff993d}{@mystify=专注專註传主抟宔}专注{@mystify=}{@fill=#ffffff}\n一点！{^30}{%}'
       ],
-      failStatus: [ "<32>{#p/human}* （476572736f6e\n  觉得你应该稍作休息。）" ],
-      successStatus: [ '<32>{#p/human}* （Gerson完成了\n  他在这个世界的任务。）' ],
+      failStatus: [ "<32>{#p/human}* （476572736f6e觉得\n  你应该休息一下。）" ],
+      successStatus: [ '<32>{#p/human}* （Gerson完成了自己的使命。）' ],
 
-      act_restA: [ '<32>{#p/human}* （可你用不着休息。）' ],
+      act_restA: [ '<32>{#p/human}* （可是，你现在还不累。）' ],
       restTalk: [
          '<11>{#p/basic}一名\n够格的{@fill=#ff993d}{@mystify=英雄偀䧺央隹䇦难}英雄{@mystify=}{@fill=#ffffff}\n绝不会逞强。'
       ],
-      restStatus: [ '<32>{#p/human}* （476572736f6e\n  对你下次出招满怀期待。）' ],
+      restStatus: [ '<32>{#p/human}* （476572736f6e很期待\n  你下回出什么招。）' ],
 
       act_handshakeE: [ "<32>{#p/human}* （可是，476572736f6e对你的\n  一对一训练还未结束。）" ],
-      act_handshakeN: [ '<32>{#p/human}* （在消散前，Gerson\n  教你了他最喜欢的握手方式。）' ],
+      act_handshakeN: [ '<32>{#p/human}* （在消散前，Gerson把最喜欢的\n  握手方式教给了你。）' ],
 
-      act_taunt: [ '<32>{#p/human}* （可是，476572736f6e\n  无视了你打的手势。）' ],
+      act_taunt: [ '<32>{#p/human}* （可是，476572736f6e\n  无视了你的手势。）' ],
 
-      act_advice: [ '<32>{#p/human}* (But there was no advice left to hear.)' ],
+      act_advice: [ '<32>{#p/human}* （可是，他已经把所有建议\n  都告诉你了。）' ],
       adviceTalk1: [
-         '<11>{#p/basic}处事要{@fill=#ff993d}{@mystify=果断菓斷课颗䉼畨}果断{@mystify=}{@fill=#ffffff}。'
+         '<11>{#p/basic}做事，\n一定要{@fill=#ff993d}{@mystify=果断菓斷课颗䉼畨}果断{@mystify=}{@fill=#ffffff}。'
       ],
       adviceTalk2: [
-         '<11>{#p/basic}To learn is to face {@fill=#ff993d}{@mystify=adversity}adversity{@mystify=}{@fill=#ffffff}.'
+         '<11>{#p/basic}人在{@fill=#ff993d}{@mystify=逆境屰辶竟朔昱圼}逆境{@mystify=}{@fill=#ffffff}中\n才能成长。'
       ],
       adviceTalk3: [
-         '<11>{#p/basic}{@fill=#ff993d}{@mystify=謙遜谦逊兼孙尲荪}谦逊{@mystify=}{@fill=#ffffff}是\n成功的秘诀。'
+         '<11>{#p/basic}学会{@fill=#ff993d}{@mystify=謙遜谦逊兼孙尲荪}谦逊{@mystify=}{@fill=#ffffff}，\n方能成功。'
       ]
    },
    b_opponent_archive3: {
       name: () => (battler.volatile[0].sparable ? '* Roman教授' : '* 526f6d616ee69599e68e88'),
-      status0: [ '<32>{#p/human}* （526f6d616ee69599e68e88\n  掌控了局面。）' ],
-      status1: [ '<32>{#p/human}* （526f6d616ee69599e68e88\n  想在你身上做些试验。）' ],
+      status0: [ '<32>{#p/human}* （现在，\n  是526f6d616ee69599e68e88\n  掌控着大局。）' ],
+      status1: [ '<32>{#p/human}* （526f6d616ee69599e68e88\n  想在你身上做些实验。）' ],
 
-      act_object: [ '<32>{#p/human}* （可是，你的请求被立刻驳回了。）' ],
+      act_object: [ '<32>{#p/human}* （可是，你的请求立刻被驳回了。）' ],
 
-      act_testX: [ '<32>{#p/human}* （可是，你已经完成这个试验了。）' ],
+      act_testX: [ '<32>{#p/human}* （可是，你已经做过这个实验了。）' ],
       testTalkA: [ '<11>请{#p/basic}{@fill=#003cff}{@mystify=站着别动}站着别动{@mystify=}{@fill=#ffffff}...' ],
-      testTalkB: [ '<11>{#p/basic}{@fill=#003cff}{@mystify=有意思的}有意思的{@mystify=}{@fill=#ffffff}\n才刚开始。' ],
+      testTalkB: [ '<11>{#p/basic}{@fill=#003cff}{@mystify=好戏奸妙对戈戋奴}好戏{@mystify=}{@fill=#ffffff}\n才刚刚开始。' ],
       testTalkC: [
-         '<11>{#p/basic}看呐，这就是\n科学探索的\n{@fill=#003cff}{@mystify=力量仂哩艻童劜里}力量{@mystify=}{@fill=#ffffff}。'
+         '<11>{#p/basic}看，这就是\n探寻真理的\n{@fill=#003cff}{@mystify=力量仂哩艻童劜里}力量{@mystify=}{@fill=#ffffff}。'
       ],
-      testStatus1: [ '<32>{#p/human}* （526f6d616ee69599e68e88\n  准备好开展下一场试验了。）' ],
-      testStatus2: [ '<32>{#p/human}* （Roman教授完成了\n  他在这个世界的任务。）' ],
+      testStatus1: [ '<32>{#p/human}* （526f6d616ee69599e68e88\n  准备进行下一场实验了。）' ],
+      testStatus2: [ '<32>{#p/human}* （Roman教授完成了他的使命。）' ],
 
-      act_notesE: [ "<32>{#p/human}* （可是，526f6d616ee69599e68e88\n  还未准备好和你交流笔记。）" ],
-      act_notesN: [ '<32>{#p/human}* （在消散前，Roman教授\n  和你交流了笔记。）' ]
+      act_notesE: [ "<32>{#p/human}* （可是，526f6d616ee69599e68e88\n  还不想跟你交换笔记。）" ],
+      act_notesN: [ '<32>{#p/human}* （在消散前，Roman教授把笔记\n  交给了你。）' ]
    },
    b_opponent_archive4: {
       name: () => (battler.volatile[0].sparable ? '* Napstablook' : '* 4e6170737461626c6f6f6b'),
-      status0: [ '<32>{#p/human}* （4e6170737461626c6f6f6b\n  正飘在电脑桌旁。）' ],
-      status1: [ '<32>{#p/human}* (4e6170737461626c6f6f6b is looking for a new sound.)' ],
+      status0: [ '<32>{#p/human}* （4e6170737461626c6f6f6b\n  正飘在电脑旁。）' ],
+      status1: [ '<32>{#p/human}* （4e6170737461626c6f6f6b\n  想写一首新曲子。）' ],
 
-      act_sampleX: [ '<32>{#p/human}* (But you already have the required samples.)' ],
+      act_sampleX: [ '<32>{#p/human}* （可是，你采集的音频样本\n  已经够用了。）' ],
       sampleTalk: [
-         '<11>{#p/napstablook}这个\n应该{@fill=#d535d9}{@mystify=不错钚錯芣昔否剒}不错{@mystify=}{@fill=#ffffff}...'
+         '<11>{#p/napstablook}这个音色\n效果应该\n{@fill=#d535d9}{@mystify=不错钚錯芣昔否剒}不错{@mystify=}{@fill=#ffffff}...'
       ],
-      sampleStatus: [ '<32>{#p/human}* （4e6170737461626c6f6f6b\n  准备好作曲了。）' ],
+      sampleStatus: [ '<32>{#p/human}* （4e6170737461626c6f6f6b\n  要开始作曲了。）' ],
 
-      act_composeX: [ '<32>{#p/human}* (But you have already finished composing the track.)' ],
-      act_composeE: [ '<32>{#p/human}* (But you have not yet found any samples to compose with.)' ],
+      act_composeX: [ '<32>{#p/human}* （但你已经作完曲了。）' ],
+      act_composeE: [ '<32>{#p/human}* （但你还没有采样，\n  音频样本不够，无法作曲。）' ],
       composeTalk: [
          "<11>{#p/napstablook}来{@fill=#d535d9}{@mystify=听口斤々}听听{@mystify=}{@fill=#ffffff}\n这首怎么样..."
       ],
 
       composeFail: [
-         '<11>{*}{#p/napstablook}唉...\n{@fill=#d535d9}{@mystify=从头来过}从头来过{@mystify=}{@fill=#ffffff}吧...{^30}{%}'
+         '<11>{*}{#p/napstablook}唉...\n{@fill=#d535d9}{@mystify=再来一遍}再来一遍{@mystify=}{@fill=#ffffff}吧...{^30}{%}'
       ],
       failStatus: [ '<32>{#p/human}* （4e6170737461626c6f6f6b\n  想再试一次。）' ],
-      composeStatus: [ '<32>{#p/human}* （4e6170737461626c6f6f6b\n  准备好开始混音了。）' ],
+      composeStatus: [ '<32>{#p/human}* （4e6170737461626c6f6f6b\n  现在要开始混音了。）' ],
 
-      act_mixX: [ '<32>{#p/human}* (But you have already finished mixing the track.)' ],
-      act_mixE: [ '<32>{#p/human}* （可是，你得先创作一首曲子，\n  之后才能进行混音。）' ],
+      act_mixX: [ '<32>{#p/human}* （可是，混音已经完成了。）' ],
+      act_mixE: [ '<32>{#p/human}* （可是，你还没有创作曲子，\n  缺少混音素材。）' ],
       mixTalk: [
-         '<11>{#p/napstablook}remember to keep the {@fill=#d535d9}{@mystify=balance}balance{@mystify=}{@fill=#ffffff} straight...'
+         '<11>{#p/napstablook}我得保证\n各声部音量\n相互{@fill=#d535d9}{@mystify=平衡干衙芈行彳鱼}平衡{@mystify=}{@fill=#ffffff}...'
       ],
 
       mixFail: [
-         "<11>{*}{#p/napstablook}oh...\nlooks like we'll need a {@fill=#d535d9}{@mystify=remix}remix{@mystify=}{@fill=#ffffff}...{^30}{%}"
+         "<11>{*}{#p/napstablook}哦...\n看来咱们要\n{@fill=#d535d9}{@mystify=重新混音}重新混音{@mystify=}{@fill=#ffffff}了...{^30}{%}"
       ],
-      successStatus: [ '<32>{#p/human}* （Napstablook完成了\n  他在这个世界的任务。）' ],
+      successStatus: [ '<32>{#p/human}* （Napstablook完成了它的使命。）' ],
 
-      act_secretE: [ "<32>{#p/human}* （可是，4e6170737461626c6f6f6b\n  还没准备好。）" ],
-      act_secretN: [ '<32>{#p/human}* （在消散前，Napstablook\n  告诉你了个秘密。）' ],
+      act_secretE: [ "<32>{#p/human}* （可是，4e6170737461626c6f6f6b\n  还不想把秘密告诉你。）" ],
+      act_secretN: [ '<32>{#p/human}* （在消散前，Napstablook\n  告诉你一个秘密。）' ],
 
-      act_praise: [ '<32>{#p/human}* (But your kind words fell on invisibly shy ears.)' ]
+      act_praise: [ '<32>{#p/human}* （可是，它太自卑了，\n  没听到你的赞美。）' ]
    },
    b_opponent_archive5: {
       name: () => (battler.volatile[0].sparable ? '* Asgore' : '* 4173676f7265'),
-      status0: [ '<32>{#p/human}* (4173676f7265 stands tall.)' ],
+      status0: [ '<32>{#p/human}* （4173676f7265\n  身材魁梧，站在你的面前。）' ],
       status1: [ '<32>{#p/human}* （4173676f7265\n  只有一件事有求于你。）' ],
 
       act_hugX: [ '<32>{#p/human}* （可是，没必要再抱他一次了。）' ],
       hugTalk: [ '<11>{#p/asgore}孩子，谢谢你。' ],
-      hugStatus: [ '<32>{#p/human}* （Asgore完成了\n  他在这个世界的任务。）' ],
+      hugStatus: [ '<32>{#p/human}* （Asgore完成了他的使命。）' ],
 
       act_promiseE: [ "<32>{#p/human}* （可是，4173676f7265\n  还有任务在身。）" ],
       act_promiseN: [ '<32>{#p/human}* （在消散前，\n  Asgore向你做了个承诺。）' ]
@@ -5982,142 +5982,146 @@ export default {
       name: '* 力场',
       status0: [ '<32>{#p/story}* 此刻，你终于可以直面那道力场。' ],
       act_check: [
-         '<32>{#p/story}* FORCE FIELD - ATK 0 DEF{^2}\u221e{^1}\n* Immovable meets unstoppable.\n* The end of the line.'
+         '<32>{#p/story}* 力场 - 攻击0 防御{^2}\u221e{^1}\n* 矛盾相逢，末路将穷。'
       ],
       status1: () =>
          SAVE.data.n.bully > 9
-            ? [ "<32>{#p/story}* 这就是你的用武之地，\n  点燃你的斗志吧。" ]
-            : [ "<32>{#p/story}* 给这场旅程画上圆满的句号吧。" ],
+            ? [ "<32>{#p/story}* 燃起斗志！\n  把你揍人的劲儿都使出来吧。" ]
+            : [ "<32>{#p/story}* 给这段旅程画上圆满的句号吧。" ],
       status1x: [ '<32>{#p/story}* 除了战斗，别无他法。' ],
-      status2: [ '<32>{#p/story}* 力场上出现裂痕，\n  一块块碎片不断落下。' ],
-      status3: [ '<32>{#p/story}* 那道力场正游走在破碎的边缘。' ],
-      status4: [ '<32>{#p/story}* 那道力场迟迟没有破碎，\n  让你有点意外。' ],
+      status2: [ '<32>{#p/story}* 力场上开始出现裂痕，\n  光芒越来越弱。' ],
+      status3: [ '<32>{#p/story}* 力场即将崩溃。' ],
+      status4: [ '<32>{#p/story}* 力场迟迟没有破碎，\n  让你有些意外。' ],
       status5: [ '<32>{#p/story}* 不太对劲。' ],
       friend1: [ "<20>{#p/asgore}{#e/asgore/5}怎么了？" ],
-      friend2: [ "<20>{#p/alphys}{#e/alphys/15}那道力场...\n还没被击碎！" ],
-      friend3: [ '<20>{#p/asgore}{#e/asgore/12}{#e/alphys/4}...\n清楚为什么吗？' ],
-      friend4a: [ "<20>{#p/alphys}{#e/alphys/6}也许...\n人类还没使上劲儿？", '{*}{#e/alphys/1}{%}' ],
+      friend2: [ "<20>{#p/alphys}{#e/alphys/15}那道力场...\n怎么还没碎啊？！" ],
+      friend3: [ '<20>{#p/asgore}{#e/asgore/12}{#e/alphys/4}...\n你知道原因吗？' ],
+      friend4a: [ "<20>{#p/alphys}{#e/alphys/6}是不是...\n人类没使劲？", '{*}{#e/alphys/1}{%}' ],
       friend4b: [
          "<20>{#p/alphys}不，不是这样...",
          '<20>{#p/alphys}{#e/asgore/1}...',
-         '<20>{#p/alphys}{#e/alphys/2}除非...'
+         '<20>{#p/alphys}{#e/alphys/2}该不会...'
       ],
       friend5: [ '<20>{#p/asgore}...什么？' ],
       friend6: [
-         '<20>{#p/alphys}{#e/alphys/1}我-我检查\n档案日志时，\n发现个怪事...',
-         '<21>{#p/alphys}{#e/alphys/4}There was... a small d-deviation in the exotic matter matrix.'
+         '<20>{#p/alphys}{#e/alphys/1}我-我检查档案日志时，\n发现个怪事...',
+         '<21>{#p/alphys}{#e/alphys/4}我发现...\n“灵势矩阵”中的元素系数\n与理论值存在微小偏差。'
       ],
-      friend7: [ '<20>{#p/asgore}{#e/asgore/12}你是说...？' ],
+      friend7: [ '<20>{#p/asgore}{#e/asgore/12}...啥意思？' ],
       friend8: [
-         '<20>{#p/alphys}有-有人侵入了\n六号档案的系统。',
-         "<20>{#p/alphys}{#e/asgore/1}那家伙可能\n窃取了部分\n人类灵魂的能量。",
-         '<20>{#p/alphys}{#e/alphys/6}等-等我说完，\n也有可能是\n传感器出毛病了...',
-         "<20>{#p/alphys}{#e/alphys/1}不过...\n看那力场..."
+         '<20>{#p/alphys}就是说，\n有-有人入侵了\n六号档案的系统。',
+         "<20>{#p/alphys}{#e/asgore/1}随后，窃取了\n部分人类灵魂的能量。",
+         '<20>{#p/alphys}{#e/alphys/6}别-别着急，\n也可能只是传感器\n出故障了...',
+         "<20>{#p/alphys}{#e/alphys/1}不过...\n从结果来看..."
       ],
-      friend9a: [ '<20>{#p/asgore}{#e/asgore/1}明白了。', '<20>{#p/asgore}{#e/asgore/2}明白了。' ],
+      friend9a: [ '<20>{#p/asgore}{#e/asgore/1}不用说了。', '<20>{#p/asgore}{#e/asgore/2}明白了。' ],
       friend9b: [
-         '<20>{#p/asgore}{#e/asgore/5}我总担心，\n六号档案会不会\n哪一天被篡改...',
-         '<20>{#p/asgore}{#e/asgore/5}不过连我都没想到\n这真的发生了。'
+         '<20>{#p/asgore}{#e/asgore/5}我总担心，\n指不定哪天，\n六号档案就会被篡改...',
+         '<20>{#p/asgore}{#e/asgore/5}没想到真的一语成谶。'
       ],
-      friend9c: [ '<20>{#p/asgore}{#e/asgore/1}怎么办呢？' ],
+      friend9c: [ '<20>{#p/asgore}{#e/asgore/1}那现在怎么办？' ],
       friend10: [
          '<20>{#p/alphys}...再等一个人类？',
-         "<20>{#p/alphys}{#e/alphys/4}对-对不起...\n我不知道还能怎么办了...",
+         "<20>{#p/alphys}{#e/alphys/4}对-对不起...\n我想不到其他办法...",
          '{*}{#e/asgore/8}{#e/alphys/9}{%}'
       ],
-      friend11: [ '<20>{#p/undyne}{#e/undyne/13}我知道啊！' ],
-      friend12: [ '<20>{#p/alphys}{#e/alphys/10}Undyne，\n你-你来这干-干什么？', '{*}{#e/undyne/0}{%}' ],
+      friend11: [ '<20>{#p/undyne}{#e/undyne/13}我有办法啊！' ],
+      friend12: [ '<20>{#p/alphys}{#e/alphys/10}Undyne，\n你-你来这\n干-干什么？', '{*}{#e/undyne/0}{%}' ],
       friend13: [
-         "<20>{#p/undyne}{#e/undyne/1}{#e/alphys/8}{#e/asgore/1}先别说。\n那力场让你们累坏了？"
+         "<20>{#p/undyne}{#e/undyne/1}{#e/alphys/8}{#e/asgore/1}该不会...\n是那破力场\n把你憋屈坏了吧？"
       ],
       friend14: [ '<20>{|}{#p/alphys}{#e/alphys/6}Undyne，你怎么-{%}' ],
-      friend15: [ "<20>{#p/undyne}{#e/undyne/5}看来得我出马了！\n我会亲自将它粉碎！" ],
+      friend15: [ "<20>{#p/undyne}{#e/undyne/5}死力场，看我不把你\n揍个稀碎！" ],
       friend16a: [ '<20>{#p/alphys}{#e/alphys/3}{#e/asgore/6}Undyne！？！？' ],
       friend16b: [
          '<20>{#p/undyne}{#e/undyne/4}我都懂，我都懂。\n只是想让你好受点嘛。',
          '{*}{#e/alphys/1}{%}'
       ],
       friend17: () => [
-         '<20>{#p/undyne}{#e/undyne/3}...说回正事，\n是Sans喊我过来的。\n就他查清人类那事后。',
-         "<20>{#p/undyne}{#e/undyne/11}{#e/asgore/5}不得不说，\n当时我还蛮意外的...\n不过我想开了。",
+         '<20>{#p/undyne}{#e/undyne/3}其实...\n是Sans喊我来的。',
+'<20>{#p/undyne}{#e/undyne/3}刚刚，他去调查人类的下落，\n查清楚后，\n就把我喊了过来。',
+         "<20>{#p/undyne}{#e/undyne/11}{#e/asgore/5}说实话，\n当时我还蛮意外的...\n但现在，我想开了。",
          "<20>{#p/undyne}{#e/undyne/13}这计划能走通，\n我真为你高兴！",
          ...(SAVE.data.b.undyne_respecc
-            ? [ "<20>{#p/undyne}{#e/undyne/0}真昧着良心说\n我喜欢人类也没意思。\n不过，今天表现不错！" ]
+            ? [ "<20>{#p/undyne}{#e/undyne/0}昧着良心说自己\n喜欢人类也没啥意思。\n但今天这孩子真的超赞。" ]
             : [
-                 "<20>{#p/undyne}{#e/undyne/0}I'm not gonna pretend I LIKE humanity, but I'm not against a happy ending, either."
+                 "<20>{#p/undyne}{#e/undyne/0}昧着良心说自己\n喜欢人类也没啥意思。\n但能大团圆，也挺好。"
               ]),
-         '<20>{#p/undyne}{#e/undyne/15}{#e/asgore/6}可能...\n身为皇家卫队的队长，\n我有点...'
+         '<20>{#p/undyne}{#e/undyne/15}{#e/asgore/6}可能...\n我这个大队长，\n当得有点...'
       ],
       friend18: [
          "<20>{#p/alphys}{#e/alphys/32}嘿... 没关系的。",
-         "<20>{#e/alphys/31}You're here now, and that's what matters, right?"
+         "<20>{#e/alphys/31}你愿意放下偏见，\n来到这里，已经很棒了，\n你说是不？"
       ],
-      friend19: [ "<20>{#p/undyne}{#e/undyne/14}Pfft, it's the least I can do after that movie you promised!" ],
+      friend19: [ '<20>{#p/undyne}{#e/undyne/14}嘿，咱俩不是说好\n事成之后\n要一起看电影吗？',
+'<20>{#p/undyne}{#e/undyne/14}那我也不能让你\n白高兴一场啊！' ],
       friend20: [ '<20>{#p/alphys}{#e/alphys/33}...嘴一个？', '{*}{#e/asgore/5}{#e/undyne/19}{%}' ],
       friend21: [ '<20>{#p/asgore}{#e/asgore/5}呃。' ],
       friend22: [ '<20>{#p/undyne}{#e/undyne/6}现在？？？' ],
-      friend23: [ '<20>{#p/alphys}{#e/alphys/34}为啥不呢？' ],
-      friend24: [ '<20>{#p/asgore}{#e/asgore/20}Alphys。\n有个孩子看着你俩呢。' ],
-      friend25: [ "<21>{#p/undyne}{#e/undyne/7}我们还是\n不要当着人家的面了吧？" ],
+      friend23: [ '<20>{#p/alphys}{#e/alphys/34}对啊！' ],
+      friend24: [ '<20>{#p/asgore}{#e/asgore/20}Alphys，\n这里还有个孩子呢。' ],
+      friend25: [ "<21>{#p/undyne}{#e/undyne/7}当着孩子的面亲嘴，\n不太好吧？" ],
       friend26: [ '<32>{#p/alphys}{#e/alphys/32}...' ],
       friend27: [ '<20>{#p/undyne}{#e/undyne/10}...' ],
-      friend28: [ '<20>{*}{#p/alphys}{#e/alphys/35}{#e/undyne/37}{#e/asgore/8}等不及了。{^10}{%}' ],
+      friend28: [ '<20>{*}{#p/alphys}{#e/alphys/35}{#e/undyne/37}{#e/asgore/8}我就是要亲。{^10}{%}' ],
       friend29: [ '<15>{*}{#p/papyrus}{#e/papyrus/22}等等！！！{^10}{%}', '{*}{#e/papyrus/20}{%}' ],
       friend30: () => [
-         "<20>{#p/mettaton}SORRY, LADIES.\nTHE BOYS' CLUB HAS ARRIVED.",
+         "<20>{#p/mettaton}久等了，女士们。\n我们“兄弟会”也\n隆重登场了。",
          ...(SAVE.data.n.state_aerialis_basebully > 9
             ? [
-                 '<20>{#p/mettaton}{#e/mettaton/1}... OH, HELLO THERE $(moniker2u)!\nIF YOU LIKE, YOU CAN BE AN \"HONORARY\" MEMBER...'
+                 '<20>{#p/mettaton}{#e/mettaton/1}...呦，这不是\n“$(moniker2u)”嘛！',
+'<20>{#p/mettaton}{#e/mettaton/1}你要是感兴趣，我请你\n当“兄弟会”的VIP哦。'
               ]
             : [])
       ],
-      friend31: [ "<20>{#p/napstablook}{#e/mettaton/2}{#e/alphys/15}{#e/asgore/1}{~}hey, um... i'm not really a boy..." ],
+      friend31: [ "<20>{#p/napstablook}{#e/mettaton/2}{#e/alphys/15}{#e/asgore/1}{~}嘿，呃...\n我不算男生，\n为什么也要跟过来..." ],
       friend32a: [
-         "<20>{#p/mettaton}{#e/mettaton/1}I NEVER SAID -YOU- WERE IN THE BOYS' CLUB, BLOOKY...",
-         "<20>{#p/mettaton}{#e/undyne/38}{#e/papyrus/21}IT'S PRETTY MUCH JUST BETWEEN ME AND PAPYRUS."
+         "<20>{#p/mettaton}{#e/mettaton/1}BLOOKY，我也【没】说\n你在“兄弟会”里啊...",
+         "<20>{#p/mettaton}{#e/undyne/38}{#e/papyrus/21}其实，说是”兄弟会“，\n但里面也就我跟\nPAPYRUS两人而已。"
       ],
-      friend32b: [ '<20>{#p/napstablook}{~}哦......', "<20>{#p/napstablook}{~}那我等会回来" ],
+      friend32b: [ '<20>{#p/napstablook}{~}哦......', "<20>{#p/napstablook}{~}那我等会再过来吧" ],
       friend33: [
-         '<20>{#p/undyne}{#e/undyne/19}{#e/mettaton/4}Wait.',
-         '<20>{#p/undyne}{#e/undyne/10}合着你俩是一对？？？'
+         '<20>{#p/undyne}{#e/undyne/19}{#e/mettaton/4}等等。',
+         '<20>{#p/undyne}{#e/undyne/10}合着你俩也是一对？？？'
       ],
       friend34: [
-         '<15>{#p/papyrus}{#e/papyrus/15}CORRECTAMUNDO!',
-         '<17>{#p/papyrus}{#e/papyrus/24}... A WORD I HAVE NEVER USED BEFORE, AND HOPEFULLY NEVER WILL AGAIN.'
+         '<15>{#p/papyrus}{#e/papyrus/15}诚如斯言！',
+         '<17>{#p/papyrus}{#e/papyrus/24}...这词我今天\n第一次用，\n怕是以后用不上了。'
       ],
       friend35: () =>
          SAVE.data.b.a_state_hapstablook
-            ? [ "<20>{#p/undyne}{#e/undyne/17}So THAT's what you've been up to all this time..." ]
-            : [ '<20>{#p/undyne}{#e/undyne/17}So THAT\'s what your \"business\" was about...' ],
+            ? [ "<20>{#p/undyne}{#e/undyne/17}原来你充满电之后，\n跑去约会了..." ]
+            : [ '<20>{#p/undyne}{#e/undyne/17}原来你说的“正事”，\n就是跑去约会...' ],
       friend36: [
-         "<20>{#p/mettaton}{#e/mettaton/1}{#e/asgore/6}{#e/papyrus/20}OHHHH YES!\nIN FACT, WE WERE JUST DISCUSSING HOW WE'D SPEND OUR FIRST DAY OUT."
+         '<20>{#p/mettaton}{#e/mettaton/1}{#e/asgore/6}{#e/papyrus/20}那~必须滴！',
+'<20>{#p/mettaton}{#e/mettaton/1}{#e/asgore/6}{#e/papyrus/20}刚才，我俩还寻思\n第一天在一起，\n咋享受呢。'
       ],
       friend37: [ '<20>{#p/alphys}{#e/alphys/34}{#e/undyne/1}{#e/mettaton/4}诶嘿嘿。\n我有个点子，\n你俩要不要听听。' ],
       friend38: [
-         "<20>{#p/undyne}{#e/undyne/19}{#e/asgore/1}Uh, I don't think they'd be into that kinda stuff, Alphys."
+         "<20>{#p/undyne}{#e/undyne/19}{#e/asgore/1}呃，Alphys。\n我觉得，他俩不可能\n真成一对的。"
       ],
       friend39: [ '<20>{#p/alphys}{#e/alphys/8}哦。' ],
       friend40: [
-         "<15>{#p/papyrus}{#e/papyrus/10}{#e/undyne/0}何不消遣一下呢！\n就在这力场下！",
-         '<15>{#e/mettaton/2}{#e/papyrus/28}I KNOW YOU LOVE YOUR \"EXOTIC\" DESTINATIONS...',
+         "<15>{#p/papyrus}{#e/papyrus/10}{#e/undyne/0}咱都到力场下了，\n就好好玩一会呗！",
+         '<15>{#e/mettaton/2}{#e/papyrus/28}你喜欢那些\n充满“异域风情”的地方，\n我懂的...',
          '{*}{#e/alphys/7}{#e/asgore/5}{%}'
       ],
       friend41: [
-         '<20>{#p/mettaton}{#e/mettaton/2}哦，PAPYRUS，\n你好懂我。',
-         "<20>{#p/mettaton}{#e/mettaton/1}{#e/papyrus/13}凝望这虚无的深空，\n我可太爱了。",
-         '<20>{|}{#p/mettaton}{#e/mettaton/3}{#e/papyrus/21}ALL WHILE CONTEMPLATING THE MEANING OF LIFE, THE UNIVERSE, AND- {%}'
+         '<20>{#p/mettaton}{#e/mettaton/2}哦，PAPYRUS，\n咱俩真是心有灵犀。',
+         "<20>{#p/mettaton}{#e/mettaton/1}{#e/papyrus/13}我最喜欢的事，\n就是凝望这无尽虚空。",
+         '<20>{|}{#p/mettaton}{#e/mettaton/3}{#e/papyrus/21}这时，我就想起\n生命的奥义，\n宇宙的美丽，还有- {%}'
       ],
-      friend42: [ '<20>{#p/sans}{#e/sans/2}{#e/undyne/21}{#e/alphys/8}大伙好哇。' ],
+      friend42: [ '<20>{#p/sans}{#e/sans/2}{#e/undyne/21}{#e/alphys/8}大伙好呀。' ],
       friend43: [ '<15>{#p/papyrus}{#e/papyrus/10}{#e/mettaton/3}兄弟，好久不见！' ],
       friend44: [
-         '<16>{#p/papyrus}{#e/sans/0}{#e/papyrus/26}IT WOULD APPEAR MY PARTNER IS... STILL NEW TO\nTHE WHOLE \"IN- LAWS\" THING.'
+         '<16>{#p/papyrus}{#e/sans/0}{#e/papyrus/26}看来...\n我的搭档对“结婚”\n没啥经验。'
       ],
-      friend45: [ '<20>{#p/sans}{#e/alphys/7}嘿。\nasgore，你好哇。' ],
+      friend45: [ '<20>{#p/sans}{#e/alphys/7}嘿。asgore，\n你好呀。' ],
       friend46: [ '<20>{#p/asgore}{#e/asgore/6}{#e/papyrus/20}哈喽，Sans。\n你也来了，真好。' ],
       friend47: [
-         "<20>{#p/sans}{#e/sans/3}啊，你该知道...\n听到这里这么热闹，\n我肯定会顺道来看看的。",
-         '<20>{#p/sans}{#e/sans/0}不过先别管我了。',
-         "<20>{#p/sans}{#e/sans/2}有个人你肯定想见见，\n我请来了。"
+         "<20>{#p/sans}{#e/sans/3}你瞧...\n这儿这么热闹，\n我肯定要顺道看看咯。",
+         '<20>{#p/sans}{#e/sans/0}不过先别管我。',
+         "<20>{#p/sans}{#e/sans/2}有个人你肯定想见见，\n我把“她”请过来了。"
       ],
       friend48: [
          '<20>{#p/asgore}{#e/sans/0}{#e/undyne/3}{#e/asgore/8}{#e/papyrus/26}Tori...！',
@@ -6126,71 +6130,71 @@ export default {
       ],
       friend49a: [
          '<20>{#p/toriel}{#e/asgore/5}{#e/toriel/9}...',
-         '<21>{#p/toriel}{#e/toriel/13}Sans...\n把事都跟我说了。'
+         '<21>{#p/toriel}{#e/toriel/13}你做的那些...\nSans都跟我说了。'
       ],
-      friend50a: [ "<20>{#p/alphys}{#e/undyne/4}{#e/alphys/8}别瞅我看，\n不是我告诉他的。" ],
+      friend50a: [ "<20>{#p/alphys}{#e/undyne/4}{#e/alphys/8}瞅我干嘛，\n我可没泄露秘密。" ],
       friend51a: [
          "<20>{#p/sans}{#e/sans/0}我可以作证。",
-         "<20>{#p/sans}{#e/sans/2}{#e/alphys/10}{#e/asgore/6}{#e/toriel/9}只是你的说谎艺术\n太烂了。"
+         "<20>{#p/sans}{#e/sans/2}{#e/alphys/10}{#e/asgore/6}{#e/toriel/9}只是，alphys，\n你撒谎的技术\n实在太烂了。"
       ],
       friend52a1: [
-         '<20>{#p/asgore}{#e/undyne/0}{#e/sans/0}{#e/alphys/36}{#e/papyrus/20}I must say, I definitely expected more backlash for my keeping of secrets.'
+         '<20>{#p/asgore}{#e/undyne/0}{#e/sans/0}{#e/alphys/36}{#e/papyrus/20}我瞒了这么多，\n以为会被民众唾骂，\n甚至引发暴动...'
       ],
       friend52a2: [
-         '<20>{#p/toriel}{#e/toriel/13}{#e/asgore/1}I will admit, I was upset at first, but...',
-         '<20>{#p/toriel}{#e/toriel/13}{#e/papyrus/21}{#e/alphys/7}Lately, I have been thinking more and more about my own mistakes.',
-         '<20>{#p/toriel}{#e/toriel/9}... you are not the only one with things to answer for, Asgore.'
+         '<20>{#p/toriel}{#e/toriel/13}{#e/asgore/1}说实话，一开始，\n听说你有事瞒着我，\n真挺生气的...',
+         '<20>{#p/toriel}{#e/toriel/13}{#e/papyrus/21}{#e/alphys/7}后来转念一想，\n事情落到这地步，\n我也有错。',
+         '<20>{#p/toriel}{#e/toriel/9}...不该把责任\n全推给你，Asgore。'
       ],
       friend52a3: [ '<20>{#p/asgore}{#e/asgore/2}明白了。' ],
       friend53a: [
-         '<20>{#p/undyne}{#e/undyne/1}{#e/papyrus/20}I mean, come on, did you really think we wanted all humans to die?'
+         '<20>{#p/undyne}{#e/undyne/1}{#e/papyrus/20}你就想嘛，\n怪物们再恨人类，\n也不可能见人就杀吧？'
       ],
       friend49b: [
          '<20>{#p/toriel}{#e/toriel/12}...',
-         '<21>{#p/toriel}{#e/sans/3}{#e/asgore/2}{#e/undyne/4}{#e/toriel/11}{#e/papyrus/21}{#e/alphys/15}You could have told me you were protecting them.'
+         '<21>{#p/toriel}{#e/sans/3}{#e/asgore/2}{#e/undyne/4}{#e/toriel/11}{#e/papyrus/21}{#e/alphys/15}Asgore，\n为什么不早点告诉我，\n自己在保护人类呢？'
       ],
-      friend50b: [ "<20>{#p/alphys}{#e/alphys/7}... it's not THAT bad, is it?" ],
+      friend50b: [ "<20>{#p/alphys}{#e/alphys/7}...现在误会解开了，\n不也挺好的嘛？" ],
       friend51b: [
-         '<20>{#p/sans}{#e/sans/0}{#e/undyne/3}yeah, come on, tori.\nlighten up.',
-         "<20>{#p/sans}{#e/sans/2}{#e/alphys/8}{#e/asgore/5}{#e/toriel/13}he did a good thing, didn't he?"
+         '<20>{#p/sans}{#e/sans/0}{#e/undyne/3}是啊，tori。\n别上火了，开心一点嘛。',
+         "<20>{#p/sans}{#e/sans/2}{#e/alphys/8}{#e/asgore/5}{#e/toriel/13}asgore不也是\n出于好意嘛？"
       ],
       friend52b1: [
-         '<20>{#p/asgore}{#e/undyne/0}{#e/sans/0}{#e/asgore/2}{#e/alphys/36}No, no, she is right in being angry.',
-         '<20>{#e/sans/3}{#e/asgore/3}I have kept this from her... from everyone... for much too long.'
+         '<20>{#p/asgore}{#e/undyne/0}{#e/sans/0}{#e/asgore/2}{#e/alphys/36}不，不。\n她生我的气，我不怪她。',
+         '<20>{#e/sans/3}{#e/asgore/3}这秘密我藏着掖着...\n不跟她说...\n也不跟大伙说...'
       ],
-      friend52b2: [ "<20>{#p/undyne}{#e/undyne/1}{#e/asgore/1}But you had a good reason, didn't you?" ],
+      friend52b2: [ "<20>{#p/undyne}{#e/undyne/1}{#e/asgore/1}你不是有苦衷嘛。" ],
       friend52b3: [
-         '<20>{#p/asgore}{#e/undyne/17}{#e/alphys/8}{#e/toriel/9}{#e/asgore/2}{#e/papyrus/27}Perhaps.\nIt is hard to tell.'
+         '<20>{#p/asgore}{#e/undyne/17}{#e/alphys/8}{#e/toriel/9}{#e/asgore/2}{#e/papyrus/27}也许吧，\n不好说算不算苦衷。'
       ],
-      friend53b: [ '<20>{#p/undyne}{#e/undyne/1}Still, did you really think we wanted all humans to die?' ],
+      friend53b: [ '<20>{#p/undyne}{#e/undyne/1}还是那句话，\n我们再恨人类，\n也不可能见人就杀吧？' ],
       friend54: [
-         '<20>{#p/alphys}{#e/asgore/5}{#e/undyne/17}{#e/alphys/8}{#e/toriel/13}You literally tried to kill them, Undyne.'
+         '<20>{#p/alphys}{#e/asgore/5}{#e/undyne/17}{#e/alphys/8}{#e/toriel/13}可Undyne，\n你不是一见到这孩子，\n就到处追杀吗？'
       ],
-      friend55: [ '<20>{#p/toriel}{#e/undyne/18}{#e/toriel/3}{#e/asgore/5}She... what?' ],
+      friend55: [ '<20>{#p/toriel}{#e/undyne/18}{#e/toriel/3}{#e/asgore/5}她...\n干了什么？' ],
       friend56: () =>
          SAVE.data.b.undyne_respecc
-            ? [ '<20>{#p/undyne}{#e/undyne/9}{#e/toriel/4}I did no such thing!!!' ]
-            : [ "<20>{#p/undyne}{#e/undyne/13}{#e/toriel/4}Don't worry about it, I changed my mind." ],
+            ? [ '<20>{#p/undyne}{#e/undyne/9}{#e/toriel/4}我啥也没干啊！！！' ]
+            : [ "<20>{#p/undyne}{#e/undyne/13}{#e/toriel/4}你放心，\n我现在不杀人了。" ],
       friend57: () =>
          SAVE.data.b.undyne_respecc
-            ? [ '<20>{#p/toriel}{#e/toriel/15}{#e/asgore/6}... are you sure about that, miss?' ]
-            : [ '<20>{#p/toriel}{#e/toriel/15}{#e/asgore/6}... we are going to have a talk about this later, miss.' ],
-      friend58: [ '<20>{#p/alphys}{#e/alphys/33}Ahem, that\'s \"misses\" to you.' ],
+            ? [ '<20>{#p/toriel}{#e/toriel/15}{#e/asgore/6}...真的吗，\n大姐？' ]
+            : [ '<20>{#p/toriel}{#e/toriel/15}{#e/asgore/6}...等会我好好问问，\n大姐。' ],
+      friend58: [ '<20>{#p/alphys}{#e/alphys/33}咳咳，\n“姐”什么“姐”啊，\n她可是有对象的人了。' ],
       friend59: [
-         "<20>{#p/undyne}{#e/undyne/10}{#e/sans/4}{#e/toriel/12}Alphys!!\nWe haven't even had dinner together!"
+         "<20>{#p/undyne}{#e/undyne/10}{#e/sans/4}{#e/toriel/12}Alphys！！\n咱俩到现在\n还没共进过晚餐呢！"
       ],
-      friend60: [ '<20>{#p/alphys}{#e/alphys/34}Dinner?\nI was just gonna skip to dessert.' ],
-      friend61: [ '<15>{#p/papyrus}{#e/undyne/19}{#e/papyrus/19}{#e/asgore/4}{#e/sans/5}{#e/alphys/40}OH MY GOD!!!' ],
+      friend60: [ '<20>{#p/alphys}{#e/alphys/34}共进晚餐？\n那我肯定不吃主食，\n直接奔着甜品去了。' ],
+      friend61: [ '<15>{#p/papyrus}{#e/undyne/19}{#e/papyrus/19}{#e/asgore/4}{#e/sans/5}{#e/alphys/40}我滴妈呀！！！' ],
       friend62: [
-         '<20>{#p/undyne}{#e/undyne/38}{#e/sans/0}{#e/asgore/1}{#e/toriel/13}{#e/papyrus/20}... hold on.',
-         '<20>{#p/undyne}{#e/undyne/18}{#e/papyrus/21}How did YOU know to be here, Papyrus?'
+         '<20>{#p/undyne}{#e/undyne/38}{#e/sans/0}{#e/asgore/1}{#e/toriel/13}{#e/papyrus/20}...等一下。',
+         '<20>{#p/undyne}{#e/undyne/18}{#e/papyrus/21}Papyrus，\n你是咋找到这儿的？'
       ],
       friend63: [
-         '<15>{#p/papyrus}{#e/papyrus/10}OH, RIGHT!\nAFTER METTATON AND I WERE DONE TALKING...',
-         '<15>{#p/papyrus}{#e/papyrus/20}A LITTLE YELLOW STAR APPEARED AND TOLD US WE SHOULD COME.',
-         '<15>{#p/papyrus}{#e/papyrus/21}{#e/alphys/9}{#e/sans/1}它好像...\n还蛮着急的。'
+         '<15>{#p/papyrus}{#e/papyrus/10}哦，想起来了！\n当时，我正跟METTATON\n聊天，聊完后...',
+         '<15>{#p/papyrus}{#e/papyrus/20}有颗黄色小星星\n突然冒出来，\n让我俩来这。',
+         '<15>{#p/papyrus}{#e/papyrus/21}{#e/alphys/9}{#e/sans/1}它好像...\n还挺着急的。'
       ],
-      friend64: [ '<20>{#p/toriel}{#e/toriel/9}{#e/asgore/12}Twinkly。' ],
+      friend64: [ '<20>{#p/toriel}{#e/toriel/9}{#e/asgore/12}是Twinkly。' ],
       friend65: [
          '<20>{#p/undyne}{#e/alphys/15}Twinkly？',
          "<20>{#p/undyne}{#e/alphys/28}{#e/undyne/37}{#e/toriel/3}Twinkly是谁？"
@@ -6198,227 +6202,227 @@ export default {
       friend66: () =>
          SAVE.flag.n.genocide_milestone < 7
             ? [
-                 [ '<20>{#p/twinkly}{#e/twinkly/5}{#v/0}大伙儿好哇。', '<20>{#e/twinkly/7}{#v/0}想我了没？' ],
+                 [ '<20>{#p/twinkly}{#e/twinkly/5}{#v/0}哈喽。', '<20>{#e/twinkly/7}{#v/0}各位，想我了没？' ],
                  [
-                    "<20>{#p/twinkly}{#e/twinkly/11}{#v/0}Oh, I'm sorry...\nDid something happen to your SAVE file?",
+                    "<20>{#p/twinkly}{#e/twinkly/11}{#v/0}哎呀，真不好意思呢...\n存档是不是坏掉了呀？",
                     '<20>{#p/twinkly}{#e/twinkly/11}{#v/0}嘻嘻嘻...',
-                    "<20>{#p/twinkly}{#e/twinkly/2}{#v/1}That's what you get."
+                    "<20>{#p/twinkly}{#e/twinkly/2}{#v/1}活该。"
                  ],
-                 [ '<20>{#p/twinkly}{#e/twinkly/7}{#v/0}Sorry, but this world belongs to ME now.' ]
+                 [ '<20>{#p/twinkly}{#e/twinkly/7}{#v/0}不好意思呢。\n但现在，\n整个世界，我说了算。' ]
               ][Math.min(SAVE.flag.n.pa_twinkly1++, 2)]
             : [
                  [
-                    '<20>{#p/twinkly}{#e/twinkly/5}{#v/0}Long time no see, $(name).',
-                    "<20>{#e/twinkly/7}{#v/0}It's been a while, hasn't it?",
-                    "<20>{#e/twinkly/11}{#v/0}I hope I'm not getting in the way of your fun...",
-                    '<20>{#e/twinkly/2}{#v/1}Considering you ROBBED me of mine.'
+                    '<20>{#p/twinkly}{#e/twinkly/5}{#v/0}亲爱的$(name)，\n好久不见。',
+                    "<20>{#e/twinkly/7}{#v/0}是不是想死我了？",
+                    "<20>{#e/twinkly/11}{#v/0}希望我没让你\n扫兴呢...",
+                    '<20>{#e/twinkly/2}{#v/1}告诉你，\n我可被你折磨得够呛。'
                  ],
                  [
-                    "<20>{#p/twinkly}{#e/twinkly/11}{#v/0}What's that?\nYou want your SAVE file back?",
-                    '<20>{#p/twinkly}{#e/twinkly/11}{#v/0}Oh, $(name)...',
-                    "<20>{#p/twinkly}{#e/twinkly/2}{#v/1}You're even dumber than I thought!"
+                    "<20>{#p/twinkly}{#e/twinkly/11}{#v/0}怎么啦？\n想把存档要回去？",
+                    '<20>{#p/twinkly}{#e/twinkly/11}{#v/0}哦...',
+                    "<20>{#p/twinkly}{#e/twinkly/2}{#v/1}没想到啊，$(name)...\n你咋能蠢成这样呢？"
                  ],
-                 [ '<20>{#p/twinkly}{#e/twinkly/7}{#v/0}Sorry, $(name).\nThis world belongs to ME now.' ]
+                 [ '<20>{#p/twinkly}{#e/twinkly/7}{#v/0}不好意思呢，$(name)。\n但现在，\n整个世界，我说了算。' ]
               ][Math.min(SAVE.flag.n.pa_twinkly1++, 2)],
       friend67: (unique: string[]) => [
          '<20>{#e/twinkly/11}{#v/0}嘻嘻嘻...',
-         '<20>{#e/twinkly/11}{#v/0}While you were having your little pow-wow...',
-         '<20>{#e/twinkly/5}{#v/0}我篡取了六号档案的\n控制权！',
-         '<20>{#e/twinkly/10}{#v/0}Now, all the SOUL power you had access to belongs to me.',
-         "<20>{#e/twinkly/9}{#v/0}THAT's why you couldn't finish off the force field.",
-         "<20>{#e/twinkly/11}{#v/0}Poetic, isn't it?",
-         "<20>{#e/twinkly/7}{#v/0}这都还不是最棒的呢。",
+         '<20>{#e/twinkly/11}{#v/0}趁着你们谈笑风生...',
+         '<20>{#e/twinkly/5}{#v/0}我把六号档案的\n控制权夺过来了！',
+         '<20>{#e/twinkly/10}{#v/0}现在，你辛辛苦苦\n收集的灵魂之力，\n都是我的啦！',
+         "<20>{#e/twinkly/9}{#v/0}没了力量，\n你能打破力场就怪了。",
+         "<20>{#e/twinkly/11}{#v/0}真是悲惨呢，\n此情此景，\n要不要吟诗一首呢？",
+         "<20>{#e/twinkly/7}{#v/0}别急，\n还有更棒的呢。",
          '<20>{#e/twinkly/6}{#v/0}...',
-         "<20>{#e/twinkly/5}{#v/0}更棒的是，\n这些都是你的错。",
+         "<20>{#e/twinkly/5}{#v/0}更棒的是，\n这一切，都是你的错。",
          ...(30 <= SAVE.data.n.bully
             ? [
-                 "<20>{#e/twinkly/5}{#v/0}是你，逼着他们爱上了你。",
-                 '<20>{#e/twinkly/8}{#v/0}这一路上，\n你总是把他们\n打个半死...',
-                 '<20>{#e/twinkly/8}{#v/0}但又总是对他们\n施以仁慈...'
+                 "<20>{#e/twinkly/5}{#v/0}是你，给他们洗脑，\n让他们对你好。",
+                 '<20>{#e/twinkly/8}{#v/0}一路上，\n你揍他们，你欺负他们，\n你把他们打得半死...',
+                 '<20>{#e/twinkly/8}{#v/0}看他们要死了，\n你就停手，\n让他们苟活...'
               ]
             : [
-                 "<20>{#e/twinkly/5}{#v/0}It's all because you MADE them love you.",
-                 '<20>{#e/twinkly/8}{#v/0}All the time you spent listening to them...',
-                 '<20>{#e/twinkly/8}{#v/0}Encouraging them... caring about them...'
+                 "<20>{#e/twinkly/5}{#v/0}是你，善待他们，\n让他们对你好。",
+                 '<20>{#e/twinkly/8}{#v/0}一路上，\n你倾听他们的烦恼...',
+                 '<20>{#e/twinkly/8}{#v/0}鼓励他们... \n关心他们...'
               ]),
          ...(1 <= SAVE.flag.n.killed_sans
             ? [
                  '<20>{#e/twinkly/8}{#v/0}...',
-                 '<20>You know, $(name)...',
-                 '<20>{#e/twinkly/5}I remember a timeline where WE were going to kill everyone.',
+                 '<20>$(name)，我记得...',
+                 '<20>{#e/twinkly/5}在某条时间线里，\n我们俩同心协力\n杀死每一个人。',
                  ...(SAVE.flag.b.confront_twinkly
                     ? [
-                         '<20>{#e/twinkly/6}{#v/0}But then... you decided to abandon me.',
-                         '<20>{#e/twinkly/8}{#v/0}All so you could play the hero to THESE losers.',
-                         '<20>{#e/twinkly/7}{#v/0}Some \"best friend\" you are, huh?'
+                         '<20>{#e/twinkly/6}{#v/0}可是...\n你却背叛我，\n自己跑去当“老好人”。',
+                         '<20>{#e/twinkly/8}{#v/0}这样，\n你就能在这些废物面前\n逞英雄。',
+                         '<20>{#e/twinkly/7}{#v/0}好一个“最好的朋友”啊。'
                       ]
                     : [
                          [
-                            '<20>{#e/twinkly/8}We only just started, but with the way we were going?',
-                            "<20>{#e/twinkly/8}We didn't get very far, but with the way we were going?",
-                            "<20>{#e/twinkly/8}We didn't quite make it to the end, but with the way we were going?",
-                            '<20>{#e/twinkly/8}To think we were actually getting somewhere...',
-                            '<20>{#e/twinkly/8}To think we were THIS close...'
+                            '<20>{#e/twinkly/8}没错，咱俩是没走几步，\n可你就因此把我们的\n愿景忘了，是吧？',
+                            "<20>{#e/twinkly/8}没错，咱俩是没走多远，\n可你就因此把我们的\n愿景忘了，是吧？",
+                            "<20>{#e/twinkly/8}没错，咱是离终点还远，\n可你就因此把我们的\n愿景忘了，是吧？",
+                            '<20>{#e/twinkly/8}咱俩都走那么远了，\n你却...',
+                            '<20>{#e/twinkly/8}咱俩都快成功了，\n你却...'
                          ][Math.min(SAVE.flag.n.genocide_milestone, 4)],
-                         '<20>{#e/twinkly/5}{#v/0}Oooh, we would have been INSEPARABLE.',
-                         '<20>{#e/twinkly/6}{#v/0}But it seems the game has changed.',
-                         '<20>{#e/twinkly/11}{#v/0}You went soft!',
-                         '<20>{#e/twinkly/7}{#v/0}You gave up.'
+                         '<20>{#e/twinkly/5}{#v/0}本以为，\n我们会形影不离。',
+                         '<20>{#e/twinkly/6}{#v/0}可时代变了。',
+                         '<20>{#e/twinkly/11}{#v/0}你成了软蛋！',
+                         '<20>{#e/twinkly/7}{#v/0}你放弃了追求。'
                       ]),
-                 "<20>{#e/twinkly/9}{#v/0}Golly, aren't you full of yourself.",
-                 '<20>{#e/twinkly/5}Thinking you\'re so high and mighty for being the \"good guy\" here...',
-                 '<20>{#e/twinkly/6}{#v/0}When all you did was prove how ROTTEN you really are.',
-                 '<20>{#e/twinkly/7}{#v/0}You should have known better, $(name).',
-                 '<21>{#e/twinkly/2}{#v/1}There was NOTHING\nyou could have done to save your friends.'
+                 "<20>{#e/twinkly/9}{#v/0}呵呵，\n真自以为是啊。",
+                 '<20>{#e/twinkly/5}杀了人，又跑回来\n当“老好人”，是不是\n觉得自己可了不起了？',
+                 '<20>{#e/twinkly/6}{#v/0}真恶心。',
+                 '<20>{#e/twinkly/7}{#v/0}$(name)，\n有点自知之明吧。',
+                 '<21>{#e/twinkly/2}{#v/1}想救朋友？\n门都没有。'
               ]
             : 30 <= SAVE.data.n.bully
-            ? [ "<20>{#e/twinkly/5}{#v/0}你真该早点意识到\n这多没劲。" ]
-            : [ "<20>{#e/twinkly/5}{#v/0}Without that, they wouldn't have come here." ]),
+            ? [ "<20>{#e/twinkly/5}{#v/0}你不知道，这么做\n根本屁用没有吗？" ]
+            : [ "<20>{#e/twinkly/5}{#v/0}没有这些，\n你的朋友绝不会\n来到这里。" ]),
          '<20>{#e/twinkly/11}{#v/0}嘻嘻嘻...',
-         '<20>{#e/twinkly/6}{#v/0}你说啥？',
-         '<20>我为什么还要这么做？',
+         '<20>{#e/twinkly/6}{#v/0}啥？',
+         '<20>想知道，我这么做图啥？',
          ...(unique.length > 2
             ? [
                  '<20>{#e/twinkly/5}{#v/0}...呵，别装傻了。',
-                 '<20>{#e/twinkly/5}{#v/0}先问问你自己吧。',
+                 '<20>{#e/twinkly/5}{#v/0}先问问你自己。',
                  "<20>{#e/twinkly/11}{#v/0}你不也喜欢\n体验各种结局嘛...",
                  '<20>{#e/twinkly/7}{#v/0}你不也为了满足好奇心，\n玩弄他们的生命嘛。',
                  "<20>{#e/twinkly/8}{#v/0}...哈？\n你不记得了？\n那我帮你回忆回忆。",
                  {
-                    dark_death: '<20>{#e/twinkly/5}{#v/0}从Undyne和Alphys\n追杀你的那个结局\n算起...',
-                    dark_undyne: '<20>{#e/twinkly/5}{#v/0}From the one where Alphys returned to Bratty and Catty...',
-                    dark_alphys: '<20>{#e/twinkly/5}{#v/0}From the one where almost everyone important had died...',
+                    dark_death: '<20>{#e/twinkly/5}{#v/0}第一个结局里，\nUndyne和Alphys\n联合追杀你...',
+                    dark_undyne: '<20>{#e/twinkly/5}{#v/0}第一个结局里，\nAlphys回到了\nBratty和Catty身边...',
+                    dark_alphys: '<20>{#e/twinkly/5}{#v/0}第一个结局里，\n几乎所有重要的人，\n都死于你手...',
                     dark_alphys_therapy:
-                       '<20>{#e/twinkly/5}{#v/0}From the one where Sans and Papyrus had a therapy company...',
+                       '<20>{#e/twinkly/5}{#v/0}第一个结局里，\nSans和Papyrus\n一起开了家医疗公司...',
                     dark_alphys_virtual:
-                       '<20>{#e/twinkly/5}{#v/0}From the one where Papyrus and Alphys escaped into a virtual world...',
+                       '<20>{#e/twinkly/5}{#v/0}第一个结局里，\nPapyrus和Alphys\n躲进了虚拟空间...',
                     dark_mew:
-                       '<20>{#e/twinkly/5}{#v/0}From the one where Mad Mew Mew made everyone go along with her nonsense...',
+                       '<20>{#e/twinkly/5}{#v/0}第一个结局里，\n愤怒喵喵让大伙都\n沉浸在她的怪癖中...',
                     dark_charles:
-                       "<20>{#e/twinkly/5}{#v/0}From the one where Charles brought everyone's fantasies to life...",
+                       "<20>{#e/twinkly/5}{#v/0}第一个结局里，\nCharles让每个人都\n心想事成...",
                     dark_blooky:
-                       "<20>{#e/twinkly/5}{#v/0}From the one where Mettaton's fans formed an anti-human collective...",
-                    dark_generic: '<20>{#e/twinkly/5}{#v/0}From the one where the \"Royal Defense Agency\" was formed...',
+                       "<20>{#e/twinkly/5}{#v/0}第一个结局里，\nMettaton的粉丝自发\n组建起一个反人类联盟...",
+                    dark_generic: '<20>{#e/twinkly/5}{#v/0}第一个结局里，\n前哨站成立了\n“皇家防卫署”...',
                     dark_aborted:
-                       '<20>{#e/twinkly/5}{#v/0}From the one where Napstablook told you to die a \"painful death...\"',
+                       '<20>{#e/twinkly/5}{#v/0}第一个结局里，\nNapstablook诅咒你\n死后“万劫不复”...',
                     light_ultra:
-                       '<20>{#e/twinkly/5}{#v/0}From the one where Papyrus captured you and got into the guard...',
-                    light_undyne: '<20>{#e/twinkly/5}{#v/0}From the one where Alphys had to hide the humans away...',
-                    light_runaway: '<20>{#e/twinkly/5}{#v/0}From the one where the humans were accidentally exposed...',
-                    light_toriel: '<20>{#e/twinkly/5}{#v/0}From the one where Toriel shut herself off from everyone...',
-                    light_dog: '<20>{#e/twinkly/5}{#v/0}From the one where dogs took over the outpost...',
-                    light_muffet: '<20>{#e/twinkly/5}{#v/0}From the one where Muffet became a ruthless dictator...',
+                       '<20>{#e/twinkly/5}{#v/0}第一个结局里，\nPapyrus抓到了你，\n最终当上了皇家守卫...',
+                    light_undyne: '<20>{#e/twinkly/5}{#v/0}第一个结局里，\nAlphys迫于压力，\n把其他人类藏了起来...',
+                    light_runaway: '<20>{#e/twinkly/5}{#v/0}第一个结局里，\n民众意外知道了\n那些人类的去向...',
+                    light_toriel: '<20>{#e/twinkly/5}{#v/0}第一个结局里，\nToriel从大众视野里\n消失了...',
+                    light_dog: '<20>{#e/twinkly/5}{#v/0}第一个结局里，\n犬卫队成了前哨站的\n实际统治力量...',
+                    light_muffet: '<20>{#e/twinkly/5}{#v/0}第一个结局里，\nMuffet夺取权力，\n成为无情的独裁者...',
                     light_papyrus:
-                       '<20>{#e/twinkly/5}{#v/0}From the one where the power of friendship reigned supreme...',
-                    light_sans: '<20>{#e/twinkly/5}{#v/0}From the one where Sans ended up as the king...',
-                    light_generic: '<20>{#e/twinkly/5}{#v/0}From the one where Terrestria was appointed as queen...'
+                       '<20>{#e/twinkly/5}{#v/0}第一个结局里，\n“友谊就是魔法”成了现实...',
+                    light_sans: '<20>{#e/twinkly/5}{#v/0}第一个结局里，\nSans当上了国王...',
+                    light_generic: '<20>{#e/twinkly/5}{#v/0}第一个结局里，\nTerrestria当选女王...'
                  }[unique[0]]!,
                  {
-                    dark_death: '<20>{#e/twinkly/5}{#v/0}...一直到Undyne和Alphys\n追杀你的那次结束。',
-                    dark_undyne: '<20>{#e/twinkly/5}{#v/0}... to the one where Alphys returned to Bratty and Catty.',
-                    dark_alphys: '<20>{#e/twinkly/5}{#v/0}... to the one where almost everyone important had died.',
+                    dark_death: '<20>{#e/twinkly/5}{#v/0}...而在最后一个结局，\nUndyne和Alphys\n联合追杀你，',
+                    dark_undyne: '<20>{#e/twinkly/5}{#v/0}...而在最后一个结局，\nAlphys回到了\nBratty和Catty身边，',
+                    dark_alphys: '<20>{#e/twinkly/5}{#v/0}...而在最后一个结局，\n几乎所有重要的人，\n都死于你手，',
                     dark_alphys_therapy:
-                       '<20>{#e/twinkly/5}{#v/0}... to the one where Sans and Papyrus had a therapy company.',
+                       '<20>{#e/twinkly/5}{#v/0}...而在最后一个结局，\nSans和Papyrus\n一起开了家医疗公司，',
                     dark_alphys_virtual:
-                       '<20>{#e/twinkly/5}{#v/0}... to the one where Papyrus and Alphys escaped into a virtual world.',
+                       '<20>{#e/twinkly/5}{#v/0}...而在最后一个结局，\nPapyrus和Alphys\n躲进了虚拟空间，',
                     dark_mew:
-                       '<20>{#e/twinkly/5}{#v/0}... to the one where Mad Mew Mew made everyone go along with her nonsense.',
+                       '<20>{#e/twinkly/5}{#v/0}...而在最后一个结局，\n愤怒喵喵让大伙都\n沉浸在她的怪癖中。',
                     dark_charles:
-                       "<20>{#e/twinkly/5}{#v/0}... to the one where Charles brought everyone's fantasies to life.",
-                    dark_generic: '<20>{#e/twinkly/5}{#v/0}... to the one where the \"Royal Defense Agency\" was formed.',
+                       "<20>{#e/twinkly/5}{#v/0}...而在最后一个结局，\nCharles让每个人都\n心想事成。",
+                    dark_generic: '<20>{#e/twinkly/5}{#v/0}...而在最后一个结局，\nMettaton的粉丝自发\n组建起一个反人类联盟。',
                     dark_blooky:
-                       "<20>{#e/twinkly/5}{#v/0}... to the one where Mettaton's fans formed an anti-human collective.",
+                       "<20>{#e/twinkly/5}{#v/0}...而在最后一个结局，\n前哨站成立了\n“皇家防卫署”。",
                     dark_aborted:
-                       '<20>{#e/twinkly/5}{#v/0}... to the one where Napstablook told you to die a \"painful death.\"',
+                       '<20>{#e/twinkly/5}{#v/0}...而在最后一个结局，\nNapstablook诅咒你\n死后“万劫不复”。',
                     light_ultra:
-                       '<20>{#e/twinkly/5}{#v/0}... to the one where Papyrus captured you and got into the guard.',
-                    light_undyne: '<20>{#e/twinkly/5}{#v/0}... to the one where Alphys had to hide the humans away.',
-                    light_runaway: '<20>{#e/twinkly/5}{#v/0}... to the one where the humans were accidentally exposed.',
-                    light_toriel: '<20>{#e/twinkly/5}{#v/0}... to the one where Toriel shut herself off from everyone.',
-                    light_dog: '<20>{#e/twinkly/5}{#v/0}... to the one where dogs took over the outpost.',
-                    light_muffet: '<20>{#e/twinkly/5}{#v/0}... to the one where Muffet became a ruthless dictator.',
+                       '<20>{#e/twinkly/5}{#v/0}...而在最后一个结局，\nPapyrus抓到了你，\n最终当上了皇家守卫，',
+                    light_undyne: '<20>{#e/twinkly/5}{#v/0}...而在最后一个结局，\nAlphys迫于压力，\n把其他人类藏了起来。',
+                    light_runaway: '<20>{#e/twinkly/5}{#v/0}...而在最后一个结局，\n民众意外知道了\n那些人类的去向。',
+                    light_toriel: '<20>{#e/twinkly/5}{#v/0}...而在最后一个结局，\nToriel从大众视野里\n消失了。',
+                    light_dog: '<20>{#e/twinkly/5}{#v/0}...而在最后一个结局，\n犬卫队成了前哨站的\n实际统治力量。',
+                    light_muffet: '<20>{#e/twinkly/5}{#v/0}...而在最后一个结局，\nMuffet夺取权力，\n成为无情的独裁者。',
                     light_papyrus:
-                       '<20>{#e/twinkly/5}{#v/0}... to the one where the power of friendship reigned supreme.',
-                    light_sans: '<20>{#e/twinkly/5}{#v/0}... to the one where Sans ended up as the king.',
-                    light_generic: '<20>{#e/twinkly/5}{#v/0}... to the one where Terrestria was appointed as queen.'
+                       '<20>{#e/twinkly/5}{#v/0}...而在最后一个结局，\n“友谊就是魔法”成了现实。',
+                    light_sans: '<20>{#e/twinkly/5}{#v/0}...而在最后一个结局，\nSans当上了国王。',
+                    light_generic: '<20>{#e/twinkly/5}{#v/0}...而在最后一个结局，\nTerrestria当选女王。'
                  }[unique[unique.length - 1]]!,
-                 "<20>{#e/twinkly/7}{#v/0}哪次你不是\n将这些视作一场游戏。",
-                 "<20>{#e/twinkly/5}{#v/0}But now it's my turn to play."
+                 "<20>{#e/twinkly/7}{#v/0}你把他们当儿戏，\n玩弄他们时多开心啊。",
+                 "<20>{#e/twinkly/5}{#v/0}现在，\n也让我体验体验。"
               ]
             : [
-                 "<20>{#e/twinkly/8}{#v/0}...你咋还不明白呢？",
+                 "<20>{#e/twinkly/8}{#v/0}...你咋这么蠢呢？",
                  '<20>{#e/twinkly/6}{#v/0}不管是你，我，\n还是身边的一切...',
-                 "<21>{#e/twinkly/5}{#v/0}都不过处在\n一场“游戏”里罢了。",
-                 '<20>{#e/twinkly/11}{#v/0}要是让你们\n就这样离开前哨站，\n得到满意的结局了，\n你就“赢了”这游戏了。',
-                 '<20>{#e/twinkly/11}要是你都“赢了”，\n还怎么可能愿意\n陪我“玩”呢？',
-                 '<20>{#e/twinkly/7}{#v/0}那时我可怎么办？',
-                 '<20>{#e/twinkly/5}{#v/0}不过，你我间这场游戏，\n你别想让它结束了。'
+                 "<21>{#e/twinkly/5}{#v/0}都是一场“游戏”的\n玩家。",
+                 '<20>{#e/twinkly/11}{#v/0}要是我乖乖让你们走，\n你就“赢了”，\n就“幸福“了。',
+                 '<20>{#e/twinkly/11}你要是“赢了”，\n谁还来陪我“玩”呢？',
+                 '<20>{#e/twinkly/7}{#v/0}那时，\n我可怎么办呢？',
+                 '<20>{#e/twinkly/5}{#v/0}所以，\n我不会让游戏结束。'
               ]),
-         "<20>{#e/twinkly/8}{#v/0}I'll hold victory in front of you, just within your reach...",
-         '<20>{#e/twinkly/2}{#v/1}{@random=1.1/1.1}And then tear it away just before you grasp it.',
-         '<20>{#e/twinkly/14}{#v/1}{@random=1.1/1.1}一遍，一遍，\n又一遍...',
+         "<20>{#e/twinkly/8}{#v/0}我就把“胜利”放你面前，\n然后，当你伸手\n去够它的时候...",
+         '<20>{#e/twinkly/2}{#v/1}{@random=1.1/1.1}“咔嚓！”\n胜利没了，\n让我撕碎了。',
+         '<20>{#e/twinkly/14}{#v/1}{@random=1.1/1.1}你再够，我再撕。\n一遍，一遍，\n又一遍...',
          '<20>{#e/twinkly/5}{#v/0}嘻嘻嘻。',
          '<20>{#e/twinkly/5}{#v/0}{#v/0}听好了。',
          ...(30 <= SAVE.data.n.bully
             ? [
-                 '<20>{#e/twinkly/5}{#v/0}要是你真能打败我，\n你想要的“理想结局”，\n我自会拱手相让。',
-                 "<20>{#e/twinkly/5}{#v/0}我会让你的好朋友们\n活下来。"
+                 '<20>{#e/twinkly/5}{#v/0}你要是打败了我...',
+                 "<20>{#e/twinkly/5}{#v/0}我就把“完美结局”\n让给你，\n让“好朋友”们活下来。"
               ]
             : [
-                 '<20>{#e/twinkly/5}{#v/0}If you DO defeat me, I\'ll give you your \"happy ending.\"',
-                 "<20>{#e/twinkly/5}{#v/0}I'll bring your friends back."
+                 '<20>{#e/twinkly/5}{#v/0}你要是打败了我...',
+                 "<20>{#e/twinkly/5}{#v/0}我就把“幸福结局”\n让给你，\n让你和好友团聚。"
               ]),
-         "<20>{#e/twinkly/5}{#v/0}我会粉碎那道力场。",
-         '<20>{#e/twinkly/5}{#v/0}大伙都能获得幸福。',
-         "<20>{#e/twinkly/9}{#v/0}不过别异想天开了，\n你做不到的。",
-         '<20>{#e/twinkly/11}{#v/0}你...！',
-         "<20>{#e/twinkly/5}{#v/0}我会不择手段地\n把你困死在这！"
+         "<20>{#e/twinkly/5}{#v/0}然后，打碎力场。",
+         '<20>{#e/twinkly/5}{#v/0}让所有人获得幸福。',
+         "<20>{#e/twinkly/9}{#v/0}不过，\n想赢我，做梦去吧！",
+         
+         "<20>{#e/twinkly/5}{#v/0}即使，我要陪你\n耗到时间尽头..."
       ],
-      friend68: [ '<20>{#e/twinkly/0}{#v/1}{@random=1.1/1.1}Even if it means killing you until the END OF TIME!{%20}' ],
-      friend69: [ '<20>{#e/twinkly/8}{#v/0}什么鬼？' ],
+      friend68: [ '<20>{#e/twinkly/0}{#v/1}{@random=1.1/1.1}我也会想方设法，\n杀了你，困死你，\n折磨死你！{%20}' ],
+      friend69: [ '<20>{#e/twinkly/8}{#v/0}怎么回事？' ],
       friend70: [
          '<20>{#p/asgore}{#e/asgore/1}年轻人，别害怕...',
-         '<20>{#e/asgore/2}...有我们来守护你！'
+         '<20>{#e/asgore/2}...我们会守护你！'
       ],
       friend71: [
-         "<15>{#p/papyrus}{#e/papyrus/1}说的没错！\n人类，你会赢的！",
-         '<15>{#e/papyrus/1}JUST DO WHAT I, THE GREAT PAPYRUS, WOULD DO...',
+         "<15>{#p/papyrus}{#e/papyrus/1}没错！\n人类，你一定能赢！",
+         '<15>{#e/papyrus/1}我永远相信你，\n所以，你也要...',
          '<15>{#e/papyrus/2}相信自己！！！'
       ],
       friend72: [
-         '<20>{#p/undyne}{#e/undyne/11}哈，你都过我这关了，\n又有谁能难住你？',
+         '<20>{#p/undyne}{#e/undyne/11}哈，你连我都不怕，\n还会怕它？',
          "<20>{#e/undyne/11}所以别担心...",
-         "<20>{#e/undyne/13}我们一直站在你身边！"
+         "<20>{#e/undyne/13}我们永远支持你！"
       ],
       friend73: [
-         "<20>{#p/sans}{#e/sans/1}哈？\n还没打倒那家伙呢？",
-         "<20>{#e/sans/2}拜托，\n这奇葩没法拿你咋样。"
+         "<20>{#p/sans}{#e/sans/1}哦？\n还没打倒那玩意呢？",
+         "<20>{#e/sans/2}拜托，\n就这奇葩，啥也不是。"
       ],
       friend74: [
-         "<20>{#p/alphys}{#e/alphys/1}Technically, it's impossible for you to beat him...",
-         '<20>{#e/alphys/2}B-but... somehow, I know you can do it!!'
+         "<20>{#p/alphys}{#e/alphys/1}按理说，\n你肯定打不过他...",
+         '<20>{#e/alphys/2}但-但我总觉得...\n你能行的！！'
       ],
       friend75: [
-         '<20>{#p/toriel}{#e/toriel/1}孩子啊...',
-         '<20>{#e/toriel/2}My sweet, innocent child...',
-         '<20>{#e/toriel/3}可不能在这种时候\n放弃啊！'
+         '<20>{#p/toriel}{#e/toriel/1}孩子...',
+         '<20>{#e/toriel/2}世界上最乖，\n最可爱的孩子...',
+         '<20>{#e/toriel/3}可不能在这时候\n放弃啊！'
       ],
       friend76: "老兄，\n你能行的！", 
-      friend77: () => (SAVE.data.n.bully < 30 ? '*em-\npowering\nwhistle*' : '*intimi-\ndated\nwhistle*'), 
-      friend78: () => (SAVE.data.n.bully < 30 ? 'Sparkle\nand\nshine!' : "Ur bad,\nbut he's\nworse."), 
-      friend79: 'Out with\nthe\nbozo!', 
-      friend80: () => (SAVE.data.n.bully < 30 ? '啦啦啦~' : '哼-哼'), 
+      friend77: () => (SAVE.data.n.bully < 30 ? '*有力的\n 口哨声*' : '*胆怯的\n 口哨声*'), 
+      friend78: () => (SAVE.data.n.bully < 30 ? '闪亮亮，\n亮闪闪！' : "你很烂，\n不过他\n更烂。"), 
+      friend79: '快揍扁\n这个\n抽象玩意！', 
+      friend80: () => (SAVE.data.n.bully < 30 ? '啦啦啦~' : '呜-呜，\n呜-呜'), 
       friend81: '别输给他。', 
-      friend82: () => (SAVE.data.n.bully < 30 ? 'Our will\nis your\nwill.' : 'Use your\nstrength\nwisely.'), 
-      friend83: () => (SAVE.data.n.bully < 30 ? 'Rock on,\nlittle\nbuddy!' : '上吧，\n小恶霸。'), 
+      friend82: () => (SAVE.data.n.bully < 30 ? '同心协力。' : '把揍人的劲\n使出来吧。'), 
+      friend83: () => (SAVE.data.n.bully < 30 ? '小家伙，\n让他瞧瞧\n你的厉害！' : '上吧，\n小恶霸。'), 
       friend84: () => (SAVE.data.n.bully < 30 ? "有我们\n支持你！" : '我们咋\n还有点\n喜欢你了？'), 
-      friend85: () => (SAVE.data.n.bully < 30 ? 'Keep it\nreal,\ndeal?' : '让他\n见识见识\n你的拳头。'), 
+      friend85: () => (SAVE.data.n.bully < 30 ? '使出你的\n真本事，\n好吗？' : '让他\n见识见识\n你的拳头。'), 
       friend86a: '呱呱。', 
       friend86b: "别放弃！", 
       friend87: [
-         '<20>{#p/twinkly}{#e/twinkly/17}呃啊啊... 不！',
+         '<20>{#p/twinkly}{#e/twinkly/17}呃啊啊...\n不！',
          '<20>{#e/twinkly/16}难以置信！！',
-         "<20>{#e/twinkly/15}这怎么可能呢...！",
+         "<20>{#e/twinkly/15}这怎么可能...！",
          '<20>{#e/twinkly/16}你们... 你们...！'
       ],
       friend88: [ "<20>{#p/twinkly}{#e/twinkly/2}真不敢相信\n你们都这么愚蠢。" ],

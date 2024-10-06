@@ -3177,7 +3177,7 @@ export default {
                ? '<32>* 我想回家看看亲人。'
                : SAVE.data.n.state_starton_papyrus === 1
                   ? "<32>* 我还没想好做什么。"
-                  : "<32>* 我要处理点事情。",
+                  : "<32>* 我要去忙点正事。",
             ...(SAVE.data.b.oops
                ? []
                : [
@@ -6771,7 +6771,7 @@ export default {
          '<20>{#p/basic}{#e/bpants/12}为什么总要我来\n赶走这死家伙？',
          '<20>...',
          '<20>{#e/bpants/0}小家伙，对不住了，\n给你添麻烦了。',
-         "<20>{#e/bpants/11}我叫Burgie。\n很高兴见到你。",
+         "<20>{#e/bpants/11}很高兴认识你，\n叫我堡兄就行。",
          ...(ateThreshold() || (world.badder_lizard && world.bad_lizard > 1)
             ? [
                "<20>{#e/bpants/6}Glyde来这闹事有...",
@@ -10884,7 +10884,7 @@ export default {
             ]
             : [
                '回复23 HP\n有人嫌太甜\n有人超留恋。',
-               '回复40 HP\n英雄，\n不再只是个\n传说。',
+               '回复40 HP\n别管这个叫\n“传说英雄”。',
                '回复34 HP\n不想被伤害\n就要去抗争。',
                "Heals 55HP\n这事...\n说来话长啊。"
             ],
@@ -11371,7 +11371,7 @@ export default {
             : [
                '聊聊你俩',
                SAVE.data.n.plot < 68 ? '聊聊这旧货铺' : SAVE.data.b.killed_mettaton ? 'Mettaton' : '压轴好戏',
-               ['这地方归谁', '§fill=#ff0§堡堡（新）', '堡堡'][Math.min(SAVE.data.n.shop_gossip_hub, 2)],
+               ['这地方归谁', '§fill=#ff0§堡兄（新）', '堡兄'][Math.min(SAVE.data.n.shop_gossip_hub, 2)],
                ['Alphys', '§fill=#ff0§皇家科学员（新）', '§fill=#ff0§Asgore（新）', 'Asgore'][
                Math.min(SAVE.data.n.shop_gossip_alphys, 3)
                ],
@@ -11589,7 +11589,7 @@ export default {
                               c: '<16>* 后来呢...'
                            },
                            {
-                              b: '<16>{#k/4/4}* Burgie决定“推翻”他。',
+                              b: '<16>{#k/4/4}* 堡兄决定“推翻”他。',
                               c: '',
                               s: true
                            },
@@ -11604,7 +11604,7 @@ export default {
                               s: true
                            },
                            {
-                              b: '<16>{#k/2/6}* 我觉得吧，\n  Burgie就是敲诈了他一手。',
+                              b: '<16>{#k/2/6}* 我觉得吧，\n  堡兄就是敲诈了他一手。',
                               c: '<16>* 我觉得吧，\n  他肯定还找了个同谋。',
                               s: true
                            },
@@ -11702,7 +11702,7 @@ export default {
                   ],
                   [
                      {
-                        b: "<16>{#k/0/0}* 关于Burgie，\n  我们没啥好说的了，\n  不过",
+                        b: "<16>{#k/0/0}* 关于堡兄，\n  我们没啥好说的了，\n  不过-",
                         c: '<16>{#k/0/8}* ...不，等下！\n* 你能让他给姐俩\n  做点吃的吗？'
                      },
                      {

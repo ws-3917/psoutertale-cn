@@ -6,7 +6,9 @@ msgid "The player did everything they could..."
 msgstr "那個玩家，已經竭盡全力..."
 
 msgid "But alas, his fate was sealed, and..."
-msgstr "但命運早已註定..."
+msgstr ""
+"但無奈，\n"
+"命運早已註定..."
 
 msgid "No addendum to the story could unravel it."
 msgstr "再怎麼改動故事，也無法改變結局。"

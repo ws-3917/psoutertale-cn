@@ -1,21 +1,7 @@
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-05 16:29+0000\n"
-"PO-Revision-Date: 2024-10-06 11:29+0000\n"
-"Last-Translator: Maxim Aksenov <me6696154@gmail.com>\n"
-"Language-Team: Russian <https://ws3917.site/projects/project-spacetime/"
-"3-foundry/ru/>\n"
-"Language: ru_RU\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.7.2\n"
 
-#
 msgid "<32>{#p/basic}* ..."
 msgstr ""
 
@@ -7116,10 +7102,8 @@ msgstr ""
 msgid ""
 "<32>* \"Bring the item to the room nextdoor, and all the power will be "
 "yours.\""
-msgstr ""
-"<32>* \"Принеси предмет в комнату по соседству, и вся сила будет твоей.\""
+msgstr "<32>* \"Принеси предмет в комнату по соседству, и вся сила будет твоей.\""
 
-#, fuzzy
 msgid ""
 "<32>{#p/human}* (It also mentions bringing an item to a specific area.)"
 msgstr ""
@@ -7133,7 +7117,6 @@ msgstr ""
 "<32>{#p/basic}* \"Включите выключатель и приведите друга туда, где вы были "
 "раньше...\""
 
-#, fuzzy
 msgid "<32>* ... the switch back here has already been pulled."
 msgstr "<32>* ... выключатель здесь уже выдернут."
 
@@ -7156,7 +7139,6 @@ msgstr "* (Топтать их?)"
 msgid "<32>{#p/human}* (You decide not to stomp.)"
 msgstr "<32>{#p/human}* (Ты решил не топать.)"
 
-#, fuzzy
 msgid ""
 "<32>{#p/basic}* With the might of your indomitable soles, you charged up the"
 " ultimate power move!"
@@ -7164,7 +7146,6 @@ msgstr ""
 "<32>{#p/basic}* С силой твоих несгибаемых подошв ты зарядил мощнейшее "
 "движение!"
 
-#, fuzzy
 msgid "<32>{#p/basic}* The shards have been scattered across the room."
 msgstr "<32>{#p/basic}* Осколки разбросаны по комнате."
 
@@ -7239,7 +7220,6 @@ msgstr "<25>{#f/0}* в это время у тебя не должно быть 
 msgid "<25>{#f/3}* the area ahead of you will be evacuated soon."
 msgstr "<25>{#f/3}* область перед тобой скоро будет эвакуирована."
 
-#, fuzzy
 msgid "<25>{#f/2}* hmm... i wonder if anyone will still be out there."
 msgstr "<25>{#f/2}* хмм... я задаюсь вопросом, будет ли кто-нибудь ещё там."
 
@@ -7290,7 +7270,6 @@ msgstr ""
 msgid "<32>* I'm not sure what else to say about that."
 msgstr "<32>* Я не знаю, что ещё сказать по этому поводу."
 
-#, fuzzy
 msgid "<32>{#p/finalghost}* ... much to my dismay."
 msgstr "<32>{#p/finalghost}* ... к моему огорчению."
 
@@ -7299,7 +7278,8 @@ msgstr ""
 "<32>* Быть вынужденным покинуть свой манекен в открытую - это неприятно."
 
 msgid "<32>{#p/finalghost}* It was rather silly how you ran away from me."
-msgstr "<32>{#p/finalghost}* Это было довольно глупо, когда ты убежал от меня."
+msgstr ""
+"<32>{#p/finalghost}* Это было довольно глупо, когда ты убежал от меня."
 
 msgid ""
 "<32>* Toriel had every right to be worried about you running from an "
@@ -7406,27 +7386,23 @@ msgstr "* Вау!"
 msgid "<32>* I haven't felt this happy in a long time."
 msgstr "<32>* Я давно не чувствовала себя таким счастливым."
 
-#, fuzzy
 msgid "<32>{#p/basic}* Sometimes all it takes is the right vessel, mew!!"
 msgstr "<32>{#p/basic}* Иногда всё, что нужно, - это правильный сосуд, миу!!"
 
-#, fuzzy
 msgid ""
 "<32>{#p/mettaton}{#e/mettaton/9}* WHILE BLOOKY'S BUSY AT THE SHOP, WE "
 "DECIDED WE'D LOOK AFTER THEIR FARM ONCE MORE."
 msgstr ""
-"<32>{#p/mettaton}{#e/mettaton/9}* ПОКА БЛУКИ ЗАНЯТ В МАГАЗИНЕ, МЫ РЕШИЛИ ЕЩЕ "
-"РАЗ ПРИСМОТРЕТЬ ЗА ИХ ФЕРМОЙ."
+"<32>{#p/mettaton}{#e/mettaton/9}* ПОКА БЛУКИ ЗАНЯТ В МАГАЗИНЕ, МЫ РЕШИЛИ ЕЩЕ"
+" РАЗ ПРИСМОТРЕТЬ ЗА ИХ ФЕРМОЙ."
 
 msgid ""
 "<32>{#e/mettaton/8}* OF COURSE, IT'S ONLY FOR A DAY BEFORE WE LEAVE THE OUTPOST.\n"
 "* BUT STILL."
 msgstr ""
-"<32>{#e/mettaton/8}* КОНЕЧНО, ЭТО ВСЕГО ЛИШЬ НА ДЕНЬ, ДО ТОГО КАК МЫ ПОКИНЕМ "
-"АВАНПОСТ.\n"
+"<32>{#e/mettaton/8}* КОНЕЧНО, ЭТО ВСЕГО ЛИШЬ НА ДЕНЬ, ДО ТОГО КАК МЫ ПОКИНЕМ АВАНПОСТ.\n"
 "* НО ВСЁ ЖЕ."
 
-#, fuzzy
 msgid ""
 "<32>{#e/mettaton/36}* THINKING BACK, I'VE BEEN PRETTY OVER-DRAMATIC ABOUT "
 "THE WHOLE THING."
