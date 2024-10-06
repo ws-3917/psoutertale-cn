@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-05 16:29+0000\n"
-"PO-Revision-Date: 2024-10-06 09:22+0000\n"
+"PO-Revision-Date: 2024-10-06 09:26+0000\n"
 "Last-Translator: Maxim Aksenov <me6696154@gmail.com>\n"
 "Language-Team: Russian <https://ws3917.site/projects/project-spacetime/"
 "3-foundry/ru/>\n"
@@ -7224,8 +7224,7 @@ msgid "<25>{#f/0}* in the meantime, you should be fine for now."
 msgstr "<25>{#f/0}* в это время ты должен быть в порядке сейчас."
 
 msgid "<25>{#f/3}* the area ahead of you seems pretty empty, by my estimate."
-msgstr ""
-"<25>{#f/3}* По моей оценке, область перед вами кажется довольно пустой."
+msgstr "<25>{#f/3}* Область перед тобой, по моим оценкам, довольно пуста."
 
 msgid ""
 "<25>{#f/2}* but hey.\n"
@@ -7240,8 +7239,9 @@ msgstr "<25>{#f/0}* в это время у тебя не должно быть 
 msgid "<25>{#f/3}* the area ahead of you will be evacuated soon."
 msgstr "<25>{#f/3}* область перед тобой скоро будет эвакуирована."
 
+#, fuzzy
 msgid "<25>{#f/2}* hmm... i wonder if anyone will still be out there."
-msgstr "<25>{#f/2}* Эм... Я хочу знать, будет ли там кто - нибудь еще."
+msgstr "<25>{#f/2}* хмм... я задаюсь вопросом, будет ли кто-нибудь ещё там."
 
 msgid "<25>{#f/0}* in the meantime, just be careful what you do next."
 msgstr ""
