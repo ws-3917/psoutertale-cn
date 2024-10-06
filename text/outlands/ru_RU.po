@@ -1,6 +1,22 @@
-#
+#, fuzzy
 msgid ""
 msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-10-06 06:29+0000\n"
+"PO-Revision-Date: 2024-10-06 06:29+0000\n"
+"Last-Translator: lBKnaTbwUP8MulTo5HtlxeSKvORhNx <dosdossus@gmail.com>\n"
+"Language-Team: Russian <https://ws3917.site/projects/project-spacetime/"
+"1-outlands/ru/>\n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: ENCODING\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 5.7.2\n"
+
+#
 
 msgid ""
 "<25>{#p/toriel}{#f/1}* I hear there is a certain kind of fluid in "
@@ -2020,10 +2036,10 @@ msgid "<32>* bye..."
 msgstr "<32>* пока..."
 
 msgid "<32>{#p/napstablook}* so um... that happened..."
-msgstr "<32>{#p/napstablook}* итак, что произошло..."
+msgstr "<32>{#p/napstablook}* итак, эм, произошло это..."
 
 msgid "<32>* uh... i gotta go now"
-msgstr "<32>* э-э-э... мне пора идти"
+msgstr "<32>* эм... мне пора идти"
 
 msgid "<32>{#p/napstablook}* you didn't even say anything to me..."
 msgstr "<32>{#p/napstablook}* ты даже ничего мне не сказал..."
@@ -2035,13 +2051,13 @@ msgid "<32>* well, i'll be going now"
 msgstr "<32>* ну что ж, мне пора идти"
 
 msgid "<32>{#p/human}* (You got the Fried Snails.)"
-msgstr "<32>{#p/human}* (Ты взял жареные улитки.)"
+msgstr "<32>{#p/human}* (Вы взяли Жареные улитки.)"
 
 msgid "<32>{#p/human}* (You approach the vending machine.)"
-msgstr "<32>{#p/human}* (Ты подходишь к торговому автомату.)"
+msgstr "<32>{#p/human}* (Вы подходите к торговому автомату.)"
 
 msgid "* (What will you make?)"
-msgstr "*(Что ты будешь делать?)"
+msgstr "*(Что вы сделаете?)"
 
 msgid "Candy"
 msgstr "Конфета"
@@ -2063,28 +2079,28 @@ msgid ""
 "<32>{#p/human}* (You got the $(x).)\n"
 "* (Press [C] to open the menu.)"
 msgstr ""
-"<32>{#p/human}* (У тебя есть $(x).)\n"
-"* (Нажми[С] чтобы открыть меню.)"
+"<32>{#p/human}* (Вы получили $(x).)\n"
+"* (Нажмите [С], чтобы открыть меню.)"
 
 msgid "<32>{#p/human}* (You got the $(x).)"
-msgstr "<32>{#p/human}* (У тебя есть $(x).)"
+msgstr "<32>{#p/human}* (Вы получили $(x).)"
 
 msgid "<32>{#p/basic}* The machine is beginning to malfunction."
-msgstr "<32>{#p/basic}* Машина начинает работать со сбоями."
+msgstr "<32>{#p/basic}* Автомат начинает давать сбои."
 
 msgid "<32>{#p/basic}* The machine broke down."
-msgstr "<32>{#p/basic}* Машина сломалась."
+msgstr "<32>{#p/basic}* Автомат сломался."
 
 msgid "<25>{#p/asriel1}{#f/13}* Out of service again?"
-msgstr "<25>{#p/asriel1}{#f/13}* Снова вышла из строя?"
+msgstr "<25>{#p/asriel1}{#f/13}* Опять вышел из строя?"
 
 msgid "<25>{#f/17}* Yeah, that's... by design, actually."
-msgstr "<25>{#f/17}* Да, это так... по замыслу, на самом деле."
+msgstr "<25>{#f/17}* Да, так... и задумывалось, на самом деле."
 
 msgid ""
 "<25>{#f/13}* This machine runs on the Outlands' own power supply, so..."
 msgstr ""
-"<25>{#f/13}* Эта машина работает от собственного источника питания "
+"<25>{#f/13}* Этот автомат работает от собственного источника питания "
 "Запределья, так что..."
 
 msgid ""
@@ -2092,32 +2108,30 @@ msgid ""
 "itself."
 msgstr ""
 "<25>{#f/15}* Чтобы не использовать слишком много энергии, Ториэль просто "
-"заставила его сломаться сам по себе."
+"сделала так, чтобы он сломался."
 
 msgid "<26>{#f/20}* Not that she'd tell you."
-msgstr "<26>{#f/20}* Не то чтобы она тебе сказала."
+msgstr "<26>{#f/20}* Не то чтобы она бы тебе сказала."
 
 msgid ""
 "<25>{#p/asriel1}{#f/13}* The reason that power supply is so small, though..."
 msgstr ""
-"<25>{#p/asriel1}{#f/13}* Однако причина в том, что источник питания такой "
+"<25>{#p/asriel1}{#f/13}* Однако причина того, почему источник питания такой "
 "маленький..."
 
 msgid ""
 "<25>{#f/17}* It's because, unlike the CORE, it only uses background "
 "radiation."
 msgstr ""
-"<25>{#f/17}* Это потому, что, в отличие от ЯДРА, оно использует только "
-"фоновое излучение."
+"<25>{#f/17}* Это потому что в отличие от ЯДРА он использует только "
+"радиационный фон."
 
 msgid "<25>{#f/13}* To put it into numbers, I'd say..."
-msgstr "<25>{#f/13}* Я бы сказал, если перевести это в цифры..."
+msgstr "<25>{#f/13}* Выражая в цифрах, я бы сказал..."
 
 msgid ""
 "<25>{#f/15}* It generates about ten- thousandths of the power the CORE does."
-msgstr ""
-"<25>{#f/15}* Он генерирует примерно десятитысячную часть той мощности, "
-"которую вырабатывает ЯДРО."
+msgstr "<25>{#f/15}* Он генерирует примерно десятитысячную часть мощности ЯДРА."
 
 msgid "<25>{#p/asriel1}{#f/13}* Hmm..."
 msgstr "<25>{#p/asriel1}{#f/13}* Хм..."
@@ -2134,38 +2148,36 @@ msgstr ""
 "атмосферной системы."
 
 msgid "<25>{#f/17}* If the CORE was destroyed, could people survive here...?"
-msgstr ""
-"<25>{#f/17}* Если бы ЯДРО было разрушено, смогли бы люди выжить здесь...?"
+msgstr "<25>{#f/17}* Если бы ЯДРО было разрушено, смогли бы мы выжить здесь...?"
 
 msgid "<26>{#p/asriel1}{#f/20}* ... asking for a friend."
-msgstr "<26>{#p/asriel1}{#f/20} ... спрашиваю о друге."
+msgstr "<26>{#p/asriel1}{#f/20} ... да так, для друга спрашиваю."
 
 msgid "<32>{#p/basic}* It's out of service."
 msgstr "<32>{#p/basic}* Он вышел из строя."
 
 msgid "<32>{#p/human}* (You decide not to make anything.)"
-msgstr "<32>{#p/human}* (Вы решаете ничего не готовить.)"
+msgstr "<32>{#p/human}* (Вы решаете ничего не делать.)"
 
 msgid "<32>{#p/human}* (You're carrying too much.)"
-msgstr "<32>{#p/human}* (Ты слишком много на себя берешь.)"
+msgstr "<32>{#p/human}* (Вы несёте слишком много.)"
 
 msgid ""
 "<25>{#p/toriel}{#f/1}{#n1}* What is it, my child?\n"
 "* Are you hungry?"
 msgstr ""
-"<25>{#p/toriel}{#f/1}{#n1}* Что такое, дитя мое?\n"
+"<25>{#p/toriel}{#f/1}{#n1}* Что такое, дитя моё?\n"
 "* Ты голоден?"
 
 msgid ""
 "<25>{#f/0}* Perhaps you would like to know more about the book I am reading."
-msgstr ""
-"<25>{#f/0}* Возможно, ты хотел бы узнать больше о книге, которую я читаю."
+msgstr "<25>{#f/0}* Может, ты хочешь побольше узнать о книге, которую я читаю?"
 
 msgid "{#n1!}* (What do you say?)"
-msgstr "{#n1!}* (Что ты скажешь?)"
+msgstr "{#n1!}* (Что скажешь?)"
 
 msgid "Hungry"
-msgstr "Голодный"
+msgstr "Голоден"
 
 msgid "Book"
 msgstr "Книга"
@@ -2185,32 +2197,31 @@ msgid "<25>{#p/toriel}{#n1}* Well, let me know if you change your mind."
 msgstr "<25>{#p/toriel}{#n1}* Что ж, дай мне знать, если передумаешь."
 
 msgid "<25>{#p/toriel}{#f/1}{#n1}* Restless night?"
-msgstr "<25>{#p/toriel}{#f/1}{#n1}* Бессонная ночь?"
+msgstr "<25>{#p/toriel}{#f/1}{#n1}* Не спится?"
 
 msgid ""
 "<25>{#f/1}* ...\n"
 "* If you like, I can read you this book..."
 msgstr ""
 "<25>{#f/1}* ...\n"
-"* Если хотите, я могу почитать вам эту книгу..."
+"* Если хочешь, я могу почитать тебе эту книгу..."
 
 msgid ""
 "<25>{#f/0}* It is called \"Generous Monster\" and it was written by a human."
-msgstr "<25>{#f/0}* Она называется \"Великодушный монстр\" и написана человеком."
+msgstr ""
+"<25>{#f/0}* Она называется \"Великодушный монстр\", и её написал человек."
 
 msgid "{#n1!}* (Read the book?)"
-msgstr "{#n1!}* (Прочитать эту книгу?)"
+msgstr "{#n1!}* (Почитать книгу?)"
 
 msgid "<25>{#p/toriel}{#n1}{#f/1}* Back for a visit?"
-msgstr "<25>{#p/toriel}{#n1}{#f/1}* Вернулся с визитом?"
+msgstr "<25>{#p/toriel}{#n1}{#f/1}* Уже вернулся?"
 
 msgid "<25>{#f/0}* Well, feel free to stay as long as you need."
-msgstr ""
-"<25>{#f/0}* Что ж, не стесняйтесь оставаться здесь столько, сколько вам "
-"нужно."
+msgstr "<25>{#f/0}* Что ж, не стесняйся остаться здесь на сколько хочешь."
 
 msgid "<26>{#p/toriel}{#n1}{#f/5}* I shall remain here, as I always have..."
-msgstr "<26>{#p/toriel}{#n1}{#f/5}* Я останусь здесь, как и всегда..."
+msgstr "<26>{#p/toriel}{#n1}{#f/5}* Я буду здесь, как и всегда..."
 
 msgid ""
 "<25>{#p/toriel}{#f/1}{#n1}* Are you hungry?\n"
@@ -2220,7 +2231,7 @@ msgstr ""
 "* Хочешь, я приготовлю тебе завтрак?"
 
 msgid "{#n1!}* (Have breakfast?)"
-msgstr "{#n1!}* (Позавтракаете?)"
+msgstr "{#n1!}* (Приготовить завтрак?)"
 
 msgid ""
 "<25>{#p/toriel}{#n1}* Wonderful!\n"
@@ -2231,32 +2242,30 @@ msgstr ""
 
 msgid ""
 "<25>{#p/toriel}{#f/1}{#n1}* Have you changed your mind about breakfast?"
-msgstr "<25>{#p/toriel}{#f/1}{#n1}* Ты не передумал насчет завтрака?"
+msgstr "<25>{#p/toriel}{#f/1}{#n1}* Передумал насчет завтрака?"
 
 msgid ""
 "<25>{#p/toriel}{#f/3}{#n1}* You expect me to make another after you dropped "
 "the first one?"
 msgstr ""
-"<25>{#p/toriel}{#f/3}{#n1}* Ты ожидаешь, что я приготовлю еще один после "
+"<25>{#p/toriel}{#f/3}{#n1}* Ты думаешь, что я приготовлю еще один после "
 "того, как ты выбросил первый?"
 
 msgid "<25>{#f/4}* This child..."
-msgstr "<25>{#f/4}* Этот ребенок..."
+msgstr "<25>{#f/4}* Ну и ребенок..."
 
 msgid ""
 "<25>{#f/0}* No, little one.\n"
 "* I will not prepare another breakfast."
 msgstr ""
-"<25>{#f/0}* Нет, малышка.\n"
-"* Я больше не буду готовить завтрак."
+"<25>{#f/0}* Нет, дитя.\n"
+"* Я не приготовлю еще один завтрак."
 
 msgid "<25>{#p/toriel}{#n1}* I have already served breakfast, little one."
-msgstr "<25>{#p/toriel}{#n1}* Я уже приготовила завтрак, малыш."
+msgstr "<25>{#p/toriel}{#n1}* Я уже приготовила завтрак, дитя."
 
 msgid "<25>{#f/1}* We cannot have more than one breakfast per day, can we?"
-msgstr ""
-"<25>{#f/1}* Мы ведь не можем завтракать больше одного раза в день, не так "
-"ли?"
+msgstr "<25>{#f/1}* Нельзя ведь завтракать больше одного раза в день, правда?"
 
 msgid "<25>{#f/0}* That would be silly."
 msgstr "<25>{#f/0}* Это было бы глупо."
@@ -2266,13 +2275,14 @@ msgid ""
 "* Yes, it is quite the fun little read."
 msgstr ""
 "<25>{#p/toriel}{#n1}* Ах, эта книга!\n"
-"* Да, это довольно увлекательно читать."
+"* Да, довольно увлекательно читать."
 
 msgid "<25>{#f/0}* It is called \"Generous Monster\" and was written by a human."
-msgstr "<25>{#f/0}* Она называется \"Великодушный монстр\" и написана человеком."
+msgstr ""
+"<25>{#f/0}* Она называется \"Великодушный монстр\", и её написал человек."
 
 msgid "<25>{#f/1}* Would you like me to read it to you?"
-msgstr "<25>{#f/1}* Хочешь, я тебе это прочту? "
+msgstr "<25>{#f/1}* Хочешь, я тебе её прочту?"
 
 msgid "<25>{#p/toriel}{#n1}* Splendid!"
 msgstr "<25>{#p/toriel}{#n1}* Великолепно! "
@@ -2281,40 +2291,40 @@ msgid "<25>{#g/torielCompassionSmile}* ..."
 msgstr "<25>{#g/torielCompassionSmile}* ..."
 
 msgid "<25>{#p/toriel}{#f/1}{#n1}* Do you want me to read you the book now?"
-msgstr ""
-"<25>{#p/toriel}{#f/1}{#n1}* Хочешь, я почитаю тебе книгу прямо сейчас?"
+msgstr "<25>{#p/toriel}{#f/1}{#n1}* Хочешь, я почитаю тебе книгу?"
 
 msgid "<25>{#p/toriel}{#f/1}{#n1}* Do you want me to read you the book again?"
-msgstr "<25>{#p/toriel}{#f/1}{#n1}* Хочешь, я еще раз прочту тебе эту книгу?"
+msgstr "<25>{#p/toriel}{#f/1}{#n1}* Хочешь, я еще раз прочту тебе книгу?"
 
 msgid "<25>{#p/toriel}{#f/1}{#n1}* Alright, then..."
-msgstr "<25>{#p/toriel}{#f/1}{#n1}* Тогда ладно..."
+msgstr "<25>{#p/toriel}{#f/1}{#n1}* Ну ладно..."
 
 msgid "<25>{#p/toriel}{#g/torielCompassionSmile}* ..."
 msgstr "<25>{#p/toriel}{#g/torielCompassionSmile}* ..."
 
 msgid "<25>{#f/1}{#n1}* \"Once, there was a monster...\""
-msgstr "<25>{#f/1}{#n1}* \"Когда-то здесь жил монстр...\""
+msgstr "<25>{#f/1}{#n1}* \"Однажды жил-был монстр...\""
 
 msgid "<25>{#f/0}* \"And she loved a little human.\""
-msgstr "<25>{#f/0}* \"И она любила маленького человечка.\""
+msgstr "<25>{#f/0}* \"И она любила маленького человека.\""
 
 msgid "<25>{#f/1}* \"And every day, the human would come visit...\""
-msgstr "<25>{#f/1}* \"И каждый день этот человек приходил навестить меня...\""
+msgstr "<25>{#f/1}* \"И каждый день человек приходил навестить её...\""
 
 msgid "<25>{#f/0}* \"And they would run and play together in the fields.\""
-msgstr "<25>{#f/0}* \"И они вместе бегали и играли на полях.\""
+msgstr "<25>{#f/0}* \"И они вместе бегали и играли в поле.\""
 
 msgid "<25>{#f/1}* \"They'd sing songs together, tell stories to each other...\""
 msgstr "<25>{#f/1}* \"Они вместе пели песни, рассказывали друг другу истории...\""
 
 msgid "<25>{#f/0}* \"And they would play hide-and-go seek.\""
-msgstr "<25>{#f/0}* \"И они играли в прятки.\""
+msgstr "<25>{#f/0}* \"И играли в прятки.\""
 
 msgid ""
 "<25>{#f/1}* \"And when the human was tired, she would tuck them into "
 "bed...\""
-msgstr "<25>{#f/1}* \"И когда человек уставал, она укладывала его в постель...\""
+msgstr ""
+"<25>{#f/1}* \"А когда человек уставал, она укладывала его в постель...\""
 
 msgid "<25>{#f/0}* \"And the human loved the monster very much.\""
 msgstr "<25>{#f/0}* \"И человек очень любил монстра.\""
@@ -2326,24 +2336,24 @@ msgid "<25>{#f/1}* \"But as time went by, and the human grew older...\""
 msgstr "<25>{#f/1}* \"Но время шло, и человек становился старше...\""
 
 msgid "<25>{#f/0}* \"The monster was often left alone.\""
-msgstr "<25>{#f/0}* \"Монстра часто оставляли в покое.\""
+msgstr "<25>{#f/0}* \"Монстра часто оставляли одну.\""
 
 msgid "<25>{#f/1}* \"Then one day, the human came back...\""
 msgstr "<25>{#f/1}* \"И вот однажды человек вернулся...\""
 
 msgid "<25>{#f/0}* \"And the monster said 'Come, human, come and play!'\""
-msgstr "<25>{#f/0}* \"И монстр сказал: 'Иди сюда, человек, иди и поиграй!\""
+msgstr "<25>{#f/0}* \"И монстр сказал: 'Пойдём, человек, пойдём поиграем!\""
 
 msgid "<25>{#f/5}* \"'I am too big to play,' said the human.\""
-msgstr "<25>{#f/5}* \" 'Я слишком большой, чтобы играть', - сказал человек\"."
+msgstr "<25>{#f/5}* \"'Я слишком большой, чтобы играть', - сказал человек\"."
 
 msgid "<25>{#f/1}* \"'I want to drive, to find a new home...'\""
-msgstr "<25>{#f/1}* \" 'Я хочу сесть за руль, найти новый дом...'\""
+msgstr "<25>{#f/1}* \"'Я хочу сесть за руль, найти новый дом...'\""
 
 msgid ""
 "<25>{#f/5}* \"'Sorry,' said the monster, 'but I am too poor to own a car.'\""
 msgstr ""
-"<25>{#f/5}* \"'Извини,' - сказал монстр, - 'но я слишком беден, чтобы иметь "
+"<25>{#f/5}* \"'Извини,' - сказал монстр, - 'но я слишком бедна, чтобы иметь "
 "машину'\"."
 
 msgid "<25>{#f/5}* \"'All I have is my own two feet.'\""
@@ -2351,46 +2361,45 @@ msgstr "<25>{#f/5}* \"'Всё, что у меня есть, - это мои со
 
 msgid "<25>{#f/0}* \"'Climb on my back, and I can run you to where you need.'\""
 msgstr ""
-"<25>{#f/0}* \"'Забирайся ко мне на спину, и я доставлю тебя туда, куда тебе "
-"нужно'\"."
+"<25>{#f/0}* \"'Забирайся ко мне на спину, и я довезу тебя куда хочешь.'\""
 
 msgid "<25>{#f/0}* \"'Then you can see the town and be happy.'\""
-msgstr "<25>{#f/0}* \"'Тогда ты сможешь увидеть город и быть счастливым'\"."
+msgstr "<25>{#f/0}* \"'Тогда ты увидишь город и будешь счастлив.'\""
 
 msgid "<25>{#f/1}* \"And so the human climbed onto the monster's back...\""
 msgstr "<25>{#f/1}* \"И вот человек взобрался на спину монстра...\""
 
 msgid "<25>{#f/0}* \"And the monster took them to a new home.\""
-msgstr "<25>{#f/0}* \"И монстр отвез их в новый дом.\""
+msgstr "<25>{#f/0}* \"И монстр отвезла его в новый дом.\""
 
 msgid "<25>{#f/1}* \"But the human stayed away for a long time...\""
-msgstr "<25>{#f/1}* \"Но человек долгое время отсутствовал...\""
+msgstr "<25>{#f/1}* \"Но человек пропал на долгое время...\""
 
 msgid "<25>{#f/5}* \"And the monster was sad.\""
-msgstr "<25>{#f/5}* \"И монстр был печальным.\""
+msgstr "<25>{#f/5}* \"И монстру было грустно.\""
 
 msgid "<25>{#f/0}* \"Then one day, the human came back.\""
-msgstr "<25>{#f/0}* \"И вот однажды этот человек вернулся\""
+msgstr "<25>{#f/0}* \"И вот однажды человек вернулся\""
 
 msgid "<25>{#f/1}* \"And the monster smiled from ear to ear and said...\""
-msgstr "<25>{#f/1}* \"И монстр улыбнулся от уха до уха и сказал...\""
+msgstr "<25>{#f/1}* \"И монстр улыбнулась до ушей и сказала...\""
 
 msgid "<25>{#f/1}* \"'Come, human, come and ride on my back!'\""
-msgstr "<25>{#f/1}* \"Подойди, человек, подойди и прокатись у меня на спине!\""
+msgstr "<25>{#f/1}* \"Пойдём, человек, пойдём покатаешься у меня на спине!\""
 
 msgid "<25>{#f/5}* \"'I am too sad to ride around,' said the human.\""
-msgstr "<25>{#f/5}* \"'Мне слишком грустно ездить?' сказал человек.\""
+msgstr "<25>{#f/5}* \"'Я слишком грустный, чтобы кататься', - сказал человек.\""
 
 msgid "<25>{#f/1}* \"'I wish I had a family, and children of my own...'\""
-msgstr "<25>{#f/1}* \"Я бы хотел, чтобы у меня была семья и собственные дети...\""
+msgstr "<25>{#f/1}* \"Я бы хотел, чтобы у меня была семья и дети...\""
 
 msgid ""
 "<25>{#f/5}* \"'Sorry,' said the monster, 'but I cannot give that to you.'\""
 msgstr ""
-"<25>{#f/5}* \"'Извини,' - сказал монстр, - 'но я не могу тебе этого дать'\"."
+"<25>{#f/5}* \"'Извини,' - сказала монстр, - 'но я не могу тебе этого дать.'\""
 
 msgid "<25>{#f/5}* \"'I am only one person.'\""
-msgstr "<25>{#f/5}* \"'Я всего лишь один человек.'\""
+msgstr "<25>{#f/5}* \"'Я всего лишь одна.'\""
 
 msgid "<25>{#f/0}* \"'Visit for a while, and we can find you a date.'\""
 msgstr "<25>{#f/0}* \"'Приезжай ненадолго, и мы сможем найти тебе пару.'\""
