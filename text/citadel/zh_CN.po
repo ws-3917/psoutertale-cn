@@ -5979,6 +5979,8 @@ msgstr ""
 msgid ""
 "<32>{@fill=#faff29}* If you're really out there somewhere, listening..."
 msgstr ""
+"<32>{@fill=#faff29}* 如果此刻，\n"
+"  你正在某处看着我们..."
 
 msgid ""
 "<32>{@fill=#faff29}* ... don't forget about the lives we've led in this "
