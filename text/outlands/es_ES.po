@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-06 16:29+0000\n"
-"PO-Revision-Date: 2024-10-07 20:29+0000\n"
+"PO-Revision-Date: 2024-10-07 22:29+0000\n"
 "Last-Translator: Stefano <stefanobuendia@hotmail.com>\n"
 "Language-Team: Spanish <https://ws3917.site/projects/project-spacetime/"
 "1-outlands/es/>\n"
@@ -3648,134 +3648,157 @@ msgstr "<25>{#f/5}{#v/0}* Esa anciana pensó que podía romper las reglas."
 
 msgid "<25>{#f/8}{#v/0}* She tried so hard to save you humans..."
 msgstr ""
+"<25>{#f/8}{#v/0}* Se esforzó tanto para salvar a ustedes, los humanos..."
 
 msgid ""
 "<25>{#f/6}{#v/0}* But when it came down to it, she couldn't even save "
 "herself."
 msgstr ""
+"<25>{#f/6}{#v/0}* Pero a la hora de la verdad, ni siquiera pudo salvarse a "
+"sí misma."
 
 msgid "<25>{#f/11}{#v/0}* So you finally caved in and killed someone, huh?"
-msgstr ""
+msgstr "<25>{#f/11}{#v/0}* Así que finalmente cediste y mataste a alguien, ¿eh?"
 
 msgid "<25>{#f/7}{#v/0}* Well, I hope you like your choice."
-msgstr ""
+msgstr "<25>{#f/7}{#v/0}* Bueno, espero que te guste tu elección."
 
 msgid ""
 "<25>{#f/8}{#v/0}* ... what's wrong?\n"
 "* Did she not last as long as you thought?"
 msgstr ""
+"<25>{#f/8}{#v/0}* ... ¿Qué pasa?\n"
+"* ¿Ella no duró tanto como pensabas?"
 
 msgid ""
 "<26>{#f/6}{#v/0}* Oh, how terrible.\n"
 "* Guess not everyone can be beat into submission."
 msgstr ""
+"<26>{#f/6}{#v/0}* Oh, que terrible.\n"
+"* Supongo que no todos pueden ser sometidos a la fuerza."
 
 msgid "<25>{#f/11}{#v/0}* What an idiot!"
-msgstr ""
+msgstr "<25>{#f/11}{#v/0}* ¡Pero que idiota!"
 
 msgid "<25>{#f/7}{#v/0}* What a shame for her."
-msgstr ""
+msgstr "<25>{#f/7}{#v/0}* Qué pena por ella."
 
 msgid "<25>{#f/6}{#v/0}* As for you..."
-msgstr ""
+msgstr "<25>{#f/6}{#v/0}* En cuanto a tí..."
 
 msgid "<25>{#p/twinkly}{#f/6}{#v/0}* Wow."
-msgstr ""
+msgstr "<25>{#p/twinkly}{#f/6}{#v/0}* Vaya."
 
 msgid ""
 "<25>{#f/7}{#v/0}* And here I thought you were the righteous one for showing "
 "mercy."
 msgstr ""
+"<25>{#f/7}{#v/0}* Y yo aquí pensando que eras el justo por mostrar piedad."
 
 msgid ""
 "<25>{#f/11}{#v/0}* Hah!\n"
 "* What a joke."
 msgstr ""
+"<25>{#f/11}{#v/0}* ¡Ja!\n"
+"* Menudo chiste."
 
 msgid "<25>{#f/6}{#v/0}* ..."
-msgstr ""
+msgstr "<25>{#f/6}{#v/0}* ..."
 
 msgid ""
 "<25>{#f/6}{#v/0}* How did it feel to finally satisfy your violent side?"
 msgstr ""
+"<25>{#f/6}{#v/0}* ¿Cómo se sintió al satisfacer por fin tu lado violento?"
 
 msgid "<25>{#f/0}{#v/1}* I bet it felt GOOD, didn't it?"
-msgstr ""
+msgstr "<25>{#f/0}{#v/1}* Apuesto a que se sintió BIEN, ¿no es así?"
 
 msgid "<25>{#f/11}{#v/0}* I mean, I should know..."
-msgstr ""
+msgstr "<25>{#f/11}{#v/0}* Digo, Debería saberlo..."
 
 msgid "<25>{#p/twinkly}{#f/5}{#v/0}* Nice to see you again."
-msgstr ""
+msgstr "<25>{#p/twinkly}{#f/5}{#v/0}* Encantado de volver a verte."
 
 msgid ""
 "<25>{#f/6}{#v/0}* By the way, you're the most boring person in the galaxy."
 msgstr ""
+"<25>{#f/6}{#v/0}* Por cierto, eres la persona más aburrida en la galaxia."
 
 msgid ""
 "<25>{#f/12}{#v/0}* Getting by peacefully, then going back just to do it "
 "again?"
 msgstr ""
+"<25>{#f/12}{#v/0}* ¿Hacer todo pacíficamente y luego volver sólo para "
+"hacerlo de nuevo?"
 
 msgid "<25>{#f/8}{#v/0}* Come on..."
-msgstr ""
+msgstr "<25>{#f/8}{#v/0}* Vamos..."
 
 msgid ""
 "<25>{#f/2}{#v/1}* You know as well as I do that it's KILL or BE killed."
-msgstr ""
+msgstr "<25>{#f/2}{#v/1}* Sabes muy bien como yo que es MATAR o MORIR."
 
 msgid "<25>{#p/twinkly}{#f/6}* Aren't you getting tired of this?"
-msgstr ""
+msgstr "<25>{#p/twinkly}{#f/6}* ¿No te estás cansando de esto?"
 
 msgid ""
 "<25>{#f/2}{#v/1}* You KNOW deep down that part of you wants to hurt her."
 msgstr ""
+"<25>{#f/2}{#v/1}* En el fondo SABES que una parte de ti quiere hacerle daño "
+"a ella."
 
 msgid ""
 "<25>{#f/14}{#v/1}* A few good hits, and she'd be dead before your very eyes."
 msgstr ""
+"<25>{#f/14}{#v/1}* Unos buenos golpes y ella estaría muerta ante tus propios "
+"ojos."
 
 msgid "<25>{#f/11}{#v/0}* Wouldn't that be exciting?"
-msgstr ""
+msgstr "<25>{#f/11}{#v/0}* ¿Eso no seria emocionante?"
 
 msgid "<25>{#f/8}{#v/0}* ..."
-msgstr ""
+msgstr "<25>{#f/8}{#v/0}* ..."
 
 msgid "<25>{#f/7}{#v/0}* See ya, idiot."
-msgstr ""
+msgstr "<25>{#f/7}{#v/0}* Nos vemos, idiota."
 
 msgid ""
 "<25>{#p/twinkly}{#f/8}{#v/0}* Are you doing this just to see how I react?"
 msgstr ""
+"<25>{#p/twinkly}{#f/8}{#v/0}* ¿Estás haciendo esto sólo para ver cómo "
+"reacciono?"
 
 msgid "<25>{#f/6}{#v/0}* Is that what this is about?"
-msgstr ""
+msgstr "<25>{#f/6}{#v/0}* ¿De eso se trata?"
 
 msgid "<25>{#f/7}{#v/0}* Well, don't expect to get anything else outta me."
-msgstr ""
+msgstr "<25>{#f/7}{#v/0}* Bueno, no esperes conseguir nada más de mí."
 
 msgid "<25>{#f/6}{#v/0}* All this boring pacifism is getting tiresome."
 msgstr ""
+"<25>{#f/6}{#v/0}* Todo este aburrido pacifismo se está volviendo tedioso."
 
 msgid ""
 "<25>{#f/11}{#v/0}* Now, if something more interesting were to happen..."
 msgstr ""
+"<25>{#f/11}{#v/0}* Ahora, si algo más interesante estuviera por pasar..."
 
 msgid "<25>{#f/9}{#v/0}* Perhaps I'd be more inclined to talk."
-msgstr ""
+msgstr "<25>{#f/9}{#v/0}* Tal vez estaría más dispuesto a hablar."
 
 msgid "<25>{#f/7}{#v/0}* Sooner or later, you'll be forced to realize that."
 msgstr ""
+"<25>{#f/7}{#v/0}* Tarde o temprano, te verás obligado a darte cuenta de eso."
 
 msgid "<25>{#f/11}{#v/0}* And when that time comes..."
-msgstr ""
+msgstr "<25>{#f/11}{#v/0}* Y cuando ese tiempo llegue..."
 
 msgid ""
 "<25>{#f/5}{#v/0}* Well, let's just say I'm interested to see what happens."
-msgstr ""
+msgstr "<25>{#f/5}{#v/0}* Bueno, digamos que estoy interesado en ver qué pasa."
 
 msgid "<25>{#f/9}{#v/0}* Good luck!"
-msgstr ""
+msgstr "<25>{#f/9}{#v/0}* ¡Buena suerte!"
 
 msgid "<25>{#f/7}{#v/0}* Maybe that's why you killed that one monster."
 msgstr ""
