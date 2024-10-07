@@ -1,6 +1,21 @@
-#
+#, fuzzy
 msgid ""
 msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-10-07 05:29+0000\n"
+"PO-Revision-Date: 2024-10-07 05:29+0000\n"
+"Last-Translator: MurderSans_MDR <z127568254@163.com>\n"
+"Language-Team: Chinese (Simplified Han script) <https://ws3917.site/projects/"
+"project-spacetime/2-starton/zh_Hans/>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: ENCODING\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.7.2\n"
+
+#
 
 msgid ""
 "<32>{#p/basic}* A standard-issue CITADEL long- range telescope, circa 261X."
@@ -5518,7 +5533,7 @@ msgid "<32>{#p/human}* (But you already completed this puzzle beforehand.)"
 msgstr ""
 
 msgid "<32>{#p/basic}* The terminal is now in an unlocked state."
-msgstr ""
+msgstr "<32>{#p/basic}* 终端已解锁。"
 
 msgid "<32>{#p/human}* (You look behind the microwave...)"
 msgstr "<32>{#p/human}* （你看了看微波炉的后面...）"
@@ -5957,8 +5972,6 @@ msgstr "哈喽！"
 msgid "SAVE YOURSELVES..."
 msgstr "自求多福吧..."
 
-msgid ""
-msgstr ""
 
 msgid "FAILED TO CONNECT..."
 msgstr "网络连接失败..."
