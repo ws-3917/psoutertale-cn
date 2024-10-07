@@ -1,22 +1,20 @@
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-06 16:29+0000\n"
-"PO-Revision-Date: 2024-10-06 16:29+0000\n"
+"PO-Revision-Date: 2024-10-07 18:29+0000\n"
 "Last-Translator: Stefano <stefanobuendia@hotmail.com>\n"
 "Language-Team: Spanish <https://ws3917.site/projects/project-spacetime/"
 "1-outlands/es/>\n"
 "Language: es_ES\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: ENCODING\n"
+"Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 5.7.2\n"
 
 #
-
 msgid ""
 "<25>{#p/toriel}{#f/1}* I hear there is a certain kind of fluid in "
 "Aerialis..."
@@ -3557,50 +3555,55 @@ msgid "<25>{#f/11}{#v/0}* It's fun, isn't it?"
 msgstr "<25>{#f/11}{#v/0}* Es divertido, ¿no es así?"
 
 msgid "<25>{#f/6}{#v/0}* Endlessly toying with the lives of others..."
-msgstr ""
+msgstr "<25>{#f/6}{#v/0}* Jugando sin cesar con la vida de los demás..."
 
 msgid ""
 "<25>{#f/8}{#v/0}* Watching how they react to every possible decision..."
 msgstr ""
+"<25>{#f/8}{#v/0}* Viendo como reaccionarían con cada posible decisión..."
 
 msgid "<25>{#f/11}{#v/0}* Isn't it thrilling?"
-msgstr ""
+msgstr "<25>{#f/11}{#v/0}* ¿No es emocionante?"
 
 msgid "<25>{#f/9}{#v/0}* I wonder what you'll do next."
-msgstr ""
+msgstr "<25>{#f/9}{#v/0}* Me pregunto qué harás ahora."
 
 msgid "<25>{#f/5}{#v/0}* I'll be watching..."
-msgstr ""
+msgstr "<25>{#f/5}{#v/0}* Estaré observando..."
 
 msgid "<25>{#p/twinkly}{#f/10}{#v/0}* You just can't get enough, can you~"
-msgstr ""
+msgstr "<25>{#p/twinkly}{#f/10}{#v/0}* No puedes tener suficiente, ¿verdad?"
 
 msgid "<25>{#f/11}{#v/0}* How many more times will you KILL her, eh?"
-msgstr ""
+msgstr "<25>{#f/11}{#v/0}* ¿Cuántas veces más vas a matarla, eh?"
 
 msgid "<25>{#f/0}{#v/1}* You kinda remind me of myself."
-msgstr ""
+msgstr "<25>{#f/0}{#v/1}* Me recuerdas un poco a mí."
 
 msgid "<25>{#f/9}{#v/0}* Well, cya!"
-msgstr ""
+msgstr "<25>{#f/9}{#v/0}* ¡Bueno, nos vemos!"
 
 msgid ""
 "<25>{#p/twinkly}{#f/6}{#v/0}* Again?\n"
 "* Golly..."
 msgstr ""
+"<25>{#p/twinkly}{#f/6}{#v/0}* ¿Otra vez?\n"
+"* Por Dios..."
 
 msgid "<25>{#f/0}{#v/1}* You REALLY remind me of myself."
-msgstr ""
+msgstr "<25>{#f/0}{#v/1}* DE VERDAD me recuerdas a mi mismo."
 
 msgid "<25>{#p/twinkly}{#f/6}{#v/0}* Again!?"
-msgstr ""
+msgstr "<25>{#p/twinkly}{#f/6}{#v/0}* ¡¿Otra vez!?"
 
 msgid "<25>{#f/8}{#v/0}* Wow, you're even worse than I thought."
-msgstr ""
+msgstr "<25>{#f/8}{#v/0}* Vaya, eres peor de lo que me imaginaba."
 
 msgid ""
 "<25>{#p/twinkly}{#f/5}{#v/0}* So you've finally gotten by peacefully, huh?"
 msgstr ""
+"<25>{#p/twinkly}{#f/5}{#v/0}* Así que por fin te las arreglaste "
+"pacificamente, eh?"
 
 msgid ""
 "<25>{#p/twinkly}{#f/5}{#v/0}* So you've finally decided to show mercy, huh?"
