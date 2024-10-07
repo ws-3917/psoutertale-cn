@@ -1,22 +1,20 @@
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-07 04:29+0000\n"
-"PO-Revision-Date: 2024-10-07 04:29+0000\n"
+"PO-Revision-Date: 2024-10-07 05:29+0000\n"
 "Last-Translator: MurderSans_MDR <z127568254@163.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://ws3917.site/projects/"
 "project-spacetime/3-foundry/zh_Hans/>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: ENCODING\n"
+"Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 5.7.2\n"
 
 #
-
 msgid "<32>{#p/basic}* ..."
 msgstr "<32>{#p/basic}* ..."
 
@@ -4047,16 +4045,16 @@ msgid "<32>{#s/echostart}{#p/event}{#npc/a}* Signal start..."
 msgstr "<32>{#s/echostart}{#p/event}{#npc/a}* 讯号开始..."
 
 msgid "<32>{#p/undyne}* Citizens of the Foundry..."
-msgstr ""
+msgstr "<32>{#p/undyne}* 铸厂居民听好..."
 
 msgid "<32>* ... you should all know what happened to you by now."
-msgstr ""
+msgstr "<32>* ...你们应该都清楚发生了什么。"
 
 msgid "<32>* It's time to go, and you damn well know it."
-msgstr ""
+msgstr "<32>* 我们该走了，你们清楚得很。"
 
 msgid "<32>* So let's get going."
-msgstr ""
+msgstr "<32>* 那就快点吧。"
 
 msgid "<32>{#s/echostop}{#p/event}{#npc}* Signal stop."
 msgstr "<32>{#s/echostop}{#p/event}{#npc}* 讯号终止。"
