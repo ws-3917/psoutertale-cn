@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-06 16:29+0000\n"
-"PO-Revision-Date: 2024-10-07 22:29+0000\n"
+"PO-Revision-Date: 2024-10-08 03:29+0000\n"
 "Last-Translator: Stefano <stefanobuendia@hotmail.com>\n"
 "Language-Team: Spanish <https://ws3917.site/projects/project-spacetime/"
 "1-outlands/es/>\n"
@@ -3801,176 +3801,196 @@ msgid "<25>{#f/9}{#v/0}* Good luck!"
 msgstr "<25>{#f/9}{#v/0}* ¡Buena suerte!"
 
 msgid "<25>{#f/7}{#v/0}* Maybe that's why you killed that one monster."
-msgstr ""
+msgstr "<25>{#f/7}{#v/0}* Tal vez por eso mataste a ese monstruo."
 
 msgid ""
 "<25>{#f/8}{#v/0}* I mean, you went almost the whole way without killing "
 "anyone..."
 msgstr ""
+"<25>{#f/8}{#v/0}* Quiero decir, casi llegaste al final del camino sin matar "
+"a nadie..."
 
 msgid "<25>{#f/6}{#v/0}* But somewhere along the line, you screwed up."
-msgstr ""
+msgstr "<25>{#f/6}{#v/0}* Pero en algún momento, metiste la pata."
 
 msgid ""
 "<25>{#f/5}{#v/0}* All that good karma you had went straight down the toilet."
 msgstr ""
+"<25>{#f/5}{#v/0}* Todo ese buen karma que tenías se fue directamente por el "
+"retrete."
 
 msgid "<25>{#f/11}{#v/0}* Golly, you can't do anything right!"
-msgstr ""
+msgstr "<25>{#f/11}{#v/0}* ¡Dios, no puedes hacer nada bien!"
 
 msgid "<25>{#f/11}{#v/0}* What a joke!"
-msgstr ""
+msgstr "<25>{#f/11}{#v/0}* ¡Menudo chiste!"
 
 msgid "<25>{#f/7}{#v/0}* Maybe that's why you killed those other monsters."
-msgstr ""
+msgstr "<25>{#f/7}{#v/0}* Tal vez por eso mataste a esos otros monstruos."
 
 msgid "<25>{#f/8}{#v/0}* I mean, you had a good run, but..."
-msgstr ""
+msgstr "<25>{#f/8}{#v/0}* Digo, tuviste una buena racha, pero..."
 
 msgid ""
 "<25>{#f/6}{#v/0}* What's the point in mercy if it doesn't mean anything?"
-msgstr ""
+msgstr "<25>{#f/6}{#v/0}* ¿Qué sentido tiene la piedad si no significa nada?"
 
 msgid "<25>{#f/7}{#v/0}* And believe me, after you did what you did..."
-msgstr ""
+msgstr "<25>{#f/7}{#v/0}* Y créeme, después de lo que hiciste..."
 
 msgid "<25>{#f/2}{#v/1}* It doesn't mean JACK."
-msgstr ""
+msgstr "<25>{#f/2}{#v/1}* No significa NADA."
 
 msgid ""
 "<25>{#f/11}{#v/0}* What's wrong with killing Toriel, huh?\n"
 "* Too good for that?"
 msgstr ""
+"<25>{#f/11}{#v/0}* ¿Qué hay de malo en matar a Toriel, eh?\n"
+"* ¿Demasiado bueno para eso?"
 
 msgid "<25>{#f/2}{#v/1}* I know you're still rotten to the core."
-msgstr ""
+msgstr "<25>{#f/2}{#v/1}* Sé que todavía estás podrido hasta la médula."
 
 msgid ""
 "<25>{#f/11}{#v/0}* I mean, you managed to take out everyone in your path..."
 msgstr ""
+"<25>{#f/11}{#v/0}* Quiero decir, te las arreglaste para eliminar a todos en "
+"tu camino..."
 
 msgid "<25>{#f/6}{#v/0}* But when it came to the final hurdle, you failed."
-msgstr ""
+msgstr "<25>{#f/6}{#v/0}* Pero cuando llegó el último obstáculo, fracasaste."
 
 msgid ""
 "<25>{#p/twinkly}{#f/6}{#v/0}* Back again, huh?\n"
 "* Golly..."
 msgstr ""
+"<25>{#p/twinkly}{#f/6}{#v/0}* Otra vez, ¿eh?\n"
+"* Dios..."
 
 msgid "<25>{#f/8}{#v/0}* You've changed the timeline around so much..."
-msgstr ""
+msgstr "<25>{#f/8}{#v/0}* Has cambiado tanto la línea de tiempo..."
 
 msgid "<25>{#f/6}{#v/0}* I don't even know what to think now."
-msgstr ""
+msgstr "<25>{#f/6}{#v/0}* Ahora ni siquiera sé qué pensar."
 
 msgid ""
 "<25>{#f/8}{#v/0}* Are you good?\n"
 "* Evil?\n"
 "* Just curious?"
 msgstr ""
+"<25>{#f/8}{#v/0}* ¿Eres bueno?\n"
+"* ¿Malvado?\n"
+"* O ¿solo eres curioso?"
 
 msgid "<25>{#f/6}{#v/0}* I dunno."
-msgstr ""
+msgstr "<25>{#f/6}{#v/0}* No lo sé."
 
 msgid "<25>{#f/5}{#v/0}* There is one thing, though..."
-msgstr ""
+msgstr "<25>{#f/5}{#v/0}* Hay una cosa, sin embargo..."
 
 msgid "<25>{#f/5}{#v/0}* One thing I KNOW you haven't done yet."
-msgstr ""
+msgstr "<25>{#f/5}{#v/0}* Una cosa que SÉ que no has hecho todavía."
 
 msgid "<25>{#f/7}{#v/0}* That's right."
-msgstr ""
+msgstr "<25>{#f/7}{#v/0}* Así es."
 
 msgid "<25>{#f/7}{#v/0}* You haven't killed everyone here in one run yet."
-msgstr ""
+msgstr "<25>{#f/7}{#v/0}* Todavía no has matado a todo el mundo en una racha."
 
 msgid "<25>{#f/11}{#v/0}* Aren't you at least a LITTLE curious?"
-msgstr ""
+msgstr "<25>{#f/11}{#v/0}* ¿No tienes al menos un POCO de curiosidad?"
 
 msgid "<25>{#f/8}{#v/0}* Come on, $(name)..."
-msgstr ""
+msgstr "<25>{#f/8}{#v/0}* Vamos, $(name)..."
 
 msgid "<25>{#f/5}{#v/0}* I know you're in there somewhere."
-msgstr ""
+msgstr "<25>{#f/5}{#v/0}* Sé que estas ahí en algún lugar."
 
 msgid "<25>{#p/twinkly}{#f/6}{#v/0}* Well well, we meet again."
-msgstr ""
+msgstr "<25>{#p/twinkly}{#f/6}{#v/0}* Bueno bueno, nos encontramos de nuevo."
 
 msgid "<25>{#f/8}{#v/0}* How many times is this now?"
-msgstr ""
+msgstr "<25>{#f/8}{#v/0}* ¿Cuántas veces son hasta ahora?"
 
 msgid ""
 "<25>{#f/6}{#v/0}* Whatever.\n"
 "* Doesn't matter."
 msgstr ""
+"<25>{#f/6}{#v/0}* Como sea.\n"
+"* No importa."
 
 msgid "<25>{#f/6}{#v/0}* You KNOW what you have to do, $(name)."
-msgstr ""
+msgstr "<25>{#f/6}{#v/0}* Tú SABES lo que tienes que hacer, $(name)."
 
 msgid "<25>{#f/5}{#v/0}* I'll be waiting."
-msgstr ""
+msgstr "<25>{#f/5}{#v/0}* Estaré esperando."
 
 msgid "<25>{#p/toriel}{#f/13}* You wish to return \"home,\" do you not?"
-msgstr ""
+msgstr "<25>{#p/toriel}{#f/13}* Deseas volver a \"casa\", ¿no es así?"
 
 msgid "<25>{#f/9}* ..."
-msgstr ""
+msgstr "<25>{#f/9}* ..."
 
 msgid "<25>{#f/9}* If you leave here, I will not be able to protect you."
-msgstr ""
+msgstr "<25>{#f/9}* Si te vas de aquí, no podré protegerte."
 
 msgid ""
 "<25>{#f/9}* I will not be able to save you from the dangers that lie ahead."
-msgstr ""
+msgstr "<25>{#f/9}* No podré salvarte de los peligros que estan ahí adelante."
 
 msgid "<25>{#f/13}* So, please, little one..."
-msgstr ""
+msgstr "<25>{#f/13}* Así que, por favor, pequeño..."
 
 msgid "<25>{#f/9}* Go back the other way."
-msgstr ""
+msgstr "<25>{#f/9}* Regresa al otro camino."
 
 msgid ""
 "<25>{#p/toriel}{#f/13}* Every human that ends up here meets the same fate."
 msgstr ""
+"<25>{#p/toriel}{#f/13}* Cada humano que cae aquí se encuentra con el mismo "
+"destino."
 
 msgid "<25>{#f/9}* I have seen it repeat time and time again."
-msgstr ""
+msgstr "<25>{#f/9}* Lo he visto una y otra vez."
 
 msgid "<25>{#f/13}* They come."
-msgstr ""
+msgstr "<25>{#f/13}* Vienen."
 
 msgid "<25>{#f/13}* They leave."
-msgstr ""
+msgstr "<25>{#f/13}* Se van."
 
 msgid "<25>{#f/9}* ... they die."
-msgstr ""
+msgstr "<25>{#f/9}* ... mueren."
 
 msgid "<25>{#f/13}* My child..."
-msgstr ""
+msgstr "<25>{#f/13}* Mi niño..."
 
 msgid "<25>{#f/13}* If you leave the Outlands..."
-msgstr ""
+msgstr "<25>{#f/13}* Si sales de las Afueras..."
 
 msgid ""
 "<25>{#f/9}* They...\n"
 "* {@fill=#f00}ASGORE{@fill=#fff}...\n"
 "* Will take your SOUL."
 msgstr ""
+"<25>{#f/9}* Ellos...\n"
+"* {@fill=#f00}ASGORE{@fill=#fff}...\n"
+"* Tomaran tu ALMA."
 
 msgid "<25>{#f/13}* I did not want to say this, but..."
-msgstr ""
+msgstr "<25>{#f/13}* No quise decir esto, pero..."
 
 msgid "<25>{#f/11}* I cannot allow you to continue this way."
-msgstr ""
+msgstr "<25>{#f/11}* No puedo permitir que continúes por este camino."
 
 msgid "<25>{#f/9}* For your own sake, child..."
-msgstr ""
+msgstr "<25>{#f/9}* Por tu propio bien, niño..."
 
 msgid "<25>{#f/9}* Do not follow me into the next room."
-msgstr ""
+msgstr "<25>{#f/9}* No me sigas a la otra habitación."
 
 msgid "<25>{#p/toriel}{#p/toriel}{#f/13}* ..."
-msgstr ""
+msgstr "<25>{#p/toriel}{#p/toriel}{#f/13}* ..."
 
 msgid "<25>{#f/10}* ... of course."
 msgstr ""
