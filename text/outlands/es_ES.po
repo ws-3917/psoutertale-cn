@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-06 16:29+0000\n"
-"PO-Revision-Date: 2024-10-09 19:29+0000\n"
+"PO-Revision-Date: 2024-10-09 20:29+0000\n"
 "Last-Translator: Stefano <stefanobuendia@hotmail.com>\n"
 "Language-Team: Spanish <https://ws3917.site/projects/project-spacetime/"
 "1-outlands/es/>\n"
@@ -4301,7 +4301,7 @@ msgstr ""
 "* Le haré saber que estas viniendo."
 
 msgid "<25>{#p/toriel}{#f/5}* I will be in the living room if you need me."
-msgstr "<25>{#p/toriel}{#f/5}* Estaré en la sala de estar si me necesitas."
+msgstr "<25>{#p/toriel}{#f/5}* Estaré en la sala si me necesitas."
 
 msgid ""
 "<25>{#p/toriel}{#f/0}* Oh, hello, little one.\n"
@@ -4311,67 +4311,71 @@ msgstr ""
 "* Te has levantado temprano."
 
 msgid "<25>{#f/1}* Are you sure you slept for a long enough time?"
-msgstr ""
+msgstr "<25>{#f/1}* ¿Estás seguro de que dormiste lo suficiente?"
 
 msgid "<26>{#f/0}* ... aside from that..."
-msgstr ""
+msgstr "<26>{#f/0}* ... aparte de eso..."
 
 msgid "<25>{#p/toriel}* Good morning, little one."
-msgstr ""
+msgstr "<25>{#p/toriel}* Buenos días, pequeño."
 
 msgid "<25>{#f/0}* Still, I have done my best to salvage it for you."
-msgstr ""
+msgstr "<25>{#f/0}* Aún así, he hecho todo lo posible para salvarte."
 
 msgid "<25>{#f/1}* The stars do look pretty today, do they not?"
-msgstr ""
+msgstr "<25>{#f/1}* Las estrellas se ven hermosas hoy, ¿no es así?"
 
 msgid "<25>{#f/5}* I will be in the living room if you need me."
-msgstr ""
+msgstr "<25>{#f/5}* Estaré en la sala si me necesitas."
 
 msgid "<25>* The Outlands have been unusually noisy today."
-msgstr ""
+msgstr "<25>* Las Afueras han estado inusualmente ruidosas hoy."
 
 msgid "<25>* It seems a bully has been going around and causing trouble..."
 msgstr ""
+"<25>* Parece que un bravucón ha estado dando vueltas y causando problemas..."
 
 msgid "<25>* It would be best not to stray too far."
-msgstr ""
+msgstr "<25>* Lo mejor sería no alejarse demasiado."
 
 msgid "<25>* The Outlands have been unusually silent today."
-msgstr ""
+msgstr "<25>* Las Afueras han estado inusualmente silenciosas hoy."
 
 msgid "<25>* I tried calling someone just now, but..."
-msgstr ""
+msgstr "<25>* Intente llamar a alguien justo ahora, pero..."
 
 msgid "<25>* Nothing."
-msgstr ""
+msgstr "<25>* Nada."
 
 msgid ""
 "<26>{#f/3}* In other news, that little white dog has raided my kitchen "
 "again."
 msgstr ""
+"<26>{#f/3}* En otras noticias, ese perrito blanco ha vuelto a asaltar mi "
+"cocina."
 
 msgid ""
 "<25>{#f/3}* Apart from the little white dog raiding my kitchen, that is."
 msgstr ""
+"<25>{#f/3}* Aparte del pequeño perro blanco que irrumpió en mi cocina, claro."
 
 msgid "<25>{#f/1}* I hope you like it..."
-msgstr ""
+msgstr "<25>{#f/1}* Espero que te guste..."
 
 msgid "<25>{#f/1}* It is rather worrying..."
-msgstr ""
+msgstr "<25>{#f/1}* Es bastante preocupante..."
 
 msgid "<25>{#f/0}* Anyhoo, I will be in the living room if you need me."
-msgstr ""
+msgstr "<25>{#f/0}* Como sea, estaré en la sala si me necesitas."
 
 msgid "<25>{#p/toriel}{#f/10}* ..."
-msgstr ""
+msgstr "<25>{#p/toriel}{#f/10}* ..."
 
 msgid "<25>{#f/20}{|}* Come here- {%}"
-msgstr ""
+msgstr "<25>{#f/20}{|}* Ven aquí- {%}"
 
 msgid "<25>{#f/19}{|}* Come here- {%}"
-msgstr ""
+msgstr "<25>{#f/19}{|}* Ven aquí- {%}"
 
 msgid ""
 "<25>{#p/toriel}{#f/5}* I am sorry for what I have put you through, little "
