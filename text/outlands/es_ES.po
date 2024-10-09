@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-06 16:29+0000\n"
-"PO-Revision-Date: 2024-10-09 07:29+0000\n"
+"PO-Revision-Date: 2024-10-09 08:29+0000\n"
 "Last-Translator: Stefano <stefanobuendia@hotmail.com>\n"
 "Language-Team: Spanish <https://ws3917.site/projects/project-spacetime/"
 "1-outlands/es/>\n"
@@ -4104,60 +4104,68 @@ msgstr ""
 "matado."
 
 msgid "<32>* Her hopes shattered, and with nothing left to lose, she..."
-msgstr ""
+msgstr "<32>* Sus esperanzas se rompieron y sin nada que perder, ella..."
 
 msgid ""
 "<32>* ... m-meanwhile, the remaining outpost residents await salvation..."
 msgstr ""
+"<32>* ... m-mientras tanto, los residentes que quedan de la estación "
+"espacial esperan la salvación..."
 
 msgid "<32>* Time goes by, and Toriel does her best to care for you."
-msgstr ""
+msgstr "<32>* El tiempo pasa y Toriel hace todo lo posible por cuidarte."
 
 msgid "<32>* Reading books, baking pies..."
-msgstr ""
+msgstr "<32>* Leyendo libros, horneándote tartas..."
 
 msgid "<32>* Tucking you snugly into bed, each and every night..."
-msgstr ""
+msgstr "<32>* Acurrucándote en la cama, todas y cada una de las noches..."
 
 msgid "<32>* ... despite her fear that you may try to run away again."
-msgstr ""
+msgstr "<32>* ... a pesar de su miedo a que intentes huir de nuevo."
 
 msgid "<32>* ... despite those who've gone missing."
-msgstr ""
+msgstr "<32>* ... a pesar de los que han desaparecido."
 
 msgid "<32>* All the while, the outpost residents await salvation..."
 msgstr ""
+"<32>* Al mismo tiempo, los residentes de la estación espacial esperan la "
+"salvación..."
 
 msgid ""
 "<32>* And hugging you so tightly that you never ever try to run away again."
 msgstr ""
+"<32>* Y abrazándote tan fuerte para que nunca jamás intentes huir de nuevo."
 
 msgid "<32>* And all the hugging you could ever hope for."
-msgstr ""
+msgstr "<32>* Y todos los abrazos que puedas desear."
 
 msgid "<32>* ... from a human that may never reach them."
-msgstr ""
+msgstr "<32>* ... de un humano que quizá nunca llegue a ellos."
 
 msgid "<32>* Is this truly the outcome you had hoped for?"
-msgstr ""
+msgstr "<32>* ¿Es este el resultado que realmente esperabas?"
 
 msgid "<32>* Is this truly what they deserve?"
-msgstr ""
+msgstr "<32>* ¿Es esto lo que ellos realmente se merecen?"
 
 msgid "<25>{#p/toriel}{#f/1}* Sorry for the wait..."
-msgstr ""
+msgstr "<25>{#p/toriel}{#f/1}* Perdón por la espera..."
 
 msgid ""
 "<25>{#f/3}* It seems that little white dog has raided my kitchen again."
 msgstr ""
+"<25>{#f/3}* Parece que ese perrito blanco ha vuelto a asaltar mi cocina."
 
 msgid "<25>{#f/4}* You should see the state of that pie..."
-msgstr ""
+msgstr "<25>{#f/4}* Deberías ver el estado de esa tarta..."
 
 msgid ""
 "<26>{#f/0}* But anyhoo.\n"
 "* I have prepared a plate of fried snails for you."
 msgstr ""
+"<26>{#f/0}* Pero bueno.\n"
+"* Te he preparado un plato de caracoles fritos."
 
 msgid "<25>{#p/toriel}* Breakfast is ready!"
 msgstr ""
