@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-06 16:29+0000\n"
-"PO-Revision-Date: 2024-10-09 08:29+0000\n"
+"PO-Revision-Date: 2024-10-09 19:29+0000\n"
 "Last-Translator: Stefano <stefanobuendia@hotmail.com>\n"
 "Language-Team: Spanish <https://ws3917.site/projects/project-spacetime/"
 "1-outlands/es/>\n"
@@ -4168,133 +4168,147 @@ msgstr ""
 "* Te he preparado un plato de caracoles fritos."
 
 msgid "<25>{#p/toriel}* Breakfast is ready!"
-msgstr ""
+msgstr "<25>{#p/toriel}* ¡El desayuno esta listo!"
 
 msgid "<26>* I have prepared a plate of fried snails for you."
-msgstr ""
+msgstr "<26>* Te he preparado un plato de caracoles fritos."
 
 msgid "<25>{#f/1}* I will leave them here on the table..."
-msgstr ""
+msgstr "<25>{#f/1}* Los dejare aquí en la mesa..."
 
 msgid "<32>{#p/basic}* You wouldn't like what's in the fridge."
-msgstr ""
+msgstr "<32>{#p/basic}* No te gustaría lo que hay en la nevera."
 
 msgid "<32>{#p/basic}* There is a brand-name chocolate bar in the fridge."
-msgstr ""
+msgstr "<32>{#p/basic}* Hay una tableta de chocolate de marca en la nevera."
 
 msgid "<32>* Do you want it?"
-msgstr ""
+msgstr "<32>* ¿Lo quieres?"
 
 msgid "* (Take the Chocolate Bar?)"
-msgstr ""
+msgstr "* (¿Tomar la Barra de Chocolate)"
 
 msgid "<32>{#p/human}* (You decide not to take anything.)"
-msgstr ""
+msgstr "<32>{#p/human}* (Decides no tomar nada.)"
 
 msgid "<32>{#p/human}* (You got the Chocolate Bar.)"
-msgstr ""
+msgstr "<32>{#p/human}* (Conseguiste la Barra de Chocolate.)"
 
 msgid "<25>{#p/asriel1}{#f/17}* Ah... chocolate."
-msgstr ""
+msgstr "<25>{#p/asriel1}{#f/17}* Oh... chocolate."
 
 msgid "<25>{#p/asriel1}{#f/13}* ..."
-msgstr ""
+msgstr "<25>{#p/asriel1}{#f/13}* ..."
 
 msgid ""
 "<25>{#p/asriel1}{#f/23}* Oh... $(name) ALWAYS used to root around in the "
 "fridge."
 msgstr ""
+"<25>{#p/asriel1}{#f/23}* Oh... $(name) SIEMPRE solía hurgar en la nevera."
 
 msgid "<25>{#f/13}* They thought, if they dug deep enough..."
-msgstr ""
+msgstr "<25>{#f/13}* Pensaba que si cavaba lo suficientemente profundo..."
 
 msgid "<25>{#f/13}* Another bar of chocolate would reveal itself inside."
-msgstr ""
+msgstr "<25>{#f/13}* Otra tableta de chocolate se revelaría ahí dentro."
 
 msgid "<25>{#f/17}* ... how silly."
-msgstr ""
+msgstr "<25>{#f/17}* ... qué tonto."
 
 msgid ""
 "<25>{#p/asriel1}{#f/20}* That was before the chocolate replicator was "
 "installed."
 msgstr ""
+"<25>{#p/asriel1}{#f/20}* Eso fue antes de que se instalara el replicador de "
+"chocolate."
 
 msgid "<32>{#p/basic}* The chocolate bar has already been taken."
-msgstr ""
+msgstr "<32>{#p/basic}* La barra de chocolate ya ha sido tomada."
 
 msgid "<25>{#p/toriel}{#f/1}* ... and you want to play one of your songs?"
 msgstr ""
+"<25>{#p/toriel}{#f/1}* ... y ¿quieres reproducir alguna de tus canciones?"
 
 msgid "<25>{#f/0}* Alright, I will see what I can do."
-msgstr ""
+msgstr "<25>{#f/0}* De acuerdo, veré lo que puedo hacer."
 
 msgid "<25>{#p/toriel}{#f/1}* ... hello?"
-msgstr ""
+msgstr "<25>{#p/toriel}{#f/1}* ... ¿hola?"
 
 msgid "<25>{#p/toriel}{#f/2}* Up already!?"
-msgstr ""
+msgstr "<25>{#p/toriel}{#f/2}* ¡¿Ya estas despierto!?"
 
 msgid "<25>{#f/1}* You were not asleep for very long..."
-msgstr ""
+msgstr "<25>{#f/1}* No has dormido mucho tiempo..."
 
 msgid "<25>{#f/1}* The atmospheric system still does not seem to be fixed."
-msgstr ""
+msgstr "<25>{#f/1}* El sistema atmosférico aún no parece estar arreglado."
 
 msgid "<25>{#f/1}* The atmospheric system seems to be malfunctioning."
-msgstr ""
+msgstr "<25>{#f/1}* El sistema atmosférico parece estar fallando."
 
 msgid ""
 "<25>{#f/1}* If you begin to feel weak, do not hesitate to return to bed."
 msgstr ""
+"<25>{#f/1}* Si te empiezas a sentir débil, no dudes en volver a la cama."
 
 msgid "<26>{#f/0}* ... anywho."
-msgstr ""
+msgstr "<26>{#f/0}* ... en cualquier caso."
 
 msgid "<25>{#p/toriel}{#f/2}* How long have you been standing there!?"
-msgstr ""
+msgstr "<25>{#p/toriel}{#f/2}* ¡¿Cuánto tiempo llevas ahí de pie!?"
 
 msgid "<25>{#f/0}* I suppose it matters not."
-msgstr ""
+msgstr "<25>{#f/0}* Supongo que no importa."
 
 msgid ""
 "<25>{#f/0}* Napstablook, a visitor here, has offered to play their music."
 msgstr ""
+"<25>{#f/0}* Napstablook, un visitante de aquí, se ha ofrecido a tocar su "
+"música."
 
 msgid ""
 "<25>{#f/0}* In fact, they invited you specifically to be with them on stage!"
 msgstr ""
+"<25>{#f/0}* De hecho, ¡te invito específicamente para estar con ellos en el "
+"escenario!"
 
 msgid "<25>{#f/1}* Would you like to visit the activities room to see them?"
-msgstr ""
+msgstr "<25>{#f/1}* ¿Te gustaría visitar la sala de actividades para verlos?"
 
 msgid "<25>{#f/3}* Oh, and, I apologize about the state of the pie."
-msgstr ""
+msgstr "<25>{#f/3}* Oh, y me disculpo por el estado de la tarta."
 
 msgid ""
 "<25>{#f/4}* It seems that little white dog has raided my kitchen again..."
 msgstr ""
+"<25>{#f/4}* Parece que ese perrito blanco ha vuelto a asaltar mi cocina..."
 
 msgid "<25>{#f/5}* Oh, and, I apologize about the state of the pie."
-msgstr ""
+msgstr "<25>{#f/5}* Oh, y me disculpo por el estado de la tarta."
 
 msgid "<25>{#f/9}* I did my best to try and salvage it..."
-msgstr ""
+msgstr "<25>{#f/9}* Hice lo que pude para intentar salvarlo..."
 
 msgid "* (See Napstablook's show?)"
-msgstr ""
+msgstr "* (¿Ver el show de Napstablook?)"
 
 msgid ""
 "<25>{#p/toriel}{#f/0}* Wonderful!\n"
 "* I will let them know you are coming."
 msgstr ""
+"<25>{#p/toriel}{#f/0}* ¡Maravilloso!\n"
+"* Le haré saber que estas viniendo."
 
 msgid "<25>{#p/toriel}{#f/5}* I will be in the living room if you need me."
-msgstr ""
+msgstr "<25>{#p/toriel}{#f/5}* Estaré en la sala de estar si me necesitas."
 
 msgid ""
 "<25>{#p/toriel}{#f/0}* Oh, hello, little one.\n"
 "* You are up early."
 msgstr ""
+"<25>{#p/toriel}{#f/0}* Oh, hola, pequeño.\n"
+"* Te has levantado temprano."
 
 msgid "<25>{#f/1}* Are you sure you slept for a long enough time?"
 msgstr ""
