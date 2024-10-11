@@ -1,23 +1,21 @@
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-10 18:29+0000\n"
-"PO-Revision-Date: 2024-10-10 18:29+0000\n"
-"Last-Translator: wildpasta <supe204784@gmail.com>\n"
+"PO-Revision-Date: 2024-10-11 16:29+0000\n"
+"Last-Translator: Maxim Aksenov <me6696154@gmail.com>\n"
 "Language-Team: Russian <https://ws3917.site/projects/project-spacetime/"
 "3-foundry/ru/>\n"
 "Language: ru_RU\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: ENCODING\n"
+"Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 5.7.2\n"
 
 #
-
 msgid "<32>{#p/basic}* ..."
 msgstr ""
 
@@ -7334,44 +7332,51 @@ msgstr ""
 "<32>* После стольких долгих лет счастья и скуки, вынужден был переехать..."
 
 msgid "<32>* It was very uncomfortable."
-msgstr "<32>* Очень неудобно."
+msgstr "<32>* Это было очень неудобно."
 
+#, fuzzy
 msgid ""
 "<32>{#p/finalghost}* Toriel was so taken aback by your flirtatious ways."
-msgstr "<32>{#p/finalghost}* Ториэль был потрясен тем, как вы флиртовали."
+msgstr "<32>{#p/finalghost}* Ториэль была так шокирована твоим флиртовым путём."
 
+#, fuzzy
 msgid "<32>* Personally, I thought it was hilarious."
-msgstr "<32>* Лично мне это кажется смешным."
+msgstr "<32>* Лично я считаю, что это было смешно."
 
+#, fuzzy
 msgid "<32>* I was laughing on the inside."
-msgstr "<32>Я смеюсь внутри."
+msgstr "<32>* Я внутренне смеялся."
 
 msgid "<32>* Anyway..."
-msgstr "<32>* В любом случае."
+msgstr "<32>* В любом случае..."
 
 msgid ""
 "<32>* We all decided to hang out at Blooky's before leaving for the new "
 "homeworld."
 msgstr ""
-"<32>* Мы все решили посетить Blooky 's, прежде чем отправиться в новый дом."
+"<32>* Мы все решили посидеть у Блуки, прежде чем отправиться на новую родную "
+"планету."
 
 msgid ""
 "<32>* I will say, Blooky sure had some \"interesting\" music queued for "
 "download here..."
 msgstr ""
-"<32>* Я бы сказал, что у Blooky определенно есть какая - то \"забавная\" "
-"музыка, которая стоит здесь в очереди, чтобы скачать..."
+"<32>* Я скажу, что у Блуки была \"интересная\" музыка, которую можно было "
+"скачать здесь..."
 
 msgid "<32>* What's a \"Hyper Rage\" anyway?"
 msgstr "<32>* Что такое « супергнев»?"
 
+#, fuzzy
 msgid "<32>{#p/basic}* A song I wish I hadn't made."
-msgstr "<32>{#p/basic}* Песня, которую я хотел бы не делать."
+msgstr "<32>{#p/basic}* Песня, которую я не хотел делать."
 
 msgid ""
 "<32>{#p/finalghost}* Oh?\n"
 "* You made this?"
-msgstr "* Это ты сделал?"
+msgstr ""
+"<32>{#p/finalghost}* О?\n"
+"* Ты сделал это?"
 
 msgid "<32>{#p/basic}* Unfortunately, mew."
 msgstr "<32>{#p/basic}* К сожалению, мяу."
@@ -7380,24 +7385,28 @@ msgid "<32>{#p/finalghost}* I can see why you would want to forget about it."
 msgstr "<32>{#p/finalghost}* Я понимаю, почему вы хотите забыть об этом."
 
 msgid "<32>{#p/finalghost}* She's looking to move past her violent ways."
-msgstr ""
-"<32>{#p/finalghost}* Она хочет избавиться от насильственного образа жизни."
+msgstr "<32>{#p/finalghost}* Она стремится забыть о прошлом жестоком пути."
 
+#, fuzzy
 msgid "<32>{#p/basic}* So, being an angry dummy got boring after a while."
 msgstr ""
-"<32>{#p/basic}* Итак, через некоторое время становится скучно быть сердитым "
-"дураком."
+"<32>{#p/basic}* Итак, быть злым манекеном через некоторое время стало скучно."
 
 msgid ""
 "<32>* Then I asked Alphys to make me a replica of her favorite Mew Mew doll,"
 " mew!"
-msgstr "И я попросил Альфиса сделать мне копию ее любимой куклы мяу, мяу!"
+msgstr ""
+"<32>* Тогда я попросил Альфис сделать мне копию её любимой куклы Мяу Мяу, "
+"мяу!"
 
 msgid ""
 "<32>* Wow.\n"
 "* Wow!\n"
 "* WOW!!"
-msgstr "* Вау!"
+msgstr ""
+"<32>* Вау.\n"
+"* Вау!\n"
+"* ВАУ!!"
 
 msgid "<32>* I haven't felt this happy in a long time."
 msgstr "<32>* Я давно не чувствовала себя таким счастливым."
@@ -7424,38 +7433,40 @@ msgid ""
 "THE WHOLE THING."
 msgstr "<32>{#e/metaton/36}* ЕСЛИ ПОДУМАТЬ, Я СЛИШКОМ ДРАМАТИЗИРОВАЛ ВСЁ ЭТО."
 
+#, fuzzy
 msgid ""
 "<32>{#e/mettaton/36}* BLOOKY NEVER DID -THAT- MUCH WRONG... I GUESS I JUST "
 "DIDN'T WANT TO ADMIT I WAS BORED."
 msgstr ""
-"<32>{#e/metaton/36}* Blooky никогда не делал - это - большая ошибка. Я "
-"просто не хочу признаваться, что мне скучно."
+"<32>{#e/mettaton/36}* БЛУКИ НИКОГДА НЕ ДЕЛАЛ ТАК МНОГО ПЛОХОГО... Я ДУМАЮ, Я "
+"ПРОСТО НЕ ХОТЕЛ ПРИЗНАВАТЬ, ЧТО МНЕ СКУЧНО."
 
 msgid ""
 "<32>{#e/mettaton/8}* BUT MAYBE THAT'S WHAT MAKES ME SUCH A GREAT ACTOR."
 msgstr ""
-"<32>{#e/metaton/8}* Но, возможно, именно поэтому я стал таким великим "
-"актером."
+"<32>{#e/mettaton/8}* НО, ВОЗМОЖНО, ИМЕННО ЭТО ДЕЛАЕТ МЕНЯ ТАКИМ ВЕЛИКИМ "
+"АКТЁРОМ."
 
+#, fuzzy
 msgid ""
 "<32>{#e/mettaton/37}* IT'S NOT ACTING IF YOU CAN'T PUT TOO MUCH EMOTION INTO"
 " IT!"
 msgstr ""
-"<32>{#e/metaton/37}* Если вы не можете вдохнуть в него слишком много эмоций,"
-" это не сработает!"
+"<32>{#e/mettaton/37}* ЭТО НЕ АКТЁРСКАЯ ИГРА, ЕСЛИ ТЫ НЕ МОЖЕШЬ ВЛОЖИТЬ В НЕЁ "
+"МНОГО ЭМОЦИЙ!"
 
 msgid "<32>{#e/mettaton/9}* ... OR SOMETHING LIKE THAT."
-msgstr "<32>{#e/metaton/9}* ... Или что - то подобное."
+msgstr "<32>{#e/mettaton/9}* ... ИЛИ ЧТО-ТО В ЭТОМ РОДЕ."
 
 msgid ""
 "<32>{#p/mettaton}{#e/mettaton/9}* IF YOU EVER NEED AN ACTOR, YOU KNOW WHO TO"
 " CALL."
 msgstr ""
-"<32>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> "
-">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> >"
+"<32>{#p/mettaton}{#e/mettaton/9}* ЕСЛИ ТЕБЕ КОГДА-НИБУДЬ ПОНАДОБИТСЯ АКТЁР, "
+"ТЫ ЗНАЕШЬ, КОМУ ПОЗВОНИТЬ."
 
 msgid "<32>{#p/basic}* It's an upright sleeping dog."
-msgstr "<32>{#p/basic}* Это собака спит вертикально."
+msgstr "<32>{#p/basic}* Это вертикальная спящая собака."
 
 msgid "<25>{#p/asriel2}{#f/10}* I gotta say, this is rather in character."
 msgstr ""
