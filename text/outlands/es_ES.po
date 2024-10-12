@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-06 16:29+0000\n"
-"PO-Revision-Date: 2024-10-12 19:29+0000\n"
+"PO-Revision-Date: 2024-10-12 20:29+0000\n"
 "Last-Translator: Stefano <stefanobuendia@hotmail.com>\n"
 "Language-Team: Spanish <https://ws3917.site/projects/project-spacetime/"
 "1-outlands/es/>\n"
@@ -4392,51 +4392,57 @@ msgstr ""
 "<25>{#f/5}* ... aún así, si alguna vez necesitas a alguien para hablar..."
 
 msgid "<25>{#f/1}* Feel free to call me at any time."
-msgstr ""
+msgstr "<25>{#f/1}* No dudes en llamarme en cualquier momento."
 
 msgid ""
 "<25>{#f/0}* As long as my phone can reach you, I will be there to pick up."
 msgstr ""
+"<25>{#f/0}* Mientras mi teléfono pueda localizarte, estaré allí para "
+"contestarlo."
 
 msgid "<25>{#f/10}* ..."
-msgstr ""
+msgstr "<25>{#f/10}* ..."
 
 msgid "<25>{#f/14}* Be good, alright?"
-msgstr ""
+msgstr "<25>{#f/14}* Se bueno, ¿esta bien?"
 
 msgid "<25>{#p/toriel}{#f/1}* Be good, alright?"
-msgstr ""
+msgstr "<25>{#p/toriel}{#f/1}* Se bueno, ¿esta bien?"
 
 msgid ""
 "<25>{#p/toriel}{#f/5}* ... hmm?\n"
 "* You changed your mind?"
 msgstr ""
+"<25>{#p/toriel}{#f/5}* ... ¿hmm?\n"
+"* ¿Cambiaste de opinión?"
 
 msgid "<25>{#f/10}* Perhaps you really are different from the others."
-msgstr ""
+msgstr "<25>{#f/10}* Tal vez seas realmente diferente a los demás."
 
 msgid "<25>{#f/0}* ... well then."
-msgstr ""
+msgstr "<25>{#f/0}* ... bueno entonces."
 
 msgid "<25>{#f/0}* I will finish up here, and meet you back at the house."
-msgstr ""
+msgstr "<25>{#f/0}* Terminaré aquí y te veré en la casa.."
 
 msgid "<25>{#f/0}* Thank you for listening, my child."
-msgstr ""
+msgstr "<25>{#f/0}* Gracias por escucharme, mi niño."
 
 msgid "<25>{#f/0}* It means a lot to me."
-msgstr ""
+msgstr "<25>{#f/0}* Significa mucho para mí."
 
 msgid ""
 "<25>{#f/10}* ...\n"
 "* Forgive me, my child."
 msgstr ""
+"<25>{#f/10}* ...\n"
+"* Perdóname, mi niño."
 
 msgid "<25>{#f/9}* I might have lost it there for a moment."
-msgstr ""
+msgstr "<25>{#f/9}* Puede que me haya perdido por un momento."
 
 msgid "<25>{#f/0}* ... no matter."
-msgstr ""
+msgstr "<25>{#f/0}* ... no importa."
 
 msgid "<32>{#p/human}* (You got the Halo.)"
 msgstr ""
