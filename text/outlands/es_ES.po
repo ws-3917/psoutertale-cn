@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-06 16:29+0000\n"
-"PO-Revision-Date: 2024-10-12 21:29+0000\n"
+"PO-Revision-Date: 2024-10-12 22:29+0000\n"
 "Last-Translator: Stefano <stefanobuendia@hotmail.com>\n"
 "Language-Team: Spanish <https://ws3917.site/projects/project-spacetime/"
 "1-outlands/es/>\n"
@@ -4520,7 +4520,7 @@ msgid "<25>{#f/5}* It is time to go home."
 msgstr "<25>{#f/5}* Es tiempo de ir a casa."
 
 msgid "<32>{#p/human}{#s/equip}* (You got the CELL.)"
-msgstr "<32>{#p/human}{#s/equip}* (Conseguiste el TELEFONO.)"
+msgstr "<32>{#p/human}{#s/equip}* (Conseguiste el TELÉFONO.)"
 
 msgid "<25>{#p/toriel}* You did it!"
 msgstr "<25>{#p/toriel}* ¡Lo hiciste!"
@@ -4571,46 +4571,53 @@ msgstr "<25>{#f/5}* Hay recados importantes que debo hacer."
 
 msgid "<25>{#f/0}* While I am away, I expect you to be on your best behavior."
 msgstr ""
+"<25>{#f/0}* Mientras estoy fuera, espero que te comportes lo mejor posible."
 
 msgid "<25>{#f/1}* The puzzles ahead are yet to be explained, and..."
 msgstr ""
+"<25>{#f/1}* Los puzzles que estan adelante te los tengo que explicar, y..."
 
 msgid "<25>{#f/0}* Leaving the room on your own may prove to be dangerous."
-msgstr ""
+msgstr "<25>{#f/0}* Salir de la habitación por tu cuenta puede ser peligroso."
 
 msgid ""
 "<25>{#f/10}* Here.\n"
 "* Take this CELL phone."
 msgstr ""
+"<25>{#f/10}* Aquí.\n"
+"* Toma este Teléfono."
 
 msgid "<25>{#p/toriel}{#f/1}* If you need anything while I am away, please..."
 msgstr ""
+"<25>{#p/toriel}{#f/1}* Si necesitas algo mientras estoy fuera, por favor..."
 
 msgid "<25>{#f/0}* Do not hesitate to call me."
-msgstr ""
+msgstr "<25>{#f/0}* No dudes en llamarme."
 
 msgid "<26>{#f/23}* And stay out of trouble."
-msgstr ""
+msgstr "<26>{#f/23}* Y no te metas en problemas."
 
 msgid "<25>{#f/1}* Be good, alright?"
-msgstr ""
+msgstr "<25>{#f/1}* Se bueno, ¿esta bien?"
 
 msgid "<32>{#s/phone}{#p/event}* Ring, ring..."
-msgstr ""
+msgstr "<32>{#s/phone}{#p/event}* Ring, ring..."
 
 msgid ""
 "<25>{#p/toriel}* Hello!\n"
 "* This is Toriel."
 msgstr ""
+"<25>{#p/toriel}* ¡Hola!\n"
+"* Habla Toriel."
 
 msgid "<25>* My errands are taking longer than I thought they would."
-msgstr ""
+msgstr "<25>* Mis recados tardan más de lo que pensaba."
 
 msgid "<25>* You must wait a little longer."
-msgstr ""
+msgstr "<25>* Debes esperar un poco más."
 
 msgid "<25>{#f/1}* Thank you for being patient, my child..."
-msgstr ""
+msgstr "<25>{#f/1}* Gracias por ser paciente, mi niño..."
 
 msgid "<25>{#f/0}* You are very good."
 msgstr ""
