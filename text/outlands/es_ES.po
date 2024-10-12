@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-06 16:29+0000\n"
-"PO-Revision-Date: 2024-10-12 22:29+0000\n"
-"Last-Translator: Stefano <stefanobuendia@hotmail.com>\n"
+"PO-Revision-Date: 2024-10-12 23:26+0000\n"
+"Last-Translator: Ariel Nicolas <noezaraspe23130718@gmail.com>\n"
 "Language-Team: Spanish <https://ws3917.site/projects/project-spacetime/"
 "1-outlands/es/>\n"
 "Language: es_ES\n"
@@ -4620,39 +4620,44 @@ msgid "<25>{#f/1}* Thank you for being patient, my child..."
 msgstr "<25>{#f/1}* Gracias por ser paciente, mi niño..."
 
 msgid "<25>{#f/0}* You are very good."
-msgstr ""
+msgstr "<25>{#f/0}* Eres muy bueno."
 
 msgid ""
 "<25>{#p/toriel}* Hello...\n"
 "* This is Toriel."
 msgstr ""
+"<25>{#p/toriel}* ¡Hola!\n"
+"* Habla Toriel."
 
 msgid "<25>{#f/1}* I found what I was looking for..."
-msgstr ""
+msgstr "<25>{#f/1}* Encontré lo que estaba buscando..."
 
 msgid ""
 "<25>{#f/0}* But a small, white puppy snatched it away!\n"
 "* How odd."
 msgstr ""
+"<25>{#f/0}* !Pero un pequeño cachorrito blanco se lo llevó!\n"
+"* Que extraño."
 
 msgid "<25>{#f/1}* Do dogs even like flour?"
-msgstr ""
+msgstr "<25>{#f/1}* ¿A los perros siquiera les gusta la harina?"
 
+#, fuzzy
 msgid "<25>{#f/0}* Err, that is an unrelated question, of course."
-msgstr ""
+msgstr "<25>{#f/0}* Ehm, esa era una pregunta no relacionada, por supuesto."
 
 msgid "<25>* It will take a little longer for me to return."
-msgstr ""
+msgstr "<25>* Va a tomarme más tiempo del que pensé en volver."
 
 msgid "<25>{#f/1}* Thank you again for being so patient..."
-msgstr ""
+msgstr "<25>{#f/1}* Gracias de nuevo por ser tan paciente..."
 
 msgid "<32>{#p/basic}* (...)"
-msgstr ""
+msgstr "<32>{#p/basic}* (...)"
 
 msgid ""
 "<32>{#p/human}* (You hear heavy panting on the other end of the phone.)"
-msgstr ""
+msgstr "<32>{#p/human}* (escuchas jadeos desde el otro lado del teléfono...)"
 
 msgid ""
 "<32>{#s/bark}{#p/event}* Bark!\n"
