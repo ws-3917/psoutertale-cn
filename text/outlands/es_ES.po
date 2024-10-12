@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-06 16:29+0000\n"
-"PO-Revision-Date: 2024-10-12 20:29+0000\n"
+"PO-Revision-Date: 2024-10-12 21:29+0000\n"
 "Last-Translator: Stefano <stefanobuendia@hotmail.com>\n"
 "Language-Team: Spanish <https://ws3917.site/projects/project-spacetime/"
 "1-outlands/es/>\n"
@@ -4445,120 +4445,129 @@ msgid "<25>{#f/0}* ... no matter."
 msgstr "<25>{#f/0}* ... no importa."
 
 msgid "<32>{#p/human}* (You got the Halo.)"
-msgstr ""
+msgstr "<32>{#p/human}* (Conseguiste el Anillo.)"
 
 msgid "* (Equip the Halo?)"
-msgstr ""
+msgstr "* (¿Equiparte el Anillo?)"
 
 msgid ""
 "<25>{#p/toriel}{#f/5}* Teaching you thus far has been difficult, but..."
-msgstr ""
+msgstr "<25>{#p/toriel}{#f/5}* Enseñarte hasta ahora ha sido difícil, pero..."
 
 msgid "<25>{#f/5}* Perhaps this exercise will help."
-msgstr ""
+msgstr "<25>{#f/5}* Tal vez este ejercicio te ayude."
 
 msgid ""
 "<26>{#p/toriel}* Alright.\n"
 "* It is time for your third and final lesson."
 msgstr ""
+"<26>{#p/toriel}* Esta bien.\n"
+"* Es tiempo para tu tercera y última lección"
 
 msgid "<25>{#f/1}* Do you think you can make it to the end of this room..."
-msgstr ""
+msgstr "<25>{#f/1}* ¿Crees que podrás llegar al final de esta habitación..."
 
 msgid "<25>{#f/1}* ... all by yourself?"
-msgstr ""
+msgstr "<25>{#f/1}* ... tú solo?"
 
 msgid "* (What do you say?)"
-msgstr ""
+msgstr "* (¿Qué dices?)"
 
 msgid "<25>{#p/toriel}{#f/1}* Are you sure...?"
-msgstr ""
+msgstr "<25>{#p/toriel}{#f/1}* ¿Estás seguro...?"
 
 msgid "<25>{#f/0}* It is only a short distance away."
-msgstr ""
+msgstr "<25>{#f/0}* Se encuentra a poca distancia."
 
 msgid "* (Change your mind?)"
-msgstr ""
+msgstr "* (¿Cambiaste de opinión?)"
 
 msgid "<25>{#p/toriel}{#f/5}* My child."
-msgstr ""
+msgstr "<25>{#p/toriel}{#f/5}* Mi niño."
 
 msgid "<25>{#f/1}* It IS important to do things on your own, is it not?"
-msgstr ""
+msgstr "<25>{#f/1}* Es importante hacer las cosas por ti mismo, ¿no es así?"
 
 msgid ""
 "<32>{#p/basic}* If you refuse to change your mind here, Toriel may decide to"
 " take you home."
 msgstr ""
+"<32>{#p/basic}* Si te niegas a cambiar de opinión, Toriel puede que decida "
+"llevarte a casa."
 
 msgid "<25>{#p/toriel}{#f/1}* Alright..."
-msgstr ""
+msgstr "<25>{#p/toriel}{#f/1}* Esta bien..."
 
 msgid "<25>{#f/0}* Good luck!"
-msgstr ""
+msgstr "<25>{#f/0}* ¡Buena suerte!"
 
 msgid "<25>{#f/9}* ... I see."
-msgstr ""
+msgstr "<25>{#f/9}* ... Ya veo."
 
 msgid "<25>{#p/toriel}{#f/10}* Worry not, my child."
-msgstr ""
+msgstr "<25>{#p/toriel}{#f/10}* No te preocupes, mi niño."
 
 msgid "<25>{#f/1}* If you truly do not wish to leave my side..."
-msgstr ""
+msgstr "<25>{#f/1}* Si de verdad no quieres irte de mi lado..."
 
 msgid "<25>{#f/0}* I will guide you through the remainder of the Outlands."
-msgstr ""
+msgstr "<25>{#f/0}* Te guiaré a través del resto de las Afueras."
 
 msgid "<25>{#f/5}* Take my hand, young one..."
-msgstr ""
+msgstr "<25>{#f/5}* Toma mi mano, jovencito..."
 
 msgid "<25>{#f/5}* It is time to go home."
-msgstr ""
+msgstr "<25>{#f/5}* Es tiempo de ir a casa."
 
 msgid "<32>{#p/human}{#s/equip}* (You got the CELL.)"
-msgstr ""
+msgstr "<32>{#p/human}{#s/equip}* (Conseguiste el TELEFONO.)"
 
 msgid "<25>{#p/toriel}* You did it!"
-msgstr ""
+msgstr "<25>{#p/toriel}* ¡Lo hiciste!"
 
 msgid "<25>{#p/toriel}{#f/3}* My child, what took you so long!?"
-msgstr ""
+msgstr "<25>{#p/toriel}{#f/3}* ¡¿Mi niño, por qué tardaste tanto!?"
 
 msgid "<25>{#f/4}* Did you get lost?"
-msgstr ""
+msgstr "<25>{#f/4}* ¿Te perdiste?"
 
 msgid ""
 "<25>{#f/1}* ...\n"
 "* You DO seem alright..."
 msgstr ""
+"<25>{#f/1}* ...\n"
+"* Pareces estar bien..."
 
 msgid "<25>{#f/0}* I must admit, I am surprised you made it to the end."
-msgstr ""
+msgstr "<25>{#f/0}* Debo admitirlo, me sorprende que llegaras hasta el final."
 
 msgid "<25>{#f/3}* Your behavior thus far has left me asking..."
-msgstr ""
+msgstr "<25>{#f/3}* ¿Tu comportamiento hasta ahora me ha dejado preguntando..."
 
 msgid ""
 "<25>{#f/4}* ... have you been attempting to mess with me this whole time?"
-msgstr ""
+msgstr "<25>{#f/4}* ... has estado intentando meterte conmigo todo este tiempo?"
 
 msgid ""
 "<25>{#f/23}* To be blunt, I do not have time for such pointless riffraff."
 msgstr ""
+"<25>{#f/23}* Para ser franco, no tengo tiempo para esa gentuza sin sentido."
 
 msgid ""
 "<25>{#p/toriel}{#f/0}* Do not worry.\n"
 "* You were never in any real danger."
 msgstr ""
+"<25>{#p/toriel}{#f/0}* No te preocupes.\n"
+"* Nunca estuviste en algún peligro real."
 
 msgid "<25>{#f/0}* This was merely a test of your independence!"
-msgstr ""
+msgstr "<25>{#f/0}* ¡Esto no era más que una prueba de tu independencia!"
 
 msgid "<25>{#f/1}* In truth, my child..."
-msgstr ""
+msgstr "<25>{#f/1}* En realidad, mi niño..."
 
 msgid "<25>{#f/5}* There are important errands I must run."
-msgstr ""
+msgstr "<25>{#f/5}* Hay recados importantes que debo hacer."
 
 msgid "<25>{#f/0}* While I am away, I expect you to be on your best behavior."
 msgstr ""
