@@ -1,6 +1,21 @@
-#
+#, fuzzy
 msgid ""
 msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-10-13 01:29+0000\n"
+"PO-Revision-Date: 2024-10-13 01:29+0000\n"
+"Last-Translator: Ariel Nicolas <noezaraspe23130718@gmail.com>\n"
+"Language-Team: Spanish <https://ws3917.site/projects/project-spacetime/"
+"1-outlands/es/>\n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: ENCODING\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.7.2\n"
+
+#
 
 msgid ""
 "<25>{#p/toriel}{#f/1}* I hear there is a certain kind of fluid in "
@@ -4715,9 +4730,11 @@ msgid ""
 "<25>{#p/toriel}{#f/1}* Aha!\n"
 "* I heard that, you little white dog..."
 msgstr ""
+"<25>{#p/toriel}{#f/1}* ¡Ajá!\n"
+"* Oí eso, perrito..."
 
 msgid "<25>{#f/6}* Now I am going to find you!"
-msgstr ""
+msgstr "<25>{#f/6}* ¡Te voy a encontrar!"
 
 msgid ""
 "<32>{#p/human}* (The snoring stops.)\n"
