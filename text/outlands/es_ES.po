@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-06 16:29+0000\n"
-"PO-Revision-Date: 2024-10-13 00:29+0000\n"
+"PO-Revision-Date: 2024-10-13 01:10+0000\n"
 "Last-Translator: Ariel Nicolas <noezaraspe23130718@gmail.com>\n"
 "Language-Team: Spanish <https://ws3917.site/projects/project-spacetime/"
 "1-outlands/es/>\n"
@@ -4670,20 +4670,20 @@ msgid "<32>{#p/human}* (You hear a distant voice.)"
 msgstr "<32>{#p/human}* (Oyes una voz distante.)"
 
 msgid "<25>{#p/toriel}{#f/2}* Stop, please!"
-msgstr "<25>{#p/toriel}{#f/2}* por favor, ¡detente!"
+msgstr "<25>{#p/toriel}{#f/2}* Por favor, ¡detente!"
 
 msgid "<25>{#p/toriel}{#f/1}* Come back here with my cell phone!"
-msgstr "<25>{#p/toriel}{#f/1}* ¡vuelve aquí con mi teléfono!"
+msgstr "<25>{#p/toriel}{#f/1}* ¡Vuelve aquí con mi teléfono!"
 
 msgid ""
 "<32>{#p/human}* (It sounds like a small, white dog is sleeping on the "
 "phone.)"
 msgstr ""
-"<32>{#p/human}* (parece que un pequeño perro blanco se durmió encima del "
+"<32>{#p/human}* (Parece que un pequeño perro blanco se durmió encima del "
 "teléfono.)"
 
 msgid "<32>{#p/basic}* (Snore... snore...)"
-msgstr "<32>{#p/basic}* (Ronquidos...)"
+msgstr "<32>{#p/basic}* (Ronquido... ronquido...)"
 
 msgid ""
 "<25>{#p/toriel}{#f/1}* Hellooo?\n"
@@ -4693,29 +4693,31 @@ msgstr ""
 "* ¿Perrito?"
 
 msgid "<25>{#f/1}* Where are youuu?"
-msgstr ""
+msgstr "<25>{#f/1}* ¿Donde estássss?"
 
 msgid "<25>{#f/0}* I will give you a nice pat on the head!"
-msgstr ""
+msgstr "<25>{#f/0}* ¡Te voy a dar unas palmaditas en la cabeza!"
 
 msgid "<32>{#p/human}* (The snoring stops.)"
-msgstr ""
+msgstr "<32>{#p/human}* (Los ronquidos paran.)"
 
 msgid "<25>{#p/toriel}* ... if you return with my cell phone."
-msgstr ""
+msgstr "<25>{#p/toriel}* ... Sí me devuelves mi teléfono."
 
 msgid "<32>{#p/human}* (The snoring resumes.)"
-msgstr ""
+msgstr "<32>{#p/human}* (Los ronquidos continúan.)"
 
 msgid "<32>{#p/basic}* (Achoo!)"
-msgstr ""
+msgstr "<32>{#p/basic}* (¡Achú!)"
 
 msgid ""
 "<32>{#p/human}* (It sounds like a small, white dog sneezing in its sleep.)"
 msgstr ""
+"<32>{#p/human}* (Se escucha un pequeño perro blanco estornudando mientras "
+"duerme.)"
 
 msgid "<25>* (You hear a distant voice.)"
-msgstr ""
+msgstr "<25>* (Escuchas una voz distante.)"
 
 msgid ""
 "<25>{#p/toriel}{#f/1}* Aha!\n"
