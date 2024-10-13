@@ -1,6 +1,21 @@
-#
+#, fuzzy
 msgid ""
 msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-10-13 12:29+0000\n"
+"PO-Revision-Date: 2024-10-13 12:29+0000\n"
+"Last-Translator: errosia <ericyan2008@foxmail.com>\n"
+"Language-Team: Chinese (Simplified Han script) <https://ws3917.site/projects/"
+"project-spacetime/2-starton/zh_Hans/>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: ENCODING\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.7.2\n"
+
+#
 
 msgid ""
 "<32>{#p/basic}* A standard-issue CITADEL long- range telescope, circa 261X."
@@ -3177,6 +3192,8 @@ msgid ""
 "<32>{#p/basic}* Here you go!\n"
 "* Have a stellar starry night!"
 msgstr ""
+"<32>{#p/basic}* 拿好了！\n"
+"* 愿你有个星光璀璨的夜晚！"
 
 msgid "<32>{#s/equip}{#p/human}* (You got the Ice Dream.)"
 msgstr "<32>{#s/equip}{#p/human}* （你得到了冰意灵。）"
@@ -5955,8 +5972,6 @@ msgstr "哈喽！"
 msgid "SAVE YOURSELVES..."
 msgstr "自求多福吧..."
 
-msgid ""
-msgstr ""
 
 msgid "FAILED TO CONNECT..."
 msgstr "网络连接失败..."
@@ -13150,20 +13165,29 @@ msgstr ""
 
 msgid "<32>{#p/basic}* Papyrus is well-known for his spaghetti."
 msgstr ""
+"<32>{#p/basic}* 大家都知道\n"
+"  Papyrus很会做意大利面。"
 
 msgid ""
 "<32>* What's not as well-known is that he uses a human recipe instead of a "
 "monster one."
 msgstr ""
+"<32>* 但很多人不知道的是，\n"
+"  他其实是按照\n"
+"  人类而不是怪物的菜谱做的。"
 
 msgid "<32>* An honest mistake by his, uh, \"cooking instructor,\" but..."
 msgstr ""
+"<32>* 这都怪他那个，呃，\n"
+"  “烹饪老师”，教错了..."
 
 msgid "<32>* Apart from himself, only a human would enjoy it."
 msgstr ""
+"<32>* 除了他自己以外，\n"
+"  估计只有人类才吃得惯。"
 
 msgid "<32>* The irony is off the charts."
-msgstr ""
+msgstr "<32>* 这也太讽刺了。"
 
 msgid "<32>{#p/basic}* This is it..."
 msgstr ""
@@ -13189,30 +13213,39 @@ msgid ""
 "<25>{#p/asriel1}{#f/20}* Not bad, Frisk.\n"
 "* I didn't know you were a mathematics expert..."
 msgstr ""
+"<25>{#p/asriel1}{#f/20}* 不错嘛，Frisk。\n"
+"* 没想到\n"
+"  你还是个数学高手..."
 
 msgid ""
 "<32>{#p/basic}* Wow.\n"
 "* You actually solved it?"
 msgstr ""
+"<32>{#p/basic}* 哇。\n"
+"* 你竟然真把它解开了？"
 
 msgid "<32>{#p/basic}* You tried."
 msgstr "<32>{#p/basic}* 你尽力了。"
 
 msgid "<32>{#p/basic}* Have you done this before...?"
-msgstr ""
+msgstr "<32>{#p/basic}* 你以前做过这个吗...？"
 
 msgid ""
 "<32>{#p/basic}* Really, Sans?\n"
 "* That \"puzzle\" wasn't even worth looking at."
 msgstr ""
+"<32>{#p/basic}* 拜托，Sans。\n"
+"* 这“谜题”根本不值一看。"
 
 msgid ""
 "<32>{#p/basic}* Really, Sans?\n"
 "* That \"puzzle\" was impossible."
 msgstr ""
+"<32>{#p/basic}* 拜托，Sans。\n"
+"* 这“谜题”根本不是人能做的啊。"
 
 msgid "<32>{#p/basic}* Well, that was anti-climactic."
-msgstr ""
+msgstr "<32>{#p/basic}* 不是，搞了半天就这啊。"
 
 msgid "<32>{#p/basic}* I'm just as confused as you."
 msgstr ""
