@@ -599,7 +599,7 @@ export default {
             ? [ "<32>{#p/basic}* It's out of service." ]
             : SAVE.data.b.svr
             ? [
-                 '<32>{#p/human}* （你靠近了售貨機。）',
+                 '<32>{#p/human}* （你走近了自動售貨機。）',
                  choicer.create('* （你想合成什麼呢？）', '甘草糖', '薯片', '口糧', '放棄')
               ]
             : [
@@ -1613,10 +1613,10 @@ export default {
             world.runaway
                ? [
                     '<32>{#s/echostart}{#p/event}{#npc/a}* 訊號開始...',
-                    '<32>{#p/undyne}* Citizens of the Foundry...',
-                    '<32>* ... you should all know what happened to you by now.',
-                    "<32>* It's time to go, and you damn well know it.",
-                    "<32>* So let's get going.",
+                    '<32>{#p/undyne}* 鑄廠居民聽好...',
+                    '<32>* ...你們應該都清楚發生了什麼。',
+                    "<32>* 我們該走了，你們清楚得很。",
+                    "<32>* 那就快點吧。",
                     '<32>{#s/echostop}{#p/event}{#npc}* 訊號終止。'
                  ]
                : SAVE.data.n.plot === 72
@@ -1653,10 +1653,10 @@ export default {
             world.runaway
                ? [
                     '<32>{#s/echostart}{#p/event}{#npc/a}* 訊號開始...',
-                    "<32>{#p/basic}* Hey... everything's gonna be okay, kiddo.",
-                    '<32>* (Gerson?)\n* (Is that you again?)',
-                    '<32>* Oh, I dunno.\n* Is that really you, Burgie?\n* Wa ha ha.',
-                    "<32>* (Yeah, yeah.)\n* (I'm just a little scared... like everyone else.)",
+                    "<32>{#p/basic}* 嘿，小子...\n  不會有事的。",
+                    '<32>* （Gerson？）\n* （是你嗎？）',
+                    '<32>* 哇哈哈。\n* 不曉得呢。\n* 堡兄啊，到底是你不？',
+                    "<32>* （對，是我。）\n* （我只是有點慌...\n  大夥都一樣。）",
                     '<32>{#s/echostop}{#p/event}{#npc}* 訊號終止。'
                  ]
                : SAVE.data.n.plot === 72
@@ -1689,7 +1689,7 @@ export default {
             world.runaway
                ? [
                     '<32>{#s/echostart}{#p/event}{#npc/a}* 訊號開始...',
-                    "<32>{#p/basic}* I hear ya.\n* Hey, maybe it'd help if ya told me what ya saw.",
+                    "<32>{#p/basic}* 聽到了。\n* 嘿，說說你看到了什麼唄，\n  興許我還能幫幫你。",
                     '<32>* From your point of view.',
                     '<32>* (Well...)\n* (It all started when...)',
                     '<32>* (I was at the force field with a bunch of others.)',
@@ -4387,14 +4387,14 @@ export default {
          '<25>{#f/12}* 他卻很高興...',
          '<25>{#f/1}* 我從沒見過哪個人\n  因為被扁了而感到榮幸。',
          '<25>* 總之，長話短說，\n  他一直訓練著我...',
-         '<25>{#f/14}* 然後我現在是皇家守衛的\n  首領了！',
+         '<25>{#f/14}* 然後我現在是皇家衛隊的\n  首領了！',
          "<25>{#f/8}* 所以我成了那個訓練\n  傻瓜們戰鬥的人了！",
          '<25>{#f/1}* ...比如，呃，Papyrus。'
       ],
       unddate30: [
          '<25>{#f/16}* 但是，嗯，說實話...',
          "<25>{#f/16}* ...我自己也不知道...",
-         '<25>{#f/9}* 到底能不能讓\n  Papyrus加入皇家守衛。',
+         '<25>{#f/9}* 到底能不能讓\n  Papyrus加入皇家衛隊。',
          "<25>{#f/17}* 別跟他說這些話！",
          "<25>{#f/10}* 他只是...\n* 好吧...",
          "<25>{#f/9}* 我是指，他並不笨。",
@@ -8353,7 +8353,7 @@ export default {
                : [ '<32>{#p/human}* （通風口不停冒出溼熱的蒸汽。）\n* （這使你充滿了決心。）' ]
       },
       f_shyren: {
-         name: '鑄廠 - 售貨機',
+         name: '鑄廠 - 自動售貨機',
          text: () =>
             SAVE.data.b.killed_shyren
                ? [ '<32>{#p/human}* （空氣中瀰漫著悲傷的寂靜。）\n* （這使你充滿了決心。）' ]

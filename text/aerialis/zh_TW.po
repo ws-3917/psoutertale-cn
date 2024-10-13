@@ -13213,7 +13213,7 @@ msgid "<25>{#p/asriel2}{#f/8}* Sure, whatever."
 msgstr "<25>{#p/asriel2}{#f/8}* 對對對，你說得都對。ゑ"
 
 msgid "<32>{#p/human}* (You approach the vending machine.)"
-msgstr ""
+msgstr "<32>{#p/human}* （你走近了自動售貨機。）"
 
 msgid "<32>{#p/basic}* It's a filament-exclusive vending machine."
 msgstr "<32>{#p/basic}* 這是個專賣燈芯的自動售貨機。"

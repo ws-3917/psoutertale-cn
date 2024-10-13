@@ -144,7 +144,7 @@ export default {
          '<32>* You must be really tasty.'
       ],
       shockpapyrus0a: [
-         '<15>{#p/papyrus}{#e/papyrus/27}我克-\n这里发生啥了？？',
+         '<15>{#p/papyrus}{#e/papyrus/27}这里到底发生啥了？？',
          '<15>{#p/papyrus}{#e/papyrus/21}刚才我在阳台，\n有个电话打过来\n叫我来这...',
          '<15>{#p/papyrus}{#e/papyrus/19}结果就看到你俩！？',
          "<15>{#p/papyrus}{#e/papyrus/14}告诉你们，我可是\n皇家卫队的预备队员！",
@@ -376,7 +376,7 @@ export default {
             ? [ "<32>{#p/basic}* 不能使用了。" ]
             : [
                  SAVE.data.b.svr
-                    ? '<32>{#p/human}* （你走近自动售货机。）'
+                    ? '<32>{#p/human}* （你走近了自动售货机。）'
                     : "<32>{#p/basic}* 这是一台专门售卖\n  高档洋梅的自动售货机。",
                  choicer.create('* （要花8G买洋梅吗？）', '是', '否')
               ],
@@ -2416,7 +2416,7 @@ export default {
             SAVE.data.b.s_state_mathpass
                ? SAVE.data.b.svr
                   ? [ '<32>{#p/human}* (But you already completed this puzzle beforehand.)' ]
-                  : [ '<32>{#p/basic}* The terminal is now in an unlocked state.' ]
+                  : [ '<32>{#p/basic}* 终端已解锁。' ]
                : [ "<32>{#p/basic}* 不能使用了。" ],
          microwave0: [ '<32>{#p/human}* （你看了看微波炉的后面...）', '<32>{#p/basic}* 没什么有用的东西。' ],
          microwave1: () =>
@@ -2491,7 +2491,7 @@ export default {
          puzzlechip: () =>
             SAVE.data.b.svr
                ? [ '<32>{#p/human}* (But you already completed this puzzle beforehand.)' ]
-               : [ '<32>{#p/basic}* The terminal is now in an unlocked state.' ],
+               : [ '<32>{#p/basic}* 终端已解锁。' ],
          spagtable0: [ "<32>{#p/basic}* 一个没用过的盘子。" ],
          spagtable1: [
             '<32>{#p/human}* （你凝视着令人垂涎的\n  意大利面。）',
@@ -4001,7 +4001,7 @@ export default {
          '<18>{#x4}{#f/0}那时候，我，\n伟大的PAPYRUS...',
          '<18>会得到我应得的一切！',
          '<18>尊重...\n认可...',
-         '<18>{#f/9}我就终于可以加入\n皇家守卫了！',
+         '<18>{#f/9}我就终于可以加入\n皇家卫队了！',
          '<25>{#p/sans}* 嗯...',
          '<25>{#f/2}* 没准这个玩意可以\n  帮到你呢。',
          "<18>{#p/papyrus}{#x3}{#f/7}SANS，那根本没用！\n你这个懒骨头！",
@@ -4034,7 +4034,7 @@ export default {
       sans9: [ '<25>{#p/sans}* 好了，是时候把你\n  弄下来了。' ],
       sans10: [
          '<25>{#p/sans}{#f/0}* 嘿，对了...\n* 走之前，我得跟你说...',
-         "<25>{#f/3}* 皇家守卫正在找你呢。",
+         "<25>{#f/3}* 皇家卫队正在找你呢。",
          "<25>{#f/0}* 不过你别担心。\n* 他们拿得出手的只有狗狗。",
          "<25>{#f/0}* 你既然是人类，\n  那肯定知道狗狗\n  喜欢什么，对吧？",
          "<25>{#f/2}* 它们和papyrus差不多，\n  人畜无害。"
@@ -4392,7 +4392,7 @@ export default {
                [ '<32>{#p/basic}* 灯，弹，灯，弹...' ],
                [ '<32>{#p/basic}* 弹灯上下运动着。' ],
                [ '<32>{#p/basic}* ...弹动永不停歇。' ],
-               [ "<32>{#p/basic}* It's a little thing called perpetual motion." ]
+               [ "<32>{#p/basic}* 这就是所谓的永动机。" ]
             ].map(
                lines => () =>
                   SAVE.data.b.svr
@@ -4753,13 +4753,13 @@ export default {
                ? [ '<32>{#p/human}* (It would appear this sign belongs to a male dog.)' ]
                : player.position.y > 50
                ? [ '<32>{#p/basic}* “他的。”' ]
-               : [ '<32>{#p/basic}* Inside is a magazine for fancy blue-and-grey furcuts.' ],
+               : [ '<32>{#p/basic}* 这里有一本\n  关于蓝灰混搭的花哨毛型杂志。' ],
          s_dogstandB: () =>
             SAVE.data.b.svr
                ? [ '<32>{#p/human}* (It would appear this sign belongs to a female dog.)' ]
                : player.position.y > 50
                ? [ '<32>{#p/basic}* “她的。”' ]
-               : [ '<32>{#p/basic}* Inside is a brochure for blunt heavy-duty weaponry.' ],
+               : [ '<32>{#p/basic}* 这里有一本\n  关于钝重型武器的宣传册。' ],
          s_dogstandC: () =>
             SAVE.data.b.svr
                ? [ '<32>{#p/human}* (The signed letter inside looks to have been ignored.)' ]
@@ -5574,7 +5574,7 @@ export default {
                  ]
       },
       truetext: {
-         doggo1: [ '<32>{#p/basic}* Dog treats?\n* That dog needs a therapist.' ],
+         doggo1: [ '<32>{#p/basic}* 这时候说狗粮？\n* 那条狗该去看心理医生了。' ],
          doggo2: [ '<32>{#p/basic}* 抛接游戏，是吧？', "<33>{#p/basic}* Now we're getting places..." ],
          dogs1: [ '<32>{#p/basic}* The things we do for the good of the canines.' ],
          dogs2: [ '<33>{#p/basic}* The rusty wrench strikes again.' ],
@@ -8211,7 +8211,7 @@ export default {
             '<18>{#p/papyrus}{#f/0}我不仅擅长谜题...',
             "<18>{#p/papyrus}{#f/9}我也是一个受人\n尊敬的建筑师！！",
             ...(solo()
-               ? [ '<18>{#p/papyrus}{#f/0}我打算加入\n皇家守卫后再建\n更多这种东西。' ]
+               ? [ '<18>{#p/papyrus}{#f/0}我打算加入\n皇家卫队后再建\n更多这种东西。' ]
                : [
                     '<25>{#p/undyne}{#f/1}* 你知道吗，我之前\n  考虑过把你的“哨站”\n  翻新一下...',
                     '<25>{#p/undyne}{#f/14}* Like... a surprise gift!',
@@ -8655,7 +8655,7 @@ export default {
          () => [
             '<18>{#p/papyrus}CANIS MAJOR的\n哨站...',
             '<18>{#p/papyrus}{#f/5}那只狗有一颗\n金子般的心。',
-            '<18>{#p/papyrus}{#f/4}要是【我】加入\n皇家守卫就好了...',
+            '<18>{#p/papyrus}{#f/4}要是【我】加入\n皇家卫队就好了...',
             "<18>{#p/papyrus}{#f/0}这样我就能\n报答它的好意了！",
             ...(solo()
                ? []
@@ -8670,7 +8670,7 @@ export default {
          ],
          () =>
             solo()
-               ? [ "<18>{#p/papyrus}{#f/5}真可惜我可能\n永远加入不了\n皇家守卫了。" ]
+               ? [ "<18>{#p/papyrus}{#f/5}真可惜我可能\n永远加入不了\n皇家卫队了。" ]
                : [ '<18>{#p/papyrus}{#f/7}NOTHING WILL EVER REPLACE FACE-TO- FACE CONVERSATION!' ]
       ),
       s_math: pager.create(
@@ -10221,7 +10221,7 @@ export default {
          0,
          () => [
             '<18>{#p/papyrus}这个储液罐是\n专门放在这里的...',
-            '<18>{#p/papyrus}{#f/0}因为某个皇家守卫\n队长觉得...',
+            '<18>{#p/papyrus}{#f/0}因为某个皇家卫队\n队长觉得...',
             "<18>{#p/papyrus}{#f/4}把她的巨型\n喷气背包...",
             '<18>{#p/papyrus}{#f/5}带到一个充满静电的地方\n是很安全的。',
             ...(solo()

@@ -778,7 +778,7 @@ export default {
       candy1: () =>
          SAVE.data.b.svr
             ? [
-                 '<32>{#p/human}* (You approach the vending machine.)',
+                 '<32>{#p/human}* （你走近了自動售貨機。）',
                  choicer.create('* （你想合成什麼呢？）', '怪物糖果', '水', '大麻素', '放棄')
               ]
             : [
@@ -4671,7 +4671,7 @@ export default {
                  '<25>{#p/toriel}{#f/1}* 那是我找到你的地方嗎？',
                  '<25>{#f/5}* 那個折磨你的\n  會說話的星星，\n  一直是個討厭鬼。',
                  '<25>{#f/1}* 我以前試過跟他講道理，\n  但...',
-                 '<25>{#f/9}* 我的努力從未真正奏效。'
+                 '<25>{#f/9}* 我的努力\n  從未真正奏效過。'
               ]
             : [
                  '<25>{#p/toriel}{#f/1}* 那是我找到你的地方嗎？',
@@ -4750,178 +4750,180 @@ export default {
       ],
       w_coffin: [
          '<25>{#p/toriel}{#f/5}* ...',
-         '<25>{#f/5}* 在這種時候，\n  表現出尊重是很重要的。',
-         '<25>{#f/10}* ...你明白了嗎？',
+         '<25>{#f/5}* 在這種時候，\n  我們應當表現出尊重。',
+         '<25>{#f/10}* ...明白嗎？',
          '<25>{#f/9}* 剛剛教你的東西，\n  比什麼謎題和戰鬥技巧\n  重要得多。'
       ],
       w_danger: () =>
          SAVE.data.n.state_wastelands_froggit === 3
             ? [
-                 '<25>{#p/toriel}{#f/1}* The riddle offered by the terminal in that room...',
-                 '<25>{#f/0}* Was based on something I found in an old Earth legend.',
-                 '<25>{#f/1}* It involved a series of many intricate puzzles...',
-                 '<25>{#f/0}* And a certain deceptive baked good.',
+                 '<25>{#p/toriel}{#f/1}* 這房間終端上的謎題...',
+                 '<25>{#f/0}* 改編自我從一個\n  古老的地球傳說裡\n  看到的內容。',
+                 '<25>{#f/1}* 那個傳說裡包含了\n  一系列複雜的謎題...',
+                 '<25>{#f/0}* 其中有個烹飪謎題，\n  大夥總猜錯，\n  但我覺得很巧妙。',
                  SAVE.data.b.w_state_riddleskip
-                    ? '<25>{#f/5}* It is a shame you refused to solve it.'
-                    : '<25>{#f/0}* Seeing you solve it was quite gratifying.'
+                    ? '<25>{#f/5}* 你沒有解謎可真是遺憾。'
+                    : '<25>{#f/0}* 很高興看到你願意解謎。'
               ]
             : [
-                 '<25>{#p/toriel}{#f/1}* As overseer of the Outlands, I took it upon myself...',
-                 '<25>{#f/0}* To ensure the other monsters did not attack you.',
-                 '<25>{#f/0}* Both they and I have a mutual understanding about this.',
-                 '<25>{#f/0}* That is why the Froggit left so readily.'
+                 '<25>{#p/toriel}{#f/1}* 作為外域的管理者...',
+                 '<25>{#f/0}* 我自然得保證\n  其他怪物不會傷害你。',
+                 '<25>{#f/0}* 我和他們之間\n  已經達成了一個共識。',
+                 '<25>{#f/0}* 所以那隻Froggit\n  才乖乖地走開了。'
               ],
       w_zigzag: [
-         '<25>{#p/toriel}{#f/1}* My idea with building this room to be so long and windy...',
-         '<25>{#f/0}* ... was that I felt a straight room would be too boring.',
-         '<25>{#f/1}* After all, who wants to walk in a straight line all their life?',
-         '<25>{#f/0}* A little change of pace can be quite nice.'
+         '<25>{#p/toriel}{#f/1}* 之所以把這個房間\n  建得如此蜿蜒曲折...',
+         '<25>{#f/0}* ...是因為我覺得\n  直來直去太沒意思了。',
+         '<25>{#f/1}* 畢竟，誰會想\n  一輩子都走直線呢？',
+         '<25>{#f/0}* 偶爾拐個彎，\n  換換心情也不錯嘛。'
       ],
       w_froggit: [
-         '<25>{#p/toriel}* From this room forward, more monsters may be found.',
-         '<25>{#f/0}* They often like to \"hang out\" here.\n* Nice, is it not?',
-         '<25>{#f/1}* It tended to be a quiet place, until recently...',
-         '<25>{#f/0}* When a monster began teaching the others how to flirt.',
-         '<25>{#f/0}* This new element has greatly altered the social atmosphere.'
+         '<25>{#p/toriel}* 從這個房間開始，\n  你可能會碰上更多怪物。',
+         '<25>{#f/0}* 他們喜歡在這裡「閒逛」。\n* 感覺還不錯吧？',
+         '<25>{#f/1}* 之前這裡一直很安靜，\n  直到最近啊...',
+         '<25>{#f/0}* 有個傢伙\n  開始教其他怪物\n  怎麼調情。',
+         '<25>{#f/0}* 這下一來，\n  這幫傢伙的社交方式\n  都變了不少。'
       ],
       w_candy: () => [
          SAVE.data.n.state_wastelands_candy < 4
-            ? '<25>{#p/toriel}{#f/1}* The vending machine has yet to break down?'
-            : '<25>{#p/toriel}{#f/1}* Oh dear, is the vending machine broken again?',
-         '<25>{#f/5}* Well, it has happened more times than I can count.',
-         '<25>{#f/3}* On the positive side, it DOES save power...',
-         '<25>{#f/0}* ... so perhaps it is not all bad.'
+            ? '<25>{#p/toriel}{#f/1}* 這個自動售貨機\n  還沒壞嗎？'
+            : '<25>{#p/toriel}{#f/1}* 天啊，\n  這個自動售貨機\n  又壞了嗎？',
+         '<25>{#f/5}* 哎，我都數不清\n  我修了這玩意多少次了。',
+         '<25>{#f/3}* 不過往好處想，\n  它這樣確實省電了...',
+         '<25>{#f/0}* ...也算是有利有弊吧。'
       ],
       w_puzzle1: [
-         '<25>{#p/toriel}{#f/1}* To ease the process of retrying the puzzle...',
-         '<25>{#f/0}* I installed a system to move you back to the start.',
-         '<25>{#f/5}* The scientist who helped to install it is long gone now...',
-         '<25>{#f/0}* But his work continues to be of use every day.'
+         '<25>{#p/toriel}{#f/1}* 為了方便你\n  重試這個謎題...',
+         '<25>{#f/0}* 我裝了個傳送系統，\n  能直接把你送回起點。',
+         '<25>{#f/5}* 幫我裝這玩意的科學員\n  已經不在了...',
+         '<25>{#f/0}* 但他留下的作品\n  還在造福著大家呢。'
       ],
       w_puzzle2: [
-         '<25>{#p/toriel}{#f/1}* Ah, a most unique form of puzzle exists here.',
-         '<25>{#f/0}* One that tests patience over memorization.',
-         '<25>{#f/1}* For the most part, the other humans complained about it...',
-         '<25>{#f/0}* Though, one did appreciate the value it provides.'
+         '<25>{#p/toriel}{#f/1}* 啊，\n  這裡有個特別的謎題。',
+         '<25>{#f/0}* 它主要考驗的是耐心，\n  而不是記憶力。',
+         '<25>{#f/1}* 大部分人類\n  都對此抱怨連連...',
+         '<25>{#f/0}* 不過，\n  倒是有一個人類\n  很欣賞它背後的價值。'
       ],
       w_puzzle3: [
-         '<25>{#p/toriel}{#f/1}* A little trick you may find helpful for this puzzle...',
-         '<25>{#f/0}* Is that you can start moving even as the sequence is shown.',
-         '<25>{#f/5}* ... I suppose that is not of much use to you now.',
-         '<25>{#f/1}* But, if for some reason you need to solve it again...',
-         '<25>{#f/0}* You may try the advice I have just given.'
+         '<25>{#p/toriel}{#f/1}* 告訴你個小竅門...',
+         '<25>{#f/0}* 在這個謎題\n  開始顯示序列時，\n  你就可以開始移動了。',
+         '<25>{#f/5}* ...我猜這現在對你\n  已經沒什麼用了。',
+         '<25>{#f/1}* 但如果你哪天\n  需要再解一遍的話...',
+         '<25>{#f/0}* 不妨試試\n  我剛剛給你的建議。'
       ],
       w_puzzle4: [
-         '<25>{#p/toriel}{#f/1}* It has come to my attention that, recently...',
-         '<25>{#f/0}* Old editions of a now- defunct comic series are being sold.',
-         '<25>{#f/0}* Perhaps, if you are bored, you could buy one.',
-         '<25>{#f/0}* Children your age tend to be rather fond of these things!'
+         '<25>{#p/toriel}{#f/1}* 我注意到...\n  最近有人在賣\n  已經停刊的舊漫畫書。',
+         
+         '<25>{#f/0}* 要是你閒著沒事幹，\n  可以去買一本看看。',
+         '<25>{#f/0}* 你這個年紀的孩子\n  一般都挺喜歡\n  這些東西的！'
       ],
       w_mouse: [
-         '<25>{#p/toriel}{#f/1}* As a matter of principle, I find it important...',
-         '<25>{#f/0}* That there be a room designated for stopping and resting.',
-         '<25>{#f/0}* In my own life, I often find breaks to be a useful asset.',
-         '<25>{#f/1}* The stærmite who resides here would certainly agree...'
+         '<25>{#p/toriel}{#f/1}* 我覺得吧...',
+         '<25>{#f/0}* 專門弄個房間出來\n  讓人休息放鬆，\n  還是蠻重要的。',
+         '<25>{#f/0}* 我自己就經常休息，\n  感覺對我的身心健康\n  很有幫助。',
+         '<25>{#f/1}* 住在這裡的小䗌蟎\n  肯定也贊同我的觀點...'
       ],
       w_blooky: () =>
          SAVE.data.b.killed_mettaton
             ? [
-                 '<25>{#p/toriel}{#f/1}* For whatever reason, that ghost who often comes here...',
-                 '<25>{#f/5}* Has been feeling worse than ever lately.',
-                 '<25>{#f/1}* I tried to ask them why, but they would not say...',
-                 '<25>{#f/5}* ... I have not seen them since.'
+                 '<25>{#p/toriel}{#f/1}* 不知為何，\n  那個常來這裡的幽靈...',
+                 '<25>{#f/5}* 最近心情變得更差了。',
+                 '<25>{#f/1}* 我問過那幽靈怎麼了，\n  那幽靈也不肯說...',
+                 '<25>{#f/5}* ...那之後我就\n  再也沒見過那幽靈了。'
               ]
             : !SAVE.data.b.a_state_hapstablook || SAVE.data.n.plot < 68
             ? [
-                 '<25>{#p/toriel}{#f/0}* That ghost who called earlier often inhabits this area.',
+                 '<25>{#p/toriel}{#f/0}* 之前打電話來的\n  那個幽靈\n  經常在這附近晃悠。',
                  ...(SAVE.data.b.napsta_performance
-                    ? [ '<25>{#f/1}* I thought they would be happier after their performance...' ]
-                    : [ '<25>{#f/1}* I have tried to lift their spirits in the past...' ]),
-                 '<25>{#f/5}* But their troubles may not be so easy to resolve.',
-                 '<25>{#f/1}* If only I knew what was holding them down...'
+                    ? [ '<25>{#f/1}* 我本來以為\n  它表演完了後\n  心情會好點...' ]
+                    : [ '<25>{#f/1}* 我之前試著\n  讓它開心一點...' ]),
+                 '<25>{#f/5}* 但如今看來，\n  那幽靈的心結是\n  沒那麼容易解開的。',
+                 '<25>{#f/1}* 我要是知道\n  那幽靈在糾結什麼\n  就好了...'
               ]
             : [
-                 '<25>{#p/toriel}{#f/1}* For whatever reason, that ghost who often comes here...',
-                 '<25>{#f/0}* Has been feeling a lot better lately.',
-                 '<25>{#f/0}* They even came to my house to tell me so themselves.',
-                 '<25>{#f/1}* Apparently you had something to do with this...?',
-                 '<25>{#f/0}* Well then.\n* I am very proud of you, my child.'
+                 '<25>{#p/toriel}{#f/1}* 不知為何，\n  那個常來這裡的幽靈...',
+                 '<25>{#f/0}* 最近心情好了很多。',
+                 '<25>{#f/0}* 那幽靈甚至跑到我家裡\n  來跟我說這事。',
+                 '<25>{#f/1}* 看起來，\n  這是你的功勞...？',
+                 '<25>{#f/0}* 那可真是太好了。\n* 孩子，\n  我真為你感到驕傲。'
               ],
       w_party: [
-         '<25>{#p/toriel}{#f/0}* The activities room.\n* We host all kinds of performances there.',
-         '<25>{#f/0}* Drama, dance nights...\n* And, most important of all, the arts.',
-         '<25>{#f/0}* It is always good to see people expressing themselves.',
-         '<25>{#f/1}* I once attended a comedy show in that very room.',
-         '<25>{#f/0}* It was the hardest I have ever laughed in my life!'
+         '<25>{#p/toriel}{#f/0}* 活動室啊。\n* 我們在那裡\n  舉辦各種活動。',
+         '<25>{#f/0}* 什麼戲劇啊，舞會啊...\n* 當然啦，\n  最重要的還是才藝表演！',
+         '<25>{#f/0}* 看到大家盡情展現自我，\n  感覺再好不過了。',
+         '<25>{#f/1}* 我之前去那兒\n  看過一場喜劇表演。',
+         '<25>{#f/0}* 笑得肚子都疼了，\n  這輩子都沒那麼開心過！'
       ],
       w_pacing: () => [
          SAVE.data.b.toriel_twinkly
-            ? '<25>{#p/toriel}{#f/0}* I heard someone here made a \"friend\" with that talking star.'
-            : '<25>{#p/toriel}{#f/0}* I heard someone here made a \"friend\" with a talking star.',
-         '<25>{#f/1}* One of the Froggits, I presume...?',
-         "<25>{#f/1}* To say I am worried for that monsters' safety...",
-         '<25>{#f/5}* Would be quite the understatement.'
+            ? '<25>{#p/toriel}{#f/0}* 我聽說這裡有誰\n  和那個會說話的星星\n  交上了「朋友」。'
+            : '<25>{#p/toriel}{#f/0}* 我聽說這裡有誰\n  和一個會說話的星星\n  交上了「朋友」。',
+         '<25>{#f/1}* 估計是某隻Froggit吧...?',
+         "<25>{#f/1}* 說實話，\n  我很擔心\n  那個怪物的安危...",
+         '<25>{#f/5}* 可不是一般的擔心。'
       ],
       w_junction: [
-         '<25>{#p/toriel}{#f/1}* The junction room...',
-         '<25>{#f/0}* In the past, we had planned a community area of sorts here.',
-         '<25>{#f/0}* Outlands visitors would be met with a warm, welcoming atmosphere.',
-         '<25>{#f/1}* Over time, though, we realized not many people would come...',
-         '<25>{#f/0}* And so, the design was altered into what you see today.',
-         '<25>{#f/5}* A little boring, but I suppose not every room can be grand...'
+         '<25>{#p/toriel}{#f/1}* 樞紐房啊...',
+         '<25>{#f/0}* 我們本來打算在這裡\n  弄個類似\n  社群公園的地方。',
+         '<25>{#f/0}* 讓來外域的訪客們\n  感受到熱情友好的氛圍。',
+         '<25>{#f/1}* 但我們後來發現，\n  壓根沒幾個人來...',
+         '<25>{#f/0}* 所以呢，就改成了\n  你現在看到的這副模樣。',
+         '<25>{#f/5}* 是有點單調，\n  不過也不能指望\n  每個房間都富麗堂皇吧...'
       ],
       w_annex: [
-         '<25>{#p/toriel}* From here, the all- important taxi stop can be reached.',
-         '<25>{#f/1}* Not only are other areas of the outpost accessible...',
-         '<25>{#f/0}* But other subsections of the Outlands are, too.',
-         '<25>{#f/1}* Seeing as you are but a small child, however...',
-         '<25>{#f/5}* It is unlikely the driver would offer that as an option to you.',
-         '<25>{#f/0}* The shops and business there are mostly just for grown-ups.'
+         '<25>{#p/toriel}* 從這裡就能走到\n  運輸船停靠站了，\n  那是個非常重要的設施。',
+         '<25>{#f/1}* 不但能前往\n  前哨站的其他地方...',
+         '<25>{#f/0}* 還能去\n  外域的其他區域呢。',
+         '<25>{#f/1}* 不過，\n  你還只是個小孩子...',
+         '<25>{#f/5}* 司機大概\n  不會讓你去那些地方。',
+         '<25>{#f/0}* 畢竟那邊的\n  商店和公司什麼的，\n  都是大人才會去的地方。'
       ],
       w_wonder: () => [
-         '<25>{#p/toriel}{#f/1}* A little mushroom greeted me on my way back from shopping...',
+         
          SAVE.data.b.snail_pie
-            ? '<25>{#f/0}* ... as I returned with ingredients for that snail pie.'
-            : '<25>{#f/0}* ... as I returned with ingredients for that butterscotch pie.',
-         '<25>{#f/3}* Strangely, it was floating above the doorway...',
-         '<25>{#f/0}* The gravity must be weak in that room.',
-         '<25>{#f/1}* Perhaps the presence of the taxi has some kind of effect...?'
+            ? '<25>{#f/0}* 我買完做蝸牛派的材料\n  回來的時候...',
+'<25>{#p/toriel}{#f/1} * ...碰到了個小蘑菇。'
+            : '<25>{#f/0}* 我買完做\n  奶油糖肉桂派的材料\n  回來的時候...',
+'<25>{#p/toriel}{#f/1} * ...碰到了個小蘑菇。',
+         '<25>{#f/3}* 不過，\n  它能飄在門口那裡\n  確實蠻奇怪的...',
+         '<25>{#f/0}* 那房間裡的引力\n  估計變弱了點。',
+         '<25>{#f/1}* 說不定是運輸船\n  停在那裡導致的...？'
       ],
       w_courtyard: [
-         '<25>{#p/toriel}{#f/0}* Ah.\n* The courtyard.',
-         '<25>{#f/1}* Admittedly, it is a little lacking...',
-         '<25>{#f/5}* In terms of being a place for children like you to play.',
-         '<25>{#f/1}* With every human who came, I thought of fixing that...',
-         '<25>{#f/5}* But they always left before I had the chance.'
+         '<25>{#p/toriel}{#f/0}* 啊。\n* 那個空地啊。',
+         '<25>{#f/1}* 呃，確實啊...',
+         '<25>{#f/5}* 對像你這樣的小孩來說，\n  這裡確實沒啥好玩的。',
+         '<25>{#f/1}* 我每次都想在\n  有人類來了後\n  好好改造一下...',
+         '<25>{#f/5}* 但他們總是\n  還沒等我開幹就走了。'
       ],
       w_alley1: [
-         '<25>{#p/toriel}{#f/9}* ... the room in which I lectured you about leaving.',
-         '<25>{#f/5}* I thought, if I spoke of the force field...',
-         '<25>{#f/5}* I might convince you to stay.',
-         '<25>{#f/1}* ... I remember telling the other humans the same, but...',
-         '<25>{#f/5}* It was as effective for you as it was for them.'
+         '<25>{#p/toriel}{#f/9}* ...是我勸你\n  不要離開的\n  那個房間。',
+         '<25>{#f/5}* 我那時候想著，\n  如果跟你說說力場的事...',
+         '<25>{#f/5}* 說不定就能\n  把你留下來了。',
+         '<25>{#f/1}* ...我記得我也跟其他人類\n  說過同樣的話，可是...',
+         '<25>{#f/5}* 你也跟他們一樣，\n  根本不聽我的。'
       ],
       w_alley2: [
-         '<25>{#p/toriel}{#f/9}* ... the room in which I warned you of the dangers ahead.',
-         '<25>{#f/5}* I have been told my beliefs about them are misguided, but...',
-         '<25>{#f/5}* I felt it unwise to take that chance.',
-         '<25>{#f/9}* ... perhaps it is time I re-considered my viewpoint.'
+         '<25>{#p/toriel}{#f/9}* ...是我警告你\n  前方有危險的\n  那個房間。',
+         '<25>{#f/5}* 有人跟我說，\n  我對那些危險\n  的看法是錯的...',
+         '<25>{#f/5}* 但我還是覺得\n  不應冒這個險。',
+         '<25>{#f/9}* ...也許我真該重新想想了。'
       ],
       w_alley3: [
-         '<25>{#p/toriel}{#f/9}* ... I truly regret the way I acted towards you here.',
-         '<25>{#f/5}* It was wrong of me to attempt to force you to stay...',
-         '<25>{#f/5}* Merely acting on my own silly desires.',
-         '<25>{#f/1}* I am sure you have already forgiven me, though...',
-         '<25>{#f/5}* Regardless of whether or not I deserve it...'
+         '<25>{#p/toriel}{#f/9}* ...我真後悔\n  之前在這裡對你做的事。',
+         '<25>{#f/5}* 我不該強迫你留下來的...',
+         '<25>{#f/5}* 那只是\n  我的一廂情願罷了。',
+         '<25>{#f/1}* 我知道你已經原諒我了...',
+         '<25>{#f/5}* 就算我以前這麼對你...'
       ],
       w_alley4: () =>
          SAVE.data.b.w_state_fightroom
             ? [
                  '<32>{#s/phone}{#p/event}* 撥號中...',
-                 '<25>{#p/toriel}{#f/1}* Although that room may not evoke the best of feelings for us...',
-                 '<25>{#f/0}* It is still one of my favorite places in the Outlands.',
-                 '<25>{#f/1}* There is a certain someone who visits sometimes...',
-                 '<25>{#f/6}* Perhaps you are already aware of him.',
+                 '<25>{#p/toriel}{#f/1}* 雖然那個房間\n  可能會勾起我們\n  不大愉快的回憶...',
+                 '<25>{#f/0}* 但這依然是我在外域裡\n  最喜歡的地方之一。',
+                 '<25>{#f/1}* 某個夥計\n  偶爾會來到這裡...',
+                 '<25>{#f/6}* ...也許你已經認識他了。',
                  '<32>{#s/equip}{#p/event}* 滴...'
               ]
             : instance('main', 'toriButNotGarb') === void 0 // NO-TRANSLATE
@@ -4936,106 +4938,106 @@ export default {
             : [
                  '<32>{#w.stopThatGoat}{#s/phone}{#p/event}* 撥號中...',
                  '<25>{#p/toriel}{#f/1}* 這麼快就打過來了...?',
-                 '<25>{#f/0}* ... I have not even left the room yet!',
-                 '<25>{#f/2}* A moment to breathe would be nice!',
+                 '<25>{#f/0}* ...我都還沒\n  走出這房間呢！',
+                 '<25>{#f/2}* 讓我喘口氣吧！',
                  '<32>{#w.startThatGoat}{#s/equip}{#p/event}* 滴...'
               ],
       w_bridge: [
-         '<25>{#p/toriel}{#f/1}* The bridge to the rest of the outpost...',
-         '<25>{#f/5}* It is a shame to think I almost destroyed it.',
-         '<25>{#f/0}* Of course, the taxi still would have been around.',
-         '<25>{#f/3}* But I doubt that would have been very reliable.',
-         '<25>{#f/1}* Let us be glad this bridge is still in place.'
+         '<25>{#p/toriel}{#f/1}* 通往前哨站\n  其它地方的橋啊...',
+         '<25>{#f/5}* 我之前差點把它給毀了，\n  想想就後怕。',
+         '<25>{#f/0}* 當然啦，就算沒有橋，\n  也可以乘坐運輸船。',
+         '<25>{#f/3}* 不過，那樣估計\n  就沒那麼方便了。',
+         '<25>{#f/1}* 慶幸這座橋還在吧。'
       ],
       w_exit: () =>
          SAVE.data.n.plot < 16
             ? [
-                 '<25>{#p/toriel}{#f/1}* My child, if you are leaving the Outlands...',
-                 '<25>{#f/0}* Then... I want you to remember something.',
-                 '<25>{#f/1}* Whatever happens, no matter how difficult it may seem...',
-                 '<25>{#f/0}* I want you to know that I have faith in you.',
-                 '<25>{#f/0}* That I know you can do the right thing.',
-                 '<25>{#f/1}* Remember that, alright?'
+                 '<25>{#p/toriel}{#f/1}* 你要離開外域了嗎，孩子...',
+                 '<25>{#f/0}* 那麼...\n  我希望你記住一件事。',
+                 '<25>{#f/1}* 無論發生什麼事，\n  無論遇到什麼困難...',
+                 '<25>{#f/0}* 都要記住，\n  我相信你。',
+                 '<25>{#f/0}* 我相信你會\n  做出正確的選擇。',
+                 '<25>{#f/1}* 記住我的話，好嗎？'
               ]
             : SAVE.data.n.plot < 17.001
             ? [
-                 '<25>{#p/toriel}{#f/1}* Returning to the Outlands so soon...?',
-                 '<25>{#f/0}* Well.\n* I cannot say I am opposed to that.',
-                 '<25>{#f/1}* You may leave at any time, of course...',
-                 '<25>{#f/0}* But, for the moment, it is nice to see you.'
+                 '<25>{#p/toriel}{#f/1}* 這麼快就回來了...？',
+                 '<25>{#f/0}* 也行吧。\n* 我當然不會反對。',
+                 '<25>{#f/1}* 你想什麼時候走\n  都沒關係...',
+                 '<25>{#f/0}* 不過，你能回來看看，\n  我還是很高興的。'
               ]
             : [
-                 '<25>{#p/toriel}{#f/2}* How long have you been standing out there!?',
-                 '<25>{#f/1}* Did you come back all this way just to call me?',
-                 '<25>{#f/0}* ... silly goose.',
-                 '<25>{#f/0}* If you would like to call, there is no need to go back this far.'
+                 '<25>{#p/toriel}{#f/2}* 你在那裡\n  站了多久了！？',
+                 '<25>{#f/1}* 你大老遠跑回來，\n  只是為了\n  給我打個電話嗎？',
+                 '<25>{#f/0}* ...小傻瓜。',
+                 '<25>{#f/0}* 你若只是想打個電話，\n  用不著往回走這麼遠的。'
               ],
       w_toriel_front: [
-         '<25>{#p/toriel}{#f/1}* Did you know that this house is a re-creation of another?',
-         '<25>{#f/1}* In the past, I lived in the Citadel...',
-         '<25>{#f/0}* In a house that this one was made to resemble.',
-         '<25>{#f/5}* Once in a while, I forget that I am not really there...'
+         '<25>{#p/toriel}{#f/1}* 你知道嗎？\n  這座房子其實是仿造的。',
+         '<25>{#f/1}* 以前我住在首塔...',
+         '<25>{#f/0}* 這房子就是照著\n  那邊的房子建的。',
+         '<25>{#f/5}* 有時候我還會恍惚，\n  以為自己還在那裡呢...'
       ],
       w_toriel_hallway: [
-         '<25>{#p/toriel}{#f/0}* There is not much to say about the hallway.',
-         '<26>{#f/1}* Though, you can take a look in the mirror, if you like...',
-         '<25>{#f/0}* I hear self-reflection can be a powerful thing.'
+         '<25>{#p/toriel}{#f/0}* 走廊這裡\n  沒啥好說的。',
+         '<26>{#f/1}* 不過，你要是願意，\n  可以照照鏡子...',
+         '<25>{#f/0}* 我聽說沒事照照鏡子，\n  能讓人有所感悟。'
       ],
       w_toriel_asriel: [
-         '<25>{#p/toriel}{#f/0}* Ah, it is your room!',
-         '<25>{#f/5}* Your... room...',
+         '<25>{#p/toriel}{#f/0}* 啊，這是你的房間！',
+         '<25>{#f/5}* 你的... 房間...',
          '<25>{#f/9}* ...',
-         '<25>{#f/5}* Perhaps it is no longer as such.',
+         '<25>{#f/5}* 也可能已經不是了。',
          '<25>{#f/1}* ...',
-         '<25>{#f/1}* Actually, I will leave that decision to you...',
-         '<25>{#f/0}* You may still rest any time you like.'
+         '<25>{#f/1}* 其實，\n  你自己決定就好...',
+         '<25>{#f/0}* 你要是想休息，\n  隨時都可以來。'
       ],
       w_toriel_toriel: [
-         '<25>{#p/toriel}{#f/0}* So you have stumbled into my room.',
-         '<25>{#f/0}* If you like, you may read a book from my bookshelf.',
-         '<25>{#f/0}* But, please, do not forget to put it back.',
-         "<25>{#f/23}* And don't you dare open that sock drawer!"
+         '<25>{#p/toriel}{#f/0}* 你跑來我房間了啊。',
+         '<25>{#f/0}* 想看書的話，\n  隨便拿就是了。',
+         '<25>{#f/0}* 不過看完記得放回去。',
+         "<25>{#f/23}* 還有啊，\n  不許亂翻襪子抽屜！"
       ],
       w_toriel_living: () =>
          toriCheck()
             ? [ '<25>{#p/toriel}{#f/3}* 我就在這呢，\n  用不著打電話，小傢伙。' ]
             : [
-                 '<25>{#p/toriel}{#f/1}* Rummaging around in the living room, are we?',
-                 '<25>{#f/0}* Say.\n* Have you read all of the books yet?',
-                 '<25>{#f/1}* I thought about reading you the snail fact book...',
-                 '<25>{#f/0}* But I decided it might be a little too repetitive for you.'
+                 '<25>{#p/toriel}{#f/1}* 你這是\n  在客廳裡翻箱倒櫃呢？',
+                 '<25>{#f/0}* 我說，\n* 那些書你都看完了嗎？',
+                 '<25>{#f/1}* 我本來想給你讀讀\n  那本關於蝸牛的書...',
+                 '<25>{#f/0}* 不過想了想，\n  你可能已經\n  不想再聽到「蝸牛」了。'
               ],
       w_toriel_kitchen: [
-         '<25>{#p/toriel}{#f/1}* The kitchen...?',
+         '<25>{#p/toriel}{#f/1}* 廚房啊...',
          '<25>{#f/0}* 我在冰箱裡\n  給你留了條巧克力。',
-         '<25>{#f/0}* I hear it is... an old favorite of humans.',
+         '<25>{#f/0}* 聽說... \n  你們人類都愛吃這個。',
          '<25>{#f/1}* 希望你能喜歡它...'
       ],
       s_start: () =>
          SAVE.data.n.plot < 17.001
             ? [
-                 '<25>{#p/toriel}{#f/0}* If I am right, a certain friend of mine should be up ahead.',
-                 '<26>{#f/0}* Do not fear, little one.',
-                 '<25>{#f/1}* Keep going...'
+                 '<25>{#p/toriel}{#f/0}* 如果我沒猜錯的話，\n  我的某個朋友\n  應該就在前面。',
+                 '<26>{#f/0}* 別害怕，小傢伙。',
+                 '<25>{#f/1}* 繼續往前走...'
               ]
             : [
-                 '<25>{#p/toriel}{#f/1}* From what I recall, this long room...',
-                 '<26>{#f/0}* ... would have been the basis for a town on the outskirts of Starton.',
-                 '<25>{#f/0}* Of course, that never came to pass.',
-                 '<25>{#f/2}* One town was more than enough!'
+                 '<25>{#p/toriel}{#f/1}* 我記得，這個長房間...',
+                 '<26>{#f/0}* ...本來是打算用來\n  建成星港的城郊小鎮的。',
+                 '<25>{#f/0}* 當然啦，\n  後來沒有建成。',
+                 '<25>{#f/2}* 一個鎮子已經夠多了！'
               ],
       s_sans: () =>
          SAVE.data.n.plot < 17.001
             ? [
-                 '<25>{#p/toriel}{#f/0}* If I am right, a certain friend of mine should be up ahead.',
-                 '<26>{#f/0}* Do not fear, little one.',
-                 '<25>{#f/1}* Keep going...'
+                 '<25>{#p/toriel}{#f/0}* 如果我沒猜錯的話，\n  我的某個朋友\n  應該就在前面。',
+                 '<26>{#f/0}* 別害怕，小傢伙。',
+                 '<25>{#f/1}* 繼續往前走...'
               ]
             : [
-                 '<25>{#p/toriel}{#f/1}* I presume by now you have heard of the \"gravometric inverter?\"',
-                 '<26>{#f/0}* It is a device Sans has told me all about.',
-                 '<25>{#f/1}* Apparently, there is another world up there...',
-                 '<25>{#f/0}* A place where things do not always face the right way up.'
+                 '<25>{#p/toriel}{#f/1}* 你應該聽說過\n  「重力轉換器」吧？',
+                 '<26>{#f/0}* Sans跟我說了不少\n  有關這玩意兒的事。',
+                 '<25>{#f/1}* 似乎這上面\n  還有另一個世界...',
+                 '<25>{#f/0}* 那裡的東西\n  都是反著長的。'
               ],
       s_crossroads: [
          '<25>{#p/toriel}{#f/1}* This old landing pad was once a bustling intersection...',

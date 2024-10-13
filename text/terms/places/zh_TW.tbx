@@ -92,7 +92,7 @@
             </termEntry>
             <termEntry id="Foundry savepoint">
                 <langSet xml:lang="en"><tig><term>Vending Machine</term></tig></langSet>
-                <langSet xml:lang="zh_TW"><tig><term>售貨機</term></tig></langSet>
+                <langSet xml:lang="zh_TW"><tig><term>自動售貨機</term></tig></langSet>
             </termEntry>
             <termEntry id="Foundry savepoint">
                 <langSet xml:lang="en"><tig><term>Trash Zone</term></tig></langSet>

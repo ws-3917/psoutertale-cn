@@ -202,11 +202,11 @@ export default {
          '<20>...',
          '<20>solo...',
          "<20>prométeme que estarás bien sin mí, hermano.",
-         "<20>promise me you'll be g-{^5}great.",
+         "<20>prométeme que serás g-{^5}grande.",
          '<20>...',
          '<20>después de todo...'
       ],
-      sansDeath7: [ "<20>{|}{#p/sans}you're the... great p-{^5}papyrus.{^20}{%}" ],
+      sansDeath7: [ "<20>{|}{#p/sans}eres el gran p-{^5}papyrus.{^20}{%}" ],
       sansDeath8: [ '<15>{#p/papyrus}{#e/papyrus/33}N-NO...{^40}{%}' ],
       fast_food1: () => [
          SAVE.data.b.fryz
@@ -258,18 +258,18 @@ export default {
             : [
                  "<32>{#p/human}* (Llevas demasiado encima.)",
                  '<25>{#p/sans}{#f/3}* ¿no hay sitio, eh?',
-                 "<25>{#p/sans}{#f/2}* don't worry.\n* i'll leave it in my room for you."
+                 "<25>{#p/sans}{#f/2}* no te preocupes.\n* lo dejaré en mi habitación para ti."
               ])
       ],
       gravo1: () =>
          SAVE.data.b.svr
             ? [
-                 '<32>{#p/human}* (You look curiously at the seemingly useless device.)',
-                 ...[ [ "<25>{#p/asriel1}{#f/17}* Too bad we don't have the remote for this thing, huh?" ], [] ][
+                 '<32>{#p/human}* (Miras curiosamente al aparato aparentemente inútil.)',
+                 ...[ [ "<25>{#p/asriel1}{#f/17}* Qué mal que no tenemos el mando para esta cosa, ¿eh?" ], [] ][
                     Math.min(asrielinter.gravo1++, 1)
                  ]
               ]
-            : [ '<32>{#p/basic}* It\'s a \"gravometric inverter.\"', '<32>* Whatever that means.' ],
+            : [ '<32>{#p/basic}* Es un \"inversor gravométrico.\"', '<32>* Whatever that means.' ],
       gravo3: () => [
          '<32>{#p/human}* (You use the Gravometric Inverter Remote.)\n* (Nothing happens.)',
          ...(SAVE.data.b.svr

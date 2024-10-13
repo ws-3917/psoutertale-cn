@@ -1,21 +1,7 @@
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-10 18:29+0000\n"
-"PO-Revision-Date: 2024-10-12 10:29+0000\n"
-"Last-Translator: Maxim Aksenov <me6696154@gmail.com>\n"
-"Language-Team: Russian <https://ws3917.site/projects/project-spacetime/"
-"3-foundry/ru/>\n"
-"Language: ru_RU\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.7.2\n"
 
-#
 msgid "<32>{#p/basic}* ..."
 msgstr ""
 
@@ -7325,7 +7311,6 @@ msgstr ""
 msgid "<32>* You remember, don't you?"
 msgstr "<32>* Ты помнишь, не так ли?"
 
-#, fuzzy
 msgid ""
 "<32>* Being forced to move after such a long period of blissful "
 "inanimateness..."
@@ -7336,16 +7321,14 @@ msgstr ""
 msgid "<32>* It was very uncomfortable."
 msgstr "<32>* Это было очень неудобно."
 
-#, fuzzy
 msgid ""
 "<32>{#p/finalghost}* Toriel was so taken aback by your flirtatious ways."
-msgstr "<32>{#p/finalghost}* Ториэль была так шокирована твоим флиртовым путём."
+msgstr ""
+"<32>{#p/finalghost}* Ториэль была так шокирована твоим флиртовым путём."
 
-#, fuzzy
 msgid "<32>* Personally, I thought it was hilarious."
 msgstr "<32>* Лично я считаю, что это было смешно."
 
-#, fuzzy
 msgid "<32>* I was laughing on the inside."
 msgstr "<32>* Я внутренне смеялся."
 
@@ -7356,8 +7339,8 @@ msgid ""
 "<32>* We all decided to hang out at Blooky's before leaving for the new "
 "homeworld."
 msgstr ""
-"<32>* Мы все решили посидеть у Блуки, прежде чем отправиться на новую родную "
-"планету."
+"<32>* Мы все решили посидеть у Блуки, прежде чем отправиться на новую родную"
+" планету."
 
 msgid ""
 "<32>* I will say, Blooky sure had some \"interesting\" music queued for "
@@ -7369,7 +7352,6 @@ msgstr ""
 msgid "<32>* What's a \"Hyper Rage\" anyway?"
 msgstr "<32>* Что такое « супергнев»?"
 
-#, fuzzy
 msgid "<32>{#p/basic}* A song I wish I hadn't made."
 msgstr "<32>{#p/basic}* Песня, которую я не хотел делать."
 
@@ -7380,7 +7362,6 @@ msgstr ""
 "<32>{#p/finalghost}* О?\n"
 "* Ты сделал это?"
 
-#, fuzzy
 msgid "<32>{#p/basic}* Unfortunately, mew."
 msgstr "<32>{#p/basic}* К сожалению, мяу."
 
@@ -7390,10 +7371,10 @@ msgstr "<32>{#p/finalghost}* Я понимаю, почему вы хотите �
 msgid "<32>{#p/finalghost}* She's looking to move past her violent ways."
 msgstr "<32>{#p/finalghost}* Она стремится забыть о прошлом жестоком пути."
 
-#, fuzzy
 msgid "<32>{#p/basic}* So, being an angry dummy got boring after a while."
 msgstr ""
-"<32>{#p/basic}* Итак, быть злым манекеном через некоторое время стало скучно."
+"<32>{#p/basic}* Итак, быть злым манекеном через некоторое время стало "
+"скучно."
 
 msgid ""
 "<32>* Then I asked Alphys to make me a replica of her favorite Mew Mew doll,"
@@ -7436,13 +7417,12 @@ msgid ""
 "THE WHOLE THING."
 msgstr "<32>{#e/metaton/36}* ЕСЛИ ПОДУМАТЬ, Я СЛИШКОМ ДРАМАТИЗИРОВАЛ ВСЁ ЭТО."
 
-#, fuzzy
 msgid ""
 "<32>{#e/mettaton/36}* BLOOKY NEVER DID -THAT- MUCH WRONG... I GUESS I JUST "
 "DIDN'T WANT TO ADMIT I WAS BORED."
 msgstr ""
-"<32>{#e/mettaton/36}* БЛУКИ НИКОГДА НЕ ДЕЛАЛ ТАК МНОГО ПЛОХОГО... Я ДУМАЮ, Я "
-"ПРОСТО НЕ ХОТЕЛ ПРИЗНАВАТЬ, ЧТО МНЕ СКУЧНО."
+"<32>{#e/mettaton/36}* БЛУКИ НИКОГДА НЕ ДЕЛАЛ ТАК МНОГО ПЛОХОГО... Я ДУМАЮ, Я"
+" ПРОСТО НЕ ХОТЕЛ ПРИЗНАВАТЬ, ЧТО МНЕ СКУЧНО."
 
 msgid ""
 "<32>{#e/mettaton/8}* BUT MAYBE THAT'S WHAT MAKES ME SUCH A GREAT ACTOR."
@@ -7450,13 +7430,12 @@ msgstr ""
 "<32>{#e/mettaton/8}* НО, ВОЗМОЖНО, ИМЕННО ЭТО ДЕЛАЕТ МЕНЯ ТАКИМ ВЕЛИКИМ "
 "АКТЁРОМ."
 
-#, fuzzy
 msgid ""
 "<32>{#e/mettaton/37}* IT'S NOT ACTING IF YOU CAN'T PUT TOO MUCH EMOTION INTO"
 " IT!"
 msgstr ""
-"<32>{#e/mettaton/37}* ЭТО НЕ АКТЁРСКАЯ ИГРА, ЕСЛИ ТЫ НЕ МОЖЕШЬ ВЛОЖИТЬ В НЕЁ "
-"МНОГО ЭМОЦИЙ!"
+"<32>{#e/mettaton/37}* ЭТО НЕ АКТЁРСКАЯ ИГРА, ЕСЛИ ТЫ НЕ МОЖЕШЬ ВЛОЖИТЬ В НЕЁ"
+" МНОГО ЭМОЦИЙ!"
 
 msgid "<32>{#e/mettaton/9}* ... OR SOMETHING LIKE THAT."
 msgstr "<32>{#e/mettaton/9}* ... ИЛИ ЧТО-ТО В ЭТОМ РОДЕ."
@@ -7509,7 +7488,8 @@ msgstr "<32>{#p/mettaton}* ПРЕДЛАГАЕТСЯ МТТ-БРЕНД."
 
 msgid ""
 "<32>{#p/finalghost}* This seems like an entirely pointless requirement."
-msgstr "<32>{#p/finalghost}* Это кажется совершенно бессмысленным требованием."
+msgstr ""
+"<32>{#p/finalghost}* Это кажется совершенно бессмысленным требованием."
 
 msgid "<32>{#p/human}* (The sign warns of dogs who appear to be asleep.)"
 msgstr ""
@@ -7518,13 +7498,12 @@ msgstr ""
 msgid "<32>{#p/basic}* \"Be wary of sleeping dogs.\""
 msgstr "<32>{#p/basic}* \"Опасайся спящих собак.\""
 
-#, fuzzy
 msgid ""
 "<32>{#p/human}* (The sign speaks of strength of will in times of "
 "uncertainty.)"
-msgstr "<32>{#p/human}* (Знак говорит о силе воли во времена неопределённости.)"
+msgstr ""
+"<32>{#p/human}* (Знак говорит о силе воли во времена неопределённости.)"
 
-#, fuzzy
 msgid ""
 "<32>{#p/basic}* \"Even when you're lost, the will to find yourself shows "
 "through.\""
@@ -7535,11 +7514,9 @@ msgid ""
 "<32>{#p/human}* (Something about this cheese doesn't sit right with you.)"
 msgstr "<32>{#p/human}* (Что-то в этом сыре тебя не устраивает)."
 
-#, fuzzy
 msgid "<32>{#p/basic}* Nothing about this is real."
 msgstr "<32>{#p/basic}* Ничего в этом нет настоящего."
 
-#, fuzzy
 msgid ""
 "<32>{#p/basic}* Despite being holographic, it looks like a small slice of "
 "cheese was taken..."
@@ -7557,7 +7534,6 @@ msgid ""
 "<32>{#p/human}* (The sign declares the monsters' ownership of the outpost.)"
 msgstr "<32>{#p/human}* (Знак показывает, что аванпост принадлежит монстрам.)"
 
-#, fuzzy
 msgid ""
 "<32>{#p/basic}* \"We claim this outpost as our own, never to be taken "
 "prisoner again.\""
@@ -7583,7 +7559,6 @@ msgstr "<32>{#p/basic}* \"Это сундук.\""
 msgid "<32>* \"You can put an item inside or take an item out.\""
 msgstr "<32>* \"Ты можешь положить предмет внутрь или взять его.\""
 
-#, fuzzy
 msgid ""
 "<32>* \"Why would you, though??\"\n"
 "* \"It's not like you can use items while they're inside.\""
@@ -7608,7 +7583,6 @@ msgstr ""
 "<32>{#p/basic}* \"Почему люди напали?\"\n"
 "* \"Действительно, казалось, что им нечего бояться.\""
 
-#, fuzzy
 msgid ""
 "<32>* \"Humans are unbelievably strong. It would take the SOUL of nearly "
 "every monster...\""

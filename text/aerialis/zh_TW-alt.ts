@@ -6278,7 +6278,7 @@ export default {
             ? ["<32>{#p/basic}* 停機了。"]
             : [
                SAVE.data.b.svr
-                  ? '<32>{#p/human}* (You approach the vending machine.)'
+                  ? '<32>{#p/human}* （你走近了自動售貨機。）'
                   : "<32>{#p/basic}* 這是個專賣燈芯的自動售貨機。",
                choicer.create('* （花40G買五根燈芯嗎？）', '是', '否')
             ],
