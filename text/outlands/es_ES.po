@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-13 01:29+0000\n"
-"PO-Revision-Date: 2024-10-13 02:29+0000\n"
+"PO-Revision-Date: 2024-10-13 03:29+0000\n"
 "Last-Translator: Ariel Nicolas <noezaraspe23130718@gmail.com>\n"
 "Language-Team: Spanish <https://ws3917.site/projects/project-spacetime/"
 "1-outlands/es/>\n"
@@ -4761,31 +4761,34 @@ msgstr ""
 msgid "<25>{#p/toriel}{#f/2}* No, bad puppy!"
 msgstr "<25>{#p/toriel}{#f/2}* No,¡perrito malo!"
 
+#, fuzzy
 msgid "<32>{#p/basic}* (Whimper... whimper...)"
-msgstr ""
+msgstr "<32>{#p/basic}* (Lloriqueo... Lloriqueo...)"
 
 msgid ""
 "<25>{#p/toriel}* There, there...\n"
 "* I will find another cell phone for you."
 msgstr ""
+"<25>{#p/toriel}* Ya, ya...\n"
+"* Te voy a conseguir un teléfono para tí."
 
 msgid "<25>{#f/1}* Would that be alright?"
-msgstr ""
+msgstr "<25>{#f/1}* ¿Te gustaría eso?"
 
 msgid "<32>{#s/bark}{#p/event}* Bark!"
-msgstr ""
+msgstr "<32>{#s/bark}{#p/event}* ¡Guau!"
 
 msgid "<25>{#p/toriel}* Glad to hear it."
-msgstr ""
+msgstr "<25>{#p/toriel}* Me alegra oír eso."
 
 msgid "<32>{#p/human}* (The dog could be heard walking away.)"
-msgstr ""
+msgstr "<32>{#p/human}* (Escuchas como el perro se va caminando.)"
 
 msgid "<25>{#p/toriel}* Please, forgive me for all of this nonsense."
-msgstr ""
+msgstr "<25>{#p/toriel}* Por favor, perdoname por todo este lío."
 
 msgid "<25>{#f/1}* I will be back to pick you up shortly..."
-msgstr ""
+msgstr "<25>{#f/1}* Te iré a buscar en un momento..."
 
 msgid "<25>{#p/toriel}{#g/torielTired}* ... already?"
 msgstr ""
