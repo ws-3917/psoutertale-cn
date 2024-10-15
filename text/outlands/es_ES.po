@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-13 01:29+0000\n"
-"PO-Revision-Date: 2024-10-13 23:29+0000\n"
-"Last-Translator: Stefano <stefanobuendia@hotmail.com>\n"
+"PO-Revision-Date: 2024-10-15 21:29+0000\n"
+"Last-Translator: Ariel Nicolas <noezaraspe23130718@gmail.com>\n"
 "Language-Team: Spanish <https://ws3917.site/projects/project-spacetime/"
 "1-outlands/es/>\n"
 "Language: es_ES\n"
@@ -4788,53 +4788,61 @@ msgstr "<25>{#p/toriel}* Por favor, perdoname por todo este lío."
 msgid "<25>{#f/1}* I will be back to pick you up shortly..."
 msgstr "<25>{#f/1}* Te iré a buscar en un momento..."
 
+#, fuzzy
 msgid "<25>{#p/toriel}{#g/torielTired}* ... already?"
-msgstr ""
+msgstr "<25>{#p/toriel}{#g/torielTired}* ... ¿Yá?"
 
 msgid "<25>{#p/toriel}{#g/torielTired}* ... impatient, are we?"
-msgstr ""
+msgstr "<25>{#p/toriel}{#g/torielTired}* ... Si que eres impaciente"
 
 msgid "<25>{#f/9}* I really should not be surprised."
-msgstr ""
+msgstr "<25>{#f/9}* Realmente no me sorprende."
 
 msgid ""
 "<25>{#f/5}* Just remember the dangers that lie ahead of you out there..."
-msgstr ""
+msgstr "<25>{#f/5}* Solo recuerda los peligros que te esperan ahí afuera..."
 
 msgid "<25>{#f/1}* It would be a shame if you got hurt."
-msgstr ""
+msgstr "<25>{#f/1}* Sería una pena que te lastimaran."
 
 msgid ""
 "<25>{#p/toriel}* Hello?\n"
 "* This is Toriel."
 msgstr ""
+"<25>{#p/toriel}* ¿Hola?\n"
+"* Habla Toriel."
 
 msgid "<25>{#f/1}* You have not left the room, have you?"
-msgstr ""
+msgstr "<25>{#f/1}* No te fuiste de la habitación, ¿Verdad?"
 
 msgid ""
 "<25>{#f/0}* There are many dangers out there, and I do not want you to get "
 "hurt."
-msgstr ""
+msgstr "<25>{#f/0}* Hay muchos peligros por ahí, y odiaría que te lastimes."
 
 msgid "<25>{#f/1}* Take care of yourself, alright?"
-msgstr ""
+msgstr "<25>{#f/1}* Cuidate, ¿de acuerdo?"
 
 msgid "<32>{#p/basic}* A few minutes later..."
-msgstr ""
+msgstr "<32>{#p/basic}* Unos minutos después..."
 
 msgid "<25>{#p/toriel}* I have returned!"
-msgstr ""
+msgstr "<25>{#p/toriel}* ¡Volví!"
 
+#, fuzzy
 msgid ""
 "<25>* Your patience thus far has been commendable.\n"
 "* Even I am impressed!"
 msgstr ""
+"<25>* Tu paciencia hasta ahora ha sido loable.\n"
+"* ¡Incluso yo estoy impresionada!"
 
 msgid ""
 "<25>{#f/0}* Anyhoo.\n"
 "* It is time I took you home now."
 msgstr ""
+"<25>{#f/0}* En fin.\n"
+"* Es hora de que te lleve a casa."
 
 msgid "<25>{#f/1}* Please, allow me..."
 msgstr ""
