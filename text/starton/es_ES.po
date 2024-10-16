@@ -1,22 +1,20 @@
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-13 08:29+0000\n"
-"PO-Revision-Date: 2024-10-13 08:29+0000\n"
+"PO-Revision-Date: 2024-10-16 15:29+0000\n"
 "Last-Translator: Chistosito <souzadecarvalhofabio1@gmail.com>\n"
 "Language-Team: Spanish <https://ws3917.site/projects/project-spacetime/"
 "2-starton/es/>\n"
 "Language: es_ES\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: ENCODING\n"
+"Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 5.7.2\n"
 
 #
-
 msgid ""
 "<32>{#p/basic}* A standard-issue CITADEL long- range telescope, circa 261X."
 msgstr ""
@@ -937,19 +935,24 @@ msgstr ""
 "sellados.\""
 
 msgid "<32>* Well, that's the story."
-msgstr ""
+msgstr "<32>* Bueno, esa es la historia."
 
 msgid "<32>{#p/basic}* Well, if you ever want me to read it, let me know."
 msgstr ""
+"<32>{#p/basic}* Bueno, si en algún momento quieres que la lea, déjame saber."
 
 msgid ""
 "<32>{#p/basic}{#npc/a}* If you want a room, you'll need to ask me first."
 msgstr ""
+"<32>{#p/basic}{#npc/a}* Si quieres una habitación, me tendrás que preguntar "
+"primero."
 
 msgid ""
 "<32>{#p/basic}{#npc/a}* If you want a room again, you'll need to ask me "
 "first."
 msgstr ""
+"<32>{#p/basic}{#npc/a}* Si quieres una habitación otra vez, me tendrás que "
+"preguntar primero."
 
 msgid ""
 "<32>{#p/basic}{#npc/a}* Sorry, munchkin!\n"
@@ -957,10 +960,10 @@ msgid ""
 msgstr ""
 
 msgid "<32>{#p/human}* (You approach the vending machine.)"
-msgstr ""
+msgstr "<32>{#p/human}* (Te aproximas a la máquina expendedora.)"
 
 msgid "<32>{#p/basic}* It's an exoberry-exclusive vending machine."
-msgstr ""
+msgstr "<32>{#p/basic}* Es una máquina expendedora exclusivamente de exobayas."
 
 msgid "* (Buy the Exoberries for 8G?)"
 msgstr ""
@@ -5034,7 +5037,6 @@ msgstr ""
 
 msgid "SAVE YOURSELVES..."
 msgstr ""
-
 
 msgid "FAILED TO CONNECT..."
 msgstr ""
