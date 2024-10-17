@@ -1,7 +1,20 @@
-#
 msgid ""
 msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-10-13 13:29+0000\n"
+"PO-Revision-Date: 2024-10-14 17:29+0000\n"
+"Last-Translator: Chistosito <souzadecarvalhofabio1@gmail.com>\n"
+"Language-Team: Spanish <https://ws3917.site/projects/project-spacetime/"
+"0-systems/es/>\n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.7.2\n"
 
+#
 msgid "(You take a deep breath.)"
 msgstr "(Tomas un respiro profundo.)"
 
@@ -523,7 +536,7 @@ msgid "Prev"
 msgstr "Anterior"
 
 msgid "Next"
-msgstr "Siguiente"
+msgstr "Sig"
 
 msgid "Enter Value"
 msgstr "Introduzca Valor"
@@ -608,9 +621,6 @@ msgstr "§fill=#ff0§< DESARROLLADOR >§fill=#fff§"
 
 msgid "spacey_432"
 msgstr "spacey_432"
-
-msgid ""
-msgstr ""
 
 msgid "§fill=#ff0§< WRITER >§fill=#fff§"
 msgstr "§fill=#ff0§< ESCRITOR >§fill=#fff§"
@@ -2478,7 +2488,7 @@ msgid "GOLD"
 msgstr "ORO"
 
 msgid "NEXT"
-msgstr "SIGUIENTE"
+msgstr "SIG"
 
 msgid ""
 "§fill=#ff0§Warning:\n"
@@ -2519,8 +2529,8 @@ msgid ""
 "<24>After the MONSTERS' home planet was destroyed, HUMANS declared "
 "victory.{^35}{}"
 msgstr ""
-"<24>Después de que el planeta natal de los MONSTRUOS fuera destruido, los "
-"HUMANOS declararon victoria.{^35}{}"
+"<24>Al destruir el planeta natal de los MONSTRUOS, los HUMANOS declararon "
+"victoria.{^35}{}"
 
 msgid ""
 "<24>The remaining MONSTERS were banished to an abandoned outpost.{^35}{}"

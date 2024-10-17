@@ -1,7 +1,20 @@
-#
 msgid ""
 msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-10-13 01:29+0000\n"
+"PO-Revision-Date: 2024-10-16 03:29+0000\n"
+"Last-Translator: Ariel Nicolas <noezaraspe23130718@gmail.com>\n"
+"Language-Team: Spanish <https://ws3917.site/projects/project-spacetime/"
+"1-outlands/es/>\n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.7.2\n"
 
+#
 msgid ""
 "<25>{#p/toriel}{#f/1}* I hear there is a certain kind of fluid in "
 "Aerialis..."
@@ -58,7 +71,7 @@ msgstr "<25>{#f/0}* Aunque no he podido verlo, a causa de mi falta de una TV"
 msgid ""
 "<25>{#f/1}* When I heard about it, however, I must admit I was surprised..."
 msgstr ""
-"<25>{#f/1}* Cuando escuché acerca de ello, demo admitir, estaba "
+"<25>{#f/1}* Cuando escuché acerca de ello, debo admitir, estaba "
 "sorprendida..."
 
 msgid "<25>{#f/2}* How did you not miss even a SINGLE time?"
@@ -2734,8 +2747,8 @@ msgid ""
 "<32>{#p/basic}* This terminal's staggering height towers over you, blocking "
 "your eager approach."
 msgstr ""
-"<32>{#p/basic}* La asombrosa altura de esta terminal se eleva sobre ti, "
-"bloqueando tu ansiosa aproximación."
+"<32>{#p/basic}* La altura de esta terminal se eleva sobre ti, bloqueando tu "
+"ansioso enfoque."
 
 msgid "<25>{#p/toriel}{#f/3}* What is it now..."
 msgstr "<25>{#p/toriel}{#f/3}* Qué pasa ahora..."
@@ -2762,8 +2775,7 @@ msgstr "<25>{#f/6}* Parece que hay un error de diseño aquí."
 
 msgid "<25>{#f/1}* So the terminal is too high for you to reach it...?"
 msgstr ""
-"<25>{#f/5}* ¿Así que el terminal está demasiado alto para que puedas "
-"alcanzarlo?"
+"<25>{#f/5}* ¿Así que el terminal está muy alto para que puedas alcanzarlo...?"
 
 msgid ""
 "<25>{#f/0}* No matter.\n"
@@ -2925,8 +2937,8 @@ msgid ""
 "<25>{#f/1}* As a human roaming the outpost, it is likely you will be "
 "attacked..."
 msgstr ""
-"<25>{#f/1}* Como eres un humano deambulando por la estación espacial, es "
-"probable que te ataquen..."
+"<25>{#f/1}* Al ser un humano vagando por la estación, es probable que te "
+"ataquen..."
 
 msgid "<25>{#f/0}* If that happens, you will enter what is known as a FIGHT."
 msgstr "<25>{#f/0}* Si eso pasa, entrarás en lo que se conoce como una PELEA."
@@ -2935,8 +2947,7 @@ msgid "<25>{#f/0}* Thankfully, there are several ways to resolve one."
 msgstr "<25>{#f/0}* Afortunadamente, hay varias formas de resolver una pelea."
 
 msgid "<25>{#f/1}* For now, I suggest striking up a friendly conversation..."
-msgstr ""
-"<25>{#f/1}* Por ahora, Te sugiero entablar una conversación amistosa..."
+msgstr "<25>{#f/1}* Por ahora, te sugiero entablar una charla amistosa..."
 
 msgid ""
 "<25>{#f/0}* ... thereby giving me a chance to sort out the conflict for you."
@@ -4715,142 +4726,166 @@ msgid ""
 "<25>{#p/toriel}{#f/1}* Aha!\n"
 "* I heard that, you little white dog..."
 msgstr ""
+"<25>{#p/toriel}{#f/1}* ¡Ajá!\n"
+"* Oí eso, perrito..."
 
 msgid "<25>{#f/6}* Now I am going to find you!"
-msgstr ""
+msgstr "<25>{#f/6}* ¡Te voy a encontrar!"
 
 msgid ""
 "<32>{#p/human}* (The snoring stops.)\n"
 "* (The dog now seems to be on the run from something.)"
 msgstr ""
+"<32>{#p/human}* (Los ronquidos paran.)\n"
+"* (El perro parece estar corriendo de algo.)"
 
 msgid "<25>{#p/toriel}{#f/8}* Hee hee, there is no escape!"
-msgstr ""
+msgstr "<25>{#p/toriel}{#f/8}* Jeje, ¡no te vas a escapar de esta!"
 
 msgid ""
 "<25>{#p/toriel}{#f/1}* Hello...\n"
 "* This is... Toriel..."
 msgstr ""
+"<25>{#p/toriel}{#f/1}* Hola...\n"
+"* Habla... Toriel..."
 
 msgid ""
 "<32>{#s/bark}{#p/event}* Bark!\n"
 "* Bark!"
 msgstr ""
+"<32>{#s/bark}{#p/event}* ¡Guau!\n"
+"* ¡Guau!"
 
 msgid "<25>{#p/toriel}{#f/2}* No, bad puppy!"
-msgstr ""
+msgstr "<25>{#p/toriel}{#f/2}* No,¡perrito malo!"
 
+#, fuzzy
 msgid "<32>{#p/basic}* (Whimper... whimper...)"
-msgstr ""
+msgstr "<32>{#p/basic}* (Lloriqueo... Lloriqueo...)"
 
 msgid ""
 "<25>{#p/toriel}* There, there...\n"
 "* I will find another cell phone for you."
 msgstr ""
+"<25>{#p/toriel}* Ya, ya...\n"
+"* Te voy a conseguir otro teléfono para ti."
 
 msgid "<25>{#f/1}* Would that be alright?"
-msgstr ""
+msgstr "<25>{#f/1}* ¿Te gustaría eso?"
 
 msgid "<32>{#s/bark}{#p/event}* Bark!"
-msgstr ""
+msgstr "<32>{#s/bark}{#p/event}* ¡Guau!"
 
 msgid "<25>{#p/toriel}* Glad to hear it."
-msgstr ""
+msgstr "<25>{#p/toriel}* Me alegra oír eso."
 
 msgid "<32>{#p/human}* (The dog could be heard walking away.)"
-msgstr ""
+msgstr "<32>{#p/human}* (Escuchas como el perro se va caminando.)"
 
 msgid "<25>{#p/toriel}* Please, forgive me for all of this nonsense."
-msgstr ""
+msgstr "<25>{#p/toriel}* Por favor, perdoname por todo este lío."
 
 msgid "<25>{#f/1}* I will be back to pick you up shortly..."
-msgstr ""
+msgstr "<25>{#f/1}* Te iré a buscar en un momento..."
 
+#, fuzzy
 msgid "<25>{#p/toriel}{#g/torielTired}* ... already?"
-msgstr ""
+msgstr "<25>{#p/toriel}{#g/torielTired}* ... ¿Yá?"
 
 msgid "<25>{#p/toriel}{#g/torielTired}* ... impatient, are we?"
-msgstr ""
+msgstr "<25>{#p/toriel}{#g/torielTired}* ... Si que eres impaciente"
 
 msgid "<25>{#f/9}* I really should not be surprised."
-msgstr ""
+msgstr "<25>{#f/9}* Realmente no me sorprende."
 
 msgid ""
 "<25>{#f/5}* Just remember the dangers that lie ahead of you out there..."
-msgstr ""
+msgstr "<25>{#f/5}* Solo recuerda los peligros que te esperan ahí afuera..."
 
 msgid "<25>{#f/1}* It would be a shame if you got hurt."
-msgstr ""
+msgstr "<25>{#f/1}* Sería una pena que te lastimaran."
 
 msgid ""
 "<25>{#p/toriel}* Hello?\n"
 "* This is Toriel."
 msgstr ""
+"<25>{#p/toriel}* ¿Hola?\n"
+"* Habla Toriel."
 
 msgid "<25>{#f/1}* You have not left the room, have you?"
-msgstr ""
+msgstr "<25>{#f/1}* No te fuiste de la habitación, ¿Verdad?"
 
 msgid ""
 "<25>{#f/0}* There are many dangers out there, and I do not want you to get "
 "hurt."
-msgstr ""
+msgstr "<25>{#f/0}* Hay muchos peligros por ahí, y odiaría que te lastimes."
 
 msgid "<25>{#f/1}* Take care of yourself, alright?"
-msgstr ""
+msgstr "<25>{#f/1}* Cuidate, ¿de acuerdo?"
 
 msgid "<32>{#p/basic}* A few minutes later..."
-msgstr ""
+msgstr "<32>{#p/basic}* Unos minutos después..."
 
 msgid "<25>{#p/toriel}* I have returned!"
-msgstr ""
+msgstr "<25>{#p/toriel}* ¡Volví!"
 
+#, fuzzy
 msgid ""
 "<25>* Your patience thus far has been commendable.\n"
 "* Even I am impressed!"
 msgstr ""
+"<25>* Tu paciencia hasta ahora ha sido loable.\n"
+"* ¡Incluso yo estoy impresionada!"
 
 msgid ""
 "<25>{#f/0}* Anyhoo.\n"
 "* It is time I took you home now."
 msgstr ""
+"<25>{#f/0}* En fin.\n"
+"* Es hora de que te lleve a casa."
 
 msgid "<25>{#f/1}* Please, allow me..."
-msgstr ""
+msgstr "<25>{#f/1}* Por favor, permíteme..."
 
 msgid "<25>{#p/toriel}{#f/0}* Welcome to our humble outpost, innocent one."
 msgstr ""
+"<25>{#p/toriel}{#f/0}* Bienvenido a nuestra humilde base espacial, pequeño."
 
 msgid ""
 "<25>{#f/0}* There are many lessons that I must teach you about life here."
-msgstr ""
+msgstr "<25>{#f/0}* Hay muchas cosas que te debo enseñar sobre la vida aquí."
 
 msgid "<25>{#f/1}* First and foremost..."
-msgstr ""
+msgstr "<25>{#f/1}* Lo primero y mas importante..."
 
 msgid "<25>{#f/0}* Puzzles!"
-msgstr ""
+msgstr "<25>{#f/0}* ¡Puzzles!"
 
 msgid "<25>{#f/0}* Allow me to perform this quick demonstration."
-msgstr ""
+msgstr "<25>{#f/0}* Dejame mostrarte rapidamente."
 
 msgid ""
 "<25>{#p/toriel}{#f/1}* It may seem strange to you now, but here on the "
 "outpost..."
 msgstr ""
+"<25>{#p/toriel}{#f/1}* Puede parecer extraño para ti, pero aquí en la "
+"Estación Espacial..."
 
 msgid "<25>{#f/0}* Solving puzzles is a part of our daily routine."
-msgstr ""
+msgstr "<25>{#f/0}* Resolver puzzles es parte de nuestra rutina diaria."
 
 msgid ""
 "<25>{#f/0}* With time, and a little guidance, you will grow accustomed to "
 "them."
 msgstr ""
+"<25>{#f/0}* Con el tiempo, y un poco de ayuda, te vas a acostumbrar a ellos."
 
 msgid "<25>{#p/toriel}* When you are ready, we may proceed."
-msgstr ""
+msgstr "<25>{#p/toriel}* Cuando estés listo, podremos seguir."
 
+#, fuzzy
 msgid "<32>{#p/basic}{#n1}* I heard you're quite flirty, for a human."
-msgstr ""
+msgstr "<32>{#p/basic}{#n1}* Oí que eres bastante amoroso para un humano."
 
 msgid ""
 "<32>* As you {@fill=#cf7fff}FLIRT{@fill=#fff} with different kinds of "

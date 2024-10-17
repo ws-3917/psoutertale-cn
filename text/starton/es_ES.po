@@ -1,7 +1,20 @@
-#
 msgid ""
 msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-10-13 08:29+0000\n"
+"PO-Revision-Date: 2024-10-16 16:29+0000\n"
+"Last-Translator: Chistosito <souzadecarvalhofabio1@gmail.com>\n"
+"Language-Team: Spanish <https://ws3917.site/projects/project-spacetime/"
+"2-starton/es/>\n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.7.2\n"
 
+#
 msgid ""
 "<32>{#p/basic}* A standard-issue CITADEL long- range telescope, circa 261X."
 msgstr ""
@@ -659,233 +672,287 @@ msgid "<32>{#p/basic}* It's a \"gravometric inverter.\""
 msgstr "<32>{#p/basic}* Es un \"inversor gravométrico.\""
 
 msgid "<32>* Whatever that means."
-msgstr ""
+msgstr "<32>* Lo que sea que signifique."
 
 msgid ""
 "<32>{#p/human}* (You use the Gravometric Inverter Remote.)\n"
 "* (Nothing happens.)"
 msgstr ""
+"<32>{#p/human}* (Utilizas el Inversor Gravométrico.)\n"
+"* (No pasa nada.)"
 
 msgid ""
 "<25>{#p/asriel1}{#f/21}* They're probably shutting off power for non-"
 "essential devices."
 msgstr ""
+"<25>{#p/asriel1}{#f/21}* Probablemente están cortando la energía para "
+"dispositivos no esenciales."
 
 msgid "<32>{#p/basic}* It must be offline..."
-msgstr ""
+msgstr "<32>{#p/basic}* No debe tener conexión..."
 
 msgid "<32>{#p/human}* (You use the Gravometric Inverter Remote.)"
-msgstr ""
+msgstr "<32>{#p/human}* (Usas el Inversor Gravométrico.)"
 
 msgid "<32>{#p/human}* (It looks to have been closed with a deadlock seal.)"
 msgstr ""
+"<32>{#p/human}* (Parece que ha sido cerrado con un candado de alta "
+"seguridad.)"
 
 msgid "<32>{#p/basic}* It's locked."
-msgstr ""
+msgstr "<32>{#p/basic}* Está cerrado."
 
 msgid "<32>{#p/human}* (You use the Skeleton Key.)"
-msgstr ""
+msgstr "<32>{#p/human}* (Usas la Llave Esqueleto.)"
 
 msgid "<32>{#p/basic}* There's an odd remote inside of this envelope."
-msgstr ""
+msgstr "<32>{#p/basic}* Hay un control remoto extraño dentro de este sobre."
 
 msgid ""
 "<32>{#s/equip}{#p/human}* (The Gravometric Inverter Remote was added to your"
 " keyring.)"
 msgstr ""
+"<32>{#s/equip}{#p/human}* (El Mando del Inversor Gravométrico fue añadido a "
+"tu llavero.)"
 
 msgid ""
 "<32>{#p/human}* (But you already emptied the envelope of its contents.)"
-msgstr ""
+msgstr "<32>{#p/human}* (Pero ya vaciaste el contenido del sobre.)"
 
 msgid "<32>{#p/basic}* It's just an empty envelope."
-msgstr ""
+msgstr "<32>{#p/basic}* Es sólo un sobre vacío."
 
 msgid "<32>{#p/basic}* There's an odd... item, inside of this envelope."
-msgstr ""
+msgstr "<32>{#p/basic}* Hay un elemento extraño... dentro de este sobre."
 
 msgid "<32>{#p/human}* (You got the Ice Dream.)"
-msgstr ""
+msgstr "<32>{#p/human}* (Conseguiste el Sueño Helado.)"
 
 msgid "<32>{#p/basic}* Nothing left."
-msgstr ""
+msgstr "<32>{#p/basic}* No queda nada."
 
 msgid "<32>{#p/human}* (You reach into the cart.)"
-msgstr ""
+msgstr "<32>{#p/human}* (Metes la mano en el carrito)."
 
 msgid "<32>{#p/human}{#s/equip}* (You got the Ice Dream.)"
-msgstr ""
+msgstr "<32>{#p/human}{#s/equip}* (Conseguiste el Sueño Helado.)"
 
 msgid "<32>{#p/human}* (...)"
-msgstr ""
+msgstr "<32>{#p/human}* (...)"
 
 msgid "<32>{#p/human}* (You're carrying too much to reach inside.)"
-msgstr ""
+msgstr "<32>{#p/human}* (Llevas demasiado para alcanzar el interior.)"
 
 msgid "<32>{#p/basic}* Mom says that we're going to a new homeworld soon."
-msgstr ""
+msgstr "<32>{#p/basic}* Mamá dice que pronto iremos a un nuevo mundo natal."
 
 msgid "<32>* ... what's a homeworld?"
-msgstr ""
+msgstr "<32>* ... ¿qué es un mundo natal?"
 
 msgid ""
 "<32>{#p/basic}* Mom says that sleeping could recover your health "
 "{@fill=#ff0}above your maximum HP{@fill=#fff}."
 msgstr ""
+"<32>{#p/basic}* Mamá dice que dormir puede recuperar tu vida {@fill=#ff0}por "
+"encima de tus PS máximos{@fill=#fff}."
 
 msgid "<32>* ... what's maximum HP?"
-msgstr ""
+msgstr "<32>* ... ¿qué son PS máximos?"
 
 msgid "<32>{#p/basic}* Do humans have a homeworld?"
-msgstr ""
+msgstr "<32>{#p/basic}* ¿Los humanos tienen un mundo natal?"
 
 msgid "<32>{#p/basic}* Is it something monsters have?"
-msgstr ""
+msgstr "<32>{#p/basic}* ¿Es algo que tienen los monstruos?"
 
 msgid "<32>{#p/human}* (The table strikes you as being rather lonesome.)"
-msgstr ""
+msgstr "<32>{#p/human}* (La mesa te parece bastante solitaria)."
 
 msgid ""
 "<32>{#p/basic}* It's just a lonely table.\n"
 "* Smells like frosting."
 msgstr ""
+"<32>{#p/basic}* Es sólo una mesa solitaria.\n"
+"* Huele a congelada."
 
 msgid ""
 "<32>{#p/basic}* It's just a lonely table.\n"
 "* Smells like hair."
 msgstr ""
+"<32>{#p/basic}* Es sólo una mesa solitaria.\n"
+"* Huele a pelo."
 
 msgid "<18>{#p/papyrus}ENJOYING THE VIEW?"
-msgstr ""
+msgstr "<18>{#p/papyrus}¿DISFRUTANDO LAS VISTAS?"
 
 msgid "* (What do you say?)"
-msgstr ""
+msgstr "* (¿Qué dices?)"
 
 msgid ""
 "<18>{#p/papyrus}{#f/9}GOOD!\n"
 "IT'S ABOUT TIME SOMEONE DID."
 msgstr ""
+"<18>{#p/papyrus}{#f/9}¡BIEN!\n"
+"YA ERA HORA DE QUE ALGUIEN LO HICIERA."
 
 msgid "<18>{#f/7}SANS BARELY EVER TAKES THE TIME TO LOOK OUTSIDE!!!"
-msgstr ""
+msgstr "<18>{#f/7}¡¡¡SANS APENAS SE TOMA EL TIEMPO DE MIRAR AFUERA!!!"
 
 msgid ""
 "<18>{#p/papyrus}{#f/5}OH...\n"
 "WELL, THAT'S OKAY..."
 msgstr ""
+"<18>{#p/papyrus}{#f/5}VAYA...\n"
+"BUENO, ESTÁ BIEN..."
 
 msgid ""
 "<18>{#f/4}(SIGH...)\n"
 "AT LEAST YOU TRIED WALKING OUT."
 msgstr ""
+"<18>{#f/4}(SUSPIRO...)\n"
+"ALMENOS INTENTASTE CAMINAR FUERA."
 
 msgid "<18>{#f/7}SANS WOULDN'T EVEN DO THAT!!!"
-msgstr ""
+msgstr "<18>{#f/7}¡¡¡SANS NI SIQUIERA HARÍA ESO!!!"
 
 msgid ""
 "<32>{#p/human}* (You can't seem to understand the contents of this book.)"
 msgstr ""
+"<32>{#p/human}* (Parece que no puedes entender el contenido de este libro)."
 
 msgid "<32>{#p/basic}* It's a book, written in an ancient language."
-msgstr ""
+msgstr "<32>{#p/basic}* Es un libro, escrito en un idioma antiguo."
 
 msgid "<32>{#p/basic}* Would you like me to read it?"
-msgstr ""
+msgstr "<32>{#p/basic}* ¿Te gustaría que lo leyera?"
 
 msgid "<32>{#p/basic}* Read it again?"
-msgstr ""
+msgstr "<32>{#p/basic}* ¿Leerlo de nuevo?"
 
 msgid "* (Have $(name) read the book?)"
-msgstr ""
+msgstr "* (¿$(name) ha leído el libro?)"
 
 msgid "<32>{#p/basic}* Okay, here goes..."
-msgstr ""
+msgstr "<32>{#p/basic}* Bien, aquí va..."
 
 msgid ""
 "<32>* \"Long ago, two species ruled the solar system: humans and monsters.\""
 msgstr ""
+"<32>* \"Hace tiempo, dos especies habitaban el sistema solar: humanos y "
+"monstruos.\""
 
 msgid ""
 "<32>* \"At first, the monsters were only visitors, soon to return to their "
 "own star system.\""
 msgstr ""
+"<32>* \"Al principio, los monstruos eran solo visitantes, pronto volviendo a "
+"su propio sistema estelar.\""
 
 msgid ""
 "<32>* \"But the monsters became fascinated by humanity, and wanted to co-"
 "exist with them.\""
 msgstr ""
+"<32>* \"Pero los monstruos se quedaron fascinados por la humanidad, y "
+"quisieron convivir con ellos.\""
 
 msgid ""
 "<32>* \"As such, they shared their technology with the humans, and forged an"
 " alliance.\""
 msgstr ""
+"<32>* \"Como tal, compartieron su tecnología con los humanos y forjaron una "
+"alianza.\""
 
 msgid ""
 "<32>* \"Over the next few hundred years, monsters and humans lived in peace "
 "and harmony.\""
 msgstr ""
+"<32>* \"Durante los siguientes cientos de años, los monstruos y los humanos "
+"vivieron en paz y armonía.\""
 
 msgid ""
 "<32>* \"One day, the humans began to fear something about the monsters...\""
 msgstr ""
+"<32>* \"Un día, los humanos empezaron a temer algo acerca de los monstruos..."
+"\""
 
 msgid ""
 "<32>* \"A fear that, without skilled leadership, was allowed to spiral out "
 "of control.\""
 msgstr ""
+"<32>* \"Un miedo que, sin un liderazgo capacitado, se permitiría que se "
+"saliera de control.\""
 
 msgid "<32>* \"As time passed, a war broke out between the two species.\""
 msgstr ""
+"<32>* \"Con el paso del tiempo, estalló una guerra entre las dos especies.\""
 
 msgid "<32>* \"Many battles and skirmishes would occur all across the stars...\""
 msgstr ""
+"<32>* \"Muchas batallas y escaramuzas ocurrirían a lo largo de las "
+"estrellas...\""
 
 msgid ""
 "<32>* \"But the humans, filled with fear and determination, easily took "
 "control.\""
 msgstr ""
+"<32>* \"Pero los humanos, llenos de miedo y determinación, tomaron "
+"fácilmente el control.\""
 
 msgid ""
 "<32>* \"Then, on one fateful day, a massive weapon was fired at the "
 "monsters' homeworld.\""
 msgstr ""
+"<32>* \"Entonces, un día fatídico, se disparó un arma enorme contra el mundo "
+"natal de los monstruos.\""
 
 msgid ""
 "<32>* \"After the monsters' home planet was destroyed, humans declared "
 "victory.\""
 msgstr ""
+"<32>* \"Después de que el planeta natal de los monstruos fuera destruido, "
+"los humanos declararon la victoria.\""
 
 msgid "<32>* \"A settlement between the two species was signed, and...\""
-msgstr ""
+msgstr "<32>* \"Se firmó un acuerdo entre las dos especies y...\""
 
 msgid "<32>* \"The remaining monsters were banished to an abandoned outpost.\""
 msgstr ""
+"<32>* \"Los monstruos restantes fueron desterrados a una estación espacial "
+"abandonada.\""
 
 msgid "<32>* \"Then, the humans gathered seven of their brightest minds.\""
 msgstr ""
+"<32>* \"Luego, los humanos reunieron a siete de sus mentes más brillantes.\""
 
 msgid "<32>* \"Together, they formulated a plan, and eventually...\""
-msgstr ""
+msgstr "<32>* \"Juntos, formularon un plan, y finalmente...\""
 
 msgid ""
 "<32>* \"A powerful force field was erected, and the monsters were sealed "
 "in.\""
 msgstr ""
+"<32>* \"Se erigió un poderoso campo de fuerza y ​​los monstruos quedaron "
+"sellados.\""
 
 msgid "<32>* Well, that's the story."
-msgstr ""
+msgstr "<32>* Bueno, esa es la historia."
 
 msgid "<32>{#p/basic}* Well, if you ever want me to read it, let me know."
 msgstr ""
+"<32>{#p/basic}* Bueno, si en algún momento quieres que la lea, déjame saber."
 
 msgid ""
 "<32>{#p/basic}{#npc/a}* If you want a room, you'll need to ask me first."
 msgstr ""
+"<32>{#p/basic}{#npc/a}* Si quieres una habitación, me tendrás que preguntar "
+"primero."
 
 msgid ""
 "<32>{#p/basic}{#npc/a}* If you want a room again, you'll need to ask me "
 "first."
 msgstr ""
+"<32>{#p/basic}{#npc/a}* Si quieres una habitación otra vez, me tendrás que "
+"preguntar primero."
 
 msgid ""
 "<32>{#p/basic}{#npc/a}* Sorry, munchkin!\n"
@@ -893,10 +960,10 @@ msgid ""
 msgstr ""
 
 msgid "<32>{#p/human}* (You approach the vending machine.)"
-msgstr ""
+msgstr "<32>{#p/human}* (Te aproximas a la máquina expendedora.)"
 
 msgid "<32>{#p/basic}* It's an exoberry-exclusive vending machine."
-msgstr ""
+msgstr "<32>{#p/basic}* Es una máquina expendedora exclusivamente de exobayas."
 
 msgid "* (Buy the Exoberries for 8G?)"
 msgstr ""
@@ -917,7 +984,7 @@ msgid "<32>{#s/equip}{#p/human}* (The Rusty Key was added to your keyring.)"
 msgstr ""
 
 msgid "<32>* (Check your CELL to see all acquired keys.)"
-msgstr ""
+msgstr "* (¿Comprar las ExoBayas por 8O?)"
 
 msgid "<32>{#p/human}* (You look behind the station.)"
 msgstr ""
@@ -4969,9 +5036,6 @@ msgid "HOWDY!"
 msgstr ""
 
 msgid "SAVE YOURSELVES..."
-msgstr ""
-
-msgid ""
 msgstr ""
 
 msgid "FAILED TO CONNECT..."
