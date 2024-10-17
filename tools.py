@@ -689,7 +689,7 @@ def task_release(version, comment):
         current_time = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
         bashcmd(f"cd {reponame} && git add . && git commit -m "
                 f"'{current_time}: V{version} - {comment}.\\nAuthor: {TRANS_AUTHOR}\\nPS! Outertale {reponame.split('/')[-1]}.'")
-        bashcmd(f"cd {reponame} && git push origin master && git push -u github master")
+        bashcmd(f"cd {reponame} && git push -u origin master && git push github master")
     print(colored(f"--- 已发布: V{version} - {comment}.", "green"))
 
 # 比较两个 PO 文件翻译字典之间的差异
