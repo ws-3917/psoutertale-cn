@@ -847,16 +847,16 @@ def task_dttvl_update(update_lang = "zh_CN"):
                 merge_po_files(dist_path.replace(lang, "zh_CN"), dist_path, dist_path)
     
     # 开始更新文本
-    print(colored(f" -> 更新文本", "yellow"))
-    transdict = dict()
-    for place in DTTVL_PLACELIST:
-        transdict.update(load_dict(f"{TRANS_PATH}/dttvl/{place}/{update_lang}.po"))
+    # print(colored(f" -> 更新文本", "yellow"))
+    # transdict = dict()
+    # for place in DTTVL_PLACELIST:
+    #     transdict.update(load_dict(f"{TRANS_PATH}/dttvl/{place}/{update_lang}.po"))
     
-    for root, _, files in os.walk(f"{TRANS_PATH}/dttvl/cs"):
-        for file in files:
-            full_path = os.path.join(root, file).replace('\\', '/')
-            po2ts(full_path, transdict, f"{DTTVL_PATH}{full_path.replace(f"{TRANS_PATH}/dttvl/cs", "")}", insert_content=False, lang=update_lang)
-            # 人名翻译版代码待定
+    # for root, _, files in os.walk(f"{TRANS_PATH}/dttvl/cs"):
+    #     for file in files:
+    #         full_path = os.path.join(root, file).replace('\\', '/')
+    #         po2ts(full_path, transdict, f"{DTTVL_PATH}{full_path.replace(f"{TRANS_PATH}/dttvl/cs", "")}", insert_content=False, lang=update_lang)
+    #         # 人名翻译版代码待定
     # for i in range(3):
     #     for root, _, files in os.walk(f"{TRANS_PATH}/dttvl/{DTTVL_DIRLIST[i]}"):
     #         for file in files:

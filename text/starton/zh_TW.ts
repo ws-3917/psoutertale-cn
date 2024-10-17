@@ -350,10 +350,10 @@ export default {
          '<32>{#p/basic}* 好，我看看...',
          '<32>* 「很久很久以前，\n   太陽系由兩個種族統治著：\n   人類和怪物。」',
          '<32>* 「起初，怪物們只是造訪了一下，\n   不久就回到了他們自己的星系。」',
-         '<32>* 「但是怪物們喜歡上了人類，\n   想和他們共同生活。」',
+         '<32>* 「但怪物們被人類文明所吸引，\n   想和他們共同生活。」',
          '<32>* 「因此，他們和人類分享了他們的科技，\n   並與人類結成了同盟。」',
-         '<32>* 「接下來數百年間，怪物與人類和平共處。」',
-         '<32>* 「有一天，人類開始對怪物的某種東西產生恐懼...」',
+         '<32>* 「接下來數百年間，\n   怪物與人類和平共處。」',
+         '<32>* 「有一天，人類開始對\n   怪物的某種東西產生恐懼...」',
          '<32>* 「一種沒有傑出的領導力\n   就會失控的恐懼。」',
          '<32>* 「隨著時間的推移，\n   兩個物種之間爆發了戰爭。」',
          '<32>* 「那時星際間會發生許多戰鬥和衝突。」',
@@ -361,10 +361,10 @@ export default {
          '<32>* 「然後，\n   在那對未來有著重大影響的一天，\n   一件強大的武器向怪物的家園發射了。」',
          '<32>* 「在怪物們的母星被摧毀之後，\n   人類獲得了勝利。」',
          '<32>* 「兩個物種間籤訂了和約，然後...」',
-         '<32>* 「剩下的怪物被驅逐到了一個廢棄的前哨站。」',
+         '<32>* 「剩下的怪物被驅逐到了\n   一個廢棄的前哨站。」',
          '<32>* 「接著，人類集結了七位精英。」',
          '<32>* 「他們一同制定了一個計畫，最後...」',
-         '<32>* 「一個強大的力場被建立了起來，怪物們被困在其中。」',
+         '<32>* 「一個強大的力場被建立了起來，\n   怪物們被困在其中。」',
          "<32>* 嗯，這就是故事的內容了。"
       ],
       bedbook6: [ '<32>{#p/basic}* 好吧，如果你想讓我讀，就告訴我。' ],
@@ -1124,7 +1124,7 @@ export default {
       nicecreamFree2: [ '<32>{#p/basic}* 希望你喜歡...' ],
       nicecreamReturnWithGoods: [ '<32>{#p/basic}* 沒關係，\n  你隨時都可以回來買。' ],
       nicecreamReturnWithNeeds: [ "<32>{#p/basic}* 喔，沒關係的。", '<32>* 晚點再來啊，孩子！' ],
-      nicecreamPurchase: [ '<32>{#p/basic}* Here you go!\n* Have a stellar starry night!' ],
+      nicecreamPurchase: [ '<32>{#p/basic}* 拿好了！\n* 願你有個星光璀璨的夜晚！' ],
       nicecreamGet: [ '<32>{#s/equip}{#p/human}* （你得到了冰意靈。）' ],
       nicecreamK1a: [ '<25>{#p/kidd}{#f/1}* 喲，可以給我來一根\n  冰意靈嗎？' ],
       nicecreamK1b: [ "<32>{#p/basic}* 當然沒問題，孩子。\n* 只要你有錢的話，" ],
@@ -5599,11 +5599,11 @@ export default {
             '<32>{#p/basic}* What else is new?'
          ],
          papyrus1: [
-            '<32>{#p/basic}* Papyrus is well-known for his spaghetti.',
-            "<32>* What's not as well-known is that he uses a human recipe instead of a monster one.",
-            '<32>* An honest mistake by his, uh, \"cooking instructor,\" but...',
-            '<32>* Apart from himself, only a human would enjoy it.',
-            '<32>* The irony is off the charts.'
+            '<32>{#p/basic}* 大家都知道\n  Papyrus很會做義大利麵。',
+            "<32>* 但很多人不知道的是，\n  他其實是按照\n  人類而不是怪物的菜譜做的。",
+            '<32>* 這都怪他那個，呃，\n  「烹飪老師」，教錯了...',
+            '<32>* 除了他自己以外，\n  估計只有人類才吃得慣。',
+            '<32>* 這也太諷刺了。'
          ],
          papyrus3: [ '<32>{#p/basic}* This is it...', "<32>* You're about to spar with the coolest skeleton in town." ],
          papyrus4: [
@@ -5613,15 +5613,15 @@ export default {
          papyrus5: [ "<32>{#p/basic}* Don't worry.", "<32>* With any luck, you'll be best friends in no time." ],
          puzzle1: () =>
             SAVE.data.b.svr
-               ? [ "<25>{#p/asriel1}{#f/20}* Not bad, Frisk.\n* I didn't know you were a mathematics expert..." ]
-               : [ '<32>{#p/basic}* Wow.\n* You actually solved it?' ],
+               ? [ "<25>{#p/asriel1}{#f/20}* 不錯嘛，Frisk。\n* 沒想到\n  你還是個數學高手..." ]
+               : [ '<32>{#p/basic}* 哇。\n* 你竟然真把它解開了？' ],
          sans3: [ '<32>{#p/basic}* 你盡力了。' ],
-         sans4: [ '<32>{#p/basic}* Have you done this before...?' ],
-         sans5: [ '<32>{#p/basic}* Really, Sans?\n* That \"puzzle\" wasn\'t even worth looking at.' ],
-         sans6: [ '<32>{#p/basic}* Really, Sans?\n* That \"puzzle\" was impossible.' ],
-         sans7: [ '<32>{#p/basic}* Well, that was anti-climactic.' ],
+         sans4: [ '<32>{#p/basic}* 你以前做過這個嗎...？' ],
+         sans5: [ '<32>{#p/basic}* 拜託，Sans。\n* 這「謎題」根本不值一看。' ],
+         sans6: [ '<32>{#p/basic}* 拜託，Sans。\n* 這「謎題」根本不是人能做的啊。' ],
+         sans7: [ '<32>{#p/basic}* 不是，搞了半天就這啊。' ],
          sans8: [ "<32>{#p/basic}* I'm just as confused as you." ],
-         sans9: [ '<32>{#p/basic}* Oh, come on!\n* I wanted to see it in action!', '<32>* ... oh well...' ],
+         sans9: [ '<32>{#p/basic}* 拜託！\n* 我好像看看\n  那些東西到底會怎麼樣啊！', '<32>* ...唉 好吧...' ],
          papdate: () => [
             '<32>{#p/basic}* 所以... Papyrus，嗯？',
             SAVE.data.n.plot > 64.1
@@ -7977,7 +7977,7 @@ export default {
             : world.meanie
             ? [ "<30>{#p/basic}{#k/8}* I don't know what your game is, but it's not going to work on me." ]
             : [
-                 "<30>{#p/basic}{#k/8}* If you're really hurtin' for cash, then maybe you could do some crowdfunding.",
+                 "<30>{#p/basic}{#k/8}* 你要是真缺錢的話，\n  可以試試眾籌啊。",
                  '<30>{#k/2}* I hear people will pay for ANYTHING nowadays.'
               ],
       talk: () =>

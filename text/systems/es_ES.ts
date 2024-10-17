@@ -201,7 +201,7 @@ export default {
          p_page: {
             header: 'NAVEGACIÓN',
             prev: 'Anterior',
-            next: 'Siguiente'
+            next: 'Sig'
          },
          prompt: 'Introduzca Valor',
          back: 'Volver'
@@ -209,7 +209,7 @@ export default {
       storage: {
          tab: 'ALMACENAMIENTO',
          header: 'EDITOR ALMACENAMIENTO',
-         p_container: { header: 'SELECCIÓN', prev: 'Anterior', next: 'Siguiente' },
+         p_container: { header: 'SELECCIÓN', prev: 'Anterior', next: 'Sig' },
          display: { inventory: 'Inventario', dimboxA: 'Caja Dimensional A', dimboxB: 'Caja Dimensional B' }
       }
    },
@@ -1008,7 +1008,7 @@ export default {
       stat4: 'ARMADURA',
       stat5: 'ORO',
       stat6: 'PE',
-      stat7: 'SIGUIENTE',
+      stat7: 'SIG',
       stat8: '§fill=#ff0§Advertencia:\nLínea temporal\nno canónica.',
       stat9: 'MUERTES',
       stat10: 'ACOSO',
@@ -1018,7 +1018,7 @@ export default {
 
       story1: [ '<24>{#p/storyteller}Hace tiempo, dos especies habitaban el sistema solar: HUMANOS y MONSTRUOS.{^35}{}' ],
       story2: [ '<24>Cuando el tiempo pasó, una guerra empezó entre las especies.{^35}{}' ],
-      story3: [ "<24>Después de que el planeta natal de los MONSTRUOS fuera destruido, los HUMANOS declararon victoria.{^35}{}" ],
+      story3: [ "<24>Al destruir el planeta natal de los MONSTRUOS, los HUMANOS declararon victoria.{^35}{}" ],
       story4: [ '<24>Los MONSTRUOS restantes fueron expulsados a un puesto abandonado.{^35}{}' ],
       story5: [ '<24>Un poderoso campo de fuerza fue creado, y los MONSTRUOS fueron sellados dentro.{^35}{}' ],
       story6: [ '<24>Muchos años después.{^8}.{^8}.{^35}{}' ],

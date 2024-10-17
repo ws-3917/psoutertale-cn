@@ -87,164 +87,164 @@ export default {
          ...(!SAVE.flag.b._saved
             ? !SAVE.flag.b._item
                ? [
-                    '<25>{#x1}{#p/event}汪汪！\n{#x1}{#p/event}汪汪！',
-                    '<25>{#p/basic}(Wow!)\n(No SAVE points and no ITEMs!)',
-                    '<25>{#p/basic}(You must have been in a hurry!)'
-                 ]
+                  '<25>{#x1}{#p/event}汪汪！\n{#x1}{#p/event}汪汪！',
+                  '<25>{#p/basic}(Wow!)\n(No SAVE points and no ITEMs!)',
+                  '<25>{#p/basic}(You must have been in a hurry!)'
+               ]
                : [
-                    '<25>{#x1}{#p/event}汪汪！\n{#x1}{#p/event}汪汪！\n{#x1}{#p/event}汪汪！',
-                    "<25>{#p/basic}(Wow!)\n(Don't you know what a SAVE point is?)",
-                    '<25>{#p/basic}(You never used one!)'
-                 ]
+                  '<25>{#x1}{#p/event}汪汪！\n{#x1}{#p/event}汪汪！\n{#x1}{#p/event}汪汪！',
+                  "<25>{#p/basic}(Wow!)\n(Don't you know what a SAVE point is?)",
+                  '<25>{#p/basic}(You never used one!)'
+               ]
             : !SAVE.flag.b._item
-            ? [
-                 '<25>{#x1}{#p/event}汪汪！\n{#x1}{#p/event}汪汪！',
-                 "<25>{#p/basic}(Wow!)\n(Don't you know what an ITEM is?)",
-                 '<25>{#p/basic}(You never got one!)'
-              ]
-            : []),
+               ? [
+                  '<25>{#x1}{#p/event}汪汪！\n{#x1}{#p/event}汪汪！',
+                  "<25>{#p/basic}(Wow!)\n(Don't you know what an ITEM is?)",
+                  '<25>{#p/basic}(You never got one!)'
+               ]
+               : []),
          ...(SAVE.flag.n._hits === 0
             ? !SAVE.flag.b._flee
                ? [
-                    '<25>{#x1}{#p/event}汪汪！\n{#x1}{#p/event}汪汪！\n{#x1}{#p/event}汪汪！',
-                    '<25>{#p/basic}(Amazing!)\n(You dodged every attack, and you never ran away!)',
-                    !SAVE.flag.b._equip
-                       ? "<25>{#p/basic}(You must have known you wouldn't need any armors or weapons!)"
-                       : '<25>{#p/basic}(You must be very brave indeed!)'
-                 ]
+                  '<25>{#x1}{#p/event}汪汪！\n{#x1}{#p/event}汪汪！\n{#x1}{#p/event}汪汪！',
+                  '<25>{#p/basic}(Amazing!)\n(You dodged every attack, and you never ran away!)',
+                  !SAVE.flag.b._equip
+                     ? "<25>{#p/basic}(You must have known you wouldn't need any armors or weapons!)"
+                     : '<25>{#p/basic}(You must be very brave indeed!)'
+               ]
                : [
-                    '<25>{#x1}{#p/event}汪汪！\n{#x1}{#p/event}汪汪！\n{#x1}{#p/event}汪汪！',
-                    '<25>{#p/basic}(Amazing!)\n(You dodged every attack you faced!)',
-                    !SAVE.flag.b._equip
-                       ? '<25>{#p/basic}(How fortunate for someone who never equipped any armors or weapons!)'
-                       : '<25>{#p/basic}(How skilled in battle you must be!)'
-                 ]
+                  '<25>{#x1}{#p/event}汪汪！\n{#x1}{#p/event}汪汪！\n{#x1}{#p/event}汪汪！',
+                  '<25>{#p/basic}(Amazing!)\n(You dodged every attack you faced!)',
+                  !SAVE.flag.b._equip
+                     ? '<25>{#p/basic}(How fortunate for someone who never equipped any armors or weapons!)'
+                     : '<25>{#p/basic}(How skilled in battle you must be!)'
+               ]
             : SAVE.flag.n._deaths + SAVE.flag.n._deaths_twinkly === 0
-            ? !SAVE.flag.b._heal
-               ? !SAVE.flag.b._flee
-                  ? [
-                       '<25>{#x1}{#p/event}汪汪！\n{#x1}{#p/event}汪汪！\n{#x1}{#p/event}汪汪！',
-                       '<25>{#p/basic}(Amazing!)\n(Not only did you never die...)',
-                       !SAVE.flag.b._equip
-                          ? '<25>{#p/basic}(You never healed, or equipped any armors or weapons either!)'
-                          : '<25>{#p/basic}(You never healed, either!)'
-                    ]
-                  : [
-                       '<25>{#x1}{#p/event}汪汪！\n{#x1}{#p/event}汪汪！\n{#x1}{#p/event}汪汪！',
-                       '<25>{#p/basic}(Amazing!)\n(You never died, and you never ran away!)',
-                       !SAVE.flag.b._equip
-                          ? "<25>{#p/basic}(You didn't even heal or equip any armors or weapons!)"
-                          : "<25>{#p/basic}(You didn't even heal!)"
-                    ]
-               : !SAVE.flag.b._flee
-               ? [
-                    '<25>{#x1}{#p/event}汪汪！\n{#x1}{#p/event}汪汪！\n{#x1}{#p/event}汪汪！',
-                    '<25>{#p/basic}(Amazing!)\n(You never died, and you never ran away!)',
-                    !SAVE.flag.b._equip
-                       ? '<25>{#p/basic}(Is this why you never equipped any armors or weapons?)'
-                       : '<25>{#p/basic}(Is this what it means to be brave?)'
-                 ]
-               : !SAVE.flag.b._equip
-               ? [
-                    '<25>{#x1}{#p/event}汪汪！\n{#x1}{#p/event}汪汪！',
-                    '<25>{#p/basic}(Amazing!)\n(You never died or equipped any armors or weapons!)'
-                 ]
-               : [ '<25>{#x1}{#p/event}汪汪！\n{#x1}{#p/event}汪汪！', '<25>{#p/basic}(Amazing!)\n(You never died once!)' ]
-            : !SAVE.flag.b._heal
-            ? !SAVE.flag.b._flee
-               ? [
-                    '<25>{#x1}{#p/event}汪汪！\n{#x1}{#p/event}汪汪！\n{#x1}{#p/event}汪汪！',
-                    '<25>{#p/basic}(Amazing!)\n(You never healed, and you never ran away!)',
-                    !SAVE.flag.b._equip
-                       ? "<25>{#p/basic}(Are you sure you also didn't need any armors or weapons?)"
-                       : '<25>{#p/basic}(You must like living on the edge.)'
-                 ]
-               : !SAVE.flag.b._equip
-               ? [
-                    '<25>{#x1}{#p/event}汪汪！\n{#x1}{#p/event}汪汪！',
-                    '<25>{#p/basic}(Amazing!)\n(You never healed or equipped any armors or weapons!)'
-                 ]
-               : [
-                    '<25>{#x1}{#p/event}汪汪！\n{#x1}{#p/event}汪汪！',
-                    '<25>{#p/basic}(Amazing!)\n(You never healed yourself once!)'
-                 ]
-            : !SAVE.flag.b._flee
-            ? [
-                 '<25>{#x1}{#p/event}汪汪！\n{#x1}{#p/event}汪汪！\n{#x1}{#p/event}汪汪！',
-                 '<25>{#p/basic}(Amazing!)\n(You refused to run away!)',
-                 !SAVE.flag.b._equip
-                    ? "<25>{#p/basic}(Are you sure you also didn't need any armors or weapons?)"
-                    : '<25>{#p/basic}(You must like living on the edge.)'
-              ]
-            : !SAVE.flag.b._equip
-            ? [
-                 '<25>{#x1}{#p/event}汪汪！\n{#x1}{#p/event}汪汪！',
-                 '<25>{#p/basic}(Amazing!)\n(You never equipped any armors or weapons!)'
-              ]
-            : []),
+               ? !SAVE.flag.b._heal
+                  ? !SAVE.flag.b._flee
+                     ? [
+                        '<25>{#x1}{#p/event}汪汪！\n{#x1}{#p/event}汪汪！\n{#x1}{#p/event}汪汪！',
+                        '<25>{#p/basic}(Amazing!)\n(Not only did you never die...)',
+                        !SAVE.flag.b._equip
+                           ? '<25>{#p/basic}(You never healed, or equipped any armors or weapons either!)'
+                           : '<25>{#p/basic}(You never healed, either!)'
+                     ]
+                     : [
+                        '<25>{#x1}{#p/event}汪汪！\n{#x1}{#p/event}汪汪！\n{#x1}{#p/event}汪汪！',
+                        '<25>{#p/basic}(Amazing!)\n(You never died, and you never ran away!)',
+                        !SAVE.flag.b._equip
+                           ? "<25>{#p/basic}(You didn't even heal or equip any armors or weapons!)"
+                           : "<25>{#p/basic}(You didn't even heal!)"
+                     ]
+                  : !SAVE.flag.b._flee
+                     ? [
+                        '<25>{#x1}{#p/event}汪汪！\n{#x1}{#p/event}汪汪！\n{#x1}{#p/event}汪汪！',
+                        '<25>{#p/basic}(Amazing!)\n(You never died, and you never ran away!)',
+                        !SAVE.flag.b._equip
+                           ? '<25>{#p/basic}(Is this why you never equipped any armors or weapons?)'
+                           : '<25>{#p/basic}(Is this what it means to be brave?)'
+                     ]
+                     : !SAVE.flag.b._equip
+                        ? [
+                           '<25>{#x1}{#p/event}汪汪！\n{#x1}{#p/event}汪汪！',
+                           '<25>{#p/basic}(Amazing!)\n(You never died or equipped any armors or weapons!)'
+                        ]
+                        : ['<25>{#x1}{#p/event}汪汪！\n{#x1}{#p/event}汪汪！', '<25>{#p/basic}(Amazing!)\n(You never died once!)']
+               : !SAVE.flag.b._heal
+                  ? !SAVE.flag.b._flee
+                     ? [
+                        '<25>{#x1}{#p/event}汪汪！\n{#x1}{#p/event}汪汪！\n{#x1}{#p/event}汪汪！',
+                        '<25>{#p/basic}(Amazing!)\n(You never healed, and you never ran away!)',
+                        !SAVE.flag.b._equip
+                           ? "<25>{#p/basic}(Are you sure you also didn't need any armors or weapons?)"
+                           : '<25>{#p/basic}(You must like living on the edge.)'
+                     ]
+                     : !SAVE.flag.b._equip
+                        ? [
+                           '<25>{#x1}{#p/event}汪汪！\n{#x1}{#p/event}汪汪！',
+                           '<25>{#p/basic}(Amazing!)\n(You never healed or equipped any armors or weapons!)'
+                        ]
+                        : [
+                           '<25>{#x1}{#p/event}汪汪！\n{#x1}{#p/event}汪汪！',
+                           '<25>{#p/basic}(Amazing!)\n(You never healed yourself once!)'
+                        ]
+                  : !SAVE.flag.b._flee
+                     ? [
+                        '<25>{#x1}{#p/event}汪汪！\n{#x1}{#p/event}汪汪！\n{#x1}{#p/event}汪汪！',
+                        '<25>{#p/basic}(Amazing!)\n(You refused to run away!)',
+                        !SAVE.flag.b._equip
+                           ? "<25>{#p/basic}(Are you sure you also didn't need any armors or weapons?)"
+                           : '<25>{#p/basic}(You must like living on the edge.)'
+                     ]
+                     : !SAVE.flag.b._equip
+                        ? [
+                           '<25>{#x1}{#p/event}汪汪！\n{#x1}{#p/event}汪汪！',
+                           '<25>{#p/basic}(Amazing!)\n(You never equipped any armors or weapons!)'
+                        ]
+                        : []),
          ...(!SAVE.flag.b._skip
             ? [
-                 '<25>{#x1}{#p/event}汪汪！\n{#x1}{#p/event}汪汪！\n{#x1}{#p/event}汪汪！',
-                 "<25>{#p/basic}(How kind...)\n(You never skipped anybody's dialogue!)",
-                 !SAVE.flag.b._call
-                    ? SAVE.data.n.plot_pmcheck === 0 && phone.of('pms').display() && pms().length > 0 // NO-TRANSLATE
+               '<25>{#x1}{#p/event}汪汪！\n{#x1}{#p/event}汪汪！\n{#x1}{#p/event}汪汪！',
+               "<25>{#p/basic}(How kind...)\n(You never skipped anybody's dialogue!)",
+               !SAVE.flag.b._call
+                  ? SAVE.data.n.plot_pmcheck === 0 && phone.of('pms').display() && pms().length > 0 // NO-TRANSLATE
 
-                       ? '<25>{#p/basic}(Too bad your phone seems to have never been used.)'
-                       : '<25>{#p/basic}(Too bad your phone seems to have never dialed anyone.)'
-                    : SAVE.data.n.plot_pmcheck === 0 && phone.of('pms').display() && pms().length > 0 // NO-TRANSLATE
+                     ? '<25>{#p/basic}(Too bad your phone seems to have never been used.)'
+                     : '<25>{#p/basic}(Too bad your phone seems to have never dialed anyone.)'
+                  : SAVE.data.n.plot_pmcheck === 0 && phone.of('pms').display() && pms().length > 0 // NO-TRANSLATE
 
-                    ? '<25>{#p/basic}(Too bad your phone seems to have never had its messages read.)'
-                    : '<25>{#p/basic}(You must really care about everyone a lot!)'
-              ]
+                     ? '<25>{#p/basic}(Too bad your phone seems to have never had its messages read.)'
+                     : '<25>{#p/basic}(You must really care about everyone a lot!)'
+            ]
             : !SAVE.flag.b._call
-            ? SAVE.data.n.plot_pmcheck === 0 && phone.of('pms').display() && pms().length > 0 // NO-TRANSLATE
+               ? SAVE.data.n.plot_pmcheck === 0 && phone.of('pms').display() && pms().length > 0 // NO-TRANSLATE
 
-               ? [
-                    '<25>{#x1}{#p/event}汪汪！\n{#x1}{#p/event}汪汪！',
-                    '<25>{#p/basic}(How strange...)\n(Your phone seems to have never been used!)'
-                 ]
-               : [
-                    '<25>{#x1}{#p/event}汪汪！\n{#x1}{#p/event}汪汪！',
-                    '<25>{#p/basic}(How strange...)\n(Your phone seems to have never dialed anyone!)'
-                 ]
-            : SAVE.data.n.plot_pmcheck === 0 && phone.of('pms').display() && pms().length > 0 // NO-TRANSLATE
+                  ? [
+                     '<25>{#x1}{#p/event}汪汪！\n{#x1}{#p/event}汪汪！',
+                     '<25>{#p/basic}(How strange...)\n(Your phone seems to have never been used!)'
+                  ]
+                  : [
+                     '<25>{#x1}{#p/event}汪汪！\n{#x1}{#p/event}汪汪！',
+                     '<25>{#p/basic}(How strange...)\n(Your phone seems to have never dialed anyone!)'
+                  ]
+               : SAVE.data.n.plot_pmcheck === 0 && phone.of('pms').display() && pms().length > 0 // NO-TRANSLATE
 
-            ? [
-                 '<25>{#x1}{#p/event}汪汪！\n{#x1}{#p/event}汪汪！',
-                 '<25>{#p/basic}(How strange...)\n(Your phone seems to have never had its messages read!)'
-              ]
-            : []),
+                  ? [
+                     '<25>{#x1}{#p/event}汪汪！\n{#x1}{#p/event}汪汪！',
+                     '<25>{#p/basic}(How strange...)\n(Your phone seems to have never had its messages read!)'
+                  ]
+                  : []),
          ...(!SAVE.flag.b._getg
             ? [
-                 '<25>{#x1}{#p/event}汪汪！\n{#x1}{#p/event}汪汪！',
-                 '<25>{#p/basic}(Shocking!)\n(You never acquired any G!)'
-              ]
+               '<25>{#x1}{#p/event}汪汪！\n{#x1}{#p/event}汪汪！',
+               '<25>{#p/basic}(Shocking!)\n(You never acquired any G!)'
+            ]
             : !SAVE.flag.b._useg
-            ? [
-                 '<25>{#x1}{#p/event}汪汪！\n{#x1}{#p/event}汪汪！',
-                 '<25>{#p/basic}(Shocking!)\n(You never spent any of your G!)'
-              ]
-            : []),
+               ? [
+                  '<25>{#x1}{#p/event}汪汪！\n{#x1}{#p/event}汪汪！',
+                  '<25>{#p/basic}(Shocking!)\n(You never spent any of your G!)'
+               ]
+               : []),
          ...(SAVE.data.b.water
             ? [
-                 '<25>{#x1}{#p/event}汪汪！',
-                 "<25>{#p/basic}(You really like holding that cup of electro-dampening fluid, don't you?)"
-              ]
+               '<25>{#x1}{#p/event}汪汪！',
+               "<25>{#p/basic}(You really like holding that cup of electro-dampening fluid, don't you?)"
+            ]
             : [])
       ],
       dogcheck3: (none: boolean) =>
          none
             ? [
-                 '<25>{#x1}{#p/event}汪汪！\n{#x1}{#p/event}汪汪！',
-                 "<25>{#p/basic}(Seems you didn't do anything out of the ordinary.)",
-                 '<25>{#p/basic}(Perhaps this is extraordinary on its own!)'
-              ]
+               '<25>{#x1}{#p/event}汪汪！\n{#x1}{#p/event}汪汪！',
+               "<25>{#p/basic}(Seems you didn't do anything out of the ordinary.)",
+               '<25>{#p/basic}(Perhaps this is extraordinary on its own!)'
+            ]
             : [
-                 '<25>{#x1}{#p/event}汪汪！\n{#x1}{#p/event}汪汪！',
-                 "<25>{#p/basic}(Seems that's all there is to say today!)",
-                 '<25>{#p/basic}(Congratulations and goodbyes!)'
-              ],
-      neutral0 () {
+               '<25>{#x1}{#p/event}汪汪！\n{#x1}{#p/event}汪汪！',
+               "<25>{#p/basic}(Seems that's all there is to say today!)",
+               '<25>{#p/basic}(Congratulations and goodbyes!)'
+            ],
+      neutral0() {
          let d = false;
          let k = '';
          let m = music.ending;
@@ -453,7 +453,7 @@ export default {
                         "<32>{#p/basic}{@fill=#ffbbdc}* Wow, she didn't think that through at all."
                      ]);
                   }
-                  addB([ '<32>{#p/basic}{@fill=#d4bbff}* Yeah...' ]);
+                  addB(['<32>{#p/basic}{@fill=#d4bbff}* Yeah...']);
                   if (!dpapyrus) {
                      addB([
                         '<25>{#p/alphys}{#f/20}* And she did it in spite of Papyrus BEGGING her not to.',
@@ -538,7 +538,7 @@ export default {
                            '<25>{#p/sans}{#f/3}* after toriel declined, i called him next, and... well.'
                         ]);
                      } else {
-                        addB([ '<25>{#p/sans}{#f/3}* luckily, since papyrus was around, i called him up, and... well.' ]);
+                        addB(['<25>{#p/sans}{#f/3}* luckily, since papyrus was around, i called him up, and... well.']);
                      }
                      if (royals === 1) {
                         addB([
@@ -942,15 +942,15 @@ export default {
                               '<25>{#p/sans}{#f/3}* have a safe journey, and all that.'
                            ]);
                         }
-                        addB([ '<32>{#s/equip}{#p/event}* 滴...' ]);
+                        addB(['<32>{#s/equip}{#p/event}* 滴...']);
                      }
                   } else {
                      if (!dtoriel) {
-                        addB([ '<25>{#p/sans}{#f/0}* which meant it was back to the drawing board.' ]);
+                        addB(['<25>{#p/sans}{#f/0}* which meant it was back to the drawing board.']);
                      } else {
-                        addB([ "<25>{#p/sans}{#f/0}* i couldn't think of anyone off the top of my head, so..." ]);
+                        addB(["<25>{#p/sans}{#f/0}* i couldn't think of anyone off the top of my head, so..."]);
                      }
-                     addB([ '<25>{#p/sans}{#f/0}* ... we started asking around, looking for someone we could trust.' ]);
+                     addB(['<25>{#p/sans}{#f/0}* ... we started asking around, looking for someone we could trust.']);
                      if (!ddoggo) {
                         addB([
                            '<25>{#p/sans}{#f/3}* pretty soon, we found out about doggo...',
@@ -1083,7 +1083,7 @@ export default {
                            '<25>{#p/sans}{#f/3}* ... but, there was one person you killed...'
                         ]);
                      }
-                     addB([ '<25>{#p/sans}{#f/0}* that i know for certain you had no reason to.' ]);
+                     addB(['<25>{#p/sans}{#f/0}* that i know for certain you had no reason to.']);
                      if (
                         world.edgy ||
                         (world.population_area('s') <= 0 && !world.bullied_area('s')) // NO-TRANSLATE
@@ -1298,7 +1298,7 @@ export default {
                      "<25>{#p/sans}{#f/0}* it'd just be nice if you weren't so busy anymore."
                   ]);
                }
-               addB([ '<25>{#p/sans}{#f/0}* ...' ]);
+               addB(['<25>{#p/sans}{#f/0}* ...']);
                if (!dtoriel) {
                   if (!dpapyrus) {
                      addB([
@@ -1321,16 +1321,16 @@ export default {
                   ]);
                } else {
                   if (!dpapyrus) {
-                     addB([ "<25>{#p/sans}{#f/3}* at least he's happy.\n* he really enjoys what he does." ]);
+                     addB(["<25>{#p/sans}{#f/3}* at least he's happy.\n* he really enjoys what he does."]);
                      if (hkills > 19) {
-                        addB([ '<25>{#p/sans}{#f/0}* which is more than i can say about a lot of people these days.' ]);
+                        addB(['<25>{#p/sans}{#f/0}* which is more than i can say about a lot of people these days.']);
                      } else {
-                        addB([ '<25>{#p/sans}{#f/0}* which is good, because not everyone can say the same.' ]);
+                        addB(['<25>{#p/sans}{#f/0}* which is good, because not everyone can say the same.']);
                      }
                   } else {
-                     addB([ "<25>{#p/sans}{#f/3}* life's been kind of lonely lately, you know?" ]);
+                     addB(["<25>{#p/sans}{#f/3}* life's been kind of lonely lately, you know?"]);
                      if (hkills > 19) {
-                        addB([ '<25>{#p/sans}{#f/0}* not just for me, but for a lot of people these days.' ]);
+                        addB(['<25>{#p/sans}{#f/0}* not just for me, but for a lot of people these days.']);
                      } else {
                         addB([
                            '<25>{#p/sans}{#f/0}* not everyone has the luxury of carrying on like nothing happened.'
@@ -1350,18 +1350,18 @@ export default {
                   "<25>{#p/alphys}{#f/25}* Personally, I don't have much to say."
                ]);
                if (hkills > 19) {
-                  addB([ "<25>{#p/alphys}{#f/25}* You're a killer, a coward, and better off gone." ]);
+                  addB(["<25>{#p/alphys}{#f/25}* You're a killer, a coward, and better off gone."]);
                   if (!dpapyrus) {
-                     addB([ '<25>{#p/alphys}{#f/24}* And no matter what good you do now...' ]);
+                     addB(['<25>{#p/alphys}{#f/24}* And no matter what good you do now...']);
                   } else {
-                     addB([ '<25>{#p/alphys}{#f/24}* And worst of all...' ]);
+                     addB(['<25>{#p/alphys}{#f/24}* And worst of all...']);
                   }
                } else {
-                  addB([ "<25>{#p/alphys}{#f/25}* You might not have killed many people, but you're still awful." ]);
+                  addB(["<25>{#p/alphys}{#f/25}* You might not have killed many people, but you're still awful."]);
                   if (!dpapyrus) {
-                     addB([ '<25>{#p/alphys}{#f/24}* No matter what good you do now, though...' ]);
+                     addB(['<25>{#p/alphys}{#f/24}* No matter what good you do now, though...']);
                   } else {
-                     addB([ '<25>{#p/alphys}{#f/24}* Worst of all, though...' ]);
+                     addB(['<25>{#p/alphys}{#f/24}* Worst of all, though...']);
                   }
                }
                if (!dpapyrus) {
@@ -1429,7 +1429,7 @@ export default {
                         '<32>{#p/napstablook}* ... people are pretty much united in their dislike for you now.'
                      ]);
                   } else {
-                     addB([ '<32>{#p/napstablook}* just like everyone else does nowadays.' ]);
+                     addB(['<32>{#p/napstablook}* just like everyone else does nowadays.']);
                   }
                } else if (!dtoriel) {
                   addB([
@@ -1506,7 +1506,7 @@ export default {
                      '<32>{#p/mettaton}* NOT TO MENTION HOW YOU IMPROVED YOUR BEHAVIOR AFTER MY WARNING.'
                   ]);
                }
-               addB([ "<32>{#p/mettaton}* BUT DON'T THINK FOR A SECOND THAT IT EXCUSES ANYTHING OTHERWISE." ]);
+               addB(["<32>{#p/mettaton}* BUT DON'T THINK FOR A SECOND THAT IT EXCUSES ANYTHING OTHERWISE."]);
                if (SAVE.data.b.ubershortcut) {
                   addB([
                      '<32>{#p/mettaton}* SINCE ASGORE DISAPPEARED, ALPHYS HAS HAD HER HANDS FULL AS THE QUEEN.',
@@ -1575,9 +1575,9 @@ export default {
                   "<32>{#p/napstablook}* ever since i found out he was my cousin, i've been looking after him..."
                ]);
                if (SAVE.data.b.ubershortcut || !dundyne || !dtoriel) {
-                  addB([ '<32>{#p/napstablook}* no matter what good you may have done, he......' ]);
+                  addB(['<32>{#p/napstablook}* no matter what good you may have done, he......']);
                } else {
-                  addB([ '<32>{#p/napstablook}* regardless of the other humans being innocent, he......' ]);
+                  addB(['<32>{#p/napstablook}* regardless of the other humans being innocent, he......']);
                }
                addB([
                   "<32>{#p/napstablook}* he's been getting angrier at you than ever lately",
@@ -1623,7 +1623,7 @@ export default {
                "<25>{#p/sans}{#f/0}* first off, asgore's disappearance hurt the outpost's morale."
             ]);
             if (dtoriel) {
-               addB([ "<25>{#p/sans}{#f/3}* not to mention the reports of the former queen's death." ]);
+               addB(["<25>{#p/sans}{#f/3}* not to mention the reports of the former queen's death."]);
             }
             addB([
                '<25>{#p/sans}{#f/0}* but alphys, who was next in line for leadership...',
@@ -1636,7 +1636,7 @@ export default {
                   '<26>{#p/sans}{#f/0}* that helped folks relax.'
                ]);
             } else {
-               addB([ '<25>{#p/sans}{#f/0}* so that helped people move on.' ]);
+               addB(['<25>{#p/sans}{#f/0}* so that helped people move on.']);
             }
             addB([
                "<25>{#p/sans}{#f/0}* i've been helping to advise her ever since.",
@@ -1670,7 +1670,7 @@ export default {
                "<25>{#p/sans}{#f/3}* yeah... we weren't exactly fans of how it was run before."
             ]);
             if (dtoriel) {
-               addB([ '<25>{#p/sans}{#f/0}* suffice it to say, we made some changes.' ]);
+               addB(['<25>{#p/sans}{#f/0}* suffice it to say, we made some changes.']);
             } else {
                addB([
                   "<25>{#p/sans}{#f/0}* even the former queen, who'd returned a while after you left...",
@@ -1786,75 +1786,75 @@ export default {
                   "<25>{#p/alphys}{#f/4}* I didn't really feel like I'd be the best fit for the job."
                ]);
                if (dmettaton) {
-                  addB([ '<25>{#p/alphys}{#f/4}* Especially after what I... let happen to Mettaton.' ]);
+                  addB(['<25>{#p/alphys}{#f/4}* Especially after what I... let happen to Mettaton.']);
                }
                addB([
                   '<26>{#p/alphys}{#f/20}* Well, Undyne approached me with an offer to take over, and...',
                   '<25>{#p/alphys}{#f/20}* I agreed, and appointed her as the queen.'
                ]);
                if (dpapyrus) {
-                  addB([ "<25>{#p/alphys}{#f/13}* ... I was worried she'd overreact to Papyrus's death..." ]);
+                  addB(["<25>{#p/alphys}{#f/13}* ... I was worried she'd overreact to Papyrus's death..."]);
                   if (royals < 2) {
-                     addB([ '<26>{#p/alphys}{#f/13}* ... not to mention the collapse of the guard...' ]);
+                     addB(['<26>{#p/alphys}{#f/13}* ... not to mention the collapse of the guard...']);
                   } else if (royals < 7) {
-                     addB([ '<25>{#p/alphys}{#f/13}* ... not to mention the loss of those guards...' ]);
+                     addB(['<25>{#p/alphys}{#f/13}* ... not to mention the loss of those guards...']);
                   }
                } else if (royals < 2) {
-                  addB([ "<26>{#p/alphys}{#f/13}* ... I was worried she'd overreact to the collapse of the guard..." ]);
+                  addB(["<26>{#p/alphys}{#f/13}* ... I was worried she'd overreact to the collapse of the guard..."]);
                } else if (royals < 7) {
-                  addB([ "<25>{#p/alphys}{#f/13}* ... I was worried she'd overreact to the loss of those guards..." ]);
+                  addB(["<25>{#p/alphys}{#f/13}* ... I was worried she'd overreact to the loss of those guards..."]);
                } else if (ddoggo) {
-                  addB([ "<25>{#p/alphys}{#f/13}* ... I was worried she'd overreact to the loss of Doggo..." ]);
+                  addB(["<25>{#p/alphys}{#f/13}* ... I was worried she'd overreact to the loss of Doggo..."]);
                } else if (dlesserdog) {
-                  addB([ "<25>{#p/alphys}{#f/13}* ... I was worried she'd overreact to the loss of Canis Minor..." ]);
+                  addB(["<25>{#p/alphys}{#f/13}* ... I was worried she'd overreact to the loss of Canis Minor..."]);
                } else if (ddogs) {
-                  addB([ "<25>{#p/alphys}{#f/13}* ... I was worried she'd overreact to those married dogs' deaths..." ]);
+                  addB(["<25>{#p/alphys}{#f/13}* ... I was worried she'd overreact to those married dogs' deaths..."]);
                } else if (dgreatdog) {
-                  addB([ "<25>{#p/alphys}{#f/13}* ... I was worried she'd overreact to the loss of Canis Major..." ]);
+                  addB(["<25>{#p/alphys}{#f/13}* ... I was worried she'd overreact to the loss of Canis Major..."]);
                } else if (ddoge) {
-                  addB([ "<25>{#p/alphys}{#f/13}* ... I was worried she'd overreact to the loss of Doge..." ]);
+                  addB(["<25>{#p/alphys}{#f/13}* ... I was worried she'd overreact to the loss of Doge..."]);
                } else if (droyalguards) {
-                  addB([ "<25>{#p/alphys}{#f/13}* ... I was worried she'd overreact to 03 and 04's deaths..." ]);
+                  addB(["<25>{#p/alphys}{#f/13}* ... I was worried she'd overreact to 03 and 04's deaths..."]);
                } else if (dmadjick) {
-                  addB([ "<25>{#p/alphys}{#f/13}* ... I was worried she'd overreact to the loss of Cozmo..." ]);
+                  addB(["<25>{#p/alphys}{#f/13}* ... I was worried she'd overreact to the loss of Cozmo..."]);
                } else if (dknightknight) {
-                  addB([ "<25>{#p/alphys}{#f/13}* ... I was worried she'd overreact to the loss of Terrestria..." ]);
+                  addB(["<25>{#p/alphys}{#f/13}* ... I was worried she'd overreact to the loss of Terrestria..."]);
                } else if (dtoriel) {
-                  addB([ "<25>{#p/alphys}{#f/13}* ... I was worried she'd overreact to the former queen's death..." ]);
+                  addB(["<25>{#p/alphys}{#f/13}* ... I was worried she'd overreact to the former queen's death..."]);
                } else if (dmuffet) {
-                  addB([ "<25>{#p/alphys}{#f/13}* ... I was worried she'd overreact to the spider queen's death..." ]);
+                  addB(["<25>{#p/alphys}{#f/13}* ... I was worried she'd overreact to the spider queen's death..."]);
                } else if (dmettaton) {
-                  addB([ "<25>{#p/alphys}{#f/13}* ... I was worried she'd overreact to Mettaton's death..." ]);
+                  addB(["<25>{#p/alphys}{#f/13}* ... I was worried she'd overreact to Mettaton's death..."]);
                } else if (hkills > 1) {
-                  addB([ "<25>{#p/alphys}{#f/13}* ... I was worried she'd overreact to those monsters' deaths..." ]);
+                  addB(["<25>{#p/alphys}{#f/13}* ... I was worried she'd overreact to those monsters' deaths..."]);
                } else {
-                  addB([ "<25>{#p/alphys}{#f/13}* ... I was worried she'd overreact to that one monster's death..." ]);
+                  addB(["<25>{#p/alphys}{#f/13}* ... I was worried she'd overreact to that one monster's death..."]);
                }
                if (royals < 2) {
-                  addB([ '<25>{#p/alphys}{#f/17}* But all she did was re- establish the Royal Guard and its forces.' ]);
+                  addB(['<25>{#p/alphys}{#f/17}* But all she did was re- establish the Royal Guard and its forces.']);
                } else {
-                  addB([ "<25>{#p/alphys}{#f/17}* But all she did was bolster the Royal Guard's forces." ]);
+                  addB(["<25>{#p/alphys}{#f/17}* But all she did was bolster the Royal Guard's forces."]);
                }
                if (SAVE.data.b.undyne_respecc) {
-                  addB([ '<25>{#p/alphys}{#f/19}* And... make a speech about how humans are dishonorable warriors.' ]);
+                  addB(['<25>{#p/alphys}{#f/19}* And... make a speech about how humans are dishonorable warriors.']);
                } else if (2.1 <= SAVE.data.n.plot_date) {
-                  addB([ '<25>{#p/alphys}{#f/19}* And... make a speech about how humans are backstabbing traitors.' ]);
+                  addB(['<25>{#p/alphys}{#f/19}* And... make a speech about how humans are backstabbing traitors.']);
                } else {
-                  addB([ '<25>{#p/alphys}{#f/19}* And... make a speech about how humans are irredeemable killers.' ]);
+                  addB(['<25>{#p/alphys}{#f/19}* And... make a speech about how humans are irredeemable killers.']);
                }
                if (royals < 6 || mdeaths > 9) {
-                  addB([ '<25>{#p/alphys}{#f/20}* A speech that... actually got a lot of people on her side.' ]);
+                  addB(['<25>{#p/alphys}{#f/20}* A speech that... actually got a lot of people on her side.']);
                   if (30 <= SAVE.data.n.bully) {
-                     addB([ "<25>{#p/alphys}{#f/26}* ... beating everyone up certainly didn't help your case." ]);
+                     addB(["<25>{#p/alphys}{#f/26}* ... beating everyone up certainly didn't help your case."]);
                   } else {
                      addB([
                         '<25>{#p/alphys}{#f/5}* ... monsters are pretty wary of humans these days because of that.'
                      ]);
                   }
                } else {
-                  addB([ '<25>{#p/alphys}{#f/20}* A speech that only got people on her side...' ]);
+                  addB(['<25>{#p/alphys}{#f/20}* A speech that only got people on her side...']);
                   if (30 <= SAVE.data.n.bully) {
-                     addB([ '<25>{#p/alphys}{#f/26}* ... after they were reminded of your bullying.' ]);
+                     addB(['<25>{#p/alphys}{#f/26}* ... after they were reminded of your bullying.']);
                   } else {
                      addB([
                         "<25>{#p/alphys}{#f/20}* ... after she mentioned the circumstances of ASGORE's disappearance."
@@ -2035,7 +2035,7 @@ export default {
                               '<25>{#p/sans}{#f/3}* and the other people you killed, for that matter.'
                            ]);
                         } else {
-                           addB([ '<25>{#p/sans}{#f/3}* ... i just wish i could say the same about my brother.' ]);
+                           addB(['<25>{#p/sans}{#f/3}* ... i just wish i could say the same about my brother.']);
                         }
                         addB([
                            '<25>{#p/sans}{#f/3}* ...',
@@ -2176,14 +2176,14 @@ export default {
                      '<25>{#p/toriel}{#f/5}* ...'
                   ]);
                   if (SAVE.data.n.state_foundry_undyne === 1) {
-                     addB([ "<25>{#p/sans}{#f/3}* she's... still pretty upset about what happened to undyne." ]);
+                     addB(["<25>{#p/sans}{#f/3}* she's... still pretty upset about what happened to undyne."]);
                   } else {
-                     addB([ "<25>{#p/sans}{#f/3}* she's... still pretty angry about what you did to undyne." ]);
+                     addB(["<25>{#p/sans}{#f/3}* she's... still pretty angry about what you did to undyne."]);
                   }
                   if (dmettaton) {
-                     addB([ '<25>{#p/sans}{#f/0}* not to mention her friend, mettaton.' ]);
+                     addB(['<25>{#p/sans}{#f/0}* not to mention her friend, mettaton.']);
                   } else {
-                     addB([ "<25>{#p/sans}{#f/0}* about what she's had to do as a result." ]);
+                     addB(["<25>{#p/sans}{#f/0}* about what she's had to do as a result."]);
                   }
                   if (dpapyrus) {
                      addB([
@@ -2200,10 +2200,10 @@ export default {
                               "<25>{#p/sans}{#f/3}* and while i wouldn't blame you for what you did, or didn't do..."
                            ]);
                         } else {
-                           addB([ "<25>{#p/sans}{#f/3}* and while i wouldn't blame you for running away..." ]);
+                           addB(["<25>{#p/sans}{#f/3}* and while i wouldn't blame you for running away..."]);
                         }
                      } else {
-                        addB([ "<25>{#p/sans}{#f/3}* and while i wouldn't blame you for trying to defend yourself..." ]);
+                        addB(["<25>{#p/sans}{#f/3}* and while i wouldn't blame you for trying to defend yourself..."]);
                      }
                      addB([
                         "<25>{#p/sans}{#f/0}* i can't help but wonder if there was a better way to go about things.",
@@ -2239,7 +2239,7 @@ export default {
                            '<25>{#p/toriel}{#f/13}* It was... difficult, even for me, to accept what you had done.'
                         ]);
                      } else {
-                        addB([ '<25>{#p/toriel}{#f/13}* It is... an unfortunate situation we find ourselves in.' ]);
+                        addB(['<25>{#p/toriel}{#f/13}* It is... an unfortunate situation we find ourselves in.']);
                      }
                      addB([
                         "<25>{#p/sans}{#f/0}* y'know...",
@@ -2258,9 +2258,9 @@ export default {
                         "<25>{#p/sans}{#f/3}* now, it just feels like... people can't get along."
                      ]);
                      if (dpapyrus) {
-                        addB([ "<25>{#p/sans}{#f/0}* i could really use my brother's encouragement right about now." ]);
+                        addB(["<25>{#p/sans}{#f/0}* i could really use my brother's encouragement right about now."]);
                      } else {
-                        addB([ '<25>{#p/sans}{#f/0}* and that really stinks.' ]);
+                        addB(['<25>{#p/sans}{#f/0}* and that really stinks.']);
                      }
                      addB([
                         '<25>{#p/alphys}{#f/3}* Uh... guys?',
@@ -2307,7 +2307,7 @@ export default {
                            '<25>{#p/toriel}{#f/13}* It was... difficult, even for me, to accept what you had done.'
                         ]);
                      } else {
-                        addB([ '<25>{#p/toriel}{#f/13}* It is... an unfortunate situation we find ourselves in.' ]);
+                        addB(['<25>{#p/toriel}{#f/13}* It is... an unfortunate situation we find ourselves in.']);
                      }
                      addB([
                         "<25>{#p/sans}{#f/0}* y'know...",
@@ -2326,9 +2326,9 @@ export default {
                         "<25>{#p/sans}{#f/3}* now, it just feels like... people can't get along."
                      ]);
                      if (dpapyrus) {
-                        addB([ "<25>{#p/sans}{#f/0}* i could really use my brother's encouragement right about now." ]);
+                        addB(["<25>{#p/sans}{#f/0}* i could really use my brother's encouragement right about now."]);
                      } else {
-                        addB([ '<25>{#p/sans}{#f/0}* and that really stinks.' ]);
+                        addB(['<25>{#p/sans}{#f/0}* and that really stinks.']);
                      }
                      addB([
                         '<25>{#p/alphys}{#f/27}* Uh, Toriel?\n* I think you left the security gate open.',
@@ -2346,9 +2346,9 @@ export default {
                            "<25>{#p/sans}{#f/3}* ... or not.\n* i don't really care."
                         ]);
                      } else {
-                        addB([ '<25>{#p/sans}{#f/0}* fly safe out there, will ya?', '<25>{#p/sans}{#f/3}* ...' ]);
+                        addB(['<25>{#p/sans}{#f/0}* fly safe out there, will ya?', '<25>{#p/sans}{#f/3}* ...']);
                      }
-                     addB([ '<32>{#s/equip}{#p/event}* 滴...' ]);
+                     addB(['<32>{#s/equip}{#p/event}* 滴...']);
                   }
                } else {
                   k = 'light_toriel'; // NO-TRANSLATE
@@ -2362,7 +2362,7 @@ export default {
                         '<25>{#p/toriel}{#f/1}* I know it is not the kind of call we would normally have, but...',
                         '<25>{#p/toriel}{#f/5}* I feel that you should know what has happened since your departure.'
                      ]);
-                     addB([ '<25>{#p/toriel}{#f/9}* Despite our calling arrangements, I could not help but worry.' ]);
+                     addB(['<25>{#p/toriel}{#f/9}* Despite our calling arrangements, I could not help but worry.']);
                   } else {
                      addA([
                         '<32>{#s/phone}{#p/event}* 铃铃，铃铃...',
@@ -2371,7 +2371,7 @@ export default {
                         '<25>{#p/toriel}{#f/1}* The circumstances may not be ideal at the moment, but...',
                         '<25>{#p/toriel}{#f/5}* I feel that you should know what has happened since your departure.'
                      ]);
-                     addB([ '<25>{#p/toriel}{#f/9}* After our time in the Outlands, I could not help but worry.' ]);
+                     addB(['<25>{#p/toriel}{#f/9}* After our time in the Outlands, I could not help but worry.']);
                   }
                   addB([
                      '<25>{#p/toriel}{#f/5}* I knew you were the last human ASGORE would have needed.',
@@ -2391,11 +2391,11 @@ export default {
                      "<25>{#p/toriel}{#f/5}* Only then, did I hear about the Royal Guard captain's death..."
                   ]);
                   if (hkills === 0) {
-                     addB([ '<25>{#p/toriel}{#f/9}* And the fact that, had you acted, you might have saved her.' ]);
+                     addB(['<25>{#p/toriel}{#f/9}* And the fact that, had you acted, you might have saved her.']);
                   } else if (hkills === 1 && SAVE.data.n.state_foundry_undyne === 2) {
-                     addB([ '<25>{#p/toriel}{#f/9}* And the fact that you were the one to have killed her.' ]);
+                     addB(['<25>{#p/toriel}{#f/9}* And the fact that you were the one to have killed her.']);
                   } else if (dmettaton) {
-                     addB([ '<25>{#p/toriel}{#f/9}* As well as the death of the TV star, Mettaton.' ]);
+                     addB(['<25>{#p/toriel}{#f/9}* As well as the death of the TV star, Mettaton.']);
                      if (royals < 2) {
                         addB([
                            '<26>{#p/toriel}{#f/9}* ... and the deaths of most of the Royal Guard beyond that.',
@@ -2407,41 +2407,41 @@ export default {
                            "<25>{#p/toriel}{#f/5}* Mettaton's death in particular was difficult, however."
                         ]);
                      } else {
-                        addB([ '<25>{#p/toriel}{#f/5}* Learning of his death was... difficult for me.' ]);
+                        addB(['<25>{#p/toriel}{#f/5}* Learning of his death was... difficult for me.']);
                      }
                   } else if (dpapyrus) {
-                     addB([ "<25>{#p/toriel}{#f/9}* As well as the death of Sans's brother, Papyrus." ]);
+                     addB(["<25>{#p/toriel}{#f/9}* As well as the death of Sans's brother, Papyrus."]);
                      if (royals < 2) {
-                        addB([ '<26>{#p/toriel}{#f/9}* ... and the deaths of most of the Royal Guard beyond that.' ]);
+                        addB(['<26>{#p/toriel}{#f/9}* ... and the deaths of most of the Royal Guard beyond that.']);
                      } else if (royals < 7) {
-                        addB([ '<26>{#p/toriel}{#f/9}* ... and the deaths of Royal Guard members beyond that.' ]);
+                        addB(['<26>{#p/toriel}{#f/9}* ... and the deaths of Royal Guard members beyond that.']);
                      }
                   } else if (royals < 2) {
-                     addB([ '<26>{#p/toriel}{#f/9}* As well as the deaths of the rest of the Royal Guard.' ]);
+                     addB(['<26>{#p/toriel}{#f/9}* As well as the deaths of the rest of the Royal Guard.']);
                   } else if (royals < 7) {
-                     addB([ '<25>{#p/toriel}{#f/9}* As well as the deaths of other Royal Guard members.' ]);
+                     addB(['<25>{#p/toriel}{#f/9}* As well as the deaths of other Royal Guard members.']);
                   } else if (ddoggo) {
-                     addB([ '<25>{#p/toriel}{#f/9}* As well as the death of canine unit member Doggo.' ]);
+                     addB(['<25>{#p/toriel}{#f/9}* As well as the death of canine unit member Doggo.']);
                   } else if (dlesserdog) {
-                     addB([ '<25>{#p/toriel}{#f/9}* As well as the death of canine unit member Canis Minor.' ]);
+                     addB(['<25>{#p/toriel}{#f/9}* As well as the death of canine unit member Canis Minor.']);
                   } else if (ddogs) {
-                     addB([ '<25>{#p/toriel}{#f/9}* As well as the death of canine unit members Dogamy and Dogaressa.' ]);
+                     addB(['<25>{#p/toriel}{#f/9}* As well as the death of canine unit members Dogamy and Dogaressa.']);
                   } else if (dgreatdog) {
-                     addB([ '<25>{#p/toriel}{#f/9}* As well as the death of canine unit member Canis Major.' ]);
+                     addB(['<25>{#p/toriel}{#f/9}* As well as the death of canine unit member Canis Major.']);
                   } else if (ddoge) {
-                     addB([ '<25>{#p/toriel}{#f/9}* As well as the death of ELITE squad member Doge' ]);
+                     addB(['<25>{#p/toriel}{#f/9}* As well as the death of ELITE squad member Doge']);
                   } else if (droyalguards) {
-                     addB([ '<25>{#p/toriel}{#f/9}* As well as the death of her new recruits, 03 and 04.' ]);
+                     addB(['<25>{#p/toriel}{#f/9}* As well as the death of her new recruits, 03 and 04.']);
                   } else if (dmadjick) {
-                     addB([ '<25>{#p/toriel}{#f/9}* As well as the death of ELITE squad member Cozmo.' ]);
+                     addB(['<25>{#p/toriel}{#f/9}* As well as the death of ELITE squad member Cozmo.']);
                   } else if (dknightknight) {
-                     addB([ '<25>{#p/toriel}{#f/9}* As well as the death of ELITE squad member Terrestria.' ]);
+                     addB(['<25>{#p/toriel}{#f/9}* As well as the death of ELITE squad member Terrestria.']);
                   } else if (mdeaths > 9) {
-                     addB([ '<25>{#p/toriel}{#f/9}* As well as the deaths of many other monsters.' ]);
+                     addB(['<25>{#p/toriel}{#f/9}* As well as the deaths of many other monsters.']);
                   } else if (mdeaths > 2) {
-                     addB([ '<25>{#p/toriel}{#f/9}* As well as the deaths of other monsters.' ]);
+                     addB(['<25>{#p/toriel}{#f/9}* As well as the deaths of other monsters.']);
                   } else {
-                     addB([ '<25>{#p/toriel}{#f/9}* As well as the death of one other monster.' ]);
+                     addB(['<25>{#p/toriel}{#f/9}* As well as the death of one other monster.']);
                   }
                   if (dmettaton) {
                      addB([
@@ -2487,9 +2487,9 @@ export default {
                      '<25>{#p/toriel}{#f/1}* Since then, life has carried on as usual...'
                   ]);
                   if (royals < 2) {
-                     addB([ '<25>{#p/toriel}{#f/5}* Despite the loss of the king, and Royal Guard as a whole...' ]);
+                     addB(['<25>{#p/toriel}{#f/5}* Despite the loss of the king, and Royal Guard as a whole...']);
                   } else {
-                     addB([ '<25>{#p/toriel}{#f/5}* Despite the loss of the king, and former Royal Guard captain...' ]);
+                     addB(['<25>{#p/toriel}{#f/5}* Despite the loss of the king, and former Royal Guard captain...']);
                   }
                   addB([
                      '<25>{#p/toriel}{#f/1}* The people still have hope for their freedom.',
@@ -2653,13 +2653,13 @@ export default {
                   "<32>{#p/basic}* Don't worry, we don't mistreat them.\n* They're under our protection!",
                   '<32>{#p/basic}* Which is weird... since we were like, trying to hunt them down before or something.'
                ]);
-               if (royals < 6 || mdeaths > 9) {
+               if (mdeaths > 9) {
                   addB([
                      '<32>{#p/basic}* Still, they kind of have to be.',
                      '<32>{#p/basic}* People REALLY seem to dislike humans these days.'
                   ]);
                } else {
-                  addB([ '<32>{#p/basic}* But times change.\n* And so must we!' ]);
+                  addB(['<32>{#p/basic}* But times change.\n* And so must we!']);
                }
                addB([
                   '<32>{#p/basic}* Hey, WAIT!!\n* My human is coming this way RIGHT NOW!!',
@@ -2775,7 +2775,7 @@ export default {
                   "<32>{#p/basic}* But you see, dearie, she didn't think she could do it!"
                ]);
                if (dmettaton) {
-                  addB([ "<32>{#p/basic}* Don't blame her though~\n* She let her pet TV star die such a tragic death!" ]);
+                  addB(["<32>{#p/basic}* Don't blame her though~\n* She let her pet TV star die such a tragic death!"]);
                } else {
                   addB([
                      "<32>{#p/basic}* Don't blame her though~\n* Without big boy Asgore to hold her hand, she was helpless!"
@@ -2802,7 +2802,7 @@ export default {
                         '<33>{#p/basic}* With your killing and bullying, the people were made so afraid and obedient~'
                      ]);
                   } else {
-                     addB([ '<32>{#p/basic}* With your bullying, the people were made so afraid and obedient~' ]);
+                     addB(['<32>{#p/basic}* With your bullying, the people were made so afraid and obedient~']);
                   }
                   addB([
                      '<32>{#p/basic}* Like they were just begging for a strong, assertive leader to take her rightful place!',
@@ -2886,7 +2886,7 @@ export default {
                         "<32>{#p/basic}{#s/spiderLaugh}* ... as you can see, there's no citizen alive who can hide from my loyal spies!"
                      ]);
                   } else {
-                     addB([ '<32>{#p/napstablook}* ...', "<32>{#p/napstablook}* it's now or never, alphys!" ]);
+                     addB(['<32>{#p/napstablook}* ...', "<32>{#p/napstablook}* it's now or never, alphys!"]);
                   }
                } else {
                   addB([
@@ -2899,9 +2899,9 @@ export default {
                      '<32>{#p/mettaton}* YOU KNOW...'
                   ]);
                   if (iFancyYourVilliany()) {
-                     addB([ '<32>{#p/mettaton}* PEOPLE WANT VILLAINS, AND SOMEBODY TO ROOT AGAINST.' ]);
+                     addB(['<32>{#p/mettaton}* PEOPLE WANT VILLAINS, AND SOMEBODY TO ROOT AGAINST.']);
                   } else {
-                     addB([ '<32>{#p/mettaton}* PEOPLE WANT VARIETY, AND FAMOUS GUEST ROLES.' ]);
+                     addB(['<32>{#p/mettaton}* PEOPLE WANT VARIETY, AND FAMOUS GUEST ROLES.']);
                   }
                   addB([
                      "<32>{#p/mettaton}* NOT THE UTTER GARBAGE -YOU'RE- PUSHING ON EVERYONE.",
@@ -2932,7 +2932,7 @@ export default {
                         '<32>{#p/basic}{#s/spiderLaugh}* ... as you can see, I have complete control of the entertainment here, too!'
                      ]);
                   } else {
-                     addB([ '<32>{#p/mettaton}* ...', "<32>{#p/mettaton}* NOW, ALPHYS!\n* NOW'S YOUR CHANCE!" ]);
+                     addB(['<32>{#p/mettaton}* ...', "<32>{#p/mettaton}* NOW, ALPHYS!\n* NOW'S YOUR CHANCE!"]);
                   }
                }
                if (royals < 2) {
@@ -3084,15 +3084,15 @@ export default {
                   (world.population_area('s') <= 0 && !world.bullied_area('s')) // NO-TRANSLATE
 
                ) {
-                  addB([ '<18>{#p/papyrus}{#f/5}BECAUSE, EVEN IF WE GOT OFF TO A ROUGH START...' ]);
+                  addB(['<18>{#p/papyrus}{#f/5}BECAUSE, EVEN IF WE GOT OFF TO A ROUGH START...']);
                } else if (SAVE.data.n.plot_date < 1.1) {
                   if (SAVE.data.b.flirt_papyrus) {
-                     addB([ '<18>{#p/papyrus}{#f/5}BECAUSE, EVEN IF WE NEVER HAD THAT DATE...' ]);
+                     addB(['<18>{#p/papyrus}{#f/5}BECAUSE, EVEN IF WE NEVER HAD THAT DATE...']);
                   } else {
-                     addB([ '<18>{#p/papyrus}{#f/5}BECAUSE, EVEN IF WE NEVER HUNG OUT...' ]);
+                     addB(['<18>{#p/papyrus}{#f/5}BECAUSE, EVEN IF WE NEVER HUNG OUT...']);
                   }
                } else {
-                  addB([ "<18>{#p/papyrus}{#f/5}BECAUSE, EVEN IF WE NEVER HUNG OUT AT UNDYNE'S..." ]);
+                  addB(["<18>{#p/papyrus}{#f/5}BECAUSE, EVEN IF WE NEVER HUNG OUT AT UNDYNE'S..."]);
                }
                addB([
                   "<18>{#p/papyrus}{#f/0}I'D STILL BE HAPPY TO CALL YOU MY FRIEND.",
@@ -3152,9 +3152,9 @@ export default {
                   '<25>{#p/sans}{#f/2}* people seemed to relax quite a bit.'
                ]);
                if (30 <= SAVE.data.n.bully) {
-                  addB([ '<25>{#p/sans}{#f/3}* a far cry from how scared they were of being beat up before.' ]);
+                  addB(['<25>{#p/sans}{#f/3}* a far cry from how scared they were of being beat up before.']);
                } else {
-                  addB([ '<26>{#p/sans}{#f/3}* a far cry from how distraught they were about asgore and undyne.' ]);
+                  addB(['<26>{#p/sans}{#f/3}* a far cry from how distraught they were about asgore and undyne.']);
                }
                addB([
                   '<25>{#p/sans}{#f/0}* all in all, things are going pretty well.',
@@ -3254,7 +3254,7 @@ export default {
                   '<25>{#p/alphys}{#f/8}* In fact, people are mostly positive about humanity now.'
                ]);
             }
-            addB([ "<25>{#p/alphys}{#f/8}* So that's something.", '<26>{#p/undyne}{#f/16}* Heh, tell me about it...' ]);
+            addB(["<25>{#p/alphys}{#f/8}* So that's something.", '<26>{#p/undyne}{#f/16}* Heh, tell me about it...']);
             if (SAVE.data.b.undyne_respecc || 2.1 <= SAVE.data.n.plot_date) {
                addB([
                   "<25>{#p/undyne}{#f/10}* It's a weird reality we live in now.",
@@ -3290,11 +3290,11 @@ export default {
                "<18>{#p/papyrus}{#f/6}BUT I HOPE YOU'RE DOING WELL!!"
             ]);
             if (SAVE.data.n.plot_date < 1.1) {
-               addB([ "<18>{#p/papyrus}{#f/0}I'VE BEEN THINKING ABOUT YOU SINCE OUR EPIC SHOWDOWN." ]);
+               addB(["<18>{#p/papyrus}{#f/0}I'VE BEEN THINKING ABOUT YOU SINCE OUR EPIC SHOWDOWN."]);
             } else if (SAVE.data.b.flirt_papyrus) {
-               addB([ "<18>{#p/papyrus}{#f/0}I'VE BEEN THINKING ABOUT YOU SINCE THAT DATE WE HAD." ]);
+               addB(["<18>{#p/papyrus}{#f/0}I'VE BEEN THINKING ABOUT YOU SINCE THAT DATE WE HAD."]);
             } else {
-               addB([ "<18>{#p/papyrus}{#f/0}I'VE BEEN THINKING ABOUT YOU SINCE WE HUNG OUT." ]);
+               addB(["<18>{#p/papyrus}{#f/0}I'VE BEEN THINKING ABOUT YOU SINCE WE HUNG OUT."]);
             }
             addB([
                '<18>{#p/papyrus}{#f/5}I TOLD EVERYONE IN MY CLASS ABOUT YOU, AND...',
@@ -3465,7 +3465,7 @@ export default {
          '<25>{#p/sans}{#f/3}* ...',
          "<25>{#p/sans}{#f/3}* 嘿...\n* 你流的那些泪，不是正好\n  证明了我没说错嘛。",
          "<25>{#p/sans}{#f/2}* 如果这眼泪是假的，\n  那也说明，\n  你真是个老戏“骨”。",
-         "* （...）\n* （泪眼朦胧之中，\n  你回应了衫斯的烂笑话。）",
+         "<32>{#p/human}* （...）\n* （泪眼朦胧之中，\n  你回应了衫斯的烂笑话。）",
          '<25>{#p/sans}{#f/3}* 对不起，这话题\n  可能有点太沉重了。',
          "<25>{#p/sans}{#f/3}* 只是，我觉得该把\n  自己的心里话都告诉你。",
          '<32>{#p/human}* （你问衫斯，现在挂掉电话，\n  会不会有点不合适。）',
@@ -3577,34 +3577,34 @@ export default {
             '<32>{#p/napstablook}* oh...\n* hey frisk......',
             ...(SAVE.data.b.ufokinwotm8
                ? [
-                    '<32>* ...',
-                    "<32>* ... huh?\n* what's with that look?",
-                    '<32>* did i... get in your way?',
-                    '<32>* ...',
-                    "<32>* oh......\n* i did, didn't i.........",
-                    '<32>* sorry...',
-                    '<32>* force of habit......',
-                    "<32>* i'll... just be out of your way now......",
-                    '<32>* please......\n* forgive me............'
-                 ]
+                  '<32>* ...',
+                  "<32>* ... huh?\n* what's with that look?",
+                  '<32>* did i... get in your way?',
+                  '<32>* ...',
+                  "<32>* oh......\n* i did, didn't i.........",
+                  '<32>* sorry...',
+                  '<32>* force of habit......',
+                  "<32>* i'll... just be out of your way now......",
+                  '<32>* please......\n* forgive me............'
+               ]
                : [
-                    "<32>* they're still out there building the front door, so...",
-                    '<32>* not much point in trying to go there, i guess',
-                    ...(SAVE.data.b.c_state_secret4 && !SAVE.data.b.c_state_secret4_used
-                       ? [
-                            '<32>* ...',
-                            '<32>{#p/human}* (You repeat the secret told to you by Napstablook in Archive Six.)',
-                            '<32>{#p/napstablook}* a magic trick...?',
-                            '<32>* wait...',
-                            '<33>* i think i know what you mean...\n* let me try...'
-                         ]
-                       : [])
-                 ])
+                  "<32>* they're still out there building the front door, so...",
+                  '<32>* not much point in trying to go there, i guess',
+                  ...(SAVE.data.b.c_state_secret4 && !SAVE.data.b.c_state_secret4_used
+                     ? [
+                        '<32>* ...',
+                        '<32>{#p/human}* (You repeat the secret told to you by Napstablook in Archive Six.)',
+                        '<32>{#p/napstablook}* a magic trick...?',
+                        '<32>* wait...',
+                        '<33>* i think i know what you mean...\n* let me try...'
+                     ]
+                     : [])
+               ])
          ],
          () => [
             ...(SAVE.data.b.c_state_secret4_used
-               ? [ "<32>{#p/napstablook}* heh...\n* i really appreciate everything you've done, frisk." ]
-               : [ "<32>{#p/napstablook}* hey...\n* i really appreciate everything you've done, frisk." ]),
+               ? ["<32>{#p/napstablook}* heh...\n* i really appreciate everything you've done, frisk."]
+               : ["<32>{#p/napstablook}* hey...\n* i really appreciate everything you've done, frisk."]),
             '<32>* setting us free and all...',
             '<32>* ...',
             "<32>* the truth is, my cousins and i started to think we'd never escape.",
@@ -3616,30 +3616,30 @@ export default {
          () =>
             SAVE.data.b.a_state_hapstablook
                ? [
-                    '<32>{#p/napstablook}* oh yeah, about my cousins...',
-                    "<32>* after the whole mettaton thing, it's been going pretty good.",
-                    "<32>* we've been talking it over, and...",
-                    "<32>* ... we've decided to re-open the snail farm here on eurybia.",
-                    "<32>* mettaton's doing the advertising, while i and the others look after the snails.",
-                    '<32>* we even found a place we could stay once we get settled in...',
-                    '<32>* a very kind house told us we could live there.',
-                    "<32>* apparently, it's the same one undyne used to live in..."
-                 ]
+                  '<32>{#p/napstablook}* oh yeah, about my cousins...',
+                  "<32>* after the whole mettaton thing, it's been going pretty good.",
+                  "<32>* we've been talking it over, and...",
+                  "<32>* ... we've decided to re-open the snail farm here on eurybia.",
+                  "<32>* mettaton's doing the advertising, while i and the others look after the snails.",
+                  '<32>* we even found a place we could stay once we get settled in...',
+                  '<32>* a very kind house told us we could live there.',
+                  "<32>* apparently, it's the same one undyne used to live in..."
+               ]
                : [
-                    '<32>{#p/napstablook}* oh right... my cousins.',
-                    "<32>* i don't really know if i should be telling you this, but...",
-                    '<32>* we sort of figured out that mettaton might be our long-lost cousin.',
-                    '<32>* the others and i tried to ask him about it, but...',
-                    "<32>* ... it didn't really go the way we'd hoped.",
-                    '<32>* then, everyone was blaming each other for messing it up...',
-                    "<32>* i... haven't felt like talking with them since.",
-                    '<32>* yeah... this was a bad topic',
-                    '<32>* sorry...'
-                 ],
+                  '<32>{#p/napstablook}* oh right... my cousins.',
+                  "<32>* i don't really know if i should be telling you this, but...",
+                  '<32>* we sort of figured out that mettaton might be our long-lost cousin.',
+                  '<32>* the others and i tried to ask him about it, but...',
+                  "<32>* ... it didn't really go the way we'd hoped.",
+                  '<32>* then, everyone was blaming each other for messing it up...',
+                  "<32>* i... haven't felt like talking with them since.",
+                  '<32>* yeah... this was a bad topic',
+                  '<32>* sorry...'
+               ],
          () => [
             ...(SAVE.data.b.a_state_hapstablook
-               ? [ '<32>{#p/napstablook}* ...', '<32>* speaking of family...' ]
-               : [ '<32>{#p/napstablook}* ...', "<32>* hey...\n* even if my family's not doing too well..." ]),
+               ? ['<32>{#p/napstablook}* ...', '<32>* speaking of family...']
+               : ['<32>{#p/napstablook}* ...', "<32>* hey...\n* even if my family's not doing too well..."]),
             '<32>* that human i adopted is... really something, heh',
             "<32>* they say i'm their favorite monster...",
             '<32>* ... knowing what they went through in the archive, that really means something.',
@@ -3660,10 +3660,10 @@ export default {
             '<32>* ...',
             "<32>* well... i know he'll take really good care of you, at least.",
             ...(SAVE.data.b.f_state_kidd_betray
-               ? [ '<32>* you might not have any siblings, but...' ]
+               ? ['<32>* you might not have any siblings, but...']
                : SAVE.data.b.svr
-               ? [ '<32>* along with those new siblings of yours...' ]
-               : [ '<32>* along with that new sibling of yours...' ]),
+                  ? ['<32>* along with those new siblings of yours...']
+                  : ['<32>* along with that new sibling of yours...']),
             "<32>* he'll do the best he can to keep you happy and healthy."
          ],
          () => [
@@ -3743,7 +3743,7 @@ export default {
             '<32>* answer... a {@fill=#ff0}trans-parent.{@fill=#fff}.',
             '<32>* ... heh.'
          ],
-         () => [ '<32>{#p/napstablook}* ... you wanted me to tell you a third joke?', '<32>* well... if you insist...' ],
+         () => ['<32>{#p/napstablook}* ... you wanted me to tell you a third joke?', '<32>* well... if you insist...'],
          () => [
             "<32>{#p/napstablook}* okay.\n* i've got it.",
             '<32>* if a restaurant hires a ghost to taste test their food, what does that make the ghost?',
@@ -3781,26 +3781,26 @@ export default {
             '<32>* certain kinds of food are easier to convert than others.',
             '<32>* like... standard fruit.\n* or milkshakes.',
             ...(SAVE.data.b.item_blookpie
-               ? [ '<32>* but something like that exoberry pie you bought from me...' ]
-               : [ '<32>* but something like that exoberry pie i had in my shop...' ]),
+               ? ['<32>* but something like that exoberry pie you bought from me...']
+               : ['<32>* but something like that exoberry pie i had in my shop...']),
             '<32>* that... would take a lot of magical power to make.',
             '<32>* the more complicated the food, the more difficult it is to convert into ghost food.'
          ],
          () => [
             ...(SAVE.data.b.a_state_hapstablook
-               ? [ '<32>{#p/napstablook}* this one time, my... er, mettaton made me a chocolate cake.' ]
-               : [ '<32>{#p/napstablook}* this one time, my cousin made me a chocolate cake.' ]),
+               ? ['<32>{#p/napstablook}* this one time, my... er, mettaton made me a chocolate cake.']
+               : ['<32>{#p/napstablook}* this one time, my cousin made me a chocolate cake.']),
             '<32>* chocolate filling, chocolate icing... chocolate everything.',
             "<32>* if i didn't know any better, i'd think it was actual human food.",
             ...(SAVE.data.b.a_state_hapstablook
                ? [
-                    '<32>* but somehow, he managed to convert all of that into a ghost food...',
-                    '<32>* not for a special occasion, but just because he wanted to see me smile.'
-                 ]
+                  '<32>* but somehow, he managed to convert all of that into a ghost food...',
+                  '<32>* not for a special occasion, but just because he wanted to see me smile.'
+               ]
                : [
-                    '<32>* but somehow, they managed to convert all of that into a ghost food...',
-                    '<32>* not for a special occasion, but just because they wanted to see me smile.'
-                 ]),
+                  '<32>* but somehow, they managed to convert all of that into a ghost food...',
+                  '<32>* not for a special occasion, but just because they wanted to see me smile.'
+               ]),
             '<32>* well... i did.\n* and we ate the cake together.',
             '<32>* and i was happy.'
          ],
@@ -3823,9 +3823,9 @@ export default {
             "<32>{#p/basic}* This ghost keeps saying 'z' out loud repeatedly, pretending to sleep.",
             choicer.create('* (Lay down next to it?)', '是', '否')
          ],
-         () => [ '<32>{#p/basic}* The ghost is still here.', choicer.create('* (Lay down next to it?)', '是', '否') ]
+         () => ['<32>{#p/basic}* The ghost is still here.', choicer.create('* (Lay down next to it?)', '是', '否')]
       ],
-      lastblook2: [ '<32>{#p/napstablook}* oooooooooooo......', '<32>* this is really nice......' ],
+      lastblook2: ['<32>{#p/napstablook}* oooooooooooo......', '<32>* this is really nice......'],
       lastblook3: [
          '<32>{#p/human}* （...）',
          '<32>* (You feel... something.)',
@@ -3846,13 +3846,13 @@ export default {
          '<32>* or at least found it kind of interesting...',
          '<32>* or something...'
       ],
-      view: () => [ choicer.create('* (Are you ready to go outside?)', '是', '否') ],
+      view: () => [choicer.create('* (Are you ready to go outside?)', '是', '否')],
       computer1: () =>
          SAVE.data.b.ufokinwotm8
-            ? [ "<32>{#p/human}* (But you didn't feel like wasting your time here.)" ]
-            : [ "<32>{#p/basic}* The computer's offline, but there's an empty slot for a computer chip." ],
-      computer2: () => [ choicer.create('* (Insert the Computer Chip?)', '是', '否') ],
-      computer3: [ '<32>{#p/human}* (You decide not to insert.)' ],
+            ? ["<32>{#p/human}* (But you didn't feel like wasting your time here.)"]
+            : ["<32>{#p/basic}* The computer's offline, but there's an empty slot for a computer chip."],
+      computer2: () => [choicer.create('* (Insert the Computer Chip?)', '是', '否')],
+      computer3: ['<32>{#p/human}* (You decide not to insert.)'],
       computer4: [
          '<32>{#p/basic}* Ah!\n* Thank you!\n* Thank you so much!',
          '<32>* You really took care of me!\n* You have found a computer very far away indeed!',
@@ -3863,7 +3863,7 @@ export default {
          '<32>* It is... incredible...',
          '<32>* I shall not forget this deed, fellow traveler!'
       ],
-      computer5: [ '<32>{#p/basic}* Thank you, fellow traveler.\n* I owe you my future.' ],
+      computer5: ['<32>{#p/basic}* Thank you, fellow traveler.\n* I owe you my future.'],
       end1: [
          '<25>{*}{#p/asgore}{#f/6}* 一号应急预案已生效。{^20}{%}',
          '<25>{*}{#p/asgore}{#f/6}* 正在启动自毁程序。{^20}{%}'
@@ -3883,8 +3883,8 @@ export default {
             "<32>* If you're looking for Asgore, he's out here with us.",
             "<32>* We'll be done in a few hours, so just sit tight for now."
          ],
-         [ '<32>{#p/basic}* Just a few more hours, kiddo.', '<32>* Then you can come out.' ],
-         [ '<32>{#p/basic}* A few more hours.' ]
+         ['<32>{#p/basic}* Just a few more hours, kiddo.', '<32>* Then you can come out.'],
+         ['<32>{#p/basic}* A few more hours.']
       ),
       charatrigger: {
          _frontier1: pager.create(
@@ -3909,18 +3909,18 @@ export default {
                '<32>* Still.\n* Better than nothing.',
                '<32>* At least you can actually walk up to and talk to me now.'
             ],
-            [ '<32>{#p/basic}* Like that, for example.' ],
-            [ '<32>{#p/basic}* Or that.' ],
-            [ '<32>{#p/basic}* Or even that!' ],
-            [ '<32>{#p/basic}* ...', '<32>{#p/basic}* You can stop now.' ],
-            [ "<32>{#p/basic}* There's more to your room than me, isn't there?" ],
-            [ '<32>{#p/basic}* ...', '<32>{#p/basic}* Maybe not.' ],
-            [ "<32>{#p/basic}* Maybe I'm all you've got." ],
-            [ '<32>{#p/basic}* In which case...', "<32>{#p/basic}* We'll be here for a long time." ],
-            [ '<32>{#p/basic}* A very long time.' ],
-            [ '<32>{#p/basic}* A very, very long time.' ],
-            [ '<32>{#p/basic}* A very, very long time indeed.' ],
-            [ "<32>{#p/basic}* Don't you have anything better to do?" ],
+            ['<32>{#p/basic}* Like that, for example.'],
+            ['<32>{#p/basic}* Or that.'],
+            ['<32>{#p/basic}* Or even that!'],
+            ['<32>{#p/basic}* ...', '<32>{#p/basic}* You can stop now.'],
+            ["<32>{#p/basic}* There's more to your room than me, isn't there?"],
+            ['<32>{#p/basic}* ...', '<32>{#p/basic}* Maybe not.'],
+            ["<32>{#p/basic}* Maybe I'm all you've got."],
+            ['<32>{#p/basic}* In which case...', "<32>{#p/basic}* We'll be here for a long time."],
+            ['<32>{#p/basic}* A very long time.'],
+            ['<32>{#p/basic}* A very, very long time.'],
+            ['<32>{#p/basic}* A very, very long time indeed.'],
+            ["<32>{#p/basic}* Don't you have anything better to do?"],
             []
          ),
          _frontier2: pager.create(
@@ -3952,10 +3952,10 @@ export default {
                '<32>* But what did you expect me to go on when you spoke to me in a boring hallway?',
                '<33>* Boring hallway, boring tangent.\n* That makes sense, right?'
             ],
-            [ "<32>{#p/basic}* Or maybe it doesn't.\n* What do I know." ],
-            [ "<32>{#p/basic}* Apart from the fact that I've run out of things to say." ],
-            [ '<32>{#p/basic}* That, I know for sure.' ],
-            [ '<32>{#p/basic}* But what can you do?', '<32>{#p/basic}* ... wait, I know!\n* We could go to a new room!' ],
+            ["<32>{#p/basic}* Or maybe it doesn't.\n* What do I know."],
+            ["<32>{#p/basic}* Apart from the fact that I've run out of things to say."],
+            ['<32>{#p/basic}* That, I know for sure.'],
+            ['<32>{#p/basic}* But what can you do?', '<32>{#p/basic}* ... wait, I know!\n* We could go to a new room!'],
             []
          ),
          _frontier3: pager.create(
@@ -3976,8 +3976,8 @@ export default {
                '<32>* Watching, waiting...',
                "<32>* ... ready to catch you the moment you do something you don't want me to see!"
             ],
-            [ "<32>{#p/basic}* Okay, maybe I wouldn't actually go that far." ],
-            [ "<33>{#p/basic}* Not while you're awake, anyway." ],
+            ["<32>{#p/basic}* Okay, maybe I wouldn't actually go that far."],
+            ["<33>{#p/basic}* Not while you're awake, anyway."],
             []
          ),
          _frontier4: pager.create(
@@ -4020,7 +4020,7 @@ export default {
                '<32>{#p/basic}* Mind you, do monsters even have a sense of the time of day?',
                '<32>* Most WERE born in space...'
             ],
-            [ "<32>{#p/basic}* ... maybe that's a question for another time of day." ],
+            ["<32>{#p/basic}* ... maybe that's a question for another time of day."],
             []
          ),
          _frontier5: pager.create(
@@ -4100,8 +4100,8 @@ export default {
                "<33>{#p/basic}* If Asriel's a microwave master, Alphys would be a microwave overlord.",
                "<32>* That's all I'm saying."
             ],
-            [ '<32>{#p/basic}* No, really.', "<32>* Won't say anything more." ],
-            [ '<32>{#p/basic}* ...', '<32>{#p/basic}* Not in the kitchen, anyway.' ],
+            ['<32>{#p/basic}* No, really.', "<32>* Won't say anything more."],
+            ['<32>{#p/basic}* ...', '<32>{#p/basic}* Not in the kitchen, anyway.'],
             []
          ),
          _frontier7: pager.create(
@@ -4135,7 +4135,7 @@ export default {
                '<32>* And if my analysis of the position is right...',
                '<32>* The planet itself will, too.'
             ],
-            [ "<32>{#p/basic}* Don't quote me on that, though.", "<32>* I'm not much of a chess player." ],
+            ["<32>{#p/basic}* Don't quote me on that, though.", "<32>* I'm not much of a chess player."],
             [
                "<32>{#p/basic}* The smartest move I've ever played in a board game was a double-jump in checkers.",
                '<32>* It was downhill from there.'
@@ -4146,7 +4146,7 @@ export default {
                "<32>* He's got two adopted children to think about now...",
                '<32>* Not to mention his own son.'
             ],
-            [ '<32>{#p/basic}* Mountainside living might be cool, but the jungle has its own appeal, too.' ],
+            ['<32>{#p/basic}* Mountainside living might be cool, but the jungle has its own appeal, too.'],
             []
          ),
          _frontier9: pager.create(
@@ -4187,7 +4187,7 @@ export default {
                "<32>* He knows monsters very well.\n* If the bed's comfortable, who cares what room it's in?",
                "<32>* Not monsters, that's who!"
             ],
-            [ '<32>{#p/basic}* ...', '<32>* That must be why Asriel slept in your bed last night as opposed to his.' ],
+            ['<32>{#p/basic}* ...', '<32>* That must be why Asriel slept in your bed last night as opposed to his.'],
             []
          ),
          _void: pager.create(
@@ -4206,42 +4206,42 @@ export default {
          '<32>{#p/human}* (And yet, despite the sight ahead of you...)',
          "<32>{#p/human}* (... you can't help but feel as if there's something missing.)"
       ],
-      balcony0: [ '<25>{#p/kidd}{#f/3}* Oh, hey Frisk...', '<25>{#f/1}* I was getting worried you would never wake up!' ],
+      balcony0: ['<25>{#p/kidd}{#f/3}* Oh, hey Frisk...', '<25>{#f/1}* I was getting worried you would never wake up!'],
       balcony1: () => [
          '<25>{#p/kidd}{#f/3}* ... haha.',
          ...(SAVE.data.b.ufokinwotm8
-            ? [ "<25>{#f/2}* I can't believe I actually...", '<25>{#f/4}* ... have...' ]
+            ? ["<25>{#f/2}* I can't believe I actually...", '<25>{#f/4}* ... have...']
             : [
-                 "<25>{#f/2}* I can't believe I actually have a home now.",
-                 '<25>{#f/7}* And with King Asgore!?',
-                 '<25>{#f/1}* All the other kids are gonna want to hang out with us...',
-                 "<25>{#f/1}* We'll get to throw house parties ALL the time!"
-              ])
+               "<25>{#f/2}* I can't believe I actually have a home now.",
+               '<25>{#f/7}* And with King Asgore!?',
+               '<25>{#f/1}* All the other kids are gonna want to hang out with us...',
+               "<25>{#f/1}* We'll get to throw house parties ALL the time!"
+            ])
       ],
       balcony2: () =>
          SAVE.data.b.ufokinwotm8
             ? [
-                 '<25>{#p/kidd}{#f/4}* Uh... are you okay?',
-                 "<25>{#f/8}* I'm kinda worried about you, dude...",
-                 '<25>{#f/7}* Is something wrong?'
-              ]
+               '<25>{#p/kidd}{#f/4}* Uh... are you okay?',
+               "<25>{#f/8}* I'm kinda worried about you, dude...",
+               '<25>{#f/7}* Is something wrong?'
+            ]
             : [
-                 '<25>{#p/kidd}{#f/1}* Man, the books in the librarby were one thing...',
-                 '<25>{#p/kidd}{#f/7}* But being on a planet for REAL!?',
-                 "<25>{#f/13}* It's SOOOO much cooler!",
-                 '<25>{#f/2}* Imagine if we tried to explore it all...',
-                 "<25>{#f/1}* We'd never EVER be finished!"
-              ],
+               '<25>{#p/kidd}{#f/1}* Man, the books in the librarby were one thing...',
+               '<25>{#p/kidd}{#f/7}* But being on a planet for REAL!?',
+               "<25>{#f/13}* It's SOOOO much cooler!",
+               '<25>{#f/2}* Imagine if we tried to explore it all...',
+               "<25>{#f/1}* We'd never EVER be finished!"
+            ],
       balcony3: () =>
          SAVE.data.b.ufokinwotm8
             ? [
-                 "<25>{#p/kidd}{#f/4}* (Man, I'm really getting worried now.)",
-                 '<25>{#f/7}* Frisk, come on...!',
-                 '<25>{#f/7}* You gotta say something to me, dude!',
-                 "<25>{#f/8}* I didn't do anything wrong... did I?"
-              ]
-            : [ "<25>{#p/kidd}{#f/2}* Aren't you excited?", '<25>{#f/1}* You and I are gonna do EVERYTHING together!' ],
-      balcony0a: [ '<25>{#p/kidd}{#f/1}* Is THIS what living on a planet is like?\n* This is INCREDIBLE!' ],
+               "<25>{#p/kidd}{#f/4}* (Man, I'm really getting worried now.)",
+               '<25>{#f/7}* Frisk, come on...!',
+               '<25>{#f/7}* You gotta say something to me, dude!',
+               "<25>{#f/8}* I didn't do anything wrong... did I?"
+            ]
+            : ["<25>{#p/kidd}{#f/2}* Aren't you excited?", '<25>{#f/1}* You and I are gonna do EVERYTHING together!'],
+      balcony0a: ['<25>{#p/kidd}{#f/1}* Is THIS what living on a planet is like?\n* This is INCREDIBLE!'],
       balcony1a: [
          '<25>{#p/asriel1}{#f/10}* What?\n* A whole planet of this?',
          '<25>{#f/20}* Pfft.\n* This is nothing...',
@@ -4252,19 +4252,19 @@ export default {
          '<25>{#p/kidd}{#f/2}* That must be the lake with that slimy red goo...',
          '<25>{#f/1}* Gross AND awesome!'
       ],
-      balcony3a: [ '<25>{#p/asriel1}{#f/1}* ... I dare you to swim.' ],
-      balcony4a: [ '<25>{#p/kidd}{#f/7}* ...', '<25>{#f/13}* Deal.\n* But only if you swim WITH me!' ],
+      balcony3a: ['<25>{#p/asriel1}{#f/1}* ... I dare you to swim.'],
+      balcony4a: ['<25>{#p/kidd}{#f/7}* ...', '<25>{#f/13}* Deal.\n* But only if you swim WITH me!'],
       balcony5a: [
          '<25>{#p/asriel1}{#f/21}* Uh... I mean...',
          "<25>{#f/20}* Maybe we'd be better off if we stuck to dune racing."
       ],
-      balcony6a: [ "<25>{#p/kidd}{#f/6}* You're not afraid of getting sticky red goo all over you, are you?" ],
+      balcony6a: ["<25>{#p/kidd}{#f/6}* You're not afraid of getting sticky red goo all over you, are you?"],
       balcony7a: [
          '<25>{#p/asriel1}{#f/8}* ... ugh, of course not, you idiot, I just-',
          '<25>{#p/kidd}{#f/8}* ...',
          "<25>{#p/asriel1}{#f/25}* ... w-wait, I didn't m-mean to..."
       ],
-      balcony8a: [ '<25>{#p/kidd}{#f/4}* Asriel...?', '<25>{#p/kidd}{#f/4}* Are you okay?' ],
+      balcony8a: ['<25>{#p/kidd}{#f/4}* Asriel...?', '<25>{#p/kidd}{#f/4}* Are you okay?'],
       balcony9a: [
          '<25>{#p/asriel1}{#f/13}* ... I...',
          "<25>{#f/22}* I'm alright.\n* You didn't do anything wrong, okay?"
@@ -4279,7 +4279,7 @@ export default {
          '<25>{#p/asriel1}{#f/13}* ...',
          '<25>{#f/13}* ... there are deserts, but the races would be done in the tubules.'
       ],
-      balcony12a: [ '<25>{#p/kidd}{#f/7}* Tubules??\n* What the heck??' ],
+      balcony12a: ['<25>{#p/kidd}{#f/7}* Tubules??\n* What the heck??'],
       balcony13a: [
          "<25>{#p/asriel1}{#f/10}* Uh...\n* Haven't you read the geological surveys?",
          "<25>{#p/kidd}{#f/1}* What's a geological survey?",
@@ -4300,49 +4300,49 @@ export default {
          "<25>{#p/kidd}{#f/6}* We'd start with this world, and find everything we can...",
          "<26>{#p/kidd}{#f/1}* Then we'd visit more worlds, and make a huge map of the whole galaxy!",
          ...(SAVE.data.b.c_state_secret2_used
-            ? [ "<26>{#p/kidd}{#f/13}* And we should TOTALLY have a secret handshake!\n* Like Gerson's!" ]
+            ? ["<26>{#p/kidd}{#f/13}* And we should TOTALLY have a secret handshake!\n* Like Gerson's!"]
             : []),
          ...(SAVE.data.b.c_state_secret3_used
             ? [
-                 ...(SAVE.data.b.c_state_secret2_used
-                    ? [ "<25>{#p/asriel1}{#f/13}* With any luck, we'll be hand-in-hand with other galaxies' races, too." ]
-                    : [ "<25>{#p/asriel1}{#f/13}* With any luck, we'll be making maps of other galaxies, too." ]),
-                 "<25>{#f/13}* Dr. Alphys's wormhole travel gives us the means to visit them.",
-                 "<25>{#f/17}* We'd be a pan-galactic exploration group."
-              ]
+               ...(SAVE.data.b.c_state_secret2_used
+                  ? ["<25>{#p/asriel1}{#f/13}* With any luck, we'll be hand-in-hand with other galaxies' races, too."]
+                  : ["<25>{#p/asriel1}{#f/13}* With any luck, we'll be making maps of other galaxies, too."]),
+               "<25>{#f/13}* Dr. Alphys's wormhole travel gives us the means to visit them.",
+               "<25>{#f/17}* We'd be a pan-galactic exploration group."
+            ]
             : [
-                 '<25>{#p/asriel1}{#f/17}* Woah, uh, slow down there kiddo...',
-                 ...(SAVE.data.b.c_state_secret2_used
-                    ? [
-                         '<25>{#p/asriel1}{#f/17}* ... a secret handshake would be pretty cool, but...',
-                         '<25>{#f/13}* ... as for exploring other planets...'
-                      ]
-                    : []),
-                 '<26>{#f/13}* It took us long enough just to make it here, let alone another world.'
-              ])
+               '<25>{#p/asriel1}{#f/17}* Woah, uh, slow down there kiddo...',
+               ...(SAVE.data.b.c_state_secret2_used
+                  ? [
+                     '<25>{#p/asriel1}{#f/17}* ... a secret handshake would be pretty cool, but...',
+                     '<25>{#f/13}* ... as for exploring other planets...'
+                  ]
+                  : []),
+               '<26>{#f/13}* It took us long enough just to make it here, let alone another world.'
+            ])
       ],
       balcony16a: () =>
          SAVE.data.b.c_state_secret3_used
-            ? [ "<26>{#p/kidd}{#f/14}* Oh yeah, I totally forgot about that!\n* We've GOTTA try that!" ]
-            : [ '<25>{#p/kidd}{#f/3}* Haha. Maybe.\n* But we could still totally explore it!' ],
+            ? ["<26>{#p/kidd}{#f/14}* Oh yeah, I totally forgot about that!\n* We've GOTTA try that!"]
+            : ['<25>{#p/kidd}{#f/3}* Haha. Maybe.\n* But we could still totally explore it!'],
       balcony17a: [
          '<25>{#p/asriel1}{#f/17}* Just us, huh?',
          '<25>{#p/kidd}{#f/1}* Totally, dude!\n* Just the three of us!'
       ],
-      balcony18a1: [ '<32>{#p/basic}* ... uh, don\'t you mean \"the four of us?\"' ],
-      balcony18a2: [ '<25>{#p/asriel1}{#f/25}* ...！', "<25>{#f/25}* $(name)... you're..." ],
-      balcony19a1: [ '<32>{#p/basic}* ... wait, NOW you can hear me?' ],
+      balcony18a1: ['<32>{#p/basic}* ... uh, don\'t you mean \"the four of us?\"'],
+      balcony18a2: ['<25>{#p/asriel1}{#f/25}* ...！', "<25>{#f/25}* $(name)... you're..."],
+      balcony19a1: ['<32>{#p/basic}* ... wait, NOW you can hear me?'],
       balcony19a2: [
          "<32>{#p/basic}* I tried reaching out to you before, but... it didn't work.",
          '<32>* I wonder what changed...'
       ],
-      balcony20a: [ "<25>{#p/kidd}{#f/6}* Haha. If you're friends with him, then you're friends with me." ],
-      balcony21a: [ '<32>{#p/basic}* Wait, YOU can hear me?' ],
-      balcony22a: [ "<25>{#p/kidd}{#f/1}* Kind of hard not to when you're standing there, y'know." ],
-      balcony23a1: [ '<32>{#p/basic}* YOU CAN SEE ME!?!?' ],
-      balcony23a2: [ '<32>{#p/basic}* Oh... my god...' ],
-      balcony24a: [ "<33>{#p/basic}* Asriel, how did you not notice me standing here?\n* I'm not even hidden!" ],
-      balcony25a: [ '<26>{#p/asriel1}{#f/23}* ... $(name), I...' ],
+      balcony20a: ["<25>{#p/kidd}{#f/6}* Haha. If you're friends with him, then you're friends with me."],
+      balcony21a: ['<32>{#p/basic}* Wait, YOU can hear me?'],
+      balcony22a: ["<25>{#p/kidd}{#f/1}* Kind of hard not to when you're standing there, y'know."],
+      balcony23a1: ['<32>{#p/basic}* YOU CAN SEE ME!?!?'],
+      balcony23a2: ['<32>{#p/basic}* Oh... my god...'],
+      balcony24a: ["<33>{#p/basic}* Asriel, how did you not notice me standing here?\n* I'm not even hidden!"],
+      balcony25a: ['<26>{#p/asriel1}{#f/23}* ... $(name), I...'],
       balcony26a1: [
          "<32>{#p/basic}* Asriel, it's okay.\n* You don't have to be ashamed of it anymore.",
          '<32>* If you need to cry...',
@@ -4355,14 +4355,14 @@ export default {
          "<32>* ... I guess this means I'll be visible all the time now?",
          "<32>* To be honest, I'm not sure how to feel about that."
       ],
-      balcony27a: [ '<25>{#p/kidd}{#f/7}* Wait, are you a human too!?' ],
+      balcony27a: ['<25>{#p/kidd}{#f/7}* Wait, are you a human too!?'],
       balcony28a: [
          '<32>{#p/basic}* Excuse me?',
          "<33>* I'm a human GHOST who wants their GOAT brother to be happy.\n* Get it right. Sheesh."
       ],
-      balcony29a: [ '<25>{#p/kidd}{#f/14}* ... Asriel is your BROTHER!?', '<25>{#p/kidd}{#f/4}* This is too much...' ],
-      balcony30a: [ "<25>{#p/kidd}{#f/1}* But, uh, you guys are all cool as heck, which means I'll be okay." ],
-      balcony31a: [ "<32>{#p/basic}* Oh, I KNOW I'm cool.\n* I'm the coolest human ghost this side of the continent." ],
+      balcony29a: ['<25>{#p/kidd}{#f/14}* ... Asriel is your BROTHER!?', '<25>{#p/kidd}{#f/4}* This is too much...'],
+      balcony30a: ["<25>{#p/kidd}{#f/1}* But, uh, you guys are all cool as heck, which means I'll be okay."],
+      balcony31a: ["<32>{#p/basic}* Oh, I KNOW I'm cool.\n* I'm the coolest human ghost this side of the continent."],
       balcony32a: [
          "<25>{#p/asriel1}{#f/15}* $(name), you're the only human ghost this side of the continent.",
          '<25>{#f/17}* And the planet.',
@@ -4381,14 +4381,14 @@ export default {
          "<25>{#f/1}* That's a nice name.",
          '<25>{#p/kidd}{#f/6}* My name is Monster Kid.'
       ],
-      balcony34a2: [ '<25>{#p/asriel1}{#f/15}* ... did you just...', '<33>{#p/basic}* Asriel.\n* They said the thing.' ],
+      balcony34a2: ['<25>{#p/asriel1}{#f/15}* ... did you just...', '<33>{#p/basic}* Asriel.\n* They said the thing.'],
       balcony35a1: [
          '<25>{#p/asriel1}{#f/10}* They really did...',
          '<25>{#p/kidd}{#f/4}* What?\n* Did I say something wrong, or...',
          "<33>{#p/basic}* No, no, you're fine.\n* You just... uh, reminded us of something.",
          '<25>{#p/kidd}{#f/1}* Oh.\n* I hope it was something good, then.'
       ],
-      balcony35a2: [ '<25>{#p/asriel1}{#f/23}* ... it was.' ],
+      balcony35a2: ['<25>{#p/asriel1}{#f/23}* ... it was.'],
       balcony36a: [
          '<25>{#p/kidd}{#f/3}* Hey... thanks for being here, guys.',
          '<25>{#f/1}* With friends like you, living here is gonna be the best!'
@@ -4397,7 +4397,7 @@ export default {
          "<33>{#p/basic}* ... heh.\n* If we were just friends, maybe.\n* But we're more than that.",
          '<25>{#p/kidd}{#f/7}* ...？'
       ],
-      balcony38a: [ "<25>{#p/asriel1}{#f/17}* We're your family." ],
+      balcony38a: ["<25>{#p/asriel1}{#f/17}* We're your family."],
       balcony39a: [
          '<25>{*}{#p/kidd}{#f/1}* Oh!\n* Oh!\n* Does that mean we can- {%}',
          '<25>{*}{#f/1}* eat together and tell stories and go for nice walks in the park and- {%}',
@@ -4408,221 +4408,221 @@ export default {
          bed: (kiddo: boolean) =>
             SAVE.data.b.svr && !player.metadata.voidkey?.room.startsWith('_frontier') // NO-TRANSLATE
 
-               ? [ "<25>{#p/asriel1}{#f/20}* This bed looks like it hasn't been washed in three years..." ]
+               ? ["<25>{#p/asriel1}{#f/20}* This bed looks like it hasn't been washed in three years..."]
                : [
-                    SAVE.data.b.ufokinwotm8
-                       ? '<32>{#p/human}* (You run your hands through the covers of the bed, and note the wear and tear.)'
-                       : '<33>{#p/basic}* 这张床虽然做工精良，\n  但被谁躺过许多次的痕迹\n  仍然清晰可见。',
-                    ...(kiddo ? [ '<25>{#p/kidd}{#f/1}* Looks comfy! ' ] : [])
-                 ],
+                  SAVE.data.b.ufokinwotm8
+                     ? '<32>{#p/human}* (You run your hands through the covers of the bed, and note the wear and tear.)'
+                     : '<33>{#p/basic}* 这张床虽然做工精良，\n  但被谁躺过许多次的痕迹\n  仍然清晰可见。',
+                  ...(kiddo ? ['<25>{#p/kidd}{#f/1}* Looks comfy! '] : [])
+               ],
          plushie: (kiddo: boolean) =>
             SAVE.data.b.svr && !player.metadata.voidkey?.room.startsWith('_frontier') // NO-TRANSLATE
 
-               ? [ '<25>{#p/asriel1}{#f/20}* Whoever lives here must really like plushies.' ]
+               ? ['<25>{#p/asriel1}{#f/20}* Whoever lives here must really like plushies.']
                : [
-                    SAVE.data.b.ufokinwotm8
-                       ? '<32>{#p/human}* (You glance uninterestedly at the otherwise soft plushie.)'
-                       : "<32>{#p/basic}* 看来我不是唯一一个\n  喜欢软软的东西的人。",
-                    ...(kiddo ? [ '<25>{#p/kidd}{#f/3}* Aw, cute.' ] : [])
-                 ],
+                  SAVE.data.b.ufokinwotm8
+                     ? '<32>{#p/human}* (You glance uninterestedly at the otherwise soft plushie.)'
+                     : "<32>{#p/basic}* 看来我不是唯一一个\n  喜欢软软的东西的人。",
+                  ...(kiddo ? ['<25>{#p/kidd}{#f/3}* Aw, cute.'] : [])
+               ],
          computer: (kiddo: boolean) =>
             SAVE.data.b.svr && !player.metadata.voidkey?.room.startsWith('_frontier') // NO-TRANSLATE
 
                ? [
-                    '<25>{#p/asriel1}{#f/15}* I once dedicated myself to learning how to code...',
-                    '<25>{#p/asriel1}{#f/16}* ... whoever wrote this stuff should reconsider their life choices.'
-                 ]
+                  '<25>{#p/asriel1}{#f/15}* I once dedicated myself to learning how to code...',
+                  '<25>{#p/asriel1}{#f/16}* ... whoever wrote this stuff should reconsider their life choices.'
+               ]
                : [
-                    SAVE.data.b.ufokinwotm8
-                       ? '<32>{#p/human}* (You wonder if something like this could be the answer to your dissatisfaction.)'
-                       : '<32>{#p/basic}* 被颜色填充代码修饰的\n  等宽字体的文本，\n  填满了整个屏幕。',
-                    ...(kiddo ? [ '<25>{#p/kidd}{#f/1}* How OLD is this thing?' ] : [])
-                 ],
+                  SAVE.data.b.ufokinwotm8
+                     ? '<32>{#p/human}* (You wonder if something like this could be the answer to your dissatisfaction.)'
+                     : '<32>{#p/basic}* 被颜色填充代码修饰的\n  等宽字体的文本，\n  填满了整个屏幕。',
+                  ...(kiddo ? ['<25>{#p/kidd}{#f/1}* How OLD is this thing?'] : [])
+               ],
          flowers: (kiddo: boolean) =>
             SAVE.data.b.svr && !player.metadata.voidkey?.room.startsWith('_frontier') // NO-TRANSLATE
 
-               ? [ '<25>{#p/asriel1}{#f/10}* Huh?\n* What sort of flower is this anyway?' ]
+               ? ['<25>{#p/asriel1}{#f/10}* Huh?\n* What sort of flower is this anyway?']
                : [
-                    SAVE.data.b.ufokinwotm8
-                       ? '<32>{#p/human}* (You wonder where these flowers could have come from.)'
-                       : '<32>{#p/basic}* 花朵，\n  多愁善感的典型象征。',
-                    ...(kiddo ? [ "<25>{#p/kidd}{#f/1}* I don't think I've ever seen flowers like THESE before..." ] : [])
-                 ],
+                  SAVE.data.b.ufokinwotm8
+                     ? '<32>{#p/human}* (You wonder where these flowers could have come from.)'
+                     : '<32>{#p/basic}* 花朵，\n  多愁善感的典型象征。',
+                  ...(kiddo ? ["<25>{#p/kidd}{#f/1}* I don't think I've ever seen flowers like THESE before..."] : [])
+               ],
          x_window: () =>
             SAVE.data.b.ufokinwotm8
-               ? [ "<32>{#p/human}* (You can tell it's going to be a day of some variety.)" ]
+               ? ["<32>{#p/human}* (You can tell it's going to be a day of some variety.)"]
                : [
-                    ...(SAVE.data.b.svr ? [ "<32>{#p/human}* (You can tell it's going to be a nice day.)" ] : []),
-                    "<32>{#p/basic}* It's the start of a new day."
-                 ],
+                  ...(SAVE.data.b.svr ? ["<32>{#p/human}* (You can tell it's going to be a nice day.)"] : []),
+                  "<32>{#p/basic}* It's the start of a new day."
+               ],
          x_cab: () =>
             SAVE.data.b.ufokinwotm8
-               ? [ "<32>{#p/human}* (It's a cabinet full of clothes you feel indifferent about.)" ]
+               ? ["<32>{#p/human}* (It's a cabinet full of clothes you feel indifferent about.)"]
                : [
-                    ...(SAVE.data.b.svr ? [ "<32>{#p/human}* (It's a cabinet full of your favorite clothes.)" ] : []),
-                    '<32>{#p/basic}* Various clothes can be found within the cabinet.'
-                 ],
+                  ...(SAVE.data.b.svr ? ["<32>{#p/human}* (It's a cabinet full of your favorite clothes.)"] : []),
+                  '<32>{#p/basic}* Various clothes can be found within the cabinet.'
+               ],
          x_bed: () =>
             SAVE.data.b.ufokinwotm8
-               ? [ "<32>{#p/human}* (It's a bed.)\n* (You wish you could just go back to sleep.)" ]
+               ? ["<32>{#p/human}* (It's a bed.)\n* (You wish you could just go back to sleep.)"]
                : [
-                    ...(SAVE.data.b.svr
-                       ? [ "<32>{#p/human}* (It's a comfortable bed.)\n* (You had a good night's rest.)" ]
-                       : []),
-                    "<32>{#p/basic}* It's brand new, just for you."
-                 ],
+                  ...(SAVE.data.b.svr
+                     ? ["<32>{#p/human}* (It's a comfortable bed.)\n* (You had a good night's rest.)"]
+                     : []),
+                  "<32>{#p/basic}* It's brand new, just for you."
+               ],
          x_lamp: () => [
             ...(SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
-               ? [ "<32>{#p/human}* (It's a lamp.)\n* (It's just the right height for you to reach it.)" ]
+               ? ["<32>{#p/human}* (It's a lamp.)\n* (It's just the right height for you to reach it.)"]
                : []),
-            ...(SAVE.data.b.ufokinwotm8 ? [] : [ "<32>{#p/basic}* It's an oddly short lamp." ])
+            ...(SAVE.data.b.ufokinwotm8 ? [] : ["<32>{#p/basic}* It's an oddly short lamp."])
          ],
          x_toybox: () =>
             SAVE.data.b.ufokinwotm8
-               ? [ '<32>{#p/human}* (The toys are even less interesting than before.)' ]
+               ? ['<32>{#p/human}* (The toys are even less interesting than before.)']
                : [
-                    ...(SAVE.data.b.svr
-                       ? [ '<32>{#p/human}* (The toys appear to be rather interesting for once.)' ]
-                       : []),
-                    "<32>{#p/basic}* Perhaps these toys aren't so bad after all..."
-                 ],
+                  ...(SAVE.data.b.svr
+                     ? ['<32>{#p/human}* (The toys appear to be rather interesting for once.)']
+                     : []),
+                  "<32>{#p/basic}* Perhaps these toys aren't so bad after all..."
+               ],
          x_wash: () =>
             SAVE.data.b.ufokinwotm8
-               ? [ '<32>{#p/human}* (You stare into the drain.)' ]
+               ? ['<32>{#p/human}* (You stare into the drain.)']
                : [
-                    ...(SAVE.data.b.svr
-                       ? [ '<32>{#p/human}* (But your hands were already as clean as they could be.)' ]
-                       : [ '<32>{#p/human}* (You wonder if your hands could be a little cleaner.)' ]),
-                    "<32>{#p/basic}* It's a sink.\n* Don't sink too much time into thinking about it."
-                 ],
+                  ...(SAVE.data.b.svr
+                     ? ['<32>{#p/human}* (But your hands were already as clean as they could be.)']
+                     : ['<32>{#p/human}* (You wonder if your hands could be a little cleaner.)']),
+                  "<32>{#p/basic}* It's a sink.\n* Don't sink too much time into thinking about it."
+               ],
          x_toilet: () =>
             SAVE.data.b.ufokinwotm8
-               ? [ '<32>{#p/human}* (You ignore the toilet.)' ]
+               ? ['<32>{#p/human}* (You ignore the toilet.)']
                : [
-                    ...(SAVE.data.b.svr
-                       ? [ '<32>{#p/human}* (You tip up the toilet lid.)\n* (You then tip it back down.)' ]
-                       : []),
-                    ...(SAVE.data.b.ufokinwotm8 ? [] : [ "<32>{#p/basic}* It's a toilet.\n* What else would it be." ])
-                 ],
+                  ...(SAVE.data.b.svr
+                     ? ['<32>{#p/human}* (You tip up the toilet lid.)\n* (You then tip it back down.)']
+                     : []),
+                  ...(SAVE.data.b.ufokinwotm8 ? [] : ["<32>{#p/basic}* It's a toilet.\n* What else would it be."])
+               ],
          x_bathrub: () =>
             SAVE.data.b.ufokinwotm8
-               ? [ '<32>{#p/human}* (You wonder if a warm bath would make you feel better.)' ]
+               ? ['<32>{#p/human}* (You wonder if a warm bath would make you feel better.)']
                : [
-                    ...(SAVE.data.b.svr ? [ '<32>{#p/human}* (You look forward to taking your next warm bath.)' ] : []),
-                    '<32>{#p/basic}* Everything in this room is fit exactly to your size...'
-                 ],
+                  ...(SAVE.data.b.svr ? ['<32>{#p/human}* (You look forward to taking your next warm bath.)'] : []),
+                  '<32>{#p/basic}* Everything in this room is fit exactly to your size...'
+               ],
          x_mirror: () => [
             ...(SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
-               ? [ '<32>{#p/human}* (As you stare into the mirror, you reflect on the journey you took to get here.)' ]
+               ? ['<32>{#p/human}* (As you stare into the mirror, you reflect on the journey you took to get here.)']
                : []),
-            ...(SAVE.data.b.ufokinwotm8 ? [] : [ "<32>{#p/basic}* No matter what happens, it'll always be you." ])
+            ...(SAVE.data.b.ufokinwotm8 ? [] : ["<32>{#p/basic}* No matter what happens, it'll always be you."])
          ],
          x_sign1: () => [
             ...(SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
-               ? [ '<32>{#p/human}* (The sign describes adjusting to life on a new planet.)' ]
+               ? ['<32>{#p/human}* (The sign describes adjusting to life on a new planet.)']
                : []),
             ...(SAVE.data.b.ufokinwotm8
                ? []
                : [
-                    '<33>{#p/basic}* It\'s a five-step guide on how to adjust to planet-bound life.\n* They all amount to \"have fun.\"'
-                 ])
+                  '<33>{#p/basic}* It\'s a five-step guide on how to adjust to planet-bound life.\n* They all amount to \"have fun.\"'
+               ])
          ],
          x_sign2: () => [
             ...(SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
-               ? [ '<32>{#p/human}* (The sign outlines tasks that are yet to be completed.)' ]
+               ? ['<32>{#p/human}* (The sign outlines tasks that are yet to be completed.)']
                : []),
             ...(SAVE.data.b.ufokinwotm8
                ? []
-               : [ "<33>{#p/basic}* It's a list of various pending tasks relating to building a new community." ])
+               : ["<33>{#p/basic}* It's a list of various pending tasks relating to building a new community."])
          ],
          x_plant: () =>
             SAVE.data.b.ufokinwotm8
-               ? [ '<32>{#p/human}* (You caress the plant and sigh as it sighs with you.)' ]
+               ? ['<32>{#p/human}* (You caress the plant and sigh as it sighs with you.)']
                : [
-                    ...(SAVE.data.b.svr
-                       ? [ '<32>{#p/human}* (You caress the plant and smile as it smiles back at you.)' ]
-                       : []),
-                    '<32>{#p/basic}* This plant will always be happy to see you.'
-                 ],
+                  ...(SAVE.data.b.svr
+                     ? ['<32>{#p/human}* (You caress the plant and smile as it smiles back at you.)']
+                     : []),
+                  '<32>{#p/basic}* This plant will always be happy to see you.'
+               ],
          x_desk: () =>
             SAVE.data.b.ufokinwotm8
-               ? [ '<32>{#p/human}* (You stare into the empty diary, wishing you could write your own story.)' ]
+               ? ['<32>{#p/human}* (You stare into the empty diary, wishing you could write your own story.)']
                : [
-                    ...(SAVE.data.b.svr
-                       ? [
-                            '<32>{#p/human}* (You stare into the empty diary, wondering what stories are yet to be told.)'
-                         ]
-                       : []),
-                    "<32>{#p/basic}* It's a diary.\n* It's completely blank.",
-                    "<32>{#p/basic}* Asgore's favorite diary- writing chair must still be on the transport ship."
-                 ],
+                  ...(SAVE.data.b.svr
+                     ? [
+                        '<32>{#p/human}* (You stare into the empty diary, wondering what stories are yet to be told.)'
+                     ]
+                     : []),
+                  "<32>{#p/basic}* It's a diary.\n* It's completely blank.",
+                  "<32>{#p/basic}* Asgore's favorite diary- writing chair must still be on the transport ship."
+               ],
          x_paperwork: () => [
             ...(SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
-               ? [ '<32>{#p/human}* (You wonder if any of these items could belong to you.)' ]
+               ? ['<32>{#p/human}* (You wonder if any of these items could belong to you.)']
                : []),
             ...(SAVE.data.b.ufokinwotm8
                ? []
-               : [ '<32>{#p/basic}* The papers list various items that have yet to be taken in.' ])
+               : ['<32>{#p/basic}* The papers list various items that have yet to be taken in.'])
          ],
          x_trash: () => [
             ...(SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
-               ? [ "<32>{#p/human}* (You can't make out what's in the trash...)" ]
+               ? ["<32>{#p/human}* (You can't make out what's in the trash...)"]
                : []),
             ...(SAVE.data.b.ufokinwotm8
                ? []
-               : [ "<32>{#p/basic}* There is a crumpled up recipe for Starling Tea.\n* That's not his trash can..." ])
+               : ["<32>{#p/basic}* There is a crumpled up recipe for Starling Tea.\n* That's not his trash can..."])
          ],
          x_bed_large: () => [
             ...(SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
-               ? [ '<32>{#p/human}* (The bed still seems to be way too large for you.)' ]
+               ? ['<32>{#p/human}* (The bed still seems to be way too large for you.)']
                : []),
-            ...(SAVE.data.b.ufokinwotm8 ? [] : [ "<32>{#p/basic}* It'll always be a king-sized bed." ])
+            ...(SAVE.data.b.ufokinwotm8 ? [] : ["<32>{#p/basic}* It'll always be a king-sized bed."])
          ],
          x_cactus: () =>
             SAVE.data.b.ufokinwotm8
-               ? [ '<32>{#p/human}* (You poke the cactus.)\n* (It pokes back.)' ]
+               ? ['<32>{#p/human}* (You poke the cactus.)\n* (It pokes back.)']
                : [
-                    ...(SAVE.data.b.svr
-                       ? [
-                            '<32>{#p/human}* (You poke the cactus.)\n* (The cactus is touched by your sense of affection.)'
-                         ]
-                       : []),
-                    '<32>{#p/basic}* So she finally gave up her inner cactus, eh...?'
-                 ],
+                  ...(SAVE.data.b.svr
+                     ? [
+                        '<32>{#p/human}* (You poke the cactus.)\n* (The cactus is touched by your sense of affection.)'
+                     ]
+                     : []),
+                  '<32>{#p/basic}* So she finally gave up her inner cactus, eh...?'
+               ],
          x_booktable: () =>
             SAVE.data.b.ufokinwotm8
-               ? [ "<32>{#p/human}* (But you weren't in the mood to read a diary.)" ]
+               ? ["<32>{#p/human}* (But you weren't in the mood to read a diary.)"]
                : [
-                    ...(SAVE.data.b.svr
-                       ? [ '<32>{#p/human}* (The book contains the diary entries of Monster Kid.)' ]
-                       : [ "<32>{#p/basic}* It's Monster Kid's diary.\n* The pages are covered in small bite marks." ]),
-                    '<32>{#p/human}* (You read the first and only entry...)',
-                    '<32>{#p/kidding}* \"So asgores my dad now huh? Thats weird. But also AWESOME!\"',
-                    '<32>{#p/kidding}* \"Asgore said i should put on some new clothes so maybe ill do that later.\"',
-                    '<32>{#p/kidding}* \"He also said i should write a diary to keep track of things.\"',
-                    '<32>{#p/kidding}* \"Im pretty good at reading and writing so this should be really easy.\"',
-                    '<32>{#p/kidding}* \"And frisk can totally help me if i do something wrong!\"',
-                    '<32>{#p/kidding}* \"Frisk if youre reading this please tell me what i did wrong.\"',
-                    '<32>{#p/human}* (You close the diary.)'
-                 ],
+                  ...(SAVE.data.b.svr
+                     ? ['<32>{#p/human}* (The book contains the diary entries of Monster Kid.)']
+                     : ["<32>{#p/basic}* It's Monster Kid's diary.\n* The pages are covered in small bite marks."]),
+                  '<32>{#p/human}* (You read the first and only entry...)',
+                  '<32>{#p/kidding}* \"So asgores my dad now huh? Thats weird. But also AWESOME!\"',
+                  '<32>{#p/kidding}* \"Asgore said i should put on some new clothes so maybe ill do that later.\"',
+                  '<32>{#p/kidding}* \"He also said i should write a diary to keep track of things.\"',
+                  '<32>{#p/kidding}* \"Im pretty good at reading and writing so this should be really easy.\"',
+                  '<32>{#p/kidding}* \"And frisk can totally help me if i do something wrong!\"',
+                  '<32>{#p/kidding}* \"Frisk if youre reading this please tell me what i did wrong.\"',
+                  '<32>{#p/human}* (You close the diary.)'
+               ],
          x_bed_left: () => [
             ...(SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
-               ? [ "<32>{#p/human}* (You check under the covers to make sure it's safe to sleep.)" ]
+               ? ["<32>{#p/human}* (You check under the covers to make sure it's safe to sleep.)"]
                : []),
-            ...(SAVE.data.b.ufokinwotm8 ? [] : [ "<32>{#p/basic}* It's Monster Kid's bed." ])
+            ...(SAVE.data.b.ufokinwotm8 ? [] : ["<32>{#p/basic}* It's Monster Kid's bed."])
          ],
          x_knickknacks: () => [
             ...(SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
-               ? [ '<32>{#p/human}* (You re-arrange the knick knacks to pass the time.)\n* (You hope nobody notices.)' ]
+               ? ['<32>{#p/human}* (You re-arrange the knick knacks to pass the time.)\n* (You hope nobody notices.)']
                : []),
-            ...(SAVE.data.b.ufokinwotm8 ? [] : [ "<32>{#p/basic}* It's a shelf full of various toys and knick knacks." ])
+            ...(SAVE.data.b.ufokinwotm8 ? [] : ["<32>{#p/basic}* It's a shelf full of various toys and knick knacks."])
          ],
          x_bed_right: () =>
             SAVE.data.b.svr
                ? [
-                    '<32>{#p/human}* (You pat the plushie.)\n* (It might just be you, but it seems a little happier.)',
-                    "<32>{#p/basic}* It's Asriel's bed.\n* It doesn't look like it's been used yet."
-                 ]
+                  '<32>{#p/human}* (You pat the plushie.)\n* (It might just be you, but it seems a little happier.)',
+                  "<32>{#p/basic}* It's Asriel's bed.\n* It doesn't look like it's been used yet."
+               ]
                : [],
          x_bookshelf: (() => {
             const pages = pager.create(
@@ -4663,21 +4663,21 @@ export default {
                () =>
                   SAVE.data.b.c_state_secret3_used
                      ? [
-                          '<32>{#p/basic}* \"Wormhole experiment report!\"\n* \"From Dr. Alphys to Asgore\"',
-                          '<32>* \"Progress on my wormhole experiment is going smoothly!\"',
-                          '<32>* \"Ever since Frisk forwarded the professor\'s equations, I\'ve made steady progress.\"',
-                          '<32>* \"I\'ve even managed to send small objects through the aperture...\"',
-                          '<32>* \"In my next test, I\'ll send a tethered scanner through and see what it picks up.\"',
-                          '<32>* \"Wormholes for monster travel could be here as soon as K-616.05!\"'
-                       ]
+                        '<32>{#p/basic}* \"Wormhole experiment report!\"\n* \"From Dr. Alphys to Asgore\"',
+                        '<32>* \"Progress on my wormhole experiment is going smoothly!\"',
+                        '<32>* \"Ever since Frisk forwarded the professor\'s equations, I\'ve made steady progress.\"',
+                        '<32>* \"I\'ve even managed to send small objects through the aperture...\"',
+                        '<32>* \"In my next test, I\'ll send a tethered scanner through and see what it picks up.\"',
+                        '<32>* \"Wormholes for monster travel could be here as soon as K-616.05!\"'
+                     ]
                      : [
-                          '<32>{#p/basic}* \"Wormhole experiment report.\"\n* \"From Dr. Alphys to Asgore\"',
-                          '<32>* \"Progress on my wormhole experiment has hit a snag.\"',
-                          '<32>* \"The professor\'s incomplete equations haven\'t been enough to get things working.\"',
-                          '<32>* \"I\'ll keep trying, but I can\'t go too fast without putting my life at risk.\"',
-                          '<32>* \"In my next experiment, I\'ll see if I can get the aperture to last a little longer...\"',
-                          '<32>* \"Wormholes for monster travel won\'t be coming any time soon.\"'
-                       ],
+                        '<32>{#p/basic}* \"Wormhole experiment report.\"\n* \"From Dr. Alphys to Asgore\"',
+                        '<32>* \"Progress on my wormhole experiment has hit a snag.\"',
+                        '<32>* \"The professor\'s incomplete equations haven\'t been enough to get things working.\"',
+                        '<32>* \"I\'ll keep trying, but I can\'t go too fast without putting my life at risk.\"',
+                        '<32>* \"In my next experiment, I\'ll see if I can get the aperture to last a little longer...\"',
+                        '<32>* \"Wormholes for monster travel won\'t be coming any time soon.\"'
+                     ],
                [
                   '<32>{#p/basic}* \"You have received an invitation to the transport ship triumph!\"',
                   '<32>* \"Events will be held from stem to stern, including hovercar races and dance raves!\"',
@@ -4699,233 +4699,233 @@ export default {
             );
             return () =>
                SAVE.data.b.ufokinwotm8
-                  ? [ "<32>{#p/human}* (But you weren't in the mood to read a book.)" ]
+                  ? ["<32>{#p/human}* (But you weren't in the mood to read a book.)"]
                   : [
-                       ...(SAVE.data.b.svr
-                          ? [
-                               '<32>{#p/human}* (The books on this bookshelf are capable of swapping their content on-demand.)'
-                            ]
-                          : [
-                               '<32>{#p/basic}* The books are all blank, but get filled with the text of the book you select.'
-                            ]),
-                       "<32>{#p/human}* (You select a book from the control panel, and pick it out once it's ready...)",
-                       ...pages(),
-                       '<32>{#p/human}* （你把书放回了书架。）'
-                    ];
+                     ...(SAVE.data.b.svr
+                        ? [
+                           '<32>{#p/human}* (The books on this bookshelf are capable of swapping their content on-demand.)'
+                        ]
+                        : [
+                           '<32>{#p/basic}* The books are all blank, but get filled with the text of the book you select.'
+                        ]),
+                     "<32>{#p/human}* (You select a book from the control panel, and pick it out once it's ready...)",
+                     ...pages(),
+                     '<32>{#p/human}* （你把书放回了书架。）'
+                  ];
          })(),
          x_endtable: () =>
             SAVE.data.b.ufokinwotm8
                ? [
-                    SAVE.data.b.water
-                       ? '<32>{#p/human}* (You observe the end table, and the cup on top of it.)\n* (It seems disturbed.)'
-                       : '<32>{#p/human}* (You observe the end table.)\n* (It seems disturbed.)'
-                 ]
+                  SAVE.data.b.water
+                     ? '<32>{#p/human}* (You observe the end table, and the cup on top of it.)\n* (It seems disturbed.)'
+                     : '<32>{#p/human}* (You observe the end table.)\n* (It seems disturbed.)'
+               ]
                : [
-                    ...(SAVE.data.b.svr
-                       ? [
-                            SAVE.data.b.water
-                               ? '<32>{#p/human}* (You observe the end table, and the cup on top of it.)\n* (It seems pleased.)'
-                               : '<32>{#p/human}* (You observe the end table.)\n* (It seems pleased.)'
-                         ]
-                       : []),
-                    '<32>{#p/basic}* At last...\n* A remarkable end table.',
-                    ...(SAVE.data.b.water
-                       ? [
-                            '<33>{#p/basic}* It even has a cup of electro- dampening fluid on it.\n* Truly, a sippy you can rely on.'
-                         ]
-                       : [])
-                 ],
+                  ...(SAVE.data.b.svr
+                     ? [
+                        SAVE.data.b.water
+                           ? '<32>{#p/human}* (You observe the end table, and the cup on top of it.)\n* (It seems pleased.)'
+                           : '<32>{#p/human}* (You observe the end table.)\n* (It seems pleased.)'
+                     ]
+                     : []),
+                  '<32>{#p/basic}* At last...\n* A remarkable end table.',
+                  ...(SAVE.data.b.water
+                     ? [
+                        '<33>{#p/basic}* It even has a cup of electro- dampening fluid on it.\n* Truly, a sippy you can rely on.'
+                     ]
+                     : [])
+               ],
          x_chasgore: () => [
             ...(SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
                ? SAVE.data.b.svr && SAVE.data.b.c_state_secret1_used && SAVE.data.b.c_state_secret5_used
-                  ? [ '<32>{#p/human}* (The chair strikes you as being where it belongs.)' ]
+                  ? ['<32>{#p/human}* (The chair strikes you as being where it belongs.)']
                   : SAVE.data.b.svr || (SAVE.data.b.c_state_secret1_used && SAVE.data.b.c_state_secret5_used)
-                  ? [ '<32>{#p/human}* (The chair strikes you as being well-placed enough.)' ]
-                  : [ '<32>{#p/human}* (The chair strikes you as being out of place.)' ]
+                     ? ['<32>{#p/human}* (The chair strikes you as being well-placed enough.)']
+                     : ['<32>{#p/human}* (The chair strikes you as being out of place.)']
                : []),
             ...(SAVE.data.b.ufokinwotm8
                ? []
-               : [ '<32>{#p/basic}* A comfy reading chair...', "<32>* Doesn't seem like the right size for Asgore." ])
+               : ['<32>{#p/basic}* A comfy reading chair...', "<32>* Doesn't seem like the right size for Asgore."])
          ],
          x_window_left: () =>
             SAVE.data.b.ufokinwotm8
-               ? [ '<32>{#p/human}* (Staring out the window, you wonder where you went wrong to deserve this feeling.)' ]
+               ? ['<32>{#p/human}* (Staring out the window, you wonder where you went wrong to deserve this feeling.)']
                : [
-                    ...(SAVE.data.b.svr
-                       ? [
-                            '<32>{#p/human}* (Staring out the window, you feel nothing but excitement for the future ahead.)'
-                         ]
-                       : []),
-                    '<32>{#p/basic}* The window accentuates the atmosphere outside.'
-                 ],
+                  ...(SAVE.data.b.svr
+                     ? [
+                        '<32>{#p/human}* (Staring out the window, you feel nothing but excitement for the future ahead.)'
+                     ]
+                     : []),
+                  '<32>{#p/basic}* The window accentuates the atmosphere outside.'
+               ],
          x_window_right: () =>
             SAVE.data.b.ufokinwotm8
-               ? [ '<32>{#p/human}* (Staring out the window, you ask yourself why things had to end up this way.)' ]
+               ? ['<32>{#p/human}* (Staring out the window, you ask yourself why things had to end up this way.)']
                : [
-                    ...(SAVE.data.b.svr
-                       ? [
-                            "<32>{#p/human}* (Staring out the window, you remind yourself of how long you've waited to get here.)"
-                         ]
-                       : []),
-                    '<32>{#p/basic}* The window enhances the atmosphere inside.'
-                 ],
+                  ...(SAVE.data.b.svr
+                     ? [
+                        "<32>{#p/human}* (Staring out the window, you remind yourself of how long you've waited to get here.)"
+                     ]
+                     : []),
+                  '<32>{#p/basic}* The window enhances the atmosphere inside.'
+               ],
          x_plant_left: () =>
             SAVE.data.b.ufokinwotm8
-               ? [ '<32>{#p/human}* (You touch the plant lightly.)\n* (It understands your pain.)' ]
+               ? ['<32>{#p/human}* (You touch the plant lightly.)\n* (It understands your pain.)']
                : [
-                    ...(SAVE.data.b.svr
-                       ? [
-                            '<32>{#p/human}* (You touch the plant lightly.)\n* (It shakes and bobs, relieved that you were here.)'
-                         ]
-                       : []),
-                    '<33>{#p/basic}* A compassionate plant.'
-                 ],
+                  ...(SAVE.data.b.svr
+                     ? [
+                        '<32>{#p/human}* (You touch the plant lightly.)\n* (It shakes and bobs, relieved that you were here.)'
+                     ]
+                     : []),
+                  '<33>{#p/basic}* A compassionate plant.'
+               ],
          x_plant_right: () =>
             SAVE.data.b.ufokinwotm8
-               ? [ '<32>{#p/human}* (You touch the plant lightly.)\n* (It promises things will get better for you.)' ]
+               ? ['<32>{#p/human}* (You touch the plant lightly.)\n* (It promises things will get better for you.)']
                : [
-                    ...(SAVE.data.b.svr
-                       ? [ '<32>{#p/human}* (You touch the plant lightly.)\n* (It appreciates the gesture.)' ]
-                       : []),
-                    '<32>{#p/basic}* An optimistic plant.'
-                 ],
+                  ...(SAVE.data.b.svr
+                     ? ['<32>{#p/human}* (You touch the plant lightly.)\n* (It appreciates the gesture.)']
+                     : []),
+                  '<32>{#p/basic}* An optimistic plant.'
+               ],
          x_sign3: () => [
             ...(SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
-               ? [ "<32>{#p/human}* (The sign doesn't appear to hold anything of note.)" ]
+               ? ["<32>{#p/human}* (The sign doesn't appear to hold anything of note.)"]
                : []),
             ...(SAVE.data.b.ufokinwotm8
                ? []
                : [
-                    "<32>{#p/basic}* It's a digital picture frame.\n* All it needs now are some good memories, in visual form."
-                 ])
+                  "<32>{#p/basic}* It's a digital picture frame.\n* All it needs now are some good memories, in visual form."
+               ])
          ],
          x_chair1: () => [
             ...(SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
-               ? [ '<32>{#p/human}* (You note the fairly large size of the dining chair.)' ]
+               ? ['<32>{#p/human}* (You note the fairly large size of the dining chair.)']
                : []),
             ...(SAVE.data.b.ufokinwotm8
                ? []
                : SAVE.data.b.svr && SAVE.data.b.c_state_secret1_used && SAVE.data.b.c_state_secret5_used
-               ? [ "<32>{#p/basic}* One of Asgore's dining chairs.\n* Fit for a mother." ]
-               : SAVE.data.b.svr || (SAVE.data.b.c_state_secret1_used && SAVE.data.b.c_state_secret5_used)
-               ? [ "<32>{#p/basic}* One of Asgore's dining chairs.\n* Still fit for a queen." ]
-               : [ "<32>{#p/basic}* One of Asgore's dining chairs.\n* Not fit for anyone." ])
+                  ? ["<32>{#p/basic}* One of Asgore's dining chairs.\n* Fit for a mother."]
+                  : SAVE.data.b.svr || (SAVE.data.b.c_state_secret1_used && SAVE.data.b.c_state_secret5_used)
+                     ? ["<32>{#p/basic}* One of Asgore's dining chairs.\n* Still fit for a queen."]
+                     : ["<32>{#p/basic}* One of Asgore's dining chairs.\n* Not fit for anyone."])
          ],
          x_chair2: () => [
             ...(SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
-               ? [ '<32>{#p/human}* (You note the small size of the dining chair.)' ]
+               ? ['<32>{#p/human}* (You note the small size of the dining chair.)']
                : []),
             ...(SAVE.data.b.svr
-               ? [ "<32>{#p/basic}* One of Asgore's dining chairs.\n* Fit for a brother." ]
+               ? ["<32>{#p/basic}* One of Asgore's dining chairs.\n* Fit for a brother."]
                : SAVE.data.b.ufokinwotm8
-               ? []
-               : [ "<32>{#p/basic}* One of Asgore's dining chairs.\n* Not fit for anyone." ])
+                  ? []
+                  : ["<32>{#p/basic}* One of Asgore's dining chairs.\n* Not fit for anyone."])
          ],
          x_chair3: () =>
             SAVE.data.b.ufokinwotm8
-               ? [ '<32>{#p/human}* (You wonder if this chair is still fit for a little angel.)' ]
+               ? ['<32>{#p/human}* (You wonder if this chair is still fit for a little angel.)']
                : [
-                    ...(SAVE.data.b.svr
-                       ? [
-                            '<32>{#p/human}* (You note the perfect size of the dining chair.)',
-                            "<32>{#p/basic}* It's fit just for you, Frisk."
-                         ]
-                       : [ "<32>{#p/basic}* One of Asgore's dining chairs.\n* Still fit for a child." ])
-                 ],
+                  ...(SAVE.data.b.svr
+                     ? [
+                        '<32>{#p/human}* (You note the perfect size of the dining chair.)',
+                        "<32>{#p/basic}* It's fit just for you, Frisk."
+                     ]
+                     : ["<32>{#p/basic}* One of Asgore's dining chairs.\n* Still fit for a child."])
+               ],
          x_chair4: () => [
             ...(SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
-               ? [ '<32>{#p/human}* (You note the slightly small size of the dining chair.)' ]
+               ? ['<32>{#p/human}* (You note the slightly small size of the dining chair.)']
                : []),
             ...(SAVE.data.b.svr
-               ? [ "<32>{#p/basic}* One of Asgore's dining chairs.\n* Fit for a sibling." ]
+               ? ["<32>{#p/basic}* One of Asgore's dining chairs.\n* Fit for a sibling."]
                : SAVE.data.b.ufokinwotm8
-               ? []
-               : SAVE.data.b.f_state_kidd_betray
-               ? [ "<32>{#p/basic}* One of Asgore's dining chairs.\n* Not fit for anyone." ]
-               : [ "<32>{#p/basic}* One of Asgore's dining chairs.\n* Fit for a monster." ])
+                  ? []
+                  : SAVE.data.b.f_state_kidd_betray
+                     ? ["<32>{#p/basic}* One of Asgore's dining chairs.\n* Not fit for anyone."]
+                     : ["<32>{#p/basic}* One of Asgore's dining chairs.\n* Fit for a monster."])
          ],
          x_chair5: () => [
             ...(SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
-               ? [ '<32>{#p/human}* (You note the exceptional size of the dining chair.)' ]
+               ? ['<32>{#p/human}* (You note the exceptional size of the dining chair.)']
                : []),
             ...(SAVE.data.b.svr
-               ? [ "<32>{#p/basic}* One of Asgore's dining chairs.\n* Fit for a father." ]
+               ? ["<32>{#p/basic}* One of Asgore's dining chairs.\n* Fit for a father."]
                : SAVE.data.b.ufokinwotm8
-               ? []
-               : [ "<32>{#p/basic}* One of Asgore's dining chairs.\n* Still fit for a king." ])
+                  ? []
+                  : ["<32>{#p/basic}* One of Asgore's dining chairs.\n* Still fit for a king."])
          ],
          x_fridge: () =>
             SAVE.data.b.ufokinwotm8
-               ? [ '<32>{#p/human}* (You place your hands on the exterior of the fridge.)\n* (It groans harshly.)' ]
+               ? ['<32>{#p/human}* (You place your hands on the exterior of the fridge.)\n* (It groans harshly.)']
                : [
-                    ...(SAVE.data.b.svr
-                       ? [ '<32>{#p/human}* (You place your hands on the exterior of the fridge.)\n* (It purrs gently.)' ]
-                       : []),
-                    ...[
-                       [ '<32>{#p/basic}* The fridge is mostly empty, save for a single glass of water from Undyne.' ],
-                       [
-                          '<32>{#p/basic}* The fridge is mostly empty, save for a single bottle of exoberry punch from Undyne.'
-                       ],
-                       [
-                          '<32>{#p/basic}* The fridge is mostly empty, save for a single mug of hot cocoa from Undyne.',
-                          "<32>* ... it's freezing cold by now."
-                       ],
-                       [
-                          '<32>{#p/basic}* The fridge is mostly empty, save for a single cup of Starling tea from Undyne.',
-                          "<32>* ... it's freezing cold by now."
-                       ]
-                    ][SAVE.data.n.undyne_drink]
-                 ],
+                  ...(SAVE.data.b.svr
+                     ? ['<32>{#p/human}* (You place your hands on the exterior of the fridge.)\n* (It purrs gently.)']
+                     : []),
+                  ...[
+                     ['<32>{#p/basic}* The fridge is mostly empty, save for a single glass of water from Undyne.'],
+                     [
+                        '<32>{#p/basic}* The fridge is mostly empty, save for a single bottle of exoberry punch from Undyne.'
+                     ],
+                     [
+                        '<32>{#p/basic}* The fridge is mostly empty, save for a single mug of hot cocoa from Undyne.',
+                        "<32>* ... it's freezing cold by now."
+                     ],
+                     [
+                        '<32>{#p/basic}* The fridge is mostly empty, save for a single cup of Starling tea from Undyne.',
+                        "<32>* ... it's freezing cold by now."
+                     ]
+                  ][SAVE.data.n.undyne_drink]
+               ],
          x_sink: () => [
             ...(SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
-               ? [ "<32>{#p/human}* (Surprisingly, you can't find any residue in the sink.)" ]
+               ? ["<32>{#p/human}* (Surprisingly, you can't find any residue in the sink.)"]
                : []),
             ...(SAVE.data.b.ufokinwotm8
                ? []
-               : [ '<32>{#p/basic}* No fur, no hair...\n* Indeed, these are the wonders of technology.' ])
+               : ['<32>{#p/basic}* No fur, no hair...\n* Indeed, these are the wonders of technology.'])
          ],
          x_drawer: () =>
             SAVE.data.b.ufokinwotm8
-               ? [ '<32>{#p/human}* (You open the drawer, and pet the dog within for comfort.)' ]
+               ? ['<32>{#p/human}* (You open the drawer, and pet the dog within for comfort.)']
                : [
-                    ...(SAVE.data.b.svr ? [ '<32>{#p/human}* (You open the drawer, and wave to the dog within.)' ] : []),
-                    '<32>{#p/basic}* That dog, in that drawer...\n* Better not let Papyrus catch wind of this.'
-                 ],
+                  ...(SAVE.data.b.svr ? ['<32>{#p/human}* (You open the drawer, and wave to the dog within.)'] : []),
+                  '<32>{#p/basic}* That dog, in that drawer...\n* Better not let Papyrus catch wind of this.'
+               ],
          x_stove: () =>
             SAVE.data.b.ufokinwotm8
-               ? [ '<32>{#p/human}* (You wonder if the stove will burn this house down, too.)' ]
+               ? ['<32>{#p/human}* (You wonder if the stove will burn this house down, too.)']
                : [
-                    ...(SAVE.data.b.svr
-                       ? [ '<32>{#p/human}* (You wonder what delicious meals will be made here.)' ]
-                       : []),
-                    "<32>{#p/basic}* It's the same model as Undyne's stove...",
-                    '<32>* We can only hope it came equipped with the appropriate safety measures this time.'
-                 ],
+                  ...(SAVE.data.b.svr
+                     ? ['<32>{#p/human}* (You wonder what delicious meals will be made here.)']
+                     : []),
+                  "<32>{#p/basic}* It's the same model as Undyne's stove...",
+                  '<32>* We can only hope it came equipped with the appropriate safety measures this time.'
+               ],
          x_sign4: () => [
             ...(SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
-               ? [ '<32>{#p/human}* (The sign lists instructions to a certain recipe.)' ]
+               ? ['<32>{#p/human}* (The sign lists instructions to a certain recipe.)']
                : []),
             ...(SAVE.data.b.ufokinwotm8
                ? []
                : [
-                    '<32>{#p/basic}* Tucca Zunasca, a new kind of soup for a new kind of world.',
-                    '<32>* In a pot, brown a sausage, adding spicy pepper flakes as needed.',
-                    '<32>* Add two Kriatas of basic stock, and bring the pot to a boil.',
-                    '<32>* For best results, apply fire magic. Otherwise, oxygenated flame will suffice.',
-                    '<32>* Dice one pound of Eurybian potatoes, and add them to the boiling pot.',
-                    '<32>* Once the mixture begins to sparkle, begin adding whipping cream and bar-bird broth.',
-                    '<32>* For now, source the cream from the giga-vine canopy. Other sources may be found later.',
-                    '<32>* Additionally, kale or kretaada may be added, and cooked at high intensity until soft.',
-                    '<32>* Once complete, your soup should be ready for the table!'
-                 ])
+                  '<32>{#p/basic}* Tucca Zunasca, a new kind of soup for a new kind of world.',
+                  '<32>* In a pot, brown a sausage, adding spicy pepper flakes as needed.',
+                  '<32>* Add two Kriatas of basic stock, and bring the pot to a boil.',
+                  '<32>* For best results, apply fire magic. Otherwise, oxygenated flame will suffice.',
+                  '<32>* Dice one pound of Eurybian potatoes, and add them to the boiling pot.',
+                  '<32>* Once the mixture begins to sparkle, begin adding whipping cream and bar-bird broth.',
+                  '<32>* For now, source the cream from the giga-vine canopy. Other sources may be found later.',
+                  '<32>* Additionally, kale or kretaada may be added, and cooked at high intensity until soft.',
+                  '<32>* Once complete, your soup should be ready for the table!'
+               ])
          ]
       },
       moniker: [
-         [ '灵魂杀手', '灵魂杀手', '灵魂杀手', '灵魂杀手' ],
-         [ '黄天霸主', '黄天霸主', '霸主', '黄天霸主' ],
-         [ '风云剑客', '风云剑客', '剑客', '风云剑客' ],
-         [ '狂怒剑皇', '狂怒剑皇', '剑皇', '狂怒剑皇' ],
-         [ '星际游侠', '星际游侠', '游侠', '星际游侠' ]
+         ['灵魂杀手', '灵魂杀手', '灵魂杀手', '灵魂杀手'],
+         ['黄天霸主', '黄天霸主', '霸主', '黄天霸主'],
+         ['风云剑客', '风云剑客', '剑客', '风云剑客'],
+         ['狂怒剑皇', '狂怒剑皇', '剑皇', '狂怒剑皇'],
+         ['星际游侠', '星际游侠', '游侠', '星际游侠']
       ] as [string, string, string, string][]
    },
 
@@ -5084,65 +5084,65 @@ export default {
    },
 
    b_opponent_dummy: {
-      act_check: [ "<32>{#p/story}* 训练人偶 - 攻击0 防御0\n* 壳中幽灵，祝君安宁。" ],
+      act_check: ["<32>{#p/story}* 训练人偶 - 攻击0 防御0\n* 壳中幽灵，祝君安宁。"],
       act_flirt: [
          '<32>{#p/human}* （你向人偶调情。）',
          "<32>{#p/basic}* 它的反应和你想的完全一样。",
          '<32>* 托丽尔强忍住不笑。'
       ],
-      act_hug: [ '<32>{#p/human}* （你抱了抱人偶。）' ],
-      act_slap: [ '<32>{#p/human}* （你扇了人偶一巴掌。）' ],
+      act_hug: ['<32>{#p/human}* （你抱了抱人偶。）'],
+      act_slap: ['<32>{#p/human}* （你扇了人偶一巴掌。）'],
       act_talk: [
          '<32>{#p/human}* （你跟人偶聊了几句。）',
          "<32>{#p/basic}* 它好像不怎么健谈。",
          '<32>* 托丽尔看起来很高兴。'
       ],
-      bored: [ '<32>{#p/basic}* 人偶厌倦了你意味不明的把戏。' ],
-      hugged: [ '<32>{#p/basic}* 人偶不知为何... 脸红了。' ],
+      bored: ['<32>{#p/basic}* 人偶厌倦了你意味不明的把戏。'],
+      hugged: ['<32>{#p/basic}* 人偶不知为何... 脸红了。'],
       name: '* 训练人偶',
-      slapped: [ '<32>{#p/basic}* 突然...！' ],
-      status1: [ '<32>{#p/story}* 你遭遇了训练人偶。' ],
-      status2: [ "<32>{#p/story}* 人偶看起来有些厌倦了。" ],
-      status3: [ "<32>{#p/story}* 人偶看起来好像迷失了自我。" ],
-      status4: [ "<32>{#p/story}* 人偶差点要倒下了。" ],
-      talk: [ '<09>{#p/basic}{#i/20}{~}.....{}' ]
+      slapped: ['<32>{#p/basic}* 突然...！'],
+      status1: ['<32>{#p/story}* 你遭遇了训练人偶。'],
+      status2: ["<32>{#p/story}* 人偶看起来有些厌倦了。"],
+      status3: ["<32>{#p/story}* 人偶看起来好像迷失了自我。"],
+      status4: ["<32>{#p/story}* 人偶差点要倒下了。"],
+      talk: ['<09>{#p/basic}{#i/20}{~}.....{}']
    },
    b_opponent_maddummy: {
-      epiphaNOPE1: [ "<11>{#p/basic}{~}{#x3}Ugh, you're WASTING my time!" ],
-      epiphaNOPE2: [ '<08>{#p/basic}{~}Oh.. how strange.' ],
+      epiphaNOPE1: ["<11>{#p/basic}{~}{#x3}Ugh, you're WASTING my time!"],
+      epiphaNOPE2: ['<08>{#p/basic}{~}Oh.. how strange.'],
       act_check: () =>
          16 <= SAVE.data.n.kills_wastelands
-            ? [ "<32>{#p/story}* 开心人偶 - 攻击0 防御0\n* 它的梦想成真啦！" ]
-            : [ '<32>{#p/story}* 愤怒人偶 - 攻击30 防御255\n* 免疫一切物理攻击。' ],
+            ? ["<32>{#p/story}* 开心人偶 - 攻击0 防御0\n* 它的梦想成真啦！"]
+            : ['<32>{#p/story}* 愤怒人偶 - 攻击30 防御255\n* 免疫一切物理攻击。'],
       act_flirt: () =>
          16 <= SAVE.data.n.kills_wastelands
             ? [
-                 '<32>{#p/human}* （你向开心人偶调情。）',
-                 "<32>{#p/basic}* 它正沉浸在梦想成真的喜悦之中，\n  没听到你的话。"
-              ]
-            : [ '<32>{#p/human}* （你向愤怒人偶调情。）', "<32>* 它的反应跟你想的完全一样。" ],
+               '<32>{#p/human}* （你向开心人偶调情。）',
+               "<32>{#p/basic}* 它正沉浸在梦想成真的喜悦之中，\n  没听到你的话。"
+            ]
+            : ['<32>{#p/human}* （你向愤怒人偶调情。）', "<32>* 它的反应跟你想的完全一样。"],
       act_hug: () =>
          16 <= SAVE.data.n.kills_wastelands
-            ? [ '<32>{#p/human}* （你抱了抱开心人偶。）' ]
-            : [ '<32>{#p/human}* （你抱了抱愤怒人偶。）' ],
+            ? ['<32>{#p/human}* （你抱了抱开心人偶。）']
+            : ['<32>{#p/human}* （你抱了抱愤怒人偶。）'],
       act_slap: () =>
          16 <= SAVE.data.n.kills_wastelands
             ? [
-                 '<32>{#p/human}* （你扇了开心人偶一巴掌。）',
-                 '<32>{#p/basic}* 开心人偶不敢再轻举妄动，\n  匆匆逃走了。'
-              ]
-            : [ '<32>{#p/human}* （你扇了愤怒人偶一巴掌。）' ],
+               '<32>{#p/human}* （你扇了开心人偶一巴掌。）',
+               '<32>{#p/basic}* 开心人偶不敢再轻举妄动，\n  匆匆逃走了。'
+            ]
+            : ['<32>{#p/human}* （你扇了愤怒人偶一巴掌。）'],
       act_talk: () =>
          16 <= SAVE.data.n.kills_wastelands
             ? [
-                 '<32>{#p/human}* （你想和开心人说说话。）',
-                 "<32>{#p/basic}* 它正沉浸在梦想成真的喜悦之中，\n  没听到你的话。"
-              ]
+               '<32>{#p/human}* （你想和开心人说说话。）',
+               "<32>{#p/basic}* 它正沉浸在梦想成真的喜悦之中，\n  没听到你的话。"
+            ]
             : [
-                 '<32>{#p/human}* （你跟愤怒人偶聊了几句。）',
-                 "<32>* 它好像不怎么健谈。",
-                 '<32>* 然而，现在没人\n  对你的行为感到高兴了。'
-              ],
+               '<32>{#p/human}* （你跟愤怒人偶聊了几句。）',
+               "<32>* 它好像不怎么健谈。",
+               '<32>* 然而，现在没人\n  对你的行为感到高兴了。'
+            ],
       boredTalk: [
          '<11>{#p/basic}{~}{#x3}What the hell?',
          '<11>{#p/basic}{~}{#x1}Why is NOTHING hap- pening?',
@@ -5153,8 +5153,8 @@ export default {
          '<11>{#p/basic}{~}{#x4}JUST... GAHH!\nGET OUT OF MY LIFE!',
          '<11>{#p/basic}{~}{#x4}GO LISTEN TO MUSIC WITH NAPSTABLOOK OR SOMETHING!'
       ],
-      changeStatus1: [ '<32>{#p/story}* 愤怒人偶把棉花\n  弹得到处都是。' ],
-      changeStatus2: [ '<32>{#p/story}* 机械噪声在房间中回响。' ],
+      changeStatus1: ['<32>{#p/story}* 愤怒人偶把棉花\n  弹得到处都是。'],
+      changeStatus2: ['<32>{#p/story}* 机械噪声在房间中回响。'],
       fightFail: [
          '<11>{#p/basic}{~}{#x1}愚蠢。\n愚蠢！\n愚蠢！',
          '<11>{#p/basic}{~}{#x3}就算你打到了\n我的身体...',
@@ -5166,49 +5166,49 @@ export default {
          '<11>{#p/napstablook}{~}as soon as i came over, your friend immediately left...',
          ...(SAVE.data.n.state_wastelands_napstablook === 2
             ? [
-                 "<11>{#p/napstablook}{~}oh wait...\ndidn't you attack me before...",
-                 "<11>{#p/napstablook}{~}uhhh...\nthat's awkward.",
-                 '<11>{#p/napstablook}{~}sorry...'
-              ]
+               "<11>{#p/napstablook}{~}oh wait...\ndidn't you attack me before...",
+               "<11>{#p/napstablook}{~}uhhh...\nthat's awkward.",
+               '<11>{#p/napstablook}{~}sorry...'
+            ]
             : [
-                 '<11>{#p/napstablook}{~}oh no...\nyou guys looked like you were having fun...',
-                 '<11>{#p/napstablook}{~}oh no...\ni just wanted to say hi...',
-                 '<11>{#p/napstablook}{~}oh no......\n...........\n...........\n...........\n...........'
-              ])
+               '<11>{#p/napstablook}{~}oh no...\nyou guys looked like you were having fun...',
+               '<11>{#p/napstablook}{~}oh no...\ni just wanted to say hi...',
+               '<11>{#p/napstablook}{~}oh no......\n...........\n...........\n...........\n...........'
+            ])
       ],
-      gladTalk1: [ '<08>{#p/basic}{~}谢啦！' ],
-      gladTalk2: [ '<08>{#p/basic}{~}谢谢你！' ],
-      gladTalk3: [ '<08>{#p/basic}{~}你真棒！' ],
-      gladTalk4: [ '<08>{#p/basic}{~}真不错！' ],
-      gladTalk5: [ '<08>{#p/basic}{~}好！' ],
-      gladTalk6: [ '<08>{#p/basic}{~}...' ],
+      gladTalk1: ['<08>{#p/basic}{~}谢啦！'],
+      gladTalk2: ['<08>{#p/basic}{~}谢谢你！'],
+      gladTalk3: ['<08>{#p/basic}{~}你真棒！'],
+      gladTalk4: ['<08>{#p/basic}{~}真不错！'],
+      gladTalk5: ['<08>{#p/basic}{~}好！'],
+      gladTalk6: ['<08>{#p/basic}{~}...'],
       hugTalk1: () =>
          16 <= SAVE.data.n.kills_wastelands
             ? [
-                 '<08>{#p/basic}{~}我的\n接触\n恐惧症...',
-                 "<08>{#p/basic}{~}消失啦！",
-                 '<08>{#p/basic}{~}人类...\n谢谢你...',
-                 "<08>{#p/basic}{~}我从未\n感到\n如此幸福..."
-              ]
+               '<08>{#p/basic}{~}我的\n接触\n恐惧症...',
+               "<08>{#p/basic}{~}消失啦！",
+               '<08>{#p/basic}{~}人类...\n谢谢你...',
+               "<08>{#p/basic}{~}我从未\n感到\n如此幸福..."
+            ]
             : SAVE.data.n.state_wastelands_dummy === 4
-            ? [ '<11>{#p/basic}{~}{#x4}搞什么？\n不要啊！！' ]
-            : [ '<11>{#p/basic}{~}{#x3}别-别..！\n我有\n接触\n恐惧症！' ],
-      hugTalk2: [ '<11>{#p/basic}{~}{#x4}快停下！' ],
-      hugTalk3: [ '<11>{#p/basic}{~}{#x2}少来这套！！' ],
-      hugTalk4: [ '<11>{#p/basic}{~}{#x3}...' ],
+               ? ['<11>{#p/basic}{~}{#x4}搞什么？\n不要啊！！']
+               : ['<11>{#p/basic}{~}{#x3}别-别..！\n我有\n接触\n恐惧症！'],
+      hugTalk2: ['<11>{#p/basic}{~}{#x4}快停下！'],
+      hugTalk3: ['<11>{#p/basic}{~}{#x2}少来这套！！'],
+      hugTalk4: ['<11>{#p/basic}{~}{#x3}...'],
       name: () => (16 <= SAVE.data.n.kills_wastelands ? '* 开心人偶' : '* 愤怒人偶'),
-      phase2Talk1: [ "<11>{#p/basic}{~}{#x1}看老子不弄死你，\n扯出你的灵魂！" ],
-      phase2Talk2: [ "<11>{#p/basic}{~}{#x1}老子\n要拿你的灵魂\n灭了那力场！" ],
-      phase2Talk3: [ '<11>{#p/basic}{~}{#x6}...我会受到\n万众爱戴，\n万人敬仰！' ],
-      phase2Talk4: [ '<11>{#p/basic}{~}{#x4}THEN EVERYTHING I WANT WILL BE MINE!' ],
-      phase2Talk5: [ "<11>{#p/basic}{~}{#x3}Huh?\nYeah, I guess that'll avenge my cousin." ],
-      phase2Talk6: [ '<11>{#p/basic}{~}{#x5}Do my other cousins care...?' ],
-      phase2Talk7: [ '<11>{#p/basic}{~}{#x4}Whatever.\nWhatever!\nWHATEVER!' ],
-      phase2Talk8: [ '<11>{#p/basic}{~}{#x1}...' ],
-      phase3Talk1: [ '<11>{#p/basic}{~}{#x1}机器人偶！\n使用魔法飞弹！' ],
-      phase3Talk2: [ '<11>{#p/basic}{~}{#x3}机器人偶！\n再来！' ],
-      phase3Talk3: [ "<11>{#p/basic}{~}{#x5}机器人偶！\n咋这么\n没本事呢？？？" ],
-      phase3Talk4: [ '<11>{#p/basic}{~}{#x4}机器人偶！\n最终攻击！' ],
+      phase2Talk1: ["<11>{#p/basic}{~}{#x1}看老子不弄死你，\n扯出你的灵魂！"],
+      phase2Talk2: ["<11>{#p/basic}{~}{#x1}老子\n要拿你的灵魂\n灭了那力场！"],
+      phase2Talk3: ['<11>{#p/basic}{~}{#x6}...我会受到\n万众爱戴，\n万人敬仰！'],
+      phase2Talk4: ['<11>{#p/basic}{~}{#x4}THEN EVERYTHING I WANT WILL BE MINE!'],
+      phase2Talk5: ["<11>{#p/basic}{~}{#x3}Huh?\nYeah, I guess that'll avenge my cousin."],
+      phase2Talk6: ['<11>{#p/basic}{~}{#x5}Do my other cousins care...?'],
+      phase2Talk7: ['<11>{#p/basic}{~}{#x4}Whatever.\nWhatever!\nWHATEVER!'],
+      phase2Talk8: ['<11>{#p/basic}{~}{#x1}...'],
+      phase3Talk1: ['<11>{#p/basic}{~}{#x1}机器人偶！\n使用魔法飞弹！'],
+      phase3Talk2: ['<11>{#p/basic}{~}{#x3}机器人偶！\n再来！'],
+      phase3Talk3: ["<11>{#p/basic}{~}{#x5}机器人偶！\n咋这么\n没本事呢？？？"],
+      phase3Talk4: ['<11>{#p/basic}{~}{#x4}机器人偶！\n最终攻击！'],
       phaseChange1: [
          '<11>{#p/basic}{~}{#x2}痛死了，\n你们这些\n棉花脑袋！！',
          '<11>{#p/basic}{~}{#x1}用{@fill=#f00}魔法{@fill=#000}的时候\n往哪瞄呢！',
@@ -5216,13 +5216,13 @@ export default {
          '<11>{#p/basic}{~}{#x4}嘿！\n听着！',
          '<11>{#p/basic}{~}{#x3}“{@fill=#f00}魔法{@fill=#000}”那事，\n你就当没听见！'
       ],
-      phaseChange2a: [ '<11>{#p/basic}{~}{#x4}伙计们！' ],
+      phaseChange2a: ['<11>{#p/basic}{~}{#x4}伙计们！'],
       phaseChange2b1: [
          '<11>{#p/basic}{~}{#x1}全是棉花脑袋。\n棉花脑袋！\n棉花脑袋！',
          '<11>{#p/basic}{~}{#x3}老子没说\n不要冲着我\n攻击吗？',
          '<11>{#p/basic}{~}{#x3}得得得...'
       ],
-      phaseChange2b2: [ "<11>{#p/basic}{~}{#x4}一帮饭桶！\n老子炒了你们！\n老子有更好的！" ],
+      phaseChange2b2: ["<11>{#p/basic}{~}{#x4}一帮饭桶！\n老子炒了你们！\n老子有更好的！"],
       phaseChange2c: [
          '<11>{#p/basic}{~}{#x4}哈哈哈。\n哈哈哈！\n哈-哈-哈！',
          "<11>{#p/basic}{~}{#x3}这就让你\n见识见识\n我的真本事...",
@@ -5236,62 +5236,62 @@ export default {
          '<11>{#p/basic}{~}{#x1}我不在乎。\n我不在乎！\n我-不-\n在-乎！',
          "<11>{#p/basic}{~}{#x4}老子才\n不需要朋友！！"
       ],
-      phaseChange3b: [ "<11>{#p/basic}{~}{#x6}我还有\n刀子呢！！" ],
-      phaseChange3c1: [ "<11>{#p/basic}{~}{#x3}我...", '<11>{#p/basic}{~}{#x3}没刀子了。' ],
+      phaseChange3b: ["<11>{#p/basic}{~}{#x6}我还有\n刀子呢！！"],
+      phaseChange3c1: ["<11>{#p/basic}{~}{#x3}我...", '<11>{#p/basic}{~}{#x3}没刀子了。'],
       phaseChange3c2: [
          "<11>{#p/basic}{~}{#x4}没事！！！",
          "<11>{#p/basic}{~}{#x4}我伤不着你，\n你也伤不着我！",
          "<11>{#p/basic}{~}{#x1}YOU'LL BE STUCK FIGHTING ME..."
       ],
-      phaseChange3c3: [ '<11>{#p/basic}{~}{#x1}Forever.' ],
-      phaseChange3c4: [ '<11>{#p/basic}{~}{#x4}Forever!' ],
-      phaseChange3c5: [ '<11>{#p/basic}{~}{#x6}FOREVER!!!!' ],
-      phaseChange3d: [ '<11>{*}{#p/basic}{~}{#x6}AHAHAHAHA HAHAHAHAH AHAHAHAHA HAHAHAHAH AHAHAHAHA{%}' ],
+      phaseChange3c3: ['<11>{#p/basic}{~}{#x1}Forever.'],
+      phaseChange3c4: ['<11>{#p/basic}{~}{#x4}Forever!'],
+      phaseChange3c5: ['<11>{#p/basic}{~}{#x6}FOREVER!!!!'],
+      phaseChange3d: ['<11>{*}{#p/basic}{~}{#x6}AHAHAHAHA HAHAHAHAH AHAHAHAHA HAHAHAHAH AHAHAHAHA{%}'],
       phaseChange3e: [
          '<11>{*}{#p/basic}{~}{#x2}Wh...\nWhat the heck is this!?{^20}{%}',
          '<11>{*}{#p/basic}{~}{#x6}Ergh!\nAcid rain!?{^20}{%}',
          "<11>{*}{#p/basic}{~}{#x4}Oh, FORGET IT!\nI'm OUTTA here!!{^20}{%}"
       ],
-      randStatus1: [ '<32>{#p/story}* 要是能找到气闸，\n  愤怒人偶就把你扔出去了。' ],
-      randStatus2: [ '<32>{#p/story}* 愤怒人偶正使唤着它的弹幕。' ],
-      randStatus3: [ '<32>{#p/story}* Mad Dummy glares into a portal, then turns to you with the same expression.' ],
-      randStatus4: [ '<32>{#p/story}* Mad Dummy is hopping mad.' ],
-      randStatus5: [ '<32>{#p/story}* Smells like a textile factory.' ],
-      gladStatus1: [ '<32>{#p/story}* 开心人偶很庆幸自己来了这里。' ],
-      gladStatus2: [ "<32>{#p/story}* 开心人偶正规划着\n  今后的美好人生。" ],
-      gladStatus3: [ '<32>{#p/story}* 开心人偶看起来很满足。' ],
-      randTalk1: [ '<11>{#p/basic}{~}{#x1}愚蠢。\n愚蠢！\n愚蠢！' ],
-      randTalk2: [ '<11>{#p/basic}{~}{#x1}Futile.\nFutile!\nFUTILE!' ],
-      randTalk3: [ '<11>{#p/basic}{~}{#x1}Pitiful.\nPitiful!\nPITIFUL!' ],
-      randTalk4: [ '<11>{#p/basic}{~}{#x1}Feeble.\nFeeble!\nFEEBLE!' ],
-      slapTalk1: [ '<11>{#p/basic}{~}{#x6}好你个...！' ],
-      slapTalk2: [ '<11>{#p/basic}{~}{#x4}你玩我呢？？' ],
-      slapTalk3: [ '<11>{#p/basic}{~}{#x2}脏手拿远点！' ],
-      slapTalk4: [ '<11>{#p/basic}{~}{#x3}...' ],
+      randStatus1: ['<32>{#p/story}* 要是能找到气闸，\n  愤怒人偶就把你扔出去了。'],
+      randStatus2: ['<32>{#p/story}* 愤怒人偶正使唤着它的弹幕。'],
+      randStatus3: ['<32>{#p/story}* Mad Dummy glares into a portal, then turns to you with the same expression.'],
+      randStatus4: ['<32>{#p/story}* Mad Dummy is hopping mad.'],
+      randStatus5: ['<32>{#p/story}* Smells like a textile factory.'],
+      gladStatus1: ['<32>{#p/story}* 开心人偶很庆幸自己来了这里。'],
+      gladStatus2: ["<32>{#p/story}* 开心人偶正规划着\n  今后的美好人生。"],
+      gladStatus3: ['<32>{#p/story}* 开心人偶看起来很满足。'],
+      randTalk1: ['<11>{#p/basic}{~}{#x1}愚蠢。\n愚蠢！\n愚蠢！'],
+      randTalk2: ['<11>{#p/basic}{~}{#x1}Futile.\nFutile!\nFUTILE!'],
+      randTalk3: ['<11>{#p/basic}{~}{#x1}Pitiful.\nPitiful!\nPITIFUL!'],
+      randTalk4: ['<11>{#p/basic}{~}{#x1}Feeble.\nFeeble!\nFEEBLE!'],
+      slapTalk1: ['<11>{#p/basic}{~}{#x6}好你个...！'],
+      slapTalk2: ['<11>{#p/basic}{~}{#x4}你玩我呢？？'],
+      slapTalk3: ['<11>{#p/basic}{~}{#x2}脏手拿远点！'],
+      slapTalk4: ['<11>{#p/basic}{~}{#x3}...'],
       status1: () =>
          16 <= SAVE.data.n.kills_wastelands
-            ? [ '<32>{#p/story}* 开心人偶打算放你走。' ]
-            : [ '<32>{#p/story}* 愤怒人偶拦住了去路！' ]
+            ? ['<32>{#p/story}* 开心人偶打算放你走。']
+            : ['<32>{#p/story}* 愤怒人偶拦住了去路！']
    },
    b_opponent_moldsmal: {
       epiphany: [
-         [ '<08>{#p/basic}{~}\x00*黏液声*' ],
+         ['<08>{#p/basic}{~}\x00*黏液声*'],
          () =>
             world.meanie
-               ? [ '<08>{#p/basic}{~}咕噜！' ]
+               ? ['<08>{#p/basic}{~}咕噜！']
                : SAVE.data.b.oops && world.flirt > 9
-               ? [ '<08>{#p/basic}{~}\x00*性感\n扭动*' ]
-               : SAVE.data.b.oops
-               ? [ '<08>{#p/basic}{~}\x00*开心\n扭动*' ]
-               : [ '<08>{#p/basic}{~}\x00*臂中\n抖动*' ],
-         [ '<08>{#p/basic}{~}最后一咕。' ],
-         [ '<08>{#p/basic}{~}\x00*闪亮\n扭动*' ]
+                  ? ['<08>{#p/basic}{~}\x00*性感\n扭动*']
+                  : SAVE.data.b.oops
+                     ? ['<08>{#p/basic}{~}\x00*开心\n扭动*']
+                     : ['<08>{#p/basic}{~}\x00*臂中\n抖动*'],
+         ['<08>{#p/basic}{~}最后一咕。'],
+         ['<08>{#p/basic}{~}\x00*闪亮\n扭动*']
       ],
-      act_check0: [ '<32>{#p/asriel2}* 小黏团，没脑子的粘球。\n* 有什么好说的？' ],
-      act_check: [ '<32>{#p/story}* 小黏团 - 攻击6 防御0\n* 典型印象：身段妖娆气质好，\n  就是没大脑...' ],
-      act_check2: [ "<32>{#p/story}* 小黏团 - 攻击6 防御0\n* 应季的色彩令它更为迷人。" ],
-      act_check3: [ '<32>{#p/story}* 小黏团 - 攻击6 防御0\n* 与你所喜欢的类型相同。\n* 刻板印象的那种。' ],
-      act_check4: [ '<32>{#p/story}* 小黏团 - 攻击6 防御0\n* 这位超级模特早已辉煌不再。' ],
+      act_check0: ['<32>{#p/asriel2}* 小黏团，没脑子的粘球。\n* 有什么好说的？'],
+      act_check: ['<32>{#p/story}* 小黏团 - 攻击6 防御0\n* 典型印象：身段妖娆气质好，\n  就是没大脑...'],
+      act_check2: ["<32>{#p/story}* 小黏团 - 攻击6 防御0\n* 应季的色彩令它更为迷人。"],
+      act_check3: ['<32>{#p/story}* 小黏团 - 攻击6 防御0\n* 与你所喜欢的类型相同。\n* 刻板印象的那种。'],
+      act_check4: ['<32>{#p/story}* 小黏团 - 攻击6 防御0\n* 这位超级模特早已辉煌不再。'],
       act_flirt: [
          '<32>{#p/human}* （你扭动着你的臀部。）\n* （小黏团用扭动回应你。）',
          '<33>{#p/basic}* 真是有意义的交流！'
@@ -5312,165 +5312,165 @@ export default {
          '<32>{#p/human}* （你用尽全身力气，\n  狠狠扇了小黏团一巴掌。）',
          '<32>{#p/basic}* 小黏团逃离了现场！'
       ],
-      idleTalk1: [ '<08>{#p/basic}{~}吐泡泡..' ],
-      idleTalk2: [ '<08>{#p/basic}{~}挤挤..' ],
-      idleTalk3: [ '<08>{#p/basic}{~}\x00*黏液声*' ],
+      idleTalk1: ['<08>{#p/basic}{~}吐泡泡..'],
+      idleTalk2: ['<08>{#p/basic}{~}挤挤..'],
+      idleTalk3: ['<08>{#p/basic}{~}\x00*黏液声*'],
       name: '* 小黏团',
       perilStatus: () =>
          world.kiddo && SAVE.data.n.state_foundry_muffet !== 1
-            ? [ "<32>{#p/kidding}* 这可不是什么好事..." ]
-            : [ '<32>{#p/story}* 小黏团已经开始腐烂了。' ],
-      sexyChat: [ '<08>{#p/basic}{~}\x00*性感\n扭动*' ],
+            ? ["<32>{#p/kidding}* 这可不是什么好事..."]
+            : ['<32>{#p/story}* 小黏团已经开始腐烂了。'],
+      sexyChat: ['<08>{#p/basic}{~}\x00*性感\n扭动*'],
       status1: () =>
-         world.goatbro ? [ '<32>{#p/asriel2}* 小黏团把身体挺成正方形。' ] : [ "<32>{#p/story}* 一对小黏团跳了过来。" ],
+         world.goatbro ? ['<32>{#p/asriel2}* 小黏团把身体挺成正方形。'] : ["<32>{#p/story}* 一对小黏团跳了过来。"],
       status2: () =>
          world.goatbro
-            ? [ '<32>{#p/asriel2}* 小黏团。' ]
+            ? ['<32>{#p/asriel2}* 小黏团。']
             : world.kiddo && SAVE.data.n.state_foundry_muffet !== 1
-            ? [ "<32>{#p/kidding}* 嘘... 它在思考！" ]
-            : [ '<32>{#p/story}* 小黏团静静地凝结着。' ],
+               ? ["<32>{#p/kidding}* 嘘... 它在思考！"]
+               : ['<32>{#p/story}* 小黏团静静地凝结着。'],
       status3: () =>
-         world.goatbro ? [ '<32>{#p/asriel2}* 小黏团。' ] : [ '<32>{#p/story}* 小黏团乐观地等待着。' ],
+         world.goatbro ? ['<32>{#p/asriel2}* 小黏团。'] : ['<32>{#p/story}* 小黏团乐观地等待着。'],
       status4: () =>
          world.goatbro
-            ? [ '<32>{#p/asriel2}* 小黏团。' ]
+            ? ['<32>{#p/asriel2}* 小黏团。']
             : world.kiddo && SAVE.data.n.state_foundry_muffet !== 1
-            ? [ '<32>{#p/kidding}* 这里一个泡泡，那里一个泡泡...' ]
-            : [ '<32>{#p/story}* 小黏团正在沉思。' ],
+               ? ['<32>{#p/kidding}* 这里一个泡泡，那里一个泡泡...']
+               : ['<32>{#p/story}* 小黏团正在沉思。'],
       status5: () =>
          world.goatbro
-            ? [ '<32>{#p/asriel2}* 小黏团。' ]
+            ? ['<32>{#p/asriel2}* 小黏团。']
             : world.kiddo && SAVE.data.n.state_foundry_muffet !== 1
-            ? [ '<32>{#p/kidding}* 你知道，\n  小黏团到底是用什么做的吗？' ]
-            : [ '<32>{#p/story}* 空气中飘来阵阵青柠果冻的清香。' ],
-      status6: [ '<32>{#p/story}* 现在，只剩一个了。' ],
+               ? ['<32>{#p/kidding}* 你知道，\n  小黏团到底是用什么做的吗？']
+               : ['<32>{#p/story}* 空气中飘来阵阵青柠果冻的清香。'],
+      status6: ['<32>{#p/story}* 现在，只剩一个了。'],
       status8: () =>
          world.kiddo && SAVE.data.n.state_foundry_muffet !== 1
-            ? [ '<32>{#p/kidding}* 只剩我们仨啦！' ]
-            : [ '<32>{#p/story}* 这只小黏团只能独自吐泡泡了。' ]
+            ? ['<32>{#p/kidding}* 只剩我们仨啦！']
+            : ['<32>{#p/story}* 这只小黏团只能独自吐泡泡了。']
    },
    b_opponent_spacetop: {
       epiphany: [
-         [ '<08>{#p/basic}{~}I can communi- cate else- where.' ],
+         ['<08>{#p/basic}{~}I can communi- cate else- where.'],
          () =>
             world.meanie
-               ? [ '<08>{#p/basic}{~}Warning broad- cast is well re- ceived!' ]
+               ? ['<08>{#p/basic}{~}Warning broad- cast is well re- ceived!']
                : SAVE.data.b.oops && world.flirt > 9
-               ? [ '<08>{#p/basic}{~}Ooh.. I like this kind of signal..' ]
-               : SAVE.data.b.oops
-               ? [ "<08>{#p/basic}{~}I'm on your wave- length now!" ]
-               : [ '<08>{#p/basic}{~}The signal.. is right on top of me..' ],
-         [ "<08>{#p/basic}{~}I'm just a waste of band- width.." ],
-         [ "<08>{#p/basic}{~}I'll wire you the cash right away!" ]
+                  ? ['<08>{#p/basic}{~}Ooh.. I like this kind of signal..']
+                  : SAVE.data.b.oops
+                     ? ["<08>{#p/basic}{~}I'm on your wave- length now!"]
+                     : ['<08>{#p/basic}{~}The signal.. is right on top of me..'],
+         ["<08>{#p/basic}{~}I'm just a waste of band- width.."],
+         ["<08>{#p/basic}{~}I'll wire you the cash right away!"]
       ],
       act_check: () =>
          world.goatbro
-            ? [ '<32>{#p/asriel2}* 太空帽，宇航员，渴望引人注目。\n* 除了自己的天线，他什么都不在乎。' ]
-            : [ "<32>{#p/story}* ASTRO SERF - ATK 11 DEF 4\n* This teen wonders why it isn't named 'Radio Jack.'" ],
-      act_check2: [ '<32>{#p/story}* ASTRO SERF - ATK 11 DEF 4\n* This teen seems to appreciate your sense of fashion.' ],
-      act_check3: [ '<32>{#p/story}* ASTRO SERF - ATK 11 DEF 4\n* This teen is getting ALL the right signals.' ],
+            ? ['<32>{#p/asriel2}* 太空帽，宇航员，渴望引人注目。\n* 除了自己的天线，他什么都不在乎。']
+            : ["<32>{#p/story}* ASTRO SERF - ATK 11 DEF 4\n* This teen wonders why it isn't named 'Radio Jack.'"],
+      act_check2: ['<32>{#p/story}* ASTRO SERF - ATK 11 DEF 4\n* This teen seems to appreciate your sense of fashion.'],
+      act_check3: ['<32>{#p/story}* ASTRO SERF - ATK 11 DEF 4\n* This teen is getting ALL the right signals.'],
       act_check4: [
          '<32>{#p/story}* ASTRO SERF - ATK 11 DEF 4\n* Attempting to hijack a public radio to call for help.'
       ],
-      act_compliment: [ '<32>{#p/human}* （你告诉太空帽说它\n  有一根很棒的天线。）' ],
-      act_flirt: [ '<32>{#p/human}* (You flirt with Astro Serf.)' ],
-      complimentTalk1: [ "<08>{#p/basic}{~}DUH!\nWho DOESN'T know?" ],
-      complimentTalk2: [ '<08>{#p/basic}{~}嫉妒了？\n真糟！' ],
+      act_compliment: ['<32>{#p/human}* （你告诉太空帽说它\n  有一根很棒的天线。）'],
+      act_flirt: ['<32>{#p/human}* (You flirt with Astro Serf.)'],
+      complimentTalk1: ["<08>{#p/basic}{~}DUH!\nWho DOESN'T know?"],
+      complimentTalk2: ['<08>{#p/basic}{~}嫉妒了？\n真糟！'],
       createStatus1: () =>
          world.goatbro
-            ? [ '<32>{#p/asriel2}* Astro Serf.' ]
-            : [ "<32>{#p/story}* 太空帽小心翼翼地确定着\n  你有没有看它的天线。" ],
+            ? ['<32>{#p/asriel2}* Astro Serf.']
+            : ["<32>{#p/story}* 太空帽小心翼翼地确定着\n  你有没有看它的天线。"],
       createStatus2: () =>
-         world.goatbro ? [ '<32>{#p/asriel2}* Astro Serf.' ] : [ '<32>{#p/story}* 太空帽被打动了。' ],
-      createTalk1: [ "<09>{#p/basic}{~}喂！！！\n我的天线\n在头上呢。" ],
-      createTalk2: [ '<08>{#p/basic}{~}啊？\n你在做甚？' ],
-      createTalk3: [ "<08>{#p/basic}{~}不是.. 这\n怎么可能！" ],
-      createTalk4: [ '<08>{#p/basic}{~}Woah..\nHow did you do that??' ],
-      createTalk5: [ "<08>{#p/basic}{~}你在做..\n你自己的\n天线？" ],
+         world.goatbro ? ['<32>{#p/asriel2}* Astro Serf.'] : ['<32>{#p/story}* 太空帽被打动了。'],
+      createTalk1: ["<09>{#p/basic}{~}喂！！！\n我的天线\n在头上呢。"],
+      createTalk2: ['<08>{#p/basic}{~}啊？\n你在做甚？'],
+      createTalk3: ["<08>{#p/basic}{~}不是.. 这\n怎么可能！"],
+      createTalk4: ['<08>{#p/basic}{~}Woah..\nHow did you do that??'],
+      createTalk5: ["<08>{#p/basic}{~}你在做..\n你自己的\n天线？"],
       act_create: () =>
          [
-            [ '<32>{#p/human}* （你开始设计自己的天线。）', '<32>{#p/basic}* 但... 怎么设计？' ],
-            [ '<32>{#p/human}* （你做好了天线，\n  把它戴了上去。）' ],
+            ['<32>{#p/human}* （你开始设计自己的天线。）', '<32>{#p/basic}* 但... 怎么设计？'],
+            ['<32>{#p/human}* （你做好了天线，\n  把它戴了上去。）'],
             [
                '<32>{#p/human}* （你开始做另一根天线。）',
                '<32>{#p/basic}* 太空帽被你整懵了，\n  退出了战斗。'
             ]
          ][battler.target?.vars.create ?? 0],
-      flirtStatus1: [ '<32>{#p/story}* Astro Serf is not impressed by your attire.' ],
-      flirtStatus2: [ '<32>{#p/story}* Astro Serf is in love.' ],
-      flirtTalk1: [ '<08>{#p/basic}{~}No deal!\nNot without an antenna!' ],
-      flirtTalk2: [ '<08>{#p/basic}{~}W-what??\nUm..\nI..\nYou..' ],
-      genoStatus: [ '<32>{#p/asriel2}* Astro Serf.' ],
+      flirtStatus1: ['<32>{#p/story}* Astro Serf is not impressed by your attire.'],
+      flirtStatus2: ['<32>{#p/story}* Astro Serf is in love.'],
+      flirtTalk1: ['<08>{#p/basic}{~}No deal!\nNot without an antenna!'],
+      flirtTalk2: ['<08>{#p/basic}{~}W-what??\nUm..\nI..\nYou..'],
+      genoStatus: ['<32>{#p/asriel2}* Astro Serf.'],
       hurtStatus: () =>
-         world.goatbro ? [ '<32>{#p/asriel2}* 离死不远了。' ] : [ "<32>{#p/story}* Astro Serf's suit is loose." ],
-      idleTalk1: [ "<08>{#p/basic}{~}Where's YOUR antenna?" ],
-      idleTalk2: [ '<08>{#p/basic}{~}你的脑袋\n看起来..\n光秃秃的' ],
-      idleTalk3: [ '<08>{#p/basic}{~}What a great antenna!\n(Mine)' ],
-      idleTalk4: [ "<09>{#p/basic}{~}It's signal feedback, not radi- ation" ],
-      idleTalk5: [ '<08>{#p/basic}{~}I just looove my antenna.\nOK?' ],
-      justiceTalk: [ '<08>{#p/basic}{~}What have you done..' ],
+         world.goatbro ? ['<32>{#p/asriel2}* 离死不远了。'] : ["<32>{#p/story}* Astro Serf's suit is loose."],
+      idleTalk1: ["<08>{#p/basic}{~}Where's YOUR antenna?"],
+      idleTalk2: ['<08>{#p/basic}{~}你的脑袋\n看起来..\n光秃秃的'],
+      idleTalk3: ['<08>{#p/basic}{~}What a great antenna!\n(Mine)'],
+      idleTalk4: ["<09>{#p/basic}{~}It's signal feedback, not radi- ation"],
+      idleTalk5: ['<08>{#p/basic}{~}I just looove my antenna.\nOK?'],
+      justiceTalk: ['<08>{#p/basic}{~}What have you done..'],
       name: '* 太空帽',
-      randStatus1: [ '<32>{#p/story}* Astro Serf also wants antennae for its other body parts.' ],
-      randStatus2: [ '<32>{#p/story}* Astro Serf makes sure its antenna is still there.' ],
-      randStatus3: [ '<32>{#p/story}* 太空帽在考虑配一件衣服。' ],
-      randStatus4: [ '<32>{#p/story}* 闻起来像锂。' ],
-      status1: [ '<32>{#p/story}* Astro Serf struts into view.' ],
-      stealTalk1: [ '<08>{#p/basic}{~}I KNEW IT!!!\nTHIEF!!' ],
-      stealTalk2: [ '<08>{#p/basic}{~}时尚警察\n快救我\n啊！！！' ],
+      randStatus1: ['<32>{#p/story}* Astro Serf also wants antennae for its other body parts.'],
+      randStatus2: ['<32>{#p/story}* Astro Serf makes sure its antenna is still there.'],
+      randStatus3: ['<32>{#p/story}* 太空帽在考虑配一件衣服。'],
+      randStatus4: ['<32>{#p/story}* 闻起来像锂。'],
+      status1: ['<32>{#p/story}* Astro Serf struts into view.'],
+      stealTalk1: ['<08>{#p/basic}{~}I KNEW IT!!!\nTHIEF!!'],
+      stealTalk2: ['<08>{#p/basic}{~}时尚警察\n快救我\n啊！！！'],
       act_steal: () =>
          battler.hurt.includes(battler.target!)
             ? [
-                 "<33>{#p/human}* (You steal Astro Serf's antenna.)\n* (Its spacesuit falls off.)",
-                 '<33>{#p/basic}* Looks like it was powered by lithium the whole time.'
-              ]
-            : [ "<32>{#p/human}* （你尝试去偷太空帽的天线，\n  但它还没变得足够弱。）" ]
+               "<33>{#p/human}* (You steal Astro Serf's antenna.)\n* (Its spacesuit falls off.)",
+               '<33>{#p/basic}* Looks like it was powered by lithium the whole time.'
+            ]
+            : ["<32>{#p/human}* （你尝试去偷太空帽的天线，\n  但它还没变得足够弱。）"]
    },
    b_opponent_space: {
       epiphany: [
-         [ "<08>{#p/basic}{~}Okay, I'll shine myself out." ],
+         ["<08>{#p/basic}{~}Okay, I'll shine myself out."],
          () =>
             world.meanie
-               ? [ "<08>{#p/basic}{~}I'll.. get out of your way.." ]
+               ? ["<08>{#p/basic}{~}I'll.. get out of your way.."]
                : SAVE.data.b.oops && world.flirt > 9
-               ? [ "<08>{#p/basic}{~}You think I'm.. oh.." ]
-               : SAVE.data.b.oops
-               ? [ '<08>{#p/basic}{~}May our crystals shine as one.' ]
-               : [ '<08>{#p/basic}{~}Careful.. I might be sharp..' ],
-         [ '<08>{#p/basic}{~}I deserve to decay..' ],
-         [ "<08>{#p/basic}{~}Here's all the money I have.." ]
+                  ? ["<08>{#p/basic}{~}You think I'm.. oh.."]
+                  : SAVE.data.b.oops
+                     ? ['<08>{#p/basic}{~}May our crystals shine as one.']
+                     : ['<08>{#p/basic}{~}Careful.. I might be sharp..'],
+         ['<08>{#p/basic}{~}I deserve to decay..'],
+         ["<08>{#p/basic}{~}Here's all the money I have.."]
       ],
       act_check: () =>
          world.goatbro
-            ? [ "<32>{#p/asriel2}* Lithium.\n* That's literally it." ]
-            : [ '<32>{#p/story}* LITHIUM - ATK 1 DEF 0\n* Without its spacesuit...' ],
-      act_reassure: [ '<32>{#p/human}* (You inform Lithium that it still looks fine.)' ],
-      genoStatus: [ '<32>{#p/asriel2}* 锂块。' ],
-      happyStatus: [ "<32>{#p/story}* Lithium doesn't mind its identity." ],
-      happyTalk1: [ '<08>{#p/basic}{~}Yeah.. I like my body too.' ],
-      happyTalk2: [ '<08>{#p/basic}{~}Hmm.. antennae are for posers.' ],
-      happyTalk3: [ '<08>{#p/basic}{~}So I can still impress you?' ],
-      happyTalk4: [ '<08>{#p/basic}{~}I wanted you to see me as cool.' ],
+            ? ["<32>{#p/asriel2}* Lithium.\n* That's literally it."]
+            : ['<32>{#p/story}* LITHIUM - ATK 1 DEF 0\n* Without its spacesuit...'],
+      act_reassure: ['<32>{#p/human}* (You inform Lithium that it still looks fine.)'],
+      genoStatus: ['<32>{#p/asriel2}* 锂块。'],
+      happyStatus: ["<32>{#p/story}* Lithium doesn't mind its identity."],
+      happyTalk1: ['<08>{#p/basic}{~}Yeah.. I like my body too.'],
+      happyTalk2: ['<08>{#p/basic}{~}Hmm.. antennae are for posers.'],
+      happyTalk3: ['<08>{#p/basic}{~}So I can still impress you?'],
+      happyTalk4: ['<08>{#p/basic}{~}I wanted you to see me as cool.'],
       hurtStatus: () =>
-         world.goatbro ? [ '<32>{#p/asriel2}* 也要去见阎王了。' ] : [ "<32>{#p/story}* It's disintegrating." ],
-      idleTalk1: [ '<08>{#p/basic}{~}I..\nI..' ],
-      idleTalk2: [ '<08>{#p/basic}{~}What can I say..' ],
-      idleTalk3: [ "<08>{#p/basic}{~}What's the point.." ],
-      idleTalk4: [ '<08>{#p/basic}{~}So.. alone..' ],
+         world.goatbro ? ['<32>{#p/asriel2}* 也要去见阎王了。'] : ["<32>{#p/story}* It's disintegrating."],
+      idleTalk1: ['<08>{#p/basic}{~}I..\nI..'],
+      idleTalk2: ['<08>{#p/basic}{~}What can I say..'],
+      idleTalk3: ["<08>{#p/basic}{~}What's the point.."],
+      idleTalk4: ['<08>{#p/basic}{~}So.. alone..'],
       name: '* 锂块',
-      randStatus1: [ '<32>{#p/story}* \"Astro Serf\" is no more.' ],
-      randStatus2: [ '<32>{#p/story}* Smells like battery power.' ]
+      randStatus1: ['<32>{#p/story}* \"Astro Serf\" is no more.'],
+      randStatus2: ['<32>{#p/story}* Smells like battery power.']
    },
 
    b_party_kidd: {
-      mkNobody: [ '<25>{#p/kidd}{#f/4}* 周围怎么一个人也没有，\n  是我的错觉吗...' ],
+      mkNobody: ['<25>{#p/kidd}{#f/4}* 周围怎么一个人也没有，\n  是我的错觉吗...'],
       mkDeath1: [
          '<32>{#p/kidding}* 呃...',
          "<32>* 对手为啥是这样消失的呢？",
          '<32>* 嗯... 我们打了对手。\n  估计太害怕，就传送走了。\n* 哈哈，肯定是的。'
       ],
-      mkDeath2: [ '<32>{#p/kidding}* 又消失了？', "<32>* 该死，为啥我没有\n  这么酷的传送器呢！？" ],
-      mkDeath3: [ "<32>{#p/kidding}* 消失了..." ],
-      mkDeath4: [ '<32>{#p/kidding}* ...' ],
+      mkDeath2: ['<32>{#p/kidding}* 又消失了？', "<32>* 该死，为啥我没有\n  这么酷的传送器呢！？"],
+      mkDeath3: ["<32>{#p/kidding}* 消失了..."],
+      mkDeath4: ['<32>{#p/kidding}* ...'],
       mkDeath1OW: [
          '<25>{#p/kidd}{#f/4}* 呃...',
          "<25>* 对手为啥是这样消失的呢？",
@@ -5481,218 +5481,218 @@ export default {
          '<25>{#p/kidd}{#f/4}* 又消失了？',
          "<25>{#f/1}* 该死，为啥我没有\n  这么酷的传送器呢！？"
       ],
-      mkDeath3OW: [ "<25>{#p/kidd}{#f/4}* 消失了..." ],
-      mkDeath4OW: [ '<25>{#p/kidd}{#f/4}* ...' ],
+      mkDeath3OW: ["<25>{#p/kidd}{#f/4}* 消失了..."],
+      mkDeath4OW: ['<25>{#p/kidd}{#f/4}* ...'],
       mkBully1: [
          '<32>{#p/kidding}* 呃...',
          '<32>* 对手好像吓坏了...',
          "<32>* 希望我们下手没那么重..."
       ],
-      mkBully2: [ '<32>{#p/kidding}* 那位也...！', '<32>* 我们打得那么狠吗...？' ],
-      mkBully3: [ '<32>{#p/kidding}* ...' ],
+      mkBully2: ['<32>{#p/kidding}* 那位也...！', '<32>* 我们打得那么狠吗...？'],
+      mkBully3: ['<32>{#p/kidding}* ...'],
       mkBully1OW: [
          '<25>{#p/kidd}{#f/4}* 呃...',
          '<25>* 对手好像吓坏了...',
          "<25>* 希望我们下手没那么重..."
       ],
-      mkBully2OW: [ '<25>{#p/kidd}{#f/7}* 那位也...！', '<25>{#f/4}* 我们打得那么狠吗...？' ],
-      mkBully3OW: [ '<25>{#p/kidd}{#f/4}* ...' ],
-      mkShyrenDeath: [ '<25>{#p/kidd}{#f/4}* 嘿...', "<25>{#p/kidd}{#f/1}* 大家都去哪了？" ],
+      mkBully2OW: ['<25>{#p/kidd}{#f/7}* 那位也...！', '<25>{#f/4}* 我们打得那么狠吗...？'],
+      mkBully3OW: ['<25>{#p/kidd}{#f/4}* ...'],
+      mkShyrenDeath: ['<25>{#p/kidd}{#f/4}* 嘿...', "<25>{#p/kidd}{#f/1}* 大家都去哪了？"],
       mkMagic1: [
          "<32>{#p/kidding}* 哟... 我还不会释放很酷的魔法...",
          '<32>{#p/kidding}* 不过，嗯... 我可以帮你疗伤！'
       ],
-      mkMagic2a: [ '<32>{#p/kidding}* 治疗术！' ],
-      mkMagic2b: [ '<32>{#p/kidding}* 健康与你同在！' ],
-      mkMagic2c: [ '<32>{#p/kidding}* 看好了！' ],
-      mkNope: [ '<32>{#p/kidding}* 不要再让我战斗了...' ],
-      mkTurn1: [ "<32>{#p/kidding}* 帮帮我，我从来没战斗过！\n* 我要怎么做！？" ],
-      mkTurn2: [ '<32>{#p/kidding}* 呃... 帮我！' ],
-      mkTurn3: [ "<32>{#p/kidding}* 我... 我好像会了。" ],
-      mkTurnAct1: [ '<32>{#p/kidding}* 哦！哦！', '<32>* 我知道要怎么行动！', '<32>* 看好了...！' ],
-      mkWeaken1: [ "<32>{#p/kidding}* 真的要这么做吗...？\n* 对手好像不喜欢这样...", '<32>* ...' ],
-      mkWeaken2: [ '<32>{#p/kidding}* 这么做真的好吗...？', '<32>* ...' ],
-      mkWeaken3a: [ '<32>{#p/kidding}* 呃...' ],
-      mkWeaken3b: [ '<32>{#p/kidding}* 嗯...' ],
-      mkWeaken3c: [ '<32>{#p/kidding}* 呃...' ],
+      mkMagic2a: ['<32>{#p/kidding}* 治疗术！'],
+      mkMagic2b: ['<32>{#p/kidding}* 健康与你同在！'],
+      mkMagic2c: ['<32>{#p/kidding}* 看好了！'],
+      mkNope: ['<32>{#p/kidding}* 不要再让我战斗了...'],
+      mkTurn1: ["<32>{#p/kidding}* 帮帮我，我从来没战斗过！\n* 我要怎么做！？"],
+      mkTurn2: ['<32>{#p/kidding}* 呃... 帮我！'],
+      mkTurn3: ["<32>{#p/kidding}* 我... 我好像会了。"],
+      mkTurnAct1: ['<32>{#p/kidding}* 哦！哦！', '<32>* 我知道要怎么行动！', '<32>* 看好了...！'],
+      mkWeaken1: ["<32>{#p/kidding}* 真的要这么做吗...？\n* 对手好像不喜欢这样...", '<32>* ...'],
+      mkWeaken2: ['<32>{#p/kidding}* 这么做真的好吗...？', '<32>* ...'],
+      mkWeaken3a: ['<32>{#p/kidding}* 呃...'],
+      mkWeaken3b: ['<32>{#p/kidding}* 嗯...'],
+      mkWeaken3c: ['<32>{#p/kidding}* 呃...'],
       
       mkTurnActRand1: (opponent: string) =>
          opponent === 'muffet' // NO-TRANSLATE
 
             ? [
-                 [ '<32>{#p/story}* 怪物小孩在网里不停挣扎，\n  还给玛菲特摆了个鬼脸。' ],
-                 [ '<32>{#p/story}* 怪物小孩在网里\n  大喊大叫，不停挣扎。' ],
-                 [ '<32>{#p/story}* 怪物小孩发出一阵瘆人的笑声。' ]
-              ]
+               ['<32>{#p/story}* 怪物小孩在网里不停挣扎，\n  还给玛菲特摆了个鬼脸。'],
+               ['<32>{#p/story}* 怪物小孩在网里\n  大喊大叫，不停挣扎。'],
+               ['<32>{#p/story}* 怪物小孩发出一阵瘆人的笑声。']
+            ]
             : opponent === 'shyren' // NO-TRANSLATE
 
-            ? [
-                 [ '<32>{#p/story}* 怪物小孩哼了一段\n  瘆人的旋律。' ],
-                 [ '<32>{#p/story}* 怪物小孩嚷着骇人的歌词。' ],
-                 [ '<32>{#p/story}* 怪物小孩疯狂地跺脚。' ]
-              ]
-            : opponent === 'woshua' // NO-TRANSLATE
+               ? [
+                  ['<32>{#p/story}* 怪物小孩哼了一段\n  瘆人的旋律。'],
+                  ['<32>{#p/story}* 怪物小孩嚷着骇人的歌词。'],
+                  ['<32>{#p/story}* 怪物小孩疯狂地跺脚。']
+               ]
+               : opponent === 'woshua' // NO-TRANSLATE
 
-            ? [
-                 [ '<32>{#p/story}* 怪物小孩不停地对地上的赃污\n  指指点点。' ],
-                 [ '<32>{#p/story}* 怪物小孩向刷洁顿指着\n  漏水的管道。' ],
-                 [ '<32>{#p/story}* 怪物小孩捂住鼻子，一脸嫌弃。' ]
-              ]
-            : [
-                 [ '<32>{#p/story}* 怪物小孩直钩钩地盯着$(x)。' ],
-                 [ '<32>{#p/story}* 怪物小孩愤怒地指着$(x)。' ],
-                 [ '<32>{#p/story}* 怪物小孩绕着#(x)来回踱步，\n  准备下手。' ]
-              ],
+                  ? [
+                     ['<32>{#p/story}* 怪物小孩不停地对地上的赃污\n  指指点点。'],
+                     ['<32>{#p/story}* 怪物小孩向刷洁顿指着\n  漏水的管道。'],
+                     ['<32>{#p/story}* 怪物小孩捂住鼻子，一脸嫌弃。']
+                  ]
+                  : [
+                     ['<32>{#p/story}* 怪物小孩直钩钩地盯着$(x)。'],
+                     ['<32>{#p/story}* 怪物小孩愤怒地指着$(x)。'],
+                     ['<32>{#p/story}* 怪物小孩绕着#(x)来回踱步，\n  准备下手。']
+                  ],
       
       mkTurnActRand2: (opponent: string) =>
          opponent === 'muffet' // NO-TRANSLATE
 
             ? [
-                 [ '<32>{#p/story}* 怪物小孩夸玛菲特穿得真精致，\n  有品味。' ],
-                 [ '<32>{#p/story}* 怪物小孩告诉玛菲特，\n  她的糕点在怪物界就是一流。' ],
-                 [ "<32>{#p/story}* 怪物小孩告诉玛菲特，\n  她织的网简直无人能敌。" ]
-              ]
+               ['<32>{#p/story}* 怪物小孩夸玛菲特穿得真精致，\n  有品味。'],
+               ['<32>{#p/story}* 怪物小孩告诉玛菲特，\n  她的糕点在怪物界就是一流。'],
+               ["<32>{#p/story}* 怪物小孩告诉玛菲特，\n  她织的网简直无人能敌。"]
+            ]
             : opponent === 'shyren' // NO-TRANSLATE
 
-            ? [
-                 [ '<32>{#p/story}* 怪物小孩哼了一段优美的旋律。' ],
-                 [ "<32>{#p/story}* 怪物小孩告诉害羞塞壬，\n  她的头发真好看。" ],
-                 [ "<32>{#p/story}* 怪物小孩告诉害羞塞壬，\n  她的声音真好听。" ]
-              ]
-            : opponent === 'woshua' // NO-TRANSLATE
+               ? [
+                  ['<32>{#p/story}* 怪物小孩哼了一段优美的旋律。'],
+                  ["<32>{#p/story}* 怪物小孩告诉害羞塞壬，\n  她的头发真好看。"],
+                  ["<32>{#p/story}* 怪物小孩告诉害羞塞壬，\n  她的声音真好听。"]
+               ]
+               : opponent === 'woshua' // NO-TRANSLATE
 
-            ? [
-                 [ '<32>{#p/story}* 怪物小孩告诉刷洁顿，\n  这片数它最爱干净。' ],
-                 [ "<32>{#p/story}* 怪物小孩告诉刷洁顿，\n  它就是铸厂模范清洁工。" ],
-                 [ "<32>{#p/story}* 怪物小孩对刷洁顿说，\n  它对完美的追求真是执着。" ]
-              ]
-            : opponent === 'radtile' // NO-TRANSLATE
+                  ? [
+                     ['<32>{#p/story}* 怪物小孩告诉刷洁顿，\n  这片数它最爱干净。'],
+                     ["<32>{#p/story}* 怪物小孩告诉刷洁顿，\n  它就是铸厂模范清洁工。"],
+                     ["<32>{#p/story}* 怪物小孩对刷洁顿说，\n  它对完美的追求真是执着。"]
+                  ]
+                  : opponent === 'radtile' // NO-TRANSLATE
 
-            ? [
-                 [ "<32>{#p/story}* 怪物小孩夸老顽鳄的镜子\n  真好看。" ],
-                 [ "<32>{#p/story}* 怪物小孩夸老顽鳄\n  帽子真酷。" ],
-                 [ "<32>{#p/story}* 怪物小孩再三打量老顽鳄\n  帅气的脸庞。" ]
-              ]
-            : [
-                 [ '<32>{#p/story}* 怪物小孩告诉$(x)，\n  会陪着它。' ],
-                 [ "<32>{#p/story}* 怪物小孩告诉$(x)，\n  会尽全力帮助它。" ],
-                 [ '<32>{#p/story}* 怪物小孩站到了$(x)上面。' ]
-              ],
+                     ? [
+                        ["<32>{#p/story}* 怪物小孩夸老顽鳄的镜子\n  真好看。"],
+                        ["<32>{#p/story}* 怪物小孩夸老顽鳄\n  帽子真酷。"],
+                        ["<32>{#p/story}* 怪物小孩再三打量老顽鳄\n  帅气的脸庞。"]
+                     ]
+                     : [
+                        ['<32>{#p/story}* 怪物小孩告诉$(x)，\n  会陪着它。'],
+                        ["<32>{#p/story}* 怪物小孩告诉$(x)，\n  会尽全力帮助它。"],
+                        ['<32>{#p/story}* 怪物小孩站到了$(x)上面。']
+                     ],
       
       mkTurnActRand3: (opponent: string) =>
          opponent === 'muffet' // NO-TRANSLATE
 
             ? [
-                 [ '<32>{#p/story}* 怪物小孩试着向玛菲特询问\n  蜘蛛部落的事。' ],
-                 [ '<32>{#p/story}* 怪物小孩试着向玛菲特询问\n  烘焙心得。' ],
-                 [ '<32>{#p/story}* 怪物小孩试着向玛菲特询问\n  品茶之道。' ]
-              ]
+               ['<32>{#p/story}* 怪物小孩试着向玛菲特询问\n  蜘蛛部落的事。'],
+               ['<32>{#p/story}* 怪物小孩试着向玛菲特询问\n  烘焙心得。'],
+               ['<32>{#p/story}* 怪物小孩试着向玛菲特询问\n  品茶之道。']
+            ]
             : opponent === 'shyren' // NO-TRANSLATE
 
-            ? [
-                 [ '<32>{#p/story}* 怪物小孩和害羞塞壬争论起\n  用哪种记谱方式更好。' ],
-                 [ '<32>{#p/story}* 怪物小孩开始讲起了乐理知识。' ],
-                 [ '<32>{#p/story}* 怪物小孩跟害羞塞壬讨论起\n  彼此喜爱的音乐流派。' ]
-              ]
-            : opponent === 'woshua' // NO-TRANSLATE
+               ? [
+                  ['<32>{#p/story}* 怪物小孩和害羞塞壬争论起\n  用哪种记谱方式更好。'],
+                  ['<32>{#p/story}* 怪物小孩开始讲起了乐理知识。'],
+                  ['<32>{#p/story}* 怪物小孩跟害羞塞壬讨论起\n  彼此喜爱的音乐流派。']
+               ]
+               : opponent === 'woshua' // NO-TRANSLATE
 
-            ? [
-                 [ '<32>{#p/story}* 怪物小孩以“讲卫生”为主题，\n  吟了首小诗。' ],
-                 [ '<32>{#p/story}* 怪物小孩围绕“安”与“危”\n  来了段Rap。' ],
-                 [ '<32>{#p/story}* 怪物小孩自豪地展示着\n  自己的亮晶晶下水管道组。' ]
-              ]
-            : opponent === 'radtile' // NO-TRANSLATE
+                  ? [
+                     ['<32>{#p/story}* 怪物小孩以“讲卫生”为主题，\n  吟了首小诗。'],
+                     ['<32>{#p/story}* 怪物小孩围绕“安”与“危”\n  来了段Rap。'],
+                     ['<32>{#p/story}* 怪物小孩自豪地展示着\n  自己的亮晶晶下水管道组。']
+                  ]
+                  : opponent === 'radtile' // NO-TRANSLATE
 
-            ? [
-                 [ '<32>{#p/story}* 怪物小孩朝老顽鳄摆了个鬼脸。' ],
-                 [ '<32>{#p/story}* 怪物小孩走上前，把脸凑过去，\n  仔细打量着老顽鳄。' ],
-                 [ '<32>{#p/story}* 怪物小孩把自己扮成一个野孩子。' ]
-              ]
-            : [
-                 [ '<32>{#p/story}* 怪物小孩看着$(x)，\n  有样学样，扭动着身体。' ],
-                 [ '<32>{#p/story}* 怪物小孩表演了倒立，\n  $(x)惊呆了。' ],
-                 [ '<32>{#p/story}* 怪物小孩在原地打转，\n  看得$(x)不明所以。' ]
-              ],
+                     ? [
+                        ['<32>{#p/story}* 怪物小孩朝老顽鳄摆了个鬼脸。'],
+                        ['<32>{#p/story}* 怪物小孩走上前，把脸凑过去，\n  仔细打量着老顽鳄。'],
+                        ['<32>{#p/story}* 怪物小孩把自己扮成一个野孩子。']
+                     ]
+                     : [
+                        ['<32>{#p/story}* 怪物小孩看着$(x)，\n  有样学样，扭动着身体。'],
+                        ['<32>{#p/story}* 怪物小孩表演了倒立，\n  $(x)惊呆了。'],
+                        ['<32>{#p/story}* 怪物小孩在原地打转，\n  看得$(x)不明所以。']
+                     ],
       
       mkTurnActRand4: (opponent: string) =>
          opponent === 'muffet' // NO-TRANSLATE
 
-            ? [ [ "<32>{#p/story}* 怪物小孩想告诉玛菲特\n  这一切毫无意义！" ] ]
+            ? [["<32>{#p/story}* 怪物小孩想告诉玛菲特\n  这一切毫无意义！"]]
             : opponent === 'shyren' || opponent === 'radtile' // NO-TRANSLATE
 
-            ? [ [ '<32>{#p/story}* 怪物小孩告诉对手，\n  时空扭曲即将来临！' ] ]
-            : opponent === 'woshua' // NO-TRANSLATE
+               ? [['<32>{#p/story}* 怪物小孩告诉对手，\n  时空扭曲即将来临！']]
+               : opponent === 'woshua' // NO-TRANSLATE
 
-            ? [ [ '<32>{#p/story}* 怪物小孩告诉对手，\n  某种病毒快传播到这里了！' ] ]
-            : [ [ '<32>{#p/story}* 怪物小孩告诉对手，\n  酸液从附近的管道里渗出来了！' ] ],
-      mkTurnActResult0: [ '<32>{#p/story}* 无事发生。' ],
+                  ? [['<32>{#p/story}* 怪物小孩告诉对手，\n  某种病毒快传播到这里了！']]
+                  : [['<32>{#p/story}* 怪物小孩告诉对手，\n  酸液从附近的管道里渗出来了！']],
+      mkTurnActResult0: ['<32>{#p/story}* 无事发生。'],
       mkTurnActResult1: (opponent: string) =>
          opponent === 'woshua' // NO-TRANSLATE
 
-            ? [ "<32>{#p/story}* 刷洁顿直犯恶心！\n* 刷洁顿的防御力下降了！" ]
+            ? ["<32>{#p/story}* 刷洁顿直犯恶心！\n* 刷洁顿的防御力下降了！"]
             : opponent === 'shyren' // NO-TRANSLATE
 
-            ? [ "<32>{#p/story}* 害羞塞壬感到很不自在！\n* 害羞塞壬的防御力下降了！" ]
-            : opponent === 'radtile' // NO-TRANSLATE
+               ? ["<32>{#p/story}* 害羞塞壬感到很不自在！\n* 害羞塞壬的防御力下降了！"]
+               : opponent === 'radtile' // NO-TRANSLATE
 
-            ? [ "<32>{#p/story}* 老顽鳄感到很不自在！\n* 老顽鳄的防御力下降了！" ]
-            : [ "<32>{#p/story}* $(x)感到很不自在！\n* $(x)的防御力下降了！" ],
+                  ? ["<32>{#p/story}* 老顽鳄感到很不自在！\n* 老顽鳄的防御力下降了！"]
+                  : ["<32>{#p/story}* $(x)感到很不自在！\n* $(x)的防御力下降了！"],
       mkTurnActResult2: (opponent: string) =>
          opponent === 'woshua' // NO-TRANSLATE
 
-            ? [ "<32>{#p/story}* 刷洁顿受宠若惊！\n* 刷洁顿的攻击力下降了！" ]
+            ? ["<32>{#p/story}* 刷洁顿受宠若惊！\n* 刷洁顿的攻击力下降了！"]
             : opponent === 'shyren' // NO-TRANSLATE
 
-            ? [ "<32>{#p/story}* 害羞塞壬受宠若惊！\n* 害羞塞壬的攻击力下降了！" ]
-            : opponent === 'radtile' // NO-TRANSLATE
+               ? ["<32>{#p/story}* 害羞塞壬受宠若惊！\n* 害羞塞壬的攻击力下降了！"]
+               : opponent === 'radtile' // NO-TRANSLATE
 
-            ? [ "<32>{#p/story}* 受到尊重，老顽鳄心满意足！\n* 老顽鳄的攻击力下降了！" ]
-            : [ "<32>{#p/story}* 受到尊重，$(x)心满意足！\n* $(x)的攻击力下降了！" ],
+                  ? ["<32>{#p/story}* 受到尊重，老顽鳄心满意足！\n* 老顽鳄的攻击力下降了！"]
+                  : ["<32>{#p/story}* 受到尊重，$(x)心满意足！\n* $(x)的攻击力下降了！"],
       mkTurnActResult3: (opponent: string, multiple: boolean) =>
          opponent === 'woshua' // NO-TRANSLATE
 
             ? multiple
-               ? [ '<32>{#p/story}* 被怪物小孩一搅和，\n  刷洁顿和其他对手都分神了，\n  错过了自己的回合！' ]
-               : [ '<32>{#p/story}* 被怪物小孩一搅和，\n  刷洁顿分神了，\n  错过了自己的回合！' ]
+               ? ['<32>{#p/story}* 被怪物小孩一搅和，\n  刷洁顿和其他对手都分神了，\n  错过了自己的回合！']
+               : ['<32>{#p/story}* 被怪物小孩一搅和，\n  刷洁顿分神了，\n  错过了自己的回合！']
             : opponent === 'shyren' // NO-TRANSLATE
 
-            ? [ '<32>{#p/story}* 被怪物小孩一搅和，\n  害羞塞壬分神了，\n  错过了自己的回合！' ]
-            : multiple
-            ? [ '<32>{#p/story}* 被怪物小孩一整，\n  $(x)和其他对手忘乎所以，\n  错过了自己的回合！' ]
-            : opponent === 'radtile' // NO-TRANSLATE
+               ? ['<32>{#p/story}* 被怪物小孩一搅和，\n  害羞塞壬分神了，\n  错过了自己的回合！']
+               : multiple
+                  ? ['<32>{#p/story}* 被怪物小孩一整，\n  $(x)和其他对手忘乎所以，\n  错过了自己的回合！']
+                  : opponent === 'radtile' // NO-TRANSLATE
 
-            ? [ '<32>{#p/story}* 被怪物小孩一整，\n  老顽鳄忘乎所以，\n  错过了自己的回合！' ]
-            : [ '<32>{#p/story}* 被怪物小孩一整，\n  $(x)忘乎所以，\n  错过了自己的回合！' ],
+                     ? ['<32>{#p/story}* 被怪物小孩一整，\n  老顽鳄忘乎所以，\n  错过了自己的回合！']
+                     : ['<32>{#p/story}* 被怪物小孩一整，\n  $(x)忘乎所以，\n  错过了自己的回合！'],
       mkTurnActResult4: (opponent: string, multiple: boolean, allowpac: boolean) =>
          opponent === 'woshua' // NO-TRANSLATE
 
             ? [
-                 '<32>{#p/story}* 刷洁顿担心自己小命不保，\n  赶忙跑掉了！',
-                 ...(multiple ? [ '<32>{#p/story}* 其他对手还想继续战斗。' ] : [])
-              ]
+               '<32>{#p/story}* 刷洁顿担心自己小命不保，\n  赶忙跑掉了！',
+               ...(multiple ? ['<32>{#p/story}* 其他对手还想继续战斗。'] : [])
+            ]
             : opponent === 'shyren' // NO-TRANSLATE
 
-            ? allowpac
-               ? [ '<32>{#p/story}* 害羞塞壬担心自己小命不保，\n  赶忙跑掉了！' ]
-               : [ '<32>{#p/story}* 表演过后，害羞塞壬有了信心。\n  决定勇敢地直面危险！' ]
-            : opponent === 'radtile' // NO-TRANSLATE
+               ? allowpac
+                  ? ['<32>{#p/story}* 害羞塞壬担心自己小命不保，\n  赶忙跑掉了！']
+                  : ['<32>{#p/story}* 表演过后，害羞塞壬有了信心。\n  决定勇敢地直面危险！']
+               : opponent === 'radtile' // NO-TRANSLATE
 
-            ? [ '<32>{#p/story}* 老顽鳄担心自己小命不保，\n  赶忙跑掉了！' ]
-            : [
-                 '<32>{#p/story}* $(x)担心自己小命不保，\n  赶忙跑掉了！',
-                 ...(multiple ? [ '<32>{#p/story}* 其他对手还想继续战斗。' ] : [])
-              ],
+                  ? ['<32>{#p/story}* 老顽鳄担心自己小命不保，\n  赶忙跑掉了！']
+                  : [
+                     '<32>{#p/story}* $(x)担心自己小命不保，\n  赶忙跑掉了！',
+                     ...(multiple ? ['<32>{#p/story}* 其他对手还想继续战斗。'] : [])
+                  ],
       mkTurnFight1: () => [
          '<32>{#p/kidding}* 你... 你-你让我战斗？\n* 真的吗？',
          choicer.create('* （确定战斗吗？）', '是', '否')
       ],
-      mkTurnFight2a: [ '<32>{#p/kidding}* 好吧... 那我试试...' ],
-      mkTurnFight2b: [ '<32>{#p/kidding}* 哦，好...', "<32>* 那我就饶恕他们吧！" ],
-      mkTurnFight3a: [ '<32>* 呀哈...！' ],
-      mkTurnFight3b: [ '<32>* 嘿呀...！' ],
-      mkTurnFight3c: [ '<32>* 我打！' ],
-      mkTurnMercy1: [ '<32>{#p/kidding}* 仁慈？\n* 让我饶恕对手吗？', "<32>{#p/kidding}* 哈哈，容易！" ],
-      mkTurnX: () => [ choicer.create('* （怪物小孩应该怎么做？）', '仁慈', '行动', '魔法', '战斗') ]
+      mkTurnFight2a: ['<32>{#p/kidding}* 好吧... 那我试试...'],
+      mkTurnFight2b: ['<32>{#p/kidding}* 哦，好...', "<32>* 那我就饶恕他们吧！"],
+      mkTurnFight3a: ['<32>* 呀哈...！'],
+      mkTurnFight3b: ['<32>* 嘿呀...！'],
+      mkTurnFight3c: ['<32>* 我打！'],
+      mkTurnMercy1: ['<32>{#p/kidding}* 仁慈？\n* 让我饶恕对手吗？', "<32>{#p/kidding}* 哈哈，容易！"],
+      mkTurnX: () => [choicer.create('* （怪物小孩应该怎么做？）', '仁慈', '行动', '魔法', '战斗')]
    },
 
    c_name_common: {
@@ -5707,10 +5707,10 @@ export default {
    c_call_common: {
       start: '<32>{#s/phone}{#p/event}* 拨号中...',
       end: '<32>{#s/equip}{#p/event}* 滴...',
-      nobody0: [ '<32>{#p/human}* （全是噪音。）' ],
-      nobody1: [ '<32>{#p/human}* （没有回应。）' ],
-      nobody2: [ '<32>{#p/basic}* ...但是谁也没有来。' ],
-      nobody3: [ '<32>{#p/human}* （没有信号。）' ],
+      nobody0: ['<32>{#p/human}* （全是噪音。）'],
+      nobody1: ['<32>{#p/human}* （没有回应。）'],
+      nobody2: ['<32>{#p/basic}* ...但是谁也没有来。'],
+      nobody3: ['<32>{#p/human}* （没有信号。）'],
       nobody4: [
          '<32>{#p/human}* (It sounds like a small, white dog is sleeping on the cell phone.)',
          '<32>{#p/basic}* (Snore... snore...)',
@@ -5765,15 +5765,15 @@ export default {
          '<25>{#f/5}* I am not sure how to react to this.'
       ],
       hello: [
-         [ '<25>{#p/asgore}{#f/21}* A greeting, you say?', '<25>{#f/7}* Hmm...', '<25>{#f/6}* I give you a \"Howdy!\"' ],
-         [ '<25>{#p/asgore}{#f/5}* Another greeting?', '<25>{#f/21}* I know...', '<25>{#f/6}* \"How do you do!\"' ],
+         ['<25>{#p/asgore}{#f/21}* A greeting, you say?', '<25>{#f/7}* Hmm...', '<25>{#f/6}* I give you a \"Howdy!\"'],
+         ['<25>{#p/asgore}{#f/5}* Another greeting?', '<25>{#f/21}* I know...', '<25>{#f/6}* \"How do you do!\"'],
          [
             '<25>{#p/asgore}{#f/5}* ...',
             '<25>{#f/5}* At this rate, I am going to run out of greetings.',
             '<25>{#f/6}* Though, the birds outside may be more willing to oblige.',
             '<25>{#f/7}* Why not try with them?'
          ],
-         [ '<25>{#p/asgore}{#f/5}* ... howdy, little one.', '<25>{#f/6}* It is always nice to hear your voice.' ]
+         ['<25>{#p/asgore}{#f/5}* ... howdy, little one.', '<25>{#f/6}* It is always nice to hear your voice.']
       ],
       dad1: [
          '<25>{#p/asgore}{#f/6}* ...',
@@ -5795,19 +5795,19 @@ export default {
       insult1: () =>
          SAVE.data.b.ufokinwotm8
             ? [
-                 '<25>{#p/asgore}{#f/1}* ...',
-                 '<25>{#f/1}* You seem very upset about something...',
-                 '<25>{#f/6}* If you like, we may talk once construction has come to an end.'
-              ]
+               '<25>{#p/asgore}{#f/1}* ...',
+               '<25>{#f/1}* You seem very upset about something...',
+               '<25>{#f/6}* If you like, we may talk once construction has come to an end.'
+            ]
             : [
-                 '<25>{#p/asgore}{#f/8}* ...',
-                 '<26>{#f/6}* Ooh.\n* How dastardly of you.',
-                 '<25>{#f/21}* But do not worry...\n* I can tell you are only kidding with me.'
-              ],
+               '<25>{#p/asgore}{#f/8}* ...',
+               '<26>{#f/6}* Ooh.\n* How dastardly of you.',
+               '<25>{#f/21}* But do not worry...\n* I can tell you are only kidding with me.'
+            ],
       insult2: () =>
          SAVE.data.b.ufokinwotm8
-            ? [ '<25>{#p/asgore}{#f/1}* ...', '<25>{#p/asgore}{#f/6}* I will be available to talk with you soon, okay?' ]
-            : [ '<25>{#p/asgore}{#f/21}* Now, now.\n* There is no need to be so brazen.' ]
+            ? ['<25>{#p/asgore}{#f/1}* ...', '<25>{#p/asgore}{#f/6}* I will be available to talk with you soon, okay?']
+            : ['<25>{#p/asgore}{#f/21}* Now, now.\n* There is no need to be so brazen.']
    },
 
    s_save_common: {
@@ -5817,7 +5817,7 @@ export default {
       },
       _frontier1: {
          name: '你的家',
-         text: [ "<32>{#p/human}* （你充满了决心。）" ]
+         text: ["<32>{#p/human}* （你充满了决心。）"]
       },
       _frontier8: {
          name: '欧律比亚',

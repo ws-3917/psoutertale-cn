@@ -41,7 +41,7 @@ const toriel_aerialis = () =>
          : [
               '<25>{#p/toriel}{#f/0}* La noticia de tu estreno en TV se ha esparcido rápidamente, pequeño.',
               '<25>{#f/0}* Aunque no he podido verlo, a causa de mi falta de una TV',
-              '<25>{#f/1}* Cuando escuché acerca de ello, demo admitir, estaba sorprendida...',
+              '<25>{#f/1}* Cuando escuché acerca de ello, debo admitir, estaba sorprendida...',
               SAVE.data.n.state_aerialis_talentfails === 0
                  ? '<25>{#f/1}* ¿Cómo es que no fallaste ni UNA sola vez?'
                  : '<25>{#f/6}* No sabía que tenias movimientos tan \"fabulosos\".'
@@ -1062,7 +1062,7 @@ export default {
       danger_puzzle2: () =>
          world.darker
             ? [ "<32>{#p/basic}* Esta muy alto para que puedas alcanzarlo." ]
-            : [ "<32>{#p/basic}* La asombrosa altura de esta terminal se eleva sobre ti, bloqueando tu ansiosa aproximación." ],
+            : [ "<32>{#p/basic}* La altura de esta terminal se eleva sobre ti, bloqueando tu ansioso enfoque." ],
       danger_puzzle3: () => [
          [ 1, 5 ].includes(SAVE.data.n.state_wastelands_dummy)
             ? '<25>{#p/toriel}{#f/3}* Qué pasa ahora...'
@@ -1074,7 +1074,7 @@ export default {
             : [
                  '<25>{#p/toriel}{#f/7}* ... oh mi.',
                  '<25>{#f/6}* Parece que hay un error de diseño aquí.',
-                 '<25>{#f/5}* ¿Así que el terminal está demasiado alto para que puedas alcanzarlo?'
+                 '<25>{#f/5}* ¿Así que el terminal está muy alto para que puedas alcanzarlo...?'
               ]),
          '<25>{#f/0}* No hay problema.\n* Lo operaré por ti.',
          '<25>{#f/0}* ...',
@@ -1132,10 +1132,10 @@ export default {
       drop_steak: [ '<32>{#p/basic}{#n1}* ¡¿Enserio!? ;)', '<32>* ¡Ese filete no tenía precio! ;)' ],
       dummy1: [
          '<25>{#p/toriel}{#f/0}* Tu próxima lección implica encuentros con otros monstruos.',
-         '<25>{#f/1}* Como eres un humano deambulando por la estación espacial, es probable que te ataquen...',
+         '<25>{#f/1}* Al ser un humano vagando por la estación, es probable que te ataquen...',
          '<25>{#f/0}* Si eso pasa, entrarás en lo que se conoce como una PELEA.',
          '<25>{#f/0}* Afortunadamente, hay varias formas de resolver una pelea.',
-         '<25>{#f/1}* Por ahora, Te sugiero entablar una conversación amistosa...',
+         '<25>{#f/1}* Por ahora, te sugiero entablar una charla amistosa...',
          '<25>{#f/0}* ... dándome así la oportunidad de resolver el conflicto por ti.'
       ],
       dummy2: [ '<25>{#p/toriel}* Para empezar, puedes practicar hablando con el maniquí.' ],
@@ -1938,26 +1938,26 @@ export default {
             '<32>{#p/basic}* (¡Achú!)',
             '<32>{#p/human}* (Se escucha un pequeño perro blanco estornudando mientras duerme.)',
             '<25>* (Escuchas una voz distante.)',
-            '<25>{#p/toriel}{#f/1}* Aha!\n* I heard that, you little white dog...',
-            '<25>{#f/6}* Now I am going to find you!',
-            '<32>{#p/human}* (The snoring stops.)\n* (The dog now seems to be on the run from something.)',
-            '<25>{#p/toriel}{#f/8}* Hee hee, there is no escape!'
+            '<25>{#p/toriel}{#f/1}* ¡Ajá!\n* Oí eso, perrito...',
+            '<25>{#f/6}* ¡Te voy a encontrar!',
+            '<32>{#p/human}* (Los ronquidos paran.)\n* (El perro parece estar corriendo de algo.)',
+            '<25>{#p/toriel}{#f/8}* Jeje, ¡no te vas a escapar de esta!'
          ],
          [
             '<32>{#s/phone}{#p/event}* Ring, ring...',
             '<32>{#p/human}* (Oyes una voz distante.)',
-            '<25>{#p/toriel}{#f/1}* Hello...\n* This is... Toriel...',
-            '<32>{#s/bark}{#p/event}* Bark!\n* Bark!',
-            '<25>{#p/toriel}{#f/2}* No, bad puppy!',
-            '<32>{#p/basic}* (Whimper... whimper...)',
-            '<25>{#p/toriel}* There, there...\n* I will find another cell phone for you.',
-            '<25>{#f/1}* Would that be alright?',
+            '<25>{#p/toriel}{#f/1}* Hola...\n* Habla... Toriel...',
+            '<32>{#s/bark}{#p/event}* ¡Guau!\n* ¡Guau!',
+            '<25>{#p/toriel}{#f/2}* No,¡perrito malo!',
+            '<32>{#p/basic}* (Lloriqueo... Lloriqueo...)',
+            '<25>{#p/toriel}* Ya, ya...\n* Te voy a conseguir otro teléfono para ti.',
+            '<25>{#f/1}* ¿Te gustaría eso?',
             '<32>{#p/basic}* (...)',
-            '<32>{#s/bark}{#p/event}* Bark!',
-            '<25>{#p/toriel}* Glad to hear it.',
-            '<32>{#p/human}* (The dog could be heard walking away.)',
-            '<25>{#p/toriel}* Please, forgive me for all of this nonsense.',
-            '<25>{#f/1}* I will be back to pick you up shortly...'
+            '<32>{#s/bark}{#p/event}* ¡Guau!',
+            '<25>{#p/toriel}* Me alegra oír eso.',
+            '<32>{#p/human}* (Escuchas como el perro se va caminando.)',
+            '<25>{#p/toriel}* Por favor, perdoname por todo este lío.',
+            '<25>{#f/1}* Te iré a buscar en un momento...'
          ]
       ],
       indie6: (early: boolean) => [
@@ -1965,42 +1965,42 @@ export default {
          ...([ 1, 5 ].includes(SAVE.data.n.state_wastelands_dummy) && SAVE.data.b.w_state_riddleskip
             ? [
                  early
-                    ? '<25>{#p/toriel}{#g/torielTired}* ... already?'
-                    : '<25>{#p/toriel}{#g/torielTired}* ... impatient, are we?',
-                 '<25>{#f/9}* I really should not be surprised.',
-                 '<25>{#f/5}* Just remember the dangers that lie ahead of you out there...',
-                 '<25>{#f/1}* It would be a shame if you got hurt.'
+                    ? '<25>{#p/toriel}{#g/torielTired}* ... ¿Yá?'
+                    : '<25>{#p/toriel}{#g/torielTired}* ... Si que eres impaciente',
+                 '<25>{#f/9}* Realmente no me sorprende.',
+                 '<25>{#f/5}* Solo recuerda los peligros que te esperan ahí afuera...',
+                 '<25>{#f/1}* Sería una pena que te lastimaran.'
               ]
             : [
-                 '<25>{#p/toriel}* Hello?\n* This is Toriel.',
-                 '<25>{#f/1}* You have not left the room, have you?',
-                 '<25>{#f/0}* There are many dangers out there, and I do not want you to get hurt.',
-                 '<25>{#f/1}* Take care of yourself, alright?'
+                 '<25>{#p/toriel}* ¿Hola?\n* Habla Toriel.',
+                 '<25>{#f/1}* No te fuiste de la habitación, ¿Verdad?',
+                 '<25>{#f/0}* Hay muchos peligros por ahí, y odiaría que te lastimes.',
+                 '<25>{#f/1}* Cuidate, ¿de acuerdo?'
               ])
       ],
-      indie7: [ '<32>{#p/basic}* A few minutes later...' ],
+      indie7: [ '<32>{#p/basic}* Unos minutos después...' ],
       indie8: [
-         '<25>{#p/toriel}* I have returned!',
-         '<25>* Your patience thus far has been commendable.\n* Even I am impressed!',
-         '<25>{#f/0}* Anyhoo.\n* It is time I took you home now.',
-         '<25>{#f/1}* Please, allow me...'
+         '<25>{#p/toriel}* ¡Volví!',
+         '<25>* Tu paciencia hasta ahora ha sido loable.\n* ¡Incluso yo estoy impresionada!',
+         '<25>{#f/0}* En fin.\n* Es hora de que te lleve a casa.',
+         '<25>{#f/1}* Por favor, permíteme...'
       ],
       lobby_puzzle1: [
-         '<25>{#p/toriel}{#f/0}* Welcome to our humble outpost, innocent one.',
-         '<25>{#f/0}* There are many lessons that I must teach you about life here.',
-         '<25>{#f/1}* First and foremost...',
-         '<25>{#f/0}* Puzzles!',
-         '<25>{#f/0}* Allow me to perform this quick demonstration.'
+         '<25>{#p/toriel}{#f/0}* Bienvenido a nuestra humilde base espacial, pequeño.',
+         '<25>{#f/0}* Hay muchas cosas que te debo enseñar sobre la vida aquí.',
+         '<25>{#f/1}* Lo primero y mas importante...',
+         '<25>{#f/0}* ¡Puzzles!',
+         '<25>{#f/0}* Dejame mostrarte rapidamente.'
       ],
       lobby_puzzle2: [
-         '<25>{#p/toriel}{#f/1}* It may seem strange to you now, but here on the outpost...',
-         '<25>{#f/0}* Solving puzzles is a part of our daily routine.',
-         '<25>{#f/0}* With time, and a little guidance, you will grow accustomed to them.'
+         '<25>{#p/toriel}{#f/1}* Puede parecer extraño para ti, pero aquí en la Estación Espacial...',
+         '<25>{#f/0}* Resolver puzzles es parte de nuestra rutina diaria.',
+         '<25>{#f/0}* Con el tiempo, y un poco de ayuda, te vas a acostumbrar a ellos.'
       ],
-      lobby_puzzle3: [ '<25>{#p/toriel}* When you are ready, we may proceed.' ],
+      lobby_puzzle3: [ '<25>{#p/toriel}* Cuando estés listo, podremos seguir.' ],
       loox: {
          a: [
-            "<32>{#p/basic}{#n1}* I heard you're quite flirty, for a human.",
+            "<32>{#p/basic}{#n1}* Oí que eres bastante amoroso para un humano.",
             "<32>* As you {@fill=#cf7fff}FLIRT{@fill=#fff} with different kinds of monsters, you'll see hearts next to their names.",
             "<32>* The more types of monsters you {@fill=#cf7fff}FLIRT{@fill=#fff} with, the more hearts you'll have.",
             '<32>* I wonder...',
@@ -2188,7 +2188,7 @@ export default {
             '<32>{#p/event}* Ring, ring...',
             3 <= SAVE.data.n.cell_insult
                ? '<25>{#p/toriel}* Hello, child.'
-               : '<25>{#p/toriel}* Hello?\n* This is Toriel.',
+               : '<25>{#p/toriel}* ¿Hola?\n* Habla Toriel.',
             '<25>{#f/1}* For no reason in particular...',
             '<25>{#f/0}* Do you prefer cinnamon, or butterscotch?',
             choicer.create('* (Which do you prefer?)', 'Cinnamon', 'Bscotch'),
@@ -2200,7 +2200,7 @@ export default {
             '<32>{#p/event}* Ring, ring...',
             3 <= SAVE.data.n.cell_insult
                ? '<25>{#p/toriel}* Hello, child.'
-               : '<25>{#p/toriel}* Hello?\n* This is Toriel.',
+               : '<25>{#p/toriel}* ¿Hola?\n* Habla Toriel.',
             [
                '<25>{#f/1}* You do not DISLIKE butterscotch, do you?',
                '<25>{#f/1}* You do not DISLIKE cinnamon, do you?'

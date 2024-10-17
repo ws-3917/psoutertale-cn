@@ -269,115 +269,115 @@ export default {
                     Math.min(asrielinter.gravo1++, 1)
                  ]
               ]
-            : [ '<32>{#p/basic}* Es un \"inversor gravométrico.\"', '<32>* Whatever that means.' ],
+            : [ '<32>{#p/basic}* Es un \"inversor gravométrico.\"', '<32>* Lo que sea que signifique.' ],
       gravo3: () => [
-         '<32>{#p/human}* (You use the Gravometric Inverter Remote.)\n* (Nothing happens.)',
+         '<32>{#p/human}* (Utilizas el Inversor Gravométrico.)\n* (No pasa nada.)',
          ...(SAVE.data.b.svr
-            ? [ [ "<25>{#p/asriel1}{#f/21}* They're probably shutting off power for non-essential devices." ], [] ][
+            ? [ [ "<25>{#p/asriel1}{#f/21}* Probablemente están cortando la energía para dispositivos no esenciales." ], [] ][
                  Math.min(asrielinter.gravo3++, 1)
               ]
-            : [ '<32>{#p/basic}* It must be offline...' ])
+            : [ '<32>{#p/basic}* No debe tener conexión...' ])
       ],
-      gravo2: [ '<32>{#p/human}* (You use the Gravometric Inverter Remote.)' ],
+      gravo2: [ '<32>{#p/human}* (Usas el Inversor Gravométrico.)' ],
       sansdoor1: () =>
          SAVE.data.b.svr || world.runaway
-            ? [ '<32>{#p/human}* (It looks to have been closed with a deadlock seal.)' ]
-            : [ "<32>{#p/basic}* It's locked." ],
-      sansdoor2: [ '<32>{#p/human}* (You use the Skeleton Key.)' ],
+            ? [ '<32>{#p/human}* (Parece que ha sido cerrado con un candado de alta seguridad.)' ]
+            : [ "<32>{#p/basic}* Está cerrado." ],
+      sansdoor2: [ '<32>{#p/human}* (Usas la Llave Esqueleto.)' ],
       sanscab1: () => [
-         ...(SAVE.data.b.svr ? [] : [ "<32>{#p/basic}* There's an odd remote inside of this envelope." ]),
-         '<32>{#s/equip}{#p/human}* (The Gravometric Inverter Remote was added to your keyring.)'
+         ...(SAVE.data.b.svr ? [] : [ "<32>{#p/basic}* Hay un control remoto extraño dentro de este sobre." ]),
+         '<32>{#s/equip}{#p/human}* (El Mando del Inversor Gravométrico fue añadido a tu llavero.)'
       ],
       sanscab2: () =>
          SAVE.data.b.svr
-            ? [ '<32>{#p/human}* (But you already emptied the envelope of its contents.)' ]
-            : [ "<32>{#p/basic}* It's just an empty envelope." ],
+            ? [ '<32>{#p/human}* (Pero ya vaciaste el contenido del sobre.)' ]
+            : [ "<32>{#p/basic}* Es sólo un sobre vacío." ],
       sanscab3: () => [
-         ...(SAVE.data.b.svr ? [] : [ "<32>{#p/basic}* There's an odd... item, inside of this envelope." ]),
+         ...(SAVE.data.b.svr ? [] : [ "<32>{#p/basic}* Hay un elemento extraño... dentro de este sobre." ]),
          SAVE.storage.inventory.size < 8
             ? '<32>{#s/equip}{#p/human}* (Conseguiste la Espada Perruna de Maíz.)'
             : "<32>{#p/human}* (Llevas demasiado encima.)"
       ],
-      cream_get: [ '<32>{#p/human}* (You got the Ice Dream.)' ],
-      cream_deny: [ '<32>{#p/basic}* Nothing left.' ],
+      cream_get: [ '<32>{#p/human}* (Conseguiste el Sueño Helado.)' ],
+      cream_deny: [ '<32>{#p/basic}* No queda nada.' ],
       cream_full: [ "<32>{#p/human}* (Llevas demasiado encima.)" ],
       cream_get_archive: [
-         '<32>{#p/human}* (You reach into the cart.)',
-         '<32>{#p/human}{#s/equip}* (You got the Ice Dream.)'
+         '<32>{#p/human}* (Metes la mano en el carrito).',
+         '<32>{#p/human}{#s/equip}* (Conseguiste el Sueño Helado.)'
       ],
-      cream_empty_archive: [ '<32>{#p/human}* (You reach into the cart.)', '<32>{#p/human}* (...)' ],
-      cream_full_archive: [ "<32>{#p/human}* (You're carrying too much to reach inside.)" ],
+      cream_empty_archive: [ '<32>{#p/human}* (Metes la mano en el carrito).', '<32>{#p/human}* (...)' ],
+      cream_full_archive: [ "<32>{#p/human}* (Llevas demasiado para alcanzar el interior.)" ],
       bunbun: pager.create(
          0,
          () =>
             SAVE.data.n.plot === 72
-               ? [ "<32>{#p/basic}* Mom says that we're going to a new homeworld soon.", "<32>* ... what's a homeworld?" ]
+               ? [ "<32>{#p/basic}* Mamá dice que pronto iremos a un nuevo mundo natal.", "<32>* ... ¿qué es un mundo natal?" ]
                : [
-                    '<32>{#p/basic}* Mom says that sleeping could recover your health {@fill=#ff0}above your maximum HP{@fill=#fff}.',
-                    "<32>* ... what's maximum HP?"
+                    '<32>{#p/basic}* Mamá dice que dormir puede recuperar tu vida {@fill=#ff0}por encima de tus PS máximos{@fill=#fff}.',
+                    "<32>* ... ¿qué son PS máximos?"
                  ],
          () =>
             SAVE.data.n.plot === 72
-               ? [ '<32>{#p/basic}* Do humans have a homeworld?' ]
-               : [ '<32>{#p/basic}* Is it something monsters have?' ]
+               ? [ '<32>{#p/basic}* ¿Los humanos tienen un mundo natal?' ]
+               : [ '<32>{#p/basic}* ¿Es algo que tienen los monstruos?' ]
       ),
       emptytable1: () =>
          SAVE.data.b.svr
-            ? [ '<32>{#p/human}* (The table strikes you as being rather lonesome.)' ]
-            : [ "<32>{#p/basic}* It's just a lonely table.\n* Smells like frosting." ],
+            ? [ '<32>{#p/human}* (La mesa te parece bastante solitaria).' ]
+            : [ "<32>{#p/basic}* Es sólo una mesa solitaria.\n* Huele a congelada." ],
       emptytable2: () =>
          SAVE.data.b.svr
-            ? [ '<32>{#p/human}* (The table strikes you as being rather lonesome.)' ]
-            : [ "<32>{#p/basic}* It's just a lonely table.\n* Smells like hair." ],
-      balcony0: () => [ '<18>{#p/papyrus}ENJOYING THE VIEW?', choicer.create('* (What do you say?)', 'Sí', 'No') ],
+            ? [ '<32>{#p/human}* (La mesa te parece bastante solitaria).' ]
+            : [ "<32>{#p/basic}* Es sólo una mesa solitaria.\n* Huele a pelo." ],
+      balcony0: () => [ '<18>{#p/papyrus}¿DISFRUTANDO LAS VISTAS?', choicer.create('* (¿Qué dices?)', 'Sí', 'No') ],
       balcony1: [
-         "<18>{#p/papyrus}{#f/9}GOOD!\nIT'S ABOUT TIME SOMEONE DID.",
-         '<18>{#f/7}SANS BARELY EVER TAKES THE TIME TO LOOK OUTSIDE!!!'
+         "<18>{#p/papyrus}{#f/9}¡BIEN!\nYA ERA HORA DE QUE ALGUIEN LO HICIERA.",
+         '<18>{#f/7}¡¡¡SANS APENAS SE TOMA EL TIEMPO DE MIRAR AFUERA!!!'
       ],
       balcony2: [
-         "<18>{#p/papyrus}{#f/5}OH...\nWELL, THAT'S OKAY...",
-         '<18>{#f/4}(SIGH...)\nAT LEAST YOU TRIED WALKING OUT.',
-         "<18>{#f/7}SANS WOULDN'T EVEN DO THAT!!!"
+         "<18>{#p/papyrus}{#f/5}VAYA...\nBUENO, ESTÁ BIEN...",
+         '<18>{#f/4}(SUSPIRO...)\nALMENOS INTENTASTE CAMINAR FUERA.',
+         "<18>{#f/7}¡¡¡SANS NI SIQUIERA HARÍA ESO!!!"
       ],
       bedbook1: () =>
          SAVE.data.b.svr
-            ? [ "<32>{#p/human}* (You can't seem to understand the contents of this book.)" ]
-            : [ "<32>{#p/basic}* It's a book, written in an ancient language." ],
-      bedbook3a: [ '<32>{#p/basic}* Would you like me to read it?' ],
-      bedbook3b: [ '<32>{#p/basic}* Read it again?' ],
-      bedbook4: () => [ choicer.create('* (Have $(name) read the book?)', 'Sí', 'No') ],
+            ? [ "<32>{#p/human}* (Parece que no puedes entender el contenido de este libro)." ]
+            : [ "<32>{#p/basic}* Es un libro, escrito en un idioma antiguo." ],
+      bedbook3a: [ '<32>{#p/basic}* ¿Te gustaría que lo leyera?' ],
+      bedbook3b: [ '<32>{#p/basic}* ¿Leerlo de nuevo?' ],
+      bedbook4: () => [ choicer.create('* (¿$(name) ha leído el libro?)', 'Sí', 'No') ],
       bedbook5: [
-         '<32>{#p/basic}* Okay, here goes...',
-         '<32>* \"Long ago, two species ruled the solar system: humans and monsters.\"',
-         '<32>* \"At first, the monsters were only visitors, soon to return to their own star system.\"',
-         '<32>* \"But the monsters became fascinated by humanity, and wanted to co-exist with them.\"',
-         '<32>* \"As such, they shared their technology with the humans, and forged an alliance.\"',
-         '<32>* \"Over the next few hundred years, monsters and humans lived in peace and harmony.\"',
-         '<32>* \"One day, the humans began to fear something about the monsters...\"',
-         '<32>* \"A fear that, without skilled leadership, was allowed to spiral out of control.\"',
-         '<32>* \"As time passed, a war broke out between the two species.\"',
-         '<32>* \"Many battles and skirmishes would occur all across the stars...\"',
-         '<32>* \"But the humans, filled with fear and determination, easily took control.\"',
-         '<32>* \"Then, on one fateful day, a massive weapon was fired at the monsters\' homeworld.\"',
-         '<32>* \"After the monsters\' home planet was destroyed, humans declared victory.\"',
-         '<32>* \"A settlement between the two species was signed, and...\"',
-         '<32>* \"The remaining monsters were banished to an abandoned outpost.\"',
-         '<32>* \"Then, the humans gathered seven of their brightest minds.\"',
-         '<32>* \"Together, they formulated a plan, and eventually...\"',
-         '<32>* \"A powerful force field was erected, and the monsters were sealed in.\"',
-         "<32>* Well, that's the story."
+         '<32>{#p/basic}* Bien, aquí va...',
+         '<32>* \"Hace tiempo, dos especies habitaban el sistema solar: humanos y monstruos.\"',
+         '<32>* \"Al principio, los monstruos eran solo visitantes, pronto volviendo a su propio sistema estelar.\"',
+         '<32>* \"Pero los monstruos se quedaron fascinados por la humanidad, y quisieron convivir con ellos.\"',
+         '<32>* \"Como tal, compartieron su tecnología con los humanos y forjaron una alianza.\"',
+         '<32>* \"Durante los siguientes cientos de años, los monstruos y los humanos vivieron en paz y armonía.\"',
+         '<32>* \"Un día, los humanos empezaron a temer algo acerca de los monstruos...\"',
+         '<32>* \"Un miedo que, sin un liderazgo capacitado, se permitiría que se saliera de control.\"',
+         '<32>* \"Con el paso del tiempo, estalló una guerra entre las dos especies.\"',
+         '<32>* \"Muchas batallas y escaramuzas ocurrirían a lo largo de las estrellas...\"',
+         '<32>* \"Pero los humanos, llenos de miedo y determinación, tomaron fácilmente el control.\"',
+         '<32>* \"Entonces, un día fatídico, se disparó un arma enorme contra el mundo natal de los monstruos.\"',
+         '<32>* \"Después de que el planeta natal de los monstruos fuera destruido, los humanos declararon la victoria.\"',
+         '<32>* \"Se firmó un acuerdo entre las dos especies y...\"',
+         '<32>* \"Los monstruos restantes fueron desterrados a una estación espacial abandonada.\"',
+         '<32>* \"Luego, los humanos reunieron a siete de sus mentes más brillantes.\"',
+         '<32>* \"Juntos, formularon un plan, y finalmente...\"',
+         '<32>* \"Se erigió un poderoso campo de fuerza y ​​los monstruos quedaron sellados.\"',
+         "<32>* Bueno, esa es la historia."
       ],
-      bedbook6: [ '<32>{#p/basic}* Well, if you ever want me to read it, let me know.' ],
-      beddoor1: [ "<32>{#p/basic}{#npc/a}* If you want a room, you'll need to ask me first." ],
-      beddoor2: [ "<32>{#p/basic}{#npc/a}* If you want a room again, you'll need to ask me first." ],
+      bedbook6: [ '<32>{#p/basic}* Bueno, si en algún momento quieres que la lea, déjame saber.' ],
+      beddoor1: [ "<32>{#p/basic}{#npc/a}* Si quieres una habitación, me tendrás que preguntar primero." ],
+      beddoor2: [ "<32>{#p/basic}{#npc/a}* Si quieres una habitación otra vez, me tendrás que preguntar primero." ],
       beddoor3: [ '<32>{#p/basic}{#npc/a}* Sorry, munchkin!\n* No more vacancies left here!' ],
       candy1: () =>
          postSIGMA()
             ? [ "<32>{#p/basic}* Está fuera de servicio." ]
             : [
                  SAVE.data.b.svr
-                    ? '<32>{#p/human}* (You approach the vending machine.)'
-                    : "<32>{#p/basic}* It's an exoberry-exclusive vending machine.",
+                    ? '<32>{#p/human}* (Te aproximas a la máquina expendedora.)'
+                    : "<32>{#p/basic}* Es una máquina expendedora exclusivamente de exobayas.",
                  choicer.create('* (Buy the Exoberries for 8G?)', 'Sí', 'No')
               ],
       candy2: [ "<32>{#p/human}* (You don't have enough G.)" ],
@@ -387,7 +387,7 @@ export default {
       capstation1: [
          '<32>{#p/human}* (You look behind the station and find a key.)',
          '<32>{#s/equip}{#p/human}* (The Rusty Key was added to your keyring.)',
-         '<32>* (Check your CELL to see all acquired keys.)'
+         '* (¿Comprar las ExoBayas por 8O?)'
       ],
       capstation2: [ '<32>{#p/human}* (You look behind the station.)', '<32>{#p/basic}* Nothing new back here.' ],
       crossword0: () =>
@@ -828,7 +828,7 @@ export default {
             ? [ '<32>{#p/basic}* ... but nobody came.' ]
             : [ "<32>{#p/basic}* Nobody's home." ],
       housebloc: () =>
-         SAVE.data.b.svr ? [ "<32>{#p/human}* (You can't seem to find a way in.)" ] : [ "<32>{#p/basic}* It's locked." ],
+         SAVE.data.b.svr ? [ "<32>{#p/human}* (You can't seem to find a way in.)" ] : [ "<32>{#p/basic}* Está cerrado." ],
       innkeep1a: pager.create(
          0,
          () => [
@@ -955,7 +955,7 @@ export default {
                  '<18>{#p/papyrus}OHO, THE HUMAN ARRIVES!',
                  '<18>MY BROTHER AND I HAVE CREATED MANY PUZZLES.',
                  '<18>{#f/9}ARE YOU UP FOR THE CHALLENGE, HUMAN!?',
-                 choicer.create('* (What do you say?)', 'Sí', 'No'),
+                 choicer.create('* (¿Qué dices?)', 'Sí', 'No'),
                  '<18>{#p/papyrus}CORRECT ANSWER!\nFOR YOU SEE...'
               ],
       maze2a: [
@@ -2372,7 +2372,7 @@ export default {
                                '<32>* (In fact...)',
                                '<32>* (Here, kid.)\n* (Have a key, on us.)',
                                '<32>{#s/equip}{#p/human}* (The Rusty Key was added to your keyring.)',
-                               '<32>* (Check your CELL to see all acquired keys.)',
+                               '* (¿Comprar las ExoBayas por 8O?)',
                                "<32>{#p/basic}{#npc/a}* (We've, uh, got an armory somewhere, I think.)"
                             ])),
                        ...(SAVE.data.b.oops
@@ -2871,9 +2871,9 @@ export default {
             SAVE.data.b.flirt_papyrus
                ? '<18>{#f/9}DO WHATEVER PEOPLE DO WHEN THEY DATE!'
                : '<18>{#f/9}\"HANG OUT\" LIKE A PAIR OF VERY COOL FRIENDS!',
-            choicer.create('* (What do you say?)', 'Sí', 'No')
+            choicer.create('* (¿Qué dices?)', 'Sí', 'No')
          ],
-         () => [ '<18>{#p/papyrus}READY?', choicer.create('* (What do you say?)', 'Sí', 'No') ]
+         () => [ '<18>{#p/papyrus}READY?', choicer.create('* (¿Qué dices?)', 'Sí', 'No') ]
       ),
       papdate4a: [ "<18>{#p/papyrus}OKAY, LET'S GO!" ],
       papdate4b: [ "<18>{#p/papyrus}I'LL KEEP WAITING HERE THEN!" ],
@@ -2885,9 +2885,9 @@ export default {
             SAVE.data.b.flirt_papyrus
                ? '<18>{#f/6}DO YOU WANT TO START DATING?'
                : '<18>{#f/6}DO YOU WANT TO START HANGING OUT?',
-            choicer.create('* (What do you say?)', 'Sí', 'No')
+            choicer.create('* (¿Qué dices?)', 'Sí', 'No')
          ],
-         () => [ '<18>{#p/papyrus}{#f/6}READY TO START?', choicer.create('* (What do you say?)', 'Sí', 'No') ]
+         () => [ '<18>{#p/papyrus}{#f/6}READY TO START?', choicer.create('* (¿Qué dices?)', 'Sí', 'No') ]
       ),
       papdate5a: () => [
          SAVE.data.b.flirt_papyrus
@@ -2949,7 +2949,7 @@ export default {
             ? '<15>{#f/10}WOULD LIKE TO GO ON A DATE WITH YOU!'
             : '<15>{#f/10}WOULD LIKE TO HANG OUT WITH YOU!'
       ],
-      papdate14: () => [ choicer.create('* (What do you say?)', 'Sí', 'No') ],
+      papdate14: () => [ choicer.create('* (¿Qué dices?)', 'Sí', 'No') ],
       papdate15a: [ '<15>{#p/papyrus}{#f/12}R-REALLY???', '<15>{#f/11}WOWIE!!!' ],
       papdate15a1: [ "<15>{#f/24}I GUESS THAT MEANS IT'S TIME FOR STEP THREE..." ],
       papdate15b: [ '<15>{#p/papyrus}{#f/21}OH...', '<15>{#f/27}F-FORTUNATELY, IT ONLY SAYS TO ASK.' ],
@@ -3026,7 +3026,7 @@ export default {
          '<15>{#f/15}BEHOLD!!'
       ],
       papdate21: [ '<15>{#p/papyrus}{#f/15}WHAT DO YOU THINK OF MY SECRET STYLE?' ],
-      papdate22: () => [ choicer.create('* (What do you say?)', 'It rocks', 'It sucks') ],
+      papdate22: () => [ choicer.create('* (¿Qué dices?)', 'It rocks', 'It sucks') ],
       papdate23a: [ '<15>{#p/papyrus}{#f/13}NO!!!', '<15>{#f/13}A GENUINE COMPLIMENT...!' ],
       papdate23b: [ '<15>{#p/papyrus}{#f/13}NO!!!', '<15>{#f/13}A CRITICAL, YET HONEST REVIEW...!' ],
       papdate24: [
@@ -3415,7 +3415,7 @@ export default {
       ],
       papsolu3a: () => [
          '<18>{#p/papyrus}{#f/9}DO YOU ABSOLUTELY, DAPSOLUTELY WANT THE SOLUTION???',
-         choicer.create('* (What do you say?)', 'Sí', 'No')
+         choicer.create('* (¿Qué dices?)', 'Sí', 'No')
       ],
       papsolu3a1: () => [
          '<18>{#p/papyrus}THE! SOLUTION! IS!',
@@ -3572,7 +3572,7 @@ export default {
          '<25>{#p/sans}* oh, heheh.\n* guess i got a little {@fill=#ff0}carried away{@fill=#fff}, huh?',
          '<18>{#p/papyrus}{#f/4}YEAH, YEAH...',
          '<18>{#f/9}WELL!\nDO YOU UNDERSTAND THE EXPLANATION?',
-         choicer.create('* (What do you say?)', 'Sí', 'No')
+         choicer.create('* (¿Qué dices?)', 'Sí', 'No')
       ],
       papyrus7: () => [
          "<18>{#p/papyrus}{#f/9}WELL, LET'S REVIEW THEN!",
@@ -3593,7 +3593,7 @@ export default {
          "<25>{#p/sans}* wasn't that supposed to be my cue?",
          '<18>{#p/papyrus}{#f/6}MAYBE???',
          '<18>{#f/7}WHATEVER!!\nDO YOU UNDERSTAND IT NOW!?',
-         choicer.create('* (What do you say?)', 'Sure', 'Even less')
+         choicer.create('* (¿Qué dices?)', 'Sure', 'Even less')
       ],
       papyrus8: [
          '<18>{#p/papyrus}{#f/9}WELL... THEN...',
@@ -3846,7 +3846,7 @@ export default {
          "<18>{#f/4}NOT TO MENTION, I'M GETTING TIRED OF CAPTURING YOU.",
          '<18>{#f/5}WOULD YOU LIKE TO PASS THROUGH...',
          '<18>{#f/5}... WITHOUT A BATTLE?',
-         choicer.create('* (What do you say?)', 'Sí', 'No')
+         choicer.create('* (¿Qué dices?)', 'Sí', 'No')
       ],
       papyrusFinal7a: [ '<18>{#p/papyrus}{#f/31}...\nOKAY...', "<18>{#f/3}I GUESS I'LL ACCEPT MY FAILURE." ],
       papyrusFinal7b: [ '<18>{#p/papyrus}{#f/4}WELL, IF YOU SAY SO, THEN...', '<18>{#f/9}BY ALL MEANS!!!' ],
@@ -3854,7 +3854,7 @@ export default {
          '<18>{#p/papyrus}{#f/1}AGAIN??',
          '<18>{#f/4}... WELL, OKAY...',
          '<18>{#f/9}WILL YOU FORGO THE BATTLE THIS TIME??',
-         choicer.create('* (What do you say?)', 'Sí', 'No')
+         choicer.create('* (¿Qué dices?)', 'Sí', 'No')
       ],
       papyrusFinal8a: [ '<18>{#p/papyrus}{#f/0}OKAY, HERE WE GO!' ],
       puzzle3: () => [

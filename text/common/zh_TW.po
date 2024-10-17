@@ -8068,7 +8068,7 @@ msgid ""
 "<32>{#p/human}* (...)\n"
 "* (You smile a little at Sans's joke.)"
 msgstr ""
-"* （...）\n"
+"<32>{#p/human}* （...）\n"
 "* （淚眼朦朧之中，\n"
 "  你回應了Sans的爛笑話。）"
 
