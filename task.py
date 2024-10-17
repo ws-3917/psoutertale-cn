@@ -6,5 +6,5 @@ if __name__ == '__main__':
     #task_release(55.4, "百分之六十")
     #task_showdiff(53.9, 54, lang='zh_CN', output="losttext.txt")
     #task_dttvl_copyfiles()
-    task_dttvl_update(update_lang='zh_CN')
+    #task_dttvl_update(update_lang='zh_CN')
     #bashcmd(f"cd {SRC_PATH}/app/dist && scp -qr assets {WEB_PATH}")

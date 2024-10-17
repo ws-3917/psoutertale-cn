@@ -141,7 +141,8 @@ def replace_strings(text, translation_dict):
                 # 转义双引号以防止注入
                 translated_string = translated_string.replace('"', r'\"')
                 if quote_type == 1 or "[ADD]" in translated_string:
-                    result.append(f"'{translated_string.replace("'", r"\'")}'")
+                    translated_string = translated_string.replace("'", r"\'")
+                    result.append(f"'{translated_string}'")
                 else:
                     result.append(f'"{translated_string}"')
         else:
@@ -151,7 +152,8 @@ def replace_strings(text, translation_dict):
                 # 转义双引号以防止注入，但保留其他转义字符
                 final_string = final_string.replace('"', r'\"')
                 if quote_type == 1 or "[ADD]" in final_string:
-                    result.append(f"'{final_string.replace("'", r"\'")}'")
+                    final_string = final_string.replace("'", r"\'")
+                    result.append(f"'{final_string}'")
                 else:
                     result.append(f'"{final_string}"')
 
@@ -769,7 +771,7 @@ def task_dttvl_copyfiles():
                 # 构造源文件路径
                 src_file = os.path.join(root, file).replace('\\', '/')
                 # 构造目标文件目录和路径
-                target_file = f"{TRANS_PATH}/dttvl/{src_file.replace(DTTVL_PATH, "cs/")}"
+                target_file = f"{TRANS_PATH}/dttvl/" + src_file.replace(DTTVL_PATH, "cs/")
                 # 提取字典
                 with open(src_file, "r", encoding="UTF-8") as csfile:
                     cs_content = csfile.read()
@@ -796,7 +798,7 @@ def task_dttvl_copyfiles():
             for file in files:
                 if file.endswith(DTTVL_FILETYPE[i]):
                     src_file = os.path.join(root, file).replace('\\', '/')
-                    target_file = f"{TRANS_PATH}/dttvl/{src_file.replace(DTTVL_PATHX, "")}"
+                    target_file = f"{TRANS_PATH}/dttvl/" + src_file.replace(DTTVL_PATHX, "")
                     # 提取字典
                     with open(src_file, "r", encoding="UTF-8") as utfile:
                         ut_content = utfile.read().replace("''", "\\'")
