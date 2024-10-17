@@ -1,20 +1,7 @@
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-02 05:01+0000\n"
-"PO-Revision-Date: 2024-10-07 11:29+0000\n"
-"Last-Translator: Wasneet Potato <wasneetpotato@outlook.com>\n"
-"Language-Team: Chinese (Simplified Han script) <https://ws3917.site/projects/"
-"deltatraveler/r1-overworld/zh_Hans/>\n"
-"Language: zh_CN\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.7.2\n"
 
-#
 msgid "* Use the box?"
 msgstr "* 使用箱子吗？"
 
@@ -150,8 +137,7 @@ msgid ""
 "*\\t<color=#FCA600FF>orange</color> is the opposite\n"
 "\\tof <color=#00A2E8FF>blue</color>,^05 right?"
 msgstr ""
-"*\\t<color=#FCA600FF>橙色</color>就是<color=#00A2E8FF>蓝色</color>的反义词，"
-"\n"
+"*\\t<color=#FCA600FF>橙色</color>就是<color=#00A2E8FF>蓝色</color>的反义词，\n"
 "\\t^05对吧？"
 
 msgid ""
