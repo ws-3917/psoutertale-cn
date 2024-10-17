@@ -650,7 +650,7 @@ def task_update():
     print(colored("--> 推送更改到Git仓库", "blue"))
     current_time = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     bashcmd(f"cd {TRANS_PATH} && git add . && git commit -m '{current_time} Update translation. \\nAuthor: {TRANS_AUTHOR}'")
-    bashcmd(f"cd {TRANS_PATH} && git push origin master")
+    bashcmd(f"cd {TRANS_PATH} && git push origin master && git push -u github master")
 
     print(colored("--- 文本更新完成", "green"))
 
@@ -689,7 +689,7 @@ def task_release(version, comment):
         current_time = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
         bashcmd(f"cd {reponame} && git add . && git commit -m "
                 f"'{current_time}: V{version} - {comment}.\\nAuthor: {TRANS_AUTHOR}\\nPS! Outertale {reponame.split('/')[-1]}.'")
-        bashcmd(f"cd {reponame} && git push origin masterr")
+        bashcmd(f"cd {reponame} && git push origin master && git push -u github master")
     print(colored(f"--- 已发布: V{version} - {comment}.", "green"))
 
 # 比较两个 PO 文件翻译字典之间的差异
@@ -873,6 +873,6 @@ def task_dttvl_update(update_lang = "zh_CN"):
     # git remote add origin git@gitee.com:ws-3917/psoutertale-cn.git
     # git remote add github git@github.com:ws-3917/psoutertale-cn.git
     bashcmd(f"cd {TRANS_PATH} && git add . && git commit -m '{current_time} Update translation. \\nAuthor: {TRANS_AUTHOR}'")
-    bashcmd(f"cd {TRANS_PATH} && git push origin master")
+    bashcmd(f"cd {TRANS_PATH} && git push origin master && git push -u github master")
 
     print(colored("--- 文本更新完成", "green"))
