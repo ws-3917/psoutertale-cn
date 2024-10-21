@@ -1,6 +1,21 @@
-#
+#, fuzzy
 msgid ""
 msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-10-21 05:29+0000\n"
+"PO-Revision-Date: 2024-10-21 05:29+0000\n"
+"Last-Translator: errosia <ericyan2008@foxmail.com>\n"
+"Language-Team: Chinese (Simplified Han script) <https://ws3917.site/projects/"
+"project-spacetime/1-outlands/zh_Hans/>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: ENCODING\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.8.1\n"
+
+#
 
 msgid ""
 "<25>{#p/toriel}{#f/1}* I hear there is a certain kind of fluid in "
@@ -12566,40 +12581,57 @@ msgid ""
 "<25>{#p/toriel}{#f/1}* This old landing pad was once a bustling "
 "intersection..."
 msgstr ""
+"<25>{#p/toriel}{#f/1}* 这个老停靠点以前\n"
+"  就像个繁忙的十字路口..."
 
 msgid "<25>{#f/1}* Supply ships coming and going..."
-msgstr ""
+msgstr "<25>{#f/1}* 补给飞船来来往往..."
 
 msgid "<25>{#f/1}* Ready to aid in whatever was being built next..."
 msgstr ""
+"<25>{#f/1}* 随时准备支援\n"
+"  下一个建设项目..."
 
 msgid "<25>{#f/5}* It is a shame the outpost seems to have stopped expanding."
 msgstr ""
+"<25>{#f/5}* 可惜，这个前哨站\n"
+"  好像不再扩张了。"
 
 msgid "<25>{#f/0}* For a while, building new areas defined our culture!"
 msgstr ""
+"<25>{#f/0}* 想当年，建设新区域\n"
+"  可是我们的文化标志啊！"
 
 msgid ""
 "<25>{#p/toriel}* I heard Sans's brother wants to join the Royal Guard "
 "someday."
 msgstr ""
+"<25>{#p/toriel}* 听说Sans的兄弟\n"
+"  以后想加入皇家卫队。"
 
 msgid "<25>{#f/1}* Such an aspirational young skeleton..."
-msgstr ""
+msgstr "<25>{#f/1}* 这小骷髅还挺有志向的..."
 
 msgid ""
 "<25>{#f/0}* Despite my feelings about the guard, it is good for him to "
 "dream."
 msgstr ""
+"<25>{#f/0}* 虽然我对卫队不太感冒，\n"
+"  但他有梦想是好事。"
 
 msgid ""
 "<25>{#f/5}* I worry that too many have given up on their dreams lately..."
 msgstr ""
+"<25>{#f/5}* 最近有好多人\n"
+"  都放弃梦想了..."
 
 msgid ""
 "<25>{#f/0}* But not him!\n"
 "* That skeleton knows what is best for him."
 msgstr ""
+"<25>{#f/0}* 但他没有！\n"
+"* 这小骷髅知道\n"
+"  什么对他自己最好。"
 
 msgid ""
 "<25>{#p/toriel}* Sans told me all about the gadgets Papyrus added to his "
