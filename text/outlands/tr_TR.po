@@ -1,6 +1,21 @@
-#
+#, fuzzy
 msgid ""
 msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-10-23 11:29+0000\n"
+"PO-Revision-Date: 2024-10-23 11:29+0000\n"
+"Last-Translator: Efe Kaya <efek8184@gmail.com>\n"
+"Language-Team: Turkish <https://ws3917.site/projects/project-spacetime/"
+"1-outlands/tr/>\n"
+"Language: tr_TR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: ENCODING\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.8.1\n"
+
+#
 
 msgid ""
 "<25>{#p/toriel}{#f/1}* I hear there is a certain kind of fluid in "
@@ -4912,31 +4927,36 @@ msgstr "{#n1!}* (Süper Starwalker 1'i 5A fiyatına alacak mısın?)"
 msgid ""
 "<32>{#p/basic}{#n1}* Hey, have you noticed anything strange goin' on around "
 "here?"
-msgstr ""
+msgstr "<32>{#p/basic}{#n1}* Hey, etrafta hiç tuhaf olan bi’ şeyler gördün mü?"
 
 msgid ""
 "<32>* I could'a sworn all the puzzles just de-activated themselves earlier."
 msgstr ""
+"<32>* Bütün bulmacaların önceden devre dışı kaldığına yemin edebilirdim."
 
 msgid ""
 "<32>* Anyway, I'm lookin' for a buyer on this limited edition Super "
 "Starwalker comic strip."
 msgstr ""
+"<32>* Neyse, bu sınırlı sayıdaki Süper Starwalker çizgi romanını alacak "
+"birini arıyorum."
 
 msgid "<32>{#p/basic}{#n1}* Finally, someone speaks to me!"
-msgstr ""
+msgstr "<32>{#p/basic}{#n1}* Sonunda, biri benimle konuşuyor!"
 
 msgid ""
 "<32>* I've been standin' out here for ages, and nobody's takin' my offer."
-msgstr ""
+msgstr "<32>* Sabahtandır burada duruyorum ve kimse teklifimi kabul etmiyor."
 
 msgid ""
 "<32>* Interested?\n"
 "* All I'm askin' for is 10G."
 msgstr ""
+"<32>* İlgilenir misin?\n"
+"* Sadece 10A istiyorum."
 
 msgid "{#n1!}* (Buy the Super Starwalker 1 for 10G?)"
-msgstr ""
+msgstr "{#n1!}* (Süper Starwalker 1’i 10A ile alacak mısın?)"
 
 msgid ""
 "<32>{#p/basic}{#n1}* Interested in buyin' my limited edition Super "
