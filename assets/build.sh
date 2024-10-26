@@ -27,10 +27,10 @@ rm -f app.asar
 asar pack asar app.asar &
 
 # src.zip
-# echo creating src.zip
+echo creating src.zip
 cd ../..
-# rm -f app/dist/src.zip
-# git archive -o app/dist/src.zip master --format zip -9 &
+rm -f app/dist/src.zip
+git archive -o app/dist/src.zip master --format zip -9 &
 
 # wait for all threads to complete
 while [ 1 ]; do fg 2> /dev/null; [ $? == 1 ] && break; done
@@ -39,7 +39,7 @@ while [ 1 ]; do fg 2> /dev/null; [ $? == 1 ] && break; done
 # echo creating web.zip
 cd app/dist/assets
 # rm -f ../web.zip
-# zip -qr9 ../web.zip * &
+# zip -qr9 ../web.zip *
 
 # unx.zip
 # echo creating unx.zip
@@ -47,7 +47,7 @@ cd app/dist/assets
 # rm -f resources/app.asar
 # cp ../app.asar resources/app.asar
 # rm -f ../unx.zip
-# zip -qr9 ../unx.zip * &
+# zip -qr9 ../unx.zip *
 
 # win.zip
 echo creating win.zip
@@ -63,7 +63,7 @@ zip -qr9 ../win.zip * &
 # rm -f outertale.app/Contents/Resources/app.asar
 # cp ../app.asar outertale.app/Contents/Resources/app.asar
 # rm -f ../mac.zip
-# zip -qr9 ../mac.zip * &
+# zip -qr9 ../mac.zip *
 
 # unx-arm.zip
 # echo creating unx-arm.zip
@@ -71,7 +71,7 @@ zip -qr9 ../win.zip * &
 # rm -f resources/app.asar
 # cp ../app.asar resources/app.asar
 # rm -f ../unx-arm.zip
-# zip -qr9 ../unx-arm.zip * &
+# zip -qr9 ../unx-arm.zip *
 
 # # win-arm.zip
 # echo creating win-arm.zip
@@ -79,7 +79,7 @@ zip -qr9 ../win.zip * &
 # rm -f resources/app.asar
 # cp ../app.asar resources/app.asar
 # rm -f ../win-arm.zip
-# zip -qr9 ../win-arm.zip * &
+# zip -qr9 ../win-arm.zip *
 
 # # mac-arm.zip
 # echo creating mac-arm.zip
@@ -87,7 +87,7 @@ zip -qr9 ../win.zip * &
 # rm -f outertale.app/Contents/Resources/app.asar
 # cp ../app.asar outertale.app/Contents/Resources/app.asar
 # rm -f ../mac-arm.zip
-# zip -qr9 ../mac-arm.zip * &
+# zip -qr9 ../mac-arm.zip *
 
 # # unx-32.zip
 # echo creating unx-32.zip
@@ -95,7 +95,7 @@ zip -qr9 ../win.zip * &
 # rm -f resources/app.asar
 # cp ../app.asar resources/app.asar
 # rm -f ../unx-32.zip
-# zip -qr9 ../unx-32.zip * &
+# zip -qr9 ../unx-32.zip *
 
 # # win-32.zip
 # echo creating win-32.zip
@@ -103,10 +103,10 @@ zip -qr9 ../win.zip * &
 # rm -f resources/app.asar
 # cp ../app.asar resources/app.asar
 # rm -f ../win-32.zip
-# zip -qr9 ../win-32.zip * &
+# zip -qr9 ../win-32.zip *
 
 # wait for all threads to complete
-while [ 1 ]; do fg 2> /dev/null; [ $? == 1 ] && break; done
+# while [ 1 ]; do fg 2> /dev/null; [ $? == 1 ] && break; done
 
 # and.apk
 echo creating and.apk
