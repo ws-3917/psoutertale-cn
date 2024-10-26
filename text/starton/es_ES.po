@@ -1,6 +1,21 @@
-#
+#, fuzzy
 msgid ""
 msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-10-17 23:29+0000\n"
+"PO-Revision-Date: 2024-10-17 23:29+0000\n"
+"Last-Translator: Stefano <stefanobuendia@hotmail.com>\n"
+"Language-Team: Spanish <https://ws3917.site/projects/project-spacetime/"
+"2-starton/es/>\n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: ENCODING\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.7.2\n"
+
+#
 
 msgid ""
 "<32>{#p/basic}* A standard-issue CITADEL long- range telescope, circa 261X."
@@ -972,7 +987,7 @@ msgid "<32>{#s/equip}{#p/human}* (The Rusty Key was added to your keyring.)"
 msgstr ""
 
 msgid "<32>* (Check your CELL to see all acquired keys.)"
-msgstr "* (¿Comprar las ExoBayas por 8O?)"
+msgstr "<32>* (Revisa tu TELÉFONO para ver todas las llaves conseguidas)"
 
 msgid "<32>{#p/human}* (You look behind the station.)"
 msgstr ""
@@ -5026,8 +5041,6 @@ msgstr ""
 msgid "SAVE YOURSELVES..."
 msgstr ""
 
-msgid ""
-msgstr ""
 
 msgid "FAILED TO CONNECT..."
 msgstr ""
