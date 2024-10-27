@@ -1,6 +1,21 @@
-#
+#, fuzzy
 msgid ""
 msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-10-27 03:42+0000\n"
+"PO-Revision-Date: 2024-10-27 03:42+0000\n"
+"Last-Translator: MurderSans_MDR <z127568254@163.com>\n"
+"Language-Team: Chinese (Simplified Han script) <https://ws3917.site/projects/"
+"project-spacetime/5-citadel/zh_Hans/>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: ENCODING\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.8.1\n"
+
+#
 
 msgid "<32>{#p/human}* (You feel a darkness gathering inside of you.)"
 msgstr "<32>{#p/human}* （一股暗流在你心中充盈。）"
@@ -10340,7 +10355,7 @@ msgid "<32>{#p/human}* (You stare into the dazzling sight from beyond.)"
 msgstr ""
 
 msgid "<32>{#p/basic}* They're made of magic."
-msgstr ""
+msgstr "<32>{#p/basic}* 一扇窗，由魔法制成。"
 
 msgid "<32>{#p/human}* (You stare graciously into the now-abandoned city...)"
 msgstr ""
@@ -10483,32 +10498,42 @@ msgstr ""
 "   令其稍作冷却，即可切片、上桌！”"
 
 msgid "<32>{#p/basic}* It's a casualty report."
-msgstr ""
+msgstr "<32>{#p/basic}* 这是份伤亡报告。"
 
 msgid ""
 "<33>* \"Overview... two thousand dead, forty-thousand injured.\"\n"
 "* \"Tenko has fallen.\""
 msgstr ""
+"<33>* “据统计... 此次袭击已致\n"
+"   2000人死亡，40000人受伤。”\n"
+"* “Tenko沦陷。”"
 
 msgid ""
 "<32>* \"Days before the attack, a local boy, Gerson, was drafted into the "
 "royal forces.\""
-msgstr ""
+msgstr "<32>* “数日前，当地青年Gerson应征入伍。”"
 
 msgid ""
 "<32>* \"Gerson had predicted the all- out assault based on movements within "
 "the human fleet.\""
 msgstr ""
+"<32>* “根据人类方舰队活动，\n"
+"  Gerson预言了此次全面进攻。”"
 
 msgid ""
 "<32>* \"Had it not been for the king's son, this prediction would have been "
 "ignored.\""
 msgstr ""
+"<32>* “王子殿下识人如炬，\n"
+"  我方才得以注意这一预言。”"
 
 msgid ""
 "<32>* \"Had it been ignored, Gerson's family would have died in the "
 "attack.\""
 msgstr ""
+"<32>* “倘若我方忽略了这一预言，\n"
+"   Gerson的家人将在此次袭击中\n"
+"   悉数丧命。”"
 
 msgid ""
 "<32>* \"Survivors of the attack are holding a commemoration at the central "
@@ -10516,7 +10541,7 @@ msgid ""
 msgstr ""
 
 msgid "<32>* \"The boy is a hometown hero.\""
-msgstr ""
+msgstr "<32>* “那位青年是名家乡英雄。”"
 
 msgid "<32>{#p/human}* (You note the fairly large size of the dining chair.)"
 msgstr ""
@@ -16323,8 +16348,6 @@ msgstr "<11>{*}{#e/asgore/2}{#v/3}{#i/10}{@random=1.1/1.1}..."
 msgid "<11>{*}{#e/asgore/2}{#v/3}{#i/7}{@random=1.1/1.1}Goodbye..."
 msgstr "<11>{*}{#e/asgore/2}{#v/3}{#i/12}{@random=1.1/1.1}永别了..."
 
-msgid ""
-msgstr ""
 
 msgid "N/A"
 msgstr "无"
