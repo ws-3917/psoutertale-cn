@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-21 10:29+0000\n"
-"PO-Revision-Date: 2024-10-26 14:42+0000\n"
+"PO-Revision-Date: 2024-10-27 03:42+0000\n"
 "Last-Translator: MurderSans_MDR <z127568254@163.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://ws3917.site/projects/"
 "project-spacetime/3-foundry/zh_Hans/>\n"
@@ -6576,25 +6576,33 @@ msgid "<32>{#s/phone}{#p/event}* Ring, ring..."
 msgstr "<32>{#s/phone}{#p/event}* 铃铃，铃铃..."
 
 msgid "<18>{#p/papyrus}{#f/9}PSST, THIS IS PAPYRUS!"
-msgstr ""
+msgstr "<18>{#p/papyrus}{#f/9}嘘，我是PAPYRUS！"
 
 msgid "<18>{#f/0}AT THE MOMENT, I AM STILL HIDING IN MY SAFE PLACE."
 msgstr ""
+"<18>{#f/0}这会我还在安全的地方，\n"
+"藏得好好的！"
 
 msgid "<18>{#f/4}I HOPE YOU'RE NOT GETTING INTO TROUBLE..."
-msgstr ""
+msgstr "<18>{#f/4}希望你没碰上麻烦..."
 
 msgid "<18>{#f/4}BECAUSE IF YOU ARE..."
-msgstr ""
+msgstr "<18>{#f/4}要是真碰上了..."
 
 msgid "<19>{#f/9}I'D HAVE TO COME OVER THERE AND DO SOMETHING ABOUT IT!"
 msgstr ""
+"<19>{#f/9}我可不能继续躲着，\n"
+"袖手旁观了！"
 
 msgid "<18>{#f/6}... WHICH I CAN'T DO, BECAUSE OF THE CURRENT SITUATION."
 msgstr ""
+"<18>{#f/6}...好吧，眼下我\n"
+"咋都不该出去。"
 
 msgid "<18>{#f/7}SO DON'T GET INTO ANY TROUBLE!"
 msgstr ""
+"<18>{#f/7}所以你要\n"
+"离麻烦远远的！"
 
 msgid "<18>{#f/5}..."
 msgstr "<18>{#f/5}..."
@@ -6603,38 +6611,50 @@ msgid "<18>{#f/5}PAPYRUS OUT..."
 msgstr ""
 
 msgid "<18>{#p/papyrus}{#f/0}PSST, IT'S PAPYRUS AGAIN."
-msgstr ""
+msgstr "<18>{#p/papyrus}{#f/0}嘘，还是我，PAPYRUS。"
 
 msgid "<18>{#f/5}WOWIE... IT MUST BE GETTING LATE BY NOW."
-msgstr ""
+msgstr "<18>{#f/5}哇哦... 这会肯定不早了。"
 
 msgid ""
 "<18>{#f/6}ARE YOU WELL?\n"
 "HAS ANYONE ELSE BEEN... KILLED?"
 msgstr ""
+"<18>{#f/6}你还好吗？\n"
+"有没有人... 死了？"
 
 msgid "<18>{#f/5}THESE ARE THE QUESTIONS I ASK MYSELF EVERY DAY."
 msgstr ""
+"<18>{#f/5}每天我都得琢磨琢磨\n"
+"这俩问题。"
 
 msgid "<18>{#f/4}GRANTED, I'VE ONLY BEEN IN HIDING FOR A SHORT TIME."
-msgstr ""
+msgstr "<18>{#f/4}虽说我也没躲在这多久。"
 
 msgid "<18>{#f/7}BUT STILL!!!"
-msgstr ""
+msgstr "<18>{#f/7}话说回来！！！"
 
 msgid "<18>{#f/4}... YOU MUST BE NEARLY OUT OF THE FOUNDRY BY NOW."
 msgstr ""
+"<18>{#f/4}...我估摸着\n"
+"你离铸厂出口不远了。"
 
 msgid "<18>{#f/5}I WISH I COULD DO MORE TO HELP, BUT ALAS..."
 msgstr ""
+"<18>{#f/5}唉，我很想帮你，\n"
+"可是..."
 
 msgid "<18>{#f/3}IT WOULD BE UNSAFE FOR ME TO RETURN RIGHT NOW."
 msgstr ""
+"<18>{#f/3}现在出来恐怕\n"
+"自身都难保。"
 
 msgid ""
 "<18>{#f/9}S-STILL!!!\n"
 "I KNOW YOU WON'T LET ME DOWN!"
 msgstr ""
+"<18>{#f/9}不-不过！！！\n"
+"你肯定不会让我失望的！"
 
 msgid "<32>{#p/basic}* ... huh?"
 msgstr "<32>{#p/basic}* ...嗯？"
@@ -13556,6 +13576,8 @@ msgstr ""
 
 msgid "<08>{#p/basic}{~}Check it."
 msgstr ""
+"<08>{#p/basic}{~}“查看”一下\n"
+"试试嘛。"
 
 msgid "<08>{#p/basic}{~}Take a looksie."
 msgstr ""
@@ -13570,7 +13592,7 @@ msgid "<08>{#p/basic}{~}Meh."
 msgstr ""
 
 msgid "<08>{#p/basic}{~}Whatever."
-msgstr ""
+msgstr "<08>{#p/basic}{~}随你便。"
 
 msgid "<09>{#p/basic}{~}\\x00*shrugs*"
 msgstr ""
@@ -13805,7 +13827,7 @@ msgid "<32>{#p/story}* SPEED down!"
 msgstr "<32>{#p/story}* 你的移速下降了！"
 
 msgid "<32>{#p/asriel2}* Maybe don't try that again."
-msgstr ""
+msgstr "<32>{#p/asriel2}* 别耍那玩意了。"
 
 msgid ""
 "<32>{#p/human}* (You throw the spanner.)\n"
