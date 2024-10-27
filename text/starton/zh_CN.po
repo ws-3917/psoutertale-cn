@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-21 05:29+0000\n"
-"PO-Revision-Date: 2024-10-27 12:42+0000\n"
+"PO-Revision-Date: 2024-10-27 14:42+0000\n"
 "Last-Translator: MurderSans_MDR <z127568254@163.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://ws3917.site/projects/"
 "project-spacetime/2-starton/zh_Hans/>\n"
@@ -13453,13 +13453,13 @@ msgid "Score: $(x)"
 msgstr "得分：$(x)"
 
 msgid "<32>{#p/asriel2}* Dogamy and Dogaressa."
-msgstr "<32>{#p/asriel2}* Dogamy和Dogaressa。"
+msgstr "<32>{#p/asriel2}* Dogamy和Dogaressa。ゑ"
 
 msgid "<32>{#p/story}* Dogi assault you!"
 msgstr "<32>{#p/story}* Dogi向你发起攻击！"
 
 msgid "<32>{#p/asriel2}* Tacky hats and fickle friends."
-msgstr "<32>{#p/asriel2}* 俗气的帽子再配上没谱的伙计。"
+msgstr "<32>{#p/asriel2}* 俗气的帽子再配上没谱的伙计。ゑ"
 
 msgid ""
 "<32>{#p/story}* Astro Serf saunters in!\n"
@@ -13469,7 +13469,7 @@ msgstr ""
 "* Jerry也来了。"
 
 msgid "<32>{#p/asriel2}* The teenage idiot squad."
-msgstr "<32>{#p/asriel2}* 笨蛋青年两人组。"
+msgstr "<32>{#p/asriel2}* 笨蛋青年两人组。ゑ"
 
 msgid "<32>{#p/story}* Chilldrake and Astro Serf pose like bad guys."
 msgstr ""
@@ -13480,7 +13480,7 @@ msgid "<32>{#p/story}* Stardrake and Astro Serf pose like bad guys."
 msgstr ""
 
 msgid "<32>{#p/asriel2}* One left."
-msgstr "<32>{#p/asriel2}* 只剩一个了。"
+msgstr "<32>{#p/asriel2}* 只剩一个了。ゑ"
 
 msgid "<32>{#p/story}* Chilldrake remains steady."
 msgstr ""
@@ -13495,7 +13495,7 @@ msgid "<32>{#p/story}* Just Astro now."
 msgstr ""
 
 msgid "<32>{#p/asriel2}* Jerry."
-msgstr "<32>{#p/asriel2}* Jerry。"
+msgstr "<32>{#p/asriel2}* Jerry。ゑ"
 
 msgid "<32>{#p/story}* Jerry."
 msgstr "<32>{#p/story}* Jerry。"
@@ -13505,7 +13505,7 @@ msgid ""
 "* Also, Jerry."
 msgstr ""
 "<32>{#p/asriel2}* 笨蛋青年两人组。\n"
-"* 再加一个，Jerry。"
+"* 再加一个，Jerry。ゑ"
 
 msgid "<32>{#p/story}* Jerry and friends appear!"
 msgstr ""
@@ -13527,7 +13527,7 @@ msgstr ""
 "* Jerry。"
 
 msgid "<32>{#p/asriel2}* Two left."
-msgstr "<32>{#p/asriel2}* 还剩下两个。"
+msgstr "<32>{#p/asriel2}* 还剩下两个。ゑ"
 
 msgid "<32>{#p/story}* Astro Serf and Chilldrake remain steady."
 msgstr ""
@@ -13561,7 +13561,7 @@ msgid ""
 "* Nothing more pointless than a rebel without a cause."
 msgstr ""
 "<32>{#p/asriel2}* Chilldrake，中二叛逆。\n"
-"* 胡乱撒气，荒唐至极。"
+"* 胡乱撒气，荒唐至极。ゑ"
 
 msgid ""
 "<32>{#p/asriel2}* Stardrake, the comedian.\n"
@@ -13569,7 +13569,7 @@ msgid ""
 msgstr ""
 "<32>{#p/asriel2}* Stardrake，逗逼。\n"
 "* 总喜欢给别人讲笑话，\n"
-"  殊不知自己就是个最大的笑话。"
+"  殊不知自己就是个最大的笑话。ゑ"
 
 msgid ""
 "<33>{#p/story}* CHILLDRAKE - ATK 12 DEF 7\n"
@@ -13630,7 +13630,7 @@ msgid "<08>{#p/basic}{~}You're mean AND weird."
 msgstr ""
 
 msgid "<32>{#p/asriel2}* Chilldrake."
-msgstr "<32>{#p/asriel2}* Chilldrake。"
+msgstr "<32>{#p/asriel2}* Chilldrake。ゑ"
 
 msgid "<32>{#p/asriel2}* Stardrake."
 msgstr "<32>{#p/asriel2}* Stardrake。"
@@ -13704,7 +13704,7 @@ msgid ""
 msgstr "<32>{#p/basic}* 他百口莫辩，灰溜溜地逃走了..."
 
 msgid "<32>{#p/asriel2}* Almost dead."
-msgstr "<32>{#p/asriel2}* 离死不远了。"
+msgstr "<32>{#p/asriel2}* 离死不远了。ゑ"
 
 msgid "<32>{#p/story}* Chilldrake is flaking apart."
 msgstr "<32>{#p/story}* Chilldrake的身体正在粉碎。"
@@ -14106,7 +14106,7 @@ msgid ""
 "* Lost its purpose in life a long time ago."
 msgstr ""
 "<32>{#p/asriel2}* Whizkarat，流浪猫。\n"
-"* 早已活得浑浑噩噩。"
+"* 早已活得浑浑噩噩。ゑ"
 
 msgid ""
 "<33>{#p/story}* WHIZKARAT - ATK 16 DEF 8\n"
@@ -14174,7 +14174,7 @@ msgid "<32>{#p/human}* (You make a cute remark and scratch Whizkarat's neck.)"
 msgstr ""
 
 msgid "<32>{#p/asriel2}* Whizkarat."
-msgstr "<32>{#p/asriel2}* Whizkarat。"
+msgstr "<32>{#p/asriel2}* Whizkarat。ゑ"
 
 msgid "<32>{#p/story}* Whizkarat is losing its cool."
 msgstr "<32>{#p/story}* Whizkarat逐渐变得不再冷静。"
@@ -14360,7 +14360,7 @@ msgstr ""
 "地脸红）"
 
 msgid "<32>{#p/asriel2}* He's vulnerable."
-msgstr "<32>{#p/asriel2}* 不堪一击。"
+msgstr "<32>{#p/asriel2}* 不堪一击。ゑ"
 
 msgid "<32>{#p/story}* Doggo has lost sight of you."
 msgstr "<32>{#p/story}* Doggo找不到你了。"
@@ -14393,7 +14393,7 @@ msgstr ""
 "  没时间让你抱。）"
 
 msgid "<32>{#p/asriel2}* Doggo."
-msgstr "<32>{#p/asriel2}* Doggo。"
+msgstr "<32>{#p/asriel2}* Doggo。ゑ"
 
 msgid "<32>{#p/story}* Doggo knows you're here."
 msgstr "<32>{#p/story}* Doggo知道你在这里。"
@@ -14402,48 +14402,48 @@ msgid "<32>{#p/human}* (You pet Doggo.)"
 msgstr "<32>{#p/human}* （你摸了摸Doggo。）"
 
 msgid "<32>{#p/asriel2}* ... again?"
-msgstr "<32>{#p/asriel2}* ...又摸？"
+msgstr "<32>{#p/asriel2}* ...又摸？ゑ"
 
 msgid "<32>{#p/asriel2}* It's not THAT funny..."
-msgstr "<32>{#p/asriel2}* 摸狗有那么有趣吗..."
+msgstr "<32>{#p/asriel2}* 摸狗有那么有趣吗...ゑ"
 
 msgid "<32>{#p/asriel2}* ... or is it?"
-msgstr "<32>{#p/asriel2}* ...有趣吗？"
+msgstr "<32>{#p/asriel2}* ...有趣吗？ゑ"
 
 msgid "<32>{#p/asriel2}* This is so stupid."
-msgstr "<32>{#p/asriel2}* 蠢死了。"
+msgstr "<32>{#p/asriel2}* 蠢死了。ゑ"
 
 msgid "<32>{#p/asriel2}* Do you really need to do this?"
-msgstr "<32>{#p/asriel2}* 你非得要这么摸吗？"
+msgstr "<32>{#p/asriel2}* 你非得要这么摸吗？ゑ"
 
 msgid "<32>{#p/asriel2}* ... do you?"
-msgstr "<32>{#p/asriel2}* ...非得摸吗？"
+msgstr "<32>{#p/asriel2}* ...非得摸吗？ゑ"
 
 msgid "<32>{#p/asriel2}* I guess so."
-msgstr "<32>{#p/asriel2}* 我看真是。"
+msgstr "<32>{#p/asriel2}* 我看真是。ゑ"
 
 msgid "<32>{#p/asriel2}* ..."
-msgstr "<32>{#p/asriel2}* ..."
+msgstr "<32>{#p/asriel2}* ...ゑ"
 
 msgid "<32>{#p/asriel2}* This is getting out of hand..."
-msgstr "<32>{#p/asriel2}* 事态快要失控了..."
+msgstr "<32>{#p/asriel2}* 事态快要失控了...ゑ"
 
 msgid ""
 "<32>{#p/asriel2}* Still?\n"
 "* Come on..."
 msgstr ""
 "<32>{#p/asriel2}* 还摸？\n"
-"* 没完了是吧..."
+"* 没完了是吧...ゑ"
 
 msgid ""
 "<32>{#p/asriel2}* Wow.\n"
 "* Just wow."
 msgstr ""
 "<32>{#p/asriel2}* 哇哦。\n"
-"* 后面忘了。"
+"* 后面忘了。ゑ"
 
 msgid "<32>{#p/asriel2}* You are enjoying this way too much."
-msgstr "<32>{#p/asriel2}* 你玩得可真是不亦乐乎啊。"
+msgstr "<32>{#p/asriel2}* 你玩得可真是不亦乐乎啊。ゑ"
 
 msgid ""
 "<11>{#p/basic}{~}CUDDLES!?!?\n"
@@ -14683,147 +14683,147 @@ msgid "<11>{#p/basic}{~}(Bark)"
 msgstr "<11>{#p/basic}{~}（汪汪）"
 
 msgid "<32>{#p/human}* (You barely lift your hand.)"
-msgstr "<32>{#p/human}* （你只是稍微抬了下手。）"
+msgstr "<32>{#p/human}* （你只是稍微抬了下手。）ゑ"
 
 msgid "<32>{#p/basic}* How exciting!"
-msgstr "<32>{#p/basic}* 好兴奋哦！"
+msgstr "<32>{#p/basic}* 好兴奋哦！ゑ"
 
 msgid "<32>{#p/human}* (You lightly touch the dog.)"
-msgstr "<32>{#p/human}* （你轻轻地摸了一下狗子。）"
+msgstr "<32>{#p/human}* （你轻轻地摸了一下狗子。）ゑ"
 
 msgid "<32>{#p/basic}* It's already overexcited..."
-msgstr "<32>{#p/basic}* 它已经兴奋过头了..."
+msgstr "<32>{#p/basic}* 它已经兴奋过头了...ゑ"
 
 msgid "<32>{#p/asriel2}* Dogs do love to be pet."
-msgstr "<32>{#p/asriel2}* 狗子们还真喜欢被摸啊。"
+msgstr "<32>{#p/asriel2}* 狗子们还真喜欢被摸啊。ゑ"
 
 msgid "<32>{#p/human}* (You pet Canis Minor.)"
-msgstr "<32>{#p/human}* （你摸了摸Canis Minor。）"
+msgstr "<32>{#p/human}* （你摸了摸Canis Minor。）ゑ"
 
 msgid "<32>{#p/basic}* It's raising its head to meet your hand."
-msgstr "<32>{#p/basic}* 它仰起头，迎向你的手心。"
+msgstr "<32>{#p/basic}* 它仰起头，迎向你的手心。ゑ"
 
 msgid ""
 "<32>{#p/asriel2}* Okay, you've pet it.\n"
 "* There's really no reason to keep going."
 msgstr ""
 "<32>{#p/asriel2}* 够了，你都摸过它了。\n"
-"* 真没必要继续摸了。"
+"* 真没必要继续摸了。ゑ"
 
 msgid "<32>{#p/basic}* It was a good dog."
-msgstr "<32>{#p/basic}* 真是只好狗狗。"
+msgstr "<32>{#p/basic}* 真是只好狗狗。ゑ"
 
 msgid "<32>{#p/asriel2}* No reason to keep going?"
-msgstr "<32>{#p/asriel2}* 继续摸它有必要吗？"
+msgstr "<32>{#p/asriel2}* 继续摸它有必要吗？ゑ"
 
 msgid "<32>{#p/basic}* Its excitement knows no bounds..."
-msgstr "<32>{#p/basic}* 它的兴奋永无止境..."
+msgstr "<32>{#p/basic}* 它的兴奋永无止境...ゑ"
 
 msgid "<32>{#p/asriel2}* No reason to keep going."
-msgstr "<32>{#p/asriel2}* 没必要继续摸了。"
+msgstr "<32>{#p/asriel2}* 没必要继续摸了。ゑ"
 
 msgid ""
 "<32>{#p/basic}* Critical pet!\n"
 "* Dog excitement increased."
 msgstr ""
 "<32>{#p/basic}* 会心一摸！\n"
-"* 狗子的兴奋度增加了。"
+"* 狗子的兴奋度增加了。ゑ"
 
 msgid "<32>{#p/asriel2}* Golly, $(name)."
-msgstr "<32>{#p/asriel2}* 天呐，$(name)。"
+msgstr "<32>{#p/asriel2}* 天呐，$(name)。ゑ"
 
 msgid "<32>{#p/human}* (You have to jump up to pet the dog.)"
-msgstr "<32>{#p/human}* （你得跳起来才摸得到狗子了。）"
+msgstr "<32>{#p/human}* （你得跳起来才摸得到狗子了。）ゑ"
 
 msgid "<32>{#p/asriel2}* We can't do this all day."
-msgstr "<32>{#p/asriel2}* 我们不能以摸狗为生。"
+msgstr "<32>{#p/asriel2}* 我们不能以摸狗为生。ゑ"
 
 msgid "<32>{#p/human}* (You pet Canis Minor without even reaching it.)"
 msgstr ""
 "<32>{#p/human}* （你想摸摸Canis Minor，\n"
-"  结果，连够都够不到。）"
+"  结果，连够都够不到。）ゑ"
 
 msgid "<32>{#p/basic}* It gets more excited."
-msgstr "<32>{#p/basic}* 不过它还是更加兴奋了。"
+msgstr "<32>{#p/basic}* 不过它还是更加兴奋了。ゑ"
 
 msgid "<32>{#p/asriel2}* We CAN do this all day...?"
-msgstr "<32>{#p/asriel2}* 我们真要摸一整天狗吗...？"
+msgstr "<32>{#p/asriel2}* 我们真要摸一整天狗吗...？ゑ"
 
 msgid "<32>{#p/basic}* There is no way to stop this madness."
-msgstr "<32>{#p/basic}* 根本没法停下这场闹剧。"
+msgstr "<32>{#p/basic}* 根本没法停下这场闹剧。ゑ"
 
 msgid ""
 "<32>{#p/basic}* Many small pets for a dog, one giant neck amongst dog-kind."
 msgstr ""
 "<32>{#p/basic}* 不积跬步，无以至千里。\n"
-"  不积小摸，无以得巨狗。"
+"  不积小摸，无以得巨狗。ゑ"
 
 msgid "<32>{#p/asriel2}* Why are we still here."
-msgstr "<32>{#p/asriel2}* 为啥要在这浪费时间？"
+msgstr "<32>{#p/asriel2}* 为啥要在这浪费时间？ゑ"
 
 msgid "<32>{#p/human}* (You call Canis Minor, but it cannot hear you.)"
 msgstr ""
 "<32>{#p/human}* （你呼唤着Canis Minor，\n"
-"  然而它已经听不到你说话了。）"
+"  然而它已经听不到你说话了。）ゑ"
 
 msgid ""
 "<32>{#p/asriel2}* There.\n"
 "* It's totally out of reach now."
 msgstr ""
 "<32>{#p/asriel2}* 这下好了。\n"
-"* 再也别想够着它了。"
+"* 再也别想够着它了。ゑ"
 
 msgid "<32>{#p/asriel2}* ???"
-msgstr "<32>{#p/asriel2}* ？？？"
+msgstr "<32>{#p/asriel2}* ？？？ゑ"
 
 msgid "<32>{#p/human}* (You can reach Canis Minor again.)"
-msgstr "<32>{#p/human}* （你又够得着Canis Minor了。）"
+msgstr "<32>{#p/human}* （你又够得着Canis Minor了。）ゑ"
 
 msgid "<32>{#p/asriel2}* You've GOT to be kidding me."
-msgstr "<32>{#p/asriel2}* 你跟我开玩笑呢是吧？"
+msgstr "<32>{#p/asriel2}* 你跟我开玩笑呢是吧？ゑ"
 
 msgid "<32>{#p/basic}* It's possible that you may have a problem."
-msgstr "<32>{#p/basic}* 你可能有什么毛病。"
+msgstr "<32>{#p/basic}* 你可能有什么毛病。ゑ"
 
 msgid ""
 "<32>{#p/human}* (Canis Minor is unpettable, but appreciates the attempt.)"
 msgstr ""
 "<32>{#p/human}* （你没摸着Canis Minor，\n"
-"  但它很看好你的努力。）"
+"  但它很看好你的努力。）ゑ"
 
 msgid "<32>{#p/asriel2}* Stop."
-msgstr "<32>{#p/asriel2}* 给我停下。"
+msgstr "<32>{#p/asriel2}* 给我停下。ゑ"
 
 msgid "<32>{#p/basic}* Perhaps mankind was not meant to pet this much."
-msgstr "<32>{#p/basic}* 节制撸狗，人人有责。"
+msgstr "<32>{#p/basic}* 节制撸狗，人人有责。ゑ"
 
 msgid "<32>{#p/asriel2}* Please stop."
-msgstr "<32>{#p/asriel2}* 请你停下。"
+msgstr "<32>{#p/asriel2}* 请你停下。ゑ"
 
 msgid "<32>{#p/basic}* It continues."
-msgstr "<32>{#p/basic}* 闹剧还在继续。"
+msgstr "<32>{#p/basic}* 闹剧还在继续。ゑ"
 
 msgid "<32>{#p/human}* (But Canis Minor was beyond your reach.)"
-msgstr "<32>{#p/human}* （你够不着Canis Minor了。）"
+msgstr "<32>{#p/human}* （你够不着Canis Minor了。）ゑ"
 
 msgid ""
 "<32>{#p/asriel2}* Okay, it's over.\n"
 "* Now kill this idiot already."
 msgstr ""
 "<32>{#p/asriel2}* 好了，该结束了。\n"
-"* 赶紧杀了这个蠢货。"
+"* 赶紧杀了这个蠢货。ゑ"
 
 msgid "<32>{#p/human}* (Really now.)"
-msgstr "<32>{#p/human}* （开玩笑吧。）"
+msgstr "<32>{#p/human}* （开玩笑吧。）ゑ"
 
 msgid "<32>{#p/basic}* ... really now."
-msgstr "<32>{#p/basic}* ...开玩笑吧。"
+msgstr "<32>{#p/basic}* ...开玩笑吧。ゑ"
 
 msgid "<32>{#p/asriel2}* Really now..."
-msgstr "<32>{#p/asriel2}* 开玩笑吧..."
+msgstr "<32>{#p/asriel2}* 开玩笑吧...ゑ"
 
 msgid "<32>{#p/asriel2}* Canis Minor."
-msgstr "<32>{#p/asriel2}* Canis Minor。"
+msgstr "<32>{#p/asriel2}* Canis Minor。ゑ"
 
 msgid "<32>{#p/story}* Canis Minor appears."
 msgstr "<32>{#p/story}* Canis Minor出现了。"
@@ -16850,7 +16850,7 @@ msgid ""
 "* The king who got his home planet destroyed."
 msgstr ""
 "<32>{#p/asriel2}* Asgore。\n"
-"* 亲手葬送自己家园的昏君。"
+"* 亲手葬送自己家园的昏君。ゑ"
 
 msgid "<32>{#p/human}* (You attempt to hug Asgore...)"
 msgstr "<32>{#p/human}* （你想抱抱Asgore...）"
