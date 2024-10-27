@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-21 05:29+0000\n"
-"PO-Revision-Date: 2024-10-27 03:42+0000\n"
+"PO-Revision-Date: 2024-10-27 07:42+0000\n"
 "Last-Translator: MurderSans_MDR <z127568254@163.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://ws3917.site/projects/"
 "project-spacetime/1-outlands/zh_Hans/>\n"
@@ -13404,19 +13404,19 @@ msgstr ""
 "  可以来我的房子这边。"
 
 msgid "<25>{#p/asriel2}{#f/3}* Just so you know, I'm not picking that up."
-msgstr ""
+msgstr "<25>{#p/asriel2}{#f/3}* 知道了吧，我不会接的。"
 
 msgid "<25>{#p/asriel2}{#f/4}* We have better things to do."
-msgstr ""
+msgstr "<25>{#p/asriel2}{#f/4}* 咱可没闲工夫打电话玩。"
 
 msgid "<25>{#p/asriel2}{#f/4}* ..."
 msgstr "<25>{#p/asriel2}{#f/4}* ..."
 
 msgid "<25>{#p/asriel2}{#f/4}* ... seriously?"
-msgstr ""
+msgstr "<25>{#p/asriel2}{#f/4}* ...开玩笑吗？"
 
 msgid "<25>{#p/asriel2}{#f/3}* You must be really, REALLY bored."
-msgstr ""
+msgstr "<25>{#p/asriel2}{#f/3}* 吃饱了撑的。"
 
 msgid "Outlands - Courtyard"
 msgstr "外域 - 空地"
