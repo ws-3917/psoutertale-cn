@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-21 10:29+0000\n"
-"PO-Revision-Date: 2024-10-27 07:42+0000\n"
+"PO-Revision-Date: 2024-10-27 09:42+0000\n"
 "Last-Translator: MurderSans_MDR <z127568254@163.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://ws3917.site/projects/"
 "project-spacetime/3-foundry/zh_Hans/>\n"
@@ -3043,27 +3043,27 @@ msgid "<25>{|}{#f/13}* And why does your eye look like- {%}"
 msgstr "<25>{|}{#f/13}* 还有，你眼睛怎么-ゑ {%}"
 
 msgid "<25>{#p/asriel2}{#f/15}* Careful, $(name)."
-msgstr "<25>{#p/asriel2}{#f/15}* 小心点，$(name)。"
+msgstr "<25>{#p/asriel2}{#f/15}* 小心点，$(name)。ゑ"
 
 msgid "<25>{#p/asriel2}{#f/15}* $(name)..."
-msgstr "<25>{#p/asriel2}{#f/15}* $(name)..."
+msgstr "<25>{#p/asriel2}{#f/15}* $(name)...ゑ"
 
 msgid "<25>{#p/asriel2}{#f/15}* Really now?"
-msgstr "<25>{#p/asriel2}{#f/15}* 开玩笑吗？"
+msgstr "<25>{#p/asriel2}{#f/15}* 开玩笑吗？ゑ"
 
 msgid "<25>{#p/asriel2}{#f/15}* We're trying not to die here, $(name)..."
 msgstr ""
 "<25>{#p/asriel2}{#f/15}* 我们可不想死在这，\n"
-"  $(name)..."
+"  $(name)...ゑ"
 
 msgid "<25>{#p/asriel2}{#f/16}* I'm really starting to get worried."
-msgstr "<25>{#p/asriel2}{#f/16}* 我有点担心了。"
+msgstr "<25>{#p/asriel2}{#f/16}* 我有点担心了。ゑ"
 
 msgid "<25>{#p/asriel2}{#f/8}* Are you blind or something?"
-msgstr "<25>{#p/asriel2}{#f/8}* 你是眼瞎还是有什么毛病？"
+msgstr "<25>{#p/asriel2}{#f/8}* 你是眼瞎还是有什么毛病？ゑ"
 
 msgid "<25>{#p/asriel2}{#f/7}* Come on!"
-msgstr "<25>{#p/asriel2}{#f/7}* 别闹了！"
+msgstr "<25>{#p/asriel2}{#f/7}* 别闹了！ゑ"
 
 msgid "<32>{#p/human}* (But you didn't have the key.)"
 msgstr ""
