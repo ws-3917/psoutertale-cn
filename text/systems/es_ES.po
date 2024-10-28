@@ -1,6 +1,21 @@
-#
+#, fuzzy
 msgid ""
 msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-10-31 17:17+0000\n"
+"PO-Revision-Date: 2024-10-31 17:17+0000\n"
+"Last-Translator: Stefano <stefanobuendia@hotmail.com>\n"
+"Language-Team: Spanish <https://ws3917.site/projects/project-spacetime/"
+"0-systems/es/>\n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: ENCODING\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.8.1\n"
+
+#
 
 msgid "(You take a deep breath.)"
 msgstr "(Tomas un respiro profundo.)"
@@ -609,8 +624,6 @@ msgstr "§fill=#ff0§< DESARROLLADOR >§fill=#fff§"
 msgid "spacey_432"
 msgstr "spacey_432"
 
-msgid ""
-msgstr ""
 
 msgid "§fill=#ff0§< WRITER >§fill=#fff§"
 msgstr "§fill=#ff0§< ESCRITOR >§fill=#fff§"
@@ -1077,13 +1090,13 @@ msgid ""
 "Bully-Like"
 msgstr ""
 "Un Poco\n"
-"Bully"
+"Bravucón"
 
 msgid ""
 "Reformed\n"
 "Bully"
 msgstr ""
-"Bully\n"
+"Bravucón\n"
 "Reformado"
 
 msgid ""
@@ -1906,7 +1919,7 @@ msgid ""
 "Big Bully"
 msgstr ""
 "Aún Un\n"
-"Gran Acosador"
+"Gran Bravucón"
 
 msgid ""
 "Domineering\n"
@@ -2493,10 +2506,10 @@ msgid "KILLS"
 msgstr "MUERTES"
 
 msgid "BULLY"
-msgstr "ACOSO"
+msgstr "BRAVUCÓN"
 
 msgid "FLIRT"
-msgstr "COQUETEO"
+msgstr "COQUETO"
 
 msgid "STATUS"
 msgstr "ESTADO"
