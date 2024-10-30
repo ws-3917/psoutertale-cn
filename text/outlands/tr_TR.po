@@ -1,22 +1,20 @@
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-23 11:29+0000\n"
-"PO-Revision-Date: 2024-10-23 11:29+0000\n"
+"PO-Revision-Date: 2024-10-31 17:17+0000\n"
 "Last-Translator: Efe Kaya <efek8184@gmail.com>\n"
 "Language-Team: Turkish <https://ws3917.site/projects/project-spacetime/"
 "1-outlands/tr/>\n"
 "Language: tr_TR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: ENCODING\n"
+"Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 5.8.1\n"
 
 #
-
 msgid ""
 "<25>{#p/toriel}{#f/1}* I hear there is a certain kind of fluid in "
 "Aerialis..."
@@ -4962,49 +4960,55 @@ msgid ""
 "<32>{#p/basic}{#n1}* Interested in buyin' my limited edition Super "
 "Starwalker comic strip?"
 msgstr ""
+"<32>{#p/basic}{#n1}* Sınırlı sayıdaki Süper Starwalker çizgi romanını almak "
+"ister misin?"
 
 msgid "<32>* All I'm askin' for is 5G."
-msgstr ""
+msgstr "<32>* Sadece 5A istiyorum."
 
 msgid "<32>* All I'm askin' for is 10G."
-msgstr ""
+msgstr "<32>* Sadece 10A istiyorum."
 
 msgid "<32>{#p/human}{#n1!}* (You don't have enough G.)"
-msgstr ""
+msgstr "<32>{#p/human}{#n1!}* (Yeterince A’n yok.)"
 
 msgid "<32>{#p/basic}{#n1}* I'll be honest, that don't look like 5G..."
-msgstr ""
+msgstr "<32>{#p/basic}{#n1}* Dürüst olacağım, bu 5A’ya benzemiyor."
 
 msgid "<32>{#p/basic}{#n1}* I'll be honest, that don't look like 10G..."
-msgstr ""
+msgstr "<32>{#p/basic}{#n1}* Dürüst olacağım, bu 10A’ya benzemiyor…"
 
 msgid "<32>{#p/basic}{#n1}* Not interested, huh?"
-msgstr ""
+msgstr "<32>{#p/basic}{#n1}* İlgini çekmedi, ha?"
 
 msgid ""
 "<32>* Well, that's fine.\n"
 "* I'll just find someone else..."
 msgstr ""
+"<32>* Peki, sorun değil.\n"
+"* Ben de başkasını bulurum…"
 
 msgid "<32>{#s/equip}{#p/human}{#n1!}* (You got the Super Starwalker 1.)"
-msgstr ""
+msgstr "<32>{#s/equip}{#p/human}{#n1!}* (Süper Starwalker 1’i aldın.)"
 
 msgid ""
 "<32>{#p/basic}{#n1}* Splendid!\n"
 "* Enjoy the comic strip."
 msgstr ""
+"<32>{#p/basic}{#n1}* Harikulade!\n"
+"* Çizgi romanın hayırlı olsun."
 
 msgid "<32>{#p/basic}{#n1}* Back again, huh?"
 msgstr "<32>{#p/basic}{#n1}* Yine geri geldin, ha?"
 
 msgid "<32>* Sorry bud, I've got nothin' left to sell."
-msgstr ""
+msgstr "<32>* Üzgünüm dostum, satacak hiç bir şeyim kalmadı."
 
 msgid "<32>{#p/human}{#n1!}* (You're carrying too much.)"
 msgstr "<32>{#p/human}{#n1!}* (Çok fazla şey taşıyorsun.)"
 
 msgid "<32>{#p/basic}{#n1}* Them pockets of yours are lookin' kinda full..."
-msgstr ""
+msgstr "<32>{#p/basic}{#n1}* Ceplerin bayağı dolu görünüyor."
 
 msgid "<32>{#p/basic}{#n1}* I heard they're rebooting the comic franchise..."
 msgstr ""
@@ -5012,13 +5016,14 @@ msgstr ""
 msgid ""
 "<32>* The new main character is some snake fella with sunglasses or "
 "something."
-msgstr ""
+msgstr "<32>* Yeni ana karakter gözlüklü bir yılan kardeş falanmış."
 
 msgid "<32>* If I was in charge, I'd make a spinoff about that sidekick..."
 msgstr ""
+"<32>* Eğer benim elimde olsaydı, yardımcısı hakkında bir yan roman yazardım…"
 
 msgid "<32>* Gumbert, I think?"
-msgstr ""
+msgstr "<32>* Gumbert sanırım?"
 
 msgid ""
 "<32>{#p/basic}{#n1}* Maybe now that we're free, they'll finally make that "
@@ -5029,22 +5034,27 @@ msgid ""
 "<32>* What was it called?\n"
 "* Oh, I've already forgotten..."
 msgstr ""
+"<32>* Adı neydi?\n"
+"* Ah, şimdiden unuttum…"
 
 msgid "<32>{#p/basic}{#n1}* Now what was THAT racket?"
 msgstr ""
 
 msgid ""
 "<32>{#p/basic}{#n1}* Er, sorry, my eyesight's not what it used to be..."
-msgstr ""
+msgstr "<32>{#p/basic}{#n1}* Erm, kusura bakma, gözlerim eskisi gibi görmüyor."
 
 msgid ""
 "<32>{#p/basic}{#n1}* Huh?\n"
 "* It happened again?\n"
 "* Tch, kids these days..."
 msgstr ""
+"<32>{#p/basic}{#n1}* Ha?\n"
+"* Yine mi oldu\n"
+"* Cık cık cık, zamane çocukları..."
 
 msgid "<32>{#p/basic}{#n1}* Kids these days..."
-msgstr ""
+msgstr "<32>{#p/basic}{#n1}* Zamane çocukları…"
 
 msgid ""
 "<32>{#p/basic}{#n1}* If... if you d-do that again... I-I'm gonna have to "
@@ -5444,11 +5454,13 @@ msgstr "<25>{#p/toriel}{#f/5}* Kendini tehlikeye atmana izin vermeyeceğim."
 msgid "<25>{#p/toriel}{#f/3}* Do you expect me to do this all day?"
 msgstr "<25>{#p/toriel}{#f/3}* Bunu tüm gün yapmamı mı bekliyorsun?"
 
+#, fuzzy
 msgid "<25>{#p/toriel}{#f/4}* ..."
-msgstr ""
+msgstr "<25>{#p/toriel}{#f/4}* ..."
 
+#, fuzzy
 msgid "<25>{#p/toriel}{#f/17}* ..."
-msgstr ""
+msgstr "<25>{#p/toriel}{#f/17}* ..."
 
 msgid "<25>{#f/15}* I do not like the game you are playing."
 msgstr "<25>{#f/15}* Oynadığın oyunu beğenmiyorum."
@@ -5527,8 +5539,9 @@ msgstr "<25>{#f/5}* Sen ne istersen yapacağım, tamam mı?"
 msgid "<25>{#f/18}* Please... do not leave me like the others..."
 msgstr "<25>{#f/18}* Lütfen... beni diğerleri gibi bırakma..."
 
+#, fuzzy
 msgid "<25>{#p/toriel}{#f/18}* ..."
-msgstr ""
+msgstr "<25>{#p/toriel}{#f/18}* ..."
 
 msgid ""
 "<25>{#g/torielCompassionSmile}* There, there, my child.\n"
@@ -6054,8 +6067,9 @@ msgid ""
 "one."
 msgstr "<25>{#p/toriel}{#f/1}* Şifre terminali hemen orada, ufaklık."
 
+#, fuzzy
 msgid "<25>{#p/toriel}{#npc/a}{#f/2}* ...!"
-msgstr ""
+msgstr "<25>{#p/toriel}{#npc/a}{#f/2}* ...!"
 
 msgid "<25>{#f/5}* What are you doing out here, my ch..."
 msgstr "<25>{#f/5}* Burada ne yapıyorsun, ço..."
@@ -6105,11 +6119,13 @@ msgstr "<25>{#p/asriel1}{#f/15}* ... ne yapıyorsun?"
 msgid "<25>{#f/15}* Are you trying to keep me company?"
 msgstr "<25>{#f/15}* Bana eşlik etmeye mi çalışıyorsun?"
 
+#, fuzzy
 msgid "<25>{#f/23}* Frisk..."
-msgstr ""
+msgstr "<25>{#f/23}* Frisk..."
 
+#, fuzzy
 msgid "<25>{#f/13}* Hey."
-msgstr ""
+msgstr "<25>{#f/13}* Hey."
 
 msgid "<25>{#f/13}* Let me ask you a question."
 msgstr "<25>{#f/13}* Sana bir soru sormama izin ver."
@@ -6138,14 +6154,16 @@ msgstr ""
 "<32>{#p/human}* (...)\n"
 "* (Asriel'a gerçeği söylüyorsun.)"
 
+#, fuzzy
 msgid "<25>{#p/asriel1}{#f/25}* ..."
-msgstr ""
+msgstr "<25>{#p/asriel1}{#f/25}* ..."
 
 msgid "<25>{#f/25}* Frisk... you..."
 msgstr "<25>{#f/25}* Frisk... sen..."
 
+#, fuzzy
 msgid "<25>{#f/23}* ..."
-msgstr ""
+msgstr "<25>{#f/23}* ..."
 
 msgid "<25>{#f/23}* You don't have to be alone anymore, okay?"
 msgstr "<25>{#f/23}* Artık yalnız kalmana gerek yok, tamam mı?"
@@ -6253,8 +6271,9 @@ msgstr "<25>{#f/15}* Ve sonra, benim yüzümden, biz..."
 msgid "<25>{#f/22}* Well, that's why I ended up the way I did."
 msgstr "<25>{#f/22}* İşte, bu yüzden bu hale düştüm."
 
+#, fuzzy
 msgid "<25>{#f/23}* ... Frisk."
-msgstr ""
+msgstr "<25>{#f/23}* ... Frisk."
 
 msgid "<25>{#f/17}* This whole time, I've blamed myself for that decision."
 msgstr "<25>{#f/17}* Bunca zamandır, bu karar için hep kendimi suçladım."
@@ -6354,8 +6373,9 @@ msgstr "<25>{#f/17}* ... bana sadece kendine iyi bakacağına söz ver, olur mu?
 msgid "<25>{#f/15}* Well, see you."
 msgstr "<25>{#f/15}* Öyleyse, görüşmek üzere."
 
+#, fuzzy
 msgid "<25>{#p/asriel1}{#f/13}* Frisk..."
-msgstr ""
+msgstr "<25>{#p/asriel1}{#f/13}* Frisk..."
 
 msgid "<25>{#f/15}* Don't you have anything better to do?"
 msgstr "<25>{#f/15}* Yapacak daha iyi bir şeyin yok mu?"
@@ -6401,21 +6421,23 @@ msgid "<32>{#p/basic}* An empty photo frame."
 msgstr "<32>{#p/basic}* Boş bir fotoğraf çerçevesi."
 
 msgid "<32>{#p/human}* (This device seems to be a few decades out of date.)"
-msgstr ""
+msgstr "<32>{#p/human}* (Bu cihaz birkaç onyıl eski gibi.)"
 
 msgid "<32>{#p/basic}* A useless device of little importance to anyone."
-msgstr ""
+msgstr "<32>{#p/basic}* Kimsenin umurunda olmayan gereksiz bir cihaz."
 
 msgid "<32>{#p/basic}* An old fuel injection device."
-msgstr ""
+msgstr "<32>{#p/basic}* Eski bir yakıt aktarma cihazı."
 
 msgid "<32>{#p/human}* (The sign warns of unexpected appliance malfunctions.)"
-msgstr ""
+msgstr "<32>{#p/human}* (Tabela beklenmeyen eşya arızaları hakkında uyarıyor.)"
 
 msgid ""
 "<32>{#p/basic}* \"Please note that appliances may be more malfunction-prone "
 "than they seem.\""
 msgstr ""
+"<32>{#p/basic}* \"Lütfen cihazların arızalara karşı göründüğünden daha "
+"eğilimli olduğunu unutmayın.\""
 
 msgid ""
 "<32>{#p/human}* (You touch the DJ set.)\n"
@@ -7270,25 +7292,30 @@ msgid ""
 "<25>{#f/17}* For someone who didn't like him, she had a weird way to show "
 "it."
 msgstr ""
+"<25>{#f/17}* Onu sevmeyen birine göre bunu tuhaf bir şekilde gösteriyordu."
 
 msgid ""
 "<25>{#p/asriel1}{#f/15}* I really wish Toriel and Asgore stayed together "
 "sometimes."
 msgstr ""
+"<25>{#p/asriel1}{#f/15}* Bazen Keşke Toriel ve Asgore birlikte kalsaydı "
+"diyorum."
 
 msgid "<25>{#f/16}* ... but I guess it's for the best that they didn't."
-msgstr ""
+msgstr "<25>{#f/16}* ... Ama sanırım en iyisi kalmamaları."
 
 msgid "<25>{#p/asriel1}{#f/13}* It just wasn't meant to be, Frisk..."
-msgstr ""
+msgstr "<25>{#p/asriel1}{#f/13}* Kader böyleymiş, Frisk…"
 
 msgid ""
 "<32>{#p/basic}* It's just a stovetop.\n"
 "* No one is going to use it."
 msgstr ""
+"<32>{#p/basic}* Sadece bir ocak üstü.\n"
+"* Kimse kullanmayacak."
 
 msgid "<32>{#p/basic}* It's just a stovetop."
-msgstr ""
+msgstr "<32>{#p/basic}* Sadece bir ocak üstü."
 
 msgid ""
 "<32>{#p/basic}* The stovetop is very clean.\n"
