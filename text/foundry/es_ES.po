@@ -1,27 +1,25 @@
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-31 17:17+0000\n"
-"PO-Revision-Date: 2024-10-31 17:17+0000\n"
+"PO-Revision-Date: 2024-10-31 18:17+0000\n"
 "Last-Translator: Chistosito <souzadecarvalhofabio1@gmail.com>\n"
 "Language-Team: Spanish <https://ws3917.site/projects/project-spacetime/"
 "3-foundry/es/>\n"
 "Language: es_ES\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: ENCODING\n"
+"Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 5.8.1\n"
 
 #
-
 msgid "<32>{#p/basic}* ..."
 msgstr "<32>{#p/basic}* ..."
 
 msgid "<32>{#p/basic}* I'm going to pretend you didn't just sell that locket."
-msgstr ""
+msgstr "<32>{#p/basic}* Voy a fingir que no acabas de vender ese candado."
 
 msgid "<32>{#p/human}* (You decide not to equip.)"
 msgstr "<32>{#p/human}* (Decides no equiparlo.)"
@@ -175,17 +173,21 @@ msgid ""
 "<32>{#p/finalghost}* Ah, the classic.\n"
 "* Not just \"a\" spooktune, but \"the\" spooktune."
 msgstr ""
+"<32>{#p/finalghost}* Ah, el clásico.\n"
+"* No es sólo \"un\" spooktune, pero \"el\" spooktune."
 
 msgid "<32>* The original, you might say."
-msgstr ""
+msgstr "<32>* El original, podrías decir."
 
 msgid ""
 "<32>{#p/mettaton}{#e/mettaton/9}* NOW THIS IS SOMETHING I CAN REALLY "
 "\"VIBE\" TO, AS BLOOKY WOULD SAY."
 msgstr ""
+"<32>{#p/mettaton}{#e/mettaton/9}* AHORA ESTO ES ALGO CON LO QUE REALMENTE "
+"PUEDO \"VIBRAR\", COMO DIRIA BLOOKY."
 
 msgid "<32>{#e/mettaton/36}* IT'S GOT JUST THE RIGHT MIX OF ELEMENTS..."
-msgstr ""
+msgstr "<32>{#e/mettaton/36}* TIENE LA MEZCLA ADECUADA DE ELEMENTOS..."
 
 msgid "<32>{#e/mettaton/8}* AND THE BREAKDOWN?"
 msgstr ""
@@ -193,17 +195,21 @@ msgstr ""
 msgid ""
 "<32>{#e/mettaton/9}* NOT WHAT I WOULD HAVE GONE FOR, BUT DECENT NONETHELESS."
 msgstr ""
+"<32>{#e/mettaton/9}* NO ES LO QUE HABRÍA BUSCADO, PERO DECENTE DE TODOS "
+"MODOS."
 
 msgid ""
 "<32>{#p/basic}{#e/maddummy/1}* I always thought this one felt really slow, "
 "you know?"
 msgstr ""
+"<32>{#p/basic}{#e/maddummy/1}* Siempre pensé que este se siente muy lento, "
+"¿sabes?"
 
 msgid "<32>* Just... super... duper... slow."
-msgstr ""
+msgstr "<32>* Simplemente... super... duper... lento."
 
 msgid "<32>{#e/maddummy/0}* But that's just me."
-msgstr ""
+msgstr "<32>{#e/maddummy/0}* Pero eso ya soy yo."
 
 msgid "<32>{#p/human}* (You feel the nearby monster presence dwindling.)"
 msgstr ""
@@ -213,195 +219,209 @@ msgstr ""
 
 msgid "<32>{#p/basic}{#npc/a}* The grass is fading faster than I had thought."
 msgstr ""
+"<32>{#p/basic}{#npc/a}* La hierba está desapareciendo más rápido de lo que "
+"pensé."
 
 msgid "<32>{#p/basic}* It's out of service."
-msgstr ""
+msgstr "<32>{#p/basic}* Está fuera de servicio."
 
 msgid "<32>{#p/human}* (The terminal appears to have been powered off.)"
-msgstr ""
+msgstr "<32>{#p/human}* (Las terminales parecen haber sido apagadas.)"
 
 msgid "<32>{#p/human}* (You activate the terminal.)"
-msgstr ""
+msgstr "<32>{#p/human}* (Enciendes la terminal.)"
 
 msgid ""
 "<32>{#p/basic}* \"Pathway unlocked!\"\n"
 "* \"No further action required.\""
 msgstr ""
+"<32>{#p/basic}* \"¡Camino abierto!\"\n"
+"* \"No se requieren más acciones.\""
 
 msgid "<32>{#p/basic}* \"Enter override code!\""
-msgstr ""
+msgstr "<32>{#p/basic}* \"¡Ingrese el código de anulación!\""
 
 msgid ""
 "<32>{#p/basic}* If only you knew a puzzle officionado who could tell you "
 "what that code might be."
 msgstr ""
+"<32>{#p/basic}* Si tan solo conocieras a un aficionado de los puzzles que "
+"pudiera decirte cuál podría ser ese código."
 
 msgid "* (Enter the code?)"
-msgstr ""
+msgstr "* (¿Introducir el código?)"
 
 msgid "Yes"
-msgstr ""
+msgstr "Sí"
 
 msgid "No"
-msgstr ""
+msgstr "No"
 
 msgid "<32>{#p/human}* (You decide not to enter.)"
-msgstr ""
+msgstr "<32>{#p/human}* (Decides no entrar.)"
 
 msgid "<32>{#p/basic}* Well, that's a mercy."
-msgstr ""
+msgstr "<32>{#p/basic}* Bueno, es un perdón."
 
 msgid "<32>{#p/event}* Ring, ring..."
-msgstr ""
+msgstr "<32>{#p/event}* Ring, ring..."
 
 msgid "<32>{#p/alphys}* H-hey... are you there?"
-msgstr ""
+msgstr "<32>{#p/alphys}* E-Ey... ¿estás ahí?"
 
 msgid "<32>* I know you want to keep going forward, but..."
-msgstr ""
+msgstr "<32>* Sé que quieres seguir adelante, pero..."
 
 msgid "<32>* If you do, she'll... try to kill you..."
-msgstr ""
+msgstr "<32>* Si lo haces, ella... intentará matarte..."
 
 msgid "<32>* I tried to stop her... b-but she wouldn't listen to me!"
-msgstr ""
+msgstr "<32>* Intenté pararla... ¡pero ella no me escucha!"
 
 msgid "<32>* Now she's..."
-msgstr ""
+msgstr "<32>* Ahora ella..."
 
 msgid "<32>* ..."
-msgstr ""
+msgstr "<32>* ..."
 
 msgid ""
 "<32>* But, uh, it's okay!\n"
 "* Because..."
 msgstr ""
+"<32>* ¡Pero, eh está bien!\n"
+"* Porque..."
 
 msgid "<32>* B-because there's another way to get past her!"
-msgstr ""
+msgstr "<32>* ¡P-Porque hay otra forma de continuar!"
 
 msgid ""
 "<32>* I know it'd be kind of...\n"
 "* Inconvenient..."
 msgstr ""
+"<32>* Sé que sería un poco...\n"
+"* Inconveniente..."
 
 msgid "<32>* But it's the only way you'll make it out alive...!"
-msgstr ""
+msgstr "<32>* ¡Pero es la única forma en la que saldrías vivo...!"
 
 msgid "<32>* T-trust me... okay?"
-msgstr ""
+msgstr "<32>* Confía en mí... ¿vale?"
 
 msgid "<32>* Go back to the balcony j-just before the pylon puzzle."
-msgstr ""
+msgstr "<32>* Vuelve al balcón j-justo antes del puzzle de láseres."
 
 msgid "<32>* If you don't, I..."
-msgstr ""
+msgstr "<32>* Si no, Yo..."
 
 msgid "<32>* I..."
-msgstr ""
+msgstr "<32>* Yo..."
 
 msgid "<32>* I'll... let you go now."
-msgstr ""
+msgstr "<32>* Yo... te dejaré ahora."
 
 msgid "<32>{#s/equip}{#p/event}* Click..."
-msgstr ""
+msgstr "<32>{#s/equip}{#p/event}* Click..."
 
 msgid "<32>{#p/human}* (You got the Legendary Artifact.)"
-msgstr ""
+msgstr "<32>{#p/human}* (Conseguiste el Artefacto Legendario.)"
 
 msgid "<32>{#p/human}* (You're carrying too much to take that.)"
-msgstr ""
+msgstr "<32>{#p/human}* (Llevas demasiado para coger eso.)"
 
 msgid ""
 "<32>{#p/human}* (The inscription describes a riddle of ivories and "
 "melodies.)"
 msgstr ""
+"<32>{#p/human}* (La inscripción describe un acertijo de marfiles y melodías.)"
 
 msgid "<32>{#p/basic}* There is an inscription inscribed on the pedastal."
-msgstr ""
+msgstr "<32>{#p/basic}* Hay una inscripción escrita en el pedestal."
 
 msgid "<32>* \"Two halves, split by the ivories.\""
-msgstr ""
+msgstr "<32>* \"Dos mitades, partidas por los marfiles.\""
 
 msgid "<32>* \"If the prince's is your left, then whose is your right?"
-msgstr ""
+msgstr "<32>* \"Si el príncipe está a tu izquierda, ¿quién está a tu derecha?"
 
 msgid "<32>* \"And what is their melody?\""
-msgstr ""
+msgstr "<32>* \"¿Y cuál es su melodía?\""
 
 msgid "<32>{#p/basic}* The tome is attached firmly to the pedastal."
-msgstr ""
+msgstr "<32>{#p/basic}* El tomo está firmemente sujeto al pedestal."
 
 msgid "<32>{#p/human}* (You acquired The Epiphany.)"
-msgstr ""
+msgstr "<32>{#p/human}* (Conseguiste La Epifanía.)"
 
 msgid "<32>{#p/human}* (The inscription speaks of peace and good intentions.)"
-msgstr ""
+msgstr "<32>{#p/human}* (La inscripción habla de paz y buenas intenciones.)"
 
 msgid "<32>{#p/basic}* There is a writ inscribed on the pedastal."
-msgstr ""
+msgstr "<32>{#p/basic}* Hay una escritura inscrita en el pedestal."
 
 msgid "<32>* \"To those who are worthy, to those who are kind.\""
-msgstr ""
+msgstr "<32>* \"A los que son dignos, a los que son amables.\""
 
 msgid "<32>* \"To those who wish well, in both heart and mind.\""
 msgstr ""
+"<32>* \"A aquellos que desean el bien, tanto de corazón como de mente.\""
 
 msgid "<32>* \"May peace follow you on your journey home.\""
-msgstr ""
+msgstr "<32>* \"Que la paz os acompañe en vuestro viaje a casa.\""
 
 msgid "* (What do you intend to do?)"
-msgstr ""
+msgstr "* (¿Qué piensas hacer?)"
 
 msgid "Spare"
-msgstr ""
+msgstr "Perdonar"
 
 msgid "Bully"
-msgstr ""
+msgstr "Intimidar"
 
 msgid "Flirt"
-msgstr ""
+msgstr "Coquetear"
 
 msgid "Befriend"
-msgstr ""
+msgstr "Amigar"
 
 msgid "Hug"
-msgstr ""
+msgstr "Abrazar"
 
 msgid "Kill"
-msgstr ""
+msgstr "Matar"
 
 msgid "Take Gold"
-msgstr ""
+msgstr "Robar"
 
 msgid "<32>{#p/human}* (You focus your mind on the intent to spare.)"
-msgstr ""
+msgstr "<32>{#p/human}* (Enfocas tu mente en el intento de perdonar.)"
 
 msgid "<32>{#p/human}* (You focus your mind on the intent to bully.)"
-msgstr ""
+msgstr "<32>{#p/human}* (Enfocas tu mente en el intento de intimidación.)"
 
 msgid "<32>{#p/human}* (You focus your mind on the intent to flirt.)"
-msgstr ""
+msgstr "<32>{#p/human}* (Enfocas tu mente en el intento de coquetear.)"
 
 msgid "<32>{#p/human}* (You focus your mind on the intent to befriend.)"
-msgstr ""
+msgstr "<32>{#p/human}* (Enfocas tu mente en el intento de amigar.)"
 
 msgid "<32>{#p/human}* (You focus your mind on the intent to hug.)"
-msgstr ""
+msgstr "<32>{#p/human}* (Enfocas tu mente en el intento de abrazar.)"
 
 msgid "<32>{#p/human}* (You focus your mind on the intent to kill.)"
-msgstr ""
+msgstr "<32>{#p/human}* (Enfocas tu mente en el intento de matar.)"
 
 msgid "<32>{#p/human}* (You focus your mind on the intent to take gold.)"
-msgstr ""
+msgstr "<32>{#p/human}* (Enfocas tu mente en el intento de robar.)"
 
 msgid "<32>{#p/basic}* Suddenly...!"
-msgstr ""
+msgstr "<32>{#p/basic}* ¡De repente...!"
 
 msgid ""
 "\n"
 "* (Nothing happens.)"
 msgstr ""
+"\n"
+"* (No pasa nada.)"
 
 msgid "<32>{#p/human}* (You can't make out what's in the box...)"
 msgstr ""
