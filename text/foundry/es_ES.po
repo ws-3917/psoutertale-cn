@@ -1,87 +1,115 @@
-#
+#, fuzzy
 msgid ""
 msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-10-31 17:17+0000\n"
+"PO-Revision-Date: 2024-10-31 17:17+0000\n"
+"Last-Translator: Chistosito <souzadecarvalhofabio1@gmail.com>\n"
+"Language-Team: Spanish <https://ws3917.site/projects/project-spacetime/"
+"3-foundry/es/>\n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: ENCODING\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.8.1\n"
+
+#
 
 msgid "<32>{#p/basic}* ..."
-msgstr ""
+msgstr "<32>{#p/basic}* ..."
 
 msgid "<32>{#p/basic}* I'm going to pretend you didn't just sell that locket."
 msgstr ""
 
 msgid "<32>{#p/human}* (You decide not to equip.)"
-msgstr ""
+msgstr "<32>{#p/human}* (Decides no equiparlo.)"
 
 msgid "<32>{#p/human}* (You grab Toriel's hand.)"
-msgstr ""
+msgstr "<32>{#p/human}* (Coges la mano de Toriel.)"
 
 msgid ""
 "<25>{#p/toriel}{#f/2}* Oh my...!\n"
 "* F-frisk, is that you?"
 msgstr ""
+"<25>{#p/toriel}{#f/2}* ¡Oh madre mía!\n"
+"* F-frisk, ¿eres tú?"
 
 msgid "<25>{#f/1}* It's a little hard to see in here..."
-msgstr ""
+msgstr "<25>{#f/1}* Es un poco difícil de ver aquí..."
 
 msgid ""
 "<25>{#p/toriel}{#f/9}* I apologize. You must have been looking all over for "
 "me."
 msgstr ""
+"<25>{#p/toriel}{#f/9}* Lo siento. Debes de haberme buscado por todos los "
+"lados."
 
 msgid "<25>{#f/9}* If you tried to call me, I had my phone turned off."
-msgstr ""
+msgstr "<25>{#f/9}* Si intentaste llamarme, tenía mi teléfono apagado."
 
 msgid "<25>{#f/13}* ..."
-msgstr ""
+msgstr "<25>{#f/13}* ..."
 
 msgid "<25>{#f/13}* I am sorry for all that I did, little one."
-msgstr ""
+msgstr "<25>{#f/13}* Lo siento por todo lo que hice, pequeño."
 
 msgid ""
 "<25>{#f/13}* Even if you forgive me, it would be difficult to accept it."
-msgstr ""
+msgstr "<25>{#f/13}* Todavía si me perdonas, sería difícil aceptarlo."
 
 msgid ""
 "<25>{#f/9}* I am only beginning to come to terms with my behavior in the "
 "past."
 msgstr ""
+"<25>{#f/9}* Apenas estoy empezando a aceptar mi comportamiento en el pasado."
 
 msgid "<25>{#f/10}* ..."
-msgstr ""
+msgstr "<25>{#f/10}* ..."
 
 msgid "<25>{#f/10}* I suppose it is nice to see you here."
-msgstr ""
+msgstr "<25>{#f/10}* Supongo que es bonito verte aquí."
 
 msgid ""
 "<25>{#p/toriel}{#f/5}* ... huh?\n"
 "* You wanted me to call... Sans?"
 msgstr ""
+"<25>{#p/toriel}{#f/5}* ... ¿eh?\n"
+"* ¿Quieres que llame a... Sans?"
 
 msgid "<25>{#f/1}* Let me turn it on..."
-msgstr ""
+msgstr "<25>{#f/1}* Déjame encenderlo..."
 
 msgid "<32>{#s/phone}{#p/event}* Dialing..."
-msgstr ""
+msgstr "<32>{#s/phone}{#p/event}* Llamando..."
 
 msgid ""
 "<25>{#p/toriel}{#f/3}* ... oh, right.\n"
 "* My phone does not work very well here."
 msgstr ""
+"<25>{#p/toriel}{#f/3}* ... oh, es verdad.\n"
+"* Mi teléfono no funciona muy bien aquí."
 
 msgid "<25>{#f/4}* I will have to go up there and talk to him myself."
-msgstr ""
+msgstr "<25>{#f/4}* Tendré que ir allí y hablar con él yo misma."
 
 msgid ""
 "<25>{#f/5}* Er... I will do so.\n"
 "* But not now."
 msgstr ""
+"<25>{#f/5}* Eh... lo haré.\n"
+"* Pero no ahora."
 
 msgid "<25>{#f/5}* ..."
-msgstr ""
+msgstr "<25>{#f/5}* ..."
 
 msgid ""
 "<25>{#p/toriel}{#f/5}* ... huh?\n"
 "* You have something else to tell me?"
 msgstr ""
+"<25>{#p/toriel}{#f/5}* ... ¿eh?\n"
+"* ¿Tienes algo más que decirme?"
 
 msgid ""
 "<32>{#p/human}* (You repeat the advice given to you by Toriel in Archive "
@@ -89,51 +117,59 @@ msgid ""
 msgstr ""
 
 msgid "<25>{#p/toriel}{#f/2}* ..."
-msgstr ""
+msgstr "<25>{#p/toriel}{#f/2}* ..."
 
 msgid "<25>{#f/1}* Those words..."
-msgstr ""
+msgstr "<25>{#f/1}* Esas palabras..."
 
 msgid "<25>{#f/1}* How could you possibly have heard them...?"
-msgstr ""
+msgstr "<25>{#f/1}* ¿Cómo es posible que las hayas oído...?"
 
 msgid ""
 "<25>{#f/0}* It has been nearly a century since I have spoken those words."
-msgstr ""
+msgstr "<25>{#f/0}* Ha pasado casi un siglo desde que dije esas palabras."
 
 msgid ""
 "<25>{#f/1}* Well...\n"
 "* I will keep what you have told me in mind."
 msgstr ""
+"<25>{#f/1}* Bueno...\n"
+"* Tendré en cuenta lo que me has dicho."
 
 msgid "<25>{#p/toriel}{#f/1}* Well, it would be a good time for you to go."
-msgstr ""
+msgstr "<25>{#p/toriel}{#f/1}* Bueno, sería un bueno momento para que te vayas."
 
 msgid ""
 "<25>{#f/5}* I know the transport ship is leaving soon, and I will not miss "
 "it."
-msgstr ""
+msgstr "<25>{#f/5}* Sé que la aeronave partirá pronto, y no la perderé."
 
 msgid "<25>{#f/9}* For now, however, I must collect my thoughts."
-msgstr ""
+msgstr "<25>{#f/9}* En cambio, por ahora, debo recoger mis pensamientos."
 
 msgid ""
 "<25>{#f/1}* ... thank you for being good, Frisk.\n"
 "* You have been the best."
 msgstr ""
+"<25>{#f/1}* ... garcias por ser amable, Frisk.\n"
+"* Has sido el mejor."
 
 msgid ""
 "<25>{#p/toriel}{#f/10}* Do not worry, Frisk.\n"
 "* I will be okay."
 msgstr ""
+"<25>{#p/toriel}{#f/10}* No te procupes, Frisk.\n"
+"* Estaré bien."
 
 msgid ""
 "<25>{#f/1}* I will see you on the transport ship.\n"
 "* Alright?"
 msgstr ""
+"<25>{#f/1}* Te veré en la aeronave.\n"
+"* ¿Vale?"
 
 msgid "<25>{#p/toriel}{#f/5}* Frisk, you must allow me time to process."
-msgstr ""
+msgstr "<25>{#p/toriel}{#f/5}* Frisk, me tienes que dejar tiempo para procesar."
 
 msgid ""
 "<32>{#p/finalghost}* Ah, the classic.\n"
