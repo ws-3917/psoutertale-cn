@@ -1,6 +1,21 @@
-#
+#, fuzzy
 msgid ""
 msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-11-01 15:17+0000\n"
+"PO-Revision-Date: 2024-11-01 15:17+0000\n"
+"Last-Translator: Wasneet Potato <wasneetpotato@outlook.com>\n"
+"Language-Team: Chinese (Simplified Han script) <https://ws3917.site/projects/"
+"deltatraveler/s3-underfell/zh_Hans/>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: ENCODING\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.8.1\n"
+
+#
 
 msgid ""
 "* (For some strange reason,^05\n"
@@ -2202,33 +2217,39 @@ msgid ""
 "  ground.)^05\n"
 "* (Take it?)"
 msgstr ""
+"* （一把武士刀插在地上。）^05\n"
+"* （拔出来吗？）"
 
 msgid "* (You pulled the Bluster Blade.)"
-msgstr ""
+msgstr "* （你拔出了呼啸战刀。）"
 
 msgid ""
 "* (You can feel its wind\n"
 "  blowing in your face as\n"
 "  you hold it in your hands.)"
 msgstr ""
+"* （你手握它时感到强风\n"
+"  直吹你的脸庞。）"
 
 msgid ""
 "* (You decided to leave it\n"
 "  at peace.)"
-msgstr ""
+msgstr "* （你决定放下屠刀，立地成佛。）"
 
 msgid ""
 "* There's a door in\n"
 "  here."
-msgstr ""
+msgstr "* 这里有一扇门。"
 
 msgid "* It's locked."
-msgstr ""
+msgstr "* 锁住了。"
 
 msgid ""
 "* Damn,^05 now I wanna\n"
 "  know what's in here."
 msgstr ""
+"* 靠，^05我现在更想知道\n"
+"  里面到底藏了啥了。"
 
 msgid ""
 "* I wonder if we can\n"
