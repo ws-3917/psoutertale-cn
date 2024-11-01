@@ -54,7 +54,7 @@ import iocMettatonRollup1 from './assets/images/overworldCharacters/mettaton/rol
 import iooAArtsncrafts from './assets/images/overworldObjects/aerialis/artsncrafts.png?url';
 import iooABomburst$info from './assets/images/overworldObjects/aerialis/bomburst.json?url';
 import iooABomburst from './assets/images/overworldObjects/aerialis/bomburst.png?url';
-import iooABurgies from './assets-alt/images/overworldObjects/aerialis/burgies.png?url';
+import iooABurgies from './assets/images/overworldObjects/aerialis/burgies.png?url';
 import iooAElevatorL1 from './assets/images/overworldObjects/aerialis/elevatorL1.png?url';
 import iooAElevatorL2 from './assets/images/overworldObjects/aerialis/elevatorL2.png?url';
 import iooAElevatorR1 from './assets/images/overworldObjects/aerialis/elevatorR1.png?url';

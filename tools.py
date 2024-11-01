@@ -744,7 +744,7 @@ def task_release(version, comment):
         f"mkdir -p {TEXT_PATH}/gamebuild && cp -rf {SRC_PATH}/app/dist/win.zip {TEXT_PATH}/gamebuild"
     )
     bashcmd(
-        f"mkdir -p {TEXT_PATH}/gamebuild && cp -rf {SRC_PATH}/app/dist/and,apk {TEXT_PATH}/gamebuild"
+        f"mkdir -p {TEXT_PATH}/gamebuild && cp -rf {SRC_PATH}/app/dist/and.apk {TEXT_PATH}/gamebuild"
     )
 
     print(colored("--> 推送更改到Git仓库", "blue"))

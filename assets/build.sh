@@ -106,7 +106,7 @@ zip -qr9 ../win.zip * &
 # zip -qr9 ../win-32.zip *
 
 # wait for all threads to complete
-# while [ 1 ]; do fg 2> /dev/null; [ $? == 1 ] && break; done
+while [ 1 ]; do fg 2> /dev/null; [ $? == 1 ] && break; done
 
 # and.apk
 echo creating and.apk

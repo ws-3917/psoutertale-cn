@@ -36,7 +36,7 @@
    "scripts": {
       "build": "./build.sh",
       "build-apk": "cordova build android",
-      "build-app": "electron-builder build --linux --win --mac --dir --x64 --arm64 --project app && electron-builder build --linux --win --dir --ia32 --project app",
+      "build-app": "electron-builder build --linux --win --dir --x64 --project app",
       "build-assets": "vite build",
       "build-platforms": "cordova platform add android",
       "build-sync": "yarn build-assets && sshpass -f passwd rsync -aP ./app/dist/assets/ root@hbms.me:/home/user/spacetime",
