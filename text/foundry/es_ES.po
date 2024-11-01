@@ -1,20 +1,7 @@
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-31 17:17+0000\n"
-"PO-Revision-Date: 2024-10-31 19:17+0000\n"
-"Last-Translator: Chistosito <souzadecarvalhofabio1@gmail.com>\n"
-"Language-Team: Spanish <https://ws3917.site/projects/project-spacetime/"
-"3-foundry/es/>\n"
-"Language: es_ES\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.8.1\n"
 
-#
 msgid "<32>{#p/basic}* ..."
 msgstr "<32>{#p/basic}* ..."
 
@@ -136,7 +123,8 @@ msgstr ""
 "* Tendré en cuenta lo que me has dicho."
 
 msgid "<25>{#p/toriel}{#f/1}* Well, it would be a good time for you to go."
-msgstr "<25>{#p/toriel}{#f/1}* Bueno, sería un bueno momento para que te vayas."
+msgstr ""
+"<25>{#p/toriel}{#f/1}* Bueno, sería un bueno momento para que te vayas."
 
 msgid ""
 "<25>{#f/5}* I know the transport ship is leaving soon, and I will not miss "
@@ -168,7 +156,8 @@ msgstr ""
 "* ¿Vale?"
 
 msgid "<25>{#p/toriel}{#f/5}* Frisk, you must allow me time to process."
-msgstr "<25>{#p/toriel}{#f/5}* Frisk, me tienes que dejar tiempo para procesar."
+msgstr ""
+"<25>{#p/toriel}{#f/5}* Frisk, me tienes que dejar tiempo para procesar."
 
 msgid ""
 "<32>{#p/finalghost}* Ah, the classic.\n"
@@ -333,7 +322,8 @@ msgid ""
 "<32>{#p/human}* (The inscription describes a riddle of ivories and "
 "melodies.)"
 msgstr ""
-"<32>{#p/human}* (La inscripción describe un acertijo de marfiles y melodías.)"
+"<32>{#p/human}* (La inscripción describe un acertijo de marfiles y "
+"melodías.)"
 
 msgid "<32>{#p/basic}* There is an inscription inscribed on the pedastal."
 msgstr "<32>{#p/basic}* Hay una inscripción escrita en el pedestal."
@@ -363,8 +353,7 @@ msgid "<32>* \"To those who are worthy, to those who are kind.\""
 msgstr "<32>* \"A los que son dignos, a los que son amables.\""
 
 msgid "<32>* \"To those who wish well, in both heart and mind.\""
-msgstr ""
-"<32>* \"A aquellos que desean el bien, tanto de corazón como de mente.\""
+msgstr "<32>* \"A aquellos que desean el bien, tanto de corazón como de mente.\""
 
 msgid "<32>* \"May peace follow you on your journey home.\""
 msgstr "<32>* \"Que la paz os acompañe en vuestro viaje a casa.\""

@@ -589,7 +589,7 @@ export default {
             '<32>{#p/asriel1}{#v/2}* \"estoy empezando un diario Porq mami dijo que seria divertido.\"',
             '<32>* \"hoy aprendi a plantar semillas en el jardin de papi\"',
             '<32>* \"el dijo que creceran pronto Pero tardara mucho tiemp.\"',
-            '<32>* \"mami va a hacer pastel de caracoles de noche Y estoy emosionado\"',
+            '<32>* \"mami va a hacer tarta de caracoles de noche Y estoy emocionado\"',
             '<32>* \"a parte de eso estoy pasando un buen dia.\"'
          ],
          [
@@ -824,7 +824,7 @@ export default {
       candy8: [ "<32>{#p/human}* (Llevas demasiado encima.)" ],
       chair1a: () => [
          '<25>{#p/toriel}{#f/1}{#n1}* ¿Qué pasa, mi niño?\n* ¿Tienes hambre?',
-         '<25>{#f/0}* Quizás te gustaría saber más sobre el libro que estoy leyendo.',
+         '<25>{#f/0}* Quizás quieras saber más sobre el libro que estoy leyendo.',
          choicer.create('{#n1!}* (¿Qué dices?)', 'Hambre', 'Libro', 'Hogar', 'Nada')
       ],
       chair1b: () => [
@@ -897,7 +897,7 @@ export default {
          '<25>{#f/0}* \"Y la monstruo dijo \'¡Vamos, humano, ven y juega!\'\"',
          '<25>{#f/5}* \"\'Soy muy grande para jugar,\' dijo el humano.\"',
          '<25>{#f/1}* \"\'Quiero conducir, encontrar un nuevo hogar...\'\"',
-         "<25>{#f/5}* \"'Perdón,' dijo la monstruo, 'pero soy muy pobre para tener un auto.'\"",
+         "<25>{#f/5}* \"'Perdón,' dijo ella, 'pero soy muy pobre para tener un auto.'\"",
          '<25>{#f/5}* \"\'Todo lo que tengo son mis 2 pies.\'\"',
          '<25>{#f/0}* \"\'Súbete a mi espalda y puedo llevarte a donde quieras ir.\'\"',
          '<25>{#f/0}* \"\'Así puede ver la ciudad y estar feliz.\'\"',
@@ -923,9 +923,9 @@ export default {
          '<25>{#f/9}* \"Ella apenas podía hablar.\"',
          '<25>{#f/1}* \"\'Ven, humano,\' ella susurro...\"',
          '<25>{#f/1}* \"\'Ven a visitarme.\'\"',
-         '<25>{#f/5}* \"\'Estoy demasiado viejo y ocupado para visitarte,\' dijo el humano.\"',
+         '<25>{#f/5}* \"\'Estoy viejo y ocupado para visitarte,\' dijo el humano.\"',
          '<25>{#f/1}* \"\'Quiero un lugar para descansar por la noche...\'\"',
-         "<25>{#f/5}* \"'Perdón,' dijo la monstruo, 'pero no tengo una cama de tu tamaño.'\"",
+         "<25>{#f/5}* \"'Perdón,' dijo ella, 'pero no tengo una cama de tu tamaño.'\"",
          '<25>{#f/5}* \"\'Aún soy demasiado pobre pata tener una.\'\"',
          '<25>{#f/0}* \"\'Duerme conmigo por la noche.\'\"',
          '<25>{#f/0}* \"\'Así puedes descansar un poco y ser feliz.\'\"',
@@ -934,10 +934,10 @@ export default {
          '<25>{#f/0}* \"Y la monstruo estaba feliz\"',
          '<25>{#f/5}* \"... pero en realidad no.\"',
          '<25>{#f/9}* \"Y después de un largo tiempo, el humano regreso de nuevo.\"',
-         "<25>{#f/5}* \"'Lo siento mucho, humano,' dijo la monstruo, 'pero he caído.'\"",
-         '<25>{#f/5}* \"\'Me fallan las piernas, No puedo llevarte a ninguna parte.\'\"',
+         "<25>{#f/5}* \"'Perdón, humano,' dijo la monstruo, 'pero he caído.'\"",
+         '<25>{#f/5}* \"\'Me fallan las piernas, No puedo llevarte a pasear.\'\"',
          '<25>{#f/10}* \"\'No hay ningún lugar donde quiera,\' dijo el humano.\"',
-         '<26>{#f/5}* \"\'No te puedo encontrar una cita, No conozco a nadie\' dijo la monstruo.\"',
+         '<26>{#f/5}* \"\'No te pude hallar una cita, no conozco a nadie\' dijo ella.\"',
          '<25>{#f/10}* \"\'No hay nadie más con quien quiera estar,\' dijo el humano.\"',
          '<25>{#f/5}* \"\'Estoy demasiado débil para que duermas sobre mí\', dijo la monstruo.\"',
          '<25>{#f/10}* \"\'Ya no necesito dormir más,\' dijo el humano.\"',
@@ -949,7 +949,7 @@ export default {
          '<25>{#f/10}* \"\'Solo un abrazo de mi mejor amiga antes de que yo muera.\'\"',
          '<25>{#f/1}* \"\'Bueno,\' dijo la monstruo, enderezando su postura...\"',
          '<25>{#f/0}* \"\'Bueno, una vieja monstruo siempre esta aquí para eso.\'\"',
-         '<25>{#f/0}* \"\'Vamos, humano, ven hacía mi. Quédate conmigo una ultima vez.\'\"',
+         '<25>{#f/0}* \"\'Ven conmigo, humano. Quédate conmigo una ultima vez.\'\"',
          '<25>{#f/9}* \"Y así lo hizo el humano.\"',
          '<25>{#f/10}* \"Y la monstruo estaba feliz.\"'
          
@@ -958,7 +958,7 @@ export default {
       chair2c8: [ '<25>{#f/0}{#n1}* Bueno, eso es todo.' ],
       chair2d1: [
          '<25>{#p/toriel}{#f/1}{#n1}* ¿Hogar...?\n* Podrías ser un poco más especifico?',
-         '<99>{#p/human}{#n1!}* (¿Qué dices?){!}\n§shift=48§Never§shift=72§Cuando puedo yo\n§shift=48§mind§shift=80§irme a mi hogar?{#c/0/6/4}'
+         '<99>{#p/human}{#n1!}* (¿Qué dices?){!}\n§shift=48§No§shift=72§¿Cuándo puedo\n§shift=48§importa§shift=80§irme a casa?{#c/0/6/4}'
       ],
       chair2d2: [
          '<25>{#p/toriel}{#f/1}{#n1}* Pero... este es tu hogar ahora, ¿no es así?',
@@ -1078,7 +1078,7 @@ export default {
               ]),
          '<25>{#f/0}* No hay problema.\n* Lo operaré por ti.',
          '<25>{#f/0}* ...',
-         '<25>{#f/0}* Aquí hay un acertijo por resolver.\n* ¿Te gustaría resolverlo?',
+         '<25>{#f/0}* Aquí hay un acertijo.\n* ¿Te gustaría resolverlo?',
          choicer.create('* (¿Resolver el acertijo?)', 'Si', 'No')
       ],
       danger_puzzle5a: [
@@ -1111,7 +1111,7 @@ export default {
       danger_puzzle7: () => [
          [ 1, 5 ].includes(SAVE.data.n.state_wastelands_dummy) && SAVE.data.b.w_state_riddleskip
             ? '<25>{#p/toriel}{#f/5}* Esperaré a que entres en la siguiente habitación.'
-            : '<25>{#p/toriel}* Una vez que estés listo, podrás entrar en la siguiente habitación.'
+            : '<25>{#p/toriel}* Cuando estés listo, podrás entrar en la siguiente habitación.'
       ],
       danger_puzzle8: () =>
          SAVE.data.b.svr
@@ -2000,61 +2000,61 @@ export default {
       lobby_puzzle3: [ '<25>{#p/toriel}* Cuando estés listo, podremos seguir.' ],
       loox: {
          a: [
-            "<32>{#p/basic}{#n1}* Oí que eres bastante amoroso para un humano.",
-            "<32>* As you {@fill=#cf7fff}FLIRT{@fill=#fff} with different kinds of monsters, you'll see hearts next to their names.",
-            "<32>* The more types of monsters you {@fill=#cf7fff}FLIRT{@fill=#fff} with, the more hearts you'll have.",
-            '<32>* I wonder...',
-            '<32>* Just how far can you go?',
-            '<32>* Perhaps, my friend, you could even become... a legend.'
+            "<32>{#p/basic}{#n1}* Oí que eres bastante coqueto para ser un humano.",
+            "<32>* Al {@fill=#cf7fff}COQUETEAR{@fill=#fff} con diferentes tipos de monstruos, verás corazones cerca de sus nombres.",
+            "<32>* Cuantos más tipos de monstruos tú {@fill=#cf7fff}COQUETEES{@fill=#fff} más corazones tendrás.",
+            '<32>* Me pregunto...',
+            '<32>* ¿Qué tan lejos llegaras?',
+            '<32>* Quizás, mi amigo, podrías hasta convertirte... en una leyenda.'
          ],
          b: [
-            '<32>{#p/basic}{#n1}* Hey human, have you tried flirting yet?',
-            "<32>* Ha!\n* I can tell by the look on your face that you haven't yet.",
-            "<32>* I gotta tell you, it's tons of fun.",
-            "<32>* Your enemies won't know what to do with themselves!",
-            '<32>* Psst... if you DO start flirting, I might have more to tell you.',
-            '<32>* Good luck with that!'
+            '<32>{#p/basic}{#n1}* Oye humano, ¿ya intentaste coquetear?',
+            "<32>* ¡Ja!\n* Puedo decir por la mirada de tu cara que no lo hiciste todavía.",
+            "<32>* Tengo que decirte que es muy divertido.",
+            "<32>* ¡Tus enemigos no sabrán qué hacer consigo mismos!",
+            '<32>* Psst... si empiezas a coquetear, puede que tenga más que decirte.',
+            '<32>* ¡Buena suerte con eso!'
          ],
          c: [
-            "<32>{#p/basic}{#n1}* Hey human, now that you've started flirting...",
-            '<32>* How does it feel?',
-            "<32>* It's pretty great, right?",
-            "<32>* As you {@fill=#cf7fff}FLIRT{@fill=#fff} with different kinds of monsters, you'll see hearts next to their names.",
-            "<32>* The more types of monsters you {@fill=#cf7fff}FLIRT{@fill=#fff} with, the more hearts you'll have.",
-            '<32>* I wonder...',
-            '<32>* Just how far can you go?',
-            '<32>* Perhaps, my friend, you could even become... a legend.'
+            "<32>{#p/basic}{#n1}* Oye humano, ahora que empezaste a coquetear...",
+            '<32>* ¿Cómo se siente?',
+            "<32>* Es genial, ¿verdad?",
+            "<32>* Al {@fill=#cf7fff}COQUETEAR{@fill=#fff} con diferentes tipos de monstruos, verás corazones cerca de sus nombres.",
+            "<32>* Cuantos más tipos de monstruos tú {@fill=#cf7fff}COQUETEES{@fill=#fff} más corazones tendrás.",
+            '<32>* Me pregunto...',
+            '<32>* ¿Qué tan lejos llegaras?',
+            '<32>* Quizás, mi amigo, podrías hasta convertirte... en una leyenda.'
          ],
          d: [
-            "<32>{#p/basic}{#n1}* I hear you're somewhat of a bully in these parts.",
-            '<32>* Ha!\n* Join the club, pal.',
-            "<32>* You're talking to the number one bully around.",
-            "<32>* As you {@fill=#3f00ff}BULLY{@fill=#fff} different kinds of monsters, you'll see swords next to their names.",
-            "<32>* The more types of monsters you {@fill=#3f00ff}BULLY{@fill=#fff}, the more swords you'll have.",
-            '<32>* Though, as a disclaimer, not ALL monsters can be bullied.',
-            "<32>* It's like flirting... but with death.",
-            '<32>* Fun, right?'
+            "<32>{#p/basic}{#n1}* Escuche que eres como un bravucón en estas partes.",
+            '<32>* ¡Ja!\n* Únete al club, amigo.',
+            "<32>* Estas hablando con el bravucón número 1 aquí.",
+            "<32>* Al {@fill=#3f00ff}INTIMIDAR{@fill=#fff} a varios tipos de monstruos, verás espadas cerca de sus nombres.",
+            "<32>* Cuantos más tipos de monstruos tú {@fill=#cf7fff}INTIMIDES{@fill=#fff} más espadas tendrás.",
+            '<32>* Aunque, como una advertencia, no TODOS los monstruos pueden ser intimidados.',
+            "<32>* Es como coquetear... con la muerte.",
+            '<32>* Divertido, ¿verdad?'
          ],
          e: pager.create(
             0,
             () => [
                ...(30 <= SAVE.data.n.bully
                   ? [
-                       "<32>{#p/basic}{#n1}* I heard you're quite the bully around here now.",
-                       "<32>* Everyone's afraid of you, huh?"
+                       "<32>{#p/basic}{#n1}* Escuche que ahora eres todo un bravucón por aquí.",
+                       "<32>* Todos te tienen miedo, ¿eh?"
                     ]
                   : 20 <= world.flirt
                   ? [
-                       "<32>{#p/basic}{#n1}* I heard you're quite the romantic around here now.",
-                       '<32>* Everyone loves you, huh?'
+                       "<32>{#p/basic}{#n1}* Escuche que ahora eres todo un romántico por aquí.",
+                       '<32>* Todos te aman, ¿eh?'
                     ]
                   : [
-                       "<32>{#p/basic}{#n1}* I heard you're quite the hero around here now.",
-                       '<32>* Everyone likes you, huh?'
+                       "<32>{#p/basic}{#n1}* Escuche que ahora eres todo un héroe por aquí.",
+                       '<32>* Le agradas a todos, ¿eh?'
                     ]),
-               '<32>* Well... personally, I think you have too much free time.'
+               '<32>* Bueno... personalmente, creo que tú tienes demasiado tiempo libre.'
             ],
-            [ '<32>{#p/basic}{#n1}* What?\n* Am I wrong?' ]
+            [ '<32>{#p/basic}{#n1}* ¿Qué?\n* ¿Me equivoco?' ]
          )
       },
       manana: {
@@ -2063,80 +2063,80 @@ export default {
             () =>
                SAVE.data.b.napsta_performance
                   ? [
-                       "<32>{#p/basic}{#n1}* So, you're the one who co-hosted that music show, eh?",
-                       "<32>* Maybe now you'll have the means to accept my offer.",
-                       "<32>* I'm just lookin' for someone to buy this limited edition Super Starwalker comic strip.",
-                       "<32>* Now I liked that little show, so you'll get a discount.\n* 5G, take it or leave it.",
-                       choicer.create('{#n1!}* (Buy the Super Starwalker 1 for 5G?)', 'Si', 'No')
+                       "<32>{#p/basic}{#n1}* Así que, tú eras el que co-presentador del show de música, ¿eh?",
+                       "<32>* Quizás ahora tengas los medios para aceptar mi oferta.",
+                       "<32>* Sólo busco a alguien que compre esta edición limitada del cómic Super Starwalker.",
+                       "<32>* Ahora como me gusto ese pequeño show, tendrás un descuento.\n* 5 de Oro, tómalo o déjalo.",
+                       choicer.create('{#n1!}* (¿Comprar el Super Starwalker 1 por 5 de Oro?)', 'Si', 'No')
                     ]
                   : [
                        ...(world.postnoot
                           ? [
-                               "<32>{#p/basic}{#n1}* Hey, have you noticed anything strange goin' on around here?",
-                               "<32>* I could'a sworn all the puzzles just de-activated themselves earlier.",
-                               "<32>* Anyway, I'm lookin' for a buyer on this limited edition Super Starwalker comic strip."
+                               "<32>{#p/basic}{#n1}* Oye, ¿has notado algo extraño que haya pasado aquí?",
+                               "<32>* Juraría que todos los puzzles se desactivaron solos antes.",
+                               "<32>* Como sea, estoy buscando a que alguien compre esta edición limitada del comic Super Starwalker."
                             ]
                           : [
-                               '<32>{#p/basic}{#n1}* Finally, someone speaks to me!',
-                               "<32>* I've been standin' out here for ages, and nobody's takin' my offer.",
-                               "<32>* I'm just lookin' for someone to buy this limited edition Super Starwalker comic strip."
+                               '<32>{#p/basic}{#n1}* Finalmente, ¡alguien me hablo!',
+                               "<32>* He estado parado aquí afuera por años, y nadie acepta mi oferta.",
+                               "<32>* Sólo busco a alguien que compre esta edición limitada del cómic Super Starwalker."
                             ]),
-                       "<32>* Interested?\n* All I'm askin' for is 10G.",
-                       choicer.create('{#n1!}* (Buy the Super Starwalker 1 for 10G?)', 'Si', 'No')
+                       "<32>* ¿Interesado?\n* Todo lo que pido son 10 de Oro.",
+                       choicer.create('{#n1!}* (¿Comprar el Super Starwalker 1 por 10 de Oro?)', 'Si', 'No')
                     ],
             () =>
                SAVE.data.b.napsta_performance
                   ? [
-                       "<32>{#p/basic}{#n1}* Interested in buyin' my limited edition Super Starwalker comic strip?",
-                       "<32>* All I'm askin' for is 5G.",
-                       choicer.create('{#n1!}* (Buy the Super Starwalker 1 for 5G?)', 'Si', 'No')
+                       "<32>{#p/basic}{#n1}* ¿Interesado en comprar mi edición limitada del comic Super Starwalker?",
+                       "<32>* Todo lo que pido son 5 de Oro.",
+                       choicer.create('{#n1!}* (¿Comprar el Super Starwalker 1 por 5 de Oro?)', 'Si', 'No')
                     ]
                   : [
-                       "<32>{#p/basic}{#n1}* Interested in buyin' my limited edition Super Starwalker comic strip?",
-                       "<32>* All I'm askin' for is 10G.",
-                       choicer.create('{#n1!}* (Buy the Super Starwalker 1 for 10G?)', 'Si', 'No')
+                       "<32>{#p/basic}{#n1}* ¿Interesado en comprar mi edición limitada del comic Super Starwalker?",
+                       "<32>* Todo lo que pido son 10 de Oro.",
+                       choicer.create('{#n1!}* (¿Comprar el Super Starwalker 1 por 10 de Oro?)', 'Si', 'No')
                     ]
          ),
          b: () => [
-            "<32>{#p/human}{#n1!}* (You don't have enough G.)",
+            "<32>{#p/human}{#n1!}* (No tienes suficiente Oro.)",
             SAVE.data.b.napsta_performance
-               ? "<32>{#p/basic}{#n1}* I'll be honest, that don't look like 5G..."
-               : "<32>{#p/basic}{#n1}* I'll be honest, that don't look like 10G..."
+               ? "<32>{#p/basic}{#n1}* Seré honesto, eso no se ve como 5 de Oro..."
+               : "<32>{#p/basic}{#n1}* Seré honesto, eso no se ve como 10 de Oro..."
          ],
-         c: [ '<32>{#p/basic}{#n1}* Not interested, huh?', "<32>* Well, that's fine.\n* I'll just find someone else..." ],
+         c: [ '<32>{#p/basic}{#n1}* No estas interesado, ¿eh?', "<32>* Bueno, esta bien.\n* Solo buscare a alguien más..." ],
          d: [
-            '<32>{#s/equip}{#p/human}{#n1!}* (You got the Super Starwalker 1.)',
-            '<32>{#p/basic}{#n1}* Splendid!\n* Enjoy the comic strip.'
+            '<32>{#s/equip}{#p/human}{#n1!}* (Conseguiste el Super Starwalker 1.)',
+            '<32>{#p/basic}{#n1}* ¡Esplendido!\n* Disfruta del comic.'
          ],
-         e: [ '<32>{#p/basic}{#n1}* Back again, huh?', "<32>* Sorry bud, I've got nothin' left to sell." ],
+         e: [ '<32>{#p/basic}{#n1}* Regresaste, ¿eh?', "<32>* Perdón amigo, ya no tengo nada más para vender." ],
          f: [
-            "<32>{#p/human}{#n1!}* (You're carrying too much.)",
-            "<32>{#p/basic}{#n1}* Them pockets of yours are lookin' kinda full..."
+            "<32>{#p/human}{#n1!}* (Llevas demasiado.)",
+            "<32>{#p/basic}{#n1}* Esos bolsillos tuyos se ven llenos..."
          ],
          g: [
-            "<32>{#p/basic}{#n1}* I heard they're rebooting the comic franchise...",
-            '<32>* The new main character is some snake fella with sunglasses or something.',
-            "<32>* If I was in charge, I'd make a spinoff about that sidekick...",
-            '<32>* Gumbert, I think?'
+            "<32>{#p/basic}{#n1}* Escuche que estan reiniciando la franquicia del comic...",
+            '<32>* El nuevo personaje principal es una serpiente con gafas de sol o algo así.',
+            "<32>* Si estuviera a cargo, yo haría un spinoff sobre ese compañero...",
+            '<32>* Gumbert, ¿Creo?'
          ],
          h: [
-            "<32>{#p/basic}{#n1}* Maybe now that we're free, they'll finally make that reboot they were planning.",
-            "<32>* What was it called?\n* Oh, I've already forgotten..."
+            "<32>{#p/basic}{#n1}* Quizás como ahora estamos libres, ellos finalmente harán ese reinicio que estaban planeando.",
+            "<32>* ¿Cómo se llamaba?\n* Oh, lo he olvidado..."
          ]
       },
       mananaX: () =>
          [
             [
-               '<32>{#p/basic}{#n1}* Now what was THAT racket?',
-               "<32>{#p/basic}{#n1}* Er, sorry, my eyesight's not what it used to be..."
+               '<32>{#p/basic}{#n1}* Ahora, ¿qué era ese ruido?',
+               "<32>{#p/basic}{#n1}* Lo siento, mi vista ya no es lo que solía ser..."
             ],
-            [ '<32>{#p/basic}{#n1}* Huh?\n* It happened again?\n* Tch, kids these days...' ],
-            [ '<32>{#p/basic}{#n1}* Kids these days...' ]
+            [ '<32>{#p/basic}{#n1}* ¿Eh?\n* ¿Paso de nuevo?\n* Tch, estos niños de ahora...' ],
+            [ '<32>{#p/basic}{#n1}* Los niños de ahora...' ]
          ][Math.min(roomKills().w_puzzle4++, 2)],
       afrogX: (k: number) =>
          [
-            [ "<32>{#p/basic}{#n1}* If... if you d-do that again... I-I'm gonna have to stop you!" ],
-            [ '<32>{#p/basic}{#n1}* N-no...\n* Not again...' ]
+            [ "<32>{#p/basic}{#n1}* Si... si h-haces eso de nuevo... ¡t-tendré que detenerte!" ],
+            [ '<32>{#p/basic}{#n1}* N-no...\n* No de nuevo...' ]
          ][k],
       patron: {
          a: pager.create(
@@ -2145,220 +2145,220 @@ export default {
                SAVE.data.n.plot === 72
                   ? 6 <= world.population
                      ? [
-                          "<32>{#p/basic}{#n1}* I'm sad.\n* They took the DJ table to use for some tacky show later.",
-                          '<32>* ... wait, that might actually be kind of cool.'
+                          "<32>{#p/basic}{#n1}* Estoy triste.\n* Se llevaron la mesa del DJ para usarla en algún mal espectáculo más tarde.",
+                          '<32>* ... espera, en realidad podría ser un poco genial.'
                        ]
                      : [
-                          "<32>{#p/basic}{#n1}* I'm sad.\n* The bully who came through here earlier...",
-                          '<32>* ... turned out to be you.',
-                          '<32>* You saved us in the end, but why resort to such violence along the way?'
+                          "<32>{#p/basic}{#n1}* Estoy triste.\n* El bravucón que pasó por aquí antes...",
+                          '<32>* ... resulto ser tú.',
+                          '<32>* Al final nos salvaste, pero ¿por qué recurriste a la violencia en el camino?'
                        ]
                   : SAVE.data.b.napsta_performance
                   ? [
-                       "<32>{#p/basic}{#n1}* I'm sad.\n* Musicians these days are way too hard on themselves...",
-                       '<32>* Personally, I really liked that tune of theirs.',
-                       "<32>* It's a shame we'll probably never get to hear it again.",
-                       '<32>{#n1!}{#n2}* At least you still have steak to keep you company, right? ;)',
-                       '<32>{#n2!}{#n1}* ... not this again.'
+                       "<32>{#p/basic}{#n1}* Estoy triste.\n* Los músicos de ahora son demasiado duros consigo mismos...",
+                       '<32>* Personalmente, me gusto mucho esa canción de ellos.',
+                       "<32>* Es una pena que probablemente nunca lo escucharemos de nuevo.",
+                       '<32>{#n1!}{#n2}* Al menos aún tienes un filete para hacerte compañía, ¿verdad? ;)',
+                       '<32>{#n2!}{#n1}* ... no esto de nuevo.'
                     ]
                   : [
-                       "<32>{#p/basic}{#n1}* I'm sad.\n* The food these days just gets worse and worse...",
-                       '<32>* I was promised something \"real,\" but all I got was a cheap copy.',
-                       '<32>{#n1!}{#n2}* Hey! ;)\n* Quit bad-mouthing my shop in front of the customers! ;)',
-                       '<32>* Besides, what if your sense of taste is to blame ;)',
-                       '<32>{#n2!}{#n1}* ... typical.'
+                       "<32>{#p/basic}{#n1}* Estoy triste.\n* La comida de ahora es cada vez peor...",
+                       '<32>* Me prometieron algo \"real,\" pero todo lo que obtuve fue una copia barata.',
+                       '<32>{#n1!}{#n2}* ¡Oye! ;)\n* ¡Deja de hablar mal de mi tienda delante de los clientes! ;)',
+                       '<32>* Además, ¿y si la culpa la tiene tu sentido del gusto? ;)',
+                       '<32>{#n2!}{#n1}* ... tipico.'
                     ],
             () => [
                SAVE.data.n.plot === 72 && 6 <= world.population
-                  ? "<32>{#p/basic}{#n1}* ... it isn't what it is?"
-                  : '<32>{#p/basic}{#n1}* ... it is what it is.'
+                  ? "<32>{#p/basic}{#n1}* ... ¿no es lo que es?"
+                  : '<32>{#p/basic}{#n1}* ... es lo que es.'
             ]
          )
       },
       pie: () =>
          3 <= SAVE.data.n.cell_insult
-            ? [ '<32>{#p/human}* (You got the Burnt Pie.)' ]
+            ? [ '<32>{#p/human}* (Conseguiste la Tarta Quemada.)' ]
             : SAVE.data.n.state_wastelands_mash === 1
-            ? [ '<32>{#p/human}* (You got the Pie Soup.)' ]
+            ? [ '<32>{#p/human}* (Conseguiste la Sopa de Tarta.)' ]
             : SAVE.data.b.snail_pie
-            ? [ '<32>{#p/human}* (You got the Snail Pie.)' ]
-            : [ '<32>{#p/human}* (You got the Butterscotch Pie.)' ],
+            ? [ '<32>{#p/human}* (Conseguiste la Tarta de Caracol.)' ]
+            : [ '<32>{#p/human}* (Conseguiste la Tarta de Caramelo.)' ],
       plot_call: {
          a: () => [
             '<32>{#p/event}* Ring, ring...',
             3 <= SAVE.data.n.cell_insult
-               ? '<25>{#p/toriel}* Hello, child.'
+               ? '<25>{#p/toriel}* Hola, niño.'
                : '<25>{#p/toriel}* ¿Hola?\n* Habla Toriel.',
-            '<25>{#f/1}* For no reason in particular...',
-            '<25>{#f/0}* Do you prefer cinnamon, or butterscotch?',
-            choicer.create('* (Which do you prefer?)', 'Cinnamon', 'Bscotch'),
+            '<25>{#f/1}* Por ninguna razón en particular...',
+            '<25>{#f/0}* ¿Prefieres la canela o el caramelo?',
+            choicer.create('* (¿Cuál prefieres?)', 'Canela', 'Caramelo'),
             3 <= SAVE.data.n.cell_insult
-               ? '<25>{#p/toriel}{#f/0}* I see.'
-               : '<25>{#p/toriel}* Oh, I see!\n* Thank you very much!'
+               ? '<25>{#p/toriel}{#f/0}* Ya veo.'
+               : '<25>{#p/toriel}* ¡Oh, ya veo!\n* ¡Muchas gracias!'
          ],
          b: () => [
             '<32>{#p/event}* Ring, ring...',
             3 <= SAVE.data.n.cell_insult
-               ? '<25>{#p/toriel}* Hello, child.'
+               ? '<25>{#p/toriel}* Hola, niño.'
                : '<25>{#p/toriel}* ¿Hola?\n* Habla Toriel.',
             [
-               '<25>{#f/1}* You do not DISLIKE butterscotch, do you?',
-               '<25>{#f/1}* You do not DISLIKE cinnamon, do you?'
+               '<25>{#f/1}* A ti no te DESAGRADA el caramelo, ¿no?',
+               '<25>{#f/1}* A ti no te DESAGRADA la canela, ¿no?'
             ][SAVE.data.n.choice_flavor],
-            '<25>{#f/1}* I know what your preference is, but...',
-            '<25>{#f/1}* Would you still be satisfied if it turned up on your plate?',
+            '<25>{#f/1}* Conozco tu preferencia, pero...',
+            '<25>{#f/1}* ¿Aun estarías satisfecho si te lo encontrases en tu plato?',
             choicer.create('* (¿Qué dices?)', 'Si', 'No')
          ],
          b1: () => [
             3 <= SAVE.data.n.cell_insult
-               ? '<25>{#p/toriel}{#f/0}* Got it.'
-               : '<25>{#p/toriel}* Right, right, of course.',
-            '<25>{#f/1}* Carry on, then...'
+               ? '<25>{#p/toriel}{#f/0}* Lo entiendo.'
+               : '<25>{#p/toriel}* Claro, claro, de acuerdo.',
+            '<25>{#f/1}* Continúa, entonces...'
          ],
          b2: () => [
             '<25>{#p/toriel}{#f/5}* ...',
-            '<25>{#f/0}* Well then.',
+            '<25>{#f/0}* Bien entonces.',
             '<25>{#f/1}* ...',
             3 <= SAVE.data.n.cell_insult
-               ? '<25>{#f/0}* I will see what I can do.'
-               : '<25>{#f/0}* I will call you back later, my child.'
+               ? '<25>{#f/0}* Veré lo que puedo hacer.'
+               : '<25>{#f/0}* Te llamare más tarde, mi niño.'
          ],
          c: [
             '<32>{#p/event}* Ring, ring...',
-            '<25>{#p/toriel}{#f/1}* You do not have any allergies, do you?',
+            '<25>{#p/toriel}{#f/1}* No tienes ninguna alergia, ¿verdad?',
             '<25>{#f/5}* ...',
-            '<25>{#f/5}* I suppose humans cannot even be allergic to monster food.',
-            '<25>{#f/0}* Hee hee.\n* Forget I asked!'
+            '<25>{#f/5}* Supongo que los humanos no pueden ser alérgicos a la comida de monstruos.',
+            '<25>{#f/0}* Je Je.\n* Olvida que te lo pregunté!'
          ],
          d: [
             '<32>{#p/event}* Ring, ring...',
-            '<25>{#p/toriel}{#f/1}* Hello, little one.',
-            '<25>{#f/0}* I realize now that it has been a while since I cleaned up.',
-            '<25>{#f/1}* There are likely plenty of things strewn about...',
-            '<25>{#f/0}* You may pick them up if you like, but do not try to carry too much.',
-            '<25>{#f/1}* What if you see something you really want?',
-            '<25>{#f/0}* You will want to leave room in your pockets for that.'
+            '<25>{#p/toriel}{#f/1}* Hola, pequeño.',
+            '<25>{#f/0}* Me he dado cuenta de que ha pasado un tiempo desde que he limpiado.',
+            '<25>{#f/1}* Es probable que haya muchas cosas tiradas por ahí...',
+            '<25>{#f/0}* Puedes llevarte lo que quieras, pero no intentes llevarte demasiado.',
+            '<25>{#f/1}* ¿Qué pasaría ves algo que realmente quieres?',
+            '<25>{#f/0}* Querrás dejar espacio en tus bolsillos para eso.'
          ]
       },
       puzzle1A: () =>
          SAVE.data.b.svr
-            ? [ '<32>{#p/human}* (The switch appears to be stuck.)' ]
-            : [ '<32>{#p/basic}* The switch is stuck.' ],
+            ? [ '<32>{#p/human}* (El interruptor parece estar atascado.)' ]
+            : [ '<32>{#p/basic}* El interruptor esta atascado.' ],
       puzzle3A: () =>
          SAVE.data.b.svr
-            ? [ '<32>{#p/human}* (The switch appears to be stuck.)' ]
-            : [ '<32>{#p/basic}* The switch is stuck.' ],
+            ? [ '<32>{#p/human}* (El interruptor parece estar atascado.)' ]
+            : [ '<32>{#p/basic}* El interruptor esta atascado.' ],
       return1: () => [
          SAVE.data.n.cell_insult < 3
-            ? '<25>{#p/toriel}{#f/1}* My child, how did you get here!?'
-            : '<25>{#p/toriel}{#f/1}* Ah... there you are.',
-         '<25>* Are you alright?'
+            ? '<25>{#p/toriel}{#f/1}* Mi niño, ¡¿cómo llegaste hasta aquí!?'
+            : '<25>{#p/toriel}{#f/1}* Ah... ahí estas.',
+         '<25>* ¿Estas bien?'
       ],
       return2a: () =>
          SAVE.data.n.cell_insult < 3
-            ? [ '<25>{#p/toriel}* Not a scratch!\n* Impressive.' ]
-            : [ '<25>{#p/toriel}{#f/10}* Not a scratch...\n* Very well.' ],
+            ? [ '<25>{#p/toriel}* ¡Sin un rasguño!\n* Impresionante.' ]
+            : [ '<25>{#p/toriel}{#f/10}* Sin un rasguño...\n* Muy bien.' ],
       return2b: () =>
          SAVE.data.n.cell_insult < 3
-            ? [ '<25>{#p/toriel}{#f/4}* You look hurt...', '<25>{#f/10}* There, there, I will heal you.' ]
-            : [ '<25>{#p/toriel}{#f/9}* You have been hurt.', '<25>{#f/10}* Please, allow me to heal your injuries.' ],
+            ? [ '<25>{#p/toriel}{#f/4}* Te ves herido...', '<25>{#f/10}* Ahí, ahí, te curaré.' ]
+            : [ '<25>{#p/toriel}{#f/9}* Te han hecho daño.', '<25>{#f/10}* Por favor, déjame curarte tus heridas.' ],
       return2c: [
          '<25>{#p/toriel}{#f/3}* ...',
-         '<25>{#f/11}* Who did this to you?\n* Someone is going to answer for this.'
+         '<25>{#f/11}* ¿Quién te hizo esto?\n* Alguien va a responder por esto.'
       ],
       return3: () => [
-         '<25>{#p/toriel}* I apologize, young one.\n* It was foolish of me to leave you on your own.',
+         '<25>{#p/toriel}* Me disculpo, pequeño.\n* Fue tonto de mi parte dejarte solo.',
          ...(world.postnoot
             ? [
-                 '<25>{#f/1}* ... is it just me, or is something wrong with the atmosphere?',
-                 '<25>{#f/5}* Perhaps the system that provides it is not functioning properly.',
+                 '<25>{#f/1}* ... soy solo yo o ¿hay algo mal con la atmosfera?',
+                 '<25>{#f/5}* Puede que el sistema que lo proporciona no funcione correctamente.',
                  '<25>{#f/5}* ...',
-                 '<25>{#f/0}* No matter.\n* I am sure it will be resolved shortly.'
+                 '<25>{#f/0}* No importa.\n* Estoy segura de que se resolverá en breve.'
               ]
             : []),
-         '<25>{#f/1}* Come!\n* I have a surprise for you.'
+         '<25>{#f/1}* ¡Vamos!\n* Tengo una sorpresa para ti.'
       ],
       return4: () => [
-         '<25>{#p/toriel}* Welcome to my parlor!',
+         '<25>{#p/toriel}* ¡Bienvenido a mi sala!',
          ...(3 <= SAVE.data.n.cell_insult
             ? [
-                 '<25>{#f/1}* Can you smell...',
-                 '<25>{#p/toriel}{#f/2}* ... oh, I forgot to check the oven!',
-                 '<25>{#p/toriel}{#f/5}* I have been so pre- occupied with your previous behavior, I...',
-                 '<25>{#p/toriel}{#f/1}* I must take care of this now, please do not wander off!'
+                 '<25>{#f/1}* Puedes oler...',
+                 '<25>{#p/toriel}{#f/2}* ... ¡oh, olvide revisar el horno!',
+                 '<25>{#p/toriel}{#f/5}* He estado tan pre- ocupada con tu comportamiento anterior, que...',
+                 '<25>{#p/toriel}{#f/1}* Tengo que encargarme de esto ahora, ¡por favor no te alejes!'
               ]
             : [
-                 '<25>{#f/1}* Can you smell that?',
+                 '<25>{#f/1}* ¿Puedes oler eso?',
                  ...(SAVE.data.b.snail_pie
-                    ? [ '<25>{#f/0}* Surprise!\n* It is a homemade snail pie.' ]
+                    ? [ '<25>{#f/0}* ¡Sorpresa!\n* Es una tarta de caracol casero.' ]
                     : [
-                         '<25>{#f/0}* Surprise!\n* It is a butterscotch- cinnamon pie.',
-                         '<25>{#f/0}* I thought you might prefer that instead of snail pie for tonight.'
+                         '<25>{#f/0}* ¡Sorpresa!\n* Es una tarta de caramelo con canela.',
+                         '<25>{#f/0}* Pensé que preferirías eso en lugar de una tarta de caracol para esta noche.'
                       ]),
-                 '<25>{#f/1}* Now, it has been a long time since I have cared for anyone...',
-                 '<25>{#f/0}* But I still want you to have a nice time living here.',
-                 '<25>{#f/0}* Follow me!\n* I have another surprise for you.'
+                 '<25>{#f/1}* Ahora, hace mucho tiempo que no cuido a alguien...',
+                 '<25>{#f/0}* Pero aún así quiero que te lo pases bien viviendo aquí.',
+                 '<25>{#f/0}* ¡Sígueme!\n* Tengo otra sorpresa para ti.'
               ])
       ],
       return5: [
-         "<25>{#p/toriel}* Would you look at that!\n* It's a room of your very own.",
+         "<25>{#p/toriel}* ¡Podrías mirar eso!\n* Es tu propio cuarto.",
          '<25>{#f/1}* Espero que te guste...'
       ],
       return6: [
-         '<25>{#p/toriel}{#f/1}* Well, I have to go check on the pie.',
-         '<25>{#f/0}* Please, make yourself at home!'
+         '<25>{#p/toriel}{#f/1}* Bueno, tengo que ir a ver la tarta.',
+         '<25>{#f/0}* ¡Por favor, siéntete como en casa!'
       ],
       runaway1: [
-         [ '<25>{#p/toriel}{#f/1}* Should you not play at the house instead?', '<25>{#f/0}* Vamos.' ],
-         [ '<25>{#p/toriel}{#f/9}* Child, it is dangerous to play out here.', '<25>{#f/5}* Trust me.' ],
-         [ '<26>{#p/toriel}{#f/5}* The gravity is low here.\n* You will float away.' ],
-         [ '<25>{#p/toriel}{#f/5}* The atmopsheric system is weak here.\n* You will suffocate.' ],
-         [ '<25>{#p/toriel}{#f/23}* There is really nothing for you to see here.' ],
-         [ '<25>{#p/toriel}{#f/1}* Would you like to read a book with me?' ],
-         [ '<25>{#p/toriel}{#f/1}* Would you like to revisit the other rooms in the Outlands?' ],
-         [ '<25>{#p/toriel}{#f/5}* I will not allow you to endanger yourself.' ],
-         [ '<25>{#p/toriel}{#f/3}* Do you expect me to do this all day?' ],
+         [ '<25>{#p/toriel}{#f/1}* ¿No deberías jugar en casa en vez de eso?', '<25>{#f/0}* Vamos.' ],
+         [ '<25>{#p/toriel}{#f/9}* Niño, es peligroso jugar ahí afuera.', '<25>{#f/5}* Confía en mi.' ],
+         [ '<26>{#p/toriel}{#f/5}* La gravedad es muy baja aquí.\n* Te irás flotando.' ],
+         [ '<25>{#p/toriel}{#f/5}* El sistema atmosférico es débil aquí.\n* Te sofocarías.' ],
+         [ '<25>{#p/toriel}{#f/23}* Realmente no hay nada que ver aquí.' ],
+         [ '<25>{#p/toriel}{#f/1}* ¿Te gustaría leer un libro conmigo?' ],
+         [ '<25>{#p/toriel}{#f/1}* ¿Te gustaría volver a visitar las otras habitaciones de las Afueras?' ],
+         [ '<25>{#p/toriel}{#f/5}* No permitiré que te pongas en peligro.' ],
+         [ '<25>{#p/toriel}{#f/3}* ¿Esperas que haga esto todo el día?' ],
          [ '<25>{#p/toriel}{#f/4}* ...' ],
-         [ '<25>{#p/toriel}{#f/17}* ...', '<25>{#f/15}* I do not like the game you are playing.' ],
+         [ '<25>{#p/toriel}{#f/17}* ...', '<25>{#f/15}* No me gusta el juego al que estás jugando.' ],
          [ '<25>{#p/toriel}{#f/17}* ...' ]
       ],
       runaway2: [
-         '<25>{#p/toriel}{#f/1}* Please come back to the house, little one...',
-         '<25>{#f/0}* I have something to show you!'
+         '<25>{#p/toriel}{#f/1}* Por favor regresa a casa, pequeño...',
+         '<25>{#f/0}* ¡Tengo algo que mostrarte!'
       ],
       runaway3: [
-         '<25>{#p/toriel}{#f/2}* Child, no!\n* It is not safe for you out here!',
-         '<25>{#f/0}* Come. I have finished preparing breakfast.'
+         '<25>{#p/toriel}{#f/2}* ¡Niño, no!\n* ¡No es seguro para ti aquí fuera!',
+         '<25>{#f/0}* Ven. Termine de preparar el desayuno.'
       ],
-      runaway4: [ '<25>{#p/toriel}{#f/2}* Child!\n* What are you doing!?' ],
+      runaway4: [ '<25>{#p/toriel}{#f/2}* ¡Niño!\n* ¡¿Qué estas haciendo!?' ],
       runaway5: [
-         '<25>{#p/toriel}{#f/1}* Do you not realize what would happen if you left here?',
-         '<25>{#f/5}* I... I am sorry I did not pay more attention to you...',
-         '<25>{#f/9}* Maybe if I had, you would not have run away...'
+         '<25>{#p/toriel}{#f/1}* ¿No te das cuenta de lo que pasaría si te fueras de aquí?',
+         '<25>{#f/5}* Yo... siento no haberte prestado más atención...',
+         '<25>{#f/9}* Tal vez si lo hubiera hecho, no habrías huido...'
       ],
       runaway6: [
-         '<25>{#g/torielStraightUp}* I must admit... I am afraid of leaving here myself.',
-         '<25>{#f/9}* There are many dangers beyond which would threaten us both.',
-         '<25>{#g/torielSincere}* I do want to protect you from them, but...',
-         '<25>{#g/torielStraightUp}* If I follow you out of here, I would only put you in further danger.',
-         '<25>{#f/9}* My presence would be seen as a threat.'
+         '<25>{#g/torielStraightUp}* Tengo que admitir... tengo miedo de irme de aquí.',
+         '<25>{#f/9}* Hay muchos peligros más allá que nos amenazarían a ambos.',
+         '<25>{#g/torielSincere}* Quiero protegerte de ellos, pero...',
+         '<25>{#g/torielStraightUp}* Si te siguiera fuera de aquí, sólo te pondría en más peligro.',
+         '<25>{#f/9}* Mi presencia seria vista como una amenaza.'
       ],
       runaway7: [
-         '<25>{#p/toriel}{#f/5}* Please...',
-         '<25>{#f/1}* Come back with me, and I promise to take care of you.',
-         '<25>{#f/5}* I will do anything you ask, alright?',
-         '<25>{#f/18}* Please... do not leave me like the others...'
+         '<25>{#p/toriel}{#f/5}* Por favor...',
+         '<25>{#f/1}* Vuelve conmigo y te prometo que cuidare de ti.',
+         '<25>{#f/5}* Haré todo lo que me pidas, ¿de acuerdo?',
+         '<25>{#f/18}* Por favor... no me dejes como los otros...'
       ],
       runaway7a: [
          '<25>{#p/toriel}{#f/18}* ...',
-         '<25>{#g/torielCompassionSmile}* There, there, my child.\n* Everything will be alright now.',
-         '<25>{#f/1}* Return to the house, and I will rejoin you soon.',
-         '<25>{#f/5}* There is something I have to do here.'
+         '<25>{#g/torielCompassionSmile}* Ahí, ahí, mi niño.\n* Todo estará bien ahora.',
+         '<25>{#f/1}* Regresa a la casa y me reuniré contigo pronto.',
+         '<25>{#f/5}* Hay algo que tengo que hacer aquí.'
       ],
       runaway7b: [
-         '<25>{#p/toriel}{#f/21}* How pathetic...',
-         '<25>* I cannot...\n* Even protect a single human child...',
-         '<32>{#p/human}* (You hear footsteps fading into the distance.)'
+         '<25>{#p/toriel}{#f/21}* Que patético...',
+         '<25>* No puedo...\n* Incluso proteger a un solo niño humano...',
+         '<32>{#p/human}* (Oyes pasos que se desvanecen en la distancia.)'
       ],
       silencio: {
          a: pager.create(
@@ -2366,101 +2366,101 @@ export default {
             () =>
                SAVE.data.n.plot === 72
                   ? [
-                       '<32>{#p/basic}{#n1}* Hey there.\n* Nice to see you back here.',
-                       "<32>* I've decided to revisit this old stomping ground of mine...",
-                       "<32>* Besides, it's quiet here.\n* Just like me.",
-                       "<32>* Oh, and I've retired from working at the CORE.",
-                       '<32>* You see, when I joined the engineering team...',
-                       "<32>* I didn't realize I'd be called on for impromptu guard duty.",
-                       '<32>* ... it would seem deception of the corporate variety is beyond even my foresight.'
+                       '<32>{#p/basic}{#n1}* Hola.\n* Es bueno verte aquí de nuevo.',
+                       "<32>* He decidido volver a visitar este viejo terreno mío...",
+                       "<32>* Además, es tranquilo aquí.\n* Igual que yo.",
+                       "<32>* Oh y me he retirado de trabajar en el NÚCLEO.",
+                       '<32>* Veras, cuando me uní al equipo de ingeniería...',
+                       "<32>* No me di cuenta de que me llamarían para una guardia improvisada.",
+                       '<32>* ... parece que el engaño de la variedad corporativa está más allá incluso de mi previsión.'
                     ]
                   : SAVE.data.b.napsta_performance
                   ? [
-                       '<32>{#p/basic}{#n1}* Hey there.\n* Nice to see you at the show.',
-                       "<32>* The name's Silencio... but I'm sure you've heard that by now.",
-                       '<32>* Everyone around here knows my name, even that DJ.',
-                       '<32>* I once performed my own kind of musical here.',
-                       '<32>* \"Silencio\'s Great Escape,\" it was called.',
-                       '<32>* Once it was over, I was gone before the crowd could even catch their breath.'
+                       '<32>{#p/basic}{#n1}* Hola.\n* Me alegro de verte en el show.',
+                       "<32>* Me llamo Silencio... pero estoy seguro de que ya lo has oído.",
+                       '<32>* Todos aquí conocen mi nombre, incluso ese DJ.',
+                       '<32>* Una vez representé aquí mi propio tipo de musical.',
+                       '<32>* \"El Gran Escape de Silencio,\" se llamaba.',
+                       '<32>* Una vez que se acabo, me había ido antes de que la multitud pudiera recuperar el aliento.'
                     ]
                   : [
-                       '<32>{#p/basic}{#n1}* Hey there.\n* Nice to meet you.',
-                       "<32>* The name's Silencio... well, that's what they call me, anyway.",
-                       '<32>* You wanna know why they call me that?',
-                       "<32>* I'm like a space ninja, silent as the most silent of stars.",
-                       '<32>* I can slip out of any danger, no exceptions.',
-                       "<32>* Don't believe me?\n* Try something funny, and you'll see how fast I run."
+                       '<32>{#p/basic}{#n1}* Hola.\n* Encantado de conocerte.',
+                       "<32>* Me llamo Silencio... bueno, así me llaman, de todas formas.",
+                       '<32>* ¿Quieres saber por qué me llaman así?',
+                       "<32>* Soy como un ninja del espacio, silencioso como la más silenciosa de las estrellas.",
+                       '<32>* Puedo escapar de cualquier peligro, sin excepciones.',
+                       "<32>* ¿No me crees?\n* Intenta algo divertido y veras que tan rápido corro."
                     ],
             () =>
                SAVE.data.n.plot === 72
                   ? [
-                       "<32>{#p/basic}{#n1}* Oh, yeah, I guess I'm free to leave the galaxy now.",
-                       "<32>* ... but maybe I'll stay."
+                       "<32>{#p/basic}{#n1}* Oh, si, supongo que ahora soy libre de abandonar la galaxia.",
+                       "<32>* ... pero tal vez me quedare."
                     ]
                   : SAVE.data.b.napsta_performance
                   ? [
-                       '<32>{#p/basic}{#n1}* You might even say, that performance of mine...',
-                       '<32>* Was \"breathtaking.\"'
+                       '<32>{#p/basic}{#n1}* Incluso podrías decir que mi actuación...',
+                       '<32>* Fue \"impresionante.\"'
                     ]
                   : [
-                       '<32>{#p/basic}{#n1}* What are you still talking to me for, huh?',
-                       "<32>* I've already said everything I'm willing to."
+                       '<32>{#p/basic}{#n1}* ¿Por qué me sigues hablando, eh?',
+                       "<32>* Ya te dije todo lo que estaba dispuesto a decir."
                     ]
          )
       },
       
-      socks0: [ '<32>{#p/human}* (You peek inside.)', '<32>{#p/human}* (It appears the drawer is empty.)' ],
+      socks0: [ '<32>{#p/human}* (Miras adentro.)', '<32>{#p/human}* (Parece que el cajón está vacío.)' ],
       socks1: () =>
          world.darker
-            ? [ '<32>{#p/human}* (You peek inside.)', "<32>{#p/basic}* It's just a sock drawer." ]
+            ? [ '<32>{#p/human}* (Miras adentro.)', "<32>{#p/basic}* Solo es un cajón de calcetines." ]
             : [
-                 '<32>{#p/human}* (You peek inside.)',
-                 '<32>{#p/basic}* Scandalous!',
-                 "<32>* It's Toriel's sock collection.\n* A little messy...",
+                 '<32>{#p/human}* (Miras adentro.)',
+                 '<32>{#p/basic}* ¡Escandaloso!',
+                 "<32>* Es la colección de calcetines de Toriel.\n* Un poco desordenado...",
                  world.meanie
-                    ? choicer.create('* (Make it messier?)', 'Si', 'No')
-                    : choicer.create('* (Clean up the mess?)', 'Si', 'No')
+                    ? choicer.create('* (¿Hacerlo más desordenado?)', 'Si', 'No')
+                    : choicer.create('* (¿Limpiar el desorden?)', 'Si', 'No')
               ],
       socks2: () =>
          world.meanie
-            ? [ '<33>{#p/human}* (You make a mess of the socks.)' ]
+            ? [ '<33>{#p/human}* (Hiciste un desorden de los calcetines.)' ]
             : [
-                 '<32>{#p/human}* (You organize the socks into matching pairs.)',
+                 '<32>{#p/human}* (Organizaste los calcetines en pares iguales.)',
                  ...(SAVE.data.b.oops
                     ? []
                     : [
-                         "<32>{#p/human}* (...)\n* (It appears there's a key hidden in the drawer.)",
-                         choicer.create('* (Take the key?)', 'Si', 'No')
+                         "<32>{#p/human}* (...)\n* (Parece que hay una llave escondida en el cajón.)",
+                         choicer.create('* (¿Tomar la llave?)', 'Si', 'No')
                       ])
               ],
       socks3: () => [
-         "<32>{#p/human}* (...)\n* (It appears there's a key hidden in the drawer.)",
-         choicer.create('* (Take the key?)', 'Si', 'No')
+         "<32>{#p/human}* (...)\n* (Parece que hay una llave escondida en el cajón.)",
+         choicer.create('* (¿Tomar la llave?)', 'Si', 'No')
       ],
-      socks4: [ '<32>{#p/human}* (You decide not to do anything.)' ],
+      socks4: [ '<32>{#p/human}* (Decides no hacer nada.)' ],
       socks5: [
-         '<32>{#s/equip}{#p/human}* (The Secret Key was added to your keyring.)',
-         '<32>{#p/basic}* But what could it unlock...?'
+         '<32>{#s/equip}{#p/human}* (La Llave Secreta fue añadida a tu llavero.)',
+         '<32>{#p/basic}* ¿Pero qué podría desbloquear...?'
       ],
       socks6: [ '<32>{#p/human}* (Decides no tomar nada.)' ],
       socks7: () =>
          SAVE.data.b.svr
             ? [
-                 '<32>{#p/human}* (You stare into the sock drawer, recalling the long journey that started here.)',
-                 "<32>{#p/human}* (You can't help but wonder where you'd be without it.)"
+                 '<32>{#p/human}* (Miras dentro del cajón de calcetines, recordando el largo viaje que comenzó aquí.)',
+                 "<32>{#p/human}* (No puedes evitar preguntarte dónde estarías sin el.)"
               ]
             : world.darker
-            ? [ "<32>{#p/basic}* It's just a sock drawer." ]
+            ? [ "<32>{#p/basic}* Solo es un cajón de calcetines." ]
             : SAVE.data.n.plot < 72
-            ? [ "<32>{#p/basic}* You can't stop looking at the socks." ]
+            ? [ "<32>{#p/basic}* No puedes dejar de mirar los calcetines." ]
             : SAVE.data.b.oops
             ? [
-                 "<32>{#p/basic}* You came all this way just to revisit Toriel's sock drawer...?",
-                 '<32>* You have great priorities in life.'
+                 "<32>{#p/basic}* Viniste aquí sólo para volver a ver el cajón de calcetines de Toriel...?",
+                 '<32>* Tienes grandes prioridades en la vida.'
               ]
             : [
-                 "<32>{#p/basic}* You came all this way just to revisit Toriel's sock drawer...?",
-                 '<32>* ... I guess that makes sense.'
+                 "<32>{#p/basic}* Viniste aquí sólo para volver a ver el cajón de calcetines de Toriel...?",
+                 '<32>* ... Supongo que eso tiene sentido.'
               ],
       steaksale: {
          a: pager.create(
@@ -2468,144 +2468,144 @@ export default {
             () =>
                SAVE.data.b.napsta_performance
                   ? [
-                       '<32>{#p/basic}{#n1}* Sup, lassy ;)',
-                       "<32>* It was good seeyin' ya at the show, ya know? ;)",
-                       '<32>* You did a real bang-up job ;)',
-                       "<32>* If one thing's for sure, I think that calls for a special offer ;)",
-                       '<32>* For a limited time only, our products will be infused with our \"premium\" ingredients ;)',
-                       "<32>* And believe me, lassy, this ain't just the same old stuff as before, aw naw ;)",
-                       '<32>* This stuff is GENUINE, yo ;)',
-                       "<32>* It's a little more expensive, so I hope ya don't mind ;)",
-                       "<32>* Now... why don'tcha check out what's for sale? ;)"
+                       '<32>{#p/basic}{#n1}* Qué pasa, joven ;)',
+                       "<32>* Fue bueno verte en el show, ¿sabes? ;)",
+                       '<32>* Hiciste un gran trabajo ;)',
+                       "<32>* Si una cosa es segura, creo que eso merece una oferta especial ;)",
+                       '<32>* Solo por un tiempo limitado, nuestros productos llevarán nuestros ingredientes \"premium\" ;)',
+                       "<32>* Y créeme, joven, esto no es sólo lo mismo de antes, aw naw ;)",
+                       '<32>* Esta cosa es GENUINA, amigo ;)',
+                       "<32>* Es un poco más caro, así que espero que no te importe ;)",
+                       "<32>* Ahora... ¿por qué no echas un vistazo a lo que está a la venta? ;)"
                     ]
                   : [
-                       '<32>{#p/basic}{#n1}* Sup, lassy ;)',
-                       '<32>* The boss man sent me out here to see what you country peeps are up to, ya know? ;)',
-                       "<32>* You could say we're expanding our enterprise ;)",
-                       "<32>* What's our enterprise, you ask? ;)",
-                       "<32>* Well, it's quite simple really... we sell steak ;)",
-                       "<32>* And this ain't the replicated stuff, aw naw ;)",
-                       '<32>* This stuff is REAL, yo ;)',
-                       '<32>* Anyone who says otherwise is a poser, ya feel me? ;)',
-                       "<32>* That being said, why don'tcha check out what's for sale? ;)"
+                       '<32>{#p/basic}{#n1}* Qué pasa, joven ;)',
+                       '<32>* El jefe me envió aquí para ver qué hacían ustedes los campesinos, ¿sabes? ;)',
+                       "<32>* Podrías decir que estamos expandiendo nuestra empresa ;)",
+                       "<32>* ¿Cuál es nuestra empresa, te preguntaras?;)",
+                       "<32>* Bueno, en realidad es muy sencillo... vendemos filetes ;)",
+                       "<32>* Y esto no es material replicado, aw naw ;)",
+                       '<32>* Esta cosa es REAL, amigo ;)',
+                       '<32>* Quien diga lo contrario es un farsante, ¿me entiendes? ;)',
+                       "<32>* Dicho esto, ¿por qué no echas un vistazo a lo que está a la venta? ;)"
                     ],
-            [ "<32>{#p/basic}{#n1}* Why don'tcha check out what's for sale? ;)" ]
+            [ "<32>{#p/basic}{#n1}* ¿Por qué no echas un vistazo a lo que está a la venta? ;)" ]
          ),
-         a1: [ '<32>{#p/basic}{#n1}* Thanks for everything, lassy ;)' ],
+         a1: [ '<32>{#p/basic}{#n1}* Gracias por todo, joven ;)' ],
          b: () => [
             SAVE.data.b.napsta_performance
                ? world.darker
-                  ? '<32>{#p/basic}{#n1!}* \"Sizzli Steak\" for 40G.'
-                  : '<32>{#p/basic}{#n1!}* It\'s labelled \"Sizzli Steak\" and costs 40G.\n* Smells like ultra-hyperbole.'
+                  ? '<32>{#p/basic}{#n1!}* \"Filete Sizzli\" por 40 de Oro.'
+                  : '<32>{#p/basic}{#n1!}* Está etiquetado como \"Filete Sizzli\" y cuesta 40 de Oro.\n* Huele como a una ultra hipérbole.'
                : world.darker
-               ? '<32>{#p/basic}{#n1!}* \"Sizzli Steak\" for 20G.'
-               : '<32>{#p/basic}{#n1!}* It\'s labelled \"Sizzli Steak\" and costs 20G.\n* Smells like hyperbole.',
+               ? '<32>{#p/basic}{#n1!}* \"Filete Sizzli\" por 20 de Oro.'
+               : '<32>{#p/basic}{#n1!}* Está etiquetado como \"Filete Sizzli\" y cuesta 20 de Oro.\n* Huele como a una hipérbole.',
             SAVE.data.b.napsta_performance
-               ? choicer.create('* (Buy the Sizzli Steak for 40G?)', 'Si', 'No')
-               : choicer.create('* (Buy the Sizzli Steak for 20G?)', 'Si', 'No')
+               ? choicer.create('* (¿Comprar el Filete Sizzli por 40 de Oro?)', 'Si', 'No')
+               : choicer.create('* (¿Comprar el Filete Sizzli por 20 de Oro?)', 'Si', 'No')
          ],
-         b1: [ '<32>{#p/human}{#n1!}* (You got the Sizzli Steak.)', '<32>{#p/basic}{#n1}* Slick choice, lassy ;)' ],
-         b2: [ '<32>{#p/human}{#n1!}* (You decide not to buy.)' ],
+         b1: [ '<32>{#p/human}{#n1!}* (Obtuviste el Filete Sizzli.)', '<32>{#p/basic}{#n1}* Buena elección, joven ;)' ],
+         b2: [ '<32>{#p/human}{#n1!}* (Decidiste no comprarlo.)' ],
          c: () => [
             SAVE.data.b.napsta_performance
                ? world.darker
-                  ? '<32>{#p/basic}{#n1!}* \"Fizzli Soda\" for 10G.'
-                  : '<32>{#p/basic}{#n1!}* It\'s labelled \"Fizzli Soda\" and costs 10G.\n* Who would EVER buy this?'
+                  ? '<32>{#p/basic}{#n1!}* \"Soda Fizzli\" por 10 de Oro.'
+                  : '<32>{#p/basic}{#n1!}* Está etiquetado como \"Soda Fizzli\" y cuesta 10 de Oro.\n* ¿Quién compraría esto?'
                : world.darker
-               ? '<32>{#p/basic}{#n1!}* \"Fizzli Soda\" for 5G.'
-               : '<32>{#p/basic}{#n1!}* It\'s labelled \"Fizzli Soda\" and costs 5G.\n* Who would buy this?',
+               ? '<32>{#p/basic}{#n1!}* \"Soda Fizzli\" por 5 de Oro.'
+               : '<32>{#p/basic}{#n1!}* Está etiquetado como \"Soda Fizzli\" y cuesta 5 de Oro.\n* ¿Quién compraría esto?',
             SAVE.data.b.napsta_performance
-               ? choicer.create('* (Buy the Fizzli Soda for 10G?)', 'Si', 'No')
-               : choicer.create('* (Buy the Fizzli Soda for 5G?)', 'Si', 'No')
+               ? choicer.create('* (¿Comprar la Soda Fizzli por 10 de Oro?)', 'Si', 'No')
+               : choicer.create('* (¿Comprar la Soda Fizzli por 5 de Oro?)', 'Si', 'No')
          ],
-         c1: [ '<32>{#p/human}{#n1!}* (You got the Fizzli Soda.)', "<32>{#p/basic}{#n1}* Careful, it's sweet ;)" ],
-         c2: [ '<32>{#p/human}{#n1!}* (You decide not to buy.)' ],
+         c1: [ '<32>{#p/human}{#n1!}* (Obtuviste la Soda Fizzli.)', "<32>{#p/basic}{#n1}* Con cuidado, es dulce ;)" ],
+         c2: [ '<32>{#p/human}{#n1!}* (Decidiste no comprarlo.)' ],
          d: pager.create(
             0,
             () => [
-               "<32>{#p/human}{#n1!}* (You don't have enough G.)",
-               '<32>{#p/basic}{#n1}* Not enough money, huh? ;)',
+               "<32>{#p/human}{#n1!}* (No tienes suficiente Oro.)",
+               '<32>{#p/basic}{#n1}* ¿Sin dinero suficiente, eh? ;)',
                SAVE.data.b.napsta_performance
-                  ? '<32>{#p/basic}* That\'s alright, lassy ;)\n* Not everyone can afford the \"premium\" ingredients ;)'
-                  : "<32>{#p/basic}* That's alright, lassy ;)\n* Just be sure to come back when you've got some ;)"
+                  ? '<32>{#p/basic}* Esta bien, joven;)\n* No todos pueden comprar los ingredientes \"premium\" ;)'
+                  : "<32>{#p/basic}* Esta bien, joven ;)\n* Sólo asegúrate de volver cuando tengas algo ;)"
             ],
-            [ "<32>{#p/human}{#n1!}* (You don't have enough G.)" ]
+            [ "<32>{#p/human}{#n1!}* (No tienes suficiente Oro.)" ]
          ),
          e: pager.create(
             0,
             [
-               "<32>{#p/human}{#n1!}* (You're carrying too much.)",
-               '<32>{#p/basic}{#n1}* Maybe you should come back later ;)'
+               "<32>{#p/human}{#n1!}* (Llevas demasiado.)",
+               '<32>{#p/basic}{#n1}* Tal vez deberías de regresar más tarde ;)'
             ],
-            [ "<32>{#p/human}{#n1!}* (You're carrying too much.)" ]
+            [ "<32>{#p/human}{#n1!}* (Llevas demasiado.)" ]
          ),
-         f: [ '<32>{#p/human}{#n1!}* (You got the Sizzli Steak.)' ],
-         g: [ '<32>{#p/human}{#n1!}* (You got the Fizzli Soda.)' ],
-         h: [ "<32>{#p/human}{#n1!}* (You're carrying too much.)" ],
+         f: [ '<32>{#p/human}{#n1!}* (Obtuviste el Filete Sizzli.)' ],
+         g: [ '<32>{#p/human}{#n1!}* (Obtuviste la Soda Fizzli.)' ],
+         h: [ "<32>{#p/human}{#n1!}* (Llevas demasiado.)" ],
          i: [
-            "<32>{#p/basic}{#n1}* By the way, we're outta stock ;)",
-            "<32>* Seems you can't get enough of our stuff ;)",
-            '<32>* Say, if- no, when you meet the boss-man... tell him this ;)',
-            '<32>{#p/human}{#n1!}* (Aaron whispered something in your ear.)',
-            '<32>{#p/basic}{#n1}* Good luck out there, lassy ;)'
+            "<32>{#p/basic}{#n1}* Por cierto, se nos agotaron ;)",
+            "<32>* Parece que no puedes tener suficiente de nuestras cosas ;)",
+            '<32>* Dime, si... no, cuando te encuentres con el jefe... dile esto ;)',
+            '<32>{#p/human}{#n1!}* (Aaron susurro algo en tu oido.)',
+            '<32>{#p/basic}{#n1}* Buena suerte ahí fuera, joven ;)'
          ]
       },
       supervisor: {
-         a: [ '<32>{#p/basic}* Later...' ],
+         a: [ '<32>{#p/basic}* Después...' ],
          b: [
-            '<32>{#p/napstablook}* hey everyone...',
-            '<32>* this is a little tune i wrote a while ago...',
-            "<32>* i've been experimenting with my style lately, so...",
-            "<32>* hopefully, it's good enough for you all",
+            '<32>{#p/napstablook}* Oigan todos...',
+            '<32>* esta es una pequeña música que escribí hace un tiempo...',
+            "<32>* he estado experimentando con mi estilo últimamente, así que...",
+            "<32>* espero que sea lo suficientemente bueno para todos ustedes",
             '<32>* ...',
-            '<32>* well, here we go...'
+            '<32>* bueno, aquí vamos...'
          ],
-         c1: [ '<32>{*}{#p/basic}* Well, this is jazzy.{^30}{%}' ],
+         c1: [ '<32>{*}{#p/basic}* Bueno, esto es jazz.{^30}{%}' ],
          c2: [
-            '<25>{*}{#p/toriel}{#f/7}* Why has Napstablook never mentioned this??\n* This is good!{^30}{%}',
-            "<32>{*}{#p/basic}* Yeah, maybe they're just shy.{^30}{%}"
+            '<25>{*}{#p/toriel}{#f/7}* ¿¿Por qué Napstablook nunca menciono esto??\n* ¡Esto es bueno!{^30}{%}',
+            "<32>{*}{#p/basic}* Sí, tal vez sea tímido.{^30}{%}"
          ],
-         c3: [ '<32>{*}{#p/basic}* Ooh, bells ;){^30}{%}' ],
-         c4: [ '<32>{*}{#p/basic}* Here comes the breakdown!{^30}{%}' ],
-         c5: [ '<32>{*}{#p/basic}* Well, that was... something.{^30}{%}' ],
+         c3: [ '<32>{*}{#p/basic}* Ooh, campanas ;){^30}{%}' ],
+         c4: [ '<32>{*}{#p/basic}* ¡Aquí viene el desglose!{^30}{%}' ],
+         c5: [ '<32>{*}{#p/basic}* Bueno, eso fue... algo.{^30}{%}' ],
          d: [
-            '<32>{#p/napstablook}* yeah, that was something',
-            '<32>{#p/napstablook}* oh well...\n* i probably bored you guys...',
-            '<32>{#p/napstablook}* sorry...'
+            '<32>{#p/napstablook}* si, eso fue algo',
+            '<32>{#p/napstablook}* oh bueno...\n* probablemente los he aburrido...',
+            '<32>{#p/napstablook}* perdón...'
          ],
          e: [
-            '<25>{|}{#p/toriel}{#f/2}* No, wait!\n* That was actually...',
-            "<32>{#p/basic}* I don't think they can hear you, Toriel.",
-            '<25>{#p/toriel}{#f/9}* ...\n* They never do...'
+            '<25>{|}{#p/toriel}{#f/2}* ¡No, espera!\n* Eso fue en realidad...',
+            "<32>{#p/basic}* No creo que puedan oírte, Toriel.",
+            '<25>{#p/toriel}{#f/9}* ...\n* Nunca lo hacen...'
          ]
       },
       terminal: {
          a: () =>
             postSIGMA()
-               ? [ "<32>{#p/human}* (You activate the terminal, but there's no incoming message.)" ]
+               ? [ "<32>{#p/human}* (Activaste la terminal, pero no hay ningún mensaje entrante.)" ]
                : SAVE.data.n.plot === 72
                ? !world.runaway
                   ? [
-                       '<32>{#p/human}* (You activate the terminal and play the incoming message.)',
-                       "<32>{#p/alphys}* We're free, everyone!\n* This isn't a joke, the force field's gone!",
-                       "<32>* Seriously, they're shutting down the core in a few days, so it's time to go!",
-                       "<32>* You don't want to die here, do you?"
+                       '<32>{#p/human}* (Activaste la terminal y reproduces el mensaje entrante.)',
+                       "<32>{#p/alphys}* ¡Ahora, somos libres!\n* ¡Esto no es una broma, el campo de fuerza se ha ido!",
+                       "<32>* ¡En serio, van a cerrar el núcleo en unos días, así que es hora de irnos!",
+                       "<32>* Tú no querrás morir aquí, ¿verdad?"
                     ]
                   : [
-                       '<32>{#p/human}* (You activate the terminal and play the incoming message.)',
-                       "<32>{#p/alphys}* The force field's gone.\n* Calling all citizens for immediate evacuation.",
-                       "<32>* ... I know you're all afraid, but it's going to be okay.",
-                       "<32>* They can't hurt us if we leave them behind."
+                       '<32>{#p/human}* (Activaste la terminal y reproduces el mensaje entrante.)',
+                       "<32>{#p/alphys}* El campo de fuerza se ha ido.\n* Llamando a todos los ciudadanos para una evacuación inmediata.",
+                       "<32>* ... se que todos estan asustados, pero todo va a salir bien.",
+                       "<32>* No puede hacernos daño si lo dejamos atrás."
                     ]
                : 37.2 <= SAVE.data.n.plot
                ? [
-                    '<32>{#p/human}* (You activate the terminal and play the incoming message.)',
+                    '<32>{#p/human}* (Activaste la terminal y reproduces el mensaje entrante.)',
                     "<32>{#p/alphys}* The Foundry's fluid network has been repaired, thanks to our... v-very kind workers.",
                     '<32>* ...',
                     "<32>* On an unrelated note, we're... l-looking for new workers."
                  ]
                : [
-                    '<32>{#p/human}* (You activate the terminal and play the incoming message.)',
+                    '<32>{#p/human}* (Activaste la terminal y reproduces el mensaje entrante.)',
                     "<32>{#p/alphys}* The Foundry's fluid network is f-falling apart again.",
                     '<32>* The workers have promised a short turnaround, but things are looking bleak.',
                     '<32>* Please, i-if anyone out there can help, we need you...'

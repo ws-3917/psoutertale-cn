@@ -75,7 +75,7 @@ export default {
          purple1: [
             '<99>{*}{#p/human}{#v/6}{@fill=#faff29}Una ALMA perdida te está llamando.',
             '<99>{*}{@fill=#faff29}Con {@mystify=PERSEVERANCIA}PERSEVERANCIA{@mystify=}, pueden escapar.',
-            '<99>{*}{#p/human}{#v/4}{@fill=#d535d9}Un solo Datapad puede recorrer un largo camino.'
+            '<99>{*}{#p/human}{#v/4}{@fill=#d535d9}Una laptop puede ir por un largo camino.'
          ],
          purple2: [
             '<99>{*}{#p/human}{#v/4}{@fill=#d535d9}La entidad está perdiendo estabilidad.',

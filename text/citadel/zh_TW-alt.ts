@@ -482,78 +482,78 @@ export default {
             [
                [
                   [
-                     "<25>{#p/asriel2}{#f/15}* You probably should've used a SAVE point after we left Starton.",
-                     '<25>{#p/asriel2}{#f/16}* Just saying.'
+                     "<25>{#p/asriel2}{#f/15}* 咱倆都離開星港了，\n  你咋就沒摸下存檔點呢？",
+                     '<25>{#p/asriel2}{#f/16}* 唉，我就是說說而已。'
                   ],
                   [
-                     "<25>{#p/asriel2}{#f/15}* You probably should've used a SAVE point after we killed Undyne.",
-                     '<25>{#p/asriel2}{#f/16}* Just saying.'
+                     "<25>{#p/asriel2}{#f/15}* 咱倆都殺掉安黛因了，\n  你咋就沒摸下存檔點呢？",
+                     '<25>{#p/asriel2}{#f/16}* 唉，我就是說說而已。'
                   ],
                   [
-                     "<25>{#p/asriel2}{#f/15}* You probably should've used a SAVE point after we left Aerialis.",
-                     '<25>{#p/asriel2}{#f/16}* Just saying.'
+                     "<25>{#p/asriel2}{#f/15}* 咱倆都離開空境了，\n  你咋就沒摸下存檔點呢？",
+                     '<25>{#p/asriel2}{#f/16}* 唉，我就是說說而已。'
                   ],
                   [
                      '<25>{#p/asriel2}{#f/15}* Did you poison yourself after the fight to see what would happen?',
-                     "<25>{#p/asriel2}{#f/16}* $(name), you're a real piece of work."
+                     "<25>{#p/asriel2}{#f/16}* 真是絕了。"
                   ]
                ],
                [
                   [
-                     "<26>{#p/asriel2}{#f/6}* You'd think after last time you would've\nlearnt to save progress.",
-                     "<25>{#p/asriel2}{#f/8}* Even if it's only Starton we have to go through again.",
-                     '<25>{#p/asriel2}{#f/7}* But I guess not.'
+                     "<26>{#p/asriel2}{#f/6}* 我上次都提醒你了，\n  你也該記得要儲存進度了吧。",
+                     "<25>{#p/asriel2}{#f/8}* 雖說就算沒儲存，\n  區區星港，很快就過去了。",
+                     '<25>{#p/asriel2}{#f/7}* 不過我看你是\n  一點記性沒長。'
                   ],
                   [
-                     "<26>{#p/asriel2}{#f/6}* You'd think after last time you would've\nlearnt to save progress.",
-                     '<26>{#p/asriel2}{#f/8}* Especially after taking out someone like Undyne.',
-                     '<25>{#p/asriel2}{#f/7}* But I guess not.'
+                     "<26>{#p/asriel2}{#f/6}* 我上次都提醒你了，\n  你也該記得要儲存進度了吧。",
+                     '<26>{#p/asriel2}{#f/8}* 更何況，我們好不容易\n  才滅了安黛因。',
+                     '<25>{#p/asriel2}{#f/7}* 不過我看你是\n  一點記性沒長。'
                   ],
                   [
-                     "<26>{#p/asriel2}{#f/6}* You'd think after last time you would've\nlearnt to save progress.",
-                     '<25>{#p/asriel2}{#f/8}* Especially after clearing an area like Aerialis.',
-                     '<25>{#p/asriel2}{#f/7}* But I guess not.'
+                     "<26>{#p/asriel2}{#f/6}* 我上次都提醒你了，\n  你也該記得要儲存進度了吧。",
+                     '<25>{#p/asriel2}{#f/8}* 更何況，我們好不容易\n  才滅了空境那些礙事的傢伙。',
+                     '<25>{#p/asriel2}{#f/7}* 不過我看你是\n  一點記性沒長。'
                   ],
-                  [ '<26>{#p/asriel2}{#f/7}* This is becoming very tiresome, very quickly.' ]
+                  [ '<26>{#p/asriel2}{#f/7}* 這才多久，\n  真是累死個人。' ]
                ],
                [
-                  [ '<25>{#p/asriel2}{#f/4}* $(name).\n* Please save our progress from now on.' ],
-                  [ '<25>{#p/asriel2}{#f/4}* $(name).\n* Please save our progress from now on.' ],
-                  [ '<25>{#p/asriel2}{#f/4}* $(name).\n* Please save our progress from now on.' ],
-                  [ "<25>{#p/asriel2}{#f/4}* Now you're just being downright annoying." ]
+                  [ '<25>{#p/asriel2}{#f/4}* $(name)。\n* 算我求你了，儲存下進度吧。' ],
+                  [ '<25>{#p/asriel2}{#f/4}* $(name)。\n* 算我求你了，儲存下進度吧。' ],
+                  [ '<25>{#p/asriel2}{#f/4}* $(name)。\n* 算我求你了，儲存下進度吧。' ],
+                  [ "<25>{#p/asriel2}{#f/4}* 現在咋感覺你這麼煩呢。" ]
                ],
                [
-                  [ '<25>{#p/asriel2}{#f/8}* Come on...' ],
-                  [ '<25>{#p/asriel2}{#f/8}* Come on...' ],
-                  [ '<25>{#p/asriel2}{#f/8}* Come on...' ],
-                  [ '<25>{#p/asriel2}{#f/8}* Come on...' ]
+                  [ '<25>{#p/asriel2}{#f/8}* 別再來了...' ],
+                  [ '<25>{#p/asriel2}{#f/8}* 別再來了...' ],
+                  [ '<25>{#p/asriel2}{#f/8}* 別再來了...' ],
+                  [ '<25>{#p/asriel2}{#f/8}* 別再來了...' ]
                ]
             ][Math.min(SAVE.flag.n.ga_asrielRespawn0++, 3)][Math.floor(SAVE.flag.n._genocide_milestone_last / 2)],
          respawn1: () =>
             [
                [
-                  "<25>{#p/asriel2}{#f/15}* We're back here?",
-                  "<25>{#p/asriel2}{#f/16}* We'll just kill him again, I guess."
+                  "<25>{#p/asriel2}{#f/15}* 咋回來了？",
+                  "<25>{#p/asriel2}{#f/16}* 大不了...\n  再殺他一次就好。"
                ],
-               [ '<25>{#p/asriel2}{#f/6}* Really?' ],
+               [ '<25>{#p/asriel2}{#f/6}* 開玩笑嗎？' ],
                [ '<25>{#p/asriel2}{#f/6}* ...' ]
             ][Math.min(SAVE.flag.n.ga_asrielRespawn1++, 2)],
          respawn2: () =>
             [
                [
-                  "<25>{#p/asriel2}{#f/15}* And we're back here again.\n* Great...",
-                  '<25>{#p/asriel2}{#f/16}* No problem, though...\n* We can just do what we did before...'
+                  "<25>{#p/asriel2}{#f/15}* 我們又回來了。\n* 呵，真是太棒了...",
+                  '<25>{#p/asriel2}{#f/16}* 還行，問題不大...\n* 再來一遍吧...'
                ],
-               [ '<25>{#p/asriel2}{#f/8}* This is really starting to get annoying.' ],
+               [ '<25>{#p/asriel2}{#f/8}* 我有點不耐煩了。' ],
                [ '<25>{#p/asriel2}{#f/8}* ...' ]
             ][Math.min(SAVE.flag.n.ga_asrielRespawn2++, 2)],
          respawn4: () =>
             [
                [
-                  '<25>{#p/asriel2}{#f/15}* $(name), we were almost to the end.',
-                  '<25>{#p/asriel2}{#f/16}* Can we please just save our progress this time.'
+                  '<25>{#p/asriel2}{#f/15}* $(name)，我們馬上\n  就要把事辦成了。',
+                  '<25>{#p/asriel2}{#f/16}* 這次儲存下進度，\n  行不行啊？'
                ],
-               [ '<25>{#p/asriel2}{#f/10}* ... is this some kind of a joke?' ],
+               [ '<25>{#p/asriel2}{#f/10}* ...你逗我玩呢？' ],
                [ '<25>{#p/asriel2}{#f/10}* ...' ]
             ][Math.min(SAVE.flag.n.ga_asrielRespawn4++, 2)],
          respawn6: () =>
@@ -1422,7 +1422,7 @@ export default {
                     "<25>{#g/alphysNervousLaugh}* 我-我是說，我不是在批評你，\n  我只是...",
                     "<25>{#g/alphysUhButHeresTheDeal}* 我只是覺得這超級無敵酷！！！",
                     '<25>{#g/alphysSideSad}* 那-那麼... 這樣一來...',
-                    "<25>{#g/alphysCutscene3}* 也許你現在就不會打算殺我啦？？？"
+                    "<25>{#g/alphysCutscene3}* 也許你現在就\n  不會打算殺我啦？？？"
                  ]
                : [ "<25>{#p/asgore}{#f/0}* 挺美的，不是嗎...？", '<25>{#p/asgore}{#f/0}* ...' ],
          asgoreStoryPre2: () =>
@@ -4241,7 +4241,7 @@ export default {
             } else {
                return SAVE.data.b.svr
                   ? [ '<32>{#p/human}* (You stare into the dazzling sight from beyond.)' ]
-                  : [ "<32>{#p/basic}* They're made of magic." ];
+                  : [ "<32>{#p/basic}* 一扇窗，由魔法製成。" ];
             }
          },
          
@@ -4296,14 +4296,14 @@ export default {
                   : [
                        "<32>{#p/basic}* 一個書架。",
                        '<32>{#p/human}* （你取下了一本書...）',
-                       "<32>{#p/basic}* It's a casualty report.",
-                       '<33>* \"Overview... two thousand dead, forty-thousand injured.\"\n* \"Tenko has fallen.\"',
-                       '<32>* \"Days before the attack, a local boy, Gerson, was drafted into the royal forces.\"',
-                       '<32>* \"Gerson had predicted the all- out assault based on movements within the human fleet.\"',
-                       '<32>* \"Had it not been for the king\'s son, this prediction would have been ignored.\"',
-                       '<32>* \"Had it been ignored, Gerson\'s family would have died in the attack.\"',
+                       "<32>{#p/basic}* 這是份傷亡報告。",
+                       '<33>* 「據統計... 此次襲擊已致\n   2000人死亡，40000人受傷。」\n* 「Tenko淪陷。」',
+                       '<32>* 「數日前，當地青年葛森應徵入伍。」',
+                       '<32>* 「根據人類方艦隊活動，\n  葛森預言了此次全面進攻。」',
+                       '<32>* 「王子殿下識人如炬，\n  我方才得以注意這一預言。」',
+                       '<32>* 「倘若我方忽略了這一預言，\n   葛森的家人將在此次襲擊中\n   悉數喪命。」',
                        '<32>* \"Survivors of the attack are holding a commemoration at the central nexus.\"',
-                       '<32>* \"The boy is a hometown hero.\"',
+                       '<32>* 「那位青年是名家鄉英雄。」',
                        '<32>{#p/human}* （你把書放回了書架。）'
                     ]
          ),
@@ -4403,7 +4403,7 @@ export default {
                : [ '<32>{#p/basic}* Smells like marinara sauce.' ],
          c_ak_trash: () =>
             SAVE.data.b.svr
-               ? [ "<32>{#p/human}* (You can't make out what's in the trash...)" ]
+               ? [ "<32>{#p/human}* （你看不出來垃圾桶裡有什麼...)" ]
                : [ '<32>{#p/basic}* 垃圾桶裡\n  居然什麼都沒有。' ],
          
          c_ah_door: () =>

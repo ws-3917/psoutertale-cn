@@ -1404,7 +1404,7 @@ export default {
                     ]
                   : SAVE.data.n.plot === 33
                   ? [
-                       '<32>{#p/basic}{#npc/a}* 衫~衫~\n* 快回来坐我旁边...！',
+                       '<32>{#p/basic}{#npc/a}* 衫/home/ws3917衫/home/ws3917\n* 快回来坐我旁边...！',
                        "<32>* 有你在的时候，\n  一切都那么有-有-有趣..."
                     ]
                   : SAVE.data.n.plot === 72
@@ -1426,18 +1426,18 @@ export default {
                     ]
                   : [
                        "<32>{#p/basic}{#npc/a}* 不论我去到哪里，\n  看到的都是一样的菜单，\n  遇到的都是一样的人...",
-                       "<32>* 服务员！\n* 我想再来点喝的，\n  再来店帅-帅-帅-帅哥！"
+                       "<32>* 服务员！\n* 我想再来点喝的，\n  再来点烧-烧-烧-烧男！"
                     ],
             () =>
                SAVE.data.b.killed_mettaton
                   ? [ '<32>{#p/basic}{#npc/a}* So c-c-cold...' ]
                   : SAVE.data.n.plot === 33
-                  ? [ '<32>{#p/basic}{#npc/a}* 衫~衫~' ]
+                  ? [ '<32>{#p/basic}{#npc/a}* 衫/home/ws3917衫/home/ws3917' ]
                   : SAVE.data.n.plot === 72
                   ? [ '<32>{#p/basic}{#npc/a}* S-soooooo ready!' ]
                   : papreal() || world.dead_dog
                   ? [ '<32>{#p/basic}{#npc/a}* ...' ]
-                  : [ "<32>{#p/basic}{#npc/a}* 我感觉那个酒保\n  就挺帅-帅-帅-帅的..." ]
+                  : [ "<32>{#p/basic}{#npc/a}* 我感觉那个酒保\n  就挺烧-烧-烧-烧的..." ]
          ),
          g_dogamy: () =>
             SAVE.data.b.killed_mettaton
@@ -2582,7 +2582,7 @@ export default {
             world.runaway
                ? [
                     '<32>{#p/human}* （你取下了一本书...）',
-                    '<23>{#p/papyrusnt}“亲爱的日计：\n力场已经被摧毁了。”',
+                    '<23>{#p/papyrusnt}“亲爱的日计：\n 力场已经被摧毁了。”',
                     '<23>\"FRISK, THE HUMAN WHO CAME TO THE OUTPOST JUST A FEW DAYS AGO...\"',
                     '<23>\"IS NOW THE SUBJECT OF FEAR AMONG EVERYONE ON THE OUTPOST.\"',
                     '<23>\"WE\'RE ALL LEAVING RIGHT AWAY, BEFORE THEY WAKE UP.\"',
@@ -2593,7 +2593,7 @@ export default {
                : SAVE.data.n.plot === 72
                ? [
                     '<32>{#p/human}* （你取下了一本书...）',
-                    '<23>{#p/papyrusnt}“亲爱的日计：\n力场已经被摧毁了。”',
+                    '<23>{#p/papyrusnt}“亲爱的日计：\n 力场已经被摧毁了。”',
                     '<23>\"FRISK, THE HUMAN WHO CAME TO THE OUTPOST JUST A FEW DAYS AGO...\"',
                     '<23>\"TOOK ON IMPOSSIBLE ODDS TO SAVE US FROM DESTRUCTION.\"',
                     '<23>\"MAYBE THIS IS WHAT\'LL INSPIRE SANS TO MOVE UP IN THE WORLD.\"',
@@ -2603,12 +2603,12 @@ export default {
                  ]
                : [
                     '<32>{#p/human}* （你取下了一本书...）',
-                    '<23>{#p/papyrusnt}“亲爱的日计：\n衫斯刚刚被任命为\n正式的皇家哨兵。”',
-                    '<23>“最开始，\n我对他非常地不解...”',
-                    '<23>“毕竟，为什么一个\n这么懒的人会想\n承担这个工作？”',
-                    '<23>“算了，\n我就不去追问什么了。”',
-                    '<23>“事实上，我为他感到\n非常骄傲！！！”',
-                    '<23>“只有时间才能证明\n这会带来什么\n伟大的事情。”',
+                    '<23>{#p/papyrusnt}“亲爱的日计：\n 衫斯刚刚被任命为\n 正式的皇家哨兵。”',
+                    '<23>“最开始，\n 我对他非常地不解...”',
+                    '<23>“毕竟，为什么一个\n 这么懒的人会想\n 承担这个工作？”',
+                    '<23>“算了，\n 我就不去追问什么了。”',
+                    '<23>“事实上，我为他感到\n 非常骄傲！！！”',
+                    '<23>“只有时间才能证明\n 这会带来什么\n 伟大的事情。”',
                     '<32>{#p/human}* （你把书放回了书架。）'
                  ]
       ),
@@ -2755,9 +2755,9 @@ export default {
                  }
                : SAVE.data.n.plot === 72
                ? {
-                    a: '_舟亢忝洐_',
+                    a: '_舟亢忝行_',
                     b: '今天',
-                    c: '< 用户名更新 >\n原名：_摋掱亾耦_\n现在：_舟亢忝洐_'
+                    c: '< 用户名更新 >\n原名：_杀手亾耦_\n现在：_舟亢忝行_'
                  }
                : SAVE.data.n.plot < 34
                ? {
@@ -2876,7 +2876,7 @@ export default {
          () => [ '<18>{#p/papyrus}准备好了吗？', choicer.create('* （你要怎么回答？）', '是', '否') ]
       ),
       papdate4a: [ "<18>{#p/papyrus}好，我们进去吧！" ],
-      papdate4b: [ "<18>{#p/papyrus}I'LL KEEP WAITING HERE THEN!" ],
+      papdate4b: [ "<18>{#p/papyrus}那我就继续\n  在这儿等着啦！" ],
       papdate5: pager.create(
          0,
          () => [
@@ -3322,7 +3322,7 @@ export default {
                  '<15>{#f/24}我觉得如果你\n可以把你的友谊能量\n分散一点...',
                  "<15>{#f/10}你的生活方式\n就会更健康。",
                  ...(SAVE.data.n.plot < 48
-                    ? [ "<15>{#f/20}I'LL LET YOU KNOW WHEN I'M READY!" ]
+                    ? [ "<15>{#f/20}等准备好了\n我就告诉你！" ]
                     : [ "<15>{#f/20}所以让我们！\n一起加油吧！！" ])
               ]),
          '<15>{#f/20}捏嘿嘿\n嘿嘿！！！'
@@ -4589,7 +4589,7 @@ export default {
             ].map(
                p => () =>
                   SAVE.data.b.svr
-                     ? [ "<32>{#p/human}* (You can't make out what's in the trash...)" ]
+                     ? [ "<32>{#p/human}* （你看不出来垃圾桶里有什么...)" ]
                      : CosmosUtils.provide(p)
             )
          ),
@@ -5140,7 +5140,7 @@ export default {
                     '<32>{#p/basic}* “你好，孤独的来电者！”\n* “我很抱歉没能在这里迎接你~”',
                     '<32>{#s/equip}{#p/event}* 滴...',
                     ...(world.goatbro && SAVE.flag.n.ga_asrielVoicemail++ < 1
-                       ? [ '<25>{#p/asriel2}{#f/10}* ... weird.' ]
+                       ? [ '<25>{#p/asriel2}{#f/10}* ...莫名其妙。' ]
                        : [])
                  ],
          s_sr_cottonball: () =>
@@ -5674,16 +5674,16 @@ export default {
          world.genocide
             ? [
                  '<32>{#p/event}* 铃铃，铃铃...',
-                 "<32>{#p/alphys}* So... killing him wasn't g-good enough, huh?",
-                 '<32>* You just had to go and beat his score on my... stupid m-minigame...',
-                 '<32>* Ehehe...',
-                 "<32>* You're truly disgusting...",
+                 "<32>{#p/alphys}* ...合着杀了他，\n  你还没爽-爽够是吧？",
+                 '<32>* 你就非得在我... 那破-破游戏上\n  把他从榜一撵下去是吧...',
+                 '<32>* 诶嘿嘿...',
+                 "<32>* 你可真恶心...",
                  '<32>* ...',
-                 '<32>{#s/equip}{#p/human}* (You lost all of your G.)',
+                 '<32>{#s/equip}{#p/human}* （你失去了所有金钱。）',
                  ...(world.goatbro
                     ? SAVE.flag.n.genocide_milestone < 5
                        ? SAVE.flag.n.ga_asrielXtower++ < 1
-                          ? [ "<25>{#p/asriel2}{#f/10}* Daring today, aren't we?" ]
+                          ? [ "<25>{#p/asriel2}{#f/10}* 今儿我们胆量可嘉啊。" ]
                           : []
                        : SAVE.flag.n.genocide_milestone < 6
                        ? SAVE.flag.n.ga_asrielAlphysCom2++ < 1
@@ -5734,7 +5734,7 @@ export default {
          world.goatbro
             ? [ '<32>{#p/asriel2}* 笨蛋青年两人组。' ]
             : SAVE.data.b.s_state_chilldrake
-            ? [ '<32>{#p/story}* Chilldrake and Astro Serf pose like bad guys.' ]
+            ? [ '<32>{#p/story}* 小酷龙和太空帽\n  摆着大坏蛋的姿势闪亮登场。' ]
             : [ '<32>{#p/story}* Stardrake and Astro Serf pose like bad guys.' ],
       stardrakeSpacetop2a: () =>
          world.goatbro
@@ -5786,7 +5786,7 @@ export default {
                     '<32>{#p/asriel2}* 星铁龙，逗逼。\n* 总喜欢给别人讲笑话，\n  殊不知自己就是个最大的笑话。'
                  ]
             : SAVE.data.b.s_state_chilldrake
-            ? [ '<33>{#p/story}* CHILLDRAKE - ATK 12 DEF 7\n* Rebels against everything!!\n* On the lookout for Starry.' ]
+            ? [ '<33>{#p/story}* 小酷龙 - 攻击12 防御7\n* 看啥都要对着干！！\n* 他在找星儿。' ]
             : [ '<32>{#p/story}* 星铁龙 - 攻击12 防御7\n* 这名喜剧演员拼尽力气\n  想留住一位观众。' ],
       act_check2: () =>
          SAVE.data.b.s_state_chilldrake
@@ -5847,8 +5847,8 @@ export default {
          world.goatbro
             ? [ '<32>{#p/asriel2}* 离死不远了。' ]
             : SAVE.data.b.s_state_chilldrake
-            ? [ '<32>{#p/story}* 小酷龙的身体正在粉碎。' ]
-            : [ '<32>{#p/story}* 星铁龙的身体正在粉碎。' ],
+            ? [ '<32>{#p/story}* 小酷龙的身体要散架了。' ]
+            : [ '<32>{#p/story}* 星铁龙的身体要散架了。' ],
       idleTalk1: () =>
          SAVE.data.b.s_state_chilldrake
             ? [ '<08>{#p/basic}{~}Brush my teeth?\nNo way in heck!' ]
@@ -5859,15 +5859,15 @@ export default {
             : [ '<08>{#p/basic}{~}I\'m just in my moon pun \"phase\"' ],
       idleTalk3: () =>
          SAVE.data.b.s_state_chilldrake
-            ? [ '<08>{#p/basic}{~}Who needs parents anyway!?' ]
+            ? [ '<08>{#p/basic}{~}谁还要\n爸妈管啊！？' ]
             : [ '<08>{#p/basic}{~}已经好\n几“光年”\n没回家了..' ],
       idleTalk4: () =>
          SAVE.data.b.s_state_chilldrake
-            ? [ '<08>{#p/basic}{~}Live wild and free, I say!' ]
+            ? [ '<08>{#p/basic}{~}嘿呀，\n人生在世，\n总要撒点野！' ]
             : [ '<08>{#p/basic}{~}Oh, it\'s on.\n\"Tachy- on.\"' ],
       idleTalk5: () =>
          SAVE.data.b.s_state_chilldrake
-            ? [ '<08>{#p/basic}{~}Nobody tells ME what to do!' ]
+            ? [ '<08>{#p/basic}{~}没人能\n教我做事！' ]
             : [ '<08>{#p/basic}{~}Want a fight?\n\"Comet\" me, bro.' ],
       idleTalk6: () =>
          SAVE.data.b.s_state_chilldrake
@@ -5875,7 +5875,7 @@ export default {
             : [ '<08>{#p/basic}{~}Don\'t ruin the \"atmos- phere..\"' ],
       idleTalk7: () =>
          SAVE.data.b.s_state_chilldrake
-            ? [ '<08>{#p/basic}{~}Trim my claws?\nNo way in heck!' ]
+            ? [ '<08>{#p/basic}{~}想剪\n我的爪子？\n门都没有！' ]
             : [ '<08>{#p/basic}{~}It\'s not free, it\'s \"zero G\"' ],
       jokeStatus: () =>
          SAVE.data.b.s_state_chilldrake
@@ -5948,7 +5948,7 @@ export default {
             : [ '<32>{#p/story}* Stardrake sighs in relief, realizing its own name is in fact not a pun.' ],
       status1: () =>
          SAVE.data.b.s_state_chilldrake
-            ? [ '<32>{#p/story}* Chilldrake saunters up!' ]
+            ? [ '<32>{#p/story}* 小酷龙大摇大摆地晃了过来！' ]
             : [ '<32>{#p/story}* 星铁龙扑腾了过来！' ]
    },
    b_opponent_jerry: {
@@ -5956,7 +5956,7 @@ export default {
          SAVE.data.b.spared_jerry
             ? world.goatbro
                ? [
-                    '<33>{#p/asriel2}* Jerry, the undisputable jerk.\n* I refuse to believe one flirt could have that much influence.'
+                    '<33>{#p/asriel2}* 杰瑞，公认的傻帽。\n* 调情这么有用？打死我也不信。'
                  ]
                : [
                     '<32>{#p/story}* JERRY - ATK 0 DEF 30\n* A born-again monster, awakened with the power of friendship!'
@@ -7265,7 +7265,7 @@ export default {
    },
    i_spaghetti: {
       battle: {
-         description: 'Silken spaghetti, finely aged in a time dilation unit.',
+         description: '丝般柔滑的意面，\n在时间膨胀单元之中精细陈化。',
          name: '意大利面'
       },
       drop: () => [
@@ -7346,7 +7346,7 @@ export default {
       info: () =>
          SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
             ? [ '<32>{#p/human}* （16 HP。）' ]
-            : [ '<32>{#p/basic}* \"Spaghetti\" Heals 16 HP\n* Silken spaghetti, finely aged in a time dilation unit.' ],
+            : [ '<32>{#p/basic}* “意大利面” 回复16 HP\n* 丝般柔滑的意面，\n  在时间膨胀单元之中精细陈化。' ],
       name: '意大利面',
       use: () => [
          '<32>{#p/human}* （你吃光了意大利面。）',
@@ -8144,7 +8144,7 @@ export default {
                     "<18>{#p/papyrus}{#f/9}我个人觉得，\n这真的很棒！",
                     "<18>{#p/papyrus}{#f/0}很高兴能看到大家\n都在努力。",
                     '<18>{#p/papyrus}{#f/4}至于我兄弟，就...',
-                    "<18>{#p/papyrus}{#f/4}他觉得那帮家伙\n都是在白{@fill=#ff0}月{@fill=#fff}做梦。"
+                    "<18>{#p/papyrus}{#f/4}他觉得那帮家伙\n都是在白“月”做梦。"
                  ]
                : [
                     '<18>...',
@@ -9229,7 +9229,7 @@ export default {
       f_quiche: pager.create(
          0,
          () => [
-            '<18>{#p/papyrus}{#f/5}我哥哥前几天\n来过这里...',
+            '<18>{#p/papyrus}{#f/5}我兄弟前几天\n来过这里...',
             '<18>{#p/papyrus}{#f/5}说他得送点\n东西过来。',
             '<18>{#p/papyrus}{#f/5}我问他要送什么，\n他给了我一个挑战...',
             '<18>{#p/papyrus}{#f/4}说要让我想\n一{@fill=#ff0}支世{@fill=#fff}俗的笑话。',
@@ -9442,7 +9442,7 @@ export default {
       f_telescope: pager.create(
          0,
          () => [
-            '<18>{#p/papyrus}{#f/0}我哥哥在这里经营\n望远镜生意。',
+            '<18>{#p/papyrus}{#f/0}我兄弟在这里经营\n望远镜生意。',
             '<18>{#p/papyrus}{#f/5}订阅、会员、\n注册、开券...',
             "<18>{#p/papyrus}{#f/6}这是个无穷无尽的\n条款和条件的迷宫！",
             ...(solo()

@@ -701,7 +701,7 @@ def task_update():
     bashcmd(
         f"cd {TRANS_PATH} && git add . && git commit -m '{current_time} Update translation. \\nAuthor: {TRANS_AUTHOR}'"
     )
-    bashcmd(f"cd {TRANS_PATH} && git push -u origin master && git push github master")
+    bashcmd(f"cd {TRANS_PATH} && git push -u origin master")
 
     print(colored("--- 文本更新完成", "green"))
 
@@ -755,7 +755,7 @@ def task_release(version, comment):
             f"cd {reponame} && git add . && git commit -m "
             f"'{current_time}: V{version} - {comment}.\\nAuthor: {TRANS_AUTHOR}\\nPS! Outertale {reponame.split('/')[-1]}.'"
         )
-        bashcmd(f"cd {reponame} && git push -u origin master && git push github master")
+        bashcmd(f"cd {reponame} && git push -u origin master")
     print(colored(f"--- 已发布: V{version} - {comment}.", "green"))
 
 
@@ -956,8 +956,6 @@ def task_dttvl_update(update_lang="zh_CN"):
 
     print(colored("--> 推送更改到Git仓库", "blue"))
     current_time = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-    # git remote add origin git@gitee.com:ws-3917/psoutertale-cn.git
-    # git remote add github git@github.com:ws-3917/psoutertale-cn.git
     bashcmd(
         f"cd {TRANS_PATH} && git add . && git commit -m '{current_time} Update translation. \\nAuthor: {TRANS_AUTHOR}'"
     )

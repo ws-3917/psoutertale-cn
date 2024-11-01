@@ -16,15 +16,15 @@ LANG = [
 TRANS_AUTHOR = "ws3917"  # 提交 commit 的作者名
 
 # 路径配置
-GMS_PATH = "D:/game/psoutertale-gms"  # 字体生成工具路径
-TRANS_PATH = "D:/game/psoutertale-cn"  # 翻译文件路径
-SRC_PATH = "D:/game/psoutertale-src"  # 源代码路径
-DIST_PATH = "D:/game/psoutertale-dist"  # 发布文件路径
+GMS_PATH = "/home/ws3917/Code/psoutertale-gms"  # 字体生成工具路径
+TRANS_PATH = "/home/ws3917/Code/psoutertale-cn"  # 翻译文件路径
+SRC_PATH = "/home/ws3917/Code/psoutertale-src"  # 源代码路径
+DIST_PATH = "/home/ws3917/Code/psoutertale-dist"  # 发布文件路径
 WEB_PATH = "ws-server:/www"  # 网页版游戏推送路径
-MODS_PATH = "D:/game/psoutertale-mod"  # 模组路径
-TEXT_PATH = "D:/game/psoutertale-text"  # 文本路径
-DTTVL_PATH = "D:/dttvl/src/Assets/Scripts/Assembly-CSharp/"
-DTTVL_PATHX = "D:/dttvl/src/Assets/"
+MODS_PATH = "/home/ws3917/Code/psoutertale-mod"  # 模组路径
+TEXT_PATH = "/home/ws3917/Code/psoutertale-text"  # 文本路径
+DTTVL_PATH = "/home/ws3917/Code/dttvl/src/Assets/Scripts/Assembly-CSharp/"
+DTTVL_PATHX = "/home/ws3917/Code/dttvl/src/Assets/"
 DTTVL_DIRLIST = ["Scenes", "Resources/overworld", "Resources/ui"]
 DTTVL_FILETYPE = [".unity", ".prefab", ".prefab"]
 # 项目中不同区域的标识符列表
@@ -163,7 +163,7 @@ CN_NAME_DICT = dict(
         "人名不譯": "人名翻譯",  # 用于菜单选择界面替换语言
         "MTT": "镁塔",
         "Sansy": "衫衫",
-        "Sansyyyy...": "衫~衫~",
+        "Sansyyyy...": "衫/home/ws3917衫/home/ws3917",
         "Friiisk": "弗里斯克——",
         "MTT-": "镁塔",
         "Dreemurr": "逐梦",

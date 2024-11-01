@@ -2072,66 +2072,66 @@ export default {
                   : [
                        ...(world.postnoot
                           ? [
-                               "<32>{#p/basic}{#n1}* Hey, have you noticed anything strange goin' on around here?",
-                               "<32>* I could'a sworn all the puzzles just de-activated themselves earlier.",
-                               "<32>* Anyway, I'm lookin' for a buyer on this limited edition Super Starwalker comic strip."
+                               "<32>{#p/basic}{#n1}* Hey, etrafta hiç tuhaf olan bi’ şeyler gördün mü?",
+                               "<32>* Bütün bulmacaların önceden devre dışı kaldığına yemin edebilirdim.",
+                               "<32>* Neyse, bu sınırlı sayıdaki Süper Starwalker çizgi romanını alacak birini arıyorum."
                             ]
                           : [
-                               '<32>{#p/basic}{#n1}* Finally, someone speaks to me!',
-                               "<32>* I've been standin' out here for ages, and nobody's takin' my offer.",
+                               '<32>{#p/basic}{#n1}* Sonunda, biri benimle konuşuyor!',
+                               "<32>* Sabahtandır burada duruyorum ve kimse teklifimi kabul etmiyor.",
                                "<32>* Bu sınırlı sayıdaki Süper Starwalker çizgi romanını satın alacak birini arıyorum."
                             ]),
-                       "<32>* Interested?\n* All I'm askin' for is 10G.",
-                       choicer.create('{#n1!}* (Buy the Super Starwalker 1 for 10G?)', 'Evet', 'Hayır')
+                       "<32>* İlgilenir misin?\n* Sadece 10A istiyorum.",
+                       choicer.create('{#n1!}* (Süper Starwalker 1’i 10A ile alacak mısın?)', 'Evet', 'Hayır')
                     ],
             () =>
                SAVE.data.b.napsta_performance
                   ? [
-                       "<32>{#p/basic}{#n1}* Interested in buyin' my limited edition Super Starwalker comic strip?",
-                       "<32>* All I'm askin' for is 5G.",
+                       "<32>{#p/basic}{#n1}* Sınırlı sayıdaki Süper Starwalker çizgi romanını almak ister misin?",
+                       "<32>* Sadece 5A istiyorum.",
                        choicer.create('{#n1!}* (Süper Starwalker 1\'i 5A fiyatına alacak mısın?)', 'Evet', 'Hayır')
                     ]
                   : [
-                       "<32>{#p/basic}{#n1}* Interested in buyin' my limited edition Super Starwalker comic strip?",
-                       "<32>* All I'm askin' for is 10G.",
-                       choicer.create('{#n1!}* (Buy the Super Starwalker 1 for 10G?)', 'Evet', 'Hayır')
+                       "<32>{#p/basic}{#n1}* Sınırlı sayıdaki Süper Starwalker çizgi romanını almak ister misin?",
+                       "<32>* Sadece 10A istiyorum.",
+                       choicer.create('{#n1!}* (Süper Starwalker 1’i 10A ile alacak mısın?)', 'Evet', 'Hayır')
                     ]
          ),
          b: () => [
-            "<32>{#p/human}{#n1!}* (You don't have enough G.)",
+            "<32>{#p/human}{#n1!}* (Yeterince A’n yok.)",
             SAVE.data.b.napsta_performance
-               ? "<32>{#p/basic}{#n1}* I'll be honest, that don't look like 5G..."
-               : "<32>{#p/basic}{#n1}* I'll be honest, that don't look like 10G..."
+               ? "<32>{#p/basic}{#n1}* Dürüst olacağım, bu 5A’ya benzemiyor."
+               : "<32>{#p/basic}{#n1}* Dürüst olacağım, bu 10A’ya benzemiyor…"
          ],
-         c: [ '<32>{#p/basic}{#n1}* Not interested, huh?', "<32>* Well, that's fine.\n* I'll just find someone else..." ],
+         c: [ '<32>{#p/basic}{#n1}* İlgini çekmedi, ha?', "<32>* Peki, sorun değil.\n* Ben de başkasını bulurum…" ],
          d: [
-            '<32>{#s/equip}{#p/human}{#n1!}* (You got the Super Starwalker 1.)',
-            '<32>{#p/basic}{#n1}* Splendid!\n* Enjoy the comic strip.'
+            '<32>{#s/equip}{#p/human}{#n1!}* (Süper Starwalker 1’i aldın.)',
+            '<32>{#p/basic}{#n1}* Harikulade!\n* Çizgi romanın hayırlı olsun.'
          ],
-         e: [ '<32>{#p/basic}{#n1}* Yine geri geldin, ha?', "<32>* Sorry bud, I've got nothin' left to sell." ],
+         e: [ '<32>{#p/basic}{#n1}* Yine geri geldin, ha?', "<32>* Üzgünüm dostum, satacak hiç bir şeyim kalmadı." ],
          f: [
             "<32>{#p/human}{#n1!}* (Çok fazla şey taşıyorsun.)",
-            "<32>{#p/basic}{#n1}* Them pockets of yours are lookin' kinda full..."
+            "<32>{#p/basic}{#n1}* Ceplerin bayağı dolu görünüyor."
          ],
          g: [
             "<32>{#p/basic}{#n1}* I heard they're rebooting the comic franchise...",
-            '<32>* The new main character is some snake fella with sunglasses or something.',
-            "<32>* If I was in charge, I'd make a spinoff about that sidekick...",
-            '<32>* Gumbert, I think?'
+            '<32>* Yeni ana karakter gözlüklü bir yılan kardeş falanmış.',
+            "<32>* Eğer benim elimde olsaydı, yardımcısı hakkında bir yan roman yazardım…",
+            '<32>* Gumbert sanırım?'
          ],
          h: [
             "<32>{#p/basic}{#n1}* Maybe now that we're free, they'll finally make that reboot they were planning.",
-            "<32>* What was it called?\n* Oh, I've already forgotten..."
+            "<32>* Adı neydi?\n* Ah, şimdiden unuttum…"
          ]
       },
       mananaX: () =>
          [
             [
                '<32>{#p/basic}{#n1}* Now what was THAT racket?',
-               "<32>{#p/basic}{#n1}* Er, sorry, my eyesight's not what it used to be..."
+               "<32>{#p/basic}{#n1}* Erm, kusura bakma, gözlerim eskisi gibi görmüyor."
             ],
-            [ '<32>{#p/basic}{#n1}* Huh?\n* It happened again?\n* Tch, kids these days...' ],
-            [ '<32>{#p/basic}{#n1}* Kids these days...' ]
+            [ '<32>{#p/basic}{#n1}* Ha?\n* Yine mi oldu\n* Cık cık cık, zamane çocukları...' ],
+            [ '<32>{#p/basic}{#n1}* Zamane çocukları…' ]
          ][Math.min(roomKills().w_puzzle4++, 2)],
       afrogX: (k: number) =>
          [
@@ -2523,13 +2523,13 @@ export default {
          d: pager.create(
             0,
             () => [
-               "<32>{#p/human}{#n1!}* (You don't have enough G.)",
+               "<32>{#p/human}{#n1!}* (Yeterince A’n yok.)",
                '<32>{#p/basic}{#n1}* Paran yetmedi mi, ha? ;)',
                SAVE.data.b.napsta_performance
                   ? '<32>{#p/basic}* Sorun değil kız ;)\n* Sonuçta herkesin parası \"premium\" malzemelere yetecek değil ;)'
                   : "<32>{#p/basic}* Sorun değil kız ;)\n* Biraz paran olduğunda geri gelmeyi unutma ;)"
             ],
-            [ "<32>{#p/human}{#n1!}* (You don't have enough G.)" ]
+            [ "<32>{#p/human}{#n1!}* (Yeterince A’n yok.)" ]
          ),
          e: pager.create(
             0,
@@ -2748,14 +2748,14 @@ export default {
                : [ '<32>{#p/basic}* Boş bir fotoğraf çerçevesi.' ],
          w_paintblaster: () =>
             SAVE.data.b.svr
-               ? [ '<32>{#p/human}* (This device seems to be a few decades out of date.)' ]
+               ? [ '<32>{#p/human}* (Bu cihaz birkaç onyıl eski gibi.)' ]
                : world.darker
-               ? [ '<32>{#p/basic}* A useless device of little importance to anyone.' ]
-               : [ '<32>{#p/basic}* An old fuel injection device.' ],
+               ? [ '<32>{#p/basic}* Kimsenin umurunda olmayan gereksiz bir cihaz.' ]
+               : [ '<32>{#p/basic}* Eski bir yakıt aktarma cihazı.' ],
          w_candy: () =>
             SAVE.data.b.svr
-               ? [ '<32>{#p/human}* (The sign warns of unexpected appliance malfunctions.)' ]
-               : [ '<32>{#p/basic}* \"Please note that appliances may be more malfunction-prone than they seem.\"' ],
+               ? [ '<32>{#p/human}* (Tabela beklenmeyen eşya arızaları hakkında uyarıyor.)' ]
+               : [ '<32>{#p/basic}* \"Lütfen cihazların arızalara karşı göründüğünden daha eğilimli olduğunu unutmayın.\"' ],
          w_djtable: () =>
             SAVE.data.b.svr
                ? [ '<32>{#p/human}* (You touch the DJ set.)\n* (It makes an oddly satisfying scratching sound.)' ]
@@ -3176,18 +3176,18 @@ export default {
                     [
                        '<25>{#p/asriel1}{#f/13}* I have to wonder why she thought buying this would be a good idea.',
                        "<25>{#f/10}* Unless she wanted to re-create Asgore's kitchen...?",
-                       "<25>{#f/17}* For someone who didn't like him, she had a weird way to show it."
+                       "<25>{#f/17}* Onu sevmeyen birine göre bunu tuhaf bir şekilde gösteriyordu."
                     ],
                     [
-                       '<25>{#p/asriel1}{#f/15}* I really wish Toriel and Asgore stayed together sometimes.',
-                       "<25>{#f/16}* ... but I guess it's for the best that they didn't."
+                       '<25>{#p/asriel1}{#f/15}* Bazen Keşke Toriel ve Asgore birlikte kalsaydı diyorum.',
+                       "<25>{#f/16}* ... Ama sanırım en iyisi kalmamaları."
                     ],
-                    [ "<25>{#p/asriel1}{#f/13}* It just wasn't meant to be, Frisk..." ]
+                    [ "<25>{#p/asriel1}{#f/13}* Kader böyleymiş, Frisk…" ]
                  ][Math.min(asrielinter.w_tk_stove++, 2)]
                : SAVE.data.n.state_wastelands_toriel === 2
-               ? [ "<32>{#p/basic}* It's just a stovetop.\n* No one is going to use it." ]
+               ? [ "<32>{#p/basic}* Sadece bir ocak üstü.\n* Kimse kullanmayacak." ]
                : world.darker
-               ? [ "<32>{#p/basic}* It's just a stovetop." ]
+               ? [ "<32>{#p/basic}* Sadece bir ocak üstü." ]
                : SAVE.data.n.plot === 72
                ? [ '<32>{#p/basic}* The stovetop is very clean.\n* Toriel may not need a new one on the new world.' ]
                : [ '<32>{#p/basic}* The stovetop is very clean.\n* Toriel must use fire magic instead.' ],

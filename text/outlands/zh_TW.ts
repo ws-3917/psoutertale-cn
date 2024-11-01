@@ -22,137 +22,137 @@ import { CosmosKeyed, CosmosProvider } from '../../../code/systems/storyteller';
 const toriel_aerialis = () =>
    SAVE.data.n.plot < 49
       ? [
-           '<25>{#p/toriel}{#f/1}* I hear there is a certain kind of fluid in Aerialis...',
-           '<25>{#f/0}* Used primarily to dampen electricity.',
-           '<25>{#f/1}* If you could carry this fluid, how far would you take it?',
-           '<25>{#f/1}* Would you carry it all the way to the Citadel?',
-           '<25>{#f/1}* Or would you simply dispose of it in a recycle bin?',
-           '<25>{#f/0}* How disappointing that would be.'
+           '<25>{#p/toriel}{#f/1}* 聽說空境那兒\n  有種特殊的液體...',
+           '<25>{#f/0}* 主要用於隔絕電流。',
+           '<25>{#f/1}* 要是你能帶著這種液體，\n  你會帶到哪兒去？',
+           '<25>{#f/1}* 會一直帶到首塔嗎？',
+           '<25>{#f/1}* 還是直接扔到垃圾站？',
+           '<25>{#f/0}* 要是那樣可就太沒勁了。'
         ]
       : SAVE.data.n.plot < 51
       ? world.bad_lizard > 1 || SAVE.data.n.state_foundry_undyne === 2
          ? [
-              '<25>{#p/toriel}{#f/1}* Perhaps, if I ever become a teacher...',
-              '<25>{#f/0}* I could host a field trip to the Royal Lab.',
-              "<25>{#f/0}* With Dr. Alphys's permission, of course.",
-              '<25>{#f/1}* All those interesting experiments they must conduct there...',
-              "<25>{#f/0}* It'd be a great learning experience for the children."
+              '<25>{#p/toriel}{#f/1}* 說不定，\n  等我以後當上老師...',
+              '<25>{#f/0}* 可以帶學生\n  去皇家實驗室參觀。',
+              "<25>{#f/0}* 當然了，\n  前提是Alphys博士同意。",
+              '<25>{#f/1}* 那裡肯定做了\n  不少有意思的實驗...',
+              "<25>{#f/0}* 對孩子們來說，這可是\n  難得的學習機會。"
            ]
          : [
-              '<25>{#p/toriel}{#f/0}* Word of your TV premier has spread quickly, little one!',
-              '<25>{#f/0}* Though, I have not seen it, due to my lack of a TV.',
-              '<25>{#f/1}* When I heard about it, however, I must admit I was surprised...',
+              '<25>{#p/toriel}{#f/0}* 小傢伙，\n  你上電視的事\n  已經傳遍啦！',
+              '<25>{#f/0}* 不過我沒有電視，\n  所以沒能看到。',
+              '<25>{#f/1}* 我聽說這事的時候，\n  還是挺驚訝的...',
               SAVE.data.n.state_aerialis_talentfails === 0
-                 ? '<25>{#f/2}* How did you not miss even a SINGLE time?'
-                 : '<25>{#f/6}* I did not know you had such \"fabulous\" moves.'
+                 ? '<25>{#f/2}* 你居然一次也沒有漏擊！'
+                 : '<25>{#f/6}* 你居然跳舞跳得那麼棒！'
            ]
       : SAVE.data.n.plot < 56
       ? [
-           '<25>{#p/toriel}{#f/1}* Hmm...\n* The royal guards in Aerialis...',
-           '<25>{#f/0}* Apparently, their favorite food is... salmon.',
-           '<25>{#f/1}* Or... was it ice cream?',
-           '<25>{#f/2}* Wait, no, I think it was pizza!',
-           '<25>{#f/0}* All of which would be impossible without the humble replicator.',
-           '<25>{#f/1}* And... are those not strange foods for such new recruits?'
+           '<25>{#p/toriel}{#f/1}* 嗯...\n* 空境的皇家守衛們啊...',
+           '<25>{#f/0}* 我聽說他們\n  最喜歡吃... 鮭魚。',
+           '<25>{#f/1}* 還是... 冰淇淋？',
+           '<25>{#f/2}* 不對，我記得是披薩！',
+           '<25>{#f/0}* 這些東西都離不開\n  那不起眼的複製器。',
+           '<25>{#f/1}* 話說...\n  那些新兵喜歡吃這些，\n  是不是有點怪啊？'
         ]
       : SAVE.data.n.plot < 59
       ? [
            world.bad_lizard > 1 || SAVE.data.n.state_foundry_undyne === 2
-              ? '<25>{#p/toriel}{#f/0}* I hear you have appeared on TV, little one.'
-              : '<25>{#p/toriel}{#f/0}* I hear you have appeared on TV again, little one.',
-           '<25>{#f/1}* I also hear you did something shocking...',
+              ? '<25>{#p/toriel}{#f/0}* 小傢伙，\n  聽說你上電視啦。'
+              : '<25>{#p/toriel}{#f/0}* 小傢伙，\n  聽說你又上電視啦。',
+           '<25>{#f/1}* 而且你還做了件\n  驚天動地的事...',
            iFancyYourVilliany()
-              ? '<25>{#f/2}* And altered crafting ingredients to create plastic explosive!'
+              ? '<25>{#f/2}* 居然把材料掉包\n  來製作塑性炸藥！'
               : SAVE.data.n.state_aerialis_crafterresult === 0
-              ? '<25>{#f/2}* And held your ground against the threat of an impending explosion!'
-              : '<25>{#f/2}* And flew a \"one-time use portable jetpack\" by yourself!',
-           '<25>{#f/3}* ... are you...',
-           '<25>{#f/4}* Are you TRYING to put your life in danger?'
+              ? '<25>{#f/2}* 居然毫不退縮地\n  直面爆炸的威脅！'
+              : '<25>{#f/2}* 居然擅自使用一次性的\n  可攜式噴氣背包！',
+           '<25>{#f/3}* ...你啊...',
+           '<25>{#f/4}* 你這是在玩命嗎？'
         ]
       : SAVE.data.n.plot < 60
       ? [
-           '<25>{#p/toriel}{#f/1}* What kind of puzzles do they have in Aerialis?',
-           '<25>{#f/1}* Are they laser-based?',
-           '<25>{#f/1}* Do they bring you back to the start when you fail?',
-           '<25>{#f/1}* ... can they be explicitly \"failed\" as such?',
-           '<25>{#f/0}* Hmm...\n* Pardon me for asking so many questions.',
-           '<25>{#f/1}* A fan of puzzles like myself cannot help but ponder these things...'
+           '<25>{#p/toriel}{#f/1}* 空境的謎題\n  都是些啥樣的啊？',
+           '<25>{#f/1}* 是雷射那種的嗎？',
+           '<25>{#f/1}* 失敗了會把你\n  送回起點嗎？',
+           '<25>{#f/1}* ...話說，那些謎題\n  真的能「失敗」嗎？',
+           '<25>{#f/0}* 嗯...\n* 抱歉一下子\n  問了這麼多問題。',
+           '<25>{#f/1}* 我這種喜歡謎題的\n  忍不住就想東想西...'
         ]
       : SAVE.data.n.plot < 61
       ? [
-           '<25>{#p/toriel}{#f/1}* When hearing about your hijinks with Mettaton...',
-           '<25>{#f/0}* I had a thought.',
-           '<25>{#f/1}* How could a robot like him exist after the ban on AI programs?',
-           '<25>{#f/5}* Surely Dr. Alphys would not break such a well- established rule.',
-           '<25>{#f/0}* No...\n* There must be some other explanation.'
+           '<25>{#p/toriel}{#f/1}* 聽說你和Mettaton\n  發生的這些趣事後...',
+           '<25>{#f/0}* 我突然想到一個問題。',
+           '<25>{#f/1}* AI程式不是被禁了嗎？\n  那像他這樣的機器人\n  是怎麼搞的？',
+           '<25>{#f/5}* Alphys博士肯定不會\n  違反這樣既定的規則。',
+           '<25>{#f/0}* 嗯...\n* 肯定是有別的原因。'
         ]
       : SAVE.data.n.plot < 63
       ? [
-           '<25>{#p/toriel}{#f/1}* Hmm...\n* The royal guards in Aerialis...',
-           '<25>{#f/0}* I heard they were only just promoted to their positions.',
-           '<25>{#f/1}* I also heard they are quite picky about their choice of weapons...',
-           '<25>{#f/5}* Refuse to upgrade them despite better options on offer.',
-           '<25>{#f/0}* Not that I want them to upgrade their weapons.',
-           '<25>{#f/2}* I worry about you enough as it is!'
+           '<25>{#p/toriel}{#f/1}* 嗯...\n* 空境的皇家守衛們啊...',
+           '<25>{#f/0}* 我聽說她們才剛升職。',
+           '<25>{#f/1}* 我還聽說她們\n  對武器特別挑剔...',
+           '<25>{#f/5}* 明明有更好的武器，\n  她們卻不願意換。',
+           '<25>{#f/0}* 倒也不是說\n  我希望她們換武器啦。',
+           '<25>{#f/2}* 我已經夠擔心你的了！'
         ]
       : SAVE.data.n.plot < 65
       ? SAVE.data.b.a_state_hapstablook
          ? [
-              '<25>{#p/toriel}{#f/1}* A ghost, Lurksalot, recently spoke of some family business.',
-              '<25>{#f/5}* It seems this has been on their mind for some time.',
-              '<25>{#f/0}* Thankfully, they say it should be resolved soon.',
-              '<25>{#f/1}* And with the help of you, no less?',
-              '<25>{#f/0}* Well then.\n* I am very proud of you, little one.'
+              '<25>{#p/toriel}{#f/1}* 有隻叫Lurksalot的幽靈\n  最近跟我談起了\n  一些家裡的事。',
+              '<25>{#f/5}* 看來這事\n  困擾那幽靈很久了。',
+              '<25>{#f/0}* 還好，\n  那幽靈說\n  應該很快就能解決了。',
+              '<25>{#f/1}* 而且還是在\n  你的幫助下？',
+              '<25>{#f/0}* 那可真是太好了。\n* 小傢伙，\n  我真為你感到驕傲。'
            ]
          : [
-              '<25>{#p/toriel}{#f/1}* A ghost, Lurksalot, recently spoke of some family business.',
-              '<25>{#f/5}* It seems this has been on their mind for some time.',
-              '<25>{#f/1}* They say their cousin tried to ask for your help, but...',
-              '<25>{#f/5}* You were unavailable at the time.',
-              '<25>{#f/1}* ... you did have a good reason, did you not?'
+              '<25>{#p/toriel}{#f/1}* 有隻叫Lurksalot的幽靈\n  最近跟我談起了\n  一些家裡的事。',
+              '<25>{#f/5}* 看來這事\n  困擾那幽靈很久了。',
+              '<25>{#f/1}* 那幽靈說它的表親\n  本想找你幫忙...',
+              '<25>{#f/5}* 但當時你沒空。',
+              '<25>{#f/1}* ...你肯定是在\n  忙些什麼吧？'
            ]
       : SAVE.data.n.plot < 66
       ? [
-           '<25>{#p/toriel}{#f/1}* Who knew a robot could have such a beautiful voice?',
-           "<25>{#f/0}* Upon hearing Mettaton's new recording, I could not believe my ears.",
-           '<26>{#f/1}* Though, some of the lyrics were a touch... violent, for my taste.',
+           '<25>{#p/toriel}{#f/1}* 沒想到一個機器人\n  唱歌居然這麼好聽！',
+           "<25>{#f/0}* 聽了Mettaton的新歌之後，\n  我都不敢相信\n  自己的耳朵了。",
+           '<26>{#f/1}* 不過，\n  有些歌詞有點... 暴力，\n  不太符合我的口味。',
            '<25>{#f/5}* ...',
-           '<25>{#f/0}* Do not worry, my child.\n* Nobody is going to cast you out into space.'
+           '<25>{#f/0}* 孩子，別擔心。\n* 沒人會把你\n  流放到太空裡去的。'
         ]
       : SAVE.data.n.plot < 68
       ? [
-           '<25>{#p/toriel}{#f/0}* Sans tells me the \"rec center\" is a favored location of his.',
-           '<25>{#p/toriel}{#f/1}* Art classes, music clubs, libraries...',
-           '<25>{#p/toriel}{#f/5}* It is a shame much of the area is unsafe for young children.',
-           '<25>{#p/toriel}{#f/3}* Could they not put a little more effort into being accommodating?',
-           '<25>{#p/toriel}{#f/2}* Those mediums can offer valuable transformative experiences!'
+           '<25>{#p/toriel}{#f/0}* Sans說他很喜歡\n  去「休閒迴廊」。',
+           '<25>{#p/toriel}{#f/1}* 那裡有美術班、\n  音樂部、圖書館...',
+           '<25>{#p/toriel}{#f/5}* 可惜那片區域\n  還有一些地方\n  對小孩子來說不太安全。',
+           '<25>{#p/toriel}{#f/3}* 他們就不能多花點心思，\n  把環境弄好一點嗎？',
+           '<25>{#p/toriel}{#f/2}* 這些藝術類的活動\n  可是能給孩子們\n  帶來寶貴的成長體驗啊！'
         ]
       : SAVE.data.n.plot < 70
       ? world.bad_robot
          ? [
-              '<25>{#p/toriel}{#f/0}* Everyone I know is upset about a cancelled \"grand finale.\"',
-              '<25>{#p/toriel}{#f/0}* They say it would have been quite the fight.',
-              '<25>{#p/toriel}{#f/1}* While I am relieved you did not have to take on such a battle...',
-              '<25>{#p/toriel}{#f/5}* I cannot help but worry for what awaits you now.'
+              '<25>{#p/toriel}{#f/0}* 我認識的人都對\n  「壓軸好戲」的取消\n  感到很失望。',
+              '<25>{#p/toriel}{#f/0}* 他們說那本會是\n  一場非常精彩的戰鬥。',
+              '<25>{#p/toriel}{#f/1}* 雖然我很慶幸\n  你不用參加那種戰鬥...',
+              '<25>{#p/toriel}{#f/5}* 但我還是忍不住擔心\n  接下來你會遇到什麼。'
            ]
          : SAVE.data.b.killed_mettaton
          ? [
-              '<25>{#p/toriel}{#f/0}* Everyone I know has been talking about a \"grand finale.\"',
-              '<25>{#p/toriel}{#f/1}* They say Mettaton gave his life for the good of the show...',
-              '<25>{#p/toriel}{#f/0}* But I know better.',
-              '<25>{#p/toriel}{#f/1}* After all, robots can be repaired, can they not?'
+              '<25>{#p/toriel}{#f/0}* 我認識的人都在討論著\n  「壓軸好戲」。',
+              '<25>{#p/toriel}{#f/1}* 他們說Mettaton\n  為了演好節目\n  獻出了生命...',
+              '<25>{#p/toriel}{#f/0}* 但我心裡清楚得很。',
+              '<25>{#p/toriel}{#f/1}* 機器人壞了還能再修嘛，\n  對吧？'
            ]
          : [
-              '<25>{#p/toriel}{#f/0}* Everyone I know has been talking about a \"grand finale.\"',
-              '<25>{#p/toriel}{#f/0}* They say watching you and Mettaton really made them happy.',
-              '<25>{#p/toriel}{#f/1}* While I am glad that you appear to have had a good time...',
-              '<25>{#p/toriel}{#f/5}* I cannot help but worry for what awaits you now.'
+              '<25>{#p/toriel}{#f/0}* 我認識的人都在討論著\n  「壓軸好戲」。',
+              '<25>{#p/toriel}{#f/0}* 他們說看到\n  你和Mettaton的表演，\n  他們都很開心。',
+              '<25>{#p/toriel}{#f/1}* 我很高興\n  你們似乎玩得很愉快...',
+              '<25>{#p/toriel}{#f/5}* 但我還是忍不住擔心\n  接下來你會遇到什麼。'
            ]
       : [
-           '<25>{#p/toriel}{#f/1}* Are you still doing alright out there, little one?',
-           '<25>{#p/toriel}{#f/5}* You have probably been to the Citadel by now.',
+           '<25>{#p/toriel}{#f/1}* 小傢伙，\n  你在外面還好嗎？',
+           '<25>{#p/toriel}{#f/5}* 你應該已經\n  去過首塔了吧？',
            '<25>{#p/toriel}{#f/9}* ...',
-           "<25>{#p/toriel}{#f/10}* Be good, won't you?"
+           "<25>{#p/toriel}{#f/10}* 要乖啊，好嗎？"
         ];
 
 export default {
@@ -2782,7 +2782,7 @@ export default {
                  ],
          w_froggit_view: () =>
             SAVE.data.b.svr
-               ? [ '<32>{#p/human}* (You stare thoughtfully into the cosmos beyond...)' ]
+               ? [ '<32>{#p/human}* （你若有所思地望著\n  那浩瀚的宇宙...）' ]
                : world.darker
                ? []
                : SAVE.data.n.plot === 72
@@ -2804,13 +2804,13 @@ export default {
                : [ '<32>{#p/basic}* 「縱使曲折難行，\n   亦當砥礪奮進。」' ],
          w_pacing_view: () =>
             SAVE.data.b.svr
-               ? [ '<32>{#p/human}* (You stare happily into the cosmos beyond...)' ]
+               ? [ '<32>{#p/human}* （你開心地望著那浩瀚的宇宙...）' ]
                : world.darker
                ? []
                : SAVE.data.n.plot === 72
                ? [
-                    "<32>{#p/basic}* After such a long journey, the glass doesn't seem to scare you.",
-                    '<32>* Not that it ever did in the first place.'
+                    "<32>{#p/basic}* 走了這麼遠的路後，\n  你似乎一點也不怕這塊玻璃。",
+                    '<32>* 其實你根本就從來沒怕過吧。'
                  ]
                : [
                     '<32>{#p/basic}* 想想看，\n  在你和無邊無際的宇宙之間，\n  只有一塊玻璃...',
@@ -2819,11 +2819,11 @@ export default {
          w_pacing1: () =>
             SAVE.data.n.plot === 72
                ? [
-                    '<32>{#p/basic}* Ribbit, ribbit.\n* (Someone passed by here not too long ago.)',
-                    '<32>* (He told me not to tell you where he was going.)',
-                    "<32>* (I wasn't going to, but then, he just seemed so sad...)",
-                    "<32>* (He's probably at the platform just past the entrance now.)",
-                    '<32>* (Go. Speak to him. Something good will come of it.)\n* Ribbit.',
+                    '<32>{#p/basic}* 呱呱，呱呱。\n* （不久前有個人從這兒經過了。）',
+                    '<32>* （他跟我說\n  別告訴你他要去哪兒。）',
+                    "<32>* （我本來也不打算告訴你的，\n  但，他看起來太難過了...）",
+                    "<32>* （他現在大概在\n  入口過去一點的那個平臺上。）",
+                    '<32>* （去吧。去跟他聊聊。\n  肯定會有好事發生的。）\n* 呱呱。',
                     '<32>{#p/basic}* ...Asriel...'
                  ]
                : [
@@ -2848,11 +2848,11 @@ export default {
                     ]
                   : [
                        '<32>{#p/basic}* 呱呱，呱呱。\n* （你好，人類...）',
-                       "<32>* (My friend is the happiest they've ever been.)",
-                       "<32>* (They said they'd leave if you hurt anyone, but you haven't.)",
-                       "<32>* (In fact, they've decided to stay to my left forever.)",
-                       '<32>* (As for that \"friend\" of theirs who always tried to hurt them...)',
-                       '<32>* (Oh, he seems to have turned himself into a goat.)\n* Ribbit.'
+                       "<32>* （我的朋友現在開心得不得了。）",
+                       "<32>* （它說過，如果你傷害了怪物\n  就會離開這裡，\n  但你一直都沒有這麼做。）",
+                       "<32>* （你猜怎麼著，\n  它決定要永遠留在我的左邊。）",
+                       '<32>* （至於它那個\n  總是想傷害它的「朋友」...）',
+                       '<32>* （喔，他好像把自己\n  變成了一隻羊。）\n* 呱呱。'
                     ]
                : [
                     '<32>{#p/basic}* 呱呱，呱呱。\n* （你好，人類...）',
@@ -2865,23 +2865,23 @@ export default {
             SAVE.data.n.plot === 72
                ? SAVE.data.n.bully < 1
                   ? [
-                       '<32>{#p/basic}* Ribbit, ribbit.\n* (Thank you for always showing mercy to us monsters.)',
-                       '<32>* (I know I gave you advice on how to beat people up safely...)',
-                       "<32>* (But that didn't mean I wanted you to do it.)",
-                       '<32>* (You are a kind human indeed.)\n* Ribbit.'
+                       '<32>{#p/basic}* 呱呱，呱呱。\n* （感謝你一直\n  對我們怪物這麼寬容。）',
+                       '<32>* （我知道我之前跟你說過\n  怎麼安全地揍人...）',
+                       "<32>* （但那不是說\n  我希望你真的去打架。）",
+                       '<32>* （你真是個善良的人類。）\n* 呱呱。'
                     ]
                   : SAVE.data.n.bully < 15
                   ? [
-                       '<32>{#p/basic}* Ribbit, ribbit.\n* (Thank you for keeping the beatings to a minimum.)',
-                       '<32>* (I know I gave you advice on how to beat people up safely...)',
-                       "<32>* (But that didn't mean I wanted you to do it.)",
-                       "<32>* (You aren't too terrible, at least for a human.)\n* Ribbit."
+                       '<32>{#p/basic}* 呱呱，呱呱。\n* （感謝你下手還算輕。）',
+                       '<32>* （我知道我之前跟你說過\n  怎麼安全地揍人...）',
+                       "<32>* （但那不是說\n  我希望你真的去打架。）",
+                       "<32>* （作為一個人類，\n  你還不算太糟糕。）\n* 呱呱。"
                     ]
                   : [
-                       '<32>{#p/basic}* Ribbit, ribbit.\n* (So you have proven to be a formidable threat.)',
-                       "<32>* (Yet, somehow, I'm still not afraid of you...)",
-                       '<32>* (Perhaps at the end, you offered mercy when you could have attacked.)',
-                       '<32>* (I do appreciate the restraint you have shown.)\n* Ribbit.'
+                       '<32>{#p/basic}* 呱呱，呱呱。\n* （看來你確實\n  是個危險的傢伙啊。）',
+                       "<32>* （但是，不知怎麼，\n  我還是不怕你...）",
+                       '<32>* （可能是因為在最後關頭，\n  你明明都可以繼續打下去，\n  卻還是手下留情了吧。）',
+                       '<32>* （你能控制住自己，\n  這一點我還是要感謝你。）\n* 呱呱。'
                     ]
                : [
                     "<32>{#p/basic}* 呱呱，呱呱。\n* （如果你把一隻怪物打到了\n  瀕死的程度...）",
@@ -2892,11 +2892,11 @@ export default {
                  ],
          w_puzzle1_view: () =>
             SAVE.data.b.svr
-               ? [ '<32>{#p/human}* (You stare deeply into the cosmos beyond...)' ]
+               ? [ '<32>{#p/human}* （你投入地望著那浩瀚的宇宙...）' ]
                : world.darker
                ? []
                : SAVE.data.n.plot === 72
-               ? [ '<32>{#p/basic}* In the end, these rooms still feel like nothing more than lookout areas.' ]
+               ? [ '<32>{#p/basic}* 到頭來，\n  這些房間除了當瞭望臺，\n  好像也沒啥別的用處了。' ]
                : [
                     '<32>{#p/basic}* 為什麼總感覺有些房間...',
                     '<32>* ...單純是用來當瞭望區的呢？'
@@ -2906,22 +2906,22 @@ export default {
                ? world.nootflags.has('w_puzzle2') // NO-TRANSLATE
 
                   ? [
-                       '<32>{#p/human}* (The sign describes puzzle- solving as an unnecessary part of space exploration.)',
+                       '<32>{#p/human}* （標牌上寫著\n  解謎對於太空探索來說沒啥用。）',
                        ...[
                           [
-                             '<25>{#p/asriel1}{#f/13}* Unlike most signs, this one has a point.',
-                             "<25>{#f/15}* And that's not just because I'm the one who wrote it."
+                             '<25>{#p/asriel1}{#f/13}* 不像別的標牌，\n  這塊標牌寫的可是大實話。',
+                             "<25>{#f/15}* 我可不是因為這是我寫的\n  才這麼說的啊。"
                           ],
-                          [ "<25>{#p/asriel1}{#f/3}* ... don't tell me you actually enjoyed these puzzles." ],
-                          [ "<25>{#p/asriel1}{#f/10}* Frisk, even you're not THAT weird." ]
+                          [ "<25>{#p/asriel1}{#f/3}* ...別告訴我\n  你真喜歡這些謎題。" ],
+                          [ "<25>{#p/asriel1}{#f/10}* Frisk，\n  就算是你\n  也不會怪到這種地步吧。" ]
                        ][Math.min(asrielinter.w_puzzle2++, 2)]
                     ]
-                  : [ '<32>{#p/human}* (The sign describes the value of patience in space.)' ]
+                  : [ '<32>{#p/human}* （標牌上寫著\n  耐心在太空中的重要性。）' ]
                : world.nootflags.has('w_puzzle2') // NO-TRANSLATE
 
                ? [
                     '<32>{#p/basic}* 「浩渺長空，恰似深邃海洋。」',
-                    '<32>* \"Navigating its waters should NEVER require solving badly designed puzzles!\"'
+                    '<32>* 「探索這片海洋的時候，可不能被\n   那些糟糕透頂的謎題給難住！」'
                  ]
                : [
                     '<32>{#p/basic}* 「浩渺長空，恰似深邃海洋。」',
@@ -2929,15 +2929,15 @@ export default {
                  ],
          w_puzzle3_view: () =>
             SAVE.data.b.svr
-               ? [ '<32>{#p/human}* (You stare reflectively into the cosmos beyond...)' ]
+               ? [ '<32>{#p/human}* （你陷入沉思，\n  望著那浩瀚的宇宙...）' ]
                : world.darker
                ? []
                : SAVE.data.n.plot === 72
-               ? [ '<32>{#p/basic}* It sure... was... a nice view.' ]
+               ? [ '<32>{#p/basic}* 景色... 曾經... 確實不錯。' ]
                : [ '<32>{#p/basic}* 景色確實不錯。' ],
          w_puzzle4: () =>
             SAVE.data.b.svr
-               ? [ '<32>{#p/human}* (The sign appears to be an advertisement for a now- defunct steak sale.)' ]
+               ? [ '<32>{#p/human}* （標牌上寫著\n  關於牛排促銷的過時廣告）' ]
                : [
                     '<32>{#p/basic}* 「趕緊前往活動室品嘗\n   Glyde的招牌牛排(TM)吧！」'
                  ],
@@ -2945,21 +2945,21 @@ export default {
             SAVE.data.b.svr
                ? [
                     [
-                       '<25>{#p/asriel1}{#f/20}* Yeah... Toriel was never one to keep these in one piece.',
-                       '<25>{#f/21}* Even these replicas of my model starships got smashed...'
+                       '<25>{#p/asriel1}{#f/20}* 是啊... \n  Toriel從來不收拾\n  這些東西。',
+                       '<25>{#f/21}* 連我的那些\n  星際飛船模型的仿製品\n  都被弄壞了...'
                     ],
                     [
-                       "<25>{#f/13}* It's surprising.\n* She's usually such an organized person.",
-                       '<25>{#p/asriel1}{#f/17}* ... she must have been having a bad day.'
+                       "<25>{#f/13}* 我是挺意外的。\n* 她平時可是個\n  很有條理的人。",
+                       '<25>{#p/asriel1}{#f/17}* ...她那天心情肯定很不好。'
                     ],
-                    [ '<25>{#p/asriel1}{#f/13}* It happens...' ]
+                    [ '<25>{#p/asriel1}{#f/13}* 這種事難免啊...' ]
                  ][Math.min(asrielinter.w_ta_box++, 2)]
                : world.darker
                ? [ "<32>{#p/basic}* 一個玩具盒。\n* 裡面的星際飛船模型\n  都被砸得粉碎。" ]
                : SAVE.data.n.plot === 72
                ? [
-                    '<32>{#p/basic}* The little ships in this box were never repaired.',
-                    "<32>* If this was at Asgore's house, they'd be in perfect shape."
+                    '<32>{#p/basic}* 盒子裡的飛船一直沒被修好。',
+                    "<32>* 如果這是在Asgore房子裡的\n  那些飛船，可就會完好無損。"
                  ]
                : [
                     '<32>{#p/basic}* 一盒星際飛船模型！\n* 以及... 玻璃碎片？',
@@ -2967,42 +2967,42 @@ export default {
                  ],
          w_ta_cabinet: () =>
             SAVE.data.b.svr
-               ? [ "<32>{#p/human}* (You can't find anything in here besides several of the exact same outfit.)" ]
+               ? [ "<32>{#p/human}* （你在這裡面找到了\n  幾套一模一樣的衣服，\n  除此之外什麼也沒有。）" ]
                : [
                     '<32>{#p/basic}* 衣櫃裡掛滿了黃藍條紋衫。',
-                    ...(SAVE.data.n.plot === 72 ? [ "<32>* Like that's ever gonna change." ] : [])
+                    ...(SAVE.data.n.plot === 72 ? [ "<32>* 看來這永遠也不會換換樣啊。" ] : [])
                  ],
          w_ta_frame: () =>
             SAVE.data.b.svr
-               ? [ [ "<25>{#p/asriel1}{#f/21}* ... it's missing..." ], [ '<25>{#p/asriel1}{#f/21}* ...' ] ][
+               ? [ [ "<25>{#p/asriel1}{#f/21}* ...不見了..." ], [ '<25>{#p/asriel1}{#f/21}* ...' ] ][
                     Math.min(asrielinter.w_ta_frame++, 1)
                  ]
                : SAVE.data.n.plot === 72
-               ? [ '<32>{#p/basic}* 一個空相框。', "<32>* There still isn't much else to say." ]
+               ? [ '<32>{#p/basic}* 一個空相框。', "<32>* 仍然沒什麼好說的。" ]
                : [ '<32>{#p/basic}* 一個空相框。', "<32>* 沒什麼好說的。" ],
          w_ta_paper: () =>
             SAVE.data.b.svr
                ? [
-                    "<32>{#p/human}* (The drawing doesn't appear to be anything of importance.)",
+                    "<32>{#p/human}* （這幅畫看上去沒什麼特別的。）",
                     ...[
                        [
-                          "<25>{#p/asriel1}{#f/13}* It's long gone now, but the real drawing I made here...",
-                          '<25>{#f/17}* ... was basically the blueprint for my \"god of hyperdeath\" form.',
-                          '<25>{#f/17}* Super skybreaker, titanium striker...',
-                          '<25>{#f/20}* And, of course, the legendary \"hyper goner.\"'
+                          "<25>{#p/asriel1}{#f/13}* 雖然現在找不到了，\n  不過我以前\n  在這裡畫的畫...",
+                          '<25>{#f/17}* ...基本上就是我\n  「主宰死亡的絕對神祇」\n  形態的設計圖。',
+                          '<25>{#f/17}* 裂空飛星，泰坦巨刃...',
+                          '<25>{#f/20}* 當然了，\n  還有那個傳奇般的\n  「終極毀滅」。'
                        ],
                        [
-                          '<25>{#p/asriel1}{#f/17}* Yeah... I guess I had it all planned out.',
-                          '<25>{#f/20}* I came up with lots of crazy stuff, all the time...',
-                          '<25>{#f/1}* Ooh, you would have ADORED my pan-galactic starship concept.'
+                          '<25>{#p/asriel1}{#f/17}* 是啊...\n  看來我那時候\n  就全都計畫好了。',
+                          '<25>{#f/20}* 我那時候總是想出\n  各種稀奇古怪的東西...',
+                          '<25>{#f/1}* 噢，你肯定會喜歡\n  我設計的\n  泛銀河系星艦的。'
                        ],
                        [
-                          '<25>{#p/asriel1}{#f/17}* Frisk, I hope...',
-                          '<25>{#f/23}* I really hope we can have a moment like that between us.',
-                          '<25>{#f/22}* Back with $(name), it was always...',
-                          '<25>{#f/15}* ... difficult.'
+                          '<25>{#p/asriel1}{#f/17}* Frisk，我希望...',
+                          '<25>{#f/23}* 我真的希望我們也能有\n  像那樣的時刻。',
+                          '<25>{#f/22}* 以前和$(name)\n  在一起的時候，\n  總是會...',
+                          '<25>{#f/15}* ...很難相處。'
                        ],
-                       [ "<25>{#p/asriel1}{#f/20}* Don't worry.\n* If you can't draw, I'll just teach you." ]
+                       [ "<25>{#p/asriel1}{#f/20}* 別擔心。\n* 如果你不會畫畫，\n  我可以教你。" ]
                     ][Math.min(asrielinter.w_ta_paper++, 3)]
                  ]
                : world.darker
@@ -3013,9 +3013,9 @@ export default {
                  ],
          w_tf_couch: () =>
             SAVE.data.b.svr
-               ? [ '<32>{#p/human}* (The couch appears to have never been used.)' ]
+               ? [ '<32>{#p/human}* （這張沙發看起來從來沒被用過。）' ]
                : SAVE.data.n.plot === 72
-               ? [ "<32>{#p/basic}* No matter how much time passes, it's unlikely anyone will ever sit here." ]
+               ? [ "<32>{#p/basic}* 估計這輩子\n  都不會有人來這兒坐了。" ]
                : world.darker
                ? [ "<32>{#p/basic}* 一張沙發。\n* 難道你還有別的事要做嗎？" ]
                : [
@@ -3024,7 +3024,7 @@ export default {
                  ],
          w_tf_table: () =>
             SAVE.data.b.svr
-               ? [ "<32>{#p/human}* (You glance at the end table, but it doesn't appear to glance back.)" ]
+               ? [ "<32>{#p/human}* （你瞥了一眼茶几，\n  不過它好像沒看回你。）" ]
                : [
                     '<32>{#p/basic}* 一張毫不起眼的茶几。',
                     "<32>{#p/basic}* 不可思議的是，它幾乎是嶄新的。"
@@ -3032,32 +3032,32 @@ export default {
          w_tf_window: () =>
             SAVE.data.b.svr
                ? SAVE.data.b.c_state_secret1_used && SAVE.data.b.c_state_secret5_used
-                  ? [ '<32>{#p/human}* (You stare wishfully into the cosmos beyond...)' ]
-                  : [ '<32>{#p/human}* (You stare wistfully into the cosmos beyond...)' ]
+                  ? [ '<32>{#p/human}* （你憧憬地望著那浩瀚的宇宙...）' ]
+                  : [ '<32>{#p/human}* （你惆悵地望著那浩瀚的宇宙...）' ]
                : world.darker
                ? [ "<32>{#p/basic}* 又一扇窗而已。" ]
                : SAVE.data.n.plot === 72
-               ? [ "<32>{#p/basic}* As always, it's a beautiful view of outer space." ]
+               ? [ "<32>{#p/basic}* 外太空的景色跟以往一樣不錯。" ]
                : [ "<32>{#p/basic}* 外太空的景色真不錯。" ],
          w_th_door: () =>
             SAVE.data.b.svr
                ? [
-                    '<32>{#p/human}* (The sign describes the room within as being incomplete.)',
+                    '<32>{#p/human}* （標牌上寫著\n  這裡的房間還沒翻修完。）',
                     ...[
                        [
-                          "<25>{#p/asriel1}{#f/3}* If this house weren't a replica, that would be Dad's room...",
-                          '<25>{#f/4}* You can guess why it was never finished.'
+                          "<25>{#p/asriel1}{#f/3}* 如果這是\n  原型的那座房子的話...\n  那位置就是爸爸的房間了。",
+                          '<25>{#f/4}* 你應該能猜到這房間\n  為啥一直沒翻修完吧。'
                        ],
                        [
                           '<25>{#p/asriel1}{#f/13}* ...',
-                          '<25>{#f/15}* That speech affected Mom in a... not good way.',
-                          '<25>{#f/4}* As a star, I sometimes... spied on her.',
-                          "<25>{#f/3}* And the way she was talking, it's like she never left that moment.",
-                          '<25>{#f/13}* Then, you arrived, and everything changed...'
+                          '<25>{#f/15}* 那場演講對媽媽的影響...\n  不太好。',
+                          '<25>{#f/4}* 那會兒我變成星星的時候，\n  有時候... \n  會偷偷看著她。',
+                          "<25>{#f/3}* 她說話的樣子，\n  感覺就像\n  還停留在那一刻似的。",
+                          '<25>{#f/13}* 後來你來了，\n  一切都變了...'
                        ],
                        [
                           '<25>{#p/asriel1}{#f/13}* ...',
-                          "<25>{#f/15}* This is too awkward.\n* I'm going to pretend we aren't here."
+                          "<25>{#f/15}* 氣氛有點尷尬啊。\n* 我還是假裝\n  我們沒來過這裡吧。"
                        ],
                        [ '<25>{#p/asriel1}{#f/13}* ...' ]
                     ][Math.min(asrielinter.w_th_door++, 3)]
@@ -3075,9 +3075,9 @@ export default {
                : [ "<32>{#p/basic}* 這是你！" ],
          w_th_plant: () =>
             SAVE.data.b.svr
-               ? [ '<32>{#p/human}* (You thank the plant for the warmth it brings each day.)' ]
+               ? [ '<32>{#p/human}* （你感謝這株植物\n  每天都帶來了溫暖。）' ]
                : SAVE.data.n.plot === 72
-               ? [ "<32>{#p/basic}* This plant is just happy you're still alive." ]
+               ? [ "<32>{#p/basic}* 這株植物很高興看到你還活著。" ]
                : world.darker
                ? [ '<32>{#p/basic}* 這株植物不想見到你。' ]
                : SAVE.data.b.oops
@@ -3085,26 +3085,26 @@ export default {
                : [ '<32>{#p/basic}* 這株植物見到你非常激動！' ],
          w_th_sausage: () =>
             SAVE.data.b.svr
-               ? [ '<32>{#p/human}* (You rustle the corny plant.)' ]
+               ? [ '<32>{#p/human}* （你撥弄了一下\n  這株憂玉的植物。）' ]
                : [ '<32>{#p/basic}* 這株憂玉的植物一點都不米人。' ],
          w_th_table1: () => [
             '<32>{#p/human}* （你在桌子底下找到了一套蠟筆。）',
             ...(SAVE.data.b.svr
                ? [
                     [
-                       '<25>{#p/asriel1}{#f/24}* I think $(name) might have lost the blue crayon.',
-                       '<25>{#f/7}* ... actually, no.\n* I KNOW they lost the blue crayon.',
-                       '<25>{#f/6}* It turned up later in a food chest, but nobody thought to check it.',
-                       '<25>{#f/16}* They must have been trying to claim the chest as their own.'
+                       '<25>{#p/asriel1}{#f/24}* 我感覺$(name)可能\n  把藍色的蠟筆弄丟了。',
+                       '<25>{#f/7}* ...不對，不是可能。\n* 是肯定弄丟了。',
+                       '<25>{#f/6}* 後來那根蠟筆\n  在食物箱裡找到了，\n  但誰也沒想到要去那裡找。',
+                       '<25>{#f/16}* 那人肯定是想\n  把食物箱佔為己有。'
                     ],
                     [
-                       "<26>{#p/asriel1}{#f/4}* If we ever get a new set of crayons, I'm keeping watch.",
-                       '<25>{#f/3}* The moment you even think about losing a crayon...',
-                       "<26>{#f/8}* I'll be there to stop that crime train before it even hits the tracks.",
-                       '<25>{#f/2}* Just you wait.'
+                       "<26>{#p/asriel1}{#f/4}* 要是以後\n  我們再買新的蠟筆，\n  我可得盯緊點。",
+                       '<25>{#f/3}* 你要是敢打蠟筆的主意...',
+                       "<26>{#f/8}* 我就會在第一時間\n  打碎你的小算盤。",
+                       '<25>{#f/2}* 你就等著瞧吧。'
                     ],
-                    [ "<25>{#p/asriel1}{#f/31}* I've got my eyes on you, Frisk.", '<25>{#f/8}* And... maybe my ears.' ],
-                    [ '<25>{#p/asriel1}{#f/10}* Are you staring at my ears again?\n* You keep doing that.' ]
+                    [ "<25>{#p/asriel1}{#f/31}* 我可在用眼睛\n  死死盯著你呢，\n  Frisk。", '<25>{#f/8}* 以及...\n  可能還得豎起耳朵聽著。' ],
+                    [ '<25>{#p/asriel1}{#f/10}* 你又在盯著我的耳朵看？\n* 你怎麼老這樣！' ]
                  ][Math.min(asrielinter.w_th_table1++, 3)]
                : world.edgy
                ? [ '<32>{#p/basic}* 少了兩支。' ]
@@ -3121,14 +3121,14 @@ export default {
                     '<32>{#p/human}* （你在桌子底下找到了一副牌。）',
                     ...[
                        [
-                          '<25>{#p/asriel1}{#f/27}* $(name) and I were never really into those kinds of things.',
-                          '<25>{#p/asriel1}{#f/15}* Well... I say never.',
-                          "<25>{#p/asriel1}{#f/15}* Uh, let's just not talk about it."
+                          '<25>{#p/asriel1}{#f/27}* $(name)和我其實\n  從來都不怎麼玩這種東西。',
+                          '<25>{#p/asriel1}{#f/15}* 呃...\n  好吧，也不能說是「從來」。',
+                          "<25>{#p/asriel1}{#f/15}* 算了，\n  還是別提這茬了。"
                        ],
                        [
                           '<25>{#p/asriel1}{#f/13}* ...',
-                          '<25>{#p/asriel1}{#f/13}* The last time we did, a table got flipped over.',
-                          '<25>{#p/asriel1}{#f/17}* Just sibling things.\n* You know how it goes with card games.'
+                          '<25>{#p/asriel1}{#f/13}* 上次我們玩這個，\n  桌子都給掀翻了。',
+                          '<25>{#p/asriel1}{#f/17}* 親人之間嘛。\n* 你懂的，\n  玩牌的時候就容易這樣。'
                        ],
                        [ '<25>{#p/asriel1}{#f/17}* ...' ]
                     ][Math.min(asrielinter.w_th_table2++, 2)]
@@ -3141,7 +3141,7 @@ export default {
                : SAVE.data.n.plot === 72
                ? [
                     '<32>{#p/human}* （你在桌子底下找到了一副牌。）',
-                    "<33>{#p/basic}* Soon enough, we'll never have to think about these again."
+                    "<33>{#p/basic}* 很快，我們就再也不用想這些事了。"
                  ]
                : [
                     '<32>{#p/human}* （你在桌子底下找到了一副牌。）',
@@ -3150,7 +3150,7 @@ export default {
          w_tk_counter: () =>
             SAVE.data.b.svr
                ? [
-                    '<32>{#p/human}* (You run your hand across the cutting board, noting the various grooves and ridges.)'
+                    '<32>{#p/human}* （你用手摸了摸砧板，\n  感覺上面坑坑窪窪的。）'
                  ]
                : world.darker
                ? [ "<32>{#p/basic}* 一塊砧板。" ]
@@ -3159,48 +3159,48 @@ export default {
             SAVE.data.b.svr
                ? [
                     [
-                       '<25>{#p/asriel1}{#f/21}* $(name) always said leaving fur in the drain was super gross.',
-                       '<25>{#f/15}* I always thought it was normal, though...'
+                       '<25>{#p/asriel1}{#f/21}* $(name)總是說\n  有毛掉進下水道裡\n  超級噁心。',
+                       '<25>{#f/15}* 不過我一直覺得\n  這很正常啊...'
                     ],
                     [
-                       '<25>{#p/asriel1}{#f/13}* Do humans not shed fur?\n* $(name) would never tell me things like this.'
+                       '<25>{#p/asriel1}{#f/13}* 難道人類不掉毛嗎？\n* 這事$(name)\n  從來都沒跟我說清楚。'
                     ],
-                    [ "<25>{#p/asriel1}{#f/17}* I do have reason to believe humans shed.\n* Even if it's not fur." ]
+                    [ "<25>{#p/asriel1}{#f/17}* 我有理由相信\n  人類也會掉毛的。\n* 不掉毛也得掉點別的。" ]
                  ][Math.min(asrielinter.w_tk_sink++, 2)]
                : SAVE.data.n.plot === 72
-               ? [ '<32>{#p/basic}* Remnants of the white fur once stuck here still remain to this very day.' ]
+               ? [ '<32>{#p/basic}* 到現在還能看到\n  那時候堵在這兒的白色的毛。' ]
                : [ '<32>{#p/basic}* 一團白色的毛堵在下水管裡。' ],
          w_tk_stove: () =>
             SAVE.data.b.svr
                ? [
                     [
-                       '<25>{#p/asriel1}{#f/13}* I have to wonder why she thought buying this would be a good idea.',
-                       "<25>{#f/10}* Unless she wanted to re-create Asgore's kitchen...?",
-                       "<25>{#f/17}* For someone who didn't like him, she had a weird way to show it."
+                       '<25>{#p/asriel1}{#f/13}* 我真搞不懂她為啥覺得\n  買這玩意兒好。',
+                       "<25>{#f/10}* 難道是想還原\n  Asgore的廚房...？",
+                       "<25>{#f/17}* 明明說不喜歡他，\n  結果還整這齣，\n  她真夠奇怪的。"
                     ],
                     [
-                       '<25>{#p/asriel1}{#f/15}* I really wish Toriel and Asgore stayed together sometimes.',
-                       "<25>{#f/16}* ... but I guess it's for the best that they didn't."
+                       '<25>{#p/asriel1}{#f/15}* 有時候我真希望\n  Toriel和Asgore\n  能重歸於好。',
+                       "<25>{#f/16}* ...仔細想想，\n  也許分開才是最好的。"
                     ],
-                    [ "<25>{#p/asriel1}{#f/13}* It just wasn't meant to be, Frisk..." ]
+                    [ "<25>{#p/asriel1}{#f/13}* Frisk，\n  有些事情\n  就是強求不來的..." ]
                  ][Math.min(asrielinter.w_tk_stove++, 2)]
                : SAVE.data.n.state_wastelands_toriel === 2
                ? [ "<32>{#p/basic}* 只是個灶臺。\n* 沒人會再用它了。" ]
                : world.darker
                ? [ "<32>{#p/basic}* 只是個灶臺。" ]
                : SAVE.data.n.plot === 72
-               ? [ '<32>{#p/basic}* The stovetop is very clean.\n* Toriel may not need a new one on the new world.' ]
+               ? [ '<32>{#p/basic}* 灶臺非常乾淨。\n* Toriel到了新世界\n  也不用換新的了。' ]
                : [ '<32>{#p/basic}* 灶臺非常乾淨。\n* Toriel肯定是用火魔法做飯的。' ],
          w_tk_trash: () =>
             SAVE.data.b.svr
-               ? [ "<32>{#p/human}* (You can't make out what's in the trash...)" ]
+               ? [ "<32>{#p/human}* （你看不出來垃圾桶裡有什麼...)" ]
                : SAVE.data.n.plot === 72
-               ? [ '<32>{#p/basic}* Rather symbolically, the trash can has been emptied.' ]
+               ? [ '<32>{#p/basic}* 垃圾桶被清空了，\n  還挺有象徵意義的。' ]
                : [ '<32>{#p/basic}* 裡面有一張揉皺的星花茶配方。' ],
          
          w_tl_azzychair: () =>
             SAVE.data.b.svr
-               ? [ '<32>{#p/human}* (You note the fairly large size of the dining chair.)' ]
+               ? [ '<32>{#p/human}* （你注意到這把餐椅相當之大。）' ]
                : SAVE.data.n.state_wastelands_toriel === 2 || world.runaway
                ? [ '<32>{#p/basic}* 大餐椅。' ]
                : [ "<32>{#p/basic}* Toriel家有幾把餐椅，\n  這把，是王后的餐椅。" ],
@@ -3209,7 +3209,7 @@ export default {
             () =>
                SAVE.data.b.svr
                   ? [
-                       '<32>{#p/human}* (The books on this bookshelf consist of snail facts, family recipes, and gardening tips.)'
+                       '<32>{#p/human}* （書架上放著關於蝸牛冷知識的書，\n  關於一個祖傳秘方的書，\n  以及關於園藝技巧的書。）'
                     ]
                   : [
                        "<32>{#p/basic}* 一個書架。",
@@ -3226,7 +3226,7 @@ export default {
             () =>
                SAVE.data.b.svr
                   ? [
-                       '<32>{#p/human}* (The books on this bookshelf consist of snail facts, family recipes, and gardening tips.)'
+                       '<32>{#p/human}* （書架上放著關於蝸牛冷知識的書，\n  關於一個祖傳秘方的書，\n  以及關於園藝技巧的書。）'
                     ]
                   : [
                        "<32>{#p/basic}* 一個書架。",
@@ -3246,7 +3246,7 @@ export default {
             () =>
                SAVE.data.b.svr
                   ? [
-                       '<32>{#p/human}* (The books on this bookshelf consist of snail facts, family recipes, and gardening tips.)'
+                       '<32>{#p/human}* （書架上放著關於蝸牛冷知識的書，\n  關於一個祖傳秘方的書，\n  以及關於園藝技巧的書。）'
                     ]
                   : [
                        "<32>{#p/basic}* 一個書架。",
@@ -3262,7 +3262,7 @@ export default {
          
          w_tl_goreychair: () =>
             SAVE.data.b.svr
-               ? [ '<32>{#p/human}* (You note the small size of the dining chair.)' ]
+               ? [ '<32>{#p/human}* （你注意到這把餐椅比較小。）' ]
                : SAVE.data.n.state_wastelands_toriel === 2 || world.runaway
                ? [ '<32>{#p/basic}* 小餐椅。' ]
                : world.genocide
@@ -3274,7 +3274,7 @@ export default {
                : [ "<32>{#p/basic}* Toriel家有幾把餐椅，\n  這把... 是某個小天使的餐椅。\n* 說的就是你！" ],
          w_tl_table: () =>
             SAVE.data.b.svr
-               ? [ '<32>{#p/human}* (The plant appears to be decorative in nature.)' ]
+               ? [ '<32>{#p/human}* （這株植物好像\n  只是用來觀賞的。）' ]
                : world.darker
                ? [ '<32>{#p/basic}* 一株觀賞植物。\n* 僅此而已。' ]
                : [ "<32>{#p/basic}* 一株擺在Toriel餐桌上的\n  觀賞植物。" ],
@@ -3282,36 +3282,36 @@ export default {
             SAVE.data.b.svr
                ? [
                     [
-                       '<25>{#p/asriel1}{#f/20}* $(name) used to pretend these things were musical instruments.',
-                       '<25>{#f/17}* They\'d pull them out, start \"playing\" them...',
-                       '<25>{#f/20}* Once, I joined in, and we did a little fire- poker-instrument duet.',
-                       '<26>{#f/13}* We started using our voices to emulate the instruments, and then...',
-                       '<25>{#f/17}* Mom and Dad walked in to add backing vocals!'
+                       '<25>{#p/asriel1}{#f/20}* $(name)以前總喜歡\n  把這些東西當成樂器玩。',
+                       '<25>{#f/17}* 這人會把它們拿出來，\n  然後開始「演奏」...',
+                       '<25>{#f/20}* 有一次，我跟著一起玩，\n  我們還用撥火棍\n  來了個二重奏。',
+                       '<26>{#f/13}* 我們開始用嗓子\n  模仿樂器的聲音，\n  然後...',
+                       '<25>{#f/17}* 爸爸媽媽也走了進來，\n  給我們唱起了和聲！'
                     ],
                     [
-                       '<25>{#p/asriel1}{#f/13}* Then, as it turns out, someone had been listening in outside.',
-                       '<25>{#f/15}* Before we knew it, we had monsters coming to the house in droves...',
-                       '<25>{#f/17}* $(name) and I were still in the middle of the room, doing our thing.',
-                       '<25>{#f/20}* But now we had an entire orchestra behind us!',
+                       '<25>{#p/asriel1}{#f/13}* 結果，\n  不知道誰在外面\n  聽到了我們的演奏。',
+                       '<25>{#f/15}* 沒過多久，\n  一大群怪物\n  就湧進了我們家裡...',
+                       '<25>{#f/17}* $(name)和我還在房間中央，\n  繼續「演奏」著。',
+                       '<25>{#f/20}* 但我們身後一下子\n  多了一整支樂隊！',
                        '<25>{#f/17}* We must have performed half of the Harmonexus Index that day.',
-                       "<25>{#f/17}* ... it's an old book full of songs from our culture."
+                       "<25>{#f/17}* ...那是一本古老的歌集，\n  裡面都是\n  我們的傳統歌曲。"
                     ],
                     [
-                       '<25>{#p/asriel1}{#f/13}* All that because we played pretend with some fire pokers...',
-                       '<25>{#f/17}* They say you can make an instrument out of anything.',
+                       '<25>{#p/asriel1}{#f/13}* 這一切都源於\n  我們把撥火棍\n  當成了樂器...',
+                       '<25>{#f/17}* 人們常說任何東西\n  都能變成樂器。',
                        '<25>{#f/13}* ...',
-                       "<25>{#f/15}* Wait...\n* I'M an anything..." 
+                       "<25>{#f/15}* 等下...\n* 我也是個「東西」..." 
                     ],
-                    [ "<25>{#p/asriel1}{#f/20}* Please don't make a musical instrument out of me." ]
+                    [ "<25>{#p/asriel1}{#f/20}* 拜託，\n  可別把我也當成樂器了。" ]
                  ][Math.min(asrielinter.w_tl_tools++, 3)]
                : world.darker
                ? [ '<32>{#p/basic}* 撥火棍。' ]
                : SAVE.data.n.plot === 72
                ? [
-                    "<32>{#p/basic}* They're just fire pokers...\n* Or are they?",
-                    "<32>* Consider that Toriel's fire is only pleasantly warm, and not hot at all.",
-                    '<32>* Why would she need these?',
-                    '<32>* Thus, by the process of elimination, these must be advanced musical instruments.'
+                    "<32>{#p/basic}* 它們只是些撥火棍...\n* ...嗎?",
+                    "<32>* 想想看，\n  Toriel的火焰一點也不燙，\n  反而很溫暖。",
+                    '<32>* 她根本不需要這些東西啊？',
+                    '<32>* 看吧，通過排除法就能發現\n  這些東西其實是高級樂器。'
                  ]
                : [
                     '<32>{#p/basic}* 一架高級的樂器。',
@@ -3322,7 +3322,7 @@ export default {
          
          w_tl_torichair: () =>
             SAVE.data.b.svr
-               ? [ '<32>{#p/human}* (You note the exceptional size of the dining chair.)' ]
+               ? [ '<32>{#p/human}* （你注意到這把餐椅異常之大。）' ]
                : SAVE.data.n.state_wastelands_toriel === 2 || world.runaway
                ? [ '<32>{#p/basic}* 餐椅王。' ]
                : [ "<32>{#p/basic}* Toriel家有幾把餐椅，\n  這把，是國王的餐椅。" ],
@@ -3336,7 +3336,7 @@ export default {
          ],
          w_tt_bed: () =>
             SAVE.data.b.svr
-               ? [ '<32>{#p/human}* (The bed seems a lot smaller than it might have used to.)' ]
+               ? [ '<32>{#p/human}* （這張床看起來比以前小了不少。）' ]
                : SAVE.data.n.state_wastelands_toriel === 2 || world.runaway
                ? [ "<32>{#p/basic}* 一張床。" ]
                : SAVE.data.n.plot < 72 || world.runaway
@@ -3346,14 +3346,14 @@ export default {
                  ]
                : [
                     "<32>{#p/basic}* Toriel的床。",
-                    "<32>* You've still got some time to go, but you'll grow into it."
+                    "<32>* 你現在對於這床來講還是小了點，\n  不過你以後會長大的。"
                  ],
          w_tt_bookshelf: pager.create(
             1,
             () =>
                SAVE.data.b.svr
                   ? [
-                       '<32>{#p/human}* (The books on this bookshelf consist of history, biology, and a foreboding possibility.)'
+                       '<32>{#p/human}* （書架上放著歷史學書、生物學書，\n  以及關於一個不祥的可能性的書。）'
                     ]
                   : [
                        SAVE.data.n.state_wastelands_toriel === 2 || world.runaway
@@ -3371,7 +3371,7 @@ export default {
             () =>
                SAVE.data.b.svr
                   ? [
-                       '<32>{#p/human}* (The books on this bookshelf consist of history, biology, and a foreboding possibility.)'
+                       '<32>{#p/human}* （書架上放著歷史學書、生物學書，\n  以及關於一個不祥的可能性的書。）'
                     ]
                   : [
                        SAVE.data.n.state_wastelands_toriel === 2 || world.runaway
@@ -3387,7 +3387,7 @@ export default {
             () =>
                SAVE.data.b.svr
                   ? [
-                       '<32>{#p/human}* (The books on this bookshelf consist of history, biology, and a foreboding possibility.)'
+                       '<32>{#p/human}* （書架上放著歷史學書、生物學書，\n  以及關於一個不祥的可能性的書。）'
                     ]
                   : [
                        SAVE.data.n.state_wastelands_toriel === 2 || world.runaway
@@ -3403,22 +3403,22 @@ export default {
          ),
          w_tt_cactus: () =>
             SAVE.data.b.svr
-               ? [ '<32>{#p/human}* (This cactus seems to remind you of someone you once knew.)' ]
+               ? [ '<32>{#p/human}* （這株仙人掌好像讓你想起了\n  某個以前認識的人。）' ]
                : SAVE.data.n.plot < 72
                ? world.darker
                   ? [ '<32>{#p/basic}* 終於，發現一株很像我們的植物。' ]
                   : [ '<32>{#p/basic}* 啊，是仙人掌。\n* 確實是最傲嬌的植物。' ]
-               : [ "<32>{#p/basic}* It's not like this cactus was waiting for you to come back or anything..." ],
+               : [ "<32>{#p/basic}* 這仙人掌又不是在等你回來什麼的..." ],
          w_tt_chair: () =>
             SAVE.data.b.svr
-               ? [ '<32>{#p/human}* (This chair appears to be a little small for the person who owns it.)' ]
+               ? [ '<32>{#p/human}* （對它的主人來說，\n  這個椅子似乎有點小。）' ]
                : world.darker
                ? [ "<32>{#p/basic}* 一把靠椅。" ]
                : SAVE.data.n.plot === 72
                ? [
                     "<32>{#p/basic}* Toriel的專用閱讀椅...",
-                    "<32>* ... at least until Asgore decides he'd like it instead.",
-                    "<32>* He's always wanted this chair.\n* I'd be surprised if he didn't take it with him."
+                    "<32>* ...至少在Asgore看上它之前是。",
+                    "<32>* 他一直想要這個靠椅。\n* 如果他不打算把它帶走，\n  我反倒覺得奇怪呢。"
                  ]
                : [ "<32>{#p/basic}* Toriel的專用閱讀椅。", '<32>* 懶骨頭的味道撲面而來。' ],
          w_tt_diary: pager.create(
@@ -3467,7 +3467,7 @@ export default {
                   '<32>{#p/human}* （你看向書中最後的段落。）',
                   "<32>{#p/basic}* 嗯？\n* 這一段不是笑話...",
                   '<32>{#p/toriel}{#f/21}* 「就在今天，\n   一個人類抵達了外域。」',
-                  '<32>* 我相信Sans能照看好這個人類，\n  但我不太想拿這事為難他...「',
+                  '<32>* 「我相信Sans能照看好這個人類，\n   但我不太想拿這事為難他...」',
                   '<32>* 「而且...」',
                   '<32>* 「前哨站其他地方都危險重重... \n   區區一個皇家哨兵，\n   真的能保護好人類嗎？」',
                   '<32>* 「希望這些疑慮隨時間\n   煙消雲散吧。」',
@@ -3477,15 +3477,15 @@ export default {
             ].map(
                lines => () =>
                   SAVE.data.b.svr
-                     ? [ '<32>{#p/human}* (The diary seems to consist primarily of over-the-top skeleton puns.)' ]
+                     ? [ '<32>{#p/human}* （這本日記裡好像都是些\n  關於骷髏的離譜雙關笑話。）' ]
                      : SAVE.data.n.plot === 72
                      ? [
                           '<32>{#p/human}* （你讀了讀新寫的段落。）',
                           '<32>{#p/toriel}{#f/21}* 「看來我之前誤解Asgore了。」',
-                          '<32>* \"In failing to confront him, I have failed to understand what was truly going on.\"',
+                          '<32>* 「我沒有去勇敢地面對他，\n   也就沒能弄清楚\n   事實上發生了什麼。」',
                           '<32>* 「我果然不配做一個母親。」',
-                          '<32>* 「不過現在...\n  我可以學著去體會母愛的真諦。」',
-                          '<32>* 「這事不能讓別人插手，\n  得我自己慢慢來。」'
+                          '<32>* 「不過現在...\n   我可以學著去體會母愛的真諦。」',
+                          '<32>* 「這事不能讓別人插手，\n   得我自己慢慢來。」'
                        ]
                      : world.darker
                      ? [ "<32>{#p/basic}* 這是本日記，\n  你在裡面找不到任何笑點。" ]
@@ -3494,7 +3494,7 @@ export default {
                      : [
                           '<32>{#p/human}* （你讀了讀最近寫的段落。）',
                           ...(world.edgy
-                             ? [ "<32>{#p/basic}* It's been scribbled out with a crayon." ]
+                             ? [ "<32>{#p/basic}* 已經被用蠟筆塗掉了。" ]
                              : toriSV()
                              ? [
                                   '<32>{#p/toriel}{#f/21}* 「今天並不順遂。」',
@@ -3515,17 +3515,17 @@ export default {
          ),
          w_tt_plant: () =>
             SAVE.data.b.svr
-               ? [ '<32>{#p/human}* (This houseplant strikes you as exceedingly normal.)' ]
+               ? [ '<32>{#p/human}* （這盆栽在你看來\n  真是普通得不能再普通了。）' ]
                : [ "<32>{#p/basic}* 這是個盆栽。", '<32>* 有必要說別的嗎？' ],
          w_tt_trash: pager.create(
             0,
             () =>
                SAVE.data.b.svr
-                  ? [ "<32>{#p/human}* (You can't make out what's in the trash...)" ]
+                  ? [ "<32>{#p/human}* （你看不出來垃圾桶裡有什麼...)" ]
                   : world.darker
                   ? [ '<32>{#p/basic}* 蝸牛。' ]
                   : SAVE.data.n.plot === 72
-                  ? [ '<32>{#p/basic}* The snails are beginning to smell... ghostly.', '<32>* ... what could this mean?' ]
+                  ? [ '<32>{#p/basic}* 這些蝸牛開始散發出...\n  幽靈般的氣味。', '<32>* ...這意味著什麼呢？' ]
                   : [
                        "<32>{#p/basic}* 這是Toriel的私人垃圾桶，\n  裡面有...",
                        '<32>* 蝸牛。',
@@ -3535,7 +3535,7 @@ export default {
                1,
                () =>
                   SAVE.data.b.svr
-                     ? [ "<32>{#p/human}* (You can't make out what's in the trash...)" ]
+                     ? [ "<32>{#p/human}* （你看不出來垃圾桶裡有什麼...)" ]
                      : world.darker
                      ? [ '<32>{#p/basic}* 蝸牛。' ]
                      : SAVE.data.n.plot === 72
@@ -3543,39 +3543,39 @@ export default {
                      : [ '<32>{#p/basic}* 除了蝸牛就沒別的了。' ],
                () =>
                   SAVE.data.b.svr
-                     ? [ "<32>{#p/human}* (You can't make out what's in the trash...)" ]
+                     ? [ "<32>{#p/human}* （你看不出來垃圾桶裡有什麼...)" ]
                      : world.darker
                      ? [ '<32>{#p/basic}* 蝸牛。' ]
                      : SAVE.data.n.plot === 72
-                     ? [ "<32>{#p/basic}* Or maybe I've just gone and lost it completely." ]
+                     ? [ "<32>{#p/basic}* 或者可能是我徹底瘋了。" ]
                      : [ '<32>{#p/basic}* ...\n* 我剛剛說到了蝸牛嗎？' ],
                () =>
                   SAVE.data.b.svr
-                     ? [ "<32>{#p/human}* (You can't make out what's in the trash...)" ]
+                     ? [ "<32>{#p/human}* （你看不出來垃圾桶裡有什麼...)" ]
                      : world.darker
                      ? [ '<32>{#p/basic}* 蝸牛。' ]
                      : SAVE.data.n.plot === 72
-                     ? [ '<32>{#p/basic}* Or maybe...', '<32>* ... wait, what was I saying?' ]
+                     ? [ '<32>{#p/basic}* 又或者...', '<32>* ...等等，我剛才說到哪兒了？' ]
                      : [ '<32>{#p/basic}* 蝸牛。' ],
                () =>
                   SAVE.data.b.svr
-                     ? [ "<32>{#p/human}* (You can't make out what's in the trash...)" ]
+                     ? [ "<32>{#p/human}* （你看不出來垃圾桶裡有什麼...)" ]
                      : world.darker
                      ? [ '<32>{#p/basic}* 蝸牛。' ]
                      : SAVE.data.n.plot === 72
-                     ? [ "<32>{#p/basic}* Oh, right.\n* The meaning of the snails' newfound ghostly scent." ]
+                     ? [ "<32>{#p/basic}* 喔，對了。\n* 蝸牛們這股幽靈般的氣味\n  到底意味著什麼。" ]
                      : [ '<32>* 更多的蝸牛。' ]
             )
          ),
          w_tutorial_view: () =>
             SAVE.data.b.svr
-               ? [ '<32>{#p/human}* (You stare excitedly into the cosmos beyond...)' ]
+               ? [ '<32>{#p/human}* （你興奮地望著那浩瀚的宇宙...）' ]
                : world.darker
                ? []
                : [ '<32>{#p/basic}* 這是外域這一帶的第一扇窗。' ],
          w_tutorial1: () =>
             SAVE.data.b.svr
-               ? [ '<32>{#p/human}* (The sign describes the qualities of a good relationship.)' ]
+               ? [ '<32>{#p/human}* （標牌上寫著一段好的關係\n  應該具備怎樣的品質。）' ]
                : [
                     '<32>{#p/basic}* 「有了信任與善意，\n   方能攜手並進，共築友誼。」',
                     ...(world.goatbro && SAVE.flag.n.ga_asrielOutlands7++ < 1
@@ -3587,41 +3587,41 @@ export default {
          SAVE.data.b.svr
             ? [
                  [
-                    "<25>{#p/asriel1}{#f/17}* Mom's pies were always the best...",
-                    '<25>{#f/13}* I can still remember what the first one I ever had tasted like.',
-                    "<25>{#f/15}* I'd never felt so happy to take a bite of something...",
-                    "<25>{#f/17}* ... it was like I'd transcended to the next level of confection."
+                    "<25>{#p/asriel1}{#f/17}* 媽媽做的派\n  永遠是最好吃的...",
+                    '<25>{#f/13}* 我到現在還記得\n  第一次吃她做的派時\n  是什麼感覺。',
+                    "<25>{#f/15}* 我從來沒有\n  因為吃一口東西\n  而感到那麼幸福過...",
+                    "<25>{#f/17}* ...好吃到\n  我都感覺自己要升天了。"
                  ],
                  [
-                    "<25>{#p/asriel1}{#f/20}* Er, maybe I'm overselling it just a little.",
-                    "<25>{#f/17}* But I'm telling you right now, Frisk...",
-                    '<25>{#f/13}* ... no matter what happens with Mom and Dad...',
-                    '<25>{#f/17}* You NEED to have her make one of her pies for me.',
-                    "<25>{#f/20}* I'm... kind of curious if I'll still like it after all of this."
+                    "<25>{#p/asriel1}{#f/20}* 呃，\n  我說的可能有點誇張了。",
+                    "<25>{#f/17}* 但是Frisk啊，\n  我跟你講...",
+                    '<25>{#f/13}* ...無論爸爸媽媽\n  會怎麼樣...',
+                    '<25>{#f/17}* 你都一定要讓她\n  幫我做個派。',
+                    "<25>{#f/20}* 我... 有點好奇，\n  經歷了這麼多事之後，\n  我還愛不愛吃她的派。"
                  ],
-                 [ '<25>{#p/asriel1}{#f/15}* It sure has been a while, huh...' ]
+                 [ '<25>{#p/asriel1}{#f/15}* 畢竟，\n  確實過了很久了嘛...' ]
               ][Math.min(asrielinter.piecheck++, 2)]
             : SAVE.data.n.plot < 8
             ? world.darker
-               ? [ "<32>{#p/basic}* It's just a countertop." ]
-               : [ '<32>{#p/basic}* There is a nigh-invisible ring-shaped stain on the countertop.' ]
+               ? [ "<32>{#p/basic}* 這只是個臺面。" ]
+               : [ '<32>{#p/basic}* 檯面上有一塊\n  幾乎看不見的環形汙漬。' ]
             : SAVE.data.n.state_wastelands_mash === 1 && SAVE.data.n.plot > 8
-            ? [ '<32>{#p/basic}* The ghost of a pie once smashed haunts the countertop.' ]
+            ? [ '<32>{#p/basic}* 一塊被打爛的派的幽靈\n  在檯面上縈繞著。' ]
             : SAVE.data.n.plot === 72
             ? SAVE.data.n.state_wastelands_mash > 0
-               ? [ '<32>{#p/basic}* No amount of passed time will fix this atrocity.' ]
+               ? [ '<32>{#p/basic}* 無論過了多久時間，\n  這樁暴行都不會被抹去。' ]
                : SAVE.data.n.state_wastelands_toriel === 2
                ? [ '<32>{#p/basic}* 一種強烈的念頭阻止了你，\n  你只能讓派保持原樣。' ]
                : world.runaway
                ? [
-                    '<32>{#p/basic}* You might have been a bully, but the pie remains untouched.',
-                    '<32>{#p/basic}* Perhaps some things are too sacred, even for you.'
+                    '<32>{#p/basic}* 你可能曾是個惡霸，\n  但這個派依然完好無損。',
+                    '<32>{#p/basic}* 可能即使對你來說，\n  有些東西也是神聖不可侵犯的。'
                  ]
                : [
                     world.meanie
-                       ? '<32>{#p/basic}* The pie may be intimidated by you, but after all this time...'
-                       : '<32>{#p/basic}* The size of the pie may no longer intimidate you, but after all this time...',
-                    "<32>{#p/basic}* You've gained a sense of respect for the pie that does not permit you to eat it."
+                       ? '<32>{#p/basic}* 這個派可能被你嚇到了，\n  但過了這麼久...'
+                       : '<32>{#p/basic}* 這個派的尺寸\n  可能不再讓你感到害怕了，\n  但過了這麼久...',
+                    "<32>{#p/basic}* 你已經對這個派\n  產生了一種敬畏之情，\n  讓你無法下口。"
                  ]
             : SAVE.data.n.state_wastelands_mash > 0
             ? [ '<32>{#p/basic}* 這裡已經沒有什麼可做的了。' ]
@@ -3697,45 +3697,45 @@ export default {
          '<25>{#f/8}* 真是遺憾...',
          '<25>{#f/7}* 我本來想跟你好好玩玩的。',
          '<25>{#f/6}* ...',
-         '<25>{#f/5}* Well, see ya!'
+         '<25>{#f/5}* 好啦，回見！'
       ],
       twinkly9a: [
-         '<25>{#p/twinkly}{#f/12}{#v/0}* What the HELL are you doing, $(name)?',
-         '<25>{#f/12}{#v/0}* We had the outpost at our mercy!'
+         '<25>{#p/twinkly}{#f/12}{#v/0}* $(name)，\n  你到底在幹什麼？',
+         '<25>{#f/12}{#v/0}* 我們本來就要\n  拿下這個前哨站了！'
       ],
-      twinkly9a1: [ '<25>{#f/6}{#v/0}* All we had to do was follow the plan.' ],
+      twinkly9a1: [ '<25>{#f/6}{#v/0}* 我們只需要\n  按照計畫行事。' ],
       twinkly9a2: [
-         '<25>{#f/6}{#v/0}* All we had to do was get through the Foundry...',
-         '<25>* Finish off the guards...',
-         '<25>* And make it to the Citadel!'
+         '<25>{#f/6}{#v/0}* 我們只需要穿過鑄廠...',
+         '<25>* 幹掉那些守衛...',
+         '<25>* 然後前往首塔！'
       ],
       twinkly9a3: [
-         '<25>{#f/6}{#v/0}* All we had to do was finish off the guards...',
-         '<25>* And get through the Citadel!'
+         '<25>{#f/6}{#v/0}* 我們只需要\n  幹掉那些守衛...',
+         '<25>* 然後穿過首塔！'
       ],
       twinkly9a4: [
-         '<25>{#f/6}{#v/0}* All we had to do was KILL that stupid robot...',
-         '<25>* And get through the Citadel!'
+         '<25>{#f/6}{#v/0}*  我們只需要殺掉\n  那個愚蠢的機器人...',
+         '<25>* 然後穿過首塔！'
       ],
-      twinkly9a5: [ '<25>{#f/6}{#v/0}* All we had to do was get through the Citadel!' ],
-      twinkly9a6: [ '<25>{#f/6}{#v/0}* All we had to do was KILL that nerdy trashbag!' ],
-      twinkly9a7: [ '<25>{#f/6}{#v/0}* All we had to do was walk to the end!', '<25>* We were so close!' ],
+      twinkly9a5: [ '<25>{#f/6}{#v/0}* 我們只需要穿過首塔！' ],
+      twinkly9a6: [ '<25>{#f/6}{#v/0}* 我們只需要殺掉\n  那個呆子一樣的垃圾袋！' ],
+      twinkly9a7: [ '<25>{#f/6}{#v/0}* 我們只需要\n  繼續走到終點！', '<25>* 我們就快成功了！' ],
       twinkly9a8: [ '<25>{#f/8}{#v/0}* 你個懦夫...' ],
       twinkly9b: [
          '<25>{#p/twinkly}{#f/5}* $(name)...？',
-         "<25>{#f/6}* I'm not really sure what just happened.",
-         '<25>{#f/8}* We were on the shuttle, and then...',
+         "<25>{#f/6}* 到底發生啥了？",
+         '<25>{#f/8}* 咱們剛上了飛船，\n  然後...',
          '<25>{#f/8}* ...',
-         '<25>{#f/6}* I...',
-         '<25>{#f/8}* I have to go...'
+         '<25>{#f/6}* 我...',
+         '<25>{#f/8}* 我得走了...'
       ],
       twinkly9c: [
-         "<25>{#p/twinkly}{#f/7}* So, we're back at the beginning, are we?",
-         "<26>{#f/5}* I've been expecting you.\n* I wonder how you'll do this time around.",
-         "<25>{#f/11}* Who knows?\n* Maybe it'll be easier for you now.",
-         '<25>{#f/7}* It certainly was when I had your powers.',
+         "<25>{#p/twinkly}{#f/7}* 所以，\n  我們又回到起點了，\n  對吧？",
+         "<26>{#f/5}* 我一直在等你。\n* 倒要看看\n  你這次會怎麼做。",
+         "<25>{#f/11}* ...誰知道呢？\n* 也許那樣做對你而言\n  更加容易吧。",
+         '<25>{#f/7}* 我還擁有著你的力量時，\n  確實是更容易了。',
          '<25>{#f/6}* ...',
-         '<25>{#f/5}* Well, good luck!'
+         '<25>{#f/5}* 嗯... 祝你好運！'
       ],
       twinkly10: [
          "<20>{#f/5}看見這顆心了嗎？\n這是你的靈魂，\n是你生命的精華所在！",
@@ -3816,13 +3816,13 @@ export default {
       w_coffin5: [ '<32>{#p/human}* （你把冊子放回了原處。）' ],
       w_dummy1: () =>
          SAVE.data.b.svr
-            ? [ '<32>{#p/human}* (You place your hands on the dummy.)\n* (It seems very worn out.)' ]
+            ? [ '<32>{#p/human}* （你把手放在了假人身上。）\n* （它看起來很舊了。）' ]
             : [ '<32>{#p/basic}* 一個標準規格的訓練人偶，\n  皇家出品。\n* 大約於251X年製成。' ],
       wonder1: [
          '<32>{#p/basic}* 你聽到了\n* 那來自群星的歌聲了嗎？',
          "<32>* 這歌聲在前哨站的諸多地方響徹。\n  這裡，便是其中一處...",
          '<32>* 你只需要，去聆聽。',
-         '<32>* Pretty cool, right?'
+         '<32>* 很酷吧？'
       ]
    },
 
@@ -4355,7 +4355,7 @@ export default {
       ],
       puzzle3: [
          '<25>{#p/toriel}{#f/1}* 被謎題難住了嗎？',
-         '<25>{#f/5}* ...\n* I am afraid I cannot help you at this time.',
+         '<25>{#f/5}* ...\n* 恐怕我現在幫不了你。',
          '<25>{#f/0}* 再等我幾分鐘，\n  等我回去了，咱們一起解開它。'
       ],
       insult1: (sus: boolean) =>
@@ -4556,7 +4556,7 @@ export default {
       drop: [ '<32>{#p/human}* （你把破損的太空衣扔掉了。）' ],
       info: () =>
          SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
-            ? [ '<32>{#p/human}* (20 HP. The last remaining fragment of a spacecraft flown in exile.)' ]
+            ? [ '<32>{#p/human}* （20 HP。一艘背井離鄉的飛船上\n  殘存的最後碎片。）' ]
             : [ '<32>{#p/basic}* 「破損的太空衣」 回復20 HP\n* 在你墜毀的飛船上找到的。' ],
       name: '破損的太空衣',
       use: [ '<33>{#p/human}* （在用完最後一個治療包後，\n  破損的太空衣散架了。）' ]
@@ -4569,7 +4569,7 @@ export default {
       drop: [ '<32>{#p/human}* （你把生鏽的扳手扔掉了。）' ],
       info: () =>
          SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
-            ? [ "<32>{#p/human}* (A trusty tool forged from beyond the galaxy's edge.)" ]
+            ? [ "<32>{#p/human}* （一把來自星河邊際外的\n  可靠工具。）" ]
             : [ '<32>{#p/basic}* 一把生鏽的舊扳手。' ],
       name: '生鏽的扳手',
       use: () => [
@@ -4586,7 +4586,7 @@ export default {
       drop: [ '<32>{#p/human}* （你把《超級星之行者1》扔掉了。）' ],
       info: () =>
          SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
-            ? [ '<32>{#p/human}* (It seems like the beginning of a journey.)' ]
+            ? [ '<32>{#p/human}* （這似乎是一段旅程的開始。）' ]
             : [ '<32>{#p/basic}* 限量版《超級星之行者》連載漫畫。\n* 共有3期，這是第1期。' ],
       name: '《超級星之行者1》',
       use: () => (battler.active ? [ '<32>{#p/human}* （你看了看《超級星之行者1》。）', '<32>* （什麼都沒發生。）' ] : [])
@@ -4599,7 +4599,7 @@ export default {
       drop: [ '<32>{#p/human}* （你把《超級星之行者2》扔掉了。）' ],
       info: () =>
          SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
-            ? [ '<32>{#p/human}* (It seems like the middle of a journey.)' ]
+            ? [ '<32>{#p/human}* （這似乎是一段旅程的中途。）' ]
             : [ '<32>{#p/basic}* 限量版《超級星之行者》連載漫畫。\n* 共有3期，這是第2期。' ],
       name: '《超級星之行者2》',
       use: () =>
@@ -4623,7 +4623,7 @@ export default {
       drop: [ '<32>{#p/human}* （你把《超級星之行者3》扔掉了。）' ],
       info: () =>
          SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
-            ? [ '<32>{#p/human}* (It seems like the end of a journey... or is it a new beginning?)' ]
+            ? [ '<32>{#p/human}* （這似乎是一段旅程的終點...\n  亦或是一個新的開始？）' ]
             : [ '<32>{#p/basic}* 限量版《超級星之行者》連載漫畫。\n* 共有3期，這是最後一期。' ],
       name: '《超級星之行者3》',
       use: () => (battler.active ? [ '<32>{#p/human}* （你看了看《超級星之行者3》。）', '<32>* （什麼都沒發生。）' ] : [])
@@ -5038,202 +5038,202 @@ export default {
                  '<25>{#f/0}* 那裡的東西\n  都是反著長的。'
               ],
       s_crossroads: [
-         '<25>{#p/toriel}{#f/1}* This old landing pad was once a bustling intersection...',
-         '<25>{#f/1}* Supply ships coming and going...',
-         '<25>{#f/1}* Ready to aid in whatever was being built next...',
-         '<25>{#f/5}* It is a shame the outpost seems to have stopped expanding.',
-         '<25>{#f/0}* For a while, building new areas defined our culture!'
+         '<25>{#p/toriel}{#f/1}* 這個老停靠點以前\n  就像個繁忙的十字路口...',
+         '<25>{#f/1}* 補給飛船來來往往...',
+         '<25>{#f/1}* 隨時準備支援\n  下一個建設專案...',
+         '<25>{#f/5}* 可惜，這個前哨站\n  好像不再擴張了。',
+         '<25>{#f/0}* 想當年，建設新區域\n  可是我們的文化標誌啊！'
       ],
       s_human: [
-         "<25>{#p/toriel}* I heard Sans's brother wants to join the Royal Guard someday.",
-         '<25>{#f/1}* Such an aspirational young skeleton...',
-         '<25>{#f/0}* Despite my feelings about the guard, it is good for him to dream.',
-         '<25>{#f/5}* I worry that too many have given up on their dreams lately...',
-         '<25>{#f/0}* But not him!\n* That skeleton knows what is best for him.'
+         "<25>{#p/toriel}* 聽說Sans的兄弟\n  以後想加入皇家衛隊。",
+         '<25>{#f/1}* 這小骷髏還挺有志向的...',
+         '<25>{#f/0}* 雖然我對衛隊不太感冒，\n  但他有夢想是好事。',
+         '<25>{#f/5}* 最近有好多人\n  都放棄夢想了...',
+         '<25>{#f/0}* 但他沒有！\n* 這小骷髏知道\n  什麼對他自己最好。'
       ],
       s_papyrus: [
-         '<25>{#p/toriel}* Sans told me all about the gadgets Papyrus added to his station.',
-         '<25>{#f/1}* First, a handle, so he can \"swing\" into duty...',
-         '<25>{#f/1}* A so-called \"sky wrench\" used to get a \"fix\" on the stars...',
-         '<25>{#f/0}* And a screen attachment to keep track of his many responsibilities.',
-         '<25>{#f/6}* With inventions like these, you would think he works at a lab.'
+         '<25>{#p/toriel}* Sans跟我說了好多\n  Papyrus在他崗位上\n  加裝的小玩意兒。',
+         '<25>{#f/1}* 有一個把手，\n  說是能方便他\n  「大搖大擺」地上崗...',
+         '<25>{#f/1}* 有一個所謂的\n  「天空扳手」，\n  說是用來「鎖定」星星的...',
+         '<25>{#f/0}* 還有一個附加的屏幕，\n  說是用來記錄\n  他那堆職責的。',
+         '<25>{#f/6}* 他搞這些發明，\n  不知道的還以為\n  他在實驗室上班呢。'
       ],
       s_doggo: [
-         '<25>{#p/toriel}{#f/5}* Is the Royal Guard giving you too much trouble?',
-         '<25>{#f/0}* Sans did say he would warn you of potential encounters.',
+         '<25>{#p/toriel}{#f/5}* 皇家衛隊是不是\n  老找你麻煩？',
+         '<25>{#f/0}* Sans說他會提醒你\n  可能會碰上他們。',
          '<25>{#f/1}* ...',
-         '<25>{#f/1}* Perhaps I should be more worried, but...',
-         '<25>{#f/0}* Something tells me you will be alright.',
-         '<25>{#f/0}* I have faith in that skeleton to look out for you.'
+         '<25>{#f/1}* 也許我該多操點心，\n  不過...',
+         '<25>{#f/0}* 直覺告訴我\n  你不會有事的。',
+         '<25>{#f/0}* 我相信\n  那傢伙會照顧好你的。'
       ],
       s_robot: [
-         '<25>{#p/toriel}{#f/1}* Ah, what a lovely sound...',
-         '<25>{#f/0}* I would recognize a builder bot anywhere.',
-         '<25>{#f/5}* After the ban on AI programs, we had most of them disabled...',
-         '<25>{#f/1}* But the two whose sentience did not corrupt them...',
-         '<25>{#f/0}* Were allowed a more graceful retirement.',
-         '<25>{#f/0}* It is nice to know that they have survived to this day.'
+         '<25>{#p/toriel}{#f/1}* 啊，這聲音真好聽...',
+         '<25>{#f/0}* 我無論到了哪都能認出\n  建築機器人的聲音。',
+         '<25>{#f/5}* 自從AI程式被禁用後，\n  我們就停用了\n  大部分建築機器人。',
+         '<25>{#f/1}* 不過有兩個\n  產生了自我意識，\n  但沒有出問題的機器人...',
+         '<25>{#f/0}* 得到了體面的退休。',
+         '<25>{#f/0}* 很高興知道\n  它們現在還活著。'
       ],
       s_maze: [
-         "<25>{#p/toriel}* Sans has told me all about his brother's fondness for puzzles.",
-         '<25>{#f/1}* I hear he has even created some of his own...?',
-         '<25>{#f/0}* I am most curious about the \"wall of fire.\"',
-         '<25>{#f/1}* Are the flames hot?\n* Or are they merely pleasantly warm?',
-         '<25>{#f/5}* For your sake, I would hope it is the latter.'
+         "<25>{#p/toriel}* Sans跟我講過\n  他的兄弟有多愛謎題。",
+         '<25>{#f/1}* 聽說他的兄弟\n  還自己設計了一些...？',
+         '<25>{#f/0}* 我最好奇的是\n  那個「火焰之牆」。',
+         '<25>{#f/1}* 那火燙不燙？\n* 還是說只是暖烘烘的？',
+         '<25>{#f/5}* 為了你好，\n  我希望是後者。'
       ],
       s_dogs: [
-         '<25>{#p/toriel}{#f/1}* I hear the Royal Guard employs a pair of married dogs.',
-         '<25>{#f/3}* To be married at the same time as being a royal guard...',
+         '<25>{#p/toriel}{#f/1}* 聽說有一對狗夫婦\n  加入了皇家衛隊。',
+         '<25>{#f/3}* 又是皇家守衛\n  又是夫妻...',
          '<25>{#f/4}* That relationship must have some \"interesting\" motivations.',
          '<25>{#f/6}* But what do I know.\n* As Sans would say, I am merely a \"goat!\"'
       ],
       s_lesser: [
-         '<25>{#p/toriel}* I wonder what kind of food is sold in Starton these days.',
-         '<25>{#f/1}* When I was last here, everyone loved to eat ghost fruit...',
-         '<25>{#f/0}* A strange food which could be eaten both by ghosts and non-ghosts.',
-         '<26>{#f/0}* Whatever the favorite\n  is now, I am sure I could never dream of it.'
+         '<25>{#p/toriel}* 也不知道現在\n  星港都流行吃啥。',
+         '<25>{#f/1}* 我上次到那兒時，\n  大家都愛吃幽靈水果...',
+         '<25>{#f/0}* 那玩意兒挺奇怪的，\n  是不是幽靈都能吃。',
+         '<26>{#f/0}* 現在流行啥\n  我肯定猜不到，\n  估計我做夢都想不到。'
       ],
       s_bros: [
-         "<25>{#p/toriel}{#f/1}* Sans's fondness for spot-the-difference puzzles...",
-         '<25>{#f/0}* Well, it has never really made sense to me.',
-         '<25>{#f/1}* How could such a simple puzzle be appealing to him?',
-         '<26>{#f/3}* ... more specifically...',
-         '<25>{#f/1}* Where is the humor in such a puzzle?'
+         "<25>{#p/toriel}{#f/1}* Sans居然喜歡玩\n  那種「找不同」的謎題...",
+         '<25>{#f/0}* ...我一直都沒搞明白。',
+         '<25>{#f/1}* 那麼簡單的謎題，\n  他怎麼會覺得有意思呢？',
+         '<26>{#f/3}* ...更具體來說...',
+         '<25>{#f/1}* 這種謎題到底\n  哪裡好笑了？'
       ],
       s_spaghetti: [
-         "<25>{#p/toriel}* Sans has often spoken of Papyrus's interest in spaghetti dishes.",
-         '<25>{#f/6}* But why stop there?\n* Just imagine the PASTABILITIES...',
-         '<25>{#f/8}* Rigatoni!\n* Fettuccine!\n* Acini di Pepe!',
-         '<25>{#f/0}* Some variety could really help him go FARFALLE.',
-         '<25>{#f/2}* ... in other words, go BIGOLI or go home!'
+         "<25>{#p/toriel}* Sans常說他兄弟Papyrus\n  特喜歡義大利麵。",
+         '<25>{#f/6}* 但為啥只吃一種呢？\n* 想想還有那麼多種\n  義大利麵...',
+         '<25>{#f/8}* 斜管面！\n* 寬面！\n* 珍珠面！',
+         '<25>{#f/0}* 吃吃蝴蝶面\n  才能展翅高飛嘛。',
+         '<25>{#f/2}* ...換句話說，要麼\n  像粗面一樣做大做強，\n  要麼回家歇著！'
       ],
       s_puzzle1: [
-         '<25>{#p/toriel}{#f/1}* Whatever the puzzles in Starton are like now, I am sure...',
-         '<25>{#f/0}* They are nothing like the ones that were here when I left.',
-         '<25>{#f/5}* A level of difficulty so unrealistic...',
-         '<25>{#f/5}* It is a wonder anyone could solve them at all.'
+         '<25>{#p/toriel}{#f/1}* 星港現在的那些謎題，\n  不管啥樣吧...',
+         '<25>{#f/0}* 我估計肯定跟\n  我以前離開的時候\n  不一樣了。',
+         '<25>{#f/5}* 以前的謎題\n  難度高得離譜...',
+         '<25>{#f/5}* 也不知道那時候\n  到底有沒有人能解開。'
       ],
       s_puzzle2: [
-         '<25>{#p/toriel}{#f/1}* They say some puzzles have secret solutions...',
-         '<25>{#f/0}* ... a statement I find utterly unbelievable!',
-         '<25>{#f/0}* A secret solution would defeat the whole purpose of a puzzle.',
-         '<25>{#f/1}* Puzzles, at least ones with realistic difficulty...',
-         '<25>{#f/2}* Should be solved the intended way only!'
+         '<25>{#p/toriel}{#f/1}* 有人說一些謎題\n  有隱藏的解法...',
+         '<25>{#f/0}* ...我覺得純屬扯淡！',
+         '<25>{#f/0}* 藏著什麼秘密解法，\n  不是完全違背了\n  解謎的初衷嗎？',
+         '<25>{#f/1}* 謎題啊，至少那種\n  難度正常的謎題...',
+         '<25>{#f/2}* 就應該按照\n  設計者的思路去解！'
       ],
       s_jenga: [
-         '<25>{#p/toriel}* To my knowledge, Dr. Alphys is the current royal scientist.',
-         '<25>{#f/1}* She may never replace the experience of her predecessor, but...',
-         '<25>{#f/0}* I am sure she is more than capable of finding her own path forward.',
-         '<25>{#f/0}* This may surprise you, but I have a certain respect for scientists.',
-         '<25>{#f/2}* Such brilliant minds!'
+         '<25>{#p/toriel}* 據我所知，\n  現在的皇家科學員\n  是Alphys博士。',
+         '<25>{#f/1}* 雖然她可能比不上前任\n  那麼經驗豐富...',
+         '<25>{#f/0}* 但我相信她完全有能力\n  走出自己的一條路。',
+         '<25>{#f/0}* 你可能會覺得意外，\n  但我其實挺佩服\n  那些科學員的。',
+         '<25>{#f/2}* 他們的腦袋\n  實在太聰明了！'
       ],
       s_pacing: [
-         '<25>{#p/toriel}{#f/1}* You would be wise to steer clear of dubious salesfolk...',
-         '<25>{#f/0}* For you never know what strings they may pull.',
-         '<25>{#f/0}* Or what moon rocks may end up falling into your lap.',
-         '<25>{#f/3}* It is a lesson I have learned the hard way, unfortunately...'
+         '<25>{#p/toriel}{#f/1}* 我勸你還是離那些\n  可疑的商人遠點...',
+         '<25>{#f/0}* 鬼知道他們\n  葫蘆裡賣的什麼藥。',
+         '<25>{#f/0}* 你可能會被忽悠\n  而買了一堆破石頭。',
+         '<25>{#f/3}* 很不幸，\n  我就是吃了這虧\n  才明白這個道理的...'
       ],
       s_puzzle3: [
-         '<25>{#p/toriel}{#f/1}* The puzzle in this room is one of memorization, is it not?',
-         '<25>{#f/1}* Sans mentioned that his brother often updates the pattern...',
-         '<25>{#f/0}* ... to maintain a strong \"rotating password.\"',
-         '<25>{#f/6}* How silly!',
-         '<25>{#f/0}* In the Outlands, our memorization puzzles update on-demand.'
+         '<25>{#p/toriel}{#f/1}* 這個房間的謎題\n  是考驗記憶力的吧？',
+         '<25>{#f/1}* Sans說他的兄弟\n  經常更換它的圖案...',
+         '<25>{#f/0}* ...只為了維持\n  「滾動密碼」的安全性。',
+         '<25>{#f/6}* 真是搞笑！',
+         '<25>{#f/0}* 在我們外域，\n  考驗記憶力的謎題\n  都是能現改現玩的。'
       ],
       s_greater: [
-         '<25>{#p/toriel}{#f/1}* The old owner of that doghouse, Canis Maximus...',
-         '<25>{#f/0}* ... retired from the guard a long while ago.',
-         '<25>{#f/7}* Fortunately, its new owner is said to be a bundle of puppy energy!',
-         '<25>{#f/0}* Clearly, it has learned well from such a wise master.'
+         '<25>{#p/toriel}{#f/1}* 那個狗窩以前\n  是Canis Maximus的...',
+         '<25>{#f/0}* ...它早就從衛隊退休了。',
+         '<25>{#f/7}* 好在現在住那兒的小狗\n  也特別活潑！',
+         '<25>{#f/0}* 看來它從\n  它英明神武的師父那兒\n  學到了不少東西。'
       ],
       s_math: [
-         '<25>{#p/toriel}{#f/1}* Please, can somebody explain \"dog justice?\"',
-         '<25>{#f/0}* It is an odd phrase I continue to hear every so often.',
-         '<25>{#f/5}* I do know of one little puppy that visits the Outlands sometimes...',
-         '<25>{#f/0}* Perhaps that is who is deserving of justice.'
+         '<25>{#p/toriel}{#f/1}* 拜託，\n  誰能給我解釋解釋\n  啥叫「狗子的公道」啊？',
+         '<25>{#f/0}* 我時不時就聽到\n  這個奇怪的說法。',
+         '<25>{#f/5}* 我倒是知道有隻小狗狗\n  偶爾會來外域逛逛...',
+         '<25>{#f/0}* 說不定就是它\n  需要主持正義。'
       ],
       s_bridge: [
-         '<25>{#p/toriel}{#f/1}* When this bridge was first constructed...',
-         "<25>{#f/0}* Its precarious nature prompted an upgrade to the outpost's systems.",
-         '<25>{#f/0}* In short time, the aptly-named \"gravity guardrails\" were added.',
-         '<25>{#f/0}* These are what prevent you from falling off the platforms.'
+         '<25>{#p/toriel}{#f/1}* 這座橋剛建好的時候，\n  它搖搖欲墜...',
+         "<25>{#f/0}* 導致前哨站的系統\n  不得不升級。",
+         '<25>{#f/0}* 沒多久，\n  他們就加裝了一個\n  叫「重力護欄」的東西。',
+         '<25>{#f/0}* 就是這玩意沒讓你\n  從平臺上掉下去。'
       ],
       s_town1: [
-         '<25>{#p/toriel}{#f/0}* Ah...\n* The town of Starton.',
-         '<25>{#f/1}* I have heard much about a \"Grillby\'s\" there...',
-         '<25>{#f/0}* ... and its diverse array of patrons both new and old.',
-         '<25>{#f/0}* Sans often goes there to eat, you see.',
-         '<25>{#f/7}* I hear the bartender is quite \"hot.\"'
+         '<25>{#p/toriel}{#f/0}* 啊...\n* 這是星港的小鎮。',
+         '<25>{#f/1}* 我聽說那兒有個\n  叫「Grillby\'s」的餐館...',
+         '<25>{#f/0}* ...裡面有很多\n  千奇百怪的新老顧客。',
+         '<25>{#f/0}* Sans也經常去那兒吃飯。',
+         '<25>{#f/7}* 聽說那兒的酒保\n  很「燒」。'
       ],
       s_taxi: [
-         '<25>{#p/toriel}{#f/1}* A taxi stop near town?',
-         '<25>{#f/1}* ... hmm...',
-         '<25>{#f/0}* I wonder if it is any different from the one in the Outlands.',
-         '<25>{#f/1}* Of course, I would have no way of knowing until I saw it...',
-         '<25>{#f/0}* Which I have no way of doing without a fancy telescope.',
-         '<25>{#f/0}* I wonder where I could find one of those.'
+         '<25>{#p/toriel}{#f/1}* 小鎮附近\n  有個運輸船停靠站嗎？',
+         '<25>{#f/1}* ...嗯...',
+         '<25>{#f/0}* 不知道那個\n  跟外域的這個停靠站\n  有啥不一樣。',
+         '<25>{#f/1}* 當然啦，\n  不親眼看看我哪知道啊...',
+         '<25>{#f/0}* 但我又沒有高檔望遠鏡，\n  這可怎麼咋看呢？',
+         '<25>{#f/0}* 也不知道上哪兒\n  才能搞到一個。'
       ],
       s_town2: [
-         '<25>{#p/toriel}{#f/1}* Napstablook recently told me they opened a shop...',
-         '<25>{#f/5}* ... on the \"south side\" of town.',
-         '<25>{#f/1}* What could this mean?',
-         '<25>{#f/0}* The town I remember organizing was a large, unified square.',
-         '<25>{#f/1}* Perhaps there was a split at some point?',
-         '<25>{#f/5}* That would be a shame, considering the original vision...'
+         '<25>{#p/toriel}{#f/1}* Napstablook最近跟我說\n  它開了個店...',
+         '<25>{#f/5}* ...在鎮子「南邊」\n  開了個店。',
+         '<25>{#f/1}* 這是怎麼回事？',
+         '<25>{#f/0}* 我記得當初規劃的時候，\n  整個小鎮就是\n  一個大方塊啊。',
+         '<25>{#f/1}* 難道後來給分成兩半了？',
+         '<25>{#f/5}* 要真是那樣就太可惜了，\n  畢竟當初的設想\n  可不是這樣的...'
       ],
       s_battle: [
-         '<25>{#p/toriel}{#f/1}* The thing Sans seemed most eager to warn me about...',
-         '<25>{#f/0}* Was his brother\'s so- called \"special attack.\"',
-         '<25>{#f/1}* If Papyrus chooses to spar with you, you must avoid it at all costs.',
-         '<25>{#f/2}* I repeat, avoid the special attack!\n* At all costs!',
-         '<25>{#f/0}* That is all I have to say on this matter.'
+         '<25>{#p/toriel}{#f/1}* Sans跟我反覆強調...',
+         '<25>{#f/0}* 一定要小心他的兄弟的\n  什麼「特殊攻擊」。',
+         '<25>{#f/1}* 要是Papyrus找你切磋，\n  你一定要避開\n  他的特殊攻擊。',
+         '<25>{#f/2}* 再說一遍，一定要避開\n  他的特殊攻擊！\n* 千萬別被打到！',
+         '<25>{#f/0}* 關於這事我就說這麼多。'
       ],
       s_exit: [
-         '<25>{#p/toriel}{#f/1}* If you ever decide to leave Starton, you must understand...',
-         '<25>{#f/5}* My phone is old, and can only reach certain rooms in the factory.',
-         '<25>{#f/9}* It would be difficult to call me until you find your way out.',
-         '<25>{#f/1}* Forgive me.\n* I just thought that I should let you know.'
+         '<25>{#p/toriel}{#f/1}* 如果你打算離開星港，\n  你得明白...',
+         '<25>{#f/5}* 我的手機太老了，\n  只能打到\n  工廠裡的個別房間。',
+         '<25>{#f/9}* 你找到出去的路之前，\n  可能聯繫不上我。',
+         '<25>{#f/1}* 請別見怪。\n* 但我覺得應該\n  提前跟你說一聲。'
       ],
       f_entrance: [
-         '<25>{#p/toriel}{#f/7}* So you found a place in the factory with good reception...?',
-         '<25>{#f/1}* ... that must mean you are somewhere unenclosed...',
-         '<25>{#f/0}* Which also implies the nearby presence of synth-bushes.',
-         '<25>{#f/3}* Those things are terrible to get stuck in...',
-         '<25>{#f/4}* Getting you all itchy and scratchy...',
-         '<25>{#f/0}* Fortunately, I know you are smart enough not to run into them.'
+         '<25>{#p/toriel}{#f/7}* 你找到\n  訊號好的地方啦...？',
+         '<25>{#f/1}* ...看來那裡比較開闊...',
+         '<25>{#f/0}* 附近還有\n  人工合成的灌木叢。',
+         '<25>{#f/3}* 要是鑽進了那玩意...',
+         '<25>{#f/4}* 渾身上下會又癢又難受...',
+         '<25>{#f/0}* 不過我相信\n  你肯定不會傻到往裡鑽的。'
       ],
       f_bird: () =>
          SAVE.data.n.plot !== 47.2 && SAVE.data.n.plot > 42 && SAVE.data.s.state_foundry_deathroom !== 'f_bird' // NO-TRANSLATE
 
             ? [
-                 '<25>{#p/toriel}{#f/0}* There truly is nothing like the chirp of that fearless little bird.',
-                 '<25>{#f/1}* Even when it still lived within a bucket of water...',
-                 '<25>{#f/1}* It would fly its mighty little wings...',
-                 '<25>{#f/1}* Taking us places...',
-                 '<25>{#f/0}* I used its services to carry groceries often.',
-                 '<25>{#f/5}* ... back when we as a species all lived in that old factory.'
+                 '<25>{#p/toriel}{#f/0}* 沒有什麼比得上\n  那隻無畏小鳥的啾啾聲。',
+                 '<25>{#f/1}* 就算是當年\n  它還在水桶裡住著時...',
+                 '<25>{#f/1}* 它也會撲騰著\n  它那小小的翅膀...',
+                 '<25>{#f/1}* 帶著我們到處跑...',
+                 '<25>{#f/0}* 我經常讓它\n  幫忙運送雜貨。',
+                 '<25>{#f/5}* ...那會兒我們這個物種\n  還都擠在\n  那個舊工廠裡生活呢。'
               ]
             : [
-                 '<25>{#p/toriel}{#f/5}* Things sound awfully silent where you are...',
-                 '<25>{#f/5}* Almost like there is something missing.',
-                 '<25>{#f/5}* Something important...',
-                 '<25>{#f/0}* Well, no matter.\n* My imagination does run wild sometimes.',
+                 '<25>{#p/toriel}{#f/5}* 你那邊聽起來好寂靜啊...',
+                 '<25>{#f/5}* 總感覺少了點什麼。',
+                 '<25>{#f/5}* 少了點什麼重要的東西...',
+                 '<25>{#f/0}* 算了，別在意。\n* 我可能想太多了。',
                  '<25>{#f/1}* ...',
-                 '<25>{#f/1}* Chirp, chirp, chirp, chirp, chirp...'
+                 '<25>{#f/1}* 啾，啾，\n  啾，啾，\n  啾...'
               ],
       f_taxi: [
-         "<25>{#p/toriel}{#f/1}* So you found the factory's taxi stop...?",
-         '<25>{#f/0}* Perhaps you could use it to escape that Royal Guard captain.',
-         '<25>{#f/1}* A visitor here once spoke of her obsession with spears...',
-         '<25>{#f/0}* How odd.\n* The captain I knew was into sabers.'
+         "<25>{#p/toriel}{#f/1}* 這麼說你找著了\n  工廠的運輸船停靠站...?",
+         '<25>{#f/0}* 那兒說不定可以用來\n  躲開皇家衛隊隊長呢。',
+         '<25>{#f/1}* 之前有個訪客跟我說過，\n  衛隊長她\n  特別痴迷於長矛...',
+         '<25>{#f/0}* 真奇怪。\n* 我認識的那個衛隊長\n  明明喜歡的是佩刀啊。'
       ],
       f_battle: [
-         '<25>{#p/toriel}{#f/0}* Ah, there you are.',
-         "<25>{#f/0}* You're at the edge of the factory there.",
-         '<26>{#f/1}* From this point forward, I do not know what lies ahead of you...',
-         '<25>{#f/5}* Before I left, there was only an elevator to the Citadel.',
-         '<25>{#f/1}* Now, however, exists the area called \"Aerialis...\"',
-         '<25>{#f/23}* ... I wonder who came up with THAT name.'
+         '<25>{#p/toriel}{#f/0}* 啊，你終於到了。',
+         "<25>{#f/0}* 你現在在工廠的邊緣了。",
+         '<26>{#f/1}* 從這裡往前，\n  我就不知道\n  前面是什麼地方了...',
+         '<25>{#f/5}* 我離開的時候，\n  那兒只有\n  通往首塔的電梯。',
+         '<25>{#f/1}* 不過現在嘛，\n  好像多了個\n  叫「空境」的地方...',
+         '<25>{#f/23}* ...也不知道是誰\n  取的這麼個名字。'
       ],
       f_exit: toriel_aerialis,
       a_start: toriel_aerialis,
@@ -5276,35 +5276,35 @@ export default {
          ? [ '<25>{#p/toriel}{#f/3}* ...', '<25>{#f/2}* 現在，立刻，馬上\n  回家裡來！' ]
          : [
               3 <= SAVE.data.n.cell_insult
-                 ? '<25>{#p/toriel}{#f/23}* Are you not exhausted after how you behaved towards me?'
+                 ? '<25>{#p/toriel}{#f/23}* 你那樣對待我，\n  難道不累嗎？'
                  : SAVE.data.n.state_wastelands_napstablook === 5
-                 ? '<25>{#p/toriel}{#f/1}* Are you not exhausted after waiting so long?'
-                 : '<25>{#p/toriel}{#f/1}* Are you not exhausted after all you have been through?',
+                 ? '<25>{#p/toriel}{#f/1}* 你等了那麼久，\n  難道不累嗎？'
+                 : '<25>{#p/toriel}{#f/1}* 你經歷了那麼多，\n  難道不累嗎？',
               3 <= SAVE.data.n.cell_insult
                  ? game.room.startsWith('w_toriel') // NO-TRANSLATE
 
-                    ? '<25>{#f/0}* Perhaps you should see the bed I made for you in the guest room.'
-                    : '<25>{#f/0}* Perhaps you should see the bed I made for you at the house.'
+                    ? '<25>{#f/0}* 要不要去看看\n  我在客房裡\n  為你準備的床？'
+                    : '<25>{#f/0}* 要不要去看看\n  我在房子裡\n  為你準備的床？'
                  : game.room.startsWith('w_toriel') // NO-TRANSLATE
 
-                 ? '<25>{#f/0}* Come to the hallway, and I will show you something.'
-                 : '<25>{#f/0}* Come to the house, and I will show you something.'
+                 ? '<25>{#f/0}* 來走廊這邊，\n  我給你看點東西。'
+                 : '<25>{#f/0}* 來房子這邊，\n  我給你看點東西。'
            ],
    c_call_toriel_late: () =>
       SAVE.data.n.plot === 8.1
-         ? [ '<32>{#p/human}* (But the line was busy.)' ]
+         ? [ '<32>{#p/human}* （對方忙線中。）' ]
          : game.room === 'w_bridge' || game.room.startsWith('w_alley') // NO-TRANSLATE
 
          ? [ '<25>{#p/toriel}{#f/3}* ...', '<25>{#f/2}* 現在，立刻，馬上\n  回家裡來！' ]
          : [
-              '<25>{#p/toriel}{#f/1}* 沒有必要給我打電話，\n  孩子。',
+              '<25>{#p/toriel}{#f/1}* 孩子，用不著給我打電話。',
               3 <= SAVE.data.n.cell_insult
-                 ? '<26>{#f/23}* We already know what that tends to result in.'
+                 ? '<26>{#f/23}* 你打算說什麼，\n  我們都清楚得很。'
                  : game.room === 'w_toriel_living' // NO-TRANSLATE
 
                  ? toriCheck()
                     ? '<25>{#f/0}* 畢竟，我現在和你\n  在一間屋子裡呢。'
-                    : '<25>{#f/0}* I will be done in just a moment.'
+                    : '<25>{#f/0}* 我馬上就搞定了。'
                  : game.room.startsWith('w_toriel') // NO-TRANSLATE
 
                  ? toriCheck()
@@ -5315,12 +5315,12 @@ export default {
    c_call_asriel: () =>
       [
          [
-            "<25>{#p/asriel2}{#f/3}* Just so you know, I'm not picking that up.",
-            '<25>{#p/asriel2}{#f/4}* We have better things to do.'
+            "<25>{#p/asriel2}{#f/3}* 知道了吧，我不會接的。",
+            '<25>{#p/asriel2}{#f/4}* 咱可沒閒工夫打電話玩。'
          ],
          [ '<25>{#p/asriel2}{#f/4}* ...' ],
-         [ '<25>{#p/asriel2}{#f/4}* ... seriously?' ],
-         [ '<25>{#p/asriel2}{#f/3}* You must be really, REALLY bored.' ],
+         [ '<25>{#p/asriel2}{#f/4}* ...開玩笑嗎？' ],
+         [ '<25>{#p/asriel2}{#f/3}* 吃飽了撐的。' ],
          []
       ][Math.min(SAVE.flag.n.ga_asrielCall++, 4)],
    s_save_outlands: {
@@ -5330,8 +5330,8 @@ export default {
             SAVE.data.n.plot > 16
                ? [
                     6 <= world.population
-                       ? '<32>{#p/human}* (Even when visiting, this little home fills you with determination.)'
-                       : '<32>{#p/human}* (Even when visiting, this house fills you with determination.)'
+                       ? '<32>{#p/human}* （即使只是來拜訪這個小小的家，\n  這也使你充滿了決心。）'
+                       : '<32>{#p/human}* （即使只是來拜訪這個小屋，\n  這也使你充滿了決心。）'
                  ]
                : 6 <= world.population
                ? [ '<32>{#p/human}* （面前是一座溫馨的小房子，\n  這使你充滿了決心。）' ]
@@ -5371,7 +5371,7 @@ export default {
                     ]
                : SAVE.data.b.svr
                ? [
-                    '<32>{#p/human}* (The area has been vacated, but the air remains fresh.)',
+                    '<32>{#p/human}* （這裡雖然已經空無一人，\n  但空氣依然清新。）',
                     '<32>{#p/human}* （當然，這使你充滿了決心。）',
                     '<32>{#p/human}* （HP已回滿。）'
                  ]

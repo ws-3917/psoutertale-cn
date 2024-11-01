@@ -387,7 +387,7 @@ export default {
       capstation1: [
          '<32>{#p/human}* (You look behind the station and find a key.)',
          '<32>{#s/equip}{#p/human}* (The Rusty Key was added to your keyring.)',
-         '* (¿Comprar las ExoBayas por 8O?)'
+         '<32>* (Revisa tu TELÉFONO para ver todas las llaves conseguidas)'
       ],
       capstation2: [ '<32>{#p/human}* (You look behind the station.)', '<32>{#p/basic}* Nothing new back here.' ],
       crossword0: () =>
@@ -2372,7 +2372,7 @@ export default {
                                '<32>* (In fact...)',
                                '<32>* (Here, kid.)\n* (Have a key, on us.)',
                                '<32>{#s/equip}{#p/human}* (The Rusty Key was added to your keyring.)',
-                               '* (¿Comprar las ExoBayas por 8O?)',
+                               '<32>* (Revisa tu TELÉFONO para ver todas las llaves conseguidas)',
                                "<32>{#p/basic}{#npc/a}* (We've, uh, got an armory somewhere, I think.)"
                             ])),
                        ...(SAVE.data.b.oops

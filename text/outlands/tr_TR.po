@@ -1,20 +1,7 @@
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-23 11:29+0000\n"
-"PO-Revision-Date: 2024-10-31 17:17+0000\n"
-"Last-Translator: Efe Kaya <efek8184@gmail.com>\n"
-"Language-Team: Turkish <https://ws3917.site/projects/project-spacetime/"
-"1-outlands/tr/>\n"
-"Language: tr_TR\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.8.1\n"
 
-#
 msgid ""
 "<25>{#p/toriel}{#f/1}* I hear there is a certain kind of fluid in "
 "Aerialis..."
@@ -4925,7 +4912,8 @@ msgstr "{#n1!}* (Süper Starwalker 1'i 5A fiyatına alacak mısın?)"
 msgid ""
 "<32>{#p/basic}{#n1}* Hey, have you noticed anything strange goin' on around "
 "here?"
-msgstr "<32>{#p/basic}{#n1}* Hey, etrafta hiç tuhaf olan bi’ şeyler gördün mü?"
+msgstr ""
+"<32>{#p/basic}{#n1}* Hey, etrafta hiç tuhaf olan bi’ şeyler gördün mü?"
 
 msgid ""
 "<32>* I could'a sworn all the puzzles just de-activated themselves earlier."
@@ -5042,7 +5030,8 @@ msgstr ""
 
 msgid ""
 "<32>{#p/basic}{#n1}* Er, sorry, my eyesight's not what it used to be..."
-msgstr "<32>{#p/basic}{#n1}* Erm, kusura bakma, gözlerim eskisi gibi görmüyor."
+msgstr ""
+"<32>{#p/basic}{#n1}* Erm, kusura bakma, gözlerim eskisi gibi görmüyor."
 
 msgid ""
 "<32>{#p/basic}{#n1}* Huh?\n"
@@ -5454,11 +5443,9 @@ msgstr "<25>{#p/toriel}{#f/5}* Kendini tehlikeye atmana izin vermeyeceğim."
 msgid "<25>{#p/toriel}{#f/3}* Do you expect me to do this all day?"
 msgstr "<25>{#p/toriel}{#f/3}* Bunu tüm gün yapmamı mı bekliyorsun?"
 
-#, fuzzy
 msgid "<25>{#p/toriel}{#f/4}* ..."
 msgstr "<25>{#p/toriel}{#f/4}* ..."
 
-#, fuzzy
 msgid "<25>{#p/toriel}{#f/17}* ..."
 msgstr "<25>{#p/toriel}{#f/17}* ..."
 
@@ -5539,7 +5526,6 @@ msgstr "<25>{#f/5}* Sen ne istersen yapacağım, tamam mı?"
 msgid "<25>{#f/18}* Please... do not leave me like the others..."
 msgstr "<25>{#f/18}* Lütfen... beni diğerleri gibi bırakma..."
 
-#, fuzzy
 msgid "<25>{#p/toriel}{#f/18}* ..."
 msgstr "<25>{#p/toriel}{#f/18}* ..."
 
@@ -6067,7 +6053,6 @@ msgid ""
 "one."
 msgstr "<25>{#p/toriel}{#f/1}* Şifre terminali hemen orada, ufaklık."
 
-#, fuzzy
 msgid "<25>{#p/toriel}{#npc/a}{#f/2}* ...!"
 msgstr "<25>{#p/toriel}{#npc/a}{#f/2}* ...!"
 
@@ -6119,11 +6104,9 @@ msgstr "<25>{#p/asriel1}{#f/15}* ... ne yapıyorsun?"
 msgid "<25>{#f/15}* Are you trying to keep me company?"
 msgstr "<25>{#f/15}* Bana eşlik etmeye mi çalışıyorsun?"
 
-#, fuzzy
 msgid "<25>{#f/23}* Frisk..."
 msgstr "<25>{#f/23}* Frisk..."
 
-#, fuzzy
 msgid "<25>{#f/13}* Hey."
 msgstr "<25>{#f/13}* Hey."
 
@@ -6154,14 +6137,12 @@ msgstr ""
 "<32>{#p/human}* (...)\n"
 "* (Asriel'a gerçeği söylüyorsun.)"
 
-#, fuzzy
 msgid "<25>{#p/asriel1}{#f/25}* ..."
 msgstr "<25>{#p/asriel1}{#f/25}* ..."
 
 msgid "<25>{#f/25}* Frisk... you..."
 msgstr "<25>{#f/25}* Frisk... sen..."
 
-#, fuzzy
 msgid "<25>{#f/23}* ..."
 msgstr "<25>{#f/23}* ..."
 
@@ -6271,7 +6252,6 @@ msgstr "<25>{#f/15}* Ve sonra, benim yüzümden, biz..."
 msgid "<25>{#f/22}* Well, that's why I ended up the way I did."
 msgstr "<25>{#f/22}* İşte, bu yüzden bu hale düştüm."
 
-#, fuzzy
 msgid "<25>{#f/23}* ... Frisk."
 msgstr "<25>{#f/23}* ... Frisk."
 
@@ -6373,7 +6353,6 @@ msgstr "<25>{#f/17}* ... bana sadece kendine iyi bakacağına söz ver, olur mu?
 msgid "<25>{#f/15}* Well, see you."
 msgstr "<25>{#f/15}* Öyleyse, görüşmek üzere."
 
-#, fuzzy
 msgid "<25>{#p/asriel1}{#f/13}* Frisk..."
 msgstr "<25>{#p/asriel1}{#f/13}* Frisk..."
 
@@ -6430,7 +6409,8 @@ msgid "<32>{#p/basic}* An old fuel injection device."
 msgstr "<32>{#p/basic}* Eski bir yakıt aktarma cihazı."
 
 msgid "<32>{#p/human}* (The sign warns of unexpected appliance malfunctions.)"
-msgstr "<32>{#p/human}* (Tabela beklenmeyen eşya arızaları hakkında uyarıyor.)"
+msgstr ""
+"<32>{#p/human}* (Tabela beklenmeyen eşya arızaları hakkında uyarıyor.)"
 
 msgid ""
 "<32>{#p/basic}* \"Please note that appliances may be more malfunction-prone "

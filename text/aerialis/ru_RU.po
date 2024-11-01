@@ -19261,7 +19261,7 @@ msgstr ""
 msgid "<11>{#p/basic}{~}Like, what are you even doing?"
 msgstr "<11>{#p/basic}{~} Например, что именно вы делаете?"
 
-msgid "<11>{#p/basic}{~}This ain't it, chief."
+msgid "<11>{#p/undyne}{#p/basic}{~}This ain't it, chief."
 msgstr ""
 
 msgid ""
@@ -19279,11 +19279,6 @@ msgid ""
 "* Conspicuous cowgirl attitude.\n"
 "* Skeptic."
 msgstr "* Скептики."
-
-msgid ""
-"<32>{#p/asriel2}* RG 01.\n"
-"* Only one left."
-msgstr ""
 
 msgid ""
 "<32>{#p/story}* RG 01 - ATK 30 DEF 20\n"
@@ -19640,11 +19635,6 @@ msgid ""
 "<33>{#p/story}* RG 04 - ATK 30 DEF 20\n"
 "* Believes in friendship, but isn't against something more..."
 msgstr "* Верьте в дружбу, но не против большего..."
-
-msgid ""
-"<32>{#p/asriel2}* RG 02.\n"
-"* Only one left."
-msgstr ""
 
 msgid ""
 "<32>{#p/story}* RG 02 - ATK 30 DEF 20\n"

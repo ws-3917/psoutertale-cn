@@ -1426,7 +1426,7 @@ export default {
                     ]
                   : [
                        "<32>{#p/basic}{#npc/a}* 不論我去到哪裡，\n  看到的都是一樣的選單，\n  遇到的都是一樣的人...",
-                       "<32>* 服務員！\n* 我想再來點喝的，\n  再來店帥-帥-帥-帥哥！"
+                       "<32>* 服務員！\n* 我想再來點喝的，\n  再來點燒-燒-燒-燒男！"
                     ],
             () =>
                SAVE.data.b.killed_mettaton
@@ -1437,7 +1437,7 @@ export default {
                   ? [ '<32>{#p/basic}{#npc/a}* S-soooooo ready!' ]
                   : papreal() || world.dead_dog
                   ? [ '<32>{#p/basic}{#npc/a}* ...' ]
-                  : [ "<32>{#p/basic}{#npc/a}* 我感覺那個酒保\n  就挺帥-帥-帥-帥的..." ]
+                  : [ "<32>{#p/basic}{#npc/a}* 我感覺那個酒保\n  就挺燒-燒-燒-燒的..." ]
          ),
          g_dogamy: () =>
             SAVE.data.b.killed_mettaton
@@ -2582,7 +2582,7 @@ export default {
             world.runaway
                ? [
                     '<32>{#p/human}* （你取下了一本書...）',
-                    '<23>{#p/papyrusnt}「親愛的日計：\n力場已經被摧毀了。」',
+                    '<23>{#p/papyrusnt}「親愛的日計：\n 力場已經被摧毀了。」',
                     '<23>\"FRISK, THE HUMAN WHO CAME TO THE OUTPOST JUST A FEW DAYS AGO...\"',
                     '<23>\"IS NOW THE SUBJECT OF FEAR AMONG EVERYONE ON THE OUTPOST.\"',
                     '<23>\"WE\'RE ALL LEAVING RIGHT AWAY, BEFORE THEY WAKE UP.\"',
@@ -2593,7 +2593,7 @@ export default {
                : SAVE.data.n.plot === 72
                ? [
                     '<32>{#p/human}* （你取下了一本書...）',
-                    '<23>{#p/papyrusnt}「親愛的日計：\n力場已經被摧毀了。」',
+                    '<23>{#p/papyrusnt}「親愛的日計：\n 力場已經被摧毀了。」',
                     '<23>\"FRISK, THE HUMAN WHO CAME TO THE OUTPOST JUST A FEW DAYS AGO...\"',
                     '<23>\"TOOK ON IMPOSSIBLE ODDS TO SAVE US FROM DESTRUCTION.\"',
                     '<23>\"MAYBE THIS IS WHAT\'LL INSPIRE SANS TO MOVE UP IN THE WORLD.\"',
@@ -2603,12 +2603,12 @@ export default {
                  ]
                : [
                     '<32>{#p/human}* （你取下了一本書...）',
-                    '<23>{#p/papyrusnt}「親愛的日計：\nSANS剛剛被任命為\n正式的皇家哨兵。」',
-                    '<23>「最開始，\n我對他非常地不解...」',
-                    '<23>「畢竟，為什麼一個\n這麼懶的人會想\n承擔這個工作？」',
-                    '<23>「算了，\n我就不去追問什麼了。」',
-                    '<23>「事實上，我為他感到\n非常驕傲！！！」',
-                    '<23>「只有時間才能證明\n這會帶來什麼\n偉大的事情。」',
+                    '<23>{#p/papyrusnt}「親愛的日計：\n SANS剛剛被任命為\n 正式的皇家哨兵。」',
+                    '<23>「最開始，\n 我對他非常地不解...」',
+                    '<23>「畢竟，為什麼一個\n 這麼懶的人會想\n 承擔這個工作？」',
+                    '<23>「算了，\n 我就不去追問什麼了。」',
+                    '<23>「事實上，我為他感到\n 非常驕傲！！！」',
+                    '<23>「只有時間才能證明\n 這會帶來什麼\n 偉大的事情。」',
                     '<32>{#p/human}* （你把書放回了書架。）'
                  ]
       ),
@@ -2755,9 +2755,9 @@ export default {
                  }
                : SAVE.data.n.plot === 72
                ? {
-                    a: '_舟亢忝洐_',
+                    a: '_舟亢忝行_',
                     b: '今天',
-                    c: '< 使用者名更新 >\n原名：_摋掱亾耦_\n現在：_舟亢忝洐_'
+                    c: '< 使用者名更新 >\n原名：_殺手亾耦_\n現在：_舟亢忝行_'
                  }
                : SAVE.data.n.plot < 34
                ? {
@@ -2876,7 +2876,7 @@ export default {
          () => [ '<18>{#p/papyrus}準備好了嗎？', choicer.create('* （你要怎麼回答？）', '是', '否') ]
       ),
       papdate4a: [ "<18>{#p/papyrus}好，我們進去吧！" ],
-      papdate4b: [ "<18>{#p/papyrus}I'LL KEEP WAITING HERE THEN!" ],
+      papdate4b: [ "<18>{#p/papyrus}那我就繼續\n  在這兒等著啦！" ],
       papdate5: pager.create(
          0,
          () => [
@@ -3322,7 +3322,7 @@ export default {
                  '<15>{#f/24}我覺得如果你\n可以把你的友誼能量\n分散一點...',
                  "<15>{#f/10}你的生活方式\n就會更健康。",
                  ...(SAVE.data.n.plot < 48
-                    ? [ "<15>{#f/20}I'LL LET YOU KNOW WHEN I'M READY!" ]
+                    ? [ "<15>{#f/20}等準備好了\n我就告訴你！" ]
                     : [ "<15>{#f/20}所以讓我們！\n一起加油吧！！" ])
               ]),
          '<15>{#f/20}捏嘿嘿\n嘿嘿！！！'
@@ -4589,7 +4589,7 @@ export default {
             ].map(
                p => () =>
                   SAVE.data.b.svr
-                     ? [ "<32>{#p/human}* (You can't make out what's in the trash...)" ]
+                     ? [ "<32>{#p/human}* （你看不出來垃圾桶裡有什麼...)" ]
                      : CosmosUtils.provide(p)
             )
          ),
@@ -5140,7 +5140,7 @@ export default {
                     '<32>{#p/basic}* 「你好，孤獨的來電者！」\n* 「我很抱歉沒能在這裡迎接你~」',
                     '<32>{#s/equip}{#p/event}* 滴...',
                     ...(world.goatbro && SAVE.flag.n.ga_asrielVoicemail++ < 1
-                       ? [ '<25>{#p/asriel2}{#f/10}* ... weird.' ]
+                       ? [ '<25>{#p/asriel2}{#f/10}* ...莫名其妙。' ]
                        : [])
                  ],
          s_sr_cottonball: () =>
@@ -5674,16 +5674,16 @@ export default {
          world.genocide
             ? [
                  '<32>{#p/event}* 鈴鈴，鈴鈴...',
-                 "<32>{#p/alphys}* So... killing him wasn't g-good enough, huh?",
-                 '<32>* You just had to go and beat his score on my... stupid m-minigame...',
-                 '<32>* Ehehe...',
-                 "<32>* You're truly disgusting...",
+                 "<32>{#p/alphys}* ...合著殺了他，\n  你還沒爽-爽夠是吧？",
+                 '<32>* 你就非得在我... 那破-破遊戲上\n  把他從榜一攆下去是吧...',
+                 '<32>* 誒嘿嘿...',
+                 "<32>* 你可真噁心...",
                  '<32>* ...',
-                 '<32>{#s/equip}{#p/human}* (You lost all of your G.)',
+                 '<32>{#s/equip}{#p/human}* （你失去了所有金錢。）',
                  ...(world.goatbro
                     ? SAVE.flag.n.genocide_milestone < 5
                        ? SAVE.flag.n.ga_asrielXtower++ < 1
-                          ? [ "<25>{#p/asriel2}{#f/10}* Daring today, aren't we?" ]
+                          ? [ "<25>{#p/asriel2}{#f/10}* 今兒我們膽量可嘉啊。" ]
                           : []
                        : SAVE.flag.n.genocide_milestone < 6
                        ? SAVE.flag.n.ga_asrielAlphysCom2++ < 1
@@ -5734,7 +5734,7 @@ export default {
          world.goatbro
             ? [ '<32>{#p/asriel2}* 笨蛋青年兩人組。' ]
             : SAVE.data.b.s_state_chilldrake
-            ? [ '<32>{#p/story}* Chilldrake and Astro Serf pose like bad guys.' ]
+            ? [ '<32>{#p/story}* Chilldrake和Astro Serf\n  擺著大壞蛋的姿勢閃亮登場。' ]
             : [ '<32>{#p/story}* Stardrake and Astro Serf pose like bad guys.' ],
       stardrakeSpacetop2a: () =>
          world.goatbro
@@ -5786,7 +5786,7 @@ export default {
                     '<32>{#p/asriel2}* Stardrake，逗逼。\n* 總喜歡給別人講笑話，\n  殊不知自己就是個最大的笑話。'
                  ]
             : SAVE.data.b.s_state_chilldrake
-            ? [ '<33>{#p/story}* CHILLDRAKE - ATK 12 DEF 7\n* Rebels against everything!!\n* On the lookout for Starry.' ]
+            ? [ '<33>{#p/story}* CHILLDRAKE - 攻擊12 防禦7\n* 看啥都要對著幹！！\n* 他在找Starry。' ]
             : [ '<32>{#p/story}* STARDRAKE - 攻擊12 防禦7\n* 這名喜劇演員拼盡力氣\n  想留住一位觀眾。' ],
       act_check2: () =>
          SAVE.data.b.s_state_chilldrake
@@ -5847,8 +5847,8 @@ export default {
          world.goatbro
             ? [ '<32>{#p/asriel2}* 離死不遠了。' ]
             : SAVE.data.b.s_state_chilldrake
-            ? [ '<32>{#p/story}* Chilldrake的身體正在粉碎。' ]
-            : [ '<32>{#p/story}* Stardrake的身體正在粉碎。' ],
+            ? [ '<32>{#p/story}* Chilldrake的身體要散架了。' ]
+            : [ '<32>{#p/story}* Stardrake的身體要散架了。' ],
       idleTalk1: () =>
          SAVE.data.b.s_state_chilldrake
             ? [ '<08>{#p/basic}{~}Brush my teeth?\nNo way in heck!' ]
@@ -5859,15 +5859,15 @@ export default {
             : [ '<08>{#p/basic}{~}I\'m just in my moon pun \"phase\"' ],
       idleTalk3: () =>
          SAVE.data.b.s_state_chilldrake
-            ? [ '<08>{#p/basic}{~}Who needs parents anyway!?' ]
+            ? [ '<08>{#p/basic}{~}誰還要\n爸媽管啊！？' ]
             : [ '<08>{#p/basic}{~}已經好\n幾「光年」\n沒回家了..' ],
       idleTalk4: () =>
          SAVE.data.b.s_state_chilldrake
-            ? [ '<08>{#p/basic}{~}Live wild and free, I say!' ]
+            ? [ '<08>{#p/basic}{~}嘿呀，\n人生在世，\n總要撒點野！' ]
             : [ '<08>{#p/basic}{~}Oh, it\'s on.\n\"Tachy- on.\"' ],
       idleTalk5: () =>
          SAVE.data.b.s_state_chilldrake
-            ? [ '<08>{#p/basic}{~}Nobody tells ME what to do!' ]
+            ? [ '<08>{#p/basic}{~}沒人能\n教我做事！' ]
             : [ '<08>{#p/basic}{~}Want a fight?\n\"Comet\" me, bro.' ],
       idleTalk6: () =>
          SAVE.data.b.s_state_chilldrake
@@ -5875,7 +5875,7 @@ export default {
             : [ '<08>{#p/basic}{~}Don\'t ruin the \"atmos- phere..\"' ],
       idleTalk7: () =>
          SAVE.data.b.s_state_chilldrake
-            ? [ '<08>{#p/basic}{~}Trim my claws?\nNo way in heck!' ]
+            ? [ '<08>{#p/basic}{~}想剪\n我的爪子？\n門都沒有！' ]
             : [ '<08>{#p/basic}{~}It\'s not free, it\'s \"zero G\"' ],
       jokeStatus: () =>
          SAVE.data.b.s_state_chilldrake
@@ -5948,7 +5948,7 @@ export default {
             : [ '<32>{#p/story}* Stardrake sighs in relief, realizing its own name is in fact not a pun.' ],
       status1: () =>
          SAVE.data.b.s_state_chilldrake
-            ? [ '<32>{#p/story}* Chilldrake saunters up!' ]
+            ? [ '<32>{#p/story}* Chilldrake大搖大擺地晃了過來！' ]
             : [ '<32>{#p/story}* Stardrake撲騰了過來！' ]
    },
    b_opponent_jerry: {
@@ -5956,7 +5956,7 @@ export default {
          SAVE.data.b.spared_jerry
             ? world.goatbro
                ? [
-                    '<33>{#p/asriel2}* Jerry, the undisputable jerk.\n* I refuse to believe one flirt could have that much influence.'
+                    '<33>{#p/asriel2}* Jerry，公認的傻帽。\n* 調情這麼有用？打死我也不信。'
                  ]
                : [
                     '<32>{#p/story}* JERRY - ATK 0 DEF 30\n* A born-again monster, awakened with the power of friendship!'
@@ -7265,7 +7265,7 @@ export default {
    },
    i_spaghetti: {
       battle: {
-         description: 'Silken spaghetti, finely aged in a time dilation unit.',
+         description: '絲般柔滑的意面，\n在時間膨脹單元之中精細陳化。',
          name: '義大利麵'
       },
       drop: () => [
@@ -7346,7 +7346,7 @@ export default {
       info: () =>
          SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
             ? [ '<32>{#p/human}* （16 HP。）' ]
-            : [ '<32>{#p/basic}* \"Spaghetti\" Heals 16 HP\n* Silken spaghetti, finely aged in a time dilation unit.' ],
+            : [ '<32>{#p/basic}* 「義大利麵」 回復16 HP\n* 絲般柔滑的意面，\n  在時間膨脹單元之中精細陳化。' ],
       name: '義大利麵',
       use: () => [
          '<32>{#p/human}* （你吃光了義大利麵。）',
@@ -8144,7 +8144,7 @@ export default {
                     "<18>{#p/papyrus}{#f/9}我個人覺得，\n這真的很棒！",
                     "<18>{#p/papyrus}{#f/0}很高興能看到大家\n都在努力。",
                     '<18>{#p/papyrus}{#f/4}至於我兄弟，就...',
-                    "<18>{#p/papyrus}{#f/4}他覺得那幫傢伙\n都是在白{@fill=#ff0}月{@fill=#fff}做夢。"
+                    "<18>{#p/papyrus}{#f/4}他覺得那幫傢伙\n都是在白「月」做夢。"
                  ]
                : [
                     '<18>...',
@@ -9229,7 +9229,7 @@ export default {
       f_quiche: pager.create(
          0,
          () => [
-            '<18>{#p/papyrus}{#f/5}我哥哥前幾天\n來過這裡...',
+            '<18>{#p/papyrus}{#f/5}我兄弟前幾天\n來過這裡...',
             '<18>{#p/papyrus}{#f/5}說他得送點\n東西過來。',
             '<18>{#p/papyrus}{#f/5}我問他要送什麼，\n他給了我一個挑戰...',
             '<18>{#p/papyrus}{#f/4}說要讓我想\n一{@fill=#ff0}支世{@fill=#fff}俗的笑話。',
@@ -9442,7 +9442,7 @@ export default {
       f_telescope: pager.create(
          0,
          () => [
-            '<18>{#p/papyrus}{#f/0}我哥哥在這裡經營\n望遠鏡生意。',
+            '<18>{#p/papyrus}{#f/0}我兄弟在這裡經營\n望遠鏡生意。',
             '<18>{#p/papyrus}{#f/5}訂閱、會員、\n註冊、開券...',
             "<18>{#p/papyrus}{#f/6}這是個無窮無盡的\n條款和條件的迷宮！",
             ...(solo()

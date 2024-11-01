@@ -666,7 +666,7 @@ export default {
               ]
             : [
                  '<32>{#p/basic}* Gah!\n* Why would you EVER do that!?',
-                 "<32>* 你知道我是谁吗！？！？\n* 你刚才抱的那个人可是有接触恐惧症的！！！！",
+                 "<32>* 你知道我是谁吗！？！？\n* 你刚才抱的那个人\n  可是有接触恐惧症的！！！！",
                  "<32>* Guooohh, you're gonna PAY."
               ],
       dummy1a: () =>
@@ -1333,7 +1333,7 @@ export default {
          b: () => [
             '酷炫骷髅95',
             '酷炫骷髅95',
-            SAVE.data.n.plot === 72 ? '_舟亢忝洐_' : '_摋掱亾耦_',
+            SAVE.data.n.plot === 72 ? '_舟亢忝行_' : '_杀手亾耦_',
             '艾菲斯',
             '懒骨.',
             '（游客）'
@@ -2450,7 +2450,7 @@ export default {
                     ]
                   : [
                        '<32>{#p/basic}{#npc/a}* 瞧瞧咱俩新建的桥。',
-                       '<32>* 我的Longsy觉得\n  这肯定能打动国王的...',
+                       '<32>* 我和Longsy觉得\n  这肯定能打动国王的...',
                        "<32>* It needs to be if we're going to work alongside him!"
                     ],
             () =>
@@ -2711,30 +2711,30 @@ export default {
               ],
       secretcallA: [
          '<32>{#s/phone}{#p/event}* 铃铃，铃铃...',
-         '<18>{#p/papyrus}{#f/9}PSST, THIS IS PAPYRUS!',
-         '<18>{#f/0}AT THE MOMENT, I AM STILL HIDING IN MY SAFE PLACE.',
-         "<18>{#f/4}I HOPE YOU'RE NOT GETTING INTO TROUBLE...",
-         '<18>{#f/4}BECAUSE IF YOU ARE...',
-         "<19>{#f/9}I'D HAVE TO COME OVER THERE AND DO SOMETHING ABOUT IT!",
-         "<18>{#f/6}... WHICH I CAN'T DO, BECAUSE OF THE CURRENT SITUATION.",
-         "<18>{#f/7}SO DON'T GET INTO ANY TROUBLE!",
+         '<18>{#p/papyrus}{#f/9}嘘，我是帕派瑞斯！',
+         '<18>{#f/0}这会我还在安全的地方，\n藏得好好的！',
+         "<18>{#f/4}希望你没碰上麻烦...",
+         '<18>{#f/4}要是真碰上了...',
+         "<19>{#f/9}我可不能继续躲着，\n袖手旁观了！",
+         "<18>{#f/6}...好吧，眼下我\n咋都不该出去。",
+         "<18>{#f/7}所以你要\n离麻烦远远的！",
          '<18>{#f/5}...',
          '<18>{#f/5}PAPYRUS OUT...',
          '<32>{#s/equip}{#p/event}* 滴...'
       ],
       secretcallB: [
          '<32>{#s/phone}{#p/event}* 铃铃，铃铃...',
-         "<18>{#p/papyrus}{#f/0}PSST, IT'S PAPYRUS AGAIN.",
-         '<18>{#f/5}WOWIE... IT MUST BE GETTING LATE BY NOW.',
-         '<18>{#f/6}ARE YOU WELL?\nHAS ANYONE ELSE BEEN... KILLED?',
-         '<18>{#f/5}THESE ARE THE QUESTIONS I ASK MYSELF EVERY DAY.',
-         "<18>{#f/4}GRANTED, I'VE ONLY BEEN IN HIDING FOR A SHORT TIME.",
-         '<18>{#f/7}BUT STILL!!!',
+         "<18>{#p/papyrus}{#f/0}嘘，还是我，帕派瑞斯。",
+         '<18>{#f/5}哇哦... 这会肯定不早了。',
+         '<18>{#f/6}你还好吗？\n有没有人... 死了？',
+         '<18>{#f/5}每天我都得琢磨琢磨\n这俩问题。',
+         "<18>{#f/4}虽说我也没躲在这多久。",
+         '<18>{#f/7}话说回来！！！',
          '<18>{#f/5}...',
-         '<18>{#f/4}... YOU MUST BE NEARLY OUT OF THE FOUNDRY BY NOW.',
-         '<18>{#f/5}I WISH I COULD DO MORE TO HELP, BUT ALAS...',
-         '<18>{#f/3}IT WOULD BE UNSAFE FOR ME TO RETURN RIGHT NOW.',
-         "<18>{#f/9}S-STILL!!!\nI KNOW YOU WON'T LET ME DOWN!",
+         '<18>{#f/4}...我估摸着\n你离铸厂出口不远了。',
+         '<18>{#f/5}唉，我很想帮你，\n可是...',
+         '<18>{#f/3}现在出来恐怕\n自身都难保。',
+         "<18>{#f/9}不-不过！！！\n你肯定不会让我失望的！",
          '<18>{#f/5}...',
          '<18>{#f/5}PAPYRUS OUT...',
          '<32>{#s/equip}{#p/event}* 滴...'
@@ -2766,7 +2766,7 @@ export default {
          [ '<25>{#p/sans}{#f/2}* keep it up, and i might even take you out for dinner.' ]
       ),
       spookydate0y: [
-         "<32>{#p/basic}* Snas的后脑勺上\n  画着一双眼睛。",
+         "<32>{#p/basic}* 衫斯的后脑勺上\n  画着一双眼睛。",
          "<32>{#p/basic}* 感觉不太可靠的样子。"
       ],
       spookydate0z: [
@@ -3202,7 +3202,7 @@ export default {
                     "<32>* 这幅画有点让人不安。",
                     ...(world.goatbro && SAVE.flag.n.ga_asrielDrawing++ < 1
                        ? [
-                            "<25>{#p/asriel2}{#f/5}* Look, $(name)!\n* It's us!\n* ... sort of.",
+                            "<25>{#p/asriel2}{#f/5}* $(name)，快看呐！\n* 这画的是咱们！\n* ...大概算吧。",
                             '<26>{#f/4}* ... is that really how they think we looked?'
                          ]
                        : [])
@@ -5292,7 +5292,7 @@ export default {
          '<33>{#p/story}* 刷洁顿 - 攻击 18 防御 5\n* 这个卑微的细菌恐惧症患者\n  想要回家清洗伤口。'
       ],
       act_check3: [
-         '<32>{#p/story}* SKRUBBINGTON - ATK 18 DEF 5\n* One wheel closer to a cleaner future for monsterkind.'
+         '<32>{#p/story}* 刷洁顿 - ATK 18 DEF 5\n* 距离未来的洁净怪物种族只有一爪之遥。'
       ],
       act_check4: [
          "<32>{#p/story}* 刷洁顿 - ATK 18 DEF 5\n* 这个卑微的细菌恐惧症患者\n  的爱情故事像肥皂一样。"
@@ -5309,17 +5309,17 @@ export default {
       idleTalk1c: [ '<08>{#p/basic}{~}清洗你的脸' ],
       idleTalk1d: [ '<08>{#p/basic}{~}清洗你的头发' ],
       idleTalk1e: [ '<08>{#p/basic}{~}清洗你的脚' ],
-      idleTalk2a: [ '<08>{#p/basic}{~}Skrub a dub-dubs' ],
-      idleTalk2b: [ '<08>{#p/basic}{~}Oops, I meant..\nSkrub a sub-SUBS' ],
-      idleTalk2c: [ '<08>{#p/basic}{~}Skrub a sub-subs' ],
+      idleTalk2a: [ '洗漱漱' ],
+      idleTalk2b: [ '<08>{#p/basic}{~}哦，我是说...\n洗刷刷' ],
+      idleTalk2c: [ '洗刷刷' ],
       idleTalk3: () =>
-         world.trueKills > 0 ? [ '<08>{#p/basic}{~}Your SOUL is unclean.' ] : [ '<08>{#p/basic}{~}\x00*吹着\n口哨*' ],
-      cleanTalk: [ '<08>{#p/basic}{~}Green means clean' ],
-      jokeTalk1: [ "<08>{#p/basic}{~}NO. THAT JOKE'S TOO.. DIRTY" ],
-      jokeTalk2: [ "<08>{#p/basic}{~}EUGH.. I CAN'T BELIEVE THIS" ],
+         world.trueKills > 0 ? [ '<08>{#p/basic}{~}你的灵魂\n不太干净。' ] : [ '<08>{#p/basic}{~}\x00*吹着\n口哨*' ],
+      cleanTalk: [ '<08>{#p/basic}{~}绿色即为干净' ],
+      jokeTalk1: [ "<08>{#p/basic}{~}不。\n那个笑话太...\n污了。" ],
+      jokeTalk2: [ "<08>{#p/basic}{~}呃...\n难以置信..." ],
       randStatus1: () =>
          world.kiddo && SAVE.data.n.state_foundry_muffet !== 1
-            ? [ '<32>{#p/kidding}* Look at the little bird!' ]
+            ? [ '<32>{#p/kidding}* 看那只小鸟！' ]
             : [ '<32>{#p/story}* 刷洁顿和一只小鸟交了朋友。' ],
       randStatus2: () =>
          world.kiddo && SAVE.data.n.state_foundry_muffet !== 1
@@ -5341,9 +5341,9 @@ export default {
          world.kiddo && SAVE.data.n.state_foundry_muffet !== 1
             ? [ '<32>{#p/kidding}* 一切... 还好吗？' ]
             : [ '<32>{#p/story}* 刷洁顿讨厌自己的伤口。' ],
-      jokeText1: [ '<32>{#p/human}* (You tell a joke about a rusty piece of space junk.)' ],
+      jokeText1: [ '<32>{#p/human}* (你讲了一个关于生锈的\n  太空垃圾的笑话。)' ],
       jokeText2: [ '<32>{#p/human}* （你拿大气污染打趣刷洁顿。）' ],
-      jokeText3: [ '<32>{#p/human}* (You tell a joke about two starships that got stuck in a trash barge.)' ],
+      jokeText3: [ '<32>{#p/human}* (你讲了一个关于两艘飞船困在\n  垃圾运输船中的笑话。)' ],
       touchText0: [
          '<32>{#p/human}* （你友好地摸了摸刷洁顿。）',
          "<32>{#p/basic}* 刷洁顿实在受不了你那\n  黏糊糊的手，于是跑掉了！"
@@ -5401,7 +5401,7 @@ export default {
       idleTalk1: [ '<08>{#p/basic}{~}Guoooh!' ],
       idleTalk2: [ '<08>{#p/basic}{~}\x00*黏液的声音*' ],
       idleTalk3: [ '<08>{#p/basic}{~}吼。' ],
-      idleTalk4: [ '<08>{#p/basic}{~}\x00*e急切地扭动*' ],
+      idleTalk4: [ '<08>{#p/basic}{~}\x00*急切地\n扭动*' ],
       randStatus1: () =>
          world.goatbro
             ? [ '<32>{#p/asriel2}* 大黏簇。' ]
@@ -5676,12 +5676,12 @@ export default {
          world.kiddo && SAVE.data.n.state_foundry_muffet !== 1
             ? [ '<32>{#p/kidding}* I wonder what his face looks like.' ]
             : [ '<32>{#p/story}* Smells like an old skatepark.' ],
-      idleTalk1: [ '<08>{#p/basic}{~}Check it.' ],
+      idleTalk1: [ '<08>{#p/basic}{~}“查看”一下\n试试嘛。' ],
       idleTalk2: [ '<08>{#p/basic}{~}Take a looksie.' ],
       idleTalk3: [ '<08>{#p/basic}{~}Sneak a peek..' ],
       idleTalk4: [ '<08>{#p/basic}{~}Give it a gaze..' ],
       insultIdleTalk1: [ '<08>{#p/basic}{~}Meh.' ],
-      insultIdleTalk2: [ '<08>{#p/basic}{~}Whatever.' ],
+      insultIdleTalk2: [ '<08>{#p/basic}{~}随你便。' ],
       insultIdleTalk3: [ '<09>{#p/basic}{~}\x00*shrugs*' ],
       insultIdleTalk4: [ '<08>{#p/basic}{~}Very un- cool.' ],
       act_praise: [ "<32>{#p/human}* (You tell Radtile he's as cool as a quantum cucumber.)" ],
@@ -5781,7 +5781,7 @@ export default {
          '<32>{#p/basic}* 飞回来的扳手直接\n  正中你的脑门！',
          '<32>{#p/story}* 你的移速下降了！',
          ...(world.goatbro && SAVE.flag.n.ga_asrielSpanner++ < 1
-            ? [ "<32>{#p/asriel2}* Maybe don't try that again." ]
+            ? [ "<32>{#p/asriel2}* 别耍那玩意了。" ]
             : [])
       ],
       fetchTextEpic: [
@@ -6400,7 +6400,7 @@ export default {
       act_check: () =>
          world.genocide
             ? SAVE.flag.n.azzy_assist < 2
-               ? [ '<32>{#p/asriel2}* Undyne.\n* Still not dead...?' ]
+               ? [ '<32>{#p/asriel2}* 安黛因。\n* ...咋还不死？' ]
                : [ "<32>{#p/asriel2}* 安黛因。\n* 发什么呆？快去攻击她啊！" ]
             : helmetdyne()
             ? [ '<32>{#p/story}* 安黛因 - 攻击40 防御100\n* 皇家卫队队长。\n* 冷酷无情。' ]
@@ -6897,7 +6897,7 @@ export default {
       death6: () => [
          '<20>{#p/undyne}{#e/undyne/44}不...\n不！',
          '<20>{#e/undyne/34}还没完！',
-         "<20>{#e/undyne/48}我不能死！"
+         "<20>{#e/undyne/48}我不会死！"
       ],
       death7: [ '<20>{*}{#p/undyne}{#i/8}{@random=1.1/1.1}嘎啊啊啊啊！！！{^10}{%}' ],
       death8a: [ "<20>{*}{#p/undyne}{#i/5}{#v/1}{@random=1.1/1.1}我不会死！{^15}{%}" ],
@@ -7794,7 +7794,7 @@ export default {
       menuPrompt1: () =>
          SAVE.data.n.plot === 72
             ? '<23>{#p/basic}{#k/0}* 哇哈哈！\n* 我果然没看错你！'
-            : "<23>{#p/basic}{#k/0}* 瞧一瞧，看一看！\n* 我这里有好多物美价廉的废品\n  正在大甩卖！",
+            : "<23>{#p/basic}{#k/0}* 瞧一瞧，看一看！\n* 我这里有好多\n  物美价廉的废品\n  正在大甩卖！",
       menuPrompt2: () =>
          SAVE.data.n.plot === 72 ? '<23>{#p/basic}{#k/0}* 哇哈哈。' : "<23>{#p/basic}{#k/0}* 别见外哦。",
       menuPrompt3: () =>
@@ -7915,7 +7915,7 @@ export default {
                : [
                     [
                        "<32>{#p/basic}{#k/0}* 我已经活了很久了。\n* 也许太久了。",
-                       '<32>{#k/3}* 想当年，\n  人们称我为“正义之剑”。',
+                       '<32>{#k/3}* 想当年，\n  人们称我为“正义之刃”。',
                        '<32>{#k/2}* 那时，\n  我还是行星理事会的主席。',
                        "<32>{#k/1}* ...要不是那场该死的战争，\n  我今天可能还在那个位置上。"
                     ],

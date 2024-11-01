@@ -464,8 +464,8 @@ export default {
                name: 'OCULOUX',
                author: 'ScarletScaledDragon',
                text: {
-                  basic: 'Un Poco\nBully',
-                  spare: 'Bully\nReformado',
+                  basic: 'Un Poco\nBravucón',
+                  spare: 'Bravucón\nReformado',
                   flirt: 'Un Poco\nCoqueto',
                   bully: ''
                }
@@ -754,7 +754,7 @@ export default {
                name: 'EYEWALKER PRIME',
                author: 'semi',
                text: {
-                  basic: 'Aún Un\nGran Acosador',
+                  basic: 'Aún Un\nGran Bravucón',
                   spare: 'Dominador\nDoctor De Ojos',
                   flirt: 'Sastre De Cuero\nDominante',
                   bully: 'Derrocado Por\nUn Oculoux'
@@ -1011,8 +1011,8 @@ export default {
       stat7: 'SIG',
       stat8: '§fill=#ff0§Advertencia:\nLínea temporal\nno canónica.',
       stat9: 'MUERTES',
-      stat10: 'ACOSO',
-      stat11: 'COQUETEO',
+      stat10: 'BRAVUCÓN',
+      stat11: 'COQUETO',
       stat12: 'ESTADO',
       stat13: '\"$(x)\"',
 
