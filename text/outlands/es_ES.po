@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-22 03:29+0000\n"
-"PO-Revision-Date: 2024-11-01 04:17+0000\n"
+"PO-Revision-Date: 2024-11-01 05:17+0000\n"
 "Last-Translator: Stefano <stefanobuendia@hotmail.com>\n"
 "Language-Team: Spanish <https://ws3917.site/projects/project-spacetime/"
 "1-outlands/es/>\n"
@@ -5918,108 +5918,127 @@ msgstr "<32>* Quien diga lo contrario es un farsante, ¿me entiendes? ;)"
 
 msgid "<32>* That being said, why don'tcha check out what's for sale? ;)"
 msgstr ""
+"<32>* Dicho esto, ¿por qué no echas un vistazo a lo que está a la venta? ;)"
 
 msgid "<32>{#p/basic}{#n1}* Why don'tcha check out what's for sale? ;)"
 msgstr ""
+"<32>{#p/basic}{#n1}* ¿Por qué no echas un vistazo a lo que está a la venta? "
+";)"
 
 msgid "<32>{#p/basic}{#n1}* Thanks for everything, lassy ;)"
-msgstr ""
+msgstr "<32>{#p/basic}{#n1}* Gracias por todo, joven ;)"
 
 msgid "<32>{#p/basic}{#n1!}* \"Sizzli Steak\" for 40G."
-msgstr ""
+msgstr "<32>{#p/basic}{#n1!}* \"Filete Sizzli\" por 40 de Oro."
 
 msgid ""
 "<32>{#p/basic}{#n1!}* It's labelled \"Sizzli Steak\" and costs 40G.\n"
 "* Smells like ultra-hyperbole."
 msgstr ""
+"<32>{#p/basic}{#n1!}* Está etiquetado como \"Filete Sizzli\" y cuesta 40 de "
+"Oro.\n"
+"* Huele como a una ultra hipérbole."
 
 msgid "<32>{#p/basic}{#n1!}* \"Sizzli Steak\" for 20G."
-msgstr ""
+msgstr "<32>{#p/basic}{#n1!}* \"Filete Sizzli\" por 20 de Oro."
 
 msgid ""
 "<32>{#p/basic}{#n1!}* It's labelled \"Sizzli Steak\" and costs 20G.\n"
 "* Smells like hyperbole."
 msgstr ""
+"<32>{#p/basic}{#n1!}* Está etiquetado como \"Filete Sizzli\" y cuesta 20 de "
+"Oro.\n"
+"* Huele como a una hipérbole."
 
 msgid "* (Buy the Sizzli Steak for 40G?)"
-msgstr ""
+msgstr "* (¿Comprar el Filete Sizzli por 40 de Oro?)"
 
 msgid "* (Buy the Sizzli Steak for 20G?)"
-msgstr ""
+msgstr "* (¿Comprar el Filete Sizzli por 20 de Oro?)"
 
 msgid "<32>{#p/human}{#n1!}* (You got the Sizzli Steak.)"
-msgstr ""
+msgstr "<32>{#p/human}{#n1!}* (Obtuviste el Filete Sizzli.)"
 
 msgid "<32>{#p/basic}{#n1}* Slick choice, lassy ;)"
-msgstr ""
+msgstr "<32>{#p/basic}{#n1}* Buena elección, joven ;)"
 
 msgid "<32>{#p/human}{#n1!}* (You decide not to buy.)"
-msgstr ""
+msgstr "<32>{#p/human}{#n1!}* (Decidiste no comprarlo.)"
 
 msgid "<32>{#p/basic}{#n1!}* \"Fizzli Soda\" for 10G."
-msgstr ""
+msgstr "<32>{#p/basic}{#n1!}* \"Soda Fizzli\" por 10 de Oro."
 
 msgid ""
 "<32>{#p/basic}{#n1!}* It's labelled \"Fizzli Soda\" and costs 10G.\n"
 "* Who would EVER buy this?"
 msgstr ""
+"<32>{#p/basic}{#n1!}* Está etiquetado como \"Soda Fizzli\" y cuesta 10 de "
+"Oro.\n"
+"* ¿Quién compraría esto?"
 
 msgid "<32>{#p/basic}{#n1!}* \"Fizzli Soda\" for 5G."
-msgstr ""
+msgstr "<32>{#p/basic}{#n1!}* \"Soda Fizzli\" por 5 de Oro."
 
 msgid ""
 "<32>{#p/basic}{#n1!}* It's labelled \"Fizzli Soda\" and costs 5G.\n"
 "* Who would buy this?"
 msgstr ""
+"<32>{#p/basic}{#n1!}* Está etiquetado como \"Soda Fizzli\" y cuesta 5 de Oro."
+"\n"
+"* ¿Quién compraría esto?"
 
 msgid "* (Buy the Fizzli Soda for 10G?)"
-msgstr ""
+msgstr "* (¿Comprar la Soda Fizzli por 10 de Oro?)"
 
 msgid "* (Buy the Fizzli Soda for 5G?)"
-msgstr ""
+msgstr "* (¿Comprar la Soda Fizzli por 5 de Oro?)"
 
 msgid "<32>{#p/human}{#n1!}* (You got the Fizzli Soda.)"
-msgstr ""
+msgstr "<32>{#p/human}{#n1!}* (Obtuviste la Soda Fizzli.)"
 
 msgid "<32>{#p/basic}{#n1}* Careful, it's sweet ;)"
-msgstr ""
+msgstr "<32>{#p/basic}{#n1}* Con cuidado, es dulce ;)"
 
 msgid "<32>{#p/basic}{#n1}* Not enough money, huh? ;)"
-msgstr ""
+msgstr "<32>{#p/basic}{#n1}* ¿Sin dinero suficiente, eh? ;)"
 
 msgid ""
 "<32>{#p/basic}* That's alright, lassy ;)\n"
 "* Not everyone can afford the \"premium\" ingredients ;)"
 msgstr ""
+"<32>{#p/basic}* Esta bien, joven;)\n"
+"* No todos pueden comprar los ingredientes \"premium\" ;)"
 
 msgid ""
 "<32>{#p/basic}* That's alright, lassy ;)\n"
 "* Just be sure to come back when you've got some ;)"
 msgstr ""
+"<32>{#p/basic}* Esta bien, joven ;)\n"
+"* Sólo asegúrate de volver cuando tengas algo ;)"
 
 msgid "<32>{#p/basic}{#n1}* Maybe you should come back later ;)"
-msgstr ""
+msgstr "<32>{#p/basic}{#n1}* Tal vez deberías de regresar más tarde ;)"
 
 msgid "<32>{#p/basic}{#n1}* By the way, we're outta stock ;)"
-msgstr ""
+msgstr "<32>{#p/basic}{#n1}* Por cierto, se nos agotaron ;)"
 
 msgid "<32>* Seems you can't get enough of our stuff ;)"
-msgstr ""
+msgstr "<32>* Parece que no puedes tener suficiente de nuestras cosas ;)"
 
 msgid "<32>* Say, if- no, when you meet the boss-man... tell him this ;)"
-msgstr ""
+msgstr "<32>* Dime, si... no, cuando te encuentres con el jefe... dile esto ;)"
 
 msgid "<32>{#p/human}{#n1!}* (Aaron whispered something in your ear.)"
-msgstr ""
+msgstr "<32>{#p/human}{#n1!}* (Aaron susurro algo en tu oido.)"
 
 msgid "<32>{#p/basic}{#n1}* Good luck out there, lassy ;)"
-msgstr ""
+msgstr "<32>{#p/basic}{#n1}* Buena suerte ahí fuera, joven ;)"
 
 msgid "<32>{#p/basic}* Later..."
-msgstr ""
+msgstr "<32>{#p/basic}* Después..."
 
 msgid "<32>{#p/napstablook}* hey everyone..."
-msgstr ""
+msgstr "<32>{#p/napstablook}* Oigan todos..."
 
 msgid "<32>* this is a little tune i wrote a while ago..."
 msgstr ""
