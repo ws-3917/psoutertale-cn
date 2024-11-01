@@ -1,6 +1,21 @@
-#
+#, fuzzy
 msgid ""
 msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-11-01 23:17+0000\n"
+"PO-Revision-Date: 2024-11-01 23:17+0000\n"
+"Last-Translator: Chistosito <souzadecarvalhofabio1@gmail.com>\n"
+"Language-Team: Spanish <https://ws3917.site/projects/project-spacetime/"
+"3-foundry/es/>\n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: ENCODING\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.8.1\n"
+
+#
 
 msgid "<32>{#p/basic}* ..."
 msgstr "<32>{#p/basic}* ..."
@@ -203,9 +218,10 @@ msgstr "<32>{#e/maddummy/0}* Pero eso ya soy yo."
 
 msgid "<32>{#p/human}* (You feel the nearby monster presence dwindling.)"
 msgstr ""
+"<32>{#p/human}* (Sientes que disminuye la presencia de monstruos cercanos.)"
 
 msgid "<32>{#p/human}* (But there was nothing left for you to do here.)"
-msgstr ""
+msgstr "<32>{#p/human}* (Pero ya no te quedaba nada que hacer aquí.)"
 
 msgid "<32>{#p/basic}{#npc/a}* The grass is fading faster than I had thought."
 msgstr ""
@@ -414,86 +430,97 @@ msgstr ""
 "* (No pasa nada.)"
 
 msgid "<32>{#p/human}* (You can't make out what's in the box...)"
-msgstr ""
+msgstr "<32>{#p/human}* (No puedes ver lo que hay en la caja...)"
 
 msgid "* (Take something out?)"
-msgstr ""
+msgstr "* (¿Sacar algo?)"
 
 msgid "<32>{#p/basic}* There are three portions of Space Tofu in the box."
-msgstr ""
+msgstr "<32>{#p/basic}* Hay tres porciones de Tofu Espacial en la caja."
 
 msgid "* (Take one?)"
-msgstr ""
+msgstr "* (¿Cojer una?)"
 
 msgid "<32>{#p/basic}* There are two portions of Space Tofu left in the box."
-msgstr ""
+msgstr "<32>{#p/basic}* Hay dos porciones de Tofu Espacial en la caja."
 
 msgid "<32>{#p/basic}* There is one portion of Space Tofu left in the box."
-msgstr ""
+msgstr "<32>{#p/basic}* Hay una porción de Tofu Espacial en la caja."
 
 msgid "* (Take it?)"
-msgstr ""
+msgstr "* (¿Cogerla?)"
 
 msgid "<32>{#p/human}* (You got the Space Tofu.)"
-msgstr ""
+msgstr "<32>{#p/human}* (Conseguiste Tofu Espacial.)"
 
 msgid "<32>{#p/human}* (You're carrying too much.)"
-msgstr ""
+msgstr "<32>{#p/human}* (Llevas demasiado.)"
 
 msgid "<32>{#p/human}* (You decide not to take anything.)"
-msgstr ""
+msgstr "<32>{#p/human}* (Decides no tomar nada.)"
 
 msgid "<32>{#p/human}* (But you couldn't find anything inside.)"
-msgstr ""
+msgstr "<32>{#p/human}* (Pero no pudiste encontrar nada dentro.)"
 
 msgid "<32>{#p/basic}* The box is empty."
-msgstr ""
+msgstr "<32>{#p/basic}* La caja está vacía."
 
 msgid "<32>{#p/basic}* This small bird wants to carry you across the gap."
 msgstr ""
+"<32>{#p/basic}* Este pequeño pájaro quiere llevarte a través del agujero."
 
 msgid "* (Accept the bird's offer?)"
-msgstr ""
+msgstr "* (¿Aceptar la oferta del pájaro?)"
 
 msgid ""
 "<32>{#p/napstablook}* oh...\n"
 "* hi there..."
 msgstr ""
+"<32>{#p/napstablook}* oh...\n"
+"* hola..."
 
 msgid ""
 "<32>* sorry, i...\n"
 "* wasn't expecting you to follow me here."
 msgstr ""
+"<32>* perdón, yo...\n"
+"* no esperaba que me siguieras hasta aquí."
 
 msgid ""
 "<32>* uh...\n"
 "* make yourself at home...?"
 msgstr ""
+"<32>* eh...\n"
+"* como si estuvieras en casa...?"
 
 msgid ""
 "<32>{#p/napstablook}* oh...\n"
 "* you actually came..."
 msgstr ""
+"<32>{#p/napstablook}* oh...\n"
+"* has venido..."
 
 msgid ""
 "<32>* sorry, i...\n"
 "* wasn't expecting that."
 msgstr ""
+"<32>* perdón, yo...\n"
+"* no me lo esperaba."
 
 msgid "<32>* it's not much, but make yourself at home."
-msgstr ""
+msgstr "<32>* no es mucho, pero como si estuvieras en casa."
 
 msgid "<32>{#p/napstablook}* oh... you want my food..."
-msgstr ""
+msgstr "<32>{#p/napstablook}* oh... quieres mi comida..."
 
 msgid "<32>* let me see what i have..."
-msgstr ""
+msgstr "<32>* déjame ver que tengo..."
 
 msgid "<32>{#p/napstablook}* okay, so..."
-msgstr ""
+msgstr "<32>{#p/napstablook}* vale, entonces..."
 
 msgid "<32>* let me show you what's in the fridge"
-msgstr ""
+msgstr "<32>* déjame enseñarte que hay en la nevera"
 
 msgid "<32>{#p/napstablook}* are you hungry?"
 msgstr ""
