@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-22 03:29+0000\n"
-"PO-Revision-Date: 2024-11-01 01:17+0000\n"
+"PO-Revision-Date: 2024-11-01 04:17+0000\n"
 "Last-Translator: Stefano <stefanobuendia@hotmail.com>\n"
 "Language-Team: Spanish <https://ws3917.site/projects/project-spacetime/"
 "1-outlands/es/>\n"
@@ -5902,19 +5902,19 @@ msgid "<32>* You could say we're expanding our enterprise ;)"
 msgstr "<32>* Podrías decir que estamos expandiendo nuestra empresa ;)"
 
 msgid "<32>* What's our enterprise, you ask? ;)"
-msgstr ""
+msgstr "<32>* ¿Cuál es nuestra empresa, te preguntaras?;)"
 
 msgid "<32>* Well, it's quite simple really... we sell steak ;)"
-msgstr ""
+msgstr "<32>* Bueno, en realidad es muy sencillo... vendemos filetes ;)"
 
 msgid "<32>* And this ain't the replicated stuff, aw naw ;)"
-msgstr ""
+msgstr "<32>* Y esto no es material replicado, aw naw ;)"
 
 msgid "<32>* This stuff is REAL, yo ;)"
-msgstr ""
+msgstr "<32>* Esta cosa es REAL, amigo ;)"
 
 msgid "<32>* Anyone who says otherwise is a poser, ya feel me? ;)"
-msgstr ""
+msgstr "<32>* Quien diga lo contrario es un farsante, ¿me entiendes? ;)"
 
 msgid "<32>* That being said, why don'tcha check out what's for sale? ;)"
 msgstr ""
