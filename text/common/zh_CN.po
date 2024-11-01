@@ -1,17 +1,16 @@
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-11-01 15:17+0000\n"
 "PO-Revision-Date: 2024-11-01 15:17+0000\n"
-"Last-Translator: WS-3917 <ws3917@outlook.com>\n"
+"Last-Translator: MurderSans_MDR <z127568254@163.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://ws3917.site/projects/"
 "project-spacetime/6-common/zh_Hans/>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: ENCODING\n"
+"Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 5.8.1\n"
 
@@ -12184,7 +12183,7 @@ msgid "<32>{#p/story}* The dummy looks like it's already getting bored."
 msgstr "<32>{#p/story}* 人偶看起来有些厌倦了。"
 
 msgid "<32>{#p/story}* The dummy looks like it's lost in itself."
-msgstr "<32>{#p/story}* 人偶呆在那，不知在想些啥。"
+msgstr "<32>{#p/story}* 人偶呆在那，不知在想些啥。ゑ"
 
 msgid "<32>{#p/story}* The dummy looks like it's going to fall over."
 msgstr "<32>{#p/story}* 人偶差点要倒下了。"
