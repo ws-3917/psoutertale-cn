@@ -544,11 +544,11 @@ def process_language_assets(lang):
 
         # 复制 sources 和 index 文件
         shutil.copy(
-            f"{SRC_PATH}/languages/en_US/index.ts",
+            f"{TRANS_PATH}/assets/index.ts",
             f"{SRC_PATH}/languages/{lang}/index.ts",
         )
         shutil.copy(
-            f"{SRC_PATH}/languages/en_US/sources.ts",
+            f"{TRANS_PATH}/assets/sources.ts",
             f"{SRC_PATH}/languages/{lang}/sources.ts",
         )
 
@@ -564,11 +564,11 @@ def process_language_assets(lang):
 
             # 复制额外的 sources 和 index 文件
             shutil.copy(
-                f"{SRC_PATH}/languages/en_US/index-alt.ts",
+                f"{TRANS_PATH}/assets/index-alt.ts",
                 f"{SRC_PATH}/languages/{lang}/index-alt.ts",
             )
             shutil.copy(
-                f"{SRC_PATH}/languages/en_US/sources-alt.ts",
+                f"{TRANS_PATH}/assets/sources-alt.ts",
                 f"{SRC_PATH}/languages/{lang}/sources-alt.ts",
             )
 

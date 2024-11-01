@@ -42,12 +42,12 @@ cd app/dist/assets
 # zip -qr9 ../web.zip *
 
 # unx.zip
-# echo creating unx.zip
-# cd ../linux-unpacked
-# rm -f resources/app.asar
-# cp ../app.asar resources/app.asar
-# rm -f ../unx.zip
-# zip -qr9 ../unx.zip *
+echo creating unx.zip
+cd ../linux-unpacked
+rm -f resources/app.asar
+cp ../app.asar resources/app.asar
+rm -f ../unx.zip
+zip -qr9 ../unx.zip *
 
 # win.zip
 echo creating win.zip
