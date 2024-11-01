@@ -1,22 +1,20 @@
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-11-01 17:17+0000\n"
-"PO-Revision-Date: 2024-11-01 17:17+0000\n"
+"PO-Revision-Date: 2024-11-01 18:17+0000\n"
 "Last-Translator: Stefano <stefanobuendia@hotmail.com>\n"
 "Language-Team: Spanish <https://ws3917.site/projects/project-spacetime/"
 "1-outlands/es/>\n"
 "Language: es_ES\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: ENCODING\n"
+"Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 5.8.1\n"
 
 #
-
 msgid ""
 "<25>{#p/toriel}{#f/1}* I hear there is a certain kind of fluid in "
 "Aerialis..."
@@ -6161,6 +6159,8 @@ msgid ""
 "<32>{#p/alphys}* The Foundry's fluid network has been repaired, thanks to "
 "our... v-very kind workers."
 msgstr ""
+"<32>{#p/alphys}* La red de fluidos de la Fabrica ha sido reparada, gracias a "
+"nuestros... m-muy amables trabajadores."
 
 msgid "<32>* On an unrelated note, we're... l-looking for new workers."
 msgstr ""
@@ -6168,61 +6168,68 @@ msgstr ""
 
 msgid "<32>{#p/alphys}* The Foundry's fluid network is f-falling apart again."
 msgstr ""
+"<32>{#p/alphys}* La red de fluidos de la Fabrica vuelve a d-desmoronarse."
 
 msgid ""
 "<32>* The workers have promised a short turnaround, but things are looking "
 "bleak."
 msgstr ""
+"<32>* Los trabajadores han prometido un cambio rápido, pero las cosas no se "
+"ven bien."
 
 msgid "<32>* Please, i-if anyone out there can help, we need you..."
 msgstr ""
+"<32>* Por favor, s-si alguien por ahí pudiera ayudar, los necesitamos..."
 
 msgid "<25>{#p/toriel}{#f/1}* Have you tried checking the terminal?"
-msgstr ""
+msgstr "<25>{#p/toriel}{#f/1}* ¿Ya intentaste revisar el terminal?"
 
 msgid ""
 "<25>{#p/toriel}{#f/1}* The password terminal is right over there, little "
 "one."
 msgstr ""
+"<25>{#p/toriel}{#f/1}* El contraseña del terminal está justo ahí, pequeño."
 
 msgid "<25>{#p/toriel}{#npc/a}{#f/2}* ...!"
-msgstr ""
+msgstr "<25>{#p/toriel}{#npc/a}{#f/2}* ¡...!"
 
 msgid "<25>{#f/5}* What are you doing out here, my ch..."
-msgstr ""
+msgstr "<25>{#f/5}* Que haces aquí fuera, mi ni..."
 
 msgid "<25>{#f/9}* ... child..."
-msgstr ""
+msgstr "<25>{#f/9}* ... niño..."
 
 msgid ""
 "<25>{#f/5}* I cannot care for you any longer, child.\n"
 "* Nor should I."
 msgstr ""
+"<25>{#f/5}* Ya no puedo cuidarte más, niño.\n"
+"* Tampoco debería."
 
 msgid "<25>{#f/5}* You have places to be, things to see..."
-msgstr ""
+msgstr "<25>{#f/5}* Tienes lugares donde deberías estar, cosas por ver..."
 
 msgid "<25>{#f/10}* Who am I to keep you from that?"
-msgstr ""
+msgstr "<25>{#f/10}* ¿Quién soy yo para impedírtelo?"
 
 msgid "<25>{#f/5}* Please, carry on without me..."
-msgstr ""
+msgstr "<25>{#f/5}* Por favor, sigue sin mi..."
 
 msgid "<25>{#f/1}* ... I know you can do the right thing..."
-msgstr ""
+msgstr "<25>{#f/1}* ... Sé que puedes hacer lo correcto..."
 
 msgid "<25>{#p/toriel}{#npc/a}{#f/5}* ... go on..."
-msgstr ""
+msgstr "<25>{#p/toriel}{#npc/a}{#f/5}* ... continua..."
 
 msgid "<25>{#p/asriel1}{#f/13}* Just leave me, Frisk..."
-msgstr ""
+msgstr "<25>{#p/asriel1}{#f/13}* Sólo déjame, Frisk..."
 
 msgid "<25>{#f/15}* I can't come back with you, okay?"
-msgstr ""
+msgstr "<25>{#f/15}* No puedo volver contigo, ¿esta bien?"
 
 msgid ""
 "<25>{#p/asriel1}{#f/16}* I don't want to break their hearts all over again."
-msgstr ""
+msgstr "<25>{#p/asriel1}{#f/16}* No quiero romperles el corazón otra vez."
 
 msgid "<25>{#f/13}* It's better if they never see me at all."
 msgstr ""
