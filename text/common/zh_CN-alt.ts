@@ -512,7 +512,7 @@ export default {
                      '<25>{#p/sans}{#f/0}* but by the time i got to the citadel...',
                      '<25>{#p/sans}{#f/3}* a power surge killed the humans in the archive as well.',
                      "<25>{#p/sans}{#f/3}* ... i'd never seen her in worse shape.",
-                     '<25>{#p/sans}{#f/0}* 但我相信，她肯定能挺过去的。',
+                     '<25>{#p/sans}{#f/0}* 但我相信，\n  她肯定能挺过去的。',
                      '<25>{#p/sans}{#f/2}* 毕竟我俩之前可是研究搭档，\n  我了解她。',
                      '<25>{#p/sans}{#f/0}* 所以，我坐在她身旁陪伴她。\n* 发生这些事，\n  她也需要时间慢慢恢复。',
                      "<26>{#p/sans}{#f/3}* 最终，她振作起来。\n  接任了艾斯戈尔的王位。",
@@ -1197,8 +1197,8 @@ export default {
                      '<25>{#p/sans}{#f/3}* 只是这次电池\n  变人类灵魂了。',
                      '<25>{#p/sans}{#f/0}* ...他一不小心就\n  吸收了那些灵魂...',
                      '<25>{#p/sans}{#f/3}* it was only because charles was just doing what it knew best.',
-                     '<25>{#p/sans}{#f/3}* i know.\n* it sounds bad.',
-                     '<25>{#p/sans}{#f/0}* without the human souls, how would we escape?',
+                     '<25>{#p/sans}{#f/3}* 真就挺倒霉的。',
+                     '<25>{#p/sans}{#f/0}* 没了人类灵魂，\n  我们还咋逃出去？',
                      '<25>{#p/sans}{#f/0}* but when that little mouse realized its new godlike power...',
                      "<25>{#p/sans}{#f/2}* it used that power to make everyone's dreams come true.",
                      '<18>{#p/papyrus}{#f/0}你好，人类！\n是我，伟大的帕派瑞斯！',
@@ -1207,8 +1207,8 @@ export default {
                      '<18>{#p/papyrus}{#f/4}FOR I HAVE BEEN RE-INCARNATED...',
                      '<18>{#p/papyrus}{#f/9}BY OUR ONE TRUE OVERLORD, KING CHARLES!!!',
                      "<25>{#p/sans}{#f/3}* ... so, as you can see, there's no reason for anyone to be sad.",
-                     '<25>{#p/sans}{#f/2}* who cares about leaving the outpost, am i right?',
-                     "<18>{#p/papyrus}{#f/0}YEAH, WE DON'T NEED TO SEE THE STARS!",
+                     '<25>{#p/sans}{#f/2}* 离开前哨站？\n  谁在乎呢，我没说错吧？',
+                     "<18>{#p/papyrus}{#f/0}没错，星星有啥好看的！",
                      "<18>{#p/papyrus}{#f/9}WE'RE LIVING OUT OUR BEST LIVES RIGHT HERE!",
                      '<25>{#p/sans}{#f/2}* my thoughts exactly.',
                      '<25>{#p/sans}{#f/0}* ... anyway, thanks for being the reason all of this happened.',
@@ -1235,7 +1235,7 @@ export default {
                   "<26>{#p/sans}{#f/3}* 好在，\n  皇家卫队火速赶往总控室，\n  稳住了核心。",
                   '<25>{#p/sans}{#f/0}* 与此同时，\n  艾菲斯给我打了电话，\n  让我一起帮忙。',
                   "<25>{#p/sans}{#f/3}* 我赶了过去。\n* 那时，她的精神很不稳定。",
-                  '<25>{#p/sans}{#f/0}* 但我相信，她肯定能挺过去的。',
+                  '<25>{#p/sans}{#f/0}* 但我相信，\n  她肯定能挺过去的。',
                   '<25>{#p/sans}{#f/2}* 毕竟我俩之前可是研究搭档，\n  我了解她。',
                   '<25>{#p/sans}{#f/0}* 所以，我坐在她身旁陪伴她。\n* 发生这些事，\n  她也需要时间慢慢恢复。',
                   "<26>{#p/sans}{#f/3}* 最终，她振作起来。\n  接任了艾斯戈尔的王位。",
@@ -1246,7 +1246,7 @@ export default {
                   "<25>{#p/sans}{#f/3}* 好呀。\n* 等我打完电话，咱们就出发。",
                   '<32>{#p/human}{#v/4}{@fill=#d535d9}* 说话算话哦。',
                   '<32>{#p/human}{#v/5}{@fill=#00c000}* 好耶！',
-                  '<25>{#p/alphys}{#f/10}* 啊，\n  对-对不起...',
+                  '<25>{#p/alphys}{#f/10}* 啊，对-对不起...',
                   '<25>{#p/alphys}{#f/20}* 我一会... \n  得去皇家防卫署开个会，\n  让衫斯叔叔陪你们玩吧。',
                   "<25>{#p/alphys}{#f/6}* 孩子们，过来，\n  别打扰他打电话哦。",
                   '<32>{#p/human}{#v/4}{@fill=#d535d9}* 好的。',
@@ -1255,13 +1255,13 @@ export default {
                   '<25>{#p/sans}{#f/0}* ...',
                   '<25>{#p/sans}{#f/0}* 艾菲斯当上女王后，\n  制定了一些改革政策。',
                   '<25>{#p/sans}{#f/0}* 比如，解散皇家卫队。\n  重组为“皇家防卫署”。',
-                  '<25>{#p/sans}{#f/0}* 相比皇家卫队，\n  防御署不再“唯武力”论，\n  而是更注重使用科技。',
+                  '<25>{#p/sans}{#f/0}* 相比皇家卫队，\n  防卫署不再“唯武力”论，\n  而是更注重使用科技。',
                   "<25>{#p/sans}{#f/3}* 有的成员配备了新型面罩，\n  有的配备了长程追踪仪...",
-                  '<25>{#p/sans}{#f/2}* 有了这些装备，\n  就能第一时间发现坠落的孩子，\n  将其安全护送到首塔。'
+                  '<25>{#p/sans}{#f/2}* 有了这些装备，就能\n  第一时间发现坠落的孩子，\n  将其安全护送到首塔。'
                ]);
                if (!dpapyrus) {
                   addB([
-                     "<25>{#p/sans}{#f/0}* 有趣的是，连帕派瑞斯都是\n  防御署的一员。",
+                     "<25>{#p/sans}{#f/0}* 有趣的是，连帕派瑞斯\n  都是防御署的一员。",
                      "<25>{#p/sans}{#f/3}* 他领导着一个小分队，\n  专门照顾那几个..."
                   ]);
                } else {
@@ -1272,10 +1272,11 @@ export default {
                }
                addB([
                   '<25>{#p/sans}{#f/3}* ...最闹腾的孩子。',
-                  '<26>{#p/sans}{#f/0}* 现在聊聊你。\n* 你在前哨站的这段时间，\n  我们搜集到了很多有价值的数据。',
+                  '<26>{#p/sans}{#f/0}* 现在聊聊你。',
+'<26>{#p/sans}{#f/0}* 你在前哨站的这段时间，\n  我们搜集到不少\n  有价值的数据。',
                   "<25>{#p/sans}{#f/0}* 防卫署分配了专人，\n  每天分析你的数据。",
-                  '<25>{#p/sans}{#f/3}* 借此，了解这类人的行动方式，\n  挖掘其弱点。',
-                  "<25>{#p/sans}{#f/2}* 我们希望，\n  永远都不会用上这些结果。",
+                  '<25>{#p/sans}{#f/3}* 这样，怪物们就能\n  了解这类人的行事风格，\n  从而挖掘其弱点。',
+                  "<25>{#p/sans}{#f/2}* 我们希望，\n  永远都不会用上这些数据。",
                   '<25>{#p/sans}{#f/0}* 但... 就怕万一。'
                ]);
                if (!dpapyrus) {
@@ -1366,7 +1367,7 @@ export default {
                }
                if (!dpapyrus) {
                   addB([
-                     "<25>{#p/alphys}{#f/25}* 也不够赎罪的。",
+                     "<25>{#p/alphys}{#f/25}* 但也不够赎罪的。",
                      '<25>{#p/alphys}{#f/24}* ...',
                      '<25>{#p/alphys}{#f/24}* 谨代表前哨站所有居民...'
                   ]);

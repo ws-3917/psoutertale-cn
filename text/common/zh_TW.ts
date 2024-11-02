@@ -512,7 +512,7 @@ export default {
                      '<25>{#p/sans}{#f/0}* but by the time i got to the citadel...',
                      '<25>{#p/sans}{#f/3}* a power surge killed the humans in the archive as well.',
                      "<25>{#p/sans}{#f/3}* ... i'd never seen her in worse shape.",
-                     '<25>{#p/sans}{#f/0}* 但我相信，她肯定能挺過去的。',
+                     '<25>{#p/sans}{#f/0}* 但我相信，\n  她肯定能挺過去的。',
                      '<25>{#p/sans}{#f/2}* 畢竟我倆之前可是研究搭檔，\n  我了解她。',
                      '<25>{#p/sans}{#f/0}* 所以，我坐在她身旁陪伴她。\n* 發生這些事，\n  她也需要時間慢慢恢復。',
                      "<26>{#p/sans}{#f/3}* 最終，她振作起來。\n  接任了asgore的王位。",
@@ -1197,8 +1197,8 @@ export default {
                      '<25>{#p/sans}{#f/3}* 只是這次電池\n  變人類靈魂了。',
                      '<25>{#p/sans}{#f/0}* ...他一不小心就\n  吸收了那些靈魂...',
                      '<25>{#p/sans}{#f/3}* it was only because charles was just doing what it knew best.',
-                     '<25>{#p/sans}{#f/3}* i know.\n* it sounds bad.',
-                     '<25>{#p/sans}{#f/0}* without the human souls, how would we escape?',
+                     '<25>{#p/sans}{#f/3}* 真就挺倒霉的。',
+                     '<25>{#p/sans}{#f/0}* 沒了人類靈魂，\n  我們還咋逃出去？',
                      '<25>{#p/sans}{#f/0}* but when that little mouse realized its new godlike power...',
                      "<25>{#p/sans}{#f/2}* it used that power to make everyone's dreams come true.",
                      '<18>{#p/papyrus}{#f/0}你好，人類！\n是我，偉大的PAPYRUS！',
@@ -1207,8 +1207,8 @@ export default {
                      '<18>{#p/papyrus}{#f/4}FOR I HAVE BEEN RE-INCARNATED...',
                      '<18>{#p/papyrus}{#f/9}BY OUR ONE TRUE OVERLORD, KING CHARLES!!!',
                      "<25>{#p/sans}{#f/3}* ... so, as you can see, there's no reason for anyone to be sad.",
-                     '<25>{#p/sans}{#f/2}* who cares about leaving the outpost, am i right?',
-                     "<18>{#p/papyrus}{#f/0}YEAH, WE DON'T NEED TO SEE THE STARS!",
+                     '<25>{#p/sans}{#f/2}* 離開前哨站？\n  誰在乎呢，我沒說錯吧？',
+                     "<18>{#p/papyrus}{#f/0}沒錯，星星有啥好看的！",
                      "<18>{#p/papyrus}{#f/9}WE'RE LIVING OUT OUR BEST LIVES RIGHT HERE!",
                      '<25>{#p/sans}{#f/2}* my thoughts exactly.',
                      '<25>{#p/sans}{#f/0}* ... anyway, thanks for being the reason all of this happened.',
@@ -1235,7 +1235,7 @@ export default {
                   "<26>{#p/sans}{#f/3}* 好在，\n  皇家衛隊火速趕往總控室，\n  穩住了核心。",
                   '<25>{#p/sans}{#f/0}* 與此同時，\n  alphys給我打了電話，\n  讓我一起幫忙。',
                   "<25>{#p/sans}{#f/3}* 我趕了過去。\n* 那時，她的精神很不穩定。",
-                  '<25>{#p/sans}{#f/0}* 但我相信，她肯定能挺過去的。',
+                  '<25>{#p/sans}{#f/0}* 但我相信，\n  她肯定能挺過去的。',
                   '<25>{#p/sans}{#f/2}* 畢竟我倆之前可是研究搭檔，\n  我了解她。',
                   '<25>{#p/sans}{#f/0}* 所以，我坐在她身旁陪伴她。\n* 發生這些事，\n  她也需要時間慢慢恢復。',
                   "<26>{#p/sans}{#f/3}* 最終，她振作起來。\n  接任了asgore的王位。",
@@ -1246,7 +1246,7 @@ export default {
                   "<25>{#p/sans}{#f/3}* 好呀。\n* 等我打完電話，咱們就出發。",
                   '<32>{#p/human}{#v/4}{@fill=#d535d9}* 說話算話喔。',
                   '<32>{#p/human}{#v/5}{@fill=#00c000}* 好耶！',
-                  '<25>{#p/alphys}{#f/10}* 啊，\n  對-對不起...',
+                  '<25>{#p/alphys}{#f/10}* 啊，對-對不起...',
                   '<25>{#p/alphys}{#f/20}* 我一會... \n  得去皇家防衛署開個會，\n  讓Sans叔叔陪你們玩吧。',
                   "<25>{#p/alphys}{#f/6}* 孩子們，過來，\n  別打擾他打電話喔。",
                   '<32>{#p/human}{#v/4}{@fill=#d535d9}* 好的。',
@@ -1255,13 +1255,13 @@ export default {
                   '<25>{#p/sans}{#f/0}* ...',
                   '<25>{#p/sans}{#f/0}* alphys當上女王后，\n  制定了一些改革政策。',
                   '<25>{#p/sans}{#f/0}* 比如，解散皇家衛隊。\n  重組為「皇家防衛署」。',
-                  '<25>{#p/sans}{#f/0}* 相比皇家衛隊，\n  防禦署不再「唯武力」論，\n  而是更注重使用科技。',
+                  '<25>{#p/sans}{#f/0}* 相比皇家衛隊，\n  防衛署不再「唯武力」論，\n  而是更注重使用科技。',
                   "<25>{#p/sans}{#f/3}* 有的成員配備了新型面罩，\n  有的配備了長程追蹤儀...",
-                  '<25>{#p/sans}{#f/2}* 有了這些裝備，\n  就能第一時間發現墜落的孩子，\n  將其安全護送到首塔。'
+                  '<25>{#p/sans}{#f/2}* 有了這些裝備，就能\n  第一時間發現墜落的孩子，\n  將其安全護送到首塔。'
                ]);
                if (!dpapyrus) {
                   addB([
-                     "<25>{#p/sans}{#f/0}* 有趣的是，連papyrus都是\n  防禦署的一員。",
+                     "<25>{#p/sans}{#f/0}* 有趣的是，連papyrus\n  都是防禦署的一員。",
                      "<25>{#p/sans}{#f/3}* 他領導著一個小分隊，\n  專門照顧那幾個..."
                   ]);
                } else {
@@ -1272,10 +1272,11 @@ export default {
                }
                addB([
                   '<25>{#p/sans}{#f/3}* ...最鬧騰的孩子。',
-                  '<26>{#p/sans}{#f/0}* 現在聊聊你。\n* 你在前哨站的這段時間，\n  我們搜集到了很多有價值的數據。',
+                  '<26>{#p/sans}{#f/0}* 現在聊聊你。',
+'<26>{#p/sans}{#f/0}* 你在前哨站的這段時間，\n  我們搜集到不少\n  有價值的數據。',
                   "<25>{#p/sans}{#f/0}* 防衛署分配了專人，\n  每天分析你的數據。",
-                  '<25>{#p/sans}{#f/3}* 藉此，了解這類人的行動方式，\n  挖掘其弱點。',
-                  "<25>{#p/sans}{#f/2}* 我們希望，\n  永遠都不會用上這些結果。",
+                  '<25>{#p/sans}{#f/3}* 這樣，怪物們就能\n  了解這類人的行事風格，\n  從而挖掘其弱點。',
+                  "<25>{#p/sans}{#f/2}* 我們希望，\n  永遠都不會用上這些數據。",
                   '<25>{#p/sans}{#f/0}* 但... 就怕萬一。'
                ]);
                if (!dpapyrus) {
@@ -1366,7 +1367,7 @@ export default {
                }
                if (!dpapyrus) {
                   addB([
-                     "<25>{#p/alphys}{#f/25}* 也不夠贖罪的。",
+                     "<25>{#p/alphys}{#f/25}* 但也不夠贖罪的。",
                      '<25>{#p/alphys}{#f/24}* ...',
                      '<25>{#p/alphys}{#f/24}* 謹代表前哨站所有居民...'
                   ]);
