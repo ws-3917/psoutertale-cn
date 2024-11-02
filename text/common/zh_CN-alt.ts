@@ -499,23 +499,23 @@ export default {
                   
                   addA([
                      '<32>{#s/phone}{#p/event}* 铃铃，铃铃...',
-                     '<25>{#p/sans}{#f/0}* heya.',
-                     "<25>{#p/sans}{#f/3}* it's been a while, huh?"
+                     '<25>{#p/sans}{#f/0}* 你好呀。',
+                     "<25>{#p/sans}{#f/3}* 近况可好？"
                   ]);
                   addB([
-                     '<25>{#p/sans}{#f/0}* after you left, alphys... kind of went into a panic.',
-                     '<25>{#p/sans}{#f/0}* not only were asgore and undyne gone...',
-                     '<25>{#p/sans}{#f/0}* but due to a botched plan involving mettaton and the core...',
+                     '<25>{#p/sans}{#f/0}* 在你走后，\n  艾菲斯... 吓得不轻。',
+                     '<25>{#p/sans}{#f/0}* 艾斯戈尔死了，\n  安黛因死了...',
+                     '<25>{#p/sans}{#f/0}* 更糟的是，\n  镁塔顿那扯淡的计划\n  让核心...',
                      "<25>{#p/sans}{#f/3}* the outpost's power systems were in total disarray.",
                      "<25>{#p/sans}{#f/3}* both the atmosphere and the gravity broke down.\n* it... wasn't pretty.",
                      '<25>{#p/sans}{#f/0}* just from her call, i could tell things were pretty bad.',
                      '<25>{#p/sans}{#f/0}* but by the time i got to the citadel...',
                      '<25>{#p/sans}{#f/3}* a power surge killed the humans in the archive as well.',
                      "<25>{#p/sans}{#f/3}* ... i'd never seen her in worse shape.",
-                     '<25>{#p/sans}{#f/0}* still, i knew from back when we were lab partners...',
-                     '<25>{#p/sans}{#f/2}* that she had what it took to overcome anything.',
-                     '<25>{#p/sans}{#f/0}* so i sat with her, and gave her a chance to process it all...',
-                     "<26>{#p/sans}{#f/3}* and by the end, she\n  took responsibility and accepted asgore's crown.",
+                     '<25>{#p/sans}{#f/0}* 但我相信，她肯定能挺过去的。',
+                     '<25>{#p/sans}{#f/2}* 毕竟我俩之前可是研究搭档，\n  我了解她。',
+                     '<25>{#p/sans}{#f/0}* 所以，我坐在她身旁陪伴她。\n* 发生这些事，\n  她也需要时间慢慢恢复。',
+                     "<26>{#p/sans}{#f/3}* 最终，她振作起来。\n  接任了艾斯戈尔的王位。",
                      "<25>{#p/sans}{#f/0}* ... right away, we knew we'd have to protect the human souls.",
                      '<25>{#p/sans}{#f/0}* so, we repurposed some old lab junk and built a containment system.',
                      "<25>{#p/sans}{#f/3}* after that, we realized we'd need someone to guard it."
@@ -1116,18 +1116,18 @@ export default {
                   
                   addA([
                      '<32>{#s/phone}{#p/event}* 铃铃，铃铃...',
-                     '<25>{#p/sans}{#f/0}* heya.',
-                     '<25>{#p/sans}{#f/4}* is anyone there?',
-                     "<25>{#p/sans}{#f/2}* no?\n* well, i'll just leave a message."
+                     '<25>{#p/sans}{#f/0}* 你好呀。',
+                     '<25>{#p/sans}{#f/4}* 喂，有人在吗？',
+                     "<25>{#p/sans}{#f/2}* 没人？\n* 行吧，我留个话就好。"
                   ]);
                   addB([
                      '<25>{#p/sans}{#f/0}* so, after you left, things kind of just got worse and worse.',
-                     '<25>{#p/sans}{#f/3}* asgore was gone, undyne was gone...',
+                     '<25>{#p/sans}{#f/3}* 艾斯戈尔死了，\n  安黛因也死了...',
                      '<25>{#p/sans}{#f/0}* and due to a botched plan involving mettaton and the core...',
                      '<25>{#p/sans}{#f/3}* issues with the power occured, killing many in the process.',
                      '<25>{#p/sans}{#f/3}* even the humans in the archive got hit by a power surge.',
-                     '<25>{#p/sans}{#f/0}* long story short, alphys and i put their souls in a safe place.',
-                     '<25>{#p/sans}{#f/3}* but who would we hire to watch over them?',
+                     '<25>{#p/sans}{#f/0}* 简单说说后续，我和艾菲斯\n  找了个安全的地儿\n  安置他们的灵魂。',
+                     '<25>{#p/sans}{#f/3}* 那总得有个人看着吧，\n  雇谁好呢？',
                      '<25>{#p/sans}{#f/0}* well, the only person we called who was available...',
                      '<25>{#p/sans}{#f/0}* a former elite squad member...',
                      '<25>{#p/sans}{#f/3}* turned out to be a massive trojan horse.',
@@ -1177,33 +1177,33 @@ export default {
                   
                   addA([
                      '<32>{#s/phone}{#p/event}* 铃铃，铃铃...',
-                     '<25>{#p/sans}{#f/0}* heya.',
-                     '<25>{#p/sans}{#f/4}* is anyone there?',
-                     "<25>{#p/sans}{#f/2}* no?\n* well, i'll just leave a message."
+                     '<25>{#p/sans}{#f/0}* 你好呀。',
+                     '<25>{#p/sans}{#f/4}* 喂，有人在吗？',
+                     "<25>{#p/sans}{#f/2}* 没人？\n* 行吧，我留个话就好。"
                   ]);
                   addB([
-                     "<25>{#p/sans}{#f/0}* so, after you left, things weren't too great at first.",
-                     '<25>{#p/sans}{#f/3}* asgore was gone, undyne was gone...',
+                     "<25>{#p/sans}{#f/0}* 在你走后，一开始，\n  前哨站不咋太平。",
+                     '<25>{#p/sans}{#f/3}* 艾斯戈尔死了，\n  安黛因也死了...',
                      '<25>{#p/sans}{#f/0}* and due to a botched plan involving mettaton and the core...',
                      '<25>{#p/sans}{#f/3}* issues with the power occured, killing many in the process.',
                      '<25>{#p/sans}{#f/3}* even the humans in the archive got hit by a power surge.',
-                     '<25>{#p/sans}{#f/0}* long story short, alphys and i put their souls in a safe place.',
-                     '<25>{#p/sans}{#f/4}* but who would we hire to watch over them?',
-                     '<25>{#p/sans}{#f/0}* well, of all the people we called, only charles took the job.',
+                     '<25>{#p/sans}{#f/0}* 简单说说后续，我和艾菲斯\n  找了个安全的地儿\n  安置他们的灵魂。',
+                     '<25>{#p/sans}{#f/4}* 那总得有个人看着吧，\n  雇谁好呢？',
+                     '<25>{#p/sans}{#f/0}* 哎呀，我们狂打电话，\n  除了查尔斯，谁都不接这活。',
                      '<25>{#p/sans}{#f/2}* a little mouse with a spotless service record at the core.',
-                     '<25>{#p/sans}{#f/0}* now, charles had worked at the core for so long...',
-                     '<25>{#p/sans}{#f/0}* that it grew accustomed with its routine.',
-                     '<25>{#p/sans}{#f/0}* take a power cell out, put a new one back in...',
-                     '<25>{#p/sans}{#f/3}* except now, instead of power cells, it was human souls.',
-                     '<25>{#p/sans}{#f/0}* ... so, when it accidentally absorbed those souls...',
+                     '<25>{#p/sans}{#f/0}* 他啊，成天在核心打工...',
+                     '<25>{#p/sans}{#f/0}* 都染上职业病了。',
+                     '<25>{#p/sans}{#f/0}* 满脑子都是拆完电池，\n  再装个新的...',
+                     '<25>{#p/sans}{#f/3}* 只是这次电池\n  变人类灵魂了。',
+                     '<25>{#p/sans}{#f/0}* ...他一不小心就\n  吸收了那些灵魂...',
                      '<25>{#p/sans}{#f/3}* it was only because charles was just doing what it knew best.',
                      '<25>{#p/sans}{#f/3}* i know.\n* it sounds bad.',
                      '<25>{#p/sans}{#f/0}* without the human souls, how would we escape?',
                      '<25>{#p/sans}{#f/0}* but when that little mouse realized its new godlike power...',
                      "<25>{#p/sans}{#f/2}* it used that power to make everyone's dreams come true.",
-                     '<18>{#p/papyrus}{#f/0}HELLO, HUMAN!\nIT IS I, THE GREAT PAPYRUS!',
-                     '<18>{#p/papyrus}{#f/6}WHAT!?!?\nYOU THOUGHT I WAS DEAD!?',
-                     "<18>{#p/papyrus}{#f/7}... UGH, THAT'S RIDICULOUS!\nI COULD NEVER DIE!",
+                     '<18>{#p/papyrus}{#f/0}你好，人类！\n是我，伟大的帕派瑞斯！',
+                     '<18>{#p/papyrus}{#f/6}啊！？！？\n你说我早死翘翘了!?',
+                     "<18>{#p/papyrus}{#f/7}...呸，这都什么胡话！\n我咋能那么容易死呢？！",
                      '<18>{#p/papyrus}{#f/4}FOR I HAVE BEEN RE-INCARNATED...',
                      '<18>{#p/papyrus}{#f/9}BY OUR ONE TRUE OVERLORD, KING CHARLES!!!',
                      "<25>{#p/sans}{#f/3}* ... so, as you can see, there's no reason for anyone to be sad.",
@@ -1225,160 +1225,160 @@ export default {
 
                addA([
                   '<32>{#s/phone}{#p/event}* 铃铃，铃铃...',
-                  '<25>{#p/sans}{#f/0}* heya.',
-                  "<25>{#p/sans}{#f/3}* it's been a while, huh?"
+                  '<25>{#p/sans}{#f/0}* 你好呀。',
+                  "<25>{#p/sans}{#f/3}* 近况可好？"
                ]);
                addB([
-                  '<25>{#p/sans}{#f/0}* after you left, alphys... kind of went into a panic.',
-                  '<25>{#p/sans}{#f/0}* not only were asgore and undyne gone...',
-                  '<25>{#p/sans}{#f/0}* but due to a botched plan involving mettaton and the core...',
-                  "<26>{#p/sans}{#f/3}* the royal guard had to rush to fix the outpost's power systems.",
-                  '<25>{#p/sans}{#f/0}* alphys called me, and asked me to come up and meet her.',
-                  "<25>{#p/sans}{#f/3}* when i got there, i could tell she wasn't doing well.",
-                  '<25>{#p/sans}{#f/0}* still, i knew from back when we were lab partners...',
-                  '<25>{#p/sans}{#f/2}* that she had what it took to overcome anything.',
-                  '<25>{#p/sans}{#f/0}* so i sat with her, and gave her a chance to process it all...',
-                  "<26>{#p/sans}{#f/3}* and by the end, she\n  took responsibility and accepted asgore's crown.",
-                  '<25>{#p/sans}{#f/0}* ... after that, things seemed to settle down.',
-                  '<32>{#p/human}{#v/4}{@fill=#d535d9}* Sans, do we get to go to the swimming pool?',
-                  "<32>{#p/human}{#v/5}{@fill=#00c000}* It's okay if you can't take us...",
-                  "<25>{#p/sans}{#f/0}* woah there, what's got you kids all worked up?",
-                  "<25>{#p/sans}{#f/3}* sure, i can take ya.\n* after i'm all done on the phone.",
-                  '<32>{#p/human}{#v/4}{@fill=#d535d9}* Deal.',
-                  '<32>{#p/human}{#v/5}{@fill=#00c000}* Sounds good!',
-                  '<25>{#p/alphys}{#f/10}* Ahah, s-sorry about that, I...',
-                  '<25>{#p/alphys}{#f/20}* I... had to attend a meeting with the Royal Defense Agency.',
-                  "<25>{#p/alphys}{#f/6}* Come on guys, let's let Sans finish his phone call.",
-                  '<32>{#p/human}{#v/4}{@fill=#d535d9}* Alright.',
-                  "<32>{#p/human}{#v/5}{@fill=#00c000}* We're sorry we got in your way...",
-                  "<25>{#p/sans}{#f/2}* heh.\n* don't sweat it, kid.\n* i won't be THAT long.",
+                  '<25>{#p/sans}{#f/0}* 在你走后，\n  艾菲斯... 吓得不轻。',
+                  '<25>{#p/sans}{#f/0}* 艾斯戈尔死了，\n  安黛因死了...',
+                  '<25>{#p/sans}{#f/0}* 更糟的是，\n  镁塔顿那扯淡的计划\n  让核心...',
+                  "<26>{#p/sans}{#f/3}* 好在，\n  皇家卫队火速赶往总控室，\n  稳住了核心。",
+                  '<25>{#p/sans}{#f/0}* 与此同时，\n  艾菲斯给我打了电话，\n  让我一起帮忙。',
+                  "<25>{#p/sans}{#f/3}* 我赶了过去。\n* 那时，她的精神很不稳定。",
+                  '<25>{#p/sans}{#f/0}* 但我相信，她肯定能挺过去的。',
+                  '<25>{#p/sans}{#f/2}* 毕竟我俩之前可是研究搭档，\n  我了解她。',
+                  '<25>{#p/sans}{#f/0}* 所以，我坐在她身旁陪伴她。\n* 发生这些事，\n  她也需要时间慢慢恢复。',
+                  "<26>{#p/sans}{#f/3}* 最终，她振作起来。\n  接任了艾斯戈尔的王位。",
+                  '<25>{#p/sans}{#f/0}* ...渐渐地，\n  风波平息了下来。',
+                  '<32>{#p/human}{#v/4}{@fill=#d535d9}* 衫斯，我俩想去游泳，\n  可以陪我们去吗？',
+                  "<32>{#p/human}{#v/5}{@fill=#00c000}* 你要是忙，\n  我俩自己去也行...",
+                  "<25>{#p/sans}{#f/0}* 哇哦，\n  今天你俩挺兴奋嘛。",
+                  "<25>{#p/sans}{#f/3}* 好呀。\n* 等我打完电话，咱们就出发。",
+                  '<32>{#p/human}{#v/4}{@fill=#d535d9}* 说话算话哦。',
+                  '<32>{#p/human}{#v/5}{@fill=#00c000}* 好耶！',
+                  '<25>{#p/alphys}{#f/10}* 啊，\n  对-对不起...',
+                  '<25>{#p/alphys}{#f/20}* 我一会... \n  得去皇家防卫署开个会，\n  让衫斯叔叔陪你们玩吧。',
+                  "<25>{#p/alphys}{#f/6}* 孩子们，过来，\n  别打扰他打电话哦。",
+                  '<32>{#p/human}{#v/4}{@fill=#d535d9}* 好的。',
+                  "<32>{#p/human}{#v/5}{@fill=#00c000}* 衫斯，对不起，\n  影响你打电话了...",
+                  "<25>{#p/sans}{#f/2}* 嘿。别上火嘛。\n* 再过亿小会，我就打完了。",
                   '<25>{#p/sans}{#f/0}* ...',
-                  '<25>{#p/sans}{#f/0}* after alphys became queen, she started making some changes.',
-                  '<25>{#p/sans}{#f/0}* for one, the royal guard became the royal defense agency.',
-                  '<25>{#p/sans}{#f/0}* a technologically- oriented version of the royal guard.',
-                  "<25>{#p/sans}{#f/3}* they've got high-tech visors, long-range tracking...",
-                  '<25>{#p/sans}{#f/2}* perfect for finding and escorting whatever kid crash-lands here next.'
+                  '<25>{#p/sans}{#f/0}* 艾菲斯当上女王后，\n  制定了一些改革政策。',
+                  '<25>{#p/sans}{#f/0}* 比如，解散皇家卫队。\n  重组为“皇家防卫署”。',
+                  '<25>{#p/sans}{#f/0}* 相比皇家卫队，\n  防御署不再“唯武力”论，\n  而是更注重使用科技。',
+                  "<25>{#p/sans}{#f/3}* 有的成员配备了新型面罩，\n  有的配备了长程追踪仪...",
+                  '<25>{#p/sans}{#f/2}* 有了这些装备，\n  就能第一时间发现坠落的孩子，\n  将其安全护送到首塔。'
                ]);
                if (!dpapyrus) {
                   addB([
-                     "<25>{#p/sans}{#f/0}* heck, even papyrus landed a position with 'em.",
-                     "<25>{#p/sans}{#f/3}* he's the leader of a squadron tasked with handling the more..."
+                     "<25>{#p/sans}{#f/0}* 有趣的是，连帕派瑞斯都是\n  防御署的一员。",
+                     "<25>{#p/sans}{#f/3}* 他领导着一个小分队，\n  专门照顾那几个..."
                   ]);
                } else {
                   addB([
-                     '<25>{#p/sans}{#f/0}* and the original royal guards from before the rebrand?',
-                     '<25>{#p/sans}{#f/3}* they put together a squadron tasked with handling the more...'
+                     '<25>{#p/sans}{#f/0}* 而原皇家卫队的队员们...',
+                     '<25>{#p/sans}{#f/3}* 则组建起一支小分队，\n  专门照顾那几个...'
                   ]);
                }
                addB([
-                  '<25>{#p/sans}{#f/3}* ... rowdy types.',
-                  '<26>{#p/sans}{#f/0}* we learned a lot about those since you were here.',
-                  "<25>{#p/sans}{#f/0}* the defense agency's got people analyzing your data every day.",
-                  '<25>{#p/sans}{#f/3}* looking for patterns, finding weak points...',
-                  "<25>{#p/sans}{#f/2}* with any luck, we won't have to use them.",
-                  '<25>{#p/sans}{#f/0}* but... you never know.'
+                  '<25>{#p/sans}{#f/3}* ...最闹腾的孩子。',
+                  '<26>{#p/sans}{#f/0}* 现在聊聊你。\n* 你在前哨站的这段时间，\n  我们搜集到了很多有价值的数据。',
+                  "<25>{#p/sans}{#f/0}* 防卫署分配了专人，\n  每天分析你的数据。",
+                  '<25>{#p/sans}{#f/3}* 借此，了解这类人的行动方式，\n  挖掘其弱点。',
+                  "<25>{#p/sans}{#f/2}* 我们希望，\n  永远都不会用上这些结果。",
+                  '<25>{#p/sans}{#f/0}* 但... 就怕万一。'
                ]);
                if (!dpapyrus) {
                   addB([
-                     '<18>{#p/papyrus}{#f/0}HELLO, SANS!\nBEEN UP TO ANYTHING LATELY?',
-                     '<26>{#p/sans}{#f/3}* eh, not really.',
-                     '<26>{#p/sans}{#f/0}* you on break right now?',
-                     '<18>{#p/papyrus}{#f/9}INDEED I AM!',
-                     "<18>{#p/papyrus}{#f/5}I DON'T TAKE BREAKS OFTEN, SO...",
-                     '<18>{#p/papyrus}{#f/0}I MIGHT AS WELL USE THE ONES I DO WISELY.',
-                     '<26>{#p/sans}{#f/3}* hmm... lemme guess.',
-                     '<25>{#p/sans}{#f/2}* was alphys the one who made you take it?',
+                     '<18>{#p/papyrus}{#f/0}嘿，衫斯！\n最近忙啥呢？',
+                     '<26>{#p/sans}{#f/3}* 呃，没啥。',
+                     '<26>{#p/sans}{#f/0}* 你来休息吗？',
+                     '<18>{#p/papyrus}{#f/9}当然了！',
+                     "<18>{#p/papyrus}{#f/5}帕派瑞斯的休息时间\n非常有限...",
+                     '<18>{#p/papyrus}{#f/0}所以，我想珍惜这些\n休息时光。',
+                     '<26>{#p/sans}{#f/3}* 嗯...',
+                     '<25>{#p/sans}{#f/2}* 是不是艾菲斯让你休息的？',
                      '<18>{#p/papyrus}{#f/4}...',
-                     "<18>{#p/papyrus}{#f/4}I DIDN'T HAVE A CHOICE IN THE MATTER.",
-                     '<18>{#p/papyrus}{#f/0}ANYWAY, THAT SHOULD BE ENOUGH BREAK TIME.',
-                     '<18>{#p/papyrus}{#f/9}BACK TO WORK NOW!',
-                     '<25>{#p/sans}{#f/0}* huh?\n* come on bro, you were barely here.',
-                     '<18>{#p/papyrus}{#f/6}NO TIME TO LOSE!!\nA HUMAN COULD ARRIVE ANY SECOND!',
-                     "<25>{#p/sans}{#f/3}* ... well, you're right.",
-                     "<25>{#p/sans}{#f/0}* it'd just be nice if you weren't so busy anymore."
+                     "<18>{#p/papyrus}{#f/4}她强迫我休息，\n我也没办法啊。",
+                     '<18>{#p/papyrus}{#f/0}好，\n休息时间结束。',
+                     '<18>{#p/papyrus}{#f/9}回去继续工作！',
+                     '<25>{#p/sans}{#f/0}* 啊？\n* 兄弟，再待一回呗。\n  好不容易来一次。',
+                     '<18>{#p/papyrus}{#f/6}再浪费时间，\n我就要错过\n下一个人类了！！',
+                     "<25>{#p/sans}{#f/3}* ...嗯，也是。",
+                     "<25>{#p/sans}{#f/0}* 只是，别把自己搞太累了。"
                   ]);
                }
                addB(['<25>{#p/sans}{#f/0}* ...']);
                if (!dtoriel) {
                   if (!dpapyrus) {
                      addB([
-                        '<25>{#p/sans}{#f/3}* at least alphys seems to have a lot of free time.',
-                        '<25>{#p/sans}{#f/0}* since, when the former queen returned...',
-                        '<25>{#p/sans}{#f/4}* she offered to help look after the humans.'
+                        '<25>{#p/sans}{#f/3}* 而最近，\n  艾菲斯终于闲了下来。',
+                        '<25>{#p/sans}{#f/0}* 王后重新上任，\n  帮忙一起照顾那些孩子。',
+                        
                      ]);
                   } else {
                      addB([
-                        '<25>{#p/sans}{#f/3}* at least the humans who came before you are pretty cool.',
-                        '<25>{#p/sans}{#f/0}* heck, when the former queen returned...',
-                        '<25>{#p/sans}{#f/4}* she even offered to help look after them.'
+                        '<25>{#p/sans}{#f/3}* 最起码，跟你比起来，\n  那几个孩子都挺酷的。',
+                        '<25>{#p/sans}{#f/0}* 呵。\n* 王后重新上任后，\n  还帮忙一起照顾他们呢。',
+                        
                      ]);
                   }
                   addB([
-                     '<25>{#p/sans}{#f/3}* she still thinks asgore was a bad person, but...',
-                     "<25>{#p/sans}{#f/0}* maybe one day, she'll forgive him.",
-                     "<25>{#p/sans}{#f/0}* it's hard to tell.",
-                     "<25>{#p/sans}{#f/3}* ... though, i know one person she'll never forgive."
+                     '<25>{#p/sans}{#f/3}* 至今，王后还是没能原谅\n  艾斯戈尔...',
+                     "<25>{#p/sans}{#f/0}* 也许假以时日，\n  矛盾会最终解开。",
+                     "<25>{#p/sans}{#f/0}* 但我知道...",
+                     "<25>{#p/sans}{#f/3}* 有个人，\n  她这辈子都不会原谅。"
                   ]);
                } else {
                   if (!dpapyrus) {
-                     addB(["<25>{#p/sans}{#f/3}* at least he's happy.\n* he really enjoys what he does."]);
+                     addB(["<25>{#p/sans}{#f/3}* 最起码，他很开心，\n  干起活了，他能乐在其中。"]);
                      if (hkills > 19) {
-                        addB(['<25>{#p/sans}{#f/0}* which is more than i can say about a lot of people these days.']);
+                        addB(['<25>{#p/sans}{#f/0}* 但很多怪物可没有\n  他的福分。']);
                      } else {
-                        addB(['<25>{#p/sans}{#f/0}* which is good, because not everyone can say the same.']);
+                        addB(['<25>{#p/sans}{#f/0}* 但不少怪物可没有\n  他的福分。']);
                      }
                   } else {
-                     addB(["<25>{#p/sans}{#f/3}* life's been kind of lonely lately, you know?"]);
+                     addB(["<25>{#p/sans}{#f/3}* 你知道吗？\n* 在这里活着\n  越来越孤独了。"]);
                      if (hkills > 19) {
-                        addB(['<25>{#p/sans}{#f/0}* not just for me, but for a lot of people these days.']);
+                        addB(['<25>{#p/sans}{#f/0}* 不只是我，\n  很多很多人，都非常孤独。']);
                      } else {
                         addB([
-                           '<25>{#p/sans}{#f/0}* not everyone has the luxury of carrying on like nothing happened.'
+                           '<25>{#p/sans}{#f/0}* 不是谁都有福分\n  家庭圆满，正常生活。'
                         ]);
                      }
                   }
                }
                addB([
-                  "<25>{#p/alphys}{#f/20}* S-sans, I'm sorry.\n* But you have to take the kids to the pool.",
-                  "<25>{#p/alphys}{#f/3}* They're driving me crazy back here!",
-                  '<25>{#p/sans}{#f/3}* ... welp.',
-                  "<25>{#p/sans}{#f/0}* i guess i'll let alphys finish this one off for me.",
-                  '<25>{#p/alphys}{#f/27}* Finish what off?',
+                  "<25>{#p/alphys}{#f/20}* 衫-衫斯，对不起。\n* 你赶紧带孩子们去游泳吧。",
+                  "<25>{#p/alphys}{#f/3}* 这些孩子都快把我\n  折磨疯了。",
+                  '<25>{#p/sans}{#f/3}* 那...',
+                  "<25>{#p/sans}{#f/0}* 剩下的话，就让艾菲斯说吧。",
+                  '<25>{#p/alphys}{#f/27}* 剩下的话？\n  谁啊？',
                   '<25>{#p/alphys}{#f/21}* ...',
-                  "<25>{#p/alphys}{#f/21}* So it's you.",
-                  '<25>{#p/alphys}{#f/24}* Well.\n* He said he was planning on calling you.',
-                  "<25>{#p/alphys}{#f/25}* Personally, I don't have much to say."
+                  "<25>{#p/alphys}{#f/21}* 原来是你。",
+                  '<25>{#p/alphys}{#f/24}* 嗯。\n* 之前衫斯说想给你打通电话。',
+                  "<25>{#p/alphys}{#f/25}* 但我跟你可没啥好说的。"
                ]);
                if (hkills > 19) {
-                  addB(["<25>{#p/alphys}{#f/25}* You're a killer, a coward, and better off gone."]);
+                  addB(["<25>{#p/alphys}{#f/25}* 你个杀人狂，\n  你个懦夫，\n  早点死得了。"]);
                   if (!dpapyrus) {
-                     addB(['<25>{#p/alphys}{#f/24}* And no matter what good you do now...']);
+                     addB(['<25>{#p/alphys}{#f/24}* 就算你做了点好事...']);
                   } else {
-                     addB(['<25>{#p/alphys}{#f/24}* And worst of all...']);
+                     addB(['<25>{#p/alphys}{#f/24}* 而且你差劲到...']);
                   }
                } else {
-                  addB(["<25>{#p/alphys}{#f/25}* You might not have killed many people, but you're still awful."]);
+                  addB(["<25>{#p/alphys}{#f/25}* 诚然，你没杀多少人，\n  但我还是烦你。"]);
                   if (!dpapyrus) {
-                     addB(['<25>{#p/alphys}{#f/24}* No matter what good you do now, though...']);
+                     addB(['<25>{#p/alphys}{#f/24}* 诚然，你确实做了点好事...']);
                   } else {
-                     addB(['<25>{#p/alphys}{#f/24}* Worst of all, though...']);
+                     addB(['<25>{#p/alphys}{#f/24}* 最差劲的是，你还...']);
                   }
                }
                if (!dpapyrus) {
                   addB([
-                     "<25>{#p/alphys}{#f/25}* It'll never make up for the damage you've already done.",
+                     "<25>{#p/alphys}{#f/25}* 也不够赎罪的。",
                      '<25>{#p/alphys}{#f/24}* ...',
-                     '<25>{#p/alphys}{#f/24}* On behalf of everyone living on the outpost...'
+                     '<25>{#p/alphys}{#f/24}* 谨代表前哨站所有居民...'
                   ]);
                } else {
                   addB([
-                     '<25>{#p/alphys}{#f/25}* You killed someone important to my closest friend.',
+                     '<25>{#p/alphys}{#f/25}* 把我挚友的亲兄弟杀了。',
                      '<25>{#p/alphys}{#f/24}* ...',
-                     '<25>{#p/alphys}{#f/24}* On his behalf...'
+                     '<25>{#p/alphys}{#f/24}* 就让我代他...'
                   ]);
                }
                addB([
-                  '<25>{#p/alphys}{#f/16}* I hope you fall into a black hole and die.',
+                  '<25>{#p/alphys}{#f/16}* 衷心祝愿你，\n  掉进黑洞，死无全尸！',
                   '<32>{#s/equip}{#p/event}* 滴...'
                ]);
             }
@@ -1613,9 +1613,9 @@ export default {
             
             addA([
                '<32>{#s/phone}{#p/event}* 铃铃，铃铃...',
-               '<25>{#p/sans}{#f/0}* heya.',
-               '<25>{#p/sans}{#f/4}* is anyone there?',
-               "<25>{#p/sans}{#f/2}* no?\n* well, i'll just leave a message."
+               '<25>{#p/sans}{#f/0}* 你好呀。',
+               '<25>{#p/sans}{#f/4}* 喂，有人在吗？',
+               "<25>{#p/sans}{#f/2}* 没人？\n* 行吧，我留个话就好。"
             ]);
             addB([
                '<25>{#p/sans}{#f/0}* sooo... where to begin?',
@@ -3112,8 +3112,8 @@ export default {
                
                addA([
                   '<32>{#s/phone}{#p/event}* 铃铃，铃铃...',
-                  '<25>{#p/sans}{#f/0}* heya.',
-                  "<25>{#p/sans}{#f/3}* it's been a while, huh?"
+                  '<25>{#p/sans}{#f/0}* 你好呀。',
+                  "<25>{#p/sans}{#f/3}* 近况可好？"
                ]);
                addB([
                   '<25>{#p/sans}{#f/0}* after you left, the king vanished into thin air.',

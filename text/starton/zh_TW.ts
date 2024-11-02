@@ -110,21 +110,21 @@ export default {
       jukebox1x1: () =>
          SAVE.data.b.svr
             ? ["<32>{#p/human}* （但是你不能放你不知道的音樂。）"]
-            : ["<32>{#p/basic}* 封面中一個詭異的DJ在人群中演奏。\n* 你看不出來是什麼音樂。"],
+            : ["<32>{#p/basic}* 唱片封面上有個幽靈DJ，\n  人們正在聽它表演。\n* 你應該沒聽過這首。"],
       jukebox1x2: () =>
          SAVE.data.b.svr
             ? ["<32>{#p/human}* （但是你不能放你不知道的音樂。）"]
-            : ["<33>{#p/basic}* 封面中一個幽靈一樣的DJ在電腦前。\n* 你看不出來是什麼音樂。"],
+            : ["<33>{#p/basic}* 唱片封面上有個幽靈DJ，\n  它正飄在電腦前。\n* 你應該沒聽過這首。"],
       jukebox1x3: () =>
          SAVE.data.b.svr
             ? ["<32>{#p/human}* （但是你不能放你不知道的音樂。）"]
             : [
-               "<32>{#p/basic}* 封面中是一隻被垃圾包圍著的小白狗。\n* 你看不出來是什麼音樂。"
+               "<32>{#p/basic}* 唱片封面上有隻小白狗\n  它被圍在一堆垃圾裡。\n* 你應該沒聽過這首。"
             ],
-      jukebox1y: ['<32>{*}{#p/human}* （你選擇了一張光碟...）{^40}{%}'],
+      jukebox1y: ['<32>{*}{#p/human}* （你想聽聽這首...）{^40}{%}'],
       jukebox2: () => [
          SAVE.data.b.svr
-            ? '<32>{#p/human}* （聽起來像是一首正在播放的音樂。）'
+            ? '<32>{#p/human}* （現在放的就是這首。）'
             : [
                '<32>{#p/basic}* 現在播放的是「曲目01」',
                '<32>{#p/basic}* 現在播放的是「曲目02」',
@@ -140,8 +140,8 @@ export default {
          "<32>{#npc/a}* Grillbz說他曾經在哪聽過這首歌。"
       ],
       jukebox3d: [
-         '<32>{#p/basic}{#npc/a}* 你肯定很懂音樂，孩子...',
-         '<32>* You must be really tasty.'
+         '<32>{#p/basic}{#npc/a}* 孩子，你肯定很懂即興音樂...',
+         '<32>* 挺有品味。'
       ],
       shockpapyrus0a: [
          '<15>{#p/papyrus}{#e/papyrus/27}這裡到底發生啥了？？',
@@ -382,7 +382,7 @@ export default {
             ],
       candy2: ["<32>{#p/human}* （你的錢不夠。）"],
       candy3: ["<32>{#p/human}* （你帶的東西太多了。）"],
-      candy4: ['<32>{#p/human}* （你買了一個洋梅。）'],
+      candy4: ['<32>{#p/human}* （你買了一小串洋梅。）'],
       candy5: ['<32>{#p/human}* （你決定先不買。）'],
       capstation1: [
          '<32>{#p/human}* （你看了眼哨站後面，\n  並發現了一把鑰匙。）',
@@ -4300,7 +4300,7 @@ export default {
          SAVE.data.b.svr
             ? ['<32>{#p/human}* (This sentry station strikes you as rather unimportant.)']
             : world.darker
-               ? ["<32>{#p/basic}* 這是個哨站。"]
+               ? ["<32>{#p/basic}* 一個哨站。"]
                : SAVE.data.n.plot < 31
                   ? [
                      "<32>{#p/basic}* Sans的哨站...",
@@ -4429,14 +4429,14 @@ export default {
                   ? ["<32>{#p/basic}* 裝置沒激活。"]
                   : postSIGMA()
                      ? ["<32>{#p/basic}* 不能使用了。"]
-                     : ['<32>{#p/basic}* 真是個不幸的結果。'],
+                     : ['<32>{#p/basic}* 這也太慘了。'],
          s_secret_sign: () =>
             SAVE.data.b.svr
                ? ['<32>{#p/human}* (The sign mentions an escape.)']
                : SAVE.data.n.state_starton_trashprogress < 2 && SAVE.data.n.plot < 72
                   ? [
                      '<32>{#p/basic}* 「正在小憩。」',
-                     ...(world.goatbro && SAVE.flag.n.ga_asrielDog++ < 1 ? ['<25>{#p/asriel2}{#f/15}* What.'] : [])
+                     ...(world.goatbro && SAVE.flag.n.ga_asrielDog++ < 1 ? ['<25>{#p/asriel2}{#f/15}* 什麼鬼。'] : [])
                   ]
                   : ['<32>{#p/basic}* 「逃走了。」'],
          grillflower: () =>
@@ -4845,7 +4845,7 @@ export default {
          s_jenga_sign: () =>
             SAVE.data.b.svr
                ? ["<32>{#p/human}* (The sign describes the broken state of the display tower's quantum randomizer.)"]
-               : ['<32>{#p/basic}* 「注意：這個顯示臺裡的\n   量子隨機數生成器仍然是壞的。」'],
+               : ['<32>{#p/basic}* 「注意：這個顯示臺內置的\n   量子隨機數生成器\n   還沒修好。」'],
          s_library_window: () => [
             '<32>{#p/human}* （你將雙手搭在了窗戶上。）',
             ...(SAVE.data.b.svr ? [] : ['<32>{#p/basic}* 有股油漆的味道。'])
@@ -5725,11 +5725,11 @@ export default {
    },
 
    b_group_starton: {
-      dogs: () => (world.goatbro ? ['<32>{#p/asriel2}* Dogamy和Dogaressa。'] : ['<32>{#p/story}* Dogi向你發起攻擊！']),
+      dogs: () => (world.goatbro ? ['<32>{#p/asriel2}* Dogamy和Dogaressa。'] : ['<32>{#p/story}* Dogi發起突襲！']),
       spacetopJerry: () =>
          world.goatbro
             ? ['<32>{#p/asriel2}* 俗氣的帽子再配上沒譜的夥計。']
-            : ['<32>{#p/story}* Astro Serf閒逛過來了！\n* Jerry也來了。'],
+            : ['<32>{#p/story}* Astro Serf大搖大擺地晃了過來！\n* Jerry也來了。'],
       stardrakeSpacetop: () =>
          world.goatbro
             ? ['<32>{#p/asriel2}* 笨蛋青年兩人組。']
@@ -5998,13 +5998,13 @@ export default {
       idleTalk3: () =>
          SAVE.data.b.spared_jerry
             ? ['<08>{#p/basic}{~}Hey, you guys are the BEST!']
-            : ['<08>{#p/basic}{~}Wow, you guys SUCK at this.'],
+            : ['<08>{#p/basic}{~}哎呀呀，\n老兄你們真廢啊。'],
       idleTalk4: () =>
          SAVE.data.b.spared_jerry
             ? ['<08>{#p/basic}{~}Does anyone want a hug?']
             : ['<08>{#p/basic}{~}噓噓噓！\n別吵，\n讓我思考！'],
       idleTalkSolo1: () =>
-         SAVE.data.b.spared_jerry ? ['<08>{#p/basic}{~}Thanks for being here!'] : ['<08>{#p/basic}{~}尷尬了。'],
+         SAVE.data.b.spared_jerry ? ['<08>{#p/basic}{~}Thanks for being here!'] : ['<08>{#p/basic}{~}尬死了。'],
       idleTalkSolo2: () =>
          SAVE.data.b.spared_jerry
             ? ["<08>{#p/basic}{~}You're awesome!\nJust saying."]
@@ -6015,7 +6015,7 @@ export default {
             : ['<08>{#p/basic}{~}這兒的訊號\n爛透了。'],
       idleTalkSolo4: () =>
          SAVE.data.b.spared_jerry
-            ? ['<08>{#p/basic}{~}I love humans!']
+            ? ['<08>{#p/basic}{~}我愛人類！']
             : ['<08>{#p/basic}{~}Must be nice being HUMAN..'],
       name: '* Jerry',
       randStatus1: () =>
@@ -6115,7 +6115,7 @@ export default {
          world.goatbro
             ? ['<32>{#p/asriel2}* Doggo，一條不順眼的狗。\n* 這個蠢貨怎麼又上崗了？']
             : ['<32>{#p/story}* DOGGO - 攻擊13 防禦7\n* 一點風吹草動便能讓它興奮。\n* 喜好之一：擁抱。'],
-      act_check2: ['<32>{#p/story}* DOGGO - 攻擊13 防禦7\n* 甚至難以看見它自己...'],
+      act_check2: ['<32>{#p/story}* DOGGO - 攻擊13 防禦7\n* 他看眼自己都得費老勁...'],
       act_check3: ['<32>{#p/story}* DOGGO - 攻擊13 防禦7\n* 一隻非常興奮的狗，\n  正在享受其所好。'],
       act_check4: ['<32>{#p/story}* DOGGO - 攻擊13 防禦7\n* 在你眼裡，這隻狗在生活中\n  非常地孤獨。'],
       act_flirt: () => ['<32>{#p/human}* （你向Doggo調情。）'],
@@ -6134,7 +6134,7 @@ export default {
       invisStatus: () =>
          world.goatbro ? ["<32>{#p/asriel2}* 不堪一擊。"] : ['<32>{#p/story}* Doggo找不到你了。'],
       name: '* Doggo',
-      fetchStatus: ['<32>{#p/story}* Doggo喜歡巡迴遊戲！'],
+      fetchStatus: ['<32>{#p/story}* Doggo喜歡玩拋接！'],
       fetchpet: ['<32>{#p/human}* （但是Doggo忙於尋找扳手，\n  沒時間讓你摸。）'],
       fetchflirt: ['<32>{#p/human}* （但是Doggo忙於尋找扳手，\n  沒時間聽你說話。）'],
       fetchcuddle: ['<32>{#p/human}* （但是Doggo忙於尋找扳手，\n  沒時間讓你抱。）'],
@@ -6167,20 +6167,20 @@ export default {
       ),
       petStatus: () =>
          world.goatbro ? ["<32>{#p/asriel2}* 不堪一擊。"] : ['<32>{#p/story}* Doggo已經被摸過了。'],
-      petTalk1: ["<11>{#p/basic}{~}啥！！！\n我被摸了！"],
-      petTalk2: ["<11>{#p/basic}{~}WHERE'S THAT COMING FROM!?"],
-      petTalk3: ["<11>{#p/basic}{~}THERE'S NO END TO IT!!"],
-      petTalk4: ['<11>{#p/basic}{~}WELL, THIS IS THOROUGH!!!'],
-      petTalk5: ['<11>{#p/basic}{~}(Dies)'],
+      petTalk1: ["<11>{#p/basic}{~}啥！！！\n有人摸我！"],
+      petTalk2: ["<11>{#p/basic}{~}那人從哪\n冒出來的！？"],
+      petTalk3: ["<11>{#p/basic}{~}咋還\n沒完了呢！！"],
+      petTalk4: ['<11>{#p/basic}{~}汪嗚，\n摸得可\n真徹底啊！！'],
+      petTalk5: ['<11>{#p/basic}{~}（爽死了）'],
       petTalk6: ['<11>{#p/basic}{~}(Comes back to life)'],
       petTalk7: ['<11>{#p/basic}{~}IT JUST KEEPS COMING!'],
       petTalk8: ['<11>{#p/basic}{~}AND COMING!!'],
       petTalk9: ['<11>{#p/basic}{~}AND COMINGGG!!!'],
-      petTalk10: ["<11>{#p/basic}{~}OK.\nThat's enough."],
-      petTalk11: ['<11>{#p/basic}{~}I said \"that\'s enough!\"'],
+      petTalk10: ["<11>{#p/basic}{~}夠了。\n玩鬧結束了。"],
+      petTalk11: ['<11>{#p/basic}{~}我都說了，\n「結束了」！'],
       petTalk12: ["<11>{#p/basic}{~}Oh my god, it just doesn't stop!"],
       petTalk13: ["<11>{#p/basic}{~}OH MY GOD, IT REALLY DOESN'T STOP!!"],
-      petTalk14: ['<11>{#p/basic}{~}AHHHHHHH!!!'],
+      petTalk14: ['<11>{#p/basic}{~}汪嗚——！！！'],
       query1: ['<11>{#p/basic}{~}別想逃！'],
       query2: ["<11>{*}{#p/basic}{~}哈！\n它動了！\n它肯定動了！{^30}{%}"],
       query3: ['<11>{#p/basic}{~}我倒要看看\n這次它還動嗎？'],
@@ -6363,10 +6363,10 @@ export default {
          world.goatbro
             ? ['<32>{#p/asriel2}* Dogamy，一條廢狗。\n* 純靠他的瘋狗老婆過活。']
             : ['<32>{#p/story}* DOGAMY - 攻擊14 防禦5\n* Dogaressa的老公。\n* 只認識他聞到的東西。'],
-      act_check2: ['<32>{#p/story}* DOGAMY - 攻擊14 防禦5\n* 新近喪偶。\n* 只認識失去老婆的痛苦。'],
+      act_check2: ['<32>{#p/story}* DOGAMY - 攻擊14 防禦5\n* 老婆死了，成了鰥夫。\n* 沉浸在悲傷中，鼻子也不好使了。'],
       act_check3: ['<32>{#p/story}* DOGAMY - 攻擊14 防禦5\n* Dogaressa的老公。\n* 認識的東西比先前更多了。'],
       act_check4: ["<32>{#p/story}* DOGAMY - 攻擊14 防禦5\n* Dogaressa的老公。\n* 也想把這份愛分享給老婆...？"],
-      act_check5: ["<32>{#p/story}* DOGAMY - 攻擊14 防禦5\n* Dogaressa的老公。\n* 並不介意離開...？"],
+      act_check5: ["<32>{#p/story}* DOGAMY - 攻擊14 防禦5\n* Dogaressa的老公。\n* 你要讓他走... 他大概也不介意？"],
       fetchText: [
          '<32>{#p/human}* （你把扳手扔了出去。）\n* （狗狗們跑出去撿了回來。）\n* （你們就這樣玩了一會巡迴遊戲。）'
       ],
@@ -6425,7 +6425,7 @@ export default {
       resmellStatus: () =>
          world.goatbro
             ? ['<32>{#p/asriel2}* Dogamy和Dogaressa。']
-            : ['<32>{#p/story}* 狗狗們認為\n  你是一條走丟的小狗。'],
+            : ['<32>{#p/story}* 狗狗們把你當成了\n  一條走丟的小狗。'],
       resmellText1: [
          '<32>{#p/human}* （你讓狗狗們再聞聞你。）',
          '<32>* （你聞起來仍然很古怪。）'
@@ -6512,7 +6512,7 @@ export default {
       loneStatus: () =>
          world.goatbro ? ['<32>{#p/asriel2}* 只剩一個了。'] : ['<32>{#p/story}* Dogamy心碎了。'],
       loneTalk1: ['<11>{#p/basic}{~}（會讓你\n好受的。）'],
-      loneTalk2: ["<11>{#p/basic}{~}（你會為此\n受苦的。）"],
+      loneTalk2: ["<11>{#p/basic}{~}（看我不\n弄死你。）"],
       name: '* Dogaressa',
       otherPet: ['<11>{#p/basic}{~}（...）'],
       petNeedStatus: () =>

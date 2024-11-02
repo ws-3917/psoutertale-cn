@@ -114,7 +114,7 @@ export default {
       quicksolve4: ['<32>{#p/human}* （你激活了终端。）', '<32>{#p/basic}* “请输入控制代码！”'],
       quicksolve5: [
          '<32>{#p/basic}* ...',
-         '<32>{#p/basic}* If only you knew a puzzle officionado who could tell you what that code might be.'
+         '<32>{#p/basic}* 看来要等某个解谜大师\n  帮你脱困了。'
       ],
       quicksolve6: () => ['<32>{#p/basic}* ...', choicer.create('* (Enter the code?)', '是', '否')],
       quicksolve7: ['<32>{#p/human}* (You decide not to enter.)'],
@@ -366,7 +366,7 @@ export default {
       blooksnail4c: [
          '<32>{#p/napstablook}* 哦...........\n* 你们都尽力了...',
          '<32>* 那只蜗牛看起来很气馁...',
-         "<32>* 我觉得她应该还没有\n  发挥到最好...",
+         "<32>* 可惜，她的实力似乎还不太够...",
          '<32>* 哦...........'
       ],
       blooksnail4d: [
@@ -1249,7 +1249,7 @@ export default {
                : ['<32>{#p/basic}* 啊呼呼呼呼...', '<32>* 刚才很有趣哦！\n* 下次再见，亲！'],
       muffet2: () =>
          badSpider()
-            ? ['<25>{#p/kidd}{#f/4}* 哟...\n  刚才那好奇怪...']
+            ? ['<25>{#p/kidd}{#f/4}* 哟...\n  真是怪事...']
             : SAVE.data.b.flirt_muffet
                ? ["<25>{#p/kidd}{#f/4}* 哟...\n  至少现在没事了？"]
                : ['<25>{#p/kidd}{#f/4}* 哟...\n  一点都不好玩。'],
@@ -1709,7 +1709,7 @@ export default {
                         '<32>{#s/echostart}{#p/event}{#npc/a}* 讯号开始...',
                         "<32>{#p/basic}* 撤离？没门！\n* 我敢保证，待在原地，也没人来伤你。",
                         "<32>* （呃...）\n* （你明知道我正身处危险之中，\n  为什么还这么说？）",
-                        "<32>* 或许处境确实不利，\n  但是，我碰巧知道有个东西...",
+                        "<32>* 或许处境确实不利，\n  但是，我刚好想到个法子...",
                         "<32>* 它能保护我们这些小商贩免受危险。",
                         '<32>{#s/echostop}{#p/event}{#npc}* 讯号终止。'
                      ]
@@ -2011,8 +2011,8 @@ export default {
                   : geno()
                      ? [
                         '<32>{#s/echostart}{#p/event}{#npc/a}* 讯号开始...',
-                        '<32>{#p/sans}{#f/7}* 嘿，无意打扰你，\n  但你很应该疏散星港的居民。',
-                        "<32>{#p/undyne}* 嗯？\n* 这是咋回事？",
+                        '<32>{#p/sans}{#f/7}* 嘿，无意打扰，\n  不过我寻思，你该疏散星港居民了。',
+                        "<32>{#p/undyne}* 嗯？咋了？",
                         '<32>{#p/sans}{#f/7}* ...',
                         '<32>{#p/undyne}* 你...\n  别一句话不说啊...',
                         '<32>{#s/echostop}{#p/event}{#npc}* 讯号终止。'
@@ -3260,8 +3260,8 @@ export default {
                : world.darker
                   ? ['<32>{#p/basic}* 一台垃圾处理器。']
                   : [
-                     '<32>{#p/basic}* 一个垃圾处理箱。\n* 当它启动时，极热的气体\n  会充斥整个房间。',
-                     "<32>{#p/basic}* 你活不下来的。"
+                     '<32>{#p/basic}* 一台垃圾处理器。\n* 当它启动时，高温气体\n  会充斥整个房间。',
+                     "<32>{#p/basic}* 那样你可就没命了。"
                   ],
          f_path1: () =>
             SAVE.data.b.svr
@@ -3528,7 +3528,7 @@ export default {
                                                             ])
                                                       ]
                                                       : ['<32>{#p/basic}* 咋的。\n* 咋的？\n* 咋-的-！？', "<32>{#p/basic}* It's a living."],
-         f_view: ['<25>{#p/kidd}{#f/14}* Awesome...'],
+         f_view: ['<25>{#p/kidd}{#f/14}* 美呆了...'],
          f_village_egg: () => ["<32>{#p/basic}* 已经熟透了。"],
          f_village_sign1: () =>
             SAVE.data.b.svr
@@ -5340,7 +5340,7 @@ export default {
       hurtStatus: () =>
          world.kiddo && SAVE.data.n.state_foundry_muffet !== 1
             ? ['<32>{#p/kidding}* 一切... 还好吗？']
-            : ['<32>{#p/story}* Skrubbington讨厌自己的伤口。'],
+            : ['<32>{#p/story}* Skrubbington看着伤口，\n  直犯恶心。'],
       jokeText1: ['<32>{#p/human}* (你讲了一个关于生锈的\n  太空垃圾的笑话。)'],
       jokeText2: ['<32>{#p/human}* （你拿大气污染打趣Skrubbington。）'],
       jokeText3: ['<32>{#p/human}* (你讲了一个关于两艘飞船困在\n  垃圾运输船中的笑话。)'],
@@ -5699,7 +5699,7 @@ export default {
          world.kiddo && SAVE.data.n.state_foundry_muffet !== 1
             ? ["<32>{#p/kidding}* Maybe if you show him you're checking him out first...?"]
             : ['<32>{#p/story}* Radtile wants you to check him out first.'],
-      checkTalk: ['<08>{#p/basic}{~}Study me, heh heh.'],
+      checkTalk: ['<08>{#p/basic}{~}我咋\n这么帅呢，\n嘿嘿。'],
       realTalk1: ['<08>{#p/basic}{~}Right on.'],
       realStatus: () =>
          world.kiddo && SAVE.data.n.state_foundry_muffet !== 1
@@ -5798,7 +5798,7 @@ export default {
       name: '* Doge',
       petTalkPost: ['<11>{#p/basic}{~}啊...'],
       petText: [
-         '<32>{#p/human}* （你试着抚摸Doge。）',
+         '<32>{#p/human}* （你想摸摸Doge。）',
          '<32>{#p/basic}* Doge犹豫地将头抬了起来。',
          '<32>* 你的手摸到了Doge的头。\n* 她顿时容光焕发。\n* 并给了你一个大大的微笑作为回应。',
          '<32>* 所有堆积在她内心里的压力\n  终于完全得到了释放。',
@@ -5806,7 +5806,7 @@ export default {
       ],
       petTextEarly: ["<32>{#p/human}* （你试着抚摸Doge，\n  但你现在还够不到她。）"],
       petTextGeno: [
-         '<32>{#p/human}* （你试着抚摸Doge。）',
+         '<32>{#p/human}* （你想摸摸Doge。）',
          '<32>{#p/basic}* 她对这份亲昵漠然置之。'
       ],
       petTextLate: ['<32>{#p/human}* （你试着抚摸Doge，\n  但为时已晚。）'],
@@ -6049,7 +6049,7 @@ export default {
                      ],
       turnTalk11: () => ['<11>{#p/basic}{~}...'],
       walkText: [
-         '<32>{#p/human}* （你想带着Doge去散散步。）',
+         '<32>{#p/human}* （你想带Doge遛个弯。）',
          '<32>{#p/basic}* Doge跟随着你的脚步。\n* 你们一起齐步前进。',
          '<32>* 你们就这样走了一会...',
          '<32>* 到最后...',
@@ -6059,7 +6059,7 @@ export default {
       ],
       walkTextEarly: ['<32>{#p/human}* （你想带着Doge去散散步，\n  但她没有理由跟你一起去。）'],
       walkTextGeno: [
-         '<32>{#p/human}* （你想带着Doge去散散步。）',
+         '<32>{#p/human}* （你想带Doge遛个弯。）',
          '<32>{#p/basic}* Doge拒绝了你的散步请求。'
       ],
       walkTextLate1: [
@@ -6197,7 +6197,7 @@ export default {
                : ["<32>{#p/kidding}* 我...\n* 我很害怕，伙计..."],
       turnStatus8: () =>
          badSpider()
-            ? ['<32>{#p/kidding}* 伙计，我们怎么还活着啊？？']
+            ? ['<32>{#p/kidding}* 老兄，我们咋活下来的？？']
             : battler.volatile[0].vars.appease
                ? ["<32>{#p/kidding}* 哟，先把古怪的杯糕丢一边... \n  我们终于有点进展了！\n* 应该吧？"]
                : ['<32>{#p/kidding}* 呃啊，别再来了！！'],
@@ -6370,7 +6370,7 @@ export default {
                '<11>{#p/basic}{~}所以，\n做你\n想做的吧。',
                world.genocide || !world.bullied
                   ? didf
-                     ? "<11>{#p/basic}{~}... 抱歉，\nUndyne。\n我更希望我\n能按照自己\n的意愿死去，\n谢谢你。"
+                     ? "<11>{#p/basic}{~}...对不住啦，\nUndyne。\n就算我真想死，\n也用不着\n别人操心。"
                      : '<11>{#p/basic}{~}... 抱歉，\nUndyne。\n我已经拖得\n够久了。'
                   : didf
                      ? "<11>{#p/basic}{~}说实话，\n因为你\n这种小流氓\n而失去\n我的生命\n实在不值得..."
@@ -7842,9 +7842,9 @@ export default {
                '离开'
             ]
             : world.genocide
-               ? ['Asriel', '（威胁他）', '（揍他）', 'Undyne', '离开']
+               ? ['Asriel', '（放狠话）', '（揍他）', 'Undyne', '离开']
                : world.killed0 || startonATE()
-                  ? ['你的下场', '（威胁他）', '（揍他）', '谁是英雄', '离开']
+                  ? ['你的下场', '（放狠话）', '（揍他）', '谁是英雄', '离开']
                   : [
                      48 <= SAVE.data.n.plot && SAVE.data.n.state_foundry_undyne > 0
                         ? '介绍下自己'

@@ -6834,8 +6834,8 @@ export default {
       old_spray_talk: ['<20>{#p/mettaton}SPICY.'],
       status1: () =>
          SAVE.data.n.plot < 67
-            ? ['<32>{#p/story}* Mettaton开始行动了！']
-            : ['<32>{#p/story}* Mettaton又回来了！'],
+            ? ['<32>{#p/story}* Mettaton开始了他的表演！']
+            : ['<32>{#p/story}* Mettaton闪亮返场！'],
       act_check: () =>
          SAVE.data.n.plot < 67
             ? ['<32>{#p/story}* METTATON - 攻击30 防御255\n* 他的金属制的身体\n  使他无懈可击。']
@@ -7100,7 +7100,7 @@ export default {
             ? ["<20>IT'S JUST A SHAME THE VIEWERS WON'T GET TO SEE WHAT HAPPENS.{#e/alphys/28}"]
             : [
                '<20>在我看来，\n一场优质电视剧的核心\n便是冲突与矛盾！{#e/alphys/2}',
-               '<20>又有谁能\n拒绝这一点呢？'
+               '<20>又有谁能\n否认这一点呢？'
             ],
       turn9end6: [
          "<20>{#p/mettaton}{#e/alphys/0}行吧，总而言之\n我们的时间\n已经所剩无几了。",
@@ -8582,7 +8582,7 @@ export default {
                      : 
                      ["<08>{#p/basic}{~}别太用力，\n好吗？"],
          
-         ['<08>{#p/basic}{~}我作为\n首领，\n应骄傲地\n死去。'],
+         ['<08>{#p/basic}{~}身为领袖，\n我要\n光荣赴死。'],
          
          ["<08>{#p/basic}{~}切..\n给你！", '<08>{#p/basic}{~}不用还钱。']
       ],
@@ -8694,7 +8694,7 @@ export default {
                      : 
                      ['<08>{#p/basic}{~}嗯..', "<08>{#p/basic}{~}想抱的话\n你就抱吧。"],
          
-         ["<08>{#p/basic}{~}是时候了..", '<08>{#p/basic}{~}..我该\n停止逃避\n死亡了。'],
+         ["<08>{#p/basic}{~}是时候...", '<08>{#p/basic}{~}...面对\n死亡了。'],
          
          ["<08>{#p/basic}{~}这钱\n你能比我\n用得更好。", '<08>{#p/basic}{~}你只管\n拿着。']
       ],
@@ -8758,7 +8758,7 @@ export default {
                      : 
                      ['<08>{#p/basic}{~}拥抱真是\n和平的\n关键！'],
          
-         ['<08>{#p/basic}{~}冲突的\n恶性循环\n该结束了！'],
+         ['<08>{#p/basic}{~}为这\n无尽冲突\n划上句号！'],
          
          ['<08>{#p/basic}{~}战利品\n归你了！']
       ],
@@ -9028,7 +9028,7 @@ export default {
          ['<08>{#p/basic}{~}I shall be else- where.'],
          () =>
             world.meanie
-               ? ['<08>{#p/basic}{~}It is no longer safe for me here.']
+               ? ['<08>{#p/basic}{~}这儿不安全。']
                : SAVE.data.b.oops && world.flirt > 9
                   ? ['<08>{#p/basic}{~}Is this love?']
                   : SAVE.data.b.oops

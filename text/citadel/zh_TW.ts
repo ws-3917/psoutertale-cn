@@ -1421,13 +1421,13 @@ export default {
                   '<25>{#g/alphysSideSad}* 你真-真的很享受殺人...\n* ...嗯?',
                   "<25>{#g/alphysNervousLaugh}* 我-我是說，我不是在批評你，\n  我只是...",
                   "<25>{#g/alphysUhButHeresTheDeal}* 我只是覺得這超級無敵酷！！！",
-                  '<25>{#g/alphysSideSad}* 那-那麼... 這樣一來...',
+                  '<25>{#g/alphysSideSad}* 我-我這樣說...',
                   "<25>{#g/alphysCutscene3}* 也許你現在就\n  不會打算殺我啦？？？"
                ]
                : ["<25>{#p/asgore}{#f/0}* 挺美的，不是嗎...？", '<25>{#p/asgore}{#f/0}* ...'],
          asgoreStoryPre2: () =>
             world.bad_robot
-               ? ['<25>{*}{#p/alphys}{#g/alphysOhGodNo}* 看你後面！！！{%}']
+               ? ['<25>{*}{#p/alphys}{#g/alphysOhGodNo}* 後頭有人！！！{%}']
                : [
                   '<25>{#p/asgore}{#f/6}* 孩子，如果你被嚇著了，\n  那我先對你道個歉。',
                   '<25>{#p/asgore}{#f/6}* Alphys告知了我\n  你會來到這裡。'
@@ -2314,8 +2314,8 @@ export default {
          ],
          choice7: [
             "<32>{#p/basic}* 我還在這裡的，搭檔...",
-            "<32>* ...不過，我應該進不去「檔案」。",
-            '<33>* 作為潛意識形態的我，\n  無法通過這裡。',
+            "<32>* ...不過，那裡是潛意識的時空，",
+            '<33>* 我進不去。',
             "<32>* 無論發生什麼，\n  你一定會做正確的事。",
             '<32>* ...',
             '<32>* 注意安全，好嗎？'
@@ -3468,7 +3468,7 @@ export default {
                   ["<25>{#p/asriel1}{#f/13}* That was after they'd begged for it for two years."]
                ][Math.min(asrielinter.fridgetrap1++, 1)]
                : world.darker
-                  ? ["<32>{#p/basic}* 你一點也不喜歡\n  冰箱裡的食物。"]
+                  ? ["<32>{#p/basic}* 你肯定看不上冰箱裡的東西。"]
                   : [
                      "<32>{#p/basic}* 裡面有很多名牌巧克力，\n  還有一大堆蝸牛。\n* 比她家裡還多。"
                   ],
@@ -4249,7 +4249,7 @@ export default {
             SAVE.data.b.svr
                ? ['<32>{#p/human}* (You stare graciously into the now-abandoned city...)']
                : world.genocide && SAVE.data.b.armaloop
-                  ? ["<32>{#p/basic}* 首塔此刻混亂不堪。"]
+                  ? ["<32>{#p/basic}* 首塔此刻動蕩不安。"]
                   : world.genocide || world.bad_robot || SAVE.data.b.svr || world.runaway
                      ? ['<32>{#p/basic}* 詭異的黑暗籠罩著首塔。']
                      : ['<32>{#p/basic}* 首塔的景象在非鋼化窗戶外閃閃發光。'],
@@ -4297,7 +4297,7 @@ export default {
                      "<32>{#p/basic}* 一個書架。",
                      '<32>{#p/human}* （你取下了一本書...）',
                      "<32>{#p/basic}* 這是份傷亡報告。",
-                     '<33>* 「據統計... 此次襲擊已致\n   2000人死亡，40000人受傷。」\n* 「Tenko淪陷。」',
+                     '<33>* 「據統計... 此次襲擊已致\n   2000人死亡，40000人受傷。」\n* 「探科城淪陷。」',
                      '<32>* 「數日前，當地青年Gerson應徵入伍。」',
                      '<32>* 「根據人類方艦隊活動，\n  Gerson預言了此次全面進攻。」',
                      '<32>* 「王子殿下識人如炬，\n  我方才得以注意這一預言。」',
@@ -4465,7 +4465,7 @@ export default {
                ][Math.min(asrielinter.c_aa_flower++, 3)]
                : SAVE.data.b.oops
                   ? ["<32>{#p/basic}* 一張照片。\n* 沒什麼好說的。"]
-                  : ["<32>{#p/basic}* It's a framed photograph.\n* I took it myself."],
+                  : ["<32>{#p/basic}* 裱起來的這張照片是我拍的。"],
          c_aa_cabinet: () =>
             SAVE.data.b.svr
                ? ["<32>{#p/human}* (You can't find anything in here besides several of the exact same outfit.)"]
@@ -4515,8 +4515,8 @@ export default {
             SAVE.data.b.svr
                ? ['<32>{#p/human}* (You roll the crayon back and forth underneath your hand.)']
                : world.darker
-                  ? ['<33>{#p/basic}* A stack of papers and a crayon.']
-                  : ['<32>{#p/basic}* 不知為何，這裡除了一些紙\n  還有一支藍色的蠟筆。'],
+                  ? ['<33>{#p/basic}* 幾張紙，還有一支蠟筆。']
+                  : ['<32>{#p/basic}* 那支藍色蠟筆原來跑這了，\n  就放在這幾張紙上。'],
          c_aa_deathbed: () =>
             SAVE.data.b.svr
                ? [
@@ -4554,7 +4554,7 @@ export default {
                   SAVE.data.b.svr
                      ? ['<32>{#p/human}* (The diary seems to outline important events in relation to Asgore.)']
                      : world.genocide || world.runaway
-                        ? ['<32>{#p/human}* （你想看看日記，\n  但所有的頁都被撕掉了。）']
+                        ? ['<32>{#p/human}* （你想看看日記，\n  卻發現內頁都被人撕了。）']
                         : SAVE.data.n.plot === 72
                            ? [
                               '<32>{#p/human}* （你看了一眼最近寫好的日記。）',
