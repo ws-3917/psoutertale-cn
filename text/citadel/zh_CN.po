@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-11-02 05:53+0000\n"
-"PO-Revision-Date: 2024-11-02 05:53+0000\n"
+"PO-Revision-Date: 2024-11-02 06:00+0000\n"
 "Last-Translator: WS-3917 <ws3917@outlook.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://ws3917.site/projects/"
 "project-spacetime/5-citadel/zh_Hans/>\n"
@@ -15,7 +15,6 @@ msgstr ""
 "X-Generator: Weblate 5.8.1\n"
 
 #
-
 msgid "<32>{#p/human}* (You feel a darkness gathering inside of you.)"
 msgstr "<32>{#p/human}* （一股暗流在你心中充盈。）"
 
@@ -5819,8 +5818,8 @@ msgstr "<32>* ...不过，我应该进不去“档案”。"
 
 msgid "<33>* Subconscious and all that."
 msgstr ""
-"<33>* 作为潜意识形态的我，\n"
-"  无法通过这里。"
+"<33>* 那里是潜意识的时空，\n"
+"  我进不去。"
 
 msgid "<32>* But whatever happens, I trust you'll do the right thing."
 msgstr ""
@@ -10535,7 +10534,7 @@ msgid ""
 msgstr ""
 "<33>* “据统计... 此次袭击已致\n"
 "   2000人死亡，40000人受伤。”\n"
-"* “Tenko沦陷。”"
+"* “探科城沦陷。”"
 
 msgid ""
 "<32>* \"Days before the attack, a local boy, Gerson, was drafted into the "
@@ -16376,7 +16375,6 @@ msgstr "<11>{*}{#e/asgore/2}{#v/3}{#i/10}{@random=1.1/1.1}..."
 
 msgid "<11>{*}{#e/asgore/2}{#v/3}{#i/7}{@random=1.1/1.1}Goodbye..."
 msgstr "<11>{*}{#e/asgore/2}{#v/3}{#i/12}{@random=1.1/1.1}永别了..."
-
 
 msgid "N/A"
 msgstr "无"
