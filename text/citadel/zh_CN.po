@@ -1,17 +1,16 @@
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-11-02 05:53+0000\n"
 "PO-Revision-Date: 2024-11-02 05:53+0000\n"
-"Last-Translator: MurderSans_MDR <z127568254@163.com>\n"
+"Last-Translator: WS-3917 <ws3917@outlook.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://ws3917.site/projects/"
 "project-spacetime/5-citadel/zh_Hans/>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: ENCODING\n"
+"Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 5.8.1\n"
 
@@ -3442,7 +3441,7 @@ msgid "<25>{#p/asgore}{#f/0}* ..."
 msgstr "<25>{#p/asgore}{#f/0}* ..."
 
 msgid "<25>{*}{#p/alphys}{#g/alphysOhGodNo}* Behind you!!!{%}"
-msgstr "<25>{*}{#p/alphys}{#g/alphysOhGodNo}* 看你后面！！！{%}"
+msgstr "<25>{*}{#p/alphys}{#g/alphysOhGodNo}* 后头有人！！！{%}"
 
 msgid "<25>{#p/asgore}{#f/6}* I apologize if I startled you, young one."
 msgstr ""
@@ -10391,7 +10390,7 @@ msgid "<32>{#p/human}* (You stare graciously into the now-abandoned city...)"
 msgstr ""
 
 msgid "<32>{#p/basic}* A sense of panic consumes the Citadel's very being."
-msgstr "<32>{#p/basic}* 首塔此刻混乱不堪。"
+msgstr "<32>{#p/basic}* 首塔此刻动荡不安。"
 
 msgid "<32>{#p/basic}* An eerie darkness falls over the Citadel."
 msgstr "<32>{#p/basic}* 诡异的黑暗笼罩着首塔。"
