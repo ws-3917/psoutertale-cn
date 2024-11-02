@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-11-02 05:37+0000\n"
-"PO-Revision-Date: 2024-11-02 05:37+0000\n"
+"PO-Revision-Date: 2024-11-02 05:38+0000\n"
 "Last-Translator: WS-3917 <ws3917@outlook.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://ws3917.site/projects/"
 "project-spacetime/2-starton/zh_Hans/>\n"
@@ -15,7 +15,6 @@ msgstr ""
 "X-Generator: Weblate 5.8.1\n"
 
 #
-
 msgid ""
 "<32>{#p/basic}* A standard-issue CITADEL long- range telescope, circa 261X."
 msgstr ""
@@ -5982,7 +5981,6 @@ msgstr "哈喽！"
 msgid "SAVE YOURSELVES..."
 msgstr "自求多福吧..."
 
-
 msgid "FAILED TO CONNECT..."
 msgstr "网络连接失败..."
 
@@ -11608,7 +11606,8 @@ msgid ""
 " still broken.\""
 msgstr ""
 "<32>{#p/basic}* “注意：这个显示台内置的\n"
-"   量子随机数生成器还没修好。”"
+"   量子随机数生成器\n"
+"   还没修好。”"
 
 msgid "<32>{#p/human}* (You put your hands on window.)"
 msgstr "<32>{#p/human}* （你将双手搭在了窗户上。）"
