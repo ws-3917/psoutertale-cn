@@ -952,6 +952,6 @@ def task_dttvl_update(update_lang="zh_CN"):
     bashcmd(
         f"cd {TRANS_PATH} && git add . && git commit -m '{current_time} Update translation. \\nAuthor: {TRANS_AUTHOR}'"
     )
-    bashcmd(f"cd {TRANS_PATH} && git push -u origin master && git push github master")
+    bashcmd(f"cd {TRANS_PATH} && git push -u origin master")
 
     print(colored("--- 文本更新完成", "green"))
