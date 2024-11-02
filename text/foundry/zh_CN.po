@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-11-02 05:41+0000\n"
-"PO-Revision-Date: 2024-11-02 05:41+0000\n"
+"PO-Revision-Date: 2024-11-02 05:53+0000\n"
 "Last-Translator: WS-3917 <ws3917@outlook.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://ws3917.site/projects/"
 "project-spacetime/3-foundry/zh_Hans/>\n"
@@ -15,7 +15,6 @@ msgstr ""
 "X-Generator: Weblate 5.8.1\n"
 
 #
-
 msgid "<32>{#p/basic}* ..."
 msgstr "<32>{#p/basic}* ..."
 
@@ -253,6 +252,8 @@ msgid ""
 "<32>{#p/basic}* If only you knew a puzzle officionado who could tell you "
 "what that code might be."
 msgstr ""
+"<32>{#p/basic}* 看来要等某个解密大师\n"
+"  帮你脱困了。"
 
 msgid "* (Enter the code?)"
 msgstr ""
@@ -13640,8 +13641,8 @@ msgstr ""
 
 msgid "<08>{#p/basic}{~}Study me, heh heh."
 msgstr ""
-"<08>{#p/basic}{~}快瞧瞧\n"
-"大帅哥，\n"
+"<08>{#p/basic}{~}我咋\n"
+"这么帅呢，\n"
 "嘿嘿。"
 
 msgid "<08>{#p/basic}{~}Right on."
@@ -14457,7 +14458,7 @@ msgstr ""
 "黑暗之中。"
 
 msgid "<32>{#p/human}* (You offer to take Doge on a walk.)"
-msgstr "<32>{#p/human}* （你想带着Doge去散散步。）"
+msgstr "<32>{#p/human}* （你想带Doge遛个弯。）"
 
 msgid ""
 "<32>{#p/basic}* Doge follows your lead.\n"
