@@ -2490,6 +2490,8 @@ msgid ""
 "* (You refuse to believe that\n"
 "  this is not Chairiel.)"
 msgstr ""
+"* （你無法接受這並不是\n"
+"  Chairiel的事實。）"
 
 msgid ""
 "* (Many worn books.)\n"
