@@ -2,12 +2,12 @@
 
 export default {
    battle: {
-      death0: [ '(Zhluboka se nadechnete.)', "(Jsi plný odhodlání.)" ],
-      death1: [ 'Ještě se nesmíš vzdát...', '$(name)!\nZůstaňte odhodlaní...' ],
-      death2: [ 'Náš osud spočívá na tobě...', '$(name)!\nZůstaňte odhodlaní...' ],
-      death3: [ "Budeš v pořádku!", '$(name)!\nZůstaňte odhodlaní...' ],
-      death4: [ "Neztrácejte naději!", '$(name)!\nZůstaňte odhodlaní...' ],
-      death5: [ 'Teď to nemůže skončit!', '$(name)!\nZůstaňte odhodlaní...' ],
+      death0: ['(Zhluboka se nadechnete.)', "(Jsi plný odhodlání.)"],
+      death1: ['Ještě se nesmíš vzdát...', '$(name)!\nZůstaňte odhodlaní...'],
+      death2: ['Náš osud spočívá na tobě...', '$(name)!\nZůstaňte odhodlaní...'],
+      death3: ["Budeš v pořádku!", '$(name)!\nZůstaňte odhodlaní...'],
+      death4: ["Neztrácejte naději!", '$(name)!\nZůstaňte odhodlaní...'],
+      death5: ['Teď to nemůže skončit!', '$(name)!\nZůstaňte odhodlaní...'],
 
       flee1: '    *Utekl jsi...',
       flee2: "        * Jsem odsud pryč.",
@@ -34,7 +34,7 @@ export default {
       },
       control: {
          tab: 'ŘÍZENÍ',
-         headers: [ 'GENERÁL', 'BITVA' ],
+         headers: ['GENERÁL', 'BITVA'],
          items: [
             [
                'OpravitHudba',
@@ -90,14 +90,14 @@ export default {
       },
       inspect: {
          tab: 'PROZKOUMAT',
-         headers: [ 'VRSTVY', 'TYPY' ],
+         headers: ['VRSTVY', 'TYPY'],
          switches: [
-            [ 'Základna', 'Pod', 'Hlavní', 'Nad', 'Menu' ],
-            [ 'Hitbox', 'Skřítek', 'Text' ]
+            ['Základna', 'Pod', 'Hlavní', 'Nad', 'Menu'],
+            ['Hitbox', 'Skřítek', 'Text']
          ],
          p_explorer: {
             header: 'PRŮZKUMNÍK',
-            layers: [ 'Základní (Průzkumník)', 'Níže (Průzkumník)', 'Hlavní (Průzkumník)', 'Nahoře (průzkumník)', 'Nabídka (průzkumník)' ],
+            layers: ['Základní (Průzkumník)', 'Níže (Průzkumník)', 'Hlavní (Průzkumník)', 'Nahoře (průzkumník)', 'Nabídka (průzkumník)'],
             letters: {
                animation: 'A',
                character: 'C',
@@ -220,8 +220,8 @@ export default {
       dialog_open: { buttonLabel: 'Otevřít', name: 'UKLÁDÁNÍ souborů', title: 'Otevřít soubor' },
       dialog_save: { buttonLabel: 'Uložit', name: 'UKLÁDÁNÍ souborů', title: 'Uložit soubor' },
       error_load: 'Tento soubor nebylo možné analyzovat.',
-      message_alert: [ 'OK' ],
-      message_confirm: [ 'Zrušit', 'OK' ],
+      message_alert: ['OK'],
+      message_confirm: ['Zrušit', 'OK'],
       prompt_clear: 'Vymazat tento soubor?',
       prompt_demo: 'Váš soubor SAVE z\nOUTERTALE demo bylo\npřesunuto do slotu časové osy.',
       prompt_save: 'Uložit tento soubor?',
@@ -422,7 +422,7 @@ export default {
             'Chickenytboi',
             'petar3664',
         ],
-[ 'Přináší vám §fill=#ff0§The Mavis & Co.§fill=#fff§' ]
+['Přináší vám §fill=#ff0§The Mavis & Co.§fill=#fff§']
       ],
 
       final_frontier: {
@@ -842,7 +842,7 @@ export default {
             'Práce na tomto projektu pro mě byla ctí,',
             'a potěšení z mé strany.'
          ],
-         [ 'Když jsem se vydal na tuto cestu, nikdy jsem', "nemyslel jsem, že se dostanu tak daleko, ale tady jsme", 'jsou každopádně na konci.' ],
+         ['Když jsem se vydal na tuto cestu, nikdy jsem', "nemyslel jsem, že se dostanu tak daleko, ale tady jsme", 'jsou každopádně na konci.'],
          [
             'UNDERTALE mi změnilo život',
             'zkušeností, a to takovou, která byla velmi těžko dostupná',
@@ -868,7 +868,7 @@ export default {
             'udělal jsi to a nic to nemůže vzít',
             'zkušenosti daleko od vás.'
          ],
-         [ 'Navzdory vašim chybám... jsi úžasný,', 'a vy si zasloužíte lásku a pozornost.', 'Pamatujete si to, dobře?' ]
+         ['Navzdory vašim chybám... jsi úžasný,', 'a vy si zasloužíte lásku a pozornost.', 'Pamatujete si to, dobře?']
       ],
       real2: 'Dávej na sebe pozor, \"$(x).\"',
 
@@ -1014,17 +1014,17 @@ export default {
       stat12: 'STAV',
       stat13: '\"$(x)\"',
 
-      story1: [ '<24>{#p/storyteller}Před dávnými časy vládly sluneční soustavě dva druhy: LIDÉ a PŘÍŠERY.{^35}{}' ],
-      story2: [ '<24>Jak čas plynul, mezi těmito dvěma druhy vypukla válka.{^35}{}' ],
-      story3: [ "<24>Poté, co byla domovská planeta PŘÍŠER zničena, vyhlásili LIDÉ vítězství.{^35}{}" ],
-      story4: [ '<24>Zbývající PŘÍŠERY byly vykázány na opuštěnou základnu.{^35}{}' ],
-      story5: [ '<24>Bylo vztyčeno mocné silové pole a PŘÍŠERY byly zapečetěny.{^35}{}' ],
-      story6: [ '<24>O mnoho let později.{^8}.{^8}.{^35}{}' ],
-      story7: [ '<#24> SEKTOR EBOTT     \n         251X{^35}{}' ],
-      story8: [ '<24>Příběhy hovoří o místě, odkud se kosmické lodě nikdy nevrátí.{^35}{}' ],
-      story9: [ '<24>{^100}{}' ],
-      story10: [ '<24>{^100}{}' ],
-      story11: [ '<24>{^35}{}' ]
+      story1: ['<24>{#p/storyteller}Před dávnými časy vládly sluneční soustavě dva druhy: LIDÉ a PŘÍŠERY.{^35}{}'],
+      story2: ['<24>Jak čas plynul, mezi těmito dvěma druhy vypukla válka.{^35}{}'],
+      story3: ["<24>Poté, co byla domovská planeta PŘÍŠER zničena, vyhlásili LIDÉ vítězství.{^35}{}"],
+      story4: ['<24>Zbývající PŘÍŠERY byly vykázány na opuštěnou základnu.{^35}{}'],
+      story5: ['<24>Bylo vztyčeno mocné silové pole a PŘÍŠERY byly zapečetěny.{^35}{}'],
+      story6: ['<24>O mnoho let později.{^8}.{^8}.{^35}{}'],
+      story7: ['<#24> SEKTOR EBOTT     \n         251X{^35}{}'],
+      story8: ['<24>Příběhy hovoří o místě, odkud se kosmické lodě nikdy nevrátí.{^35}{}'],
+      story9: ['<24>{^100}{}'],
+      story10: ['<24>{^100}{}'],
+      story11: ['<24>{^35}{}']
    },
 
    timeline: {

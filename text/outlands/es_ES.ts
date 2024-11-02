@@ -22,138 +22,138 @@ import { CosmosKeyed, CosmosProvider } from '../../../code/systems/storyteller';
 const toriel_aerialis = () =>
    SAVE.data.n.plot < 49
       ? [
-           '<25>{#p/toriel}{#f/1}* Escuché que hay un cierto tipo de fluido en Aerialis...',
-           '<25>{#f/0}* Usado primariamente para atenuar la electricidad.',
-           '<25>{#f/1}* Si pudieras llevarte este fluido, ¿hasta donde lo llevarías?',
-           '<25>{#f/1}* ¿Lo llevarías todo el camino hasta la Capital?',
-           '<25>{#f/1}* ¿O simplemente te desharías de este en una papelera de reciclaje?',
-           '<25>{#f/0}* Que decepcionante seria eso.'
-        ]
+         '<25>{#p/toriel}{#f/1}* Escuché que hay un cierto tipo de fluido en Aerialis...',
+         '<25>{#f/0}* Usado primariamente para atenuar la electricidad.',
+         '<25>{#f/1}* Si pudieras llevarte este fluido, ¿hasta donde lo llevarías?',
+         '<25>{#f/1}* ¿Lo llevarías todo el camino hasta la Capital?',
+         '<25>{#f/1}* ¿O simplemente te desharías de este en una papelera de reciclaje?',
+         '<25>{#f/0}* Que decepcionante seria eso.'
+      ]
       : SAVE.data.n.plot < 51
-      ? world.bad_lizard > 1 || SAVE.data.n.state_foundry_undyne === 2
-         ? [
-              '<25>{#p/toriel}{#f/1}* Quizá, si algun día me vuelvo una profesora...',
-              '<25>{#f/0}* Podría organizar una excursión al Laboratorio Real.',
-              "<25>{#f/0}* Con el permiso de la Doc. Alphys, claro.",
-              '<25>{#f/1}* Todos los experimentos interesantes que podrían conducir ahí...',
-              "<25>{#f/0}* Sería una buena experiencia de aprendizaje para los niños."
-           ]
-         : [
-              '<25>{#p/toriel}{#f/0}* La noticia de tu estreno en TV se ha esparcido rápidamente, pequeño.',
-              '<25>{#f/0}* Aunque no he podido verlo, a causa de mi falta de una TV',
-              '<25>{#f/1}* Cuando escuché acerca de ello, debo admitir, estaba sorprendida...',
-              SAVE.data.n.state_aerialis_talentfails === 0
-                 ? '<25>{#f/1}* ¿Cómo es que no fallaste ni UNA sola vez?'
-                 : '<25>{#f/6}* No sabía que tenias movimientos tan \"fabulosos\".'
-           ]
-      : SAVE.data.n.plot < 56
-      ? [
-           '<25>{#p/toriel}{#f/1}* Hmm...\n* Los guardias reales en Aerialis...',
-           '<25>{#f/0}* Aparentemente, su comida favorita es... salmón.',
-           '<25>{#f/1}* ¿O... era helado?',
-           '<25>{#f/2}* Espera, no, creo que era pizza!',
-           '<25>{#f/0}* Todo de lo cual hubiera sido imposible sin nuestro humilde replicador.',
-           '<25>{#f/1}* Y... ¿no son esas comidas extrañas para esos nuevos reclutas?'
-        ]
-      : SAVE.data.n.plot < 59
-      ? [
-           world.bad_lizard > 1 || SAVE.data.n.state_foundry_undyne === 2
-              ? '<25>{#p/toriel}{#f/0}* Escuche que apareciste en TV, pequeño.'
-              : '<25>{#p/toriel}{#f/0}* Escuche que apareciste en TV de nuevo, pequeño.',
-           '<25>{#f/1}* También escuche que hiciste algo sorprendente...',
-           iFancyYourVilliany()
-              ? '<25>{#f/2}* ¡Y alteraste ingredientes de artesanía para crear explosivo plástico!'
-              : SAVE.data.n.state_aerialis_crafterresult === 0
-              ? '<25>{#f/2}* ¡Y te mantuviste firme ante la amenaza de una explosión inminente!'
-              : '<25>{#f/2}* ¡Y volaste en un \"Jetpack portable de un solo uso\" por tu cuenta!',
-           '<25>{#f/3}* ... estas ...',
-           '<25>{#f/4}* Estas TRATANDO de poner tu vida en peligro?'
-        ]
-      : SAVE.data.n.plot < 60
-      ? [
-           '<25>{#p/toriel}{#f/1}* ¿Qué tipo de puzles tienen en Aerialis?',
-           '<25>{#f/1}* ¿Usan láseres?',
-           '<25>{#f/1}* ¿Te regresan al inicio cuando fallas?',
-           '<25>{#f/1}* ... puedes siquiera \"fallarlos\" realmente?',
-           '<25>{#f/0}* Hmm...\n* Discúlpame por hacer tantas preguntas.',
-           '<25>{#f/1}* Una fan de los puzles como yo no puede evitar cuestionarme esas cosas...'
-        ]
-      : SAVE.data.n.plot < 61
-      ? [
-           '<25>{#p/toriel}{#f/1}* Cuando escuche acerca de tus aventuras con Mettaton...',
-           '<25>{#f/0}* Tuve una idea.',
-           '<25>{#f/1}* ¿Cómo podría un robot como él existir tras la prohibición de las IA?',
-           '<25>{#f/5}* Seguramente la Doctora Alphys no rompería una regla tan fuertemente establecida.',
-           '<25>{#f/0}* No...\n* Debe haber otra explicación.'
-        ]
-      : SAVE.data.n.plot < 63
-      ? [
-           '<25>{#p/toriel}{#f/1}* Hmm...\n* Los guardias reales en Aerialis...',
-           '<25>{#f/0}* Escuche que ellas apenas acaban de ser promovidas a sus posiciones.',
-           '<25>{#f/1}* También escuche que son algo especiales con la elección de sus armas...',
-           '<25>{#f/5}* Se reusaron a mejorarlas incluso aunque tenían mejores opciones.',
-           '<25>{#f/0}* No es que quiera que mejoren sus armas.',
-           '<25>{#f/2}* ¡Ya me preocupo lo suficiente por ti!'
-        ]
-      : SAVE.data.n.plot < 65
-      ? SAVE.data.b.a_state_hapstablook
-         ? [
-              '<25>{#p/toriel}{#f/1}* Un fantasma, Lurksalot, recientemente me hablo de algunos negocios familiares.',
-              '<25>{#f/5}* Parece que ha estado en su mente por algo de tiempo.',
-              '<25>{#f/0}* Afortunadamente, me dijo que debería resolverse pronto.',
-              '<25>{#f/1}* Y con tu ayuda, ¿no es cierto?',
-              '<25>{#f/0}* Muy bien.\n* Estoy muy orgullosa de ti, pequeño.'
-           ]
-         : [
-              '<25>{#p/toriel}{#f/1}* Un fantasma, Lurksalot, recientemente me hablo de algunos negocios familiares.',
-              '<25>{#f/5}* Parece que ha estado en su mente por algo de tiempo.',
-              '<25>{#f/1}* Me dijo que su primo intento pedirte ayuda, pero...',
-              '<25>{#f/5}* Estabas ocupado al momento.',
-              '<25>{#f/1}* ... tenias una buena razón, no?'
-           ]
-      : SAVE.data.n.plot < 66
-      ? [
-           '<25>{#p/toriel}{#f/1}* ¿Quien hubiera pensado que un robot tendría una voz tan hermosa?',
-           "<25>{#f/0}* Después de escuchar la nueva grabación de Mettaton, no podía creer lo que escuchaba",
-           '<26>{#f/1}* Aunque, algo de la letra era algo... violenta, para mi gusto.',
-           '<25>{#f/5}* ...',
-           '<25>{#f/0}* No te preocupes, mi niño.\n* Nadie va a expulsarte al espacio.'
-        ]
-      : SAVE.data.n.plot < 68
-      ? [
-           '<25>{#p/toriel}{#f/0}* Sans me dice que el \"centro rec\" es su lugar favorito.',
-           '<25>{#p/toriel}{#f/1}* Clases de arte, clubs de música, librerías...',
-           '<25>{#p/toriel}{#f/5}* Es una pena que mucha del área es insegura para niños pequeños.',
-           '<25>{#p/toriel}{#f/3}* ¿No podrían haber hecho poco mas de esfuerzo en hacerlo cómodo?',
-           '<25>{#p/toriel}{#f/2}* ¡Esos medios pueden ofrecer experiencias valiosas y transformativas!'
-        ]
-      : SAVE.data.n.plot < 70
-      ? world.bad_robot
-         ? [
-              '<25>{#p/toriel}{#f/0}* Todos los que conozco están molestos acerca de un cancelado \"gran final.\"',
-              '<25>{#p/toriel}{#f/0}* Dicen que hubiera sido un combate impresionante.',
-              '<25>{#p/toriel}{#f/1}* Y aunque estoy aliviada de que no hayas tenido que enfrentarte a eso...',
-              '<25>{#p/toriel}{#f/5}* No puedo evitar preocuparme por lo que te espera ahora.'
-           ]
-         : SAVE.data.b.killed_mettaton
-         ? [
-              '<25>{#p/toriel}{#f/0}* Todos los que conozco han estado hablando de un \"gran final.\"',
-              '<25>{#p/toriel}{#f/1}* Dicen que Mettaton dio su vida por el bien del espectáculo...',
-              '<25>{#p/toriel}{#f/0}* Pero sé que no es asi.',
-              '<25>{#p/toriel}{#f/1}* Después de todo, los robots se pueden reparar, ¿verdad?'
-           ]
-         : [
-              '<25>{#p/toriel}{#f/0}* Todos los que conozco han estado hablando de un \"gran final.\"',
-              '<25>{#p/toriel}{#f/0}* Ellos dicen que verte a ti y a Mettaton los hicieron muy felices',
-              '<25>{#p/toriel}{#f/1}* Me alegro que estés pasando un buen rato...',
-              '<25>{#p/toriel}{#f/5}* No puedo evitar preocuparme por lo que te espera ahora.'
-           ]
-      : [
-           '<25>{#p/toriel}{#f/1}* ¿Está todo bien por ahí, pequeñín?',
-           '<25>{#p/toriel}{#f/5}* Probablemente ya hayas estado en la Capital.',
-           '<25>{#p/toriel}{#f/9}* ...',
-           "<25>{#p/toriel}{#f/10}* Se bueno, ¿vale?"
-        ];
+         ? world.bad_lizard > 1 || SAVE.data.n.state_foundry_undyne === 2
+            ? [
+               '<25>{#p/toriel}{#f/1}* Quizá, si algun día me vuelvo una profesora...',
+               '<25>{#f/0}* Podría organizar una excursión al Laboratorio Real.',
+               "<25>{#f/0}* Con el permiso de la Doc. Alphys, claro.",
+               '<25>{#f/1}* Todos los experimentos interesantes que podrían conducir ahí...',
+               "<25>{#f/0}* Sería una buena experiencia de aprendizaje para los niños."
+            ]
+            : [
+               '<25>{#p/toriel}{#f/0}* La noticia de tu estreno en TV se ha esparcido rápidamente, pequeño.',
+               '<25>{#f/0}* Aunque no he podido verlo, a causa de mi falta de una TV',
+               '<25>{#f/1}* Cuando escuché acerca de ello, debo admitir, estaba sorprendida...',
+               SAVE.data.n.state_aerialis_talentfails === 0
+                  ? '<25>{#f/1}* ¿Cómo es que no fallaste ni UNA sola vez?'
+                  : '<25>{#f/6}* No sabía que tenias movimientos tan \"fabulosos\".'
+            ]
+         : SAVE.data.n.plot < 56
+            ? [
+               '<25>{#p/toriel}{#f/1}* Hmm...\n* Los guardias reales en Aerialis...',
+               '<25>{#f/0}* Aparentemente, su comida favorita es... salmón.',
+               '<25>{#f/1}* ¿O... era helado?',
+               '<25>{#f/2}* Espera, no, creo que era pizza!',
+               '<25>{#f/0}* Todo de lo cual hubiera sido imposible sin nuestro humilde replicador.',
+               '<25>{#f/1}* Y... ¿no son esas comidas extrañas para esos nuevos reclutas?'
+            ]
+            : SAVE.data.n.plot < 59
+               ? [
+                  world.bad_lizard > 1 || SAVE.data.n.state_foundry_undyne === 2
+                     ? '<25>{#p/toriel}{#f/0}* Escuche que apareciste en TV, pequeño.'
+                     : '<25>{#p/toriel}{#f/0}* Escuche que apareciste en TV de nuevo, pequeño.',
+                  '<25>{#f/1}* También escuche que hiciste algo sorprendente...',
+                  iFancyYourVilliany()
+                     ? '<25>{#f/2}* ¡Y alteraste ingredientes de artesanía para crear explosivo plástico!'
+                     : SAVE.data.n.state_aerialis_crafterresult === 0
+                        ? '<25>{#f/2}* ¡Y te mantuviste firme ante la amenaza de una explosión inminente!'
+                        : '<25>{#f/2}* ¡Y volaste en un \"Jetpack portable de un solo uso\" por tu cuenta!',
+                  '<25>{#f/3}* ... estas ...',
+                  '<25>{#f/4}* Estas TRATANDO de poner tu vida en peligro?'
+               ]
+               : SAVE.data.n.plot < 60
+                  ? [
+                     '<25>{#p/toriel}{#f/1}* ¿Qué tipo de puzles tienen en Aerialis?',
+                     '<25>{#f/1}* ¿Usan láseres?',
+                     '<25>{#f/1}* ¿Te regresan al inicio cuando fallas?',
+                     '<25>{#f/1}* ... puedes siquiera \"fallarlos\" realmente?',
+                     '<25>{#f/0}* Hmm...\n* Discúlpame por hacer tantas preguntas.',
+                     '<25>{#f/1}* Una fan de los puzles como yo no puede evitar cuestionarme esas cosas...'
+                  ]
+                  : SAVE.data.n.plot < 61
+                     ? [
+                        '<25>{#p/toriel}{#f/1}* Cuando escuche acerca de tus aventuras con Mettaton...',
+                        '<25>{#f/0}* Tuve una idea.',
+                        '<25>{#f/1}* ¿Cómo podría un robot como él existir tras la prohibición de las IA?',
+                        '<25>{#f/5}* Seguramente la Doctora Alphys no rompería una regla tan fuertemente establecida.',
+                        '<25>{#f/0}* No...\n* Debe haber otra explicación.'
+                     ]
+                     : SAVE.data.n.plot < 63
+                        ? [
+                           '<25>{#p/toriel}{#f/1}* Hmm...\n* Los guardias reales en Aerialis...',
+                           '<25>{#f/0}* Escuche que ellas apenas acaban de ser promovidas a sus posiciones.',
+                           '<25>{#f/1}* También escuche que son algo especiales con la elección de sus armas...',
+                           '<25>{#f/5}* Se reusaron a mejorarlas incluso aunque tenían mejores opciones.',
+                           '<25>{#f/0}* No es que quiera que mejoren sus armas.',
+                           '<25>{#f/2}* ¡Ya me preocupo lo suficiente por ti!'
+                        ]
+                        : SAVE.data.n.plot < 65
+                           ? SAVE.data.b.a_state_hapstablook
+                              ? [
+                                 '<25>{#p/toriel}{#f/1}* Un fantasma, Lurksalot, recientemente me hablo de algunos negocios familiares.',
+                                 '<25>{#f/5}* Parece que ha estado en su mente por algo de tiempo.',
+                                 '<25>{#f/0}* Afortunadamente, me dijo que debería resolverse pronto.',
+                                 '<25>{#f/1}* Y con tu ayuda, ¿no es cierto?',
+                                 '<25>{#f/0}* Muy bien.\n* Estoy muy orgullosa de ti, pequeño.'
+                              ]
+                              : [
+                                 '<25>{#p/toriel}{#f/1}* Un fantasma, Lurksalot, recientemente me hablo de algunos negocios familiares.',
+                                 '<25>{#f/5}* Parece que ha estado en su mente por algo de tiempo.',
+                                 '<25>{#f/1}* Me dijo que su primo intento pedirte ayuda, pero...',
+                                 '<25>{#f/5}* Estabas ocupado al momento.',
+                                 '<25>{#f/1}* ... tenias una buena razón, no?'
+                              ]
+                           : SAVE.data.n.plot < 66
+                              ? [
+                                 '<25>{#p/toriel}{#f/1}* ¿Quien hubiera pensado que un robot tendría una voz tan hermosa?',
+                                 "<25>{#f/0}* Después de escuchar la nueva grabación de Mettaton, no podía creer lo que escuchaba",
+                                 '<26>{#f/1}* Aunque, algo de la letra era algo... violenta, para mi gusto.',
+                                 '<25>{#f/5}* ...',
+                                 '<25>{#f/0}* No te preocupes, mi niño.\n* Nadie va a expulsarte al espacio.'
+                              ]
+                              : SAVE.data.n.plot < 68
+                                 ? [
+                                    '<25>{#p/toriel}{#f/0}* Sans me dice que el \"centro rec\" es su lugar favorito.',
+                                    '<25>{#p/toriel}{#f/1}* Clases de arte, clubs de música, librerías...',
+                                    '<25>{#p/toriel}{#f/5}* Es una pena que mucha del área es insegura para niños pequeños.',
+                                    '<25>{#p/toriel}{#f/3}* ¿No podrían haber hecho poco mas de esfuerzo en hacerlo cómodo?',
+                                    '<25>{#p/toriel}{#f/2}* ¡Esos medios pueden ofrecer experiencias valiosas y transformativas!'
+                                 ]
+                                 : SAVE.data.n.plot < 70
+                                    ? world.bad_robot
+                                       ? [
+                                          '<25>{#p/toriel}{#f/0}* Todos los que conozco están molestos acerca de un cancelado \"gran final.\"',
+                                          '<25>{#p/toriel}{#f/0}* Dicen que hubiera sido un combate impresionante.',
+                                          '<25>{#p/toriel}{#f/1}* Y aunque estoy aliviada de que no hayas tenido que enfrentarte a eso...',
+                                          '<25>{#p/toriel}{#f/5}* No puedo evitar preocuparme por lo que te espera ahora.'
+                                       ]
+                                       : SAVE.data.b.killed_mettaton
+                                          ? [
+                                             '<25>{#p/toriel}{#f/0}* Todos los que conozco han estado hablando de un \"gran final.\"',
+                                             '<25>{#p/toriel}{#f/1}* Dicen que Mettaton dio su vida por el bien del espectáculo...',
+                                             '<25>{#p/toriel}{#f/0}* Pero sé que no es asi.',
+                                             '<25>{#p/toriel}{#f/1}* Después de todo, los robots se pueden reparar, ¿verdad?'
+                                          ]
+                                          : [
+                                             '<25>{#p/toriel}{#f/0}* Todos los que conozco han estado hablando de un \"gran final.\"',
+                                             '<25>{#p/toriel}{#f/0}* Ellos dicen que verte a ti y a Mettaton los hicieron muy felices',
+                                             '<25>{#p/toriel}{#f/1}* Me alegro que estés pasando un buen rato...',
+                                             '<25>{#p/toriel}{#f/5}* No puedo evitar preocuparme por lo que te espera ahora.'
+                                          ]
+                                    : [
+                                       '<25>{#p/toriel}{#f/1}* ¿Está todo bien por ahí, pequeñín?',
+                                       '<25>{#p/toriel}{#f/5}* Probablemente ya hayas estado en la Capital.',
+                                       '<25>{#p/toriel}{#f/9}* ...',
+                                       "<25>{#p/toriel}{#f/10}* Se bueno, ¿vale?"
+                                    ];
 
 export default {
    a_outlands: {
@@ -164,15 +164,15 @@ export default {
       ],
       secret1: () => [
          '<32>{#p/basic}* Hay una puerta aquí.\n* Está cerrada',
-         ...(SAVE.data.b.oops ? [] : [ "<32>{#p/basic}* ¿Puede que haya una llave en algún lugar...?" ])
+         ...(SAVE.data.b.oops ? [] : ["<32>{#p/basic}* ¿Puede que haya una llave en algún lugar...?"])
       ],
-      secret2: [ '<32>{#p/human}* (Usas la llave secreta.)' ],
-      exit: () => [ choicer.create('* (Abandonar las Afueras?)', 'Si', 'No') ],
-      nosleep: [ '<32>{#p/human}* (Parece que algo te ha interrumpido el sueño.)' ],
-      noequip: [ '<32>{#p/human}* (Decides no equiparlo)' ],
+      secret2: ['<32>{#p/human}* (Usas la llave secreta.)'],
+      exit: () => [choicer.create('* (Abandonar las Afueras?)', 'Si', 'No')],
+      nosleep: ['<32>{#p/human}* (Parece que algo te ha interrumpido el sueño.)'],
+      noequip: ['<32>{#p/human}* (Decides no equiparlo)'],
       finaltext: {
-         a: [ "<32>{#p/basic}* El tiene que estar por aquí, en algún lado..." ],
-         b: [ '<32>{#p/basic}* eh...?', '<32>{#p/basic}* ¿Eso es... El?\n* ¿Ahí fuera?' ],
+         a: ["<32>{#p/basic}* El tiene que estar por aquí, en algún lado..."],
+         b: ['<32>{#p/basic}* eh...?', '<32>{#p/basic}* ¿Eso es... El?\n* ¿Ahí fuera?'],
          c: [
             "<32>{#p/basic}* ... es el.",
             "<32>* ...\n* Frisk, si estas listo...",
@@ -181,37 +181,37 @@ export default {
             '<32>* Ya sabes que hacer.',
             "<32>* De lo contrario, esperaré hasta que estés listo."
          ],
-         d1: [ '<32>{#p/basic}* Asriel.' ],
-         d2: [ '<25>{#p/asriel1}{#f/13}* ¿... Frisk?\n* ¿Eres tu...?' ],
-         d3: [ "<32>{#p/basic}* Asriel, soy yo...", '<32>{#p/basic}* Tu mejor amigo, ¿te acuerdas?' ],
+         d1: ['<32>{#p/basic}* Asriel.'],
+         d2: ['<25>{#p/asriel1}{#f/13}* ¿... Frisk?\n* ¿Eres tu...?'],
+         d3: ["<32>{#p/basic}* Asriel, soy yo...", '<32>{#p/basic}* Tu mejor amigo, ¿te acuerdas?'],
          d4: [
             '<25>{#p/asriel1}{#f/25}* ¡...!',
             '<25>{#f/25}* ¿$(name)...?',
             "<25>{#f/13}* Pero... Estas...",
             "<25>{#f/23}* ... estas..."
          ],
-         d5: [ '<32>{#p/basic}* ¿Muerto?' ],
+         d5: ['<32>{#p/basic}* ¿Muerto?'],
          d6: [
             '<32>{#p/basic}* Je.\n* Durante ya un tiempo... Parte de mi deseó estarlo.',
             '<32>{#p/basic}* Después de lo que te hice, yo...\n* Sentí que me lo merecía.'
          ],
-         d7: [ "<25>{#p/asriel1}{#f/7}* No digas eso, $(name)!", "<25>{#f/6}* ... Te equivocas!" ],
+         d7: ["<25>{#p/asriel1}{#f/7}* No digas eso, $(name)!", "<25>{#f/6}* ... Te equivocas!"],
          d8: [
             '<33>{#p/basic}* Jaja... mira quien habla.\n* Mister \"solo veo y estoy con gente que te ama.\"',
             '<32>* Pero te mereces saber la verdad sobre mi, Asriel...',
             '<32>* Sobre , todo.'
          ],
-         d9: [ '<25>{#p/asriel1}{#f/23}* ...', '<25>{#f/23}* $(name)...' ],
-         d10: [ '<25>{#p/asriel1}{#f/13}* Pero...', '<25>{#f/15}* Como estas aun...?' ],
+         d9: ['<25>{#p/asriel1}{#f/23}* ...', '<25>{#f/23}* $(name)...'],
+         d10: ['<25>{#p/asriel1}{#f/13}* Pero...', '<25>{#f/15}* Como estas aun...?'],
          d11: [
             '<32>{#p/basic}* ... eso importa?',
             '<32>* Acertaste con olvidarte de mi de la manera que hiciste atrás.',
             "<32>* Lo cierto es... que he sido una persona terrible...",
             "<32>* Y no soy el amigo , o el hermano que desearías haber tenido."
          ],
-         d12: [ '<25>{#p/asriel1}{#f/13}* $(name), Yo...' ],
-         d13: [ "<32>{#p/basic}* Esta bien, Asriel.", "<32>* No tienes que hacerlo para que sea mejor de lo que es." ],
-         d14: [ '<25>{#p/asriel1}{#f/22}* ...', '<25>{#f/22}* ... Por que ahora?' ],
+         d12: ['<25>{#p/asriel1}{#f/13}* $(name), Yo...'],
+         d13: ["<32>{#p/basic}* Esta bien, Asriel.", "<32>* No tienes que hacerlo para que sea mejor de lo que es."],
+         d14: ['<25>{#p/asriel1}{#f/22}* ...', '<25>{#f/22}* ... Por que ahora?'],
          d15: [
             '<32>{#p/basic}* Bueno...',
             '<32>* Siempre pensé que la humanidad estaba al borde de la redención.',
@@ -228,31 +228,31 @@ export default {
             '<32>* Todo por lo que tuviste que pasar, todo lo que perdiste...',
             "<32>* Soy al que deberían acusar de ello."
          ],
-         d16: [ '<25>{#p/asriel1}{#f/13}* $(name)...', '<25>{#f/15}* Has estado consciente todo este tiempo?' ],
+         d16: ['<25>{#p/asriel1}{#f/13}* $(name)...', '<25>{#f/15}* Has estado consciente todo este tiempo?'],
          d17: [
             '<32>{#p/basic}* ... si.\n* Supongo que si.',
             '<32>* Esta ha sido mi existencia, Asriel...\n* Desde que morimos.',
             "<32>* Y... hay otra cosa que debo decirte."
          ],
-         d18: [ '<25>{#p/asriel1}{#f/21}* El que?' ],
+         d18: ['<25>{#p/asriel1}{#f/21}* El que?'],
          d19: [
             '<32>{#p/basic}* ¿Te acuerdas cuando cruzamos el campo de fuerza juntos?',
             '<32>* ¿Cuando llegamos a las ruinas del viejo planeta natal, y nos encontraron esos humanos?',
             '<32>* Quería usar nuestro poder para destruirlos... pero me detuviste, ¿recuerdas?'
          ],
-         d20: [ '<25>{#p/asriel1}{#f/16}* ... correcto.' ],
+         d20: ['<25>{#p/asriel1}{#f/16}* ... correcto.'],
          d21: [
             "<32>{#p/basic}* No lo entendí en aquellos tiempos, pero...",
             '­<32>* Lo entiendo ahora.',
             '<32>* ... solo estabas intentando pararme... de hacer un error terrible.'
          ],
-         d22: [ '<25>{#p/asriel1}{#f/15}* $(name)...' ],
+         d22: ['<25>{#p/asriel1}{#f/15}* $(name)...'],
          d23: [
             "<32>{#p/basic}* Si no fuera por ti, la estación espacial habría sido destruido en una segunda guerra.",
             '<32>* Si no fuera por ti, los mismos monstruos que supuestamente intentaba salvar...',
             '<32>* ... habrían muerto junto a nosotros.'
          ],
-         d24: [ '<25>{#p/asriel1}{#f/25}* $(name), Yo...' ],
+         d24: ['<25>{#p/asriel1}{#f/25}* $(name), Yo...'],
          d25: [
             '<32>{#p/basic}* Aún ahora, tu decisión hace tiempo sigue importando.',
             '<32>* Aún ahora...',
@@ -269,29 +269,29 @@ export default {
             '<32>* Personas PUEDEN cambiar, Asriel...',
             "<32>* ¿No era eso lo que tú siempre creíste?"
          ],
-         d28: [ '<25>{#p/asriel1}{#f/13}* ... lo sigo haciendo.' ],
+         d28: ['<25>{#p/asriel1}{#f/13}* ... lo sigo haciendo.'],
          d29: [
             "<32>{#p/basic}* He pasado los últimos cien años hundiéndome en mi autocompasión.",
             "<32>* He pasado los últimos cien años aguantando un rencor que nunca debería haber tenido.",
             '<32>* En todo ese tiempo, me preguntaba que me mantenía vivo...',
             '<32>* Y ahora, finalmente se la respuesta.'
          ],
-         d30: [ '<25>{#p/asriel1}{#f/15}* ¿...?' ],
-         d31: [ "<32>{#p/basic}* ... eres tú, Asriel.", "<32>* Tú eres quien me mantenía con vida." ],
+         d30: ['<25>{#p/asriel1}{#f/15}* ¿...?'],
+         d31: ["<32>{#p/basic}* ... eres tú, Asriel.", "<32>* Tú eres quien me mantenía con vida."],
          d32: [
             '<32>{#p/basic}* Piensa en ello como... una promesa incumplida.',
             '<32>* Aguantando ese rencor... pensando sobre ti en la forma en que lo hice...',
             "<32>* Sabiendo que podría haber sido mucho más para ti de lo que fui.",
             "<32>* Todo este tiempo, eso es lo que me ha estado echando atrás."
          ],
-         d33: [ '<25>{#p/asriel1}{#f/23}* $(name)...' ],
-         d34: [ '<32>{#p/basic}* Asriel.\n* Mi hermano.', '<32>* Deseas saber la verdad.' ],
-         d35: [ '<25>{*}{#p/asriel1}{#f/25}* ¿Eh?\n* Pero tu ya has- {%}' ],
-         d36: [ '<32>{#p/basic}* Te perdono a ti, también.' ],
-         d37: [ '<25>{#p/asriel1}{#f/30}{#i/4}* ¡...!', '<25>{#p/asriel1}{#f/26}{#i/4}* $(name)...' ],
-         d38: [ '<32>{#p/basic}* Shh...', "<32>* Está bien.", "<32>* Estoy aquí, ¿vale?" ],
-         d39: [ '<25>{#p/asriel1}{#f/25}{#i/4}* Yo...' ],
-         d40: [ "<32>{#p/basic}* Estoy aquí, Asriel." ],
+         d33: ['<25>{#p/asriel1}{#f/23}* $(name)...'],
+         d34: ['<32>{#p/basic}* Asriel.\n* Mi hermano.', '<32>* Deseas saber la verdad.'],
+         d35: ['<25>{*}{#p/asriel1}{#f/25}* ¿Eh?\n* Pero tu ya has- {%}'],
+         d36: ['<32>{#p/basic}* Te perdono a ti, también.'],
+         d37: ['<25>{#p/asriel1}{#f/30}{#i/4}* ¡...!', '<25>{#p/asriel1}{#f/26}{#i/4}* $(name)...'],
+         d38: ['<32>{#p/basic}* Shh...', "<32>* Está bien.", "<32>* Estoy aquí, ¿vale?"],
+         d39: ['<25>{#p/asriel1}{#f/25}{#i/4}* Yo...'],
+         d40: ["<32>{#p/basic}* Estoy aquí, Asriel."],
          d41: [
             '<32>{#p/basic}* ... puedo sentirlo.',
             '<32>* Aunque hayan pasado cien años...',
@@ -300,13 +300,13 @@ export default {
             '<32>* Mirándome, protegiéndome de mis propias malas deciosiones...',
             '<32>* ... todo para que un día yo pueda devolverle el favor.'
          ],
-         d42: [ "<32>{#p/basic}* Todo empieza a tener sentido ahora.", '<32>* Sé lo que tengo que hacer.' ],
-         d43: [ '<25>{*}{#p/asriel1}{#f/25}* ¿Eh?\n* ¿Qué estás... {^60}{%}' ],
-         d44: [ '<25>{*}{#f/25}* ¡No...!{^60}{%}', '<25>{*}{#f/26}* ¡D... déjame ir!{^60}{%}' ],
-         d45: [ '<32>{*}{#p/basic}* Je...{^60}{%}', '<32>{*}* ... cuida de mamá y papá por mi, ¿vale?{^60}{%}' ],
-         d46: [ '<25>{#p/asriel1}{#f/25}* Frisk, ¿estás ahí?', '<25>{#f/22}* Por favor... despierta...' ],
-         d47: [ "<25>{#p/asriel1}{#f/23}* Yo...\n* No quiero perderte a ti también..." ],
-         d48: [ '<25>{#p/asriel1}{#f/17}* ... ahí estás.' ],
+         d42: ["<32>{#p/basic}* Todo empieza a tener sentido ahora.", '<32>* Sé lo que tengo que hacer.'],
+         d43: ['<25>{*}{#p/asriel1}{#f/25}* ¿Eh?\n* ¿Qué estás... {^60}{%}'],
+         d44: ['<25>{*}{#f/25}* ¡No...!{^60}{%}', '<25>{*}{#f/26}* ¡D... déjame ir!{^60}{%}'],
+         d45: ['<32>{*}{#p/basic}* Je...{^60}{%}', '<32>{*}* ... cuida de mamá y papá por mi, ¿vale?{^60}{%}'],
+         d46: ['<25>{#p/asriel1}{#f/25}* Frisk, ¿estás ahí?', '<25>{#f/22}* Por favor... despierta...'],
+         d47: ["<25>{#p/asriel1}{#f/23}* Yo...\n* No quiero perderte a ti también..."],
+         d48: ['<25>{#p/asriel1}{#f/17}* ... ahí estás.'],
          d49: [
             "<25>{#p/asriel1}{#f/23}* Ja... pensé que te perdí por un minuto.",
             "<25>{#f/22}* No me asustes así otra vez, ¿vale?",
@@ -439,10 +439,10 @@ export default {
             '<25>{#f/23}* Siento que tengo un futuro otra vez.',
             '<25>{#f/22}* ...',
             ...(!SAVE.flag.b.pacifist_marker_forgive
-               ? [ "<25>{#f/22}* Aunque no me hayas podido perdonar por lo que he hecho..." ]
+               ? ["<25>{#f/22}* Aunque no me hayas podido perdonar por lo que he hecho..."]
                : SAVE.flag.n.killed_sans > 0
-               ? [ '<25>{#f/22}* Aunque quería que hicieras esas cosas terribles...' ]
-               : [ '<25>{#f/22}* Aunque te torturé, y amenacé a todos los que amas...' ]),
+                  ? ['<25>{#f/22}* Aunque quería que hicieras esas cosas terribles...']
+                  : ['<25>{#f/22}* Aunque te torturé, y amenacé a todos los que amas...']),
             "<25>{#f/13}* Tú aún quieres ayudarme a superarlo.",
             '<25>{#f/23}* ... significa mucho para mí.',
             '<25>{#f/22}* ...',
@@ -463,54 +463,54 @@ export default {
             "<25>{#f/17}* Haré que cuente."
          ]
       },
-      evac: [ '<32>{#p/human}* (Sientes la presencia de monstruo cercana menguar.)' ],
+      evac: ['<32>{#p/human}* (Sientes la presencia de monstruo cercana menguar.)'],
       stargum1: () =>
          SAVE.data.b.svr
             ? [
-                 '<32>{#p/human}* (Ves un trozo de chicle pegado en la portada del comic...)',
-                 choicer.create('* (¿Masticar el chicle?)', 'Si', 'No')
-              ]
+               '<32>{#p/human}* (Ves un trozo de chicle pegado en la portada del comic...)',
+               choicer.create('* (¿Masticar el chicle?)', 'Si', 'No')
+            ]
             : [
-                 '<32>{#p/basic}* Había un trozo de chicle pegado en la portada del comic.',
-                 choicer.create('* (¿Masticar el chicle?)', 'Si', 'No')
-              ],
-      stargum2: [ '<32>{#p/human}* (Decidiste no masticar.)' ],
-      stargum3: [ '<32>{#p/human}* (Has recuperado $(x) PV.)' ],
-      stargum4: [ '<32>{#p/human}* (PV restaurados.)' ],
+               '<32>{#p/basic}* Había un trozo de chicle pegado en la portada del comic.',
+               choicer.create('* (¿Masticar el chicle?)', 'Si', 'No')
+            ],
+      stargum2: ['<32>{#p/human}* (Decidiste no masticar.)'],
+      stargum3: ['<32>{#p/human}* (Has recuperado $(x) PV.)'],
+      stargum4: ['<32>{#p/human}* (PV restaurados.)'],
       fireplace1: () =>
          SAVE.data.b.svr
             ? [
-                 '<32>{#p/human}* (Sientes la calidez acogedora de la chimenea...)',
-                 choicer.create('* (¿Entrar?)', 'Si', 'No')
-              ]
+               '<32>{#p/human}* (Sientes la calidez acogedora de la chimenea...)',
+               choicer.create('* (¿Entrar?)', 'Si', 'No')
+            ]
             : [
-                 SAVE.data.n.state_wastelands_toriel === 2 || world.runaway
-                    ? '<32>{#p/basic}* Una chimenea normal y corriente.'
-                    : "<32>{#p/basic}* La chimenea de Toriel.\n* No es demasiado caliente, solo agradablemente cálido.",
-                 ...(world.darker
-                    ? []
-                    : [ '<32>* Probablemente podrías entrar.', choicer.create('* (¿Entrar?)', 'Si', 'No') ])
-              ],
-      fireplace2a: [ '<32>{#p/human}* (Decides no entrar.)' ],
+               SAVE.data.n.state_wastelands_toriel === 2 || world.runaway
+                  ? '<32>{#p/basic}* Una chimenea normal y corriente.'
+                  : "<32>{#p/basic}* La chimenea de Toriel.\n* No es demasiado caliente, solo agradablemente cálido.",
+               ...(world.darker
+                  ? []
+                  : ['<32>* Probablemente podrías entrar.', choicer.create('* (¿Entrar?)', 'Si', 'No')])
+            ],
+      fireplace2a: ['<32>{#p/human}* (Decides no entrar.)'],
       fireplace2b: () => [
          '<32>{#p/human}* (Te metes en la chimenea y dejas que su calor te envuelva.)',
          '<32>{#p/human}* (Estás muy confortable.)',
          ...(SAVE.data.b.svr
             ? asrielinter.fireplace2b++ < 1
-               ? [ "<25>{#p/asriel1}{#f/13}* Yo solo, eh, esperaré a que salgas." ]
+               ? ["<25>{#p/asriel1}{#f/13}* Yo solo, eh, esperaré a que salgas."]
                : []
             : world.goatbro && SAVE.flag.n.ga_asrielFireplace++ < 1
-            ? [ "<25>{#p/asriel2}{#f/15}* Yo solo, eh, esperaré a que salgas..." ]
-            : [])
+               ? ["<25>{#p/asriel2}{#f/15}* Yo solo, eh, esperaré a que salgas..."]
+               : [])
       ],
-      fireplace2c: [ "<25>{#p/toriel}{#f/1}{#npc/a}* No estés ahí mucho tiempo..." ],
-      fireplace2d: [ '<32>{#p/basic}* ...', '<32>* Esto está bien.' ],
-      noticereturn: [ '<25>{#p/asriel2}{#f/10}* ¿Te has dejado algo allí?' ],
+      fireplace2c: ["<25>{#p/toriel}{#f/1}{#npc/a}* No estés ahí mucho tiempo..."],
+      fireplace2d: ['<32>{#p/basic}* ...', '<32>* Esto está bien.'],
+      noticereturn: ['<25>{#p/asriel2}{#f/10}* ¿Te has dejado algo allí?'],
       noticestart: [
          '<25>{#p/asriel2}{#f/3}* Ah, el sitio donde todo comenzó.',
          "<25>{#p/asriel2}{#f/4}* Ciertamente nos llevamos mejor desde entonces, ¿no, $(name)?"
       ],
-      noticedummy: [ '<25>{#p/asriel2}{#f/3}* ...', "<25>{#p/asriel2}{#f/10}* ¿No había un maniquí aquí antes?" ],
+      noticedummy: ['<25>{#p/asriel2}{#f/3}* ...', "<25>{#p/asriel2}{#f/10}* ¿No había un maniquí aquí antes?"],
       afrog: {
          a: [
             '<32>{#p/basic}{#n1}* Entre tú y yo...',
@@ -521,45 +521,45 @@ export default {
          b: () =>
             SAVE.data.n.plot === 72
                ? [
-                    '<32>{#p/basic}{#n1}* Entre tú y yo...',
-                    '<32>* Vi a esa señora cabra pasar por aquí hace un rato.',
-                    '<32>* Dijo que era tiempo de \"enfrentar sus miedos\".',
-                    "<32>* ¡Bueno, lo que sea que hizo llevo a algo!\n* ¡Somos libres ahora!"
-                 ]
+                  '<32>{#p/basic}{#n1}* Entre tú y yo...',
+                  '<32>* Vi a esa señora cabra pasar por aquí hace un rato.',
+                  '<32>* Dijo que era tiempo de \"enfrentar sus miedos\".',
+                  "<32>* ¡Bueno, lo que sea que hizo llevo a algo!\n* ¡Somos libres ahora!"
+               ]
                : SAVE.data.n.plot === 71.2
-               ? [
-                    '<32>{#p/basic}{#n1}* ¿La has visto?\n* ¡Ella pasó por aquí justo ahora!',
-                    '<32>* Dijo que era tiempo de \"enfrentar sus miedos\".',
-                    '<32>* ¿Me pregunto que quería decir...?\n* Ella parecía determinada.'
-                 ]
-               : SAVE.data.b.w_state_lateleave
-               ? [
-                    '<32>{#p/basic}{#n1}* Entre tú y yo...',
-                    '<32>* Vi a esa señora cabra tomar el taxi para el supermercado antes.',
-                    "<32>* Ella dijo que se fue a buscar leche, pero aún no ha vuelto...",
-                    "<32>* Espero que esté bien."
-                 ]
-               : [
-                    '<32>{#p/basic}{#n1}* Entre tú y yo...',
-                    "<32>* A veces, cuando estoy solo, me gusta tomar el taxi al mercado.",
-                    "<32>* Es una pequeña tienda, pero hay muchas cosas para comprar.",
-                    "<32>* Quizás te lleve allí alguna vez... ¡te encantaría!"
-                 ],
+                  ? [
+                     '<32>{#p/basic}{#n1}* ¿La has visto?\n* ¡Ella pasó por aquí justo ahora!',
+                     '<32>* Dijo que era tiempo de \"enfrentar sus miedos\".',
+                     '<32>* ¿Me pregunto que quería decir...?\n* Ella parecía determinada.'
+                  ]
+                  : SAVE.data.b.w_state_lateleave
+                     ? [
+                        '<32>{#p/basic}{#n1}* Entre tú y yo...',
+                        '<32>* Vi a esa señora cabra tomar el taxi para el supermercado antes.',
+                        "<32>* Ella dijo que se fue a buscar leche, pero aún no ha vuelto...",
+                        "<32>* Espero que esté bien."
+                     ]
+                     : [
+                        '<32>{#p/basic}{#n1}* Entre tú y yo...',
+                        "<32>* A veces, cuando estoy solo, me gusta tomar el taxi al mercado.",
+                        "<32>* Es una pequeña tienda, pero hay muchas cosas para comprar.",
+                        "<32>* Quizás te lleve allí alguna vez... ¡te encantaría!"
+                     ],
          c: () =>
             SAVE.data.n.plot === 72
                ? [
-                    '<32>{#p/basic}{#n1}* Entre tú y yo...',
-                    "<32>* No soy fan de como nos golpeaste a todos al principio.",
-                    '<32>* Estábamos tan asustados y confusos...',
-                    '<32>* ... al menos hiciste algo bueno al final.'
-                 ]
+                  '<32>{#p/basic}{#n1}* Entre tú y yo...',
+                  "<32>* No soy fan de como nos golpeaste a todos al principio.",
+                  '<32>* Estábamos tan asustados y confusos...',
+                  '<32>* ... al menos hiciste algo bueno al final.'
+               ]
                : [
-                    '<32>{#p/basic}{#n1}* Entre tú y yo...',
-                    "<32>* Las personas que golpeaste no están felices de ello.",
-                    "<32>* Solo da gracias que estoy fuera de servicio...\n* Porque si no...",
-                    "<32>* Tendría tu cabeza."
-                 ],
-         d: [ '<32>{#p/basic}{#n1}* ¡No... no!', '<32>* ¡A-Aléjate de mí!' ]
+                  '<32>{#p/basic}{#n1}* Entre tú y yo...',
+                  "<32>* Las personas que golpeaste no están felices de ello.",
+                  "<32>* Solo da gracias que estoy fuera de servicio...\n* Porque si no...",
+                  "<32>* Tendría tu cabeza."
+               ],
+         d: ['<32>{#p/basic}{#n1}* ¡No... no!', '<32>* ¡A-Aléjate de mí!']
       },
       asriel0: [
          "<25>{#p/asriel2}{#f/5}* ... pero eso esta bien, ¡sé qué estarás allí a tiempo!",
@@ -572,17 +572,17 @@ export default {
                "<25>{#p/asriel2}{#f/1}* No te preocupes...\n* Verás porque dentro de poco.",
                "<25>{#p/asriel2}{#f/2}* ... jee jee jee.\n* Te esperaré adelante."
             ],
-            [ "<25>{#p/asriel2}{#f/4}* Te esperaré adelante." ],
-            [ '<25>{#p/asriel2}{#f/3}* ...' ]
+            ["<25>{#p/asriel2}{#f/4}* Te esperaré adelante."],
+            ['<25>{#p/asriel2}{#f/3}* ...']
          ][Math.min(SAVE.flag.n.ga_asrielNegative1++, 1)],
       asriel2: () => [
          '<25>{#p/asriel2}{#f/1}* ¿Listo, $(name)?',
          "<25>{#f/2}* Porque cuando continuemos, no hay vuelta atrás.",
          choicer.create('* (¿Seguirle?)', 'Si', 'No')
       ],
-      asriel2b: () => [ '<25>{#p/asriel2}{#f/1}* ¿Listo?', choicer.create('* (¿Seguirle?)', 'Si', 'No') ],
-      asriel3: [ '<25>{#p/asriel2}{#f/2}* Vale...', "<25>{#f/1}* Hagamos esto." ],
-      asriel4: [ "<25>{#p/asriel2}{#f/4}* Te estaré esperando, entonces." ],
+      asriel2b: () => ['<25>{#p/asriel2}{#f/1}* ¿Listo?', choicer.create('* (¿Seguirle?)', 'Si', 'No')],
+      asriel3: ['<25>{#p/asriel2}{#f/2}* Vale...', "<25>{#f/1}* Hagamos esto."],
+      asriel4: ["<25>{#p/asriel2}{#f/4}* Te estaré esperando, entonces."],
       asrielDiary: [
          [
             '<32>{#p/human}* (Lees la primera página... apenas se pueden leer las palabras.)',
@@ -695,26 +695,26 @@ export default {
       ],
       backdesk: {
          a: () => [
-            ...(SAVE.data.b.svr ? [] : [ "<32>{#p/basic}* Hay una mochila colgada en este perchero." ]),
+            ...(SAVE.data.b.svr ? [] : ["<32>{#p/basic}* Hay una mochila colgada en este perchero."]),
             '<32>{#p/human}* (Miras dentro de la mochila...)',
             ...(SAVE.data.b.svr
-               ? [ '<32>{#p/human}* (Pero no había nada más que encontrar dentro.)' ]
-               : [ '<32>{#p/basic}* Nada más que encontrar aquí..' ])
+               ? ['<32>{#p/human}* (Pero no había nada más que encontrar dentro.)']
+               : ['<32>{#p/basic}* Nada más que encontrar aquí..'])
          ],
          b: () => [
-            ...(SAVE.data.b.svr ? [] : [ "<32>{#p/basic}* Hay una mochila colgada en este perchero." ]),
+            ...(SAVE.data.b.svr ? [] : ["<32>{#p/basic}* Hay una mochila colgada en este perchero."]),
             '<32>{#p/human}* (Miras dentro de la mochila...)',
             ...(SAVE.data.b.svr
                ? []
-               : [ "<32>{#p/basic}* ¿Qué es eso?\n* ¿Un comic edición limitada de Super Starwalker?" ]),
+               : ["<32>{#p/basic}* ¿Qué es eso?\n* ¿Un comic edición limitada de Super Starwalker?"]),
             '<32>{#s/equip}{#p/human}* (Conseguiste Super Starwalker 2.)'
          ],
          b2: () => [
-            ...(SAVE.data.b.svr ? [] : [ "<32>{#p/basic}* Hay una mochila colgada en este perchero." ]),
+            ...(SAVE.data.b.svr ? [] : ["<32>{#p/basic}* Hay una mochila colgada en este perchero."]),
             '<32>{#p/human}* (Miras dentro de la mochila...)',
             ...(SAVE.data.b.svr
                ? []
-               : [ "<32>{#p/basic}* ¿Qué es eso?\n* ¿Un comic edición limitada de Super Starwalker?" ]),
+               : ["<32>{#p/basic}* ¿Qué es eso?\n* ¿Un comic edición limitada de Super Starwalker?"]),
             "<32>{#p/human}* (Llevas demasiado encima para tomar eso.)"
          ]
       },
@@ -773,55 +773,55 @@ export default {
          "<32>* bueno, me voy a ir yendo ahora",
          '<32>* adios...'
       ],
-      breakfast: [ '<32>{#p/human}* (Conseguiste los Caracoles Fritos.)' ],
-      breakslow: [ "<32>{#p/human}* (Llevas demasiado encima para tomar eso.)" ],
+      breakfast: ['<32>{#p/human}* (Conseguiste los Caracoles Fritos.)'],
+      breakslow: ["<32>{#p/human}* (Llevas demasiado encima para tomar eso.)"],
       candy1: () =>
          SAVE.data.b.svr
             ? [
-                 '<32>{#p/human}* (Te acercas a la máquina expendedora.)',
-                 choicer.create('* (¿Qué vas a hacer?)', 'Caramelo', 'Agua', 'Δ-9', 'Nada')
-              ]
+               '<32>{#p/human}* (Te acercas a la máquina expendedora.)',
+               choicer.create('* (¿Qué vas a hacer?)', 'Caramelo', 'Agua', 'Δ-9', 'Nada')
+            ]
             : [
-                 '<32>{#p/basic}* ¿Sintetizar algo con la máquina expendedora?',
-                 choicer.create('* (¿Qué vas a hacer?)', 'Caramelo', 'Agua', 'Δ-9', 'Nada')
-              ],
-      candy2: [ '<32>{#p/human}* (Conseguiste el $(x).)\n* (Pulsa [C] para abrir el menú.)' ],
-      candy3: [ '<32>{#p/human}* (Conseguiste $(x).)' ],
+               '<32>{#p/basic}* ¿Sintetizar algo con la máquina expendedora?',
+               choicer.create('* (¿Qué vas a hacer?)', 'Caramelo', 'Agua', 'Δ-9', 'Nada')
+            ],
+      candy2: ['<32>{#p/human}* (Conseguiste el $(x).)\n* (Pulsa [C] para abrir el menú.)'],
+      candy3: ['<32>{#p/human}* (Conseguiste $(x).)'],
       candy4: () => [
          '<32>{#p/human}* (Conseguiste $(x).)',
-         ...(SAVE.data.b.svr ? [] : [ '<32>{#p/basic}* La máquina está empezando a malfuncionar.' ])
+         ...(SAVE.data.b.svr ? [] : ['<32>{#p/basic}* La máquina está empezando a malfuncionar.'])
       ],
       candy5: () => [
          '<32>{#p/human}* (Conseguiste $(x).)',
-         ...(SAVE.data.b.svr ? [] : [ '<32>{#p/basic}* La máquina se ha roto.' ])
+         ...(SAVE.data.b.svr ? [] : ['<32>{#p/basic}* La máquina se ha roto.'])
       ],
       candy6: () =>
          SAVE.data.b.svr
             ? [
-                 [
-                    '<25>{#p/asriel1}{#f/13}* ¿Fuera de servicio otra vez?',
-                    "<25>{#f/17}* Si, eso es... por diseño, en realidad.",
-                    "<25>{#f/13}* Esta máquina funciona con la energía de las Afueras, así que...",
-                    '<25>{#f/15}* Para evitar usar mucha energía, Toriel hizo que se rompiera sola.',
-                    "<26>{#f/20}* No que te lo fuera a decir."
-                 ],
-                 [
-                    '<25>{#p/asriel1}{#f/13}* Sin embargo, el motivo de que la energía sea tan poca...',
-                    "<25>{#f/17}* Es porque, al contario del CORE, solo usa radiación de fondo.",
-                    "<25>{#f/13}* Para explicarlo con números, diría...",
-                    '<25>{#f/15}* Que genera como diez millonésimas de la energía que hace el CORE.'
-                 ],
-                 [
-                    '<25>{#p/asriel1}{#f/13}* Mmm...',
-                    '<25>{#f/15}* Me pregunto, si a pesar de su poca capacidad...',
-                    '<25>{#f/13}* Este generador será suficiente para alimentar un pequeño sistema atmosférico.',
-                    '<25>{#f/17}* Si el CORE fuera destruido, ¿cómo sobreviviría aquí la gente...?'
-                 ],
-                 [ '<26>{#p/asriel1}{#f/20}* ... preguntando por un amigo.' ]
-              ][Math.min(asrielinter.candy6++, 3)]
-            : [ "<32>{#p/basic}* Está fuera de servicio." ],
-      candy7: [ '<32>{#p/human}* (Decides no hacer nada.)' ],
-      candy8: [ "<32>{#p/human}* (Llevas demasiado encima.)" ],
+               [
+                  '<25>{#p/asriel1}{#f/13}* ¿Fuera de servicio otra vez?',
+                  "<25>{#f/17}* Si, eso es... por diseño, en realidad.",
+                  "<25>{#f/13}* Esta máquina funciona con la energía de las Afueras, así que...",
+                  '<25>{#f/15}* Para evitar usar mucha energía, Toriel hizo que se rompiera sola.',
+                  "<26>{#f/20}* No que te lo fuera a decir."
+               ],
+               [
+                  '<25>{#p/asriel1}{#f/13}* Sin embargo, el motivo de que la energía sea tan poca...',
+                  "<25>{#f/17}* Es porque, al contario del CORE, solo usa radiación de fondo.",
+                  "<25>{#f/13}* Para explicarlo con números, diría...",
+                  '<25>{#f/15}* Que genera como diez millonésimas de la energía que hace el CORE.'
+               ],
+               [
+                  '<25>{#p/asriel1}{#f/13}* Mmm...',
+                  '<25>{#f/15}* Me pregunto, si a pesar de su poca capacidad...',
+                  '<25>{#f/13}* Este generador será suficiente para alimentar un pequeño sistema atmosférico.',
+                  '<25>{#f/17}* Si el CORE fuera destruido, ¿cómo sobreviviría aquí la gente...?'
+               ],
+               ['<26>{#p/asriel1}{#f/20}* ... preguntando por un amigo.']
+            ][Math.min(asrielinter.candy6++, 3)]
+            : ["<32>{#p/basic}* Está fuera de servicio."],
+      candy7: ['<32>{#p/human}* (Decides no hacer nada.)'],
+      candy8: ["<32>{#p/human}* (Llevas demasiado encima.)"],
       chair1a: () => [
          '<25>{#p/toriel}{#f/1}{#n1}* ¿Qué pasa, mi niño?\n* ¿Tienes hambre?',
          '<25>{#f/0}* Quizás quieras saber más sobre el libro que estoy leyendo.',
@@ -831,8 +831,8 @@ export default {
          '<25>{#p/toriel}{#n1}* ¿Qué pasa, mi niño?',
          choicer.create('{#n1!}* (¿Qué dices?)', 'Hambre', 'Libro', 'Hogar', 'Nada')
       ],
-      chair1c: [ '<25>{#p/toriel}{#n1}* Bueno, déjame saber si necesitas algo.' ],
-      chair1d: [ '<25>{#p/toriel}{#n1}* Bueno, déjame saber si cambias de idea.' ],
+      chair1c: ['<25>{#p/toriel}{#n1}* Bueno, déjame saber si necesitas algo.'],
+      chair1d: ['<25>{#p/toriel}{#n1}* Bueno, déjame saber si cambias de idea.'],
       chair1e: () => [
          '<25>{#p/toriel}{#f/1}{#n1}* ¿Noche inquieta?',
          '<25>{#f/1}* ...\n* Si quieres, te puedo leer este libro...',
@@ -841,14 +841,14 @@ export default {
       ],
       chair1f: pager.create(
          0,
-         [ '<25>{#p/toriel}{#n1}{#f/1}* ¿De vuelta para una visita?', '<25>{#f/0}* Buena, quédate libre estar todo el tiempo que quieras.' ],
-         [ '<26>{#p/toriel}{#n1}{#f/5}* Debo quedarme aquí, como siempre hice...' ]
+         ['<25>{#p/toriel}{#n1}{#f/1}* ¿De vuelta para una visita?', '<25>{#f/0}* Buena, quédate libre estar todo el tiempo que quieras.'],
+         ['<26>{#p/toriel}{#n1}{#f/5}* Debo quedarme aquí, como siempre hice...']
       ),
       chair2a1: () => [
          '<25>{#p/toriel}{#f/1}{#n1}* ¿Tienes hambre?\n* ¿Te gustaría que hiciera el desayuno?',
          choicer.create('{#n1!}* (¿Desayunar?)', 'Si', 'No')
       ],
-      chair2a2: [ '<25>{#p/toriel}{#n1}* ¡Perfecto!\n* Estaré en la cocina preparándolo.' ],
+      chair2a2: ['<25>{#p/toriel}{#n1}* ¡Perfecto!\n* Estaré en la cocina preparándolo.'],
       chair2a3: () => [
          '<25>{#p/toriel}{#f/1}{#n1}* ¿Has cambiado de idea sobre el desayuno?',
          choicer.create('{#n1!}* (¿Desayunar?)', 'Si', 'No')
@@ -856,22 +856,22 @@ export default {
       chair2a4: () =>
          SAVE.data.b.drop_snails
             ? [
-                 '<25>{#p/toriel}{#f/3}{#n1}* ¿Esperas que haga otro después de que tires el primero?',
-                 '<25>{#f/4}* Este niño...',
-                 '<25>{#f/0}* No, pequeño.\n* No haré otro desayuno.'
-              ]
+               '<25>{#p/toriel}{#f/3}{#n1}* ¿Esperas que haga otro después de que tires el primero?',
+               '<25>{#f/4}* Este niño...',
+               '<25>{#f/0}* No, pequeño.\n* No haré otro desayuno.'
+            ]
             : [
-                 '<25>{#p/toriel}{#n1}* Ya he hecho el desayuno, pequeño.',
-                 '<25>{#f/1}* No podemos tener desayuno más de una vez por día, ¿o sí?',
-                 '<25>{#f/0}* Eso sería tonto.'
-              ],
+               '<25>{#p/toriel}{#n1}* Ya he hecho el desayuno, pequeño.',
+               '<25>{#f/1}* No podemos tener desayuno más de una vez por día, ¿o sí?',
+               '<25>{#f/0}* Eso sería tonto.'
+            ],
       chair2c1: () => [
          '<25>{#p/toriel}{#n1}* ¡Ah, el libro!\n* Si, es una lectura divertida.',
          '<25>{#f/0}* Se llama el \"Monstruo Generoso\" y fue escrito por un humano.',
          '<25>{#f/1}* ¿Te gustaría que yo te lo leyera?',
          choicer.create('{#n1!}* (¿Leer el libro?)', 'Si', 'No')
       ],
-      chair2c2: [ '<25>{#p/toriel}{#n1}* ¡Esplendido!', '<25>{#g/torielCompassionSmile}* ...' ],
+      chair2c2: ['<25>{#p/toriel}{#n1}* ¡Esplendido!', '<25>{#g/torielCompassionSmile}* ...'],
       chair2c3: () => [
          '<25>{#p/toriel}{#f/1}{#n1}* ¿Quieres que te lea el libro ahora?',
          choicer.create('{#n1!}* (¿Leer el libro?)', 'Si', 'No')
@@ -880,7 +880,7 @@ export default {
          '<25>{#p/toriel}{#f/1}{#n1}* ¿Quieres que te lea el libro de nuevo?',
          choicer.create('{#n1!}* (¿Leer el libro?)', 'Si', 'No')
       ],
-      chair2c5: [ '<25>{#p/toriel}{#f/1}{#n1}* Esta bien, entonces...', '<25>{#p/toriel}{#g/torielCompassionSmile}* ...' ],
+      chair2c5: ['<25>{#p/toriel}{#f/1}{#n1}* Esta bien, entonces...', '<25>{#p/toriel}{#g/torielCompassionSmile}* ...'],
       chair2c6: [
          '<25>{#f/1}{#n1}* \"Había una vez una monstruo...\"',
          '<25>{#f/0}* \"Y ella amo a un pequeño humano.\"',
@@ -954,8 +954,8 @@ export default {
          '<25>{#f/10}* \"Y la monstruo estaba feliz.\"'
          
       ],
-      chair2c7: [ '<25>{#f/0}{#n1}* Bueno, esa fue la historia.', '<25>{#f/1}* Espero que te haya gustado...' ],
-      chair2c8: [ '<25>{#f/0}{#n1}* Bueno, eso es todo.' ],
+      chair2c7: ['<25>{#f/0}{#n1}* Bueno, esa fue la historia.', '<25>{#f/1}* Espero que te haya gustado...'],
+      chair2c8: ['<25>{#f/0}{#n1}* Bueno, eso es todo.'],
       chair2d1: [
          '<25>{#p/toriel}{#f/1}{#n1}* ¿Hogar...?\n* Podrías ser un poco más especifico?',
          '<99>{#p/human}{#n1!}* (¿Qué dices?){!}\n§shift=48§No§shift=72§¿Cuándo puedo\n§shift=48§importa§shift=80§irme a casa?{#c/0/6/4}'
@@ -972,7 +972,7 @@ export default {
          '<25>{#p/toriel}{#f/5}{#n1}* Mi niño...',
          '<99>{#p/human}{#n1!}* (¿Qué dices?){!}\n§shift=144§Como salir\n§shift=64§Sorry§shift=40§de las Afueras{#c/0/8/2}'
       ],
-      chair2d5: [ '<25>{#p/toriel}{#f/5}{#n1}* ...' ],
+      chair2d5: ['<25>{#p/toriel}{#f/5}{#n1}* ...'],
       chair2d6: [
          '<25>{#p/toriel}{#f/9}{#n1}* ...',
          '<25>{#p/toriel}{#f/9}* Por favor, espera aquí.',
@@ -981,57 +981,57 @@ export default {
       chair3: () =>
          SAVE.data.b.svr
             ? [
-                 [
-                    "<25>{#p/asriel1}{#f/20}* Todavía no puedo creer que ella haya movido esto desde la Capital.",
-                    "<25>{#f/17}* Pero... Entiendo por qué ella querría.",
-                    '<25>{#f/13}* Mamá y esta silla suya se remontan desde hace mucho tiempo..'
-                 ],
-                 [
-                    '<25>{#p/asriel1}{#f/13}* Una vez, ella me dijo algo...',
-                    '<25>{#f/17}* \"Esta silla me recuerda a mi hogar.\"',
-                    '<25>{#f/13}* Pero ella ya estaba en su hogar, así que le pregunte a que se refería.',
-                    '<25>{#f/17}* Resulta que ella tenía esto en su casa...',
-                    '<25>{#f/23}* ... en su antiguo hogar natal.'
-                 ],
-                 [
-                    "<25>{#p/asriel1}{#f/13}* No se mucho sobre ese mundo, Frisk...",
-                    '<25>{#f/17}* Pero escuche que era muy... idílico.',
-                    '<25>{#f/20}* Seguro, ahí había muchos avances en magia y tecnología...',
-                    '<25>{#f/17}* Pero la gente lo amaba, porque la vida era tan... simple.'
-                 ],
-                 [ "<25>{#p/asriel1}{#f/23}* Lo que daría por tener una vida sencilla." ]
-              ][Math.min(asrielinter.chair3++, 3)]
+               [
+                  "<25>{#p/asriel1}{#f/20}* Todavía no puedo creer que ella haya movido esto desde la Capital.",
+                  "<25>{#f/17}* Pero... Entiendo por qué ella querría.",
+                  '<25>{#f/13}* Mamá y esta silla suya se remontan desde hace mucho tiempo..'
+               ],
+               [
+                  '<25>{#p/asriel1}{#f/13}* Una vez, ella me dijo algo...',
+                  '<25>{#f/17}* \"Esta silla me recuerda a mi hogar.\"',
+                  '<25>{#f/13}* Pero ella ya estaba en su hogar, así que le pregunte a que se refería.',
+                  '<25>{#f/17}* Resulta que ella tenía esto en su casa...',
+                  '<25>{#f/23}* ... en su antiguo hogar natal.'
+               ],
+               [
+                  "<25>{#p/asriel1}{#f/13}* No se mucho sobre ese mundo, Frisk...",
+                  '<25>{#f/17}* Pero escuche que era muy... idílico.',
+                  '<25>{#f/20}* Seguro, ahí había muchos avances en magia y tecnología...',
+                  '<25>{#f/17}* Pero la gente lo amaba, porque la vida era tan... simple.'
+               ],
+               ["<25>{#p/asriel1}{#f/23}* Lo que daría por tener una vida sencilla."]
+            ][Math.min(asrielinter.chair3++, 3)]
             : world.darker
-            ? [ '<32>{#p/basic}* Una silla para leer.' ]
-            : [ '<32>{#p/basic}* Una cómoda silla para leer...', '<32>* Parece del tamaño perfecto para Toriel.' ],
-      chair4: [ '<25>{#p/toriel}{#n1}* Ah, ahí estas.', '<25>* Te deje tu desayuno en la mesa para ti.' ],
+               ? ['<32>{#p/basic}* Una silla para leer.']
+               : ['<32>{#p/basic}* Una cómoda silla para leer...', '<32>* Parece del tamaño perfecto para Toriel.'],
+      chair4: ['<25>{#p/toriel}{#n1}* Ah, ahí estas.', '<25>* Te deje tu desayuno en la mesa para ti.'],
       closetrocket: {
          a: () => [
             '<32>{#p/human}* (Miras adentro del armario..)',
             ...(SAVE.data.b.svr
                ? [
-                    [
-                       "<25>{#p/asriel1}{#f/13}* Si, eh, eso es todo lo que puedes encontrar ahí.",
-                       "<25>{#f/17}* No estoy seguro de porque Toriel puso esto aquí.",
-                       '<25>{#f/17}* $(name) y yo nunca estuvimos interesados en los comics.'
-                    ],
-                    [ '<25>{#p/asriel1}{#f/10}* ¿Supongo que ella solo quiere pretender que vivimos aquí...?' ],
-                    [ '<25>{#p/asriel1}{#f/13}* Las cosas que hace una madre para sentirse mejor...' ]
-                 ][Math.min(asrielinter.closetrocket_a++, 2)]
-               : [ '<32>{#p/basic}* Nada más que encontrar aquí..' ])
+                  [
+                     "<25>{#p/asriel1}{#f/13}* Si, eh, eso es todo lo que puedes encontrar ahí.",
+                     "<25>{#f/17}* No estoy seguro de porque Toriel puso esto aquí.",
+                     '<25>{#f/17}* $(name) y yo nunca estuvimos interesados en los comics.'
+                  ],
+                  ['<25>{#p/asriel1}{#f/10}* ¿Supongo que ella solo quiere pretender que vivimos aquí...?'],
+                  ['<25>{#p/asriel1}{#f/13}* Las cosas que hace una madre para sentirse mejor...']
+               ][Math.min(asrielinter.closetrocket_a++, 2)]
+               : ['<32>{#p/basic}* Nada más que encontrar aquí..'])
          ],
          b: () => [
             '<32>{#p/human}* (Miras adentro del armario..)',
             ...(SAVE.data.b.svr
                ? []
-               : [ "<32>{#p/basic}* ¿Qué es eso?\n* ¿Un comic edición limitada de Super Starwalker?" ]),
+               : ["<32>{#p/basic}* ¿Qué es eso?\n* ¿Un comic edición limitada de Super Starwalker?"]),
             '<32>{#s/equip}{#p/human}* (Conseguiste Super Starwalker 3.)'
          ],
          b2: () => [
             '<32>{#p/human}* (Miras adentro del armario..)',
             ...(SAVE.data.b.svr
                ? []
-               : [ "<32>{#p/basic}* ¿Qué es eso?\n* ¿Un comic edición limitada de Super Starwalker?" ]),
+               : ["<32>{#p/basic}* ¿Qué es eso?\n* ¿Un comic edición limitada de Super Starwalker?"]),
             "<32>{#p/human}* (Llevas demasiado encima para tomar eso.)"
          ]
       },
@@ -1039,43 +1039,43 @@ export default {
          a1: () =>
             SAVE.flag.b.$svr
                ? [
-                    "<32>{#p/human}* Ya vi el efecto que tuviste en este mundo...",
-                    '<32>* Un final perfecto, donde todos son felices...',
-                    "<32>* Hay algo especial sobre eso."
-                 ]
+                  "<32>{#p/human}* Ya vi el efecto que tuviste en este mundo...",
+                  '<32>* Un final perfecto, donde todos son felices...',
+                  "<32>* Hay algo especial sobre eso."
+               ]
                : [
-                    '<32>{#p/human}* Un mundo sin asociaciones...',
-                    '<32>* Existir puramente por su propia belleza...',
-                    "<32>* Hay algo especial sobre eso."
-                 ],
+                  '<32>{#p/human}* Un mundo sin asociaciones...',
+                  '<32>* Existir puramente por su propia belleza...',
+                  "<32>* Hay algo especial sobre eso."
+               ],
          a2: () =>
             SAVE.flag.b.$svr
-               ? [ '<32>* Habiendo dicho eso...', "<32>* Parece que no fue suficiente para satisfacer tu... curiosidad." ]
-               : [ '<32>* Dime...', '<32>* Eso no despierta tu... curiosidad?' ]
+               ? ['<32>* Habiendo dicho eso...', "<32>* Parece que no fue suficiente para satisfacer tu... curiosidad."]
+               : ['<32>* Dime...', '<32>* Eso no despierta tu... curiosidad?']
       },
       danger_puzzle1: () => [
          '<25>{#p/toriel}* En esta habitación hay un nuevo tipo de puzzle.',
-         [ 1, 5 ].includes(SAVE.data.n.state_wastelands_dummy)
+         [1, 5].includes(SAVE.data.n.state_wastelands_dummy)
             ? '<25>{#f/3}* Quizá te vaya mejor aquí que con el maniquí.'
             : '<25>{#f/1}* ¿Crees que puedas resolverlo?'
       ],
       danger_puzzle2: () =>
          world.darker
-            ? [ "<32>{#p/basic}* Esta muy alto para que puedas alcanzarlo." ]
-            : [ "<32>{#p/basic}* La altura de esta terminal se eleva sobre ti, bloqueando tu ansioso enfoque." ],
+            ? ["<32>{#p/basic}* Esta muy alto para que puedas alcanzarlo."]
+            : ["<32>{#p/basic}* La altura de esta terminal se eleva sobre ti, bloqueando tu ansioso enfoque."],
       danger_puzzle3: () => [
-         [ 1, 5 ].includes(SAVE.data.n.state_wastelands_dummy)
+         [1, 5].includes(SAVE.data.n.state_wastelands_dummy)
             ? '<25>{#p/toriel}{#f/3}* Qué pasa ahora...'
             : '<25>{#p/toriel}{#f/1}* ¿Cuál es el problema?\n* ¿Necesitas ayuda?'
       ],
       danger_puzzle4: () => [
-         ...([ 1, 5 ].includes(SAVE.data.n.state_wastelands_dummy)
-            ? [ '<25>{#p/toriel}{#f/5}* Ah... ya veo.', '<25>{#f/5}* El terminal está demasiado alto para que puedas alcanzarlo.' ]
+         ...([1, 5].includes(SAVE.data.n.state_wastelands_dummy)
+            ? ['<25>{#p/toriel}{#f/5}* Ah... ya veo.', '<25>{#f/5}* El terminal está demasiado alto para que puedas alcanzarlo.']
             : [
-                 '<25>{#p/toriel}{#f/7}* ... oh mi.',
-                 '<25>{#f/6}* Parece que hay un error de diseño aquí.',
-                 '<25>{#f/5}* ¿Así que el terminal está muy alto para que puedas alcanzarlo...?'
-              ]),
+               '<25>{#p/toriel}{#f/7}* ... oh mi.',
+               '<25>{#f/6}* Parece que hay un error de diseño aquí.',
+               '<25>{#f/5}* ¿Así que el terminal está muy alto para que puedas alcanzarlo...?'
+            ]),
          '<25>{#f/0}* No hay problema.\n* Lo operaré por ti.',
          '<25>{#f/0}* ...',
          '<25>{#f/0}* Aquí hay un acertijo.\n* ¿Te gustaría resolverlo?',
@@ -1100,36 +1100,36 @@ export default {
          '<25>{#f/0}* Bueno, esta bien.\n* Esta vez te resolveré el acertijo.'
       ],
       danger_puzzle5e: () =>
-         [ 1, 5 ].includes(SAVE.data.n.state_wastelands_dummy)
-            ? [ '<25>{#p/toriel}{#f/5}* ...', '<25>{#f/5}* Ya veo.' ]
-            : [ '<25>{#p/toriel}{#f/0}* ...', '<25>{#f/0}* Supongo que esta vez te puedo resolver el acertijo.' ],
+         [1, 5].includes(SAVE.data.n.state_wastelands_dummy)
+            ? ['<25>{#p/toriel}{#f/5}* ...', '<25>{#f/5}* Ya veo.']
+            : ['<25>{#p/toriel}{#f/0}* ...', '<25>{#f/0}* Supongo que esta vez te puedo resolver el acertijo.'],
       danger_puzzle6: () => [
-         [ 1, 5 ].includes(SAVE.data.n.state_wastelands_dummy) && SAVE.data.b.w_state_riddleskip
+         [1, 5].includes(SAVE.data.n.state_wastelands_dummy) && SAVE.data.b.w_state_riddleskip
             ? '<25>{#p/toriel}{#f/5}* Y... {#x1}ahí.\n* El camino está despejado.'
             : '<25>{#p/toriel}* Y... {#x1}¡ahí!\n* ¡El camino está despejado!'
       ],
       danger_puzzle7: () => [
-         [ 1, 5 ].includes(SAVE.data.n.state_wastelands_dummy) && SAVE.data.b.w_state_riddleskip
+         [1, 5].includes(SAVE.data.n.state_wastelands_dummy) && SAVE.data.b.w_state_riddleskip
             ? '<25>{#p/toriel}{#f/5}* Esperaré a que entres en la siguiente habitación.'
             : '<25>{#p/toriel}* Cuando estés listo, podrás entrar en la siguiente habitación.'
       ],
       danger_puzzle8: () =>
          SAVE.data.b.svr
-            ? [ "<32>{#p/human}* (Pero todavía no puedes alcanzar el terminal.)" ]
-            : [ '<32>{#p/basic}* Incluso ahora, el terminal sigue tan alto como siempre.' ],
-      denie: [ "<32>{#p/human}* (Llevas demasiado encima para tomar eso.)" ],
+            ? ["<32>{#p/human}* (Pero todavía no puedes alcanzar el terminal.)"]
+            : ['<32>{#p/basic}* Incluso ahora, el terminal sigue tan alto como siempre.'],
+      denie: ["<32>{#p/human}* (Llevas demasiado encima para tomar eso.)"],
       dipper: {
          a: () => [
             '<32>{#p/human}* (Conseguiste el Cucharon Pequeño.)',
             choicer.create('* (¿Equiparte el Cucharón Pequeño?)', 'Si', 'No')
          ],
-         b: [ "<32>{#p/human}* (Llevas demasiado encima para tomar eso.)" ]
+         b: ["<32>{#p/human}* (Llevas demasiado encima para tomar eso.)"]
       },
-      drop_pie: [ '<25>{#p/toriel}{#f/1}* Las tartas son para comer, no para salpicarlo en el suelo.' ],
-      drop_pie3: [ '<25>{#p/toriel}{#f/1}* Por favor no derrames comida en el suelo.' ],
-      drop_snails: [ '<25>{#p/toriel}{#f/1}* Qué te han hecho esos pobres caracoles fritos.' ],
-      drop_soda: [ "<32>{#p/basic}{#n1}* Aww ¡vamos! ;)", '<32>* ¡Puse mi corazón en eso! ;)' ],
-      drop_steak: [ '<32>{#p/basic}{#n1}* ¡¿Enserio!? ;)', '<32>* ¡Ese filete no tenía precio! ;)' ],
+      drop_pie: ['<25>{#p/toriel}{#f/1}* Las tartas son para comer, no para salpicarlo en el suelo.'],
+      drop_pie3: ['<25>{#p/toriel}{#f/1}* Por favor no derrames comida en el suelo.'],
+      drop_snails: ['<25>{#p/toriel}{#f/1}* Qué te han hecho esos pobres caracoles fritos.'],
+      drop_soda: ["<32>{#p/basic}{#n1}* Aww ¡vamos! ;)", '<32>* ¡Puse mi corazón en eso! ;)'],
+      drop_steak: ['<32>{#p/basic}{#n1}* ¡¿Enserio!? ;)', '<32>* ¡Ese filete no tenía precio! ;)'],
       dummy1: [
          '<25>{#p/toriel}{#f/0}* Tu próxima lección implica encuentros con otros monstruos.',
          '<25>{#f/1}* Al ser un humano vagando por la estación, es probable que te ataquen...',
@@ -1138,7 +1138,7 @@ export default {
          '<25>{#f/1}* Por ahora, te sugiero entablar una charla amistosa...',
          '<25>{#f/0}* ... dándome así la oportunidad de resolver el conflicto por ti.'
       ],
-      dummy2: [ '<25>{#p/toriel}* Para empezar, puedes practicar hablando con el maniquí.' ],
+      dummy2: ['<25>{#p/toriel}* Para empezar, puedes practicar hablando con el maniquí.'],
       dummy3: [
          '<25>{#p/toriel}{#f/7}* ... ¿Crees que soy el maniquí?',
          '<25>{#f/6}* ¡Jajaja!\n* ¡Qué adorable!',
@@ -1148,28 +1148,28 @@ export default {
          '<25>{#p/toriel}* No hay nada que tener miedo, mi niño.',
          '<25>* Un simple maniquí de entrenamiento no puede lastimarte.'
       ],
-      dummy5: [ '<25>{#p/toriel}{#f/1}* Vamos, pequeño...' ],
+      dummy5: ['<25>{#p/toriel}{#f/1}* Vamos, pequeño...'],
       dummy6: [
          '<25>{#p/toriel}{#f/2}* ¡Niño, no!\n* ¡El muñeco no esta hecho para pelear!',
          '<25>{#f/1}* Además, no queremos dañar a nadie, ¿verdad?',
          '<25>{#f/0}* Vamos.'
       ],
-      dummy7: [ '<25>{#p/toriel}* ¡Excelente!\n* Parece que aprendes muy rápido.' ],
+      dummy7: ['<25>{#p/toriel}* ¡Excelente!\n* Parece que aprendes muy rápido.'],
       dummy8: [
          '<25>{#p/toriel}{#f/1}* ¿Tú huiste...?',
          '<25>{#f/0}* De hecho, puede que haya sido una sabia elección.',
          '<26>{#f/1}* Habiendo escapado, evitaste cualquier posible conflicto...',
          '<25>{#f/0}* ... incluso si solo ERA un simple muñeco de entrenamiento.'
       ],
-      dummy9: [ '<25>{#p/toriel}{#f/3}* ...', '<25>{#f/4}* ...', '<25>{#f/0}* La siguiente habitación espera.' ],
-      dummy9a: [ '<25>{#p/toriel}{#f/3}* ...', '<25>{#f/4}* ...', '<25>{#f/6}* La siguiente habitación espera.' ],
+      dummy9: ['<25>{#p/toriel}{#f/3}* ...', '<25>{#f/4}* ...', '<25>{#f/0}* La siguiente habitación espera.'],
+      dummy9a: ['<25>{#p/toriel}{#f/3}* ...', '<25>{#f/4}* ...', '<25>{#f/6}* La siguiente habitación espera.'],
       dummy10: [
          '<25>{#p/toriel}{#f/7}* Mi niño, eso es...',
          '<25>{#f/0}* ... eso es quizás la cosa más adorable que he visto hasta ahora.',
          '<25>{#f/0}* En cualquier caso, manejaste esta lección admirablemente.',
          '<25>{#f/0}* La siguiente habitación espera.'
       ],
-      dummy11: [ '<25>{#p/toriel}* La siguiente habitación espera.' ],
+      dummy11: ['<25>{#p/toriel}* La siguiente habitación espera.'],
       dummy12: [
          '<25>{#p/toriel}{#f/2}* ¡Dios mío, niño!\n* ¡Ten piedad!',
          '<25>{#f/1}* ...',
@@ -1178,8 +1178,8 @@ export default {
          '<25>{#f/0}* ... ¡No matar a la gente a bofetadas!',
          '<26>{#f/0}* Como sea.\n* La siguiente habitación espera.'
       ],
-      eat_pie: [ '<25>{#p/toriel}{#f/1}{#n1}* Delicioso, ¿verdad?' ],
-      eat_snails: [ '<25>{#p/toriel}{#f/0}{#n1}* Espero que tu desayuno haya sido suficiente.' ],
+      eat_pie: ['<25>{#p/toriel}{#f/1}{#n1}* Delicioso, ¿verdad?'],
+      eat_snails: ['<25>{#p/toriel}{#f/0}{#n1}* Espero que tu desayuno haya sido suficiente.'],
       eat_soda: [
          '<32>{#p/basic}* Aaron sacó su teléfono y tomó una foto.',
          '<32>{#p/basic}{#n1}* Ooh, definitivamente podría poner esto en un póster en alguna parte ;)'
@@ -1205,41 +1205,41 @@ export default {
       endtwinklyA2: () =>
          SAVE.flag.n.genocide_milestone < 1
             ? [
-                 '<25>{#p/twinkly}{#f/5}* Hola, $(name).',
-                 "<25>{#f/5}* Parece que ya no quieres jugar conmigo.",
-                 '<25>{#f/6}* Intente ser paciente contigo, pero aquí estamos...',
-                 '<25>{#f/6}* De vuelta al inicio otra vez.',
-                 '<25>{#f/8}* Una y otra y otra vez...',
-                 '<25>{#f/5}* Debes pensar que todo esto es muy divertido.',
-                 '<25>{#f/7}* Burlándote de mí con la oportunidad de estar contigo, sólo para arrebatármela...',
-                 "<25>{#f/5}* Bueno, eso esta bien.",
-                 "<25>{#f/5}* Si ese es el juego que vas a jugar, entonces adelante.",
-                 "<25>{#f/11}* Solo no esperes tener el control durante mucho tiempo....",
-                 "<25>{#f/7}* Tarde o temprano, vas a arrepentirte de lo que has hecho."
-              ]
+               '<25>{#p/twinkly}{#f/5}* Hola, $(name).',
+               "<25>{#f/5}* Parece que ya no quieres jugar conmigo.",
+               '<25>{#f/6}* Intente ser paciente contigo, pero aquí estamos...',
+               '<25>{#f/6}* De vuelta al inicio otra vez.',
+               '<25>{#f/8}* Una y otra y otra vez...',
+               '<25>{#f/5}* Debes pensar que todo esto es muy divertido.',
+               '<25>{#f/7}* Burlándote de mí con la oportunidad de estar contigo, sólo para arrebatármela...',
+               "<25>{#f/5}* Bueno, eso esta bien.",
+               "<25>{#f/5}* Si ese es el juego que vas a jugar, entonces adelante.",
+               "<25>{#f/11}* Solo no esperes tener el control durante mucho tiempo....",
+               "<25>{#f/7}* Tarde o temprano, vas a arrepentirte de lo que has hecho."
+            ]
             : [
-                 '<25>{#p/twinkly}{#f/6}* Hola, $(name).',
-                 ...(SAVE.flag.n.genocide_milestone < 7
-                    ? [
-                         "<25>{#f/6}* He tenido algo de tiempo para pensar sobre lo que paso.",
-                         '<25>{#f/5}* Fue emocionante, al principio...',
-                         '<25>* La idea de tomar la estación espacial a la fuerza juntos...',
-                         "<25>{#f/6}* Pero ahora, no estoy seguro.",
-                         '<25>{#f/8}* ...',
-                         '<25>{#f/8}* Supongo... que me dejé llevar un poco allí atrás.',
-                         "<25>{#f/5}* Pero eso esta bien, ¿verdad?\n* Me perdonaras, ¿no es así?"
-                      ]
-                    : [
-                         "<25>{#f/6}* Aún no estoy muy seguro de lo que paso ahí atrás",
-                         "<25>{#f/5}* Me está... asustando un poco, jaja...",
-                         '<25>{#f/8}* ...',
-                         '<25>{#f/8}* Tal vez... deberíamos esperar un poco por ahora.',
-                         "<25>{#f/5}* Pero eso esta bien, ¿verdad?\n* Estarás bien con eso, ¿no es así?"
-                      ]),
-                 '<25>{#f/6}* ...',
-                 '<25>{#f/8}* Adiós, $(name)...',
-                 ...(SAVE.flag.n.genocide_milestone < 7 ? [ "<25>{#f/5}* Volveré antes de que te des cuenta." ] : [])
-              ],
+               '<25>{#p/twinkly}{#f/6}* Hola, $(name).',
+               ...(SAVE.flag.n.genocide_milestone < 7
+                  ? [
+                     "<25>{#f/6}* He tenido algo de tiempo para pensar sobre lo que paso.",
+                     '<25>{#f/5}* Fue emocionante, al principio...',
+                     '<25>* La idea de tomar la estación espacial a la fuerza juntos...',
+                     "<25>{#f/6}* Pero ahora, no estoy seguro.",
+                     '<25>{#f/8}* ...',
+                     '<25>{#f/8}* Supongo... que me dejé llevar un poco allí atrás.',
+                     "<25>{#f/5}* Pero eso esta bien, ¿verdad?\n* Me perdonaras, ¿no es así?"
+                  ]
+                  : [
+                     "<25>{#f/6}* Aún no estoy muy seguro de lo que paso ahí atrás",
+                     "<25>{#f/5}* Me está... asustando un poco, jaja...",
+                     '<25>{#f/8}* ...',
+                     '<25>{#f/8}* Tal vez... deberíamos esperar un poco por ahora.',
+                     "<25>{#f/5}* Pero eso esta bien, ¿verdad?\n* Estarás bien con eso, ¿no es así?"
+                  ]),
+               '<25>{#f/6}* ...',
+               '<25>{#f/8}* Adiós, $(name)...',
+               ...(SAVE.flag.n.genocide_milestone < 7 ? ["<25>{#f/5}* Volveré antes de que te des cuenta."] : [])
+            ],
       endtwinklyAreaction: [
          '<32>{#p/basic}* Perdón, ¿me he perdido algo?',
          "<32>* Nunca he hablado con él en mi vida, y mucho menos ir a alguna misión con él.",
@@ -1248,17 +1248,17 @@ export default {
       endtwinklyB: () =>
          SAVE.data.b.w_state_lateleave
             ? [
-                 '<25>{#p/twinkly}{#f/5}{#v/0}* Bueno.\n* Eso fue inesperado.',
-                 "<25>{#f/11}{#v/0}* Piensas que puedes romper las reglas, ¿no?",
-                 '<25>{#f/7}{#v/0}* Ji ji ji...',
-                 "<25>{#f/0}{#v/1}* En este mundo, es MATAR o MORIR."
-              ]
+               '<25>{#p/twinkly}{#f/5}{#v/0}* Bueno.\n* Eso fue inesperado.',
+               "<25>{#f/11}{#v/0}* Piensas que puedes romper las reglas, ¿no?",
+               '<25>{#f/7}{#v/0}* Ji ji ji...',
+               "<25>{#f/0}{#v/1}* En este mundo, es MATAR o MORIR."
+            ]
             : [
-                 '<25>{#p/twinkly}{#f/5}{#v/0}* Listo.\n* Eres muyyyy listo.',
-                 "<25>{#f/11}{#v/0}* Realmente crees que eres inteligente, ¿verdad?",
-                 '<25>{#f/7}{#v/0}* Ji ji ji...',
-                 "<25>{#f/0}{#v/1}* En este mundo, es MATAR o MORIR."
-              ],
+               '<25>{#p/twinkly}{#f/5}{#v/0}* Listo.\n* Eres muyyyy listo.',
+               "<25>{#f/11}{#v/0}* Realmente crees que eres inteligente, ¿verdad?",
+               '<25>{#f/7}{#v/0}* Ji ji ji...',
+               "<25>{#f/0}{#v/1}* En este mundo, es MATAR o MORIR."
+            ],
       endtwinklyB2: [
          '<25>{#f/8}{#v/0}* Si solo hubieras matado a unos cuantos monstruos más...',
          "<25>{#f/9}{#v/0}* Bueno, tal vez no debí revelar mis planes tan pronto.",
@@ -1375,11 +1375,11 @@ export default {
          '<25>{#f/7}{#v/0}* Ji ji ji...',
          '<25>{#f/0}{#v/0}* Lo hiciste por ABURRIMIENTO.'
       ],
-      endtwinklyEA: [ "<25>{#f/11}{#v/0}* No creas que no sé cómo funciona esto..." ],
-      endtwinklyEB: [ "<25>{#f/6}{#v/0}* Es triste, aunque..." ],
-      endtwinklyF: [ '<25>{#p/twinkly}{#f/11}{#v/0}* Mírate, jugando así con su vida...' ],
-      endtwinklyFA: [ '<25>{#f/7}{#v/0}* Matandola, abandonándola, matandola de nuevo...' ],
-      endtwinklyFB: [ '<25>{#f/7}{#v/0}* Abandonándola, matandola, abandonándola de nuevo...' ],
+      endtwinklyEA: ["<25>{#f/11}{#v/0}* No creas que no sé cómo funciona esto..."],
+      endtwinklyEB: ["<25>{#f/6}{#v/0}* Es triste, aunque..."],
+      endtwinklyF: ['<25>{#p/twinkly}{#f/11}{#v/0}* Mírate, jugando así con su vida...'],
+      endtwinklyFA: ['<25>{#f/7}{#v/0}* Matandola, abandonándola, matandola de nuevo...'],
+      endtwinklyFB: ['<25>{#f/7}{#v/0}* Abandonándola, matandola, abandonándola de nuevo...'],
       endtwinklyFXA: [
          "<25>{#f/11}{#v/0}* Es divertido, ¿no es así?",
          '<25>{#f/6}{#v/0}* Jugando sin cesar con la vida de los demás...',
@@ -1433,9 +1433,9 @@ export default {
          "<25>{#f/8}{#v/0}* ... ¿Qué pasa?\n* ¿Ella no duró tanto como pensabas?",
          '<26>{#f/6}{#v/0}* Oh, que terrible.\n* Supongo que no todos pueden ser sometidos a la fuerza.'
       ],
-      endtwinklyIA: [ '<25>{#f/11}{#v/0}* ¡Pero que idiota!' ],
-      endtwinklyIAX: [ '<25>{#f/7}{#v/0}* Qué pena por ella.' ],
-      endtwinklyIB: [ '<25>{#f/6}{#v/0}* En cuanto a tí...' ],
+      endtwinklyIA: ['<25>{#f/11}{#v/0}* ¡Pero que idiota!'],
+      endtwinklyIAX: ['<25>{#f/7}{#v/0}* Qué pena por ella.'],
+      endtwinklyIB: ['<25>{#f/6}{#v/0}* En cuanto a tí...'],
       endtwinklyJ: [
          '<25>{#p/twinkly}{#f/6}{#v/0}* Vaya.',
          '<25>{#f/7}{#v/0}* Y yo aquí pensando que eras el justo por mostrar piedad.',
@@ -1571,76 +1571,76 @@ export default {
       exitfail1: (lateleave: boolean, sleep: boolean) =>
          world.postnoot
             ? [
-                 [
-                    sleep
-                       ? "<32>{#p/twinkly}{#f/19}* Después de que durmieras en casa de mamá, ella se fue de compras."
-                       : "<32>{#p/twinkly}{#f/19}* Después de que corrieras de vuelta a casa de mamá, ella se fue de compras.",
-                    '<32>{#x1}* Pero... ¡oh no!\n* El taxi en el que ella viajaba exploto, matándola al instante!',
-                    '<32>* Dios, me pregunto cómo pudo ocurrir algo tan horrible.',
-                    '<32>{*}{#x2}* ...',
-                    "<25>{*}{#f/7}* Perdón, $(name).\n* Supongo que tu final feliz no será tan fácil."
-                 ],
-                 [
-                    sleep
-                       ? "<32>{#p/twinkly}{#f/19}* Después de que durmieras en casa de mamá, ella se fue de compras."
-                       : "<32>{#p/twinkly}{#f/19}* Después de que corrieras de vuelta a casa de mamá, ella se fue de compras.",
-                    '<32>{#x1}* Pero... ¡oh no!\n* ¡Una estrella parlante aparece y la tortura hasta la muerte!',
-                    "<32>* Dios, ¡eso es un resultado aún peor que la última vez!",
-                    '<32>{*}{#x2}* ...',
-                    "<25>{*}{#f/6}* No tenemos tiempo para esto, $(name).\n* Vuelve al camino."
-                 ],
-                 [
-                    '<25>{*}{#p/twinkly}{#f/5}* Vamos, $(name)...',
-                    sleep
-                       ? "<25>{*}{#f/7}* ¿De verdad crees que voy a dejar que me evites TAN fácilmente?"
-                       : "<25>{*}{#f/7}* ¿De verdad crees que voy a dejar que huyas de mí TAN fácilmente?"
-                 ],
-                 [ '<25>{*}{#p/twinkly}{#f/6}* Podemos hacer esto todo el día.' ],
-                 [ '<25>{*}{#p/twinkly}{#f/8}* ...' ]
-              ][Math.min(SAVE.flag.n.postnoot_exitfail++, 4)]
+               [
+                  sleep
+                     ? "<32>{#p/twinkly}{#f/19}* Después de que durmieras en casa de mamá, ella se fue de compras."
+                     : "<32>{#p/twinkly}{#f/19}* Después de que corrieras de vuelta a casa de mamá, ella se fue de compras.",
+                  '<32>{#x1}* Pero... ¡oh no!\n* El taxi en el que ella viajaba exploto, matándola al instante!',
+                  '<32>* Dios, me pregunto cómo pudo ocurrir algo tan horrible.',
+                  '<32>{*}{#x2}* ...',
+                  "<25>{*}{#f/7}* Perdón, $(name).\n* Supongo que tu final feliz no será tan fácil."
+               ],
+               [
+                  sleep
+                     ? "<32>{#p/twinkly}{#f/19}* Después de que durmieras en casa de mamá, ella se fue de compras."
+                     : "<32>{#p/twinkly}{#f/19}* Después de que corrieras de vuelta a casa de mamá, ella se fue de compras.",
+                  '<32>{#x1}* Pero... ¡oh no!\n* ¡Una estrella parlante aparece y la tortura hasta la muerte!',
+                  "<32>* Dios, ¡eso es un resultado aún peor que la última vez!",
+                  '<32>{*}{#x2}* ...',
+                  "<25>{*}{#f/6}* No tenemos tiempo para esto, $(name).\n* Vuelve al camino."
+               ],
+               [
+                  '<25>{*}{#p/twinkly}{#f/5}* Vamos, $(name)...',
+                  sleep
+                     ? "<25>{*}{#f/7}* ¿De verdad crees que voy a dejar que me evites TAN fácilmente?"
+                     : "<25>{*}{#f/7}* ¿De verdad crees que voy a dejar que huyas de mí TAN fácilmente?"
+               ],
+               ['<25>{*}{#p/twinkly}{#f/6}* Podemos hacer esto todo el día.'],
+               ['<25>{*}{#p/twinkly}{#f/8}* ...']
+            ][Math.min(SAVE.flag.n.postnoot_exitfail++, 4)]
             : [
-                 sleep
-                    ? "<32>{#p/basic}* Después de que durmieras en la casa de Toriel, ella destruye el puente hacia la estación espacial."
-                    : "<32>{#p/basic}* Después de que regresaras a la casa de Toriel, ella destruye el puente hacia la estación espacial.",
-                 ...(outlandsKills() > 10
-                    ? [
-                         "<32>* El tiempo pasa y Toriel pronto se entera de los monstruos que has matado.",
-                         '<32>* Sus esperanzas se rompieron y sin nada que perder, ella...',
-                         '<32>* ...',
-                         '<32>* ... m-mientras tanto, los residentes que quedan de la estación espacial esperan la salvación...'
-                      ]
-                    : outlandsKills() > 5 || SAVE.data.n.bully_wastelands > 5
-                    ? [
-                         '<32>* El tiempo pasa y Toriel hace todo lo posible por cuidarte.',
-                         '<32>* Leyendo libros, horneándote tartas...',
-                         '<32>* Acurrucándote en la cama, todas y cada una de las noches...',
-                         ...(lateleave
-                            ? [ '<32>* ... a pesar de su miedo a que intentes huir de nuevo.' ]
-                            : [ "<32>* ... a pesar de los que han desaparecido." ]),
-                         '<32>* Al mismo tiempo, los residentes de la estación espacial esperan la salvación...'
-                      ]
-                    : [
-                         '<32>* El tiempo pasa y Toriel hace todo lo posible por cuidarte.',
-                         '<32>* Leyendo libros, horneándote tartas...',
-                         '<32>* Acurrucándote en la cama, todas y cada una de las noches...',
-                         ...(lateleave
-                            ? [ '<32>* Y abrazándote tan fuerte para que nunca jamás intentes huir de nuevo.' ]
-                            : [ '<32>* Y todos los abrazos que puedas desear.' ]),
-                         '<32>* Al mismo tiempo, los residentes de la estación espacial esperan la salvación...'
-                      ]),
-                 '<32>* ... de un humano que quizá nunca llegue a ellos.',
-                 '<32>* ¿Es este el resultado que realmente esperabas?',
-                 '<32>* ¿Es esto lo que ellos realmente se merecen?'
-              ],
+               sleep
+                  ? "<32>{#p/basic}* Después de que durmieras en la casa de Toriel, ella destruye el puente hacia la estación espacial."
+                  : "<32>{#p/basic}* Después de que regresaras a la casa de Toriel, ella destruye el puente hacia la estación espacial.",
+               ...(outlandsKills() > 10
+                  ? [
+                     "<32>* El tiempo pasa y Toriel pronto se entera de los monstruos que has matado.",
+                     '<32>* Sus esperanzas se rompieron y sin nada que perder, ella...',
+                     '<32>* ...',
+                     '<32>* ... m-mientras tanto, los residentes que quedan de la estación espacial esperan la salvación...'
+                  ]
+                  : outlandsKills() > 5 || SAVE.data.n.bully_wastelands > 5
+                     ? [
+                        '<32>* El tiempo pasa y Toriel hace todo lo posible por cuidarte.',
+                        '<32>* Leyendo libros, horneándote tartas...',
+                        '<32>* Acurrucándote en la cama, todas y cada una de las noches...',
+                        ...(lateleave
+                           ? ['<32>* ... a pesar de su miedo a que intentes huir de nuevo.']
+                           : ["<32>* ... a pesar de los que han desaparecido."]),
+                        '<32>* Al mismo tiempo, los residentes de la estación espacial esperan la salvación...'
+                     ]
+                     : [
+                        '<32>* El tiempo pasa y Toriel hace todo lo posible por cuidarte.',
+                        '<32>* Leyendo libros, horneándote tartas...',
+                        '<32>* Acurrucándote en la cama, todas y cada una de las noches...',
+                        ...(lateleave
+                           ? ['<32>* Y abrazándote tan fuerte para que nunca jamás intentes huir de nuevo.']
+                           : ['<32>* Y todos los abrazos que puedas desear.']),
+                        '<32>* Al mismo tiempo, los residentes de la estación espacial esperan la salvación...'
+                     ]),
+               '<32>* ... de un humano que quizá nunca llegue a ellos.',
+               '<32>* ¿Es este el resultado que realmente esperabas?',
+               '<32>* ¿Es esto lo que ellos realmente se merecen?'
+            ],
       food: () => [
          ...(SAVE.data.n.state_wastelands_mash === 2
             ? [
-                 '<25>{#p/toriel}{#f/1}* Perdón por la espera...',
-                 '<25>{#f/3}* Parece que ese perrito blanco ha vuelto a asaltar mi cocina.',
-                 '<25>{#f/4}* Deberías ver el estado de esa tarta...',
-                 '<26>{#f/0}* Pero bueno.\n* Te he preparado un plato de caracoles fritos.'
-              ]
-            : [ '<25>{#p/toriel}* ¡El desayuno esta listo!', '<26>* Te he preparado un plato de caracoles fritos.' ]),
+               '<25>{#p/toriel}{#f/1}* Perdón por la espera...',
+               '<25>{#f/3}* Parece que ese perrito blanco ha vuelto a asaltar mi cocina.',
+               '<25>{#f/4}* Deberías ver el estado de esa tarta...',
+               '<26>{#f/0}* Pero bueno.\n* Te he preparado un plato de caracoles fritos.'
+            ]
+            : ['<25>{#p/toriel}* ¡El desayuno esta listo!', '<26>* Te he preparado un plato de caracoles fritos.']),
          '<25>{#f/1}* Los dejare aquí en la mesa...'
       ],
       fridgetrap: {
@@ -1648,140 +1648,140 @@ export default {
             SAVE.data.b.svr
                ? []
                : world.darker
-               ? [ "<32>{#p/basic}* No te gustaría lo que hay en la nevera." ]
-               : [ '<32>{#p/basic}* Hay una tableta de chocolate de marca en la nevera.' ],
+                  ? ["<32>{#p/basic}* No te gustaría lo que hay en la nevera."]
+                  : ['<32>{#p/basic}* Hay una tableta de chocolate de marca en la nevera.'],
          b: () => [
-            ...(SAVE.data.b.svr ? [] : [ '<32>{#p/basic}* ...', '<32>* ¿Lo quieres?' ]),
+            ...(SAVE.data.b.svr ? [] : ['<32>{#p/basic}* ...', '<32>* ¿Lo quieres?']),
             choicer.create('* (¿Tomar la Barra de Chocolate)', 'Si', 'No')
          ],
-         b1: [ '<32>{#p/human}* (Decides no tomar nada.)' ],
+         b1: ['<32>{#p/human}* (Decides no tomar nada.)'],
          b2: () => [
             '<32>{#p/human}* (Conseguiste la Barra de Chocolate.)',
-            ...(SAVE.data.b.svr ? [ '<25>{#p/asriel1}{#f/17}* Oh... chocolate.', '<25>{#p/asriel1}{#f/13}* ...' ] : [])
+            ...(SAVE.data.b.svr ? ['<25>{#p/asriel1}{#f/17}* Oh... chocolate.', '<25>{#p/asriel1}{#f/13}* ...'] : [])
          ],
          c: () =>
             SAVE.data.b.svr
                ? [
-                    '<32>{#p/human}* (Pero no había nada más que encontrar dentro.)',
-                    ...[
-                       [
-                          '<25>{#p/asriel1}{#f/23}* Oh... $(name) SIEMPRE solía hurgar en la nevera.',
-                          '<25>{#f/13}* Pensaba que si cavaba lo suficientemente profundo...',
-                          '<25>{#f/13}* Otra tableta de chocolate se revelaría ahí dentro.',
-                          '<25>{#f/17}* ... qué tonto.'
-                       ],
-                       [ '<25>{#p/asriel1}{#f/20}* Eso fue antes de que se instalara el replicador de chocolate.' ]
-                    ][Math.min(asrielinter.fridgetrap_c++, 1)]
-                 ]
-               : [ '<32>{#p/basic}* La barra de chocolate ya ha sido tomada.' ],
-         d: [ "<32>{#p/human}* (Llevas demasiado encima.)" ]
+                  '<32>{#p/human}* (Pero no había nada más que encontrar dentro.)',
+                  ...[
+                     [
+                        '<25>{#p/asriel1}{#f/23}* Oh... $(name) SIEMPRE solía hurgar en la nevera.',
+                        '<25>{#f/13}* Pensaba que si cavaba lo suficientemente profundo...',
+                        '<25>{#f/13}* Otra tableta de chocolate se revelaría ahí dentro.',
+                        '<25>{#f/17}* ... qué tonto.'
+                     ],
+                     ['<25>{#p/asriel1}{#f/20}* Eso fue antes de que se instalara el replicador de chocolate.']
+                  ][Math.min(asrielinter.fridgetrap_c++, 1)]
+               ]
+               : ['<32>{#p/basic}* La barra de chocolate ya ha sido tomada.'],
+         d: ["<32>{#p/human}* (Llevas demasiado encima.)"]
       },
       front1: [
          '<25>{#p/toriel}{#f/1}* ... y ¿quieres reproducir alguna de tus canciones?',
          '<25>{#f/0}* De acuerdo, veré lo que puedo hacer.'
       ],
-      front1x: [ '<25>{#p/toriel}{#f/1}* ... ¿hola?' ],
+      front1x: ['<25>{#p/toriel}{#f/1}* ... ¿hola?'],
       front2: () => [
          ...(world.postnoot
             ? [
-                 '<25>{#p/toriel}{#f/2}* ¡¿Ya estas despierto!?',
-                 '<25>{#f/1}* No has dormido mucho tiempo...',
-                 '<25>{#f/5}* ...',
-                 world.nootflags.has('toriel') // NO-TRANSLATE
+               '<25>{#p/toriel}{#f/2}* ¡¿Ya estas despierto!?',
+               '<25>{#f/1}* No has dormido mucho tiempo...',
+               '<25>{#f/5}* ...',
+               world.nootflags.has('toriel') // NO-TRANSLATE
 
-                    ? '<25>{#f/1}* El sistema atmosférico aún no parece estar arreglado.'
-                    : '<25>{#f/1}* El sistema atmosférico parece estar fallando.',
-                 '<25>{#f/1}* Si te empiezas a sentir débil, no dudes en volver a la cama.',
-                 '<26>{#f/0}* ... en cualquier caso.'
-              ]
+                  ? '<25>{#f/1}* El sistema atmosférico aún no parece estar arreglado.'
+                  : '<25>{#f/1}* El sistema atmosférico parece estar fallando.',
+               '<25>{#f/1}* Si te empiezas a sentir débil, no dudes en volver a la cama.',
+               '<26>{#f/0}* ... en cualquier caso.'
+            ]
             : [
-                 '<25>{#p/toriel}{#f/2}* ¡¿Cuánto tiempo llevas ahí de pie!?',
-                 '<25>{#f/5}* ...',
-                 '<25>{#f/0}* Supongo que no importa.'
-              ]),
+               '<25>{#p/toriel}{#f/2}* ¡¿Cuánto tiempo llevas ahí de pie!?',
+               '<25>{#f/5}* ...',
+               '<25>{#f/0}* Supongo que no importa.'
+            ]),
          '<25>{#f/0}* Napstablook, un visitante de aquí, se ha ofrecido a tocar su música.',
          '<25>{#f/0}* De hecho, ¡te invito específicamente para estar con ellos en el escenario!',
          '<25>{#f/1}* ¿Te gustaría visitar la sala de actividades para verlos?',
          ...(SAVE.data.n.state_wastelands_mash === 1
             ? [
-                 '<25>{#f/3}* Oh, y me disculpo por el estado de la tarta.',
-                 '<25>{#f/4}* Parece que ese perrito blanco ha vuelto a asaltar mi cocina...'
-              ]
+               '<25>{#f/3}* Oh, y me disculpo por el estado de la tarta.',
+               '<25>{#f/4}* Parece que ese perrito blanco ha vuelto a asaltar mi cocina...'
+            ]
             : 3 <= SAVE.data.n.cell_insult
-            ? [
-                 '<25>{#f/5}* Oh, y me disculpo por el estado de la tarta.',
-                 '<25>{#f/9}* Hice lo que pude para intentar salvarlo...'
-              ]
-            : []),
+               ? [
+                  '<25>{#f/5}* Oh, y me disculpo por el estado de la tarta.',
+                  '<25>{#f/9}* Hice lo que pude para intentar salvarlo...'
+               ]
+               : []),
          choicer.create("* (¿Ver el show de Napstablook?)", 'Si', 'No')
       ],
-      front2a: [ '<25>{#p/toriel}{#f/0}* ¡Maravilloso!\n* Le haré saber que estas viniendo.' ],
-      front2b: [ '<25>{#p/toriel}{#f/5}* ...', '<25>{#p/toriel}{#f/5}* Estaré en la sala si me necesitas.' ],
+      front2a: ['<25>{#p/toriel}{#f/0}* ¡Maravilloso!\n* Le haré saber que estas viniendo.'],
+      front2b: ['<25>{#p/toriel}{#f/5}* ...', '<25>{#p/toriel}{#f/5}* Estaré en la sala si me necesitas.'],
       front3: () => [
          ...(world.postnoot
             ? [
-                 '<25>{#p/toriel}{#f/0}* Oh, hola, pequeño.\n* Te has levantado temprano.',
-                 '<25>{#f/1}* ¿Estás seguro de que dormiste lo suficiente?',
-                 '<25>{#f/5}* ...',
-                 world.nootflags.has('toriel') // NO-TRANSLATE
+               '<25>{#p/toriel}{#f/0}* Oh, hola, pequeño.\n* Te has levantado temprano.',
+               '<25>{#f/1}* ¿Estás seguro de que dormiste lo suficiente?',
+               '<25>{#f/5}* ...',
+               world.nootflags.has('toriel') // NO-TRANSLATE
 
-                    ? '<25>{#f/1}* El sistema atmosférico aún no parece estar arreglado.'
-                    : '<25>{#f/1}* El sistema atmosférico parece estar fallando.',
-                 '<25>{#f/1}* Si te empiezas a sentir débil, no dudes en volver a la cama.',
-                 '<26>{#f/0}* ... aparte de eso...'
-              ]
-            : [ '<25>{#p/toriel}* Buenos días, pequeño.' ]),
+                  ? '<25>{#f/1}* El sistema atmosférico aún no parece estar arreglado.'
+                  : '<25>{#f/1}* El sistema atmosférico parece estar fallando.',
+               '<25>{#f/1}* Si te empiezas a sentir débil, no dudes en volver a la cama.',
+               '<26>{#f/0}* ... aparte de eso...'
+            ]
+            : ['<25>{#p/toriel}* Buenos días, pequeño.']),
          ...(SAVE.data.n.state_wastelands_mash === 1
             ? [
-                 '<25>{#f/3}* Parece que ese perrito blanco ha vuelto a asaltar mi cocina.',
-                 '<25>{#f/4}* Deberías ver el estado de esa tarta...',
-                 '<25>{#f/0}* Aún así, he hecho todo lo posible para salvarte.'
-              ]
-            : [ '<25>{#f/1}* Las estrellas se ven hermosas hoy, ¿no es así?' ]),
+               '<25>{#f/3}* Parece que ese perrito blanco ha vuelto a asaltar mi cocina.',
+               '<25>{#f/4}* Deberías ver el estado de esa tarta...',
+               '<25>{#f/0}* Aún así, he hecho todo lo posible para salvarte.'
+            ]
+            : ['<25>{#f/1}* Las estrellas se ven hermosas hoy, ¿no es así?']),
          '<25>{#f/5}* ...',
          '<25>{#f/5}* Estaré en la sala si me necesitas.'
       ],
       front4: () => [
          ...(world.postnoot
             ? [
-                 '<25>{#p/toriel}{#f/0}* Oh, hola, pequeño.\n* Te has levantado temprano.',
-                 '<25>{#f/1}* ¿Estás seguro de que dormiste lo suficiente?',
-                 '<25>{#f/5}* ...',
-                 world.nootflags.has('toriel') // NO-TRANSLATE
+               '<25>{#p/toriel}{#f/0}* Oh, hola, pequeño.\n* Te has levantado temprano.',
+               '<25>{#f/1}* ¿Estás seguro de que dormiste lo suficiente?',
+               '<25>{#f/5}* ...',
+               world.nootflags.has('toriel') // NO-TRANSLATE
 
-                    ? '<25>{#f/1}* El sistema atmosférico aún no parece estar arreglado.'
-                    : '<25>{#f/1}* El sistema atmosférico parece estar fallando.',
-                 '<25>{#f/1}* Si te empiezas a sentir débil, no dudes en volver a la cama.'
-              ]
-            : [ '<25>{#p/toriel}* Buenos días, pequeño.' ]),
+                  ? '<25>{#f/1}* El sistema atmosférico aún no parece estar arreglado.'
+                  : '<25>{#f/1}* El sistema atmosférico parece estar fallando.',
+               '<25>{#f/1}* Si te empiezas a sentir débil, no dudes en volver a la cama.'
+            ]
+            : ['<25>{#p/toriel}* Buenos días, pequeño.']),
          '<25>{#f/5}* ...',
          ...(world.bullied
             ? [
-                 '<25>* Las Afueras han estado inusualmente ruidosas hoy.',
-                 '<25>* Parece que un bravucón ha estado dando vueltas y causando problemas...',
-                 '<25>* Lo mejor sería no alejarse demasiado.'
-              ]
+               '<25>* Las Afueras han estado inusualmente ruidosas hoy.',
+               '<25>* Parece que un bravucón ha estado dando vueltas y causando problemas...',
+               '<25>* Lo mejor sería no alejarse demasiado.'
+            ]
             : [
-                 '<25>* Las Afueras han estado inusualmente silenciosas hoy.',
-                 '<25>* Intente llamar a alguien justo ahora, pero...',
-                 '<25>* Nada.'
-              ]),
+               '<25>* Las Afueras han estado inusualmente silenciosas hoy.',
+               '<25>* Intente llamar a alguien justo ahora, pero...',
+               '<25>* Nada.'
+            ]),
          ...(SAVE.data.n.state_wastelands_mash === 1
             ? [
-                 world.bullied
-                    ? '<26>{#f/3}* En otras noticias, ese perrito blanco ha vuelto a asaltar mi cocina.'
-                    : '<25>{#f/3}* Aparte del pequeño perro blanco que irrumpió en mi cocina, claro.',
-                 '<25>{#f/4}* Deberías ver el estado de esa tarta...',
-                 '<25>{#f/0}* Aún así, he hecho todo lo posible para salvarte.',
-                 '<25>{#f/1}* Espero que te guste...'
-              ]
+               world.bullied
+                  ? '<26>{#f/3}* En otras noticias, ese perrito blanco ha vuelto a asaltar mi cocina.'
+                  : '<25>{#f/3}* Aparte del pequeño perro blanco que irrumpió en mi cocina, claro.',
+               '<25>{#f/4}* Deberías ver el estado de esa tarta...',
+               '<25>{#f/0}* Aún así, he hecho todo lo posible para salvarte.',
+               '<25>{#f/1}* Espero que te guste...'
+            ]
             : world.bullied || (16 <= outlandsKills() && SAVE.flag.n.genocide_twinkly < resetThreshold())
-            ? []
-            : [ '<25>{#f/1}* Es bastante preocupante...' ]),
+               ? []
+               : ['<25>{#f/1}* Es bastante preocupante...']),
          '<25>{#f/0}* Como sea, estaré en la sala si me necesitas.'
       ],
-      goodbye1a: [ '<25>{#p/toriel}{#f/10}* ...', '<25>{#f/20}{|}* Ven aquí- {%}' ],
-      goodbye1b: [ '<25>{#p/toriel}{#f/9}* ...', '<25>{#f/19}{|}* Ven aquí- {%}' ],
+      goodbye1a: ['<25>{#p/toriel}{#f/10}* ...', '<25>{#f/20}{|}* Ven aquí- {%}'],
+      goodbye1b: ['<25>{#p/toriel}{#f/9}* ...', '<25>{#f/19}{|}* Ven aquí- {%}'],
       goodbye2: [
          '<25>{#p/toriel}{#f/5}* Perdón por lo que te he hecho pasar, pequeño.',
          '<25>{#f/9}* Debería haber sabido que no podría retenerte aquí para siempre.',
@@ -1795,7 +1795,7 @@ export default {
          '<25>{#f/10}* ...',
          '<25>{#f/14}* Se bueno, ¿esta bien?'
       ],
-      goodbye4: [ '<25>{#p/toriel}{#f/1}* Se bueno, ¿esta bien?' ],
+      goodbye4: ['<25>{#p/toriel}{#f/1}* Se bueno, ¿esta bien?'],
       goodbye5a: [
          '<25>{#p/toriel}{#f/5}* ... ¿hmm?\n* ¿Cambiaste de opinión?',
          '<25>{#f/9}* ...',
@@ -1815,16 +1815,16 @@ export default {
          '<25>{#f/0}* Significa mucho para mí.'
       ],
       halo: {
-         a: () => [ '<32>{#p/human}* (Conseguiste el Anillo.)', choicer.create('* (¿Equiparte el Anillo?)', 'Si', 'No') ],
-         b: [ "<32>{#p/human}* (Llevas demasiado encima para tomar eso.)" ]
+         a: () => ['<32>{#p/human}* (Conseguiste el Anillo.)', choicer.create('* (¿Equiparte el Anillo?)', 'Si', 'No')],
+         b: ["<32>{#p/human}* (Llevas demasiado encima para tomar eso.)"]
       },
       indie1: () => [
-         ...([ 1, 5 ].includes(SAVE.data.n.state_wastelands_dummy) && SAVE.data.b.w_state_riddleskip
+         ...([1, 5].includes(SAVE.data.n.state_wastelands_dummy) && SAVE.data.b.w_state_riddleskip
             ? [
-                 '<25>{#p/toriel}{#f/5}* Enseñarte hasta ahora ha sido difícil, pero...',
-                 '<25>{#f/5}* Tal vez este ejercicio te ayude.'
-              ]
-            : [ '<26>{#p/toriel}* Esta bien.\n* Es tiempo para tu tercera y última lección' ]),
+               '<25>{#p/toriel}{#f/5}* Enseñarte hasta ahora ha sido difícil, pero...',
+               '<25>{#f/5}* Tal vez este ejercicio te ayude.'
+            ]
+            : ['<26>{#p/toriel}* Esta bien.\n* Es tiempo para tu tercera y última lección']),
          '<25>{#f/1}* ¿Crees que podrás llegar al final de esta habitación...',
          '<25>{#f/1}* ... tú solo?',
          choicer.create('* (¿Qué dices?)', 'Si', 'No')
@@ -1840,8 +1840,8 @@ export default {
          '<32>{#p/basic}* Si te niegas a cambiar de opinión, Toriel puede que decida llevarte a casa.',
          choicer.create('* (¿Cambiaste de opinión?)', 'Si', 'No')
       ],
-      indie2a: [ '<25>{#p/toriel}{#f/1}* Esta bien...', '<25>{#f/0}* ¡Buena suerte!' ],
-      indie2b: [ '<25>{#p/toriel}{#f/5}* ...', '<25>{#f/9}* ... Ya veo.' ],
+      indie2a: ['<25>{#p/toriel}{#f/1}* Esta bien...', '<25>{#f/0}* ¡Buena suerte!'],
+      indie2b: ['<25>{#p/toriel}{#f/5}* ...', '<25>{#f/9}* ... Ya veo.'],
       indie2b1: [
          '<25>{#p/toriel}{#f/10}* No te preocupes, mi niño.',
          '<25>{#f/1}* Si de verdad no quieres irte de mi lado...',
@@ -1850,45 +1850,45 @@ export default {
          '<25>{#f/5}* Toma mi mano, jovencito...',
          '<25>{#f/5}* Es tiempo de ir a casa.'
       ],
-      indie2f: [ '<32>{#p/human}{#s/equip}* (Conseguiste el TELÉFONO.)' ],
-      indie3a: [ '<25>{#p/toriel}* ¡Lo hiciste!' ],
+      indie2f: ['<32>{#p/human}{#s/equip}* (Conseguiste el TELÉFONO.)'],
+      indie3a: ['<25>{#p/toriel}* ¡Lo hiciste!'],
       indie3b: [
          '<25>{#p/toriel}{#f/3}* ¡¿Mi niño, por qué tardaste tanto!?',
          '<25>{#f/4}* ¿Te perdiste?',
          '<25>{#f/1}* ...\n* Pareces estar bien...'
       ],
       indie4: () => [
-         ...([ 1, 5 ].includes(SAVE.data.n.state_wastelands_dummy) && SAVE.data.b.w_state_riddleskip
+         ...([1, 5].includes(SAVE.data.n.state_wastelands_dummy) && SAVE.data.b.w_state_riddleskip
             ? [
-                 '<25>{#f/0}* Debo admitirlo, me sorprende que llegaras hasta el final.',
-                 '<25>{#f/3}* ¿Tu comportamiento hasta ahora me ha dejado preguntando...',
-                 '<25>{#f/4}* ... has estado intentando meterte conmigo todo este tiempo?',
-                 '<25>{#f/23}* Para ser franco, no tengo tiempo para esa gentuza sin sentido.'
-              ]
+               '<25>{#f/0}* Debo admitirlo, me sorprende que llegaras hasta el final.',
+               '<25>{#f/3}* ¿Tu comportamiento hasta ahora me ha dejado preguntando...',
+               '<25>{#f/4}* ... has estado intentando meterte conmigo todo este tiempo?',
+               '<25>{#f/23}* Para ser franco, no tengo tiempo para esa gentuza sin sentido.'
+            ]
             : [
-                 '<25>{#p/toriel}{#f/0}* No te preocupes.\n* Nunca estuviste en algún peligro real.',
-                 '<25>{#f/0}* ¡Esto no era más que una prueba de tu independencia!',
-                 '<25>{#f/1}* En realidad, mi niño...'
-              ]),
+               '<25>{#p/toriel}{#f/0}* No te preocupes.\n* Nunca estuviste en algún peligro real.',
+               '<25>{#f/0}* ¡Esto no era más que una prueba de tu independencia!',
+               '<25>{#f/1}* En realidad, mi niño...'
+            ]),
          '<25>{#f/5}* Hay recados importantes que debo hacer.',
          '<25>{#f/0}* Mientras estoy fuera, espero que te comportes lo mejor posible.',
          '<25>{#f/1}* Los puzzles que estan adelante te los tengo que explicar, y...',
          '<25>{#f/0}* Salir de la habitación por tu cuenta puede ser peligroso.',
          '<25>{#f/10}* Aquí.\n* Toma este Teléfono.',
          '<32>{#p/human}{#s/equip}* (Conseguiste el TELÉFONO.)',
-         ...([ 1, 5 ].includes(SAVE.data.n.state_wastelands_dummy) && SAVE.data.b.w_state_riddleskip
+         ...([1, 5].includes(SAVE.data.n.state_wastelands_dummy) && SAVE.data.b.w_state_riddleskip
             ? [
-                 '<25>{#p/toriel}{#f/1}* Si necesitas algo mientras estoy fuera, por favor...',
-                 '<25>{#f/0}* No dudes en llamarme.',
-                 '<25>{#f/5}* ...',
-                 '<26>{#f/23}* Y no te metas en problemas.'
-              ]
+               '<25>{#p/toriel}{#f/1}* Si necesitas algo mientras estoy fuera, por favor...',
+               '<25>{#f/0}* No dudes en llamarme.',
+               '<25>{#f/5}* ...',
+               '<26>{#f/23}* Y no te metas en problemas.'
+            ]
             : [
-                 '<25>{#p/toriel}{#f/1}* Si necesitas algo mientras estoy fuera, por favor...',
-                 '<25>{#f/0}* No dudes en llamarme.',
-                 '<25>{#f/5}* ...',
-                 '<25>{#f/1}* Se bueno, ¿esta bien?'
-              ])
+               '<25>{#p/toriel}{#f/1}* Si necesitas algo mientras estoy fuera, por favor...',
+               '<25>{#f/0}* No dudes en llamarme.',
+               '<25>{#f/5}* ...',
+               '<25>{#f/1}* Se bueno, ¿esta bien?'
+            ])
       ],
       indie5: [
          [
@@ -1962,23 +1962,23 @@ export default {
       ],
       indie6: (early: boolean) => [
          '<32>{#s/phone}{#p/event}* Ring, ring...',
-         ...([ 1, 5 ].includes(SAVE.data.n.state_wastelands_dummy) && SAVE.data.b.w_state_riddleskip
+         ...([1, 5].includes(SAVE.data.n.state_wastelands_dummy) && SAVE.data.b.w_state_riddleskip
             ? [
-                 early
-                    ? '<25>{#p/toriel}{#g/torielTired}* ... ¿Yá?'
-                    : '<25>{#p/toriel}{#g/torielTired}* ... Si que eres impaciente',
-                 '<25>{#f/9}* Realmente no me sorprende.',
-                 '<25>{#f/5}* Solo recuerda los peligros que te esperan ahí afuera...',
-                 '<25>{#f/1}* Sería una pena que te lastimaran.'
-              ]
+               early
+                  ? '<25>{#p/toriel}{#g/torielTired}* ... ¿Yá?'
+                  : '<25>{#p/toriel}{#g/torielTired}* ... Si que eres impaciente',
+               '<25>{#f/9}* Realmente no me sorprende.',
+               '<25>{#f/5}* Solo recuerda los peligros que te esperan ahí afuera...',
+               '<25>{#f/1}* Sería una pena que te lastimaran.'
+            ]
             : [
-                 '<25>{#p/toriel}* ¿Hola?\n* Habla Toriel.',
-                 '<25>{#f/1}* No te fuiste de la habitación, ¿Verdad?',
-                 '<25>{#f/0}* Hay muchos peligros por ahí, y odiaría que te lastimes.',
-                 '<25>{#f/1}* Cuidate, ¿de acuerdo?'
-              ])
+               '<25>{#p/toriel}* ¿Hola?\n* Habla Toriel.',
+               '<25>{#f/1}* No te fuiste de la habitación, ¿Verdad?',
+               '<25>{#f/0}* Hay muchos peligros por ahí, y odiaría que te lastimes.',
+               '<25>{#f/1}* Cuidate, ¿de acuerdo?'
+            ])
       ],
-      indie7: [ '<32>{#p/basic}* Unos minutos después...' ],
+      indie7: ['<32>{#p/basic}* Unos minutos después...'],
       indie8: [
          '<25>{#p/toriel}* ¡Volví!',
          '<25>* Tu paciencia hasta ahora ha sido loable.\n* ¡Incluso yo estoy impresionada!',
@@ -1997,7 +1997,7 @@ export default {
          '<25>{#f/0}* Resolver puzzles es parte de nuestra rutina diaria.',
          '<25>{#f/0}* Con el tiempo, y un poco de ayuda, te vas a acostumbrar a ellos.'
       ],
-      lobby_puzzle3: [ '<25>{#p/toriel}* Cuando estés listo, podremos seguir.' ],
+      lobby_puzzle3: ['<25>{#p/toriel}* Cuando estés listo, podremos seguir.'],
       loox: {
          a: [
             "<32>{#p/basic}{#n1}* Oí que eres bastante coqueto para ser un humano.",
@@ -2040,21 +2040,21 @@ export default {
             () => [
                ...(30 <= SAVE.data.n.bully
                   ? [
-                       "<32>{#p/basic}{#n1}* Escuche que ahora eres todo un bravucón por aquí.",
-                       "<32>* Todos te tienen miedo, ¿eh?"
-                    ]
+                     "<32>{#p/basic}{#n1}* Escuche que ahora eres todo un bravucón por aquí.",
+                     "<32>* Todos te tienen miedo, ¿eh?"
+                  ]
                   : 20 <= world.flirt
-                  ? [
-                       "<32>{#p/basic}{#n1}* Escuche que ahora eres todo un romántico por aquí.",
-                       '<32>* Todos te aman, ¿eh?'
-                    ]
-                  : [
-                       "<32>{#p/basic}{#n1}* Escuche que ahora eres todo un héroe por aquí.",
-                       '<32>* Le agradas a todos, ¿eh?'
-                    ]),
+                     ? [
+                        "<32>{#p/basic}{#n1}* Escuche que ahora eres todo un romántico por aquí.",
+                        '<32>* Todos te aman, ¿eh?'
+                     ]
+                     : [
+                        "<32>{#p/basic}{#n1}* Escuche que ahora eres todo un héroe por aquí.",
+                        '<32>* Le agradas a todos, ¿eh?'
+                     ]),
                '<32>* Bueno... personalmente, creo que tú tienes demasiado tiempo libre.'
             ],
-            [ '<32>{#p/basic}{#n1}* ¿Qué?\n* ¿Me equivoco?' ]
+            ['<32>{#p/basic}{#n1}* ¿Qué?\n* ¿Me equivoco?']
          )
       },
       manana: {
@@ -2063,39 +2063,39 @@ export default {
             () =>
                SAVE.data.b.napsta_performance
                   ? [
-                       "<32>{#p/basic}{#n1}* Así que, tú eras el que co-presentador del show de música, ¿eh?",
-                       "<32>* Quizás ahora tengas los medios para aceptar mi oferta.",
-                       "<32>* Sólo busco a alguien que compre esta edición limitada del cómic Super Starwalker.",
-                       "<32>* Ahora como me gusto ese pequeño show, tendrás un descuento.\n* 5 de Oro, tómalo o déjalo.",
-                       choicer.create('{#n1!}* (¿Comprar el Super Starwalker 1 por 5 de Oro?)', 'Si', 'No')
-                    ]
+                     "<32>{#p/basic}{#n1}* Así que, tú eras el que co-presentador del show de música, ¿eh?",
+                     "<32>* Quizás ahora tengas los medios para aceptar mi oferta.",
+                     "<32>* Sólo busco a alguien que compre esta edición limitada del cómic Super Starwalker.",
+                     "<32>* Ahora como me gusto ese pequeño show, tendrás un descuento.\n* 5 de Oro, tómalo o déjalo.",
+                     choicer.create('{#n1!}* (¿Comprar el Super Starwalker 1 por 5 de Oro?)', 'Si', 'No')
+                  ]
                   : [
-                       ...(world.postnoot
-                          ? [
-                               "<32>{#p/basic}{#n1}* Oye, ¿has notado algo extraño que haya pasado aquí?",
-                               "<32>* Juraría que todos los puzzles se desactivaron solos antes.",
-                               "<32>* Como sea, estoy buscando a que alguien compre esta edición limitada del comic Super Starwalker."
-                            ]
-                          : [
-                               '<32>{#p/basic}{#n1}* Finalmente, ¡alguien me hablo!',
-                               "<32>* He estado parado aquí afuera por años, y nadie acepta mi oferta.",
-                               "<32>* Sólo busco a alguien que compre esta edición limitada del cómic Super Starwalker."
-                            ]),
-                       "<32>* ¿Interesado?\n* Todo lo que pido son 10 de Oro.",
-                       choicer.create('{#n1!}* (¿Comprar el Super Starwalker 1 por 10 de Oro?)', 'Si', 'No')
-                    ],
+                     ...(world.postnoot
+                        ? [
+                           "<32>{#p/basic}{#n1}* Oye, ¿has notado algo extraño que haya pasado aquí?",
+                           "<32>* Juraría que todos los puzzles se desactivaron solos antes.",
+                           "<32>* Como sea, estoy buscando a que alguien compre esta edición limitada del comic Super Starwalker."
+                        ]
+                        : [
+                           '<32>{#p/basic}{#n1}* Finalmente, ¡alguien me hablo!',
+                           "<32>* He estado parado aquí afuera por años, y nadie acepta mi oferta.",
+                           "<32>* Sólo busco a alguien que compre esta edición limitada del cómic Super Starwalker."
+                        ]),
+                     "<32>* ¿Interesado?\n* Todo lo que pido son 10 de Oro.",
+                     choicer.create('{#n1!}* (¿Comprar el Super Starwalker 1 por 10 de Oro?)', 'Si', 'No')
+                  ],
             () =>
                SAVE.data.b.napsta_performance
                   ? [
-                       "<32>{#p/basic}{#n1}* ¿Interesado en comprar mi edición limitada del comic Super Starwalker?",
-                       "<32>* Todo lo que pido son 5 de Oro.",
-                       choicer.create('{#n1!}* (¿Comprar el Super Starwalker 1 por 5 de Oro?)', 'Si', 'No')
-                    ]
+                     "<32>{#p/basic}{#n1}* ¿Interesado en comprar mi edición limitada del comic Super Starwalker?",
+                     "<32>* Todo lo que pido son 5 de Oro.",
+                     choicer.create('{#n1!}* (¿Comprar el Super Starwalker 1 por 5 de Oro?)', 'Si', 'No')
+                  ]
                   : [
-                       "<32>{#p/basic}{#n1}* ¿Interesado en comprar mi edición limitada del comic Super Starwalker?",
-                       "<32>* Todo lo que pido son 10 de Oro.",
-                       choicer.create('{#n1!}* (¿Comprar el Super Starwalker 1 por 10 de Oro?)', 'Si', 'No')
-                    ]
+                     "<32>{#p/basic}{#n1}* ¿Interesado en comprar mi edición limitada del comic Super Starwalker?",
+                     "<32>* Todo lo que pido son 10 de Oro.",
+                     choicer.create('{#n1!}* (¿Comprar el Super Starwalker 1 por 10 de Oro?)', 'Si', 'No')
+                  ]
          ),
          b: () => [
             "<32>{#p/human}{#n1!}* (No tienes suficiente Oro.)",
@@ -2103,12 +2103,12 @@ export default {
                ? "<32>{#p/basic}{#n1}* Seré honesto, eso no se ve como 5 de Oro..."
                : "<32>{#p/basic}{#n1}* Seré honesto, eso no se ve como 10 de Oro..."
          ],
-         c: [ '<32>{#p/basic}{#n1}* No estas interesado, ¿eh?', "<32>* Bueno, esta bien.\n* Solo buscare a alguien más..." ],
+         c: ['<32>{#p/basic}{#n1}* No estas interesado, ¿eh?', "<32>* Bueno, esta bien.\n* Solo buscare a alguien más..."],
          d: [
             '<32>{#s/equip}{#p/human}{#n1!}* (Conseguiste el Super Starwalker 1.)',
             '<32>{#p/basic}{#n1}* ¡Esplendido!\n* Disfruta del comic.'
          ],
-         e: [ '<32>{#p/basic}{#n1}* Regresaste, ¿eh?', "<32>* Perdón amigo, ya no tengo nada más para vender." ],
+         e: ['<32>{#p/basic}{#n1}* Regresaste, ¿eh?', "<32>* Perdón amigo, ya no tengo nada más para vender."],
          f: [
             "<32>{#p/human}{#n1!}* (Llevas demasiado.)",
             "<32>{#p/basic}{#n1}* Esos bolsillos tuyos se ven llenos..."
@@ -2130,13 +2130,13 @@ export default {
                '<32>{#p/basic}{#n1}* Ahora, ¿qué era ese ruido?',
                "<32>{#p/basic}{#n1}* Lo siento, mi vista ya no es lo que solía ser..."
             ],
-            [ '<32>{#p/basic}{#n1}* ¿Eh?\n* ¿Paso de nuevo?\n* Tch, estos niños de ahora...' ],
-            [ '<32>{#p/basic}{#n1}* Los niños de ahora...' ]
+            ['<32>{#p/basic}{#n1}* ¿Eh?\n* ¿Paso de nuevo?\n* Tch, estos niños de ahora...'],
+            ['<32>{#p/basic}{#n1}* Los niños de ahora...']
          ][Math.min(roomKills().w_puzzle4++, 2)],
       afrogX: (k: number) =>
          [
-            [ "<32>{#p/basic}{#n1}* Si... si h-haces eso de nuevo... ¡t-tendré que detenerte!" ],
-            [ '<32>{#p/basic}{#n1}* N-no...\n* No de nuevo...' ]
+            ["<32>{#p/basic}{#n1}* Si... si h-haces eso de nuevo... ¡t-tendré que detenerte!"],
+            ['<32>{#p/basic}{#n1}* N-no...\n* No de nuevo...']
          ][k],
       patron: {
          a: pager.create(
@@ -2145,29 +2145,29 @@ export default {
                SAVE.data.n.plot === 72
                   ? 6 <= world.population
                      ? [
-                          "<32>{#p/basic}{#n1}* Estoy triste.\n* Se llevaron la mesa del DJ para usarla en algún mal espectáculo más tarde.",
-                          '<32>* ... espera, en realidad podría ser un poco genial.'
-                       ]
+                        "<32>{#p/basic}{#n1}* Estoy triste.\n* Se llevaron la mesa del DJ para usarla en algún mal espectáculo más tarde.",
+                        '<32>* ... espera, en realidad podría ser un poco genial.'
+                     ]
                      : [
-                          "<32>{#p/basic}{#n1}* Estoy triste.\n* El bravucón que pasó por aquí antes...",
-                          '<32>* ... resulto ser tú.',
-                          '<32>* Al final nos salvaste, pero ¿por qué recurriste a la violencia en el camino?'
-                       ]
+                        "<32>{#p/basic}{#n1}* Estoy triste.\n* El bravucón que pasó por aquí antes...",
+                        '<32>* ... resulto ser tú.',
+                        '<32>* Al final nos salvaste, pero ¿por qué recurriste a la violencia en el camino?'
+                     ]
                   : SAVE.data.b.napsta_performance
-                  ? [
-                       "<32>{#p/basic}{#n1}* Estoy triste.\n* Los músicos de ahora son demasiado duros consigo mismos...",
-                       '<32>* Personalmente, me gusto mucho esa canción de ellos.',
-                       "<32>* Es una pena que probablemente nunca lo escucharemos de nuevo.",
-                       '<32>{#n1!}{#n2}* Al menos aún tienes un filete para hacerte compañía, ¿verdad? ;)',
-                       '<32>{#n2!}{#n1}* ... no esto de nuevo.'
-                    ]
-                  : [
-                       "<32>{#p/basic}{#n1}* Estoy triste.\n* La comida de ahora es cada vez peor...",
-                       '<32>* Me prometieron algo \"real,\" pero todo lo que obtuve fue una copia barata.',
-                       '<32>{#n1!}{#n2}* ¡Oye! ;)\n* ¡Deja de hablar mal de mi tienda delante de los clientes! ;)',
-                       '<32>* Además, ¿y si la culpa la tiene tu sentido del gusto? ;)',
-                       '<32>{#n2!}{#n1}* ... tipico.'
-                    ],
+                     ? [
+                        "<32>{#p/basic}{#n1}* Estoy triste.\n* Los músicos de ahora son demasiado duros consigo mismos...",
+                        '<32>* Personalmente, me gusto mucho esa canción de ellos.',
+                        "<32>* Es una pena que probablemente nunca lo escucharemos de nuevo.",
+                        '<32>{#n1!}{#n2}* Al menos aún tienes un filete para hacerte compañía, ¿verdad? ;)',
+                        '<32>{#n2!}{#n1}* ... no esto de nuevo.'
+                     ]
+                     : [
+                        "<32>{#p/basic}{#n1}* Estoy triste.\n* La comida de ahora es cada vez peor...",
+                        '<32>* Me prometieron algo \"real,\" pero todo lo que obtuve fue una copia barata.',
+                        '<32>{#n1!}{#n2}* ¡Oye! ;)\n* ¡Deja de hablar mal de mi tienda delante de los clientes! ;)',
+                        '<32>* Además, ¿y si la culpa la tiene tu sentido del gusto? ;)',
+                        '<32>{#n2!}{#n1}* ... tipico.'
+                     ],
             () => [
                SAVE.data.n.plot === 72 && 6 <= world.population
                   ? "<32>{#p/basic}{#n1}* ... ¿no es lo que es?"
@@ -2177,12 +2177,12 @@ export default {
       },
       pie: () =>
          3 <= SAVE.data.n.cell_insult
-            ? [ '<32>{#p/human}* (Conseguiste la Tarta Quemada.)' ]
+            ? ['<32>{#p/human}* (Conseguiste la Tarta Quemada.)']
             : SAVE.data.n.state_wastelands_mash === 1
-            ? [ '<32>{#p/human}* (Conseguiste la Sopa de Tarta.)' ]
-            : SAVE.data.b.snail_pie
-            ? [ '<32>{#p/human}* (Conseguiste la Tarta de Caracol.)' ]
-            : [ '<32>{#p/human}* (Conseguiste la Tarta de Caramelo.)' ],
+               ? ['<32>{#p/human}* (Conseguiste la Sopa de Tarta.)']
+               : SAVE.data.b.snail_pie
+                  ? ['<32>{#p/human}* (Conseguiste la Tarta de Caracol.)']
+                  : ['<32>{#p/human}* (Conseguiste la Tarta de Caramelo.)'],
       plot_call: {
          a: () => [
             '<32>{#p/event}* Ring, ring...',
@@ -2242,12 +2242,12 @@ export default {
       },
       puzzle1A: () =>
          SAVE.data.b.svr
-            ? [ '<32>{#p/human}* (El interruptor parece estar atascado.)' ]
-            : [ '<32>{#p/basic}* El interruptor esta atascado.' ],
+            ? ['<32>{#p/human}* (El interruptor parece estar atascado.)']
+            : ['<32>{#p/basic}* El interruptor esta atascado.'],
       puzzle3A: () =>
          SAVE.data.b.svr
-            ? [ '<32>{#p/human}* (El interruptor parece estar atascado.)' ]
-            : [ '<32>{#p/basic}* El interruptor esta atascado.' ],
+            ? ['<32>{#p/human}* (El interruptor parece estar atascado.)']
+            : ['<32>{#p/basic}* El interruptor esta atascado.'],
       return1: () => [
          SAVE.data.n.cell_insult < 3
             ? '<25>{#p/toriel}{#f/1}* Mi niño, ¡¿cómo llegaste hasta aquí!?'
@@ -2256,12 +2256,12 @@ export default {
       ],
       return2a: () =>
          SAVE.data.n.cell_insult < 3
-            ? [ '<25>{#p/toriel}* ¡Sin un rasguño!\n* Impresionante.' ]
-            : [ '<25>{#p/toriel}{#f/10}* Sin un rasguño...\n* Muy bien.' ],
+            ? ['<25>{#p/toriel}* ¡Sin un rasguño!\n* Impresionante.']
+            : ['<25>{#p/toriel}{#f/10}* Sin un rasguño...\n* Muy bien.'],
       return2b: () =>
          SAVE.data.n.cell_insult < 3
-            ? [ '<25>{#p/toriel}{#f/4}* Te ves herido...', '<25>{#f/10}* Ahí, ahí, te curaré.' ]
-            : [ '<25>{#p/toriel}{#f/9}* Te han hecho daño.', '<25>{#f/10}* Por favor, déjame curarte tus heridas.' ],
+            ? ['<25>{#p/toriel}{#f/4}* Te ves herido...', '<25>{#f/10}* Ahí, ahí, te curaré.']
+            : ['<25>{#p/toriel}{#f/9}* Te han hecho daño.', '<25>{#f/10}* Por favor, déjame curarte tus heridas.'],
       return2c: [
          '<25>{#p/toriel}{#f/3}* ...',
          '<25>{#f/11}* ¿Quién te hizo esto?\n* Alguien va a responder por esto.'
@@ -2270,11 +2270,11 @@ export default {
          '<25>{#p/toriel}* Me disculpo, pequeño.\n* Fue tonto de mi parte dejarte solo.',
          ...(world.postnoot
             ? [
-                 '<25>{#f/1}* ... soy solo yo o ¿hay algo mal con la atmosfera?',
-                 '<25>{#f/5}* Puede que el sistema que lo proporciona no funcione correctamente.',
-                 '<25>{#f/5}* ...',
-                 '<25>{#f/0}* No importa.\n* Estoy segura de que se resolverá en breve.'
-              ]
+               '<25>{#f/1}* ... soy solo yo o ¿hay algo mal con la atmosfera?',
+               '<25>{#f/5}* Puede que el sistema que lo proporciona no funcione correctamente.',
+               '<25>{#f/5}* ...',
+               '<25>{#f/0}* No importa.\n* Estoy segura de que se resolverá en breve.'
+            ]
             : []),
          '<25>{#f/1}* ¡Vamos!\n* Tengo una sorpresa para ti.'
       ],
@@ -2282,23 +2282,23 @@ export default {
          '<25>{#p/toriel}* ¡Bienvenido a mi sala!',
          ...(3 <= SAVE.data.n.cell_insult
             ? [
-                 '<25>{#f/1}* Puedes oler...',
-                 '<25>{#p/toriel}{#f/2}* ... ¡oh, olvide revisar el horno!',
-                 '<25>{#p/toriel}{#f/5}* He estado tan pre- ocupada con tu comportamiento anterior, que...',
-                 '<25>{#p/toriel}{#f/1}* Tengo que encargarme de esto ahora, ¡por favor no te alejes!'
-              ]
+               '<25>{#f/1}* Puedes oler...',
+               '<25>{#p/toriel}{#f/2}* ... ¡oh, olvide revisar el horno!',
+               '<25>{#p/toriel}{#f/5}* He estado tan pre- ocupada con tu comportamiento anterior, que...',
+               '<25>{#p/toriel}{#f/1}* Tengo que encargarme de esto ahora, ¡por favor no te alejes!'
+            ]
             : [
-                 '<25>{#f/1}* ¿Puedes oler eso?',
-                 ...(SAVE.data.b.snail_pie
-                    ? [ '<25>{#f/0}* ¡Sorpresa!\n* Es una tarta de caracol casero.' ]
-                    : [
-                         '<25>{#f/0}* ¡Sorpresa!\n* Es una tarta de caramelo con canela.',
-                         '<25>{#f/0}* Pensé que preferirías eso en lugar de una tarta de caracol para esta noche.'
-                      ]),
-                 '<25>{#f/1}* Ahora, hace mucho tiempo que no cuido a alguien...',
-                 '<25>{#f/0}* Pero aún así quiero que te lo pases bien viviendo aquí.',
-                 '<25>{#f/0}* ¡Sígueme!\n* Tengo otra sorpresa para ti.'
-              ])
+               '<25>{#f/1}* ¿Puedes oler eso?',
+               ...(SAVE.data.b.snail_pie
+                  ? ['<25>{#f/0}* ¡Sorpresa!\n* Es una tarta de caracol casero.']
+                  : [
+                     '<25>{#f/0}* ¡Sorpresa!\n* Es una tarta de caramelo con canela.',
+                     '<25>{#f/0}* Pensé que preferirías eso en lugar de una tarta de caracol para esta noche.'
+                  ]),
+               '<25>{#f/1}* Ahora, hace mucho tiempo que no cuido a alguien...',
+               '<25>{#f/0}* Pero aún así quiero que te lo pases bien viviendo aquí.',
+               '<25>{#f/0}* ¡Sígueme!\n* Tengo otra sorpresa para ti.'
+            ])
       ],
       return5: [
          "<25>{#p/toriel}* ¡Podrías mirar eso!\n* Es tu propio cuarto.",
@@ -2309,18 +2309,18 @@ export default {
          '<25>{#f/0}* ¡Por favor, siéntete como en casa!'
       ],
       runaway1: [
-         [ '<25>{#p/toriel}{#f/1}* ¿No deberías jugar en casa en vez de eso?', '<25>{#f/0}* Vamos.' ],
-         [ '<25>{#p/toriel}{#f/9}* Niño, es peligroso jugar ahí afuera.', '<25>{#f/5}* Confía en mi.' ],
-         [ '<26>{#p/toriel}{#f/5}* La gravedad es muy baja aquí.\n* Te irás flotando.' ],
-         [ '<25>{#p/toriel}{#f/5}* El sistema atmosférico es débil aquí.\n* Te sofocarías.' ],
-         [ '<25>{#p/toriel}{#f/23}* Realmente no hay nada que ver aquí.' ],
-         [ '<25>{#p/toriel}{#f/1}* ¿Te gustaría leer un libro conmigo?' ],
-         [ '<25>{#p/toriel}{#f/1}* ¿Te gustaría volver a visitar las otras habitaciones de las Afueras?' ],
-         [ '<25>{#p/toriel}{#f/5}* No permitiré que te pongas en peligro.' ],
-         [ '<25>{#p/toriel}{#f/3}* ¿Esperas que haga esto todo el día?' ],
-         [ '<25>{#p/toriel}{#f/4}* ...' ],
-         [ '<25>{#p/toriel}{#f/17}* ...', '<25>{#f/15}* No me gusta el juego al que estás jugando.' ],
-         [ '<25>{#p/toriel}{#f/17}* ...' ]
+         ['<25>{#p/toriel}{#f/1}* ¿No deberías jugar en casa en vez de eso?', '<25>{#f/0}* Vamos.'],
+         ['<25>{#p/toriel}{#f/9}* Niño, es peligroso jugar ahí afuera.', '<25>{#f/5}* Confía en mi.'],
+         ['<26>{#p/toriel}{#f/5}* La gravedad es muy baja aquí.\n* Te irás flotando.'],
+         ['<25>{#p/toriel}{#f/5}* El sistema atmosférico es débil aquí.\n* Te sofocarías.'],
+         ['<25>{#p/toriel}{#f/23}* Realmente no hay nada que ver aquí.'],
+         ['<25>{#p/toriel}{#f/1}* ¿Te gustaría leer un libro conmigo?'],
+         ['<25>{#p/toriel}{#f/1}* ¿Te gustaría volver a visitar las otras habitaciones de las Afueras?'],
+         ['<25>{#p/toriel}{#f/5}* No permitiré que te pongas en peligro.'],
+         ['<25>{#p/toriel}{#f/3}* ¿Esperas que haga esto todo el día?'],
+         ['<25>{#p/toriel}{#f/4}* ...'],
+         ['<25>{#p/toriel}{#f/17}* ...', '<25>{#f/15}* No me gusta el juego al que estás jugando.'],
+         ['<25>{#p/toriel}{#f/17}* ...']
       ],
       runaway2: [
          '<25>{#p/toriel}{#f/1}* Por favor regresa a casa, pequeño...',
@@ -2330,7 +2330,7 @@ export default {
          '<25>{#p/toriel}{#f/2}* ¡Niño, no!\n* ¡No es seguro para ti aquí fuera!',
          '<25>{#f/0}* Ven. Termine de preparar el desayuno.'
       ],
-      runaway4: [ '<25>{#p/toriel}{#f/2}* ¡Niño!\n* ¡¿Qué estas haciendo!?' ],
+      runaway4: ['<25>{#p/toriel}{#f/2}* ¡Niño!\n* ¡¿Qué estas haciendo!?'],
       runaway5: [
          '<25>{#p/toriel}{#f/1}* ¿No te das cuenta de lo que pasaría si te fueras de aquí?',
          '<25>{#f/5}* Yo... siento no haberte prestado más atención...',
@@ -2366,160 +2366,160 @@ export default {
             () =>
                SAVE.data.n.plot === 72
                   ? [
-                       '<32>{#p/basic}{#n1}* Hola.\n* Es bueno verte aquí de nuevo.',
-                       "<32>* He decidido volver a visitar este viejo terreno mío...",
-                       "<32>* Además, es tranquilo aquí.\n* Igual que yo.",
-                       "<32>* Oh y me he retirado de trabajar en el NÚCLEO.",
-                       '<32>* Veras, cuando me uní al equipo de ingeniería...',
-                       "<32>* No me di cuenta de que me llamarían para una guardia improvisada.",
-                       '<32>* ... parece que el engaño de la variedad corporativa está más allá incluso de mi previsión.'
-                    ]
+                     '<32>{#p/basic}{#n1}* Hola.\n* Es bueno verte aquí de nuevo.',
+                     "<32>* He decidido volver a visitar este viejo terreno mío...",
+                     "<32>* Además, es tranquilo aquí.\n* Igual que yo.",
+                     "<32>* Oh y me he retirado de trabajar en el NÚCLEO.",
+                     '<32>* Veras, cuando me uní al equipo de ingeniería...',
+                     "<32>* No me di cuenta de que me llamarían para una guardia improvisada.",
+                     '<32>* ... parece que el engaño de la variedad corporativa está más allá incluso de mi previsión.'
+                  ]
                   : SAVE.data.b.napsta_performance
-                  ? [
-                       '<32>{#p/basic}{#n1}* Hola.\n* Me alegro de verte en el show.',
-                       "<32>* Me llamo Silencio... pero estoy seguro de que ya lo has oído.",
-                       '<32>* Todos aquí conocen mi nombre, incluso ese DJ.',
-                       '<32>* Una vez representé aquí mi propio tipo de musical.',
-                       '<32>* \"El Gran Escape de Silencio,\" se llamaba.',
-                       '<32>* Una vez que se acabo, me había ido antes de que la multitud pudiera recuperar el aliento.'
-                    ]
-                  : [
-                       '<32>{#p/basic}{#n1}* Hola.\n* Encantado de conocerte.',
-                       "<32>* Me llamo Silencio... bueno, así me llaman, de todas formas.",
-                       '<32>* ¿Quieres saber por qué me llaman así?',
-                       "<32>* Soy como un ninja del espacio, silencioso como la más silenciosa de las estrellas.",
-                       '<32>* Puedo escapar de cualquier peligro, sin excepciones.',
-                       "<32>* ¿No me crees?\n* Intenta algo divertido y veras que tan rápido corro."
-                    ],
+                     ? [
+                        '<32>{#p/basic}{#n1}* Hola.\n* Me alegro de verte en el show.',
+                        "<32>* Me llamo Silencio... pero estoy seguro de que ya lo has oído.",
+                        '<32>* Todos aquí conocen mi nombre, incluso ese DJ.',
+                        '<32>* Una vez representé aquí mi propio tipo de musical.',
+                        '<32>* \"El Gran Escape de Silencio,\" se llamaba.',
+                        '<32>* Una vez que se acabo, me había ido antes de que la multitud pudiera recuperar el aliento.'
+                     ]
+                     : [
+                        '<32>{#p/basic}{#n1}* Hola.\n* Encantado de conocerte.',
+                        "<32>* Me llamo Silencio... bueno, así me llaman, de todas formas.",
+                        '<32>* ¿Quieres saber por qué me llaman así?',
+                        "<32>* Soy como un ninja del espacio, silencioso como la más silenciosa de las estrellas.",
+                        '<32>* Puedo escapar de cualquier peligro, sin excepciones.',
+                        "<32>* ¿No me crees?\n* Intenta algo divertido y veras que tan rápido corro."
+                     ],
             () =>
                SAVE.data.n.plot === 72
                   ? [
-                       "<32>{#p/basic}{#n1}* Oh, si, supongo que ahora soy libre de abandonar la galaxia.",
-                       "<32>* ... pero tal vez me quedare."
-                    ]
+                     "<32>{#p/basic}{#n1}* Oh, si, supongo que ahora soy libre de abandonar la galaxia.",
+                     "<32>* ... pero tal vez me quedare."
+                  ]
                   : SAVE.data.b.napsta_performance
-                  ? [
-                       '<32>{#p/basic}{#n1}* Incluso podrías decir que mi actuación...',
-                       '<32>* Fue \"impresionante.\"'
-                    ]
-                  : [
-                       '<32>{#p/basic}{#n1}* ¿Por qué me sigues hablando, eh?',
-                       "<32>* Ya te dije todo lo que estaba dispuesto a decir."
-                    ]
+                     ? [
+                        '<32>{#p/basic}{#n1}* Incluso podrías decir que mi actuación...',
+                        '<32>* Fue \"impresionante.\"'
+                     ]
+                     : [
+                        '<32>{#p/basic}{#n1}* ¿Por qué me sigues hablando, eh?',
+                        "<32>* Ya te dije todo lo que estaba dispuesto a decir."
+                     ]
          )
       },
       
-      socks0: [ '<32>{#p/human}* (Miras adentro.)', '<32>{#p/human}* (Parece que el cajón está vacío.)' ],
+      socks0: ['<32>{#p/human}* (Miras adentro.)', '<32>{#p/human}* (Parece que el cajón está vacío.)'],
       socks1: () =>
          world.darker
-            ? [ '<32>{#p/human}* (Miras adentro.)', "<32>{#p/basic}* Solo es un cajón de calcetines." ]
+            ? ['<32>{#p/human}* (Miras adentro.)', "<32>{#p/basic}* Solo es un cajón de calcetines."]
             : [
-                 '<32>{#p/human}* (Miras adentro.)',
-                 '<32>{#p/basic}* ¡Escandaloso!',
-                 "<32>* Es la colección de calcetines de Toriel.\n* Un poco desordenado...",
-                 world.meanie
-                    ? choicer.create('* (¿Hacerlo más desordenado?)', 'Si', 'No')
-                    : choicer.create('* (¿Limpiar el desorden?)', 'Si', 'No')
-              ],
+               '<32>{#p/human}* (Miras adentro.)',
+               '<32>{#p/basic}* ¡Escandaloso!',
+               "<32>* Es la colección de calcetines de Toriel.\n* Un poco desordenado...",
+               world.meanie
+                  ? choicer.create('* (¿Hacerlo más desordenado?)', 'Si', 'No')
+                  : choicer.create('* (¿Limpiar el desorden?)', 'Si', 'No')
+            ],
       socks2: () =>
          world.meanie
-            ? [ '<33>{#p/human}* (Hiciste un desorden de los calcetines.)' ]
+            ? ['<33>{#p/human}* (Hiciste un desorden de los calcetines.)']
             : [
-                 '<32>{#p/human}* (Organizaste los calcetines en pares iguales.)',
-                 ...(SAVE.data.b.oops
-                    ? []
-                    : [
-                         "<32>{#p/human}* (...)\n* (Parece que hay una llave escondida en el cajón.)",
-                         choicer.create('* (¿Tomar la llave?)', 'Si', 'No')
-                      ])
-              ],
+               '<32>{#p/human}* (Organizaste los calcetines en pares iguales.)',
+               ...(SAVE.data.b.oops
+                  ? []
+                  : [
+                     "<32>{#p/human}* (...)\n* (Parece que hay una llave escondida en el cajón.)",
+                     choicer.create('* (¿Tomar la llave?)', 'Si', 'No')
+                  ])
+            ],
       socks3: () => [
          "<32>{#p/human}* (...)\n* (Parece que hay una llave escondida en el cajón.)",
          choicer.create('* (¿Tomar la llave?)', 'Si', 'No')
       ],
-      socks4: [ '<32>{#p/human}* (Decides no hacer nada.)' ],
+      socks4: ['<32>{#p/human}* (Decides no hacer nada.)'],
       socks5: [
          '<32>{#s/equip}{#p/human}* (La Llave Secreta fue añadida a tu llavero.)',
          '<32>{#p/basic}* ¿Pero qué podría desbloquear...?'
       ],
-      socks6: [ '<32>{#p/human}* (Decides no tomar nada.)' ],
+      socks6: ['<32>{#p/human}* (Decides no tomar nada.)'],
       socks7: () =>
          SAVE.data.b.svr
             ? [
-                 '<32>{#p/human}* (Miras dentro del cajón de calcetines, recordando el largo viaje que comenzó aquí.)',
-                 "<32>{#p/human}* (No puedes evitar preguntarte dónde estarías sin el.)"
-              ]
+               '<32>{#p/human}* (Miras dentro del cajón de calcetines, recordando el largo viaje que comenzó aquí.)',
+               "<32>{#p/human}* (No puedes evitar preguntarte dónde estarías sin el.)"
+            ]
             : world.darker
-            ? [ "<32>{#p/basic}* Solo es un cajón de calcetines." ]
-            : SAVE.data.n.plot < 72
-            ? [ "<32>{#p/basic}* No puedes dejar de mirar los calcetines." ]
-            : SAVE.data.b.oops
-            ? [
-                 "<32>{#p/basic}* Viniste aquí sólo para volver a ver el cajón de calcetines de Toriel...?",
-                 '<32>* Tienes grandes prioridades en la vida.'
-              ]
-            : [
-                 "<32>{#p/basic}* Viniste aquí sólo para volver a ver el cajón de calcetines de Toriel...?",
-                 '<32>* ... Supongo que eso tiene sentido.'
-              ],
+               ? ["<32>{#p/basic}* Solo es un cajón de calcetines."]
+               : SAVE.data.n.plot < 72
+                  ? ["<32>{#p/basic}* No puedes dejar de mirar los calcetines."]
+                  : SAVE.data.b.oops
+                     ? [
+                        "<32>{#p/basic}* Viniste aquí sólo para volver a ver el cajón de calcetines de Toriel...?",
+                        '<32>* Tienes grandes prioridades en la vida.'
+                     ]
+                     : [
+                        "<32>{#p/basic}* Viniste aquí sólo para volver a ver el cajón de calcetines de Toriel...?",
+                        '<32>* ... Supongo que eso tiene sentido.'
+                     ],
       steaksale: {
          a: pager.create(
             0,
             () =>
                SAVE.data.b.napsta_performance
                   ? [
-                       '<32>{#p/basic}{#n1}* Qué pasa, joven ;)',
-                       "<32>* Fue bueno verte en el show, ¿sabes? ;)",
-                       '<32>* Hiciste un gran trabajo ;)',
-                       "<32>* Si una cosa es segura, creo que eso merece una oferta especial ;)",
-                       '<32>* Solo por un tiempo limitado, nuestros productos llevarán nuestros ingredientes \"premium\" ;)',
-                       "<32>* Y créeme, joven, esto no es sólo lo mismo de antes, aw naw ;)",
-                       '<32>* Esta cosa es GENUINA, amigo ;)',
-                       "<32>* Es un poco más caro, así que espero que no te importe ;)",
-                       "<32>* Ahora... ¿por qué no echas un vistazo a lo que está a la venta? ;)"
-                    ]
+                     '<32>{#p/basic}{#n1}* Qué pasa, joven ;)',
+                     "<32>* Fue bueno verte en el show, ¿sabes? ;)",
+                     '<32>* Hiciste un gran trabajo ;)',
+                     "<32>* Si una cosa es segura, creo que eso merece una oferta especial ;)",
+                     '<32>* Solo por un tiempo limitado, nuestros productos llevarán nuestros ingredientes \"premium\" ;)',
+                     "<32>* Y créeme, joven, esto no es sólo lo mismo de antes, aw naw ;)",
+                     '<32>* Esta cosa es GENUINA, amigo ;)',
+                     "<32>* Es un poco más caro, así que espero que no te importe ;)",
+                     "<32>* Ahora... ¿por qué no echas un vistazo a lo que está a la venta? ;)"
+                  ]
                   : [
-                       '<32>{#p/basic}{#n1}* Qué pasa, joven ;)',
-                       '<32>* El jefe me envió aquí para ver qué hacían ustedes los campesinos, ¿sabes? ;)',
-                       "<32>* Podrías decir que estamos expandiendo nuestra empresa ;)",
-                       "<32>* ¿Cuál es nuestra empresa, te preguntaras?;)",
-                       "<32>* Bueno, en realidad es muy sencillo... vendemos filetes ;)",
-                       "<32>* Y esto no es material replicado, aw naw ;)",
-                       '<32>* Esta cosa es REAL, amigo ;)',
-                       '<32>* Quien diga lo contrario es un farsante, ¿me entiendes? ;)',
-                       "<32>* Dicho esto, ¿por qué no echas un vistazo a lo que está a la venta? ;)"
-                    ],
-            [ "<32>{#p/basic}{#n1}* ¿Por qué no echas un vistazo a lo que está a la venta? ;)" ]
+                     '<32>{#p/basic}{#n1}* Qué pasa, joven ;)',
+                     '<32>* El jefe me envió aquí para ver qué hacían ustedes los campesinos, ¿sabes? ;)',
+                     "<32>* Podrías decir que estamos expandiendo nuestra empresa ;)",
+                     "<32>* ¿Cuál es nuestra empresa, te preguntaras?;)",
+                     "<32>* Bueno, en realidad es muy sencillo... vendemos filetes ;)",
+                     "<32>* Y esto no es material replicado, aw naw ;)",
+                     '<32>* Esta cosa es REAL, amigo ;)',
+                     '<32>* Quien diga lo contrario es un farsante, ¿me entiendes? ;)',
+                     "<32>* Dicho esto, ¿por qué no echas un vistazo a lo que está a la venta? ;)"
+                  ],
+            ["<32>{#p/basic}{#n1}* ¿Por qué no echas un vistazo a lo que está a la venta? ;)"]
          ),
-         a1: [ '<32>{#p/basic}{#n1}* Gracias por todo, joven ;)' ],
+         a1: ['<32>{#p/basic}{#n1}* Gracias por todo, joven ;)'],
          b: () => [
             SAVE.data.b.napsta_performance
                ? world.darker
                   ? '<32>{#p/basic}{#n1!}* \"Filete Sizzli\" por 40 de Oro.'
                   : '<32>{#p/basic}{#n1!}* Está etiquetado como \"Filete Sizzli\" y cuesta 40 de Oro.\n* Huele como a una ultra hipérbole.'
                : world.darker
-               ? '<32>{#p/basic}{#n1!}* \"Filete Sizzli\" por 20 de Oro.'
-               : '<32>{#p/basic}{#n1!}* Está etiquetado como \"Filete Sizzli\" y cuesta 20 de Oro.\n* Huele como a una hipérbole.',
+                  ? '<32>{#p/basic}{#n1!}* \"Filete Sizzli\" por 20 de Oro.'
+                  : '<32>{#p/basic}{#n1!}* Está etiquetado como \"Filete Sizzli\" y cuesta 20 de Oro.\n* Huele como a una hipérbole.',
             SAVE.data.b.napsta_performance
                ? choicer.create('* (¿Comprar el Filete Sizzli por 40 de Oro?)', 'Si', 'No')
                : choicer.create('* (¿Comprar el Filete Sizzli por 20 de Oro?)', 'Si', 'No')
          ],
-         b1: [ '<32>{#p/human}{#n1!}* (Obtuviste el Filete Sizzli.)', '<32>{#p/basic}{#n1}* Buena elección, joven ;)' ],
-         b2: [ '<32>{#p/human}{#n1!}* (Decidiste no comprarlo.)' ],
+         b1: ['<32>{#p/human}{#n1!}* (Obtuviste el Filete Sizzli.)', '<32>{#p/basic}{#n1}* Buena elección, joven ;)'],
+         b2: ['<32>{#p/human}{#n1!}* (Decidiste no comprarlo.)'],
          c: () => [
             SAVE.data.b.napsta_performance
                ? world.darker
                   ? '<32>{#p/basic}{#n1!}* \"Soda Fizzli\" por 10 de Oro.'
                   : '<32>{#p/basic}{#n1!}* Está etiquetado como \"Soda Fizzli\" y cuesta 10 de Oro.\n* ¿Quién compraría esto?'
                : world.darker
-               ? '<32>{#p/basic}{#n1!}* \"Soda Fizzli\" por 5 de Oro.'
-               : '<32>{#p/basic}{#n1!}* Está etiquetado como \"Soda Fizzli\" y cuesta 5 de Oro.\n* ¿Quién compraría esto?',
+                  ? '<32>{#p/basic}{#n1!}* \"Soda Fizzli\" por 5 de Oro.'
+                  : '<32>{#p/basic}{#n1!}* Está etiquetado como \"Soda Fizzli\" y cuesta 5 de Oro.\n* ¿Quién compraría esto?',
             SAVE.data.b.napsta_performance
                ? choicer.create('* (¿Comprar la Soda Fizzli por 10 de Oro?)', 'Si', 'No')
                : choicer.create('* (¿Comprar la Soda Fizzli por 5 de Oro?)', 'Si', 'No')
          ],
-         c1: [ '<32>{#p/human}{#n1!}* (Obtuviste la Soda Fizzli.)', "<32>{#p/basic}{#n1}* Con cuidado, es dulce ;)" ],
-         c2: [ '<32>{#p/human}{#n1!}* (Decidiste no comprarlo.)' ],
+         c1: ['<32>{#p/human}{#n1!}* (Obtuviste la Soda Fizzli.)', "<32>{#p/basic}{#n1}* Con cuidado, es dulce ;)"],
+         c2: ['<32>{#p/human}{#n1!}* (Decidiste no comprarlo.)'],
          d: pager.create(
             0,
             () => [
@@ -2529,7 +2529,7 @@ export default {
                   ? '<32>{#p/basic}* Esta bien, joven;)\n* No todos pueden comprar los ingredientes \"premium\" ;)'
                   : "<32>{#p/basic}* Esta bien, joven ;)\n* Sólo asegúrate de volver cuando tengas algo ;)"
             ],
-            [ "<32>{#p/human}{#n1!}* (No tienes suficiente Oro.)" ]
+            ["<32>{#p/human}{#n1!}* (No tienes suficiente Oro.)"]
          ),
          e: pager.create(
             0,
@@ -2537,11 +2537,11 @@ export default {
                "<32>{#p/human}{#n1!}* (Llevas demasiado.)",
                '<32>{#p/basic}{#n1}* Tal vez deberías de regresar más tarde ;)'
             ],
-            [ "<32>{#p/human}{#n1!}* (Llevas demasiado.)" ]
+            ["<32>{#p/human}{#n1!}* (Llevas demasiado.)"]
          ),
-         f: [ '<32>{#p/human}{#n1!}* (Obtuviste el Filete Sizzli.)' ],
-         g: [ '<32>{#p/human}{#n1!}* (Obtuviste la Soda Fizzli.)' ],
-         h: [ "<32>{#p/human}{#n1!}* (Llevas demasiado.)" ],
+         f: ['<32>{#p/human}{#n1!}* (Obtuviste el Filete Sizzli.)'],
+         g: ['<32>{#p/human}{#n1!}* (Obtuviste la Soda Fizzli.)'],
+         h: ["<32>{#p/human}{#n1!}* (Llevas demasiado.)"],
          i: [
             "<32>{#p/basic}{#n1}* Por cierto, se nos agotaron ;)",
             "<32>* Parece que no puedes tener suficiente de nuestras cosas ;)",
@@ -2551,7 +2551,7 @@ export default {
          ]
       },
       supervisor: {
-         a: [ '<32>{#p/basic}* Después...' ],
+         a: ['<32>{#p/basic}* Después...'],
          b: [
             '<32>{#p/napstablook}* Oigan todos...',
             '<32>* esta es una pequeña música que escribí hace un tiempo...',
@@ -2560,14 +2560,14 @@ export default {
             '<32>* ...',
             '<32>* bueno, aquí vamos...'
          ],
-         c1: [ '<32>{*}{#p/basic}* Bueno, esto es jazz.{^30}{%}' ],
+         c1: ['<32>{*}{#p/basic}* Bueno, esto es jazz.{^30}{%}'],
          c2: [
             '<25>{*}{#p/toriel}{#f/7}* ¿¿Por qué Napstablook nunca menciono esto??\n* ¡Esto es bueno!{^30}{%}',
             "<32>{*}{#p/basic}* Sí, tal vez sea tímido.{^30}{%}"
          ],
-         c3: [ '<32>{*}{#p/basic}* Ooh, campanas ;){^30}{%}' ],
-         c4: [ '<32>{*}{#p/basic}* ¡Aquí viene el desglose!{^30}{%}' ],
-         c5: [ '<32>{*}{#p/basic}* Bueno, eso fue... algo.{^30}{%}' ],
+         c3: ['<32>{*}{#p/basic}* Ooh, campanas ;){^30}{%}'],
+         c4: ['<32>{*}{#p/basic}* ¡Aquí viene el desglose!{^30}{%}'],
+         c5: ['<32>{*}{#p/basic}* Bueno, eso fue... algo.{^30}{%}'],
          d: [
             '<32>{#p/napstablook}* si, eso fue algo',
             '<32>{#p/napstablook}* oh bueno...\n* probablemente los he aburrido...',
@@ -2582,750 +2582,750 @@ export default {
       terminal: {
          a: () =>
             postSIGMA()
-               ? [ "<32>{#p/human}* (Activaste la terminal, pero no hay ningún mensaje entrante.)" ]
+               ? ["<32>{#p/human}* (Activaste la terminal, pero no hay ningún mensaje entrante.)"]
                : SAVE.data.n.plot === 72
-               ? !world.runaway
-                  ? [
-                       '<32>{#p/human}* (Activaste la terminal y reproduces el mensaje entrante.)',
-                       "<32>{#p/alphys}* ¡Ahora, somos libres!\n* ¡Esto no es una broma, el campo de fuerza se ha ido!",
-                       "<32>* ¡En serio, van a cerrar el núcleo en unos días, así que es hora de irnos!",
-                       "<32>* Tú no querrás morir aquí, ¿verdad?"
-                    ]
-                  : [
-                       '<32>{#p/human}* (Activaste la terminal y reproduces el mensaje entrante.)',
-                       "<32>{#p/alphys}* El campo de fuerza se ha ido.\n* Llamando a todos los ciudadanos para una evacuación inmediata.",
-                       "<32>* ... se que todos estan asustados, pero todo va a salir bien.",
-                       "<32>* No puede hacernos daño si lo dejamos atrás."
-                    ]
-               : 37.2 <= SAVE.data.n.plot
-               ? [
-                    '<32>{#p/human}* (Activaste la terminal y reproduces el mensaje entrante.)',
-                    "<32>{#p/alphys}* The Foundry's fluid network has been repaired, thanks to our... v-very kind workers.",
-                    '<32>* ...',
-                    "<32>* On an unrelated note, we're... l-looking for new workers."
-                 ]
-               : [
-                    '<32>{#p/human}* (Activaste la terminal y reproduces el mensaje entrante.)',
-                    "<32>{#p/alphys}* The Foundry's fluid network is f-falling apart again.",
-                    '<32>* The workers have promised a short turnaround, but things are looking bleak.',
-                    '<32>* Please, i-if anyone out there can help, we need you...'
-                 ]
+                  ? !world.runaway
+                     ? [
+                        '<32>{#p/human}* (Activaste la terminal y reproduces el mensaje entrante.)',
+                        "<32>{#p/alphys}* ¡Ahora, somos libres!\n* ¡Esto no es una broma, el campo de fuerza se ha ido!",
+                        "<32>* ¡En serio, van a cerrar el núcleo en unos días, así que es hora de irnos!",
+                        "<32>* Tú no querrás morir aquí, ¿verdad?"
+                     ]
+                     : [
+                        '<32>{#p/human}* (Activaste la terminal y reproduces el mensaje entrante.)',
+                        "<32>{#p/alphys}* El campo de fuerza se ha ido.\n* Llamando a todos los ciudadanos para una evacuación inmediata.",
+                        "<32>* ... se que todos estan asustados, pero todo va a salir bien.",
+                        "<32>* No puede hacernos daño si lo dejamos atrás."
+                     ]
+                  : 37.2 <= SAVE.data.n.plot
+                     ? [
+                        '<32>{#p/human}* (Activaste la terminal y reproduces el mensaje entrante.)',
+                        "<32>{#p/alphys}* La red de fluidos de la Fabrica ha sido reparada, gracias a nuestros... m-muy amables trabajadores.",
+                        '<32>* ...',
+                        "<32>* En una nota no relacionada, estamos... b-buscando nuevos trabajadores."
+                     ]
+                     : [
+                        '<32>{#p/human}* (Activaste la terminal y reproduces el mensaje entrante.)',
+                        "<32>{#p/alphys}* La red de fluidos de la Fabrica vuelve a d-desmoronarse.",
+                        '<32>* Los trabajadores han prometido un cambio rápido, pero las cosas no se ven bien.',
+                        '<32>* Por favor, s-si alguien por ahí pudiera ayudar, los necesitamos...'
+                     ]
       },
       torieldanger: {
-         a: [ '<25>{#p/toriel}{#f/1}* Have you tried checking the terminal?' ],
-         b: [ '<25>{#p/toriel}{#f/1}* The password terminal is right over there, little one.' ]
+         a: ['<25>{#p/toriel}{#f/1}* ¿Ya intentaste revisar el terminal?'],
+         b: ['<25>{#p/toriel}{#f/1}* El contraseña del terminal está justo ahí, pequeño.']
       },
       latetoriel1: [
-         '<25>{#p/toriel}{#npc/a}{#f/2}* ...!',
-         '<25>{#f/5}* What are you doing out here, my ch...',
-         '<25>{#f/9}* ... child...',
-         '<25>{#f/5}* I cannot care for you any longer, child.\n* Nor should I.',
-         '<25>{#f/5}* You have places to be, things to see...',
-         '<25>{#f/10}* Who am I to keep you from that?',
+         '<25>{#p/toriel}{#npc/a}{#f/2}* ¡...!',
+         '<25>{#f/5}* Que haces aquí fuera, mi ni...',
+         '<25>{#f/9}* ... niño...',
+         '<25>{#f/5}* Ya no puedo cuidarte más, niño.\n* Tampoco debería.',
+         '<25>{#f/5}* Tienes lugares donde deberías estar, cosas por ver...',
+         '<25>{#f/10}* ¿Quién soy yo para impedírtelo?',
          '<25>{#f/9}* ...',
-         '<25>{#f/5}* Please, carry on without me...',
-         '<25>{#f/1}* ... I know you can do the right thing...'
+         '<25>{#f/5}* Por favor, sigue sin mi...',
+         '<25>{#f/1}* ... Sé que puedes hacer lo correcto...'
       ],
-      latetoriel2: [ '<25>{#p/toriel}{#npc/a}{#f/5}* ... go on...' ],
+      latetoriel2: ['<25>{#p/toriel}{#npc/a}{#f/5}* ... continua...'],
       
       lateasriel: () =>
          [
-            [ '<25>{#p/asriel1}{#f/13}* Just leave me, Frisk...', "<25>{#f/15}* I can't come back with you, okay?" ],
+            ['<25>{#p/asriel1}{#f/13}* Sólo déjame, Frisk...', "<25>{#f/15}* No puedo volver contigo, ¿esta bien?"],
             [
-               "<25>{#p/asriel1}{#f/16}* I don't want to break their hearts all over again.",
-               "<25>{#f/13}* It's better if they never see me at all."
+               "<25>{#p/asriel1}{#f/16}* No quiero romperles el corazón otra vez.",
+               "<25>{#f/13}* Es mejor que ni siquiera me vean."
             ],
             [
-               '<25>{#p/asriel1}{#f/15}* ... what are you doing?',
-               '<25>{#f/15}* Are you trying to keep me company?',
+               '<25>{#p/asriel1}{#f/15}* ... ¿Que estás haciendo?',
+               '<25>{#f/15}* ¿Estás tratando de hacerme compañía?',
                '<25>{#f/23}* Frisk...',
                '<25>{#f/22}* ...',
-               '<25>{#f/13}* Hey.',
-               '<25>{#f/13}* Let me ask you a question.',
-               '<25>{#f/15}* Frisk...\n* Why did you come here?',
-               '<25>{#f/13}* Everyone knows the story, right...?',
-               '<25>{#f/23}* \"Spacecraft who fly into the Ebott sector are said to disappear.\"',
+               '<25>{#f/13}* Oye.',
+               '<25>{#f/13}* Dejame hacerte una pregunta.',
+               '<25>{#f/15}* Frisk...\n* ¿Por que viniste aquí?',
+               '<25>{#f/13}* Todos saben la historia, ¿verdad?',
+               '<25>{#f/23}* \"Se dice que las astronaves que vuelan al sector Ebott desaparecen\"',
                '<25>{#f/22}* ...',
-               '<32>{#p/human}* (...)\n* (You tell Asriel the truth.)',
+               '<32>{#p/human}* (...)\n* (Le dices a Asriel la verdad.)',
                '<25>{#p/asriel1}{#f/25}* ...',
-               '<25>{#f/25}* Frisk... you...',
+               '<25>{#f/25}* Frisk... tú...',
                '<25>{#f/23}* ...',
-               "<25>{#f/23}* You don't have to be alone anymore, okay?",
-               "<25>{#f/17}* You've made so many wonderful friends here...",
-               "<25>{#f/17}* They'll look out for you, okay?"
+               "<25>{#f/23}* No tienes por que estar solo de nuevo, ¿ok?",
+               "<25>{#f/17}* Hiciste tantos amigos maravillosos aquí...",
+               "<25>{#f/17}* Ellos cuidaran de ti, ¿vale?"
             ],
             [
                '<25>{#p/asriel1}{#f/15}* ...',
-               '<25>{#f/15}* I know why $(name) flew out here.',
-               "<25>{#f/16}* It wasn't for a very happy reason.",
-               "<25>{#f/13}* Frisk.\n* I'll be honest with you.",
-               '<25>{#f/15}* $(name) wanted nothing to do with humanity.',
-               '<25>{#f/16}* Why, they never said.',
-               '<25>{#f/15}* But they felt very strongly about that.'
+               '<25>{#f/15}* Sé porque $(name) voló hasta aquí.',
+               "<25>{#f/16}* No fue por una razón feliz.",
+               "<25>{#f/13}* Frisk.\n* Seré honesto contigo.",
+               '<25>{#f/15}* $(name) no quiso tener nada que ver con los humanos.',
+               '<25>{#f/16}* Jamás dijo el porqué.',
+               '<25>{#f/15}* Pero se sintió muy fuerte sobre eso.'
             ],
             [
-               "<25>{#p/asriel1}{#f/17}* Frisk, it's okay.\n* You're not like $(name) at all.",
-               '<25>{#f/15}* In fact, though you have similar, uh, fashion choices...',
-               "<25>{#f/13}* I don't know why I ever acted like you were the same person.",
-               '<25>{#f/15}* Maybe...\n* The truth is...',
-               "<25>{#f/16}* $(name) just wasn't who I wanted them to be.",
-               '<25>{#f/13}* While, Frisk...',
-               "<25>{#f/17}* You're the kind of friend I've always wanted to have.",
-               '<25>{#f/20}* So maybe I was kind of projecting a little.',
-               "<25>{#f/17}* Let's be honest.\n* I did some weird stuff as a star."
+               "<25>{#p/asriel1}{#f/17}* Frisk, está bien.\n* No eres como $(name) para nada.",
+               '<25>{#f/15}* Es mas, a pesar de que tengas, uh, un estilo de moda similar...',
+               "<25>{#f/13}* No sé porque actué como si fueras la misma persona.",
+               '<25>{#f/15}* Talvés...\n* Realmente...',
+               "<25>{#f/16}* $(name) solamente no era quien yo quería que fuera.",
+               '<25>{#f/13}* Pero tú, Frisk...',
+               "<25>{#f/17}* Tú eres el tipo de amigo que siempre quise tener.",
+               '<25>{#f/20}* Así que creo que me estaba proyectando un poco.',
+               "<25>{#f/17}* Seamos honestos.\n* Hice cosas muy extrañas como una estrella."
             ],
             [
-               "<25>{#p/asriel1}{#f/13}* There's one last thing I feel like I should tell you.",
-               '<25>{#f/15}* When $(name) and I combined our SOULs together...',
-               '<25>{#f/16}* The control over our body was actually split between us.',
-               '<25>{#f/15}* They were the one that picked up their own empty body.',
-               "<25>{#f/13}* And then, when we made it to the planet's remains...",
-               '<25>{#f/13}* They were the one that wanted to...',
-               '<25>{#f/16}* ... to use our full power.',
-               '<25>{#f/13}* It took everything I had to resist it.',
-               '<25>{#f/15}* And then, because of me, we...',
-               "<25>{#f/22}* Well, that's why I ended up the way I did.",
+               "<25>{#p/asriel1}{#f/13}* Hay una ultima cosa que debo decirte.",
+               '<25>{#f/15}* Cuando $(name) y yo combinamos nuestras ALMAS...',
+               '<25>{#f/16}* El control de nuestro cuerpo se dividió entre los dos.',
+               '<25>{#f/15}* $(name) fue quien levantó su propio cuerpo vacío.',
+               "<25>{#f/13}* Y luego, cuando llegamos a los escombros del planeta...",
+               '<25>{#f/13}* $(name) fue el que quiso...',
+               '<25>{#f/16}* ... usar todo nuestro poder.',
+               '<25>{#f/13}* Me costó mucho resistirme.',
+               '<25>{#f/15}* Y luego, por mi culpa, nosotros...',
+               "<25>{#f/22}* Y bueno, ya viste como terminé.",
                '<25>{#f/23}* ... Frisk.',
-               "<25>{#f/17}* This whole time, I've blamed myself for that decision.",
-               "<25>{#f/13}* It's why I adopted that horrible view of the world.",
-               '<25>{#f/13}* \"Kill or be killed.\"',
-               '<25>{#f/17}* But now...\n* After meeting you...',
-               "<25>{#f/23}* Frisk, I don't regret that decision anymore.",
-               '<25>{#f/22}* I did the right thing.',
-               "<25>{#f/13}* If we'd killed those humans...",
-               '<25>{#f/15}* We would have had to wage war against all of humanity.',
-               '<25>{#f/17}* And in the end, everyone went free, right?',
-               '<25>{#f/17}* Even the others who came here made it out alive.',
+               "<25>{#f/17}* Todo este tiempo me culpé a mi mismo por esa decisión.",
+               "<25>{#f/13}* así adquirí esa vista tan horrible del mundo.",
+               '<25>{#f/13}* \"Matar o morir.\"',
+               '<25>{#f/17}* Pero ahora...\n* Luego de conocerte...',
+               "<25>{#f/23}* Frisk, ya no me arrepiento de esa decisión.",
+               '<25>{#f/22}* Hice lo correcto.',
+               "<25>{#f/13}* Si hubiéramos matado a esos humanos...",
+               '<25>{#f/15}* Habríamos tenido que declarar la guerra a toda la humanidad.',
+               '<25>{#f/17}* Y al final, todos fueron libres, ¿verdad?',
+               '<25>{#f/17}* Incluso los otros que vinieron aquí salieron con vida.',
                '<25>{#f/13}* ...',
-               '<25>{#f/15}* But, $(name)...',
-               "<25>{#f/16}* ... I can't say for certain what happened to them after we died.",
-               '<25>{#f/15}* Nothing was ever found... not even their SOUL.',
-               "<25>{#f/15}* So... I can't help but wonder if they're... still out there.",
+               '<25>{#f/15}* Pero, $(name)...',
+               "<25>{#f/16}* ... No puedo decir que estoy seguro que le pasó cuando morimos. ",
+               '<25>{#f/15}* Nada fue encontrado... ni siquiera su ALMA.',
+               "<25>{#f/15}* No puedo dejar de pensar... Si es que siguen allí afuera.",
                '<32>{#p/basic}* ...',
                '<32>{#p/human}* (Suena como si alguien estuviera llorando...)'
             ],
             [
-               '<25>{#p/asriel1}{#f/17}* Frisk, thank you for listening to me.',
-               '<25>{#f/17}* You should really go be with your friends now, okay?',
-               '<25>{#f/13}* Oh, and, please...',
-               '<25>{#f/20}* In the future, if you, uh, see me...',
-               "<25>{#f/15}* ... don't think of it as me, okay?",
-               '<25>{#f/16}* I just want you to remember me like... this.',
-               '<25>{#f/17}* Someone that was your friend for a little while.',
+               '<25>{#p/asriel1}{#f/17}* Frisk, gracias por escucharme.',
+               '<25>{#f/17}* Deberías ir con tus amigos, ¿vale?',
+               '<25>{#f/13}* Oh, y, por favor...',
+               '<25>{#f/20}* Si me vez en el futuro...',
+               "<25>{#f/15}* ... No lo veas como yo, ¿ok?",
+               '<25>{#f/16}* Solo quiero que me recuerdes... así.',
+               '<25>{#f/17}* Como alguien que fue tu amigo por un rato.',
                '<25>{#f/13}* ...',
-               '<32>{|}{#p/human}* (You tell Asriel you really- {%}',
-               "<25>{#p/asriel1}{#f/23}* Frisk, it's okay.",
-               "<25>{#f/22}* You don't have to save everyone to be a good person.",
-               '<25>{#f/13}* Besides... even if I could keep this form...',
-               "<25>{#f/15}* I don't know if I could move on from what happened in the past.",
-               "<25>{#f/17}* ... just promise me you'll take care of yourself, alright?",
+               '<32>{|}{#p/human}* (Le dices a Asriel que tu realment- {%}',
+               "<25>{#p/asriel1}{#f/23}* Frisk, está bien.",
+               "<25>{#f/22}* No tienes que salvar a todos para ser una buena persona.",
+               '<25>{#f/13}* Ademas... incluso si pudiera mantener esta forma...',
+               "<25>{#f/15}* No se si podría dejar atrás lo que pasó.",
+               "<25>{#f/17}* ... Solo prometeme que te cuidaras, ¿vale?",
                '<25>{#f/13}* ...',
-               '<25>{#f/15}* Well, see you.'
+               '<25>{#f/15}* Bueno, nos vemos.'
             ],
-            [ '<25>{#p/asriel1}{#f/13}* Frisk...', "<25>{#f/15}* Don't you have anything better to do?" ],
+            ['<25>{#p/asriel1}{#f/13}* Frisk...', "<25>{#f/15}* ¿No tienes nada mejor que hacer?"],
             []
          ][Math.min(SAVE.data.n.lateasriel++, 8)],
-      securefield: [ '<33>{#p/basic}* There is a security field here.\n* It is active.' ],
+      securefield: ['<33>{#p/basic}* Hay un campo de seguridad.\n* Está activo.'],
       trivia: {
-         w_security: [ "<32>{#p/basic}* It's a security field." ],
+         w_security: ["<32>{#p/basic}* Es un campo de seguridad."],
          photoframe: () =>
             SAVE.data.b.svr
                ? [
-                    [
-                       '<25>{#p/asriel1}{#f/13}* An empty photo frame...',
-                       '<25>{#f/16}* Once upon a time, there WERE pictures in these frames.',
-                       '<25>{#f/15}* Then, she took them out and never put them back.',
-                       "<25>{#f/16}* ... must've hurt too much to look at them."
-                    ],
-                    [
-                       '<25>{#p/asriel1}{#f/13}* Empty photo frames are like missing memories...',
-                       '<25>{#p/asriel1}{#f/15}* This place has way too many of them.'
-                    ],
-                    [ '<25>{#p/asriel1}{#f/22}* Too many of these in this strange place.' ]
-                 ][Math.min(asrielinter.photoframe++, 1)]
+                  [
+                     '<25>{#p/asriel1}{#f/13}* Un marco vacío...',
+                     '<25>{#f/16}* Había una vez, donde HABIA fotos en esos marcos.',
+                     '<25>{#f/15}* Luego, ella los sacó y nunca más los volvió a poner.',
+                     "<25>{#f/16}* ... must've hurt too much to look at them."
+                  ],
+                  [
+                     '<25>{#p/asriel1}{#f/13}* Empty photo frames are like missing memories...',
+                     '<25>{#p/asriel1}{#f/15}* This place has way too many of them.'
+                  ],
+                  ['<25>{#p/asriel1}{#f/22}* Too many of these in this strange place.']
+               ][Math.min(asrielinter.photoframe++, 1)]
                : SAVE.data.n.plot === 72 && !world.runaway
-               ? [ '<32>{#p/basic}* Still an empty photo frame.' ]
-               : [ '<32>{#p/basic}* An empty photo frame.' ],
+                  ? ['<32>{#p/basic}* Still an empty photo frame.']
+                  : ['<32>{#p/basic}* An empty photo frame.'],
          w_paintblaster: () =>
             SAVE.data.b.svr
-               ? [ '<32>{#p/human}* (This device seems to be a few decades out of date.)' ]
+               ? ['<32>{#p/human}* (This device seems to be a few decades out of date.)']
                : world.darker
-               ? [ '<32>{#p/basic}* A useless device of little importance to anyone.' ]
-               : [ '<32>{#p/basic}* An old fuel injection device.' ],
+                  ? ['<32>{#p/basic}* A useless device of little importance to anyone.']
+                  : ['<32>{#p/basic}* An old fuel injection device.'],
          w_candy: () =>
             SAVE.data.b.svr
-               ? [ '<32>{#p/human}* (The sign warns of unexpected appliance malfunctions.)' ]
-               : [ '<32>{#p/basic}* \"Please note that appliances may be more malfunction-prone than they seem.\"' ],
+               ? ['<32>{#p/human}* (The sign warns of unexpected appliance malfunctions.)']
+               : ['<32>{#p/basic}* \"Please note that appliances may be more malfunction-prone than they seem.\"'],
          w_djtable: () =>
             SAVE.data.b.svr
-               ? [ '<32>{#p/human}* (You touch the DJ set.)\n* (It makes an oddly satisfying scratching sound.)' ]
+               ? ['<32>{#p/human}* (You touch the DJ set.)\n* (It makes an oddly satisfying scratching sound.)']
                : world.darker
-               ? [ "<32>{#p/basic}* It's a DJ set." ]
-               : SAVE.data.n.plot === 72
-               ? [ '<32>{#p/basic}* A fancy DJ set, which is surprisingly not in use right now.' ]
-               : [ '<32>{#p/basic}* A fancy DJ set, equipped with knobs and sliders galore.' ],
+                  ? ["<32>{#p/basic}* It's a DJ set."]
+                  : SAVE.data.n.plot === 72
+                     ? ['<32>{#p/basic}* A fancy DJ set, which is surprisingly not in use right now.']
+                     : ['<32>{#p/basic}* A fancy DJ set, equipped with knobs and sliders galore.'],
          w_froggit: () =>
             SAVE.data.n.plot === 72
                ? [
-                    '<32>{#p/basic}* Ribbit, ribbit.\n* (Excuse me, human.)',
-                    '<32>* (You seem like you have grown into a thoughtful and conscientious person.)',
-                    "<32>* (Whether that was from my advice or not...)\n* (I'm quite proud.)",
-                    '<32>* Ribbit.'
-                 ]
+                  '<32>{#p/basic}* Ribbit, ribbit.\n* (Excuse me, human.)',
+                  '<32>* (You seem like you have grown into a thoughtful and conscientious person.)',
+                  "<32>* (Whether that was from my advice or not...)\n* (I'm quite proud.)",
+                  '<32>* Ribbit.'
+               ]
                : [
-                    '<32>{#p/basic}* Ribbit, ribbit.\n* (Excuse me, human...)',
-                    '<32>* (I have some advice for you about battling monsters.)',
-                    '<32>* (If you {@fill=#ff0}ACT{@fill=#fff} a certain way or {@fill=#3f00ff}FIGHT{@fill=#fff} until you almost defeat them...)',
-                    '<32>* (They might not want to battle you anymore.)',
-                    '<32>* (If a monster does not want to fight you, please...)',
-                    '<32>* (Use some {@fill=#ff0}MERCY{@fill=#fff}, human.)\n* Ribbit.'
-                 ],
+                  '<32>{#p/basic}* Ribbit, ribbit.\n* (Excuse me, human...)',
+                  '<32>* (I have some advice for you about battling monsters.)',
+                  '<32>* (If you {@fill=#ff0}ACT{@fill=#fff} a certain way or {@fill=#3f00ff}FIGHT{@fill=#fff} until you almost defeat them...)',
+                  '<32>* (They might not want to battle you anymore.)',
+                  '<32>* (If a monster does not want to fight you, please...)',
+                  '<32>* (Use some {@fill=#ff0}MERCY{@fill=#fff}, human.)\n* Ribbit.'
+               ],
          w_froggit_view: () =>
             SAVE.data.b.svr
-               ? [ '<32>{#p/human}* (You stare thoughtfully into the cosmos beyond...)' ]
+               ? ['<32>{#p/human}* (You stare thoughtfully into the cosmos beyond...)']
                : world.darker
-               ? []
-               : SAVE.data.n.plot === 72
-               ? [
-                    "<32>{#p/basic}* It's ironic how staring at outer space...",
-                    '<32>* Tends to be a great way to channel your inner thoughts.'
-                 ]
-               : [
-                    "<32>{#p/basic}* It's a view of outer space.",
-                    '<32>* Certainly no shortage of those around here, is there?'
-                 ],
+                  ? []
+                  : SAVE.data.n.plot === 72
+                     ? [
+                        "<32>{#p/basic}* It's ironic how staring at outer space...",
+                        '<32>* Tends to be a great way to channel your inner thoughts.'
+                     ]
+                     : [
+                        "<32>{#p/basic}* It's a view of outer space.",
+                        '<32>* Certainly no shortage of those around here, is there?'
+                     ],
          w_kitchenwall: () =>
             SAVE.data.n.plot === 9
-               ? [ '<26>{#p/toriel}{#f/1}* Patience, my child!' ]
-               : [ '<26>{#p/toriel}{#f/1}* This may take a while...' ],
+               ? ['<26>{#p/toriel}{#f/1}* Patience, my child!']
+               : ['<26>{#p/toriel}{#f/1}* This may take a while...'],
          w_lobby1: () =>
             SAVE.data.b.svr
-               ? [ '<32>{#p/human}* (The sign speaks of strength of will in times of trouble.)' ]
-               : [ '<32>{#p/basic}* \"Even when you stumble, the will to push onward shows through.\"' ],
+               ? ['<32>{#p/human}* (The sign speaks of strength of will in times of trouble.)']
+               : ['<32>{#p/basic}* \"Even when you stumble, the will to push onward shows through.\"'],
          w_pacing_view: () =>
             SAVE.data.b.svr
-               ? [ '<32>{#p/human}* (You stare happily into the cosmos beyond...)' ]
+               ? ['<32>{#p/human}* (You stare happily into the cosmos beyond...)']
                : world.darker
-               ? []
-               : SAVE.data.n.plot === 72
-               ? [
-                    "<32>{#p/basic}* After such a long journey, the glass doesn't seem to scare you.",
-                    '<32>* Not that it ever did in the first place.'
-                 ]
-               : [
-                    '<32>{#p/basic}* To think the only thing between you and the endless expanse is a sheet of glass...',
-                    "<32>* Despite all common sense, this doesn't seem to bother you."
-                 ],
+                  ? []
+                  : SAVE.data.n.plot === 72
+                     ? [
+                        "<32>{#p/basic}* After such a long journey, the glass doesn't seem to scare you.",
+                        '<32>* Not that it ever did in the first place.'
+                     ]
+                     : [
+                        '<32>{#p/basic}* To think the only thing between you and the endless expanse is a sheet of glass...',
+                        "<32>* Despite all common sense, this doesn't seem to bother you."
+                     ],
          w_pacing1: () =>
             SAVE.data.n.plot === 72
                ? [
-                    '<32>{#p/basic}* Ribbit, ribbit.\n* (Someone passed by here not too long ago.)',
-                    '<32>* (He told me not to tell you where he was going.)',
-                    "<32>* (I wasn't going to, but then, he just seemed so sad...)",
-                    "<32>* (He's probably at the platform just past the entrance now.)",
-                    '<32>* (Go. Speak to him. Something good will come of it.)\n* Ribbit.',
-                    '<32>{#p/basic}* ... Asriel...'
-                 ]
+                  '<32>{#p/basic}* Ribbit, ribbit.\n* (Someone passed by here not too long ago.)',
+                  '<32>* (He told me not to tell you where he was going.)',
+                  "<32>* (I wasn't going to, but then, he just seemed so sad...)",
+                  "<32>* (He's probably at the platform just past the entrance now.)",
+                  '<32>* (Go. Speak to him. Something good will come of it.)\n* Ribbit.',
+                  '<32>{#p/basic}* ... Asriel...'
+               ]
                : [
-                    '<32>{#p/basic}* Ribbit, ribbit.\n* (Sigh...)',
-                    '<32>* (My \"friend\" doesn\'t really like being kind to me.)',
-                    '<32>* (If given the option, they choose to hurt me instead.)',
-                    "<32>* (That's right.......)\n* (Hurting me............)\n* (................)",
-                    "<32>* (At least you're kind to me.)\n* Ribbit."
-                 ],
+                  '<32>{#p/basic}* Ribbit, ribbit.\n* (Sigh...)',
+                  '<32>* (My \"friend\" doesn\'t really like being kind to me.)',
+                  '<32>* (If given the option, they choose to hurt me instead.)',
+                  "<32>* (That's right.......)\n* (Hurting me............)\n* (................)",
+                  "<32>* (At least you're kind to me.)\n* Ribbit."
+               ],
          w_pacing2: () =>
             SAVE.data.n.plot === 72
                ? SAVE.data.b.oops
                   ? [
-                       '<32>{#p/basic}* Ribbit, ribbit.\n* (Hello, human...)',
-                       '<32>* (Have you heard from my friend?)',
-                       '<32>* (They were standing here a few days ago, just to my left...)',
-                       '<32>* (But some time after your arrival, they disappeared.)',
-                       "<32>* (They did say they'd leave if you hurt anyone...)",
-                       SAVE.data.n.exp <= 0
-                          ? "<32>* (Which is confusing, since you definitely haven't done that.)\n* Ribbit."
-                          : '<32>* (Maybe next time, you could try being a little nicer?)\n* Ribbit.'
-                    ]
+                     '<32>{#p/basic}* Ribbit, ribbit.\n* (Hello, human...)',
+                     '<32>* (Have you heard from my friend?)',
+                     '<32>* (They were standing here a few days ago, just to my left...)',
+                     '<32>* (But some time after your arrival, they disappeared.)',
+                     "<32>* (They did say they'd leave if you hurt anyone...)",
+                     SAVE.data.n.exp <= 0
+                        ? "<32>* (Which is confusing, since you definitely haven't done that.)\n* Ribbit."
+                        : '<32>* (Maybe next time, you could try being a little nicer?)\n* Ribbit.'
+                  ]
                   : [
-                       '<32>{#p/basic}* Ribbit, ribbit.\n* (Hello, human...)',
-                       "<32>* (My friend is the happiest they've ever been.)",
-                       "<32>* (They said they'd leave if you hurt anyone, but you haven't.)",
-                       "<32>* (In fact, they've decided to stay to my left forever.)",
-                       '<32>* (As for that \"friend\" of theirs who always tried to hurt them...)',
-                       '<32>* (Oh, he seems to have turned himself into a goat.)\n* Ribbit.'
-                    ]
+                     '<32>{#p/basic}* Ribbit, ribbit.\n* (Hello, human...)',
+                     "<32>* (My friend is the happiest they've ever been.)",
+                     "<32>* (They said they'd leave if you hurt anyone, but you haven't.)",
+                     "<32>* (In fact, they've decided to stay to my left forever.)",
+                     '<32>* (As for that \"friend\" of theirs who always tried to hurt them...)',
+                     '<32>* (Oh, he seems to have turned himself into a goat.)\n* Ribbit.'
+                  ]
                : [
-                    '<32>{#p/basic}* Ribbit, ribbit.\n* (Hello, human...)',
-                    '<32>* (Have you ever tried checking your ITEMs?)',
-                    "<32>* (If you've picked up anything, that's where you'll find it.)",
-                    '<32>* (What do I have in my ITEMs, you ask?)',
-                    "<32>* (Oh, you're silly... monsters don't have ITEMs!)\n* Ribbit."
-                 ],
+                  '<32>{#p/basic}* Ribbit, ribbit.\n* (Hello, human...)',
+                  '<32>* (Have you ever tried checking your ITEMs?)',
+                  "<32>* (If you've picked up anything, that's where you'll find it.)",
+                  '<32>* (What do I have in my ITEMs, you ask?)',
+                  "<32>* (Oh, you're silly... monsters don't have ITEMs!)\n* Ribbit."
+               ],
          w_pacing3: () =>
             SAVE.data.n.plot === 72
                ? SAVE.data.n.bully < 1
                   ? [
-                       '<32>{#p/basic}* Ribbit, ribbit.\n* (Thank you for always showing mercy to us monsters.)',
-                       '<32>* (I know I gave you advice on how to beat people up safely...)',
-                       "<32>* (But that didn't mean I wanted you to do it.)",
-                       '<32>* (You are a kind human indeed.)\n* Ribbit.'
-                    ]
+                     '<32>{#p/basic}* Ribbit, ribbit.\n* (Thank you for always showing mercy to us monsters.)',
+                     '<32>* (I know I gave you advice on how to beat people up safely...)',
+                     "<32>* (But that didn't mean I wanted you to do it.)",
+                     '<32>* (You are a kind human indeed.)\n* Ribbit.'
+                  ]
                   : SAVE.data.n.bully < 15
-                  ? [
-                       '<32>{#p/basic}* Ribbit, ribbit.\n* (Thank you for keeping the beatings to a minimum.)',
-                       '<32>* (I know I gave you advice on how to beat people up safely...)',
-                       "<32>* (But that didn't mean I wanted you to do it.)",
-                       "<32>* (You aren't too terrible, at least for a human.)\n* Ribbit."
-                    ]
-                  : [
-                       '<32>{#p/basic}* Ribbit, ribbit.\n* (So you have proven to be a formidable threat.)',
-                       "<32>* (Yet, somehow, I'm still not afraid of you...)",
-                       '<32>* (Perhaps at the end, you offered mercy when you could have attacked.)',
-                       '<32>* (I do appreciate the restraint you have shown.)\n* Ribbit.'
-                    ]
+                     ? [
+                        '<32>{#p/basic}* Ribbit, ribbit.\n* (Thank you for keeping the beatings to a minimum.)',
+                        '<32>* (I know I gave you advice on how to beat people up safely...)',
+                        "<32>* (But that didn't mean I wanted you to do it.)",
+                        "<32>* (You aren't too terrible, at least for a human.)\n* Ribbit."
+                     ]
+                     : [
+                        '<32>{#p/basic}* Ribbit, ribbit.\n* (So you have proven to be a formidable threat.)',
+                        "<32>* (Yet, somehow, I'm still not afraid of you...)",
+                        '<32>* (Perhaps at the end, you offered mercy when you could have attacked.)',
+                        '<32>* (I do appreciate the restraint you have shown.)\n* Ribbit.'
+                     ]
                : [
-                    "<32>{#p/basic}* Ribbit, ribbit.\n* (If you beat up a monster until it's almost dead...)",
-                    '<32>* (Its name will turn blue.)',
-                    '<32>* (Weird, right?)\n* (But I heard humans turn blue when they get beat up, too.)',
-                    '<32>* (So, I suppose you can relate to that.)',
-                    '<32>* (Well, thank you for listening to my head-talk.)\n* Ribbit.'
-                 ],
+                  "<32>{#p/basic}* Ribbit, ribbit.\n* (If you beat up a monster until it's almost dead...)",
+                  '<32>* (Its name will turn blue.)',
+                  '<32>* (Weird, right?)\n* (But I heard humans turn blue when they get beat up, too.)',
+                  '<32>* (So, I suppose you can relate to that.)',
+                  '<32>* (Well, thank you for listening to my head-talk.)\n* Ribbit.'
+               ],
          w_puzzle1_view: () =>
             SAVE.data.b.svr
-               ? [ '<32>{#p/human}* (You stare deeply into the cosmos beyond...)' ]
+               ? ['<32>{#p/human}* (You stare deeply into the cosmos beyond...)']
                : world.darker
-               ? []
-               : SAVE.data.n.plot === 72
-               ? [ '<32>{#p/basic}* In the end, these rooms still feel like nothing more than lookout areas.' ]
-               : [
-                    '<32>{#p/basic}* Why does it feel like some of these rooms...',
-                    '<32>* ... were just made solely to be lookout areas?'
-                 ],
+                  ? []
+                  : SAVE.data.n.plot === 72
+                     ? ['<32>{#p/basic}* In the end, these rooms still feel like nothing more than lookout areas.']
+                     : [
+                        '<32>{#p/basic}* Why does it feel like some of these rooms...',
+                        '<32>* ... were just made solely to be lookout areas?'
+                     ],
          w_puzzle2: () =>
             SAVE.data.b.svr
                ? world.nootflags.has('w_puzzle2') // NO-TRANSLATE
 
                   ? [
-                       '<32>{#p/human}* (The sign describes puzzle- solving as an unnecessary part of space exploration.)',
-                       ...[
-                          [
-                             '<25>{#p/asriel1}{#f/13}* Unlike most signs, this one has a point.',
-                             "<25>{#f/15}* And that's not just because I'm the one who wrote it."
-                          ],
-                          [ "<25>{#p/asriel1}{#f/3}* ... don't tell me you actually enjoyed these puzzles." ],
-                          [ "<25>{#p/asriel1}{#f/10}* Frisk, even you're not THAT weird." ]
-                       ][Math.min(asrielinter.w_puzzle2++, 2)]
-                    ]
-                  : [ '<32>{#p/human}* (The sign describes the value of patience in space.)' ]
+                     '<32>{#p/human}* (The sign describes puzzle- solving as an unnecessary part of space exploration.)',
+                     ...[
+                        [
+                           '<25>{#p/asriel1}{#f/13}* Unlike most signs, this one has a point.',
+                           "<25>{#f/15}* And that's not just because I'm the one who wrote it."
+                        ],
+                        ["<25>{#p/asriel1}{#f/3}* ... don't tell me you actually enjoyed these puzzles."],
+                        ["<25>{#p/asriel1}{#f/10}* Frisk, even you're not THAT weird."]
+                     ][Math.min(asrielinter.w_puzzle2++, 2)]
+                  ]
+                  : ['<32>{#p/human}* (The sign describes the value of patience in space.)']
                : world.nootflags.has('w_puzzle2') // NO-TRANSLATE
 
-               ? [
-                    '<32>{#p/basic}* \"The final frontier is a deep dark sea.\"',
-                    '<32>* \"Navigating its waters should NEVER require solving badly designed puzzles!\"'
-                 ]
-               : [
-                    '<32>{#p/basic}* \"The final frontier is a deep dark sea.\"',
-                    '<32>{#p/basic}* \"Before charging into the {@fill=#ff993d}great unknown{@fill=#fff}, you must wait for its {@fill=#00a2e8}currents to align{@fill=#fff}.\"'
-                 ],
+                  ? [
+                     '<32>{#p/basic}* \"The final frontier is a deep dark sea.\"',
+                     '<32>* \"Navigating its waters should NEVER require solving badly designed puzzles!\"'
+                  ]
+                  : [
+                     '<32>{#p/basic}* \"The final frontier is a deep dark sea.\"',
+                     '<32>{#p/basic}* \"Before charging into the {@fill=#ff993d}great unknown{@fill=#fff}, you must wait for its {@fill=#00a2e8}currents to align{@fill=#fff}.\"'
+                  ],
          w_puzzle3_view: () =>
             SAVE.data.b.svr
-               ? [ '<32>{#p/human}* (You stare reflectively into the cosmos beyond...)' ]
+               ? ['<32>{#p/human}* (You stare reflectively into the cosmos beyond...)']
                : world.darker
-               ? []
-               : SAVE.data.n.plot === 72
-               ? [ '<32>{#p/basic}* It sure... was... a nice view.' ]
-               : [ '<32>{#p/basic}* It sure is a nice view.' ],
+                  ? []
+                  : SAVE.data.n.plot === 72
+                     ? ['<32>{#p/basic}* It sure... was... a nice view.']
+                     : ['<32>{#p/basic}* It sure is a nice view.'],
          w_puzzle4: () =>
             SAVE.data.b.svr
-               ? [ '<32>{#p/human}* (The sign appears to be an advertisement for a now- defunct steak sale.)' ]
+               ? ['<32>{#p/human}* (The sign appears to be an advertisement for a now- defunct steak sale.)']
                : [
-                    '<32>{#p/basic}* \"Be sure to catch a slice of Glyde\'s Signature Steak (TM) in the activities room!\"'
-                 ],
+                  '<32>{#p/basic}* \"Be sure to catch a slice of Glyde\'s Signature Steak (TM) in the activities room!\"'
+               ],
          w_ta_box: () =>
             SAVE.data.b.svr
                ? [
-                    [
-                       '<25>{#p/asriel1}{#f/20}* Yeah... Toriel was never one to keep these in one piece.',
-                       '<25>{#f/21}* Even these replicas of my model starships got smashed...'
-                    ],
-                    [
-                       "<25>{#f/13}* It's surprising.\n* She's usually such an organized person.",
-                       '<25>{#p/asriel1}{#f/17}* ... she must have been having a bad day.'
-                    ],
-                    [ '<25>{#p/asriel1}{#f/13}* It happens...' ]
-                 ][Math.min(asrielinter.w_ta_box++, 2)]
+                  [
+                     '<25>{#p/asriel1}{#f/20}* Yeah... Toriel was never one to keep these in one piece.',
+                     '<25>{#f/21}* Even these replicas of my model starships got smashed...'
+                  ],
+                  [
+                     "<25>{#f/13}* It's surprising.\n* She's usually such an organized person.",
+                     '<25>{#p/asriel1}{#f/17}* ... she must have been having a bad day.'
+                  ],
+                  ['<25>{#p/asriel1}{#f/13}* It happens...']
+               ][Math.min(asrielinter.w_ta_box++, 2)]
                : world.darker
-               ? [ "<32>{#p/basic}* It's a toy box.\n* The model starships have been smashed to pieces." ]
-               : SAVE.data.n.plot === 72
-               ? [
-                    '<32>{#p/basic}* The little ships in this box were never repaired.',
-                    "<32>* If this was at Asgore's house, they'd be in perfect shape."
-                 ]
-               : [
-                    '<32>{#p/basic}* A box of model starships!\n* And... shattered glass?',
-                    '<32>* Looks like someone broke their little ships.'
-                 ],
+                  ? ["<32>{#p/basic}* It's a toy box.\n* The model starships have been smashed to pieces."]
+                  : SAVE.data.n.plot === 72
+                     ? [
+                        '<32>{#p/basic}* The little ships in this box were never repaired.',
+                        "<32>* If this was at Asgore's house, they'd be in perfect shape."
+                     ]
+                     : [
+                        '<32>{#p/basic}* A box of model starships!\n* And... shattered glass?',
+                        '<32>* Looks like someone broke their little ships.'
+                     ],
          w_ta_cabinet: () =>
             SAVE.data.b.svr
-               ? [ "<32>{#p/human}* (You can't find anything in here besides several of the exact same outfit.)" ]
+               ? ["<32>{#p/human}* (You can't find anything in here besides several of the exact same outfit.)"]
                : [
-                    '<32>{#p/basic}* A cabinet full of blue and yellow striped shirts.',
-                    ...(SAVE.data.n.plot === 72 ? [ "<32>* Like that's ever gonna change." ] : [])
-                 ],
+                  '<32>{#p/basic}* A cabinet full of blue and yellow striped shirts.',
+                  ...(SAVE.data.n.plot === 72 ? ["<32>* Like that's ever gonna change."] : [])
+               ],
          w_ta_frame: () =>
             SAVE.data.b.svr
-               ? [ [ "<25>{#p/asriel1}{#f/21}* ... it's missing..." ], [ '<25>{#p/asriel1}{#f/21}* ...' ] ][
-                    Math.min(asrielinter.w_ta_frame++, 1)
-                 ]
+               ? [["<25>{#p/asriel1}{#f/21}* ... it's missing..."], ['<25>{#p/asriel1}{#f/21}* ...']][
+               Math.min(asrielinter.w_ta_frame++, 1)
+               ]
                : SAVE.data.n.plot === 72
-               ? [ '<32>{#p/basic}* An empty photo frame.', "<32>* There still isn't much else to say." ]
-               : [ '<32>{#p/basic}* An empty photo frame.', "<32>* There's not much else to say." ],
+                  ? ['<32>{#p/basic}* An empty photo frame.', "<32>* There still isn't much else to say."]
+                  : ['<32>{#p/basic}* An empty photo frame.', "<32>* There's not much else to say."],
          w_ta_paper: () =>
             SAVE.data.b.svr
                ? [
-                    "<32>{#p/human}* (The drawing doesn't appear to be anything of importance.)",
-                    ...[
-                       [
-                          "<25>{#p/asriel1}{#f/13}* It's long gone now, but the real drawing I made here...",
-                          '<25>{#f/17}* ... was basically the blueprint for my \"god of hyperdeath\" form.',
-                          '<25>{#f/17}* Super skybreaker, titanium striker...',
-                          '<25>{#f/20}* And, of course, the legendary \"hyper goner.\"'
-                       ],
-                       [
-                          '<25>{#p/asriel1}{#f/17}* Yeah... I guess I had it all planned out.',
-                          '<25>{#f/20}* I came up with lots of crazy stuff, all the time...',
-                          '<25>{#f/1}* Ooh, you would have ADORED my pan-galactic starship concept.'
-                       ],
-                       [
-                          '<25>{#p/asriel1}{#f/17}* Frisk, I hope...',
-                          '<25>{#f/23}* I really hope we can have a moment like that between us.',
-                          '<25>{#f/22}* Back with $(name), it was always...',
-                          '<25>{#f/15}* ... difficult.'
-                       ],
-                       [ "<25>{#p/asriel1}{#f/20}* Don't worry.\n* If you can't draw, I'll just teach you." ]
-                    ][Math.min(asrielinter.w_ta_paper++, 3)]
-                 ]
+                  "<32>{#p/human}* (The drawing doesn't appear to be anything of importance.)",
+                  ...[
+                     [
+                        "<25>{#p/asriel1}{#f/13}* It's long gone now, but the real drawing I made here...",
+                        '<25>{#f/17}* ... was basically the blueprint for my \"god of hyperdeath\" form.',
+                        '<25>{#f/17}* Super skybreaker, titanium striker...',
+                        '<25>{#f/20}* And, of course, the legendary \"hyper goner.\"'
+                     ],
+                     [
+                        '<25>{#p/asriel1}{#f/17}* Yeah... I guess I had it all planned out.',
+                        '<25>{#f/20}* I came up with lots of crazy stuff, all the time...',
+                        '<25>{#f/1}* Ooh, you would have ADORED my pan-galactic starship concept.'
+                     ],
+                     [
+                        '<25>{#p/asriel1}{#f/17}* Frisk, I hope...',
+                        '<25>{#f/23}* I really hope we can have a moment like that between us.',
+                        '<25>{#f/22}* Back with $(name), it was always...',
+                        '<25>{#f/15}* ... difficult.'
+                     ],
+                     ["<25>{#p/asriel1}{#f/20}* Don't worry.\n* If you can't draw, I'll just teach you."]
+                  ][Math.min(asrielinter.w_ta_paper++, 3)]
+               ]
                : world.darker
-               ? [ '<32>{#p/basic}* A forgettable drawing.\n* Nothing like the original.' ]
-               : [
-                    "<32>{#p/basic}* A children's drawing, depicting a giant monster with rainbow wings.",
-                    "<32>* It's just like the one at home..."
-                 ],
+                  ? ['<32>{#p/basic}* A forgettable drawing.\n* Nothing like the original.']
+                  : [
+                     "<32>{#p/basic}* A children's drawing, depicting a giant monster with rainbow wings.",
+                     "<32>* It's just like the one at home..."
+                  ],
          w_tf_couch: () =>
             SAVE.data.b.svr
-               ? [ '<32>{#p/human}* (The couch appears to have never been used.)' ]
+               ? ['<32>{#p/human}* (The couch appears to have never been used.)']
                : SAVE.data.n.plot === 72
-               ? [ "<32>{#p/basic}* No matter how much time passes, it's unlikely anyone will ever sit here." ]
-               : world.darker
-               ? [ "<32>{#p/basic}* It's a couch.\n* What else were you expecting?" ]
-               : [
-                    '<32>{#p/basic}* A comfortable-looking couch.',
-                    '<32>* The temptation to sink into its luscious cushions is hard to resist...'
-                 ],
+                  ? ["<32>{#p/basic}* No matter how much time passes, it's unlikely anyone will ever sit here."]
+                  : world.darker
+                     ? ["<32>{#p/basic}* It's a couch.\n* What else were you expecting?"]
+                     : [
+                        '<32>{#p/basic}* A comfortable-looking couch.',
+                        '<32>* The temptation to sink into its luscious cushions is hard to resist...'
+                     ],
          w_tf_table: () =>
             SAVE.data.b.svr
-               ? [ "<32>{#p/human}* (You glance at the end table, but it doesn't appear to glance back.)" ]
+               ? ["<32>{#p/human}* (You glance at the end table, but it doesn't appear to glance back.)"]
                : [
-                    '<32>{#p/basic}* An unremarkable end table.',
-                    "<32>{#p/basic}* Rather unrealistically, it's in near-perfect condition."
-                 ],
+                  '<32>{#p/basic}* An unremarkable end table.',
+                  "<32>{#p/basic}* Rather unrealistically, it's in near-perfect condition."
+               ],
          w_tf_window: () =>
             SAVE.data.b.svr
                ? SAVE.data.b.c_state_secret1_used && SAVE.data.b.c_state_secret5_used
-                  ? [ '<32>{#p/human}* (You stare wishfully into the cosmos beyond...)' ]
-                  : [ '<32>{#p/human}* (You stare wistfully into the cosmos beyond...)' ]
+                  ? ['<32>{#p/human}* (You stare wishfully into the cosmos beyond...)']
+                  : ['<32>{#p/human}* (You stare wistfully into the cosmos beyond...)']
                : world.darker
-               ? [ "<32>{#p/basic}* It's just another window." ]
-               : SAVE.data.n.plot === 72
-               ? [ "<32>{#p/basic}* As always, it's a beautiful view of outer space." ]
-               : [ "<32>{#p/basic}* It's a beautiful view of outer space." ],
+                  ? ["<32>{#p/basic}* It's just another window."]
+                  : SAVE.data.n.plot === 72
+                     ? ["<32>{#p/basic}* As always, it's a beautiful view of outer space."]
+                     : ["<32>{#p/basic}* It's a beautiful view of outer space."],
          w_th_door: () =>
             SAVE.data.b.svr
                ? [
-                    '<32>{#p/human}* (The sign describes the room within as being incomplete.)',
-                    ...[
-                       [
-                          "<25>{#p/asriel1}{#f/3}* If this house weren't a replica, that would be Dad's room...",
-                          '<25>{#f/4}* You can guess why it was never finished.'
-                       ],
-                       [
-                          '<25>{#p/asriel1}{#f/13}* ...',
-                          '<25>{#f/15}* That speech affected Mom in a... not good way.',
-                          '<25>{#f/4}* As a star, I sometimes... spied on her.',
-                          "<25>{#f/3}* And the way she was talking, it's like she never left that moment.",
-                          '<25>{#f/13}* Then, you arrived, and everything changed...'
-                       ],
-                       [
-                          '<25>{#p/asriel1}{#f/13}* ...',
-                          "<25>{#f/15}* This is too awkward.\n* I'm going to pretend we aren't here."
-                       ],
-                       [ '<25>{#p/asriel1}{#f/13}* ...' ]
-                    ][Math.min(asrielinter.w_th_door++, 3)]
-                 ]
-               : [ '<32>{#p/basic}* \"Room under renovations.\"' ],
+                  '<32>{#p/human}* (The sign describes the room within as being incomplete.)',
+                  ...[
+                     [
+                        "<25>{#p/asriel1}{#f/3}* If this house weren't a replica, that would be Dad's room...",
+                        '<25>{#f/4}* You can guess why it was never finished.'
+                     ],
+                     [
+                        '<25>{#p/asriel1}{#f/13}* ...',
+                        '<25>{#f/15}* That speech affected Mom in a... not good way.',
+                        '<25>{#f/4}* As a star, I sometimes... spied on her.',
+                        "<25>{#f/3}* And the way she was talking, it's like she never left that moment.",
+                        '<25>{#f/13}* Then, you arrived, and everything changed...'
+                     ],
+                     [
+                        '<25>{#p/asriel1}{#f/13}* ...',
+                        "<25>{#f/15}* This is too awkward.\n* I'm going to pretend we aren't here."
+                     ],
+                     ['<25>{#p/asriel1}{#f/13}* ...']
+                  ][Math.min(asrielinter.w_th_door++, 3)]
+               ]
+               : ['<32>{#p/basic}* \"Room under renovations.\"'],
          w_th_mirror: () =>
             SAVE.data.b.svr
-               ? [ "<25>{#p/asriel1}{#f/24}* It's us..." ]
+               ? ["<25>{#p/asriel1}{#f/24}* It's us..."]
                : world.genocide
-               ? [ '<32>{#p/basic}* ...' ]
-               : world.darker
-               ? [ "<32>{#p/basic}* It's you." ]
-               : SAVE.data.b.w_state_catnap || SAVE.data.n.plot > 17
-               ? [ "<32>{#p/basic}* It's you...", '<32>{#p/basic}* ... and it always will be.' ]
-               : [ "<32>{#p/basic}* It's you!" ],
+                  ? ['<32>{#p/basic}* ...']
+                  : world.darker
+                     ? ["<32>{#p/basic}* It's you."]
+                     : SAVE.data.b.w_state_catnap || SAVE.data.n.plot > 17
+                        ? ["<32>{#p/basic}* It's you...", '<32>{#p/basic}* ... and it always will be.']
+                        : ["<32>{#p/basic}* It's you!"],
          w_th_plant: () =>
             SAVE.data.b.svr
-               ? [ '<32>{#p/human}* (You thank the plant for the warmth it brings each day.)' ]
+               ? ['<32>{#p/human}* (You thank the plant for the warmth it brings each day.)']
                : SAVE.data.n.plot === 72
-               ? [ "<32>{#p/basic}* This plant is just happy you're still alive." ]
-               : world.darker
-               ? [ '<32>{#p/basic}* This plant is not very happy to see you.' ]
-               : SAVE.data.b.oops
-               ? [ '<32>{#p/basic}* This plant is happy to see you.' ]
-               : [ '<32>{#p/basic}* This plant is ecstatic about seeing you!' ],
+                  ? ["<32>{#p/basic}* This plant is just happy you're still alive."]
+                  : world.darker
+                     ? ['<32>{#p/basic}* This plant is not very happy to see you.']
+                     : SAVE.data.b.oops
+                        ? ['<32>{#p/basic}* This plant is happy to see you.']
+                        : ['<32>{#p/basic}* This plant is ecstatic about seeing you!'],
          w_th_sausage: () =>
             SAVE.data.b.svr
-               ? [ '<32>{#p/human}* (You rustle the corny plant.)' ]
-               : [ '<32>{#p/basic}* This plant looks quite corny.' ],
+               ? ['<32>{#p/human}* (You rustle the corny plant.)']
+               : ['<32>{#p/basic}* This plant looks quite corny.'],
          w_th_table1: () => [
             '<32>{#p/human}* (You look under the table and find a set of crayons.)',
             ...(SAVE.data.b.svr
                ? [
-                    [
-                       '<25>{#p/asriel1}{#f/24}* I think $(name) might have lost the blue crayon.',
-                       '<25>{#f/7}* ... actually, no.\n* I KNOW they lost the blue crayon.',
-                       '<25>{#f/6}* It turned up later in a food chest, but nobody thought to check it.',
-                       '<25>{#f/16}* They must have been trying to claim the chest as their own.'
-                    ],
-                    [
-                       "<26>{#p/asriel1}{#f/4}* If we ever get a new set of crayons, I'm keeping watch.",
-                       '<25>{#f/3}* The moment you even think about losing a crayon...',
-                       "<26>{#f/8}* I'll be there to stop that crime train before it even hits the tracks.",
-                       '<25>{#f/2}* Just you wait.'
-                    ],
-                    [ "<25>{#p/asriel1}{#f/31}* I've got my eyes on you, Frisk.", '<25>{#f/8}* And... maybe my ears.' ],
-                    [ '<25>{#p/asriel1}{#f/10}* Are you staring at my ears again?\n* You keep doing that.' ]
-                 ][Math.min(asrielinter.w_th_table1++, 3)]
+                  [
+                     '<25>{#p/asriel1}{#f/24}* I think $(name) might have lost the blue crayon.',
+                     '<25>{#f/7}* ... actually, no.\n* I KNOW they lost the blue crayon.',
+                     '<25>{#f/6}* It turned up later in a food chest, but nobody thought to check it.',
+                     '<25>{#f/16}* They must have been trying to claim the chest as their own.'
+                  ],
+                  [
+                     "<26>{#p/asriel1}{#f/4}* If we ever get a new set of crayons, I'm keeping watch.",
+                     '<25>{#f/3}* The moment you even think about losing a crayon...',
+                     "<26>{#f/8}* I'll be there to stop that crime train before it even hits the tracks.",
+                     '<25>{#f/2}* Just you wait.'
+                  ],
+                  ["<25>{#p/asriel1}{#f/31}* I've got my eyes on you, Frisk.", '<25>{#f/8}* And... maybe my ears.'],
+                  ['<25>{#p/asriel1}{#f/10}* Are you staring at my ears again?\n* You keep doing that.']
+               ][Math.min(asrielinter.w_th_table1++, 3)]
                : world.edgy
-               ? [ '<32>{#p/basic}* Two crayons are missing from the set.' ]
-               : world.darker
-               ? [ '<32>{#p/basic}* One crayon is missing from the set.' ]
-               : [
-                    '<32>{#p/basic}* The ever-evasive blue crayon, missing for a hundred years...',
-                    '<32>{#p/basic}* Truly a legend of our time.'
-                 ])
+                  ? ['<32>{#p/basic}* Two crayons are missing from the set.']
+                  : world.darker
+                     ? ['<32>{#p/basic}* One crayon is missing from the set.']
+                     : [
+                        '<32>{#p/basic}* The ever-evasive blue crayon, missing for a hundred years...',
+                        '<32>{#p/basic}* Truly a legend of our time.'
+                     ])
          ],
          w_th_table2: () =>
             SAVE.data.b.svr
                ? [
-                    '<32>{#p/human}* (You look under the table and find a deck of cards.)',
-                    ...[
-                       [
-                          '<25>{#p/asriel1}{#f/27}* $(name) and I were never really into those kinds of things.',
-                          '<25>{#p/asriel1}{#f/15}* Well... I say never.',
-                          "<25>{#p/asriel1}{#f/15}* Uh, let's just not talk about it."
-                       ],
-                       [
-                          '<25>{#p/asriel1}{#f/13}* ...',
-                          '<25>{#p/asriel1}{#f/13}* The last time we did, a table got flipped over.',
-                          '<25>{#p/asriel1}{#f/17}* Just sibling things.\n* You know how it goes with card games.'
-                       ],
-                       [ '<25>{#p/asriel1}{#f/17}* ...' ]
-                    ][Math.min(asrielinter.w_th_table2++, 2)]
-                 ]
+                  '<32>{#p/human}* (You look under the table and find a deck of cards.)',
+                  ...[
+                     [
+                        '<25>{#p/asriel1}{#f/27}* $(name) and I were never really into those kinds of things.',
+                        '<25>{#p/asriel1}{#f/15}* Well... I say never.',
+                        "<25>{#p/asriel1}{#f/15}* Uh, let's just not talk about it."
+                     ],
+                     [
+                        '<25>{#p/asriel1}{#f/13}* ...',
+                        '<25>{#p/asriel1}{#f/13}* The last time we did, a table got flipped over.',
+                        '<25>{#p/asriel1}{#f/17}* Just sibling things.\n* You know how it goes with card games.'
+                     ],
+                     ['<25>{#p/asriel1}{#f/17}* ...']
+                  ][Math.min(asrielinter.w_th_table2++, 2)]
+               ]
                : world.darker
-               ? [
-                    '<32>{#p/human}* (You look under the table and find a deck of cards.)',
-                    "<33>{#p/basic}* It's just not worth your time."
-                 ]
-               : SAVE.data.n.plot === 72
-               ? [
-                    '<32>{#p/human}* (You look under the table and find a deck of cards.)',
-                    "<33>{#p/basic}* Soon enough, we'll never have to think about these again."
-                 ]
-               : [
-                    '<32>{#p/human}* (You look under the table and find a deck of cards.)',
-                    "<33>{#p/basic}* They're holographic, of course."
-                 ],
+                  ? [
+                     '<32>{#p/human}* (You look under the table and find a deck of cards.)',
+                     "<33>{#p/basic}* It's just not worth your time."
+                  ]
+                  : SAVE.data.n.plot === 72
+                     ? [
+                        '<32>{#p/human}* (You look under the table and find a deck of cards.)',
+                        "<33>{#p/basic}* Soon enough, we'll never have to think about these again."
+                     ]
+                     : [
+                        '<32>{#p/human}* (You look under the table and find a deck of cards.)',
+                        "<33>{#p/basic}* They're holographic, of course."
+                     ],
          w_tk_counter: () =>
             SAVE.data.b.svr
                ? [
-                    '<32>{#p/human}* (You run your hand across the cutting board, noting the various grooves and ridges.)'
-                 ]
+                  '<32>{#p/human}* (You run your hand across the cutting board, noting the various grooves and ridges.)'
+               ]
                : world.darker
-               ? [ "<32>{#p/basic}* It's a cutting board." ]
-               : [ "<32>{#p/basic}* Toriel's cutting board.\n* It's not as up-to-scratch as it used to be." ],
+                  ? ["<32>{#p/basic}* It's a cutting board."]
+                  : ["<32>{#p/basic}* Toriel's cutting board.\n* It's not as up-to-scratch as it used to be."],
          w_tk_sink: () =>
             SAVE.data.b.svr
                ? [
-                    [
-                       '<25>{#p/asriel1}{#f/21}* $(name) always said leaving fur in the drain was super gross.',
-                       '<25>{#f/15}* I always thought it was normal, though...'
-                    ],
-                    [
-                       '<25>{#p/asriel1}{#f/13}* Do humans not shed fur?\n* $(name) would never tell me things like this.'
-                    ],
-                    [ "<25>{#p/asriel1}{#f/17}* I do have reason to believe humans shed.\n* Even if it's not fur." ]
-                 ][Math.min(asrielinter.w_tk_sink++, 2)]
+                  [
+                     '<25>{#p/asriel1}{#f/21}* $(name) always said leaving fur in the drain was super gross.',
+                     '<25>{#f/15}* I always thought it was normal, though...'
+                  ],
+                  [
+                     '<25>{#p/asriel1}{#f/13}* Do humans not shed fur?\n* $(name) would never tell me things like this.'
+                  ],
+                  ["<25>{#p/asriel1}{#f/17}* I do have reason to believe humans shed.\n* Even if it's not fur."]
+               ][Math.min(asrielinter.w_tk_sink++, 2)]
                : SAVE.data.n.plot === 72
-               ? [ '<32>{#p/basic}* Remnants of the white fur once stuck here still remain to this very day.' ]
-               : [ '<32>{#p/basic}* There are clumps of white fur stuck in the drain.' ],
+                  ? ['<32>{#p/basic}* Remnants of the white fur once stuck here still remain to this very day.']
+                  : ['<32>{#p/basic}* There are clumps of white fur stuck in the drain.'],
          w_tk_stove: () =>
             SAVE.data.b.svr
                ? [
-                    [
-                       '<25>{#p/asriel1}{#f/13}* I have to wonder why she thought buying this would be a good idea.',
-                       "<25>{#f/10}* Unless she wanted to re-create Asgore's kitchen...?",
-                       "<25>{#f/17}* For someone who didn't like him, she had a weird way to show it."
-                    ],
-                    [
-                       '<25>{#p/asriel1}{#f/15}* I really wish Toriel and Asgore stayed together sometimes.',
-                       "<25>{#f/16}* ... but I guess it's for the best that they didn't."
-                    ],
-                    [ "<25>{#p/asriel1}{#f/13}* It just wasn't meant to be, Frisk..." ]
-                 ][Math.min(asrielinter.w_tk_stove++, 2)]
+                  [
+                     '<25>{#p/asriel1}{#f/13}* I have to wonder why she thought buying this would be a good idea.',
+                     "<25>{#f/10}* Unless she wanted to re-create Asgore's kitchen...?",
+                     "<25>{#f/17}* For someone who didn't like him, she had a weird way to show it."
+                  ],
+                  [
+                     '<25>{#p/asriel1}{#f/15}* I really wish Toriel and Asgore stayed together sometimes.',
+                     "<25>{#f/16}* ... but I guess it's for the best that they didn't."
+                  ],
+                  ["<25>{#p/asriel1}{#f/13}* It just wasn't meant to be, Frisk..."]
+               ][Math.min(asrielinter.w_tk_stove++, 2)]
                : SAVE.data.n.state_wastelands_toriel === 2
-               ? [ "<32>{#p/basic}* It's just a stovetop.\n* No one is going to use it." ]
-               : world.darker
-               ? [ "<32>{#p/basic}* It's just a stovetop." ]
-               : SAVE.data.n.plot === 72
-               ? [ '<32>{#p/basic}* The stovetop is very clean.\n* Toriel may not need a new one on the new world.' ]
-               : [ '<32>{#p/basic}* The stovetop is very clean.\n* Toriel must use fire magic instead.' ],
+                  ? ["<32>{#p/basic}* It's just a stovetop.\n* No one is going to use it."]
+                  : world.darker
+                     ? ["<32>{#p/basic}* It's just a stovetop."]
+                     : SAVE.data.n.plot === 72
+                        ? ['<32>{#p/basic}* The stovetop is very clean.\n* Toriel may not need a new one on the new world.']
+                        : ['<32>{#p/basic}* The stovetop is very clean.\n* Toriel must use fire magic instead.'],
          w_tk_trash: () =>
             SAVE.data.b.svr
-               ? [ "<32>{#p/human}* (You can't make out what's in the trash...)" ]
+               ? ["<32>{#p/human}* (You can't make out what's in the trash...)"]
                : SAVE.data.n.plot === 72
-               ? [ '<32>{#p/basic}* Rather symbolically, the trash can has been emptied.' ]
-               : [ '<32>{#p/basic}* There is a crumpled up recipe for Starling Tea.' ],
+                  ? ['<32>{#p/basic}* Rather symbolically, the trash can has been emptied.']
+                  : ['<32>{#p/basic}* There is a crumpled up recipe for Starling Tea.'],
          
          w_tl_azzychair: () =>
             SAVE.data.b.svr
-               ? [ '<32>{#p/human}* (You note the fairly large size of the dining chair.)' ]
+               ? ['<32>{#p/human}* (You note the fairly large size of the dining chair.)']
                : SAVE.data.n.state_wastelands_toriel === 2 || world.runaway
-               ? [ '<32>{#p/basic}* A larger dining chair.' ]
-               : [ "<32>{#p/basic}* One of Toriel's dining chairs.\n* Fit for a queen." ],
+                  ? ['<32>{#p/basic}* A larger dining chair.']
+                  : ["<32>{#p/basic}* One of Toriel's dining chairs.\n* Fit for a queen."],
          w_tl_bookshelf: pager.create(
             1,
             () =>
                SAVE.data.b.svr
                   ? [
-                       '<32>{#p/human}* (The books on this bookshelf consist of snail facts, family recipes, and gardening tips.)'
-                    ]
+                     '<32>{#p/human}* (The books on this bookshelf consist of snail facts, family recipes, and gardening tips.)'
+                  ]
                   : [
-                       "<32>{#p/basic}* It's a bookshelf.",
-                       '<32>{#p/human}* (You pick out a book...)',
-                       '<32>{#p/basic}* \"Did you know that snails have a chainsaw-like tongue called a radula?\"',
-                       '<32>* \"Not many folks know about that one.\"',
-                       '<32>* \"Another neat thing about \'em is how their digestive systems flip as they mature.\"',
-                       '<32>* \"Oh, and did I mention...\"',
-                       '<32>* \"Snails Talk. {^10}Really. {^10}Slowly.\"',
-                       '<32>* \"Just kiddin\', snails don\'t talk.\"',
-                       '<32>* \"I mean, could you imagine a world with talking snails?\"\n* \"I know I couldn\'t.\"',
-                       '<32>{#p/human}* (You put the book back on the shelf.)'
-                    ],
+                     "<32>{#p/basic}* It's a bookshelf.",
+                     '<32>{#p/human}* (You pick out a book...)',
+                     '<32>{#p/basic}* \"Did you know that snails have a chainsaw-like tongue called a radula?\"',
+                     '<32>* \"Not many folks know about that one.\"',
+                     '<32>* \"Another neat thing about \'em is how their digestive systems flip as they mature.\"',
+                     '<32>* \"Oh, and did I mention...\"',
+                     '<32>* \"Snails Talk. {^10}Really. {^10}Slowly.\"',
+                     '<32>* \"Just kiddin\', snails don\'t talk.\"',
+                     '<32>* \"I mean, could you imagine a world with talking snails?\"\n* \"I know I couldn\'t.\"',
+                     '<32>{#p/human}* (You put the book back on the shelf.)'
+                  ],
             () =>
                SAVE.data.b.svr
                   ? [
-                       '<32>{#p/human}* (The books on this bookshelf consist of snail facts, family recipes, and gardening tips.)'
-                    ]
+                     '<32>{#p/human}* (The books on this bookshelf consist of snail facts, family recipes, and gardening tips.)'
+                  ]
                   : [
-                       "<32>{#p/basic}* It's a bookshelf.",
-                       '<32>{#p/human}* (You pick out a book...)',
-                       '<32>{#p/basic}* \"Dreemurr Family Recipes: Snail Pie\"',
-                       '<32>* \"Snail Pie is a coveted tradition among members of the Dreemurr family line.\"',
-                       '<32>* \"Making it is a simple process, and can be broken down into five steps.\"',
-                       '<32>* \"First, prepare the bottom crust by laying it on top of a pie plate.\"',
-                       '<32>* \"Next, whisk evaporated milk, eggs, and spices together in a bowl until smooth.\"',
-                       '<32>* \"Then, take several well-aged snails, and thoroughly incorporate into the mixture.\"',
-                       '<32>* \"After that, pour the contents of the bowl into the bottom crust.\"',
-                       '<32>* \"Last, prepare the top crust by cutting sheet into strips and forming a lattice.\"',
-                       '<32>* \"Then just bake the pie!\"',
-                       '<32>* \"Once the pie is ready, take it out of the oven, let it cool, and serve!\"',
-                       '<32>{#p/human}* (You put the book back on the shelf.)'
-                    ],
+                     "<32>{#p/basic}* It's a bookshelf.",
+                     '<32>{#p/human}* (You pick out a book...)',
+                     '<32>{#p/basic}* \"Dreemurr Family Recipes: Snail Pie\"',
+                     '<32>* \"Snail Pie is a coveted tradition among members of the Dreemurr family line.\"',
+                     '<32>* \"Making it is a simple process, and can be broken down into five steps.\"',
+                     '<32>* \"First, prepare the bottom crust by laying it on top of a pie plate.\"',
+                     '<32>* \"Next, whisk evaporated milk, eggs, and spices together in a bowl until smooth.\"',
+                     '<32>* \"Then, take several well-aged snails, and thoroughly incorporate into the mixture.\"',
+                     '<32>* \"After that, pour the contents of the bowl into the bottom crust.\"',
+                     '<32>* \"Last, prepare the top crust by cutting sheet into strips and forming a lattice.\"',
+                     '<32>* \"Then just bake the pie!\"',
+                     '<32>* \"Once the pie is ready, take it out of the oven, let it cool, and serve!\"',
+                     '<32>{#p/human}* (You put the book back on the shelf.)'
+                  ],
             () =>
                SAVE.data.b.svr
                   ? [
-                       '<32>{#p/human}* (The books on this bookshelf consist of snail facts, family recipes, and gardening tips.)'
-                    ]
+                     '<32>{#p/human}* (The books on this bookshelf consist of snail facts, family recipes, and gardening tips.)'
+                  ]
                   : [
-                       "<32>{#p/basic}* It's a bookshelf.",
-                       '<32>{#p/human}* (You pick out a book...)',
-                       '<32>{#p/basic}* \"Howdy, fellow gardeners.\"',
-                       '<32>* \"When it comes to Starling flowers, the line between growth and stagnation...\"',
-                       '<32>* \"Is access to open space.\"',
-                       '<32>* \"That is why they are commonly grown in Aerialis...\"',
-                       '<32>* \"It is the most open area of the outpost.\"',
-                       '<32>{#p/human}* (You put the book back on the shelf.)'
-                    ]
+                     "<32>{#p/basic}* It's a bookshelf.",
+                     '<32>{#p/human}* (You pick out a book...)',
+                     '<32>{#p/basic}* \"Howdy, fellow gardeners.\"',
+                     '<32>* \"When it comes to Starling flowers, the line between growth and stagnation...\"',
+                     '<32>* \"Is access to open space.\"',
+                     '<32>* \"That is why they are commonly grown in Aerialis...\"',
+                     '<32>* \"It is the most open area of the outpost.\"',
+                     '<32>{#p/human}* (You put the book back on the shelf.)'
+                  ]
          ),
          
          w_tl_goreychair: () =>
             SAVE.data.b.svr
-               ? [ '<32>{#p/human}* (You note the small size of the dining chair.)' ]
+               ? ['<32>{#p/human}* (You note the small size of the dining chair.)']
                : SAVE.data.n.state_wastelands_toriel === 2 || world.runaway
-               ? [ '<32>{#p/basic}* A smaller dining chair.' ]
-               : world.genocide
-               ? [ "<32>{#p/basic}* One of Toriel's dining chairs.\n* Fit for a demon." ]
-               : world.darker
-               ? [ "<32>{#p/basic}* One of Toriel's dining chairs.\n* Fit for a prince." ]
-               : SAVE.data.b.oops
-               ? [ "<32>{#p/basic}* One of Toriel's dining chairs.\n* Fit for a child.\n* Like you!" ]
-               : [ "<32>{#p/basic}* One of Toriel's dining chairs.\n* Fit for... a little angel.\n* Like you!" ],
+                  ? ['<32>{#p/basic}* A smaller dining chair.']
+                  : world.genocide
+                     ? ["<32>{#p/basic}* One of Toriel's dining chairs.\n* Fit for a demon."]
+                     : world.darker
+                        ? ["<32>{#p/basic}* One of Toriel's dining chairs.\n* Fit for a prince."]
+                        : SAVE.data.b.oops
+                           ? ["<32>{#p/basic}* One of Toriel's dining chairs.\n* Fit for a child.\n* Like you!"]
+                           : ["<32>{#p/basic}* One of Toriel's dining chairs.\n* Fit for... a little angel.\n* Like you!"],
          w_tl_table: () =>
             SAVE.data.b.svr
-               ? [ '<32>{#p/human}* (The plant appears to be decorative in nature.)' ]
+               ? ['<32>{#p/human}* (The plant appears to be decorative in nature.)']
                : world.darker
-               ? [ '<32>{#p/basic}* A decorative plant.\n* Nothing more.' ]
-               : [ "<32>{#p/basic}* A decorative plant on Toriel's dining table." ],
+                  ? ['<32>{#p/basic}* A decorative plant.\n* Nothing more.']
+                  : ["<32>{#p/basic}* A decorative plant on Toriel's dining table."],
          w_tl_tools: () =>
             SAVE.data.b.svr
                ? [
-                    [
-                       '<25>{#p/asriel1}{#f/20}* $(name) used to pretend these things were musical instruments.',
-                       '<25>{#f/17}* They\'d pull them out, start \"playing\" them...',
-                       '<25>{#f/20}* Once, I joined in, and we did a little fire- poker-instrument duet.',
-                       '<26>{#f/13}* We started using our voices to emulate the instruments, and then...',
-                       '<25>{#f/17}* Mom and Dad walked in to add backing vocals!'
-                    ],
-                    [
-                       '<25>{#p/asriel1}{#f/13}* Then, as it turns out, someone had been listening in outside.',
-                       '<25>{#f/15}* Before we knew it, we had monsters coming to the house in droves...',
-                       '<25>{#f/17}* $(name) and I were still in the middle of the room, doing our thing.',
-                       '<25>{#f/20}* But now we had an entire orchestra behind us!',
-                       '<25>{#f/17}* We must have performed half of the Harmonexus Index that day.',
-                       "<25>{#f/17}* ... it's an old book full of songs from our culture."
-                    ],
-                    [
-                       '<25>{#p/asriel1}{#f/13}* All that because we played pretend with some fire pokers...',
-                       '<25>{#f/17}* They say you can make an instrument out of anything.',
-                       '<25>{#f/13}* ...',
-                       "<25>{#f/15}* Wait...\n* I'M an anything..." 
-                    ],
-                    [ "<25>{#p/asriel1}{#f/20}* Please don't make a musical instrument out of me." ]
-                 ][Math.min(asrielinter.w_tl_tools++, 3)]
+                  [
+                     '<25>{#p/asriel1}{#f/20}* $(name) used to pretend these things were musical instruments.',
+                     '<25>{#f/17}* They\'d pull them out, start \"playing\" them...',
+                     '<25>{#f/20}* Once, I joined in, and we did a little fire- poker-instrument duet.',
+                     '<26>{#f/13}* We started using our voices to emulate the instruments, and then...',
+                     '<25>{#f/17}* Mom and Dad walked in to add backing vocals!'
+                  ],
+                  [
+                     '<25>{#p/asriel1}{#f/13}* Then, as it turns out, someone had been listening in outside.',
+                     '<25>{#f/15}* Before we knew it, we had monsters coming to the house in droves...',
+                     '<25>{#f/17}* $(name) and I were still in the middle of the room, doing our thing.',
+                     '<25>{#f/20}* But now we had an entire orchestra behind us!',
+                     '<25>{#f/17}* We must have performed half of the Harmonexus Index that day.',
+                     "<25>{#f/17}* ... it's an old book full of songs from our culture."
+                  ],
+                  [
+                     '<25>{#p/asriel1}{#f/13}* All that because we played pretend with some fire pokers...',
+                     '<25>{#f/17}* They say you can make an instrument out of anything.',
+                     '<25>{#f/13}* ...',
+                     "<25>{#f/15}* Wait...\n* I'M an anything..." 
+                  ],
+                  ["<25>{#p/asriel1}{#f/20}* Please don't make a musical instrument out of me."]
+               ][Math.min(asrielinter.w_tl_tools++, 3)]
                : world.darker
-               ? [ '<32>{#p/basic}* Fire pokers.' ]
-               : SAVE.data.n.plot === 72
-               ? [
-                    "<32>{#p/basic}* They're just fire pokers...\n* Or are they?",
-                    "<32>* Consider that Toriel's fire is only pleasantly warm, and not hot at all.",
-                    '<32>* Why would she need these?',
-                    '<32>* Thus, by the process of elimination, these must be advanced musical instruments.'
-                 ]
-               : [
-                    '<32>{#p/basic}* A rack of advanced musical instruments.',
-                    '<32>* Upon closer inspection, you realize these are in fact fire pokers.',
-                    "<32>* It's hard to tell, given that these tools were likely made...",
-                    '<32>* Before the outpost itself even existed.'
-                 ],
+                  ? ['<32>{#p/basic}* Fire pokers.']
+                  : SAVE.data.n.plot === 72
+                     ? [
+                        "<32>{#p/basic}* They're just fire pokers...\n* Or are they?",
+                        "<32>* Consider that Toriel's fire is only pleasantly warm, and not hot at all.",
+                        '<32>* Why would she need these?',
+                        '<32>* Thus, by the process of elimination, these must be advanced musical instruments.'
+                     ]
+                     : [
+                        '<32>{#p/basic}* A rack of advanced musical instruments.',
+                        '<32>* Upon closer inspection, you realize these are in fact fire pokers.',
+                        "<32>* It's hard to tell, given that these tools were likely made...",
+                        '<32>* Before the outpost itself even existed.'
+                     ],
          
          w_tl_torichair: () =>
             SAVE.data.b.svr
-               ? [ '<32>{#p/human}* (You note the exceptional size of the dining chair.)' ]
+               ? ['<32>{#p/human}* (You note the exceptional size of the dining chair.)']
                : SAVE.data.n.state_wastelands_toriel === 2 || world.runaway
-               ? [ '<32>{#p/basic}* A king-sized dining chair.' ]
-               : [ "<32>{#p/basic}* One of Toriel's dining chairs.\n* Fit for a king." ],
+                  ? ['<32>{#p/basic}* A king-sized dining chair.']
+                  : ["<32>{#p/basic}* One of Toriel's dining chairs.\n* Fit for a king."],
          w_toriel_toriel: () => [
             "<32>{#p/basic}* It's locked.",
             toriSV()
@@ -3336,91 +3336,91 @@ export default {
          ],
          w_tt_bed: () =>
             SAVE.data.b.svr
-               ? [ '<32>{#p/human}* (The bed seems a lot smaller than it might have used to.)' ]
+               ? ['<32>{#p/human}* (The bed seems a lot smaller than it might have used to.)']
                : SAVE.data.n.state_wastelands_toriel === 2 || world.runaway
-               ? [ "<32>{#p/basic}* It's a bed." ]
-               : SAVE.data.n.plot < 72 || world.runaway
-               ? [
-                    "<32>{#p/basic}* It's Toriel's bed.",
-                    ...(world.darker ? [] : [ '<32>* Certainly too big for the likes of you.' ])
-                 ]
-               : [
-                    "<32>{#p/basic}* It's Toriel's bed.",
-                    "<32>* You've still got some time to go, but you'll grow into it."
-                 ],
+                  ? ["<32>{#p/basic}* It's a bed."]
+                  : SAVE.data.n.plot < 72 || world.runaway
+                     ? [
+                        "<32>{#p/basic}* It's Toriel's bed.",
+                        ...(world.darker ? [] : ['<32>* Certainly too big for the likes of you.'])
+                     ]
+                     : [
+                        "<32>{#p/basic}* It's Toriel's bed.",
+                        "<32>* You've still got some time to go, but you'll grow into it."
+                     ],
          w_tt_bookshelf: pager.create(
             1,
             () =>
                SAVE.data.b.svr
                   ? [
-                       '<32>{#p/human}* (The books on this bookshelf consist of history, biology, and a foreboding possibility.)'
-                    ]
+                     '<32>{#p/human}* (The books on this bookshelf consist of history, biology, and a foreboding possibility.)'
+                  ]
                   : [
-                       SAVE.data.n.state_wastelands_toriel === 2 || world.runaway
-                          ? "<32>{#p/basic}* It's a bookshelf."
-                          : "<32>{#p/basic}* It's Toriel's private bookshelf.",
-                       '<32>{#p/human}* (You pick out a book...)',
-                       '<32>{#p/basic}* \"Our homeworld gone... our people dead... but why?\"',
-                       '<32>* \"Surely, the humans must\'ve had a reason for their attacks.\"',
-                       '<32>* \"Did our kind truly pose a threat to them?\"',
-                       '<32>* \"Was the threat of our potential truly that dire?\"',
-                       '<32>* \"Whatever the case may be, we were cornered, and there was nowhere else to go.\"',
-                       '<32>* \"Capitulation was our only real means of survival.\"',
-                       '<32>{#p/human}* (You put the book back on the shelf.)'
-                    ],
+                     SAVE.data.n.state_wastelands_toriel === 2 || world.runaway
+                        ? "<32>{#p/basic}* It's a bookshelf."
+                        : "<32>{#p/basic}* It's Toriel's private bookshelf.",
+                     '<32>{#p/human}* (You pick out a book...)',
+                     '<32>{#p/basic}* \"Our homeworld gone... our people dead... but why?\"',
+                     '<32>* \"Surely, the humans must\'ve had a reason for their attacks.\"',
+                     '<32>* \"Did our kind truly pose a threat to them?\"',
+                     '<32>* \"Was the threat of our potential truly that dire?\"',
+                     '<32>* \"Whatever the case may be, we were cornered, and there was nowhere else to go.\"',
+                     '<32>* \"Capitulation was our only real means of survival.\"',
+                     '<32>{#p/human}* (You put the book back on the shelf.)'
+                  ],
             () =>
                SAVE.data.b.svr
                   ? [
-                       '<32>{#p/human}* (The books on this bookshelf consist of history, biology, and a foreboding possibility.)'
-                    ]
+                     '<32>{#p/human}* (The books on this bookshelf consist of history, biology, and a foreboding possibility.)'
+                  ]
                   : [
-                       SAVE.data.n.state_wastelands_toriel === 2 || world.runaway
-                          ? "<32>{#p/basic}* It's a bookshelf."
-                          : "<32>{#p/basic}* It's Toriel's private bookshelf.",
-                       '<32>{#p/human}* (You pick out a book...)',
-                       '<32>{#p/basic}* \"When a boss monster is born, a magical link forms between the parents and the child.\"',
-                       '<32>* \"Through this, their SOUL is created, ageing the parents along with the child.\"',
-                       '<32>* \"The SOUL of a fully-grown boss monster is the strongest known to monsterkind...\"',
-                       '<32>* \"Able to persist after death, if only for the briefest of periods.\"',
-                       '<32>{#p/human}* (You put the book back on the shelf.)'
-                    ],
+                     SAVE.data.n.state_wastelands_toriel === 2 || world.runaway
+                        ? "<32>{#p/basic}* It's a bookshelf."
+                        : "<32>{#p/basic}* It's Toriel's private bookshelf.",
+                     '<32>{#p/human}* (You pick out a book...)',
+                     '<32>{#p/basic}* \"When a boss monster is born, a magical link forms between the parents and the child.\"',
+                     '<32>* \"Through this, their SOUL is created, ageing the parents along with the child.\"',
+                     '<32>* \"The SOUL of a fully-grown boss monster is the strongest known to monsterkind...\"',
+                     '<32>* \"Able to persist after death, if only for the briefest of periods.\"',
+                     '<32>{#p/human}* (You put the book back on the shelf.)'
+                  ],
             () =>
                SAVE.data.b.svr
                   ? [
-                       '<32>{#p/human}* (The books on this bookshelf consist of history, biology, and a foreboding possibility.)'
-                    ]
+                     '<32>{#p/human}* (The books on this bookshelf consist of history, biology, and a foreboding possibility.)'
+                  ]
                   : [
-                       SAVE.data.n.state_wastelands_toriel === 2 || world.runaway
-                          ? "<32>{#p/basic}* It's a bookshelf."
-                          : "<32>{#p/basic}* It's Toriel's private bookshelf.",
-                       '<32>{#p/human}* (You pick out a book...)',
-                       '<32>{#p/basic}* \"We often worry about what would happen if a human attacked us.\"',
-                       '<33>* \"But what if one of our own attacked instead...?\"',
-                       '<32>* \"Would we as a society be able to handle such a betrayal?\"',
-                       '<32>* \"But who would think to do such a thing?\"',
-                       '<32>{#p/human}* (You put the book back on the shelf.)'
-                    ]
+                     SAVE.data.n.state_wastelands_toriel === 2 || world.runaway
+                        ? "<32>{#p/basic}* It's a bookshelf."
+                        : "<32>{#p/basic}* It's Toriel's private bookshelf.",
+                     '<32>{#p/human}* (You pick out a book...)',
+                     '<32>{#p/basic}* \"We often worry about what would happen if a human attacked us.\"',
+                     '<33>* \"But what if one of our own attacked instead...?\"',
+                     '<32>* \"Would we as a society be able to handle such a betrayal?\"',
+                     '<32>* \"But who would think to do such a thing?\"',
+                     '<32>{#p/human}* (You put the book back on the shelf.)'
+                  ]
          ),
          w_tt_cactus: () =>
             SAVE.data.b.svr
-               ? [ '<32>{#p/human}* (This cactus seems to remind you of someone you once knew.)' ]
+               ? ['<32>{#p/human}* (This cactus seems to remind you of someone you once knew.)']
                : SAVE.data.n.plot < 72
-               ? world.darker
-                  ? [ '<32>{#p/basic}* Finally, a houseplant we can all relate to.' ]
-                  : [ '<32>{#p/basic}* Ah, the cactus.\n* Truly the most tsundere of plants.' ]
-               : [ "<32>{#p/basic}* It's not like this cactus was waiting for you to come back or anything..." ],
+                  ? world.darker
+                     ? ['<32>{#p/basic}* Finally, a houseplant we can all relate to.']
+                     : ['<32>{#p/basic}* Ah, the cactus.\n* Truly the most tsundere of plants.']
+                  : ["<32>{#p/basic}* It's not like this cactus was waiting for you to come back or anything..."],
          w_tt_chair: () =>
             SAVE.data.b.svr
-               ? [ '<32>{#p/human}* (This chair appears to be a little small for the person who owns it.)' ]
+               ? ['<32>{#p/human}* (This chair appears to be a little small for the person who owns it.)']
                : world.darker
-               ? [ "<32>{#p/basic}* It's a reading chair." ]
-               : SAVE.data.n.plot === 72
-               ? [
-                    "<32>{#p/basic}* Toriel's dedicated reading chair...",
-                    "<32>* ... at least until Asgore decides he'd like it instead.",
-                    "<32>* He's always wanted this chair.\n* I'd be surprised if he didn't take it with him."
-                 ]
-               : [ "<32>{#p/basic}* Toriel's dedicated reading chair.", '<32>* Smells like lazy bones.' ],
+                  ? ["<32>{#p/basic}* It's a reading chair."]
+                  : SAVE.data.n.plot === 72
+                     ? [
+                        "<32>{#p/basic}* Toriel's dedicated reading chair...",
+                        "<32>* ... at least until Asgore decides he'd like it instead.",
+                        "<32>* He's always wanted this chair.\n* I'd be surprised if he didn't take it with him."
+                     ]
+                     : ["<32>{#p/basic}* Toriel's dedicated reading chair.", '<32>* Smells like lazy bones.'],
          w_tt_diary: pager.create(
             0,
             ...[
@@ -3473,170 +3473,170 @@ export default {
                   '<32>* \"Hopefully those kinds of questions will soon be pointless.\"',
                   '<32>{#p/basic}* ...'
                ],
-               [ '<32>{#p/human}* (There are no more written entries here.)' ]
+               ['<32>{#p/human}* (There are no more written entries here.)']
             ].map(
                lines => () =>
                   SAVE.data.b.svr
-                     ? [ '<32>{#p/human}* (The diary seems to consist primarily of over-the-top skeleton puns.)' ]
+                     ? ['<32>{#p/human}* (The diary seems to consist primarily of over-the-top skeleton puns.)']
                      : SAVE.data.n.plot === 72
-                     ? [
-                          '<32>{#p/human}* (You look to the newly-written page.)',
-                          '<32>{#p/toriel}{#f/21}* \"It seems my preconceptions about Asgore were incorrect.\"',
-                          '<32>* \"In failing to confront him, I have failed to understand what was truly going on.\"',
-                          '<32>* \"I was right in thinking I did not deserve to be a mother.\"',
-                          '<32>* \"But perhaps now... I can learn what being a mother truly means.\"',
-                          '<32>* \"I will need to think about this on my own.\"'
-                       ]
-                     : world.darker
-                     ? [ "<32>{#p/basic}* It's a diary.\n* You wouldn't find it funny." ]
-                     : SAVE.data.n.plot < 14
-                     ? lines
-                     : [
-                          '<32>{#p/human}* (You look to the most recently written paragraph.)',
-                          ...(world.edgy
-                             ? [ "<32>{#p/basic}* It's been scribbled out with a crayon." ]
-                             : toriSV()
-                             ? [
-                                  '<32>{#p/toriel}{#f/21}* \"It has not been the best of days.\"',
-                                  '<32>* \"Yet another human has fallen out of my care...\"',
-                                  '<32>* \"The seventh and final human he\'d need to break the force field.\"',
-                                  '<32>* \"I should not have allowed this to happen.\"',
-                                  '<32>* \"With the stakes so high, a confrontation may be inevitable...\"'
-                               ]
-                             : [
-                                  '<32>{#p/toriel}{#f/21}* \"It has been an interesting day, to say the least.\"',
-                                  '<32>* \"A human arrived...\"',
-                                  '<32>* \"Then, tried to leave...\"',
-                                  '<32>* \"And then, the strangest thing happened.\"',
-                                  '<32>* \"A reminder I have been in need of for some time...\"'
-                               ])
-                       ]
+                        ? [
+                           '<32>{#p/human}* (You look to the newly-written page.)',
+                           '<32>{#p/toriel}{#f/21}* \"It seems my preconceptions about Asgore were incorrect.\"',
+                           '<32>* \"In failing to confront him, I have failed to understand what was truly going on.\"',
+                           '<32>* \"I was right in thinking I did not deserve to be a mother.\"',
+                           '<32>* \"But perhaps now... I can learn what being a mother truly means.\"',
+                           '<32>* \"I will need to think about this on my own.\"'
+                        ]
+                        : world.darker
+                           ? ["<32>{#p/basic}* It's a diary.\n* You wouldn't find it funny."]
+                           : SAVE.data.n.plot < 14
+                              ? lines
+                              : [
+                                 '<32>{#p/human}* (You look to the most recently written paragraph.)',
+                                 ...(world.edgy
+                                    ? ["<32>{#p/basic}* It's been scribbled out with a crayon."]
+                                    : toriSV()
+                                       ? [
+                                          '<32>{#p/toriel}{#f/21}* \"It has not been the best of days.\"',
+                                          '<32>* \"Yet another human has fallen out of my care...\"',
+                                          '<32>* \"The seventh and final human he\'d need to break the force field.\"',
+                                          '<32>* \"I should not have allowed this to happen.\"',
+                                          '<32>* \"With the stakes so high, a confrontation may be inevitable...\"'
+                                       ]
+                                       : [
+                                          '<32>{#p/toriel}{#f/21}* \"It has been an interesting day, to say the least.\"',
+                                          '<32>* \"A human arrived...\"',
+                                          '<32>* \"Then, tried to leave...\"',
+                                          '<32>* \"And then, the strangest thing happened.\"',
+                                          '<32>* \"A reminder I have been in need of for some time...\"'
+                                       ])
+                              ]
             )
          ),
          w_tt_plant: () =>
             SAVE.data.b.svr
-               ? [ '<32>{#p/human}* (This houseplant strikes you as exceedingly normal.)' ]
-               : [ "<32>{#p/basic}* It's a houseplant.", '<32>* What more is there to say?' ],
+               ? ['<32>{#p/human}* (This houseplant strikes you as exceedingly normal.)']
+               : ["<32>{#p/basic}* It's a houseplant.", '<32>* What more is there to say?'],
          w_tt_trash: pager.create(
             0,
             () =>
                SAVE.data.b.svr
-                  ? [ "<32>{#p/human}* (You can't make out what's in the trash...)" ]
+                  ? ["<32>{#p/human}* (You can't make out what's in the trash...)"]
                   : world.darker
-                  ? [ '<32>{#p/basic}* Snails.' ]
-                  : SAVE.data.n.plot === 72
-                  ? [ '<32>{#p/basic}* The snails are beginning to smell... ghostly.', '<32>* ... what could this mean?' ]
-                  : [
-                       "<32>{#p/basic}* It's Toriel's private trash can, containing...",
-                       '<32>* Snails.',
-                       '<32>* Oodles and oodles of snails.'
-                    ],
+                     ? ['<32>{#p/basic}* Snails.']
+                     : SAVE.data.n.plot === 72
+                        ? ['<32>{#p/basic}* The snails are beginning to smell... ghostly.', '<32>* ... what could this mean?']
+                        : [
+                           "<32>{#p/basic}* It's Toriel's private trash can, containing...",
+                           '<32>* Snails.',
+                           '<32>* Oodles and oodles of snails.'
+                        ],
             pager.create(
                1,
                () =>
                   SAVE.data.b.svr
-                     ? [ "<32>{#p/human}* (You can't make out what's in the trash...)" ]
+                     ? ["<32>{#p/human}* (You can't make out what's in the trash...)"]
                      : world.darker
-                     ? [ '<32>{#p/basic}* Snails.' ]
-                     : SAVE.data.n.plot === 72
-                     ? [ '<32>{#p/basic}* Maybe this is how snails live past their expiry date.' ]
-                     : [ '<32>{#p/basic}* And nothing BUT snails.' ],
+                        ? ['<32>{#p/basic}* Snails.']
+                        : SAVE.data.n.plot === 72
+                           ? ['<32>{#p/basic}* Maybe this is how snails live past their expiry date.']
+                           : ['<32>{#p/basic}* And nothing BUT snails.'],
                () =>
                   SAVE.data.b.svr
-                     ? [ "<32>{#p/human}* (You can't make out what's in the trash...)" ]
+                     ? ["<32>{#p/human}* (You can't make out what's in the trash...)"]
                      : world.darker
-                     ? [ '<32>{#p/basic}* Snails.' ]
-                     : SAVE.data.n.plot === 72
-                     ? [ "<32>{#p/basic}* Or maybe I've just gone and lost it completely." ]
-                     : [ '<32>{#p/basic}* ...\n* Did I mention the snails?' ],
+                        ? ['<32>{#p/basic}* Snails.']
+                        : SAVE.data.n.plot === 72
+                           ? ["<32>{#p/basic}* Or maybe I've just gone and lost it completely."]
+                           : ['<32>{#p/basic}* ...\n* Did I mention the snails?'],
                () =>
                   SAVE.data.b.svr
-                     ? [ "<32>{#p/human}* (You can't make out what's in the trash...)" ]
+                     ? ["<32>{#p/human}* (You can't make out what's in the trash...)"]
                      : world.darker
-                     ? [ '<32>{#p/basic}* Snails.' ]
-                     : SAVE.data.n.plot === 72
-                     ? [ '<32>{#p/basic}* Or maybe...', '<32>* ... wait, what was I saying?' ]
-                     : [ '<32>{#p/basic}* Snails.' ],
+                        ? ['<32>{#p/basic}* Snails.']
+                        : SAVE.data.n.plot === 72
+                           ? ['<32>{#p/basic}* Or maybe...', '<32>* ... wait, what was I saying?']
+                           : ['<32>{#p/basic}* Snails.'],
                () =>
                   SAVE.data.b.svr
-                     ? [ "<32>{#p/human}* (You can't make out what's in the trash...)" ]
+                     ? ["<32>{#p/human}* (You can't make out what's in the trash...)"]
                      : world.darker
-                     ? [ '<32>{#p/basic}* Snails.' ]
-                     : SAVE.data.n.plot === 72
-                     ? [ "<32>{#p/basic}* Oh, right.\n* The meaning of the snails' newfound ghostly scent." ]
-                     : [ '<32>{#p/basic}* Oodles and oodles of snails.' ]
+                        ? ['<32>{#p/basic}* Snails.']
+                        : SAVE.data.n.plot === 72
+                           ? ["<32>{#p/basic}* Oh, right.\n* The meaning of the snails' newfound ghostly scent."]
+                           : ['<32>{#p/basic}* Oodles and oodles of snails.']
             )
          ),
          w_tutorial_view: () =>
             SAVE.data.b.svr
-               ? [ '<32>{#p/human}* (You stare excitedly into the cosmos beyond...)' ]
+               ? ['<32>{#p/human}* (You stare excitedly into the cosmos beyond...)']
                : world.darker
-               ? []
-               : [ '<32>{#p/basic}* The first of many windows in this part of the Outlands.' ],
+                  ? []
+                  : ['<32>{#p/basic}* The first of many windows in this part of the Outlands.'],
          w_tutorial1: () =>
             SAVE.data.b.svr
-               ? [ '<32>{#p/human}* (The sign describes the qualities of a good relationship.)' ]
+               ? ['<32>{#p/human}* (The sign describes the qualities of a good relationship.)']
                : [
-                    '<32>{#p/basic}* \"A good relationship requires trust and kindness to move forward.\"',
-                    ...(world.goatbro && SAVE.flag.n.ga_asrielOutlands7++ < 1
-                       ? [ '<26>{#p/asriel2}{#f/8}* How grossly sentimental.' ]
-                       : [])
-                 ]
+                  '<32>{#p/basic}* \"A good relationship requires trust and kindness to move forward.\"',
+                  ...(world.goatbro && SAVE.flag.n.ga_asrielOutlands7++ < 1
+                     ? ['<26>{#p/asriel2}{#f/8}* How grossly sentimental.']
+                     : [])
+               ]
       },
       piecheck: () =>
          SAVE.data.b.svr
             ? [
-                 [
-                    "<25>{#p/asriel1}{#f/17}* Mom's pies were always the best...",
-                    '<25>{#f/13}* I can still remember what the first one I ever had tasted like.',
-                    "<25>{#f/15}* I'd never felt so happy to take a bite of something...",
-                    "<25>{#f/17}* ... it was like I'd transcended to the next level of confection."
-                 ],
-                 [
-                    "<25>{#p/asriel1}{#f/20}* Er, maybe I'm overselling it just a little.",
-                    "<25>{#f/17}* But I'm telling you right now, Frisk...",
-                    '<25>{#f/13}* ... no matter what happens with Mom and Dad...',
-                    '<25>{#f/17}* You NEED to have her make one of her pies for me.',
-                    "<25>{#f/20}* I'm... kind of curious if I'll still like it after all of this."
-                 ],
-                 [ '<25>{#p/asriel1}{#f/15}* It sure has been a while, huh...' ]
-              ][Math.min(asrielinter.piecheck++, 2)]
+               [
+                  "<25>{#p/asriel1}{#f/17}* Mom's pies were always the best...",
+                  '<25>{#f/13}* I can still remember what the first one I ever had tasted like.',
+                  "<25>{#f/15}* I'd never felt so happy to take a bite of something...",
+                  "<25>{#f/17}* ... it was like I'd transcended to the next level of confection."
+               ],
+               [
+                  "<25>{#p/asriel1}{#f/20}* Er, maybe I'm overselling it just a little.",
+                  "<25>{#f/17}* But I'm telling you right now, Frisk...",
+                  '<25>{#f/13}* ... no matter what happens with Mom and Dad...',
+                  '<25>{#f/17}* You NEED to have her make one of her pies for me.',
+                  "<25>{#f/20}* I'm... kind of curious if I'll still like it after all of this."
+               ],
+               ['<25>{#p/asriel1}{#f/15}* It sure has been a while, huh...']
+            ][Math.min(asrielinter.piecheck++, 2)]
             : SAVE.data.n.plot < 8
-            ? world.darker
-               ? [ "<32>{#p/basic}* It's just a countertop." ]
-               : [ '<32>{#p/basic}* There is a nigh-invisible ring-shaped stain on the countertop.' ]
-            : SAVE.data.n.state_wastelands_mash === 1 && SAVE.data.n.plot > 8
-            ? [ '<32>{#p/basic}* The ghost of a pie once smashed haunts the countertop.' ]
-            : SAVE.data.n.plot === 72
-            ? SAVE.data.n.state_wastelands_mash > 0
-               ? [ '<32>{#p/basic}* No amount of passed time will fix this atrocity.' ]
-               : SAVE.data.n.state_wastelands_toriel === 2
-               ? [ '<32>{#p/basic}* You feel strongly that you should leave this alone.' ]
-               : world.runaway
-               ? [
-                    '<32>{#p/basic}* You might have been a bully, but the pie remains untouched.',
-                    '<32>{#p/basic}* Perhaps some things are too sacred, even for you.'
-                 ]
-               : [
-                    world.meanie
-                       ? '<32>{#p/basic}* The pie may be intimidated by you, but after all this time...'
-                       : '<32>{#p/basic}* The size of the pie may no longer intimidate you, but after all this time...',
-                    "<32>{#p/basic}* You've gained a sense of respect for the pie that does not permit you to eat it."
-                 ]
-            : SAVE.data.n.state_wastelands_mash > 0
-            ? [ '<32>{#p/basic}* There is simply nothing more to be done here.' ]
-            : SAVE.data.n.state_wastelands_toriel === 2
-            ? [ '<32>{#p/basic}* You feel strongly that you should leave this alone.' ]
-            : world.meanie
-            ? [
-                 '<32>{#p/basic}* The size of the pie does not intimidate you at all.',
-                 '<32>{#p/basic}* In fact, it might even be intimidated by you...',
-                 choicer.create('* (Smash the pie?)', 'Si', 'No')
-              ]
-            : [ '<32>{#p/basic}* The size of the pie intimidates you too much to eat it.' ],
-      piesmash1: [ '<32>{#p/human}* (You decide not to smash.)' ],
-      piesmash2: [ '<32>{#p/human}* (You take a swing...)' ],
-      piesmash3: [ "<32>{#p/basic}* It's been utterly destroyed." ],
+               ? world.darker
+                  ? ["<32>{#p/basic}* It's just a countertop."]
+                  : ['<32>{#p/basic}* There is a nigh-invisible ring-shaped stain on the countertop.']
+               : SAVE.data.n.state_wastelands_mash === 1 && SAVE.data.n.plot > 8
+                  ? ['<32>{#p/basic}* The ghost of a pie once smashed haunts the countertop.']
+                  : SAVE.data.n.plot === 72
+                     ? SAVE.data.n.state_wastelands_mash > 0
+                        ? ['<32>{#p/basic}* No amount of passed time will fix this atrocity.']
+                        : SAVE.data.n.state_wastelands_toriel === 2
+                           ? ['<32>{#p/basic}* You feel strongly that you should leave this alone.']
+                           : world.runaway
+                              ? [
+                                 '<32>{#p/basic}* You might have been a bully, but the pie remains untouched.',
+                                 '<32>{#p/basic}* Perhaps some things are too sacred, even for you.'
+                              ]
+                              : [
+                                 world.meanie
+                                    ? '<32>{#p/basic}* The pie may be intimidated by you, but after all this time...'
+                                    : '<32>{#p/basic}* The size of the pie may no longer intimidate you, but after all this time...',
+                                 "<32>{#p/basic}* You've gained a sense of respect for the pie that does not permit you to eat it."
+                              ]
+                     : SAVE.data.n.state_wastelands_mash > 0
+                        ? ['<32>{#p/basic}* There is simply nothing more to be done here.']
+                        : SAVE.data.n.state_wastelands_toriel === 2
+                           ? ['<32>{#p/basic}* You feel strongly that you should leave this alone.']
+                           : world.meanie
+                              ? [
+                                 '<32>{#p/basic}* The size of the pie does not intimidate you at all.',
+                                 '<32>{#p/basic}* In fact, it might even be intimidated by you...',
+                                 choicer.create('* (Smash the pie?)', 'Si', 'No')
+                              ]
+                              : ['<32>{#p/basic}* The size of the pie intimidates you too much to eat it.'],
+      piesmash1: ['<32>{#p/human}* (You decide not to smash.)'],
+      piesmash2: ['<32>{#p/human}* (You take a swing...)'],
+      piesmash3: ["<32>{#p/basic}* It's been utterly destroyed."],
       tutorial_puzzle1: [
          '<25>{#p/toriel}* Unlike the puzzle beforehand, this one is a little different.',
          '<25>{#f/1}* It IS rare, but certain puzzles on the outpost...'
@@ -3645,16 +3645,16 @@ export default {
          '<25>{#p/toriel}* ... require the assistance of another monster.',
          '<25>{#f/1}* Do you understand what you must do next?'
       ],
-      tutorial_puzzle2a: [ '<25>{#p/toriel}{#f/1}* Do you understand what you must do next?' ],
-      tutorial_puzzle3: [ '<25>{#p/toriel}* Very good, little one!\n* Very good.' ],
-      tutorial_puzzle4: [ '<25>{#p/toriel}{#f/1}* Your turn...' ],
-      tutorial_puzzle4a: [ '<25>{#p/toriel}{#f/0}* It is your turn.' ],
-      tutorial_puzzle5: [ '<25>{#p/toriel}* Well done!\n* Only one row to go.' ],
-      tutorial_puzzle6: [ '<25>{#p/toriel}{#f/1}* Yes, yes!\n* I am proud of you, my child...' ],
-      tutorial_puzzle7: [ '<25>{#p/toriel}* Come with me when you are ready to begin your next lesson.' ],
-      tutorial_puzzle8a: [ '<25>{#p/toriel}* The answer does not lie with me, little one.' ],
-      tutorial_puzzle8b: [ '<25>{#p/toriel}* Try repeating what you have done before.' ],
-      tutorial_puzzle8c: [ '<25>{#p/toriel}{#f/1}* Go on...' ],
+      tutorial_puzzle2a: ['<25>{#p/toriel}{#f/1}* Do you understand what you must do next?'],
+      tutorial_puzzle3: ['<25>{#p/toriel}* Very good, little one!\n* Very good.'],
+      tutorial_puzzle4: ['<25>{#p/toriel}{#f/1}* Your turn...'],
+      tutorial_puzzle4a: ['<25>{#p/toriel}{#f/0}* It is your turn.'],
+      tutorial_puzzle5: ['<25>{#p/toriel}* Well done!\n* Only one row to go.'],
+      tutorial_puzzle6: ['<25>{#p/toriel}{#f/1}* Yes, yes!\n* I am proud of you, my child...'],
+      tutorial_puzzle7: ['<25>{#p/toriel}* Come with me when you are ready to begin your next lesson.'],
+      tutorial_puzzle8a: ['<25>{#p/toriel}* The answer does not lie with me, little one.'],
+      tutorial_puzzle8b: ['<25>{#p/toriel}* Try repeating what you have done before.'],
+      tutorial_puzzle8c: ['<25>{#p/toriel}{#f/1}* Go on...'],
       twinkly1: [
          "<25>{#p/twinkly}{#f/5}* Howdy!\n* I'm {@fill=#ff0}TWINKLY{@fill=#fff}.\n* {@fill=#ff0}TWINKLY{@fill=#fff} the {@fill=#ff0}STAR{@fill=#fff}!"
       ],
@@ -3680,7 +3680,7 @@ export default {
          '<25>{#f/6}* Do as you wish.',
          "<25>{#f/7}* Just don't expect to get past me so easily."
       ],
-      twinkly5: [ "<25>{#p/twinkly}{#f/6}* Don't you have anything better to do?" ],
+      twinkly5: ["<25>{#p/twinkly}{#f/6}* Don't you have anything better to do?"],
       twinkly6: [
          "<25>{#p/twinkly}{#f/6}* Resetting right after you've taken your first hit, huh?",
          '<25>{#f/7}* How pathetic.'
@@ -3689,8 +3689,8 @@ export default {
          "<25>{#p/twinkly}{#f/11}* As if you think I'd forget about what you did...",
          '<25>{#f/7}* Filthy shard dodger.'
       ],
-      twinkly7: [ '<25>{#p/twinkly}{#f/7}* I can play this game all day, idiot.' ],
-      twinkly8: [ "<25>{#f/11}* Either way, since you already know what's coming next...{%15}" ],
+      twinkly7: ['<25>{#p/twinkly}{#f/7}* I can play this game all day, idiot.'],
+      twinkly8: ["<25>{#f/11}* Either way, since you already know what's coming next...{%15}"],
       twinkly9: [
          '<25>{#p/twinkly}{#f/6}* Howdy.',
          "<25>* Seems I'll be fireballed if I stick around too long.",
@@ -3703,7 +3703,7 @@ export default {
          '<25>{#p/twinkly}{#f/12}{#v/0}* What the HELL are you doing, $(name)?',
          '<25>{#f/12}{#v/0}* We had the outpost at our mercy!'
       ],
-      twinkly9a1: [ '<25>{#f/6}{#v/0}* All we had to do was follow the plan.' ],
+      twinkly9a1: ['<25>{#f/6}{#v/0}* All we had to do was follow the plan.'],
       twinkly9a2: [
          '<25>{#f/6}{#v/0}* All we had to do was get through the Foundry...',
          '<25>* Finish off the guards...',
@@ -3717,10 +3717,10 @@ export default {
          '<25>{#f/6}{#v/0}* All we had to do was KILL that stupid robot...',
          '<25>* And get through the Citadel!'
       ],
-      twinkly9a5: [ '<25>{#f/6}{#v/0}* All we had to do was get through the Citadel!' ],
-      twinkly9a6: [ '<25>{#f/6}{#v/0}* All we had to do was KILL that nerdy trashbag!' ],
-      twinkly9a7: [ '<25>{#f/6}{#v/0}* All we had to do was walk to the end!', '<25>* We were so close!' ],
-      twinkly9a8: [ '<25>{#f/8}{#v/0}* Coward...' ],
+      twinkly9a5: ['<25>{#f/6}{#v/0}* All we had to do was get through the Citadel!'],
+      twinkly9a6: ['<25>{#f/6}{#v/0}* All we had to do was KILL that nerdy trashbag!'],
+      twinkly9a7: ['<25>{#f/6}{#v/0}* All we had to do was walk to the end!', '<25>* We were so close!'],
+      twinkly9a8: ['<25>{#f/8}{#v/0}* Coward...'],
       twinkly9b: [
          '<25>{#p/twinkly}{#f/5}* $(name)...?',
          "<25>{#f/6}* I'm not really sure what just happened.",
@@ -3768,9 +3768,9 @@ export default {
          "<20>Golly... you must have no idea who you're messing with.",
          '<20>{#f/11}Hee hee hee...'
       ],
-      twinkly17: [ "<20>{#v/1}We'll just have to cut straight to the point, won't we?", '<20>Hee hee hee...' ],
-      twinkly18: [ '<20>{*}{#f/2}{#v/1}{@random=1.1/1.1}DIE.{^20}{%}' ],
-      twinkly19: [ '<20>{#p/toriel}What a terrible creature, torturing such a poor, innocent youth...' ],
+      twinkly17: ["<20>{#v/1}We'll just have to cut straight to the point, won't we?", '<20>Hee hee hee...'],
+      twinkly18: ['<20>{*}{#f/2}{#v/1}{@random=1.1/1.1}DIE.{^20}{%}'],
+      twinkly19: ['<20>{#p/toriel}What a terrible creature, torturing such a poor, innocent youth...'],
       twinkly20: [
          '<20>Have no fear, little one.',
          '<20>I am {@fill=#003cff}TORIEL{@fill=#000}, overseer of the {@fill=#f00}OUTLANDS{@fill=#000}.',
@@ -3785,18 +3785,18 @@ export default {
          '<26>{#f/0}* I come by every day to check for those who\n  have been stranded here.',
          '<25>{#f/0}* Follow me, child.\n* There is much I intend to teach you.'
       ],
-      twinkly22: [ '<25>{#f/0}* This way.' ],
+      twinkly22: ['<25>{#f/0}* This way.'],
       w_coffin0: () => [
          '<32>{#p/human}* (You feel it would be best to leave this be.)',
-         ...(SAVE.data.b.svr ? [ '<25>{#p/asriel1}{#f/13}* ...' ] : [])
+         ...(SAVE.data.b.svr ? ['<25>{#p/asriel1}{#f/13}* ...'] : [])
       ],
       w_coffin1: () => [
          '<32>{#p/basic}* This coffin is very old.\n* There is nothing remarkable about it.',
          ...(world.goatbro && SAVE.flag.n.ga_asrielCoffin++ < 1
             ? [
-                 '<25>{#p/asriel2}{#f/13}* Oh, look at that.\n* They made one just for you, $(name).',
-                 '<25>{#p/asriel2}{#f/5}* How touching.'
-              ]
+               '<25>{#p/asriel2}{#f/13}* Oh, look at that.\n* They made one just for you, $(name).',
+               '<25>{#p/asriel2}{#f/5}* How touching.'
+            ]
             : [])
       ],
       w_coffin2: pager.create(
@@ -3811,13 +3811,13 @@ export default {
             choicer.create('* (Access the manifest?)', 'Si', 'No')
          ]
       ),
-      w_coffin3: () => [ choicer.create('* (Read the next page?)', 'Si', 'No') ],
-      w_coffin4: [ '<32>{#p/human}* (But there were no further pages to be read.)' ],
-      w_coffin5: [ '<32>{#p/human}* (You put the manifest back where it belongs.)' ],
+      w_coffin3: () => [choicer.create('* (Read the next page?)', 'Si', 'No')],
+      w_coffin4: ['<32>{#p/human}* (But there were no further pages to be read.)'],
+      w_coffin5: ['<32>{#p/human}* (You put the manifest back where it belongs.)'],
       w_dummy1: () =>
          SAVE.data.b.svr
-            ? [ '<32>{#p/human}* (You place your hands on the dummy.)\n* (It seems very worn out.)' ]
-            : [ '<32>{#p/basic}* A training dummy, circa 251X.\n* CITADEL standard-issue.' ],
+            ? ['<32>{#p/human}* (You place your hands on the dummy.)\n* (It seems very worn out.)']
+            : ['<32>{#p/basic}* A training dummy, circa 251X.\n* CITADEL standard-issue.'],
       wonder1: [
          '<32>{#p/basic}* Can you hear it?\n* The song of the stars?',
          "<32>* At certain places on the outpost, like this one... it's there.",
@@ -3827,21 +3827,21 @@ export default {
    },
 
    b_group_outlands: {
-      froggitWhimsun: [ '<32>{#p/story}* Space frogs and Starflies!\n* Or something of the like.' ],
-      froggitWhimsun2a: [ '<32>{#p/story}* Space frogs...?' ],
-      froggitWhimsun2b: [ '<32>{#p/story}* Starflies...?' ],
-      looxMigospWhimsun: [ "<32>{#p/story}* It's the troublesome trio!" ],
-      looxMigospWhimsun2: [ '<32>{#p/story}* The trio has become a duo.' ],
-      looxMigospWhimsun3: [ '<32>{#p/story}* Only one remains.' ],
-      moldsmalMigosp: [ '<32>{#p/story}* Silente and company present themselves!' ]
+      froggitWhimsun: ['<32>{#p/story}* Space frogs and Starflies!\n* Or something of the like.'],
+      froggitWhimsun2a: ['<32>{#p/story}* Space frogs...?'],
+      froggitWhimsun2b: ['<32>{#p/story}* Starflies...?'],
+      looxMigospWhimsun: ["<32>{#p/story}* It's the troublesome trio!"],
+      looxMigospWhimsun2: ['<32>{#p/story}* The trio has become a duo.'],
+      looxMigospWhimsun3: ['<32>{#p/story}* Only one remains.'],
+      moldsmalMigosp: ['<32>{#p/story}* Silente and company present themselves!']
    },
 
    b_opponent_froggit: {
-      act_check: [ '<32>{#p/story}* FROGGIT - ATK 4 DEF 5\n* Life is difficult for this monster.' ],
-      act_check2: [ '<32>{#p/story}* FROGGIT - ATK 4 DEF 5\n* Life is getting better for this monster.' ],
-      act_check3: [ "<32>{#p/story}* FROGGIT - ATK 4 DEF 5\n* Life just doesn't seem to get easier for this monster." ],
-      act_check4: [ '<32>{#p/story}* FROGGIT - ATK 4 DEF 5\n* Life is very confusing for this monster.' ],
-      act_check5: [ '<32>{#p/story}* FROGGIT - ATK 4 DEF 5\n* Life seems to be very lovely for this monster.' ],
+      act_check: ['<32>{#p/story}* FROGGIT - ATK 4 DEF 5\n* Life is difficult for this monster.'],
+      act_check2: ['<32>{#p/story}* FROGGIT - ATK 4 DEF 5\n* Life is getting better for this monster.'],
+      act_check3: ["<32>{#p/story}* FROGGIT - ATK 4 DEF 5\n* Life just doesn't seem to get easier for this monster."],
+      act_check4: ['<32>{#p/story}* FROGGIT - ATK 4 DEF 5\n* Life is very confusing for this monster.'],
+      act_check5: ['<32>{#p/story}* FROGGIT - ATK 4 DEF 5\n* Life seems to be very lovely for this monster.'],
       act_threat: [
          '<32>{#p/human}* (You threaten Froggit.)',
          "<32>{#p/basic}* Froggit doesn't understand what you said..."
@@ -3858,7 +3858,7 @@ export default {
          '<32>{#p/human}* (You flirt with Froggit.)',
          "<32>{#p/basic}* Froggit doesn't understand what you said..."
       ],
-      act_translate0: [ "<32>{#p/human}* (But you haven't said anything to translate yet.)" ],
+      act_translate0: ["<32>{#p/human}* (But you haven't said anything to translate yet.)"],
       act_translate1: [
          '<32>{#p/human}* (You translate what you said.)\n* (Froggit seems to understand you now.)',
          '<32>{#p/basic}* Froggit is flattered.'
@@ -3879,25 +3879,25 @@ export default {
          '<32>{#p/human}* (You translate what you said.)\n* (Froggit seems to understand you now.)',
          '<32>{#p/basic}* Froggit is blushing, if only on the inside.'
       ],
-      confuseText: [ '<08>{#p/basic}{~}Ribbit, ribbit?' ],
-      flirtText: [ '<08>{#p/basic}{~}(Blushes deeply.)\nRibbit..' ],
-      idleText1: [ '<08>{#p/basic}{~}Ribbit, ribbit.' ],
-      idleText2: [ '<08>{#p/basic}{~}Croak, croak.' ],
-      idleText3: [ '<08>{#p/basic}{~}Hop, hop.' ],
-      idleText4: [ '<08>{#p/basic}{~}Meow.' ],
-      mercyStatus: [ '<32>{#p/story}* Froggit seems reluctant to fight you.' ],
+      confuseText: ['<08>{#p/basic}{~}Ribbit, ribbit?'],
+      flirtText: ['<08>{#p/basic}{~}(Blushes deeply.)\nRibbit..'],
+      idleText1: ['<08>{#p/basic}{~}Ribbit, ribbit.'],
+      idleText2: ['<08>{#p/basic}{~}Croak, croak.'],
+      idleText3: ['<08>{#p/basic}{~}Hop, hop.'],
+      idleText4: ['<08>{#p/basic}{~}Meow.'],
+      mercyStatus: ['<32>{#p/story}* Froggit seems reluctant to fight you.'],
       name: '* Froggit',
-      meanText: [ '<08>{#p/basic}{~}(Shiver, shake.)\nRibbit..' ],
-      niceText: [ '<08>{#p/basic}{~}(Blushes softly.)\nRibbit..' ],
-      perilStatus: [ '<32>{#p/story}* Froggit is trying to run away.' ],
-      status1: [ '<32>{#p/story}* Froggit hops near!' ],
-      status2: [ '<32>{#p/story}* The battlefield is filled with the smell of crystherium utilia.' ],
-      status3: [ "<32>{#p/story}* Froggit doesn't seem to know why it's here." ],
-      status4: [ '<32>{#p/story}* Froggit hops to and fro.' ]
+      meanText: ['<08>{#p/basic}{~}(Shiver, shake.)\nRibbit..'],
+      niceText: ['<08>{#p/basic}{~}(Blushes softly.)\nRibbit..'],
+      perilStatus: ['<32>{#p/story}* Froggit is trying to run away.'],
+      status1: ['<32>{#p/story}* Froggit hops near!'],
+      status2: ['<32>{#p/story}* The battlefield is filled with the smell of crystherium utilia.'],
+      status3: ["<32>{#p/story}* Froggit doesn't seem to know why it's here."],
+      status4: ['<32>{#p/story}* Froggit hops to and fro.']
    },
    b_opponent_whimsun: {
-      act_check: [ '<32>{#p/story}* FLUTTERLYTE - ATK 5 DEF 0\n* This monster has only just learned how to fly...' ],
-      act_check2: [ '<32>{#p/story}* FLUTTERLYTE - ATK 5 DEF 0\n* This monster wishes it had stayed on the ground.' ],
+      act_check: ['<32>{#p/story}* FLUTTERLYTE - ATK 5 DEF 0\n* This monster has only just learned how to fly...'],
+      act_check2: ['<32>{#p/story}* FLUTTERLYTE - ATK 5 DEF 0\n* This monster wishes it had stayed on the ground.'],
       act_console: [
          '<32>{#p/human}* (You help Flutterlyte fly higher into the air.)',
          '<32>{#p/basic}* Flutterlyte thanks you, and flies away...'
@@ -3910,134 +3910,134 @@ export default {
          '<32>{#p/human}* (You weep and wail and gnash your teeth.)',
          '<32>{#p/basic}* Flutterlyte panicks and flies away...'
       ],
-      idleTalk1: [ '<08>{#p/basic}{~}Why is this so hard..' ],
-      idleTalk2: [ '<08>{#p/basic}{~}Please help me..' ],
-      idleTalk3: [ "<08>{#p/basic}{~}I'm scared.." ],
-      idleTalk4: [ "<08>{#p/basic}{~}I can't do this.." ],
-      idleTalk5: [ '<08>{#p/basic}{~}\x00*sniff sniff*' ],
+      idleTalk1: ['<08>{#p/basic}{~}Why is this so hard..'],
+      idleTalk2: ['<08>{#p/basic}{~}Please help me..'],
+      idleTalk3: ["<08>{#p/basic}{~}I'm scared.."],
+      idleTalk4: ["<08>{#p/basic}{~}I can't do this.."],
+      idleTalk5: ['<08>{#p/basic}{~}\x00*sniff sniff*'],
       name: '* Flutterlyte',
-      perilStatus: [ '<32>{#p/story}* Flutterlyte is barely keeping itself in the air.' ],
-      status1: [ '<32>{#p/story}* Flutterlyte comes forth!' ],
-      status2: [ '<32>{#p/story}* Flutterlyte continues to mutter apologies.' ],
-      status3: [ '<32>{#p/story}* Flutterlyte hovers meekly.' ],
-      status4: [ '<32>{#p/story}* The smell of fresh peaches permeates the air.' ],
-      status5: [ '<32>{#p/story}* Flutterlyte is hyperventilating.' ],
-      status6: [ '<32>{#p/story}* Flutterlyte avoids eye contact.' ]
+      perilStatus: ['<32>{#p/story}* Flutterlyte is barely keeping itself in the air.'],
+      status1: ['<32>{#p/story}* Flutterlyte comes forth!'],
+      status2: ['<32>{#p/story}* Flutterlyte continues to mutter apologies.'],
+      status3: ['<32>{#p/story}* Flutterlyte hovers meekly.'],
+      status4: ['<32>{#p/story}* The smell of fresh peaches permeates the air.'],
+      status5: ['<32>{#p/story}* Flutterlyte is hyperventilating.'],
+      status6: ['<32>{#p/story}* Flutterlyte avoids eye contact.']
    },
    b_opponent_loox: {
-      act_check: [ '<32>{#p/story}* OCULOUX - ATK 6 DEF 6\n* Staring contest master.\n* Family name: Eyewalker' ],
+      act_check: ['<32>{#p/story}* OCULOUX - ATK 6 DEF 6\n* Staring contest master.\n* Family name: Eyewalker'],
       act_check2: [
          "<32>{#p/story}* OCULOUX - ATK 6 DEF 6\n* This bully is trying very hard to pretend it's not flattered."
       ],
-      act_check3: [ '<32>{#p/story}* OCULOUX - ATK 6 DEF 6\n* This monster is honored to be in your line of sight.' ],
+      act_check3: ['<32>{#p/story}* OCULOUX - ATK 6 DEF 6\n* This monster is honored to be in your line of sight.'],
       act_dontpick: [
          '<32>{#p/human}* (You stare at Oculoux.)\n* (Oculoux stares back harder.)',
          "<32>{#p/human}* (Oculoux's eye becomes increasingly strained, and eventually...)",
          '<32>{#p/human}* (... Oculoux bows.)'
       ],
-      act_flirt: [ '<32>{#p/human}* (You flirt with Oculoux.)' ],
-      act_pick: [ '<32>{#p/human}* (You rudely lecture Oculoux about staring at people.)' ],
-      checkTalk1: [ '<08>{#p/basic}{~}Do you dare to stare?' ],
-      dontDeny1: [ '<08>{#p/basic}{~}Look who changed their mind.' ],
-      dontTalk1: [ '<99>{#p/basic}{~}The gaze\nis\nstrong\nwith\nthis one.' ],
-      flirtDeny1: [ '<08>{#p/basic}{~}How tsundere of you.' ],
-      flirtTalk1: [ '<08>{#p/basic}{~}What? N-no way!' ],
-      hurtStatus: [ '<32>{#p/story}* Oculoux is watering.' ],
-      idleTalk1: [ "<08>{#p/basic}{~}I've got my eye on you." ],
-      idleTalk2: [ "<08>{#p/basic}{~}Don't tell me what to do." ],
-      idleTalk3: [ '<08>{#p/basic}{~}Staring is caring.' ],
-      idleTalk4: [ '<08>{#p/basic}{~}What an eyesore.' ],
-      idleTalk5: [ '<08>{#p/basic}{~}How about a staring contest?' ],
+      act_flirt: ['<32>{#p/human}* (You flirt with Oculoux.)'],
+      act_pick: ['<32>{#p/human}* (You rudely lecture Oculoux about staring at people.)'],
+      checkTalk1: ['<08>{#p/basic}{~}Do you dare to stare?'],
+      dontDeny1: ['<08>{#p/basic}{~}Look who changed their mind.'],
+      dontTalk1: ['<99>{#p/basic}{~}The gaze\nis\nstrong\nwith\nthis one.'],
+      flirtDeny1: ['<08>{#p/basic}{~}How tsundere of you.'],
+      flirtTalk1: ['<08>{#p/basic}{~}What? N-no way!'],
+      hurtStatus: ['<32>{#p/story}* Oculoux is watering.'],
+      idleTalk1: ["<08>{#p/basic}{~}I've got my eye on you."],
+      idleTalk2: ["<08>{#p/basic}{~}Don't tell me what to do."],
+      idleTalk3: ['<08>{#p/basic}{~}Staring is caring.'],
+      idleTalk4: ['<08>{#p/basic}{~}What an eyesore.'],
+      idleTalk5: ['<08>{#p/basic}{~}How about a staring contest?'],
       name: '* Oculoux',
-      pickTalk1: [ '<08>{#p/basic}{~}How dare you question our way of life!' ],
-      spareStatus: [ "<32>{#p/story}* Oculoux doesn't care about fighting anymore." ],
-      status1: [ '<32>{#p/story}* A pair of Oculoux walked in!' ],
-      status2: [ '<32>{#p/story}* Oculoux is staring right through you.' ],
-      status3: [ '<32>{#p/story}* Oculoux gnashes its teeth.' ],
-      status4: [ '<32>{#p/story}* Smells like eyedrops.' ],
-      status5: [ '<32>{#p/story}* Oculoux has gone bloodshot.' ],
-      status6: [ '<32>{#p/story}* Oculoux is gazing at you.' ],
-      status7: [ '<32>{#p/story}* Oculoux is now alone.' ]
+      pickTalk1: ['<08>{#p/basic}{~}How dare you question our way of life!'],
+      spareStatus: ["<32>{#p/story}* Oculoux doesn't care about fighting anymore."],
+      status1: ['<32>{#p/story}* A pair of Oculoux walked in!'],
+      status2: ['<32>{#p/story}* Oculoux is staring right through you.'],
+      status3: ['<32>{#p/story}* Oculoux gnashes its teeth.'],
+      status4: ['<32>{#p/story}* Smells like eyedrops.'],
+      status5: ['<32>{#p/story}* Oculoux has gone bloodshot.'],
+      status6: ['<32>{#p/story}* Oculoux is gazing at you.'],
+      status7: ['<32>{#p/story}* Oculoux is now alone.']
    },
    b_opponent_migosp: {
-      act_check: [ "<32>{#p/story}* SILENTE - ATK 7 DEF 5\n* It seems evil, but it's just with the wrong crowd..." ],
-      act_check2: [ '<33>{#p/story}* SILENTE - ATK 7 DEF 5\n* Now alone, it joyfully expresses itself through dance.' ],
-      act_check3: [ '<32>{#p/story}* SILENTE - ATK 7 DEF 5\n* It seems comfortable with you.\n* VERY comfortable.' ],
-      act_check4: [ "<32>{#p/story}* SILENTE - ATK 7 DEF 5\n* Despite its tough act, it's clearly in pain..." ],
-      act_flirt: [ '<32>{#p/human}* (You flirt with Silente.)' ],
-      flirtTalk: [ '<08>{#p/basic}{~}Hiya~' ],
-      groupInsult: [ "<32>{#p/human}* (You try insulting Silente, but it's too focused on the others.)" ],
-      groupStatus1: [ '<32>{#p/story}* Silente is whispering to the others.' ],
-      groupStatus2: [ "<32>{#p/story}* It's starting to smell like a roach motel." ],
-      groupTalk1: [ '<08>{#p/basic}FILTHY SINGLE MINDER\n..' ],
-      groupTalk2: [ '<08>{#p/basic}OBEY THE OVERMIND\n..' ],
-      groupTalk3: [ '<08>{#p/basic}LEGION! WE ARE LEGION!' ],
-      groupTalk4: [ '<08>{#p/basic}HEED THE SWARM\n..' ],
-      groupTalk5: [ '<08>{#p/basic}IN UNISON, NOW\n..' ],
-      groupTalk6: [ "<08>{#p/basic}I DON'T CARE." ],
+      act_check: ["<32>{#p/story}* SILENTE - ATK 7 DEF 5\n* It seems evil, but it's just with the wrong crowd..."],
+      act_check2: ['<33>{#p/story}* SILENTE - ATK 7 DEF 5\n* Now alone, it joyfully expresses itself through dance.'],
+      act_check3: ['<32>{#p/story}* SILENTE - ATK 7 DEF 5\n* It seems comfortable with you.\n* VERY comfortable.'],
+      act_check4: ["<32>{#p/story}* SILENTE - ATK 7 DEF 5\n* Despite its tough act, it's clearly in pain..."],
+      act_flirt: ['<32>{#p/human}* (You flirt with Silente.)'],
+      flirtTalk: ['<08>{#p/basic}{~}Hiya~'],
+      groupInsult: ["<32>{#p/human}* (You try insulting Silente, but it's too focused on the others.)"],
+      groupStatus1: ['<32>{#p/story}* Silente is whispering to the others.'],
+      groupStatus2: ["<32>{#p/story}* It's starting to smell like a roach motel."],
+      groupTalk1: ['<08>{#p/basic}FILTHY SINGLE MINDER\n..'],
+      groupTalk2: ['<08>{#p/basic}OBEY THE OVERMIND\n..'],
+      groupTalk3: ['<08>{#p/basic}LEGION! WE ARE LEGION!'],
+      groupTalk4: ['<08>{#p/basic}HEED THE SWARM\n..'],
+      groupTalk5: ['<08>{#p/basic}IN UNISON, NOW\n..'],
+      groupTalk6: ["<08>{#p/basic}I DON'T CARE."],
       name: '* Silente',
-      perilStatus: [ '<32>{#p/story}* Silente refuses to give up.' ],
-      soloInsult: [ "<32>{#p/human}* (You try insulting Silente, but it's too happy to care.)" ],
-      soloStatus: [ "<32>{#p/story}* Silente doesn't have a care in the cosmos." ],
-      soloTalk1: [ "<08>{#p/basic}{~}Bein' me is the best!" ],
-      soloTalk2: [ '<08>{#p/basic}{~}La la~ Just be your- self~' ],
-      soloTalk3: [ "<08>{#p/basic}{~}Nothin' like alone time!" ],
-      soloTalk4: [ '<08>{#p/basic}{~}Mmm, cha cha cha!' ],
-      soloTalk5: [ '<08>{#p/basic}{~}Swing your arms, baby~' ]
+      perilStatus: ['<32>{#p/story}* Silente refuses to give up.'],
+      soloInsult: ["<32>{#p/human}* (You try insulting Silente, but it's too happy to care.)"],
+      soloStatus: ["<32>{#p/story}* Silente doesn't have a care in the cosmos."],
+      soloTalk1: ["<08>{#p/basic}{~}Bein' me is the best!"],
+      soloTalk2: ['<08>{#p/basic}{~}La la~ Just be your- self~'],
+      soloTalk3: ["<08>{#p/basic}{~}Nothin' like alone time!"],
+      soloTalk4: ['<08>{#p/basic}{~}Mmm, cha cha cha!'],
+      soloTalk5: ['<08>{#p/basic}{~}Swing your arms, baby~']
    },
    b_opponent_mushy: {
       act_challenge: [
          '<32>{#p/human}* (You challenge Mushy to a duel.)',
          "<33>{#p/story}* Mushy's SPEED up for this turn!"
       ],
-      act_check: [ '<32>{#p/story}* MUSHY - ATK 6 DEF 6\n* Huge fan of space cowboys.\n* Gunslinger.' ],
-      act_check2: [ '<32>{#p/story}* MUSHY - ATK 6 DEF 6\n* Huge fan of space cowboys.\n* Even the sexy ones.' ],
-      act_check3: [ '<32>{#p/story}* MUSHY - ATK 6 DEF 6\n* After giving it your all, this gunslinger is impressed.' ],
-      act_flirt: [ '<32>{#p/human}* (You flirt with Mushy.)' ],
-      act_taunt: [ '<32>{#p/human}* (You taunt Mushy.)' ],
-      challengeStatus: [ '<32>{#p/story}* Mushy awaits your next challenge.' ],
-      challengeTalk1: [ "<08>{#p/basic}{~}Let's see what you got." ],
-      challengeTalk2: [ '<08>{#p/basic}{~}Think you can take me?' ],
-      flirtStatus1: [ '<32>{#p/story}* Mushy, the confused and the aroused.' ],
-      flirtTalk1: [ '<08>{#p/basic}{~}H-hey, knock it off!' ],
-      hurtStatus: [ '<32>{#p/story}* Mushy makes a last stand.' ],
-      idleTalk1: [ '<08>{#p/basic}{~}Bang!\nBang!\nBang!' ],
-      idleTalk2: [ '<08>{#p/basic}{~}Saddle up!' ],
-      idleTalk3: [ "<08>{#p/basic}{~}All in a day's." ],
+      act_check: ['<32>{#p/story}* MUSHY - ATK 6 DEF 6\n* Huge fan of space cowboys.\n* Gunslinger.'],
+      act_check2: ['<32>{#p/story}* MUSHY - ATK 6 DEF 6\n* Huge fan of space cowboys.\n* Even the sexy ones.'],
+      act_check3: ['<32>{#p/story}* MUSHY - ATK 6 DEF 6\n* After giving it your all, this gunslinger is impressed.'],
+      act_flirt: ['<32>{#p/human}* (You flirt with Mushy.)'],
+      act_taunt: ['<32>{#p/human}* (You taunt Mushy.)'],
+      challengeStatus: ['<32>{#p/story}* Mushy awaits your next challenge.'],
+      challengeTalk1: ["<08>{#p/basic}{~}Let's see what you got."],
+      challengeTalk2: ['<08>{#p/basic}{~}Think you can take me?'],
+      flirtStatus1: ['<32>{#p/story}* Mushy, the confused and the aroused.'],
+      flirtTalk1: ['<08>{#p/basic}{~}H-hey, knock it off!'],
+      hurtStatus: ['<32>{#p/story}* Mushy makes a last stand.'],
+      idleTalk1: ['<08>{#p/basic}{~}Bang!\nBang!\nBang!'],
+      idleTalk2: ['<08>{#p/basic}{~}Saddle up!'],
+      idleTalk3: ["<08>{#p/basic}{~}All in a day's."],
       name: '* Mushy',
-      spareStatus: [ '<32>{#p/story}* Mushy bows out of respect.' ],
-      status1: [ '<32>{#p/story}* Mushy stormed in!' ],
-      status2: [ '<32>{#p/story}* Mushy adjusts their stance.' ],
-      status3: [ '<32>{#p/story}* Mushy is preparing for a grand standoff.' ],
-      status4: [ '<32>{#p/story}* Mushy reaches for their holster.' ],
-      status5: [ '<32>{#p/story}* Smells like petrichor.' ],
-      tauntStatus1: [ "<32>{#p/story}* Mushy pretends they aren't bothered by your taunts." ],
-      tauntTalk1: [ "<08>{#p/basic}{~}As if that'll work on me." ]
+      spareStatus: ['<32>{#p/story}* Mushy bows out of respect.'],
+      status1: ['<32>{#p/story}* Mushy stormed in!'],
+      status2: ['<32>{#p/story}* Mushy adjusts their stance.'],
+      status3: ['<32>{#p/story}* Mushy is preparing for a grand standoff.'],
+      status4: ['<32>{#p/story}* Mushy reaches for their holster.'],
+      status5: ['<32>{#p/story}* Smells like petrichor.'],
+      tauntStatus1: ["<32>{#p/story}* Mushy pretends they aren't bothered by your taunts."],
+      tauntTalk1: ["<08>{#p/basic}{~}As if that'll work on me."]
    },
    b_opponent_napstablook: {
-      act_check: [ "<32>{#p/story}* NAPSTABLOOK - ATK 10 DEF 255\n* It's Napstablook." ],
+      act_check: ["<32>{#p/story}* NAPSTABLOOK - ATK 10 DEF 255\n* It's Napstablook."],
       act_check2: [
          "<32>{#p/story}* NAPSTABLOOK - ATK 10 DEF 255\n* It doesn't seem like they want to be here anymore."
       ],
-      act_check3: [ '<32>{#p/story}* NAPSTABLOOK - ATK 10 DEF 255\n* Hopeful, for the first time in a while...' ],
-      act_check4: [ '<32>{#p/story}* NAPSTABLOOK - ATK 10 DEF 255\n* The romantic tension is at an all-time high.' ],
-      awkwardTalk: [ '<11>{#p/napstablook}{~}uh...', '<11>{#p/napstablook}{~}okay, i guess...?' ],
-      checkTalk: [ "<11>{#p/napstablook}{~}that's me..." ],
-      cheer0: [ '<32>{#p/human}* (You try to console Napstablook.)' ],
-      cheer1: [ '<32>{#p/human}* (You give Napstablook a patient smile.)' ],
-      cheer2: [ '<32>{#p/human}* (You tell Napstablook a little joke.)' ],
-      cheer3: [ "<32>{#p/human}* (You show adoration for Napstablook's top hat.)" ],
-      cheerTalk1: [ '<11>{#p/napstablook}{~}...?' ],
-      cheerTalk2: [ '<11>{#p/napstablook}{~}heh heh...' ],
+      act_check3: ['<32>{#p/story}* NAPSTABLOOK - ATK 10 DEF 255\n* Hopeful, for the first time in a while...'],
+      act_check4: ['<32>{#p/story}* NAPSTABLOOK - ATK 10 DEF 255\n* The romantic tension is at an all-time high.'],
+      awkwardTalk: ['<11>{#p/napstablook}{~}uh...', '<11>{#p/napstablook}{~}okay, i guess...?'],
+      checkTalk: ["<11>{#p/napstablook}{~}that's me..."],
+      cheer0: ['<32>{#p/human}* (You try to console Napstablook.)'],
+      cheer1: ['<32>{#p/human}* (You give Napstablook a patient smile.)'],
+      cheer2: ['<32>{#p/human}* (You tell Napstablook a little joke.)'],
+      cheer3: ["<32>{#p/human}* (You show adoration for Napstablook's top hat.)"],
+      cheerTalk1: ['<11>{#p/napstablook}{~}...?'],
+      cheerTalk2: ['<11>{#p/napstablook}{~}heh heh...'],
       cheerTalk3: [
          '<11>{*}{#p/napstablook}{~}let me {#x1}try...{^20}{#x2}{^20}{%}',
          "<11>{*}{#p/napstablook}{~}i call it {#x3}'dapper blook'{^40}{%}",
          '<11>{*}{#p/napstablook}{~}do you like it?{^40}{%}'
       ],
-      cheerTalk4: [ '<11>{#p/napstablook}{~}oh gee.....' ],
-      consoleTalk1: [ '<11>{#p/napstablook}{~}yeah, yeah...' ],
-      consoleTalk2: [ '<11>{#p/napstablook}{~}not buying it...' ],
-      consoleTalk3: [ "<11>{#p/napstablook}{~}you're not sorry..." ],
+      cheerTalk4: ['<11>{#p/napstablook}{~}oh gee.....'],
+      consoleTalk1: ['<11>{#p/napstablook}{~}yeah, yeah...'],
+      consoleTalk2: ['<11>{#p/napstablook}{~}not buying it...'],
+      consoleTalk3: ["<11>{#p/napstablook}{~}you're not sorry..."],
       deadTalk: [
          "<11>{#p/napstablook}{~}umm... you do know you can't kill ghosts, right...",
          "<11>{~}we're sorta incorporeal and all",
@@ -4046,63 +4046,63 @@ export default {
          '<11>{~}pretend you beat me...',
          '<11>{~}ooooooooo'
       ],
-      flirt1: [ '<32>{#p/human}* (You flirt with Napstablook.)' ],
-      flirt2: [ '<32>{#p/human}* (You try your best pickup line on Napstablook.)' ],
-      flirt3: [ '<32>{#p/human}* (You give Napstablook a heartfelt compliment.)' ],
-      flirt4: [ '<32>{#p/human}* (You reassure Napstablook of your feelings towards them.)' ],
-      flirtTalk1: [ "<11>{#p/napstablook}{~}i'd just weigh you down" ],
-      flirtTalk2: [ "<11>{#p/napstablook}{~}oh.....\ni've heard that one....." ],
-      flirtTalk3: [ '<11>{#p/napstablook}{~}uh... you really think so?' ],
-      flirtTalk4: [ "<11>{#p/napstablook}{~}oh, you're serious...", '<11>{~}oh no.....' ],
-      idleTalk1: [ "<11>{#p/napstablook}{~}i'm fine, thanks" ],
-      idleTalk2: [ '<11>{#p/napstablook}{~}just pluggin along...' ],
-      idleTalk3: [ '<11>{#p/napstablook}{~}just doing my thing...' ],
-      insultTalk1: [ '<11>{#p/napstablook}{~}i knew it...' ],
-      insultTalk2: [ '<11>{#p/napstablook}{~}whatever...' ],
-      insultTalk3: [ '<11>{#p/napstablook}{~}say what you will...' ],
-      insultTalk4: [ '<11>{#p/napstablook}{~}let it all out...' ],
+      flirt1: ['<32>{#p/human}* (You flirt with Napstablook.)'],
+      flirt2: ['<32>{#p/human}* (You try your best pickup line on Napstablook.)'],
+      flirt3: ['<32>{#p/human}* (You give Napstablook a heartfelt compliment.)'],
+      flirt4: ['<32>{#p/human}* (You reassure Napstablook of your feelings towards them.)'],
+      flirtTalk1: ["<11>{#p/napstablook}{~}i'd just weigh you down"],
+      flirtTalk2: ["<11>{#p/napstablook}{~}oh.....\ni've heard that one....."],
+      flirtTalk3: ['<11>{#p/napstablook}{~}uh... you really think so?'],
+      flirtTalk4: ["<11>{#p/napstablook}{~}oh, you're serious...", '<11>{~}oh no.....'],
+      idleTalk1: ["<11>{#p/napstablook}{~}i'm fine, thanks"],
+      idleTalk2: ['<11>{#p/napstablook}{~}just pluggin along...'],
+      idleTalk3: ['<11>{#p/napstablook}{~}just doing my thing...'],
+      insultTalk1: ['<11>{#p/napstablook}{~}i knew it...'],
+      insultTalk2: ['<11>{#p/napstablook}{~}whatever...'],
+      insultTalk3: ['<11>{#p/napstablook}{~}say what you will...'],
+      insultTalk4: ['<11>{#p/napstablook}{~}let it all out...'],
       name: '* Napstablook',
-      silentTalk: [ '<11>{#p/napstablook}{~}...' ],
-      sincere: [ "<32>{#p/human}* (You flirtatiously comment on Napstablook's top hat.)" ],
-      sincereTalk: [ '<11>{#p/napstablook}{~}heh... thanks' ],
-      status1: [ '<32>{#p/story}* Here comes Napstablook.' ],
-      status2: [ '<32>{#p/story}* Napstablook looks just a little better.' ],
-      status3: [ '<32>{#p/story}* Napstablook wants to show you something.' ],
-      status3a: [ '<32>{#p/story}* Napstablook awaits your reply.' ],
-      status4: [ "<32>{#p/story}* Napstablook's eyes are glistening." ],
-      status5: [ '<32>{#p/story}* Napstablook is clearly not sure how to handle this.' ],
-      status5a: [ '<32>{#p/story}* Napstablook is questioning their very being.' ],
-      status6: [ '<32>{#p/story}* Napstablook is biding their time.' ],
-      status7: [ '<32>{#p/story}* Napstablook is waiting for your next move.' ],
-      status8: [ '<32>{#p/story}* Napstablook is staring off into the distance.' ],
-      status9: [ "<32>{#p/story}* Napstablook is wishing they weren't here." ],
-      status10: [ '<32>{#p/story}* Napstablook is trying their best to ignore you.' ],
-      suck: [ '<32>{#p/human}* (You tell Napstablook their hat sucks bad.)' ],
-      threat: [ '<32>{#p/human}* (You threaten Napstablook.)' ]
+      silentTalk: ['<11>{#p/napstablook}{~}...'],
+      sincere: ["<32>{#p/human}* (You flirtatiously comment on Napstablook's top hat.)"],
+      sincereTalk: ['<11>{#p/napstablook}{~}heh... thanks'],
+      status1: ['<32>{#p/story}* Here comes Napstablook.'],
+      status2: ['<32>{#p/story}* Napstablook looks just a little better.'],
+      status3: ['<32>{#p/story}* Napstablook wants to show you something.'],
+      status3a: ['<32>{#p/story}* Napstablook awaits your reply.'],
+      status4: ["<32>{#p/story}* Napstablook's eyes are glistening."],
+      status5: ['<32>{#p/story}* Napstablook is clearly not sure how to handle this.'],
+      status5a: ['<32>{#p/story}* Napstablook is questioning their very being.'],
+      status6: ['<32>{#p/story}* Napstablook is biding their time.'],
+      status7: ['<32>{#p/story}* Napstablook is waiting for your next move.'],
+      status8: ['<32>{#p/story}* Napstablook is staring off into the distance.'],
+      status9: ["<32>{#p/story}* Napstablook is wishing they weren't here."],
+      status10: ['<32>{#p/story}* Napstablook is trying their best to ignore you.'],
+      suck: ['<32>{#p/human}* (You tell Napstablook their hat sucks bad.)'],
+      threat: ['<32>{#p/human}* (You threaten Napstablook.)']
    },
    b_opponent_toriel: {
-      spannerText: [ '<32>{#p/human}* (You throw the spanner.)\n* (Toriel picks it up and returns it to you.)' ],
-      spannerTalk: [ '<11>{#p/toriel}{#f/22}That will accomplish nothing, my child.' ],
-      spannerTalkRepeat: [ '<11>{#p/toriel}{#f/22}...' ],
-      act_check: [ '<32>{#p/story}* TORIEL - ATK 80 DEF 80\n* Knows best for you.' ],
-      act_check2: [ '<32>{#p/story}* TORIEL - ATK 80 DEF 80\n* Seems to be holding back.' ],
-      act_check3: [ '<32>{#p/story}* TORIEL - ATK 80 DEF 80\n* Looks pre-occupied.' ],
-      act_check4: [ '<32>{#p/story}* TORIEL - ATK 80 DEF 80\n* Just wants the best for you.' ],
-      act_check5: [ '<32>{#p/story}* TORIEL - ATK 80 DEF 80\n* Thinks you are \"adorable.\"' ],
-      precrime: [ '<20>{#p/asriel2}...' ],
+      spannerText: ['<32>{#p/human}* (You throw the spanner.)\n* (Toriel picks it up and returns it to you.)'],
+      spannerTalk: ['<11>{#p/toriel}{#f/22}That will accomplish nothing, my child.'],
+      spannerTalkRepeat: ['<11>{#p/toriel}{#f/22}...'],
+      act_check: ['<32>{#p/story}* TORIEL - ATK 80 DEF 80\n* Knows best for you.'],
+      act_check2: ['<32>{#p/story}* TORIEL - ATK 80 DEF 80\n* Seems to be holding back.'],
+      act_check3: ['<32>{#p/story}* TORIEL - ATK 80 DEF 80\n* Looks pre-occupied.'],
+      act_check4: ['<32>{#p/story}* TORIEL - ATK 80 DEF 80\n* Just wants the best for you.'],
+      act_check5: ['<32>{#p/story}* TORIEL - ATK 80 DEF 80\n* Thinks you are \"adorable.\"'],
+      precrime: ['<20>{#p/asriel2}...'],
       criminal1: (reveal: boolean) => [
          '<20>{#p/asriel2}{#f/3}Howdy, $(name).',
          "<20>{#f/1}It's good to be back.",
          "<20>{#f/2}What's that?\nYou didn't expect to see me again?",
          '<20>{#f/13}...\nOh, $(name)...',
          ...(reveal
-            ? [ "<20>{#f/1}I've been waiting for this for a long time." ]
+            ? ["<20>{#f/1}I've been waiting for this for a long time."]
             : [
-                 "<20>{#f/15}I've been trapped inside a star for so long, I...",
-                 '<20>{#f/15}...',
-                 "<20>{#f/16}Well, that's not important now.",
-                 '<20>{#f/1}What matters is that things are back to how they should be.'
-              ]),
+               "<20>{#f/15}I've been trapped inside a star for so long, I...",
+               '<20>{#f/15}...',
+               "<20>{#f/16}Well, that's not important now.",
+               '<20>{#f/1}What matters is that things are back to how they should be.'
+            ]),
          '<20>{#f/1}Hee hee hee...',
          "<20>{#f/2}I know you're empty inside, just like me.",
          "<20>{#f/5}We're still inseparable after all these years...",
@@ -4112,8 +4112,8 @@ export default {
          '<21>{#f/2}Anyone who dares to stand in the way of our perfect future...',
          "<20>{#f/1}Let's turn 'em all to dust."
       ],
-      criminal2: [ '<20>{#p/asriel2}{#f/3}Welcome back, $(name).', '<20>{#f/1}Ready to pick up where we last left off?' ],
-      criminal3: [ '<20>{#p/asriel2}{#f/3}Well then.', '<20>{#f/3}...', "<20>{#f/4}Let's just get going." ],
+      criminal2: ['<20>{#p/asriel2}{#f/3}Welcome back, $(name).', '<20>{#f/1}Ready to pick up where we last left off?'],
+      criminal3: ['<20>{#p/asriel2}{#f/3}Well then.', '<20>{#f/3}...', "<20>{#f/4}Let's just get going."],
       cutscene1: [
          "<32>{#p/basic}* Maybe because I'm the only one you'll listen to.",
          '<25>{#p/toriel}{#f/16}* ...!?',
@@ -4196,27 +4196,27 @@ export default {
          '<11>{#v/3}{#i/5}{#x2}{@random=1.2/1.2}My child...',
          "<11>{#v/3}{#i/5}{#x4}{@random=1.2/1.2}Be good... won't you?"
       ],
-      magic1: [ '<20>{#p/asriel2}{#f/3}Follow me.' ],
+      magic1: ['<20>{#p/asriel2}{#f/3}Follow me.'],
       name: '* Toriel',
-      spareTalk1: [ '<11>{#p/toriel}{#f/11}...' ],
-      spareTalk2: [ '<11>{#p/toriel}{#f/11}...\n...' ],
-      spareTalk3: [ '<11>{#p/toriel}{#f/11}...\n...\n...' ],
-      spareTalk4: [ '<11>{#p/toriel}{#f/17}...?' ],
-      spareTalk5: [ '<11>{#p/toriel}{#f/17}What are you doing?' ],
-      spareTalk6: [ '<11>{#p/toriel}{#f/17}...' ],
-      spareTalk7: [ '<11>{#p/toriel}{#f/17}What are you trying to prove?' ],
-      spareTalk8: [ '<11>{#p/toriel}{#f/17}...' ],
-      spareTalk9: [ '<11>{#p/toriel}{#f/12}Fight me or leave!' ],
-      spareTalk10: [ '<11>{#p/toriel}{#f/12}Stop looking at me that way!' ],
-      spareTalk11: [ '<11>{#p/toriel}{#f/12}Go away!' ],
-      spareTalk12: [ '<11>{#p/toriel}{#f/13}...' ],
-      spareTalk13: [ '<11>{#p/toriel}{#f/13}...\n...' ],
-      spareTalk14: [ '<11>{#p/toriel}{#f/13}...\n...\n...' ],
+      spareTalk1: ['<11>{#p/toriel}{#f/11}...'],
+      spareTalk2: ['<11>{#p/toriel}{#f/11}...\n...'],
+      spareTalk3: ['<11>{#p/toriel}{#f/11}...\n...\n...'],
+      spareTalk4: ['<11>{#p/toriel}{#f/17}...?'],
+      spareTalk5: ['<11>{#p/toriel}{#f/17}What are you doing?'],
+      spareTalk6: ['<11>{#p/toriel}{#f/17}...'],
+      spareTalk7: ['<11>{#p/toriel}{#f/17}What are you trying to prove?'],
+      spareTalk8: ['<11>{#p/toriel}{#f/17}...'],
+      spareTalk9: ['<11>{#p/toriel}{#f/12}Fight me or leave!'],
+      spareTalk10: ['<11>{#p/toriel}{#f/12}Stop looking at me that way!'],
+      spareTalk11: ['<11>{#p/toriel}{#f/12}Go away!'],
+      spareTalk12: ['<11>{#p/toriel}{#f/13}...'],
+      spareTalk13: ['<11>{#p/toriel}{#f/13}...\n...'],
+      spareTalk14: ['<11>{#p/toriel}{#f/13}...\n...\n...'],
       spareTalk15: [
          '<11>{#p/toriel}{#f/13}I know you want to go home...',
          '<11>{#p/toriel}{#f/9}But the path to get there would be dangerous.'
       ],
-      spareTalk16: [ '<11>{#p/toriel}{#f/14}So please... go back the other way.' ],
+      spareTalk16: ['<11>{#p/toriel}{#f/14}So please... go back the other way.'],
       spareTalk17: [
          '<11>{#p/toriel}{#f/13}I know we do not have much...',
          '<11>{#p/toriel}{#f/10}But we can still have a good life.'
@@ -4225,39 +4225,39 @@ export default {
          '<11>{#p/toriel}{#f/13}You and I, like a family...',
          '<11>{#p/toriel}{#f/10}Does that not sound good?'
       ],
-      spareTalk19: [ '<11>{#p/toriel}{#f/21}...' ],
-      spareTalk20: [ '<11>{#p/toriel}{#f/18}Why are you making this so difficult?' ],
-      spareTalk21: [ '<11>{#p/toriel}{#f/21}...' ],
-      spareTalk22: [ '<11>{#p/toriel}{#f/18}Please, just...', '<11>{#p/toriel}{#f/9}Go back the other way.' ],
-      spareTalk23: [ '<11>{#p/toriel}{#f/21}...' ],
-      spareTalk24: [ '<11>{#p/toriel}{#f/18}Oh, child...' ],
+      spareTalk19: ['<11>{#p/toriel}{#f/21}...'],
+      spareTalk20: ['<11>{#p/toriel}{#f/18}Why are you making this so difficult?'],
+      spareTalk21: ['<11>{#p/toriel}{#f/21}...'],
+      spareTalk22: ['<11>{#p/toriel}{#f/18}Please, just...', '<11>{#p/toriel}{#f/9}Go back the other way.'],
+      spareTalk23: ['<11>{#p/toriel}{#f/21}...'],
+      spareTalk24: ['<11>{#p/toriel}{#f/18}Oh, child...'],
       spareTalk28b: [
          '<11>{#p/toriel}{#f/9}Maybe it was foolish of me...',
          '<11>{#f/13}Trying to stop you like this...',
          '<11>{#f/9}Maybe I should have just let you go.'
       ],
-      spareTalk28c: [ '<11>{#p/toriel}{#f/17}...?', '<11>{#f/17}Why are you calling out for \"$(name)?\"' ],
-      status1: [ '<32>{#p/story}* Toriel now stands before you.' ],
-      status2: [ '<32>{#p/story}* Toriel prepares a magical attack.' ],
-      status3: [ '<32>{#p/story}* Toriel is acting aloof.' ],
-      status4: [ '<32>{#p/story}* Toriel is looking through you.' ],
-      status5: [ '<32>{#p/story}* ...' ],
-      assistStatus: [ '<32>{#p/basic}* There must be another way...' ],
-      talk1: [ '<32>{#p/human}* (You ask Toriel to let you through.)\n* (No effect.)' ],
-      talk2: [ "<32>{#p/human}* (You ask Toriel why she's really doing this.)\n* (She winces briefly.)" ],
-      talk3: [ '<32>{#p/human}* (You begged Toriel to stop.)\n* (She hesitates.)' ],
+      spareTalk28c: ['<11>{#p/toriel}{#f/17}...?', '<11>{#f/17}Why are you calling out for \"$(name)?\"'],
+      status1: ['<32>{#p/story}* Toriel now stands before you.'],
+      status2: ['<32>{#p/story}* Toriel prepares a magical attack.'],
+      status3: ['<32>{#p/story}* Toriel is acting aloof.'],
+      status4: ['<32>{#p/story}* Toriel is looking through you.'],
+      status5: ['<32>{#p/story}* ...'],
+      assistStatus: ['<32>{#p/basic}* There must be another way...'],
+      talk1: ['<32>{#p/human}* (You ask Toriel to let you through.)\n* (No effect.)'],
+      talk2: ["<32>{#p/human}* (You ask Toriel why she's really doing this.)\n* (She winces briefly.)"],
+      talk3: ['<32>{#p/human}* (You begged Toriel to stop.)\n* (She hesitates.)'],
       talk4: [
          '<32>{#p/human}* (You once again begged Toriel to stop.)',
          '<32>{#p/basic}* ... perhaps there is too much at stake for her.'
       ],
-      talk5: [ '<32>{#p/human}* (You yell at Toriel.)\n* (She closes her eyes and takes a deep breath.)' ],
+      talk5: ['<32>{#p/human}* (You yell at Toriel.)\n* (She closes her eyes and takes a deep breath.)'],
       talk6: [
          '<32>{#p/human}* (You once again yell at Toriel.)',
          "<32>{#p/basic}* ... perhaps talking won't do anymore good."
       ],
-      talk7: [ "<32>{#p/human}* (But you couldn't think of anything else to say.)" ],
-      talk8: [ '<32>{#p/human}* (But there was no sense in doing that now.)' ],
-      theft: [ '<20>{*}{#p/twinkly}Mine.{^15}{%}' ]
+      talk7: ["<32>{#p/human}* (But you couldn't think of anything else to say.)"],
+      talk8: ['<32>{#p/human}* (But there was no sense in doing that now.)'],
+      theft: ['<20>{*}{#p/twinkly}Mine.{^15}{%}']
    },
 
    c_name_outlands: {
@@ -4300,7 +4300,7 @@ export default {
          '<25>{#f/5}* And after you called me \"Mother...\"',
          '<25>{#f/1}* Well then.\n* You are a very \"interesting\" child.'
       ],
-      flirt4: [ '<25>{#p/toriel}{#f/3}* ...', '<25>{#p/toriel}{#f/4}* I cannot begin to understand you.' ],
+      flirt4: ['<25>{#p/toriel}{#f/3}* ...', '<25>{#p/toriel}{#f/4}* I cannot begin to understand you.'],
       hello: [
          [
             '<25>{#p/toriel}* This is Toriel.',
@@ -4328,7 +4328,7 @@ export default {
             '<25>{#f/1}* It was nice to hear your voice, though...'
          ]
       ],
-      helloX: [ '<25>{#p/toriel}{#g/torielLowConcern}* Hello?' ],
+      helloX: ['<25>{#p/toriel}{#g/torielLowConcern}* Hello?'],
       mom1: [
          '<25>{#p/toriel}* ...',
          '<25>{#f/7}* Huh?\n* Did you just call me \"Mom?\"',
@@ -4337,13 +4337,13 @@ export default {
          '<25>{#f/1}* To call me...\n* \"Mother?\"',
          '<25>{#f/0}* Well then.\n* Call me whatever you like!'
       ],
-      mom2: [ '<25>{#p/toriel}{#f/7}* ...\n* Oh my... again?', '<25>{#f/0}* Hee hee...\n* You are a very sweet child.' ],
+      mom2: ['<25>{#p/toriel}{#f/7}* ...\n* Oh my... again?', '<25>{#f/0}* Hee hee...\n* You are a very sweet child.'],
       mom3: [
          '<25>{#p/toriel}{#f/7}* ...\n* Oh my... again?',
          '<25>{#f/5}* And after you flirted with me...',
          '<25>{#f/1}* Well then.\n* You are a very \"interesting\" child.'
       ],
-      mom4: [ '<25>{#p/toriel}{#f/5}* ...' ],
+      mom4: ['<25>{#p/toriel}{#f/5}* ...'],
       puzzle1: [
          '<25>{#p/toriel}{#f/1}* Help with a puzzle...?',
          '<25>{#f/1}* You have not left the room yet, have you?',
@@ -4361,19 +4361,19 @@ export default {
       insult1: (sus: boolean) =>
          sus
             ? [
-                 '<25>{#p/toriel}{#f/0}* Hello?\n* This is...',
-                 '<25>{#f/2}* ...!',
-                 '<25>{#f/3}* Would you mind repeating that for me?'
-              ]
+               '<25>{#p/toriel}{#f/0}* Hello?\n* This is...',
+               '<25>{#f/2}* ...!',
+               '<25>{#f/3}* Would you mind repeating that for me?'
+            ]
             : [
-                 '<25>{#p/toriel}{#f/0}* Hello?\n* This is...',
-                 '<25>{#f/2}* ...!',
-                 '<25>{#f/1}* My child... I do not think that means what you think it means.'
-              ],
+               '<25>{#p/toriel}{#f/0}* Hello?\n* This is...',
+               '<25>{#f/2}* ...!',
+               '<25>{#f/1}* My child... I do not think that means what you think it means.'
+            ],
       insult2: (sus: boolean) =>
          sus
-            ? [ '<25>{#p/toriel}{#f/15}* ...', '<25>{#f/12}* I am going to pretend you did not just say that to me.' ]
-            : [ '<25>{#p/toriel}{#f/1}* My child...' ]
+            ? ['<25>{#p/toriel}{#f/15}* ...', '<25>{#f/12}* I am going to pretend you did not just say that to me.']
+            : ['<25>{#p/toriel}{#f/1}* My child...']
    },
 
    i_candy: {
@@ -4381,28 +4381,28 @@ export default {
          description: 'Has a distinct, non-licorice flavor.',
          name: 'Caramelo'
       },
-      drop: [ '<32>{#p/human}* (You throw away the Monster Candy.)' ],
+      drop: ['<32>{#p/human}* (You throw away the Monster Candy.)'],
       info: () =>
          SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
-            ? [ '<32>{#p/human}* (10 HP.)' ]
-            : [ '<32>{#p/basic}* \"Monster Candy\" Heals 10 HP\n* Has a distinct, non-licorice flavor.' ],
+            ? ['<32>{#p/human}* (10 HP.)']
+            : ['<32>{#p/basic}* \"Monster Candy\" Heals 10 HP\n* Has a distinct, non-licorice flavor.'],
       name: 'Monster Candy',
-      use: [ '<32>{#p/human}* (You eat the Monster Candy.)' ]
+      use: ['<32>{#p/human}* (You eat the Monster Candy.)']
    },
    i_water: {
       battle: {
          description: 'Smells like Dihydrogen Monoxide.',
          name: 'Agua'
       },
-      drop: [ '<32>{#p/human}* (You throw away the Water.)' ],
+      drop: ['<32>{#p/human}* (You throw away the Water.)'],
       info: () =>
          SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
-            ? [ '<32>{#p/human}* (12 HP.)' ]
-            : [ '<32>{#p/basic}* \"Water\" Heals 12 HP\n* Smells like Di-Hydrogen Monoxide.' ],
+            ? ['<32>{#p/human}* (12 HP.)']
+            : ['<32>{#p/basic}* \"Water\" Heals 12 HP\n* Smells like Di-Hydrogen Monoxide.'],
       name: 'Agua',
       use: () => [
          '<32>{#p/human}* (You drink the Water.)',
-         ...(SAVE.data.b.ufokinwotm8 ? [] : [ "<33>{#p/human}* (You're filled with hydration.)" ]) 
+         ...(SAVE.data.b.ufokinwotm8 ? [] : ["<33>{#p/human}* (You're filled with hydration.)"]) 
       ]
    },
    i_chocolate: {
@@ -4412,17 +4412,17 @@ export default {
       },
       drop: () => [
          '<32>{#p/human}* (You throw away the Chocolate Bar.)',
-         ...(SAVE.data.b.svr || world.darker ? [] : [ '<32>{#p/basic}* ... oh well.' ])
+         ...(SAVE.data.b.svr || world.darker ? [] : ['<32>{#p/basic}* ... oh well.'])
       ],
       info: () =>
          SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
-            ? [ '<32>{#p/human}* (19 HP. This item seems to remind you of someone.)' ]
-            : [ '<32>{#p/basic}* \"Chocolate Bar\" Heals 19 HP\n* It\'s a well-deserved treat.' ],
+            ? ['<32>{#p/human}* (19 HP. This item seems to remind you of someone.)']
+            : ['<32>{#p/basic}* \"Chocolate Bar\" Heals 19 HP\n* It\'s a well-deserved treat.'],
       name: 'Chocolate Bar',
       use: () => [
          '<32>{#p/human}* (You eat the Chocolate Bar.)',
          ...(battler.active && battler.alive[0].opponent.metadata.reactChocolate
-            ? [ '<32>{#p/basic}* Toriel recognizes the scent, and smiles a little.' ]
+            ? ['<32>{#p/basic}* Toriel recognizes the scent, and smiles a little.']
             : [])
       ]
    },
@@ -4431,29 +4431,29 @@ export default {
          description: 'This substance is said to have highly relaxing properties.',
          name: 'Δ-9'
       },
-      drop: [ '<32>{#p/human}* (You throw away the Δ-9.)' ],
+      drop: ['<32>{#p/human}* (You throw away the Δ-9.)'],
       info: () =>
          SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
-            ? [ '<32>{#p/human}* (5 HP. You feel strangely about this item.)' ]
-            : [ '<32>{#p/basic}* \"Δ-9\" Heals 5 HP\n* This substance is said to have highly relaxing properties.' ],
+            ? ['<32>{#p/human}* (5 HP. You feel strangely about this item.)']
+            : ['<32>{#p/basic}* \"Δ-9\" Heals 5 HP\n* This substance is said to have highly relaxing properties.'],
       name: 'Δ-9',
-      use: [ '<32>{#p/human}* (You ingest the Δ-9.)' ]
+      use: ['<32>{#p/human}* (You ingest the Δ-9.)']
    },
    i_halo: {
       battle: {
          description: 'A headband with its own gravity field.',
          name: 'Halo'
       },
-      drop: [ '<32>{#p/human}* (You fling the Halo away like a frisbee.)' ],
+      drop: ['<32>{#p/human}* (You fling the Halo away like a frisbee.)'],
       info: () =>
          SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
-            ? [ '<32>{#p/human}* (3 DF.)' ]
-            : [ '<32>{#p/basic}* \"Halo\" (3 DF)\n* A headband with its own gravity field.' ],
+            ? ['<32>{#p/human}* (3 DF.)']
+            : ['<32>{#p/basic}* \"Halo\" (3 DF)\n* A headband with its own gravity field.'],
       name: 'Halo',
       use: () => [
          '<32>{#p/human}* (You don the Halo.)',
          ...(SAVE.data.b.svr && !SAVE.data.b.freedom && asrielinter.i_halo_use++ < 1
-            ? [ '<25>{#p/asriel1}{#f/20}* I think it suits you.' ]
+            ? ['<25>{#p/asriel1}{#f/20}* I think it suits you.']
             : [])
       ]
    },
@@ -4462,72 +4462,72 @@ export default {
          description: 'A whacking spoon.',
          name: 'Dipper'
       },
-      drop: [ '<32>{#p/human}* (You throw away the Little Dipper.)' ],
+      drop: ['<32>{#p/human}* (You throw away the Little Dipper.)'],
       info: () =>
          SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
-            ? [ '<32>{#p/human}* (3 AT.)' ]
-            : [ '<32>{#p/basic}* \"Little Dipper\" (3 AT)\n* A whacking spoon.' ],
+            ? ['<32>{#p/human}* (3 AT.)']
+            : ['<32>{#p/basic}* \"Little Dipper\" (3 AT)\n* A whacking spoon.'],
       name: 'Little Dipper',
-      use: [ '<32>{#p/human}* (You equip the Little Dipper.)' ]
+      use: ['<32>{#p/human}* (You equip the Little Dipper.)']
    },
    i_pie: {
       battle: {
          description: 'Homemade butterscotch-cinnamon pie, one slice.',
          name: 'Pie'
       },
-      drop: [ '<32>{#p/human}* (You throw away the Butterscotch Pie.)' ],
+      drop: ['<32>{#p/human}* (You throw away the Butterscotch Pie.)'],
       info: () =>
          SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
-            ? [ '<32>{#p/human}* (99 HP.)' ]
-            : [ '<32>{#p/basic}* \"Butterscotch Pie\" Heals 99 HP\n* Homemade butterscotch-cinnamon pie, one slice.' ],
+            ? ['<32>{#p/human}* (99 HP.)']
+            : ['<32>{#p/basic}* \"Butterscotch Pie\" Heals 99 HP\n* Homemade butterscotch-cinnamon pie, one slice.'],
       name: 'Butterscotch Pie',
-      use: [ '<32>{#p/human}* (You eat the Butterscotch Pie.)' ]
+      use: ['<32>{#p/human}* (You eat the Butterscotch Pie.)']
    },
    i_pie2: {
       battle: {
          description: 'Classic family recipe.',
          name: 'Snail Pie'
       },
-      drop: [ '<32>{#p/human}* (You throw away the Snail Pie.)' ],
+      drop: ['<32>{#p/human}* (You throw away the Snail Pie.)'],
       info: () =>
          SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
-            ? [ '<32>{#p/human}* (99 HP.)' ]
-            : [ '<32>{#p/basic}* \"Snail Pie\" Heals 99 HP\n* Classic family recipe.' ],
+            ? ['<32>{#p/human}* (99 HP.)']
+            : ['<32>{#p/basic}* \"Snail Pie\" Heals 99 HP\n* Classic family recipe.'],
       name: 'Snail Pie',
-      use: [ '<32>{#p/human}* (You eat the Snail Pie.)' ]
+      use: ['<32>{#p/human}* (You eat the Snail Pie.)']
    },
    i_pie3: {
       battle: {
          description: 'Despite being soup-ified, the pie remains delicious.',
          name: 'Pie Soup'
       },
-      drop: [ '<32>{#p/human}* (You dump the Pie Soup and the spoon that came with it.)' ],
-      info: [ '<32>{#p/basic}* \"Pie Soup\" Heals 49 HP\n* Despite being soup-ified, the pie remains delicious.' ],
+      drop: ['<32>{#p/human}* (You dump the Pie Soup and the spoon that came with it.)'],
+      info: ['<32>{#p/basic}* \"Pie Soup\" Heals 49 HP\n* Despite being soup-ified, the pie remains delicious.'],
       name: 'Pie Soup',
-      use: [ '<32>{#p/human}* (You consume the Pie Soup with the provided spoon.)' ]
+      use: ['<32>{#p/human}* (You consume the Pie Soup with the provided spoon.)']
    },
    i_pie4: {
       battle: {
          description: 'Actions do have their consequences...',
          name: 'Burnt Pie'
       },
-      drop: [ '<32>{#p/human}* (You toss the Burnt Pie to the side like it never existed.)' ],
-      info: [ '<32>{#p/basic}* \"Burnt Pie\" Heals 39 HP\n* Actions do have their consequences...' ],
+      drop: ['<32>{#p/human}* (You toss the Burnt Pie to the side like it never existed.)'],
+      info: ['<32>{#p/basic}* \"Burnt Pie\" Heals 39 HP\n* Actions do have their consequences...'],
       name: 'Burnt Pie',
-      use: [ '<32>{#p/human}* (You eat the Burnt Pie.)' ]
+      use: ['<32>{#p/human}* (You eat the Burnt Pie.)']
    },
    i_snails: {
       battle: {
          description: 'A plate of fried snails.\nFor breakfast, of course.',
          name: 'Snails'
       },
-      drop: [ '<32>{#p/human}* (You throw away the Fried Snails.)' ],
+      drop: ['<32>{#p/human}* (You throw away the Fried Snails.)'],
       info: () =>
          SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
-            ? [ '<32>{#p/human}* (19 HP.)' ]
-            : [ '<32>{#p/basic}* \"Fried Snails\" Heals 19 HP\n* A plate of fried snails.\n* For breakfast, of course.' ],
+            ? ['<32>{#p/human}* (19 HP.)']
+            : ['<32>{#p/basic}* \"Fried Snails\" Heals 19 HP\n* A plate of fried snails.\n* For breakfast, of course.'],
       name: 'Fried Snails',
-      use: [ '<32>{#p/human}* (You eat the Fried Snails.)' ]
+      use: ['<32>{#p/human}* (You eat the Fried Snails.)']
    },
    i_soda: {
       battle: {
@@ -4536,16 +4536,16 @@ export default {
       },
       drop: () => [
          '<32>{#p/human}* (You throw away the Fizzli Soda.)',
-         ...(SAVE.data.b.svr || world.darker ? [] : [ '<32>{#p/basic}* Good riddance.' ])
+         ...(SAVE.data.b.svr || world.darker ? [] : ['<32>{#p/basic}* Good riddance.'])
       ],
       info: () =>
          SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
-            ? [ '<32>{#p/human}* (8 HP.)' ]
-            : [ '<32>{#p/basic}* \"Fizzli Soda\" Heals 8 HP\n* A dark, sickly yellow liquid.' ],
+            ? ['<32>{#p/human}* (8 HP.)']
+            : ['<32>{#p/basic}* \"Fizzli Soda\" Heals 8 HP\n* A dark, sickly yellow liquid.'],
       name: 'Fizzli Soda',
       use: () => [
          '<32>{#p/human}* (You drink the Fizzli Soda.)',
-         ...(SAVE.data.b.svr || world.darker ? [] : [ '<32>{#p/basic}* Yuck!' ])
+         ...(SAVE.data.b.svr || world.darker ? [] : ['<32>{#p/basic}* Yuck!'])
       ]
    },
    i_spacesuit: {
@@ -4553,29 +4553,29 @@ export default {
          description: 'It came with the craft you crash-landed in.',
          name: 'Spacesuit'
       },
-      drop: [ '<32>{#p/human}* (You throw away the Worn Spacesuit.)' ],
+      drop: ['<32>{#p/human}* (You throw away the Worn Spacesuit.)'],
       info: () =>
          SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
-            ? [ '<32>{#p/human}* (20 HP. The last remaining fragment of a spacecraft flown in exile.)' ]
-            : [ '<32>{#p/basic}* \"Worn Spacesuit\" Heals 20 HP\n* It came with the craft you crash-landed in.' ],
+            ? ['<32>{#p/human}* (20 HP. The last remaining fragment of a spacecraft flown in exile.)']
+            : ['<32>{#p/basic}* \"Worn Spacesuit\" Heals 20 HP\n* It came with the craft you crash-landed in.'],
       name: 'Worn Spacesuit',
-      use: [ '<33>{#p/human}* (After using its last heal-pak, the Worn Spacesuit fell apart.)' ]
+      use: ['<33>{#p/human}* (After using its last heal-pak, the Worn Spacesuit fell apart.)']
    },
    i_spanner: {
       battle: {
          description: 'A rusty old wrench.',
          name: 'Spanner'
       },
-      drop: [ '<32>{#p/human}* (You throw away the Rusty Spanner.)' ],
+      drop: ['<32>{#p/human}* (You throw away the Rusty Spanner.)'],
       info: () =>
          SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
-            ? [ "<32>{#p/human}* (A trusty tool forged from beyond the galaxy's edge.)" ]
-            : [ '<32>{#p/basic}* A rusty old wrench.' ],
+            ? ["<32>{#p/human}* (A trusty tool forged from beyond the galaxy's edge.)"]
+            : ['<32>{#p/basic}* A rusty old wrench.'],
       name: 'Rusty Spanner',
       use: () => [
          ...(battler.active && battler.alive[0].opponent.metadata.reactSpanner
             ? []
-            : [ '<32>{#p/human}* (You toss the spanner into the air.)\n* (Nothing happens.)' ])
+            : ['<32>{#p/human}* (You toss the spanner into the air.)\n* (Nothing happens.)'])
       ]
    },
    i_starbertA: {
@@ -4583,36 +4583,36 @@ export default {
          description: 'The first of a limited run of Super Starwalker comics.',
          name: 'Starwalker 1'
       },
-      drop: [ '<32>{#p/human}* (You throw away Super Starwalker 1.)' ],
+      drop: ['<32>{#p/human}* (You throw away Super Starwalker 1.)'],
       info: () =>
          SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
-            ? [ '<32>{#p/human}* (It seems like the beginning of a journey.)' ]
-            : [ '<32>{#p/basic}* The first of a limited run of Super Starwalker comics.' ],
+            ? ['<32>{#p/human}* (It seems like the beginning of a journey.)']
+            : ['<32>{#p/basic}* The first of a limited run of Super Starwalker comics.'],
       name: 'Super Starwalker 1',
-      use: () => (battler.active ? [ '<32>{#p/human}* (You read Super Starwalker 1.)', '<32>* (Nothing happens.)' ] : [])
+      use: () => (battler.active ? ['<32>{#p/human}* (You read Super Starwalker 1.)', '<32>* (Nothing happens.)'] : [])
    },
    i_starbertB: {
       battle: {
          description: 'The second of a limited run of Super Starwalker comics.',
          name: 'Starwalker 2'
       },
-      drop: [ '<32>{#p/human}* (You throw away Super Starwalker 2.)' ],
+      drop: ['<32>{#p/human}* (You throw away Super Starwalker 2.)'],
       info: () =>
          SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
-            ? [ '<32>{#p/human}* (It seems like the middle of a journey.)' ]
-            : [ '<32>{#p/basic}* The second of a limited run of Super Starwalker comics.' ],
+            ? ['<32>{#p/human}* (It seems like the middle of a journey.)']
+            : ['<32>{#p/basic}* The second of a limited run of Super Starwalker comics.'],
       name: 'Super Starwalker 2',
       use: () =>
          battler.active
             ? [
-                 '<32>{#p/human}* (You read Super Starwalker 2.)',
-                 ...(SAVE.data.b.stargum
-                    ? [ '<32>* (Nothing happens.)' ]
-                    : [
-                         '<32>* (You found a piece of gum taped to the comic strip.)',
-                         choicer.create('* (Use the gum?)', 'Si', 'No')
-                      ])
-              ]
+               '<32>{#p/human}* (You read Super Starwalker 2.)',
+               ...(SAVE.data.b.stargum
+                  ? ['<32>* (Nothing happens.)']
+                  : [
+                     '<32>* (You found a piece of gum taped to the comic strip.)',
+                     choicer.create('* (Use the gum?)', 'Si', 'No')
+                  ])
+            ]
             : []
    },
    i_starbertC: {
@@ -4620,13 +4620,13 @@ export default {
          description: 'The third of a limited run of Super Starwalker comics.',
          name: 'Starwalker 3'
       },
-      drop: [ '<32>{#p/human}* (You throw away Super Starwalker 3.)' ],
+      drop: ['<32>{#p/human}* (You throw away Super Starwalker 3.)'],
       info: () =>
          SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
-            ? [ '<32>{#p/human}* (It seems like the end of a journey... or is it a new beginning?)' ]
-            : [ '<32>{#p/basic}* The third of a limited run of Super Starwalker comics.' ],
+            ? ['<32>{#p/human}* (It seems like the end of a journey... or is it a new beginning?)']
+            : ['<32>{#p/basic}* The third of a limited run of Super Starwalker comics.'],
       name: 'Super Starwalker 3',
-      use: () => (battler.active ? [ '<32>{#p/human}* (You read Super Starwalker 3.)', '<32>* (Nothing happens.)' ] : [])
+      use: () => (battler.active ? ['<32>{#p/human}* (You read Super Starwalker 3.)', '<32>* (Nothing happens.)'] : [])
    },
    i_steak: {
       battle: {
@@ -4637,16 +4637,16 @@ export default {
          '<32>{#p/human}* (You throw away the Sizzli Steak.)',
          ...(SAVE.data.b.svr || world.darker || SAVE.data.b.ufokinwotm8
             ? []
-            : [ "<32>{#p/basic}* Well, that won't be missed." ])
+            : ["<32>{#p/basic}* Well, that won't be missed."])
       ],
       info: () =>
          SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
-            ? [ '<32>{#p/human}* (14 HP.)' ]
-            : [ '<32>{#p/basic}* \"Sizzli Steak\" Heals 14 HP\n* Questionable.' ],
+            ? ['<32>{#p/human}* (14 HP.)']
+            : ['<32>{#p/basic}* \"Sizzli Steak\" Heals 14 HP\n* Questionable.'],
       name: 'Sizzli Steak',
       use: () => [
          '<32>{#p/human}* (You eat the Sizzli Steak.)',
-         ...(SAVE.data.b.svr || world.darker || SAVE.data.b.ufokinwotm8 ? [] : [ '<32>{#p/basic}* Gross!' ])
+         ...(SAVE.data.b.svr || world.darker || SAVE.data.b.ufokinwotm8 ? [] : ['<32>{#p/basic}* Gross!'])
       ]
    },
 
@@ -4668,16 +4668,16 @@ export default {
       w_twinkly: () =>
          SAVE.data.b.toriel_twinkly
             ? [
-                 '<25>{#p/toriel}{#f/1}* Is that where I first found you?',
-                 '<25>{#f/5}* That talking star who tormented you has been a pest for some time.',
-                 '<25>{#f/1}* I have tried to reason with him before, but...',
-                 '<25>{#f/9}* My efforts never truly got anywhere.'
-              ]
+               '<25>{#p/toriel}{#f/1}* Is that where I first found you?',
+               '<25>{#f/5}* That talking star who tormented you has been a pest for some time.',
+               '<25>{#f/1}* I have tried to reason with him before, but...',
+               '<25>{#f/9}* My efforts never truly got anywhere.'
+            ]
             : [
-                 '<25>{#p/toriel}{#f/1}* Is that where I first found you?',
-                 '<25>{#f/5}* All alone out there, by yourself...',
-                 '<25>{#f/0}* It is a good thing I was there to bring you in.'
-              ],
+               '<25>{#p/toriel}{#f/1}* Is that where I first found you?',
+               '<25>{#f/5}* All alone out there, by yourself...',
+               '<25>{#f/0}* It is a good thing I was there to bring you in.'
+            ],
       w_entrance: [
          '<25>{#p/toriel}{#f/1}* The entrance to the Outlands...',
          '<25>{#f/0}* Indeed, the area before this is not actually part of it.',
@@ -4702,51 +4702,51 @@ export default {
          '<25>{#p/toriel}{#f/1}* The training room...?',
          ...(SAVE.data.n.plot < 42
             ? [
-                 [
-                    '<25>{#f/0}* Hee hee, I am still proud of the way you handled that lesson.',
-                    '<25>{#f/1}* A friendly conversation is preferable to the alternative...',
-                    '<25>{#f/0}* And not just because it helps you make friends!'
-                 ],
-                 [],
-                 [
-                    '<25>{#f/5}* ...',
-                    '<25>{#f/5}* Although you did not handle that lesson in the way I intended...',
-                    '<25>{#f/0}* At the very least, you avoided the conflict.',
-                    '<25>{#f/0}* Considering the alternatives, it was... a preferable outcome.'
-                 ],
-                 [
-                    '<25>{#f/0}* ... hmm.',
-                    '<25>{#f/0}* Truthfully, I still do not know how to react to what happened.',
-                    '<25>{#f/1}* It was mesmerising to watch, though...',
-                    '<25>{#f/3}* Just the two of you...\n* Staring at each other...',
-                    '<25>{#f/4}* ...'
-                 ],
-                 [
-                    '<25>{#f/1}* I cannot say I expected what happened, but...',
-                    '<25>{#f/0}* It was still endearing nonetheless.',
-                    '<25>{#f/0}* Surprisingly, you are the first human to try the approach.',
-                    '<25>{#f/1}* And it seemed such an obvious solution in hindsight...'
-                 ],
-                 [],
-                 [
-                    '<25>{#f/5}* ...',
-                    '<25>{#f/7}* ...',
-                    '<25>{#f/8}* Hahaha!\n* Ah, I cannot help but laugh!',
-                    '<25>{#f/6}* The shamelessness with which you chose to flirt...',
-                    '<25>{#f/1}* Certainly took me by surprise!',
-                    '<25>{#f/0}* Listen to me, my child.',
-                    '<25>{#f/9}* Flirting with your adversaries may not always be ideal.',
-                    '<25>{#f/10}* But, if you can do it like THAT again...',
-                    '<25>{#f/0}* There is no telling what you can accomplish this way.'
-                 ]
-              ][SAVE.data.n.state_wastelands_dummy]
+               [
+                  '<25>{#f/0}* Hee hee, I am still proud of the way you handled that lesson.',
+                  '<25>{#f/1}* A friendly conversation is preferable to the alternative...',
+                  '<25>{#f/0}* And not just because it helps you make friends!'
+               ],
+               [],
+               [
+                  '<25>{#f/5}* ...',
+                  '<25>{#f/5}* Although you did not handle that lesson in the way I intended...',
+                  '<25>{#f/0}* At the very least, you avoided the conflict.',
+                  '<25>{#f/0}* Considering the alternatives, it was... a preferable outcome.'
+               ],
+               [
+                  '<25>{#f/0}* ... hmm.',
+                  '<25>{#f/0}* Truthfully, I still do not know how to react to what happened.',
+                  '<25>{#f/1}* It was mesmerising to watch, though...',
+                  '<25>{#f/3}* Just the two of you...\n* Staring at each other...',
+                  '<25>{#f/4}* ...'
+               ],
+               [
+                  '<25>{#f/1}* I cannot say I expected what happened, but...',
+                  '<25>{#f/0}* It was still endearing nonetheless.',
+                  '<25>{#f/0}* Surprisingly, you are the first human to try the approach.',
+                  '<25>{#f/1}* And it seemed such an obvious solution in hindsight...'
+               ],
+               [],
+               [
+                  '<25>{#f/5}* ...',
+                  '<25>{#f/7}* ...',
+                  '<25>{#f/8}* Hahaha!\n* Ah, I cannot help but laugh!',
+                  '<25>{#f/6}* The shamelessness with which you chose to flirt...',
+                  '<25>{#f/1}* Certainly took me by surprise!',
+                  '<25>{#f/0}* Listen to me, my child.',
+                  '<25>{#f/9}* Flirting with your adversaries may not always be ideal.',
+                  '<25>{#f/10}* But, if you can do it like THAT again...',
+                  '<25>{#f/0}* There is no telling what you can accomplish this way.'
+               ]
+            ][SAVE.data.n.state_wastelands_dummy]
             : [
-                 '<25>{#p/toriel}{#f/0}* Oh, right, about that.',
-                 '<25>{#p/toriel}{#f/0}* I recently discovered that a ghost was hiding in the dummy.',
-                 '<25>{#p/toriel}{#f/1}* They seemed bothered about something, but...',
-                 '<25>{#p/toriel}{#f/0}* After a little talk, I helped to calm them down.',
-                 '<25>{#p/toriel}{#f/1}* Hmm... I wonder where Lurksalot is now?'
-              ])
+               '<25>{#p/toriel}{#f/0}* Oh, right, about that.',
+               '<25>{#p/toriel}{#f/0}* I recently discovered that a ghost was hiding in the dummy.',
+               '<25>{#p/toriel}{#f/1}* They seemed bothered about something, but...',
+               '<25>{#p/toriel}{#f/0}* After a little talk, I helped to calm them down.',
+               '<25>{#p/toriel}{#f/1}* Hmm... I wonder where Lurksalot is now?'
+            ])
       ],
       w_coffin: [
          '<25>{#p/toriel}{#f/5}* ...',
@@ -4757,20 +4757,20 @@ export default {
       w_danger: () =>
          SAVE.data.n.state_wastelands_froggit === 3
             ? [
-                 '<25>{#p/toriel}{#f/1}* The riddle offered by the terminal in that room...',
-                 '<25>{#f/0}* Was based on something I found in an old Earth legend.',
-                 '<25>{#f/1}* It involved a series of many intricate puzzles...',
-                 '<25>{#f/0}* And a certain deceptive baked good.',
-                 SAVE.data.b.w_state_riddleskip
-                    ? '<25>{#f/5}* It is a shame you refused to solve it.'
-                    : '<25>{#f/0}* Seeing you solve it was quite gratifying.'
-              ]
+               '<25>{#p/toriel}{#f/1}* The riddle offered by the terminal in that room...',
+               '<25>{#f/0}* Was based on something I found in an old Earth legend.',
+               '<25>{#f/1}* It involved a series of many intricate puzzles...',
+               '<25>{#f/0}* And a certain deceptive baked good.',
+               SAVE.data.b.w_state_riddleskip
+                  ? '<25>{#f/5}* It is a shame you refused to solve it.'
+                  : '<25>{#f/0}* Seeing you solve it was quite gratifying.'
+            ]
             : [
-                 '<25>{#p/toriel}{#f/1}* As overseer of the Outlands, I took it upon myself...',
-                 '<25>{#f/0}* To ensure the other monsters did not attack you.',
-                 '<25>{#f/0}* Both they and I have a mutual understanding about this.',
-                 '<25>{#f/0}* That is why the Froggit left so readily.'
-              ],
+               '<25>{#p/toriel}{#f/1}* As overseer of the Outlands, I took it upon myself...',
+               '<25>{#f/0}* To ensure the other monsters did not attack you.',
+               '<25>{#f/0}* Both they and I have a mutual understanding about this.',
+               '<25>{#f/0}* That is why the Froggit left so readily.'
+            ],
       w_zigzag: [
          '<25>{#p/toriel}{#f/1}* My idea with building this room to be so long and windy...',
          '<25>{#f/0}* ... was that I felt a straight room would be too boring.',
@@ -4826,27 +4826,27 @@ export default {
       w_blooky: () =>
          SAVE.data.b.killed_mettaton
             ? [
-                 '<25>{#p/toriel}{#f/1}* For whatever reason, that ghost who often comes here...',
-                 '<25>{#f/5}* Has been feeling worse than ever lately.',
-                 '<25>{#f/1}* I tried to ask them why, but they would not say...',
-                 '<25>{#f/5}* ... I have not seen them since.'
-              ]
+               '<25>{#p/toriel}{#f/1}* For whatever reason, that ghost who often comes here...',
+               '<25>{#f/5}* Has been feeling worse than ever lately.',
+               '<25>{#f/1}* I tried to ask them why, but they would not say...',
+               '<25>{#f/5}* ... I have not seen them since.'
+            ]
             : !SAVE.data.b.a_state_hapstablook || SAVE.data.n.plot < 68
-            ? [
-                 '<25>{#p/toriel}{#f/0}* That ghost who called earlier often inhabits this area.',
-                 ...(SAVE.data.b.napsta_performance
-                    ? [ '<25>{#f/1}* I thought they would be happier after their performance...' ]
-                    : [ '<25>{#f/1}* I have tried to lift their spirits in the past...' ]),
-                 '<25>{#f/5}* But their troubles may not be so easy to resolve.',
-                 '<25>{#f/1}* If only I knew what was holding them down...'
-              ]
-            : [
-                 '<25>{#p/toriel}{#f/1}* For whatever reason, that ghost who often comes here...',
-                 '<25>{#f/0}* Has been feeling a lot better lately.',
-                 '<25>{#f/0}* They even came to my house to tell me so themselves.',
-                 '<25>{#f/1}* Apparently you had something to do with this...?',
-                 '<25>{#f/0}* Well then.\n* I am very proud of you, my child.'
-              ],
+               ? [
+                  '<25>{#p/toriel}{#f/0}* That ghost who called earlier often inhabits this area.',
+                  ...(SAVE.data.b.napsta_performance
+                     ? ['<25>{#f/1}* I thought they would be happier after their performance...']
+                     : ['<25>{#f/1}* I have tried to lift their spirits in the past...']),
+                  '<25>{#f/5}* But their troubles may not be so easy to resolve.',
+                  '<25>{#f/1}* If only I knew what was holding them down...'
+               ]
+               : [
+                  '<25>{#p/toriel}{#f/1}* For whatever reason, that ghost who often comes here...',
+                  '<25>{#f/0}* Has been feeling a lot better lately.',
+                  '<25>{#f/0}* They even came to my house to tell me so themselves.',
+                  '<25>{#f/1}* Apparently you had something to do with this...?',
+                  '<25>{#f/0}* Well then.\n* I am very proud of you, my child.'
+               ],
       w_party: [
          '<25>{#p/toriel}{#f/0}* The activities room.\n* We host all kinds of performances there.',
          '<25>{#f/0}* Drama, dance nights...\n* And, most important of all, the arts.',
@@ -4917,29 +4917,29 @@ export default {
       w_alley4: () =>
          SAVE.data.b.w_state_fightroom
             ? [
-                 '<32>{#s/phone}{#p/event}* Dialing...',
-                 '<25>{#p/toriel}{#f/1}* Although that room may not evoke the best of feelings for us...',
-                 '<25>{#f/0}* It is still one of my favorite places in the Outlands.',
-                 '<25>{#f/1}* There is a certain someone who visits sometimes...',
-                 '<25>{#f/6}* Perhaps you are already aware of him.',
-                 '<32>{#s/equip}{#p/event}* Click...'
-              ]
+               '<32>{#s/phone}{#p/event}* Dialing...',
+               '<25>{#p/toriel}{#f/1}* Although that room may not evoke the best of feelings for us...',
+               '<25>{#f/0}* It is still one of my favorite places in the Outlands.',
+               '<25>{#f/1}* There is a certain someone who visits sometimes...',
+               '<25>{#f/6}* Perhaps you are already aware of him.',
+               '<32>{#s/equip}{#p/event}* Click...'
+            ]
             : instance('main', 'toriButNotGarb') === void 0 // NO-TRANSLATE
 
-            ? [
-                 '<32>{#s/phone}{#p/event}* Dialing...',
-                 '<25>{#p/toriel}{#f/1}* Calling so soon...?',
-                 '<25>{#f/0}* ... I have not even gotten back to the house yet!',
-                 '<25>{#f/0}* Please, wait a moment before calling again.',
-                 '<32>{#s/equip}{#p/event}* Click...'
-              ]
-            : [
-                 '<32>{#w.stopThatGoat}{#s/phone}{#p/event}* Dialing...',
-                 '<25>{#p/toriel}{#f/1}* Calling so soon...?',
-                 '<25>{#f/0}* ... I have not even left the room yet!',
-                 '<25>{#f/2}* A moment to breathe would be nice!',
-                 '<32>{#w.startThatGoat}{#s/equip}{#p/event}* Click...'
-              ],
+               ? [
+                  '<32>{#s/phone}{#p/event}* Dialing...',
+                  '<25>{#p/toriel}{#f/1}* Calling so soon...?',
+                  '<25>{#f/0}* ... I have not even gotten back to the house yet!',
+                  '<25>{#f/0}* Please, wait a moment before calling again.',
+                  '<32>{#s/equip}{#p/event}* Click...'
+               ]
+               : [
+                  '<32>{#w.stopThatGoat}{#s/phone}{#p/event}* Dialing...',
+                  '<25>{#p/toriel}{#f/1}* Calling so soon...?',
+                  '<25>{#f/0}* ... I have not even left the room yet!',
+                  '<25>{#f/2}* A moment to breathe would be nice!',
+                  '<32>{#w.startThatGoat}{#s/equip}{#p/event}* Click...'
+               ],
       w_bridge: [
          '<25>{#p/toriel}{#f/1}* The bridge to the rest of the outpost...',
          '<25>{#f/5}* It is a shame to think I almost destroyed it.',
@@ -4950,26 +4950,26 @@ export default {
       w_exit: () =>
          SAVE.data.n.plot < 16
             ? [
-                 '<25>{#p/toriel}{#f/1}* My child, if you are leaving the Outlands...',
-                 '<25>{#f/0}* Then... I want you to remember something.',
-                 '<25>{#f/1}* Whatever happens, no matter how difficult it may seem...',
-                 '<25>{#f/0}* I want you to know that I have faith in you.',
-                 '<25>{#f/0}* That I know you can do the right thing.',
-                 '<25>{#f/1}* Remember that, alright?'
-              ]
+               '<25>{#p/toriel}{#f/1}* My child, if you are leaving the Outlands...',
+               '<25>{#f/0}* Then... I want you to remember something.',
+               '<25>{#f/1}* Whatever happens, no matter how difficult it may seem...',
+               '<25>{#f/0}* I want you to know that I have faith in you.',
+               '<25>{#f/0}* That I know you can do the right thing.',
+               '<25>{#f/1}* Remember that, alright?'
+            ]
             : SAVE.data.n.plot < 17.001
-            ? [
-                 '<25>{#p/toriel}{#f/1}* Returning to the Outlands so soon...?',
-                 '<25>{#f/0}* Well.\n* I cannot say I am opposed to that.',
-                 '<25>{#f/1}* You may leave at any time, of course...',
-                 '<25>{#f/0}* But, for the moment, it is nice to see you.'
-              ]
-            : [
-                 '<25>{#p/toriel}{#f/2}* How long have you been standing out there!?',
-                 '<25>{#f/1}* Did you come back all this way just to call me?',
-                 '<25>{#f/0}* ... silly goose.',
-                 '<25>{#f/0}* If you would like to call, there is no need to go back this far.'
-              ],
+               ? [
+                  '<25>{#p/toriel}{#f/1}* Returning to the Outlands so soon...?',
+                  '<25>{#f/0}* Well.\n* I cannot say I am opposed to that.',
+                  '<25>{#f/1}* You may leave at any time, of course...',
+                  '<25>{#f/0}* But, for the moment, it is nice to see you.'
+               ]
+               : [
+                  '<25>{#p/toriel}{#f/2}* How long have you been standing out there!?',
+                  '<25>{#f/1}* Did you come back all this way just to call me?',
+                  '<25>{#f/0}* ... silly goose.',
+                  '<25>{#f/0}* If you would like to call, there is no need to go back this far.'
+               ],
       w_toriel_front: [
          '<25>{#p/toriel}{#f/1}* Did you know that this house is a re-creation of another?',
          '<25>{#f/1}* In the past, I lived in the Citadel...',
@@ -4998,13 +4998,13 @@ export default {
       ],
       w_toriel_living: () =>
          toriCheck()
-            ? [ '<25>{#p/toriel}{#f/3}* There is no need to call me when I am right here, little one.' ]
+            ? ['<25>{#p/toriel}{#f/3}* There is no need to call me when I am right here, little one.']
             : [
-                 '<25>{#p/toriel}{#f/1}* Rummaging around in the living room, are we?',
-                 '<25>{#f/0}* Say.\n* Have you read all of the books yet?',
-                 '<25>{#f/1}* I thought about reading you the snail fact book...',
-                 '<25>{#f/0}* But I decided it might be a little too repetitive for you.'
-              ],
+               '<25>{#p/toriel}{#f/1}* Rummaging around in the living room, are we?',
+               '<25>{#f/0}* Say.\n* Have you read all of the books yet?',
+               '<25>{#f/1}* I thought about reading you the snail fact book...',
+               '<25>{#f/0}* But I decided it might be a little too repetitive for you.'
+            ],
       w_toriel_kitchen: [
          '<25>{#p/toriel}{#f/1}* The kitchen...?',
          '<25>{#f/0}* I left a chocolate bar in the fridge for you.',
@@ -5014,29 +5014,29 @@ export default {
       s_start: () =>
          SAVE.data.n.plot < 17.001
             ? [
-                 '<25>{#p/toriel}{#f/0}* If I am right, a certain friend of mine should be up ahead.',
-                 '<26>{#f/0}* Do not fear, little one.',
-                 '<25>{#f/1}* Keep going...'
-              ]
+               '<25>{#p/toriel}{#f/0}* If I am right, a certain friend of mine should be up ahead.',
+               '<26>{#f/0}* Do not fear, little one.',
+               '<25>{#f/1}* Keep going...'
+            ]
             : [
-                 '<25>{#p/toriel}{#f/1}* From what I recall, this long room...',
-                 '<26>{#f/0}* ... would have been the basis for a town on the outskirts of Starton.',
-                 '<25>{#f/0}* Of course, that never came to pass.',
-                 '<25>{#f/2}* One town was more than enough!'
-              ],
+               '<25>{#p/toriel}{#f/1}* From what I recall, this long room...',
+               '<26>{#f/0}* ... would have been the basis for a town on the outskirts of Starton.',
+               '<25>{#f/0}* Of course, that never came to pass.',
+               '<25>{#f/2}* One town was more than enough!'
+            ],
       s_sans: () =>
          SAVE.data.n.plot < 17.001
             ? [
-                 '<25>{#p/toriel}{#f/0}* If I am right, a certain friend of mine should be up ahead.',
-                 '<26>{#f/0}* Do not fear, little one.',
-                 '<25>{#f/1}* Keep going...'
-              ]
+               '<25>{#p/toriel}{#f/0}* If I am right, a certain friend of mine should be up ahead.',
+               '<26>{#f/0}* Do not fear, little one.',
+               '<25>{#f/1}* Keep going...'
+            ]
             : [
-                 '<25>{#p/toriel}{#f/1}* I presume by now you have heard of the \"gravometric inverter?\"',
-                 '<26>{#f/0}* It is a device Sans has told me all about.',
-                 '<25>{#f/1}* Apparently, there is another world up there...',
-                 '<25>{#f/0}* A place where things do not always face the right way up.'
-              ],
+               '<25>{#p/toriel}{#f/1}* I presume by now you have heard of the \"gravometric inverter?\"',
+               '<26>{#f/0}* It is a device Sans has told me all about.',
+               '<25>{#f/1}* Apparently, there is another world up there...',
+               '<25>{#f/0}* A place where things do not always face the right way up.'
+            ],
       s_crossroads: [
          '<25>{#p/toriel}{#f/1}* This old landing pad was once a bustling intersection...',
          '<25>{#f/1}* Supply ships coming and going...',
@@ -5206,21 +5206,21 @@ export default {
          SAVE.data.n.plot !== 47.2 && SAVE.data.n.plot > 42 && SAVE.data.s.state_foundry_deathroom !== 'f_bird' // NO-TRANSLATE
 
             ? [
-                 '<25>{#p/toriel}{#f/0}* There truly is nothing like the chirp of that fearless little bird.',
-                 '<25>{#f/1}* Even when it still lived within a bucket of water...',
-                 '<25>{#f/1}* It would fly its mighty little wings...',
-                 '<25>{#f/1}* Taking us places...',
-                 '<25>{#f/0}* I used its services to carry groceries often.',
-                 '<25>{#f/5}* ... back when we as a species all lived in that old factory.'
-              ]
+               '<25>{#p/toriel}{#f/0}* There truly is nothing like the chirp of that fearless little bird.',
+               '<25>{#f/1}* Even when it still lived within a bucket of water...',
+               '<25>{#f/1}* It would fly its mighty little wings...',
+               '<25>{#f/1}* Taking us places...',
+               '<25>{#f/0}* I used its services to carry groceries often.',
+               '<25>{#f/5}* ... back when we as a species all lived in that old factory.'
+            ]
             : [
-                 '<25>{#p/toriel}{#f/5}* Things sound awfully silent where you are...',
-                 '<25>{#f/5}* Almost like there is something missing.',
-                 '<25>{#f/5}* Something important...',
-                 '<25>{#f/0}* Well, no matter.\n* My imagination does run wild sometimes.',
-                 '<25>{#f/1}* ...',
-                 '<25>{#f/1}* Chirp, chirp, chirp, chirp, chirp...'
-              ],
+               '<25>{#p/toriel}{#f/5}* Things sound awfully silent where you are...',
+               '<25>{#f/5}* Almost like there is something missing.',
+               '<25>{#f/5}* Something important...',
+               '<25>{#f/0}* Well, no matter.\n* My imagination does run wild sometimes.',
+               '<25>{#f/1}* ...',
+               '<25>{#f/1}* Chirp, chirp, chirp, chirp, chirp...'
+            ],
       f_taxi: [
          "<25>{#p/toriel}{#f/1}* So you found the factory's taxi stop...?",
          '<25>{#f/0}* Perhaps you could use it to escape that Royal Guard captain.',
@@ -5273,54 +5273,54 @@ export default {
    c_call_toriel_early: () =>
       game.room === 'w_bridge' || game.room.startsWith('w_alley') // NO-TRANSLATE
 
-         ? [ '<25>{#p/toriel}{#f/3}* ...', '<25>{#f/2}* Come back to the house this instant!' ]
+         ? ['<25>{#p/toriel}{#f/3}* ...', '<25>{#f/2}* Come back to the house this instant!']
          : [
-              3 <= SAVE.data.n.cell_insult
-                 ? '<25>{#p/toriel}{#f/23}* Are you not exhausted after how you behaved towards me?'
-                 : SAVE.data.n.state_wastelands_napstablook === 5
-                 ? '<25>{#p/toriel}{#f/1}* Are you not exhausted after waiting so long?'
-                 : '<25>{#p/toriel}{#f/1}* Are you not exhausted after all you have been through?',
-              3 <= SAVE.data.n.cell_insult
-                 ? game.room.startsWith('w_toriel') // NO-TRANSLATE
+            3 <= SAVE.data.n.cell_insult
+               ? '<25>{#p/toriel}{#f/23}* Are you not exhausted after how you behaved towards me?'
+               : SAVE.data.n.state_wastelands_napstablook === 5
+                  ? '<25>{#p/toriel}{#f/1}* Are you not exhausted after waiting so long?'
+                  : '<25>{#p/toriel}{#f/1}* Are you not exhausted after all you have been through?',
+            3 <= SAVE.data.n.cell_insult
+               ? game.room.startsWith('w_toriel') // NO-TRANSLATE
 
-                    ? '<25>{#f/0}* Perhaps you should see the bed I made for you in the guest room.'
-                    : '<25>{#f/0}* Perhaps you should see the bed I made for you at the house.'
-                 : game.room.startsWith('w_toriel') // NO-TRANSLATE
+                  ? '<25>{#f/0}* Perhaps you should see the bed I made for you in the guest room.'
+                  : '<25>{#f/0}* Perhaps you should see the bed I made for you at the house.'
+               : game.room.startsWith('w_toriel') // NO-TRANSLATE
 
-                 ? '<25>{#f/0}* Come to the hallway, and I will show you something.'
-                 : '<25>{#f/0}* Come to the house, and I will show you something.'
-           ],
+                  ? '<25>{#f/0}* Come to the hallway, and I will show you something.'
+                  : '<25>{#f/0}* Come to the house, and I will show you something.'
+         ],
    c_call_toriel_late: () =>
       SAVE.data.n.plot === 8.1
-         ? [ '<32>{#p/human}* (But the line was busy.)' ]
+         ? ['<32>{#p/human}* (But the line was busy.)']
          : game.room === 'w_bridge' || game.room.startsWith('w_alley') // NO-TRANSLATE
 
-         ? [ '<25>{#p/toriel}{#f/3}* ...', '<25>{#f/2}* Come back to the house this instant!' ]
-         : [
-              '<25>{#p/toriel}{#f/1}* There is no need to call me over the phone, my child.',
-              3 <= SAVE.data.n.cell_insult
-                 ? '<26>{#f/23}* We already know what that tends to result in.'
-                 : game.room === 'w_toriel_living' // NO-TRANSLATE
+            ? ['<25>{#p/toriel}{#f/3}* ...', '<25>{#f/2}* Come back to the house this instant!']
+            : [
+               '<25>{#p/toriel}{#f/1}* There is no need to call me over the phone, my child.',
+               3 <= SAVE.data.n.cell_insult
+                  ? '<26>{#f/23}* We already know what that tends to result in.'
+                  : game.room === 'w_toriel_living' // NO-TRANSLATE
 
-                 ? toriCheck()
-                    ? '<25>{#f/0}* After all, I am here in the room with you.'
-                    : '<25>{#f/0}* I will be done in just a moment.'
-                 : game.room.startsWith('w_toriel') // NO-TRANSLATE
+                     ? toriCheck()
+                        ? '<25>{#f/0}* After all, I am here in the room with you.'
+                        : '<25>{#f/0}* I will be done in just a moment.'
+                     : game.room.startsWith('w_toriel') // NO-TRANSLATE
 
-                 ? toriCheck()
-                    ? '<25>{#f/0}* If you want to see me, you can come to the living room.'
-                    : '<25>{#f/0}* If you want to see me, you can wait in the living room.'
-                 : '<25>{#f/0}* If you want to see me, you can come to the house.'
-           ],
+                        ? toriCheck()
+                           ? '<25>{#f/0}* If you want to see me, you can come to the living room.'
+                           : '<25>{#f/0}* If you want to see me, you can wait in the living room.'
+                        : '<25>{#f/0}* If you want to see me, you can come to the house.'
+            ],
    c_call_asriel: () =>
       [
          [
             "<25>{#p/asriel2}{#f/3}* Just so you know, I'm not picking that up.",
             '<25>{#p/asriel2}{#f/4}* We have better things to do.'
          ],
-         [ '<25>{#p/asriel2}{#f/4}* ...' ],
-         [ '<25>{#p/asriel2}{#f/4}* ... seriously?' ],
-         [ '<25>{#p/asriel2}{#f/3}* You must be really, REALLY bored.' ],
+         ['<25>{#p/asriel2}{#f/4}* ...'],
+         ['<25>{#p/asriel2}{#f/4}* ... seriously?'],
+         ['<25>{#p/asriel2}{#f/3}* You must be really, REALLY bored.'],
          []
       ][Math.min(SAVE.flag.n.ga_asrielCall++, 4)],
    s_save_outlands: {
@@ -5329,32 +5329,32 @@ export default {
          text: () =>
             SAVE.data.n.plot > 16
                ? [
-                    6 <= world.population
-                       ? '<32>{#p/human}* (Even when visiting, this little home fills you with determination.)'
-                       : '<32>{#p/human}* (Even when visiting, this house fills you with determination.)'
-                 ]
+                  6 <= world.population
+                     ? '<32>{#p/human}* (Even when visiting, this little home fills you with determination.)'
+                     : '<32>{#p/human}* (Even when visiting, this house fills you with determination.)'
+               ]
                : 6 <= world.population
-               ? [ '<32>{#p/human}* (This cute little home fills you with determination.)' ]
-               : [ '<32>{#p/human}* (A house amidst the metallic walls fills you with determination.)' ]
+                  ? ['<32>{#p/human}* (This cute little home fills you with determination.)']
+                  : ['<32>{#p/human}* (A house amidst the metallic walls fills you with determination.)']
       },
       w_entrance: {
          name: 'Outlands - Entrance',
          text: () =>
             world.runaway
                ? [
-                    '<32>{#p/human}* (The industrious Outlands falls silent, filling you with determination.)',
-                    '<32>{#p/human}* (PV restaurados.)'
-                 ]
+                  '<32>{#p/human}* (The industrious Outlands falls silent, filling you with determination.)',
+                  '<32>{#p/human}* (PV restaurados.)'
+               ]
                : SAVE.data.n.plot < 48
-               ? [
-                    '<32>{#p/human}* (The industrious Outlands lies ahead, filling you with determination.)',
-                    '<32>{#p/human}* (PV restaurados.)'
-                 ]
-               : [
-                    '<32>{#p/human}* (Returning to where it all began, after so long...)',
-                    '<32>{#p/human}* (This fills you with determination.)',
-                    '<32>{#p/human}* (PV restaurados.)'
-                 ]
+                  ? [
+                     '<32>{#p/human}* (The industrious Outlands lies ahead, filling you with determination.)',
+                     '<32>{#p/human}* (PV restaurados.)'
+                  ]
+                  : [
+                     '<32>{#p/human}* (Returning to where it all began, after so long...)',
+                     '<32>{#p/human}* (This fills you with determination.)',
+                     '<32>{#p/human}* (PV restaurados.)'
+                  ]
       },
       w_froggit: {
          name: 'Outlands - Rest Area',
@@ -5362,36 +5362,36 @@ export default {
             SAVE.data.n.state_wastelands_toriel === 2 || world.runaway || roomKills().w_froggit > 0
                ? SAVE.data.n.plot < 8.1
                   ? [
-                       '<32>{#p/human}* (The air grows stale.)\n* (Somehow, this fills you with determination.)',
-                       '<32>{#p/human}* (PV restaurados.)'
-                    ]
+                     '<32>{#p/human}* (The air grows stale.)\n* (Somehow, this fills you with determination.)',
+                     '<32>{#p/human}* (PV restaurados.)'
+                  ]
                   : [
-                       '<32>{#p/human}* (The air has fully dried up.)\n* (Indeed, this fills you with determination.)',
-                       '<32>{#p/human}* (PV restaurados.)'
-                    ]
+                     '<32>{#p/human}* (The air has fully dried up.)\n* (Indeed, this fills you with determination.)',
+                     '<32>{#p/human}* (PV restaurados.)'
+                  ]
                : SAVE.data.b.svr
-               ? [
-                    '<32>{#p/human}* (The area has been vacated, but the air remains fresh.)',
-                    '<32>{#p/human}* (This, of course, fills you with determination.)',
-                    '<32>{#p/human}* (PV restaurados.)'
-                 ]
-               : [
-                    '<32>{#p/human}* (The sight of weird and wonderful creatures fills you with determination.)',
-                    '<32>{#p/human}* (PV restaurados.)'
-                 ]
+                  ? [
+                     '<32>{#p/human}* (The area has been vacated, but the air remains fresh.)',
+                     '<32>{#p/human}* (This, of course, fills you with determination.)',
+                     '<32>{#p/human}* (PV restaurados.)'
+                  ]
+                  : [
+                     '<32>{#p/human}* (The sight of weird and wonderful creatures fills you with determination.)',
+                     '<32>{#p/human}* (PV restaurados.)'
+                  ]
       },
       w_mouse: {
          name: 'Outlands - Stærmite Hole',
          text: () =>
             world.population > 5 && !SAVE.data.b.svr && !world.runaway
                ? [
-                    '<32>{#p/human}* (Knowing that the stærmite will one day emerge...)',
-                    '<32>{#p/human}* (The thought fills you with determinætion.)'
-                 ]
+                  '<32>{#p/human}* (Knowing that the stærmite will one day emerge...)',
+                  '<32>{#p/human}* (The thought fills you with determinætion.)'
+               ]
                : [
-                    '<32>{#p/human}* (Even if the stærmite may never emerge again...)',
-                    '<32>{#p/human}* (The situation fills you with determinætion.)'
-                 ]
+                  '<32>{#p/human}* (Even if the stærmite may never emerge again...)',
+                  '<32>{#p/human}* (The situation fills you with determinætion.)'
+               ]
       },
       w_start: {
          name: 'Crash Site',

@@ -284,7 +284,7 @@ export default {
                   k = 'dark_death'; // NO-TRANSLATE
 
                   m = music.youscreweduppal;
-
+                  
                   addB([
                      '<32>{#s/phone}{#p/event}* 铃铃，铃铃...',
                      '<26>{#p/undyne}{#f/7}* 小混蛋，听着！',
@@ -314,7 +314,7 @@ export default {
                      '<25>{#p/undyne}{#f/17}* ...',
                      '<25>{#p/alphys}{#f/18}* ...\n* 合你心意吧！？',
                      '<25>{#p/undyne}{#f/9}* 切。\n* 你听听自己在说啥。',
-                     '<25>{#p/undyne}{#f/11}* 还“没问题吧？”，\n  你说呢？',
+                     '<25>{#p/undyne}{#f/11}* 还“合你心意吧”，\n  你说呢？',
                      '<25>{#p/alphys}{#f/20}* ...',
                      "<25>{#p/undyne}{#f/8}* 那当然是...\n  超合我心意啦！",
                      '<25>{#p/undyne}{#f/7}* 我接着说，\n  灵魂还在，\n  所以在得到它们后...',
@@ -325,7 +325,7 @@ export default {
                      '<25>{#p/undyne}{#f/12}* 只是，\n  怎么定位到你的坐标呢？',
                      '<25>{#p/alphys}{#f/15}* 嘿！\n  我-我有办法。',
                      '<25>{#p/alphys}{#f/16}* 很简单。\n* 那人接通电话的一刻，\n  就暴露了自己的坐标。',
-
+                     
                   ]);
                   if (!dpapyrus) {
                      addB([
@@ -371,7 +371,7 @@ export default {
                } else {
                   k = 'dark_undyne'; // NO-TRANSLATE
 
-
+                  
                   addA([
                      '<32>{#s/phone}{#p/event}* 铃铃，铃铃...',
                      '<25>{#p/alphys}{#f/33}* ...嘘，应该是这个号，\n  打通了。',
@@ -411,7 +411,7 @@ export default {
                      "<32>{#p/basic}{@fill=#ffbbdc}* ...但希望还是破灭了。",
                      "<25>{#p/alphys}{#f/20}* 是的。\n* 灵魂没了，希望也没了。",
                      '<25>{#p/alphys}{#f/21}* Undyne，操，\n  真是个极品，\n  智商二百五的极品。',
-
+                     
                      '<25>{#p/alphys}{#f/22}* 她那鱼籽大的脑子\n  根本不知道怎么储存\n  人类灵魂。',
                      "<32>{#p/basic}{@fill=#d4bbff}* 结果，六个灵魂全...",
                      '<25>{#p/alphys}{#f/24}* ...碎了。',
@@ -425,7 +425,7 @@ export default {
                      "<25>{#p/alphys}{#f/28}* 别小瞧我捡垃圾的技术。\n* 淦，我可是一把手呢。",
                      "<32>{#p/basic}{@fill=#ffbbdc}* 这可是大实话。",
                      '<25>{#p/alphys}{#f/10}* 生活这么自在，\n  谁稀罕什么“打破力场”呢？',
-
+                     
                      "<25>{#p/alphys}{#f/18}* 没事捡捡垃圾...\n  不比成天琢磨“逃出去”\n  轻松多了？",
                      '<32>{#p/basic}{@fill=#ffbbdc}* 不过，\n  档案里人类的内幕\n  还没几个人知道。',
                      "<32>{#p/basic}{@fill=#d4bbff}* 是呢。\n* 她糟蹋灵魂的事\n  都快成最高机密了。",
@@ -496,7 +496,7 @@ export default {
                if (!dpapyrus || royals === 1) {
                   k = 'dark_alphys'; // NO-TRANSLATE
 
-
+                  
                   addA([
                      '<32>{#s/phone}{#p/event}* 铃铃，铃铃...',
                      '<25>{#p/sans}{#f/0}* heya.',
@@ -1113,7 +1113,7 @@ export default {
                   k = 'dark_mew'; // NO-TRANSLATE
 
                   m = music.gameshow;
-
+                  
                   addA([
                      '<32>{#s/phone}{#p/event}* 铃铃，铃铃...',
                      '<25>{#p/sans}{#f/0}* heya.',
@@ -1156,7 +1156,7 @@ export default {
                      '<25>{#p/sans}{#f/0}* huh?',
                      "<25>{#p/alphys}{#f/18}* The game's all in your hands now!",
                      '<25>{#p/sans}{#f/3}* ... i see.',
-
+                     
                      '<25>{#p/sans}{#f/0}* i guess i better get out there, then.',
                      '<25>{#p/alphys}{#f/6}* That would probably be a good idea.',
                      '<25>{#p/alphys}{#f/23}* For all our sakes.',
@@ -1174,7 +1174,7 @@ export default {
                   k = 'dark_charles'; // NO-TRANSLATE
 
                   m = music.letsmakeabombwhydontwe;
-
+                  
                   addA([
                      '<32>{#s/phone}{#p/event}* 铃铃，铃铃...',
                      '<25>{#p/sans}{#f/0}* heya.',
@@ -1220,7 +1220,7 @@ export default {
                   ]);
                }
             } else {
-
+               
                k = 'dark_generic'; // NO-TRANSLATE
 
                addA([
@@ -1385,7 +1385,7 @@ export default {
          } else if (SAVE.data.b.ubershortcut || world.bad_lizard > 1) {
             k = 'dark_aborted'; // NO-TRANSLATE
 
-
+            
             if (dmettaton) {
                addA([
                   '<32>{#s/phone}{#p/event}* 铃铃，铃铃...',
@@ -1610,7 +1610,7 @@ export default {
             k = 'light_ultra'; // NO-TRANSLATE
 
             m = music.sansdate;
-
+            
             addA([
                '<32>{#s/phone}{#p/event}* 铃铃，铃铃...',
                '<25>{#p/sans}{#f/0}* heya.',
@@ -1771,7 +1771,7 @@ export default {
             if (!dundyne) {
                k = 'light_undyne'; // NO-TRANSLATE
 
-
+               
                addA([
                   '<32>{#s/phone}{#p/event}* 铃铃，铃铃...',
                   '<25>{#p/alphys}{#f/4}* H-hiya...',
@@ -2133,7 +2133,7 @@ export default {
                if (SAVE.data.b.w_state_lateleave) {
                   k = 'light_runaway'; // NO-TRANSLATE
 
-
+                  
                   addA([
                      '<32>{#s/phone}{#p/event}* 铃铃，铃铃...',
                      '<25>{#p/toriel}{#f/1}* Hello?',
@@ -2353,7 +2353,7 @@ export default {
                } else {
                   k = 'light_toriel'; // NO-TRANSLATE
 
-
+                  
                   if (SAVE.data.n.state_wastelands_toriel === 0) {
                      addA([
                         '<32>{#s/phone}{#p/event}* 铃铃，铃铃...',
@@ -2536,7 +2536,7 @@ export default {
                k = 'light_dog'; // NO-TRANSLATE
 
                m = music.dogsong;
-
+               
                addA([
                   '<32>{#s/phone}{#p/event}* 铃铃，铃铃...',
                   '<32>{#s/bark}{#p/event}* 汪汪！\n{#s/bark}* 汪汪！',
@@ -2761,7 +2761,7 @@ export default {
                k = 'light_muffet'; // NO-TRANSLATE
 
                m = music.spiderboss;
-
+               
                addA([
                   '<32>{#s/phone}{#p/event}* 铃铃，铃铃...',
                   '<32>{#p/basic}{#s/spiderLaugh}* Oh, hello, dearie~',
@@ -2979,7 +2979,7 @@ export default {
                k = 'light_papyrus'; // NO-TRANSLATE
 
                m = music.papyrus;
-
+               
                addA([
                   '<32>{#s/phone}{#p/event}* 铃铃，铃铃...',
                   '<18>{#p/papyrus}{#f/4}IS THIS THING EVEN WORKING?',
@@ -3109,7 +3109,7 @@ export default {
                k = 'light_sans'; // NO-TRANSLATE
 
                m = music.papyrusLow;
-
+               
                addA([
                   '<32>{#s/phone}{#p/event}* 铃铃，铃铃...',
                   '<25>{#p/sans}{#f/0}* heya.',
@@ -3169,7 +3169,7 @@ export default {
          } else {
             k = 'light_generic'; // NO-TRANSLATE
 
-
+            
             addA([
                '<32>{#s/phone}{#p/event}* 铃铃，铃铃...',
                '<25>{#p/alphys}{#f/8}* Hiya...',
@@ -5515,7 +5515,7 @@ export default {
       mkWeaken3a: ['<32>{#p/kidding}* 呃...'],
       mkWeaken3b: ['<32>{#p/kidding}* 嗯...'],
       mkWeaken3c: ['<32>{#p/kidding}* 呃...'],
-
+      
       mkTurnActRand1: (opponent: string) =>
          opponent === 'muffet' // NO-TRANSLATE
 
@@ -5543,7 +5543,7 @@ export default {
                      ['<32>{#p/story}* 怪物小孩愤怒地指着$(x)。'],
                      ['<32>{#p/story}* 怪物小孩绕着#(x)来回踱步，\n  准备下手。']
                   ],
-
+      
       mkTurnActRand2: (opponent: string) =>
          opponent === 'muffet' // NO-TRANSLATE
 
@@ -5578,7 +5578,7 @@ export default {
                         ["<32>{#p/story}* 怪物小孩告诉$(x)，\n  会尽全力帮助它。"],
                         ['<32>{#p/story}* 怪物小孩站到了$(x)上面。']
                      ],
-
+      
       mkTurnActRand3: (opponent: string) =>
          opponent === 'muffet' // NO-TRANSLATE
 
@@ -5613,7 +5613,7 @@ export default {
                         ['<32>{#p/story}* 怪物小孩表演了倒立，\n  $(x)惊呆了。'],
                         ['<32>{#p/story}* 怪物小孩在原地打转，\n  看得$(x)不明所以。']
                      ],
-
+      
       mkTurnActRand4: (opponent: string) =>
          opponent === 'muffet' // NO-TRANSLATE
 

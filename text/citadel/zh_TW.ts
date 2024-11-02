@@ -22,18 +22,18 @@ export default {
             '<32>{#p/human}* （你大聲呼救，但誰也沒有來。）',
             '<32>{#p/human}* （你別無所求，只希望能徹底解脫。）'
          ],
-         [ '<32>{#p/human}* （...）', '<32>{#p/human}* （你深吸一口氣，\n  準備迎接最終的結局。）' ],
-         [ '<32>{#p/human}* （...）', '<32>{#p/human}* （你已做好準備。）' ]
+         ['<32>{#p/human}* （...）', '<32>{#p/human}* （你深吸一口氣，\n  準備迎接最終的結局。）'],
+         ['<32>{#p/human}* （...）', '<32>{#p/human}* （你已做好準備。）']
       ],
       hypertext: {
          count: '$(x)秒後重啟',
-         death1: [ '{#p/human}（你深吸了一口氣。）', "（你充滿了決心。）" ],
+         death1: ['{#p/human}（你深吸了一口氣。）', "（你充滿了決心。）"],
          death2: [
             "{#p/human}{#v/1}{@fill=#42fcff}失敗了沒關係...",
             '{@fill=#42fcff}沉住氣，再來一次吧...'
          ],
-         death3: [ '{#p/human}{#v/2}{@fill=#ff993d}可別在這時候就放棄。', '{@fill=#ff993d}起來，繼續作戰！' ],
-         death4: [ "{#p/human}{#v/3}{@fill=#003cff}相信自己能行的。", "{@fill=#003cff}別退縮！" ],
+         death3: ['{#p/human}{#v/2}{@fill=#ff993d}可別在這時候就放棄。', '{@fill=#ff993d}起來，繼續作戰！'],
+         death4: ["{#p/human}{#v/3}{@fill=#003cff}相信自己能行的。", "{@fill=#003cff}別退縮！"],
          death5: [
             '{#p/human}{#v/4}{@fill=#d535d9}活過這輪不成問題...',
             '{@fill=#d535d9}繼續前進。'
@@ -42,7 +42,7 @@ export default {
             "{#p/human}{#v/5}{@fill=#00c000}整個世界都指望你了...",
             '{@fill=#00c000}相信自己！'
          ],
-         death7: [ "{#p/human}{#v/6}{@fill=#faff29}他早晚會敗下陣來。" ],
+         death7: ["{#p/human}{#v/6}{@fill=#faff29}他早晚會敗下陣來。"],
          cyan1: [
             '<99>{*}{#p/human}{#v/6}{@fill=#faff29}某個迷失靈魂呼喚著你。',
             '<99>{*}{@fill=#faff29}依靠{@mystify=耐心而忖恧㤈耏寸}耐心{@mystify=}，將會有望逃脫。',
@@ -122,13 +122,13 @@ export default {
          file6saved: '存檔6 已儲存',
          file6loaded: '存檔6 已載入'
       },
-      noequip: [ '<32>{#p/human}* （你打算不這麼做。）' ],
+      noequip: ['<32>{#p/human}* （你打算不這麼做。）'],
       genotext: {
          monologue: [
             (re: boolean) => [
                ...(re
-                  ? [ '<26>{#p/asriel2}{#f/13}* 我之前說到...' ]
-                  : [ "<25>{#p/asriel2}{#f/13}* 其實..." ]),
+                  ? ['<26>{#p/asriel2}{#f/13}* 我之前說到...']
+                  : ["<25>{#p/asriel2}{#f/13}* 其實..."]),
                "<25>{#f/16}* ...我早就親手毀滅過\n  這該死的前哨站。",
                "<25>{#f/15}* 一次又一次，一次又一次...\n* 呵，我早就記不清\n  自己看過多少條時間軸了。",
                '<25>{#f/23}* 可是...',
@@ -145,7 +145,7 @@ export default {
             ],
             (re: boolean) => [
                ...(re
-                  ? [ "<25>{#p/asriel2}{#f/6}* 之前說到，再度甦醒後，\n  星星身的我再也無法\n  回歸正常生活了。" ]
+                  ? ["<25>{#p/asriel2}{#f/6}* 之前說到，再度甦醒後，\n  星星身的我再也無法\n  回歸正常生活了。"]
                   : []),
                "<25>{#p/asriel2}{#f/15}* 我不僅失去四肢，\n  更失去了「愛與被愛」的能力。",
                '<25>{#f/23}* 我很害怕，我很憂慮。\n* 我別無所求，\n  只希望能讓一切恢復正常。',
@@ -156,11 +156,11 @@ export default {
             (re: boolean) => [
                ...(re
                   ? [
-                       "<25>{#p/asriel2}{#f/13}* 之前說到，再度甦醒後，\n  我變成了一顆星星，\n  再也無法回歸正常生活了。",
-                       "<25>{#f/13}* 既然父親救不了我...",
-                       '<25>{#f/16}* 那我就去找母親了。'
-                    ]
-                  : [ '<26>{#p/asriel2}{#f/16}* 父親救不了我，\n  那就去找母親吧。' ]),
+                     "<25>{#p/asriel2}{#f/13}* 之前說到，再度甦醒後，\n  我變成了一顆星星，\n  再也無法回歸正常生活了。",
+                     "<25>{#f/13}* 既然父親救不了我...",
+                     '<25>{#f/16}* 那我就去找母親了。'
+                  ]
+                  : ['<26>{#p/asriel2}{#f/16}* 父親救不了我，\n  那就去找母親吧。']),
                "<25>{#f/13}* 我心想...\n  找她肯定靠譜。",
                "<25>{#f/17}* 以前，她那麼關心我...",
                "<25>{#f/23}* 所以，世上最有能力\n  解救我的人，就是她。"
@@ -168,10 +168,10 @@ export default {
             (re: boolean) => [
                ...(re
                   ? [
-                       "<25>{#p/asriel2}{#f/13}* 之前說到，再度甦醒後，\n  我變成了一顆星星，\n  再也無法回歸正常生活了。",
-                       "<26>{#f/16}* 我把希望寄託於我的父母，\n  但他們啥都沒幫上。"
-                    ]
-                  : [ "<25>{#p/asriel2}{#f/16}* ...但她也失敗了。" ]),
+                     "<25>{#p/asriel2}{#f/13}* 之前說到，再度甦醒後，\n  我變成了一顆星星，\n  再也無法回歸正常生活了。",
+                     "<26>{#f/16}* 我把希望寄託於我的父母，\n  但他們啥都沒幫上。"
+                  ]
+                  : ["<25>{#p/asriel2}{#f/16}* ...但她也失敗了。"]),
                "<25>{#f/13}* 一想到自己要永遠\n  當顆星星...",
                '<25>{#f/13}* 一想到誰都救不了自己...',
                '<26>{#f/23}* 我就想馬上去死。',
@@ -183,9 +183,9 @@ export default {
             (re: boolean) => [
                ...(re
                   ? [
-                       '<25>{#p/asriel2}{#f/10}* 我們剛才說到哪了？',
-                       '<26>{#f/6}* ...想起來了。\n* 我又回到了醒來的時間點。'
-                    ]
+                     '<25>{#p/asriel2}{#f/10}* 我們剛才說到哪了？',
+                     '<26>{#f/6}* ...想起來了。\n* 我又回到了醒來的時間點。'
+                  ]
                   : []),
                "<25>{#p/asriel2}{#f/13}* 一開始，我也納悶\n  為什麼會「回來」...",
                '<25>{#f/15}* ...所以，我做了個實驗。\n  看看能不能主動回溯時間。',
@@ -199,9 +199,9 @@ export default {
             (re: boolean) => [
                ...(re
                   ? [
-                       '<25>{#p/asriel2}{#f/10}* 我們剛才說到哪了？',
-                       '<25>{#f/16}* ...想起來了。\n* 一開始，我用「時間回溯」的能力\n  幫助怪物。'
-                    ]
+                     '<25>{#p/asriel2}{#f/10}* 我們剛才說到哪了？',
+                     '<25>{#f/16}* ...想起來了。\n* 一開始，我用「時間回溯」的能力\n  幫助怪物。'
+                  ]
                   : []),
                "<25>{#p/asriel2}{#f/23}* 其實，做好事並不容易。\n* 一開始，給他們幹活\n  總要花很大的力氣。",
                '<25>{#f/15}* ...漸漸地，\n  我越做越熟練了。',
@@ -214,7 +214,7 @@ export default {
                '<25>{#f/15}* 努力做個好人。'
             ],
             (re: boolean) => [
-               ...(re ? [ '<25>{#p/asriel2}{#f/15}* 之前說到，\n  一開始，我努力幫助別人。' ] : []),
+               ...(re ? ['<25>{#p/asriel2}{#f/15}* 之前說到，\n  一開始，我努力幫助別人。'] : []),
                '<25>{#p/asriel2}{#f/16}* 但很快，\n  我發現不對勁。',
                '<25>{#f/15}* 無論重置多少次...',
 '<25>{#f/15}* 他們的回答永遠是那幾句，\n  故事的結局永遠是那一種...',
@@ -227,7 +227,7 @@ export default {
             ],
             (re: boolean) => [
                ...(re
-                  ? [ "<25>{#p/asriel2}{#f/6}* 之前說到，\n  我當老好人當膩了。" ]
+                  ? ["<25>{#p/asriel2}{#f/6}* 之前說到，\n  我當老好人當膩了。"]
                   : []),
                "<25>{#p/asriel2}{#f/4}* 不過，一開始\n  我不想對他們太壞。",
                '<25>{#f/3}* 說點狠話，罵罵人，\n  就差不多了。',
@@ -238,7 +238,7 @@ export default {
                "<25>{#f/9}* 那段時間，\n  我最多只是耍耍嘴皮子。\n* 從沒動過手，更沒殺過人。"
             ],
             (re: boolean) => [
-               ...(re ? [ "<26>{#p/asriel2}{#f/4}* 之前說到，\n  我開始罵他們，懟他們了。" ] : []),
+               ...(re ? ["<26>{#p/asriel2}{#f/4}* 之前說到，\n  我開始罵他們，懟他們了。"] : []),
                '<25>{#p/asriel2}{#f/15}* 「言語攻擊」玩膩了，\n  我又想... \n  要不試試動手揍人？',
                "<25>{#f/16}* 沒什麼大不了的，\n  只要別失手打死了就行。",
                "<25>{#f/10}* 受點傷，算的了什麼？\n  怪物有的是辦法療傷。",
@@ -247,7 +247,7 @@ export default {
 '<25>{#f/3}* 那一刻，\n  我才知道自己多麼天真。'
             ],
             (re: boolean) => [
-               ...(re ? [ "<26>{#p/asriel2}{#f/3}* 之前說到，我感覺\n  「言語攻擊」沒什麼意思，\n  想給他們來點「物理攻擊」。" ] : []),
+               ...(re ? ["<26>{#p/asriel2}{#f/3}* 之前說到，我感覺\n  「言語攻擊」沒什麼意思，\n  想給他們來點「物理攻擊」。"] : []),
                '<25>{#p/asriel2}{#f/13}* 可能是衝昏了頭腦...\n  我玩了點「新花樣」。',
                '<25>{#f/15}* 我用魔法，把親生母親\n  吊了起來。\n* 越勒越緊... 越勒越緊...',
                '<25>{#f/16}* ...',
@@ -262,10 +262,10 @@ export default {
             (re: boolean) => [
                ...(re
                   ? [
-                       "<26>{#p/asriel2}{#f/15}* 之前說到，\n  第一次殺人後，\n  惡夢般的景象久久揮之不去。",
-                       '<25>{#f/16}* 但有了第一次，\n  就會有第二次，第三次...'
-                    ]
-                  : [ '<25>{#p/asriel2}{#f/16}* 有了第一次，\n  就會有第二次，第三次...' ]),
+                     "<26>{#p/asriel2}{#f/15}* 之前說到，\n  第一次殺人後，\n  惡夢般的景象久久揮之不去。",
+                     '<25>{#f/16}* 但有了第一次，\n  就會有第二次，第三次...'
+                  ]
+                  : ['<25>{#p/asriel2}{#f/16}* 有了第一次，\n  就會有第二次，第三次...']),
                '<26>{#f/15}* 「萬事開頭難。」\n* 殺了一次人，\n  就能下得去手了。',
                '<26>{#f/15}* 很快，情況變成這樣：\n  我心情不好，殺個人找安慰。\n  我想找樂子，殺個人爽一把。',
                '<26>{#f/16}* 第一次殺人純粹只是意外。\n  現在卻一發不可收拾。',
@@ -286,9 +286,9 @@ export default {
             (re: boolean) => [
                ...(re
                   ? [
-                       '<26>{#p/asriel2}{#f/16}* 之前說到，\n  我發現一切都毫無意義。',
-                       '<25>{#f/23}* 所以，在這次重置後，\n  我不再幹預時間軸。'
-                    ]
+                     '<26>{#p/asriel2}{#f/16}* 之前說到，\n  我發現一切都毫無意義。',
+                     '<25>{#f/23}* 所以，在這次重置後，\n  我不再幹預時間軸。'
+                  ]
                   : []),
                "<25>{#p/asriel2}{#f/17}* 但有了你，$(name)，\n  就不一樣了。",
                '<25>{#f/23}* 你知道嗎？有你陪著我，\n  我真的非常高興。',
@@ -305,7 +305,7 @@ export default {
          ],
          monologueX2: () => [
             '<25>{#p/asriel2}{#f/16}* ...來，握住我的手。',
-            ...(SAVE.data.b.water ? [ "<25>{#f/13}* 別擔心，杯子我幫你拿..." ] : [])
+            ...(SAVE.data.b.water ? ["<25>{#f/13}* 別擔心，杯子我幫你拿..."] : [])
          ],
          monologueX3: [
             '<25>{#p/asriel2}{#f/17}* 以前，我們就這樣\n  手牽著手，在城市漫步...',
@@ -316,30 +316,30 @@ export default {
             '<25>{#p/asriel2}{#f/16}* 景色真美。',
             ...(SAVE.flag.n.ga_asrielMonologueY < 2
                ? [
-                    "<25>{#f/13}* 但前哨站的末日\n  已經到了。",
-                    "<25>{#f/7}* $(name)，\n  那些怪物根本不懂我們。",
-                    "<25>{#f/6}* 他們還相信\n  宇宙就是個大避難所。",
-                    "<25>{#f/8}* 還天真地以為，\n  「星空之大，能容下每一個人。」",
-                    "<25>{#f/6}* 但我們倆\n  可不跟那群蠢貨一般見識。",
-                    "<25>{#f/7}* 誰也阻止不了我們。",
-                    "<25>{#f/9}* 嘻嘻。\n* 想來也是真有意思...",
-                    '<25>{#f/13}* 這種信念，\n  讓所有人疏遠我們...',
-                    '<25>{#f/16}* ...卻也讓我們的紐帶\n  愈加牢固。',
-                    '<26>{#f/17}* 聽著，$(name)。\n  只要我們上了飛船，\n  離開這鬼地方...',
-                    "<25>{#f/17}* 就能永遠在一起了。",
-                    "<25>{#f/23}* 這就是天意。"
-                 ]
+                  "<25>{#f/13}* 但前哨站的末日\n  已經到了。",
+                  "<25>{#f/7}* $(name)，\n  那些怪物根本不懂我們。",
+                  "<25>{#f/6}* 他們還相信\n  宇宙就是個大避難所。",
+                  "<25>{#f/8}* 還天真地以為，\n  「星空之大，能容下每一個人。」",
+                  "<25>{#f/6}* 但我們倆\n  可不跟那群蠢貨一般見識。",
+                  "<25>{#f/7}* 誰也阻止不了我們。",
+                  "<25>{#f/9}* 嘻嘻。\n* 想來也是真有意思...",
+                  '<25>{#f/13}* 這種信念，\n  讓所有人疏遠我們...',
+                  '<25>{#f/16}* ...卻也讓我們的紐帶\n  愈加牢固。',
+                  '<26>{#f/17}* 聽著，$(name)。\n  只要我們上了飛船，\n  離開這鬼地方...',
+                  "<25>{#f/17}* 就能永遠在一起了。",
+                  "<25>{#f/23}* 這就是天意。"
+               ]
                : [
-                    '<25>{#f/13}* 該說的我都說了。',
-                    "<25>{#f/17}* 繼續幹正事吧。"
-                 ])
+                  '<25>{#f/13}* 該說的我都說了。',
+                  "<25>{#f/17}* 繼續幹正事吧。"
+               ])
          ],
-         monologueX5: [ '<25>{#p/asriel2}{#f/17}* 你來帶路。' ],
+         monologueX5: ['<25>{#p/asriel2}{#f/17}* 你來帶路。'],
          monologueY: [
             "<25>{#p/asriel2}{#f/16}* ...我不想廢話。",
             "<26>{#f/13}* 為什麼來這，要幹什麼，\n  你比我都清楚。"
          ],
-         afterfight1: [ '<25>{#p/asriel2}{#f/8}* ...真費勁。' ],
+         afterfight1: ['<25>{#p/asriel2}{#f/8}* ...真費勁。'],
          afterfight2: () =>
             [
                [
@@ -350,19 +350,19 @@ export default {
                   "<26>{#f/16}* 但說實話...",
                   "<25>{#f/13}* 狠不下心，不敢動手，\n  才是我熟悉的Asgore。\n* 你說是吧？"
                ],
-               [ '<25>{#p/asriel2}{#f/6}* 等我一下。' ]
+               ['<25>{#p/asriel2}{#f/6}* 等我一下。']
             ][Math.min(SAVE.flag.n.ga_asriel56++, 1)],
          afterfight3: () => [
             '<25>{#p/asriel2}{#f/16}* 核心即將熔毀。',
             ...(SAVE.flag.n.ga_asriel57++ < 1
                ? [
-                    '<25>{#f/5}* 現在，我們只需要\n  找到一艘特殊飛船...',
-                    "<25>{#f/9}* 在飛船上，把我們倆的靈魂\n  連接在一起，\n* 這樣，我們就能衝出力場。"
-                 ]
+                  '<25>{#f/5}* 現在，我們只需要\n  找到一艘特殊飛船...',
+                  "<25>{#f/9}* 在飛船上，把我們倆的靈魂\n  連接在一起，\n* 這樣，我們就能衝出力場。"
+               ]
                : [])
          ],
-         afterfight4: [ '<25>{#p/asriel2}{#f/3}* 跟我走。' ],
-         afterfight5a: [ '<25>{#p/asriel2}{#f/5}* 我最親愛的Asgore！', '<25>{#f/5}* 最近活得滋潤不？' ],
+         afterfight4: ['<25>{#p/asriel2}{#f/3}* 跟我走。'],
+         afterfight5a: ['<25>{#p/asriel2}{#f/5}* 我最親愛的Asgore！', '<25>{#f/5}* 最近活得滋潤不？'],
          afterfight5b: [
             '<25>{#p/asgore}{#f/5}* 比你想得還舒服。',
             "<25>{#p/asriel2}{#f/6}* 聽好了，你已經無處可逃。\n* 所以別跟我耍什麼花招。"
@@ -371,73 +371,73 @@ export default {
             '<25>{#p/asgore}{#f/1}* 我沒想和你耍花招啊，\n  Asriel。',
             '<25>{#p/asgore}{#f/2}* 我也知道，離死不遠了。'
          ],
-         afterfight7: [ '<25>{#p/asriel2}{#f/10}* 我要把一切都炸成灰燼了，\n  臨死之前，有什麼遺言？' ],
+         afterfight7: ['<25>{#p/asriel2}{#f/10}* 我要把一切都炸成灰燼了，\n  臨死之前，有什麼遺言？'],
          afterfight8: [
             '<25>{#p/asriel2}{#f/15}* 沒有？',
             '<25>{#f/7}* 行。',
             "<25>{#f/6}* 那我們也不勞煩您嘞。",
             '<25>{#f/8}* 現在，把門禁卡\n  給我交出來。'
          ],
-         afterfight10: [ '<25>{#p/asriel2}{#f/1}* 跟我走，$(name)。', "<25>{#f/2}* 我真是受夠這死地方了。" ],
+         afterfight10: ['<25>{#p/asriel2}{#f/1}* 跟我走，$(name)。', "<25>{#f/2}* 我真是受夠這死地方了。"],
          afterfight11: [
             '<25>{#p/asgore}{#f/5}* $(name)...？',
             '<25>{#p/asgore}{#f/6}* ...喔。\n* Asriel，一路順風喔。'
          ],
-         afterfight12: [ '<25>{#p/asriel2}{#f/16}* $(name)，別管他。\n* 這死地方愛咋咋地，\n  跟咱們一分錢關係都沒有。' ],
-         afterfight13: [ '<25>{#p/asriel2}{#f/17}* 我只在乎你。' ],
+         afterfight12: ['<25>{#p/asriel2}{#f/16}* $(name)，別管他。\n* 這死地方愛咋咋地，\n  跟咱們一分錢關係都沒有。'],
+         afterfight13: ['<25>{#p/asriel2}{#f/17}* 我只在乎你。'],
          coreboomA1: [
             '<18>{#p/papyrus}{#f/5}有人嗎？\n有人嗎？',
             "<18>{#p/papyrus}{#f/5}我想找到那個人類，\n就來這了，可是..."
          ],
-         coreboomA2: [ '<18>{#p/papyrus}{#f/8}不要...！' ],
-         coreboomA3: [ '<32>{#p/basic}* Papyrus？{%40}' ],
-         coreboomA4: [ "<18>{#p/papyrus}{#f/4}我有不好的預感...{%40}" ],
-         coreboomA5: [ '<32>{#p/basic}* ...有人嗎？{%40}' ],
-         coretext1: [ '<32>{#p/basic}{#s/spiderLaugh}* 穩住啊，親愛的~' ],
-         coretext2: [ '<32>{#p/basic}{#s/spiderLaugh}* 嘎啊...', '<32>{#p/basic}* 一起再加把勁~' ],
-         coreboomB1: [ '<32>{#p/basic}{#s/spiderLaugh}* 啊！', '<32>{#p/basic}* 不要這樣啊~' ],
-         coreboomB2: [ '<32>{#p/basic}* 不要哪樣？{%40}' ],
-         coreboomB3: [ '<32>{#p/basic}{#s/spiderLaugh}* 該死。{%40}' ],
-         coretext3: [ '<18>{#p/papyrus}{#f/9}要幫忙嗎？' ],
-         coretext4a: [ '<32>{#p/basic}{#s/spiderLaugh}* Papyrus！', "<32>{#p/basic}* 你還活著~" ],
-         coretext4b: [ '<18>{#p/papyrus}{#f/6}我一塊肉都沒少！' ],
-         coretext5a: [ '<18>{|}{#p/papyrus}{#f/4}啊不對，應該說- {%}' ],
+         coreboomA2: ['<18>{#p/papyrus}{#f/8}不要...！'],
+         coreboomA3: ['<32>{#p/basic}* Papyrus？{%40}'],
+         coreboomA4: ["<18>{#p/papyrus}{#f/4}我有不好的預感...{%40}"],
+         coreboomA5: ['<32>{#p/basic}* ...有人嗎？{%40}'],
+         coretext1: ['<32>{#p/basic}{#s/spiderLaugh}* 穩住啊，親愛的~'],
+         coretext2: ['<32>{#p/basic}{#s/spiderLaugh}* 嘎啊...', '<32>{#p/basic}* 一起再加把勁~'],
+         coreboomB1: ['<32>{#p/basic}{#s/spiderLaugh}* 啊！', '<32>{#p/basic}* 不要這樣啊~'],
+         coreboomB2: ['<32>{#p/basic}* 不要哪樣？{%40}'],
+         coreboomB3: ['<32>{#p/basic}{#s/spiderLaugh}* 該死。{%40}'],
+         coretext3: ['<18>{#p/papyrus}{#f/9}要幫忙嗎？'],
+         coretext4a: ['<32>{#p/basic}{#s/spiderLaugh}* Papyrus！', "<32>{#p/basic}* 你還活著~"],
+         coretext4b: ['<18>{#p/papyrus}{#f/6}我一塊肉都沒少！'],
+         coretext5a: ['<18>{|}{#p/papyrus}{#f/4}啊不對，應該說- {%}'],
          coretext5b: [
             '<32>{#p/basic}{#s/spiderLaugh}* Papyrus，快去喊些幫手，\n  把系統改回手動控制！'
          ],
-         coreboomC1: [ "<18>{#p/papyrus}{#f/5}恐怕...\n這裡除了我們，沒別人了。" ],
-         coreboomC2: [ '<18>{#p/papyrus}{#f/8}不要...！' ],
-         coreboomC3: [ "<32>{#p/basic}{#s/spiderLaugh}* 撐不住了。{%40}" ],
-         coretext6: [ "<32>{#p/basic}* 我馬上去叫那些機械師！" ],
-         coretext7: [ '<18>{#p/papyrus}{#f/6}好，好，快去叫！' ],
-         coreboomD1: [ '<32>{#p/basic}* ...', '<32>{#p/basic}* 沒人接。' ],
-         coreboomD2: [ '<32>{#p/basic}* ...', "<32>{#p/basic}* 他們說，人手不足？！" ],
-         coreboomD3: [ '<18>{#p/papyrus}{#f/5}可惡。{%40}' ],
-         coretext8: [ '<32>{#p/basic}* ...', "<32>{#p/basic}* 改回手動控制了！" ],
-         coretext9: [ '<32>{#p/basic}{#s/spiderLaugh}* 太好了~' ],
-         coretext10: [ '<32>{#p/basic}* 快好了...' ],
-         coretext11: [ '<32>{#p/basic}{#s/spiderLaugh}* 成功啦~' ],
-         coretext12a: [ '<18>{#p/papyrus}{#f/0}我們成功了嗎？！？！' ],
-         coretext12b: [ '<32>{#p/basic}{#s/spiderLaugh}* 啊呼呼...\n  還得有人進入控制臺\n  內部操控~' ],
-         coreboom12c: [ "<32>{#p/basic}* 看我幹什麼！\n* 我就是個人偶！" ],
-         coreboom12d: [ '<32>{#p/basic}{#s/spiderLaugh}* 而且是一個在特戰隊裡\n  待過的人偶~' ],
-         coreboom12e: [ '<32>{#p/basic}* ...那都什麼陳年舊事了。' ],
-         coretext13: [ "<32>{#p/napstablook}* 讓我來吧" ],
-         coretext14a: [ '<18>{#p/papyrus}{#f/1}【你】從哪冒出來的？？？' ],
+         coreboomC1: ["<18>{#p/papyrus}{#f/5}恐怕...\n這裡除了我們，沒別人了。"],
+         coreboomC2: ['<18>{#p/papyrus}{#f/8}不要...！'],
+         coreboomC3: ["<32>{#p/basic}{#s/spiderLaugh}* 撐不住了。{%40}"],
+         coretext6: ["<32>{#p/basic}* 我馬上去叫那些機械師！"],
+         coretext7: ['<18>{#p/papyrus}{#f/6}好，好，快去叫！'],
+         coreboomD1: ['<32>{#p/basic}* ...', '<32>{#p/basic}* 沒人接。'],
+         coreboomD2: ['<32>{#p/basic}* ...', "<32>{#p/basic}* 他們說，人手不足？！"],
+         coreboomD3: ['<18>{#p/papyrus}{#f/5}可惡。{%40}'],
+         coretext8: ['<32>{#p/basic}* ...', "<32>{#p/basic}* 改回手動控制了！"],
+         coretext9: ['<32>{#p/basic}{#s/spiderLaugh}* 太好了~'],
+         coretext10: ['<32>{#p/basic}* 快好了...'],
+         coretext11: ['<32>{#p/basic}{#s/spiderLaugh}* 成功啦~'],
+         coretext12a: ['<18>{#p/papyrus}{#f/0}我們成功了嗎？！？！'],
+         coretext12b: ['<32>{#p/basic}{#s/spiderLaugh}* 啊呼呼...\n  還得有人進入控制臺\n  內部操控~'],
+         coreboom12c: ["<32>{#p/basic}* 看我幹什麼！\n* 我就是個人偶！"],
+         coreboom12d: ['<32>{#p/basic}{#s/spiderLaugh}* 而且是一個在特戰隊裡\n  待過的人偶~'],
+         coreboom12e: ['<32>{#p/basic}* ...那都什麼陳年舊事了。'],
+         coretext13: ["<32>{#p/napstablook}* 讓我來吧"],
+         coretext14a: ['<18>{#p/papyrus}{#f/1}【你】從哪冒出來的？？？'],
          coretext14b: [
             '<32>{#p/napstablook}* 對不起...\n* 沒時間解釋了...',
             '<32>* 表親，保重...',
             '<32>* 好嗎？'
          ],
-         coretext15: [ '<32>{*}{#p/basic}{#s/spiderLaugh}* 你在幹什麼~{%40}' ],
-         coretext16: [ "<32>{*}{#p/basic}* 不... 不！\n* ...我不想再失去親人了！{%40}" ],
-         coretext17: [ '<32>{#p/napstablook}{*}* 我明白了...', '<32>* 我明白到底為什麼\n  不穩定了。' ],
+         coretext15: ['<32>{*}{#p/basic}{#s/spiderLaugh}* 你在幹什麼~{%40}'],
+         coretext16: ["<32>{*}{#p/basic}* 不... 不！\n* ...我不想再失去親人了！{%40}"],
+         coretext17: ['<32>{#p/napstablook}{*}* 我明白了...', '<32>* 我明白到底為什麼\n  不穩定了。'],
          coretext18: [
             "<33>{*}{#p/napstablook}* 應該就是這個原因...",
             '<32>{*}* 重設命令執行路徑就行。',
             '<32>{*}* 快點啊...'
          ],
-         coretext19: [ '<32>{#p/napstablook}* ...', '<32>{#p/napstablook}* 成功了...' ],
+         coretext19: ['<32>{#p/napstablook}* ...', '<32>{#p/napstablook}* 成功了...'],
          coretext20: [
             '<25>{#p/asgore}{#f/6}* 怎麼樣了？',
             '<18>{#p/papyrus}{#f/0}ASGORE！我們成功了！',
@@ -445,7 +445,7 @@ export default {
             '<32>{#p/basic}* ...我的表親，Blooky，它...',
             '<18>{#p/papyrus}{#f/5}人偶的表親做了件\n很了不起的事。'
          ],
-         coretext21: [ '<25>{#p/asgore}{#f/1}* 你叫什麼名字？' ],
+         coretext21: ['<25>{#p/asgore}{#f/1}* 你叫什麼名字？'],
          coretext22: [
             '<32>{#p/basic}* 是說我嗎？',
             "<32>* 嗯...\n* 呃，現在我應該沒有名字了。",
@@ -455,8 +455,8 @@ export default {
             '<25>{#p/asgore}{#f/1}* 呃，人偶... 聽我說。\n* 你很痛苦，大夥也都一樣。',
             '<25>{#f/2}* 今天，我們都失去了至親。'
          ],
-         coretext23b1: [ '<32>{#p/basic}{#s/spiderLaugh}* 當然，我可沒失去喔~' ],
-         coretext23b2: [ '<32>{#p/basic}{#s/spiderLaugh}* ...我不是那個意思。\n  我跟大夥關係都蠻好啦...' ],
+         coretext23b1: ['<32>{#p/basic}{#s/spiderLaugh}* 當然，我可沒失去喔~'],
+         coretext23b2: ['<32>{#p/basic}{#s/spiderLaugh}* ...我不是那個意思。\n  我跟大夥關係都蠻好啦...'],
          coretext24a: [
             "<18>{#p/papyrus}{#f/5}天哪...\n要是那人類沒饒恕我，\n我...",
             '<32>{#p/basic}* 人類饒恕你了？\n* 對，那人也饒恕我了...',
@@ -464,7 +464,7 @@ export default {
             '<18>{#p/papyrus}{#f/0}...喔，對了！\n還有核心的員工！',
             '<18>{#p/papyrus}{#f/0}人類肯定也\n饒恕他們了！'
          ],
-         coretext24b: [ '<25>{#p/asgore}{#f/1}* ...請問，\n  人類饒恕你們的時候，\n  Asriel在場嗎？' ],
+         coretext24b: ['<25>{#p/asgore}{#f/1}* ...請問，\n  人類饒恕你們的時候，\n  Asriel在場嗎？'],
          coretext25: [
             '<18>{#p/papyrus}{#f/9}當然不在！',
             '<32>{#p/basic}* 不在。',
@@ -475,7 +475,7 @@ export default {
             '<18>{#p/papyrus}{#f/6}...\n歸咎人類？？',
             '<18>{#p/papyrus}{#f/7}到底怎麼回事！！'
          ],
-         coretext26: [ '<18>{*}{#p/papyrus}{#f/7}ASGORE，你做了什麼？！{^40}{%}' ],
+         coretext26: ['<18>{*}{#p/papyrus}{#f/7}ASGORE，你做了什麼？！{^40}{%}'],
          coretext27a: '{*}{#p/event}{#i/3}前哨站灰飛煙滅。',
          coretext27b: '{*}{#p/event}{#i/3}前哨站倖免於難。',
          respawn0: () =>
@@ -514,19 +514,19 @@ export default {
                      '<25>{#p/asriel2}{#f/8}* 更何況，我們好不容易\n  才滅了空境那些礙事的傢伙。',
                      '<25>{#p/asriel2}{#f/7}* 不過我看你是\n  一點記性沒長。'
                   ],
-                  [ '<26>{#p/asriel2}{#f/7}* 這才多久，\n  真是累死個人。' ]
+                  ['<26>{#p/asriel2}{#f/7}* 這才多久，\n  真是累死個人。']
                ],
                [
-                  [ '<25>{#p/asriel2}{#f/4}* $(name)。\n* 算我求你了，儲存下進度吧。' ],
-                  [ '<25>{#p/asriel2}{#f/4}* $(name)。\n* 算我求你了，儲存下進度吧。' ],
-                  [ '<25>{#p/asriel2}{#f/4}* $(name)。\n* 算我求你了，儲存下進度吧。' ],
-                  [ "<25>{#p/asriel2}{#f/4}* 現在咋感覺你這麼煩呢。" ]
+                  ['<25>{#p/asriel2}{#f/4}* $(name)。\n* 算我求你了，儲存下進度吧。'],
+                  ['<25>{#p/asriel2}{#f/4}* $(name)。\n* 算我求你了，儲存下進度吧。'],
+                  ['<25>{#p/asriel2}{#f/4}* $(name)。\n* 算我求你了，儲存下進度吧。'],
+                  ["<25>{#p/asriel2}{#f/4}* 現在咋感覺你這麼煩呢。"]
                ],
                [
-                  [ '<25>{#p/asriel2}{#f/8}* 別再來了...' ],
-                  [ '<25>{#p/asriel2}{#f/8}* 別再來了...' ],
-                  [ '<25>{#p/asriel2}{#f/8}* 別再來了...' ],
-                  [ '<25>{#p/asriel2}{#f/8}* 別再來了...' ]
+                  ['<25>{#p/asriel2}{#f/8}* 別再來了...'],
+                  ['<25>{#p/asriel2}{#f/8}* 別再來了...'],
+                  ['<25>{#p/asriel2}{#f/8}* 別再來了...'],
+                  ['<25>{#p/asriel2}{#f/8}* 別再來了...']
                ]
             ][Math.min(SAVE.flag.n.ga_asrielRespawn0++, 3)][Math.floor(SAVE.flag.n._genocide_milestone_last / 2)],
          respawn1: () =>
@@ -535,8 +535,8 @@ export default {
                   "<25>{#p/asriel2}{#f/15}* 咋回來了？",
                   "<25>{#p/asriel2}{#f/16}* 大不了...\n  再殺他一次就好。"
                ],
-               [ '<25>{#p/asriel2}{#f/6}* 開玩笑嗎？' ],
-               [ '<25>{#p/asriel2}{#f/6}* ...' ]
+               ['<25>{#p/asriel2}{#f/6}* 開玩笑嗎？'],
+               ['<25>{#p/asriel2}{#f/6}* ...']
             ][Math.min(SAVE.flag.n.ga_asrielRespawn1++, 2)],
          respawn2: () =>
             [
@@ -544,8 +544,8 @@ export default {
                   "<25>{#p/asriel2}{#f/15}* 我們又回來了。\n* 呵，真是太棒了...",
                   '<25>{#p/asriel2}{#f/16}* 還行，問題不大...\n* 再來一遍吧...'
                ],
-               [ '<25>{#p/asriel2}{#f/8}* 我有點不耐煩了。' ],
-               [ '<25>{#p/asriel2}{#f/8}* ...' ]
+               ['<25>{#p/asriel2}{#f/8}* 我有點不耐煩了。'],
+               ['<25>{#p/asriel2}{#f/8}* ...']
             ][Math.min(SAVE.flag.n.ga_asrielRespawn2++, 2)],
          respawn4: () =>
             [
@@ -553,8 +553,8 @@ export default {
                   '<25>{#p/asriel2}{#f/15}* $(name)，我們馬上\n  就要把事辦成了。',
                   '<25>{#p/asriel2}{#f/16}* 這次儲存下進度，\n  行不行啊？'
                ],
-               [ '<25>{#p/asriel2}{#f/10}* ...你逗我玩呢？' ],
-               [ '<25>{#p/asriel2}{#f/10}* ...' ]
+               ['<25>{#p/asriel2}{#f/10}* ...你逗我玩呢？'],
+               ['<25>{#p/asriel2}{#f/10}* ...']
             ][Math.min(SAVE.flag.n.ga_asrielRespawn4++, 2)],
          respawn6: () =>
             [
@@ -563,13 +563,13 @@ export default {
                   '<25>{#p/asriel2}{#f/7}* 我們已經幹掉她了。',
                   '<25>{#p/asriel2}{#f/5}* 那你還回溯時間幹嘛呢？'
                ],
-               [ "<25>{#p/asriel2}{#f/7}* ...你逗我呢？" ],
-               [ '<25>{#p/asriel2}{#f/7}* ...' ]
+               ["<25>{#p/asriel2}{#f/7}* ...你逗我呢？"],
+               ['<25>{#p/asriel2}{#f/7}* ...']
             ][Math.min(SAVE.flag.n.ga_asrielRespawn6++, 2)],
          respawnWitnessA: () =>
             [
-               [ '<25>{#p/asriel2}{#f/9}* 怎麼回事？', '<25>{#p/asriel2}{#f/10}* ...誰攻擊了我們？' ],
-               [ '<25>{#p/asriel2}{#f/15}* 我們...', '<25>{#p/asriel2}{#f/10}* ...被一道電魔法擊中了？' ],
+               ['<25>{#p/asriel2}{#f/9}* 怎麼回事？', '<25>{#p/asriel2}{#f/10}* ...誰攻擊了我們？'],
+               ['<25>{#p/asriel2}{#f/15}* 我們...', '<25>{#p/asriel2}{#f/10}* ...被一道電魔法擊中了？'],
                [
                   "<25>{#p/asriel2}{#f/3}* 肯定是她，Alphys。",
                   "<25>{#p/asriel2}{#f/15}* 她竟然沒逃跑...",
@@ -579,13 +579,13 @@ export default {
          respawnWitnessB: (wit: number) =>
             wit > 0
                ? [
-                    '<25>{#p/asriel2}{#f/15}* 果然是Alphys...',
-                    '<25>{#p/asriel2}{#f/16}* 呵，有點意思。'
-                 ]
+                  '<25>{#p/asriel2}{#f/15}* 果然是Alphys...',
+                  '<25>{#p/asriel2}{#f/16}* 呵，有點意思。'
+               ]
                : [
-                    "<25>{#p/asriel2}{#f/15}* 她竟然沒逃跑...",
-                    '<25>{#p/asriel2}{#f/16}* 呵，有點意思。'
-                 ]
+                  "<25>{#p/asriel2}{#f/15}* 她竟然沒逃跑...",
+                  '<25>{#p/asriel2}{#f/16}* 呵，有點意思。'
+               ]
       },
       truetext: {
          monologue1: () => [
@@ -629,22 +629,22 @@ export default {
             "<32>* The force field isn't too far from here.",
             ...(SAVE.data.n.plot_date < 2.1
                ? [
-                    '<32>* Though, before we go...',
-                    ...(SAVE.data.n.plot_date < 1.1
-                       ? [
-                            '<32>* We should really go back to see Papyrus.',
-                            "<32>* You wouldn't want to keep him waiting at his house, would you?"
-                         ]
-                       : [
-                            '<32>* We should really go back to see Undyne.',
-                            "<32>* You wouldn't want to keep Papyrus waiting at her house, would you?"
-                         ])
-                 ]
+                  '<32>* Though, before we go...',
+                  ...(SAVE.data.n.plot_date < 1.1
+                     ? [
+                        '<32>* We should really go back to see Papyrus.',
+                        "<32>* You wouldn't want to keep him waiting at his house, would you?"
+                     ]
+                     : [
+                        '<32>* We should really go back to see Undyne.',
+                        "<32>* You wouldn't want to keep Papyrus waiting at her house, would you?"
+                     ])
+               ]
                : [
-                    "<32>* I'm sure you've had enough of my rambling, so we should probably just get going.",
-                    "<32>* Who knows.\n* Maybe it'll make sense once the force field is down.",
-                    "<32>* ...\n* We'll see."
-                 ])
+                  "<32>* I'm sure you've had enough of my rambling, so we should probably just get going.",
+                  "<32>* Who knows.\n* Maybe it'll make sense once the force field is down.",
+                  "<32>* ...\n* We'll see."
+               ])
          ],
          epilogue: [
             () => [
@@ -767,7 +767,7 @@ export default {
                "<32>* Despite being a full-on city, it's still easier to navigate than the rest of the outpost!",
                "<32>* Now isn't that something."
             ],
-            [ "<32>{#p/basic}{#npc/a}* I've never been one for mazes and strange puzzles.\n* So this really is great." ]
+            ["<32>{#p/basic}{#npc/a}* I've never been one for mazes and strange puzzles.\n* So this really is great."]
          ),
          picnic_clamguy: pager.create(
             0,
@@ -776,7 +776,7 @@ export default {
                "<32>* And unlike Aerialis, they didn't resort to weird space anomalies to make it bigger.",
                "<32>* But all that technobabble's beyond me, anyway.\n* It's just good to be here."
             ],
-            [ '<32>{#p/basic}{#npc/a}* A life free of nonsensical technical terms...\n* Peace, at last.' ]
+            ['<32>{#p/basic}{#npc/a}* A life free of nonsensical technical terms...\n* Peace, at last.']
          ),
          picnic_charles: pager.create(
             0,
@@ -786,7 +786,7 @@ export default {
                '<32>* Here, we can celebrate our amazing work!',
                '<32>* I sure do love HANGOUT!'
             ],
-            [ '<32>{#p/basic}{#npc/a}* I can tell you love it too!' ]
+            ['<32>{#p/basic}{#npc/a}* I can tell you love it too!']
          ),
          picnic_proskater: pager.create(
             0,
@@ -795,7 +795,7 @@ export default {
                '<32>* Nobody actually has to go to school, but you might be worse off without it.',
                "<32>* Whatever.\n* I guess I still don't know what I want in life."
             ],
-            [ '<32>{#p/basic}{#npc/a}* Going to parties like this all the time could be fun...' ]
+            ['<32>{#p/basic}{#npc/a}* Going to parties like this all the time could be fun...']
          ),
          picnic_papyrus: pager.create(
             0,
@@ -823,31 +823,31 @@ export default {
                '<18>{#f/9}BESIDES, THE RECIPE SPECIFIES THE SEASONING!',
                '<18>{#f/4}I HEAR IT FLOATS IN YOUR MOUTH...'
             ],
-            [ '<18>{#p/papyrus}{#f/0}{#npc/a}NOTHING TO WORRY ABOUT AT ALL.' ]
+            ['<18>{#p/papyrus}{#f/0}{#npc/a}NOTHING TO WORRY ABOUT AT ALL.']
          ),
          picnic_kidd: pager.create(
             0,
             () =>
                SAVE.data.b.f_state_kidd_betray
-                  ? [ '<25>{#p/kidd}{#f/4}{#npc/a}* Yo, uh...', '<25>{#f/4}* I think you should just leave me alone.' ]
+                  ? ['<25>{#p/kidd}{#f/4}{#npc/a}* Yo, uh...', '<25>{#f/4}* I think you should just leave me alone.']
                   : [
-                       "<25>{#p/kidd}{#f/2}{#npc/a}* I'm gonna miss this place, dude...",
-                       '<25>{#f/3}* Starton, the Foundry, Aerialis, the Citadel...',
-                       "<25>{#f/6}* At least we'll still be together on the new homeworld.",
-                       "<25>{#f/1}* I can't wait to see what it's like out there!"
-                    ],
+                     "<25>{#p/kidd}{#f/2}{#npc/a}* I'm gonna miss this place, dude...",
+                     '<25>{#f/3}* Starton, the Foundry, Aerialis, the Citadel...',
+                     "<25>{#f/6}* At least we'll still be together on the new homeworld.",
+                     "<25>{#f/1}* I can't wait to see what it's like out there!"
+                  ],
             () =>
                SAVE.data.b.f_state_kidd_betray
-                  ? [ '<25>{#p/kidd}{#f/4}{#npc/a}* ...' ]
+                  ? ['<25>{#p/kidd}{#f/4}{#npc/a}* ...']
                   : [
-                       '<25>{#p/kidd}{#f/1}{#npc/a}{#f/4}* ... oh, uh, I know you probably figured it out, but...',
-                       "<25>{#f/4}* I don't really have parents.\n* I just made them up.",
-                       "<26>{#f/3}* But we're friends now, right? So... I hope you can forgive me for that."
-                    ],
+                     '<25>{#p/kidd}{#f/1}{#npc/a}{#f/4}* ... oh, uh, I know you probably figured it out, but...',
+                     "<25>{#f/4}* I don't really have parents.\n* I just made them up.",
+                     "<26>{#f/3}* But we're friends now, right? So... I hope you can forgive me for that."
+                  ],
             () =>
                SAVE.data.b.f_state_kidd_betray
-                  ? [ '<25>{#p/kidd}{#f/4}{#npc/a}* Go away...' ]
-                  : [ '<25>{#p/kidd}{#f/3}{#npc/a}* Thanks for being a good friend, Frisk.' ]
+                  ? ['<25>{#p/kidd}{#f/4}{#npc/a}* Go away...']
+                  : ['<25>{#p/kidd}{#f/3}{#npc/a}* Thanks for being a good friend, Frisk.']
          ),
          picnic_dragon: pager.create(
             0,
@@ -856,7 +856,7 @@ export default {
                "<32>* I, uh, I guess that's only fair, huh.",
                "<32>* Well, it's okay, then."
             ],
-            [ "<32>{#p/basic}{#npc/a}* What am I even complaining about?\n* We're free..." ]
+            ["<32>{#p/basic}{#npc/a}* What am I even complaining about?\n* We're free..."]
          ),
          tvfish: pager.create(
             0,
@@ -865,25 +865,25 @@ export default {
 
                   ? []
                   : [
-                       '<25>{#p/undyne}{#f/14}{#npc/a}* Those girls who run the rec center found this movie on a trash run.',
-                       "<25>{#f/1}* So, Alphys and I decided we'd put it on.",
-                       "<25>{#f/8}* FUHUHU!!\n* THIS IS THE BEST DATE I'VE EVER HAD!!",
-                       "<25>{#f/12}* And, uh, I guess it's also the only date I've ever had.",
-                       '<25>{#f/7}* BUT STILL!'
-                    ],
+                     '<25>{#p/undyne}{#f/14}{#npc/a}* Those girls who run the rec center found this movie on a trash run.',
+                     "<25>{#f/1}* So, Alphys and I decided we'd put it on.",
+                     "<25>{#f/8}* FUHUHU!!\n* THIS IS THE BEST DATE I'VE EVER HAD!!",
+                     "<25>{#f/12}* And, uh, I guess it's also the only date I've ever had.",
+                     '<25>{#f/7}* BUT STILL!'
+                  ],
             () =>
                player.face !== 'up' // NO-TRANSLATE
 
                   ? []
                   : [
-                       '<25>{#p/undyne}{#f/1}{#npc/a}* I never realized watching movies could be so addicting!',
-                       '<25>{#p/undyne}{#f/12}{#npc/a}* Now...\n* If you could leave us to it...'
-                    ],
+                     '<25>{#p/undyne}{#f/1}{#npc/a}* I never realized watching movies could be so addicting!',
+                     '<25>{#p/undyne}{#f/12}{#npc/a}* Now...\n* If you could leave us to it...'
+                  ],
             () =>
                player.face !== 'up' // NO-TRANSLATE
 
                   ? []
-                  : [ "<25>{#p/undyne}{#f/7}{#npc/a}* Come on, you're blocking the view!" ]
+                  : ["<25>{#p/undyne}{#f/7}{#npc/a}* Come on, you're blocking the view!"]
          ),
          tvlizard: pager.create(
             0,
@@ -892,34 +892,34 @@ export default {
 
                   ? []
                   : SAVE.data.b.c_state_secret3 && !SAVE.data.b.c_state_secret3_used
-                  ? ((SAVE.data.b.c_state_secret3_used = true),
-                    [
-                       '<25>{#p/alphys}{#g/alphysInquisitive}{#npc/a}* ... huh?\n* You wanted to tell me something?',
-                       '<32>{#p/human}* (You recite the scientific notes shared by Professor Roman in Archive Six.)',
-                       '<25>{#p/alphys}{#g/alphysOhGodNo}* Woah... woah!',
-                       '<25>{#g/alphysNervousLaugh}* This could be the key to solving intergalactic travel...',
-                       '<25>{#g/alphysHellYeah}* ... with wormholes!',
-                       "<25>{#g/alphysWelp}* I've been trying to crack this for so long..."
-                    ])
-                  : [
-                       '<25>{#p/alphys}{#g/alphysCutscene1}{#npc/a}* After all these years, we finally found it!',
-                       '<25>{#g/alphysHellYeah}* The third movie in the Mew Mew trilogy...\n* Mew Mew Time Twist!',
-                       '<25>{#g/alphysWelp}* Also known as the TRUE sequel to Mew Mew Space Adventure.',
-                       '<25>{#g/alphysYeahYouKnowWhatsUp}* This film puts Starfire to shame...'
-                    ],
+                     ? ((SAVE.data.b.c_state_secret3_used = true),
+                        [
+                           '<25>{#p/alphys}{#g/alphysInquisitive}{#npc/a}* ... huh?\n* You wanted to tell me something?',
+                           '<32>{#p/human}* (You recite the scientific notes shared by Professor Roman in Archive Six.)',
+                           '<25>{#p/alphys}{#g/alphysOhGodNo}* Woah... woah!',
+                           '<25>{#g/alphysNervousLaugh}* This could be the key to solving intergalactic travel...',
+                           '<25>{#g/alphysHellYeah}* ... with wormholes!',
+                           "<25>{#g/alphysWelp}* I've been trying to crack this for so long..."
+                        ])
+                     : [
+                        '<25>{#p/alphys}{#g/alphysCutscene1}{#npc/a}* After all these years, we finally found it!',
+                        '<25>{#g/alphysHellYeah}* The third movie in the Mew Mew trilogy...\n* Mew Mew Time Twist!',
+                        '<25>{#g/alphysWelp}* Also known as the TRUE sequel to Mew Mew Space Adventure.',
+                        '<25>{#g/alphysYeahYouKnowWhatsUp}* This film puts Starfire to shame...'
+                     ],
             () =>
                player.face !== 'up' // NO-TRANSLATE
 
                   ? []
                   : [
-                       "<25>{#p/alphys}{#g/alphysHellYeah}{#npc/a}* It's about time!",
-                       "<25>{#p/alphys}{#g/alphysFR}{#npc/a}* ... but if you don't mind..."
-                    ],
+                     "<25>{#p/alphys}{#g/alphysHellYeah}{#npc/a}* It's about time!",
+                     "<25>{#p/alphys}{#g/alphysFR}{#npc/a}* ... but if you don't mind..."
+                  ],
             () =>
                player.face !== 'up' // NO-TRANSLATE
 
                   ? []
-                  : [ '<25>{#p/alphys}{#g/alphysYupEverythingsFine}{#npc/a}* Movie first, talk later.' ]
+                  : ['<25>{#p/alphys}{#g/alphysYupEverythingsFine}{#npc/a}* Movie first, talk later.']
          ),
          picnic_asgore: pager.create(
             0,
@@ -929,365 +929,365 @@ export default {
                   : '<25>{#p/asgore}{#npc/a}{#f/6}* Do not mind me, Frisk.\n* I am only looking for new clothes.',
                ...(SAVE.data.b.c_state_secret5 && !SAVE.data.b.c_state_secret5_used
                   ? ((SAVE.data.b.c_state_secret5_used = true),
-                    [
-                       '<25>{#p/asgore}{#npc/a}{#f/21}* Oh?\n* You have something to tell me?',
-                       '<32>{#npc}{#p/human}* (You repeat the promise made to you by Asgore in Archive Six.)',
-                       '<25>{#p/asgore}{#npc/a}{#f/8}* ...！',
-                       '<25>{#f/1}* Frisk...',
-                       '<25>{#f/1}* ... I am not sure I can do that, but...',
-                       '<25>{#f/6}* For you, I will try.'
-                    ])
+                     [
+                        '<25>{#p/asgore}{#npc/a}{#f/21}* Oh?\n* You have something to tell me?',
+                        '<32>{#npc}{#p/human}* (You repeat the promise made to you by Asgore in Archive Six.)',
+                        '<25>{#p/asgore}{#npc/a}{#f/8}* ...！',
+                        '<25>{#f/1}* Frisk...',
+                        '<25>{#f/1}* ... I am not sure I can do that, but...',
+                        '<25>{#f/6}* For you, I will try.'
+                     ])
                   : [])
             ],
             () =>
                SAVE.data.b.c_state_secret5_used
-                  ? [ '<25>{#p/asgore}{#npc/a}{#f/1}* I only hope that I can get through to her.' ]
-                  : [ '<25>{#p/asgore}{#npc/a}{#f/6}* I wonder if humans like wearing brown.' ],
+                  ? ['<25>{#p/asgore}{#npc/a}{#f/1}* I only hope that I can get through to her.']
+                  : ['<25>{#p/asgore}{#npc/a}{#f/6}* I wonder if humans like wearing brown.'],
             () =>
                SAVE.data.b.c_state_secret5_used
-                  ? [ '<25>{#p/asgore}{#npc/a}{#f/2}* ...' ]
-                  : [ '<25>{#p/asgore}{#npc/a}{#f/21}* La la, la la...' ]
+                  ? ['<25>{#p/asgore}{#npc/a}{#f/2}* ...']
+                  : ['<25>{#p/asgore}{#npc/a}{#f/21}* La la, la la...']
          )
       },
       story: {
-         lv20: [ '<32>{#p/human}* （飛船漸行漸遠。）' ],
+         lv20: ['<32>{#p/human}* （飛船漸行漸遠。）'],
          postnoot0: () =>
             world.trueKills === 0 && SAVE.data.n.state_foundry_undyne !== 1 && SAVE.flag.n.neutral_twinkly_choice === 0
                ? [
-                    '<25>{*}{#p/twinkly}{#f/19}{#e/twinkly/1}Why...?',
-                    '<25>{*}{#e/twinkly/2}Why did you let me go?',
-                    "<25>{*}{#e/twinkly/6}Don't you realize that being nice...",
-                    '<25>{*}{#e/twinkly/7}... only hurts you in the end?',
-                    '<25>{*}{#e/twinkly/5}Look at yourself.',
-                    ...(SAVE.data.b.ultrashortcut
-                       ? [
-                            "<25>{*}{#e/twinkly/3}You've made all these wonderful...",
-                            '<25>{*}{#e/twinkly/4}... uh...',
-                            '<25>{*}{#e/twinkly/0}Shoot, I forgot you skipped over the entire journey.',
-                            "<25>{*}{#e/twinkly/24}Eh, screw it.\nIt would've been a really sappy speech anyway.",
-                            "<25>{*}{#e/twinkly/15}... let's just cut to the chase, shall we?",
-                            '<25>{*}{#e/twinkly/21}...'
-                         ]
-                       : [
-                            "<25>{*}{#e/twinkly/3}You've made all these wonderful friends...",
-                            "<25>{*}{#e/twinkly/4}But now, you'll probably never get to see them again.",
-                            "<25>{*}{#e/twinkly/0}Not to mention how long they'll have to wait for the next human.",
-                            "<25>{*}{#e/twinkly/1}Hurts, doesn't it?",
-                            ...(1 <= SAVE.flag.n.killed_sans
-                               ? SAVE.flag.n.genocide_milestone < 7
-                                  ? [ '<25>{*}{#e/twinkly/7}If you had just stuck with our ORIGINAL plan...' ]
-                                  : [ '<25>{*}{#e/twinkly/7}If you had just acted like when we were together...' ]
-                               : [ '<25>{*}{#e/twinkly/7}If you had just gone through without caring about anyone...' ]),
-                            "<25>{*}{#e/twinkly/1}You wouldn't have to feel bad now.",
-                            "<25>{*}{#e/twinkly/8}So... I don't get it.",
-                            '<25>{*}{#e/twinkly/13}If you really did everything the right way...',
-                            '<25>{*}{#e/twinkly/1}Why did things still end up like this?',
-                            '<25>{*}{#e/twinkly/2}Why...?',
-                            '<25>{*}{#e/twinkly/2}Is life really that unfair?',
-                            '<25>{*}{#e/twinkly/3}...',
-                            '<25>{*}{#e/twinkly/0}... say.'
-                         ]),
-                    '<25>{*}{#e/twinkly/21}What if I told you...',
-                    '<25>{*}{#e/twinkly/15}I knew some way to get you a better ending?',
-                    ...(SAVE.data.b.ultrashortcut || SAVE.data.s.room === '' || SAVE.data.s.room === spawn // NO-TRANSLATE
+                  '<25>{*}{#p/twinkly}{#f/19}{#e/twinkly/1}Why...?',
+                  '<25>{*}{#e/twinkly/2}Why did you let me go?',
+                  "<25>{*}{#e/twinkly/6}Don't you realize that being nice...",
+                  '<25>{*}{#e/twinkly/7}... only hurts you in the end?',
+                  '<25>{*}{#e/twinkly/5}Look at yourself.',
+                  ...(SAVE.data.b.ultrashortcut
+                     ? [
+                        "<25>{*}{#e/twinkly/3}You've made all these wonderful...",
+                        '<25>{*}{#e/twinkly/4}... uh...',
+                        '<25>{*}{#e/twinkly/0}Shoot, I forgot you skipped over the entire journey.',
+                        "<25>{*}{#e/twinkly/24}Eh, screw it.\nIt would've been a really sappy speech anyway.",
+                        "<25>{*}{#e/twinkly/15}... let's just cut to the chase, shall we?",
+                        '<25>{*}{#e/twinkly/21}...'
+                     ]
+                     : [
+                        "<25>{*}{#e/twinkly/3}You've made all these wonderful friends...",
+                        "<25>{*}{#e/twinkly/4}But now, you'll probably never get to see them again.",
+                        "<25>{*}{#e/twinkly/0}Not to mention how long they'll have to wait for the next human.",
+                        "<25>{*}{#e/twinkly/1}Hurts, doesn't it?",
+                        ...(1 <= SAVE.flag.n.killed_sans
+                           ? SAVE.flag.n.genocide_milestone < 7
+                              ? ['<25>{*}{#e/twinkly/7}If you had just stuck with our ORIGINAL plan...']
+                              : ['<25>{*}{#e/twinkly/7}If you had just acted like when we were together...']
+                           : ['<25>{*}{#e/twinkly/7}If you had just gone through without caring about anyone...']),
+                        "<25>{*}{#e/twinkly/1}You wouldn't have to feel bad now.",
+                        "<25>{*}{#e/twinkly/8}So... I don't get it.",
+                        '<25>{*}{#e/twinkly/13}If you really did everything the right way...',
+                        '<25>{*}{#e/twinkly/1}Why did things still end up like this?',
+                        '<25>{*}{#e/twinkly/2}Why...?',
+                        '<25>{*}{#e/twinkly/2}Is life really that unfair?',
+                        '<25>{*}{#e/twinkly/3}...',
+                        '<25>{*}{#e/twinkly/0}... say.'
+                     ]),
+                  '<25>{*}{#e/twinkly/21}What if I told you...',
+                  '<25>{*}{#e/twinkly/15}I knew some way to get you a better ending?',
+                  ...(SAVE.data.b.ultrashortcut || SAVE.data.s.room === '' || SAVE.data.s.room === spawn // NO-TRANSLATE
 
-                       ? [ "<25>{*}{#e/twinkly/20}You'll have to start over, and..." ]
-                       : [ "<25>{*}{#e/twinkly/20}You'll CONTINUE from here, and..." ]),
-                    ...(SAVE.data.n.plot_date === 2.1
-                       ? [
-                            "<25>{*}{#e/twinkly/15}Well, in the meantime, why don't you go back to Asgore?",
-                            "<25>{*}{#e/twinkly/17}As long as you behave, I PROMISE I won't kill him."
-                         ]
-                       : 1.1 <= SAVE.data.n.plot_date
-                       ? [
-                            "<25>{*}{#e/twinkly/15}Well, in the meantime, why don't you go see Undyne?",
-                            '<25>{*}{#e/twinkly/15}It seems like you could have been better friends.',
-                            '<25>{*}{#e/twinkly/20}Who knows?',
-                            "<25>{*}{#e/twinkly/17}Maybe she's got the key to your happiness?"
-                         ]
-                       : [
-                            "<25>{*}{#e/twinkly/15}Well, in the meantime, why don't you go see Papyrus, then Undyne?",
-                            '<25>{*}{#e/twinkly/15}It seems like you could have all been better friends.',
-                            '<25>{*}{#e/twinkly/20}Who knows?',
-                            "<25>{*}{#e/twinkly/17}Maybe they've got the key to your happiness?"
-                         ]),
-                    '<25>{*}{#e/twinkly/0}...',
-                    '<25>{*}{#e/twinkly/15}See you soon.'
-                 ]
+                     ? ["<25>{*}{#e/twinkly/20}You'll have to start over, and..."]
+                     : ["<25>{*}{#e/twinkly/20}You'll CONTINUE from here, and..."]),
+                  ...(SAVE.data.n.plot_date === 2.1
+                     ? [
+                        "<25>{*}{#e/twinkly/15}Well, in the meantime, why don't you go back to Asgore?",
+                        "<25>{*}{#e/twinkly/17}As long as you behave, I PROMISE I won't kill him."
+                     ]
+                     : 1.1 <= SAVE.data.n.plot_date
+                        ? [
+                           "<25>{*}{#e/twinkly/15}Well, in the meantime, why don't you go see Undyne?",
+                           '<25>{*}{#e/twinkly/15}It seems like you could have been better friends.',
+                           '<25>{*}{#e/twinkly/20}Who knows?',
+                           "<25>{*}{#e/twinkly/17}Maybe she's got the key to your happiness?"
+                        ]
+                        : [
+                           "<25>{*}{#e/twinkly/15}Well, in the meantime, why don't you go see Papyrus, then Undyne?",
+                           '<25>{*}{#e/twinkly/15}It seems like you could have all been better friends.',
+                           '<25>{*}{#e/twinkly/20}Who knows?',
+                           "<25>{*}{#e/twinkly/17}Maybe they've got the key to your happiness?"
+                        ]),
+                  '<25>{*}{#e/twinkly/0}...',
+                  '<25>{*}{#e/twinkly/15}See you soon.'
+               ]
                : [
-                    '<25>{*}{#p/twinkly}{#f/19}{#e/twinkly/0}Hey.',
-                    "<25>{*}{#e/twinkly/0}Since you defeated me, I've been thinking.",
-                    ...(world.trueKills > 0 || SAVE.data.n.state_foundry_undyne === 1
-                       ? [
-                            '<25>{*}{#e/twinkly/2}Is it truly necessary to kill...?',
-                            '<25>{*}{#e/twinkly/3}I...',
-                            ...(1 <= SAVE.flag.n.killed_sans
-                               ? [
-                                    '<25>{*}{#e/twinkly/1}I enjoyed what we did in the past together, but...',
-                                    '<25>{*}{#e/twinkly/2}In the end, what did it really get us?'
-                                 ]
-                               : [
-                                    "<25>{*}{#e/twinkly/4}I honestly can't be sure anymore.",
-                                    '<25>{*}{#e/twinkly/2}In the end, what does it really get you?'
-                                 ]),
+                  '<25>{*}{#p/twinkly}{#f/19}{#e/twinkly/0}Hey.',
+                  "<25>{*}{#e/twinkly/0}Since you defeated me, I've been thinking.",
+                  ...(world.trueKills > 0 || SAVE.data.n.state_foundry_undyne === 1
+                     ? [
+                        '<25>{*}{#e/twinkly/2}Is it truly necessary to kill...?',
+                        '<25>{*}{#e/twinkly/3}I...',
+                        ...(1 <= SAVE.flag.n.killed_sans
+                           ? [
+                              '<25>{*}{#e/twinkly/1}I enjoyed what we did in the past together, but...',
+                              '<25>{*}{#e/twinkly/2}In the end, what did it really get us?'
+                           ]
+                           : [
+                              "<25>{*}{#e/twinkly/4}I honestly can't be sure anymore.",
+                              '<25>{*}{#e/twinkly/2}In the end, what does it really get you?'
+                           ]),
 
-                            '<25>{*}{#e/twinkly/13}A rush of pleasure, and then...'
-                         ]
-                       : [
-                            '<25>{*}{#e/twinkly/2}After sparing everyone else, was killing me really worth it...?',
-                            '<25>{*}{#e/twinkly/3}You...',
-                            ...(1 <= SAVE.flag.n.killed_sans
-                               ? [
-                                    '<25>{*}{#e/twinkly/1}You might regret what we did in the past together, but...',
-                                    '<25>{*}{#e/twinkly/2}Can you honestly say killing me made up for that?'
-                                 ]
-                               : [
-                                    "<25>{*}{#e/twinkly/4}You might not like me for what I've done, but...",
-                                    '<25>{*}{#e/twinkly/2}Can you honestly say killing me made any difference?'
-                                 ]),
-                            '<25>{*}{#e/twinkly/13}Perhaps you felt some catharsis, but after that...'
-                         ]),
-                    '<25>{*}{#e/twinkly/3}... nothing.',
-                    '<25>{*}{#e/twinkly/0}...',
-                    '<25>{*}{#e/twinkly/0}I have an idea.',
-                    ...(world.trueKills > 0 || SAVE.data.n.state_foundry_undyne === 1
-                       ? [
-                            '<25>{*}{#e/twinkly/15}A challenge, if you will.',
-                            ...(SAVE.data.s.room === '' || SAVE.data.s.room === spawn // NO-TRANSLATE
+                        '<25>{*}{#e/twinkly/13}A rush of pleasure, and then...'
+                     ]
+                     : [
+                        '<25>{*}{#e/twinkly/2}After sparing everyone else, was killing me really worth it...?',
+                        '<25>{*}{#e/twinkly/3}You...',
+                        ...(1 <= SAVE.flag.n.killed_sans
+                           ? [
+                              '<25>{*}{#e/twinkly/1}You might regret what we did in the past together, but...',
+                              '<25>{*}{#e/twinkly/2}Can you honestly say killing me made up for that?'
+                           ]
+                           : [
+                              "<25>{*}{#e/twinkly/4}You might not like me for what I've done, but...",
+                              '<25>{*}{#e/twinkly/2}Can you honestly say killing me made any difference?'
+                           ]),
+                        '<25>{*}{#e/twinkly/13}Perhaps you felt some catharsis, but after that...'
+                     ]),
+                  '<25>{*}{#e/twinkly/3}... nothing.',
+                  '<25>{*}{#e/twinkly/0}...',
+                  '<25>{*}{#e/twinkly/0}I have an idea.',
+                  ...(world.trueKills > 0 || SAVE.data.n.state_foundry_undyne === 1
+                     ? [
+                        '<25>{*}{#e/twinkly/15}A challenge, if you will.',
+                        ...(SAVE.data.s.room === '' || SAVE.data.s.room === spawn // NO-TRANSLATE
 
-                               ? [ "<25>{*}{#e/twinkly/14}You'll have to start over, of course..." ]
-                               : [ "<25>{*}{#e/twinkly/14}You'll have to RESET, of course..." ]),
-                            "<25>{*}{#e/twinkly/15}But if you can prove to me that you're strong enough to survive...",
-                            '<25>{*}{#e/twinkly/15}If you can get through, to the end from the beginning...',
-                            ...(world.trueKills > 0
-                               ? [
-                                    '<25>{*}{#e/twinkly/0}... without killing a single thing...',
-                                    "<25>{*}{#e/twinkly/18}... then maybe, I won't kill the king."
-                                 ]
-                               : [
-                                    '<25>{*}{#e/twinkly/0}... without leaving anyone behind...',
-                                    "<25>{*}{#e/twinkly/18}... then maybe, the king won't have to die."
-                                 ])
-                         ]
-                       : [
-                            '<25>{*}{#e/twinkly/15}A request, if you will.',
-                            ...(SAVE.data.b.ultrashortcut || SAVE.data.s.room === '' || SAVE.data.s.room === spawn // NO-TRANSLATE
+                           ? ["<25>{*}{#e/twinkly/14}You'll have to start over, of course..."]
+                           : ["<25>{*}{#e/twinkly/14}You'll have to RESET, of course..."]),
+                        "<25>{*}{#e/twinkly/15}But if you can prove to me that you're strong enough to survive...",
+                        '<25>{*}{#e/twinkly/15}If you can get through, to the end from the beginning...',
+                        ...(world.trueKills > 0
+                           ? [
+                              '<25>{*}{#e/twinkly/0}... without killing a single thing...',
+                              "<25>{*}{#e/twinkly/18}... then maybe, I won't kill the king."
+                           ]
+                           : [
+                              '<25>{*}{#e/twinkly/0}... without leaving anyone behind...',
+                              "<25>{*}{#e/twinkly/18}... then maybe, the king won't have to die."
+                           ])
+                     ]
+                     : [
+                        '<25>{*}{#e/twinkly/15}A request, if you will.',
+                        ...(SAVE.data.b.ultrashortcut || SAVE.data.s.room === '' || SAVE.data.s.room === spawn // NO-TRANSLATE
 
-                               ? [ "<25>{*}{#e/twinkly/20}You'll have to start over, and..." ]
-                               : [ "<25>{*}{#e/twinkly/20}You'll CONTINUE from here, and..." ]),
-                            '<25>{*}{#e/twinkly/15}Well, in the meantime, see if you can get back to Asgore.',
-                            '<25>{*}{#e/twinkly/17}See if you can do it without killing anyone.'
-                         ]),
-                    "<25>{*}{#e/twinkly/20}You do want to know what he's planning, don't you?",
-                    '<25>{*}{#e/twinkly/20}To see what lies in the depths of his precious \"archive?\"',
-                    '<25>{*}{#e/twinkly/15}Well.',
-                    '<25>{*}{#e/twinkly/15}Believe me when I tell you that what you saw with me...',
-                    "<25>{*}{#e/twinkly/20}... doesn't even BEGIN to scratch the surface.",
-                    '<25>{*}{#e/twinkly/17}Hee hee hee.',
-                    "<25>{*}{#e/twinkly/18}I'll leave you to it!"
-                 ],
+                           ? ["<25>{*}{#e/twinkly/20}You'll have to start over, and..."]
+                           : ["<25>{*}{#e/twinkly/20}You'll CONTINUE from here, and..."]),
+                        '<25>{*}{#e/twinkly/15}Well, in the meantime, see if you can get back to Asgore.',
+                        '<25>{*}{#e/twinkly/17}See if you can do it without killing anyone.'
+                     ]),
+                  "<25>{*}{#e/twinkly/20}You do want to know what he's planning, don't you?",
+                  '<25>{*}{#e/twinkly/20}To see what lies in the depths of his precious \"archive?\"',
+                  '<25>{*}{#e/twinkly/15}Well.',
+                  '<25>{*}{#e/twinkly/15}Believe me when I tell you that what you saw with me...',
+                  "<25>{*}{#e/twinkly/20}... doesn't even BEGIN to scratch the surface.",
+                  '<25>{*}{#e/twinkly/17}Hee hee hee.',
+                  "<25>{*}{#e/twinkly/18}I'll leave you to it!"
+               ],
          postnoot1: (rep: number) =>
             rep < 2
                ? [
-                    "<25>{*}{#p/twinkly}{#f/19}{#e/twinkly/17}I'm sorry, what's that?",
-                    ...(rep < 1
-                       ? [ "<25>{*}{#e/twinkly/17}You didn't get your happy ending?" ]
-                       : [ "<25>{*}{#e/twinkly/17}You STILL didn't get your happy ending?" ]),
-                    ...(SAVE.data.b.ultrashortcut
-                       ? [
-                            '<25>{*}{#e/twinkly/21}...',
-                            ...(SAVE.flag.b.ultra_twinkly
-                               ? [
-                                    "<25>{*}{#e/twinkly/21}Well gee, if it wasn't enough to do it before...",
-                                    "<25>{*}{#e/twinkly/16}You've gone and SKIPPED IT ALL AGAIN!",
-                                    "<25>{*}{#e/twinkly/15}Not that I'm surprised.",
-                                    '<25>{*}{#e/twinkly/15}You do seem like the type to break the rules.',
-                                    "<25>{*}{#e/twinkly/20}Eventually, you'll realize who you've been missing...",
-                                    "<25>{*}{#e/twinkly/15}And you'll go see them and make it back to the king.",
-                                    '<25>{*}{#e/twinkly/15}Preferably without killing a single thing.',
-                                    '<25>{*}{#e/twinkly/18}You know the drill!'
-                                 ]
-                               : [
-                                    '<25>{*}{#e/twinkly/21}Well gee, I wonder why THAT might be...',
-                                    "<25>{*}{#e/twinkly/16}If only you didn't skip over THE ENTIRE JOURNEY!",
-                                    '<25>{*}{#e/twinkly/24}... but, whatever.',
-                                    '<25>{*}{#e/twinkly/23}Enjoy your special ending while it lasts.'
-                                 ])
-                         ]
-                       : world.trueKills > 0 || SAVE.data.n.state_foundry_undyne === 1
-                       ? [
-                            ...(rep < 1
-                               ? [
-                                    '<25>{*}{#e/twinkly/20}...',
-                                    '<25>{*}{#e/twinkly/20}Well, well...',
-                                    world.trueKills > 1
-                                       ? "<25>{*}{#e/twinkly/16}Maybe next time, don't KILL anyone!"
-                                       : world.trueKills > 0
+                  "<25>{*}{#p/twinkly}{#f/19}{#e/twinkly/17}I'm sorry, what's that?",
+                  ...(rep < 1
+                     ? ["<25>{*}{#e/twinkly/17}You didn't get your happy ending?"]
+                     : ["<25>{*}{#e/twinkly/17}You STILL didn't get your happy ending?"]),
+                  ...(SAVE.data.b.ultrashortcut
+                     ? [
+                        '<25>{*}{#e/twinkly/21}...',
+                        ...(SAVE.flag.b.ultra_twinkly
+                           ? [
+                              "<25>{*}{#e/twinkly/21}Well gee, if it wasn't enough to do it before...",
+                              "<25>{*}{#e/twinkly/16}You've gone and SKIPPED IT ALL AGAIN!",
+                              "<25>{*}{#e/twinkly/15}Not that I'm surprised.",
+                              '<25>{*}{#e/twinkly/15}You do seem like the type to break the rules.',
+                              "<25>{*}{#e/twinkly/20}Eventually, you'll realize who you've been missing...",
+                              "<25>{*}{#e/twinkly/15}And you'll go see them and make it back to the king.",
+                              '<25>{*}{#e/twinkly/15}Preferably without killing a single thing.',
+                              '<25>{*}{#e/twinkly/18}You know the drill!'
+                           ]
+                           : [
+                              '<25>{*}{#e/twinkly/21}Well gee, I wonder why THAT might be...',
+                              "<25>{*}{#e/twinkly/16}If only you didn't skip over THE ENTIRE JOURNEY!",
+                              '<25>{*}{#e/twinkly/24}... but, whatever.',
+                              '<25>{*}{#e/twinkly/23}Enjoy your special ending while it lasts.'
+                           ])
+                     ]
+                     : world.trueKills > 0 || SAVE.data.n.state_foundry_undyne === 1
+                        ? [
+                           ...(rep < 1
+                              ? [
+                                 '<25>{*}{#e/twinkly/20}...',
+                                 '<25>{*}{#e/twinkly/20}Well, well...',
+                                 world.trueKills > 1
+                                    ? "<25>{*}{#e/twinkly/16}Maybe next time, don't KILL anyone!"
+                                    : world.trueKills > 0
                                        ? "<25>{*}{#e/twinkly/16}Maybe next time, don't KILL someone!"
                                        : "<25>{*}{#e/twinkly/16}Maybe next time, don't leave someone to DIE!",
-                                    '<25>{*}{#e/twinkly/15}If you can manage that, and manage to befriend Papyrus and Undyne...',
-                                    ...(SAVE.data.b.ubershortcut
-                                       ? [ "<25>{*}{#e/twinkly/15}You won't have to skip an entire area next time." ]
-                                       : [ '<25>{*}{#e/twinkly/15}You might actually get somewhere for once.' ])
-                                 ]
-                               : [
-                                    '<25>{*}{#e/twinkly/14}...',
-                                    '<25>{*}{#e/twinkly/14}Goodness gracious...',
-                                    world.trueKills > 1
-                                       ? "<25>{*}{#e/twinkly/22}For the last time, don't KILL anyone!"
-                                       : world.trueKills > 0
+                                 '<25>{*}{#e/twinkly/15}If you can manage that, and manage to befriend Papyrus and Undyne...',
+                                 ...(SAVE.data.b.ubershortcut
+                                    ? ["<25>{*}{#e/twinkly/15}You won't have to skip an entire area next time."]
+                                    : ['<25>{*}{#e/twinkly/15}You might actually get somewhere for once.'])
+                              ]
+                              : [
+                                 '<25>{*}{#e/twinkly/14}...',
+                                 '<25>{*}{#e/twinkly/14}Goodness gracious...',
+                                 world.trueKills > 1
+                                    ? "<25>{*}{#e/twinkly/22}For the last time, don't KILL anyone!"
+                                    : world.trueKills > 0
                                        ? "<25>{*}{#e/twinkly/22}For the last time, don't KILL someone!"
                                        : "<25>{*}{#e/twinkly/22}For the last time, don't leave someone to DIE!",
-                                    ...(SAVE.data.b.ubershortcut
-                                       ? [ "<25>{*}{#e/twinkly/22}And don't skip an entire area, either!" ]
-                                       : [ '<25>{*}{#e/twinkly/22}Why is that so difficult for you to grasp!' ])
-                                 ])
-                         ]
-                       : [
-                            '<25>{*}{#e/twinkly/0}...',
-                            ...(SAVE.data.b.ultrashortcut || SAVE.data.s.room === '' || SAVE.data.s.room === spawn // NO-TRANSLATE
+                                 ...(SAVE.data.b.ubershortcut
+                                    ? ["<25>{*}{#e/twinkly/22}And don't skip an entire area, either!"]
+                                    : ['<25>{*}{#e/twinkly/22}Why is that so difficult for you to grasp!'])
+                              ])
+                        ]
+                        : [
+                           '<25>{*}{#e/twinkly/0}...',
+                           ...(SAVE.data.b.ultrashortcut || SAVE.data.s.room === '' || SAVE.data.s.room === spawn // NO-TRANSLATE
 
-                               ? [ '<25>{*}{#e/twinkly/21}... maybe, if you start over...' ]
-                               : [ '<25>{*}{#e/twinkly/21}... maybe, if you CONTINUE from here...' ]),
-                            ...(rep < 1
-                               ? [
-                                    1.1 <= SAVE.data.n.plot_date
-                                       ? "<25>{*}{#e/twinkly/15}You'll befriend Undyne this time."
-                                       : "<25>{*}{#e/twinkly/15}You'll befriend Papyrus and Undyne this time.",
+                              ? ['<25>{*}{#e/twinkly/21}... maybe, if you start over...']
+                              : ['<25>{*}{#e/twinkly/21}... maybe, if you CONTINUE from here...']),
+                           ...(rep < 1
+                              ? [
+                                 1.1 <= SAVE.data.n.plot_date
+                                    ? "<25>{*}{#e/twinkly/15}You'll befriend Undyne this time."
+                                    : "<25>{*}{#e/twinkly/15}You'll befriend Papyrus and Undyne this time.",
 
-                                    '<25>{*}{#e/twinkly/14}The vaunted \"power of friendship...\"',
-                                    '<25>{*}{#e/twinkly/23}Just this once, it might actually be good for something.'
-                                 ]
-                               : [
-                                    1.1 <= SAVE.data.n.plot_date
-                                       ? "<25>{*}{#e/twinkly/16}You'll finally befriend Undyne!"
-                                       : "<25>{*}{#e/twinkly/16}You'll finally befriend Papyrus and Undyne!",
-                                    "<25>{*}{#e/twinkly/20}After all, what's the harm in a little friendship?",
-                                    "<25>{*}{#e/twinkly/15}It'll be fun for the whole family."
-                                 ])
-                         ])
-                 ]
+                                 '<25>{*}{#e/twinkly/14}The vaunted \"power of friendship...\"',
+                                 '<25>{*}{#e/twinkly/23}Just this once, it might actually be good for something.'
+                              ]
+                              : [
+                                 1.1 <= SAVE.data.n.plot_date
+                                    ? "<25>{*}{#e/twinkly/16}You'll finally befriend Undyne!"
+                                    : "<25>{*}{#e/twinkly/16}You'll finally befriend Papyrus and Undyne!",
+                                 "<25>{*}{#e/twinkly/20}After all, what's the harm in a little friendship?",
+                                 "<25>{*}{#e/twinkly/15}It'll be fun for the whole family."
+                              ])
+                        ])
+               ]
                : [
-                    [
-                       '<25>{*}{#p/twinkly}{#f/19}{#e/twinkly/15}... so...',
-                       '<25>{*}{#e/twinkly/15}Get up to anything lately?',
-                       '<25>{*}{#e/twinkly/15}Make any new friends?',
-                       '<25>{*}{#e/twinkly/0}...',
-                       '<25>{*}{#e/twinkly/17}Personally, I used to make friends ALL the time.',
-                       '<25>{*}{#e/twinkly/20}Like Papyrus, for example.',
-                       "<25>{*}{#e/twinkly/15}He won't remember this, but I once trained him to be a royal guard.",
-                       '<25>{*}{#e/twinkly/18}In fact, I made him get promoted to captain!',
-                       "<25>{*}{#e/twinkly/24}Granted... it wasn't easy.",
-                       "<25>{*}{#e/twinkly/15}I miiiight've had to break his bones a few times.",
-                       '<25>{*}{#e/twinkly/19}But after that, he toughened up real good!',
-                       '<25>{*}{#e/twinkly/17}Funny how people change if you push the right buttons, huh?',
-                       "<25>{*}{#e/twinkly/15}Anyway.\nThat timeline's gone now.",
-                       '<25>{*}{#e/twinkly/20}But hey, if you come back here again...',
-                       "<25>{*}{#e/twinkly/18}I'll tell you about some others."
-                    ],
-                    [
-                       '<25>{*}{#p/twinkly}{#f/19}{#e/twinkly/20}Ready for another round of story time?',
-                       '<25>{*}{#e/twinkly/15}Oh, who am I kidding.\nOf course you are.',
-                       '<25>{*}{#e/twinkly/21}So, that room...',
-                       '<25>{*}{#e/twinkly/0}The one with the boxes with humans inside.',
-                       "<25>{*}{#e/twinkly/15}It's actually been pretty hard, even for me, to get into.",
-                       '<25>{*}{#e/twinkly/24}In the earliest timelines, I resorted to... foolish methods.',
-                       '<25>{*}{#e/twinkly/13}Begging...\nBargaining...\nFake-crying...',
-                       '<25>{*}{#e/twinkly/4}I even tried using puppy-dog eyes to get Asgore to show them to me.',
-                       '<25>{*}{#e/twinkly/0}I wanted to be \"nice,\" but none of those things worked.',
-                       '<25>{*}{#e/twinkly/15}Of course, in later timelines, I knew how to get what I wanted.',
-                       '<25>{*}{#e/twinkly/20}Suffocating everyone to death usually did the trick...',
-                       '<25>{*}{#e/twinkly/16}But cranking the gravity up and crushing them was just as fun!',
-                       "<25>{*}{#e/twinkly/15}Anyway, all I'm saying is that the room's protected.",
-                       "<25>{*}{#e/twinkly/17}You're only getting in there because they WANT you in there.",
-                       "<25>{*}{#e/twinkly/20}Well.\nThat's all for now.",
-                       '<25>{*}{#e/twinkly/19}Bye-bye!'
-                    ],
-                    [
-                       '<25>{*}{#p/twinkly}{#f/19}{#e/twinkly/14}Seriously?\nAgain?',
-                       '<25>{*}{#e/twinkly/0}Wow.',
-                       '<25>{*}{#e/twinkly/0}You must be getting really tired of this.',
-                       "<25>{*}{#e/twinkly/15}But that's fine.\nI'm getting tired of it, too.",
-                       '<25>{*}{#e/twinkly/20}I wonder...',
-                       '<25>{*}{#e/twinkly/20}Are you THAT bad at following my instructions?',
-                       '<25>{*}{#e/twinkly/20}Or are you just doing this on purpose?',
-                       "<25>{*}{#e/twinkly/15}... eh, don't tell me.",
-                       '<25>{*}{#e/twinkly/18}Knowing everything is no fun, anyway.',
-                       "<25>{*}{#e/twinkly/15}Besides, I'm in a good mood.",
-                       '<25>{*}{#e/twinkly/20}So... why not give you the benefit of the doubt?',
-                       '<25>{*}{#e/twinkly/14}If you really are that much of an IDIOT...',
-                       '<25>{*}{#e/twinkly/15}Come back here again, and I might have a way to help you.',
-                       '<25>{*}{#e/twinkly/17}... until next time.'
-                    ],
-                    [
-                       "<25>{*}{#p/twinkly}{#f/19}{#e/twinkly/0}So you're back again.",
-                       "<25>{*}{#e/twinkly/0}I'd ask you to explain yourself, but I don't really care.",
-                       '<25>{*}{#e/twinkly/0}You came back, so... that means you need my help.',
-                       '<25>{*}{#e/twinkly/21}...',
-                       "<25>{*}{#e/twinkly/15}Listen.\nI'm only going to say this once.",
-                       '<25>{*}{#e/twinkly/15}From now on, the monsters you encounter...',
-                       '<25>{*}{#e/twinkly/15}Will have greatly reduced {@fill=#ff0}ATTACK{@fill=#fff}.',
-                       '<25>{*}{#e/twinkly/20}Understand?\nTheir {@fill=#ff0}ATTACK{@fill=#fff} will be reduced.',
-                       '<25>{*}{#e/twinkly/20}Which makes it easier to survive without gaining LOVE.',
-                       "<25>{*}{#e/twinkly/15}Boy, it's a good thing the CORE controls the atmosphere.",
-                       "<25>{*}{#e/twinkly/20}Otherwise, this wouldn't be possible!",
-                       '<25>{*}{#e/twinkly/14}As for Papyrus and Undyne...',
-                       "<25>{*}{#e/twinkly/23}Well, if you can't figure THAT out, then you're hopeless.",
-                       "<25>{*}{#e/twinkly/15}Just don't be an idiot, and you'll be fine.",
-                       "<25>{*}{#e/twinkly/15}... okay.\nThat's all.",
-                       '<25>{*}{#e/twinkly/15}Good luck.'
-                    ],
-                    [
-                       '<25>{*}{#p/twinkly}{#f/19}{#e/twinkly/0}...',
-                       "<25>{*}{#e/twinkly/0}... you're just trying to get a reaction out of me, aren'tcha?",
-                       '<25>{*}{#e/twinkly/15}I see.\nI hope it was worth it.',
-                       "<25>{*}{#e/twinkly/17}Because I'm NEVER coming back.",
-                       "<25>{*}{#e/twinkly/0}Not until you do what I've told you to do.",
-                       '<25>{*}{#e/twinkly/15}What?\nYou think you can just disobey me forever?',
-                       '<25>{*}{#e/twinkly/15}... no.',
-                       "<25>{*}{#e/twinkly/21}Sooner or later, you'll get bored...",
-                       '<25>{*}{#e/twinkly/15}And your curiosity will inevitably get the better of you.',
-                       '<25>{*}{#e/twinkly/23}Trust me.\nI know how this works.',
-                       '<25>{*}{#e/twinkly/20}It applies to humans and monsters all the same...',
-                       '<25>{*}{#e/twinkly/17}Curiosity eventually gets the better of EVERYONE.',
-                       '<25>{*}{#e/twinkly/16}Have your fun while it lasts, idiot!'
-                    ]
-                 ][rep - 2],
+                  [
+                     '<25>{*}{#p/twinkly}{#f/19}{#e/twinkly/15}... so...',
+                     '<25>{*}{#e/twinkly/15}Get up to anything lately?',
+                     '<25>{*}{#e/twinkly/15}Make any new friends?',
+                     '<25>{*}{#e/twinkly/0}...',
+                     '<25>{*}{#e/twinkly/17}Personally, I used to make friends ALL the time.',
+                     '<25>{*}{#e/twinkly/20}Like Papyrus, for example.',
+                     "<25>{*}{#e/twinkly/15}He won't remember this, but I once trained him to be a royal guard.",
+                     '<25>{*}{#e/twinkly/18}In fact, I made him get promoted to captain!',
+                     "<25>{*}{#e/twinkly/24}Granted... it wasn't easy.",
+                     "<25>{*}{#e/twinkly/15}I miiiight've had to break his bones a few times.",
+                     '<25>{*}{#e/twinkly/19}But after that, he toughened up real good!',
+                     '<25>{*}{#e/twinkly/17}Funny how people change if you push the right buttons, huh?',
+                     "<25>{*}{#e/twinkly/15}Anyway.\nThat timeline's gone now.",
+                     '<25>{*}{#e/twinkly/20}But hey, if you come back here again...',
+                     "<25>{*}{#e/twinkly/18}I'll tell you about some others."
+                  ],
+                  [
+                     '<25>{*}{#p/twinkly}{#f/19}{#e/twinkly/20}Ready for another round of story time?',
+                     '<25>{*}{#e/twinkly/15}Oh, who am I kidding.\nOf course you are.',
+                     '<25>{*}{#e/twinkly/21}So, that room...',
+                     '<25>{*}{#e/twinkly/0}The one with the boxes with humans inside.',
+                     "<25>{*}{#e/twinkly/15}It's actually been pretty hard, even for me, to get into.",
+                     '<25>{*}{#e/twinkly/24}In the earliest timelines, I resorted to... foolish methods.',
+                     '<25>{*}{#e/twinkly/13}Begging...\nBargaining...\nFake-crying...',
+                     '<25>{*}{#e/twinkly/4}I even tried using puppy-dog eyes to get Asgore to show them to me.',
+                     '<25>{*}{#e/twinkly/0}I wanted to be \"nice,\" but none of those things worked.',
+                     '<25>{*}{#e/twinkly/15}Of course, in later timelines, I knew how to get what I wanted.',
+                     '<25>{*}{#e/twinkly/20}Suffocating everyone to death usually did the trick...',
+                     '<25>{*}{#e/twinkly/16}But cranking the gravity up and crushing them was just as fun!',
+                     "<25>{*}{#e/twinkly/15}Anyway, all I'm saying is that the room's protected.",
+                     "<25>{*}{#e/twinkly/17}You're only getting in there because they WANT you in there.",
+                     "<25>{*}{#e/twinkly/20}Well.\nThat's all for now.",
+                     '<25>{*}{#e/twinkly/19}Bye-bye!'
+                  ],
+                  [
+                     '<25>{*}{#p/twinkly}{#f/19}{#e/twinkly/14}Seriously?\nAgain?',
+                     '<25>{*}{#e/twinkly/0}Wow.',
+                     '<25>{*}{#e/twinkly/0}You must be getting really tired of this.',
+                     "<25>{*}{#e/twinkly/15}But that's fine.\nI'm getting tired of it, too.",
+                     '<25>{*}{#e/twinkly/20}I wonder...',
+                     '<25>{*}{#e/twinkly/20}Are you THAT bad at following my instructions?',
+                     '<25>{*}{#e/twinkly/20}Or are you just doing this on purpose?',
+                     "<25>{*}{#e/twinkly/15}... eh, don't tell me.",
+                     '<25>{*}{#e/twinkly/18}Knowing everything is no fun, anyway.',
+                     "<25>{*}{#e/twinkly/15}Besides, I'm in a good mood.",
+                     '<25>{*}{#e/twinkly/20}So... why not give you the benefit of the doubt?',
+                     '<25>{*}{#e/twinkly/14}If you really are that much of an IDIOT...',
+                     '<25>{*}{#e/twinkly/15}Come back here again, and I might have a way to help you.',
+                     '<25>{*}{#e/twinkly/17}... until next time.'
+                  ],
+                  [
+                     "<25>{*}{#p/twinkly}{#f/19}{#e/twinkly/0}So you're back again.",
+                     "<25>{*}{#e/twinkly/0}I'd ask you to explain yourself, but I don't really care.",
+                     '<25>{*}{#e/twinkly/0}You came back, so... that means you need my help.',
+                     '<25>{*}{#e/twinkly/21}...',
+                     "<25>{*}{#e/twinkly/15}Listen.\nI'm only going to say this once.",
+                     '<25>{*}{#e/twinkly/15}From now on, the monsters you encounter...',
+                     '<25>{*}{#e/twinkly/15}Will have greatly reduced {@fill=#ff0}ATTACK{@fill=#fff}.',
+                     '<25>{*}{#e/twinkly/20}Understand?\nTheir {@fill=#ff0}ATTACK{@fill=#fff} will be reduced.',
+                     '<25>{*}{#e/twinkly/20}Which makes it easier to survive without gaining LOVE.',
+                     "<25>{*}{#e/twinkly/15}Boy, it's a good thing the CORE controls the atmosphere.",
+                     "<25>{*}{#e/twinkly/20}Otherwise, this wouldn't be possible!",
+                     '<25>{*}{#e/twinkly/14}As for Papyrus and Undyne...',
+                     "<25>{*}{#e/twinkly/23}Well, if you can't figure THAT out, then you're hopeless.",
+                     "<25>{*}{#e/twinkly/15}Just don't be an idiot, and you'll be fine.",
+                     "<25>{*}{#e/twinkly/15}... okay.\nThat's all.",
+                     '<25>{*}{#e/twinkly/15}Good luck.'
+                  ],
+                  [
+                     '<25>{*}{#p/twinkly}{#f/19}{#e/twinkly/0}...',
+                     "<25>{*}{#e/twinkly/0}... you're just trying to get a reaction out of me, aren'tcha?",
+                     '<25>{*}{#e/twinkly/15}I see.\nI hope it was worth it.',
+                     "<25>{*}{#e/twinkly/17}Because I'm NEVER coming back.",
+                     "<25>{*}{#e/twinkly/0}Not until you do what I've told you to do.",
+                     '<25>{*}{#e/twinkly/15}What?\nYou think you can just disobey me forever?',
+                     '<25>{*}{#e/twinkly/15}... no.',
+                     "<25>{*}{#e/twinkly/21}Sooner or later, you'll get bored...",
+                     '<25>{*}{#e/twinkly/15}And your curiosity will inevitably get the better of you.',
+                     '<25>{*}{#e/twinkly/23}Trust me.\nI know how this works.',
+                     '<25>{*}{#e/twinkly/20}It applies to humans and monsters all the same...',
+                     '<25>{*}{#e/twinkly/17}Curiosity eventually gets the better of EVERYONE.',
+                     '<25>{*}{#e/twinkly/16}Have your fun while it lasts, idiot!'
+                  ]
+               ][rep - 2],
          postnoot2: (rep: number, puzzlesolve: boolean, enemyweaken: boolean) => [
             ...((puzzlesolve || enemyweaken) && !SAVE.flag.b.neutral_reload_interloper
                ? [
-                    '<25>{*}{#p/twinkly}{#f/19}{#e/twinkly/20}By the way...',
-                    ...(puzzlesolve
-                       ? [ '<25>{*}{#e/twinkly/15}You could thank me for solving those puzzles for you.' ]
-                       : []),
-                    ...(enemyweaken
-                       ? [
-                            puzzlesolve
-                               ? '<25>{*}{#e/twinkly/15}Oh, and for screwing with the atmospheric system.'
-                               : '<25>{*}{#e/twinkly/15}You could thank me for screwing with the atmospheric system.',
-                            '<25>{*}{#e/twinkly/21}I figured, if you DID want to kill anyone...',
-                            '<25>{*}{#e/twinkly/15}I might as well weaken your opposition to make it easier.'
-                         ]
-                       : []),
-                    "<25>{*}{#e/twinkly/17}Wasn't that just so considerate of me?",
-                    '<25>{*}{#e/twinkly/17}...'
-                 ]
+                  '<25>{*}{#p/twinkly}{#f/19}{#e/twinkly/20}By the way...',
+                  ...(puzzlesolve
+                     ? ['<25>{*}{#e/twinkly/15}You could thank me for solving those puzzles for you.']
+                     : []),
+                  ...(enemyweaken
+                     ? [
+                        puzzlesolve
+                           ? '<25>{*}{#e/twinkly/15}Oh, and for screwing with the atmospheric system.'
+                           : '<25>{*}{#e/twinkly/15}You could thank me for screwing with the atmospheric system.',
+                        '<25>{*}{#e/twinkly/21}I figured, if you DID want to kill anyone...',
+                        '<25>{*}{#e/twinkly/15}I might as well weaken your opposition to make it easier.'
+                     ]
+                     : []),
+                  "<25>{*}{#e/twinkly/17}Wasn't that just so considerate of me?",
+                  '<25>{*}{#e/twinkly/17}...'
+               ]
                : []),
             ...(rep < 1
                ? [
-                    "<25>{*}{#p/twinkly}{#f/19}{#e/twinkly/0}Like last time, I've given you Asgore's SOUL.",
-                    '<25>{*}{#e/twinkly/0}Take it, and get out of my sight.',
-                    '<25>{*}{#e/twinkly/20}And if you come back...',
-                    '<25>{*}{#e/twinkly/15}Try to act a little more in line next time.'
-                 ]
+                  "<25>{*}{#p/twinkly}{#f/19}{#e/twinkly/0}Like last time, I've given you Asgore's SOUL.",
+                  '<25>{*}{#e/twinkly/0}Take it, and get out of my sight.',
+                  '<25>{*}{#e/twinkly/20}And if you come back...',
+                  '<25>{*}{#e/twinkly/15}Try to act a little more in line next time.'
+               ]
                : [
-                    "<25>{*}{#p/twinkly}{#f/19}{#e/twinkly/0}Like always, I've given you Asgore's SOUL.",
-                    '<25>{*}{#e/twinkly/0}Take it, and get out of my sight.',
-                    '<25>{*}{#e/twinkly/20}And remember...',
-                    "<25>{*}{#e/twinkly/15}This doesn't stop until you do exactly what I've told you."
-                 ])
+                  "<25>{*}{#p/twinkly}{#f/19}{#e/twinkly/0}Like always, I've given you Asgore's SOUL.",
+                  '<25>{*}{#e/twinkly/0}Take it, and get out of my sight.',
+                  '<25>{*}{#e/twinkly/20}And remember...',
+                  "<25>{*}{#e/twinkly/15}This doesn't stop until you do exactly what I've told you."
+               ])
          ],
-         oof: [ '<32>{#p/human}* （你倒吸了一口涼氣...）' ],
+         oof: ['<32>{#p/human}* （你倒吸了一口涼氣...）'],
          killer1: [
             '<25>{*}{#p/twinkly}{#f/19}{#e/twinkly/15}呀。',
             "<25>{*}{#e/twinkly/17}你真把事情搞砸了，不是嗎？",
@@ -1341,8 +1341,8 @@ export default {
             '<25>{*}(You thank the one beyond for what they have done...)',
             '<25>{*}(And ask that you be allowed to carry on.)'
          ],
-         forget1: [ '<25>{*}{#p/human}（...）', "<25>{*}（你好孤獨...）" ],
-         forget2: [ '<25>{*}{#p/human}（...）', "<25>{*}（你好害怕...）" ],
+         forget1: ['<25>{*}{#p/human}（...）', "<25>{*}（你好孤獨...）"],
+         forget2: ['<25>{*}{#p/human}（...）', "<25>{*}（你好害怕...）"],
          forget3: [
             '<25>{*}{#p/human}（...）',
             "<25>{*}（你多麼盼著能重新做人...）",
@@ -1353,7 +1353,7 @@ export default {
             "<25>{*}（可你沒得選。）",
             "<25>{*}（你只能看著別人替你選。）"
          ],
-         regret1: [ '<25>{*}{#p/twinkly}{#f/19}{#e/twinkly/0}Hi.' ],
+         regret1: ['<25>{*}{#p/twinkly}{#f/19}{#e/twinkly/0}Hi.'],
          regret2: [
             '<25>{*}{#p/twinkly}{#f/19}{#e/twinkly/0}Seems as if everyone is perfectly happy.',
             '<25>{*}{#e/twinkly/0}Monsters have found their new homeworld.',
@@ -1417,32 +1417,32 @@ export default {
          asgoreStoryPre1: () =>
             world.bad_robot
                ? [
-                    '<25>{#p/alphys}{#g/alphysSide}* 呃，你-你好...\n* 你...',
-                    '<25>{#g/alphysSideSad}* 你真-真的很享受殺人...\n* ...嗯?',
-                    "<25>{#g/alphysNervousLaugh}* 我-我是說，我不是在批評你，\n  我只是...",
-                    "<25>{#g/alphysUhButHeresTheDeal}* 我只是覺得這超級無敵酷！！！",
-                    '<25>{#g/alphysSideSad}* 那-那麼... 這樣一來...',
-                    "<25>{#g/alphysCutscene3}* 也許你現在就\n  不會打算殺我啦？？？"
-                 ]
-               : [ "<25>{#p/asgore}{#f/0}* 挺美的，不是嗎...？", '<25>{#p/asgore}{#f/0}* ...' ],
+                  '<25>{#p/alphys}{#g/alphysSide}* 呃，你-你好...\n* 你...',
+                  '<25>{#g/alphysSideSad}* 你真-真的很享受殺人...\n* ...嗯?',
+                  "<25>{#g/alphysNervousLaugh}* 我-我是說，我不是在批評你，\n  我只是...",
+                  "<25>{#g/alphysUhButHeresTheDeal}* 我只是覺得這超級無敵酷！！！",
+                  '<25>{#g/alphysSideSad}* 那-那麼... 這樣一來...',
+                  "<25>{#g/alphysCutscene3}* 也許你現在就\n  不會打算殺我啦？？？"
+               ]
+               : ["<25>{#p/asgore}{#f/0}* 挺美的，不是嗎...？", '<25>{#p/asgore}{#f/0}* ...'],
          asgoreStoryPre2: () =>
             world.bad_robot
-               ? [ '<25>{*}{#p/alphys}{#g/alphysOhGodNo}* 看你後面！！！{%}' ]
+               ? ['<25>{*}{#p/alphys}{#g/alphysOhGodNo}* 看你後面！！！{%}']
                : [
-                    '<25>{#p/asgore}{#f/6}* 孩子，如果你被嚇著了，\n  那我先對你道個歉。',
-                    '<25>{#p/asgore}{#f/6}* Alphys告知了我\n  你會來到這裡。'
-                 ],
+                  '<25>{#p/asgore}{#f/6}* 孩子，如果你被嚇著了，\n  那我先對你道個歉。',
+                  '<25>{#p/asgore}{#f/6}* Alphys告知了我\n  你會來到這裡。'
+               ],
          asgoreStoryPre3: () => [
             '<25>{#p/asgore}{#f/7}* ...',
             ...(SAVE.flag.b.waaaaaooaaooooaaaaaaooohooohooohstooooryofunderrtaaaaale
                ? [
-                    '<25>{#p/asgore}{#f/12}* 嗯...？\n* 你已經聽過這個故事了？',
-                    '<25>{#p/asgore}{#f/5}* ...',
-                    '<25>{#p/asgore}{#f/6}* 好吧。',
-                    '<25>{#p/asgore}{#f/6}* 如果你早已聽過，\n  那我也不必再複述一遍。',
-                    '<25>{#p/asgore}{#f/6}* 繼續一個人行進吧。'
-                 ]
-               : [ '<25>{#p/asgore}{#f/7}* 來吧。', '<25>{#p/asgore}{#f/7}* 我有一個故事\n  要講給你聽。' ])
+                  '<25>{#p/asgore}{#f/12}* 嗯...？\n* 你已經聽過這個故事了？',
+                  '<25>{#p/asgore}{#f/5}* ...',
+                  '<25>{#p/asgore}{#f/6}* 好吧。',
+                  '<25>{#p/asgore}{#f/6}* 如果你早已聽過，\n  那我也不必再複述一遍。',
+                  '<25>{#p/asgore}{#f/6}* 繼續一個人行進吧。'
+               ]
+               : ['<25>{#p/asgore}{#f/7}* 來吧。', '<25>{#p/asgore}{#f/7}* 我有一個故事\n  要講給你聽。'])
          ],
          alphysApproach1: [
             "<25>{#p/alphys}{#g/alphysSmileSweat}* 噢，你-你大概在想ASGORE在哪，\n  對吧？",
@@ -1469,57 +1469,57 @@ export default {
             "<25>{#g/alphysIDK2}* 去吧。\n* 做你要做的事吧。",
             "<26>{#g/alphysIDK3}* 我阻止不了你。"
          ],
-         alphysApproach3: [ "<25>{#p/alphys}{#g/alphysFR}* 只有一個人能做到。" ],
+         alphysApproach3: ["<25>{#p/alphys}{#g/alphysFR}* 只有一個人能做到。"],
          asgoreStory1: [
             '<25>{*}{#p/asgore}{#f/6}* 很久以前，一個人類小孩\n  在前哨站迫降。{~}',
             '<25>{*}{#p/asgore}{#f/6}* 身受重傷的人類\n  開始大聲呼救。{~}'
          ],
-         asgoreStory1r: [ '<32>{#p/basic}* ...{%40}', "<32>{#p/basic}* I'm sorry.{%40}" ],
+         asgoreStory1r: ['<32>{#p/basic}* ...{%40}', "<32>{#p/basic}* I'm sorry.{%40}"],
          asgoreStory2: [
             '<25>{*}{#p/asgore}{#f/7}* 而我們的初生子Asriel\n  聽到了呼救聲。{~}',
             '<25>{*}{#p/asgore}{#f/7}* 他把人類帶回了\n  我們家裡。{~}'
          ],
-         asgoreStory2r: [ '<32>{#p/basic}* I did the best I could.{%40}' ],
+         asgoreStory2r: ['<32>{#p/basic}* I did the best I could.{%40}'],
          asgoreStory3: [
             '<25>{*}{#p/asgore}{#f/6}* 慢慢的，\n  兩個孩子變得情同手足。{~}',
             '<25>{*}{#p/asgore}{#f/6}* 他們之間的親情\n  隨著前哨站的擴建\n  也愈發緊密。{~}',
             '<25>{*}{#p/asgore}{#f/6}* 整個前哨站充滿了希望。{~}'
          ],
-         asgoreStory3r: [ '<32>{#p/basic}* I tried to follow my heart.{%40}' ],
+         asgoreStory3r: ['<32>{#p/basic}* I tried to follow my heart.{%40}'],
          asgoreStory4: [
             '<25>{*}{#p/asgore}{#f/1}* 然而，有一天...{~}',
             '<25>{*}{#p/asgore}{#f/2}* 人類猝不及防地\n  感染了一種疾病。{~}'
          ],
-         asgoreStory4r: [ '<32>{#p/basic}* I tried to do the right thing.{%40}' ],
+         asgoreStory4r: ['<32>{#p/basic}* I tried to do the right thing.{%40}'],
          asgoreStory5: [
             '<25>{*}{#p/asgore}{#f/1}* 病入膏肓的人類\n  只有一個請求。{~}',
             '<25>{*}{#p/asgore}{#f/1}* 想看看我們先前\n  那偉大富饒的世界\n  所殘存的遺址。{~}',
             '<25>{*}{#p/asgore}{#f/2}* 但我們對此無能為力。{~}'
          ],
-         asgoreStory5r: [ '<32>{#p/basic}* All I wanted was for him to see the universe.{%40}' ],
+         asgoreStory5r: ['<32>{#p/basic}* All I wanted was for him to see the universe.{%40}'],
          asgoreStory6: [
             '<25>{*}{#p/asgore}{#f/1}* 第二天...{~}',
             '<25>{*}{#p/asgore}{#f/1}* ...{~}',
             '<25>{*}{#p/asgore}{#f/2}* 人類便與世長辭。{~}'
          ],
-         asgoreStory6r: [ '<32>{#p/basic}* All I wanted was for him to be happy.{%40}' ],
+         asgoreStory6r: ['<32>{#p/basic}* All I wanted was for him to be happy.{%40}'],
          asgoreStory7: [
             '<25>{*}{#p/asgore}{#f/15}* Asriel悲痛欲絕，\n  吸收了這個人類的\n  靈魂。{~}',
             '<25>{*}{#p/asgore}{#f/16}* 他化作了一個\n  擁有不可思議力量的\n  存在。{~}'
          ],
-         asgoreStory7r: [ '<33>{#p/basic}* I never wanted to...{%40}' ],
+         asgoreStory7r: ['<33>{#p/basic}* I never wanted to...{%40}'],
          asgoreStory8: [
             '<25>{*}{#p/asgore}{#f/4}* 憑藉著新獲得的力量，\n  Asriel穿過了力場。{~}',
             "<25>{*}{#p/asgore}{#f/4}* 他開著一架小型飛船，\n  載著人類的遺體\n  飛向遠方。{~}",
             '<25>{*}{#p/asgore}{#f/4}* 希望能找到那\n  傳說中的遺蹟。{~}'
          ],
-         asgoreStory8r: [ '<32>{#p/basic}* ... to...{%40}' ],
+         asgoreStory8r: ['<32>{#p/basic}* ... to...{%40}'],
          asgoreStory9: [
             '<25>{*}{#p/asgore}{#f/1}* 很快，他就發現了\n  自己所尋找的東西。{~}',
             '<25>{*}{#p/asgore}{#f/1}* 飛船著陸在破碎飄零的\n  碎片之中...{~}',
             "<25>{*}{#p/asgore}{#f/1}* 人類的遺體\n  也在此安葬。{~}"
          ],
-         asgoreStory9r: [ '<32>{#p/basic}* ...{%40}' ],
+         asgoreStory9r: ['<32>{#p/basic}* ...{%40}'],
          
          
          asgoreStory10: [
@@ -1536,30 +1536,30 @@ export default {
             '<25>{*}{#p/asgore}{#f/4}* 但是...{~}',
             '<25>{*}{#p/asgore}{#f/4}* Asriel並沒有還手。{~}'
          ],
-         asgoreStory12r: [ '<32>{#p/human}* （你聽見有人在哭...）{%40}' ],
+         asgoreStory12r: ['<32>{#p/human}* （你聽見有人在哭...）{%40}'],
          asgoreStory13: [
             "<25>{*}{#p/asgore}{#f/9}* Asriel緊緊抱住\n  人類的遺體，向外界看了\n  最後一眼...{~}",
             '<25>{*}{#p/asgore}{#f/9}* 然後他面帶微笑...\n  緩緩地離開了。{~}'
          ],
-         asgoreStory13r: [ "<32>{#p/basic}* I c-couldn't...\n* He d-d-didn't let m-me...{%40}" ],
+         asgoreStory13r: ["<32>{#p/basic}* I c-couldn't...\n* He d-d-didn't let m-me...{%40}"],
          asgoreStory14: [
             '<25>{*}{#p/asgore}{#f/1}* 傷痕累累的Asriel駕駛著\n  受損的飛船回到了家。{~}',
             '<25>{*}{#p/asgore}{#f/1}* 他下了飛船，\n  然後癱倒在地。{~}',
             '<25>{*}{#p/asgore}{#f/2}* 化作一團塵埃，\n  飄散在整個樹林裡。{~}'
          ],
-         asgoreStory14r: [ '<32>{#p/basic}* ...{%40}' ],
+         asgoreStory14r: ['<32>{#p/basic}* ...{%40}'],
          asgoreStory15: [
             '<25>{*}{#p/asgore}{#f/13}* 前哨站，我的前哨站...\n  陷入了絕望。{~}',
             '<25>{*}{#p/asgore}{#f/13}* 我們一夜之間就\n  失去了兩個孩子。{~}',
             '<25>{*}{#p/asgore}{#f/14}* 我們的一切，又一次\n  被奪走了。{~}'
          ],
-         asgoreStory15r: [ "<32>{#p/basic}* ... it's not fair...{%40}" ],
+         asgoreStory15r: ["<32>{#p/basic}* ... it's not fair...{%40}"],
          asgoreStory16: [
             '<25>{*}{#p/asgore}{#f/13}* 於是，我一怒之下\n  向人類宣戰。{~}',
             '<25>{*}{#p/asgore}{#f/13}* 無論付出多少代價，\n  我都要讓我們怪物\n  重獲自由。{~}',
             '<25>{*}{#p/asgore}{#f/14}* ...而人民們都支援\n  我的決策。{~}'
          ],
-         asgoreStory16r: [ "<32>{#p/basic}* It's not fair...!{%40}" ],
+         asgoreStory16r: ["<32>{#p/basic}* It's not fair...!{%40}"],
          asgoreStory17: [
             '<25>{*}{#p/asgore}{#f/3}* 可我回過神來才發現，\n  一切都為時已晚。{~}',
             '<25>{*}{#p/asgore}{#f/2}* 無論做什麼事情\n  都無法阻擋人民\n  發動戰爭的意願。{~}',
@@ -1568,15 +1568,15 @@ export default {
          asgoreStory18: () =>
             SAVE.data.b.killed_mettaton || world.baddest_lizard
                ? [
-                    '<25>{*}{#p/asgore}{#f/5}* 事到如今，想必Alphys\n  一定已經告訴過你\n  某個秘密了吧。{~}',
-                    '<25>{*}{#p/asgore}{#f/5}* 一份我與前皇家科學員的\n  協定。{~}',
-                    '<25>{*}{#p/asgore}{#f/6}* ... now, if only I knew what was holding up the current one...{~}'
-                 ]
+                  '<25>{*}{#p/asgore}{#f/5}* 事到如今，想必Alphys\n  一定已經告訴過你\n  某個秘密了吧。{~}',
+                  '<25>{*}{#p/asgore}{#f/5}* 一份我與前皇家科學員的\n  協定。{~}',
+                  '<25>{*}{#p/asgore}{#f/6}* ... now, if only I knew what was holding up the current one...{~}'
+               ]
                : [
-                    '<25>{*}{#p/asgore}{#f/5}* 事到如今，想必Alphys\n  一定已經告訴過你\n  某個{@fill=#003cff}秘密{@fill=#fff}了吧。{~}',
-                    '<25>{*}{#p/asgore}{#f/5}* 一份我與前皇家科學員的\n  {@fill=#003cff}協定{@fill=#fff}。{~}',
-                    '<25>{*}{#p/asgore}{#f/6}* ... 啊，原來她來了。\n* 我剛才還尋思著她\n  什麼時候才會到呢。{~}'
-                 ],
+                  '<25>{*}{#p/asgore}{#f/5}* 事到如今，想必Alphys\n  一定已經告訴過你\n  某個{@fill=#003cff}秘密{@fill=#fff}了吧。{~}',
+                  '<25>{*}{#p/asgore}{#f/5}* 一份我與前皇家科學員的\n  {@fill=#003cff}協定{@fill=#fff}。{~}',
+                  '<25>{*}{#p/asgore}{#f/6}* ... 啊，原來她來了。\n* 我剛才還尋思著她\n  什麼時候才會到呢。{~}'
+               ],
          asgoreStory19: [
             '<25>{#p/alphys}{#g/alphysNervousLaugh}* 呃，抱——抱歉！\n* 我已經盡力在趕了！',
             '<25>{#p/asgore}{#f/6}* 不必著急。\n* 畢竟好事多磨嘛。',
@@ -1608,41 +1608,41 @@ export default {
             '<32>* 與此同時...',
             ...(SAVE.data.b.ultrashortcut
                ? [
-                    '<32>* ...',
-                    "<32>* 不對。",
-                    '<32>* 你怎麼來得這麼快？',
-                    '<32>* 讓我猜猜，你是不是...',
-                    '<32>* 走{@fill=#ff0}捷徑{@fill=#fff}了？'
-                 ]
+                  '<32>* ...',
+                  "<32>* 不對。",
+                  '<32>* 你怎麼來得這麼快？',
+                  '<32>* 讓我猜猜，你是不是...',
+                  '<32>* 走{@fill=#ff0}捷徑{@fill=#fff}了？'
+               ]
                : [
-                    ...(SAVE.data.b.water
-                       ? [
-                            '<32>* ...',
-                            "<32>* 你是不是一路上\n  一直拿著那杯液體？",
-                            ...(world.dead_skeleton
-                               ? [ '<32>* ...', '<32>* 嗯，沒事。' ]
-                               : [ '<32>* Heh.', '<32>* 回到剛才的話題...' ])
-                         ]
-                       : []),
-                    '<32>* 你將會決定怪物的命運。',
-                    "<32>* 但那是後話了。",
-                    '<32>* 現在。',
-                    '<32>* 你將接受審判。',
-                    '<32>* 你將為你每一個行為接受審判。',
-                    "<32>* 你將為你獲得的每一點EXP\n  接受審判。",
-                    "<32>* EXP是什麼？",
-                    "<32>* 那是一個縮寫。",
-                    '<32>* 意思是「{@fill=#f00}處決點數{@fill=#fff}」\n  （{@fill=#f00}EX{@fill=#fff}ecution {@fill=#f00}P{@fill=#fff}oints）。',
-                    '<32>* 一種指標，用來衡量\n  你對別人造成了多少傷害。',
-                    '<32>* 當你殺了人，EXP就會增加。',
-                    '<32>* 當你的EXP積累到一定程度，\n  LOVE就會增加。',
-                    '<32>* LOVE，也是一個縮寫。',
-                    '<32>* 意思是「{@fill=#f00}暴力等級{@fill=#fff}」\n  （{@fill=#f00}L{@fill=#fff}evel {@fill=#f00}O{@fill=#fff}f {@fill=#f00}V{@fill=#fff}iol{@fill=#f00}E{@fill=#fff}nce）。',
-                    "<32>* 一種指標，用來衡量\n  你能對別人造成多大傷害。",
-                    '<32>* 你殺得越多，就越容易\n  偏離自己的本心。',
-                    '<32>* 離本心越遠，\n  就越難受到傷害。',
-                    '<32>* 也就越容易放任自己\n  傷害別人。'
-                 ])
+                  ...(SAVE.data.b.water
+                     ? [
+                        '<32>* ...',
+                        "<32>* 你是不是一路上\n  一直拿著那杯液體？",
+                        ...(world.dead_skeleton
+                           ? ['<32>* ...', '<32>* 嗯，沒事。']
+                           : ['<32>* Heh.', '<32>* 回到剛才的話題...'])
+                     ]
+                     : []),
+                  '<32>* 你將會決定怪物的命運。',
+                  "<32>* 但那是後話了。",
+                  '<32>* 現在。',
+                  '<32>* 你將接受審判。',
+                  '<32>* 你將為你每一個行為接受審判。',
+                  "<32>* 你將為你獲得的每一點EXP\n  接受審判。",
+                  "<32>* EXP是什麼？",
+                  "<32>* 那是一個縮寫。",
+                  '<32>* 意思是「{@fill=#f00}處決點數{@fill=#fff}」\n  （{@fill=#f00}EX{@fill=#fff}ecution {@fill=#f00}P{@fill=#fff}oints）。',
+                  '<32>* 一種指標，用來衡量\n  你對別人造成了多少傷害。',
+                  '<32>* 當你殺了人，EXP就會增加。',
+                  '<32>* 當你的EXP積累到一定程度，\n  LOVE就會增加。',
+                  '<32>* LOVE，也是一個縮寫。',
+                  '<32>* 意思是「{@fill=#f00}暴力等級{@fill=#fff}」\n  （{@fill=#f00}L{@fill=#fff}evel {@fill=#f00}O{@fill=#fff}f {@fill=#f00}V{@fill=#fff}iol{@fill=#f00}E{@fill=#fff}nce）。',
+                  "<32>* 一種指標，用來衡量\n  你能對別人造成多大傷害。",
+                  '<32>* 你殺得越多，就越容易\n  偏離自己的本心。',
+                  '<32>* 離本心越遠，\n  就越難受到傷害。',
+                  '<32>* 也就越容易放任自己\n  傷害別人。'
+               ])
          ],
          jspeechU1: () => [
             '<25>{#p/sans}{#f/3}* ...',
@@ -1681,8 +1681,8 @@ export default {
          jspeechU6: () => [
             '<25>{#p/sans}{#f/0}* 我在想，如果那位\n  賣「冰意靈」的夥計也願意\n  賣這種口味的冰淇淋...',
             ...(SAVE.data.n.state_starton_nicecream < 1
-               ? [ "<25>{#f/2}* 那肯定就有顧客上門了。" ]
-               : [ "<25>{#f/2}* 那上門的顧客肯定就多了。" ])
+               ? ["<25>{#f/2}* 那肯定就有顧客上門了。"]
+               : ["<25>{#f/2}* 那上門的顧客肯定就多了。"])
          ],
          jspeechU7: [
             '<26>{#p/sans}{#f/0}* 啊... 哪怕是山珍海味，\n  也比不上這三文魚\n  冰淇淋啊。',
@@ -1693,12 +1693,12 @@ export default {
             "<25>{#f/0}* 以前，想搞點能吃的東西\n  都難上加難...",
             '<25>{#f/2}* 而現在，冰淇淋、蛋筒\n  都能完美複製出來。'
          ],
-         jspeechU9: [ '<25>{#p/sans}{#f/0}* ...', '<25>{#f/3}* ...現在是徹底吃沒了。' ],
+         jspeechU9: ['<25>{#p/sans}{#f/0}* ...', '<25>{#f/3}* ...現在是徹底吃沒了。'],
          jspeechU10: (funni: boolean) => [
             "<25>{#p/sans}{#f/0}* 行，那就這樣。",
             ...(funni
-               ? [ '<25>{#f/2}* 希望你能\n  早日從柱子中脫困喔。' ]
-               : [ "<25>{#f/2}* 希望你沒白白浪費\n  這段時間喔。" ])
+               ? ['<25>{#f/2}* 希望你能\n  早日從柱子中脫困喔。']
+               : ["<25>{#f/2}* 希望你沒白白浪費\n  這段時間喔。"])
          ],
          jspeech2: (funni: boolean) => [
             '<25>{#p/sans}{#f/3}* ...',
@@ -1714,23 +1714,23 @@ export default {
             "<25>{#f/2}* 像你這麼棒的傢伙...\n  肯定能在兩難之中\n  找到第三條路的。",
             ...(world.flirt < world.flirt_state1.length
                ? [
-                    '<25>{#f/3}* ...',
-                    '<25>{#f/0}* 加油，孩子。',
-                    ...(funni
-                       ? [ "<25>{#f/2}* 我會把你挪回柱子後面。" ]
-                       : [ "<26>{#f/2}* 你一定能成功的。" ])
-                 ]
+                  '<25>{#f/3}* ...',
+                  '<25>{#f/0}* 加油，孩子。',
+                  ...(funni
+                     ? ["<25>{#f/2}* 我會把你挪回柱子後面。"]
+                     : ["<26>{#f/2}* 你一定能成功的。"])
+               ]
                : [
-                    '<25>{#f/3}* ...喔對。\n* 差點忘了。',
-                    '<25>{#f/0}* 你可能已經知道\n  對Alphys調情\n  是有多麼困難了。',
-                    "<25>{#f/2}* 但我有訣竅，能讓你\n  一擊俘獲Alphys芳心。",
-                    "<25>{#f/0}* 如果你真的想成為\n  一位傳奇調情大師...",
-                    "<25>{#f/0}* 你就得在她耳邊\n  這樣低語。",
-                    '<32>{#p/human}* （Sans在你耳邊\n  小聲說了些話。）',
-                    ...(funni
-                       ? [ '<25>{#p/sans}{#f/2}* 儘量別在柱子後面\n  對她說這些話。' ]
-                       : [ '<25>{#p/sans}{#f/2}* 祝你好運。' ])
-                 ])
+                  '<25>{#f/3}* ...喔對。\n* 差點忘了。',
+                  '<25>{#f/0}* 你可能已經知道\n  對Alphys調情\n  是有多麼困難了。',
+                  "<25>{#f/2}* 但我有訣竅，能讓你\n  一擊俘獲Alphys芳心。",
+                  "<25>{#f/0}* 如果你真的想成為\n  一位傳奇調情大師...",
+                  "<25>{#f/0}* 你就得在她耳邊\n  這樣低語。",
+                  '<32>{#p/human}* （Sans在你耳邊\n  小聲說了些話。）',
+                  ...(funni
+                     ? ['<25>{#p/sans}{#f/2}* 儘量別在柱子後面\n  對她說這些話。']
+                     : ['<25>{#p/sans}{#f/2}* 祝你好運。'])
+               ])
          ],
          jspeech3: (funni: boolean) => [
             '<25>{#p/sans}{#f/3}* ...',
@@ -1741,60 +1741,60 @@ export default {
             ...(SAVE.data.n.bully < 15
                ? SAVE.data.n.state_foundry_undyne > 0
                   ? [
-                       "<25>{#f/0}* 當你有能力\n  去拯救某人性命時...",
-                       '<25>{#f/0}* 你放棄了救人，\n  轉而選擇自保。',
-                       '<25>{#f/3}* 也許你會爭辯，\n  當時身處險境，十分害怕，\n  只能那麼做。',
-                       "<25>{#f/0}* 但是，你就從沒考慮過\n  另一條更好的路嗎？",
-                       '<25>{#f/0}* ...',
-                       "<25>{#f/0}* for what it's worth...",
-                       '<25>{#f/3}* you never went out of your way to kill anyone.',
-                       "<25>{#f/0}* even when you ran away, you didn't do it out of malice.",
-                       '<25>{#f/0}* you never gained LOVE, but you had love.',
-                       '<25>{#f/0}* does that make sense?',
-                       '<25>{#f/0}* maybe not.'
-                    ]
+                     "<25>{#f/0}* 當你有能力\n  去拯救某人性命時...",
+                     '<25>{#f/0}* 你放棄了救人，\n  轉而選擇自保。',
+                     '<25>{#f/3}* 也許你會爭辯，\n  當時身處險境，十分害怕，\n  只能那麼做。',
+                     "<25>{#f/0}* 但是，你就從沒考慮過\n  另一條更好的路嗎？",
+                     '<25>{#f/0}* ...',
+                     "<25>{#f/0}* for what it's worth...",
+                     '<25>{#f/3}* you never went out of your way to kill anyone.',
+                     "<25>{#f/0}* even when you ran away, you didn't do it out of malice.",
+                     '<25>{#f/0}* you never gained LOVE, but you had love.',
+                     '<25>{#f/0}* does that make sense?',
+                     '<25>{#f/0}* maybe not.'
+                  ]
                   : [
-                       '<25>* just that you kept a certain tenderness in your heart.',
-                       '<25>* no matter the struggles or hardships you faced...',
-                       '<25>* you strived to do the right thing.',
-                       ...(world.flirt < 20
-                          ? [
-                               '<25>* you refused to hurt anyone.',
-                               '<25>* even when you ran away, you did it with a smile.',
-                               '<25>* you never gained LOVE, but you gained love.',
-                               '<25>* does that make sense?',
-                               '<25>* maybe not.'
-                            ]
-                          : [
-                               "<25>* in fact, i hear you're quite the romantic.",
-                               '<25>* not only did you not hurt anyone, you went right for their hearts.',
-                               '<25>{#f/2}* you really like to make things hard on yourself, huh?'
-                            ])
-                    ]
+                     '<25>* just that you kept a certain tenderness in your heart.',
+                     '<25>* no matter the struggles or hardships you faced...',
+                     '<25>* you strived to do the right thing.',
+                     ...(world.flirt < 20
+                        ? [
+                           '<25>* you refused to hurt anyone.',
+                           '<25>* even when you ran away, you did it with a smile.',
+                           '<25>* you never gained LOVE, but you gained love.',
+                           '<25>* does that make sense?',
+                           '<25>* maybe not.'
+                        ]
+                        : [
+                           "<25>* in fact, i hear you're quite the romantic.",
+                           '<25>* not only did you not hurt anyone, you went right for their hearts.',
+                           '<25>{#f/2}* you really like to make things hard on yourself, huh?'
+                        ])
+                  ]
                : [
-                    SAVE.data.n.bully < 30
-                       ? "<25>{#f/0}* 一路上，你傷害了不少人。\n  不是嗎？"
-                       : "<25>{#f/0}* 一路上，你傷害了很多人。\n  不是嗎？",
-                    ...(SAVE.data.n.state_foundry_undyne > 0
-                       ? [
-                            "<25>{#f/0}* 而且，當你有能力\n  去拯救某人性命時...",
-                            '<25>{#f/0}* 你放棄了救人，\n  轉而選擇自保。',
-                            '<25>{#f/3}* 也許你會爭辯，\n  當時身處險境，十分害怕，\n  只能那麼做。',
-                            '<25>{#f/3}* 但別的怪物面對你，\n  難道就不恐懼，不害怕嗎？',
-                            '<25>{#f/0}* 希望你記著...'
-                         ]
-                       : world.flirt < 20
-                       ? [
-                            '<25>{#f/0}* 你確實沒殺一隻怪物，\n  但你無數次將他們\n  推向生死邊緣。',
-                            '<25>{#f/3}* 這是正當防衛？\n* 還是防衛過當呢？',
-                            "<25>{#f/0}* 只有你自己心裡清楚。"
-                         ]
-                       : [
-                            '<25>{#f/0}* then, you flirted with them as if to have your way with them.',
-                            '<25>{#f/3}* is that really what you meant to do?\n* or... am i wrong?',
-                            "<25>{#f/0}* 只有你自己心裡清楚。"
-                         ])
-                 ]),
+                  SAVE.data.n.bully < 30
+                     ? "<25>{#f/0}* 一路上，你傷害了不少人。\n  不是嗎？"
+                     : "<25>{#f/0}* 一路上，你傷害了很多人。\n  不是嗎？",
+                  ...(SAVE.data.n.state_foundry_undyne > 0
+                     ? [
+                        "<25>{#f/0}* 而且，當你有能力\n  去拯救某人性命時...",
+                        '<25>{#f/0}* 你放棄了救人，\n  轉而選擇自保。',
+                        '<25>{#f/3}* 也許你會爭辯，\n  當時身處險境，十分害怕，\n  只能那麼做。',
+                        '<25>{#f/3}* 但別的怪物面對你，\n  難道就不恐懼，不害怕嗎？',
+                        '<25>{#f/0}* 希望你記著...'
+                     ]
+                     : world.flirt < 20
+                        ? [
+                           '<25>{#f/0}* 你確實沒殺一隻怪物，\n  但你無數次將他們\n  推向生死邊緣。',
+                           '<25>{#f/3}* 這是正當防衛？\n* 還是防衛過當呢？',
+                           "<25>{#f/0}* 只有你自己心裡清楚。"
+                        ]
+                        : [
+                           '<25>{#f/0}* then, you flirted with them as if to have your way with them.',
+                           '<25>{#f/3}* is that really what you meant to do?\n* or... am i wrong?',
+                           "<25>{#f/0}* 只有你自己心裡清楚。"
+                        ])
+               ]),
             '<25>{#f/3}* ...\n* now.',
             "<25>{#f/0}* you're about to make the greatest decision of your entire journey.",
             '<25>* your choice here...',
@@ -1815,37 +1815,37 @@ export default {
             '<25>* you have something called \"{@fill=#ff0}determination.{@fill=#fff}\"',
             ...(SAVE.data.n.bully < 15
                ? [
-                    '<25>* so as long as you hold on...',
-                    "<25>* so as long as you do what's in your heart...",
-                    '<25>* i believe you can do the right thing.',
-                    ...(SAVE.data.n.state_foundry_undyne > 0 || world.flirt < world.flirt_state1.length
-                       ? [
-                            '<25>{#f/3}* alright.',
-                            "<25>{#f/0}* we're all counting on you, buddo.",
-                            ...(funni
-                               ? [ "<25>{#f/2}* 我會把你挪回柱子後面。" ]
-                               : [ '<25>{#f/2}* good luck.' ])
-                         ]
-                       : [
-                            '<25>{#f/3}* oh, right.\n* i almost forgot.',
-                            '<25>{#f/0}* you may have noticed how difficult it is to flirt with her.',
-                            '<25>{#f/0}* alphys, i mean.',
-                            "<25>{#f/2}* 但我有訣竅，能讓你\n  一擊俘獲Alphys芳心。",
-                            "<25>{#f/0}* 如果你真的想成為\n  一位傳奇調情大師...",
-                            "<25>{#f/0}* 你就得在她耳邊\n  這樣低語。",
-                            '<32>{#p/human}* （Sans在你耳邊\n  小聲說了些話。）',
-                            ...(funni
-                               ? [ '<25>{#p/sans}{#f/2}* 儘量別在柱子後面\n  對她說這些話。' ]
-                               : [ '<25>{#p/sans}{#f/2}* 祝你好運。' ])
-                         ])
-                 ]
+                  '<25>* so as long as you hold on...',
+                  "<25>* so as long as you do what's in your heart...",
+                  '<25>* i believe you can do the right thing.',
+                  ...(SAVE.data.n.state_foundry_undyne > 0 || world.flirt < world.flirt_state1.length
+                     ? [
+                        '<25>{#f/3}* alright.',
+                        "<25>{#f/0}* we're all counting on you, buddo.",
+                        ...(funni
+                           ? ["<25>{#f/2}* 我會把你挪回柱子後面。"]
+                           : ['<25>{#f/2}* good luck.'])
+                     ]
+                     : [
+                        '<25>{#f/3}* oh, right.\n* i almost forgot.',
+                        '<25>{#f/0}* you may have noticed how difficult it is to flirt with her.',
+                        '<25>{#f/0}* alphys, i mean.',
+                        "<25>{#f/2}* 但我有訣竅，能讓你\n  一擊俘獲Alphys芳心。",
+                        "<25>{#f/0}* 如果你真的想成為\n  一位傳奇調情大師...",
+                        "<25>{#f/0}* 你就得在她耳邊\n  這樣低語。",
+                        '<32>{#p/human}* （Sans在你耳邊\n  小聲說了些話。）',
+                        ...(funni
+                           ? ['<25>{#p/sans}{#f/2}* 儘量別在柱子後面\n  對她說這些話。']
+                           : ['<25>{#p/sans}{#f/2}* 祝你好運。'])
+                     ])
+               ]
                : [
-                    "<26>* no matter what you've used it for up to now...",
-                    "<25>* i know you have it in you to do what's right when it matters most.",
-                    '<25>{#f/3}* ...',
-                    '<25>{#f/3}* be good, alright?',
-                    ...(funni ? [ '<25>{#f/2}* ... and try not to stand behind any more pillars.' ] : [])
-                 ])
+                  "<26>* no matter what you've used it for up to now...",
+                  "<25>* i know you have it in you to do what's right when it matters most.",
+                  '<25>{#f/3}* ...',
+                  '<25>{#f/3}* be good, alright?',
+                  ...(funni ? ['<25>{#f/2}* ... and try not to stand behind any more pillars.'] : [])
+               ])
          ],
          
          jspeech4: [
@@ -1867,7 +1867,7 @@ export default {
          jspeech5b1: (funni: boolean) => [
             '<25>{#p/sans}{#f/3}* what happens now...',
             '<25>{#f/0}* we leave up to you.',
-            ...(funni ? [ '<25>{#f/2}* ... just as soon as i move you back behind that pillar.' ] : [])
+            ...(funni ? ['<25>{#f/2}* ... just as soon as i move you back behind that pillar.'] : [])
          ],
 
          
@@ -1885,30 +1885,30 @@ export default {
             "<25>* isn't it your responsibility to do the right thing?",
             choicer.create('* （你要怎麼回答？）', '是', '否')
          ],
-         jspeech5b3a: [ '<25>{#p/sans}{#f/4}* ah.', '<25>{#f/0}* i see.' ],
+         jspeech5b3a: ['<25>{#p/sans}{#f/4}* ah.', '<25>{#f/0}* i see.'],
          jspeech5b3b: [
             '<25>{#p/sans}{#f/4}* 嘿。',
             "<25>{#f/0}* well, that's your viewpoint.",
             "<25>{#f/2}* i won't judge you for it."
          ],
-         jspeech5b3c: [ '<25>{#p/sans}{#f/3}* ...' ],
+         jspeech5b3c: ['<25>{#p/sans}{#f/3}* ...'],
 
          
          
-         jspeech5b4a: [ "<25>{*}{#p/darksans}{#f/1}{#i/5}* ... then why'd you kill my brother?" ],
-         jspeech5b4b: [ '<25>{*}{#p/darksans}{#f/1}{#i/5}* ... you dirty brother killer.' ],
-         jspeech5b5a: [ "<25>{#p/sans}{#f/3}* ... guess toriel wasn't worth the effort, then, huh?" ],
-         jspeech5b5b: [ '<25>{#p/sans}{#f/3}* ... even if i should, after what you did to toriel.' ],
-         jspeech5b6a: [ "<25>{*}{#p/darksans}{#f/1}{#i/5}* ... then why'd you kill all those people?" ],
-         jspeech5b6b: [ '<25>{*}{#p/darksans}{#f/1}{#i/5}* ... you dirty serial killer.' ],
-         jspeech5b7a: [ "<25>{#p/sans}{#f/3}* ... guess undyne wasn't worth the effort, then, huh?" ],
-         jspeech5b7b: [ '<25>{#p/sans}{#f/3}* ... even if i should, after what you did to undyne.' ],
-         jspeech5b8a: [ "<25>{#p/sans}{#f/3}* ... guess mettaton wasn't worth the effort, then, huh?" ],
-         jspeech5b8b: [ '<25>{#p/sans}{#f/3}* ... even if i should, after what you did to mettaton.' ],
-         jspeech5b9a: [ "<25>{#p/sans}{#f/3}* ... guess the people you killed don't matter, then, huh?" ],
-         jspeech5b9b: [ '<25>{#p/sans}{#f/3}* ... even if i should, after what you did to those people.' ],
-         jspeech5b10a: [ "<25>{#p/sans}{#f/3}* ... guess the person you killed don't matter, then, huh?" ],
-         jspeech5b10b: [ '<25>{#p/sans}{#f/3}* ... even if i should, after what you did to that person.' ],
+         jspeech5b4a: ["<25>{*}{#p/darksans}{#f/1}{#i/5}* ... then why'd you kill my brother?"],
+         jspeech5b4b: ['<25>{*}{#p/darksans}{#f/1}{#i/5}* ... you dirty brother killer.'],
+         jspeech5b5a: ["<25>{#p/sans}{#f/3}* ... guess toriel wasn't worth the effort, then, huh?"],
+         jspeech5b5b: ['<25>{#p/sans}{#f/3}* ... even if i should, after what you did to toriel.'],
+         jspeech5b6a: ["<25>{*}{#p/darksans}{#f/1}{#i/5}* ... then why'd you kill all those people?"],
+         jspeech5b6b: ['<25>{*}{#p/darksans}{#f/1}{#i/5}* ... you dirty serial killer.'],
+         jspeech5b7a: ["<25>{#p/sans}{#f/3}* ... guess undyne wasn't worth the effort, then, huh?"],
+         jspeech5b7b: ['<25>{#p/sans}{#f/3}* ... even if i should, after what you did to undyne.'],
+         jspeech5b8a: ["<25>{#p/sans}{#f/3}* ... guess mettaton wasn't worth the effort, then, huh?"],
+         jspeech5b8b: ['<25>{#p/sans}{#f/3}* ... even if i should, after what you did to mettaton.'],
+         jspeech5b9a: ["<25>{#p/sans}{#f/3}* ... guess the people you killed don't matter, then, huh?"],
+         jspeech5b9b: ['<25>{#p/sans}{#f/3}* ... even if i should, after what you did to those people.'],
+         jspeech5b10a: ["<25>{#p/sans}{#f/3}* ... guess the person you killed don't matter, then, huh?"],
+         jspeech5b10b: ['<25>{#p/sans}{#f/3}* ... even if i should, after what you did to that person.'],
 
          
          jspeech6a: [
@@ -2045,7 +2045,7 @@ export default {
             '<25>{#f/3}* anyway, here it is...',
             '<32>{#p/human}* (Sans whispered something to you.)',
             "<25>{#p/sans}{#f/0}* i'm counting on you to come back here and tell me that.",
-            ...(funni ? [ "<25>{#f/2}* 我會把你挪回柱子後面。" ] : [ '<25>{#f/2}* see you... earlier.' ])
+            ...(funni ? ["<25>{#f/2}* 我會把你挪回柱子後面。"] : ['<25>{#f/2}* see you... earlier.'])
          ],
 
          
@@ -2066,8 +2066,8 @@ export default {
             '<32>{#s/equip}{#p/human}* （你把骨鑰掛到了鑰匙串上。）',
             "<25>{#p/sans}{#f/0}* it's time...",
             ...(funni
-               ? [ '<25>{#f/2}* you walked back out from behind that pillar.' ]
-               : [ '<25>{#f/2}* you understood the {@fill=#003cff}real truth{@fill=#fff}.' ])
+               ? ['<25>{#f/2}* you walked back out from behind that pillar.']
+               : ['<25>{#f/2}* you understood the {@fill=#003cff}real truth{@fill=#fff}.'])
          ],
 
          
@@ -2084,11 +2084,11 @@ export default {
             '<25>{#f/3}* wow, you really ARE a time traveler.',
             "<25>{#f/2}* guess there's not much else to say, then.",
             '<32>{#s/equip}{#p/human}* （你把骨鑰掛到了鑰匙串上。）',
-            ...(funni ? [ '<25>{#f/2}* ... apart from \"i\'ll move you back behind the pillar now.\"' ] : [])
+            ...(funni ? ['<25>{#f/2}* ... apart from \"i\'ll move you back behind the pillar now.\"'] : [])
          ],
 
          
-         jspeech10a: [ '<25>{#p/sans}{#f/0}* 回頭。' ],
+         jspeech10a: ['<25>{#p/sans}{#f/0}* 回頭。'],
          jspeech10b: [
             '<25>{#p/sans}* 所以，這就是終點了，\n  是嗎？',
             '<25>* 就要用這種方式，\n  給你的旅程畫上句號嗎？',
@@ -2134,35 +2134,35 @@ export default {
          choice0: () => [
             ...(SAVE.data.n.state_foundry_undyne === 0 && !world.badder_lizard
                ? [
-                    '<25>{#p/alphys}{#g/alphysCutscene1}* 你終於到了！',
-                    '<25>{#g/alphysCutscene2}* ...\n* 這就是「六號檔案」。',
-                    '<25>{#f/15}* 這裝置建成之後，\n  那些人類就陸續進到了裡面。',
-                    '<25>{#f/15}* 裝置內，時間流速\n  比現實慢得多...',
-                    '<25>{#f/15}* 所以，他們看上去\n  就像時間被定格住一樣...',
-                    "<25>{#f/10}* ...是不是很酷啊？！",
-                    "<25>{#f/1}* Roman博士居然能造出\n  這麼棒的裝置，真是厲害！",
-                    "<25>{|}{#f/15}* 嗯... 我不知道\n  他追不追科幻番，\n  但我知道有部科幻動漫電影 {%}",
-                    '<99>{|}{#f/15}  為了看這部電影你需要佩戴\n  最新最酷炫的虛擬實境眼鏡\n  也就是VR眼鏡才可以但是呢 {%}',
-                    '<99>{|}{#f/23}  如果你戴了VR眼鏡的話就會\n  被困在一個虛擬電影時空中\n  不止是你其他人也會被困住 {%}',
-                    '<99>{|}{#f/23}  所以人們需要想辦法來逐步\n  推動故事劇情發展這樣才能\n  最終找到辦法徹底逃出這裡 {%}',
-                    '<99>{|}{#f/18}  最終經過不懈努力我們主角\n  終於找到了逃出這裡的方法\n  之後主角成功脫困之後又幫 {%}',
-                    '<99>{|}{#f/18}  所有人成功脫困！！！',
-                    '<25>{#f/18}* ...',
-                    '<25>{#f/20}* 呃，所以我覺得Roman博士\n  應該是受到了它的啟發。',
-                    "<25>{#f/18}* 不-不說這個！！\n* Asgore正在力場那裡\n  等你呢！"
-                 ]
+                  '<25>{#p/alphys}{#g/alphysCutscene1}* 你終於到了！',
+                  '<25>{#g/alphysCutscene2}* ...\n* 這就是「六號檔案」。',
+                  '<25>{#f/15}* 這裝置建成之後，\n  那些人類就陸續進到了裡面。',
+                  '<25>{#f/15}* 裝置內，時間流速\n  比現實慢得多...',
+                  '<25>{#f/15}* 所以，他們看上去\n  就像時間被定格住一樣...',
+                  "<25>{#f/10}* ...是不是很酷啊？！",
+                  "<25>{#f/1}* Roman博士居然能造出\n  這麼棒的裝置，真是厲害！",
+                  "<25>{|}{#f/15}* 嗯... 我不知道\n  他追不追科幻番，\n  但我知道有部科幻動漫電影 {%}",
+                  '<99>{|}{#f/15}  為了看這部電影你需要佩戴\n  最新最酷炫的虛擬實境眼鏡\n  也就是VR眼鏡才可以但是呢 {%}',
+                  '<99>{|}{#f/23}  如果你戴了VR眼鏡的話就會\n  被困在一個虛擬電影時空中\n  不止是你其他人也會被困住 {%}',
+                  '<99>{|}{#f/23}  所以人們需要想辦法來逐步\n  推動故事劇情發展這樣才能\n  最終找到辦法徹底逃出這裡 {%}',
+                  '<99>{|}{#f/18}  最終經過不懈努力我們主角\n  終於找到了逃出這裡的方法\n  之後主角成功脫困之後又幫 {%}',
+                  '<99>{|}{#f/18}  所有人成功脫困！！！',
+                  '<25>{#f/18}* ...',
+                  '<25>{#f/20}* 呃，所以我覺得Roman博士\n  應該是受到了它的啟發。',
+                  "<25>{#f/18}* 不-不說這個！！\n* Asgore正在力場那裡\n  等你呢！"
+               ]
                : [
-                    '<25>{#p/alphys}{#g/alphysCutscene1}* 你終於到了！',
-                    '<25>{#g/alphysCutscene2}* ...',
-                    "<25>{#g/alphysSmileSweat}* 對-對了，\n  Asgore正在力場那裡\n  等你呢。"
-                 ]),
+                  '<25>{#p/alphys}{#g/alphysCutscene1}* 你終於到了！',
+                  '<25>{#g/alphysCutscene2}* ...',
+                  "<25>{#g/alphysSmileSweat}* 對-對了，\n  Asgore正在力場那裡\n  等你呢。"
+               ]),
             '<25>{#g/alphysNeutralSweat}* 你... 你應該也想去找他。',
             "<25>{#g/alphysOhGodNo}* 但是，\n  如果你不是想找他的！！\n* 那...",
             "<25>{#g/alphysTheFactIs}* 那我也不知道...\n  你為什麼來這了。",
             "<26>{#g/alphysCutscene2}* 好吧。\n* 我全說完了，真說完了。"
          ],
-         choice0x: [ "<25>{#p/alphys}{#g/alphysCutscene2}* 呃，\n  我先在這忙我的事。" ],
-         choice0y: [ '<25>{#p/alphys}{#g/alphysInquisitive}* 還有點猶豫，是嗎...？' ],
+         choice0x: ["<25>{#p/alphys}{#g/alphysCutscene2}* 呃，\n  我先在這忙我的事。"],
+         choice0y: ['<25>{#p/alphys}{#g/alphysInquisitive}* 還有點猶豫，是嗎...？'],
          choice1: [
             '<26>{#p/asgore}{#f/1}* 這就是力場。',
             '<25>{#f/2}* 這道力場將我們囚禁於此。',
@@ -2174,109 +2174,109 @@ export default {
             '<25>* 與此同時，我也十分害怕\n  某一天，人類到來，\n  將我們一舉消滅。',
             ...(world.bad_robot || world.trueKills > 29
                ? [
-                    '<25>{#f/1}* ...',
-                    '<25>{#f/2}* 今天... 惡夢成真了。',
-                    '<25>{#f/3}* Alphys把你的... 暴行\n  都告訴了我。',
-                    ...(world.alphys_percieved_kills < 20
-                       ? [ '<25>{#f/2}* 不過，她也和我說，\n  你放過了不少怪物。' ]
-                       : [
-                            '<25>{#f/16}* ...\n* 孩子，回答我。',
-                            '<25>{#f/12}* 你這麼做，是為了保護自己，\n  還是為了報復？',
-                            '<25>{#f/12}* 還是，你一開始就計畫好\n  把怪物們全殺了？'
-                         ]),
-                    '<25>{#f/5}* ...',
-                    '<26>{#f/16}* 總之，你讓我進退兩難。',
-                    '<25>{#f/15}* 我是該相信你，\n  讓你拯救我們...',
-                    '<25>{#f/16}* 還是親手把你的靈魂扯出來，\n  然後自己進入「檔案」。',
-                    '<25>{#f/3}* ...',
-                    ...(world.alphys_percieved_kills < 20
-                       ? [
-                            '<25>{#f/3}* 儘管你做了很多錯事，\n  我也不想傷害你。',
-                            '<25>{#f/4}* 你有能力把我們折磨得更慘，\n  但是...',
-                            '<25>{#f/2}* ...你並沒有那麼做。',
-                            '<25>{#f/1}* 所以，你絕不是無可救藥的，\n  孩子。',
-                            '<25>{#f/2}* 你只是見到怪物們，\n  非常害怕，慌不擇路了。'
-                         ]
-                       : [ '<25>{#f/3}* 我無法言說\n  自己現在到底有多難受。' ])
-                 ]
+                  '<25>{#f/1}* ...',
+                  '<25>{#f/2}* 今天... 惡夢成真了。',
+                  '<25>{#f/3}* Alphys把你的... 暴行\n  都告訴了我。',
+                  ...(world.alphys_percieved_kills < 20
+                     ? ['<25>{#f/2}* 不過，她也和我說，\n  你放過了不少怪物。']
+                     : [
+                        '<25>{#f/16}* ...\n* 孩子，回答我。',
+                        '<25>{#f/12}* 你這麼做，是為了保護自己，\n  還是為了報復？',
+                        '<25>{#f/12}* 還是，你一開始就計畫好\n  把怪物們全殺了？'
+                     ]),
+                  '<25>{#f/5}* ...',
+                  '<26>{#f/16}* 總之，你讓我進退兩難。',
+                  '<25>{#f/15}* 我是該相信你，\n  讓你拯救我們...',
+                  '<25>{#f/16}* 還是親手把你的靈魂扯出來，\n  然後自己進入「檔案」。',
+                  '<25>{#f/3}* ...',
+                  ...(world.alphys_percieved_kills < 20
+                     ? [
+                        '<25>{#f/3}* 儘管你做了很多錯事，\n  我也不想傷害你。',
+                        '<25>{#f/4}* 你有能力把我們折磨得更慘，\n  但是...',
+                        '<25>{#f/2}* ...你並沒有那麼做。',
+                        '<25>{#f/1}* 所以，你絕不是無可救藥的，\n  孩子。',
+                        '<25>{#f/2}* 你只是見到怪物們，\n  非常害怕，慌不擇路了。'
+                     ]
+                     : ['<25>{#f/3}* 我無法言說\n  自己現在到底有多難受。'])
+               ]
                : (world.bad_lizard > 0 && world.alphys_percieved_kills > 0) || 2 <= world.alphys_percieved_kills
-               ? [
-                    '<25>{#f/1}* ...',
-                    '<25>{#f/1}* 總體來看，你還是挺善良的。',
-                    ...(world.bad_lizard > 0
-                       ? [ "<25>{#f/2}* Alphys和我說，\n  你... 殺了人。" ]
-                       : [ '<25>{#f/2}* Alphys和我說，\n  你好像... 殺了人。' ]),
-                    '<25>{#f/3}* ...',
-                    ...(SAVE.data.b.ultrashortcut
-                       ? [
-                            '<25>{#f/3}* 幸好，你被Papyrus抓住，\n  直接到了這裡。',
-                            '<25>{#f/2}* 你肯定發現了，\n  前哨站並不安全。',
-                            '<25>{#f/5}* 別擔心，這裡相對安全，\n  我們會保護你的。'
-                         ]
-                       : [
-                            '<25>{#f/3}* 事情弄成這樣，都怪我。',
-                            '<25>{#f/2}* Alphys博士第一次護送人類，\n  就因為我死守秘密...',
-                            "<25>{#f/5}* 把她的工作弄得那麼困難。"
-                         ]),
-                    '<25>{#f/15}* ...',
-                    '<25>{#f/16}* 「六號檔案」就在你的身後。',
-                    '<26>{#f/1}* 那些人類...\n  雖然只是孩子，\n  但最後都自願進入了「檔案」。',
-                    '<25>* 所以... \n  下一個進入的人類就是你了。'
-                 ]
-               : [
-                    '<25>{#f/1}* 之後，孩子們一個接一個\n  來到了這裡。',
-                    '<25>* 他們初來乍到時，\n  都十分害怕，經歷許多艱險\n  才到達終點。',
-                    '<26>{#f/6}* 但無一例外，他們都把\n  自己最優秀的品質\n  盡數展現出來。',
-                    '<25>* 一個孩子很有耐心，\n  一個孩子充滿勇氣。',
-                    '<25>* 一個孩子很守信用，\n  一個孩子能屈能伸。',
-                    '<25>{#f/2}* 一個孩子心中充滿善意...',
-                    '<25>{#f/4}* 還有一個，敢於伸張正義。',
-                    '<25>{#f/1}* 當我問他們，\n  「你想和我們待在一起，\n   還是進入『檔案』？」',
-                    '<25>* 他們都選擇了後者。',
-                    ...(SAVE.data.b.ultrashortcut
-                       ? [
-                            '<25>{#f/5}* 所以，無論你經歷了什麼...',
-                            '<25>{#f/1}* 希望你也願意進入「檔案」。'
-                         ]
-                       : [ '<25>* 所以... \n  下一個進入的人類就是你了。' ])
-                 ])
+                  ? [
+                     '<25>{#f/1}* ...',
+                     '<25>{#f/1}* 總體來看，你還是挺善良的。',
+                     ...(world.bad_lizard > 0
+                        ? ["<25>{#f/2}* Alphys和我說，\n  你... 殺了人。"]
+                        : ['<25>{#f/2}* Alphys和我說，\n  你好像... 殺了人。']),
+                     '<25>{#f/3}* ...',
+                     ...(SAVE.data.b.ultrashortcut
+                        ? [
+                           '<25>{#f/3}* 幸好，你被Papyrus抓住，\n  直接到了這裡。',
+                           '<25>{#f/2}* 你肯定發現了，\n  前哨站並不安全。',
+                           '<25>{#f/5}* 別擔心，這裡相對安全，\n  我們會保護你的。'
+                        ]
+                        : [
+                           '<25>{#f/3}* 事情弄成這樣，都怪我。',
+                           '<25>{#f/2}* Alphys博士第一次護送人類，\n  就因為我死守秘密...',
+                           "<25>{#f/5}* 把她的工作弄得那麼困難。"
+                        ]),
+                     '<25>{#f/15}* ...',
+                     '<25>{#f/16}* 「六號檔案」就在你的身後。',
+                     '<26>{#f/1}* 那些人類...\n  雖然只是孩子，\n  但最後都自願進入了「檔案」。',
+                     '<25>* 所以... \n  下一個進入的人類就是你了。'
+                  ]
+                  : [
+                     '<25>{#f/1}* 之後，孩子們一個接一個\n  來到了這裡。',
+                     '<25>* 他們初來乍到時，\n  都十分害怕，經歷許多艱險\n  才到達終點。',
+                     '<26>{#f/6}* 但無一例外，他們都把\n  自己最優秀的品質\n  盡數展現出來。',
+                     '<25>* 一個孩子很有耐心，\n  一個孩子充滿勇氣。',
+                     '<25>* 一個孩子很守信用，\n  一個孩子能屈能伸。',
+                     '<25>{#f/2}* 一個孩子心中充滿善意...',
+                     '<25>{#f/4}* 還有一個，敢於伸張正義。',
+                     '<25>{#f/1}* 當我問他們，\n  「你想和我們待在一起，\n   還是進入『檔案』？」',
+                     '<25>* 他們都選擇了後者。',
+                     ...(SAVE.data.b.ultrashortcut
+                        ? [
+                           '<25>{#f/5}* 所以，無論你經歷了什麼...',
+                           '<25>{#f/1}* 希望你也願意進入「檔案」。'
+                        ]
+                        : ['<25>* 所以... \n  下一個進入的人類就是你了。'])
+                  ])
          ],
          choice1b: () =>
             world.bad_robot || world.trueKills > 29
                ? [
-                    '<25>{#p/asgore}{#f/1}* 經過考慮，\n  我不允許你進入「檔案」。',
-                    '<25>{#f/2}* 指望你擔下如此大任，\n  就是痴人說夢。',
-                    '<25>{#f/5}* ...',
-                    '<25>{#f/5}* 現在跟我回家。',
-                    '<25>{#f/5}* 之後再決定如何處置你。'
-                 ]
+                  '<25>{#p/asgore}{#f/1}* 經過考慮，\n  我不允許你進入「檔案」。',
+                  '<25>{#f/2}* 指望你擔下如此大任，\n  就是痴人說夢。',
+                  '<25>{#f/5}* ...',
+                  '<25>{#f/5}* 現在跟我回家。',
+                  '<25>{#f/5}* 之後再決定如何處置你。'
+               ]
                : [
-                    [
-                       '<25>{#p/asgore}{#f/6}* 最晚進入檔案的人類，\n  將會作為「容器」。',
-                       "<25>* 從其他的人類靈魂中\n  「借」來能量，為己所用。",
-                       '<26>* 凝聚你和他們的力量，\n  就可以打破力場。',
-                       '<25>* 之後...',
-                       '<25>* 怪物一族就能尋找新家園了。',
-                       '<25>{#f/1}* 不過...',
-                       '<25>* 如果你還沒準備好\n  扛下如此重任...',
-                       '<25>* 你可以先和我們待在一起，\n  做好準備了，再進入檔案。',
-                       '<25>{#f/6}* 無論如何，\n  我都會尊重你的選擇。',
-                       '<25>{#f/1}* ...',
-                       '<25>* 那麼，你願意\n  現在進入「檔案」嗎？',
-                       choicer.create('* （你要怎麼回答？）', '是', '否')
-                    ],
-                    [
-                       '<26>{#p/asgore}{#f/6}* 你回來了。',
-                       '<25>{#f/1}* ...',
-                       '<25>* 那麼，你願意\n  現在進入「檔案」嗎？',
-                       choicer.create('* （你要怎麼回答？）', '是', '否')
-                    ],
-                    [
-                       '<25>{#p/asgore}{#f/1}* ...',
-                       '<25>* 那麼，你願意\n  現在進入「檔案」嗎？',
-                       choicer.create('* （你要怎麼回答？）', '是', '否')
-                    ]
-                 ][Math.min(SAVE.data.n.state_citadel_refuse, 2)],
+                  [
+                     '<25>{#p/asgore}{#f/6}* 最晚進入檔案的人類，\n  將會作為「容器」。',
+                     "<25>* 從其他的人類靈魂中\n  「借」來能量，為己所用。",
+                     '<26>* 凝聚你和他們的力量，\n  就可以打破力場。',
+                     '<25>* 之後...',
+                     '<25>* 怪物一族就能尋找新家園了。',
+                     '<25>{#f/1}* 不過...',
+                     '<25>* 如果你還沒準備好\n  扛下如此重任...',
+                     '<25>* 你可以先和我們待在一起，\n  做好準備了，再進入檔案。',
+                     '<25>{#f/6}* 無論如何，\n  我都會尊重你的選擇。',
+                     '<25>{#f/1}* ...',
+                     '<25>* 那麼，你願意\n  現在進入「檔案」嗎？',
+                     choicer.create('* （你要怎麼回答？）', '是', '否')
+                  ],
+                  [
+                     '<26>{#p/asgore}{#f/6}* 你回來了。',
+                     '<25>{#f/1}* ...',
+                     '<25>* 那麼，你願意\n  現在進入「檔案」嗎？',
+                     choicer.create('* （你要怎麼回答？）', '是', '否')
+                  ],
+                  [
+                     '<25>{#p/asgore}{#f/1}* ...',
+                     '<25>* 那麼，你願意\n  現在進入「檔案」嗎？',
+                     choicer.create('* （你要怎麼回答？）', '是', '否')
+                  ]
+               ][Math.min(SAVE.data.n.state_citadel_refuse, 2)],
          choice2a: [
             '<25>{#p/asgore}{#f/4}* ...',
             '<25>{#f/6}* 跟我來，孩子。',
@@ -2293,16 +2293,16 @@ export default {
                   '<25>{#f/1}* 如果改變主意，\n  隨時歡迎回來...',
                   '<25>{#f/2}* 如果你不想這麼做，\n  我不會強迫你。'
                ],
-               [ '<25>{#p/asgore}{#f/2}* ...我理解。' ]
+               ['<25>{#p/asgore}{#f/2}* ...我理解。']
             ][Math.min(SAVE.data.n.state_citadel_refuse++, 1)],
-         choice3a: [ '<25>{#p/asgore}{#f/6}* 開始吧。' ],
-         choice4a: [ '<25>{#p/asgore}{#f/5}* Alphys？' ],
+         choice3a: ['<25>{#p/asgore}{#f/6}* 開始吧。'],
+         choice4a: ['<25>{#p/asgore}{#f/5}* Alphys？'],
          choice4b: [
             '<25>{#p/alphys}{#g/alphysOhGodNo}* 啊，知-知道了！\n* 對不起！',
             '<25>{#p/alphys}{#g/alphysCutscene3}* 稍等一下，\n  我先做好準備工作...'
          ],
-         choice5: [ '<25>{#p/alphys}{#g/alphysCutscene2}* 搞定。\n* 各項參數應該設定好了。' ],
-         choice6a: [ "<25>{#p/alphys}{#g/alphysWelp}* 好，那人類已經成功\n  連上裝置。" ],
+         choice5: ['<25>{#p/alphys}{#g/alphysCutscene2}* 搞定。\n* 各項參數應該設定好了。'],
+         choice6a: ["<25>{#p/alphys}{#g/alphysWelp}* 好，那人類已經成功\n  連上裝置。"],
          choice6b: [
             "<25>{#p/asgore}{#f/6}* 別緊張，孩子。",
             '<25>{#p/asgore}{#f/7}* 在「檔案」建造之初...',
@@ -2330,7 +2330,7 @@ export default {
             '<25>{|}{#f/7}* 我還是相信- {%}'
          ],
          
-         clover1: [ "<32>{#p/human}{#v/6}{@fill=#faff29}* 多美啊..." ],
+         clover1: ["<32>{#p/human}{#v/6}{@fill=#faff29}* 多美啊..."],
          clover2: [
             "<32>{#p/human}{#v/6}{@fill=#faff29}* ...\n* 不過，這話換他來說，\n  估計更合適。",
             '<32>{@fill=#faff29}* 曾經，這樣的美景\n  稀鬆平常，隨處可見...',
@@ -2353,78 +2353,78 @@ export default {
             "<32>{#p/human}{#v/6}{@fill=#faff29}* ...\n* 你該走了。",
             '<32>{@fill=#faff29}* 離開這裡的終端\n  就在主幹道的盡頭。',
             ...(SAVE.data.b.oops
-               ? [ '<32>{@fill=#faff29}* ...多多保重...', '<32>{@fill=#faff29}* 好嗎？' ]
+               ? ['<32>{@fill=#faff29}* ...多多保重...', '<32>{@fill=#faff29}* 好嗎？']
                : [
-                    '<32>{@fill=#faff29}* ...走之前，我有個問題...',
-                    "<32>{@fill=#faff29}* 你的名字，\n  是叫Frisk嗎？",
-                    "<32>{@fill=#faff29}* 抱歉。\n* 只是你一言不發，我有點好奇\n  你在想些什麼。",
-                    "<32>{@fill=#faff29}* ...\n* Frisk，你是個好人。",
-                    '<32>{@fill=#faff29}* 而且...',
-                    "<32>{@fill=#faff29}* 那個人，\n  一直在幕後，為你出謀劃策的人，\n* 也是個好人。",
-                    '<32>{@fill=#faff29}* ...',
-                    "<32>{@fill=#faff29}* 這一切，我跟Frisk或許都會忘記。\n* 但你不會。",
-                    "<32>{@fill=#faff29}* 如果此刻，\n  你正在某處看著我們...",
-                    "<32>{@fill=#faff29}* ...請不要忘記\n  我們的經歷，我們的故事。\n* 請不要忘記這裡發生的一切。",
-                    "<32>{@fill=#faff29}* 不管這世界是真是假。\n* 這裡的記憶，\n  都是最珍貴的東西。"
-                 ])
+                  '<32>{@fill=#faff29}* ...走之前，我有個問題...',
+                  "<32>{@fill=#faff29}* 你的名字，\n  是叫Frisk嗎？",
+                  "<32>{@fill=#faff29}* 抱歉。\n* 只是你一言不發，我有點好奇\n  你在想些什麼。",
+                  "<32>{@fill=#faff29}* ...\n* Frisk，你是個好人。",
+                  '<32>{@fill=#faff29}* 而且...',
+                  "<32>{@fill=#faff29}* 那個人，\n  一直在幕後，為你出謀劃策的人，\n* 也是個好人。",
+                  '<32>{@fill=#faff29}* ...',
+                  "<32>{@fill=#faff29}* 這一切，我跟Frisk或許都會忘記。\n* 但你不會。",
+                  "<32>{@fill=#faff29}* 如果此刻，\n  你正在某處看著我們...",
+                  "<32>{@fill=#faff29}* ...請不要忘記\n  我們的經歷，我們的故事。\n* 請不要忘記這裡發生的一切。",
+                  "<32>{@fill=#faff29}* 不管這世界是真是假。\n* 這裡的記憶，\n  都是最珍貴的東西。"
+               ])
          ],
 
          smasher1: (haha: boolean) => [
             "<25>{#p/alphys}{#g/alphysWelp}* 我去力場那等你。",
             ...(haha
                ? [
-                    '<25>{#p/alphys}{#g/alphysFR}* ... also, I took the Mew Mew doll from you while you were asleep.',
-                    "<25>{#p/alphys}{#g/alphysHellYeah}* Who's laughing now!"
-                 ]
+                  '<25>{#p/alphys}{#g/alphysFR}* ... also, I took the Mew Mew doll from you while you were asleep.',
+                  "<25>{#p/alphys}{#g/alphysHellYeah}* Who's laughing now!"
+               ]
                : !SAVE.data.b.failshow && SAVE.data.b.item_tvm_mewmew && !SAVE.data.b.mewget
-               ? ((SAVE.data.b.mewget = true),
-                 [
-                    '<25>{#p/alphys}{#g/alphysFR}* ... also, I found the Mew Mew doll you let go of earlier.',
-                    "<25>{#p/alphys}{#g/alphysHellYeah}* Who's laughing now!"
-                 ])
-               : [])
+                  ? ((SAVE.data.b.mewget = true),
+                     [
+                        '<25>{#p/alphys}{#g/alphysFR}* ... also, I found the Mew Mew doll you let go of earlier.',
+                        "<25>{#p/alphys}{#g/alphysHellYeah}* Who's laughing now!"
+                     ])
+                  : [])
          ],
-         smasher2: [ '<25>{*}{#p/alphys}{#g/alphysSmileSweat}* 準備好了嗎？{^40}{%}' ],
+         smasher2: ['<25>{*}{#p/alphys}{#g/alphysSmileSweat}* 準備好了嗎？{^40}{%}'],
 
          bad1: () =>
             [
                world.bad_robot || world.trueKills > 29
                   ? world.alphys_percieved_kills < 20
                      ? [
-                          '<25>{*}{#p/twinkly}{#f/8}* 是不是拿不定主意呀，\n  親愛的Asgore？',
-                          '<25>{*}{#f/5}* 我理解。\n* 誰都有猶豫不決的時候。',
-                          "<25>{*}{#f/11}* 但沒關係！",
-                          "<25>{*}{#f/7}* 你再也不用操心啦！",
-                          '<25>{*}{#p/asgore}{#g/asgoreBound}* ...你在...',
-                          '<25>{*}* ...幹...什麼...',
-                          '<25>{*}{#p/twinkly}{#f/8}* 哎呀，我什麼都沒幹呀，\n  Asgore...'
-                       ]
+                        '<25>{*}{#p/twinkly}{#f/8}* 是不是拿不定主意呀，\n  親愛的Asgore？',
+                        '<25>{*}{#f/5}* 我理解。\n* 誰都有猶豫不決的時候。',
+                        "<25>{*}{#f/11}* 但沒關係！",
+                        "<25>{*}{#f/7}* 你再也不用操心啦！",
+                        '<25>{*}{#p/asgore}{#g/asgoreBound}* ...你在...',
+                        '<25>{*}* ...幹...什麼...',
+                        '<25>{*}{#p/twinkly}{#f/8}* 哎呀，我什麼都沒幹呀，\n  Asgore...'
+                     ]
                      : [
-                          '<25>{*}{#p/twinkly}{#f/5}* 哎呀呀，Asgore...',
-                          "<25>{*}{#f/11}* 你本可以直接把人殺了，\n  那就皆大歡喜。",
-                          "<25>{*}{#f/7}* 但現在，你再也沒機會嚕。",
-                          '<25>{*}{#p/asgore}{#g/asgoreBound}* ...你在...',
-                          '<25>{*}* ...幹...什麼...',
-                          "<25>{*}{#p/twinkly}{#f/5}* 殺人，可沒你想得\n  那麼傷天害理喔，Asgore...",
-                          '<25>{*}{#f/9}* 就讓我好好教你\n  怎麼才能殺得又嗨又爽吧！'
-                       ]
+                        '<25>{*}{#p/twinkly}{#f/5}* 哎呀呀，Asgore...',
+                        "<25>{*}{#f/11}* 你本可以直接把人殺了，\n  那就皆大歡喜。",
+                        "<25>{*}{#f/7}* 但現在，你再也沒機會嚕。",
+                        '<25>{*}{#p/asgore}{#g/asgoreBound}* ...你在...',
+                        '<25>{*}* ...幹...什麼...',
+                        "<25>{*}{#p/twinkly}{#f/5}* 殺人，可沒你想得\n  那麼傷天害理喔，Asgore...",
+                        '<25>{*}{#f/9}* 就讓我好好教你\n  怎麼才能殺得又嗨又爽吧！'
+                     ]
                   : SAVE.data.b.ultrashortcut
-                  ? [
-                       '<25>{*}{#p/twinkly}{#f/5}* 哎呀，哎呀...',
-                       "<26>{*}{#f/11}* 跑太快，把腦子都跑丟了。",
-                       '<25>{*}{#p/asgore}{#g/asgoreBound}* ...你在...',
-                       '<25>{*}* ...幹...什麼...',
-                       "<25>{*}{#p/twinkly}{#f/5}* 想靠那點小把戲矇混過關？",
-                       "<25>{*}{#f/7}* 真當我眼瞎呢。"
-                    ]
-                  : [
-                       '<25>{*}{#p/twinkly}{#f/5}* 哈囉，Asgore！',
-                       "<26>{*}{#f/11}* 別這麼急著拯救怪物嘛，\n  好玩的事多著呢。",
-                       '<25>{*}{#p/asgore}{#g/asgoreBound}* ...你在...',
-                       '<25>{*}* ...幹...什麼...',
-                       '<25>{*}{#p/twinkly}{#f/5}* 我知道\n  這一下把你嚇得不輕，\n  但別氣餒喔！',
-                       "<25>{*}{#f/7}* 你看，這多好玩啊。\n  是不是呀，Asgore？"
-                    ],
+                     ? [
+                        '<25>{*}{#p/twinkly}{#f/5}* 哎呀，哎呀...',
+                        "<26>{*}{#f/11}* 跑太快，把腦子都跑丟了。",
+                        '<25>{*}{#p/asgore}{#g/asgoreBound}* ...你在...',
+                        '<25>{*}* ...幹...什麼...',
+                        "<25>{*}{#p/twinkly}{#f/5}* 想靠那點小把戲矇混過關？",
+                        "<25>{*}{#f/7}* 真當我眼瞎呢。"
+                     ]
+                     : [
+                        '<25>{*}{#p/twinkly}{#f/5}* 哈囉，Asgore！',
+                        "<26>{*}{#f/11}* 別這麼急著拯救怪物嘛，\n  好玩的事多著呢。",
+                        '<25>{*}{#p/asgore}{#g/asgoreBound}* ...你在...',
+                        '<25>{*}* ...幹...什麼...',
+                        '<25>{*}{#p/twinkly}{#f/5}* 我知道\n  這一下把你嚇得不輕，\n  但別氣餒喔！',
+                        "<25>{*}{#f/7}* 你看，這多好玩啊。\n  是不是呀，Asgore？"
+                     ],
                [
                   "<25>{*}{#p/twinkly}{#f/7}* Like I'd ever let you escape so easily.",
                   SAVE.data.b.ultrashortcut
@@ -2452,22 +2452,22 @@ export default {
             "<25>{*}{#g/twinklyNice}* ...哎呀，忘了自我介紹了。\n  我叫Twinkly。{^30}{%}",
             '<25>{*}{#g/twinklySassy}* 閃亮明星：Twinkly。{^30}{%}'
          ],
-         bad3: [ '<25>{*}{#p/asgore}{#g/asgoreBreak1}* 啊啊啊啊...！{^999}' ],
+         bad3: ['<25>{*}{#p/asgore}{#g/asgoreBreak1}* 啊啊啊啊...！{^999}'],
          bad4: [
             "<25>{*}{#p/twinkly}{#g/twinklyWink}* 哎呦~ 你痛苦的尖叫\n  真是天籟之音啊，\n  太好聽啦！{^30}{%}",
             '<25>{*}{#p/asgore}{#g/asgoreBreak1}* ...{^10}{%}'
          ],
-         bad5: [ "<25>{*}{#p/twinkly}{#f/7}* 讓我們再欣賞一次。{^20}{%}" ],
-         bad6: [ '<25>{*}{#p/asgore}{#g/asgoreBreak2}* 啊啊啊啊啊啊...！{^999}' ],
-         bad7: [ '<25>{*}{#p/twinkly}{#f/11}* 給我叫！{^5}{%}' ],
-         bad8: [ '<25>{*}{#p/twinkly}{#g/twinklyEvil}{#v/1}* 使勁叫！！！{^5}{%}' ],
-         bad9: [ '<25>{*}{#p/twinkly}{#g/twinklyGrin}{#v/1}* 叫啊！！！{^5}{%}' ],
-         bad10: [ '<25>{*}{#p/twinkly}{#g/twinklyTwisted}{#v/1}* 叫啊！！！{^5}{%}' ],
+         bad5: ["<25>{*}{#p/twinkly}{#f/7}* 讓我們再欣賞一次。{^20}{%}"],
+         bad6: ['<25>{*}{#p/asgore}{#g/asgoreBreak2}* 啊啊啊啊啊啊...！{^999}'],
+         bad7: ['<25>{*}{#p/twinkly}{#f/11}* 給我叫！{^5}{%}'],
+         bad8: ['<25>{*}{#p/twinkly}{#g/twinklyEvil}{#v/1}* 使勁叫！！！{^5}{%}'],
+         bad9: ['<25>{*}{#p/twinkly}{#g/twinklyGrin}{#v/1}* 叫啊！！！{^5}{%}'],
+         bad10: ['<25>{*}{#p/twinkly}{#g/twinklyTwisted}{#v/1}* 叫啊！！！{^5}{%}'],
          bad11: [
             '<25>{*}{#p/twinkly}{#g/twinklyCrazed}{#v/1}* 叫啊叫啊叫啊叫啊叫啊叫啊\n  叫啊叫啊叫啊叫啊叫啊叫啊\n  叫啊叫啊叫啊叫啊叫啊叫啊 {%}',
             '<99>{*}{#p/twinkly}{#g/twinklyBroken}{#v/1}* 啊哈哈哈哈哈哈哈哈哈哈哈哈哈哈\n  哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈\n  哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈{^20}{%}'
          ],
-         bad12: [ '<25>{*}{#p/twinkly}{#g/twinklyDead}{#v/0}* ...{^80}{%}', '<25>{*}* ...死吧。{^10}{%}' ],
+         bad12: ['<25>{*}{#p/twinkly}{#g/twinklyDead}{#v/0}* ...{^80}{%}', '<25>{*}* ...死吧。{^10}{%}'],
          bad13: () => [
             ...[
                [
@@ -2516,32 +2516,32 @@ export default {
                '<99>{*}...學到教訓嗎？',
                '<99>{*}想得美。'
             ],
-            [ "<99>{*}{#p/twinkly}你要是現在不動手...", "{*}終有一天，我會回來。" ],
-            [ "<99>{*}{#p/twinkly}我會把你幹掉。" ],
-            [ "<99>{*}{#p/twinkly}我會摧毀一切。" ],
-            [ "<99>{*}{#p/twinkly}我會將你的存在徹底抹去！" ],
-            [ '<99>{*}{#p/twinkly}...' ],
-            [ '<99>{*}{#p/twinkly}...?' ],
-            [ '<99>{*}{#p/twinkly}...為什麼？' ],
-            [ '<99>{*}{#p/twinkly}...為什麼...', '{*}{#p/twinkly}...要對我這麼好？' ],
-            [ "<99>{*}{#p/twinkly}...我不明白..." ],
-            [ "<99>{*}{#p/twinkly}我不明白！" ]
+            ["<99>{*}{#p/twinkly}你要是現在不動手...", "{*}終有一天，我會回來。"],
+            ["<99>{*}{#p/twinkly}我會把你幹掉。"],
+            ["<99>{*}{#p/twinkly}我會摧毀一切。"],
+            ["<99>{*}{#p/twinkly}我會將你的存在徹底抹去！"],
+            ['<99>{*}{#p/twinkly}...'],
+            ['<99>{*}{#p/twinkly}...?'],
+            ['<99>{*}{#p/twinkly}...為什麼？'],
+            ['<99>{*}{#p/twinkly}...為什麼...', '{*}{#p/twinkly}...要對我這麼好？'],
+            ["<99>{*}{#p/twinkly}...我不明白..."],
+            ["<99>{*}{#p/twinkly}我不明白！"]
          ],
-         bad16a: [ "<99>{*}{#p/twinkly}{#i/8}...我就是...不明白...{^30}{%}" ],
-         bad16b: [ '<99>{*}{#p/twinkly}{#i/3}再見，$(name)。{^30}{%}' ],
+         bad16a: ["<99>{*}{#p/twinkly}{#i/8}...我就是...不明白...{^30}{%}"],
+         bad16b: ['<99>{*}{#p/twinkly}{#i/3}再見，$(name)。{^30}{%}'],
          bad17: [
             
             '<32>{*}{#p/event}{#i/5}Twinkly逃走了。'
          ],
          sad0: () =>
-            world.runaway ? [ '<25>{#p/asriel1}{#f/30}* 我投降！' ] : [ "<25>{#p/asriel1}{#f/25}* 對不起。" ],
+            world.runaway ? ['<25>{#p/asriel1}{#f/30}* 我投降！'] : ["<25>{#p/asriel1}{#f/25}* 對不起。"],
          sad1: () => [
             ...(world.runaway
-               ? [ '<25>{#p/asriel1}{#f/23}* 看樣子，$(name)，\n  你又贏了。' ]
+               ? ['<25>{#p/asriel1}{#f/23}* 看樣子，$(name)，\n  你又贏了。']
                : [
-                    "<25>{#p/asriel1}{#f/23}* $(name)，\n  我一直都是個愛哭鬼，是吧？",
-                    ...(SAVE.data.b.oops ? [] : [ '<32>{#p/basic}* Asriel...' ])
-                 ]),
+                  "<25>{#p/asriel1}{#f/23}* $(name)，\n  我一直都是個愛哭鬼，是吧？",
+                  ...(SAVE.data.b.oops ? [] : ['<32>{#p/basic}* Asriel...'])
+               ]),
             '<25>{#p/asriel1}{#f/22}* ...',
             '<25>{#f/21}* ...我知道的。',
             "<25>{#f/23}* 你並不是$(name)，\n  對吧？",
@@ -2554,309 +2554,309 @@ export default {
             '<32>{#p/human}* （...）\n* （你把你的名字告訴了Asriel。）',
             ...(world.runaway
                ? [
-                    '<25>{#p/asriel1}{#f/21}* 是叫Frisk嗎？',
-                    '<25>{#f/23}* 嗯，這次你又贏了，\n  Frisk。',
-                    '<25>{#f/22}* ...',
-                    "<25>{#f/13}* 很奇怪...",
-                    "<25>{#f/16}* 當星星時，我都忘了...\n  恐懼是什麼滋味了。",
-                    "<25>{#f/15}* 無數次將別人推入恐懼深淵，\n  已經麻木了。",
-                    "<25>{#f/13}* 但現在，\n  我有了所有怪物的靈魂後...",
-                    '<25>{#f/15}* ...我...',
-                    "<25>{#f/16}* 我終於深切感受到那種情感。",
-                    "<25>{#f/15}* 當你開始不停攻擊我時...",
-                    '<25>{#f/15}* 他們，好像就知道了\n  你是怎樣的人。',
-                    '<25>{#f/13}* 誠然，你從沒殺過\n  任何一隻怪物。',
-                    '<25>{#f/13}* 但你也一次次將他們\n  推向生死邊緣...',
-                    '<25>{#f/15}* 一次，又一次，又一次...',
-                    '<25>{#f/16}* ...',
-                    "<25>{#f/21}* Frisk，\n  他們現在都很怕你。",
-                    '<26>{#f/23}* 而且...\n  我也很怕你。',
-                    '<25>{#f/22}* ...'
-                 ]
+                  '<25>{#p/asriel1}{#f/21}* 是叫Frisk嗎？',
+                  '<25>{#f/23}* 嗯，這次你又贏了，\n  Frisk。',
+                  '<25>{#f/22}* ...',
+                  "<25>{#f/13}* 很奇怪...",
+                  "<25>{#f/16}* 當星星時，我都忘了...\n  恐懼是什麼滋味了。",
+                  "<25>{#f/15}* 無數次將別人推入恐懼深淵，\n  已經麻木了。",
+                  "<25>{#f/13}* 但現在，\n  我有了所有怪物的靈魂後...",
+                  '<25>{#f/15}* ...我...',
+                  "<25>{#f/16}* 我終於深切感受到那種情感。",
+                  "<25>{#f/15}* 當你開始不停攻擊我時...",
+                  '<25>{#f/15}* 他們，好像就知道了\n  你是怎樣的人。',
+                  '<25>{#f/13}* 誠然，你從沒殺過\n  任何一隻怪物。',
+                  '<25>{#f/13}* 但你也一次次將他們\n  推向生死邊緣...',
+                  '<25>{#f/15}* 一次，又一次，又一次...',
+                  '<25>{#f/16}* ...',
+                  "<25>{#f/21}* Frisk，\n  他們現在都很怕你。",
+                  '<26>{#f/23}* 而且...\n  我也很怕你。',
+                  '<25>{#f/22}* ...'
+               ]
                : [
-                    '<25>{#p/asriel1}{#f/17}* 是叫Frisk嗎？',
-                    "<25>{#f/17}* 那...",
-                    '<25>{#f/23}* ...真是個好名字。',
-                    '<25>{#f/22}* ...',
-                    '<25>{#f/13}* Frisk...',
-                    ...(SAVE.flag.n.killed_sans > 0
-                       ? [
-                            '<25>{#p/asriel1}{#f/13}* What we did back there, I...',
-                            '<25>{#f/15}* ...',
-                            "<25>{#f/16}* I'm just sorry for dragging you into it.",
-                            ...(SAVE.data.b.oops ? [] : [ '<32>{#p/basic}* ... wait a second...' ]),
-                            ...(SAVE.flag.n.genocide_milestone > 0
-                               ? [
-                                    [
-                                       '<25>{#p/asriel1}{#f/21}* Sans, Papyrus...\n* Even the canine unit...',
-                                       '<25>{#p/asriel1}{#f/21}* Sans, Papyrus, Monster Kid, Undyne...\n* Even the Royal Guard...',
-                                       '<25>{#p/asriel1}{#f/21}* Sans, Papyrus, Monster Kid, Undyne...\n* And Mettaton, too...',
-                                       '<25>{#p/asriel1}{#f/21}* Sans, Papyrus, Monster Kid, Undyne...\n* Mettaton and Alphys...'
-                                    ][Math.ceil((SAVE.flag.n.genocide_milestone - 1) / 2)],
-                                    "<25>{#f/21}* All those people I now know you'd do anything to protect..."
+                  '<25>{#p/asriel1}{#f/17}* 是叫Frisk嗎？',
+                  "<25>{#f/17}* 那...",
+                  '<25>{#f/23}* ...真是個好名字。',
+                  '<25>{#f/22}* ...',
+                  '<25>{#f/13}* Frisk...',
+                  ...(SAVE.flag.n.killed_sans > 0
+                     ? [
+                        '<25>{#p/asriel1}{#f/13}* What we did back there, I...',
+                        '<25>{#f/15}* ...',
+                        "<25>{#f/16}* I'm just sorry for dragging you into it.",
+                        ...(SAVE.data.b.oops ? [] : ['<32>{#p/basic}* ... wait a second...']),
+                        ...(SAVE.flag.n.genocide_milestone > 0
+                           ? [
+                              [
+                                 '<25>{#p/asriel1}{#f/21}* Sans, Papyrus...\n* Even the canine unit...',
+                                 '<25>{#p/asriel1}{#f/21}* Sans, Papyrus, Monster Kid, Undyne...\n* Even the Royal Guard...',
+                                 '<25>{#p/asriel1}{#f/21}* Sans, Papyrus, Monster Kid, Undyne...\n* And Mettaton, too...',
+                                 '<25>{#p/asriel1}{#f/21}* Sans, Papyrus, Monster Kid, Undyne...\n* Mettaton and Alphys...'
+                              ][Math.ceil((SAVE.flag.n.genocide_milestone - 1) / 2)],
+                              "<25>{#f/21}* All those people I now know you'd do anything to protect..."
+                           ]
+                           : [
+                              "<25>{#p/asriel1}{#f/21}* I know we didn't get far...",
+                              '<25>{#f/15}* ... but still...',
+                              '<25>{#f/21}* It was wrong of me to force you along like that.',
+                              "<25>{#f/21}* Especially now that I know you'd do anything to protect them."
+                           ]),
+                        ...(SAVE.data.b.oops
+                           ? []
+                           : ['<32>{#p/basic}* ... is that the \"murder timeline\" he was talking about before?']),
+                        "<25>{#p/asriel1}{#f/23}* Just... please, don't blame yourself, okay?",
+                        "<25>{#f/22}* Not only did you undo what you'd done before...",
+                        '<25>{#f/17}* But you went up against impossible odds just to save your friends.',
+                        ...(SAVE.data.b.oops ? [] : ['<32>{#p/basic}* Yeah.']),
+                        "<25>{#p/asriel1}{#f/13}* Plus, and maybe it's just my imagination, but...",
+                        '<25>{#f/13}* ... thinking back on it now...',
+                        '<25>{#f/15}* You never really seemed interested in what we were doing.',
+                        ...(SAVE.data.b.oops ? [] : ['<32>{#p/basic}* Yeah, exactly.']),
+                        '<25>{#p/asriel1}{#f/23}* In fact... if anything...',
+                        '<25>{#f/22}* It almost looked like you were trying to resist it.',
+                        ...(SAVE.data.b.oops
+                           ? []
+                           : ["<32>{#p/basic}* Yeah, you're not that kind of person at all."]),
+                        '<25>{#p/asriel1}{#f/15}* All I know is... despite what happened...',
+                        '<25>{#f/15}* Despite what you did... or, what I wanted you to do...',
+                        "<25>{#f/16}* You're still a better person than I ever was.",
+                        ...(SAVE.data.b.oops ? [] : ['<32>{#p/basic}* Hmph.']),
+                        "<25>{#p/asriel1}{#f/21}* ...\n* But I'm getting ahead of myself."
+                     ]
+                     : [
+                        "<25>{#f/13}* I haven't felt like this for a long time.",
+                        '<25>{#f/16}* As a star, I was... soulless.',
+                        '<25>{#f/15}* I lacked the power to love other people.',
+                        "<25>{#f/13}* However, with everyone's SOULs inside me...",
+                        '<25>{#f/13}* I not only have my own compassion back...',
+                        "<25>{#f/23}* But I can feel every other monster's as well.",
+                        '<25>{#f/17}* They all care about each other so much.',
+                        ...(30 <= SAVE.data.n.bully
+                           ? [
+                              '<25>{#f/23}* And... uh...\n* As for you, they...',
+                              '<25>{#f/22}* ...',
+                              ...(20 <= world.flirt
+                                 ? [
+                                    '<25>{#f/15}* ... well, they seem to be kind of conflicted...',
+                                    "<25>{#f/10}* It's like... they like you, but dislike you at the same time?"
                                  ]
-                               : [
-                                    "<25>{#p/asriel1}{#f/21}* I know we didn't get far...",
-                                    '<25>{#f/15}* ... but still...',
-                                    '<25>{#f/21}* It was wrong of me to force you along like that.',
-                                    "<25>{#f/21}* Especially now that I know you'd do anything to protect them."
+                                 : [
+                                    "<25>{#f/15}* ... well, some of them don't seem to like you...",
+                                    ...(SAVE.data.b.undyne_respecc
+                                       ? [
+                                          '<25>{#f/10}* Except Undyne.\n* She seems to like you a lot for some reason.'
+                                       ]
+                                       : ["<25>{#f/10}* Though, I'm not sure why."])
                                  ]),
-                            ...(SAVE.data.b.oops
-                               ? []
-                               : [ '<32>{#p/basic}* ... is that the \"murder timeline\" he was talking about before?' ]),
-                            "<25>{#p/asriel1}{#f/23}* Just... please, don't blame yourself, okay?",
-                            "<25>{#f/22}* Not only did you undo what you'd done before...",
-                            '<25>{#f/17}* But you went up against impossible odds just to save your friends.',
-                            ...(SAVE.data.b.oops ? [] : [ '<32>{#p/basic}* Yeah.' ]),
-                            "<25>{#p/asriel1}{#f/13}* Plus, and maybe it's just my imagination, but...",
-                            '<25>{#f/13}* ... thinking back on it now...',
-                            '<25>{#f/15}* You never really seemed interested in what we were doing.',
-                            ...(SAVE.data.b.oops ? [] : [ '<32>{#p/basic}* Yeah, exactly.' ]),
-                            '<25>{#p/asriel1}{#f/23}* In fact... if anything...',
-                            '<25>{#f/22}* It almost looked like you were trying to resist it.',
-                            ...(SAVE.data.b.oops
-                               ? []
-                               : [ "<32>{#p/basic}* Yeah, you're not that kind of person at all." ]),
-                            '<25>{#p/asriel1}{#f/15}* All I know is... despite what happened...',
-                            '<25>{#f/15}* Despite what you did... or, what I wanted you to do...',
-                            "<25>{#f/16}* You're still a better person than I ever was.",
-                            ...(SAVE.data.b.oops ? [] : [ '<32>{#p/basic}* Hmph.' ]),
-                            "<25>{#p/asriel1}{#f/21}* ...\n* But I'm getting ahead of myself."
-                         ]
-                       : [
-                            "<25>{#f/13}* I haven't felt like this for a long time.",
-                            '<25>{#f/16}* As a star, I was... soulless.',
-                            '<25>{#f/15}* I lacked the power to love other people.',
-                            "<25>{#f/13}* However, with everyone's SOULs inside me...",
-                            '<25>{#f/13}* I not only have my own compassion back...',
-                            "<25>{#f/23}* But I can feel every other monster's as well.",
-                            '<25>{#f/17}* They all care about each other so much.',
-                            ...(30 <= SAVE.data.n.bully
-                               ? [
-                                    '<25>{#f/23}* And... uh...\n* As for you, they...',
-                                    '<25>{#f/22}* ...',
-                                    ...(20 <= world.flirt
-                                       ? [
-                                            '<25>{#f/15}* ... well, they seem to be kind of conflicted...',
-                                            "<25>{#f/10}* It's like... they like you, but dislike you at the same time?"
-                                         ]
-                                       : [
-                                            "<25>{#f/15}* ... well, some of them don't seem to like you...",
-                                            ...(SAVE.data.b.undyne_respecc
-                                               ? [
-                                                    '<25>{#f/10}* Except Undyne.\n* She seems to like you a lot for some reason.'
-                                                 ]
-                                               : [ "<25>{#f/10}* Though, I'm not sure why." ])
-                                         ]),
-                                    '<25>{#f/23}* ... how strange.',
-                                    '<25>{#f/22}* ...'
+                              '<25>{#f/23}* ... how strange.',
+                              '<25>{#f/22}* ...'
+                           ]
+                           : [
+                              '<25>{#f/23}* And... they care about you too, Frisk.',
+                              '<25>{#f/22}* ...',
+                              ...(20 <= world.flirt
+                                 ? [
+                                    '<25>{#f/15}* ... wow, they... they really care about you a lot...',
+                                    '<25>{#f/15}* Uh...\n* Frisk, this is...',
+                                    '<25>{#f/17}* ... golly...',
+                                    "<25>{#f/20}* I, uh, really shouldn't tell you what they're feeling right now."
                                  ]
-                               : [
-                                    '<25>{#f/23}* And... they care about you too, Frisk.',
-                                    '<25>{#f/22}* ...',
-                                    ...(20 <= world.flirt
-                                       ? [
-                                            '<25>{#f/15}* ... wow, they... they really care about you a lot...',
-                                            '<25>{#f/15}* Uh...\n* Frisk, this is...',
-                                            '<25>{#f/17}* ... golly...',
-                                            "<25>{#f/20}* I, uh, really shouldn't tell you what they're feeling right now."
-                                         ]
-                                       : [
-                                            '<25>{#p/asriel1}{#f/13}* I wish I could tell you how everyone feels about you.',
-                                            '<25>{#f/17}* Toriel... Asgore...\n* Sans... Papyrus...\n* Undyne... Alphys...',
-                                            ...(!SAVE.data.b.f_state_kidd_betray
-                                               ? [ '<25>{#f/15}* ... Monster Kid?\n* Is that their name?' ]
-                                               : world.happy_ghost && SAVE.data.b.a_state_hapstablook
-                                               ? [ '<25>{#f/23}* ... Napstablook, and... all their cousins.' ]
-                                               : SAVE.data.n.state_starton_nicecream > 0
-                                               ? [ '<25>{#f/23}* ... even the Ice Dream guy.' ]
-                                               : [ '<25>{#f/23}* ... even that little mouse who works at the CORE.' ]),
-                                            '<25>{#f/17}* Monsters are weird.',
-                                            '<25>{#f/15}* Even though they barely know you...',
-                                            '<25>{#f/17}* It feels like they all really love you.',
-                                            '<25>{#f/23}* Haha.',
-                                            '<25>{#f/22}* ...'
-                                         ])
+                                 : [
+                                    '<25>{#p/asriel1}{#f/13}* I wish I could tell you how everyone feels about you.',
+                                    '<25>{#f/17}* Toriel... Asgore...\n* Sans... Papyrus...\n* Undyne... Alphys...',
+                                    ...(!SAVE.data.b.f_state_kidd_betray
+                                       ? ['<25>{#f/15}* ... Monster Kid?\n* Is that their name?']
+                                       : world.happy_ghost && SAVE.data.b.a_state_hapstablook
+                                          ? ['<25>{#f/23}* ... Napstablook, and... all their cousins.']
+                                          : SAVE.data.n.state_starton_nicecream > 0
+                                             ? ['<25>{#f/23}* ... even the Ice Dream guy.']
+                                             : ['<25>{#f/23}* ... even that little mouse who works at the CORE.']),
+                                    '<25>{#f/17}* Monsters are weird.',
+                                    '<25>{#f/15}* Even though they barely know you...',
+                                    '<25>{#f/17}* It feels like they all really love you.',
+                                    '<25>{#f/23}* Haha.',
+                                    '<25>{#f/22}* ...'
                                  ])
-                         ])
-                 ])
+                           ])
+                     ])
+               ])
          ],
          sad3: () =>
             world.runaway
                ? [
-                    "<26>{#p/asriel1}{#f/13}* Still, I...\n* I know I've made far worse mistakes.",
-                    "<25>{#f/16}* I know... you're not the only one to blame for what happened here.",
-                    ...(SAVE.flag.n.killed_sans > 0
-                       ? [
-                            '<25>{#f/15}* ...',
-                            '<25>{#f/15}* Dragging you into some backwards plan to destroy the outpost...',
-                            '<25>{#f/16}* Just so I could pretend you were my long-dead sibling...'
-                         ]
-                       : [
-                            '<25>{#f/15}* ...',
-                            '<25>{#f/15}* Turning myself into that... faceless entity...',
-                            '<25>{#f/16}* Just so I could torture you in a nightmare of my own making...'
-                         ]),
-                    "<25>{#f/13}* That's the kind of thing I'm talking about.",
-                    "<25>{#f/22}* ...做了那些事，\n  我怎麼還有臉活在這世上。",
-                    choicer.create('* （你要怎麼做？）', '辯解', '站著不動')
-                 ]
+                  "<26>{#p/asriel1}{#f/13}* Still, I...\n* I know I've made far worse mistakes.",
+                  "<25>{#f/16}* I know... you're not the only one to blame for what happened here.",
+                  ...(SAVE.flag.n.killed_sans > 0
+                     ? [
+                        '<25>{#f/15}* ...',
+                        '<25>{#f/15}* Dragging you into some backwards plan to destroy the outpost...',
+                        '<25>{#f/16}* Just so I could pretend you were my long-dead sibling...'
+                     ]
+                     : [
+                        '<25>{#f/15}* ...',
+                        '<25>{#f/15}* Turning myself into that... faceless entity...',
+                        '<25>{#f/16}* Just so I could torture you in a nightmare of my own making...'
+                     ]),
+                  "<25>{#f/13}* That's the kind of thing I'm talking about.",
+                  "<25>{#f/22}* ...做了那些事，\n  我怎麼還有臉活在這世上。",
+                  choicer.create('* （你要怎麼做？）', '辯解', '站著不動')
+               ]
                : [
-                    SAVE.flag.n.killed_sans > 0
-                       ? "<25>{#p/asriel1}{#f/13}* I understand if you can't forgive me."
-                       : "<25>{#p/asriel1}{#f/13}* Frisk... I...\n* I understand if you can't forgive me.",
-                    '<25>{#f/13}* I understand if you... want me gone.',
-                    ...(SAVE.data.b.oops ? [] : [ "<32>{#p/basic}* ... don't say that!" ]),
-                    '<25>{#p/asriel1}{#f/15}* I acted so strange and horrible.',
-                    '<25>{#f/15}* I hurt you.',
-                    '<25>{#f/16}* I hurt so many people.',
-                    '<25>{#f/13}* Friends, family, bystanders...',
-                    "<25>{#f/22}* There's no excuse for what I've done.",
-                    ...(SAVE.data.b.oops ? [] : [ '<32>{#p/basic}* Asriel...' ]),
-                    choicer.create('* （你要怎麼做？）', '原諒他', '站著不動')
-                 ],
+                  SAVE.flag.n.killed_sans > 0
+                     ? "<25>{#p/asriel1}{#f/13}* I understand if you can't forgive me."
+                     : "<25>{#p/asriel1}{#f/13}* Frisk... I...\n* I understand if you can't forgive me.",
+                  '<25>{#f/13}* I understand if you... want me gone.',
+                  ...(SAVE.data.b.oops ? [] : ["<32>{#p/basic}* ... don't say that!"]),
+                  '<25>{#p/asriel1}{#f/15}* I acted so strange and horrible.',
+                  '<25>{#f/15}* I hurt you.',
+                  '<25>{#f/16}* I hurt so many people.',
+                  '<25>{#f/13}* Friends, family, bystanders...',
+                  "<25>{#f/22}* There's no excuse for what I've done.",
+                  ...(SAVE.data.b.oops ? [] : ['<32>{#p/basic}* Asriel...']),
+                  choicer.create('* （你要怎麼做？）', '原諒他', '站著不動')
+               ],
          sad4a: () => [
             ...(world.runaway
                ? [
-                    '<25>{#p/asriel1}{#f/25}* Wh... what?',
-                    '<25>{#f/21}* ...',
-                    "<25>{#f/21}* I guess... you really don't want anyone to die, huh?",
-                    '<25>{#f/22}* You just want to beat people up... nothing more.',
-                    '<25>{#f/21}* ... still... even if you do want me to stay...'
-                 ]
+                  '<25>{#p/asriel1}{#f/25}* Wh... what?',
+                  '<25>{#f/21}* ...',
+                  "<25>{#f/21}* I guess... you really don't want anyone to die, huh?",
+                  '<25>{#f/22}* You just want to beat people up... nothing more.',
+                  '<25>{#f/21}* ... still... even if you do want me to stay...'
+               ]
                : [
-                    '<25>{#p/asriel1}{#f/25}* Wh... what?',
-                    '<25>{#f/17}* ... Frisk, come on.',
-                    "<25>{#f/23}* You're...\n* You're gonna make me cry again.",
-                    ...(SAVE.data.b.oops ? [] : [ '<32>{#p/basic}* ... t-tell me about it...' ]),
-                    '<25>{#p/asriel1}{#f/21}* ... besides, even if you do forgive me...'
-                 ]),
+                  '<25>{#p/asriel1}{#f/25}* Wh... what?',
+                  '<25>{#f/17}* ... Frisk, come on.',
+                  "<25>{#f/23}* You're...\n* You're gonna make me cry again.",
+                  ...(SAVE.data.b.oops ? [] : ['<32>{#p/basic}* ... t-tell me about it...']),
+                  '<25>{#p/asriel1}{#f/21}* ... besides, even if you do forgive me...'
+               ]),
             "<25>{#f/15}* I can't keep these SOULs inside of me forever.",
             '<25>{#f/16}* So... the least I can do is return them.'
          ],
          sad4b: () =>
             world.runaway
                ? [
-                    '<25>{#p/asriel1}{#f/21}* ...',
-                    '<25>{#f/21}* Well, anyway.\n* I did promise that if you defeated me...',
-                    '<25>{#f/23}* I\'d give you your \"happy ending.\"',
-                    "<25>{#f/15}* ... so, since I can't keep these SOULs inside of me forever...",
-                    "<25>{#f/16}* I'll return them, and do just that."
-                 ]
+                  '<25>{#p/asriel1}{#f/21}* ...',
+                  '<25>{#f/21}* Well, anyway.\n* I did promise that if you defeated me...',
+                  '<25>{#f/23}* I\'d give you your \"happy ending.\"',
+                  "<25>{#f/15}* ... so, since I can't keep these SOULs inside of me forever...",
+                  "<25>{#f/16}* I'll return them, and do just that."
+               ]
                : [
-                    '<25>{#p/asriel1}{#f/22}* ... right.',
-                    '<25>{#f/21}* I understand.',
-                    '<25>{#f/15}* I just hope that...',
-                    '<25>{#f/16}* I can make up for it a little right now.',
-                    "<25>{#p/asriel1}{#f/15}* ... of course, since I can't keep these SOULs inside of me forever...",
-                    '<25>{#f/16}* The least I can do is return them.'
-                 ],
+                  '<25>{#p/asriel1}{#f/22}* ... right.',
+                  '<25>{#f/21}* I understand.',
+                  '<25>{#f/15}* I just hope that...',
+                  '<25>{#f/16}* I can make up for it a little right now.',
+                  "<25>{#p/asriel1}{#f/15}* ... of course, since I can't keep these SOULs inside of me forever...",
+                  '<25>{#f/16}* The least I can do is return them.'
+               ],
          sad4c: () => [
             '<25>{#p/asriel1}{#f/16}* ...',
             '<25>{#f/6}* But first...',
             "<25>{#f/29}* There's something else I have to do.",
-            ...(SAVE.data.b.oops ? [] : [ '<32>{#p/basic}* ... what now?' ]),
+            ...(SAVE.data.b.oops ? [] : ['<32>{#p/basic}* ... what now?']),
             "<25>{#p/asriel1}{#f/29}* Right now, I can feel everyone's minds working as one.",
             "<25>{#f/6}* They're all racing with the same intention.",
             "<26>{#f/6}* With everyone's power... with everyone's determination...",
             "<25>{#f/6}* It's time for monsters...",
-            ...(SAVE.data.b.oops ? [] : [ '<32>{#p/basic}* To finally go free.' ]),
+            ...(SAVE.data.b.oops ? [] : ['<32>{#p/basic}* To finally go free.']),
             '<25>{#p/asriel1}{#f/29}* To finally go free.',
-            ...(SAVE.data.b.oops ? [] : [ '<32>{#p/basic}* ... knew it.' ])
+            ...(SAVE.data.b.oops ? [] : ['<32>{#p/basic}* ... knew it.'])
          ],
          abreak: '{*}{#p/event}{#i/3}The force field was\neradicated.',
          sad5: () => [
             '<25>{#p/asriel1}{#f/21}* Frisk...',
             '<25>{#f/21}* I have to go now.',
-            ...(SAVE.data.b.oops ? [] : [ "<32>{#p/basic}* ... huh?\n* But you can't just..." ]),
+            ...(SAVE.data.b.oops ? [] : ["<32>{#p/basic}* ... huh?\n* But you can't just..."]),
             "<25>{#p/asriel1}{#f/15}* Without the power of everyone's SOULs...",
             "<25>{#f/22}* I can't keep maintaining this form.",
             '<25>{#f/21}* In a little while...',
             "<25>{#f/22}* I'll turn back into a star.",
-            ...(SAVE.data.b.oops ? [] : [ '<32>{#p/basic}* But... you...' ]),
+            ...(SAVE.data.b.oops ? [] : ['<32>{#p/basic}* But... you...']),
             "<25>{#p/asriel1}{#f/15}* I'll stop being myself.",
             ...(world.runaway
                ? [
-                    "<25>{#f/15}* ... but maybe that's for the best.",
-                    '<25>{#f/23}* Ha... Frisk.',
-                    "<25>{#f/21}* There's no reason for you to stick around anymore.",
-                    "<25>{#f/22}* Don't waste any more time on me."
-                 ]
+                  "<25>{#f/15}* ... but maybe that's for the best.",
+                  '<25>{#f/23}* Ha... Frisk.',
+                  "<25>{#f/21}* There's no reason for you to stick around anymore.",
+                  "<25>{#f/22}* Don't waste any more time on me."
+               ]
                : [
-                    "<25>{#f/15}* I'll stop being able to feel love again.",
-                    ...(SAVE.data.b.oops ? [] : [ '<32>{#p/basic}* ... no...' ]),
-                    '<25>{#p/asriel1}{#f/23}* So... Frisk.',
-                    "<25>{#f/17}* It's best if you just forget about me, okay?",
-                    ...(SAVE.data.b.oops ? [] : [ "<32>{#p/basic}* No! You can't just walk away!" ]),
-                    '<25>{#p/asriel1}{#f/23}* Just go be with the people who love you.'
-                 ]),
+                  "<25>{#f/15}* I'll stop being able to feel love again.",
+                  ...(SAVE.data.b.oops ? [] : ['<32>{#p/basic}* ... no...']),
+                  '<25>{#p/asriel1}{#f/23}* So... Frisk.',
+                  "<25>{#f/17}* It's best if you just forget about me, okay?",
+                  ...(SAVE.data.b.oops ? [] : ["<32>{#p/basic}* No! You can't just walk away!"]),
+                  '<25>{#p/asriel1}{#f/23}* Just go be with the people who love you.'
+               ]),
             choicer.create('* （你要怎麼做？）', '安慰他', '站著不動')
          ],
          sad6: () =>
             world.runaway
                ? [
-                    '<25>{#p/asriel1}{#f/25}* ...！',
-                    '<25>{#f/21}* ...',
-                    '<25>{#f/21}* Frisk, I...',
-                    "<25>{#f/15}* ... I just can't right now, okay?",
-                    "<25>{#f/22}* I... I'm sorry."
-                 ]
+                  '<25>{#p/asriel1}{#f/25}* ...！',
+                  '<25>{#f/21}* ...',
+                  '<25>{#f/21}* Frisk, I...',
+                  "<25>{#f/15}* ... I just can't right now, okay?",
+                  "<25>{#f/22}* I... I'm sorry."
+               ]
                : [
-                    '<25>{#p/asriel1}{#i/4}{#f/23}* Ha... ha...',
-                    "<25>{#f/23}{#i/4}* I don't want to let go...",
-                    ...(SAVE.data.b.oops ? [] : [ '<32>{#p/human}* (It sounds like someone is crying...)' ])
-                 ],
+                  '<25>{#p/asriel1}{#i/4}{#f/23}* Ha... ha...',
+                  "<25>{#f/23}{#i/4}* I don't want to let go...",
+                  ...(SAVE.data.b.oops ? [] : ['<32>{#p/human}* (It sounds like someone is crying...)'])
+               ],
          sad7: () =>
             world.runaway
                ? [
-                    '<25>{#p/asriel1}{#f/13}* Frisk...',
-                    '<25>{#f/15}* Whatever you do...',
-                    '<25>{#f/21}* Just... try to be careful, okay?',
-                    '<25>{#f/21}* No matter who you... nearly beat to death.',
-                    '<25>{#f/23}* Golly.\n* What are they even going to do with you.'
-                 ]
+                  '<25>{#p/asriel1}{#f/13}* Frisk...',
+                  '<25>{#f/15}* Whatever you do...',
+                  '<25>{#f/21}* Just... try to be careful, okay?',
+                  '<25>{#f/21}* No matter who you... nearly beat to death.',
+                  '<25>{#f/23}* Golly.\n* What are they even going to do with you.'
+               ]
                : [
-                    '<25>{#p/asriel1}{#f/21}* Frisk...',
-                    "<25>{#f/23}* You're...",
-                    "<25>{#f/17}* You're going to do a great job, okay?",
-                    '<25>{#f/21}* No matter what you do.',
-                    '<25>{#f/23}* Everyone will be there for you, okay?',
-                    ...(SAVE.data.b.oops ? [] : [ '<32>{#p/basic}* No... please...' ])
-                 ],
-         sad8: [ "<25>{#p/asriel1}{#f/21}* Well...\n* My time's running out.", '<25>{#f/22}* So... goodbye.' ],
-         sad8x: [ "<32>{*}{#p/basic}* ... don't go...{^50}{%}" ],
+                  '<25>{#p/asriel1}{#f/21}* Frisk...',
+                  "<25>{#f/23}* You're...",
+                  "<25>{#f/17}* You're going to do a great job, okay?",
+                  '<25>{#f/21}* No matter what you do.',
+                  '<25>{#f/23}* Everyone will be there for you, okay?',
+                  ...(SAVE.data.b.oops ? [] : ['<32>{#p/basic}* No... please...'])
+               ],
+         sad8: ["<25>{#p/asriel1}{#f/21}* Well...\n* My time's running out.", '<25>{#f/22}* So... goodbye.'],
+         sad8x: ["<32>{*}{#p/basic}* ... don't go...{^50}{%}"],
          sad9: () =>
             world.runaway
                ? [
-                    '<25>{#p/asriel1}{#f/21}* By the way...',
-                    '<25>{#f/22}* Frisk.',
-                    "<25>{#f/21}{#x1}* ... don't beat yourself up over this, okay?"
-                 ]
+                  '<25>{#p/asriel1}{#f/21}* By the way...',
+                  '<25>{#f/22}* Frisk.',
+                  "<25>{#f/21}{#x1}* ... don't beat yourself up over this, okay?"
+               ]
                : [
-                    '<25>{#p/asriel1}{#f/21}* By the way...',
-                    '<25>{#f/23}* Frisk.',
-                    '<25>{#f/17}{#x1}* ... take care of Mom and Dad for me, okay?'
-                 ],
-         sad9x: [ '<32>{#p/basic}* ...' ],
+                  '<25>{#p/asriel1}{#f/21}* By the way...',
+                  '<25>{#f/23}* Frisk.',
+                  '<25>{#f/17}{#x1}* ... take care of Mom and Dad for me, okay?'
+               ],
+         sad9x: ['<32>{#p/basic}* ...'],
          sad10: () =>
             world.runaway
-               ? [ '<32>{#p/human}* （飛船的聲音漸漸消失在天際。）' ]
-               : [ '<25>{#p/kidd}{#f/4}* Hello?', '<25>{#f/4}* Is someone there...?' ],
+               ? ['<32>{#p/human}* （飛船的聲音漸漸消失在天際。）']
+               : ['<25>{#p/kidd}{#f/4}* Hello?', '<25>{#f/4}* Is someone there...?'],
          sad11: () =>
             SAVE.data.b.f_state_kidd_betray
                ? [
-                    "<25>{#p/kidd}{#f/5}* ... oh, it's just you.",
-                    "<25>{#f/4}* Well... when you're ready...",
-                    "<25>{#f/5}* Everyone's waiting for you at Asgore's place.",
-                    "<25>{#f/4}* I'll... just be out of your way now."
-                 ]
+                  "<25>{#p/kidd}{#f/5}* ... oh, it's just you.",
+                  "<25>{#f/4}* Well... when you're ready...",
+                  "<25>{#f/5}* Everyone's waiting for you at Asgore's place.",
+                  "<25>{#f/4}* I'll... just be out of your way now."
+               ]
                : [
-                    '<25>{#p/kidd}{#f/2}* Yo!\n* Where have YOU been all this time!?',
-                    "<25>{#f/1}* They've been looking ALL over for you, dude!",
-                    "<25>{#f/2}* Like, there's this big hangout going on at Asgore's, and...",
-                    "<25>{#f/1}* Everyone's been wondering when you'd show up!",
-                    "<25>{#f/1}* ... come on, dude!\n* Come and join in before it's too late!"
-                 ],
+                  '<25>{#p/kidd}{#f/2}* Yo!\n* Where have YOU been all this time!?',
+                  "<25>{#f/1}* They've been looking ALL over for you, dude!",
+                  "<25>{#f/2}* Like, there's this big hangout going on at Asgore's, and...",
+                  "<25>{#f/1}* Everyone's been wondering when you'd show up!",
+                  "<25>{#f/1}* ... come on, dude!\n* Come and join in before it's too late!"
+               ],
          sad11x: [
             '<32>{#p/basic}* ... Frisk, I...',
             "<33>* I can't just let him walk away.",
@@ -2869,61 +2869,61 @@ export default {
          epilogue1: () =>
             world.runaway
                ? [
-                    '<32>{#s/phone}{#p/event}* 鈴鈴，鈴鈴...',
-                    '<18>{#p/papyrus}{#f/6}對不起，\n我們沒接你電話...',
-                    "<18>{#p/papyrus}{#f/6}不是因為訊號不好，\n或者電話斷線。",
-                    "<18>{#p/papyrus}{#f/5}單純是因為...\n不想搭理你。",
-                    "<18>{#f/5}真奇怪...\n你的大名突然傳遍了\n整個怪物世界。",
-                    "<18>{#f/6}而且，每個怪物...\n都非常害怕你。",
-                    '<18>{#f/4}...也許說得太絕對，\n但大體沒錯。',
-                    '<25>{#p/undyne}{#f/12}* 對。\n* 就是這樣。',
-                    '<18>{#p/papyrus}{#f/5}...',
-                    "<18>{#p/papyrus}{#f/5}...我感覺，\n就連她都開始怕你了。",
-                    '<25>{#p/undyne}{#f/17}* 我才不怕呢！',
-                    '<18>{#p/papyrus}{#f/5}...',
-                    "<18>{#f/5}我們糾結了很久，\n最後還是決定...",
-                    "<18>{#f/31}拋棄你，先走一步\n尋找新家園。",
-                    "<18>{#f/6}知道你不好受！\n所以別擔心...",
-                    "<18>{#f/5}...我們還給你\n留了個核心。",
-                    '<25>{#p/undyne}{#f/12}* 過不了多久，\n  那玩意就沒能量了喔。',
-                    "<18>{#p/papyrus}{#f/5}求求你...\n別來找我們，行嗎？",
-                    "<18>{#f/31}我們都不想再見到你。",
-                    '<18>{#f/3}...',
-                    '<18>{#f/3}唉... 你好走吧。',
-                    '<25>{#p/undyne}{#f/1}* 好好享受一個人的世界！！',
-                    '<32>{#s/equip}{#p/event}* 滴...'
-                 ]
+                  '<32>{#s/phone}{#p/event}* 鈴鈴，鈴鈴...',
+                  '<18>{#p/papyrus}{#f/6}對不起，\n我們沒接你電話...',
+                  "<18>{#p/papyrus}{#f/6}不是因為訊號不好，\n或者電話斷線。",
+                  "<18>{#p/papyrus}{#f/5}單純是因為...\n不想搭理你。",
+                  "<18>{#f/5}真奇怪...\n你的大名突然傳遍了\n整個怪物世界。",
+                  "<18>{#f/6}而且，每個怪物...\n都非常害怕你。",
+                  '<18>{#f/4}...也許說得太絕對，\n但大體沒錯。',
+                  '<25>{#p/undyne}{#f/12}* 對。\n* 就是這樣。',
+                  '<18>{#p/papyrus}{#f/5}...',
+                  "<18>{#p/papyrus}{#f/5}...我感覺，\n就連她都開始怕你了。",
+                  '<25>{#p/undyne}{#f/17}* 我才不怕呢！',
+                  '<18>{#p/papyrus}{#f/5}...',
+                  "<18>{#f/5}我們糾結了很久，\n最後還是決定...",
+                  "<18>{#f/31}拋棄你，先走一步\n尋找新家園。",
+                  "<18>{#f/6}知道你不好受！\n所以別擔心...",
+                  "<18>{#f/5}...我們還給你\n留了個核心。",
+                  '<25>{#p/undyne}{#f/12}* 過不了多久，\n  那玩意就沒能量了喔。',
+                  "<18>{#p/papyrus}{#f/5}求求你...\n別來找我們，行嗎？",
+                  "<18>{#f/31}我們都不想再見到你。",
+                  '<18>{#f/3}...',
+                  '<18>{#f/3}唉... 你好走吧。',
+                  '<25>{#p/undyne}{#f/1}* 好好享受一個人的世界！！',
+                  '<32>{#s/equip}{#p/event}* 滴...'
+               ]
                : [
-                    '<32>{#s/phone}{#p/event}* 鈴鈴，鈴鈴...',
-                    "<18>{#p/papyrus}{#f/0}HEY, HUMAN!\nI HOPE YOU'RE DOING OKAY!",
-                    "<18>{#f/5}WE'VE BEEN VERY WORRIED ABOUT YOU, YOU KNOW.",
-                    '<18>{#f/6}WHEN WE CALLED YOU BEFORE, THERE WAS NO RESPONSE!',
-                    '<18>{#f/0}THANKFULLY, YOUR FRIEND CAME BY, AND...',
-                    '<18>{#f/0}WELL, WE CAN ALL BREATHE A SIGH OF RELIEF NOW.',
-                    "<18>{#f/0}... FRISK?\nTHAT'S YOUR NAME, RIGHT?",
-                    "<18>{#f/5}真奇怪...\n你的大名突然傳遍了\n整個怪物世界。",
-                    "<18>{#f/0}BUT THAT'S OKAY.\nIT'S STRANGE IN AN UPLIFTING WAY.",
-                    "<25>{#p/sans}{#f/0}* careful bro, don't overcook it.",
-                    "<18>{#p/papyrus}{#f/7}SANS!!!\nI KNOW WHAT I'M DOING!!!",
-                    '<25>{#p/sans}{#f/2}* just making sure.',
-                    "<18>{#p/papyrus}{#f/6}SO... TURNS OUT ASGORE'S A BIG FAN OF SPAGHETTI.",
-                    '<18>{#p/papyrus}{#f/4}AFTER MY FIRST DISH, HE WAS HOOKED...',
-                    '<18>{#p/papyrus}{#f/0}NOW, HE WANTS ME TO COOK FOR THE WHOLE PARTY!',
-                    '<18>{#p/papyrus}{#f/9}I, MASTER CHEF PAPYRUS, AM HAPPY TO OBLIGE!',
-                    "<25>{#p/sans}{#f/0}* you're finally getting the respect you deserve, huh?",
-                    '<18>{#p/papyrus}{#f/0}OH, ABSOLUTELY.\nBECAUSE UNTIL NOW...',
-                    "<18>{#p/papyrus}{#f/4}I'VE NEVER SEEN A CUSTOMER GET PAST THE FIRST BITE.",
-                    '<25>{#p/sans}{#f/0}* wow.\n* talk about moving up in the world.',
-                    "<25>{#p/sans}{#f/3}* maybe now, not being in the royal guard... isn't so bad.",
-                    "<25>{#p/sans}{#f/2}* i'm your brother, so i'm proud of you either way.",
-                    "<18>{#p/papyrus}{#f/8}SANS...!\nYOU'RE GOING TO MAKE ME CRY!",
-                    "<18>{#p/papyrus}{#f/7}THE CUSTOMERS WON'T WANT TEARS IN THEIR PASTA!",
-                    '<25>{#p/sans}{#f/3}* whoops.\n* bad timing, i guess.',
-                    '<18>{#p/papyrus}{#f/4}FOR YOU, THIS IS ABOVE AVERAGE TIMING...',
-                    "<18>{#p/papyrus}{#f/0}... ANYWAY, WE'LL BE BUSY IN ASGORE'S KITCHEN.",
-                    '<18>{#p/papyrus}{#f/9}FEEL FREE TO SWING BY WHEN YOU GET THE CHANCE!',
-                    '<32>{#s/equip}{#p/event}* 滴...'
-                 ],
+                  '<32>{#s/phone}{#p/event}* 鈴鈴，鈴鈴...',
+                  "<18>{#p/papyrus}{#f/0}HEY, HUMAN!\nI HOPE YOU'RE DOING OKAY!",
+                  "<18>{#f/5}WE'VE BEEN VERY WORRIED ABOUT YOU, YOU KNOW.",
+                  '<18>{#f/6}WHEN WE CALLED YOU BEFORE, THERE WAS NO RESPONSE!',
+                  '<18>{#f/0}THANKFULLY, YOUR FRIEND CAME BY, AND...',
+                  '<18>{#f/0}WELL, WE CAN ALL BREATHE A SIGH OF RELIEF NOW.',
+                  "<18>{#f/0}... FRISK?\nTHAT'S YOUR NAME, RIGHT?",
+                  "<18>{#f/5}真奇怪...\n你的大名突然傳遍了\n整個怪物世界。",
+                  "<18>{#f/0}BUT THAT'S OKAY.\nIT'S STRANGE IN AN UPLIFTING WAY.",
+                  "<25>{#p/sans}{#f/0}* careful bro, don't overcook it.",
+                  "<18>{#p/papyrus}{#f/7}SANS!!!\nI KNOW WHAT I'M DOING!!!",
+                  '<25>{#p/sans}{#f/2}* just making sure.',
+                  "<18>{#p/papyrus}{#f/6}SO... TURNS OUT ASGORE'S A BIG FAN OF SPAGHETTI.",
+                  '<18>{#p/papyrus}{#f/4}AFTER MY FIRST DISH, HE WAS HOOKED...',
+                  '<18>{#p/papyrus}{#f/0}NOW, HE WANTS ME TO COOK FOR THE WHOLE PARTY!',
+                  '<18>{#p/papyrus}{#f/9}I, MASTER CHEF PAPYRUS, AM HAPPY TO OBLIGE!',
+                  "<25>{#p/sans}{#f/0}* you're finally getting the respect you deserve, huh?",
+                  '<18>{#p/papyrus}{#f/0}OH, ABSOLUTELY.\nBECAUSE UNTIL NOW...',
+                  "<18>{#p/papyrus}{#f/4}I'VE NEVER SEEN A CUSTOMER GET PAST THE FIRST BITE.",
+                  '<25>{#p/sans}{#f/0}* wow.\n* talk about moving up in the world.',
+                  "<25>{#p/sans}{#f/3}* maybe now, not being in the royal guard... isn't so bad.",
+                  "<25>{#p/sans}{#f/2}* i'm your brother, so i'm proud of you either way.",
+                  "<18>{#p/papyrus}{#f/8}SANS...!\nYOU'RE GOING TO MAKE ME CRY!",
+                  "<18>{#p/papyrus}{#f/7}THE CUSTOMERS WON'T WANT TEARS IN THEIR PASTA!",
+                  '<25>{#p/sans}{#f/3}* whoops.\n* bad timing, i guess.',
+                  '<18>{#p/papyrus}{#f/4}FOR YOU, THIS IS ABOVE AVERAGE TIMING...',
+                  "<18>{#p/papyrus}{#f/0}... ANYWAY, WE'LL BE BUSY IN ASGORE'S KITCHEN.",
+                  '<18>{#p/papyrus}{#f/9}FEEL FREE TO SWING BY WHEN YOU GET THE CHANCE!',
+                  '<32>{#s/equip}{#p/event}* 滴...'
+               ],
          epilogue2: () => [
             '<25>{#p/sans}{#f/0}* hey, bucko.',
             "<25>{#f/0}* i've been wondering when you'd swing by this way.",
@@ -2951,18 +2951,18 @@ export default {
             () =>
                SAVE.data.b.svr
                   ? [
-                       '<25>{#p/asriel1}{#f/17}* This door will take us to the hangar bay.',
-                       "<99>{#p/human}* （離開這裡嗎？）{!}\n§shift=48§我想\n§shift=48§再等等§shift=83§現在離開{#c/0/6/6}"
-                    ]
+                     '<25>{#p/asriel1}{#f/17}* This door will take us to the hangar bay.',
+                     "<99>{#p/human}* （離開這裡嗎？）{!}\n§shift=48§我想\n§shift=48§再等等§shift=83§現在離開{#c/0/6/6}"
+                  ]
                   : [
-                       ...(SAVE.data.b.oops
-                          ? [
-                               '<32>{#p/basic}* If you leave here, your journey will really be over.',
-                               '<32>{#p/basic}* Your friends will follow you to a new homeworld.'
-                            ]
-                          : [ '<32>{#p/basic}* Frisk...', "<32* Don't you remember what we have to do?" ]),
-                       "<99>{#p/human}* （離開這裡嗎？）{!}\n§shift=48§我想\n§shift=48§再等等§shift=83§現在離開{#c/0/6/6}"
-                    ],
+                     ...(SAVE.data.b.oops
+                        ? [
+                           '<32>{#p/basic}* If you leave here, your journey will really be over.',
+                           '<32>{#p/basic}* Your friends will follow you to a new homeworld.'
+                        ]
+                        : ['<32>{#p/basic}* Frisk...', "<32* Don't you remember what we have to do?"]),
+                     "<99>{#p/human}* （離開這裡嗎？）{!}\n§shift=48§我想\n§shift=48§再等等§shift=83§現在離開{#c/0/6/6}"
+                  ],
             [
                "<99>{#p/human}* （離開這裡嗎？）{!}\n§shift=48§我想\n§shift=48§再等等§shift=83§現在離開{#c/0/6/6}"
             ]
@@ -2978,116 +2978,116 @@ export default {
          hangar1: () =>
             SAVE.data.b.svr
                ? [
-                    "<25>{#p/asriel1}{#f/23}* It's beautiful...",
-                    '<25>{#f/22}* ...',
-                    "<25>{#f/13}* Even though I've seen this view since I was born...",
-                    "<26>{#f/17}* There's something special about seeing it without the force field.",
-                    "<25>{#f/17}* Maybe it's just my imagination...",
-                    '<25>{#f/23}* ... but the stars do look a little brighter.'
-                 ]
+                  "<25>{#p/asriel1}{#f/23}* It's beautiful...",
+                  '<25>{#f/22}* ...',
+                  "<25>{#f/13}* Even though I've seen this view since I was born...",
+                  "<26>{#f/17}* There's something special about seeing it without the force field.",
+                  "<25>{#f/17}* Maybe it's just my imagination...",
+                  '<25>{#f/23}* ... but the stars do look a little brighter.'
+               ]
                : [
-                    '<25>{#p/asgore}{#f/6}* Space...\n* The final frontier.',
-                    '<25>{#f/1}* Millions of unexplored worlds, some teeming with life...',
-                    '<25>{#f/2}* Others... lifeless.',
-                    '<26>{#f/5}* You could say the universe is like... a box of tree saps.',
-                    '<26>{#f/6}* You never know what you are going to get.'
-                 ],
+                  '<25>{#p/asgore}{#f/6}* Space...\n* The final frontier.',
+                  '<25>{#f/1}* Millions of unexplored worlds, some teeming with life...',
+                  '<25>{#f/2}* Others... lifeless.',
+                  '<26>{#f/5}* You could say the universe is like... a box of tree saps.',
+                  '<26>{#f/6}* You never know what you are going to get.'
+               ],
          hangar2: () =>
             SAVE.data.b.svr
                ? [
-                    '<25>{#p/asriel1}{#f/17}* ... haha.',
-                    '<25>{#f/17}* We should get going.',
-                    '<25>{#f/15}* ...',
-                    '<25>{#f/15}* Mom and Dad will want to see me again, so...',
-                    "<25>{#f/17}* I'll go find them once we're on board.",
-                    '<25>{#f/13}* And you...',
-                    '<25>{#f/20}* ... you should probably get some rest, Frisk.',
-                    '<26>{#f/17}* You must be so tired after all of this.',
-                    '<25>{#f/13}* ...',
-                    '<25>{#f/13}* Maybe, by the time you wake up...',
-                    "<25>{#f/17}* You'll have a new home and a loving family to support you."
-                 ]
-               : [ '<25>{|}{#p/asgore}{#f/5}* Huh?\n* Is someone- {%}' ],
+                  '<25>{#p/asriel1}{#f/17}* ... haha.',
+                  '<25>{#f/17}* We should get going.',
+                  '<25>{#f/15}* ...',
+                  '<25>{#f/15}* Mom and Dad will want to see me again, so...',
+                  "<25>{#f/17}* I'll go find them once we're on board.",
+                  '<25>{#f/13}* And you...',
+                  '<25>{#f/20}* ... you should probably get some rest, Frisk.',
+                  '<26>{#f/17}* You must be so tired after all of this.',
+                  '<25>{#f/13}* ...',
+                  '<25>{#f/13}* Maybe, by the time you wake up...',
+                  "<25>{#f/17}* You'll have a new home and a loving family to support you."
+               ]
+               : ['<25>{|}{#p/asgore}{#f/5}* Huh?\n* Is someone- {%}'],
          hangar3: () =>
             SAVE.data.b.svr
-               ? [ '<26>{#p/asriel1}{#f/17}* Ready?' ]
+               ? ['<26>{#p/asriel1}{#f/17}* Ready?']
                : [
-                    '<25>{#p/toriel}* Oh, there you are, little one!',
-                    '<25>{#f/5}* ...',
-                    '<25>{#f/5}* ... hello, Asgore.'
-                 ],
-         hangar4: [ '<25>{#p/asgore}{#f/1}* Howdy.' ],
-         hangar5: [ '<25>{#p/toriel}{#f/5}* ...', '<25>{#p/asgore}{#f/5}* ...' ],
+                  '<25>{#p/toriel}* Oh, there you are, little one!',
+                  '<25>{#f/5}* ...',
+                  '<25>{#f/5}* ... hello, Asgore.'
+               ],
+         hangar4: ['<25>{#p/asgore}{#f/1}* Howdy.'],
+         hangar5: ['<25>{#p/toriel}{#f/5}* ...', '<25>{#p/asgore}{#f/5}* ...'],
          hangar6: () =>
             SAVE.data.b.c_state_secret5_used
                ? [
-                    '<25>{#p/asgore}{#f/6}* Toriel, I...',
-                    '<25>{#p/asgore}{#f/1}* ... I know how you must feel about your actions in the past.',
-                    '<25>{#p/asgore}{#f/2}* About our... parting of the ways.',
-                    '<25>{#p/toriel}{#f/5}* ... you do?'
-                 ]
-               : [ '<25>{#p/asgore}{#f/5}* Well, this is awkward.' ],
+                  '<25>{#p/asgore}{#f/6}* Toriel, I...',
+                  '<25>{#p/asgore}{#f/1}* ... I know how you must feel about your actions in the past.',
+                  '<25>{#p/asgore}{#f/2}* About our... parting of the ways.',
+                  '<25>{#p/toriel}{#f/5}* ... you do?'
+               ]
+               : ['<25>{#p/asgore}{#f/5}* Well, this is awkward.'],
          hangar7: () =>
             SAVE.data.b.c_state_secret5_used
                ? [
-                    '<25>{#p/asgore}{#f/1}* You feel a sense of guilt towards me.',
-                    '<25>{#p/asgore}{#f/1}* You feel that your actions are... beyond reconciliation.',
-                    '<25>{#p/asgore}{#f/2}* ... that you do not deserve to be forgiven.',
-                    '<25>{#p/toriel}{#f/13}* ...\n* ... correct.',
-                    '<25>{#p/asgore}{#f/6}* But I do not believe that to be the case.',
-                    '<25>{#p/asgore}{#f/6}* I believe that you do deserve to be forgiven.',
-                    '<25>{#p/asgore}{#f/6}* That you do deserve to be part of a family again.',
-                    '<25>{#p/asgore}{#f/5}* And even though our feelings for each other have faded...',
-                    '<25>{#p/asgore}{#f/6}* That does not mean we cannot be together!'
-                 ]
+                  '<25>{#p/asgore}{#f/1}* You feel a sense of guilt towards me.',
+                  '<25>{#p/asgore}{#f/1}* You feel that your actions are... beyond reconciliation.',
+                  '<25>{#p/asgore}{#f/2}* ... that you do not deserve to be forgiven.',
+                  '<25>{#p/toriel}{#f/13}* ...\n* ... correct.',
+                  '<25>{#p/asgore}{#f/6}* But I do not believe that to be the case.',
+                  '<25>{#p/asgore}{#f/6}* I believe that you do deserve to be forgiven.',
+                  '<25>{#p/asgore}{#f/6}* That you do deserve to be part of a family again.',
+                  '<25>{#p/asgore}{#f/5}* And even though our feelings for each other have faded...',
+                  '<25>{#p/asgore}{#f/6}* That does not mean we cannot be together!'
+               ]
                : SAVE.data.b.c_state_secret1_used
-               ? [
-                    '<25>{#p/toriel}{#f/5}* Asgore...',
-                    '<25>{#p/toriel}{#f/5}* I know it may not mean much to you now, but...',
-                    '<25>{#p/toriel}{#f/9}* I am truly sorry for the way I allowed myself to be.',
-                    '<25>{#p/toriel}{#f/13}* I made you out to be a terrible creature.',
-                    '<25>{#p/toriel}{#f/13}* A coward.',
-                    '<25>{#p/toriel}{#f/9}* A child murderer.',
-                    '<25>{#p/toriel}{#f/10}* ... but you are none of those things.',
-                    '<25>{#p/toriel}{#f/1}* In fact...',
-                    '<25>{#p/toriel}{#f/3}* Despite the unforseen consequences of the archive...',
-                    '<25>{#p/toriel}{#f/0}* Protecting those humans was the bravest thing you could have done.'
-                 ]
-               : [ '<25>{#p/toriel}{#f/1}* Very much so.' ],
+                  ? [
+                     '<25>{#p/toriel}{#f/5}* Asgore...',
+                     '<25>{#p/toriel}{#f/5}* I know it may not mean much to you now, but...',
+                     '<25>{#p/toriel}{#f/9}* I am truly sorry for the way I allowed myself to be.',
+                     '<25>{#p/toriel}{#f/13}* I made you out to be a terrible creature.',
+                     '<25>{#p/toriel}{#f/13}* A coward.',
+                     '<25>{#p/toriel}{#f/9}* A child murderer.',
+                     '<25>{#p/toriel}{#f/10}* ... but you are none of those things.',
+                     '<25>{#p/toriel}{#f/1}* In fact...',
+                     '<25>{#p/toriel}{#f/3}* Despite the unforseen consequences of the archive...',
+                     '<25>{#p/toriel}{#f/0}* Protecting those humans was the bravest thing you could have done.'
+                  ]
+                  : ['<25>{#p/toriel}{#f/1}* Very much so.'],
          hangar8: () =>
             SAVE.data.b.c_state_secret5_used
                ? SAVE.data.b.c_state_secret1_used
                   ? [
-                       '<25>{#p/toriel}{#f/1}* ... Asgore, I...',
-                       '<25>{#p/toriel}{#f/5}* I am not sure that would be wise...',
-                       '<25>{#p/toriel}{#f/1}* Besides, even if I DID want a family, it has been so long...',
-                       '<25>{#p/toriel}{#f/0}* No, no, this is selfish of me.\n* I cannot.',
-                       '<25>{#p/asgore}{#f/6}* Ah, but you see...',
-                       '<25>{#p/asgore}{#f/6}* Frisk is the one who wanted me to ask you about this.',
-                       '<25>{#p/toriel}{#f/7}* ... Frisk!?',
-                       '<25>{#p/toriel}{#f/1}* Well... I, umm...',
-                       '<25>{#p/toriel}{#f/5}* I suppose... I could consider it...',
-                       '<32>{#p/human}* (You nod your head, smiling.)',
-                       '<25>{#p/asgore}{#f/21}* See?\n* Frisk clearly wants you to stay with us.',
-                       '<25>{#p/toriel}{#f/23}* ...',
-                       '<25>{#p/toriel}{#f/1}* I will think about it.'
-                    ]
+                     '<25>{#p/toriel}{#f/1}* ... Asgore, I...',
+                     '<25>{#p/toriel}{#f/5}* I am not sure that would be wise...',
+                     '<25>{#p/toriel}{#f/1}* Besides, even if I DID want a family, it has been so long...',
+                     '<25>{#p/toriel}{#f/0}* No, no, this is selfish of me.\n* I cannot.',
+                     '<25>{#p/asgore}{#f/6}* Ah, but you see...',
+                     '<25>{#p/asgore}{#f/6}* Frisk is the one who wanted me to ask you about this.',
+                     '<25>{#p/toriel}{#f/7}* ... Frisk!?',
+                     '<25>{#p/toriel}{#f/1}* Well... I, umm...',
+                     '<25>{#p/toriel}{#f/5}* I suppose... I could consider it...',
+                     '<32>{#p/human}* (You nod your head, smiling.)',
+                     '<25>{#p/asgore}{#f/21}* See?\n* Frisk clearly wants you to stay with us.',
+                     '<25>{#p/toriel}{#f/23}* ...',
+                     '<25>{#p/toriel}{#f/1}* I will think about it.'
+                  ]
                   : [
-                       '<25>{#p/toriel}{#f/1}* ... Asgore, I...',
-                       '<25>{#p/toriel}{#f/5}* I do not believe that it would be wise.',
-                       '<25>{#p/toriel}{#f/10}* I am sorry.\n* I do desire to have a family, but...',
-                       '<25>{#p/toriel}{#f/9}* Given the circumstances, I cannot accept it.',
-                       '<25>{#p/asgore}{#f/1}* ...',
-                       '<25>{#p/asgore}{#f/2}* I understand.'
-                    ]
+                     '<25>{#p/toriel}{#f/1}* ... Asgore, I...',
+                     '<25>{#p/toriel}{#f/5}* I do not believe that it would be wise.',
+                     '<25>{#p/toriel}{#f/10}* I am sorry.\n* I do desire to have a family, but...',
+                     '<25>{#p/toriel}{#f/9}* Given the circumstances, I cannot accept it.',
+                     '<25>{#p/asgore}{#f/1}* ...',
+                     '<25>{#p/asgore}{#f/2}* I understand.'
+                  ]
                : SAVE.data.b.c_state_secret1_used
-               ? [
-                    '<25>{#p/asgore}{#f/20}* ...',
-                    '<25>{#p/asgore}{#f/4}* ... thank you.',
-                    '<25>{#p/asgore}{#f/6}* It means a lot to me to hear you speak those words.',
-                    '<25>{#p/toriel}{#f/9}* And you deserved to hear them.'
-                 ]
-               : [ '<25>{#p/asgore}{#f/5}* Hmm.' ],
+                  ? [
+                     '<25>{#p/asgore}{#f/20}* ...',
+                     '<25>{#p/asgore}{#f/4}* ... thank you.',
+                     '<25>{#p/asgore}{#f/6}* It means a lot to me to hear you speak those words.',
+                     '<25>{#p/toriel}{#f/9}* And you deserved to hear them.'
+                  ]
+                  : ['<25>{#p/asgore}{#f/5}* Hmm.'],
          hangar9: [
             '<18>{#p/papyrus}HEY GUYS!',
             '<25>{#p/toriel}{#f/1}* ... oh, hello!',
@@ -3113,8 +3113,8 @@ export default {
             '<18>{#p/papyrus}{#f/5}...',
             '<18>{#p/papyrus}{#f/5}MY BROTHER, ON THE OTHER HAND...'
          ],
-         hangar11: [ "<25>{#p/sans}{#f/2}* 'sup, bro?" ],
-         hangar12: [ '<25>{#p/toriel}{#f/0}* Oh!\n* \"\'Sup,\" Sans!', '<25>{#p/asgore}{#f/5}* Howdy...?' ],
+         hangar11: ["<25>{#p/sans}{#f/2}* 'sup, bro?"],
+         hangar12: ['<25>{#p/toriel}{#f/0}* Oh!\n* \"\'Sup,\" Sans!', '<25>{#p/asgore}{#f/5}* Howdy...?'],
          hangar13: [
             '<18>{#p/papyrus}{#f/4}YOU KNOW WHAT \"SUP,\" BROTHER...',
             "<18>{#p/papyrus}{#f/0}AND WHAT'S DOWN!\nAND WHAT'S LEFT!\nAND WHAT'S RIGHT!",
@@ -3146,35 +3146,35 @@ export default {
             "<18>{#p/papyrus}{#f/9}WE'LL HAVE ALL THE TIME IN THE GALAXY TO DECIDE!",
             "<18>{#p/papyrus}{#f/0}... I WONDER WHAT I'LL DO FIRST."
          ],
-         hangar15: [ '<25>{#p/undyne}{#f/8}* Fuhuhu!\n* I have an idea!' ],
+         hangar15: ['<25>{#p/undyne}{#f/8}* Fuhuhu!\n* I have an idea!'],
          hangar16: [
             "<25>{#p/alphys}{#g/alphysSmarmyAggressive}* That's right. You're going to help us launch a Mew Mew franchise."
          ],
-         hangar17: [ '<25>{#p/toriel}{#f/6}* Pff-\n* Hahaha!' ],
-         hangar18: [ "<25>{#p/undyne}{#f/12}* I mean, I wouldn't go THAT far, but... sure." ],
+         hangar17: ['<25>{#p/toriel}{#f/6}* Pff-\n* Hahaha!'],
+         hangar18: ["<25>{#p/undyne}{#f/12}* I mean, I wouldn't go THAT far, but... sure."],
          hangar19: () => [
             "<25>{#p/alphys}{#g/alphysYupEverythingsFine}* So, first, we'll need a spacecraft for Mew Mew to pilot...",
             "<25>{#p/undyne}{#f/17}* Alphys!!\n* We're not even off the outpost yet!",
             ...(SAVE.data.b.a_state_hapstablook
                ? [
-                    "<25>{#p/undyne}{#f/16}* And besides, she's... kind of busy right now.",
-                    "<25>{#p/alphys}{#g/alphysWelp}* O-oh right, I forgot there's a real life Mew Mew now.",
-                    '<18>{#p/papyrus}{#f/0}YEAH, I SAW HER AT THE PARTY NOT TOO LONG AGO!',
-                    '<18>{#p/papyrus}{#f/0}SHE SEEMED PRETTY HAPPY, ACTUALLY.',
-                    "<25>{#p/alphys}{#g/alphysInquisitive}* Didn't she used to be some angry dummy or something?",
-                    "<25>{#p/undyne}{#f/7}* It doesn't MATTER!\n* She's beautiful the way she is NOW, dammit!",
-                    '<25>{#p/alphys}{#g/alphysUhButHeresTheDeal}* Oh my god, okay!!'
-                 ]
+                  "<25>{#p/undyne}{#f/16}* And besides, she's... kind of busy right now.",
+                  "<25>{#p/alphys}{#g/alphysWelp}* O-oh right, I forgot there's a real life Mew Mew now.",
+                  '<18>{#p/papyrus}{#f/0}YEAH, I SAW HER AT THE PARTY NOT TOO LONG AGO!',
+                  '<18>{#p/papyrus}{#f/0}SHE SEEMED PRETTY HAPPY, ACTUALLY.',
+                  "<25>{#p/alphys}{#g/alphysInquisitive}* Didn't she used to be some angry dummy or something?",
+                  "<25>{#p/undyne}{#f/7}* It doesn't MATTER!\n* She's beautiful the way she is NOW, dammit!",
+                  '<25>{#p/alphys}{#g/alphysUhButHeresTheDeal}* Oh my god, okay!!'
+               ]
                : [
-                    "<25>{#p/undyne}{#f/16}* And besides, it's...",
-                    "<25>{#p/undyne}{#f/17}* Hey, weren't you supposed to be making someone a Mew mew doll?",
-                    '<25>{#p/alphys}{#g/alphysWelp}* O-oh right, I still need to do that.',
-                    '<18>{#p/papyrus}{#f/5}I REMEMBER SOMEONE AT THE PARTY ASKING ABOUT IT...',
-                    '<18>{#p/papyrus}{#f/6}THEY SEEMED KIND OF SHY, THOUGH.',
-                    '<25>{#p/alphys}{#g/alphysCutscene2}* Yeah, I think I know who that was.\n* I gotta finish it...',
-                    '<25>{#p/undyne}{#f/7}* And you better be done BEFORE we get to the new homeworld!',
-                    '<25>{#p/alphys}{#g/alphysUhButHeresTheDeal}* I will, I will!!'
-                 ])
+                  "<25>{#p/undyne}{#f/16}* And besides, it's...",
+                  "<25>{#p/undyne}{#f/17}* Hey, weren't you supposed to be making someone a Mew mew doll?",
+                  '<25>{#p/alphys}{#g/alphysWelp}* O-oh right, I still need to do that.',
+                  '<18>{#p/papyrus}{#f/5}I REMEMBER SOMEONE AT THE PARTY ASKING ABOUT IT...',
+                  '<18>{#p/papyrus}{#f/6}THEY SEEMED KIND OF SHY, THOUGH.',
+                  '<25>{#p/alphys}{#g/alphysCutscene2}* Yeah, I think I know who that was.\n* I gotta finish it...',
+                  '<25>{#p/undyne}{#f/7}* And you better be done BEFORE we get to the new homeworld!',
+                  '<25>{#p/alphys}{#g/alphysUhButHeresTheDeal}* I will, I will!!'
+               ])
          ],
          hangar20: [
             '<25>{#p/alphys}{#g/alphysYeahYouKnowWhatsUp}* A-anyway...',
@@ -3203,7 +3203,7 @@ export default {
             '<18>{#p/papyrus}{#f/5}YEAH.',
             '<18>{#p/papyrus}{#f/5}JUST... NICE.'
          ],
-         hangar23: [ '<32>{#p/napstablook}* hey everyone...' ],
+         hangar23: ['<32>{#p/napstablook}* hey everyone...'],
          hangar24: [
             "<32>{#p/napstablook}* i hope i'm not intruding on you guys or anything...",
             '<25>{#p/undyne}{#f/14}* Pfft, intruding?\n* No way!',
@@ -3234,8 +3234,8 @@ export default {
             "<25>{#p/alphys}{#g/alphysYeahYouKnowWhatsUp}* ... but that's okay.",
             "<25>{#p/alphys}{#g/alphysYeahYouKnowWhatsUpCenter}* Freedom's more important than some sci-fi anime franchise."
          ],
-         hangar27: [ '<32>{#p/mettaton}* DID SOMEBODY SAY \"FRANCHISE?\"' ],
-         hangar28: [ '<25>{#p/alphys}{#g/alphysGarboCenter}* ... here we go again.' ],
+         hangar27: ['<32>{#p/mettaton}* DID SOMEBODY SAY \"FRANCHISE?\"'],
+         hangar28: ['<25>{#p/alphys}{#g/alphysGarboCenter}* ... here we go again.'],
          hangar29: [
             "<32>{#p/mettaton}* DON'T FRET, DOCTOR!",
             "<32>{#p/mettaton}* I'M ONLY TRYING TO BRING YOUR -WILDEST- DREAMS TO LIFE!",
@@ -3271,14 +3271,14 @@ export default {
             "<18>{#p/papyrus}{#f/6}W-WELL...\nIF -THEY'RE- GOING ON BOARD...",
             '<18>{#p/papyrus}{#f/9}... THEN SO AM I!'
          ],
-         hangar33: [ "<25>{#p/sans}{#f/2}* heh, i'm right behind you, bro." ],
-         hangar34: [ '<25>{#p/undyne}{#f/7}* YEAH!!\n* Count me in!!' ],
-         hangar35: [ "<25>{#p/alphys}{#g/alphysHellYeah}* Don't forget about me!" ],
+         hangar33: ["<25>{#p/sans}{#f/2}* heh, i'm right behind you, bro."],
+         hangar34: ['<25>{#p/undyne}{#f/7}* YEAH!!\n* Count me in!!'],
+         hangar35: ["<25>{#p/alphys}{#g/alphysHellYeah}* Don't forget about me!"],
          hangar36: [
             "<32>{#p/mettaton}* I GUESS IT'D BE KIND OF WEIRD TO KEEP HANGING AROUND THIS HANGAR BAY FOR NO REASON.",
             "<32>{#p/mettaton}* SO... I'LL GO, TOO."
          ],
-         hangar37: [ "<25>{#p/napstablook}* don't worry... i'll try not to get too far behind..." ],
+         hangar37: ["<25>{#p/napstablook}* don't worry... i'll try not to get too far behind..."],
          hangar38: [
             "<25>{#p/kidd}{#f/1}* Hey, where'd everybody go just now!?",
             '<25>{#p/kidd}{#f/7}* I... I wanna be with Frisk, too!',
@@ -3287,9 +3287,9 @@ export default {
             "<25>{#p/kidd}{#f/3}* Thanks, person I swear I've seen before!",
             "<25>{#p/kidd}{#f/1}* You're the best!"
          ],
-         hangar39: [ '<25>{#p/toriel}{#f/10}* My child...' ],
-         hangar40: [ '<25>{#p/toriel}{#f/1}* ... be good, alright?' ],
-         returnofchara1: [ '<32>{#p/basic}* Frisk...', '<32>* ... are you still there?' ],
+         hangar39: ['<25>{#p/toriel}{#f/10}* My child...'],
+         hangar40: ['<25>{#p/toriel}{#f/1}* ... be good, alright?'],
+         returnofchara1: ['<32>{#p/basic}* Frisk...', '<32>* ... are you still there?'],
          returnofchara2: [
             '<32>{#p/basic}* Sorry I disappeared on you so suddenly back there.',
             '<32>* Doing what I did... took a lot out of me.',
@@ -3334,53 +3334,53 @@ export default {
          ]
       },
       overworld: {
-         get20: [ '<32>{*}{#s/equip}{#p/human}* （你把停機坪門禁卡\n  掛到了鑰匙串上。）{^90}{%}' ],
+         get20: ['<32>{*}{#s/equip}{#p/human}* （你把停機坪門禁卡\n  掛到了鑰匙串上。）{^90}{%}'],
          drop: [
             '<26>{#p/asgore}{#f/8}* ...！\n* 你剛剛是不是把茶倒掉了？\n* 就是專門給你沏的啊...',
             '<25>{#p/asgore}{#f/1}* 唔...\n* 抱歉，沒能讓你喜歡它。'
          ],
-         use: [ '<25>{#p/asgore}{#f/21}* 啊...\n* 這可是上等好茶，\n  喜歡不？' ],
-         drop_tori: [ '<26>{#p/asgore}{#f/5}* 好熟悉的香味...\n* 你剛才扔了什麼？' ],
-         use_tori: [ '<26>{#p/asgore}{#f/5}* 好熟悉的香味...\n* 你在吃什麼？' ],
-         approachescape: [ '<32>{#p/human}* （腳步聲逐漸遠去。）' ],
+         use: ['<25>{#p/asgore}{#f/21}* 啊...\n* 這可是上等好茶，\n  喜歡不？'],
+         drop_tori: ['<26>{#p/asgore}{#f/5}* 好熟悉的香味...\n* 你剛才扔了什麼？'],
+         use_tori: ['<26>{#p/asgore}{#f/5}* 好熟悉的香味...\n* 你在吃什麼？'],
+         approachescape: ['<32>{#p/human}* （腳步聲逐漸遠去。）'],
          partyguard1: pager.create(
             0,
             () =>
                SAVE.data.n.plot_epilogue < 4
                   ? [
-                       '<32>{#p/basic}{#x1}* Huh?\n* Leaving already?{#x3}',
-                       "<32>{#x2}* It's okay, bro.\n* If they wanna go, let 'em go.{#x3}",
-                       "<32>{#x1}* Yeah... you're right.{#x3}"
-                    ]
-                  : [ '<32>{#p/basic}{#x1}* Hey, good to see you back!{#x3}', '<32>{#x2}* We missed you.{#x3}' ],
+                     '<32>{#p/basic}{#x1}* Huh?\n* Leaving already?{#x3}',
+                     "<32>{#x2}* It's okay, bro.\n* If they wanna go, let 'em go.{#x3}",
+                     "<32>{#x1}* Yeah... you're right.{#x3}"
+                  ]
+                  : ['<32>{#p/basic}{#x1}* Hey, good to see you back!{#x3}', '<32>{#x2}* We missed you.{#x3}'],
             () =>
                SAVE.data.n.plot_epilogue < 4
                   ? [
-                       '<32>{#p/basic}{#x1}* Sorry, I get, like, super antsy when I see people leaving a hangout early.{#x3}',
-                       '<32>{#x2}* Yeah, he gets antsy about it.\n* Nothing personal.{#x3}'
-                    ]
+                     '<32>{#p/basic}{#x1}* Sorry, I get, like, super antsy when I see people leaving a hangout early.{#x3}',
+                     '<32>{#x2}* Yeah, he gets antsy about it.\n* Nothing personal.{#x3}'
+                  ]
                   : [
-                       "<32>{#p/basic}{#x1}* No pressure, though.\n* Just because we miss you doesn't mean you have to stay.{#x3}",
-                       '<32>{#x2}* Like, for sure, bro.\n* For sure.{#x3}'
-                    ]
+                     "<32>{#p/basic}{#x1}* No pressure, though.\n* Just because we miss you doesn't mean you have to stay.{#x3}",
+                     '<32>{#x2}* Like, for sure, bro.\n* For sure.{#x3}'
+                  ]
          ),
          partyguard2: pager.create(
             0,
             () =>
                SAVE.data.n.plot_epilogue < 4
                   ? [
-                       '<32>{#p/basic}{#x2}* This hangout is baller, bro.{#x3}',
-                       '<32>{#x2}* They even brought out the Madrigal plant, right over there on that table!{#x3}'
-                    ]
+                     '<32>{#p/basic}{#x2}* This hangout is baller, bro.{#x3}',
+                     '<32>{#x2}* They even brought out the Madrigal plant, right over there on that table!{#x3}'
+                  ]
                   : [
-                       "<32>{#p/basic}{#x2}* If YOU won't try the Madrigal, that's just more for me.{#x3}",
-                       '<32>{#x1}* ... you mean \"us,\" right bro?{#x3}',
-                       '<32>{#x2}* Haha, my bad.{#x3}'
-                    ],
+                     "<32>{#p/basic}{#x2}* If YOU won't try the Madrigal, that's just more for me.{#x3}",
+                     '<32>{#x1}* ... you mean \"us,\" right bro?{#x3}',
+                     '<32>{#x2}* Haha, my bad.{#x3}'
+                  ],
             () =>
                SAVE.data.n.plot_epilogue < 4
-                  ? [ "<32>{#p/basic}{#x2}* It's a monster delicacy.{#x3}" ]
-                  : [ '<32>{#p/basic}{#x2}* More for us.{#x3}' ]
+                  ? ["<32>{#p/basic}{#x2}* It's a monster delicacy.{#x3}"]
+                  : ['<32>{#p/basic}{#x2}* More for us.{#x3}']
          ),
          janet: pager.create(
             0,
@@ -3390,14 +3390,14 @@ export default {
                "<32>* It's rather cre-i-ucial to get 'er cleaned up, I'd say.",
                "<32>* By the way, thanks for savin' us out there, toots.\n* A real bang-up job ya did."
             ],
-            [ "<32>{#p/basic}* Aren't ya gonna go 'n' see what the big guy's got shakin'?" ]
+            ["<32>{#p/basic}* Aren't ya gonna go 'n' see what the big guy's got shakin'?"]
          ),
          giftbox1a: () => [
-            ...(SAVE.data.b.svr ? [] : [ "<32>{#p/basic}* 盒子裡裝著一把武器。" ]),
+            ...(SAVE.data.b.svr ? [] : ["<32>{#p/basic}* 盒子裡裝著一把武器。"]),
             choicer.create('* （拿走裡面的東西嗎？）', '是', '否')
          ],
          giftbox1b: () => [
-            ...(SAVE.data.b.svr ? [] : [ "<32>{#p/basic}* 盒子裡裝著一件防具。" ]),
+            ...(SAVE.data.b.svr ? [] : ["<32>{#p/basic}* 盒子裡裝著一件防具。"]),
             choicer.create('* （拿走裡面的東西嗎？）', '是', '否')
          ],
          giftbox2a: () => [
@@ -3410,46 +3410,46 @@ export default {
          ],
          giftbox3: () =>
             SAVE.data.b.svr
-               ? [ '<32>{#p/human}* (But there was nothing left to take.)' ]
-               : [ "<32>{#p/basic}* 裡面什麼都沒有了。" ],
-         giftbox4: [ '<32>{#p/human}* （你打算先不打開。）' ],
+               ? ['<32>{#p/human}* (But there was nothing left to take.)']
+               : ["<32>{#p/basic}* 裡面什麼都沒有了。"],
+         giftbox4: ['<32>{#p/human}* （你打算先不打開。）'],
          tea0: () =>
             SAVE.data.b.svr
-               ? [ '<32>{#p/human}* (The note on the envelope wants you to enjoy the tea.)' ]
+               ? ['<32>{#p/human}* (The note on the envelope wants you to enjoy the tea.)']
                : [
-                    "<32>{#p/basic}* 茶杯上貼著一張紙條...",
-                    '<32>{#p/basic}* 「我為你沏了杯茶。」\n* 「無論你是誰，我都衷心希望\n   你能喜歡它。」'
-                 ],
-         tea1: [ '<32>{#p/human}* （你帶走了星花茶。）' ],
+                  "<32>{#p/basic}* 茶杯上貼著一張紙條...",
+                  '<32>{#p/basic}* 「我為你沏了杯茶。」\n* 「無論你是誰，我都衷心希望\n   你能喜歡它。」'
+               ],
+         tea1: ['<32>{#p/human}* （你帶走了星花茶。）'],
          tea2: () =>
             SAVE.data.b.svr
-               ? [ '<32>{#p/human}* (You run your hand across the countertop.)' ]
-               : [ '<32>{#p/basic}* 案板上面什麼都沒有。' ],
+               ? ['<32>{#p/human}* (You run your hand across the countertop.)']
+               : ['<32>{#p/basic}* 案板上面什麼都沒有。'],
          fireplace1: () =>
             SAVE.data.b.svr
                ? [
-                    '<32>{#p/human}* （壁爐的溫暖讓你無法抗拒...）',
-                    choicer.create('* （爬進去嗎？）', '是', '否')
-                 ]
+                  '<32>{#p/human}* （壁爐的溫暖讓你無法抗拒...）',
+                  choicer.create('* （爬進去嗎？）', '是', '否')
+               ]
                : [
-                    SAVE.data.n.state_wastelands_toriel === 2 || world.runaway
-                       ? '<32>{#p/basic}* 另一座壁爐。'
-                       : "<32>{#p/basic}* Asgore的壁爐。\n* 裡面並不燙，而是暖暖的，\n  很舒服。",
-                    ...(world.darker
-                       ? []
-                       : [ '<32>* 看樣子，你可以爬進去。', choicer.create('* （爬進去嗎？）', '是', '否') ])
-                 ],
-         fireplace2a: [ '<32>{#p/human}* （你不打算爬進去。）' ],
+                  SAVE.data.n.state_wastelands_toriel === 2 || world.runaway
+                     ? '<32>{#p/basic}* 另一座壁爐。'
+                     : "<32>{#p/basic}* Asgore的壁爐。\n* 裡面並不燙，而是暖暖的，\n  很舒服。",
+                  ...(world.darker
+                     ? []
+                     : ['<32>* 看樣子，你可以爬進去。', choicer.create('* （爬進去嗎？）', '是', '否')])
+               ],
+         fireplace2a: ['<32>{#p/human}* （你不打算爬進去。）'],
          fireplace2b: () => [
             '<32>{#p/human}* （你爬進壁爐，\n  它的溫暖緊緊將你包圍。）',
             '<32>{#p/human}* （你感到十分舒適。）',
             ...(SAVE.data.b.svr
                ? asrielinter.fireplace2b++ < 1
-                  ? [ "<25>{#p/asriel1}{#f/13}* I'll just, uh, wait for you to get out." ]
+                  ? ["<25>{#p/asriel1}{#f/13}* I'll just, uh, wait for you to get out."]
                   : []
                : world.goatbro && SAVE.flag.n.ga_asrielFireplace++ < 1
-               ? [ "<25>{#p/asriel2}{#f/15}* I'll just, uh, wait for you to get out..." ]
-               : [])
+                  ? ["<25>{#p/asriel2}{#f/15}* I'll just, uh, wait for you to get out..."]
+                  : [])
          ],
          fireplace2c: [
             '<32>{#p/basic}* Be careful in there, munchkin!',
@@ -3459,40 +3459,40 @@ export default {
          fridgetrap1: () =>
             SAVE.data.b.svr
                ? [
-                    [
-                       '<25>{#p/asriel1}{#f/13}* One day, Asgore built a chocolate replicator into the fridge.',
-                       '<25>{#f/15}* $(name) was so happy that day...',
-                       '<25>{#f/17}* ... finally, an infinite supply of chocolate.',
-                       '<25>{#f/20}* Their words, not mine.'
-                    ],
-                    [ "<25>{#p/asriel1}{#f/13}* That was after they'd begged for it for two years." ]
-                 ][Math.min(asrielinter.fridgetrap1++, 1)]
+                  [
+                     '<25>{#p/asriel1}{#f/13}* One day, Asgore built a chocolate replicator into the fridge.',
+                     '<25>{#f/15}* $(name) was so happy that day...',
+                     '<25>{#f/17}* ... finally, an infinite supply of chocolate.',
+                     '<25>{#f/20}* Their words, not mine.'
+                  ],
+                  ["<25>{#p/asriel1}{#f/13}* That was after they'd begged for it for two years."]
+               ][Math.min(asrielinter.fridgetrap1++, 1)]
                : world.darker
-               ? [ "<32>{#p/basic}* 你一點也不喜歡\n  冰箱裡的食物。" ]
-               : [
-                    "<32>{#p/basic}* 裡面有很多名牌巧克力，\n  還有一大堆蝸牛。\n* 比她家裡還多。"
-                 ],
+                  ? ["<32>{#p/basic}* 你一點也不喜歡\n  冰箱裡的食物。"]
+                  : [
+                     "<32>{#p/basic}* 裡面有很多名牌巧克力，\n  還有一大堆蝸牛。\n* 比她家裡還多。"
+                  ],
          fridgetrap2: () => [
             ...(SAVE.data.b.svr
                ? []
                : [
-                    [ '<32>{#p/basic}* ...', '<32>* 你想來一條嗎？' ],
-                    [ '<32>{#p/basic}* ...', '<32>* 你想再來一條嗎？' ],
-                    [ '<32>{#p/basic}* ...', '<32>* 你還想再來一條嗎？' ],
-                    [ '<32>* 你要是想吃，就自己拿吧...' ],
-                    [ '<32>* 一條接一條，一條接一條...' ],
-                    [ '<33>* 巧克力在玩接力...' ],
-                    [ '<32>* 剛拿一條，又來一條...' ],
-                    [ '<32>* 這巧克力多得不像話了。' ],
-                    [ '<32>* 這麼多巧克力，像話嗎？' ],
-                    [ '<32>* 什麼時候能拿完呢...' ],
-                    [ "<32>* 我去... 這也太多了吧..." ],
-                    [ '<32>* ...' ]
-                 ][Math.min(SAVE.data.n.chocolates, 11)]),
+                  ['<32>{#p/basic}* ...', '<32>* 你想來一條嗎？'],
+                  ['<32>{#p/basic}* ...', '<32>* 你想再來一條嗎？'],
+                  ['<32>{#p/basic}* ...', '<32>* 你還想再來一條嗎？'],
+                  ['<32>* 你要是想吃，就自己拿吧...'],
+                  ['<32>* 一條接一條，一條接一條...'],
+                  ['<33>* 巧克力在玩接力...'],
+                  ['<32>* 剛拿一條，又來一條...'],
+                  ['<32>* 這巧克力多得不像話了。'],
+                  ['<32>* 這麼多巧克力，像話嗎？'],
+                  ['<32>* 什麼時候能拿完呢...'],
+                  ["<32>* 我去... 這也太多了吧..."],
+                  ['<32>* ...']
+               ][Math.min(SAVE.data.n.chocolates, 11)]),
             choicer.create('* （拿一條巧克力嗎？）', '是', '否')
          ],
-         fridgetrap3: [ '<32>{#p/human}* （你決定什麼也不拿。）' ],
-         fridgetrap4: [ '<32>{#p/human}* （你得到了巧克力。）' ],
+         fridgetrap3: ['<32>{#p/human}* （你決定什麼也不拿。）'],
+         fridgetrap4: ['<32>{#p/human}* （你得到了巧克力。）'],
          brocall1: [
             '<32>{#s/phone}{#p/event}* 鈴鈴，鈴鈴...',
             '<25>{#p/alphys}{#g/alphysInquisitive}* 嘿，你什麼時候過來啊？',
@@ -3594,25 +3594,25 @@ export default {
             '<32>{#p/human}* （你在操作面板上點了兩下。）',
             '<32>{#s/equip}{#p/human}* （你得到了怪物糖果。）'
          ],
-         cw_vender2: [ '<32>{#p/human}* （你在操作面板上點了兩下。）', '<32>{#p/human}* （...）' ],
-         cs_vender1: [ '<32>{#p/human}* （你在操作面板上點了兩下。）', '<32>{#s/equip}{#p/human}* （你得到了洋梅。）' ],
-         cs_vender2: [ '<32>{#p/human}* （你在操作面板上點了兩下。）', '<32>{#p/human}* （...）' ],
+         cw_vender2: ['<32>{#p/human}* （你在操作面板上點了兩下。）', '<32>{#p/human}* （...）'],
+         cs_vender1: ['<32>{#p/human}* （你在操作面板上點了兩下。）', '<32>{#s/equip}{#p/human}* （你得到了洋梅。）'],
+         cs_vender2: ['<32>{#p/human}* （你在操作面板上點了兩下。）', '<32>{#p/human}* （...）'],
          cs_tower: '* （用[↑]、[↓]、[←]或[→]\n  調整音調高低。）',
-         cs_tower_done: [ '<32>{#p/human}* （你看了看已解鎖的終端。）' ],
-         cf1_dimbox1: [ '<32>{#p/human}* （你得到了太空豆腐。）' ],
-         cf1_dimbox2: [ '<32>{#p/human}* （...）' ],
-         cf2_vender1: [ '<32>{#p/human}* （你在操作面板上點了兩下。）', '<32>{#s/equip}{#p/human}* （你得到了口糧。）' ],
-         cf2_vender2: [ '<32>{#p/human}* （你在操作面板上點了兩下。）', '<32>{#p/human}* （...）' ],
-         cf2_key1: [ '<32>{#s/equip}{#p/human}* （你把氖光鑰匙掛到了鑰匙串上。）' ],
-         cf2_key2: [ '<32>{#p/human}* （...）' ],
-         cf2_bench0: [ '<32>{#p/human}* （長凳下面有個治療包。）' ],
-         cf2_bench1: [ '<32>{#p/human}* （你得到了治療包。）' ],
-         cf2_bench2: [ '<32>{#p/human}* （...）' ],
-         cf2_bench3: [ "<32>{#p/human}* （你伸手去夠，但夠不到...）" ],
-         cf2_blookdoor: [ '<32>{#p/human}* （鎖住了。）' ],
+         cs_tower_done: ['<32>{#p/human}* （你看了看已解鎖的終端。）'],
+         cf1_dimbox1: ['<32>{#p/human}* （你得到了太空豆腐。）'],
+         cf1_dimbox2: ['<32>{#p/human}* （...）'],
+         cf2_vender1: ['<32>{#p/human}* （你在操作面板上點了兩下。）', '<32>{#s/equip}{#p/human}* （你得到了口糧。）'],
+         cf2_vender2: ['<32>{#p/human}* （你在操作面板上點了兩下。）', '<32>{#p/human}* （...）'],
+         cf2_key1: ['<32>{#s/equip}{#p/human}* （你把氖光鑰匙掛到了鑰匙串上。）'],
+         cf2_key2: ['<32>{#p/human}* （...）'],
+         cf2_bench0: ['<32>{#p/human}* （長凳下面有個治療包。）'],
+         cf2_bench1: ['<32>{#p/human}* （你得到了治療包。）'],
+         cf2_bench2: ['<32>{#p/human}* （...）'],
+         cf2_bench3: ["<32>{#p/human}* （你伸手去夠，但夠不到...）"],
+         cf2_blookdoor: ['<32>{#p/human}* （鎖住了。）'],
          ca_floartex: () =>
             [
-               [ '<32>{#p/human}{#v/5}{@fill=#00c000}* ...欸？', "<32>{#p/human}{#v/5}{@fill=#00c000}* 誰在那？" ],
+               ['<32>{#p/human}{#v/5}{@fill=#00c000}* ...欸？', "<32>{#p/human}{#v/5}{@fill=#00c000}* 誰在那？"],
                [
                   '<32>{#p/human}{#v/5}{@fill=#00c000}* 啊！？',
                   '<32>{#p/human}{#v/5}{@fill=#00c000}* 你咋做到的！？',
@@ -3652,72 +3652,72 @@ export default {
                   "<32>{#p/human}{#v/5}{@fill=#00c000}* 那團光暈... \n  越來越耀眼了！",
                   '<32>{#p/human}{#v/5}{@fill=#00c000}* ...惡夢終於要結束了嗎？\n  自由要來了嗎？'
                ],
-               [ '<32>{#p/human}{#v/5}{@fill=#00c000}* 有人嗎？' ],
+               ['<32>{#p/human}{#v/5}{@fill=#00c000}* 有人嗎？'],
                []
             ][ca_state.floor],
-         toomuch1: [ "<32>{#p/human}* （你帶的東西太多了。）" ],
-         toomuch2: [ "<32>{#p/human}* （你帶的東西太多，裝不下它了。）" ],
-         toomuch3: [ "<32>{#p/human}* （你帶的東西太多，無法使用它。）" ],
+         toomuch1: ["<32>{#p/human}* （你帶的東西太多了。）"],
+         toomuch2: ["<32>{#p/human}* （你帶的東西太多，裝不下它了。）"],
+         toomuch3: ["<32>{#p/human}* （你帶的東西太多，無法使用它。）"],
          bastionTerm: () =>
             SAVE.data.n.plot < 71.2 && !SAVE.data.b.killed_mettaton && !world.baddest_lizard
                ? []
                : [
-                    '<32>{#p/basic}* 這臺終端只能用來\n  查看「檔案」的執行狀況。',
-                    '<32>* 你還想用它幹嘛？'
-                 ]
+                  '<32>{#p/basic}* 這臺終端只能用來\n  查看「檔案」的執行狀況。',
+                  '<32>* 你還想用它幹嘛？'
+               ]
       },
       trivia: {
          throne: () =>
             SAVE.data.b.svr
                ? [
-                    [
-                       '<25>{#p/asriel1}{#f/13}* This throne kind of looks like the one King Erogot had.',
-                       "<25>{#f/16}* Except this one has stars instead of a sky.\n* And it's smaller.",
-                       '<25>{#f/15}* How do I know what the old one looked like?',
-                       '<25>{#f/17}* Well, Mom and Dad had lots of bedtime stories about that guy...'
-                    ],
-                    [
-                       "<25>{#p/asriel1}{#f/20}* I can't be sure which stories are real, and which ones are made up.",
-                       '<25>{#f/17}* But, according to one, that old king was over a thousand years old.',
-                       '<25>{#f/13}* Before he was made king, he trained for centuries...',
-                       '<25>{#f/15}* To become a painter.',
-                       "<25>{#f/10}* If that's true, I wonder what made him change his mind...?"
-                    ],
-                    [
-                       "<25>{#p/asriel1}{#f/16}* Actually, I have a theory about Erogot's paintings.",
-                       '<25>{#f/13}* You see, according to old homeworld legends...',
-                       '<25>{#f/13}* If the conditions were just right...',
-                       '<25>{#f/16}* A highly skilled painter could paint a glimpse of the future.',
-                       '<25>{#f/15}* If Erogot created such a painting, and foresaw the war...',
-                       "<25>{#f/17}* ... well, that'd explain a lot more than just the career change."
-                    ],
-                    [ "<25>{#p/asriel1}{#f/16}* I guess we'll never know for sure." ]
-                 ][Math.min(asrielinter.throne++, 3)]
-               : [ '<32>{#p/basic}* The seat of the kingdom.' ],
+                  [
+                     '<25>{#p/asriel1}{#f/13}* This throne kind of looks like the one King Erogot had.',
+                     "<25>{#f/16}* Except this one has stars instead of a sky.\n* And it's smaller.",
+                     '<25>{#f/15}* How do I know what the old one looked like?',
+                     '<25>{#f/17}* Well, Mom and Dad had lots of bedtime stories about that guy...'
+                  ],
+                  [
+                     "<25>{#p/asriel1}{#f/20}* I can't be sure which stories are real, and which ones are made up.",
+                     '<25>{#f/17}* But, according to one, that old king was over a thousand years old.',
+                     '<25>{#f/13}* Before he was made king, he trained for centuries...',
+                     '<25>{#f/15}* To become a painter.',
+                     "<25>{#f/10}* If that's true, I wonder what made him change his mind...?"
+                  ],
+                  [
+                     "<25>{#p/asriel1}{#f/16}* Actually, I have a theory about Erogot's paintings.",
+                     '<25>{#f/13}* You see, according to old homeworld legends...',
+                     '<25>{#f/13}* If the conditions were just right...',
+                     '<25>{#f/16}* A highly skilled painter could paint a glimpse of the future.',
+                     '<25>{#f/15}* If Erogot created such a painting, and foresaw the war...',
+                     "<25>{#f/17}* ... well, that'd explain a lot more than just the career change."
+                  ],
+                  ["<25>{#p/asriel1}{#f/16}* I guess we'll never know for sure."]
+               ][Math.min(asrielinter.throne++, 3)]
+               : ['<32>{#p/basic}* The seat of the kingdom.'],
          warningsign: () =>
             postSIGMA()
-               ? [ "<32>{#p/basic}* 停機了。" ]
+               ? ["<32>{#p/basic}* 停機了。"]
                : SAVE.data.b.svr
-               ? [ '<32>{#p/human}* （你激活了終端。）\n* （上面顯示：已解鎖。）' ]
-               : SAVE.data.n.plot === 72 || world.postnoot || SAVE.data.b.backdoor
-               ? [ '<32>{#p/human}* （你激活了終端。）', '<32>{#p/basic}* 「你可以前進了。」' ]
-               : [
-                    '<32>{#p/human}* （你激活了終端。）',
-                    '<32>{#p/basic}* 「正在確認通行權限...」',
-                    '<32>{*}* 「掃描中...」\n* 「掃描中...」\n* 「掃描中...」{^50}{%}',
-                    ...(world.genocide
-                       ? [
-                            "<32>{*}* 「身份已確認：$(nameu)。」\n* 「身份已確認：ASRI- {%}",
-                            '<32>{#c.backdoor}* 「權限已被強制修改。」\n* 「認證成功。」',
-                            ...(SAVE.flag.n.ga_asrielOverride++ < 1
-                               ? [ '<25>{#p/asriel2}{#f/10}* 改口真快啊...' ]
-                               : [])
-                         ]
-                       : [
-                            '<32>{*}* 「身份已確認：人類。」\n* 「核驗中...」{^50}{%}',
-                            '<32>{#c.backdoor}* 「核驗通過。」\n* 「認證成功。」'
-                         ])
-                 ],
+                  ? ['<32>{#p/human}* （你激活了終端。）\n* （上面顯示：已解鎖。）']
+                  : SAVE.data.n.plot === 72 || world.postnoot || SAVE.data.b.backdoor
+                     ? ['<32>{#p/human}* （你激活了終端。）', '<32>{#p/basic}* 「你可以前進了。」']
+                     : [
+                        '<32>{#p/human}* （你激活了終端。）',
+                        '<32>{#p/basic}* 「正在確認通行權限...」',
+                        '<32>{*}* 「掃描中...」\n* 「掃描中...」\n* 「掃描中...」{^50}{%}',
+                        ...(world.genocide
+                           ? [
+                              "<32>{*}* 「身份已確認：$(nameu)。」\n* 「身份已確認：ASRI- {%}",
+                              '<32>{#c.backdoor}* 「權限已被強制修改。」\n* 「認證成功。」',
+                              ...(SAVE.flag.n.ga_asrielOverride++ < 1
+                                 ? ['<25>{#p/asriel2}{#f/10}* 改口真快啊...']
+                                 : [])
+                           ]
+                           : [
+                              '<32>{*}* 「身份已確認：人類。」\n* 「核驗中...」{^50}{%}',
+                              '<32>{#c.backdoor}* 「核驗通過。」\n* 「認證成功。」'
+                           ])
+                     ],
          partysans: pager.create(
             0,
             [
@@ -3734,7 +3734,7 @@ export default {
                '<25>{#p/sans}{#f/0}* it would have been nice if she at LEAST double- checked it.',
                "<25>{#p/sans}{#f/3}* ... playing it safe isn't her usual recipe for success, i guess."
             ],
-            [ "<26>{#p/sans}{#f/2}* at least it's all taken care of now." ]
+            ["<26>{#p/sans}{#f/2}* at least it's all taken care of now."]
          ),
          partyfire: pager.create(
             0,
@@ -3756,18 +3756,18 @@ export default {
                "<32>* When we move to the new homeworld... I won't even be able to keep up!",
                "<32>* Oh, dearie dear.\n* There'll be so much to report!\n* Huhehehaw!"
             ],
-            [ "<32>{#p/basic}* I'll get reporting right away!" ]
+            ["<32>{#p/basic}* I'll get reporting right away!"]
          ),
-         tv_back: [ "<32>{#p/basic}* It's a TV set.\n* A Mew Mew movie is currently being watched on it." ],
+         tv_back: ["<32>{#p/basic}* It's a TV set.\n* A Mew Mew movie is currently being watched on it."],
          picnicchair: () =>
             player.position.y <= 343 && player.face !== 'down' // NO-TRANSLATE
 
                ? []
-               : [ '<32>{#p/basic}* A set of sturdy chairs.\n* Great for any occasion, be it freedom or otherwise.' ],
+               : ['<32>{#p/basic}* A set of sturdy chairs.\n* Great for any occasion, be it freedom or otherwise.'],
          janetbucket: () =>
             SAVE.data.b.svr
-               ? [ '<32>{#p/human}* (You stare into the bucket of strange pink fluid.)' ]
-               : [ "<32>{#p/basic}* It's a bucket of supercharged pink fluid, great for getting the tough stains out." ],
+               ? ['<32>{#p/human}* (You stare into the bucket of strange pink fluid.)']
+               : ["<32>{#p/basic}* It's a bucket of supercharged pink fluid, great for getting the tough stains out."],
          ultranote: [
             '<32>{#p/basic}* 一盒錄音帶，標著「留言」。',
             '<32>* 你聽了聽裡面的內容...',
@@ -3788,55 +3788,55 @@ export default {
          ],
          garden: () =>
             SAVE.data.b.svr
-               ? [ '<32>{#p/human}* (You stop to see the flowers.)' ]
+               ? ['<32>{#p/human}* (You stop to see the flowers.)']
                : world.darker
-               ? [ '<32>{#p/basic}* 滿園星花。' ]
-               : [
-                    '<32>{#p/basic}* 滿園星花，\n  最適合種在大窗戶旁邊了。',
-                    ...(SAVE.data.b.oops ? [] : [ '<32>{#p/basic}* Asgore sure knows his stuff!' ])
-                 ],
+                  ? ['<32>{#p/basic}* 滿園星花。']
+                  : [
+                     '<32>{#p/basic}* 滿園星花，\n  最適合種在大窗戶旁邊了。',
+                     ...(SAVE.data.b.oops ? [] : ['<32>{#p/basic}* Asgore sure knows his stuff!'])
+                  ],
          bastion: pager.create(
             0,
             () => [
                '<32>{#p/basic}* Bastion boxes.',
                ...(SAVE.data.n.plot < 71.2 && !SAVE.data.b.killed_mettaton && !world.baddest_lizard
-                  ? [ '<25>{#p/alphys}{#g/alphysNeutralSweat}* Please be careful around those.' ]
+                  ? ['<25>{#p/alphys}{#g/alphysNeutralSweat}* Please be careful around those.']
                   : [])
             ],
-            [ '<32>{#p/basic}* Bastion boxes.' ]
+            ['<32>{#p/basic}* Bastion boxes.']
          ),
          alphysEnding: pager.create(
             0,
             () =>
                SAVE.data.n.bully < 15 &&
-               SAVE.data.n.state_foundry_undyne === 0 &&
-               world.flirt_state1.length <= world.flirt
+                  SAVE.data.n.state_foundry_undyne === 0 &&
+                  world.flirt_state1.length <= world.flirt
                   ? [
-                       [
-                          "<25>{#p/alphys}{#g/alphysNeutralSweat}* Don't mind me, I'm just doing my job...",
-                          "<32>{#p/human}* (You whispered something into Alphys's ear.)",
-                          '<25>{#p/alphys}{#f/2}* ...',
-                          "<25>{#p/alphys}{#g/alphysNervousLaugh}* Uh... y-you... you'd really do that??",
-                          "<32>{#p/human}* (You whispered something else into Alphys's ear.)",
-                          "<25>{#p/alphys}{#g/alphysNervousLaugh}* Wh... what's gotten into you???",
-                          "<25>{#p/alphys}{#g/alphysNervousLaugh}* I, I mean... I can't accept it... but...",
-                          '<25>{#p/alphys}{#g/alphysSoAwesome}* ... god, if only Undyne were here...'
-                       ],
-                       [ '<25>{#p/alphys}{#g/alphysNervousLaugh}* Ehehe... you humans really are something...' ]
-                    ][SAVE.data.b.flirt_alphys ? 1 : ((SAVE.data.b.flirt_alphys = true), 0)]
-                  : [ "<25>{#p/alphys}{#g/alphysNeutralSweat}* Don't mind me, I'm just doing my job..." ],
+                     [
+                        "<25>{#p/alphys}{#g/alphysNeutralSweat}* Don't mind me, I'm just doing my job...",
+                        "<32>{#p/human}* (You whispered something into Alphys's ear.)",
+                        '<25>{#p/alphys}{#f/2}* ...',
+                        "<25>{#p/alphys}{#g/alphysNervousLaugh}* Uh... y-you... you'd really do that??",
+                        "<32>{#p/human}* (You whispered something else into Alphys's ear.)",
+                        "<25>{#p/alphys}{#g/alphysNervousLaugh}* Wh... what's gotten into you???",
+                        "<25>{#p/alphys}{#g/alphysNervousLaugh}* I, I mean... I can't accept it... but...",
+                        '<25>{#p/alphys}{#g/alphysSoAwesome}* ... god, if only Undyne were here...'
+                     ],
+                     ['<25>{#p/alphys}{#g/alphysNervousLaugh}* Ehehe... you humans really are something...']
+                  ][SAVE.data.b.flirt_alphys ? 1 : ((SAVE.data.b.flirt_alphys = true), 0)]
+                  : ["<25>{#p/alphys}{#g/alphysNeutralSweat}* Don't mind me, I'm just doing my job..."],
             () =>
                SAVE.data.n.bully < 15 &&
-               SAVE.data.n.state_foundry_undyne === 0 &&
-               world.flirt_state1.length <= world.flirt
-                  ? [ "<25>{#p/alphys}{#g/alphysWelp}* Uh, I really can't accept that kind of thing from you." ]
-                  : [ "<25>{#p/alphys}{#g/alphysNeutralSweat}* Don't mind me, I'm just doing my job..." ],
+                  SAVE.data.n.state_foundry_undyne === 0 &&
+                  world.flirt_state1.length <= world.flirt
+                  ? ["<25>{#p/alphys}{#g/alphysWelp}* Uh, I really can't accept that kind of thing from you."]
+                  : ["<25>{#p/alphys}{#g/alphysNeutralSweat}* Don't mind me, I'm just doing my job..."],
             () =>
                SAVE.data.n.bully < 15 &&
-               SAVE.data.n.state_foundry_undyne === 0 &&
-               world.flirt_state1.length <= world.flirt
-                  ? [ '<25>{#p/alphys}{#g/alphysFR}* ...' ]
-                  : [ "<25>{#p/alphys}{#g/alphysNeutralSweat}* Don't mind me, I'm just doing my job..." ]
+                  SAVE.data.n.state_foundry_undyne === 0 &&
+                  world.flirt_state1.length <= world.flirt
+                  ? ['<25>{#p/alphys}{#g/alphysFR}* ...']
+                  : ["<25>{#p/alphys}{#g/alphysNeutralSweat}* Don't mind me, I'm just doing my job..."]
          ),
 
          cw_f1: [
@@ -3853,7 +3853,7 @@ export default {
             '<32>* （逃...）',
             '<32>* {@mystify=呱㼋苽瓜々}呱呱{@mystify=}。'
          ],
-         cw_barrier: [ '<32>{#p/human}* （你的目光穿過\n  死氣沉沉的安保屏障。）', '<32>{#p/human}* （...）' ],
+         cw_barrier: ['<32>{#p/human}* （你的目光穿過\n  死氣沉沉的安保屏障。）', '<32>{#p/human}* （...）'],
          cw_terminal: [
             '<32>{#p/human}* （你激活了終端。）',
             '<32>* （好像有人留了段錄音。）',
@@ -3862,9 +3862,9 @@ export default {
             '<32>{#v/1}{@fill=#42fcff}* 但是，我和其他人類\n  現在都非常渴望用自己的力量\n  拯救怪物。',
             '<32>{#v/1}{@fill=#42fcff}* 我已經等不及\n  和前哨站的故友重聚了。\n* 如果這違背了您的意願，對不起。'
          ],
-         cw_dummy: [ '<32>{#p/human}* （你把手搭在面如死灰的人偶身上。）', '<32>{#p/human}* （...）' ],
-         cw_paintblaster: [ '<32>{#p/human}* （你望著死氣沉沉的燃油噴射裝置。）', '<32>{#p/human}* （...）' ],
-         cs_lamppost: [ '<32>{#p/human}* （你望向這怪異的路燈，\n  看著它上下彈跳。）' ],
+         cw_dummy: ['<32>{#p/human}* （你把手搭在面如死灰的人偶身上。）', '<32>{#p/human}* （...）'],
+         cw_paintblaster: ['<32>{#p/human}* （你望著死氣沉沉的燃油噴射裝置。）', '<32>{#p/human}* （...）'],
+         cs_lamppost: ['<32>{#p/human}* （你望向這怪異的路燈，\n  看著它上下彈跳。）'],
          cs_note: [
             '<32>{#p/human}* （好像有人在便條上\n  留了個電話號碼。）',
             '<32>{#s/phone}{#p/event}* 撥號中...',
@@ -3911,33 +3911,33 @@ export default {
          cs_nicecreamkid: () =>
             cs_state.nc
                ? [
-                    "<32>{*}{#p/basic}{#i/1}* 很好吃，{@mystify=對吧對邑吋巴対把}對吧{@mystify=}{%}",
-                    "<32>{*}{#i/1}* 很好吃，{@mystify=對吧對邑吋巴対把}對吧{@mystify=}{%}",
-                    "<32>{#p/basic}* 很好吃，對吧？"
-                 ]
+                  "<32>{*}{#p/basic}{#i/1}* 很好吃，{@mystify=對吧對邑吋巴対把}對吧{@mystify=}{%}",
+                  "<32>{*}{#i/1}* 很好吃，{@mystify=對吧對邑吋巴対把}對吧{@mystify=}{%}",
+                  "<32>{#p/basic}* 很好吃，對吧？"
+               ]
                : [
-                    '<32>{*}{#p/basic}{#i/1}* 聽說過{@mystify=冰意靈氷悥靈}冰意靈{@mystify=}嗎{%}',
-                    '<32>{*}{#i/1}* 聽說過{@mystify=冰意靈氷悥靈}冰意靈{@mystify=}嗎{%}',
-                    '<32>{#p/basic}* 聽說過冰意靈嗎？',
-                    "<32>{*}{#i/1}* 沒聽過？\n* 正常，這點子是我{@mystify=剛想出來}剛想出來{@mystify=}{%}",
-                    "<32>{*}{#i/1}* 沒聽過？\n* 正常，這點子是我{@mystify=剛想出來}剛想出來{@mystify=}{%}",
-                    "<32>{#p/basic}* 沒聽過？\n* 正常，這點子是我剛想出來的。",
-                    '<32>{*}{#i/1}* {@mystify=快來嘗嘗}快來嘗嘗{@mystify=}{%}',
-                    '<32>{*}{#i/1}* {@mystify=快來嘗嘗}快來嘗嘗{@mystify=}{%}',
-                    '<32>{#p/basic}* 快來嘗嘗味道如何！'
-                 ],
+                  '<32>{*}{#p/basic}{#i/1}* 聽說過{@mystify=冰意靈氷悥靈}冰意靈{@mystify=}嗎{%}',
+                  '<32>{*}{#i/1}* 聽說過{@mystify=冰意靈氷悥靈}冰意靈{@mystify=}嗎{%}',
+                  '<32>{#p/basic}* 聽說過冰意靈嗎？',
+                  "<32>{*}{#i/1}* 沒聽過？\n* 正常，這點子是我{@mystify=剛想出來}剛想出來{@mystify=}{%}",
+                  "<32>{*}{#i/1}* 沒聽過？\n* 正常，這點子是我{@mystify=剛想出來}剛想出來{@mystify=}{%}",
+                  "<32>{#p/basic}* 沒聽過？\n* 正常，這點子是我剛想出來的。",
+                  '<32>{*}{#i/1}* {@mystify=快來嘗嘗}快來嘗嘗{@mystify=}{%}',
+                  '<32>{*}{#i/1}* {@mystify=快來嘗嘗}快來嘗嘗{@mystify=}{%}',
+                  '<32>{#p/basic}* 快來嘗嘗味道如何！'
+               ],
          cs_monitor1: () =>
             cs_state.p1x === -36 && cs_state.p1y === 16
-               ? [ '<32>{#p/human}* （你望向明亮的顯示屏。）' ]
-               : [ '<32>{#p/human}* （你望向昏暗的顯示屏。）' ],
+               ? ['<32>{#p/human}* （你望向明亮的顯示屏。）']
+               : ['<32>{#p/human}* （你望向昏暗的顯示屏。）'],
          cs_monitor2: () =>
             cs_state.p2x === 28 && cs_state.p2y === 20
-               ? [ '<32>{#p/human}* （你望向明亮的顯示屏。）' ]
-               : [ '<32>{#p/human}* （你望向昏暗的顯示屏。）' ],
+               ? ['<32>{#p/human}* （你望向明亮的顯示屏。）']
+               : ['<32>{#p/human}* （你望向昏暗的顯示屏。）'],
          cs_monitor3: () =>
             cs_state.p3x === 16 && cs_state.p3y === -12
-               ? [ '<32>{#p/human}* （你望向明亮的顯示屏。）' ]
-               : [ '<32>{#p/human}* （你望向昏暗的顯示屏。）' ],
+               ? ['<32>{#p/human}* （你望向明亮的顯示屏。）']
+               : ['<32>{#p/human}* （你望向昏暗的顯示屏。）'],
          cf1_bb1: [
             '<32>{#p/basic}* 對於一個{@mystify=機器機噐幾囂呂朵}機器{@mystify=}來說，\n  突破程式限制，是對的嗎？',
             '<32>* 我們就是建築機器人而已。\n* 製造者不希望我們擁有情感。',
@@ -3982,9 +3982,9 @@ export default {
             "<32>{@fill=#003cff}* ...可說到底...\n  我們只是人類啊...\n* 這麼做，反而...",
             '<32>{#s/echostop}{#p/event}* 訊號終止。'
          ],
-         cf1_cheesetable: [ '<32>{#p/human}* （奶酪剛放不到一天。）' ],
-         cf1_window: [ '<32>{#p/human}* （你望向窗內。）' ],
-         cf1_wallsign: [ '<32>{#p/human}* （標牌上寫著「用上所有的塔架」。）' ],
+         cf1_cheesetable: ['<32>{#p/human}* （奶酪剛放不到一天。）'],
+         cf1_window: ['<32>{#p/human}* （你望向窗內。）'],
+         cf1_wallsign: ['<32>{#p/human}* （標牌上寫著「用上所有的塔架」。）'],
          cf1_bucket: [
             '<32>{#p/basic}* 等我長大了，\n  我想飛過那道溝！',
             "<32>* 我要是成功，\n  也會帶你一起過去的！",
@@ -4019,12 +4019,12 @@ export default {
             ][cf2_state.time],
          cf2_web: () =>
             [
-               [ '<32>{#p/human}* （蜘蛛動彈不得。）' ],
-               [ '<32>{#p/human}* （蜘蛛動彈不得。）' ],
-               [ '<32>{#p/human}* （蜘蛛動彈不得。）' ],
-               [ "<32>{#p/human}* （蜘蛛動彈不得，但在嘗試脫困。）" ],
-               [ '<32>{#p/human}* （蜘蛛脫困有望。）' ],
-               [ '<32>{#p/human}* （蜘蛛即將脫困。）' ]
+               ['<32>{#p/human}* （蜘蛛動彈不得。）'],
+               ['<32>{#p/human}* （蜘蛛動彈不得。）'],
+               ['<32>{#p/human}* （蜘蛛動彈不得。）'],
+               ["<32>{#p/human}* （蜘蛛動彈不得，但在嘗試脫困。）"],
+               ['<32>{#p/human}* （蜘蛛脫困有望。）'],
+               ['<32>{#p/human}* （蜘蛛即將脫困。）']
             ][cf2_state.time],
          cf2_sign: [
             '<32>{#p/human}* （牌子上寫著\n  「這個房間將同一空間的\n   七個不同的時間點連接起來」。）'
@@ -4061,32 +4061,32 @@ export default {
                   '<32>* 蜘蛛女王走了...',
                   '<32>* ...'
                ],
-               [ '<32>{#p/basic}* 我...\n* 一間小屋...', '<32>* 沒有主人...', '<32>* ...' ],
-               [ '<32>{#p/basic}* 我...\n* 一間小屋...', '<32>* ...' ],
+               ['<32>{#p/basic}* 我...\n* 一間小屋...', '<32>* 沒有主人...', '<32>* ...'],
+               ['<32>{#p/basic}* 我...\n* 一間小屋...', '<32>* ...'],
                []
             ][cf2_state.time],
          cf2_spidertable: () =>
             [
-               [ '<32>{#p/human}* （你把手放在了茶壺上。）', '<32>{#p/human}* （...）' ],
-               [ '<32>{#p/human}* （你把手放在了茶壺上。）', '<32>{#p/human}* （...）' ],
-               [ '<32>{#p/human}* （你把手放在了茶壺上。）', '<32>{#p/human}* （...）' ],
+               ['<32>{#p/human}* （你把手放在了茶壺上。）', '<32>{#p/human}* （...）'],
+               ['<32>{#p/human}* （你把手放在了茶壺上。）', '<32>{#p/human}* （...）'],
+               ['<32>{#p/human}* （你把手放在了茶壺上。）', '<32>{#p/human}* （...）'],
                [
                   '<32>{#p/human}* （你把手放在了茶壺上。）',
                   '<32>{#p/human}* （壺壁略溫。）'
                ],
-               [ '<32>{#p/human}* （你把手放在了茶壺上。）', '<32>{#p/human}* （壺壁很熱。）' ],
-               [ '<32>{#p/human}* （你把手放在了茶壺上。）', '<33>{#p/human}* （壺壁滾燙。）' ],
+               ['<32>{#p/human}* （你把手放在了茶壺上。）', '<32>{#p/human}* （壺壁很熱。）'],
+               ['<32>{#p/human}* （你把手放在了茶壺上。）', '<33>{#p/human}* （壺壁滾燙。）'],
                []
             ][cf2_state.time],
-         cf2_blookdoor: [ '<32>{#p/human}* （鎖住了。）' ],
+         cf2_blookdoor: ['<32>{#p/human}* （鎖住了。）'],
          cf2_ficus: () =>
             [
-               [ '<32>{#p/human}* （你舔了舔小榕樹。）', '<32>{#p/human}* （它並不在意。）' ],
-               [ '<32>{#p/human}* （你舔了舔小榕樹。）', '<32>{#p/human}* （它有點遲疑。）' ],
-               [ '<32>{#p/human}* （你舔了舔小榕樹。）', '<32>{#p/human}* （它有些難過。）' ],
-               [ '<32>{#p/human}* （你舔了舔小榕樹。）', '<32>{#p/human}* （它非常痛苦。）' ],
-               [ '<32>{#p/human}* （你舔了舔小榕樹。）', '<32>{#p/human}* （它傷痕累累。）' ],
-               [ '<32>{#p/human}* （你舔了舔小榕樹。）', "<32>{#p/human}* （它快要死了。）" ],
+               ['<32>{#p/human}* （你舔了舔小榕樹。）', '<32>{#p/human}* （它並不在意。）'],
+               ['<32>{#p/human}* （你舔了舔小榕樹。）', '<32>{#p/human}* （它有點遲疑。）'],
+               ['<32>{#p/human}* （你舔了舔小榕樹。）', '<32>{#p/human}* （它有些難過。）'],
+               ['<32>{#p/human}* （你舔了舔小榕樹。）', '<32>{#p/human}* （它非常痛苦。）'],
+               ['<32>{#p/human}* （你舔了舔小榕樹。）', '<32>{#p/human}* （它傷痕累累。）'],
+               ['<32>{#p/human}* （你舔了舔小榕樹。）', "<32>{#p/human}* （它快要死了。）"],
                []
             ][cf2_state.time],
          cf2_cooler: () =>
@@ -4147,7 +4147,7 @@ export default {
                   "<32>{@fill=#d535d9}* 我會想你的..."
                ]
             ][cf2_state.time],
-         cf2_blookextra: [ '<32>{#p/human}* （似乎永遠都建不成。）' ],
+         cf2_blookextra: ['<32>{#p/human}* （似乎永遠都建不成。）'],
          ca_neuteral: [
             "<32>{#p/basic}* 我只是個「片段」。\n* 或者說，系統儲存的一段數據。",
             '<32>{#p/basic}* 此刻，你可以與我互動。',
@@ -4163,57 +4163,57 @@ export default {
             '<32>{#p/basic}* 到那時，也許\n  某種塵封已久的東西\n  將再度顯現。',
             '<32>{#p/basic}* 到那時，\n  也許「檔案」留存的數據會\n  永遠烙印在你的記憶之中。'
          ],
-         ca_starling: [ '<32>{#p/human}* （你看了看這些花。）' ],
+         ca_starling: ['<32>{#p/human}* （你看了看這些花。）'],
          cr_pillar1: () =>
             SAVE.data.b.svr
-               ? [ '<32>{#p/human}* (You feel intimidated by the pillar towering over you.)' ]
+               ? ['<32>{#p/human}* (You feel intimidated by the pillar towering over you.)']
                : world.darker
-               ? [ "<32>{#p/basic}* 一根柱子。" ]
-               : [ '<32>{#p/basic}* An imposing pillar.' ],
+                  ? ["<32>{#p/basic}* 一根柱子。"]
+                  : ['<32>{#p/basic}* An imposing pillar.'],
          cr_pillar2: () =>
             SAVE.data.b.svr
-               ? [ '<32>{#p/human}* (You feel a little worried about the pillar towering over you.)' ]
+               ? ['<32>{#p/human}* (You feel a little worried about the pillar towering over you.)']
                : world.darker
-               ? [ "<32>{#p/basic}* 一根柱子。" ]
-               : [ '<32>{#p/basic}* A less imposing pillar.' ],
+                  ? ["<32>{#p/basic}* 一根柱子。"]
+                  : ['<32>{#p/basic}* A less imposing pillar.'],
          cr_pillar3: () =>
             SAVE.data.b.svr
-               ? [ '<32>{#p/human}* (You feel comfortable near this pillar.)' ]
+               ? ['<32>{#p/human}* (You feel comfortable near this pillar.)']
                : world.darker
-               ? [ "<32>{#p/basic}* 一根柱子。" ]
-               : [ "<32>{#p/basic}* This pillar isn't imposing at all." ],
+                  ? ["<32>{#p/basic}* 一根柱子。"]
+                  : ["<32>{#p/basic}* This pillar isn't imposing at all."],
          cr_pillar4: () =>
             SAVE.data.b.svr
-               ? [ '<32>{#p/human}* (You feel inclined to greet this pillar.)' ]
+               ? ['<32>{#p/human}* (You feel inclined to greet this pillar.)']
                : world.darker
-               ? [ "<32>{#p/basic}* 一根柱子。" ]
-               : [ '<32>{#p/basic}* This pillar just wants to say \"hello.\"' ],
+                  ? ["<32>{#p/basic}* 一根柱子。"]
+                  : ['<32>{#p/basic}* This pillar just wants to say \"hello.\"'],
          cr_pillar5: () =>
             SAVE.data.b.svr
-               ? [ '<32>{#p/human}* (You feel inclined to tuck this pillar into bed.)' ]
+               ? ['<32>{#p/human}* (You feel inclined to tuck this pillar into bed.)']
                : world.darker
-               ? [ "<32>{#p/basic}* 一根柱子。" ]
-               : [ '<32>{#p/basic}* This pillar just wants to go to sleep.' ],
+                  ? ["<32>{#p/basic}* 一根柱子。"]
+                  : ['<32>{#p/basic}* This pillar just wants to go to sleep.'],
          cr_pillar6: () =>
             SAVE.data.b.svr
-               ? [ '<32>{#p/human}* (You feel this pillar would be best kept at a distance.)' ]
+               ? ['<32>{#p/human}* (You feel this pillar would be best kept at a distance.)']
                : world.darker
-               ? [ "<32>{#p/basic}* 一根柱子。" ]
-               : [ '<32>{#p/basic}* This pillar feels its personal space is being invaded.' ],
+                  ? ["<32>{#p/basic}* 一根柱子。"]
+                  : ['<32>{#p/basic}* This pillar feels its personal space is being invaded.'],
          cr_pillar7: () =>
             SAVE.data.b.svr
-               ? [ "<32>{#p/human}* (You're not sure how to feel about this pillar.)" ]
+               ? ["<32>{#p/human}* (You're not sure how to feel about this pillar.)"]
                : world.darker
-               ? [ "<32>{#p/basic}* 一根柱子。" ]
-               : [ '<32>{#p/basic}* This pillar is a self- proclaimed \"space invader.\"' ],
+                  ? ["<32>{#p/basic}* 一根柱子。"]
+                  : ['<32>{#p/basic}* This pillar is a self- proclaimed \"space invader.\"'],
          cr_pillar8: () =>
             SAVE.data.b.svr
-               ? [ "<32>{#p/human}* (You've never been more appreciated by a simple pillar.)" ]
+               ? ["<32>{#p/human}* (You've never been more appreciated by a simple pillar.)"]
                : calcLV() > 1
-               ? [ '<32>{#p/basic}* This pillar is judging you for your sins.' ]
-               : SAVE.data.b.oops
-               ? [ '<32>{#p/basic}* This pillar is not judging you in any way.' ]
-               : [ '<32>{#p/basic}* This pillar is smiling upon your good deeds.' ],
+                  ? ['<32>{#p/basic}* This pillar is judging you for your sins.']
+                  : SAVE.data.b.oops
+                     ? ['<32>{#p/basic}* This pillar is not judging you in any way.']
+                     : ['<32>{#p/basic}* This pillar is smiling upon your good deeds.'],
          cr_window: () => {
             const distance = Math.abs(player.position.x - (instance('main', 'sanser')?.object.position.x ?? -1000)); // NO-TRANSLATE
 
@@ -4224,7 +4224,7 @@ export default {
                         '<25>{#p/sans}{#f/0}* last i heard, she was on her way up here.',
                         "<25>{#f/3}* i'm starting to get worried about her, to be honest."
                      ],
-                     [ '<25>{#p/sans}{#f/0}* maybe she got lost?' ],
+                     ['<25>{#p/sans}{#f/0}* maybe she got lost?'],
                      [
                         '<25>{#p/sans}{#f/3}* maybe she just had to take a nap.',
                         '<25>{#p/sans}{#f/2}* i can relate to that.'
@@ -4240,513 +4240,513 @@ export default {
                }
             } else {
                return SAVE.data.b.svr
-                  ? [ '<32>{#p/human}* (You stare into the dazzling sight from beyond.)' ]
-                  : [ "<32>{#p/basic}* 一扇窗，由魔法製成。" ];
+                  ? ['<32>{#p/human}* (You stare into the dazzling sight from beyond.)']
+                  : ["<32>{#p/basic}* 一扇窗，由魔法製成。"];
             }
          },
          
          c_af_window: () =>
             SAVE.data.b.svr
-               ? [ '<32>{#p/human}* (You stare graciously into the now-abandoned city...)' ]
+               ? ['<32>{#p/human}* (You stare graciously into the now-abandoned city...)']
                : world.genocide && SAVE.data.b.armaloop
-               ? [ "<32>{#p/basic}* 首塔此刻混亂不堪。" ]
-               : world.genocide || world.bad_robot || SAVE.data.b.svr || world.runaway
-               ? [ '<32>{#p/basic}* 詭異的黑暗籠罩著首塔。' ]
-               : [ '<32>{#p/basic}* 首塔的景象在非鋼化窗戶外閃閃發光。' ],
-         c_af_couch: [ '<32>{#p/basic}* 空蕩蕩的房子，孤零零的小沙發。' ],
+                  ? ["<32>{#p/basic}* 首塔此刻混亂不堪。"]
+                  : world.genocide || world.bad_robot || SAVE.data.b.svr || world.runaway
+                     ? ['<32>{#p/basic}* 詭異的黑暗籠罩著首塔。']
+                     : ['<32>{#p/basic}* 首塔的景象在非鋼化窗戶外閃閃發光。'],
+         c_af_couch: ['<32>{#p/basic}* 空蕩蕩的房子，孤零零的小沙發。'],
          
          c_al_bookshelf: pager.create(
             1,
             () =>
                SAVE.data.b.svr
-                  ? [ '<32>{#p/human}* (The books on this bookshelf consist of various resources belonging to Asgore.)' ]
+                  ? ['<32>{#p/human}* (The books on this bookshelf consist of various resources belonging to Asgore.)']
                   : [
-                       "<32>{#p/basic}* 一個書架。",
-                       '<32>{#p/human}* （你取下了一本書...）',
-                       '<32>{#p/basic}* 書上的標記是「大圖書館手冊」。',
-                       '<32>* 「歡迎來到大圖書館，\n   在這裡，你能了解到\n   各行各業的知識。」',
-                       '<32>* 「在不同的走廊，\n   你能讀到不同學科的書籍。\n   有歷史、文化、科學、技術...」',
-                       '<32>* 「如果你喜歡探險小說，\n   也能在這裡一飽眼福。」',
-                       '<32>* 「很多怪物都為這裡捐過書，\n   有Andori、Terrestria、Strax\n   Seterra、Vashta Nerada...」',
-                       '<33>* 「快來克裡烏斯大圖書館吧！\n   今日來館，還能享受\n   前十本半價的優惠喔。」',
-                       '<32>{#p/human}* （你把書放回了書架。）'
-                    ],
+                     "<32>{#p/basic}* 一個書架。",
+                     '<32>{#p/human}* （你取下了一本書...）',
+                     '<32>{#p/basic}* 書上的標記是「大圖書館手冊」。',
+                     '<32>* 「歡迎來到大圖書館，\n   在這裡，你能了解到\n   各行各業的知識。」',
+                     '<32>* 「在不同的走廊，\n   你能讀到不同學科的書籍。\n   有歷史、文化、科學、技術...」',
+                     '<32>* 「如果你喜歡探險小說，\n   也能在這裡一飽眼福。」',
+                     '<32>* 「很多怪物都為這裡捐過書，\n   有Andori、Terrestria、Strax\n   Seterra、Vashta Nerada...」',
+                     '<33>* 「快來克裡烏斯大圖書館吧！\n   今日來館，還能享受\n   前十本半價的優惠喔。」',
+                     '<32>{#p/human}* （你把書放回了書架。）'
+                  ],
             () =>
                SAVE.data.b.svr
-                  ? [ '<32>{#p/human}* (The books on this bookshelf consist of various resources belonging to Asgore.)' ]
+                  ? ['<32>{#p/human}* (The books on this bookshelf consist of various resources belonging to Asgore.)']
                   : [
-                       "<32>{#p/basic}* 一個書架。",
-                       '<32>{#p/human}* （你取下了一本書...）',
-                       '<32>{#p/basic}* 署名是「Toriel Dreemurr」。',
-                       '<32>{#p/basic}* 「《Dreemurr家族的美味祕笈：蝸牛派》」',
-                       '<32>* 「蝸牛派是Dreemurr家族的\n   一道風味獨特的傳統美食。」',
-                       '<32>* 「製作它其實非常簡單，\n   只需五個步驟：」',
-                       '<32>* 「首先，輕柔地展開酥脆的派底，\n   在烘焙盤中鋪平。」',
-                       '<32>* 「然後，將香濃的蒸發奶、\n   新鮮的雞蛋和選料香料\n   混合在一起，攪拌至絲滑細膩。」',
-                       '<32>* 「接著，小心地將幾隻新鮮蝸牛\n   加入到之前調製好的香濃奶糊中。\n   確保它們完全浸入。 」',
-                       '<32>* 「之後，將這層混合物\n   輕輕倒入準備好的派底，\n   均勻鋪開。」',
-                       '<32>* 「最後，將麵團切成細條，\n   編織成優雅的格子形狀，\n   覆蓋在派面上。」',
-                       '<32>* 「現在，將派放到烤箱中，\n   烤至金黃酥脆。」',
-                       '<32>* 「出爐後，派面金黃誘人。\n   令其稍作冷卻，即可切片、上桌！」',
-                       '<32>{#p/human}* （你把書放回了書架。）'
-                    ],
+                     "<32>{#p/basic}* 一個書架。",
+                     '<32>{#p/human}* （你取下了一本書...）',
+                     '<32>{#p/basic}* 署名是「Toriel Dreemurr」。',
+                     '<32>{#p/basic}* 「《Dreemurr家族的美味祕笈：蝸牛派》」',
+                     '<32>* 「蝸牛派是Dreemurr家族的\n   一道風味獨特的傳統美食。」',
+                     '<32>* 「製作它其實非常簡單，\n   只需五個步驟：」',
+                     '<32>* 「首先，輕柔地展開酥脆的派底，\n   在烘焙盤中鋪平。」',
+                     '<32>* 「然後，將香濃的蒸發奶、\n   新鮮的雞蛋和選料香料\n   混合在一起，攪拌至絲滑細膩。」',
+                     '<32>* 「接著，小心地將幾隻新鮮蝸牛\n   加入到之前調製好的香濃奶糊中。\n   確保它們完全浸入。 」',
+                     '<32>* 「之後，將這層混合物\n   輕輕倒入準備好的派底，\n   均勻鋪開。」',
+                     '<32>* 「最後，將麵團切成細條，\n   編織成優雅的格子形狀，\n   覆蓋在派面上。」',
+                     '<32>* 「現在，將派放到烤箱中，\n   烤至金黃酥脆。」',
+                     '<32>* 「出爐後，派面金黃誘人。\n   令其稍作冷卻，即可切片、上桌！」',
+                     '<32>{#p/human}* （你把書放回了書架。）'
+                  ],
             () =>
                SAVE.data.b.svr
-                  ? [ '<32>{#p/human}* (The books on this bookshelf consist of various resources belonging to Asgore.)' ]
+                  ? ['<32>{#p/human}* (The books on this bookshelf consist of various resources belonging to Asgore.)']
                   : [
-                       "<32>{#p/basic}* 一個書架。",
-                       '<32>{#p/human}* （你取下了一本書...）',
-                       "<32>{#p/basic}* 這是份傷亡報告。",
-                       '<33>* 「據統計... 此次襲擊已致\n   2000人死亡，40000人受傷。」\n* 「Tenko淪陷。」',
-                       '<32>* 「數日前，當地青年Gerson應徵入伍。」',
-                       '<32>* 「根據人類方艦隊活動，\n  Gerson預言了此次全面進攻。」',
-                       '<32>* 「王子殿下識人如炬，\n  我方才得以注意這一預言。」',
-                       '<32>* 「倘若我方忽略了這一預言，\n   Gerson的家人將在此次襲擊中\n   悉數喪命。」',
-                       '<32>* \"Survivors of the attack are holding a commemoration at the central nexus.\"',
-                       '<32>* 「那位青年是名家鄉英雄。」',
-                       '<32>{#p/human}* （你把書放回了書架。）'
-                    ]
+                     "<32>{#p/basic}* 一個書架。",
+                     '<32>{#p/human}* （你取下了一本書...）',
+                     "<32>{#p/basic}* 這是份傷亡報告。",
+                     '<33>* 「據統計... 此次襲擊已致\n   2000人死亡，40000人受傷。」\n* 「Tenko淪陷。」',
+                     '<32>* 「數日前，當地青年Gerson應徵入伍。」',
+                     '<32>* 「根據人類方艦隊活動，\n  Gerson預言了此次全面進攻。」',
+                     '<32>* 「王子殿下識人如炬，\n  我方才得以注意這一預言。」',
+                     '<32>* 「倘若我方忽略了這一預言，\n   Gerson的家人將在此次襲擊中\n   悉數喪命。」',
+                     '<32>* \"Survivors of the attack are holding a commemoration at the central nexus.\"',
+                     '<32>* 「那位青年是名家鄉英雄。」',
+                     '<32>{#p/human}* （你把書放回了書架。）'
+                  ]
          ),
          c_al_chair1: () =>
             SAVE.data.b.svr
-               ? [ '<32>{#p/human}* (You note the fairly large size of the dining chair.)' ]
+               ? ['<32>{#p/human}* (You note the fairly large size of the dining chair.)']
                : SAVE.data.n.state_wastelands_toriel === 2 || world.runaway
-               ? [ '<32>{#p/basic}* 大餐椅。' ]
-               : [ "<32>{#p/basic}* Asgore家有幾把餐椅，\n  這把，是王后的餐椅。" ],
+                  ? ['<32>{#p/basic}* 大餐椅。']
+                  : ["<32>{#p/basic}* Asgore家有幾把餐椅，\n  這把，是王后的餐椅。"],
          c_al_chair2: () =>
             SAVE.data.b.svr
-               ? [ '<32>{#p/human}* (You note the small size of the dining chair.)' ]
+               ? ['<32>{#p/human}* (You note the small size of the dining chair.)']
                : SAVE.data.n.state_wastelands_toriel === 2 || world.runaway
-               ? [ '<32>{#p/basic}* 小餐椅。' ]
-               : world.genocide
-               ? [ "<32>{#p/basic}* Asgore家有幾把餐椅，\n  這把，是惡魔的餐椅。" ]
-               : [ "<32>{#p/basic}* Asgore家有幾把餐椅，\n  這把，是王子的餐椅。" ],
+                  ? ['<32>{#p/basic}* 小餐椅。']
+                  : world.genocide
+                     ? ["<32>{#p/basic}* Asgore家有幾把餐椅，\n  這把，是惡魔的餐椅。"]
+                     : ["<32>{#p/basic}* Asgore家有幾把餐椅，\n  這把，是王子的餐椅。"],
          c_al_chair3: () =>
             SAVE.data.b.svr
-               ? [ '<32>{#p/human}* (You note the slightly large size of the dining chair.)' ]
+               ? ['<32>{#p/human}* (You note the slightly large size of the dining chair.)']
                : SAVE.data.n.state_wastelands_toriel === 2 || world.runaway
-               ? [ '<32>{#p/basic}* 中餐椅。' ]
-               : SAVE.data.b.oops
-               ? [ "<32>{#p/basic}* Asgore家有幾把餐椅，\n  這把，是小孩的餐椅。\n* 很適合你！" ]
-               : [ "<32>{#p/basic}* Asgore家有幾把餐椅，\n  這把... 是某個小天使的餐椅。\n* 說的就是你！" ],
+                  ? ['<32>{#p/basic}* 中餐椅。']
+                  : SAVE.data.b.oops
+                     ? ["<32>{#p/basic}* Asgore家有幾把餐椅，\n  這把，是小孩的餐椅。\n* 很適合你！"]
+                     : ["<32>{#p/basic}* Asgore家有幾把餐椅，\n  這把... 是某個小天使的餐椅。\n* 說的就是你！"],
          c_al_chair4: () =>
             SAVE.data.b.svr
-               ? [ '<32>{#p/human}* (You note the exceptional size of the dining chair.)' ]
+               ? ['<32>{#p/human}* (You note the exceptional size of the dining chair.)']
                : SAVE.data.n.state_wastelands_toriel === 2 || world.runaway
-               ? [ '<32>{#p/basic}* 餐椅王。' ]
-               : [ "<32>{#p/basic}* Asgore家有幾把餐椅，\n  這把，是國王的餐椅。" ],
+                  ? ['<32>{#p/basic}* 餐椅王。']
+                  : ["<32>{#p/basic}* Asgore家有幾把餐椅，\n  這把，是國王的餐椅。"],
          
          c_ak_sink: () =>
             SAVE.data.b.svr
                ? [
-                    [
-                       '<25>{#p/asriel1}{#f/21}* $(name) seemed to think the hair in the sink was tolerable...',
-                       '<25>{#f/17}* Which is weird, when they were so bothered by the fur.'
-                    ],
-                    [ '<25>{#p/asriel1}{#f/13}* Maybe this is what $(name) and other humans shed?' ],
-                    [ "<25>{#p/asriel1}{#f/17}* I'll get back to you on my human hair-shedding theory." ]
-                 ][Math.min(asrielinter.c_ak_sink++, 2)]
-               : [ '<32>{#p/basic}* 下水道裡堵滿了\n  黃色的羊毛。' ],
+                  [
+                     '<25>{#p/asriel1}{#f/21}* $(name) seemed to think the hair in the sink was tolerable...',
+                     '<25>{#f/17}* Which is weird, when they were so bothered by the fur.'
+                  ],
+                  ['<25>{#p/asriel1}{#f/13}* Maybe this is what $(name) and other humans shed?'],
+                  ["<25>{#p/asriel1}{#f/17}* I'll get back to you on my human hair-shedding theory."]
+               ][Math.min(asrielinter.c_ak_sink++, 2)]
+               : ['<32>{#p/basic}* 下水道裡堵滿了\n  黃色的羊毛。'],
          c_ak_teacheck: () =>
             SAVE.data.b.svr
                ? [
-                    [
-                       "<26>{#p/asriel1}{#f/17}* Starling tea isn't the only kind Dad likes.",
-                       "<25>{#f/17}* In fact, he once told me he's loved all kinds of tea since childhood.",
-                       '<25>{#f/13}* Before that...\n* He was a water drinker.',
-                       "<25>{#f/8}* ... we don't talk about that."
-                    ],
-                    [
-                       '<25>{#p/asriel1}{#f/17}* So one day, when little Asgore was out with some friends...',
-                       '<25>{#f/17}* He got lost in a magic forest and his water container was empty.',
-                       '<25>{#f/13}* Luckily, out in the woods, there was...',
-                       '<25>{#f/20}* Well, as Dad so plainly described it, a \"ghost town.\"'
-                    ],
-                    [
-                       '<25>{#p/asriel1}{#f/13}* Bad puns aside, Asgore tried asking the ghosts for water.',
-                       "<25>{#f/15}* ...\n* They didn't have any.",
-                       '<25>{#f/13}* But, as you probably guessed, they did have a fondness for tea.',
-                       '<25>{#f/17}* Once Asgore was given some to try, he never looked back.'
-                    ],
-                    [ "<25>{#p/asriel1}{#f/15}* They say Asgore's the one who first invented Starling tea..." ]
-                 ][Math.min(asrielinter.c_ak_teacheck++, 3)]
+                  [
+                     "<26>{#p/asriel1}{#f/17}* Starling tea isn't the only kind Dad likes.",
+                     "<25>{#f/17}* In fact, he once told me he's loved all kinds of tea since childhood.",
+                     '<25>{#f/13}* Before that...\n* He was a water drinker.',
+                     "<25>{#f/8}* ... we don't talk about that."
+                  ],
+                  [
+                     '<25>{#p/asriel1}{#f/17}* So one day, when little Asgore was out with some friends...',
+                     '<25>{#f/17}* He got lost in a magic forest and his water container was empty.',
+                     '<25>{#f/13}* Luckily, out in the woods, there was...',
+                     '<25>{#f/20}* Well, as Dad so plainly described it, a \"ghost town.\"'
+                  ],
+                  [
+                     '<25>{#p/asriel1}{#f/13}* Bad puns aside, Asgore tried asking the ghosts for water.',
+                     "<25>{#f/15}* ...\n* They didn't have any.",
+                     '<25>{#f/13}* But, as you probably guessed, they did have a fondness for tea.',
+                     '<25>{#f/17}* Once Asgore was given some to try, he never looked back.'
+                  ],
+                  ["<25>{#p/asriel1}{#f/15}* They say Asgore's the one who first invented Starling tea..."]
+               ][Math.min(asrielinter.c_ak_teacheck++, 3)]
                : world.genocide || world.bad_robot
-               ? SAVE.data.b.c_state_switch2
-                  ? [ "<32>{#p/basic}* 一個茶壺。\n* 沒什麼可做的。" ]
-                  : [
-                       "<32>{#p/basic}* 一個茶壺。\n* 壺底的臺子上有個開關...",
-                       '<32>{#p/human}{#c.switch2}* （你按下了開關。）'
-                    ]
-               : SAVE.data.n.plot === 72
-               ? [ "<32>{#p/basic}* 一個茶壺。\n* 過了這麼久，還在冒熱氣。" ]
-               : [ "<32>{#p/basic}* 一個茶壺。\n* 廚房裡瀰漫著\n  星花茶的清香。" ],
+                  ? SAVE.data.b.c_state_switch2
+                     ? ["<32>{#p/basic}* 一個茶壺。\n* 沒什麼可做的。"]
+                     : [
+                        "<32>{#p/basic}* 一個茶壺。\n* 壺底的臺子上有個開關...",
+                        '<32>{#p/human}{#c.switch2}* （你按下了開關。）'
+                     ]
+                  : SAVE.data.n.plot === 72
+                     ? ["<32>{#p/basic}* 一個茶壺。\n* 過了這麼久，還在冒熱氣。"]
+                     : ["<32>{#p/basic}* 一個茶壺。\n* 廚房裡瀰漫著\n  星花茶的清香。"],
          c_ak_stove: () =>
             SAVE.data.b.svr
                ? [
-                    [
-                       "<25>{#p/asriel1}{#f/15}* Papyrus isn't the only one Undyne's tried to teach cooking to.",
-                       '<25>{#f/16}* Not if you consider alternate timelines, anyway.',
-                       '<25>{#f/13}* I once managed to set up Alphys and Undyne in this very kitchen.'
-                    ],
-                    [
-                       '<25>{#p/asriel1}{#f/17}* Undyne wanted to teach her how to cook food with magic, but...',
-                       '<25>{#f/13}* All the resident scientist wanted to do was point lasers at it.',
-                       SAVE.flag.n.genocide_milestone < 5
-                          ? '<25>{#f/16}* Kind of surprising, Alphys usually likes following instructions.'
-                          : "<25>{#f/16}* Knowing what we know about Alphys's magic, that's not surprising.",
-                       '<25>{#f/15}* I guess she was in a mood that day.'
-                    ],
-                    [ "<25>{#p/asriel1}{#f/4}* A scientist's gonna science whether you like it or not." ]
-                 ][Math.min(asrielinter.c_ak_stove++, 2)]
+                  [
+                     "<25>{#p/asriel1}{#f/15}* Papyrus isn't the only one Undyne's tried to teach cooking to.",
+                     '<25>{#f/16}* Not if you consider alternate timelines, anyway.',
+                     '<25>{#f/13}* I once managed to set up Alphys and Undyne in this very kitchen.'
+                  ],
+                  [
+                     '<25>{#p/asriel1}{#f/17}* Undyne wanted to teach her how to cook food with magic, but...',
+                     '<25>{#f/13}* All the resident scientist wanted to do was point lasers at it.',
+                     SAVE.flag.n.genocide_milestone < 5
+                        ? '<25>{#f/16}* Kind of surprising, Alphys usually likes following instructions.'
+                        : "<25>{#f/16}* Knowing what we know about Alphys's magic, that's not surprising.",
+                     '<25>{#f/15}* I guess she was in a mood that day.'
+                  ],
+                  ["<25>{#p/asriel1}{#f/4}* A scientist's gonna science whether you like it or not."]
+               ][Math.min(asrielinter.c_ak_stove++, 2)]
                : SAVE.data.n.plot !== 72 || world.runaway
-               ? [ '<32>{#p/basic}* 灶臺有點髒，\n  別的地方卻很乾淨。' ]
-               : [ '<32>{#p/basic}* Smells like marinara sauce.' ],
+                  ? ['<32>{#p/basic}* 灶臺有點髒，\n  別的地方卻很乾淨。']
+                  : ['<32>{#p/basic}* Smells like marinara sauce.'],
          c_ak_trash: () =>
             SAVE.data.b.svr
-               ? [ "<32>{#p/human}* （你看不出來垃圾桶裡有什麼...)" ]
-               : [ '<32>{#p/basic}* 垃圾桶裡\n  居然什麼都沒有。' ],
+               ? ["<32>{#p/human}* （你看不出來垃圾桶裡有什麼...)"]
+               : ['<32>{#p/basic}* 垃圾桶裡\n  居然什麼都沒有。'],
          
          c_ah_door: () =>
             SAVE.data.b.svr
                ? [
-                    '<32>{#p/human}* (The sign describes the room within as being incomplete.)',
-                    ...[
-                       [
-                          "<25>{#p/asriel1}{#f/3}* If she hadn't left, that would be Mom's room...",
-                          "<25>{#f/4}* It's a bummer it was never finished."
-                       ],
-                       [
-                          '<25>{#p/asriel1}{#f/13}* ...',
-                          '<25>{#f/15}* When Mom left, it... hurt him pretty bad.',
-                          '<25>{#f/4}* But he moved on from it.',
-                          "<25>{#f/3}* I just hope he hasn't moved on from me.",
-                          '<25>{#f/17}* Who knows.\n* Anything is possible.'
-                       ],
-                       [ '<25>{#p/asriel1}{#f/23}* ... oh, Dad...' ]
-                    ][Math.min(asrielinter.c_ah_door++, 2)]
-                 ]
-               : [ '<32>{#p/basic}* 「房間翻修中。」' ],
+                  '<32>{#p/human}* (The sign describes the room within as being incomplete.)',
+                  ...[
+                     [
+                        "<25>{#p/asriel1}{#f/3}* If she hadn't left, that would be Mom's room...",
+                        "<25>{#f/4}* It's a bummer it was never finished."
+                     ],
+                     [
+                        '<25>{#p/asriel1}{#f/13}* ...',
+                        '<25>{#f/15}* When Mom left, it... hurt him pretty bad.',
+                        '<25>{#f/4}* But he moved on from it.',
+                        "<25>{#f/3}* I just hope he hasn't moved on from me.",
+                        '<25>{#f/17}* Who knows.\n* Anything is possible.'
+                     ],
+                     ['<25>{#p/asriel1}{#f/23}* ... oh, Dad...']
+                  ][Math.min(asrielinter.c_ah_door++, 2)]
+               ]
+               : ['<32>{#p/basic}* 「房間翻修中。」'],
          c_ah_mirror: () =>
             SAVE.data.b.svr
-               ? [ "<25>{#p/asriel1}{#f/24}* It's us..." ]
+               ? ["<25>{#p/asriel1}{#f/24}* It's us..."]
                : world.genocide
-               ? [ '<32>{#p/basic}* ...' ]
-               : calcLV() > 14
-               ? [ '<32>{#p/basic}* 即使經歷了一切...', '<32>* ...這真的是你嗎？' ]
-               : world.darker
-               ? [ "<32>{#p/basic}* It's you." ]
-               : SAVE.data.b.ultrashortcut || SAVE.data.b.ubershortcut
-               ? [ "<99>{#p/basic}* 即使跳過了大部分旅程，\n  這仍然是你。" ]
-               : [ "<99>{#p/basic}* 即使經歷了一切，\n  這仍然是你。" ],
+                  ? ['<32>{#p/basic}* ...']
+                  : calcLV() > 14
+                     ? ['<32>{#p/basic}* 即使經歷了一切...', '<32>* ...這真的是你嗎？']
+                     : world.darker
+                        ? ["<32>{#p/basic}* It's you."]
+                        : SAVE.data.b.ultrashortcut || SAVE.data.b.ubershortcut
+                           ? ["<99>{#p/basic}* 即使跳過了大部分旅程，\n  這仍然是你。"]
+                           : ["<99>{#p/basic}* 即使經歷了一切，\n  這仍然是你。"],
          
          c_aa_flower: () =>
             SAVE.data.b.svr
                ? [
-                    [
-                       '<25>{#p/asriel1}{#f/13}* This picture...',
-                       '<25>{#f/17}* This is the one $(name) took of the very first Starling flower.'
-                    ],
-                    [
-                       '<25>{#p/asriel1}{#f/13}* Not long after $(name) first arrived...',
-                       '<25>{#f/17}* A little flower came down from outer space.',
-                       '<25>{#f/23}* The first Starling flower ever seen on the outpost.',
-                       '<25>{#f/22}* It landed out at the edge of the outpost, all alone...',
-                       '<25>{#f/13}* So we huddled around it, with $(name) taking a picture for luck.'
-                    ],
-                    [
-                       '<25>{#p/asriel1}{#f/13}* After $(name) took the picture, we were ready to head home.',
-                       '<25>{#f/13}* But when we stood up to leave, we glanced back at the stars...',
-                       '<25>{#f/15}* And then we saw it.',
-                       '<25>{#f/23}* A thousand more flowers descending down from the heavens.',
-                       '<25>{#f/17}* $(name) took my hand, and we stood there...',
-                       '<25>{#f/17}* Stunned into silence.'
-                    ],
-                    [ '<25>{#p/asriel1}{#f/17}* Despite all I did as a star, the memory of it still makes me smile.' ]
-                 ][Math.min(asrielinter.c_aa_flower++, 3)]
+                  [
+                     '<25>{#p/asriel1}{#f/13}* This picture...',
+                     '<25>{#f/17}* This is the one $(name) took of the very first Starling flower.'
+                  ],
+                  [
+                     '<25>{#p/asriel1}{#f/13}* Not long after $(name) first arrived...',
+                     '<25>{#f/17}* A little flower came down from outer space.',
+                     '<25>{#f/23}* The first Starling flower ever seen on the outpost.',
+                     '<25>{#f/22}* It landed out at the edge of the outpost, all alone...',
+                     '<25>{#f/13}* So we huddled around it, with $(name) taking a picture for luck.'
+                  ],
+                  [
+                     '<25>{#p/asriel1}{#f/13}* After $(name) took the picture, we were ready to head home.',
+                     '<25>{#f/13}* But when we stood up to leave, we glanced back at the stars...',
+                     '<25>{#f/15}* And then we saw it.',
+                     '<25>{#f/23}* A thousand more flowers descending down from the heavens.',
+                     '<25>{#f/17}* $(name) took my hand, and we stood there...',
+                     '<25>{#f/17}* Stunned into silence.'
+                  ],
+                  ['<25>{#p/asriel1}{#f/17}* Despite all I did as a star, the memory of it still makes me smile.']
+               ][Math.min(asrielinter.c_aa_flower++, 3)]
                : SAVE.data.b.oops
-               ? [ "<32>{#p/basic}* 一張照片。\n* 沒什麼好說的。" ]
-               : [ "<32>{#p/basic}* It's a framed photograph.\n* I took it myself." ],
+                  ? ["<32>{#p/basic}* 一張照片。\n* 沒什麼好說的。"]
+                  : ["<32>{#p/basic}* It's a framed photograph.\n* I took it myself."],
          c_aa_cabinet: () =>
             SAVE.data.b.svr
-               ? [ "<32>{#p/human}* (You can't find anything in here besides several of the exact same outfit.)" ]
+               ? ["<32>{#p/human}* (You can't find anything in here besides several of the exact same outfit.)"]
                : world.darker
-               ? [ '<32>{#p/basic}* 衣櫃。' ]
-               : [
-                    '<32>{#p/basic}* 衣櫃裡掛滿了黃藍條紋衫。',
-                    '<32>{#p/basic}* 有些東西還真是永恆不變啊...'
-                 ],
+                  ? ['<32>{#p/basic}* 衣櫃。']
+                  : [
+                     '<32>{#p/basic}* 衣櫃裡掛滿了黃藍條紋衫。',
+                     '<32>{#p/basic}* 有些東西還真是永恆不變啊...'
+                  ],
          c_aa_box: () =>
             SAVE.data.b.svr
                ? [
-                    [
-                       '<25>{#p/asriel1}{#f/23}* ... well, at least he glued them back together.',
-                       '<25>{#f/13}* Dad always was the one to try and fix things like that.',
-                       '<25>{#f/15}* Any time $(name) and I broke something...',
-                       '<25>{#f/8}* Usually $(name)...',
-                       "<25>{#f/17}* He'd swoop in and save the day with some good old arts 'n' crafts.",
-                       '<25>{#f/20}* A true DIY hero!'
-                    ],
-                    [
-                       "<25>{#p/asriel1}{#f/13}* Please don't tell him I called him a DIY hero.",
-                       "<25>{#f/16}* He'd laugh at that.",
-                       '<25>{#f/15}* But it was necessary with everything $(name) messed up.',
-                       '<25>{#f/16}* A lot of their \"fun\" came from bothering others.',
-                       '<25>{#f/13}* As a monster... that was difficult for me to understand.',
-                       '<25>{#f/15}* Then... I became Twinkly.'
-                    ],
-                    [ "<25>{#p/asriel1}{#f/17}* I'd play with these if I still had an interest in toys." ],
-                    [ '<25>{#p/asriel1}{#f/20}* Do action figures count as toys?\n* Those are cool.' ]
-                 ][Math.min(asrielinter.c_aa_box++, 3)]
+                  [
+                     '<25>{#p/asriel1}{#f/23}* ... well, at least he glued them back together.',
+                     '<25>{#f/13}* Dad always was the one to try and fix things like that.',
+                     '<25>{#f/15}* Any time $(name) and I broke something...',
+                     '<25>{#f/8}* Usually $(name)...',
+                     "<25>{#f/17}* He'd swoop in and save the day with some good old arts 'n' crafts.",
+                     '<25>{#f/20}* A true DIY hero!'
+                  ],
+                  [
+                     "<25>{#p/asriel1}{#f/13}* Please don't tell him I called him a DIY hero.",
+                     "<25>{#f/16}* He'd laugh at that.",
+                     '<25>{#f/15}* But it was necessary with everything $(name) messed up.',
+                     '<25>{#f/16}* A lot of their \"fun\" came from bothering others.',
+                     '<25>{#f/13}* As a monster... that was difficult for me to understand.',
+                     '<25>{#f/15}* Then... I became Twinkly.'
+                  ],
+                  ["<25>{#p/asriel1}{#f/17}* I'd play with these if I still had an interest in toys."],
+                  ['<25>{#p/asriel1}{#f/20}* Do action figures count as toys?\n* Those are cool.']
+               ][Math.min(asrielinter.c_aa_box++, 3)]
                : world.darker
-               ? [ '<32>{#p/basic}* 一盒星際飛船模型。' ]
-               : [
-                    "<32>{#p/basic}* 一盒星際飛船模型，\n  完好無損。",
-                    '<33>{#p/basic}* 聞起來像老式膠水。'
-                 ],
+                  ? ['<32>{#p/basic}* 一盒星際飛船模型。']
+                  : [
+                     "<32>{#p/basic}* 一盒星際飛船模型，\n  完好無損。",
+                     '<33>{#p/basic}* 聞起來像老式膠水。'
+                  ],
          c_aa_frame: () =>
             SAVE.data.b.svr
-               ? [ [ "<25>{#p/asriel1}{#f/23}* ... it's still here..." ], [ '<25>{#p/asriel1}{#f/22}* ...' ] ][
-                    Math.min(asrielinter.c_aa_frame++, 1)
-                 ]
+               ? [["<25>{#p/asriel1}{#f/23}* ... it's still here..."], ['<25>{#p/asriel1}{#f/22}* ...']][
+               Math.min(asrielinter.c_aa_frame++, 1)
+               ]
                : SAVE.data.b.oops
-               ? [ "<32>{#p/basic}* 一張手繪。" ]
-               : [ "<32>{#p/basic}* 這是一張手繪...", '<32>* 畫的是全家福。' ],
+                  ? ["<32>{#p/basic}* 一張手繪。"]
+                  : ["<32>{#p/basic}* 這是一張手繪...", '<32>* 畫的是全家福。'],
          c_aa_paper: () =>
             SAVE.data.b.svr
-               ? [ '<32>{#p/human}* (You roll the crayon back and forth underneath your hand.)' ]
+               ? ['<32>{#p/human}* (You roll the crayon back and forth underneath your hand.)']
                : world.darker
-               ? [ '<33>{#p/basic}* A stack of papers and a crayon.' ]
-               : [ '<32>{#p/basic}* 不知為何，這裡除了一些紙\n  還有一支藍色的蠟筆。' ],
+                  ? ['<33>{#p/basic}* A stack of papers and a crayon.']
+                  : ['<32>{#p/basic}* 不知為何，這裡除了一些紙\n  還有一支藍色的蠟筆。'],
          c_aa_deathbed: () =>
             SAVE.data.b.svr
                ? [
-                    [ '<25>{#p/asriel1}{#f/13}* ...' ],
-                    [
-                       "<25>{#p/asriel1}{#f/23}* ... it's okay, Frisk.",
-                       "<25>{#f/13}* Even if they don't come back...",
-                       "<25>{#f/17}* We'll still remember them for what they did in the end."
-                    ],
-                    [ '<25>{#p/asriel1}{#f/13}* Frisk...', '<25>{#f/17}* I know we have something better to do.' ]
-                 ][Math.min(asrielinter.c_aa_deathbed++, 2)]
+                  ['<25>{#p/asriel1}{#f/13}* ...'],
+                  [
+                     "<25>{#p/asriel1}{#f/23}* ... it's okay, Frisk.",
+                     "<25>{#f/13}* Even if they don't come back...",
+                     "<25>{#f/17}* We'll still remember them for what they did in the end."
+                  ],
+                  ['<25>{#p/asriel1}{#f/13}* Frisk...', '<25>{#f/17}* I know we have something better to do.']
+               ][Math.min(asrielinter.c_aa_deathbed++, 2)]
                : world.darker
-               ? [ "<32>{#p/basic}* 另一張床。" ]
-               : SAVE.data.b.oops
-               ? [ "<32>{#p/basic}* 這張床絕對沒什麼特別的。" ]
-               : [ '<32>{#p/basic}* 我的床。' ],
+                  ? ["<32>{#p/basic}* 另一張床。"]
+                  : SAVE.data.b.oops
+                     ? ["<32>{#p/basic}* 這張床絕對沒什麼特別的。"]
+                     : ['<32>{#p/basic}* 我的床。'],
          
          c_aa_chair: () =>
             SAVE.data.b.svr
-               ? [ '<32>{#p/human}* (You appreciate the tiny chair for being able to hold someone so large.)' ]
+               ? ['<32>{#p/human}* (You appreciate the tiny chair for being able to hold someone so large.)']
                : world.darker
-               ? [ "<32>{#p/basic}* 一把椅子，\n  很適合坐在上面寫日記。" ]
-               : [ "<32>{#p/basic}* Asgore寫日記時就坐著\n  這把椅子。" ],
+                  ? ["<32>{#p/basic}* 一把椅子，\n  很適合坐在上面寫日記。"]
+                  : ["<32>{#p/basic}* Asgore寫日記時就坐著\n  這把椅子。"],
          c_aa_bed: () =>
             SAVE.data.b.svr
-               ? [ '<32>{#p/human}* (The bed seems to be way too large for you.)' ]
+               ? ['<32>{#p/human}* (The bed seems to be way too large for you.)']
                : world.darker
-               ? [ "<32>{#p/basic}* 國王尺寸的床。" ]
-               : [ "<32>{#p/basic}* 國王尺寸的床。\n* 也是國王的床。" ],
+                  ? ["<32>{#p/basic}* 國王尺寸的床。"]
+                  : ["<32>{#p/basic}* 國王尺寸的床。\n* 也是國王的床。"],
          c_aa_diary: pager.create(
             0,
             ...CosmosUtils.populate(
                9,
                i => () =>
                   SAVE.data.b.svr
-                     ? [ '<32>{#p/human}* (The diary seems to outline important events in relation to Asgore.)' ]
+                     ? ['<32>{#p/human}* (The diary seems to outline important events in relation to Asgore.)']
                      : world.genocide || world.runaway
-                     ? [ '<32>{#p/human}* （你想看看日記，\n  但所有的頁都被撕掉了。）' ]
-                     : SAVE.data.n.plot === 72
-                     ? [
-                          '<32>{#p/human}* （你看了一眼最近寫好的日記。）',
-                          '<32>{#p/asgore}* 「終於，怪物一族自由了。」',
-                          '<32>* 「我們能得救，都是多虧了\n   Frisk和另外六個人類孩子。」',
-                          '<32>* 「安全起見，\n   Alphys博士搜尋了前哨站外圍，\n   看看會不會發現人類的蹤跡。」',
+                        ? ['<32>{#p/human}* （你想看看日記，\n  但所有的頁都被撕掉了。）']
+                        : SAVE.data.n.plot === 72
+                           ? [
+                              '<32>{#p/human}* （你看了一眼最近寫好的日記。）',
+                              '<32>{#p/asgore}* 「終於，怪物一族自由了。」',
+                              '<32>* 「我們能得救，都是多虧了\n   Frisk和另外六個人類孩子。」',
+                              '<32>* 「安全起見，\n   Alphys博士搜尋了前哨站外圍，\n   看看會不會發現人類的蹤跡。」',
 '<32>* 「但一無所獲。」',
-                          '<32>* 「整個星系，\n   她連一艘人類星艦，一座太空站\n   都沒找到。」',
-                          '<32>* 「太反常了。」',
-                          '<32>* 「人類是不是出事了？」\n* 「還是說，他們忘了這個星系，\n   也忘了我們？」',
-                          '<32>* 「也許，我可以找Frisk\n   或其他孩子問問。」',
-                          '<32>* 「孩子們甦醒後，\n   其他怪物收養了他們。」',
-                          '<32>* 「有個孩子告訴我，\n   他們在檔案裡受盡了折磨，十分痛苦。」',
-                          '<32>* 「考慮到他們曾受過創傷，\n   我跟Alphys在幫他們挑選領養人時\n   都慎之又慎。」',
-                          '<32>* 「儘管現在有點難辦，\n   但只要他們都活著，\n   我們都打心底裡高興。」',
-                          '<32>* 「搜尋其他人類始終一無所獲。\n   也許... 這幾個孩子就是\n   人類最後的火種了。」'
-                       ]
-                     : [
-                          [
-                             '<32>{#p/human}* （你看了一眼被標記的日記。）',
-                             '<32>{#p/asgore}* 「Asgore的日記，克歷516年1月。」',
-                             '<32>* 「在這艱難的時刻，\n   身邊卻一個夥伴都沒有，\n   只能聊以自慰。」',
-                             '<32>* 「或許寫幾頁日記\n   能緩解一下我的傷痛。」',
-                             '<32>* 「此刻，我心中五味雜陳。」',
-                             '<32>* 「我很憤怒，\n   人類的所作所為，孩子們遭的罪...\n   想到這些，我氣不打一處來。」',
-                             '<32>* 「我很內疚，\n   面對悲劇，自己卻那麼軟弱無能，\n   一點骨氣都沒有。」',
-                             '<32>* 「我很悲傷，\n   不願相信，人生竟然如此殘酷，」',
-                             '<32>* 「故園毀滅之後，\n   每每想到自己有一天能結婚生子，\n   組建家庭，就有了希望。」',
-                             '<32>* 「可我的孩子死了，\n   就這麼死了。」',
-                             '<32>* 「再怎麼看航行日誌，\n   結果都不會變。」',
-                             '<32>* 「人死不能復生，事實就是事實。」',
-                             '<32>{#p/basic}* 看起來，從這頁開始，\n  後面的日記就正常按\n  時間順序排了。'
-                          ],
-                          [
-                             '<32>{#p/human}* （你翻到下一篇日記。）',
-                             '<32>{#p/asgore}* 「Asgore的日記，克歷516年2月。」',
-                             '<32>* 「今天，Gerson來看望我。」',
-                             '<32>* 「他和我傾訴了自己的經歷。」',
-                             '<32>* 「他講了在行星理事會的輝煌事業，\n   講了和家人的分別，\n   還講了自己身上的責任。」',
-                             '<32>* 「他的故事觸動了我。」',
-                             '<32>* 「我得去好好安慰安慰他，\n   日記就先寫到這吧，」'
-                          ],
-                          [
-                             '<32>{#p/human}* （你翻到下一篇日記。）',
-                             '<32>{#p/asgore}* 「Asgore的日記，克歷524年10月。」',
-                             '<32>* 「$(name)死後，第一個人類\n   來到了前哨站。」',
-                             '<32>* 「時間衝淡了怨恨，\n   怪物對人類的蔑視正逐漸平息...」',
-                             '<32>* 「但表面的平靜之下暗流湧動。\n   他們嘴上不說，\n   可不代表真的就會饒了人類。」',
-                             '<32>* 「我和Thomas雖盡力保證他們的安全，\n   但以二人之力對抗民眾談何容易。」',
-                             '<32>* 「當年，我賭氣說要消滅人類，\n   結果到今天，很多民眾還堅持那一套。」',
-                             '<32>* 「只要人類被他們逮到，\n   不論年齡大小，都是死路一條。」',
-                             '<32>* 「只有把孩子限制在首塔高牆以內，\n   才能保證孩子的安全。」'
-                          ],
-                          [
-                             '<32>{#p/human}* （你翻到下一篇日記。）',
-                             '<32>{#p/asgore}* 「Asgore的日記，克歷535年4月。」',
-                             '<32>* 「又一個人類來到了這裡。」',
-                             '<32>* 「那孩子似乎很熟悉Gerson，\n   很熟悉行星理事會的成員。」',
-                             '<32>* 「我不禁問我自己。」\n   「為什麼？」',
-                             '<32>* 「這孩子，難不成\n   是聽戰爭故事長大的？」',
-                             '<32>* 「而且...\n   按照合約，只有人類軍方\n   知道我們的位置。」',
-                             '<32>* 「是他們把這孩子派了過來，\n   偵察我們，了解我們的現狀...\n   還是我們的位置已經暴露？」',
-                             '<32>* 「我希望是前者，\n   我希望我們仍然安全。」'
-                          ],
-                          [
-                             '<32>{#p/human}* （你翻到下一篇日記。）',
-                             '<32>{#p/asgore}* 「Asgore的日記，克歷549年7月。」',
-                             '<32>* 「上一篇日記寫完後不久，\n   又一個孩子墜落到這裡。」',
-                             '<32>* 「我和Thomas努力培養那孩子，\n   引導他早日參與科研工作。」',
-                             '<32>* 「每來一個孩子，\n   自由的希望就又堅定幾分。」',
-                             '<32>* 「我越發相信，\n   只要那群建築機器人不覺醒，\n   不推翻我們...」',
-                             '<32>* 「那我們的自由就指日可待。」'
-                          ],
-                          [
-                             '<32>{#p/human}* （你翻到下一篇日記。）',
-                             '<32>{#p/asgore}* 「Asgore的日記，克歷567年11月。」',
-                             '<32>* 「今天，我要跟第二個孩子道別了。」',
-                             '<32>* 「今年來了兩個孩子，\n   第一個馬上就進了『檔案』裡，\n   但另一個想再等一陣子。」',
-                             '<32>* 「從那孩子身上，\n   我學到了許多東西。」',
-                             '<32>* 「孩子太小，不太容易溝通。」',
-                             '<32>* 「但從他身上\n   我看到了$(name)的影子，\n   也漸漸理解了$(name)。」',
-                             '<32>* 「原來，怪物和人類還是挺像的。\n   之前都沒意識到。」'
-                          ],
-                          [
-                             '<32>{#p/human}* （你翻到下一篇日記。）',
-                             '<32>{#p/asgore}* 「Asgore的日記，克歷587年3月。」',
-                             '<32>* 「幾天前，\n   第六個人類抵達了這裡。」',
-                             '<32>* 「那孩子剛到不久，教授就去世了。\n   因此，我想提筆寫一篇日記。」',
-                             '<32>* 「Thomas Nue Roman。」\n  「幾天後，就是你的葬禮。」',
-                             '<32>* 「你的發明惠及這裡的每一個人，\n   我們會永遠銘記你。」',
-                             '<32>* 「就連最傲慢的衛隊新星，\n   都為你準備了悼詞。」'
-                          ],
-                          [
-                             '<32>{#p/human}* （你翻到下一篇日記。）',
-                             '<32>{#p/asgore}* 「Asgore的日記，克歷615年9月。」',
-                             '<32>* 「今天，距離那場可怕的災難\n   已過去整整一百年，\n   最後一個人類墜落於此。」',
-                             '<32>* 「突然間，嚮往已久的自由\n   卻變得令人生畏。」',
-                             '<32>* 「我們足足被困兩百年。」',
-                             '<32>* 「突然迎接自由，\n   怪物會不會如他所說，\n   『得意忘形』呢？」',
-                             '<32>* 「我們去往何方？」',
-                             '<32>* 「我們如何生存？」',
-                             '<32>* 「能否自力更生？」',
-                             '<32>* 「希望這些顧慮\n   很快就會消散。」'
-                          ],
-                          [ '<32>{#p/human}* （再往後，就都是空白了。）' ]
-                       ][i]
+                              '<32>* 「整個星系，\n   她連一艘人類星艦，一座太空站\n   都沒找到。」',
+                              '<32>* 「太反常了。」',
+                              '<32>* 「人類是不是出事了？」\n* 「還是說，他們忘了這個星系，\n   也忘了我們？」',
+                              '<32>* 「也許，我可以找Frisk\n   或其他孩子問問。」',
+                              '<32>* 「孩子們甦醒後，\n   其他怪物收養了他們。」',
+                              '<32>* 「有個孩子告訴我，\n   他們在檔案裡受盡了折磨，十分痛苦。」',
+                              '<32>* 「考慮到他們曾受過創傷，\n   我跟Alphys在幫他們挑選領養人時\n   都慎之又慎。」',
+                              '<32>* 「儘管現在有點難辦，\n   但只要他們都活著，\n   我們都打心底裡高興。」',
+                              '<32>* 「搜尋其他人類始終一無所獲。\n   也許... 這幾個孩子就是\n   人類最後的火種了。」'
+                           ]
+                           : [
+                              [
+                                 '<32>{#p/human}* （你看了一眼被標記的日記。）',
+                                 '<32>{#p/asgore}* 「Asgore的日記，克歷516年1月。」',
+                                 '<32>* 「在這艱難的時刻，\n   身邊卻一個夥伴都沒有，\n   只能聊以自慰。」',
+                                 '<32>* 「或許寫幾頁日記\n   能緩解一下我的傷痛。」',
+                                 '<32>* 「此刻，我心中五味雜陳。」',
+                                 '<32>* 「我很憤怒，\n   人類的所作所為，孩子們遭的罪...\n   想到這些，我氣不打一處來。」',
+                                 '<32>* 「我很內疚，\n   面對悲劇，自己卻那麼軟弱無能，\n   一點骨氣都沒有。」',
+                                 '<32>* 「我很悲傷，\n   不願相信，人生竟然如此殘酷，」',
+                                 '<32>* 「故園毀滅之後，\n   每每想到自己有一天能結婚生子，\n   組建家庭，就有了希望。」',
+                                 '<32>* 「可我的孩子死了，\n   就這麼死了。」',
+                                 '<32>* 「再怎麼看航行日誌，\n   結果都不會變。」',
+                                 '<32>* 「人死不能復生，事實就是事實。」',
+                                 '<32>{#p/basic}* 看起來，從這頁開始，\n  後面的日記就正常按\n  時間順序排了。'
+                              ],
+                              [
+                                 '<32>{#p/human}* （你翻到下一篇日記。）',
+                                 '<32>{#p/asgore}* 「Asgore的日記，克歷516年2月。」',
+                                 '<32>* 「今天，Gerson來看望我。」',
+                                 '<32>* 「他和我傾訴了自己的經歷。」',
+                                 '<32>* 「他講了在行星理事會的輝煌事業，\n   講了和家人的分別，\n   還講了自己身上的責任。」',
+                                 '<32>* 「他的故事觸動了我。」',
+                                 '<32>* 「我得去好好安慰安慰他，\n   日記就先寫到這吧，」'
+                              ],
+                              [
+                                 '<32>{#p/human}* （你翻到下一篇日記。）',
+                                 '<32>{#p/asgore}* 「Asgore的日記，克歷524年10月。」',
+                                 '<32>* 「$(name)死後，第一個人類\n   來到了前哨站。」',
+                                 '<32>* 「時間衝淡了怨恨，\n   怪物對人類的蔑視正逐漸平息...」',
+                                 '<32>* 「但表面的平靜之下暗流湧動。\n   他們嘴上不說，\n   可不代表真的就會饒了人類。」',
+                                 '<32>* 「我和Thomas雖盡力保證他們的安全，\n   但以二人之力對抗民眾談何容易。」',
+                                 '<32>* 「當年，我賭氣說要消滅人類，\n   結果到今天，很多民眾還堅持那一套。」',
+                                 '<32>* 「只要人類被他們逮到，\n   不論年齡大小，都是死路一條。」',
+                                 '<32>* 「只有把孩子限制在首塔高牆以內，\n   才能保證孩子的安全。」'
+                              ],
+                              [
+                                 '<32>{#p/human}* （你翻到下一篇日記。）',
+                                 '<32>{#p/asgore}* 「Asgore的日記，克歷535年4月。」',
+                                 '<32>* 「又一個人類來到了這裡。」',
+                                 '<32>* 「那孩子似乎很熟悉Gerson，\n   很熟悉行星理事會的成員。」',
+                                 '<32>* 「我不禁問我自己。」\n   「為什麼？」',
+                                 '<32>* 「這孩子，難不成\n   是聽戰爭故事長大的？」',
+                                 '<32>* 「而且...\n   按照合約，只有人類軍方\n   知道我們的位置。」',
+                                 '<32>* 「是他們把這孩子派了過來，\n   偵察我們，了解我們的現狀...\n   還是我們的位置已經暴露？」',
+                                 '<32>* 「我希望是前者，\n   我希望我們仍然安全。」'
+                              ],
+                              [
+                                 '<32>{#p/human}* （你翻到下一篇日記。）',
+                                 '<32>{#p/asgore}* 「Asgore的日記，克歷549年7月。」',
+                                 '<32>* 「上一篇日記寫完後不久，\n   又一個孩子墜落到這裡。」',
+                                 '<32>* 「我和Thomas努力培養那孩子，\n   引導他早日參與科研工作。」',
+                                 '<32>* 「每來一個孩子，\n   自由的希望就又堅定幾分。」',
+                                 '<32>* 「我越發相信，\n   只要那群建築機器人不覺醒，\n   不推翻我們...」',
+                                 '<32>* 「那我們的自由就指日可待。」'
+                              ],
+                              [
+                                 '<32>{#p/human}* （你翻到下一篇日記。）',
+                                 '<32>{#p/asgore}* 「Asgore的日記，克歷567年11月。」',
+                                 '<32>* 「今天，我要跟第二個孩子道別了。」',
+                                 '<32>* 「今年來了兩個孩子，\n   第一個馬上就進了『檔案』裡，\n   但另一個想再等一陣子。」',
+                                 '<32>* 「從那孩子身上，\n   我學到了許多東西。」',
+                                 '<32>* 「孩子太小，不太容易溝通。」',
+                                 '<32>* 「但從他身上\n   我看到了$(name)的影子，\n   也漸漸理解了$(name)。」',
+                                 '<32>* 「原來，怪物和人類還是挺像的。\n   之前都沒意識到。」'
+                              ],
+                              [
+                                 '<32>{#p/human}* （你翻到下一篇日記。）',
+                                 '<32>{#p/asgore}* 「Asgore的日記，克歷587年3月。」',
+                                 '<32>* 「幾天前，\n   第六個人類抵達了這裡。」',
+                                 '<32>* 「那孩子剛到不久，教授就去世了。\n   因此，我想提筆寫一篇日記。」',
+                                 '<32>* 「Thomas Nue Roman。」\n  「幾天後，就是你的葬禮。」',
+                                 '<32>* 「你的發明惠及這裡的每一個人，\n   我們會永遠銘記你。」',
+                                 '<32>* 「就連最傲慢的衛隊新星，\n   都為你準備了悼詞。」'
+                              ],
+                              [
+                                 '<32>{#p/human}* （你翻到下一篇日記。）',
+                                 '<32>{#p/asgore}* 「Asgore的日記，克歷615年9月。」',
+                                 '<32>* 「今天，距離那場可怕的災難\n   已過去整整一百年，\n   最後一個人類墜落於此。」',
+                                 '<32>* 「突然間，嚮往已久的自由\n   卻變得令人生畏。」',
+                                 '<32>* 「我們足足被困兩百年。」',
+                                 '<32>* 「突然迎接自由，\n   怪物會不會如他所說，\n   『得意忘形』呢？」',
+                                 '<32>* 「我們去往何方？」',
+                                 '<32>* 「我們如何生存？」',
+                                 '<32>* 「能否自力更生？」',
+                                 '<32>* 「希望這些顧慮\n   很快就會消散。」'
+                              ],
+                              ['<32>{#p/human}* （再往後，就都是空白了。）']
+                           ][i]
             )
          ),
          c_aa_bureau: () =>
             SAVE.data.b.svr
                ? [
-                    '<32>{#p/human}* （你往衣櫃裡瞅了一眼...）',
-                    ...[
-                       [ '<25>{#p/asriel1}{#f/19}* Looks like the humans got their clothes back.' ],
-                       [ '<25>{#p/asriel1}{#f/19}* ...', '<25>* I regret ever wondering why they were in here.' ],
-                       [
-                          '<25>{#p/asriel1}{#f/19}* I mean, it makes sense.',
-                          "<25>* Knowing how long they'd be in the archive.",
-                          '<25>* So... yeah.'
-                       ],
-                       [ '<25>{#p/asriel1}{#f/19}* ...' ]
-                    ][Math.min(asrielinter.c_aa_bureau++, 3)]
-                 ]
+                  '<32>{#p/human}* （你往衣櫃裡瞅了一眼...）',
+                  ...[
+                     ['<25>{#p/asriel1}{#f/19}* Looks like the humans got their clothes back.'],
+                     ['<25>{#p/asriel1}{#f/19}* ...', '<25>* I regret ever wondering why they were in here.'],
+                     [
+                        '<25>{#p/asriel1}{#f/19}* I mean, it makes sense.',
+                        "<25>* Knowing how long they'd be in the archive.",
+                        '<25>* So... yeah.'
+                     ],
+                     ['<25>{#p/asriel1}{#f/19}* ...']
+                  ][Math.min(asrielinter.c_aa_bureau++, 3)]
+               ]
                : SAVE.data.n.plot === 72 || world.genocide || world.bad_robot || world.trueKills > 29
-               ? [
-                    '<32>{#p/human}* （你往衣櫃裡瞅了一眼...）',
-                    '<32>{#p/basic}* 看起來，所有的衣服\n  剛剛都被拿走了。'
-                 ]
-               : [
-                    '<32>{#p/human}* （你往衣櫃裡瞅了一眼...）',
-                    "<32>{#p/basic}* 裡面掛滿了\n  各種奇怪的兒童服裝。"
-                 ],
+                  ? [
+                     '<32>{#p/human}* （你往衣櫃裡瞅了一眼...）',
+                     '<32>{#p/basic}* 看起來，所有的衣服\n  剛剛都被拿走了。'
+                  ]
+                  : [
+                     '<32>{#p/human}* （你往衣櫃裡瞅了一眼...）',
+                     "<32>{#p/basic}* 裡面掛滿了\n  各種奇怪的兒童服裝。"
+                  ],
          c_aa_macaroni: () =>
             SAVE.data.b.svr
                ? [
-                    [
-                       '<25>{#p/asriel1}{#f/17}* ... do you like it?',
-                       '<25>{#f/13}* This Starling flower was... the last thing I made for Dad.'
-                    ],
-                    [
-                       "<25>{#p/asriel1}{#f/17}* What I can say for certain is... $(name) wasn't a fan.",
-                       '<25>{#f/13}* They said \"stop making that stupid thing and get over here...\"',
-                       '<25>{#f/22}* That was the day we...',
-                       '<25>{#f/15}* ... you know.'
-                    ],
-                    [ '<25>{#p/asriel1}{#f/20}* Always remember the Starling flower made of faux-macaroni.' ]
-                 ][Math.min(asrielinter.c_aa_macaroni++, 2)]
+                  [
+                     '<25>{#p/asriel1}{#f/17}* ... do you like it?',
+                     '<25>{#f/13}* This Starling flower was... the last thing I made for Dad.'
+                  ],
+                  [
+                     "<25>{#p/asriel1}{#f/17}* What I can say for certain is... $(name) wasn't a fan.",
+                     '<25>{#f/13}* They said \"stop making that stupid thing and get over here...\"',
+                     '<25>{#f/22}* That was the day we...',
+                     '<25>{#f/15}* ... you know.'
+                  ],
+                  ['<25>{#p/asriel1}{#f/20}* Always remember the Starling flower made of faux-macaroni.']
+               ][Math.min(asrielinter.c_aa_macaroni++, 2)]
                : SAVE.data.b.oops
-               ? [ '<32>{#p/basic}* 一朵星花，\n  由乾燥的食材粘合而成。' ]
-               : [ '<32>{#p/basic}* It\'s Asriel\'s hand-made Starling flower.\n* It says \"For King Dad.\"' ],
+                  ? ['<32>{#p/basic}* 一朵星花，\n  由乾燥的食材粘合而成。']
+                  : ['<32>{#p/basic}* It\'s Asriel\'s hand-made Starling flower.\n* It says \"For King Dad.\"'],
          c_aa_underwear: () =>
             SAVE.data.n.plot === 72 && !SAVE.data.b.svr && !world.runaway
                ? []
                : [
-                    '<32>{#p/human}* （你往裡面瞅了瞅。）',
-                    ...(SAVE.data.b.svr
-                       ? [
-                            [ "<25>{#p/asriel1}{#f/17}* Frisk...\n* You're staring..." ],
-                            [ '<25>{#p/asriel1}{#f/13}* Frisk...\n* Please...' ],
-                            [ '<25>{#p/asriel1}{#f/15}* Frisk...\n* Why...' ],
-                            [ '<25>{#p/asriel1}{#f/15}* ...' ]
-                         ][Math.min(asrielinter.c_aa_underwear++, 3)]
-                       : world.genocide || world.bad_robot
-                       ? SAVE.data.b.c_state_switch1
-                          ? [ '<32>{#p/basic}* 沒什麼有價值的東西。' ]
-                          : [
-                               "<32>{#p/basic}* 裡面有個開關...",
-                               '<32>{#p/human}{#c.switch1}* （你按下了開關。）'
-                            ]
-                       : world.darker
-                       ? [ "<32>{#p/basic}* 只是個裝內褲的床頭櫃。" ]
-                       : [
-                            '<32>{#p/basic}* 真羞人！',
-                            "<33>{#p/basic}* 這是Asgore的床頭櫃。\n  裡面裝著他的內褲。\n* 沒想到居然這麼整潔。",
-                            '<33>{#p/basic}* ...大部分內褲\n  都是手工編織的粉色內褲。\n  上面鏽著「大老爹」三個字。'
-                         ])
-                 ]
+                  '<32>{#p/human}* （你往裡面瞅了瞅。）',
+                  ...(SAVE.data.b.svr
+                     ? [
+                        ["<25>{#p/asriel1}{#f/17}* Frisk...\n* You're staring..."],
+                        ['<25>{#p/asriel1}{#f/13}* Frisk...\n* Please...'],
+                        ['<25>{#p/asriel1}{#f/15}* Frisk...\n* Why...'],
+                        ['<25>{#p/asriel1}{#f/15}* ...']
+                     ][Math.min(asrielinter.c_aa_underwear++, 3)]
+                     : world.genocide || world.bad_robot
+                        ? SAVE.data.b.c_state_switch1
+                           ? ['<32>{#p/basic}* 沒什麼有價值的東西。']
+                           : [
+                              "<32>{#p/basic}* 裡面有個開關...",
+                              '<32>{#p/human}{#c.switch1}* （你按下了開關。）'
+                           ]
+                        : world.darker
+                           ? ["<32>{#p/basic}* 只是個裝內褲的床頭櫃。"]
+                           : [
+                              '<32>{#p/basic}* 真羞人！',
+                              "<33>{#p/basic}* 這是Asgore的床頭櫃。\n  裡面裝著他的內褲。\n* 沒想到居然這麼整潔。",
+                              '<33>{#p/basic}* ...大部分內褲\n  都是手工編織的粉色內褲。\n  上面鏽著「大老爹」三個字。'
+                           ])
+               ]
       }
    },
    b_opponent_alphys: {
-      artifact: [ '<32>{#p/human}* （Alphys看了一眼，隨即收回了目光。）' ],
+      artifact: ['<32>{#p/human}* （Alphys看了一眼，隨即收回了目光。）'],
       name: '* Alphys',
-      gotcha: [ '<20>{*}{#p/alphys}{#e/alphys/19}往哪裡跑？{^30}{%}' ],
-      act_check: [ '<32>{#p/asriel2}* Alphys。\n* 皇家科學員。' ],
+      gotcha: ['<20>{*}{#p/alphys}{#e/alphys/19}往哪裡跑？{^30}{%}'],
+      act_check: ['<32>{#p/asriel2}* Alphys。\n* 皇家科學員。'],
       act_asriel: (i: number) => [
          ...[
             [
                '<32>{#p/asriel2}* 終於，我可以稍微駕馭\n  這副新身體的力量了...',
                "<32>{#p/asriel2}* 就讓她好好瞧瞧我真正的力量吧。"
             ],
-            [ "<32>{#p/asriel2}* 記住，連著兩次施放同一種法術的話，\n  魔力會減弱。" ],
-            [ '<32>{#p/asriel2}* 記住，混合施放多種法術。' ],
+            ["<32>{#p/asriel2}* 記住，連著兩次施放同一種法術的話，\n  魔力會減弱。"],
+            ['<32>{#p/asriel2}* 記住，混合施放多種法術。'],
             []
          ][Math.min(SAVE.flag.n.ga_asrielAssist++, 3)],
          choicer.create(
@@ -4758,40 +4758,40 @@ export default {
          )
       ],
       act_asriel_text: [
-         [ '<32>{#p/human}* （Asriel將手放在你的額頭上，\n  將一股力量注入你的身體。）' ],
-         [ '<32>{#p/human}* （Asriel將手放在你的額頭上，\n  低語了一段古老的咒文。）' ],
-         [ '<32>{#p/human}* （Asriel將手放在你的額頭上，\n  唱了一首古老的搖籃曲。）' ],
-         [ '<32>{#p/human}* （Asriel將手放在你的額頭上，\n  在你周圍築起一道保護光環。）' ]
+         ['<32>{#p/human}* （Asriel將手放在你的額頭上，\n  將一股力量注入你的身體。）'],
+         ['<32>{#p/human}* （Asriel將手放在你的額頭上，\n  低語了一段古老的咒文。）'],
+         ['<32>{#p/human}* （Asriel將手放在你的額頭上，\n  唱了一首古老的搖籃曲。）'],
+         ['<32>{#p/human}* （Asriel將手放在你的額頭上，\n  在你周圍築起一道保護光環。）']
       ],
       act_asriel_confirm: [
-         [ '<32>{#p/story}* 本回合，你的專注力提升！' ],
-         [ '<32>{#p/story}* 本回合，你的無敵幀延長！' ],
-         [ '<32>{#p/story}* 本回合，你的自愈力提升！' ],
-         [ '<32>{#p/story}* 本回合，你的防禦力提升！' ]
+         ['<32>{#p/story}* 本回合，你的專注力提升！'],
+         ['<32>{#p/story}* 本回合，你的無敵幀延長！'],
+         ['<32>{#p/story}* 本回合，你的自愈力提升！'],
+         ['<32>{#p/story}* 本回合，你的防禦力提升！']
       ],
-      epiphaNOPE: [ '<20>{#p/alphys}{#e/alphys/19}想得美。' ],
-      statusX: [ '<32>{#p/asriel2}* ...' ],
-      statusY: [ "<32>{#p/asriel2}* 她快死了！\n* 繼續攻擊！" ],
-      status1a: [ '<32>{#p/asriel2}* Alphys...' ],
+      epiphaNOPE: ['<20>{#p/alphys}{#e/alphys/19}想得美。'],
+      statusX: ['<32>{#p/asriel2}* ...'],
+      statusY: ["<32>{#p/asriel2}* 她快死了！\n* 繼續攻擊！"],
+      status1a: ['<32>{#p/asriel2}* Alphys...'],
       status1r: () =>
          [
-            [ '<32>{#p/asriel2}* If you need my help, just ask.' ],
-            [ "<32>{#p/asriel2}* I'll be here if you need my help." ],
-            [ '<32>{#p/asriel2}* 做你該做的事。' ]
+            ['<32>{#p/asriel2}* If you need my help, just ask.'],
+            ["<32>{#p/asriel2}* I'll be here if you need my help."],
+            ['<32>{#p/asriel2}* 做你該做的事。']
          ][Math.min(SAVE.flag.n.ga_asrielAlphysHint++, 2)],
-      status1b: [ "<33>{#p/asriel2}* 她竟然沒逃跑...\n* 有意思。" ],
-      status1c: [ '<32>{#p/asriel2}* 做你該做的事，懂吧。' ],
-      status1d: [ "<32>{#p/asriel2}* 嘿...\n* 你看她是不是有點累了？" ],
-      status2a: [ "<32>{#p/asriel2}* 怎麼了，Alphys？\n* 撐不住了？" ],
-      status2r1: [ '<32>{#p/asriel2}* 呃，再聽一遍吧...' ],
-      status2b: [ '<32>{#p/asriel2}* 來，讓我們好好聽聽\n  你的悽慘故事。' ],
-      status2c: [ "<32>{#p/asriel2}* 你竟然沒貫徹逃跑精神，\n  我可真驚訝呢。" ],
-      status2d: [ '<32>{#p/asriel2}* 故事真精彩呢，「愛妃死」博士。' ],
-      status2e: [ '<32>{#p/asriel2}* ...？' ],
-      status2r2: [ "<32>{#p/asriel2}* 準備好，戰鬥形勢要變了。" ],
-      status3a: [ '<32>{#p/asriel2}* 好... 形勢嚴峻起來了。' ],
-      status3b: [ "<32>{#p/asriel2}* ...看來Alphys放棄防禦了。\n* 抓住這個機會！" ],
-      status3c: [ '<32>{#p/asriel2}* 堅持住，$(name)...' ],
+      status1b: ["<33>{#p/asriel2}* 她竟然沒逃跑...\n* 有意思。"],
+      status1c: ['<32>{#p/asriel2}* 做你該做的事，懂吧。'],
+      status1d: ["<32>{#p/asriel2}* 嘿...\n* 你看她是不是有點累了？"],
+      status2a: ["<32>{#p/asriel2}* 怎麼了，Alphys？\n* 撐不住了？"],
+      status2r1: ['<32>{#p/asriel2}* 呃，再聽一遍吧...'],
+      status2b: ['<32>{#p/asriel2}* 來，讓我們好好聽聽\n  你的悽慘故事。'],
+      status2c: ["<32>{#p/asriel2}* 你竟然沒貫徹逃跑精神，\n  我可真驚訝呢。"],
+      status2d: ['<32>{#p/asriel2}* 故事真精彩呢，「愛妃死」博士。'],
+      status2e: ['<32>{#p/asriel2}* ...？'],
+      status2r2: ["<32>{#p/asriel2}* 準備好，戰鬥形勢要變了。"],
+      status3a: ['<32>{#p/asriel2}* 好... 形勢嚴峻起來了。'],
+      status3b: ["<32>{#p/asriel2}* ...看來Alphys放棄防禦了。\n* 抓住這個機會！"],
+      status3c: ['<32>{#p/asriel2}* 堅持住，$(name)...'],
       turnTalk1a: [
          "<20>{#p/alphys}{#e/alphys/19}要是連一下都扛不住，\n我怎麼可能來這？",
          '<20>{#p/alphys}{#e/alphys/23}看來，\n是高估你們的智商了。'
@@ -4849,8 +4849,8 @@ export default {
          "<20>{#p/alphys}{#f/alphys/18}果真如此的話，\n那其他人真得小心了。",
          "<21>{#e/alphys/23}如果一個人能為所欲為，\n還不用承擔任何過錯，\n那他怎麼可能\n在乎別人的感受呢？"
       ],
-      turnTalk11: [ '<20>{#z1}{#p/alphys}{#e/alphys/21}...', '<21>{#e/alphys/39}讓我歇歇。' ],
-      broken: [ '<20>{*}{#p/alphys}{#e/alphys/45}謝了。{^20}{%}' ],
+      turnTalk11: ['<20>{#z1}{#p/alphys}{#e/alphys/21}...', '<21>{#e/alphys/39}讓我歇歇。'],
+      broken: ['<20>{*}{#p/alphys}{#e/alphys/45}謝了。{^20}{%}'],
       turnTalk12: [
          "<20>{#z2}{#p/alphys}{#e/alphys/7}Undyne犧牲後，\n我不知道該怎麼辦。",
          '<20>{#e/alphys/46}我馬上逃離了實驗室，\n希望逃得越遠越好。'
@@ -4875,49 +4875,49 @@ export default {
          '<20>{*}{#z4}{#e/alphys/54}哪怕...{^10}{%}',
          '<20>{*}{#e/alphys/25}我會因此瘋掉！{^10}{%}'
       ],
-      turnTalk17: [ '<20>{#p/alphys}{#e/alphys/25}接招！！' ],
-      turnTalk18: [ '<20>{#p/alphys}{#e/alphys/25}再來！！' ],
-      turnTalk19: [ '<20>{#p/alphys}{#e/alphys/25}再來這招！！' ],
-      turnTalk20: [ '<20>{#p/alphys}{#e/alphys/24}哈哈哈...' ],
-      turnTalk21: [ '<20>{#p/alphys}{#e/alphys/26}...' ],
-      turnTalk22: [ '<20>{#p/alphys}{#e/alphys/27}給我去死！！' ],
-      turnTalk23: [ '<20>{#p/alphys}{#e/alphys/27}...' ],
+      turnTalk17: ['<20>{#p/alphys}{#e/alphys/25}接招！！'],
+      turnTalk18: ['<20>{#p/alphys}{#e/alphys/25}再來！！'],
+      turnTalk19: ['<20>{#p/alphys}{#e/alphys/25}再來這招！！'],
+      turnTalk20: ['<20>{#p/alphys}{#e/alphys/24}哈哈哈...'],
+      turnTalk21: ['<20>{#p/alphys}{#e/alphys/26}...'],
+      turnTalk22: ['<20>{#p/alphys}{#e/alphys/27}給我去死！！'],
+      turnTalk23: ['<20>{#p/alphys}{#e/alphys/27}...'],
       done0: (b: boolean) =>
          b
-            ? [ '<20>{*}{#p/alphys}{#e/alphys/42}不...{^40}{%}', '<20>{*}{#e/alphys/43}這麼快我就...{^40}{%}' ]
-            : [ '<20>{*}{#p/alphys}{#e/alphys/42}不...{^40}{%}', '<20>{*}{#e/alphys/43}你們...{^40}{%}' ],
+            ? ['<20>{*}{#p/alphys}{#e/alphys/42}不...{^40}{%}', '<20>{*}{#e/alphys/43}這麼快我就...{^40}{%}']
+            : ['<20>{*}{#p/alphys}{#e/alphys/42}不...{^40}{%}', '<20>{*}{#e/alphys/43}你們...{^40}{%}'],
       done1: (b: boolean) =>
          b
-            ? [ "<20>{*}沒-沒想到你們這麼強...{^40}{%}", '<20>{*}我現在明白了，\n與你們為敵...{^40}{%}' ]
-            : [ "<20>{*}我是不是...\n快-快要死了？{^40}{%}", '<20>{*}盡了全力，還是...{^40}{%}' ],
+            ? ["<20>{*}沒-沒想到你們這麼強...{^40}{%}", '<20>{*}我現在明白了，\n與你們為敵...{^40}{%}']
+            : ["<20>{*}我是不是...\n快-快要死了？{^40}{%}", '<20>{*}盡了全力，還是...{^40}{%}'],
       done2: (b: boolean) =>
-         b ? [ '<20>{*}{#p/alphys}根本毫無勝算。{^40}{%}' ] : [ "<20>{*}{#p/alphys}Asgore，我對不起你。{^40}{%}" ]
+         b ? ['<20>{*}{#p/alphys}根本毫無勝算。{^40}{%}'] : ["<20>{*}{#p/alphys}Asgore，我對不起你。{^40}{%}"]
    },
    b_opponent_archive1: {
       name: () => (battler.volatile[0].sparable ? '* Toriel' : '* 546f7269656c'),
-      status0: [ '<32>{#p/human}* （此刻，546f7269656c\n  正站在你的面前。）' ],
-      status1: [ '<32>{#p/human}* （看起來，要按特定的順序行動，\n  546f7269656c才能完成任務。）' ],
+      status0: ['<32>{#p/human}* （此刻，546f7269656c\n  正站在你的面前。）'],
+      status1: ['<32>{#p/human}* （看起來，要按特定的順序行動，\n  546f7269656c才能完成任務。）'],
 
-      act_dinnertimeX: [ '<32>{#p/human}* （可是，你已經吃過晚餐了。）' ],
-      dinnerTalk: [ '<11>{#p/toriel}孩子，\n{@fill=#42fcff}{@mystify=吃慢點吃漫奌}吃慢點{@mystify=}{@fill=#ffffff}。' ],
-      dinnerStatus: [ '<32>{#p/human}* （看起來，546f7269656c\n  想給你讀點什麼。）' ],
+      act_dinnertimeX: ['<32>{#p/human}* （可是，你已經吃過晚餐了。）'],
+      dinnerTalk: ['<11>{#p/toriel}孩子，\n{@fill=#42fcff}{@mystify=吃慢點吃漫奌}吃慢點{@mystify=}{@fill=#ffffff}。'],
+      dinnerStatus: ['<32>{#p/human}* （看起來，546f7269656c\n  想給你讀點什麼。）'],
 
-      act_storytimeX: [ '<32>{#p/human}* （可是，你們已經讀完故事了。）' ],
-      act_storytimeE: [ '<32>{#p/human}* （可是，546f7269656c\n  現在還不想給你讀故事。）' ],
+      act_storytimeX: ['<32>{#p/human}* （可是，你們已經讀完故事了。）'],
+      act_storytimeE: ['<32>{#p/human}* （可是，546f7269656c\n  現在還不想給你讀故事。）'],
       storyTalk: [
          '<11>{#p/toriel}從前，\n有一隻{@fill=#42fcff}{@mystify=怪物聖忽恠㹅徑勿}怪物{@mystify=}{@fill=#ffffff}...'
       ],
-      storyStatus: [ '<32>{#p/human}* （546f7269656c\n  還想為你做一件事。）' ],
+      storyStatus: ['<32>{#p/human}* （546f7269656c\n  還想為你做一件事。）'],
 
-      act_bedtimeX: [ '<32>{#p/human}* （可是，她已經哄過你了。）' ],
-      act_bedtimeE: [ '<32>{#p/human}* （可是，546f7269656c\n  現在和不想哄你睡覺。）' ],
-      bedTalk: [ '<11>{#p/toriel}孩子，晚安。' ],
-      bedStatus: [ '<32>{#p/human}* （Toriel完成了自己的使命。）' ],
+      act_bedtimeX: ['<32>{#p/human}* （可是，她已經哄過你了。）'],
+      act_bedtimeE: ['<32>{#p/human}* （可是，546f7269656c\n  現在和不想哄你睡覺。）'],
+      bedTalk: ['<11>{#p/toriel}孩子，晚安。'],
+      bedStatus: ['<32>{#p/human}* （Toriel完成了自己的使命。）'],
 
-      act_talkE: [ "<32>{#p/human}* （可是，546f7269656c\n  還沒有完成她的使命。）" ],
-      act_talkN: [ '<32>{#p/human}* （在消散前，Toriel送給你\n  一則人生心得。）' ],
+      act_talkE: ["<32>{#p/human}* （可是，546f7269656c\n  還沒有完成她的使命。）"],
+      act_talkN: ['<32>{#p/human}* （在消散前，Toriel送給你\n  一則人生心得。）'],
 
-      act_puzzlehelp: [ '<32>{#p/human}* （可是，謎題都解完了。）' ],
+      act_puzzlehelp: ['<32>{#p/human}* （可是，謎題都解完了。）'],
       puzzlehelpTalk1: [
          '<11>{#p/toriel}孩子，\n你{@fill=#42fcff}{@mystify=餓餓不我鈽芣々}餓不餓{@mystify=}{@fill=#ffffff}？'
       ],
@@ -4930,11 +4930,11 @@ export default {
    },
    b_opponent_archive2: {
       name: () => (battler.volatile[0].sparable ? '* Gerson' : '* 476572736f6e'),
-      status0: [ '<32>{#p/human}* （476572736f6e\n  正站在訓練場的對面。）' ],
-      status1: [ '<32>{#p/human}* （476572736f6e讓你先出招。）' ],
+      status0: ['<32>{#p/human}* （476572736f6e\n  正站在訓練場的對面。）'],
+      status1: ['<32>{#p/human}* （476572736f6e讓你先出招。）'],
 
-      act_challengeX: [ '<32>{#p/human}* （可是，你已經通過挑戰了。）' ],
-      act_challengeR: [ '<32>{#p/human}* （可是，失敗之後，你需要休息。）' ],
+      act_challengeX: ['<32>{#p/human}* （可是，你已經通過挑戰了。）'],
+      act_challengeR: ['<32>{#p/human}* （可是，失敗之後，你需要休息。）'],
       challengeTalk: [
          '<11>{#p/basic}心懷{@fill=#ff993d}{@mystify=勇氣勈氣甬気力乞}勇氣{@mystify=}{@fill=#ffffff}，\n才能克服恐懼。'
       ],
@@ -4942,21 +4942,21 @@ export default {
       challengeFail: [
          '<11>{*}{#p/basic}不合格！\n下回{@fill=#ff993d}{@mystify=專注專註傳主摶宔}專注{@mystify=}{@fill=#ffffff}\n一點！{^30}{%}'
       ],
-      failStatus: [ "<32>{#p/human}* （476572736f6e覺得\n  你應該休息一下。）" ],
-      successStatus: [ '<32>{#p/human}* （Gerson完成了自己的使命。）' ],
+      failStatus: ["<32>{#p/human}* （476572736f6e覺得\n  你應該休息一下。）"],
+      successStatus: ['<32>{#p/human}* （Gerson完成了自己的使命。）'],
 
-      act_restA: [ '<32>{#p/human}* （可是，你現在還不累。）' ],
+      act_restA: ['<32>{#p/human}* （可是，你現在還不累。）'],
       restTalk: [
          '<11>{#p/basic}一名\n夠格的{@fill=#ff993d}{@mystify=英雄偀䧺央隹䇦難}英雄{@mystify=}{@fill=#ffffff}\n絕不會逞強。'
       ],
-      restStatus: [ '<32>{#p/human}* （476572736f6e很期待\n  你下回出什麼招。）' ],
+      restStatus: ['<32>{#p/human}* （476572736f6e很期待\n  你下回出什麼招。）'],
 
-      act_handshakeE: [ "<32>{#p/human}* （可是，476572736f6e對你的\n  一對一訓練還未結束。）" ],
-      act_handshakeN: [ '<32>{#p/human}* （在消散前，Gerson把最喜歡的\n  握手方式教給了你。）' ],
+      act_handshakeE: ["<32>{#p/human}* （可是，476572736f6e對你的\n  一對一訓練還未結束。）"],
+      act_handshakeN: ['<32>{#p/human}* （在消散前，Gerson把最喜歡的\n  握手方式教給了你。）'],
 
-      act_taunt: [ '<32>{#p/human}* （可是，476572736f6e\n  無視了你的手勢。）' ],
+      act_taunt: ['<32>{#p/human}* （可是，476572736f6e\n  無視了你的手勢。）'],
 
-      act_advice: [ '<32>{#p/human}* （可是，他已經把所有建議\n  都告訴你了。）' ],
+      act_advice: ['<32>{#p/human}* （可是，他已經把所有建議\n  都告訴你了。）'],
       adviceTalk1: [
          '<11>{#p/basic}做事，\n一定要{@fill=#ff993d}{@mystify=果斷菓斷課顆䉼畨}果斷{@mystify=}{@fill=#ffffff}。'
       ],
@@ -4969,36 +4969,36 @@ export default {
    },
    b_opponent_archive3: {
       name: () => (battler.volatile[0].sparable ? '* Roman教授' : '* 526f6d616ee69599e68e88'),
-      status0: [ '<32>{#p/human}* （現在，\n  是526f6d616ee69599e68e88\n  掌控著大局。）' ],
-      status1: [ '<32>{#p/human}* （526f6d616ee69599e68e88\n  想在你身上做些實驗。）' ],
+      status0: ['<32>{#p/human}* （現在，\n  是526f6d616ee69599e68e88\n  掌控著大局。）'],
+      status1: ['<32>{#p/human}* （526f6d616ee69599e68e88\n  想在你身上做些實驗。）'],
 
-      act_object: [ '<32>{#p/human}* （可是，你的請求立刻被駁回了。）' ],
+      act_object: ['<32>{#p/human}* （可是，你的請求立刻被駁回了。）'],
 
-      act_testX: [ '<32>{#p/human}* （可是，你已經做過這個實驗了。）' ],
-      testTalkA: [ '<11>請{#p/basic}{@fill=#003cff}{@mystify=站著別動}站著別動{@mystify=}{@fill=#ffffff}...' ],
-      testTalkB: [ '<11>{#p/basic}{@fill=#003cff}{@mystify=好戲奸妙對戈戔奴}好戲{@mystify=}{@fill=#ffffff}\n才剛剛開始。' ],
+      act_testX: ['<32>{#p/human}* （可是，你已經做過這個實驗了。）'],
+      testTalkA: ['<11>請{#p/basic}{@fill=#003cff}{@mystify=站著別動}站著別動{@mystify=}{@fill=#ffffff}...'],
+      testTalkB: ['<11>{#p/basic}{@fill=#003cff}{@mystify=好戲奸妙對戈戔奴}好戲{@mystify=}{@fill=#ffffff}\n才剛剛開始。'],
       testTalkC: [
          '<11>{#p/basic}看，這就是\n探尋真理的\n{@fill=#003cff}{@mystify=力量仂哩艻童劜裡}力量{@mystify=}{@fill=#ffffff}。'
       ],
-      testStatus1: [ '<32>{#p/human}* （526f6d616ee69599e68e88\n  準備進行下一場實驗了。）' ],
-      testStatus2: [ '<32>{#p/human}* （Roman教授完成了他的使命。）' ],
+      testStatus1: ['<32>{#p/human}* （526f6d616ee69599e68e88\n  準備進行下一場實驗了。）'],
+      testStatus2: ['<32>{#p/human}* （Roman教授完成了他的使命。）'],
 
-      act_notesE: [ "<32>{#p/human}* （可是，526f6d616ee69599e68e88\n  還不想跟你交換筆記。）" ],
-      act_notesN: [ '<32>{#p/human}* （在消散前，Roman教授把筆記\n  交給了你。）' ]
+      act_notesE: ["<32>{#p/human}* （可是，526f6d616ee69599e68e88\n  還不想跟你交換筆記。）"],
+      act_notesN: ['<32>{#p/human}* （在消散前，Roman教授把筆記\n  交給了你。）']
    },
    b_opponent_archive4: {
       name: () => (battler.volatile[0].sparable ? '* Napstablook' : '* 4e6170737461626c6f6f6b'),
-      status0: [ '<32>{#p/human}* （4e6170737461626c6f6f6b\n  正飄在電腦旁。）' ],
-      status1: [ '<32>{#p/human}* （4e6170737461626c6f6f6b\n  想寫一首新曲子。）' ],
+      status0: ['<32>{#p/human}* （4e6170737461626c6f6f6b\n  正飄在電腦旁。）'],
+      status1: ['<32>{#p/human}* （4e6170737461626c6f6f6b\n  想寫一首新曲子。）'],
 
-      act_sampleX: [ '<32>{#p/human}* （可是，你採集的音訊樣本\n  已經夠用了。）' ],
+      act_sampleX: ['<32>{#p/human}* （可是，你採集的音訊樣本\n  已經夠用了。）'],
       sampleTalk: [
          '<11>{#p/napstablook}這個音色\n效果應該\n{@fill=#d535d9}{@mystify=不錯鈽錯芣昔否剒}不錯{@mystify=}{@fill=#ffffff}...'
       ],
-      sampleStatus: [ '<32>{#p/human}* （4e6170737461626c6f6f6b\n  要開始作曲了。）' ],
+      sampleStatus: ['<32>{#p/human}* （4e6170737461626c6f6f6b\n  要開始作曲了。）'],
 
-      act_composeX: [ '<32>{#p/human}* （但你已經作完曲了。）' ],
-      act_composeE: [ '<32>{#p/human}* （但你還沒有採樣，\n  音訊樣本不夠，無法作曲。）' ],
+      act_composeX: ['<32>{#p/human}* （但你已經作完曲了。）'],
+      act_composeE: ['<32>{#p/human}* （但你還沒有採樣，\n  音訊樣本不夠，無法作曲。）'],
       composeTalk: [
          "<11>{#p/napstablook}來{@fill=#d535d9}{@mystify=聽口斤々}聽聽{@mystify=}{@fill=#ffffff}\n這首怎麼樣..."
       ],
@@ -5006,11 +5006,11 @@ export default {
       composeFail: [
          '<11>{*}{#p/napstablook}唉...\n{@fill=#d535d9}{@mystify=再來一遍}再來一遍{@mystify=}{@fill=#ffffff}吧...{^30}{%}'
       ],
-      failStatus: [ '<32>{#p/human}* （4e6170737461626c6f6f6b\n  想再試一次。）' ],
-      composeStatus: [ '<32>{#p/human}* （4e6170737461626c6f6f6b\n  現在要開始混音了。）' ],
+      failStatus: ['<32>{#p/human}* （4e6170737461626c6f6f6b\n  想再試一次。）'],
+      composeStatus: ['<32>{#p/human}* （4e6170737461626c6f6f6b\n  現在要開始混音了。）'],
 
-      act_mixX: [ '<32>{#p/human}* （可是，混音已經完成了。）' ],
-      act_mixE: [ '<32>{#p/human}* （可是，你還沒有創作曲子，\n  缺少混音素材。）' ],
+      act_mixX: ['<32>{#p/human}* （可是，混音已經完成了。）'],
+      act_mixE: ['<32>{#p/human}* （可是，你還沒有創作曲子，\n  缺少混音素材。）'],
       mixTalk: [
          '<11>{#p/napstablook}我得保證\n各聲部音量\n相互{@fill=#d535d9}{@mystify=平衡幹衙羋行彳魚}平衡{@mystify=}{@fill=#ffffff}...'
       ],
@@ -5018,27 +5018,27 @@ export default {
       mixFail: [
          "<11>{*}{#p/napstablook}喔...\n看來咱們要\n{@fill=#d535d9}{@mystify=重新混音}重新混音{@mystify=}{@fill=#ffffff}了...{^30}{%}"
       ],
-      successStatus: [ '<32>{#p/human}* （Napstablook完成了它的使命。）' ],
+      successStatus: ['<32>{#p/human}* （Napstablook完成了它的使命。）'],
 
-      act_secretE: [ "<32>{#p/human}* （可是，4e6170737461626c6f6f6b\n  還不想把秘密告訴你。）" ],
-      act_secretN: [ '<32>{#p/human}* （在消散前，Napstablook\n  告訴你一個秘密。）' ],
+      act_secretE: ["<32>{#p/human}* （可是，4e6170737461626c6f6f6b\n  還不想把秘密告訴你。）"],
+      act_secretN: ['<32>{#p/human}* （在消散前，Napstablook\n  告訴你一個秘密。）'],
 
-      act_praise: [ '<32>{#p/human}* （可是，它太自卑了，\n  沒聽到你的讚美。）' ]
+      act_praise: ['<32>{#p/human}* （可是，它太自卑了，\n  沒聽到你的讚美。）']
    },
    b_opponent_archive5: {
       name: () => (battler.volatile[0].sparable ? '* Asgore' : '* 4173676f7265'),
-      status0: [ '<32>{#p/human}* （4173676f7265\n  身材魁梧，站在你的面前。）' ],
-      status1: [ '<32>{#p/human}* （4173676f7265\n  只有一件事有求於你。）' ],
+      status0: ['<32>{#p/human}* （4173676f7265\n  身材魁梧，站在你的面前。）'],
+      status1: ['<32>{#p/human}* （4173676f7265\n  只有一件事有求於你。）'],
 
-      act_hugX: [ '<32>{#p/human}* （可是，沒必要再抱他一次了。）' ],
-      hugTalk: [ '<11>{#p/asgore}孩子，謝謝你。' ],
-      hugStatus: [ '<32>{#p/human}* （Asgore完成了他的使命。）' ],
+      act_hugX: ['<32>{#p/human}* （可是，沒必要再抱他一次了。）'],
+      hugTalk: ['<11>{#p/asgore}孩子，謝謝你。'],
+      hugStatus: ['<32>{#p/human}* （Asgore完成了他的使命。）'],
 
-      act_promiseE: [ "<32>{#p/human}* （可是，4173676f7265\n  還有任務在身。）" ],
-      act_promiseN: [ '<32>{#p/human}* （在消散前，\n  Asgore向你做了個承諾。）' ]
+      act_promiseE: ["<32>{#p/human}* （可是，4173676f7265\n  還有任務在身。）"],
+      act_promiseN: ['<32>{#p/human}* （在消散前，\n  Asgore向你做了個承諾。）']
    },
    b_opponent_asriel: {
-      artifact: [ "<32>{#p/human}* （似乎Asriel對它沒什麼興趣。）" ],
+      artifact: ["<32>{#p/human}* （似乎Asriel對它沒什麼興趣。）"],
       refuse: '{*}{#p/event}{#i/3}但是它拒絕了。',
       name: () =>
          battler.volatile[0].container.objects[0]?.metadata.power === true
@@ -5048,23 +5048,23 @@ export default {
          0,
          (power = false) =>
             power
-               ? [ '<32>{#p/story}* Asriel準備施放「裂空飛星」。' ]
+               ? ['<32>{#p/story}* Asriel準備施放「裂空飛星」。']
                : SAVE.data.b.oops
-               ? [ "<32>{#p/story}* 這裡就是終點了。" ]
-               : [ '<32>{#p/basic}* Asriel...？' ],
+                  ? ["<32>{#p/story}* 這裡就是終點了。"]
+                  : ['<32>{#p/basic}* Asriel...？'],
          (power = false) =>
             power
-               ? [ '<32>{#p/story}* Asriel準備施放「裂空飛星」。' ]
+               ? ['<32>{#p/story}* Asriel準備施放「裂空飛星」。']
                : SAVE.data.b.oops
-               ? [ "<32>{#p/story}* 這裡就是終點了。" ]
-               : [ '<32>{#p/basic}* ...' ]
+                  ? ["<32>{#p/story}* 這裡就是終點了。"]
+                  : ['<32>{#p/basic}* ...']
       ),
       act_check: () =>
          SAVE.data.b.oops
             ? [
-                 '<32>{#p/story}* ASRIEL DREEMURR 攻擊{^2}\u221e{^1} 防禦{^2}\u221e{^1}\n* 藉由哨站靈魂凝心聚力\n  鑄成傳奇之軀。'
-              ]
-            : [ '<32>{#p/story}* ASRIEL DREEMURR 攻擊{^2}\u221e{^1} 防禦{^2}\u221e{^1}\n* ...' ],
+               '<32>{#p/story}* ASRIEL DREEMURR 攻擊{^2}\u221e{^1} 防禦{^2}\u221e{^1}\n* 藉由哨站靈魂凝心聚力\n  鑄成傳奇之軀。'
+            ]
+            : ['<32>{#p/story}* ASRIEL DREEMURR 攻擊{^2}\u221e{^1} 防禦{^2}\u221e{^1}\n* ...'],
       act_hope: [
          '<32>{#p/human}* （你緊握希望。）\n* （你感覺有一股無形之力\n  保護著身體。）',
          '<32>{#p/story}* 本回合，你的防禦力提升！'
@@ -5073,7 +5073,7 @@ export default {
          "<32>{#p/human}* （你回想起自己為何站立於此。）\n* （你感覺到自己的傷口\n  正逐漸癒合。）",
          '<32>{#p/story}* 本回合，你的自愈力提升！'
       ],
-      act_flirt1: [ '<32>{#p/human}* （你向Asriel調情。）\n* （什麼都沒發生。）' ],
+      act_flirt1: ['<32>{#p/human}* （你向Asriel調情。）\n* （什麼都沒發生。）'],
       act_flirt2: [
          '<32>{#p/human}* （你向Asriel調情。）\n  （又跟他身體裡的每個靈魂調情。）',
          '<32>{#p/basic}* 那神情，在Asriel的靈魂深處\n  不停迴響...',
@@ -5081,165 +5081,165 @@ export default {
       ],
       act_pet: (count: number) =>
          SAVE.flag.n.pacifist_marker === 8
-            ? [ "<32>{#p/human}* （你想摸摸Asriel，\n  但他離你太遠了，夠不著。）" ]
+            ? ["<32>{#p/human}* （你想摸摸Asriel，\n  但他離你太遠了，夠不著。）"]
             : [
-                 ...[
-                    [ "<32>{#p/human}* （你摸了摸Asriel。）\n* （他好像有點手足無措。）" ],
-                    [ "<32>{#p/human}* （你又摸了摸Asriel。）\n* （他更加手足無措了。）" ],
-                    [ "<32>{#p/human}* （你捋了捋Asriel的毛。）\n* （Asriel臉紅了，\n  避開了你的目光。）" ],
-                    [ "<32>{#p/human}* （你揉了揉Asriel的頭。）\n* （他竭力掩藏自己的喜悅。）" ],
-                    [ "<32>{#p/human}* （你撓了撓Asriel的脖子。）\n* （他很享受，但沒表現出來。）" ],
-                    [
-                       "<32>{#p/human}* （你不停玩弄Asriel的耳朵。）\n* （他十分後悔自己居然樂在其中。）"
-                    ],
-                    [ "<32>{#p/human}* （你拍了拍Asriel的脊背。）\n* （他開始疑惑你到底想幹什麼。）" ],
-                    [
-                       "<32>{#p/human}* （你緊緊摟住了Asriel的腿。）\n* （他被你一連串的親暱舉動\n  嚇愣了。）"
-                    ],
-                    [
-                       "<32>{#p/human}* （你捏了捏Asriel的爪子。）\n* （Asriel沒有反抗，任由你擺布。）"
-                    ],
-                    [ "<32>{#p/human}* （你跟Asriel碰了碰鼻。）\n* （Asriel徹底放棄抵抗了。）" ],
-                    [ "<32>{#p/human}* （你溫柔地撫摸Asriel的臉蛋。）\n* （他似乎想起了某位故人。）" ],
-                    [ '<32>{#p/human}* （你繼續撫摸Asriel。）\n* （他輕聲嘆息。）' ],
-                    [ '<32>{#p/human}* （你繼續撫摸Asriel。）\n* （他輕聲嘆息。）' ]
-                 ][count],
-                 "<32>{#p/story}* 本回合，Asriel的攻擊力下降！"
-              ],
+               ...[
+                  ["<32>{#p/human}* （你摸了摸Asriel。）\n* （他好像有點手足無措。）"],
+                  ["<32>{#p/human}* （你又摸了摸Asriel。）\n* （他更加手足無措了。）"],
+                  ["<32>{#p/human}* （你捋了捋Asriel的毛。）\n* （Asriel臉紅了，\n  避開了你的目光。）"],
+                  ["<32>{#p/human}* （你揉了揉Asriel的頭。）\n* （他竭力掩藏自己的喜悅。）"],
+                  ["<32>{#p/human}* （你撓了撓Asriel的脖子。）\n* （他很享受，但沒表現出來。）"],
+                  [
+                     "<32>{#p/human}* （你不停玩弄Asriel的耳朵。）\n* （他十分後悔自己居然樂在其中。）"
+                  ],
+                  ["<32>{#p/human}* （你拍了拍Asriel的脊背。）\n* （他開始疑惑你到底想幹什麼。）"],
+                  [
+                     "<32>{#p/human}* （你緊緊摟住了Asriel的腿。）\n* （他被你一連串的親暱舉動\n  嚇愣了。）"
+                  ],
+                  [
+                     "<32>{#p/human}* （你捏了捏Asriel的爪子。）\n* （Asriel沒有反抗，任由你擺布。）"
+                  ],
+                  ["<32>{#p/human}* （你跟Asriel碰了碰鼻。）\n* （Asriel徹底放棄抵抗了。）"],
+                  ["<32>{#p/human}* （你溫柔地撫摸Asriel的臉蛋。）\n* （他似乎想起了某位故人。）"],
+                  ['<32>{#p/human}* （你繼續撫摸Asriel。）\n* （他輕聲嘆息。）'],
+                  ['<32>{#p/human}* （你繼續撫摸Asriel。）\n* （他輕聲嘆息。）']
+               ][count],
+               "<32>{#p/story}* 本回合，Asriel的攻擊力下降！"
+            ],
       turnTalk1: (fluff: boolean) =>
          fluff
             ? [
-                 '<20>{*}{#p/asriel3}{#e/asriel/3}現在...',
-                 "<20>{*}{#p/asriel3}{#e/asriel/6}我... 再也不想\n毀滅這前哨站了。"
-              ]
+               '<20>{*}{#p/asriel3}{#e/asriel/3}現在...',
+               "<20>{*}{#p/asriel3}{#e/asriel/6}我... 再也不想\n毀滅這前哨站了。"
+            ]
             : [
-                 '<20>{*}{#p/asriel3}{#e/asriel/3}現在...',
-                 "<20>{*}{#p/asriel3}{#e/asriel/6}我再也不想\n毀滅這前哨站了。"
-              ],
+               '<20>{*}{#p/asriel3}{#e/asriel/3}現在...',
+               "<20>{*}{#p/asriel3}{#e/asriel/6}我再也不想\n毀滅這前哨站了。"
+            ],
       status1: () =>
          SAVE.data.b.oops
-            ? [ '<32>{#p/story}* Asriel準備施放「怒吼風暴」。' ]
-            : [ "<32>{#p/basic}* 可你不是... 已經..." ],
+            ? ['<32>{#p/story}* Asriel準備施放「怒吼風暴」。']
+            : ["<32>{#p/basic}* 可你不是... 已經..."],
       turnTalk2: (fluff: boolean) =>
          fluff
             ? [
-                 '<20>{*}{#p/asriel3}{#e/asriel/3}等-等我打敗了你，\n重新掌控整條時間軸...',
-                 '<20>{*}{#p/asriel3}{#e/asriel/2}我只想...\n把一切倒回原點。'
-              ]
+               '<20>{*}{#p/asriel3}{#e/asriel/3}等-等我打敗了你，\n重新掌控整條時間軸...',
+               '<20>{*}{#p/asriel3}{#e/asriel/2}我只想...\n把一切倒回原點。'
+            ]
             : [
-                 '<20>{*}{#p/asriel3}{#e/asriel/3}等我打敗了你，\n重新掌控整條時間軸...',
-                 '<20>{*}{#p/asriel3}{#e/asriel/2}我只想\n把一切倒回原點。'
-              ],
+               '<20>{*}{#p/asriel3}{#e/asriel/3}等我打敗了你，\n重新掌控整條時間軸...',
+               '<20>{*}{#p/asriel3}{#e/asriel/2}我只想\n把一切倒回原點。'
+            ],
       status2: () =>
          SAVE.data.b.oops
-            ? [ '<32>{#p/story}* Asriel即將召喚「泰坦巨刃」。' ]
-            : [ '<32>{#p/basic}* 你怎麼可能...' ],
+            ? ['<32>{#p/story}* Asriel即將召喚「泰坦巨刃」。']
+            : ['<32>{#p/basic}* 你怎麼可能...'],
       turnTalk3: (fluff: boolean) =>
          fluff
             ? [
-                 "<20>{*}{#p/asriel3}{#e/asriel/3}你的旅程...\n大家的記憶...",
-                 "<20>{*}{#p/asriel3}{#e/asriel/2}我-我會將它們\n全部抹除！"
-              ]
+               "<20>{*}{#p/asriel3}{#e/asriel/3}你的旅程...\n大家的記憶...",
+               "<20>{*}{#p/asriel3}{#e/asriel/2}我-我會將它們\n全部抹除！"
+            ]
             : [
-                 "<20>{*}{#p/asriel3}{#e/asriel/3}你的旅程...\n大家的記憶...",
-                 "<20>{*}{#p/asriel3}{#e/asriel/2}我會將它們全部抹除！"
-              ],
+               "<20>{*}{#p/asriel3}{#e/asriel/3}你的旅程...\n大家的記憶...",
+               "<20>{*}{#p/asriel3}{#e/asriel/2}我會將它們全部抹除！"
+            ],
       status3: () =>
-         SAVE.data.b.oops ? [ '<32>{#p/story}* Asriel正在蓄力「混沌衝擊」。' ] : [ '<32>{#p/basic}* ...' ],
+         SAVE.data.b.oops ? ['<32>{#p/story}* Asriel正在蓄力「混沌衝擊」。'] : ['<32>{#p/basic}* ...'],
       turnTalk4: (fluff: boolean) =>
          fluff
-            ? [ '<20>{*}{#p/asriel3}{#e/asriel/0}之後... 讓一切...\n重新來過。' ]
-            : [ '<20>{*}{#p/asriel3}{#e/asriel/0}之後，讓一切重新來過。' ],
+            ? ['<20>{*}{#p/asriel3}{#e/asriel/0}之後... 讓一切...\n重新來過。']
+            : ['<20>{*}{#p/asriel3}{#e/asriel/0}之後，讓一切重新來過。'],
       status4: () =>
          SAVE.data.b.oops
-            ? [ '<32>{#p/story}* Asriel準備施放「怒吼風暴」。' ]
-            : [ '<32>{#p/basic}* ...嘿...\n* 我覺得，Toriel之前肯定也是\n  這麼想的。' ],
+            ? ['<32>{#p/story}* Asriel準備施放「怒吼風暴」。']
+            : ['<32>{#p/basic}* ...嘿...\n* 我覺得，Toriel之前肯定也是\n  這麼想的。'],
       turnTalk5: (fluff: boolean) =>
          fluff
             ? [
-                 '<20>{*}{#p/asriel3}{#e/asriel/1}而且，你-你知道\n最棒的部分是什麼嗎？',
-                 "<20>{*}{#p/asriel3}{#e/asriel/0}這一切，\n都是你親手鑄成的。"
-              ]
+               '<20>{*}{#p/asriel3}{#e/asriel/1}而且，你-你知道\n最棒的部分是什麼嗎？',
+               "<20>{*}{#p/asriel3}{#e/asriel/0}這一切，\n都是你親手鑄成的。"
+            ]
             : [
-                 '<20>{*}{#p/asriel3}{#e/asriel/1}而且，你知道\n最棒的部分是什麼嗎？',
-                 "<20>{*}{#p/asriel3}{#e/asriel/0}這一切，\n都是你親手鑄成的。"
-              ],
+               '<20>{*}{#p/asriel3}{#e/asriel/1}而且，你知道\n最棒的部分是什麼嗎？',
+               "<20>{*}{#p/asriel3}{#e/asriel/0}這一切，\n都是你親手鑄成的。"
+            ],
       status5: () =>
-         SAVE.data.b.oops ? [ '<32>{#p/story}* Asriel正在蓄力「混沌衝擊」。' ] : [ '<32>{#p/basic}* ...可是，我...' ],
+         SAVE.data.b.oops ? ['<32>{#p/story}* Asriel正在蓄力「混沌衝擊」。'] : ['<32>{#p/basic}* ...可是，我...'],
       turnTalk6: (fluff: boolean) =>
          fluff
-            ? [ "<20>{*}{#p/asriel3}{#e/asriel/3}那時...\n你-你將再度成為\n我的手下敗將。" ]
-            : [ "<20>{*}{#p/asriel3}{#e/asriel/3}那時，你將再度成為\n我的手下敗將。" ],
+            ? ["<20>{*}{#p/asriel3}{#e/asriel/3}那時...\n你-你將再度成為\n我的手下敗將。"]
+            : ["<20>{*}{#p/asriel3}{#e/asriel/3}那時，你將再度成為\n我的手下敗將。"],
       status6: () =>
-         SAVE.data.b.oops ? [ '<32>{#p/story}* Asriel準備施放「裂空飛星」。' ] : [ '<32>{#p/basic}* ...' ],
+         SAVE.data.b.oops ? ['<32>{#p/story}* Asriel準備施放「裂空飛星」。'] : ['<32>{#p/basic}* ...'],
       turnTalk7: (fluff: boolean) =>
-         fluff ? [ '<20>{*}{#p/asriel3}{#e/asriel/4}永-永遠別想贏我。' ] : [ '<20>{*}{#p/asriel3}{#e/asriel/4}永遠別想贏我。' ],
+         fluff ? ['<20>{*}{#p/asriel3}{#e/asriel/4}永-永遠別想贏我。'] : ['<20>{*}{#p/asriel3}{#e/asriel/4}永遠別想贏我。'],
       status7: () =>
-         SAVE.data.b.oops ? [ '<32>{#p/story}* Asriel即將召喚「泰坦巨刃」。' ] : [ '<32>{#p/basic}* 除非...' ],
+         SAVE.data.b.oops ? ['<32>{#p/story}* Asriel即將召喚「泰坦巨刃」。'] : ['<32>{#p/basic}* 除非...'],
       turnTalk8: (fluff: boolean) =>
          fluff
-            ? [ '<20>{*}{#p/asriel3}{#e/asriel/2}永遠... 別-別想贏我！' ]
-            : [ '<20>{*}{#p/asriel3}{#e/asriel/2}永遠，別想贏我！' ],
+            ? ['<20>{*}{#p/asriel3}{#e/asriel/2}永遠... 別-別想贏我！']
+            : ['<20>{*}{#p/asriel3}{#e/asriel/2}永遠，別想贏我！'],
       status8: () =>
          SAVE.data.b.oops
-            ? [ '<32>{#p/story}* Asriel準備施放「殲星爆衝」。' ]
-            : [ '<32>{#p/basic}* ...該死...' ],
+            ? ['<32>{#p/story}* Asriel準備施放「殲星爆衝」。']
+            : ['<32>{#p/basic}* ...該死...'],
       turnTalk9: (fluff: boolean) =>
          30 <= SAVE.data.n.bully
             ? fluff
-               ? [ '<20>{*}{#p/asriel3}{#e/asriel/3}因為... 你-你想證明\n自己「實力出眾」。' ]
-               : [ '<20>{*}{#p/asriel3}{#e/asriel/3}因為，你想證明\n自己「實力出眾」。' ]
+               ? ['<20>{*}{#p/asriel3}{#e/asriel/3}因為... 你-你想證明\n自己「實力出眾」。']
+               : ['<20>{*}{#p/asriel3}{#e/asriel/3}因為，你想證明\n自己「實力出眾」。']
             : fluff
-            ? [ '<20>{*}{#p/asriel3}{#e/asriel/3}因為...\n你-你想讓一切\n「完美收官」。' ]
-            : [ '<20>{*}{#p/asriel3}{#e/asriel/3}因為，你想讓一切\n「完美收官」。' ],
+               ? ['<20>{*}{#p/asriel3}{#e/asriel/3}因為...\n你-你想讓一切\n「完美收官」。']
+               : ['<20>{*}{#p/asriel3}{#e/asriel/3}因為，你想讓一切\n「完美收官」。'],
       status9: () =>
          SAVE.data.b.oops
-            ? [ '<32>{#p/story}* Asriel正在蓄力「雷霆巨刃」。' ]
-            : [ "<32>{#p/basic}* 你早就應該死了啊！" ],
+            ? ['<32>{#p/story}* Asriel正在蓄力「雷霆巨刃」。']
+            : ["<32>{#p/basic}* 你早就應該死了啊！"],
       turnTalk10: (fluff: boolean) =>
          30 <= SAVE.data.n.bully
             ? fluff
-               ? [ '<20>{*}{#p/asriel3}{#e/asriel/1}...因為... \n你-你想證明\n自己「是條硬漢」。' ]
-               : [ '<20>{*}{#p/asriel3}{#e/asriel/1}...因為，你想證明\n自己「是條硬漢」。' ]
+               ? ['<20>{*}{#p/asriel3}{#e/asriel/1}...因為... \n你-你想證明\n自己「是條硬漢」。']
+               : ['<20>{*}{#p/asriel3}{#e/asriel/1}...因為，你想證明\n自己「是條硬漢」。']
             : fluff
-            ? [ '<20>{*}{#p/asriel3}{#e/asriel/1}...因為...\n你-你「愛著你的朋友」。' ]
-            : [ '<20>{*}{#p/asriel3}{#e/asriel/1}...因為，\n你「愛著你的朋友」。' ],
+               ? ['<20>{*}{#p/asriel3}{#e/asriel/1}...因為...\n你-你「愛著你的朋友」。']
+               : ['<20>{*}{#p/asriel3}{#e/asriel/1}...因為，\n你「愛著你的朋友」。'],
       status10: () =>
-         SAVE.data.b.oops ? [ '<32>{#p/story}* Asriel準備施放「末日風暴」。' ] : [ '<32>{#p/basic}* 呃啊...' ],
+         SAVE.data.b.oops ? ['<32>{#p/story}* Asriel準備施放「末日風暴」。'] : ['<32>{#p/basic}* 呃啊...'],
       turnTalk11: (fluff: boolean) =>
          fluff
-            ? [ '<20>{*}{#p/asriel3}{#e/asriel/1}...因-因為，\n你充滿「決心」。' ]
-            : [ '<20>{*}{#p/asriel3}{#e/asriel/1}...因為，\n你充滿「決心」。' ],
+            ? ['<20>{*}{#p/asriel3}{#e/asriel/1}...因-因為，\n你充滿「決心」。']
+            : ['<20>{*}{#p/asriel3}{#e/asriel/1}...因為，\n你充滿「決心」。'],
       status11: () =>
          SAVE.data.b.oops
-            ? [ '<32>{#p/story}* Asriel準備施放「碎空星爆」。' ]
-            : [ '<32>{#p/basic}* 以前...\n  他跟Toriel吵了那麼多次...' ],
+            ? ['<32>{#p/story}* Asriel準備施放「碎空星爆」。']
+            : ['<32>{#p/basic}* 以前...\n  他跟Toriel吵了那麼多次...'],
       turnTalk12: (fluff: boolean) =>
          fluff
             ? [
-                 "<20>{*}{#p/asriel3}{#e/asriel/6}是-是那些力量...\n帶你一步步走到今天...",
-                 '<20>{*}{#p/asriel3}{#e/asriel/3}也-也是那些力量...\n如今將把你推向\n無盡深淵！',
-                 "<20>{*}{#p/asriel3}{#e/asriel/2}是不是很棒啊？"
-              ]
+               "<20>{*}{#p/asriel3}{#e/asriel/6}是-是那些力量...\n帶你一步步走到今天...",
+               '<20>{*}{#p/asriel3}{#e/asriel/3}也-也是那些力量...\n如今將把你推向\n無盡深淵！',
+               "<20>{*}{#p/asriel3}{#e/asriel/2}是不是很棒啊？"
+            ]
             : [
-                 "<20>{*}{#p/asriel3}{#e/asriel/6}是那些力量，\n帶你一步步走到今天...",
-                 '<20>{*}{#p/asriel3}{#e/asriel/3}也是那些力量，\n如今將把你推向\n無盡深淵！',
-                 "<20>{*}{#p/asriel3}{#e/asriel/2}是不是很棒啊？"
-              ],
+               "<20>{*}{#p/asriel3}{#e/asriel/6}是那些力量，\n帶你一步步走到今天...",
+               '<20>{*}{#p/asriel3}{#e/asriel/3}也是那些力量，\n如今將把你推向\n無盡深淵！',
+               "<20>{*}{#p/asriel3}{#e/asriel/2}是不是很棒啊？"
+            ],
       status12: () =>
          SAVE.data.b.oops
-            ? [ '<32>{#p/story}* Asriel即將召喚「終極毀滅」。' ]
-            : [ '<32>{#p/basic}* ...他真有那麼...\n  ...想我嗎？' ],
+            ? ['<32>{#p/story}* Asriel即將召喚「終極毀滅」。']
+            : ['<32>{#p/basic}* ...他真有那麼...\n  ...想我嗎？'],
       turnTalk13: (fluff: boolean) =>
          fluff
             ? [
-                 '<20>{*}{#p/asriel3}{#e/asriel/0}...胡鬧... 到此為止！',
-                 "<20>{*}{#p/asriel3}{#e/asriel/5}現在...\n是時候徹底抹去\n這條時間軸了！"
-              ]
+               '<20>{*}{#p/asriel3}{#e/asriel/0}...胡鬧... 到此為止！',
+               "<20>{*}{#p/asriel3}{#e/asriel/5}現在...\n是時候徹底抹去\n這條時間軸了！"
+            ]
             : [
-                 '<20>{*}{#p/asriel3}{#e/asriel/0}胡鬧到此為止！',
-                 "<20>{*}{#p/asriel3}{#e/asriel/5}現在，\n是時候徹底抹去\n這條時間軸了！"
-              ],
+               '<20>{*}{#p/asriel3}{#e/asriel/0}胡鬧到此為止！',
+               "<20>{*}{#p/asriel3}{#e/asriel/5}現在，\n是時候徹底抹去\n這條時間軸了！"
+            ],
       turnTalk14: [
          "<20>{*}{#p/asriel3}{#e/asriel/1}...吃下剛剛一擊，\n你居然還有力氣\n抵抗我？",
          '<20>{*}{#p/asriel3}{#e/asriel/5}哇...\n真不能小瞧你啊。',
@@ -5255,7 +5255,7 @@ export default {
          '<20>{*}{#p/asriel3}{#e/asriel/4}什-\n你是怎麼全躲開的？！',
          '<20>{*}{#p/asriel3}{#e/asriel/5}呃...'
       ],
-      hyperTalk2a: [ '<20>{*}{#p/asriel3}{#e/asriel/1}再來...！' ],
+      hyperTalk2a: ['<20>{*}{#p/asriel3}{#e/asriel/1}再來...！'],
       hyperTalk2b: [
          '<20>{*}{#p/asriel3}{#e/asriel/5}什麼...',
          "<20>{*}{#p/asriel3}{#e/asriel/4}你怎麼還沒死啊？！"
@@ -5265,8 +5265,8 @@ export default {
          '<20>{*}{#p/asriel3}{#e/asriel/2}你每死一次，\n與這個世界的連接\n就弱一點。',
          '<20>{*}{#p/asriel3}{#e/asriel/2}你每死一次，\n朋友們對你的記憶\n就模糊一點。'
       ],
-      hyperTalk3b: [ "<20>{*}{#p/asriel3}{#e/asriel/6}...不管了。\n我才不在乎呢。" ],
-      hyperTalk3c: [ '<20>{*}{#p/asriel3}{#e/asriel/0}這裡就是你的葬身之地，\n死了也不會有任何人\n記得你！' ],
+      hyperTalk3b: ["<20>{*}{#p/asriel3}{#e/asriel/6}...不管了。\n我才不在乎呢。"],
+      hyperTalk3c: ['<20>{*}{#p/asriel3}{#e/asriel/0}這裡就是你的葬身之地，\n死了也不會有任何人\n記得你！'],
       hyperTalk4: [
          "<20>{*}{#p/asriel3}{#e/asriel/1}怎麼，\n還不放棄嗎...？",
          "<20>{*}{#p/asriel3}{#e/asriel/3}沒關係。",
@@ -5287,58 +5287,58 @@ export default {
          '<32>* （...）',
          ...(SAVE.data.b.oops
             ? [
-                 '<32>* （...拯救存檔已經毫無希望，\n  但也許...）',
-                 '<32>* （憑藉最後一絲力量...）',
-                 '<32>* （你還有希望拯救其他的事物。）'
-              ]
+               '<32>* （...拯救存檔已經毫無希望，\n  但也許...）',
+               '<32>* （憑藉最後一絲力量...）',
+               '<32>* （你還有希望拯救其他的事物。）'
+            ]
             : [
-                 '<32>{#p/basic}* 嘿... 在嗎？',
-                 "<32>* 是我，$(name)...\n* 你也在那裡。對吧，搭檔？",
-                 '<32>* ...嘿...',
-                 "<32>* 你我兩人一同走了這麼遠...",
-                 '<32>* 一路上，我們\n  一同交了那麼多朋友，\n  一同打了那麼多戰鬥...',
-                 "<32>* 現在一想... 我們的羈絆\n  就是靠著那些經歷一點點建立的。",
-                 "<32>* ...嗯...\n* 我雖然不是樂天派...",
-                 '<32>* 但是，我們肩負著前哨站\n  所有人的希望。\n* 所以，你一定要保持決心！',
-                 '<32>* 而且，既然Asriel能把\n  朋友們的靈魂偷走...',
-                 "<32>* ...那反過來，\n  咱們不就可以再「偷」回來嗎？",
-                 "<32>* 來吧！\n* 我們一起上！"
-              ])
+               '<32>{#p/basic}* 嘿... 在嗎？',
+               "<32>* 是我，$(name)...\n* 你也在那裡。對吧，搭檔？",
+               '<32>* ...嘿...',
+               "<32>* 你我兩人一同走了這麼遠...",
+               '<32>* 一路上，我們\n  一同交了那麼多朋友，\n  一同打了那麼多戰鬥...',
+               "<32>* 現在一想... 我們的羈絆\n  就是靠著那些經歷一點點建立的。",
+               "<32>* ...嗯...\n* 我雖然不是樂天派...",
+               '<32>* 但是，我們肩負著前哨站\n  所有人的希望。\n* 所以，你一定要保持決心！',
+               '<32>* 而且，既然Asriel能把\n  朋友們的靈魂偷走...',
+               "<32>* ...那反過來，\n  咱們不就可以再「偷」回來嗎？",
+               "<32>* 來吧！\n* 我們一起上！"
+            ])
       ],
       status13: () =>
          world.runaway
-            ? [ '<32>{#p/story}* ...' ]
+            ? ['<32>{#p/story}* ...']
             : [
-                 SAVE.data.b.oops
-                    ? [ "<32>{#p/story}* 在Asriel的體內，\n  激起一聲微弱的共鳴。" ]
-                    : [ '<32>{#p/basic}* ...' ],
-                 SAVE.data.b.oops
-                    ? [ "<32>{#p/story}* 在Asriel的體內，\n  那共鳴聲愈來愈強。" ]
-                    : [ "<32>{#p/basic}* 對，就是這樣！\n* 繼續！" ],
-                 SAVE.data.b.oops
-                    ? [ "<32>{#p/story}* 在Asriel的體內，\n  強烈的共鳴此起彼伏。" ]
-                    : [ "<32>{#p/basic}* 快要成功了！" ],
-                 SAVE.data.b.oops
-                    ? [ "<32>{#p/story}* 在Asriel的體內，\n  共鳴聲響若雷霆。" ]
-                    : [ '<32>{#p/basic}* ...\n* 然後呢？' ]
-              ][
-                 (SAVE.flag.b.pacifist_marker_save1 ? 1 : 0) +
-                    (SAVE.flag.b.pacifist_marker_save2 ? 1 : 0) +
-                    (SAVE.flag.b.pacifist_marker_save3 ? 1 : 0)
-              ],
+               SAVE.data.b.oops
+                  ? ["<32>{#p/story}* 在Asriel的體內，\n  激起一聲微弱的共鳴。"]
+                  : ['<32>{#p/basic}* ...'],
+               SAVE.data.b.oops
+                  ? ["<32>{#p/story}* 在Asriel的體內，\n  那共鳴聲愈來愈強。"]
+                  : ["<32>{#p/basic}* 對，就是這樣！\n* 繼續！"],
+               SAVE.data.b.oops
+                  ? ["<32>{#p/story}* 在Asriel的體內，\n  強烈的共鳴此起彼伏。"]
+                  : ["<32>{#p/basic}* 快要成功了！"],
+               SAVE.data.b.oops
+                  ? ["<32>{#p/story}* 在Asriel的體內，\n  共鳴聲響若雷霆。"]
+                  : ['<32>{#p/basic}* ...\n* 然後呢？']
+            ][
+            (SAVE.flag.b.pacifist_marker_save1 ? 1 : 0) +
+            (SAVE.flag.b.pacifist_marker_save2 ? 1 : 0) +
+            (SAVE.flag.b.pacifist_marker_save3 ? 1 : 0)
+            ],
       act_check2: () =>
          SAVE.flag.b.pacifist_marker_save1 && SAVE.flag.b.pacifist_marker_save2 && SAVE.flag.b.pacifist_marker_save3
-            ? [ '<33>{#p/story}* ASRIEL DREEMURR 攻擊{^2}\u221e{^1} 防禦{^2}\u221e{^1}\n* ...' ]
+            ? ['<33>{#p/story}* ASRIEL DREEMURR 攻擊{^2}\u221e{^1} 防禦{^2}\u221e{^1}\n* ...']
             : SAVE.data.b.oops
-            ? [
-                 '<33>{#p/story}* ASRIEL DREEMURR 攻擊{^2}\u221e{^1} DEF{^2}\u221e{^1}\n* 乃是主宰死亡的絕對神祇。'
-              ]
-            : [ "<32>{#p/story}* ASRIEL DREEMURR 攻擊{^2}\u221e{^1} 防禦{^2}\u221e{^1}\n* 不要放棄。" ],
+               ? [
+                  '<33>{#p/story}* ASRIEL DREEMURR 攻擊{^2}\u221e{^1} DEF{^2}\u221e{^1}\n* 乃是主宰死亡的絕對神祇。'
+               ]
+               : ["<32>{#p/story}* ASRIEL DREEMURR 攻擊{^2}\u221e{^1} 防禦{^2}\u221e{^1}\n* 不要放棄。"],
       mercy_save1: () => [
          "<32>{#p/human}* （你向Asriel的靈魂伸出手，\n  呼喚著朋友們。）",
          ...(SAVE.flag.b.pacifist_marker_save1 || SAVE.flag.b.pacifist_marker_save2 || SAVE.flag.b.pacifist_marker_save3
             ? []
-            : [ "<32>{#p/basic}* 他們一定就在某處，不是嗎？", '<32>* ...' ]),
+            : ["<32>{#p/basic}* 他們一定就在某處，不是嗎？", '<32>* ...']),
          "<32>* 在Asriel的靈魂深處，\n  有什么正在迴響...！"
       ],
       confrontation: [
@@ -5388,8 +5388,8 @@ export default {
          "<20>{*}{#p/asriel3}{#e/asriel/9}永遠也不會\n得到你的尊重！",
          '<20>{*}{#p/asriel3}{#e/asriel/10}{#i/3}{@random=1.1/1.1}該死，$(name)...\n你為什麼總要贏？'
       ],
-      attackTalk7: [ '<20>{*}{#p/asriel3}{#e/asriel/11}{#i/4}...' ],
-      attackTalk7x: [ '<20>{*}{#p/asriel3}{#e/asriel/11}{#i/4}$(name)，我...' ],
+      attackTalk7: ['<20>{*}{#p/asriel3}{#e/asriel/11}{#i/4}...'],
+      attackTalk7x: ['<20>{*}{#p/asriel3}{#e/asriel/11}{#i/4}$(name)，我...'],
       mercy_save2: [
          '<32>{#p/human}* （奇怪的是，\n  在朋友們都回憶起你後...）',
          "<32>* （還有某個存在\n  也開始在Asriel靈魂深處迴響。）\n* （愈發強烈。）",
@@ -5399,7 +5399,7 @@ export default {
          '<32>* （...突然，你明白了。）',
          '<32>* （你伸出手，呼喚著那個名字。）'
       ],
-      saveTalk1: [ '<20>{*}{#p/asriel3}{#e/asriel/1}嗯？\n你在幹什麼...！？' ],
+      saveTalk1: ['<20>{*}{#p/asriel3}{#e/asriel/1}嗯？\n你在幹什麼...！？'],
       saveTalk2: [
          '<20>{*}{#p/asriel3}{#e/asriel/7}什-\n你做了什麼...？',
          "<20>{*}{#p/asriel3}{#e/asriel/8}這種感覺...\n你對我做了什麼？",
@@ -5439,18 +5439,18 @@ export default {
          '<20>{*}{#p/asriel3}{#e/asriel/10}{#i/8}{@random=1.1/1.1}所以，\n求求你...\n現在放手...',
          '<20>{*}{#p/asriel3}{#e/asriel/12}{#i/8}{@random=1.2/1.2}讓我贏吧！！！'
       ],
-      cryTalk1: [ '<20>{*}{#p/asriel3}{@random=1.1/1.1}停下！{^30}{%}' ],
-      cryTalk2: [ '<20>{*}{#p/asriel3}{@random=1.1/1.1}馬上給我停下！！！{^40}{%}' ],
-      endStatus1: () => (SAVE.data.b.oops ? [ '<32>{#p/story}* ...' ] : [ '<32>{#p/basic}* ...' ]),
-      endTalk1: [ '<20>{*}{#p/asriel3}{#e/asriel/11}{#i/4}...', '<20>{*}{#p/asriel3}{#e/asriel/11}{#i/4}$(name)...' ],
-      endStatus2: () => (SAVE.data.b.oops ? [ '<32>{#p/story}* ...' ] : [ '<32>{#p/basic}* Asriel...' ]),
-      endTalk2: [ "<20>{*}{#p/asriel3}{#e/asriel/11}{#i/4}我好孤獨，\n$(name)..." ],
-      endStatus3: () => (SAVE.data.b.oops ? [ '<32>{#p/story}* ...' ] : [ '<32>{#p/basic}* ...' ]),
-      endTalk3: [ "<20>{*}{#p/asriel3}{#e/asriel/11}{#i/4}我好害怕，\n$(name)..." ],
-      endStatus4: () => (SAVE.data.b.oops ? [ '<32>{#p/story}* ...' ] : [ '<32>{#p/basic}* ...' ]),
-      endTalk4: [ '<20>{*}{#p/asriel3}{#e/asriel/11}{#i/4}$(name)，我...' ],
-      endStatus5: () => (SAVE.data.b.oops ? [ '<32>{#p/story}* ...' ] : [ '<32>{#p/basic}* 都是我的錯...' ]),
-      endTalk5: [ '<20>{*}{#p/asriel3}{#e/asriel/11}{#i/4}我...' ]
+      cryTalk1: ['<20>{*}{#p/asriel3}{@random=1.1/1.1}停下！{^30}{%}'],
+      cryTalk2: ['<20>{*}{#p/asriel3}{@random=1.1/1.1}馬上給我停下！！！{^40}{%}'],
+      endStatus1: () => (SAVE.data.b.oops ? ['<32>{#p/story}* ...'] : ['<32>{#p/basic}* ...']),
+      endTalk1: ['<20>{*}{#p/asriel3}{#e/asriel/11}{#i/4}...', '<20>{*}{#p/asriel3}{#e/asriel/11}{#i/4}$(name)...'],
+      endStatus2: () => (SAVE.data.b.oops ? ['<32>{#p/story}* ...'] : ['<32>{#p/basic}* Asriel...']),
+      endTalk2: ["<20>{*}{#p/asriel3}{#e/asriel/11}{#i/4}我好孤獨，\n$(name)..."],
+      endStatus3: () => (SAVE.data.b.oops ? ['<32>{#p/story}* ...'] : ['<32>{#p/basic}* ...']),
+      endTalk3: ["<20>{*}{#p/asriel3}{#e/asriel/11}{#i/4}我好害怕，\n$(name)..."],
+      endStatus4: () => (SAVE.data.b.oops ? ['<32>{#p/story}* ...'] : ['<32>{#p/basic}* ...']),
+      endTalk4: ['<20>{*}{#p/asriel3}{#e/asriel/11}{#i/4}$(name)，我...'],
+      endStatus5: () => (SAVE.data.b.oops ? ['<32>{#p/story}* ...'] : ['<32>{#p/basic}* 都是我的錯...']),
+      endTalk5: ['<20>{*}{#p/asriel3}{#e/asriel/11}{#i/4}我...']
    },
    b_opponent_lostsoul: {
       name: '* 迷失的靈魂',
@@ -5475,77 +5475,77 @@ export default {
    },
    b_opponent_lostsoul_a: {
       status1: () =>
-         SAVE.data.b.oops ? [ '<32>{#p/story}* 迷失的靈魂出現了。' ] : [ '<32>{#p/basic}* 是Alphys和Undyne。' ],
+         SAVE.data.b.oops ? ['<32>{#p/story}* 迷失的靈魂出現了。'] : ['<32>{#p/basic}* 是Alphys和Undyne。'],
       status2: () =>
          SAVE.data.b.oops
-            ? [ '<32>{#p/story}* 迷失的靈魂站在前方。' ]
-            : [ '<32>{#p/basic}* 嗯...\n  我有辦法讓他們馬上醒來。' ],
+            ? ['<32>{#p/story}* 迷失的靈魂站在前方。']
+            : ['<32>{#p/basic}* 嗯...\n  我有辦法讓他們馬上醒來。'],
       act: {
          flirt: (s: boolean) =>
             s
-               ? [ '<32>{#p/human}* （你向迷失的靈魂調情。）', '<32>{#p/basic}* 突然間...！' ]
-               : [ '<32>{#p/human}* （你向迷失的靈魂調情。）\n* （什麼都沒發生。）' ],
+               ? ['<32>{#p/human}* （你向迷失的靈魂調情。）', '<32>{#p/basic}* 突然間...！']
+               : ['<32>{#p/human}* （你向迷失的靈魂調情。）\n* （什麼都沒發生。）'],
          water: (s: boolean) => [
             '<32>{#p/human}* （你讓迷失的靈魂\n  給你倒一杯白開水。）',
             '<32>{#p/human}* （她有點失望，\n  但也感到十分親切...）',
-            ...(s ? [ '<32>{#p/basic}* 突然間，記憶如潮水般湧回！' ] : [])
+            ...(s ? ['<32>{#p/basic}* 突然間，記憶如潮水般湧回！'] : [])
          ],
          punch: (s: boolean) => [
             '<32>{#p/human}* （你讓迷失的靈魂\n  給你倒一杯洋梅果酒。）',
             '<32>{#p/human}* （她有些不滿，\n  但也感到十分親切...）',
-            ...(s ? [ '<32>{#p/basic}* 突然間，記憶如潮水般湧回！' ] : [])
+            ...(s ? ['<32>{#p/basic}* 突然間，記憶如潮水般湧回！'] : [])
          ],
          cocoa: (s: boolean) => [
             '<32>{#p/human}* （你讓迷失的靈魂\n  給你倒一杯熱巧克力。）',
             '<32>{#p/human}* （她十分滿足，\n  同時也感到十分親切...）',
-            ...(s ? [ '<32>{#p/basic}* 突然間，記憶如潮水般湧回！' ] : [])
+            ...(s ? ['<32>{#p/basic}* 突然間，記憶如潮水般湧回！'] : [])
          ],
          tea: (s: boolean) => [
             '<32>{#p/human}* （你讓迷失的靈魂\n  給你倒一杯星花茶。）',
             '<32>{#p/human}* （她非常高興，\n  同時也感到十分親切...）',
-            ...(s ? [ '<32>{#p/basic}* 突然間，記憶如潮水般湧回！' ] : [])
+            ...(s ? ['<32>{#p/basic}* 突然間，記憶如潮水般湧回！'] : [])
          ],
          lesson: (s: boolean) => [
             '<32>{#p/human}* （你讓迷失的靈魂教你下廚。）',
             "<32>{#p/human}* （她有點困惑，\n  但似乎蠻想言傳身教...）",
-            ...(s ? [ '<32>{#p/basic}* 突然間，記憶如潮水般湧回！' ] : [])
+            ...(s ? ['<32>{#p/basic}* 突然間，記憶如潮水般湧回！'] : [])
          ],
          trivia: (s: boolean) => [
             '<32>{#p/human}* （你讓迷失的靈魂出幾道\n  超級水的安保題目。）',
             "<32>{#p/human}* （她有些顧慮，但也很想試試看。）",
-            ...(s ? [ '<32>{#p/basic}* 突然間，記憶如潮水般湧回！' ] : [])
+            ...(s ? ['<32>{#p/basic}* 突然間，記憶如潮水般湧回！'] : [])
          ],
          escort: (s: boolean) => [
             '<32>{#p/human}* （你請求迷失的靈魂\n  帶你穿過一片危險地帶。）',
             "<32>{#p/human}* （她猶豫了一下，\n  但覺得是個好主意。）",
-            ...(s ? [ '<32>{#p/basic}* 突然間，記憶如潮水般湧回！' ] : [])
+            ...(s ? ['<32>{#p/basic}* 突然間，記憶如潮水般湧回！'] : [])
          ]
       },
       assist: {
-         text: [ '<32>{#p/basic}* 你倆快點醒來...\n* 我剛找到一部新上映的喵喵電影！' ],
+         text: ['<32>{#p/basic}* 你倆快點醒來...\n* 我剛找到一部新上映的喵喵電影！'],
          talk: [
-            [ "<11>{#p/undyne}{#e/undyne/13}等有空了\n我們一塊\n去看！" ],
-            [ "<11>{#p/alphys}{#e/alphys/3}你在\n開玩笑嗎？？\n真有？？" ]
+            ["<11>{#p/undyne}{#e/undyne/13}等有空了\n我們一塊\n去看！"],
+            ["<11>{#p/alphys}{#e/alphys/3}你在\n開玩笑嗎？？\n真有？？"]
          ]
       },
       fight: [
          [
-            [ '<11>{#p/undyne}{#e/undyne/4}沒想到你會\n下手這麼狠。' ],
-            [ '<11>{#p/alphys}{#e/alphys/9}Undyne，\n當心啊！' ]
+            ['<11>{#p/undyne}{#e/undyne/4}沒想到你會\n下手這麼狠。'],
+            ['<11>{#p/alphys}{#e/alphys/9}Undyne，\n當心啊！']
          ],
          [
-            [ '<11>{#p/undyne}{#e/undyne/4}呵，\n原來是你啊，\n還起了那麼個\n蠢名字。' ],
-            [ '<11>{#p/alphys}{#e/alphys/12}我現在知道\n為什麼他們\n都管你叫\n「$(moniker4)」\n了。' ]
+            ['<11>{#p/undyne}{#e/undyne/4}呵，\n原來是你啊，\n還起了那麼個\n蠢名字。'],
+            ['<11>{#p/alphys}{#e/alphys/12}我現在知道\n為什麼他們\n都管你叫\n「$(moniker4)」\n了。']
          ]
       ],
       flirt: [
          [
-            [ '<11>{#p/undyne}{#e/undyne/12}我發誓\n如果我們\n再戰一次...' ],
-            [ '<11>{#p/alphys}{#e/alphys/35}嘖嘖。' ]
+            ['<11>{#p/undyne}{#e/undyne/12}我發誓\n如果我們\n再戰一次...'],
+            ['<11>{#p/alphys}{#e/alphys/35}嘖嘖。']
          ],
          [
-            [ '<11>{#p/undyne}{#e/undyne/5}你敢\n再向她調情\n試試？' ],
-            [ '<11>{#p/alphys}{#e/alphys/35}喔，加油啊。' ]
+            ['<11>{#p/undyne}{#e/undyne/5}你敢\n再向她調情\n試試？'],
+            ['<11>{#p/alphys}{#e/alphys/35}喔，加油啊。']
          ]
       ],
       idle: [
@@ -5553,31 +5553,31 @@ export default {
             1,
             () =>
                2 <= SAVE.flag.n.genocide_milestone
-                  ? [ "<11>{#p/undyne}燃起了一股\n無法描述的\n感覺。" ]
-                  : [ '<11>{#p/undyne}所有人類\n必須死。' ],
+                  ? ["<11>{#p/undyne}燃起了一股\n無法描述的\n感覺。"]
+                  : ['<11>{#p/undyne}所有人類\n必須死。'],
             () =>
                2 <= SAVE.flag.n.genocide_milestone
-                  ? [ '<11>{#p/undyne}大家，\n都需要我\n來守護！' ]
-                  : [ "<11>{#p/undyne}你就是\n怪物的公敵。" ],
+                  ? ['<11>{#p/undyne}大家，\n都需要我\n來守護！']
+                  : ["<11>{#p/undyne}你就是\n怪物的公敵。"],
             () =>
                2 <= SAVE.flag.n.genocide_milestone
-                  ? [ "<11>{#p/undyne}你們還得\n再加把勁。" ]
-                  : [ '<11>{#p/undyne}弱者\n才需要憐憫。' ]
+                  ? ["<11>{#p/undyne}你們還得\n再加把勁。"]
+                  : ['<11>{#p/undyne}弱者\n才需要憐憫。']
          ),
          pager.create(
             1,
             () =>
                6 <= SAVE.flag.n.genocide_milestone
-                  ? [ '<11>{#p/alphys}看來，是高估\n你們的智商了。' ]
-                  : [ "<11>{#p/alphys}你想讓我死，\n不是嗎？" ],
+                  ? ['<11>{#p/alphys}看來，是高估\n你們的智商了。']
+                  : ["<11>{#p/alphys}你想讓我死，\n不是嗎？"],
             () =>
                6 <= SAVE.flag.n.genocide_milestone
-                  ? [ "<11>{#p/alphys}就那些東西，\n唬不到我。" ]
-                  : [ "<11>{#p/alphys}我只是去做\n我的本職工作，\n有錯嗎？" ],
+                  ? ["<11>{#p/alphys}就那些東西，\n唬不到我。"]
+                  : ["<11>{#p/alphys}我只是去做\n我的本職工作，\n有錯嗎？"],
             () =>
                6 <= SAVE.flag.n.genocide_milestone
-                  ? [ '<11>{#p/alphys}只有我，\n親眼目睹了\n你們的\n一舉一動。' ]
-                  : [ "<11>{#p/alphys}我會永遠\n停滯不前，\n是嗎？" ]
+                  ? ['<11>{#p/alphys}只有我，\n親眼目睹了\n你們的\n一舉一動。']
+                  : ["<11>{#p/alphys}我會永遠\n停滯不前，\n是嗎？"]
          )
       ],
       item: {
@@ -5587,8 +5587,8 @@ export default {
                '<32>{#p/basic}* 突然間...！'
             ],
             talk: [
-               [ '<11>{#p/undyne}{#e/undyne/41}呃，\n我不打擾，\n我走了哈。' ],
-               [ '<11>{#p/alphys}{#e/alphys/8}喔，\n原來你想讓我\n看這個。' ]
+               ['<11>{#p/undyne}{#e/undyne/41}呃，\n我不打擾，\n我走了哈。'],
+               ['<11>{#p/alphys}{#e/alphys/8}喔，\n原來你想讓我\n看這個。']
             ]
          },
          orange_soda: {
@@ -5597,8 +5597,8 @@ export default {
                '<32>{#p/basic}* 突然間，記憶如潮水般湧回！'
             ],
             talk: [
-               [ '<11>{#p/undyne}{#e/undyne/20}對，她愛死\n這汽水了。' ],
-               [ "<11>{#p/alphys}{#e/alphys/10}原來\n我丟的汽水\n跑到你那裡\n去了！" ]
+               ['<11>{#p/undyne}{#e/undyne/20}對，她愛死\n這汽水了。'],
+               ["<11>{#p/alphys}{#e/alphys/10}原來\n我丟的汽水\n跑到你那裡\n去了！"]
             ]
          },
          spaghetti: {
@@ -5607,8 +5607,8 @@ export default {
                '<32>{#p/basic}* 突然間，記憶如潮水般湧回！'
             ],
             talk: [
-               [ "<11>{#p/undyne}{#e/undyne/20}嘿，那是\nPapyrus的\n意面！" ],
-               [ '<11>{#p/alphys}{#e/alphys/36}我就說嘛，\n你肯定認得它。' ]
+               ["<11>{#p/undyne}{#e/undyne/20}嘿，那是\nPapyrus的\n意面！"],
+               ['<11>{#p/alphys}{#e/alphys/36}我就說嘛，\n你肯定認得它。']
             ]
          },
          snack: {
@@ -5617,8 +5617,8 @@ export default {
                '<32>{#p/basic}* 突然間，記憶如潮水般湧回！'
             ],
             talk: [
-               [ '<11>{#p/undyne}{#e/undyne/41}那點心\n是我專門\n給你弄到的。' ],
-               [ '<11>{#p/alphys}{#e/alphys/6}你會做\n點心了？' ]
+               ['<11>{#p/undyne}{#e/undyne/41}那點心\n是我專門\n給你弄到的。'],
+               ['<11>{#p/alphys}{#e/alphys/6}你會做\n點心了？']
             ]
          },
          starling_tea: {
@@ -5627,76 +5627,76 @@ export default {
                '<32>{#p/basic}* 突然間，記憶如潮水般湧回！'
             ],
             talk: [
-               [ '<11>{#p/undyne}{#e/undyne/18}那是...\n我瞎想什麼呢。' ],
-               [ '<11>{#p/alphys}{#e/alphys/36}喔，\n喝茶時間到。' ]
+               ['<11>{#p/undyne}{#e/undyne/18}那是...\n我瞎想什麼呢。'],
+               ['<11>{#p/alphys}{#e/alphys/36}喔，\n喝茶時間到。']
             ]
          }
       },
       standard: [
-         [ '<11>{#p/undyne}{#e/undyne/41}嗯，其實，\n有的人類\n也挺酷的。' ],
-         [ "<11>{#p/alphys}{#e/alphys/9}我們共患難\n這麼長時間，\n怎麼會懷疑\n彼此呢？" ]
+         ['<11>{#p/undyne}{#e/undyne/41}嗯，其實，\n有的人類\n也挺酷的。'],
+         ["<11>{#p/alphys}{#e/alphys/9}我們共患難\n這麼長時間，\n怎麼會懷疑\n彼此呢？"]
       ]
    },
    b_opponent_lostsoul_b: {
       status1: () =>
          SAVE.data.b.oops
-            ? [ '<32>{#p/story}* 迷失的靈魂出現了。' ]
-            : [ '<32>{#p/basic}* Papyrus！\n* ...還有他的兄弟。' ],
+            ? ['<32>{#p/story}* 迷失的靈魂出現了。']
+            : ['<32>{#p/basic}* Papyrus！\n* ...還有他的兄弟。'],
       status2: () =>
          SAVE.data.b.oops
-            ? [ '<32>{#p/story}* 迷失的靈魂站在前方。' ]
-            : [ '<32>{#p/basic}* 啊，對了。\n* 我應該有辦法喚醒他倆...' ],
+            ? ['<32>{#p/story}* 迷失的靈魂站在前方。']
+            : ['<32>{#p/basic}* 啊，對了。\n* 我應該有辦法喚醒他倆...'],
       act: {
          flirt: (s: boolean) =>
             s
-               ? [ '<32>{#p/human}* （你向迷失的靈魂調情。）', '<32>{#p/basic}* 突然間...！' ]
-               : [ '<32>{#p/human}* （你向迷失的靈魂調情。）\n* （什麼都沒發生。）' ],
+               ? ['<32>{#p/human}* （你向迷失的靈魂調情。）', '<32>{#p/basic}* 突然間...！']
+               : ['<32>{#p/human}* （你向迷失的靈魂調情。）\n* （什麼都沒發生。）'],
          puzzle: (s: boolean) => [
             '<32>{#p/human}* （你讓迷失的靈魂給你出點謎題。）',
             "<32>{#p/human}* （他有點困惑，\n  但已經把謎題準備好了...）",
-            ...(s ? [ '<32>{#p/basic}* 突然間，記憶如潮水般湧回！' ] : [])
+            ...(s ? ['<32>{#p/basic}* 突然間，記憶如潮水般湧回！'] : [])
          ],
          hangout: (s: boolean) => [
             '<32>{#p/human}* （你邀請迷失的靈魂和你一起玩。）',
             "<32>{#p/human}* （他有點困惑，\n  但好像很高興...）",
-            ...(s ? [ '<32>{#p/basic}* 突然間，記憶如潮水般湧回！' ] : [])
+            ...(s ? ['<32>{#p/basic}* 突然間，記憶如潮水般湧回！'] : [])
          ],
          judgement: (s: boolean) => [
             '<32>{#p/human}* （你讓迷失的靈魂開始審判你。）',
             "<32>{#p/human}* （他有點困惑，\n  但很樂意這麼做...）",
-            ...(s ? [ '<32>{#p/basic}* 突然間，記憶如潮水般湧回！' ] : [])
+            ...(s ? ['<32>{#p/basic}* 突然間，記憶如潮水般湧回！'] : [])
          ],
          dinner: (s: boolean) => [
             '<32>{#p/human}* （你邀請迷失的靈魂共進晚餐。）',
             "<32>{#p/human}* （他有點困惑，\n  但感到格外熟悉...）",
-            ...(s ? [ '<32>{#p/basic}* 突然間，記憶如潮水般湧回！' ] : [])
+            ...(s ? ['<32>{#p/basic}* 突然間，記憶如潮水般湧回！'] : [])
          ]
       },
       assist: {
-         text: [ '<32>{#p/basic}* 嘿，Papyrus！\n* 剛剛，Undyne任命你為皇家衛隊一員！' ],
+         text: ['<32>{#p/basic}* 嘿，Papyrus！\n* 剛剛，Undyne任命你為皇家衛隊一員！'],
          talk: [
-            [ "<08>{#p/papyrus}{#e/papyrus/12}天哪，\n我終於當上\n皇家守衛啦！" ],
-            [ '<11>{#p/sans}{#e/sans/2}我們只能\n祈禱美夢\n早日成真嚕。' ]
+            ["<08>{#p/papyrus}{#e/papyrus/12}天哪，\n我終於當上\n皇家守衛啦！"],
+            ['<11>{#p/sans}{#e/sans/2}我們只能\n祈禱美夢\n早日成真嚕。']
          ]
       },
       fight: [
          [
-            [ '<08>{#p/papyrus}{#e/papyrus/27}啊，\n我投-投降！' ],
-            [ "<11>{#p/sans}{#e/sans/3}我就知道\n你會這麼做。" ]
+            ['<08>{#p/papyrus}{#e/papyrus/27}啊，\n我投-投降！'],
+            ["<11>{#p/sans}{#e/sans/3}我就知道\n你會這麼做。"]
          ],
          [
-            [ '<08>{#p/papyrus}{#e/papyrus/21}SANS，\n你受傷了嗎？' ],
-            [ "<11>{#p/sans}{#e/sans/3}別擔心，兄弟。\n一場夢而已。" ]
+            ['<08>{#p/papyrus}{#e/papyrus/21}SANS，\n你受傷了嗎？'],
+            ["<11>{#p/sans}{#e/sans/3}別擔心，兄弟。\n一場夢而已。"]
          ]
       ],
       flirt: [
          [
-            [ '<08>{#p/papyrus}{#e/papyrus/13}即使到現在，\n你還是那麼\n愛我...' ],
-            [ "<11>{#p/sans}{#e/sans/2}幹起這事來，\n你真是\n一發不可收，\n是吧？" ]
+            ['<08>{#p/papyrus}{#e/papyrus/13}即使到現在，\n你還是那麼\n愛我...'],
+            ["<11>{#p/sans}{#e/sans/2}幹起這事來，\n你真是\n一發不可收，\n是吧？"]
          ],
          [
-            [ '<08>{#p/papyrus}{#e/papyrus/14}果然，\n那愛意不是\n衝我而來。' ],
-            [ "<11>{#p/sans}{#e/sans/2}啥？\n下次多準備點\n月巖，\n能提升\n調情成功率喔。" ]
+            ['<08>{#p/papyrus}{#e/papyrus/14}果然，\n那愛意不是\n衝我而來。'],
+            ["<11>{#p/sans}{#e/sans/2}啥？\n下次多準備點\n月巖，\n能提升\n調情成功率喔。"]
          ]
       ],
       idle: [
@@ -5704,31 +5704,31 @@ export default {
             1,
             () =>
                1 <= SAVE.flag.n.genocide_milestone
-                  ? [ "<08>{#p/papyrus}原諒你，\n對我來說\n有點難..." ]
-                  : [ '<08>{#p/papyrus}我一定要\n抓到個人類！' ],
+                  ? ["<08>{#p/papyrus}原諒你，\n對我來說\n有點難..."]
+                  : ['<08>{#p/papyrus}我一定要\n抓到個人類！'],
             () =>
                1 <= SAVE.flag.n.genocide_milestone
-                  ? [ "<08>{#p/papyrus}如果沒有他，\n我不知道\n該怎麼活..." ]
-                  : [ '<08>{#p/papyrus}如果成功，\n所有人都會...' ],
+                  ? ["<08>{#p/papyrus}如果沒有他，\n我不知道\n該怎麼活..."]
+                  : ['<08>{#p/papyrus}如果成功，\n所有人都會...'],
             () =>
                1 <= SAVE.flag.n.genocide_milestone
-                  ? [ "<08>{#p/papyrus}我不知道\n該找誰求助..." ]
-                  : [ '<08>{#p/papyrus}...' ]
+                  ? ["<08>{#p/papyrus}我不知道\n該找誰求助..."]
+                  : ['<08>{#p/papyrus}...']
          ),
          pager.create(
             1,
             () =>
                1 <= SAVE.flag.n.killed_sans
-                  ? [ '<11>{#p/sans}...在這樣的\n一天裡，\n像你這樣的\n孩子...' ]
-                  : [ "<11>{#p/sans}我不可能\n一直保護你。" ],
+                  ? ['<11>{#p/sans}...在這樣的\n一天裡，\n像你這樣的\n孩子...']
+                  : ["<11>{#p/sans}我不可能\n一直保護你。"],
             () =>
                1 <= SAVE.flag.n.killed_sans
-                  ? [ "<11>{#p/sans}某條時間軸裡，\n你把我殺了，\n對吧？" ]
-                  : [ "<11>{#p/sans}遲早有一天，\n你要面臨死亡。" ],
+                  ? ["<11>{#p/sans}某條時間軸裡，\n你把我殺了，\n對吧？"]
+                  : ["<11>{#p/sans}遲早有一天，\n你要面臨死亡。"],
             () =>
                1 <= SAVE.flag.n.killed_sans
-                  ? [ "<11>{#p/sans}你根本不配\n拯救我們。" ]
-                  : [ "<11>{#p/sans}這裡\n不是你的家。" ]
+                  ? ["<11>{#p/sans}你根本不配\n拯救我們。"]
+                  : ["<11>{#p/sans}這裡\n不是你的家。"]
          )
       ],
       item: {
@@ -5738,8 +5738,8 @@ export default {
                '<32>{#p/basic}* 突然間，記憶如潮水般湧回！'
             ],
             talk: [
-               [ '<08>{#p/papyrus}{#e/papyrus/10}喔！\n有了這些水果，\n我們就能\n自製果酒了！' ],
-               [ "<11>{#p/sans}{#e/sans/2}不要像\n上次一樣\n搞砸喔。" ]
+               ['<08>{#p/papyrus}{#e/papyrus/10}喔！\n有了這些水果，\n我們就能\n自製果酒了！'],
+               ["<11>{#p/sans}{#e/sans/2}不要像\n上次一樣\n搞砸喔。"]
             ]
          },
          spaghetti: {
@@ -5748,8 +5748,8 @@ export default {
                '<32>{#p/basic}* 突然間，記憶如潮水般湧回！'
             ],
             talk: [
-               [ '<08>{#p/papyrus}{#e/papyrus/10}你把我的面\n留到現在，\n就為了\n能喚醒我！？' ],
-               [ "<11>{#p/sans}{#e/sans/2}現在不都\n流行這樣嘛。" ]
+               ['<08>{#p/papyrus}{#e/papyrus/10}你把我的面\n留到現在，\n就為了\n能喚醒我！？'],
+               ["<11>{#p/sans}{#e/sans/2}現在不都\n流行這樣嘛。"]
             ]
          },
          corndog: {
@@ -5758,8 +5758,8 @@ export default {
                '<32>{#p/basic}* 突然間，記憶如潮水般湧回！'
             ],
             talk: [
-               [ '<08>{#p/papyrus}{#e/papyrus/16}我居然\n一直都不知道\n人類喜歡\n這玩意。' ],
-               [ '<11>{#p/sans}{#e/sans/2}能讓\n{@fill=#f00}熱{@fill=#000}情的{@fill=#f00}狗{@fill=#000}狗\n將抑{@fill=#f00}玉{@fill=#000}和萎{@fill=#f00}米{@fill=#000}\n一掃而空。' ]
+               ['<08>{#p/papyrus}{#e/papyrus/16}我居然\n一直都不知道\n人類喜歡\n這玩意。'],
+               ['<11>{#p/sans}{#e/sans/2}能讓\n{@fill=#f00}熱{@fill=#000}情的{@fill=#f00}狗{@fill=#000}狗\n將抑{@fill=#f00}玉{@fill=#000}和萎{@fill=#f00}米{@fill=#000}\n一掃而空。']
             ]
          },
          corngoat: {
@@ -5768,8 +5768,8 @@ export default {
                '<32>{#p/basic}* 突然間，記憶如潮水般湧回！'
             ],
             talk: [
-               [ '<08>{#p/papyrus}{#e/papyrus/16}什麼？？\n居然是\n玉米熱「羊」？' ],
-               [ "<11>{#p/sans}{#e/sans/0}這麼棒的玩笑，\n該好好\n表{@fill=#f00}羊{@fill=#000}你一下。" ]
+               ['<08>{#p/papyrus}{#e/papyrus/16}什麼？？\n居然是\n玉米熱「羊」？'],
+               ["<11>{#p/sans}{#e/sans/0}這麼棒的玩笑，\n該好好\n表{@fill=#f00}羊{@fill=#000}你一下。"]
             ]
          },
          quiche: {
@@ -5778,8 +5778,8 @@ export default {
                '<32>{#p/basic}* 突然間，記憶如潮水般湧回！'
             ],
             talk: [
-               [ '<08>{#p/papyrus}{#e/papyrus/22}居然是一塊\n「芝士」蛋糕？！' ],
-               [ "<11>{#p/sans}{#e/sans/2}這{@fill=#f00}芝士{@fill=#000}個\n蛋糕謎題。" ]
+               ['<08>{#p/papyrus}{#e/papyrus/22}居然是一塊\n「芝士」蛋糕？！'],
+               ["<11>{#p/sans}{#e/sans/2}這{@fill=#f00}芝士{@fill=#000}個\n蛋糕謎題。"]
             ]
          },
          fryz: {
@@ -5788,8 +5788,8 @@ export default {
                '<32>{#p/basic}* 突然間，記憶如潮水般湧回！'
             ],
             talk: [
-               [ "<08>{#p/papyrus}{#e/papyrus/27}這東西\n比火牆還熱！！" ],
-               [ "<11>{#p/sans}{#e/sans/2}夥計，\n你火了。" ]
+               ["<08>{#p/papyrus}{#e/papyrus/27}這東西\n比火牆還熱！！"],
+               ["<11>{#p/sans}{#e/sans/2}夥計，\n你火了。"]
             ]
          },
          burgerz: {
@@ -5798,8 +5798,8 @@ export default {
                '<32>{#p/basic}* 突然間，記憶如潮水般湧回！'
             ],
             talk: [
-               [ "<08>{#p/papyrus}{#e/papyrus/21}這東西\n健康嗎？" ],
-               [ '<11>{#p/sans}{#e/sans/0}一石二鳥，\n一食二堡。' ]
+               ["<08>{#p/papyrus}{#e/papyrus/21}這東西\n健康嗎？"],
+               ['<11>{#p/sans}{#e/sans/0}一石二鳥，\n一食二堡。']
             ]
          },
          burgerz_use1: {
@@ -5808,8 +5808,8 @@ export default {
                '<32>{#p/basic}* 突然間，記憶如潮水般湧回！'
             ],
             talk: [
-               [ '<08>{#p/papyrus}{#e/papyrus/24}我擔心你吃完\n會不舒服...' ],
-               [ '<11>{#p/sans}{#e/sans/2}剩最後一個了，\n想好再吃喔。' ]
+               ['<08>{#p/papyrus}{#e/papyrus/24}我擔心你吃完\n會不舒服...'],
+               ['<11>{#p/sans}{#e/sans/2}剩最後一個了，\n想好再吃喔。']
             ]
          },
          burgerz_use2: {
@@ -5818,68 +5818,68 @@ export default {
                '<32>{#p/basic}* 突然間，記憶如潮水般湧回！'
             ],
             talk: [
-               [ '<08>{#p/papyrus}{#e/papyrus/18}哇，\n你把它們\n全吃了。' ],
-               [ '<11>{#p/sans}{#e/sans/3}要是漢堡能\n長生不老\n就好了。' ]
+               ['<08>{#p/papyrus}{#e/papyrus/18}哇，\n你把它們\n全吃了。'],
+               ['<11>{#p/sans}{#e/sans/3}要是漢堡能\n長生不老\n就好了。']
             ]
          }
       },
       standard: [
-         [ '<08>{#p/papyrus}{#e/papyrus/10}等等！\n不！\n我才不會\n抓你呢！' ],
-         [ "<11>{#p/sans}{#e/sans/3}我們都\n指望你了，\n孩子。" ]
+         ['<08>{#p/papyrus}{#e/papyrus/10}等等！\n不！\n我才不會\n抓你呢！'],
+         ["<11>{#p/sans}{#e/sans/3}我們都\n指望你了，\n孩子。"]
       ]
    },
    b_opponent_lostsoul_c: {
       status1: () =>
-         SAVE.data.b.oops ? [ '<32>{#p/story}* 迷失的靈魂出現了。' ] : [ '<32>{#p/basic}* 爸爸... 媽媽...' ],
+         SAVE.data.b.oops ? ['<32>{#p/story}* 迷失的靈魂出現了。'] : ['<32>{#p/basic}* 爸爸... 媽媽...'],
       status2: () =>
          SAVE.data.b.oops
-            ? [ '<32>{#p/story}* 迷失的靈魂站在前方。' ]
-            : [ '<32>{#p/basic}* 嗯... 他們畢竟曾是我的父母，\n  那對我來說就好辦多了。' ],
+            ? ['<32>{#p/story}* 迷失的靈魂站在前方。']
+            : ['<32>{#p/basic}* 嗯... 他們畢竟曾是我的父母，\n  那對我來說就好辦多了。'],
       act: {
          flirt: (s: boolean) =>
             s
-               ? [ '<32>{#p/human}* （你向迷失的靈魂調情。）', '<32>{#p/basic}* 突然間...！' ]
-               : [ '<32>{#p/human}* （你向迷失的靈魂調情。）\n* （什麼都沒發生。）' ],
+               ? ['<32>{#p/human}* （你向迷失的靈魂調情。）', '<32>{#p/basic}* 突然間...！']
+               : ['<32>{#p/human}* （你向迷失的靈魂調情。）\n* （什麼都沒發生。）'],
          call: (s: boolean) => [
             '<32>{#p/human}* （你給迷失的靈魂打了個電話。）',
             3 <= SAVE.data.n.cell_insult
                ? '<32>{#p/human}* （她有點生氣，\n  但也十分懷念那種感覺。）'
                : '<32>{#p/human}* （她十分高興，\n  同時很懷念那種感覺。）',
-            ...(s ? [ '<32>{#p/basic}* 突然間，記憶如潮水般湧回！' ] : [])
+            ...(s ? ['<32>{#p/basic}* 突然間，記憶如潮水般湧回！'] : [])
          ],
          home: (s: boolean) => [
             '<32>{#p/human}* （你請求迷失的靈魂帶你回家。）',
             3 <= SAVE.data.n.cell_insult
                ? "<32>{#p/human}* （她認為自己沒義務那麼做，\n  但不知怎地，想試一試...）"
                : "<32>{#p/human}* （她有點猶豫，\n  但不知怎地，想試一試...）",
-            ...(s ? [ '<32>{#p/basic}* 突然間，記憶如潮水般湧回！' ] : [])
+            ...(s ? ['<32>{#p/basic}* 突然間，記憶如潮水般湧回！'] : [])
          ],
          hug: (s: boolean) => [
             '<32>{#p/human}* （你給迷失的靈魂\n  一個大大的擁抱。）',
             '<32>{#p/human}* （他極力掩飾自己的情感，\n  但那舒服的感覺溫暖了他的心...）',
-            ...(s ? [ '<32>{#p/basic}* 突然間，記憶如潮水般湧回！' ] : [])
+            ...(s ? ['<32>{#p/basic}* 突然間，記憶如潮水般湧回！'] : [])
          ],
          agreement: (s: boolean) => [
             '<32>{#p/human}* （你讓迷失的靈魂\n  給你講講人怪停戰的故事。）',
             '<32>{#p/human}* （他想對此視而不見，\n  但最終還是脫口而出。）',
-            ...(s ? [ '<32>{#p/basic}* 突然間，記憶如潮水般湧回！' ] : [])
+            ...(s ? ['<32>{#p/basic}* 突然間，記憶如潮水般湧回！'] : [])
          ]
       },
       assist: {
-         text: [ "<32>{#p/basic}* 爸爸... 媽媽...\n* 你們不記得我了嗎？" ],
-         talk: [ [ '<11>{#p/toriel}{#e/toriel/9}我怎麼會忘。' ], [ '<11>{#p/asgore}{#e/asgore/8}$(name)？' ] ]
+         text: ["<32>{#p/basic}* 爸爸... 媽媽...\n* 你們不記得我了嗎？"],
+         talk: [['<11>{#p/toriel}{#e/toriel/9}我怎麼會忘。'], ['<11>{#p/asgore}{#e/asgore/8}$(name)？']]
       },
       fight: [
          [
-            [ '<11>{#p/toriel}{#e/toriel/9}我...\n我落得這下場，\n就是活該。' ],
-            [ '<11>{#p/asgore}{#e/asgore/1}呃...\n沒想到會這樣。' ]
+            ['<11>{#p/toriel}{#e/toriel/9}我...\n我落得這下場，\n就是活該。'],
+            ['<11>{#p/asgore}{#e/asgore/1}呃...\n沒想到會這樣。']
          ],
-         [ [ '<11>{#p/toriel}{#e/toriel/17}出不了事的，\nAsgore。' ], [ '<11>{#p/asgore}{#e/asgore/8}孩-孩子？！' ] ]
+         [['<11>{#p/toriel}{#e/toriel/17}出不了事的，\nAsgore。'], ['<11>{#p/asgore}{#e/asgore/8}孩-孩子？！']]
       ],
       flirt: [
          [
-            [ '<11>{#p/toriel}{#e/toriel/1}孩子，\n這個場合...\n請別這麼幹。' ],
-            [ '<11>{#p/asgore}{#e/asgore/6}還好我們現在\n分居了。' ]
+            ['<11>{#p/toriel}{#e/toriel/1}孩子，\n這個場合...\n請別這麼幹。'],
+            ['<11>{#p/asgore}{#e/asgore/6}還好我們現在\n分居了。']
          ],
          []
       ],
@@ -5888,28 +5888,28 @@ export default {
             1,
             () =>
                1 <= SAVE.flag.n.genocide_twinkly
-                  ? [ '<11>{#p/toriel}趁我\n毫無防備時\n殺了我...' ]
-                  : [ '<11>{#p/toriel}這都是\n為了你好。' ],
+                  ? ['<11>{#p/toriel}趁我\n毫無防備時\n殺了我...']
+                  : ['<11>{#p/toriel}這都是\n為了你好。'],
             () =>
                1 <= SAVE.flag.n.genocide_twinkly
-                  ? [ '<11>{#p/toriel}本以為，\n自己努力\n保護的人，\n是你...' ]
-                  : [ '<11>{#p/toriel}我絕不會\n再讓人類\n離開。' ],
+                  ? ['<11>{#p/toriel}本以為，\n自己努力\n保護的人，\n是你...']
+                  : ['<11>{#p/toriel}我絕不會\n再讓人類\n離開。'],
             () =>
                1 <= SAVE.flag.n.genocide_twinkly
-                  ? [ '<11>{#p/toriel}一路上一直\n相信你的我，\n才是真正的\n傻子啊...' ]
-                  : [ '<11>{#p/toriel}...' ]
+                  ? ['<11>{#p/toriel}一路上一直\n相信你的我，\n才是真正的\n傻子啊...']
+                  : ['<11>{#p/toriel}...']
          ),
          pager.create(
             1,
             () =>
                7 <= SAVE.flag.n.genocide_milestone
-                  ? [ '<11>{#p/asgore}跟你講理，\n完全是\n浪費時間。' ]
-                  : [ '<11>{#p/asgore}人怪交戰\n在所難免。' ],
+                  ? ['<11>{#p/asgore}跟你講理，\n完全是\n浪費時間。']
+                  : ['<11>{#p/asgore}人怪交戰\n在所難免。'],
             () =>
                7 <= SAVE.flag.n.genocide_milestone
-                  ? [ "<11>{#p/asgore}你就沒有\n更重要的事\n可做嗎？" ]
-                  : [ '<11>{#p/asgore}我怎麼可能\n忘記呢？' ],
-            () => (7 <= SAVE.flag.n.genocide_milestone ? [ '<11>{#p/asgore}開玩笑吧...' ] : [ '<11>{#p/asgore}...' ])
+                  ? ["<11>{#p/asgore}你就沒有\n更重要的事\n可做嗎？"]
+                  : ['<11>{#p/asgore}我怎麼可能\n忘記呢？'],
+            () => (7 <= SAVE.flag.n.genocide_milestone ? ['<11>{#p/asgore}開玩笑吧...'] : ['<11>{#p/asgore}...'])
          )
       ],
       item: {
@@ -5919,8 +5919,8 @@ export default {
                '<32>{#p/basic}* 突然間，記憶如潮水般湧回！'
             ],
             talk: [
-               [ '<11>{#p/toriel}{#e/toriel/0}果然！\n是奶油糖\n肉桂派！' ],
-               [ '<11>{#p/asgore}{#e/asgore/7}沒想到都過了\n這麼久了...' ]
+               ['<11>{#p/toriel}{#e/toriel/0}果然！\n是奶油糖\n肉桂派！'],
+               ['<11>{#p/asgore}{#e/asgore/7}沒想到都過了\n這麼久了...']
             ]
          },
          pie2: {
@@ -5929,8 +5929,8 @@ export default {
                '<32>{#p/basic}* 突然間，記憶如潮水般湧回！'
             ],
             talk: [
-               [ '<11>{#p/toriel}{#e/toriel/0}果然！\n是蝸牛派！' ],
-               [ '<11>{#p/asgore}{#e/asgore/7}沒想到都過了\n這麼久了...' ]
+               ['<11>{#p/toriel}{#e/toriel/0}果然！\n是蝸牛派！'],
+               ['<11>{#p/asgore}{#e/asgore/7}沒想到都過了\n這麼久了...']
             ]
          },
          pie3: {
@@ -5939,8 +5939,8 @@ export default {
                '<32>{#p/basic}* 突然間，記憶如潮水般湧回！'
             ],
             talk: [
-               [ '<11>{#p/toriel}{#e/toriel/1}我已經\n盡力了...' ],
-               [ '<11>{#p/asgore}{#e/asgore/6}真奇怪。\n這派聞起來\n還挺香的！' ]
+               ['<11>{#p/toriel}{#e/toriel/1}我已經\n盡力了...'],
+               ['<11>{#p/asgore}{#e/asgore/6}真奇怪。\n這派聞起來\n還挺香的！']
             ]
          },
          starling_tea: {
@@ -5949,8 +5949,8 @@ export default {
                '<32>{#p/basic}* 突然間，記憶如潮水般湧回！'
             ],
             talk: [
-               [ '<11>{#p/toriel}{#e/toriel/13}這茶香真是\n歷久彌新...' ],
-               [ '<11>{#p/asgore}{#e/asgore/21}一杯好茶，\n真是世間極品。' ]
+               ['<11>{#p/toriel}{#e/toriel/13}這茶香真是\n歷久彌新...'],
+               ['<11>{#p/asgore}{#e/asgore/21}一杯好茶，\n真是世間極品。']
             ]
          },
          snails: {
@@ -5959,8 +5959,8 @@ export default {
                '<32>{#p/basic}* 突然間，記憶如潮水般湧回！'
             ],
             talk: [
-               [ '<11>{#p/toriel}{#e/toriel/1}你居然\n一直沒吃？' ],
-               [ '<11>{#p/asgore}{#e/asgore/5}沒想到，\n居然還能\n再看到這菜。' ]
+               ['<11>{#p/toriel}{#e/toriel/1}你居然\n一直沒吃？'],
+               ['<11>{#p/asgore}{#e/asgore/5}沒想到，\n居然還能\n再看到這菜。']
             ]
          },
          chocolate: {
@@ -5969,71 +5969,71 @@ export default {
                '<32>{#p/basic}* 突然間，記憶如潮水般湧回！'
             ],
             talk: [
-               [ '<11>{#p/toriel}{#e/toriel/1}純黑巧克力...' ],
-               [ '<11>{#p/asgore}{#e/asgore/21}苦盡甘來嘛。' ]
+               ['<11>{#p/toriel}{#e/toriel/1}純黑巧克力...'],
+               ['<11>{#p/asgore}{#e/asgore/21}苦盡甘來嘛。']
             ]
          }
       },
       standard: [
-         [ '<11>{#p/toriel}{#e/toriel/1}加油吧，\n孩子...' ],
-         [ '<11>{#p/asgore}{#e/asgore/6}我們的未來\n就指望你了！' ]
+         ['<11>{#p/toriel}{#e/toriel/1}加油吧，\n孩子...'],
+         ['<11>{#p/asgore}{#e/asgore/6}我們的未來\n就指望你了！']
       ]
    },
    b_opponent_final: {
       name: '* 力場',
-      status0: [ '<32>{#p/story}* 此刻，你終於可以直面那道力場。' ],
+      status0: ['<32>{#p/story}* 此刻，你終於可以直面那道力場。'],
       act_check: [
          '<32>{#p/story}* 力場 - 攻擊0 防禦{^2}\u221e{^1}\n* 矛盾相逢，末路將窮。'
       ],
       status1: () =>
          SAVE.data.n.bully > 9
-            ? [ "<32>{#p/story}* 燃起鬥志！\n  把你揍人的勁兒都使出來吧。" ]
-            : [ "<32>{#p/story}* 給這段旅程畫上圓滿的句號吧。" ],
-      status1x: [ '<32>{#p/story}* 除了戰鬥，別無他法。' ],
-      status2: [ '<32>{#p/story}* 力場上開始出現裂痕，\n  光芒越來越弱。' ],
-      status3: [ '<32>{#p/story}* 力場即將崩潰。' ],
-      status4: [ '<32>{#p/story}* 力場遲遲沒有破碎，\n  讓你有些意外。' ],
-      status5: [ '<32>{#p/story}* 不太對勁。' ],
-      friend1: [ "<20>{#p/asgore}{#e/asgore/5}怎麼了？" ],
-      friend2: [ "<20>{#p/alphys}{#e/alphys/15}那道力場...\n怎麼還沒碎啊？！" ],
-      friend3: [ '<20>{#p/asgore}{#e/asgore/12}{#e/alphys/4}...\n你知道原因嗎？' ],
-      friend4a: [ "<20>{#p/alphys}{#e/alphys/6}是不是...\n人類沒使勁？", '{*}{#e/alphys/1}{%}' ],
+            ? ["<32>{#p/story}* 燃起鬥志！\n  把你揍人的勁兒都使出來吧。"]
+            : ["<32>{#p/story}* 給這段旅程畫上圓滿的句號吧。"],
+      status1x: ['<32>{#p/story}* 除了戰鬥，別無他法。'],
+      status2: ['<32>{#p/story}* 力場上開始出現裂痕，\n  光芒越來越弱。'],
+      status3: ['<32>{#p/story}* 力場即將崩潰。'],
+      status4: ['<32>{#p/story}* 力場遲遲沒有破碎，\n  讓你有些意外。'],
+      status5: ['<32>{#p/story}* 不太對勁。'],
+      friend1: ["<20>{#p/asgore}{#e/asgore/5}怎麼了？"],
+      friend2: ["<20>{#p/alphys}{#e/alphys/15}那道力場...\n怎麼還沒碎啊？！"],
+      friend3: ['<20>{#p/asgore}{#e/asgore/12}{#e/alphys/4}...\n你知道原因嗎？'],
+      friend4a: ["<20>{#p/alphys}{#e/alphys/6}是不是...\n人類沒使勁？", '{*}{#e/alphys/1}{%}'],
       friend4b: [
          "<20>{#p/alphys}不，不是這樣...",
          '<20>{#p/alphys}{#e/asgore/1}...',
          '<20>{#p/alphys}{#e/alphys/2}該不會...'
       ],
-      friend5: [ '<20>{#p/asgore}...什麼？' ],
+      friend5: ['<20>{#p/asgore}...什麼？'],
       friend6: [
          '<20>{#p/alphys}{#e/alphys/1}我-我檢查檔案日誌時，\n發現個怪事...',
          '<21>{#p/alphys}{#e/alphys/4}我發現...\n「靈勢矩陣」中的元素係數\n與理論值存在微小偏差。'
       ],
-      friend7: [ '<20>{#p/asgore}{#e/asgore/12}...啥意思？' ],
+      friend7: ['<20>{#p/asgore}{#e/asgore/12}...啥意思？'],
       friend8: [
          '<20>{#p/alphys}就是說，\n有-有人入侵了\n六號檔案的系統。',
          "<20>{#p/alphys}{#e/asgore/1}隨後，竊取了\n部分人類靈魂的能量。",
          '<20>{#p/alphys}{#e/alphys/6}別-別著急，\n也可能只是傳感器\n出故障了...',
          "<20>{#p/alphys}{#e/alphys/1}不過...\n從結果來看..."
       ],
-      friend9a: [ '<20>{#p/asgore}{#e/asgore/1}不用說了。', '<20>{#p/asgore}{#e/asgore/2}明白了。' ],
+      friend9a: ['<20>{#p/asgore}{#e/asgore/1}不用說了。', '<20>{#p/asgore}{#e/asgore/2}明白了。'],
       friend9b: [
          '<20>{#p/asgore}{#e/asgore/5}我總擔心，\n指不定哪天，\n六號檔案就會被篡改...',
          '<20>{#p/asgore}{#e/asgore/5}沒想到真的一語成讖。'
       ],
-      friend9c: [ '<20>{#p/asgore}{#e/asgore/1}那現在怎麼辦？' ],
+      friend9c: ['<20>{#p/asgore}{#e/asgore/1}那現在怎麼辦？'],
       friend10: [
          '<20>{#p/alphys}...再等一個人類？',
          "<20>{#p/alphys}{#e/alphys/4}對-對不起...\n我想不到其他辦法...",
          '{*}{#e/asgore/8}{#e/alphys/9}{%}'
       ],
-      friend11: [ '<20>{#p/undyne}{#e/undyne/13}我有辦法啊！' ],
-      friend12: [ '<20>{#p/alphys}{#e/alphys/10}Undyne，\n你-你來這\n幹-幹什麼？', '{*}{#e/undyne/0}{%}' ],
+      friend11: ['<20>{#p/undyne}{#e/undyne/13}我有辦法啊！'],
+      friend12: ['<20>{#p/alphys}{#e/alphys/10}Undyne，\n你-你來這\n幹-幹什麼？', '{*}{#e/undyne/0}{%}'],
       friend13: [
          "<20>{#p/undyne}{#e/undyne/1}{#e/alphys/8}{#e/asgore/1}該不會...\n是那破力場\n把你憋屈壞了吧？"
       ],
-      friend14: [ '<20>{|}{#p/alphys}{#e/alphys/6}Undyne，你怎麼-{%}' ],
-      friend15: [ "<20>{#p/undyne}{#e/undyne/5}死力場，看我不把你\n揍個稀碎！" ],
-      friend16a: [ '<20>{#p/alphys}{#e/alphys/3}{#e/asgore/6}Undyne！？！？' ],
+      friend14: ['<20>{|}{#p/alphys}{#e/alphys/6}Undyne，你怎麼-{%}'],
+      friend15: ["<20>{#p/undyne}{#e/undyne/5}死力場，看我不把你\n揍個稀碎！"],
+      friend16a: ['<20>{#p/alphys}{#e/alphys/3}{#e/asgore/6}Undyne！？！？'],
       friend16b: [
          '<20>{#p/undyne}{#e/undyne/4}我都懂，我都懂。\n只是想讓你好受點嘛。',
          '{*}{#e/alphys/1}{%}'
@@ -6044,43 +6044,43 @@ export default {
          "<20>{#p/undyne}{#e/undyne/11}{#e/asgore/5}說實話，\n當時我還蠻意外的...\n但現在，我想開了。",
          "<20>{#p/undyne}{#e/undyne/13}這計畫能走通，\n我真為你高興！",
          ...(SAVE.data.b.undyne_respecc
-            ? [ "<20>{#p/undyne}{#e/undyne/0}昧著良心說自己\n喜歡人類也沒啥意思。\n但今天這孩子真的超讚。" ]
+            ? ["<20>{#p/undyne}{#e/undyne/0}昧著良心說自己\n喜歡人類也沒啥意思。\n但今天這孩子真的超讚。"]
             : [
-                 "<20>{#p/undyne}{#e/undyne/0}昧著良心說自己\n喜歡人類也沒啥意思。\n但能大團圓，也挺好。"
-              ]),
+               "<20>{#p/undyne}{#e/undyne/0}昧著良心說自己\n喜歡人類也沒啥意思。\n但能大團圓，也挺好。"
+            ]),
          '<20>{#p/undyne}{#e/undyne/15}{#e/asgore/6}可能...\n我這個大隊長，\n當得有點...'
       ],
       friend18: [
          "<20>{#p/alphys}{#e/alphys/32}嘿... 沒關係的。",
          "<20>{#e/alphys/31}你願意放下偏見，\n來到這裡，已經很棒了，\n你說是不？"
       ],
-      friend19: [ '<20>{#p/undyne}{#e/undyne/14}嘿，咱倆不是說好\n事成之後\n要一起看電影嗎？',
-'<20>{#p/undyne}{#e/undyne/14}那我也不能讓你\n白高興一場啊！' ],
-      friend20: [ '<20>{#p/alphys}{#e/alphys/33}...嘴一個？', '{*}{#e/asgore/5}{#e/undyne/19}{%}' ],
-      friend21: [ '<20>{#p/asgore}{#e/asgore/5}呃。' ],
-      friend22: [ '<20>{#p/undyne}{#e/undyne/6}現在？？？' ],
-      friend23: [ '<20>{#p/alphys}{#e/alphys/34}對啊！' ],
-      friend24: [ '<20>{#p/asgore}{#e/asgore/20}Alphys，\n這裡還有個孩子呢。' ],
-      friend25: [ "<21>{#p/undyne}{#e/undyne/7}當著孩子的面親嘴，\n不太好吧？" ],
-      friend26: [ '<32>{#p/alphys}{#e/alphys/32}...' ],
-      friend27: [ '<20>{#p/undyne}{#e/undyne/10}...' ],
-      friend28: [ '<20>{*}{#p/alphys}{#e/alphys/35}{#e/undyne/37}{#e/asgore/8}我就是要親。{^10}{%}' ],
-      friend29: [ '<15>{*}{#p/papyrus}{#e/papyrus/22}等等！！！{^10}{%}', '{*}{#e/papyrus/20}{%}' ],
+      friend19: ['<20>{#p/undyne}{#e/undyne/14}嘿，咱倆不是說好\n事成之後\n要一起看電影嗎？',
+'<20>{#p/undyne}{#e/undyne/14}那我也不能讓你\n白高興一場啊！'],
+      friend20: ['<20>{#p/alphys}{#e/alphys/33}...嘴一個？', '{*}{#e/asgore/5}{#e/undyne/19}{%}'],
+      friend21: ['<20>{#p/asgore}{#e/asgore/5}呃。'],
+      friend22: ['<20>{#p/undyne}{#e/undyne/6}現在？？？'],
+      friend23: ['<20>{#p/alphys}{#e/alphys/34}對啊！'],
+      friend24: ['<20>{#p/asgore}{#e/asgore/20}Alphys，\n這裡還有個孩子呢。'],
+      friend25: ["<21>{#p/undyne}{#e/undyne/7}當著孩子的面親嘴，\n不太好吧？"],
+      friend26: ['<32>{#p/alphys}{#e/alphys/32}...'],
+      friend27: ['<20>{#p/undyne}{#e/undyne/10}...'],
+      friend28: ['<20>{*}{#p/alphys}{#e/alphys/35}{#e/undyne/37}{#e/asgore/8}我就是要親。{^10}{%}'],
+      friend29: ['<15>{*}{#p/papyrus}{#e/papyrus/22}等等！！！{^10}{%}', '{*}{#e/papyrus/20}{%}'],
       friend30: () => [
          "<20>{#p/mettaton}久等了，女士們。\n我們「兄弟會」也\n隆重登場了。",
          ...(SAVE.data.n.state_aerialis_basebully > 9
             ? [
-                 '<20>{#p/mettaton}{#e/mettaton/1}...呦，這不是\n「$(moniker2u)」嘛！',
+               '<20>{#p/mettaton}{#e/mettaton/1}...呦，這不是\n「$(moniker2u)」嘛！',
 '<20>{#p/mettaton}{#e/mettaton/1}你要是感興趣，我請你\n當「兄弟會」的VIP喔。'
-              ]
+            ]
             : [])
       ],
-      friend31: [ "<20>{#p/napstablook}{#e/mettaton/2}{#e/alphys/15}{#e/asgore/1}{~}嘿，呃...\n我不算男生，\n為什麼也要跟過來..." ],
+      friend31: ["<20>{#p/napstablook}{#e/mettaton/2}{#e/alphys/15}{#e/asgore/1}{~}嘿，呃...\n我不算男生，\n為什麼也要跟過來..."],
       friend32a: [
          "<20>{#p/mettaton}{#e/mettaton/1}BLOOKY，我也【沒】說\n你在「兄弟會」裡啊...",
          "<20>{#p/mettaton}{#e/undyne/38}{#e/papyrus/21}其實，說是」兄弟會「，\n但裡面也就我跟\nPAPYRUS兩人而已。"
       ],
-      friend32b: [ '<20>{#p/napstablook}{~}喔......', "<20>{#p/napstablook}{~}那我等會再過來吧" ],
+      friend32b: ['<20>{#p/napstablook}{~}喔......', "<20>{#p/napstablook}{~}那我等會再過來吧"],
       friend33: [
          '<20>{#p/undyne}{#e/undyne/19}{#e/mettaton/4}等等。',
          '<20>{#p/undyne}{#e/undyne/10}合著你倆也是一對？？？'
@@ -6091,17 +6091,17 @@ export default {
       ],
       friend35: () =>
          SAVE.data.b.a_state_hapstablook
-            ? [ "<20>{#p/undyne}{#e/undyne/17}原來你充滿電之後，\n跑去約會了..." ]
-            : [ '<20>{#p/undyne}{#e/undyne/17}原來你說的「正事」，\n就是跑去約會...' ],
+            ? ["<20>{#p/undyne}{#e/undyne/17}原來你充滿電之後，\n跑去約會了..."]
+            : ['<20>{#p/undyne}{#e/undyne/17}原來你說的「正事」，\n就是跑去約會...'],
       friend36: [
          '<20>{#p/mettaton}{#e/mettaton/1}{#e/asgore/6}{#e/papyrus/20}那~必須滴！',
 '<20>{#p/mettaton}{#e/mettaton/1}{#e/asgore/6}{#e/papyrus/20}剛才，我倆還尋思\n第一天在一起，\n咋享受呢。'
       ],
-      friend37: [ '<20>{#p/alphys}{#e/alphys/34}{#e/undyne/1}{#e/mettaton/4}誒嘿嘿。\n我有個點子，\n你倆要不要聽聽。' ],
+      friend37: ['<20>{#p/alphys}{#e/alphys/34}{#e/undyne/1}{#e/mettaton/4}誒嘿嘿。\n我有個點子，\n你倆要不要聽聽。'],
       friend38: [
          "<20>{#p/undyne}{#e/undyne/19}{#e/asgore/1}呃，Alphys。\n我覺得，他倆不可能\n真成一對的。"
       ],
-      friend39: [ '<20>{#p/alphys}{#e/alphys/8}喔。' ],
+      friend39: ['<20>{#p/alphys}{#e/alphys/8}喔。'],
       friend40: [
          "<15>{#p/papyrus}{#e/papyrus/10}{#e/undyne/0}咱都到力場下了，\n就好好玩一會唄！",
          '<15>{#e/mettaton/2}{#e/papyrus/28}你喜歡那些\n充滿「異域風情」的地方，\n我懂的...',
@@ -6112,13 +6112,13 @@ export default {
          "<20>{#p/mettaton}{#e/mettaton/1}{#e/papyrus/13}我最喜歡的事，\n就是凝望這無盡虛空。",
          '<20>{|}{#p/mettaton}{#e/mettaton/3}{#e/papyrus/21}這時，我就想起\n生命的奧義，\n宇宙的美麗，還有- {%}'
       ],
-      friend42: [ '<20>{#p/sans}{#e/sans/2}{#e/undyne/21}{#e/alphys/8}大夥好呀。' ],
-      friend43: [ '<15>{#p/papyrus}{#e/papyrus/10}{#e/mettaton/3}兄弟，好久不見！' ],
+      friend42: ['<20>{#p/sans}{#e/sans/2}{#e/undyne/21}{#e/alphys/8}大夥好呀。'],
+      friend43: ['<15>{#p/papyrus}{#e/papyrus/10}{#e/mettaton/3}兄弟，好久不見！'],
       friend44: [
          '<16>{#p/papyrus}{#e/sans/0}{#e/papyrus/26}看來...\n我的搭檔對「結婚」\n沒啥經驗。'
       ],
-      friend45: [ '<20>{#p/sans}{#e/alphys/7}嘿。asgore，\n你好呀。' ],
-      friend46: [ '<20>{#p/asgore}{#e/asgore/6}{#e/papyrus/20}哈囉，Sans。\n你也來了，真好。' ],
+      friend45: ['<20>{#p/sans}{#e/alphys/7}嘿。asgore，\n你好呀。'],
+      friend46: ['<20>{#p/asgore}{#e/asgore/6}{#e/papyrus/20}哈囉，Sans。\n你也來了，真好。'],
       friend47: [
          "<20>{#p/sans}{#e/sans/3}你瞧...\n這兒這麼熱鬧，\n我肯定要順道看看嚕。",
          '<20>{#p/sans}{#e/sans/0}不過先別管我。',
@@ -6133,7 +6133,7 @@ export default {
          '<20>{#p/toriel}{#e/asgore/5}{#e/toriel/9}...',
          '<21>{#p/toriel}{#e/toriel/13}你做的那些...\nSans都跟我說了。'
       ],
-      friend50a: [ "<20>{#p/alphys}{#e/undyne/4}{#e/alphys/8}瞅我幹嘛，\n我可沒洩露秘密。" ],
+      friend50a: ["<20>{#p/alphys}{#e/undyne/4}{#e/alphys/8}瞅我幹嘛，\n我可沒洩露秘密。"],
       friend51a: [
          "<20>{#p/sans}{#e/sans/0}我可以作證。",
          "<20>{#p/sans}{#e/sans/2}{#e/alphys/10}{#e/asgore/6}{#e/toriel/9}只是，alphys，\n你撒謊的技術\n實在太爛了。"
@@ -6146,7 +6146,7 @@ export default {
          '<20>{#p/toriel}{#e/toriel/13}{#e/papyrus/21}{#e/alphys/7}後來轉念一想，\n事情落到這地步，\n我也有錯。',
          '<20>{#p/toriel}{#e/toriel/9}...不該把責任\n全推給你，Asgore。'
       ],
-      friend52a3: [ '<20>{#p/asgore}{#e/asgore/2}明白了。' ],
+      friend52a3: ['<20>{#p/asgore}{#e/asgore/2}明白了。'],
       friend53a: [
          '<20>{#p/undyne}{#e/undyne/1}{#e/papyrus/20}你就想嘛，\n怪物們再恨人類，\n也不可能見人就殺吧？'
       ],
@@ -6154,7 +6154,7 @@ export default {
          '<20>{#p/toriel}{#e/toriel/12}...',
          '<21>{#p/toriel}{#e/sans/3}{#e/asgore/2}{#e/undyne/4}{#e/toriel/11}{#e/papyrus/21}{#e/alphys/15}Asgore，\n為什麼不早點告訴我，\n自己在保護人類呢？'
       ],
-      friend50b: [ "<20>{#p/alphys}{#e/alphys/7}...現在誤會解開了，\n不也挺好的嘛？" ],
+      friend50b: ["<20>{#p/alphys}{#e/alphys/7}...現在誤會解開了，\n不也挺好的嘛？"],
       friend51b: [
          '<20>{#p/sans}{#e/sans/0}{#e/undyne/3}是啊，tori。\n別上火了，開心一點嘛。',
          "<20>{#p/sans}{#e/sans/2}{#e/alphys/8}{#e/asgore/5}{#e/toriel/13}asgore不也是\n出於好意嘛？"
@@ -6163,29 +6163,29 @@ export default {
          '<20>{#p/asgore}{#e/undyne/0}{#e/sans/0}{#e/asgore/2}{#e/alphys/36}不，不。\n她生我的氣，我不怪她。',
          '<20>{#e/sans/3}{#e/asgore/3}這秘密我藏著掖著...\n不跟她說...\n也不跟大夥說...'
       ],
-      friend52b2: [ "<20>{#p/undyne}{#e/undyne/1}{#e/asgore/1}你不是有苦衷嘛。" ],
+      friend52b2: ["<20>{#p/undyne}{#e/undyne/1}{#e/asgore/1}你不是有苦衷嘛。"],
       friend52b3: [
          '<20>{#p/asgore}{#e/undyne/17}{#e/alphys/8}{#e/toriel/9}{#e/asgore/2}{#e/papyrus/27}也許吧，\n不好說算不算苦衷。'
       ],
-      friend53b: [ '<20>{#p/undyne}{#e/undyne/1}還是那句話，\n我們再恨人類，\n也不可能見人就殺吧？' ],
+      friend53b: ['<20>{#p/undyne}{#e/undyne/1}還是那句話，\n我們再恨人類，\n也不可能見人就殺吧？'],
       friend54: [
          '<20>{#p/alphys}{#e/asgore/5}{#e/undyne/17}{#e/alphys/8}{#e/toriel/13}可Undyne，\n你不是一見到這孩子，\n就到處追殺嗎？'
       ],
-      friend55: [ '<20>{#p/toriel}{#e/undyne/18}{#e/toriel/3}{#e/asgore/5}她...\n幹了什麼？' ],
+      friend55: ['<20>{#p/toriel}{#e/undyne/18}{#e/toriel/3}{#e/asgore/5}她...\n幹了什麼？'],
       friend56: () =>
          SAVE.data.b.undyne_respecc
-            ? [ '<20>{#p/undyne}{#e/undyne/9}{#e/toriel/4}我啥也沒幹啊！！！' ]
-            : [ "<20>{#p/undyne}{#e/undyne/13}{#e/toriel/4}你放心，\n我現在不殺人了。" ],
+            ? ['<20>{#p/undyne}{#e/undyne/9}{#e/toriel/4}我啥也沒幹啊！！！']
+            : ["<20>{#p/undyne}{#e/undyne/13}{#e/toriel/4}你放心，\n我現在不殺人了。"],
       friend57: () =>
          SAVE.data.b.undyne_respecc
-            ? [ '<20>{#p/toriel}{#e/toriel/15}{#e/asgore/6}...真的嗎，\n大姐？' ]
-            : [ '<20>{#p/toriel}{#e/toriel/15}{#e/asgore/6}...等會我好好問問，\n大姐。' ],
-      friend58: [ '<20>{#p/alphys}{#e/alphys/33}咳咳，\n「姐」什麼「姐」啊，\n她可是有對象的人了。' ],
+            ? ['<20>{#p/toriel}{#e/toriel/15}{#e/asgore/6}...真的嗎，\n大姐？']
+            : ['<20>{#p/toriel}{#e/toriel/15}{#e/asgore/6}...等會我好好問問，\n大姐。'],
+      friend58: ['<20>{#p/alphys}{#e/alphys/33}咳咳，\n「姐」什麼「姐」啊，\n她可是有對象的人了。'],
       friend59: [
          "<20>{#p/undyne}{#e/undyne/10}{#e/sans/4}{#e/toriel/12}Alphys！！\n咱倆到現在\n還沒共進過晚餐呢！"
       ],
-      friend60: [ '<20>{#p/alphys}{#e/alphys/34}共進晚餐？\n那我肯定不吃主食，\n直接奔著甜品去了。' ],
-      friend61: [ '<15>{#p/papyrus}{#e/undyne/19}{#e/papyrus/19}{#e/asgore/4}{#e/sans/5}{#e/alphys/40}我滴媽呀！！！' ],
+      friend60: ['<20>{#p/alphys}{#e/alphys/34}共進晚餐？\n那我肯定不吃主食，\n直接奔著甜品去了。'],
+      friend61: ['<15>{#p/papyrus}{#e/undyne/19}{#e/papyrus/19}{#e/asgore/4}{#e/sans/5}{#e/alphys/40}我滴媽呀！！！'],
       friend62: [
          '<20>{#p/undyne}{#e/undyne/38}{#e/sans/0}{#e/asgore/1}{#e/toriel/13}{#e/papyrus/20}...等一下。',
          '<20>{#p/undyne}{#e/undyne/18}{#e/papyrus/21}Papyrus，\n你是咋找到這兒的？'
@@ -6195,7 +6195,7 @@ export default {
          '<15>{#p/papyrus}{#e/papyrus/20}有顆黃色小星星\n突然冒出來，\n讓我倆來這。',
          '<15>{#p/papyrus}{#e/papyrus/21}{#e/alphys/9}{#e/sans/1}它好像...\n還挺著急的。'
       ],
-      friend64: [ '<20>{#p/toriel}{#e/toriel/9}{#e/asgore/12}是Twinkly。' ],
+      friend64: ['<20>{#p/toriel}{#e/toriel/9}{#e/asgore/12}是Twinkly。'],
       friend65: [
          '<20>{#p/undyne}{#e/alphys/15}Twinkly？',
          "<20>{#p/undyne}{#e/alphys/28}{#e/undyne/37}{#e/toriel/3}Twinkly是誰？"
@@ -6203,28 +6203,28 @@ export default {
       friend66: () =>
          SAVE.flag.n.genocide_milestone < 7
             ? [
-                 [ '<20>{#p/twinkly}{#e/twinkly/5}{#v/0}哈囉。', '<20>{#e/twinkly/7}{#v/0}各位，想我了沒？' ],
-                 [
-                    "<20>{#p/twinkly}{#e/twinkly/11}{#v/0}哎呀，真不好意思呢...\n存檔是不是壞掉了呀？",
-                    '<20>{#p/twinkly}{#e/twinkly/11}{#v/0}嘻嘻嘻...',
-                    "<20>{#p/twinkly}{#e/twinkly/2}{#v/1}活該。"
-                 ],
-                 [ '<20>{#p/twinkly}{#e/twinkly/7}{#v/0}不好意思呢。\n但現在，\n整個世界，我說了算。' ]
-              ][Math.min(SAVE.flag.n.pa_twinkly1++, 2)]
+               ['<20>{#p/twinkly}{#e/twinkly/5}{#v/0}哈囉。', '<20>{#e/twinkly/7}{#v/0}各位，想我了沒？'],
+               [
+                  "<20>{#p/twinkly}{#e/twinkly/11}{#v/0}哎呀，真不好意思呢...\n存檔是不是壞掉了呀？",
+                  '<20>{#p/twinkly}{#e/twinkly/11}{#v/0}嘻嘻嘻...',
+                  "<20>{#p/twinkly}{#e/twinkly/2}{#v/1}活該。"
+               ],
+               ['<20>{#p/twinkly}{#e/twinkly/7}{#v/0}不好意思呢。\n但現在，\n整個世界，我說了算。']
+            ][Math.min(SAVE.flag.n.pa_twinkly1++, 2)]
             : [
-                 [
-                    '<20>{#p/twinkly}{#e/twinkly/5}{#v/0}親愛的$(name)，\n好久不見。',
-                    "<20>{#e/twinkly/7}{#v/0}是不是想死我了？",
-                    "<20>{#e/twinkly/11}{#v/0}希望我沒讓你\n掃興呢...",
-                    '<20>{#e/twinkly/2}{#v/1}告訴你，\n我可被你折磨得夠嗆。'
-                 ],
-                 [
-                    "<20>{#p/twinkly}{#e/twinkly/11}{#v/0}怎麼啦？\n想把存檔要回去？",
-                    '<20>{#p/twinkly}{#e/twinkly/11}{#v/0}喔...',
-                    "<20>{#p/twinkly}{#e/twinkly/2}{#v/1}沒想到啊，$(name)...\n你咋能蠢成這樣呢？"
-                 ],
-                 [ '<20>{#p/twinkly}{#e/twinkly/7}{#v/0}不好意思呢，$(name)。\n但現在，\n整個世界，我說了算。' ]
-              ][Math.min(SAVE.flag.n.pa_twinkly1++, 2)],
+               [
+                  '<20>{#p/twinkly}{#e/twinkly/5}{#v/0}親愛的$(name)，\n好久不見。',
+                  "<20>{#e/twinkly/7}{#v/0}是不是想死我了？",
+                  "<20>{#e/twinkly/11}{#v/0}希望我沒讓你\n掃興呢...",
+                  '<20>{#e/twinkly/2}{#v/1}告訴你，\n我可被你折磨得夠嗆。'
+               ],
+               [
+                  "<20>{#p/twinkly}{#e/twinkly/11}{#v/0}怎麼啦？\n想把存檔要回去？",
+                  '<20>{#p/twinkly}{#e/twinkly/11}{#v/0}喔...',
+                  "<20>{#p/twinkly}{#e/twinkly/2}{#v/1}沒想到啊，$(name)...\n你咋能蠢成這樣呢？"
+               ],
+               ['<20>{#p/twinkly}{#e/twinkly/7}{#v/0}不好意思呢，$(name)。\n但現在，\n整個世界，我說了算。']
+            ][Math.min(SAVE.flag.n.pa_twinkly1++, 2)],
       friend67: (unique: string[]) => [
          '<20>{#e/twinkly/11}{#v/0}嘻嘻嘻...',
          '<20>{#e/twinkly/11}{#v/0}趁著你們談笑風生...',
@@ -6237,128 +6237,128 @@ export default {
          "<20>{#e/twinkly/5}{#v/0}更棒的是，\n這一切，都是你的錯。",
          ...(30 <= SAVE.data.n.bully
             ? [
-                 "<20>{#e/twinkly/5}{#v/0}是你，給他們洗腦，\n讓他們對你好。",
-                 '<20>{#e/twinkly/8}{#v/0}一路上，\n你揍他們，你欺負他們，\n你把他們打得半死...',
-                 '<20>{#e/twinkly/8}{#v/0}看他們要死了，\n你就停手，\n讓他們苟活...'
-              ]
+               "<20>{#e/twinkly/5}{#v/0}是你，給他們洗腦，\n讓他們對你好。",
+               '<20>{#e/twinkly/8}{#v/0}一路上，\n你揍他們，你欺負他們，\n你把他們打得半死...',
+               '<20>{#e/twinkly/8}{#v/0}看他們要死了，\n你就停手，\n讓他們苟活...'
+            ]
             : [
-                 "<20>{#e/twinkly/5}{#v/0}是你，善待他們，\n讓他們對你好。",
-                 '<20>{#e/twinkly/8}{#v/0}一路上，\n你傾聽他們的煩惱...',
-                 '<20>{#e/twinkly/8}{#v/0}鼓勵他們... \n關心他們...'
-              ]),
+               "<20>{#e/twinkly/5}{#v/0}是你，善待他們，\n讓他們對你好。",
+               '<20>{#e/twinkly/8}{#v/0}一路上，\n你傾聽他們的煩惱...',
+               '<20>{#e/twinkly/8}{#v/0}鼓勵他們... \n關心他們...'
+            ]),
          ...(1 <= SAVE.flag.n.killed_sans
             ? [
-                 '<20>{#e/twinkly/8}{#v/0}...',
-                 '<20>$(name)，我記得...',
-                 '<20>{#e/twinkly/5}在某條時間軸裡，\n我們倆同心協力\n殺死每一個人。',
-                 ...(SAVE.flag.b.confront_twinkly
-                    ? [
-                         '<20>{#e/twinkly/6}{#v/0}可是...\n你卻背叛我，\n自己跑去當「老好人」。',
-                         '<20>{#e/twinkly/8}{#v/0}這樣，\n你就能在這些廢物面前\n逞英雄。',
-                         '<20>{#e/twinkly/7}{#v/0}好一個「最好的朋友」啊。'
-                      ]
-                    : [
-                         [
-                            '<20>{#e/twinkly/8}沒錯，咱倆是沒走幾步，\n可你就因此把我們的\n願景忘了，是吧？',
-                            "<20>{#e/twinkly/8}沒錯，咱倆是沒走多遠，\n可你就因此把我們的\n願景忘了，是吧？",
-                            "<20>{#e/twinkly/8}沒錯，咱是離終點還遠，\n可你就因此把我們的\n願景忘了，是吧？",
-                            '<20>{#e/twinkly/8}咱倆都走那麼遠了，\n你卻...',
-                            '<20>{#e/twinkly/8}咱倆都快成功了，\n你卻...'
-                         ][Math.min(SAVE.flag.n.genocide_milestone, 4)],
-                         '<20>{#e/twinkly/5}{#v/0}本以為，\n我們會形影不離。',
-                         '<20>{#e/twinkly/6}{#v/0}可時代變了。',
-                         '<20>{#e/twinkly/11}{#v/0}你成了軟蛋！',
-                         '<20>{#e/twinkly/7}{#v/0}你放棄了。'
-                      ]),
-                 "<20>{#e/twinkly/9}{#v/0}呵呵，\n真自以為是啊。",
-                 '<20>{#e/twinkly/5}殺了人，又跑回來\n當「老好人」，是不是\n覺得自己可了不起了？',
-                 '<20>{#e/twinkly/6}{#v/0}真噁心。',
-                 '<20>{#e/twinkly/7}{#v/0}$(name)，\n有點自知之明吧。',
-                 '<21>{#e/twinkly/2}{#v/1}想救朋友？\n門都沒有。'
-              ]
+               '<20>{#e/twinkly/8}{#v/0}...',
+               '<20>$(name)，我記得...',
+               '<20>{#e/twinkly/5}在某條時間軸裡，\n我們倆同心協力\n殺死每一個人。',
+               ...(SAVE.flag.b.confront_twinkly
+                  ? [
+                     '<20>{#e/twinkly/6}{#v/0}可是...\n你卻背叛我，\n自己跑去當「老好人」。',
+                     '<20>{#e/twinkly/8}{#v/0}這樣，\n你就能在這些廢物面前\n逞英雄。',
+                     '<20>{#e/twinkly/7}{#v/0}好一個「最好的朋友」啊。'
+                  ]
+                  : [
+                     [
+                        '<20>{#e/twinkly/8}沒錯，咱倆是沒走幾步，\n可你就因此把我們的\n願景忘了，是吧？',
+                        "<20>{#e/twinkly/8}沒錯，咱倆是沒走多遠，\n可你就因此把我們的\n願景忘了，是吧？",
+                        "<20>{#e/twinkly/8}沒錯，咱是離終點還遠，\n可你就因此把我們的\n願景忘了，是吧？",
+                        '<20>{#e/twinkly/8}咱倆都走那麼遠了，\n你卻...',
+                        '<20>{#e/twinkly/8}咱倆都快成功了，\n你卻...'
+                     ][Math.min(SAVE.flag.n.genocide_milestone, 4)],
+                     '<20>{#e/twinkly/5}{#v/0}本以為，\n我們會形影不離。',
+                     '<20>{#e/twinkly/6}{#v/0}可時代變了。',
+                     '<20>{#e/twinkly/11}{#v/0}你成了軟蛋！',
+                     '<20>{#e/twinkly/7}{#v/0}你放棄了。'
+                  ]),
+               "<20>{#e/twinkly/9}{#v/0}呵呵，\n真自以為是啊。",
+               '<20>{#e/twinkly/5}殺了人，又跑回來\n當「老好人」，是不是\n覺得自己可了不起了？',
+               '<20>{#e/twinkly/6}{#v/0}真噁心。',
+               '<20>{#e/twinkly/7}{#v/0}$(name)，\n有點自知之明吧。',
+               '<21>{#e/twinkly/2}{#v/1}想救朋友？\n門都沒有。'
+            ]
             : 30 <= SAVE.data.n.bully
-            ? [ "<20>{#e/twinkly/5}{#v/0}你不知道，這麼做\n根本屁用沒有嗎？" ]
-            : [ "<20>{#e/twinkly/5}{#v/0}沒有這些，\n你的朋友絕不會\n來到這裡。" ]),
+               ? ["<20>{#e/twinkly/5}{#v/0}你不知道，這麼做\n根本屁用沒有嗎？"]
+               : ["<20>{#e/twinkly/5}{#v/0}沒有這些，\n你的朋友絕不會\n來到這裡。"]),
          '<20>{#e/twinkly/11}{#v/0}嘻嘻嘻...',
          '<20>{#e/twinkly/6}{#v/0}啥？',
          '<20>想知道，我這麼做圖啥？',
          ...(unique.length > 2
             ? [
-                 '<20>{#e/twinkly/5}{#v/0}...呵，別裝傻了。',
-                 '<20>{#e/twinkly/5}{#v/0}先問問你自己。',
-                 "<20>{#e/twinkly/11}{#v/0}你不也喜歡\n體驗各種結局嘛...",
-                 '<20>{#e/twinkly/7}{#v/0}你不也為了滿足好奇心，\n玩弄他們的生命嘛。',
-                 "<20>{#e/twinkly/8}{#v/0}...哈？\n你不記得了？\n那我幫你回憶回憶。",
-                 {
-                    dark_death: '<20>{#e/twinkly/5}{#v/0}第一個結局裡，\nUndyne和Alphys\n聯合追殺你...',
-                    dark_undyne: '<20>{#e/twinkly/5}{#v/0}第一個結局裡，\nAlphys回到了\nBratty和Catty身邊...',
-                    dark_alphys: '<20>{#e/twinkly/5}{#v/0}第一個結局裡，\n幾乎所有重要的人，\n都死於你手...',
-                    dark_alphys_therapy:
-                       '<20>{#e/twinkly/5}{#v/0}第一個結局裡，\nSans和Papyrus\n一起開了家醫療公司...',
-                    dark_alphys_virtual:
-                       '<20>{#e/twinkly/5}{#v/0}第一個結局裡，\nPapyrus和Alphys\n躲進了虛擬空間...',
-                    dark_mew:
-                       '<20>{#e/twinkly/5}{#v/0}第一個結局裡，\n憤怒喵喵讓大夥都\n沉浸在她的怪癖中...',
-                    dark_charles:
-                       "<20>{#e/twinkly/5}{#v/0}第一個結局裡，\nCharles讓每個人都\n心想事成...",
-                    dark_blooky:
-                       "<20>{#e/twinkly/5}{#v/0}第一個結局裡，\nMettaton的粉絲自發\n組建起一個反人類聯盟...",
-                    dark_generic: '<20>{#e/twinkly/5}{#v/0}第一個結局裡，\n前哨站成立了\n「皇家防衛署」...',
-                    dark_aborted:
-                       '<20>{#e/twinkly/5}{#v/0}第一個結局裡，\nNapstablook詛咒你\n死後「萬劫不復」...',
-                    light_ultra:
-                       '<20>{#e/twinkly/5}{#v/0}第一個結局裡，\nPapyrus抓到了你，\n最終當上了皇家守衛...',
-                    light_undyne: '<20>{#e/twinkly/5}{#v/0}第一個結局裡，\nAlphys迫於壓力，\n把其他人類藏了起來...',
-                    light_runaway: '<20>{#e/twinkly/5}{#v/0}第一個結局裡，\n民眾意外知道了\n那些人類的去向...',
-                    light_toriel: '<20>{#e/twinkly/5}{#v/0}第一個結局裡，\nToriel從大眾視野裡\n消失了...',
-                    light_dog: '<20>{#e/twinkly/5}{#v/0}第一個結局裡，\n犬衛隊成了前哨站的\n實際統治力量...',
-                    light_muffet: '<20>{#e/twinkly/5}{#v/0}第一個結局裡，\nMuffet奪取權力，\n成為無情的獨裁者...',
-                    light_papyrus:
-                       '<20>{#e/twinkly/5}{#v/0}第一個結局裡，\n「友誼就是魔法」成了現實...',
-                    light_sans: '<20>{#e/twinkly/5}{#v/0}第一個結局裡，\nSans當上了國王...',
-                    light_generic: '<20>{#e/twinkly/5}{#v/0}第一個結局裡，\nTerrestria當選女王...'
-                 }[unique[0]]!,
-                 {
-                    dark_death: '<20>{#e/twinkly/5}{#v/0}...而在最後一個結局，\nUndyne和Alphys\n聯合追殺你，',
-                    dark_undyne: '<20>{#e/twinkly/5}{#v/0}...而在最後一個結局，\nAlphys回到了\nBratty和Catty身邊，',
-                    dark_alphys: '<20>{#e/twinkly/5}{#v/0}...而在最後一個結局，\n幾乎所有重要的人，\n都死於你手，',
-                    dark_alphys_therapy:
-                       '<20>{#e/twinkly/5}{#v/0}...而在最後一個結局，\nSans和Papyrus\n一起開了家醫療公司，',
-                    dark_alphys_virtual:
-                       '<20>{#e/twinkly/5}{#v/0}...而在最後一個結局，\nPapyrus和Alphys\n躲進了虛擬空間，',
-                    dark_mew:
-                       '<20>{#e/twinkly/5}{#v/0}...而在最後一個結局，\n憤怒喵喵讓大夥都\n沉浸在她的怪癖中。',
-                    dark_charles:
-                       "<20>{#e/twinkly/5}{#v/0}...而在最後一個結局，\nCharles讓每個人都\n心想事成。",
-                    dark_generic: '<20>{#e/twinkly/5}{#v/0}...而在最後一個結局，\nMettaton的粉絲自發\n組建起一個反人類聯盟。',
-                    dark_blooky:
-                       "<20>{#e/twinkly/5}{#v/0}...而在最後一個結局，\n前哨站成立了\n「皇家防衛署」。",
-                    dark_aborted:
-                       '<20>{#e/twinkly/5}{#v/0}...而在最後一個結局，\nNapstablook詛咒你\n死後「萬劫不復」。',
-                    light_ultra:
-                       '<20>{#e/twinkly/5}{#v/0}...而在最後一個結局，\nPapyrus抓到了你，\n最終當上了皇家守衛，',
-                    light_undyne: '<20>{#e/twinkly/5}{#v/0}...而在最後一個結局，\nAlphys迫於壓力，\n把其他人類藏了起來。',
-                    light_runaway: '<20>{#e/twinkly/5}{#v/0}...而在最後一個結局，\n民眾意外知道了\n那些人類的去向。',
-                    light_toriel: '<20>{#e/twinkly/5}{#v/0}...而在最後一個結局，\nToriel從大眾視野裡\n消失了。',
-                    light_dog: '<20>{#e/twinkly/5}{#v/0}...而在最後一個結局，\n犬衛隊成了前哨站的\n實際統治力量。',
-                    light_muffet: '<20>{#e/twinkly/5}{#v/0}...而在最後一個結局，\nMuffet奪取權力，\n成為無情的獨裁者。',
-                    light_papyrus:
-                       '<20>{#e/twinkly/5}{#v/0}...而在最後一個結局，\n「友誼就是魔法」成了現實。',
-                    light_sans: '<20>{#e/twinkly/5}{#v/0}...而在最後一個結局，\nSans當上了國王。',
-                    light_generic: '<20>{#e/twinkly/5}{#v/0}...而在最後一個結局，\nTerrestria當選女王。'
-                 }[unique[unique.length - 1]]!,
-                 "<20>{#e/twinkly/7}{#v/0}你把他們當兒戲，\n玩弄他們時多開心啊。",
-                 "<20>{#e/twinkly/5}{#v/0}現在，\n也讓我體驗體驗。"
-              ]
+               '<20>{#e/twinkly/5}{#v/0}...呵，別裝傻了。',
+               '<20>{#e/twinkly/5}{#v/0}先問問你自己。',
+               "<20>{#e/twinkly/11}{#v/0}你不也喜歡\n體驗各種結局嘛...",
+               '<20>{#e/twinkly/7}{#v/0}你不也為了滿足好奇心，\n玩弄他們的生命嘛。',
+               "<20>{#e/twinkly/8}{#v/0}...哈？\n你不記得了？\n那我幫你回憶回憶。",
+               {
+                  dark_death: '<20>{#e/twinkly/5}{#v/0}第一個結局裡，\nUndyne和Alphys\n聯合追殺你...',
+                  dark_undyne: '<20>{#e/twinkly/5}{#v/0}第一個結局裡，\nAlphys回到了\nBratty和Catty身邊...',
+                  dark_alphys: '<20>{#e/twinkly/5}{#v/0}第一個結局裡，\n幾乎所有重要的人，\n都死於你手...',
+                  dark_alphys_therapy:
+                     '<20>{#e/twinkly/5}{#v/0}第一個結局裡，\nSans和Papyrus\n一起開了家醫療公司...',
+                  dark_alphys_virtual:
+                     '<20>{#e/twinkly/5}{#v/0}第一個結局裡，\nPapyrus和Alphys\n躲進了虛擬空間...',
+                  dark_mew:
+                     '<20>{#e/twinkly/5}{#v/0}第一個結局裡，\n憤怒喵喵讓大夥都\n沉浸在她的怪癖中...',
+                  dark_charles:
+                     "<20>{#e/twinkly/5}{#v/0}第一個結局裡，\nCharles讓每個人都\n心想事成...",
+                  dark_blooky:
+                     "<20>{#e/twinkly/5}{#v/0}第一個結局裡，\nMettaton的粉絲自發\n組建起一個反人類聯盟...",
+                  dark_generic: '<20>{#e/twinkly/5}{#v/0}第一個結局裡，\n前哨站成立了\n「皇家防衛署」...',
+                  dark_aborted:
+                     '<20>{#e/twinkly/5}{#v/0}第一個結局裡，\nNapstablook詛咒你\n死後「萬劫不復」...',
+                  light_ultra:
+                     '<20>{#e/twinkly/5}{#v/0}第一個結局裡，\nPapyrus抓到了你，\n最終當上了皇家守衛...',
+                  light_undyne: '<20>{#e/twinkly/5}{#v/0}第一個結局裡，\nAlphys迫於壓力，\n把其他人類藏了起來...',
+                  light_runaway: '<20>{#e/twinkly/5}{#v/0}第一個結局裡，\n民眾意外知道了\n那些人類的去向...',
+                  light_toriel: '<20>{#e/twinkly/5}{#v/0}第一個結局裡，\nToriel從大眾視野裡\n消失了...',
+                  light_dog: '<20>{#e/twinkly/5}{#v/0}第一個結局裡，\n犬衛隊成了前哨站的\n實際統治力量...',
+                  light_muffet: '<20>{#e/twinkly/5}{#v/0}第一個結局裡，\nMuffet奪取權力，\n成為無情的獨裁者...',
+                  light_papyrus:
+                     '<20>{#e/twinkly/5}{#v/0}第一個結局裡，\n「友誼就是魔法」成了現實...',
+                  light_sans: '<20>{#e/twinkly/5}{#v/0}第一個結局裡，\nSans當上了國王...',
+                  light_generic: '<20>{#e/twinkly/5}{#v/0}第一個結局裡，\nTerrestria當選女王...'
+               }[unique[0]]!,
+               {
+                  dark_death: '<20>{#e/twinkly/5}{#v/0}...而在最後一個結局，\nUndyne和Alphys\n聯合追殺你，',
+                  dark_undyne: '<20>{#e/twinkly/5}{#v/0}...而在最後一個結局，\nAlphys回到了\nBratty和Catty身邊，',
+                  dark_alphys: '<20>{#e/twinkly/5}{#v/0}...而在最後一個結局，\n幾乎所有重要的人，\n都死於你手，',
+                  dark_alphys_therapy:
+                     '<20>{#e/twinkly/5}{#v/0}...而在最後一個結局，\nSans和Papyrus\n一起開了家醫療公司，',
+                  dark_alphys_virtual:
+                     '<20>{#e/twinkly/5}{#v/0}...而在最後一個結局，\nPapyrus和Alphys\n躲進了虛擬空間，',
+                  dark_mew:
+                     '<20>{#e/twinkly/5}{#v/0}...而在最後一個結局，\n憤怒喵喵讓大夥都\n沉浸在她的怪癖中。',
+                  dark_charles:
+                     "<20>{#e/twinkly/5}{#v/0}...而在最後一個結局，\nCharles讓每個人都\n心想事成。",
+                  dark_generic: '<20>{#e/twinkly/5}{#v/0}...而在最後一個結局，\nMettaton的粉絲自發\n組建起一個反人類聯盟。',
+                  dark_blooky:
+                     "<20>{#e/twinkly/5}{#v/0}...而在最後一個結局，\n前哨站成立了\n「皇家防衛署」。",
+                  dark_aborted:
+                     '<20>{#e/twinkly/5}{#v/0}...而在最後一個結局，\nNapstablook詛咒你\n死後「萬劫不復」。',
+                  light_ultra:
+                     '<20>{#e/twinkly/5}{#v/0}...而在最後一個結局，\nPapyrus抓到了你，\n最終當上了皇家守衛，',
+                  light_undyne: '<20>{#e/twinkly/5}{#v/0}...而在最後一個結局，\nAlphys迫於壓力，\n把其他人類藏了起來。',
+                  light_runaway: '<20>{#e/twinkly/5}{#v/0}...而在最後一個結局，\n民眾意外知道了\n那些人類的去向。',
+                  light_toriel: '<20>{#e/twinkly/5}{#v/0}...而在最後一個結局，\nToriel從大眾視野裡\n消失了。',
+                  light_dog: '<20>{#e/twinkly/5}{#v/0}...而在最後一個結局，\n犬衛隊成了前哨站的\n實際統治力量。',
+                  light_muffet: '<20>{#e/twinkly/5}{#v/0}...而在最後一個結局，\nMuffet奪取權力，\n成為無情的獨裁者。',
+                  light_papyrus:
+                     '<20>{#e/twinkly/5}{#v/0}...而在最後一個結局，\n「友誼就是魔法」成了現實。',
+                  light_sans: '<20>{#e/twinkly/5}{#v/0}...而在最後一個結局，\nSans當上了國王。',
+                  light_generic: '<20>{#e/twinkly/5}{#v/0}...而在最後一個結局，\nTerrestria當選女王。'
+               }[unique[unique.length - 1]]!,
+               "<20>{#e/twinkly/7}{#v/0}你把他們當兒戲，\n玩弄他們時多開心啊。",
+               "<20>{#e/twinkly/5}{#v/0}現在，\n也讓我體驗體驗。"
+            ]
             : [
-                 "<20>{#e/twinkly/8}{#v/0}...你咋這麼蠢呢？",
-                 '<20>{#e/twinkly/6}{#v/0}不管是你，我，\n還是身邊的一切...',
-                 "<21>{#e/twinkly/5}{#v/0}都是一場「遊戲」的\n玩家。",
-                 '<20>{#e/twinkly/11}{#v/0}要是我乖乖讓你們走，\n你就「贏了」，\n就「幸福「了。',
-                 '<20>{#e/twinkly/11}你要是「贏了」，\n誰還來陪我「玩」呢？',
-                 '<20>{#e/twinkly/7}{#v/0}那時，\n我可怎麼辦呢？',
-                 '<20>{#e/twinkly/5}{#v/0}所以，\n我不會讓遊戲結束。'
-              ]),
+               "<20>{#e/twinkly/8}{#v/0}...你咋這麼蠢呢？",
+               '<20>{#e/twinkly/6}{#v/0}不管是你，我，\n還是身邊的一切...',
+               "<21>{#e/twinkly/5}{#v/0}都是一場「遊戲」的\n玩家。",
+               '<20>{#e/twinkly/11}{#v/0}要是我乖乖讓你們走，\n你就「贏了」，\n就「幸福「了。',
+               '<20>{#e/twinkly/11}你要是「贏了」，\n誰還來陪我「玩」呢？',
+               '<20>{#e/twinkly/7}{#v/0}那時，\n我可怎麼辦呢？',
+               '<20>{#e/twinkly/5}{#v/0}所以，\n我不會讓遊戲結束。'
+            ]),
          "<20>{#e/twinkly/8}{#v/0}我就把「勝利」放你面前，\n然後，當你伸手\n去夠它的時候...",
          '<20>{#e/twinkly/2}{#v/1}{@random=1.1/1.1}「咔嚓！」\n勝利沒了，\n讓我撕碎了。',
          '<20>{#e/twinkly/14}{#v/1}{@random=1.1/1.1}你再夠，我再撕。\n一遍，一遍，\n又一遍...',
@@ -6366,21 +6366,21 @@ export default {
          '<20>{#e/twinkly/5}{#v/0}{#v/0}聽好了。',
          ...(30 <= SAVE.data.n.bully
             ? [
-                 '<20>{#e/twinkly/5}{#v/0}你要是打敗了我...',
-                 "<20>{#e/twinkly/5}{#v/0}我就把「完美結局」\n讓給你，\n讓「好朋友」們活下來。"
-              ]
+               '<20>{#e/twinkly/5}{#v/0}你要是打敗了我...',
+               "<20>{#e/twinkly/5}{#v/0}我就把「完美結局」\n讓給你，\n讓「好朋友」們活下來。"
+            ]
             : [
-                 '<20>{#e/twinkly/5}{#v/0}你要是打敗了我...',
-                 "<20>{#e/twinkly/5}{#v/0}我就把「幸福結局」\n讓給你，\n讓你和好友團聚。"
-              ]),
+               '<20>{#e/twinkly/5}{#v/0}你要是打敗了我...',
+               "<20>{#e/twinkly/5}{#v/0}我就把「幸福結局」\n讓給你，\n讓你和好友團聚。"
+            ]),
          "<20>{#e/twinkly/5}{#v/0}然後，打碎力場。",
          '<20>{#e/twinkly/5}{#v/0}讓所有人獲得幸福。',
          "<20>{#e/twinkly/9}{#v/0}不過，\n想贏我，做夢去吧！",
          
          "<20>{#e/twinkly/5}{#v/0}即使，我要陪你\n耗到時間盡頭..."
       ],
-      friend68: [ '<20>{#e/twinkly/0}{#v/1}{@random=1.1/1.1}我也會想方設法，\n殺了你，困死你，\n折磨死你！{%20}' ],
-      friend69: [ '<20>{#e/twinkly/8}{#v/0}怎麼回事？' ],
+      friend68: ['<20>{#e/twinkly/0}{#v/1}{@random=1.1/1.1}我也會想方設法，\n殺了你，困死你，\n折磨死你！{%20}'],
+      friend69: ['<20>{#e/twinkly/8}{#v/0}怎麼回事？'],
       friend70: [
          '<20>{#p/asgore}{#e/asgore/1}年輕人，別害怕...',
          '<20>{#e/asgore/2}...我們會守護你！'
@@ -6426,13 +6426,13 @@ export default {
          "<20>{#e/twinkly/15}這怎麼可能...！",
          '<20>{#e/twinkly/16}你們... 你們...！'
       ],
-      friend88: [ "<20>{#p/twinkly}{#e/twinkly/2}真不敢相信\n你們都這麼愚蠢。" ],
-      friend89: [ '<20>{*}你們所有人的靈魂\n都歸我了！！！！！{^40}{%}' ],
+      friend88: ["<20>{#p/twinkly}{#e/twinkly/2}真不敢相信\n你們都這麼愚蠢。"],
+      friend89: ['<20>{*}你們所有人的靈魂\n都歸我了！！！！！{^40}{%}'],
       friend90: () =>
          1 <= SAVE.flag.n.killed_sans
-            ? [ '<20>{#p/asriel1}果然...', '<20>這種感覺，\n比上次好太多了。' ]
-            : [ '<20>{#p/asriel1}終於。', '<20>當星星那麼久\n真是受夠了。' ],
-      friend91: [ '<20>{#p/asriel1}哈囉！', '<20>你在那裡嗎，\n$(name)？', "<20>是我啊，你最好的朋友：" ],
+            ? ['<20>{#p/asriel1}果然...', '<20>這種感覺，\n比上次好太多了。']
+            : ['<20>{#p/asriel1}終於。', '<20>當星星那麼久\n真是受夠了。'],
+      friend91: ['<20>{#p/asriel1}哈囉！', '<20>你在那裡嗎，\n$(name)？', "<20>是我啊，你最好的朋友："],
       friend92: '<99>{*}{#p/asriel3}{#v/1}{#i/12}ASRIEL DREEMURR{^10}{#p/event}{%}'
    },
    b_opponent_finalasgore: {
@@ -6451,36 +6451,36 @@ export default {
    i_archive: { battle: { description: '', name: '' }, drop: [], info: [], name: '無', use: [] },
    i_archive_berry: {
       battle: { description: '3 HP。', name: '洋梅' },
-      drop: [ '<32>{#p/human}* （你把洋梅扔掉了。）' ],
-      info: [ '<32>{#p/human}* （3 HP。）' ],
+      drop: ['<32>{#p/human}* （你把洋梅扔掉了。）'],
+      info: ['<32>{#p/human}* （3 HP。）'],
       name: '洋梅',
-      use: [ '<32>{#p/human}* （你吃掉了洋梅。）' ]
+      use: ['<32>{#p/human}* （你吃掉了洋梅。）']
    },
    i_archive_candy: {
       battle: { description: '4 HP。', name: '糖果' },
-      drop: [ '<32>{#p/human}* （你把怪物糖果扔掉了。）' ],
-      info: [ '<32>{#p/human}* （4 HP。）' ],
+      drop: ['<32>{#p/human}* （你把怪物糖果扔掉了。）'],
+      info: ['<32>{#p/human}* （4 HP。）'],
       name: '怪物糖果',
-      use: [ '<32>{#p/human}* （你吃掉了怪物糖果。）' ]
+      use: ['<32>{#p/human}* （你吃掉了怪物糖果。）']
    },
    i_archive_rations: {
       battle: { description: '5 HP。', name: '口糧' },
-      drop: [ '<32>{#p/human}* （你把口糧扔掉了。）' ],
-      info: [ '<32>{#p/human}* （5 HP。）' ],
+      drop: ['<32>{#p/human}* （你把口糧扔掉了。）'],
+      info: ['<32>{#p/human}* （5 HP。）'],
       name: '口糧',
-      use: [ '<32>{#p/human}* （你吃掉了口糧。）' ]
+      use: ['<32>{#p/human}* （你吃掉了口糧。）']
    },
    i_archive_tzn: {
       battle: { description: '6 HP。', name: '太空豆腐' },
-      drop: [ '<32>{#p/human}* （你把太空豆腐扔掉了。）' ],
-      info: [ '<32>{#p/human}* （6 HP。）' ],
+      drop: ['<32>{#p/human}* （你把太空豆腐扔掉了。）'],
+      info: ['<32>{#p/human}* （6 HP。）'],
       name: '太空豆腐',
-      use: [ '<32>{#p/human}* （你吞下了太空豆腐。）' ]
+      use: ['<32>{#p/human}* （你吞下了太空豆腐。）']
    },
    i_archive_nice_cream: {
       battle: { description: '7 HP。', name: '冰意靈' },
-      drop: [ '<32>{#p/human}* （你把冰意靈扔掉了。）' ],
-      info: [ '<32>{#p/human}* （7 HP。）' ],
+      drop: ['<32>{#p/human}* （你把冰意靈扔掉了。）'],
+      info: ['<32>{#p/human}* （7 HP。）'],
       name: '冰意靈',
       use: [
          '<32>{#p/human}* （你撕開了冰意靈的包裝。）',
@@ -6489,23 +6489,23 @@ export default {
    },
    i_archive_healpak: {
       battle: { description: '8 HP。', name: '治療包' },
-      drop: [ '<32>{#p/human}* （你把治療包扔掉了。）' ],
-      info: [ '<32>{#p/human}* （8 HP。）' ],
+      drop: ['<32>{#p/human}* （你把治療包扔掉了。）'],
+      info: ['<32>{#p/human}* （8 HP。）'],
       name: '治療包',
-      use: [ '<32>{#p/human}* （你使用了治療包。）' ]
+      use: ['<32>{#p/human}* （你使用了治療包。）']
    },
    i_big_dipper: {
       battle: {
          description: '一把巨勺，由本星系\n最好的合金材料製成。',
          name: '大熊座'
       },
-      drop: [ '<32>{#p/human}* （你把大熊座扔掉了。）' ],
+      drop: ['<32>{#p/human}* （你把大熊座扔掉了。）'],
       info: () =>
          SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
-            ? [ '<32>{#p/human}* （15攻擊。）' ]
-            : [ '<32>{#p/basic}* 「大熊座」 （15攻擊）\n* 一把巨勺，由本星系\n  最好的合金材料製成。' ],
+            ? ['<32>{#p/human}* （15攻擊。）']
+            : ['<32>{#p/basic}* 「大熊座」 （15攻擊）\n* 一把巨勺，由本星系\n  最好的合金材料製成。'],
       name: '大熊座',
-      use: [ '<32>{#p/human}* （你裝備上了大熊座。）' ]
+      use: ['<32>{#p/human}* （你裝備上了大熊座。）']
    },
    i_heart_locket: {
       battle: {
@@ -6516,27 +6516,27 @@ export default {
          '<32>{#p/human}* （你把心形掛墜扔掉了。）',
          ...(SAVE.data.b.svr || world.darker || SAVE.data.b.ufokinwotm8
             ? []
-            : [ '<32>{#p/basic}* ...', "<32>{#p/basic}* 我就當什麼都沒看見。" ])
+            : ['<32>{#p/basic}* ...', "<32>{#p/basic}* 我就當什麼都沒看見。"])
       ],
       info: () =>
          SAVE.data.b.svr
-            ? [ '<32>{#p/human}* （15防禦。）' ]
-            : [ '<33>{#p/basic}* 「心形掛墜」 （15防禦）\n* 上面刻著「永遠都是好朋友」。' ],
+            ? ['<32>{#p/human}* （15防禦。）']
+            : ['<33>{#p/basic}* 「心形掛墜」 （15防禦）\n* 上面刻著「永遠都是好朋友」。'],
       name: '心形掛墜',
-      use: [ '<32>{#p/human}* （你戴上了心形掛墜。）' ]
+      use: ['<32>{#p/human}* （你戴上了心形掛墜。）']
    },
    i_starling_tea: {
       battle: {
          description: '好王配好茶。',
          name: '星花茶'
       },
-      drop: [ '<32>{#p/human}* （你把星花茶全倒掉了。）' ],
+      drop: ['<32>{#p/human}* （你把星花茶全倒掉了。）'],
       info: () =>
          SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
-            ? [ '<32>{#p/human}* （99 HP。）' ]
-            : [ '<32>{#p/basic}* 「星花茶」 回復99 HP\n* 好王配好茶。' ],
+            ? ['<32>{#p/human}* （99 HP。）']
+            : ['<32>{#p/basic}* 「星花茶」 回復99 HP\n* 好王配好茶。'],
       name: '星花茶',
-      use: [ '<32>{#p/human}* （你將星花茶一飲而盡。）' ]
+      use: ['<32>{#p/human}* （你將星花茶一飲而盡。）']
    },
 
    k_hangar: {

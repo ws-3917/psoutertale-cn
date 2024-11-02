@@ -569,7 +569,7 @@ msgstr ""
 
 msgid "<25>{#p/undyne}{#f/11}* Are you kidding me?"
 msgstr ""
-"<25>{#p/undyne}{#f/11}* 還「沒問題吧？」，\n"
+"<25>{#p/undyne}{#f/11}* 還「合你心意吧」，\n"
 "  你說呢？"
 
 msgid "<25>{#p/alphys}{#f/20}* ..."
@@ -12171,7 +12171,7 @@ msgid "<32>{#p/story}* The dummy looks like it's already getting bored."
 msgstr "<32>{#p/story}* 人偶看起來有些厭倦了。"
 
 msgid "<32>{#p/story}* The dummy looks like it's lost in itself."
-msgstr "<32>{#p/story}* 人偶呆在那，不知在想些啥。"
+msgstr "<32>{#p/story}* 人偶呆在那，不知在想些啥。ゑ"
 
 msgid "<32>{#p/story}* The dummy looks like it's going to fall over."
 msgstr "<32>{#p/story}* 人偶差點要倒下了。"

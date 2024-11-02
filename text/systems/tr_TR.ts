@@ -2,12 +2,12 @@
 
 export default {
    battle: {
-      death0: [ '(Derin bir nefes aldın.)', "(İçin azimle dolu.)" ],
-      death1: [ 'Şu anda pes edemezsin...', '$(name)!\nAzimli kal...' ],
-      death2: [ 'Kaderimiz senin elinde...', '$(name)!\nAzimli kal...' ],
-      death3: [ "İyi olacaksın!", '$(name)!\nAzimli kal...' ],
-      death4: [ "Umudunu kaybetme!", '$(name)!\nAzimli kal...' ],
-      death5: [ 'Şu anda bitemez!', '$(name)!\nAzimli kal...' ],
+      death0: ['(Derin bir nefes aldın.)', "(İçin azimle dolu.)"],
+      death1: ['Şu anda pes edemezsin...', '$(name)!\nAzimli kal...'],
+      death2: ['Kaderimiz senin elinde...', '$(name)!\nAzimli kal...'],
+      death3: ["İyi olacaksın!", '$(name)!\nAzimli kal...'],
+      death4: ["Umudunu kaybetme!", '$(name)!\nAzimli kal...'],
+      death5: ['Şu anda bitemez!', '$(name)!\nAzimli kal...'],
 
       flee1: '    * Kaçtık...',
       flee2: "    * Ben kaçar.",
@@ -34,7 +34,7 @@ export default {
       },
       control: {
          tab: 'KONTROL',
-         headers: [ 'GENEL', 'SAVAŞ' ],
+         headers: ['GENEL', 'SAVAŞ'],
          items: [
             [
                'FixMusic',
@@ -90,14 +90,14 @@ export default {
       },
       inspect: {
          tab: 'INSPECT',
-         headers: [ 'LAYERS', 'TYPES' ],
+         headers: ['LAYERS', 'TYPES'],
          switches: [
-            [ 'Base', 'Below', 'Main', 'Above', 'Menu' ],
-            [ 'Hitbox', 'Sprite', 'Text' ]
+            ['Base', 'Below', 'Main', 'Above', 'Menu'],
+            ['Hitbox', 'Sprite', 'Text']
          ],
          p_explorer: {
             header: 'EXPLORER',
-            layers: [ 'Base (Explorer)', 'Below (Explorer)', 'Main (Explorer)', 'Above (Explorer)', 'Menu (Explorer)' ],
+            layers: ['Base (Explorer)', 'Below (Explorer)', 'Main (Explorer)', 'Above (Explorer)', 'Menu (Explorer)'],
             letters: {
                animation: 'A',
                character: 'C',
@@ -220,8 +220,8 @@ export default {
       dialog_open: { buttonLabel: 'Open', name: 'SAVE files', title: 'Open File' },
       dialog_save: { buttonLabel: 'Kaydet', name: 'SAVE files', title: 'Save File' },
       error_load: 'That file could not be parsed.',
-      message_alert: [ 'OK' ],
-      message_confirm: [ 'Cancel', 'OK' ],
+      message_alert: ['OK'],
+      message_confirm: ['Cancel', 'OK'],
       prompt_clear: 'Clear this file?',
       prompt_demo: 'Your SAVE file from the\nOUTERTALE demo has been\nmoved to a timeline slot.',
       prompt_save: 'Save this file?',
@@ -416,7 +416,7 @@ export default {
             'Bilge \"mnwary\"',
             "§fill=#808080§Geliştirmenin sonlarına doğru\nyardım etmek için orada olduğu ve\noyunun yazımının tam potansiyeline\nulaşmasını sağladığı için.§fill=#fff§"
          ],
-         [ '§fill=#ff0§The Mavis & Co.§fill=#fff§ tarafından sizlere sunuldu' ]
+         ['§fill=#ff0§The Mavis & Co.§fill=#fff§ tarafından sizlere sunuldu']
       ],
 
       final_frontier: {
@@ -836,7 +836,7 @@ export default {
             'Outertale\'i oynadığın için teşekkürler.',
             'Bu projede çalışmak benim için bir gurur ve memnuniyetti.'
          ],
-         [ 'Bu yolculuğa başladığımda, hiç', "bu kadar mesafe kat edebileceğimi düşünmezdim,", 'ama işte buradayız, işin sonunda.' ],
+         ['Bu yolculuğa başladığımda, hiç', "bu kadar mesafe kat edebileceğimi düşünmezdim,", 'ama işte buradayız, işin sonunda.'],
          [
             'Benim için, UNDERTALE hayat değiştirici',
             'bir deneyimdi, ilk kez oynadıktan',
@@ -862,7 +862,7 @@ export default {
             'denk geldi, bu deneyimi de senden',
             'hiçbir şey alamaz.'
          ],
-         [ 'Hatalarına rağmen... sen mükemmelsin,', 'ayrıca ilgi ve sevgiyi hak ediyorsun.', 'Bunu hatırla, olur mu?' ]
+         ['Hatalarına rağmen... sen mükemmelsin,', 'ayrıca ilgi ve sevgiyi hak ediyorsun.', 'Bunu hatırla, olur mu?']
       ],
       real2: 'Kendine iyi bak, \"$(x).\"',
 
@@ -1008,17 +1008,17 @@ export default {
       stat12: 'DURUM',
       stat13: '\"$(x)\"',
 
-      story1: [ '<24>{#p/storyteller}Uzun zaman önce, Güneş Sistemi\'ne iki ırk hükmediyordu: İNSANLAR VE CANAVARLAR.{^35}{}' ],
-      story2: [ '<24>Zaman geçtikçe, iki türün arasında bir savaş çıktı.{^35}{}' ],
-      story3: [ "<24>CANAVARLARIN ana gezegeni yok edilince İNSANLAR zafer ilan etti.{^35}{}" ],
-      story4: [ '<24>Geriye kalan CANAVARLAR terk edilmiş bir karakola sürülmüştü.{^35}{}' ],
-      story5: [ '<24>Kuvvetli bir güç kalkanı oluşturuldu, CANAVARLAR içine hapsedildi.{^35}{}' ],
-      story6: [ '<24>Yıllar yıllar sonra.{^8}.{^8}.{^35}{}' ],
-      story7: [ '<#24>     EBOTT SEKTÖRÜ     \n         251X{^35}{}' ],
-      story8: [ '<24>Masallar hiçbir uzay mekiğinin geri dönemediği bir yerden bahseder.{^35}{}' ],
-      story9: [ '<24>{^100}{}' ],
-      story10: [ '<24>{^100}{}' ],
-      story11: [ '<24>{^35}{}' ]
+      story1: ['<24>{#p/storyteller}Uzun zaman önce, Güneş Sistemi\'ne iki ırk hükmediyordu: İNSANLAR VE CANAVARLAR.{^35}{}'],
+      story2: ['<24>Zaman geçtikçe, iki türün arasında bir savaş çıktı.{^35}{}'],
+      story3: ["<24>CANAVARLARIN ana gezegeni yok edilince İNSANLAR zafer ilan etti.{^35}{}"],
+      story4: ['<24>Geriye kalan CANAVARLAR terk edilmiş bir karakola sürülmüştü.{^35}{}'],
+      story5: ['<24>Kuvvetli bir güç kalkanı oluşturuldu, CANAVARLAR içine hapsedildi.{^35}{}'],
+      story6: ['<24>Yıllar yıllar sonra.{^8}.{^8}.{^35}{}'],
+      story7: ['<#24>     EBOTT SEKTÖRÜ     \n         251X{^35}{}'],
+      story8: ['<24>Masallar hiçbir uzay mekiğinin geri dönemediği bir yerden bahseder.{^35}{}'],
+      story9: ['<24>{^100}{}'],
+      story10: ['<24>{^100}{}'],
+      story11: ['<24>{^35}{}']
    },
 
    timeline: {

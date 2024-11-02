@@ -2,12 +2,12 @@
 
 export default {
    battle: {
-      death0: [ '（你深吸了一口气。）', "（你充满了决心。）" ],
-      death1: [ '现在还不能放弃...', '$(name)！\n保持你的决心...' ],
-      death2: [ '我们的命运都\n寄托于你...', '$(name)！\n保持你的决心...' ],
-      death3: [ "你会没事的！", '$(name)！\n保持你的决心...' ],
-      death4: [ "别失去希望！", '$(name)！\n保持你的决心...' ],
-      death5: [ '现在还不能结束！', '$(name)！\n保持你的决心...' ],
+      death0: ['（你深吸了一口气。）', "（你充满了决心。）"],
+      death1: ['现在还不能放弃...', '$(name)！\n保持你的决心...'],
+      death2: ['我们的命运都\n寄托于你...', '$(name)！\n保持你的决心...'],
+      death3: ["你会没事的！", '$(name)！\n保持你的决心...'],
+      death4: ["别失去希望！", '$(name)！\n保持你的决心...'],
+      death5: ['现在还不能结束！', '$(name)！\n保持你的决心...'],
 
       flee1: '   * 先走一步...',
       flee2: "   * 我先撤了。",
@@ -34,7 +34,7 @@ export default {
       },
       control: {
          tab: '快捷功能',
-         headers: [ '主世界', '战斗中' ],
+         headers: ['主世界', '战斗中'],
          items: [
             [
                '音乐初始化',
@@ -90,14 +90,14 @@ export default {
       },
       inspect: {
          tab: '察看图层',
-         headers: [ '图层', '类型' ],
+         headers: ['图层', '类型'],
          switches: [
-            [ '基层', '下层', '主层', '上层', '菜单层' ],
-            [ '碰撞箱', '贴图', '文本' ]
+            ['基层', '下层', '主层', '上层', '菜单层'],
+            ['碰撞箱', '贴图', '文本']
          ],
          p_explorer: {
             header: '浏览',
-            layers: [ '基层', '下层', '主层', '上层', '菜单层' ],
+            layers: ['基层', '下层', '主层', '上层', '菜单层'],
             letters: {
                animation: '动',
                character: 'NPC',
@@ -220,8 +220,8 @@ export default {
       dialog_open: { buttonLabel: '打开', name: '存档文件', title: '导入存档' },
       dialog_save: { buttonLabel: '保存', name: '存档文件', title: '导出存档' },
       error_load: '无法解析存档。',
-      message_alert: [ '确定' ],
-      message_confirm: [ '取消', '确定' ],
+      message_alert: ['确定'],
+      message_confirm: ['取消', '确定'],
       prompt_clear: '删除这个存档吗？',
       prompt_demo: '已将您的OUTERTALE demo存档\n移动到其他时间线槽位中。',
       prompt_save: '将存档保存到其他位置吗？',
@@ -456,7 +456,7 @@ export default {
             "",
             "§fill=#808080§P.S. 汉化组正在为游戏制作各种Mod！\n欢迎B站关注@ws3917\n了解最新Mod开发进度！§fill=#fff§"
         ],
-[ '特别鸣谢 由§fill=#ff0§Mavis与朋友们§fill=#fff§提供' ]
+['特别鸣谢 由§fill=#ff0§Mavis与朋友们§fill=#fff§提供']
       ],
 
       final_frontier: {
@@ -876,7 +876,7 @@ export default {
             'Working on this project has been an honor,',
             'and a pleasure on my part.'
          ],
-         [ 'When I started this journey, I never', "thought I'd get this far, but here we", 'are anyway, at the end.' ],
+         ['When I started this journey, I never', "thought I'd get this far, but here we", 'are anyway, at the end.'],
          [
             'For me, UNDERTALE was a life-changing',
             'experience, and one that was very hard to',
@@ -902,7 +902,7 @@ export default {
             'you did, and nothing can take that',
             'experience away from you.'
          ],
-         [ 'Despite your mistakes... you are awesome,', 'and you deserve love and attention.', 'Remember that, okay?' ]
+         ['Despite your mistakes... you are awesome,', 'and you deserve love and attention.', 'Remember that, okay?']
       ],
       real2: 'Take care of yourself, \"$(x).\"',
 
@@ -1048,17 +1048,17 @@ export default {
       stat12: '生命体征',
       stat13: '“$(x)”',
 
-      story1: [ '<24>{#p/storyteller}很久以前，\n太阳系由两个物种统治着：\n人类和怪物。{^35}{}' ],
-      story2: [ '<24>随着时间的推移，\n两个物种之间爆发了战争。{^35}{}' ],
-      story3: [ "<24>最终，\n怪物的母星被摧毁，\n人类宣布了胜利。{^35}{}" ],
-      story4: [ '<24>他们将剩下的怪物\n流放到一个废弃的前哨站。{^35}{}' ],
-      story5: [ '<24>随后，建起一道强大的力场，\n将怪物们封印在内。{^35}{}' ],
-      story6: [ '<24>许多年后.{^16}.{^16}.{^35}{}' ],
-      story7: [ '<#24>       EBOTT区      \n        251X{^35}{}' ],
-      story8: [ '<24>传说，宇宙中有一个地方，\n发射到那里的飞船\n都再也没有返航。{^35}{}' ],
-      story9: [ '<24>{^100}{}' ],
-      story10: [ '<24>{^100}{}' ],
-      story11: [ '<24>{^35}{}' ]
+      story1: ['<24>{#p/storyteller}很久以前，\n太阳系由两个物种统治着：\n人类和怪物。{^35}{}'],
+      story2: ['<24>随着时间的推移，\n两个物种之间爆发了战争。{^35}{}'],
+      story3: ["<24>最终，\n怪物的母星被摧毁，\n人类宣布了胜利。{^35}{}"],
+      story4: ['<24>他们将剩下的怪物\n流放到一个废弃的前哨站。{^35}{}'],
+      story5: ['<24>随后，建起一道强大的力场，\n将怪物们封印在内。{^35}{}'],
+      story6: ['<24>许多年后.{^16}.{^16}.{^35}{}'],
+      story7: ['<#24>       EBOTT区      \n        251X{^35}{}'],
+      story8: ['<24>传说，宇宙中有一个地方，\n发射到那里的飞船\n都再也没有返航。{^35}{}'],
+      story9: ['<24>{^100}{}'],
+      story10: ['<24>{^100}{}'],
+      story11: ['<24>{^35}{}']
    },
 
    timeline: {

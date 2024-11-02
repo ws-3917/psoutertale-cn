@@ -1,12 +1,12 @@
 // START-TRANSLATE
 export default {
    battle: {
-      death0: [ '(You take a deep breath.)', "(You're filled with determination.)" ],
-      death1: [ 'You cannot give up just yet...', '$(name)!\nStay determined...' ],
-      death2: [ 'Our fate rests upon you...', '$(name)!\nStay determined...' ],
-      death3: [ "You're going to be alright!", '$(name)!\nStay determined...' ],
-      death4: [ "Don't lose hope!", '$(name)!\nStay determined...' ],
-      death5: [ 'It cannot end now!', '$(name)!\nStay determined...' ],
+      death0: ['(You take a deep breath.)', "(You're filled with determination.)"],
+      death1: ['You cannot give up just yet...', '$(name)!\nStay determined...'],
+      death2: ['Our fate rests upon you...', '$(name)!\nStay determined...'],
+      death3: ["You're going to be alright!", '$(name)!\nStay determined...'],
+      death4: ["Don't lose hope!", '$(name)!\nStay determined...'],
+      death5: ['It cannot end now!', '$(name)!\nStay determined...'],
 
       flee1: '    * Escaped...',
       flee2: "    * I'm outta here.",
@@ -33,7 +33,7 @@ export default {
       },
       control: {
          tab: 'CONTROL',
-         headers: [ 'GENERAL', 'BATTLE' ],
+         headers: ['GENERAL', 'BATTLE'],
          items: [
             [
                'FixMusic',
@@ -89,14 +89,14 @@ export default {
       },
       inspect: {
          tab: 'INSPECT',
-         headers: [ 'LAYERS', 'TYPES' ],
+         headers: ['LAYERS', 'TYPES'],
          switches: [
-            [ 'Base', 'Below', 'Main', 'Above', 'Menu' ],
-            [ 'Hitbox', 'Sprite', 'Text' ]
+            ['Base', 'Below', 'Main', 'Above', 'Menu'],
+            ['Hitbox', 'Sprite', 'Text']
          ],
          p_explorer: {
             header: 'EXPLORER',
-            layers: [ 'Base (Explorer)', 'Below (Explorer)', 'Main (Explorer)', 'Above (Explorer)', 'Menu (Explorer)' ],
+            layers: ['Base (Explorer)', 'Below (Explorer)', 'Main (Explorer)', 'Above (Explorer)', 'Menu (Explorer)'],
             letters: {
                animation: 'A',
                character: 'C',
@@ -219,8 +219,8 @@ export default {
       dialog_open: { buttonLabel: 'Open', name: 'SAVE files', title: 'Open File' },
       dialog_save: { buttonLabel: 'Save', name: 'SAVE files', title: 'Save File' },
       error_load: 'That file could not be parsed.',
-      message_alert: [ 'OK' ],
-      message_confirm: [ 'Cancel', 'OK' ],
+      message_alert: ['OK'],
+      message_confirm: ['Cancel', 'OK'],
       prompt_clear: 'Clear this file?',
       prompt_demo: 'Your SAVE file from the\nOUTERTALE demo has been\nmoved to a timeline slot.',
       prompt_save: 'Save this file?',
@@ -415,7 +415,7 @@ export default {
             'Bilge "mnwary"',
             "§fill=#808080§For being there to help towards\nthe end of development, and\nensuring the game's writing\nreaches its full potential.§fill=#fff§"
          ],
-         [ 'Brought to you by §fill=#ff0§The Mavis & Co.§fill=#fff§' ]
+         ['Brought to you by §fill=#ff0§The Mavis & Co.§fill=#fff§']
       ],
 
       final_frontier: {
@@ -835,7 +835,7 @@ export default {
             'Working on this project has been an honor,',
             'and a pleasure on my part.'
          ],
-         [ 'When I started this journey, I never', "thought I'd get this far, but here we", 'are anyway, at the end.' ],
+         ['When I started this journey, I never', "thought I'd get this far, but here we", 'are anyway, at the end.'],
          [
             'For me, UNDERTALE was a life-changing',
             'experience, and one that was very hard to',
@@ -861,7 +861,7 @@ export default {
             'you did, and nothing can take that',
             'experience away from you.'
          ],
-         [ 'Despite your mistakes... you are awesome,', 'and you deserve love and attention.', 'Remember that, okay?' ]
+         ['Despite your mistakes... you are awesome,', 'and you deserve love and attention.', 'Remember that, okay?']
       ],
       real2: 'Take care of yourself, "$(x)."',
 
@@ -1007,17 +1007,17 @@ export default {
       stat12: 'STATUS',
       stat13: '"$(x)"',
 
-      story1: [ '<24>{#p/storyteller}Long ago, two species ruled the solar system: HUMANS and MONSTERS.{^35}{}' ],
-      story2: [ '<24>As time passed, a war broke out between the two species.{^35}{}' ],
-      story3: [ "<24>After the MONSTERS' home planet was destroyed, HUMANS declared victory.{^35}{}" ],
-      story4: [ '<24>The remaining MONSTERS were banished to an abandoned outpost.{^35}{}' ],
-      story5: [ '<24>A powerful force field was erected, and the MONSTERS were sealed in.{^35}{}' ],
-      story6: [ '<24>Many years later.{^8}.{^8}.{^35}{}' ],
-      story7: [ '<#24>     EBOTT SECTOR     \n         251X{^35}{}' ],
-      story8: [ '<24>Tales speak of a place from which spacecraft never return.{^35}{}' ],
-      story9: [ '<24>{^100}{}' ],
-      story10: [ '<24>{^100}{}' ],
-      story11: [ '<24>{^35}{}' ]
+      story1: ['<24>{#p/storyteller}Long ago, two species ruled the solar system: HUMANS and MONSTERS.{^35}{}'],
+      story2: ['<24>As time passed, a war broke out between the two species.{^35}{}'],
+      story3: ["<24>After the MONSTERS' home planet was destroyed, HUMANS declared victory.{^35}{}"],
+      story4: ['<24>The remaining MONSTERS were banished to an abandoned outpost.{^35}{}'],
+      story5: ['<24>A powerful force field was erected, and the MONSTERS were sealed in.{^35}{}'],
+      story6: ['<24>Many years later.{^8}.{^8}.{^35}{}'],
+      story7: ['<#24>     EBOTT SECTOR     \n         251X{^35}{}'],
+      story8: ['<24>Tales speak of a place from which spacecraft never return.{^35}{}'],
+      story9: ['<24>{^100}{}'],
+      story10: ['<24>{^100}{}'],
+      story11: ['<24>{^35}{}']
    },
 
    timeline: {
