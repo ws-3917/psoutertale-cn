@@ -699,7 +699,7 @@ def task_update():
     print(colored("--> 推送更改到Git仓库", "blue"))
     current_time = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     bashcmd(
-        f"cd {TRANS_PATH} && git add --update --renormalize && git commit -m '{current_time} Update translation. \\nAuthor: {TRANS_AUTHOR}'"
+        f"cd {TRANS_PATH} && git add -A && git commit -m '{current_time} Update translation. \\nAuthor: {TRANS_AUTHOR}'"
     )
     bashcmd(f"cd {TRANS_PATH} && git push -u origin master")
 
@@ -745,7 +745,7 @@ def task_release(version, comment):
         print(colored(f" -> {reponame}", "yellow"))
         current_time = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
         bashcmd(
-            f"cd {reponame} && git add --update --renormalize && git commit -m "
+            f"cd {reponame} && git add -A && git commit -m "
             f"'{current_time}: V{version} - {comment}.\\nAuthor: {TRANS_AUTHOR}\\nPS! Outertale {reponame.split('/')[-1]}.'"
         )
         bashcmd(f"cd {reponame} && git push -u origin master")
@@ -950,7 +950,7 @@ def task_dttvl_update(update_lang="zh_CN"):
     print(colored("--> 推送更改到Git仓库", "blue"))
     current_time = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     bashcmd(
-        f"cd {TRANS_PATH} && git add --update --renormalize && git commit -m '{current_time} Update translation. \\nAuthor: {TRANS_AUTHOR}'"
+        f"cd {TRANS_PATH} && git add -A && git commit -m '{current_time} Update translation. \\nAuthor: {TRANS_AUTHOR}'"
     )
     bashcmd(f"cd {TRANS_PATH} && git push -u origin master")
 
