@@ -1,6 +1,21 @@
-#
+#, fuzzy
 msgid ""
 msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-11-03 11:17+0000\n"
+"PO-Revision-Date: 2024-11-03 11:17+0000\n"
+"Last-Translator: errosia <ericyan2008@foxmail.com>\n"
+"Language-Team: Chinese (Simplified Han script) <https://ws3917.site/projects/"
+"project-spacetime/1-outlands/zh_Hans/>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: ENCODING\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.8.1\n"
+
+#
 
 msgid ""
 "<25>{#p/toriel}{#f/1}* I hear there is a certain kind of fluid in "
@@ -6771,7 +6786,7 @@ msgid "<25>{#f/22}* Well, that's why I ended up the way I did."
 msgstr ""
 
 msgid "<25>{#f/23}* ... Frisk."
-msgstr "<25>{#f/23}* ...Frisk."
+msgstr "<25>{#f/23}* ...Frisk。"
 
 msgid "<25>{#f/17}* This whole time, I've blamed myself for that decision."
 msgstr ""
@@ -6903,13 +6918,15 @@ msgid "<25>{#p/asriel1}{#f/22}* Too many of these in this strange place."
 msgstr ""
 
 msgid "<32>{#p/basic}* Still an empty photo frame."
-msgstr ""
+msgstr "<32>{#p/basic}* 仍然是个空相框。"
 
 msgid "<32>{#p/basic}* An empty photo frame."
 msgstr "<32>{#p/basic}* 一个空相框。"
 
 msgid "<32>{#p/human}* (This device seems to be a few decades out of date.)"
 msgstr ""
+"<32>{#p/human}* （这个装置看上去\n"
+"  已经过时好几十年了。）"
 
 msgid "<32>{#p/basic}* A useless device of little importance to anyone."
 msgstr "<32>{#p/basic}* 毫无价值的摆设。"
@@ -6918,7 +6935,7 @@ msgid "<32>{#p/basic}* An old fuel injection device."
 msgstr "<32>{#p/basic}* 一台老旧的燃油喷射装置。"
 
 msgid "<32>{#p/human}* (The sign warns of unexpected appliance malfunctions.)"
-msgstr ""
+msgstr "<32>{#p/human}* （标牌上写着要小心机器故障。）"
 
 msgid ""
 "<32>{#p/basic}* \"Please note that appliances may be more malfunction-prone "
@@ -6932,6 +6949,9 @@ msgid ""
 "<32>{#p/human}* (You touch the DJ set.)\n"
 "* (It makes an oddly satisfying scratching sound.)"
 msgstr ""
+"<32>{#p/human}* （你碰了碰打碟机。）\n"
+"* （它发出了一种莫名让人\n"
+"  感觉很爽的搓碟声。)"
 
 msgid "<32>{#p/basic}* It's a DJ set."
 msgstr "<32>{#p/basic}* 一台打碟机。"
@@ -6959,11 +6979,16 @@ msgid ""
 "<32>* (You seem like you have grown into a thoughtful and conscientious "
 "person.)"
 msgstr ""
+"<32>* （看来你已经成为\n"
+"  一个很会为他人着想，\n"
+"  又很有担当的人了。）"
 
 msgid ""
 "<32>* (Whether that was from my advice or not...)\n"
 "* (I'm quite proud.)"
 msgstr ""
+"<32>* （不管这有没有我的功劳...）\n"
+"* （我都为你感到骄傲。）"
 
 msgid "<32>* Ribbit."
 msgstr "<32>* 呱呱。"
@@ -7005,9 +7030,11 @@ msgstr ""
 
 msgid "<32>{#p/basic}* It's ironic how staring at outer space..."
 msgstr ""
+"<32>{#p/basic}* 真是奇怪啊，\n"
+"  盯着外太空看..."
 
 msgid "<32>* Tends to be a great way to channel your inner thoughts."
-msgstr ""
+msgstr "<32>* 居然是整理思绪的好办法。"
 
 msgid "<32>{#p/basic}* It's a view of outer space."
 msgstr "<32>{#p/basic}* 这是外太空的一景。"
@@ -7026,6 +7053,8 @@ msgstr "<26>{#p/toriel}{#f/1}* 给我点时间..."
 msgid ""
 "<32>{#p/human}* (The sign speaks of strength of will in times of trouble.)"
 msgstr ""
+"<32>{#p/human}* （标牌上写着\n"
+"  在困境中要保持意志坚定。）"
 
 msgid ""
 "<32>{#p/basic}* \"Even when you stumble, the will to push onward shows "
