@@ -1,6 +1,21 @@
-#
+#, fuzzy
 msgid ""
 msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-11-03 14:26+0000\n"
+"PO-Revision-Date: 2024-11-03 14:26+0000\n"
+"Last-Translator: WS-3917 <ws3917@outlook.com>\n"
+"Language-Team: Chinese (Simplified Han script) <https://ws3917.site/projects/"
+"project-spacetime/6-common/zh_Hans/>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: ENCODING\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.8.1\n"
+
+#
 
 msgid "The player did everything they could..."
 msgstr "那个玩家，已经竭尽全力..."
@@ -401,8 +416,6 @@ msgstr ""
 msgid "<25>{#p/basic}(Congratulations and goodbyes!)"
 msgstr ""
 
-msgid ""
-msgstr ""
 
 msgid "<32>{#s/phone}{#p/event}* Ring, ring..."
 msgstr "<32>{#s/phone}{#p/event}* 铃铃，铃铃..."
@@ -3388,7 +3401,7 @@ msgid ""
 "<25>{#p/sans}{#f/0}* something stops her.\n"
 "* she hesitates, or even backpedals at times."
 msgstr ""
-"<25>{#p/sans}{#f/0}* 最终，她会犹豫，会退缩。\n"
+"<25>{#p/sans}{#f/0}* 她会犹豫，会退缩。\n"
 "* 最终，一切重回正轨。"
 
 msgid "<25>{#p/sans}{#f/0}* there was this one time where, she had an idea..."
@@ -3482,7 +3495,7 @@ msgstr ""
 "  整个星系都会遭殃。"
 
 msgid "<25>{#p/sans}{#f/2}* ... just thought i'd give you a heads up."
-msgstr "<25>{#p/sans}{#f/2}* ...别放在心上。"
+msgstr "<25>{#p/sans}{#f/2}* ...只是提醒一下。"
 
 msgid "<25>{#p/alphys}{#f/23}* Come on, let's go!"
 msgstr "<25>{#p/alphys}{#f/23}* 快点，走啦！"
