@@ -3388,7 +3388,7 @@ msgid ""
 "<25>{#p/sans}{#f/0}* something stops her.\n"
 "* she hesitates, or even backpedals at times."
 msgstr ""
-"<25>{#p/sans}{#f/0}* 最終，她會猶豫，會退縮。\n"
+"<25>{#p/sans}{#f/0}* 她會猶豫，會退縮。\n"
 "* 最終，一切重回正軌。"
 
 msgid "<25>{#p/sans}{#f/0}* there was this one time where, she had an idea..."
@@ -3482,7 +3482,7 @@ msgstr ""
 "  整個星系都會遭殃。"
 
 msgid "<25>{#p/sans}{#f/2}* ... just thought i'd give you a heads up."
-msgstr "<25>{#p/sans}{#f/2}* ...別放在心上。"
+msgstr "<25>{#p/sans}{#f/2}* ...只是提醒一下。"
 
 msgid "<25>{#p/alphys}{#f/23}* Come on, let's go!"
 msgstr "<25>{#p/alphys}{#f/23}* 快點，走啦！"
