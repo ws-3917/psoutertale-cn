@@ -1,5 +1,3 @@
-msgid ""
-msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-11-03 10:17+0000\n"
@@ -14,7 +12,6 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 5.8.1\n"
 
-#
 msgid "The player did everything they could..."
 msgstr "那个玩家，已经竭尽全力..."
 
@@ -412,6 +409,9 @@ msgid "<25>{#p/basic}(Seems that's all there is to say today!)"
 msgstr ""
 
 msgid "<25>{#p/basic}(Congratulations and goodbyes!)"
+msgstr ""
+
+msgid ""
 msgstr ""
 
 msgid "<32>{#s/phone}{#p/event}* Ring, ring..."
@@ -3296,8 +3296,7 @@ msgid ""
 "<25>{#p/sans}{#f/0}* long story short, alphys and i put their souls in a "
 "safe place."
 msgstr ""
-"<25>{#p/sans}{#f/0}* 简单讲讲后续。[ADD]<25>{#p/sans}{#f/0}* "
-"我和alphys把灵魂\n"
+"<25>{#p/sans}{#f/0}* 简单讲讲后续。[ADD]<25>{#p/sans}{#f/0}* 我和alphys把灵魂\n"
 "  转移到安全的地方。"
 
 msgid "<25>{#p/sans}{#f/3}* but who would we hire to watch over them?"
