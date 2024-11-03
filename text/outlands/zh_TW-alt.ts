@@ -2685,7 +2685,7 @@ export default {
                '<25>{#f/13}* It took everything I had to resist it.',
                '<25>{#f/15}* And then, because of me, we...',
                "<25>{#f/22}* Well, that's why I ended up the way I did.",
-               '<25>{#f/23}* ...弗裡斯克.',
+               '<25>{#f/23}* ...弗裡斯克。',
                "<25>{#f/17}* This whole time, I've blamed myself for that decision.",
                "<25>{#f/13}* It's why I adopted that horrible view of the world.",
                '<25>{#f/13}* \"Kill or be killed.\"',
@@ -2744,21 +2744,21 @@ export default {
                   ['<25>{#p/asriel1}{#f/22}* Too many of these in this strange place.']
                ][Math.min(asrielinter.photoframe++, 1)]
                : SAVE.data.n.plot === 72 && !world.runaway
-                  ? ['<32>{#p/basic}* Still an empty photo frame.']
+                  ? ['<32>{#p/basic}* 仍然是個空相框。']
                   : ['<32>{#p/basic}* 一個空相框。'],
          w_paintblaster: () =>
             SAVE.data.b.svr
-               ? ['<32>{#p/human}* (This device seems to be a few decades out of date.)']
+               ? ['<32>{#p/human}* （這個裝置看上去\n  已經過時好幾十年了。）']
                : world.darker
                   ? ['<32>{#p/basic}* 毫無價值的擺設。']
                   : ['<32>{#p/basic}* 一臺老舊的燃油噴射裝置。'],
          w_candy: () =>
             SAVE.data.b.svr
-               ? ['<32>{#p/human}* (The sign warns of unexpected appliance malfunctions.)']
+               ? ['<32>{#p/human}* （標牌上寫著要小心機器故障。）']
                : ['<32>{#p/basic}* 「請注意：\n   有的機器可能看起來沒問題，\n   但內部已經壞了。」'],
          w_djtable: () =>
             SAVE.data.b.svr
-               ? ['<32>{#p/human}* (You touch the DJ set.)\n* (It makes an oddly satisfying scratching sound.)']
+               ? ['<32>{#p/human}* （你碰了碰打碟機。）\n* （它發出了一種莫名讓人\n  感覺很爽的搓碟聲。)']
                : world.darker
                   ? ["<32>{#p/basic}* 一臺打碟機。"]
                   : SAVE.data.n.plot === 72
@@ -2768,8 +2768,8 @@ export default {
             SAVE.data.n.plot === 72
                ? [
                   '<32>{#p/basic}* 呱呱，呱呱。\n* （打擾一下，人類。）',
-                  '<32>* (You seem like you have grown into a thoughtful and conscientious person.)',
-                  "<32>* (Whether that was from my advice or not...)\n* (I'm quite proud.)",
+                  '<32>* （看來你已經成為\n  一個很會為他人著想，\n  又很有擔當的人了。）',
+                  "<32>* （不管這有沒有我的功勞...）\n* （我都為你感到驕傲。）",
                   '<32>* 呱呱。'
                ]
                : [
@@ -2787,8 +2787,8 @@ export default {
                   ? []
                   : SAVE.data.n.plot === 72
                      ? [
-                        "<32>{#p/basic}* It's ironic how staring at outer space...",
-                        '<32>* Tends to be a great way to channel your inner thoughts.'
+                        "<32>{#p/basic}* 真是奇怪啊，\n  盯著外太空看...",
+                        '<32>* 居然是整理思緒的好辦法。'
                      ]
                      : [
                         "<32>{#p/basic}* 這是外太空的一景。",
@@ -2800,7 +2800,7 @@ export default {
                : ['<26>{#p/toriel}{#f/1}* 給我點時間...'],
          w_lobby1: () =>
             SAVE.data.b.svr
-               ? ['<32>{#p/human}* (The sign speaks of strength of will in times of trouble.)']
+               ? ['<32>{#p/human}* （標牌上寫著\n  在困境中要保持意志堅定。）']
                : ['<32>{#p/basic}* 「縱使曲折難行，\n   亦當砥礪奮進。」'],
          w_pacing_view: () =>
             SAVE.data.b.svr
