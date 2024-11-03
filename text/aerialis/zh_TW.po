@@ -18286,7 +18286,7 @@ msgstr ""
 "<08>{#p/basic}{~}我還怕\n"
 "我永遠\n"
 "逃不掉了\n"
-"呢。）"
+"呢。"
 
 msgid "<08>{#p/basic}{~}What was I think- ing.."
 msgstr ""
@@ -18971,7 +18971,7 @@ msgid "* Silencio"
 msgstr "* Silencio"
 
 msgid "<32>{#p/alphys}* Looks like it never wanted to do this to begin with."
-msgstr ""
+msgstr "<32>{#p/alphys}* 看來它一開始就不想這麼做。"
 
 msgid "<32>{#p/story}* Silencio doesn't need anyone else around."
 msgstr ""
@@ -18983,6 +18983,10 @@ msgstr ""
 
 msgid "<08>{#p/basic}{~}Partners are over- rated."
 msgstr ""
+"<08>{#p/basic}{~}搭檔\n"
+"什麼的..\n"
+"就是\n"
+"靠不住。"
 
 msgid "<08>{#p/basic}{~}At last, alone time."
 msgstr ""

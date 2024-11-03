@@ -8426,7 +8426,7 @@ export default {
       name: '* 飘游䗁士',
       epiphany: [
          
-         ['<08>{#p/basic}{~}谢天\n谢地..', '<08>{#p/basic}{~}我还怕\n我永远\n逃不掉了\n呢。）'],
+         ['<08>{#p/basic}{~}谢天\n谢地..', '<08>{#p/basic}{~}我还怕\n我永远\n逃不掉了\n呢。'],
          () =>
             world.meanie
                ? 
@@ -8731,10 +8731,10 @@ export default {
       name: '* 默之蟑',
       soloStatus: () =>
          !world.badder_lizard
-            ? ['<32>{#p/alphys}* Looks like it never wanted to do this to begin with.']
+            ? ['<32>{#p/alphys}* 看来它一开始就不想这么做。']
             : ["<32>{#p/story}* 默之蟑不需要任何人\n  在它身边。"],
       soloTalk1: ["<08>{#p/basic}{~}I'll get along alright."],
-      soloTalk2: ['<08>{#p/basic}{~}Partners are over- rated.'],
+      soloTalk2: ['<08>{#p/basic}{~}搭档\n什么的..\n就是\n靠不住。'],
       soloTalk3: ['<08>{#p/basic}{~}终于可以\n独处了。'],
       soloTalk4: ['<08>{#p/basic}{~}恰，\n恰。'],
       soloTalk5: ['<08>{#p/basic}{~}I dance in peace.'],
