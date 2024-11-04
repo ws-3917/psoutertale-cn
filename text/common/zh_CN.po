@@ -1,6 +1,21 @@
-#
+#, fuzzy
 msgid ""
 msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-11-04 15:47+0000\n"
+"PO-Revision-Date: 2024-11-04 15:47+0000\n"
+"Last-Translator: WS-3917 <ws3917@outlook.com>\n"
+"Language-Team: Chinese (Simplified Han script) <https://ws3917.site/projects/"
+"project-spacetime/6-common/zh_Hans/>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: ENCODING\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.8.1\n"
+
+#
 
 msgid "The player did everything they could..."
 msgstr "那个玩家，已经竭尽全力..."
@@ -443,7 +458,7 @@ msgid ""
 "(You never acquired any G!)"
 msgstr ""
 "<25>{#p/basic}（天呐！）\n"
-"（居然一分钱都赚到！）\n"
+"（居然一分钱都没赚到！）\n"
 "（没人给你钱吗？）"
 
 msgid ""
@@ -479,8 +494,6 @@ msgstr ""
 "<25>{#p/basic}（再次祝贺你！）\n"
 "（拜拜！）"
 
-msgid ""
-msgstr ""
 
 msgid "<32>{#s/phone}{#p/event}* Ring, ring..."
 msgstr "<32>{#s/phone}{#p/event}* 铃铃，铃铃..."
