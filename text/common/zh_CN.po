@@ -1,22 +1,20 @@
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-11-04 03:17+0000\n"
-"PO-Revision-Date: 2024-11-04 03:17+0000\n"
+"PO-Revision-Date: 2024-11-04 05:13+0000\n"
 "Last-Translator: WS-3917 <ws3917@outlook.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://ws3917.site/projects/"
 "project-spacetime/6-common/zh_Hans/>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: ENCODING\n"
+"Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 5.8.1\n"
 
 #
-
 msgid "The player did everything they could..."
 msgstr "那个玩家，已经竭尽全力..."
 
@@ -422,7 +420,6 @@ msgstr ""
 msgid "<25>{#p/basic}(Congratulations and goodbyes!)"
 msgstr ""
 
-
 msgid "<32>{#s/phone}{#p/event}* Ring, ring..."
 msgstr "<32>{#s/phone}{#p/event}* 铃铃，铃铃..."
 
@@ -822,7 +819,7 @@ msgid ""
 "* YOU TELL 'EM, ALPHYS!!"
 msgstr ""
 "<25>{#p/undyne}{#f/8}* 对！！\n"
-"* ALPHYS，告诉那混蛋!!"
+"* ALPHYS，告诉那混蛋！！"
 
 msgid "<25>{*}{#x0}{#p/undyne}{#f/7}* I've got you now.{^40}{%}"
 msgstr "<25>{*}{#x0}{#p/undyne}{#f/7}* 死期到了。{^40}{%}"
@@ -3631,7 +3628,7 @@ msgid ""
 "<25>{#p/sans}{#f/3}* ... so, as you can see, there's no reason for anyone to"
 " be sad."
 msgstr ""
-"<25>{#p/sans}{#f/3}* ...你瞧，我们多幸福啊!\n"
+"<25>{#p/sans}{#f/3}* ...你瞧，我们多幸福啊！\n"
 "* 这么快乐的世界，\n"
 "  怎么可能有苦难呢？"
 
@@ -8892,9 +8889,9 @@ msgid ""
 "<25>{#p/sans}{#f/3}* i mean, i could ask why you're still in range of the "
 "outpost..."
 msgstr ""
-"<25>{#p/sans}{#f/3}* 我当然可以找个引子，\n"
-"  问你“为什么现在还在\n"
-"  前哨站附近徘徊？“"
+"<25>{#p/sans}{#f/3}* 我当然可以找个引子，问你\n"
+"  “为什么现在还在\n"
+"   前哨站附近徘徊？”"
 
 msgid "<25>{#p/sans}{#f/2}* but that might be getting a little too off-topic."
 msgstr "<25>{#p/sans}{#f/2}* 但那样就有点偏题了。"
