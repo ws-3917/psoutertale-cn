@@ -477,7 +477,7 @@ msgstr "<25>{#p/basic}（說完啦！）"
 msgid "<25>{#p/basic}(Congratulations and goodbyes!)"
 msgstr ""
 "<25>{#p/basic}（再次祝賀你！）\n"
-"（再見！）"
+"（拜拜！）"
 
 msgid ""
 msgstr ""

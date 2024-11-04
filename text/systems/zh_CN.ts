@@ -872,39 +872,39 @@ export default {
 
       real1: [
          [
-            'Thank you for playing Outertale.',
-            'Working on this project has been an honor,',
-            'and a pleasure on my part.'
+            '感谢您游玩《域外传说》。',
+            '在制作这款游戏的时光里，',
+            '我很快乐，也很自豪。'
          ],
-         ['When I started this journey, I never', "thought I'd get this far, but here we", 'are anyway, at the end.'],
+         ['当我刚开始制作它时，', "我都没想到能坚持这么久。", '但最终，如您所见，我完成了它。'],
          [
-            'For me, UNDERTALE was a life-changing',
-            'experience, and one that was very hard to',
-            'let go of after I first played it.'
-         ],
-         [
-            'So, with OUTERTALE, I wanted to give you',
-            'another chance to exist in a world like it,',
-            'as if it were your first time.'
+            '《传说之下》深深影响了我，',
+            '在我达成结局后，过了许久，',
+            '那些人物，那些故事，还是难以忘怀。'
          ],
          [
-            "I hope I've given you that chance.",
-            "I hope you've come away satisfied with",
-            "the time you've spent in this world."
+            '所以，我想把《域外传说》作为一份礼物',
+            '献给您。让您有机会再次回到那个世界，',
+            '重温最初的感动。'
          ],
          [
-            "No matter what you've done in your life,",
-            'your actions here speak volumes about the',
-            'kind of person you really are.'
+            "希望这份部作品能给您带来感动。",
+            "希望在那个世界畅游时，",
+            "您能感到快乐，感到幸福。"
          ],
          [
-            "It's because of you that you got the ending",
-            'you did, and nothing can take that',
-            'experience away from you.'
+            "不管现实生活中发生了什么，",
+            '在这里，你为他们所做的一切，',
+            '都说明，您是最棒的。'
          ],
-         ['Despite your mistakes... you are awesome,', 'and you deserve love and attention.', 'Remember that, okay?']
+         [
+            "您凭借自己的努力，达成了结局。",
+            '这段经历，这段记忆，',
+            '是不可替代，无法磨灭的。'
+         ],
+         ['也许您犯过错... 但您仍是最棒的。', '相信世界一定会对您温柔以待。', '记住这些话，好吗？']
       ],
-      real2: 'Take care of yourself, \"$(x).\"',
+      real2: '多保重，“$(x)”。',
 
       end1: '剧终',
       end2: '剧终...？',

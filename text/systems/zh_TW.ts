@@ -872,39 +872,39 @@ export default {
 
       real1: [
          [
-            'Thank you for playing Outertale.',
-            'Working on this project has been an honor,',
-            'and a pleasure on my part.'
+            '感謝您遊玩《域外傳說》。',
+            '在製作這款遊戲的時光裡，',
+            '我很快樂，也很自豪。'
          ],
-         ['When I started this journey, I never', "thought I'd get this far, but here we", 'are anyway, at the end.'],
+         ['當我剛開始製作它時，', "我都沒想到能堅持這麼久。", '但最終，如您所見，我完成了它。'],
          [
-            'For me, UNDERTALE was a life-changing',
-            'experience, and one that was very hard to',
-            'let go of after I first played it.'
-         ],
-         [
-            'So, with OUTERTALE, I wanted to give you',
-            'another chance to exist in a world like it,',
-            'as if it were your first time.'
+            '《傳說之下》深深影響了我，',
+            '在我達成結局後，過了許久，',
+            '那些人物，那些故事，還是難以忘懷。'
          ],
          [
-            "I hope I've given you that chance.",
-            "I hope you've come away satisfied with",
-            "the time you've spent in this world."
+            '所以，我想把《域外傳說》作為一份禮物',
+            '獻給您。讓您有機會再次回到那個世界，',
+            '重溫最初的感動。'
          ],
          [
-            "No matter what you've done in your life,",
-            'your actions here speak volumes about the',
-            'kind of person you really are.'
+            "希望這份部作品能給您帶來感動。",
+            "希望在那個世界暢遊時，",
+            "您能感到快樂，感到幸福。"
          ],
          [
-            "It's because of you that you got the ending",
-            'you did, and nothing can take that',
-            'experience away from you.'
+            "不管現實生活中發生了什麼，",
+            '在這裡，你為他們所做的一切，',
+            '都說明，您是最棒的。'
          ],
-         ['Despite your mistakes... you are awesome,', 'and you deserve love and attention.', 'Remember that, okay?']
+         [
+            "您憑藉自己的努力，達成了結局。",
+            '這段經歷，這段記憶，',
+            '是不可替代，無法磨滅的。'
+         ],
+         ['也許您犯過錯... 但您仍是最棒的。', '相信世界一定會對您溫柔以待。', '記住這些話，好嗎？']
       ],
-      real2: 'Take care of yourself, \"$(x).\"',
+      real2: '多保重，「$(x)」。',
 
       end1: '劇終',
       end2: '劇終...？',

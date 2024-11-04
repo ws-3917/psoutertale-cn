@@ -242,7 +242,7 @@ export default {
             : [
                '<25>{#x1}{#p/event}汪汪！\n{#x1}{#p/event}汪汪！',
                "<25>{#p/basic}（说完啦！）",
-               '<25>{#p/basic}（再次祝贺你！）\n（再见！）'
+               '<25>{#p/basic}（再次祝贺你！）\n（拜拜！）'
             ],
       neutral0() {
          let d = false;

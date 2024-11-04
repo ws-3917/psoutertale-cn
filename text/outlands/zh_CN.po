@@ -1,20 +1,7 @@
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-04 10:17+0000\n"
-"PO-Revision-Date: 2024-11-04 10:29+0000\n"
-"Last-Translator: errosia <ericyan2008@foxmail.com>\n"
-"Language-Team: Chinese (Simplified Han script) <https://ws3917.site/projects/"
-"project-spacetime/1-outlands/zh_Hans/>\n"
-"Language: zh_CN\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.8.1\n"
 
-#
 msgid ""
 "<25>{#p/toriel}{#f/1}* I hear there is a certain kind of fluid in "
 "Aerialis..."
