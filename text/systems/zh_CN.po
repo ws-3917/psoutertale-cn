@@ -1,22 +1,20 @@
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-11-04 10:17+0000\n"
-"PO-Revision-Date: 2024-11-04 10:17+0000\n"
+"PO-Revision-Date: 2024-11-04 10:29+0000\n"
 "Last-Translator: WS-3917 <ws3917@outlook.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://ws3917.site/projects/"
 "project-spacetime/0-systems/zh_Hans/>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: ENCODING\n"
+"Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 5.8.1\n"
 
 #
-
 msgid "(You take a deep breath.)"
 msgstr "（你深吸了一口气。）"
 
@@ -624,7 +622,6 @@ msgstr "§fill=#ff0§< 游戏开发者 >§fill=#fff§"
 
 msgid "spacey_432"
 msgstr "spacey_432"
-
 
 msgid "§fill=#ff0§< WRITER >§fill=#fff§"
 msgstr "§fill=#ff0§< 文本编写 >§fill=#fff§"
@@ -1873,58 +1870,58 @@ msgid "For me, UNDERTALE was a life-changing"
 msgstr "《传说之下》深深影响了我，"
 
 msgid "experience, and one that was very hard to"
-msgstr ""
+msgstr "在我达成结局后，过了许久，"
 
 msgid "let go of after I first played it."
-msgstr ""
+msgstr "那些人物，那些故事，还是难以忘怀。"
 
 msgid "So, with OUTERTALE, I wanted to give you"
-msgstr ""
+msgstr "所以，我想把《域外传说》作为一份礼物"
 
 msgid "another chance to exist in a world like it,"
-msgstr ""
+msgstr "献给您。让您有机会再次回到那个世界，"
 
 msgid "as if it were your first time."
-msgstr ""
+msgstr "重温最初的感动。"
 
 msgid "I hope I've given you that chance."
-msgstr ""
+msgstr "希望这份部作品能给您带来感动。"
 
 msgid "I hope you've come away satisfied with"
-msgstr ""
+msgstr "希望在那个世界畅游时，"
 
 msgid "the time you've spent in this world."
-msgstr ""
+msgstr "您能感到快乐，感到幸福。"
 
 msgid "No matter what you've done in your life,"
-msgstr ""
+msgstr "不管现实生活中发生了什么，"
 
 msgid "your actions here speak volumes about the"
-msgstr ""
+msgstr "在这里，你为他们所做的一切，"
 
 msgid "kind of person you really are."
-msgstr ""
+msgstr "都说明，您是最棒的。"
 
 msgid "It's because of you that you got the ending"
-msgstr ""
+msgstr "您凭借自己的努力，达成了结局。"
 
 msgid "you did, and nothing can take that"
-msgstr ""
+msgstr "这段经历，这段记忆，"
 
 msgid "experience away from you."
-msgstr ""
+msgstr "是不可替代，无法磨灭的。"
 
 msgid "Despite your mistakes... you are awesome,"
-msgstr ""
+msgstr "也许您犯过错... 但您仍是最棒的。"
 
 msgid "and you deserve love and attention."
-msgstr ""
+msgstr "相信世界一定会对您温柔以待。"
 
 msgid "Remember that, okay?"
-msgstr ""
+msgstr "记住这些话，好吗？"
 
 msgid "Take care of yourself, \"$(x).\""
-msgstr ""
+msgstr "多保重，“$(x)”。"
 
 msgid "THE END"
 msgstr "剧终"
