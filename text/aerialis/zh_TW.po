@@ -5896,7 +5896,7 @@ msgid "I |was |in|trigued..."
 msgstr "你|有|天|分..."
 
 msgid "Live |far |a|part..."
-msgstr "應|住|遠|方..."
+msgstr "去|往|遠|方..."
 
 msgid "Let's |re|hearse..."
 msgstr "且|回|首..."

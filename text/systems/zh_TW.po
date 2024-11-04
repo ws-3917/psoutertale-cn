@@ -150,7 +150,7 @@ msgid "CanFlee"
 msgstr "允許逃跑"
 
 msgid "InfiniteHP"
-msgstr "無限HP"
+msgstr "無限血量"
 
 msgid "PacifyAll"
 msgstr "安撫所有敵人"
@@ -354,7 +354,7 @@ msgid "Group"
 msgstr "戰鬥組"
 
 msgid "HP"
-msgstr "HP"
+msgstr "血量"
 
 msgid "Index"
 msgstr "當前播放幀"
@@ -2322,7 +2322,7 @@ msgid ""
 "<#24>     EBOTT SECTOR     \n"
 "         251X{^35}{}"
 msgstr ""
-"<#24>       EBOTT區      \n"
+"<#24>      伊波特星域      \n"
 "        251X{^35}{}"
 
 msgid "<24>Tales speak of a place from which spacecraft never return.{^35}{}"

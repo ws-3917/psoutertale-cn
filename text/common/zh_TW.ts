@@ -81,14 +81,14 @@ export default {
       dogcheck1: [
          '<25>{#x1}{#p/event}汪汪！\n{#x1}{#p/event}汪汪！',
          '<25>{#p/basic}（這裡就是結局啦！）',
-         '<25>{#p/basic}（一起來看看\n  你獲得了哪些成就！）'
+         '<25>{#p/basic}（一起來看看\n  你獲得了哪些成就吧！）'
       ],
       dogcheck2: () => [
          ...(!SAVE.flag.b._saved
             ? !SAVE.flag.b._item
                ? [
                   '<25>{#x1}{#p/event}汪汪！\n{#x1}{#p/event}汪汪！',
-                  '<25>{#p/basic}（哇！）\n（全程沒存檔，物品一樣沒拿！）',
+                  '<25>{#p/basic}（哇！）\n（全程沒存檔，物品還一樣都不拿！）',
                   '<25>{#p/basic}（你咋急成這樣呢！）'
                ]
                : [
@@ -99,136 +99,136 @@ export default {
             : !SAVE.flag.b._item
                ? [
                   '<25>{#x1}{#p/event}汪汪！\n{#x1}{#p/event}汪汪！',
-                  "<25>{#p/basic}(Wow!)\n(Don't you know what an ITEM is?)",
-                  '<25>{#p/basic}(You never got one!)'
+                  "<25>{#p/basic}（哇！）\n（一樣物品都沒買？）",
+                  '<25>{#p/basic}（不知道物品長啥樣嗎？）'
                ]
                : []),
          ...(SAVE.flag.n._hits === 0
             ? !SAVE.flag.b._flee
                ? [
                   '<25>{#x1}{#p/event}汪汪！\n{#x1}{#p/event}汪汪！\n{#x1}{#p/event}汪汪！',
-                  '<25>{#p/basic}(Amazing!)\n(You dodged every attack, and you never ran away!)',
+                  '<25>{#p/basic}（太強了！）\n（全程無傷！還從來不逃跑！）',
                   !SAVE.flag.b._equip
-                     ? "<25>{#p/basic}(You must have known you wouldn't need any armors or weapons!)"
-                     : '<25>{#p/basic}(You must be very brave indeed!)'
+                     ? "<25>{#p/basic}（原來如此！）\n（知道自己強到能無傷，\n  你才不拿防具的！）"
+                     : '<25>{#p/basic}（真勇敢啊！）'
                ]
                : [
                   '<25>{#x1}{#p/event}汪汪！\n{#x1}{#p/event}汪汪！\n{#x1}{#p/event}汪汪！',
-                  '<25>{#p/basic}(Amazing!)\n(You dodged every attack you faced!)',
+                  '<25>{#p/basic}（太強了！）\n（居然能全程無傷！）',
                   !SAVE.flag.b._equip
-                     ? '<25>{#p/basic}(How fortunate for someone who never equipped any armors or weapons!)'
-                     : '<25>{#p/basic}(How skilled in battle you must be!)'
+                     ? '<25>{#p/basic}（而且只用原始裝備\n  還能無傷，\n  不愧是天選之子！）'
+                     : '<25>{#p/basic}（莫非... 你是戰鬥大佬？）'
                ]
             : SAVE.flag.n._deaths + SAVE.flag.n._deaths_twinkly === 0
                ? !SAVE.flag.b._heal
                   ? !SAVE.flag.b._flee
                      ? [
                         '<25>{#x1}{#p/event}汪汪！\n{#x1}{#p/event}汪汪！\n{#x1}{#p/event}汪汪！',
-                        '<25>{#p/basic}(Amazing!)\n(Not only did you never die...)',
+                        '<25>{#p/basic}（太強了！）\n（一次都沒死過！）',
                         !SAVE.flag.b._equip
-                           ? '<25>{#p/basic}(You never healed, or equipped any armors or weapons either!)'
-                           : '<25>{#p/basic}(You never healed, either!)'
+                           ? '<25>{#p/basic}（不僅如此，你還全程無藥！）\n（更離譜的是，還是原始裝備！）'
+                           : '<25>{#p/basic}（不僅如此，你還全程無藥！）'
                      ]
                      : [
                         '<25>{#x1}{#p/event}汪汪！\n{#x1}{#p/event}汪汪！\n{#x1}{#p/event}汪汪！',
-                        '<25>{#p/basic}(Amazing!)\n(You never died, and you never ran away!)',
+                        '<25>{#p/basic}（太強了！）\n（一次都沒死過，\n  還從來不逃跑！）',
                         !SAVE.flag.b._equip
-                           ? "<25>{#p/basic}(You didn't even heal or equip any armors or weapons!)"
-                           : "<25>{#p/basic}(You didn't even heal!)"
+                           ? "<25>{#p/basic}（不僅如此，你還全程無藥！）\n（更離譜的是，還是原始裝備！）"
+                           : "<25>{#p/basic}（不僅如此，你還全程無藥！）"
                      ]
                   : !SAVE.flag.b._flee
                      ? [
                         '<25>{#x1}{#p/event}汪汪！\n{#x1}{#p/event}汪汪！\n{#x1}{#p/event}汪汪！',
-                        '<25>{#p/basic}(Amazing!)\n(You never died, and you never ran away!)',
+                        '<25>{#p/basic}（太強了！）\n（一次都沒死過，\n  還從來不逃跑！）',
                         !SAVE.flag.b._equip
-                           ? '<25>{#p/basic}(Is this why you never equipped any armors or weapons?)'
-                           : '<25>{#p/basic}(Is this what it means to be brave?)'
+                           ? '<25>{#p/basic}（原來如此！）\n（知道自己夠強，\n  所以才不拿防具的吧？）'
+                           : '<25>{#p/basic}（這就是所謂的「勇氣」吧？）'
                      ]
                      : !SAVE.flag.b._equip
                         ? [
                            '<25>{#x1}{#p/event}汪汪！\n{#x1}{#p/event}汪汪！',
-                           '<25>{#p/basic}(Amazing!)\n(You never died or equipped any armors or weapons!)'
+                           '<25>{#p/basic}（太強了！）\n（只用原始裝備，\n  還能一次都不死！）'
                         ]
-                        : ['<25>{#x1}{#p/event}汪汪！\n{#x1}{#p/event}汪汪！', '<25>{#p/basic}(Amazing!)\n(You never died once!)']
+                        : ['<25>{#x1}{#p/event}汪汪！\n{#x1}{#p/event}汪汪！', '<25>{#p/basic}（太強了！）\n（一次都沒死過！）']
                : !SAVE.flag.b._heal
                   ? !SAVE.flag.b._flee
                      ? [
                         '<25>{#x1}{#p/event}汪汪！\n{#x1}{#p/event}汪汪！\n{#x1}{#p/event}汪汪！',
-                        '<25>{#p/basic}(Amazing!)\n(You never healed, and you never ran away!)',
+                        '<25>{#p/basic}（太強了！）\n（全程無藥，還從來不逃跑！）',
                         !SAVE.flag.b._equip
-                           ? "<25>{#p/basic}(Are you sure you also didn't need any armors or weapons?)"
-                           : '<25>{#p/basic}(You must like living on the edge.)'
+                           ? "<25>{#p/basic}（僅僅無藥，\n  難道就不需要防具嗎？）"
+                           : '<25>{#p/basic}（你是真喜歡\n  在刀尖上跳舞啊。）'
                      ]
                      : !SAVE.flag.b._equip
                         ? [
                            '<25>{#x1}{#p/event}汪汪！\n{#x1}{#p/event}汪汪！',
-                           '<25>{#p/basic}(Amazing!)\n(You never healed or equipped any armors or weapons!)'
+                           '<25>{#p/basic}（太強了！）\n（僅憑原始裝備，\n  還能全程無藥！）'
                         ]
                         : [
                            '<25>{#x1}{#p/event}汪汪！\n{#x1}{#p/event}汪汪！',
-                           '<25>{#p/basic}(Amazing!)\n(You never healed yourself once!)'
+                           '<25>{#p/basic}（太強了！）\n（全程無藥！）'
                         ]
                   : !SAVE.flag.b._flee
                      ? [
                         '<25>{#x1}{#p/event}汪汪！\n{#x1}{#p/event}汪汪！\n{#x1}{#p/event}汪汪！',
-                        '<25>{#p/basic}(Amazing!)\n(You refused to run away!)',
+                        '<25>{#p/basic}（太強了！）\n（全程不逃跑！）',
                         !SAVE.flag.b._equip
-                           ? "<25>{#p/basic}(Are you sure you also didn't need any armors or weapons?)"
-                           : '<25>{#p/basic}(You must like living on the edge.)'
+                           ? "<25>{#p/basic}（僅僅無藥，\n  難道就不需要防具嗎？）"
+                           : '<25>{#p/basic}（你是真喜歡\n  在刀尖上跳舞啊。）'
                      ]
                      : !SAVE.flag.b._equip
                         ? [
                            '<25>{#x1}{#p/event}汪汪！\n{#x1}{#p/event}汪汪！',
-                           '<25>{#p/basic}(Amazing!)\n(You never equipped any armors or weapons!)'
+                           '<25>{#p/basic}（太強了！）\n（只用原始裝備通關！）'
                         ]
                         : []),
          ...(!SAVE.flag.b._skip
             ? [
                '<25>{#x1}{#p/event}汪汪！\n{#x1}{#p/event}汪汪！\n{#x1}{#p/event}汪汪！',
-               "<25>{#p/basic}(How kind...)\n(You never skipped anybody's dialogue!)",
+               "<25>{#p/basic}（你好溫柔...）\n（全程沒跳任何對話！）",
                !SAVE.flag.b._call
                   ? SAVE.data.n.plot_pmcheck === 0 && phone.of('pms').display() && pms().length > 0 // NO-TRANSLATE
 
-                     ? '<25>{#p/basic}(Too bad your phone seems to have never been used.)'
-                     : '<25>{#p/basic}(Too bad your phone seems to have never dialed anyone.)'
+                     ? '<25>{#p/basic}（真可惜，你明明有手機，\n  卻從來不用。）'
+                     : '<25>{#p/basic}（真可惜，你明明有手機，\n  卻從來不給別人打電話。）'
                   : SAVE.data.n.plot_pmcheck === 0 && phone.of('pms').display() && pms().length > 0 // NO-TRANSLATE
 
-                     ? '<25>{#p/basic}(Too bad your phone seems to have never had its messages read.)'
-                     : '<25>{#p/basic}(You must really care about everyone a lot!)'
+                     ? '<25>{#p/basic}（真可惜，你明明換了手機，\n  卻從來不看域外網訊息。）'
+                     : '<25>{#p/basic}（你真的好關心大家！）'
             ]
             : !SAVE.flag.b._call
                ? SAVE.data.n.plot_pmcheck === 0 && phone.of('pms').display() && pms().length > 0 // NO-TRANSLATE
 
                   ? [
                      '<25>{#x1}{#p/event}汪汪！\n{#x1}{#p/event}汪汪！',
-                     '<25>{#p/basic}(How strange...)\n(Your phone seems to have never been used!)'
+                     '<25>{#p/basic}（真奇怪...）\n（你明明有手機，\n  卻從來不用！）'
                   ]
                   : [
                      '<25>{#x1}{#p/event}汪汪！\n{#x1}{#p/event}汪汪！',
-                     '<25>{#p/basic}(How strange...)\n(Your phone seems to have never dialed anyone!)'
+                     '<25>{#p/basic}（真奇怪...）\n（你明明有手機，\n  卻從來不給別人打電話！）'
                   ]
                : SAVE.data.n.plot_pmcheck === 0 && phone.of('pms').display() && pms().length > 0 // NO-TRANSLATE
 
                   ? [
                      '<25>{#x1}{#p/event}汪汪！\n{#x1}{#p/event}汪汪！',
-                     '<25>{#p/basic}(How strange...)\n(Your phone seems to have never had its messages read!)'
+                     '<25>{#p/basic}（真奇怪...）\n（你明明換了手機，\n  卻從來不看域外網訊息！）'
                   ]
                   : []),
          ...(!SAVE.flag.b._getg
             ? [
                '<25>{#x1}{#p/event}汪汪！\n{#x1}{#p/event}汪汪！',
-               '<25>{#p/basic}(Shocking!)\n(You never acquired any G!)'
+               '<25>{#p/basic}（天吶！）\n（居然一分錢都賺到！）\n（沒人給你錢嗎？）'
             ]
             : !SAVE.flag.b._useg
                ? [
                   '<25>{#x1}{#p/event}汪汪！\n{#x1}{#p/event}汪汪！',
-                  '<25>{#p/basic}(Shocking!)\n(You never spent any of your G!)'
+                  '<25>{#p/basic}（天吶！）\n（你真是個鐵公雞，一毛不拔！）'
                ]
                : []),
          ...(SAVE.data.b.water
             ? [
                '<25>{#x1}{#p/event}汪汪！',
-               "<25>{#p/basic}(You really like holding that cup of electro-dampening fluid, don't you?)"
+               "<25>{#p/basic}（你咋這麼喜歡\n  那杯靜電消除液呢？）"
             ]
             : [])
       ],
@@ -236,13 +236,13 @@ export default {
          none
             ? [
                '<25>{#x1}{#p/event}汪汪！\n{#x1}{#p/event}汪汪！',
-               "<25>{#p/basic}(Seems you didn't do anything out of the ordinary.)",
-               '<25>{#p/basic}(Perhaps this is extraordinary on its own!)'
+               "<25>{#p/basic}（你好像沒做啥特別的事哎。）",
+               '<25>{#p/basic}（不過，能堅守「中庸之道」\n  才是最難得的啊！）'
             ]
             : [
                '<25>{#x1}{#p/event}汪汪！\n{#x1}{#p/event}汪汪！',
-               "<25>{#p/basic}(Seems that's all there is to say today!)",
-               '<25>{#p/basic}(Congratulations and goodbyes!)'
+               "<25>{#p/basic}（說完啦！）",
+               '<25>{#p/basic}（再次祝賀你！）\n（再見！）'
             ],
       neutral0() {
          let d = false;

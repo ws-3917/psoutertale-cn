@@ -2630,59 +2630,59 @@ export default {
       
       lateasriel: () =>
          [
-            ['<25>{#p/asriel1}{#f/13}* Just leave me, Frisk...', "<25>{#f/15}* I can't come back with you, okay?"],
+            ['<25>{#p/asriel1}{#f/13}* 就讓我一個人待著吧，\n  弗裡斯克...', "<25>{#f/15}* 我不能跟你一起回去，\n  明白嗎？"],
             [
-               "<25>{#p/asriel1}{#f/16}* I don't want to break their hearts all over again.",
-               "<25>{#f/13}* It's better if they never see me at all."
+               "<25>{#p/asriel1}{#f/16}* 我不想再傷他們的心了。",
+               "<25>{#f/13}* 如果他們\n  永遠都再見不到我，\n  那就更好了。"
             ],
             [
-               '<25>{#p/asriel1}{#f/15}* ... what are you doing?',
-               '<25>{#f/15}* Are you trying to keep me company?',
-               '<25>{#f/23}* Frisk...',
+               '<25>{#p/asriel1}{#f/15}* ...你在幹什麼？',
+               '<25>{#f/15}* 你是想陪陪我嗎？',
+               '<25>{#f/23}* 弗裡斯克...',
                '<25>{#f/22}* ...',
-               '<25>{#f/13}* Hey.',
-               '<25>{#f/13}* Let me ask you a question.',
-               '<25>{#f/15}* Frisk...\n* Why did you come here?',
-               '<25>{#f/13}* Everyone knows the story, right...?',
-               '<25>{#f/23}* \"Spacecraft who fly into the Ebott sector are said to disappear.\"',
+               '<25>{#f/13}* 嘿。',
+               '<25>{#f/13}* 我想問你個問題。',
+               '<25>{#f/15}* 弗裡斯克...\n* 你為什麼要來這裡？',
+               '<25>{#f/13}* 大家都知道那個傳說，\n  對吧...?',
+               '<25>{#f/23}* 「據說\n  飛進伊波特星域的飛船\n  都會消失不見。」',
                '<25>{#f/22}* ...',
-               '<32>{#p/human}* (...)\n* (You tell Asriel the truth.)',
+               '<32>{#p/human}* （...）\n* （你告訴了艾斯利爾真相。）',
                '<25>{#p/asriel1}{#f/25}* ...',
-               '<25>{#f/25}* Frisk... you...',
+               '<25>{#f/25}* 弗裡斯克... 你...',
                '<25>{#f/23}* ...',
-               "<25>{#f/23}* You don't have to be alone anymore, okay?",
-               "<25>{#f/17}* You've made so many wonderful friends here...",
-               "<25>{#f/17}* They'll look out for you, okay?"
+               "<25>{#f/23}* 你不用再孤身一人了，\n  好嗎？",
+               "<25>{#f/17}* 你在這裡\n  交到了很多好朋友...",
+               "<25>{#f/17}* 他們會照顧你的，好嗎？"
             ],
             [
                '<25>{#p/asriel1}{#f/15}* ...',
-               '<25>{#f/15}* I know why $(name) flew out here.',
-               "<25>{#f/16}* It wasn't for a very happy reason.",
-               "<25>{#f/13}* Frisk.\n* I'll be honest with you.",
-               '<25>{#f/15}* $(name) wanted nothing to do with humanity.',
-               '<25>{#f/16}* Why, they never said.',
-               '<25>{#f/15}* But they felt very strongly about that.'
+               '<25>{#f/15}* 我知道為什麼$(name)\n  要飛來這裡。',
+               "<25>{#f/16}* 那原因並不愉快。",
+               "<25>{#f/13}* 弗裡斯克。\n* 我跟你說實話吧。",
+               '<25>{#f/15}* $(name)不想跟人類\n  有任何瓜葛。',
+               '<25>{#f/16}* 至於為什麼，\n  那傢伙從來沒說過。',
+               '<25>{#f/15}* 但那種情緒非常強烈。'
             ],
             [
-               "<25>{#p/asriel1}{#f/17}* Frisk, it's okay.\n* You're not like $(name) at all.",
-               '<25>{#f/15}* In fact, though you have similar, uh, fashion choices...',
-               "<25>{#f/13}* I don't know why I ever acted like you were the same person.",
-               '<25>{#f/15}* Maybe...\n* The truth is...',
-               "<25>{#f/16}* $(name) just wasn't who I wanted them to be.",
-               '<25>{#f/13}* While, Frisk...',
-               "<25>{#f/17}* You're the kind of friend I've always wanted to have.",
-               '<25>{#f/20}* So maybe I was kind of projecting a little.',
-               "<25>{#f/17}* Let's be honest.\n* I did some weird stuff as a star."
+               "<25>{#p/asriel1}{#f/17}* 弗裡斯克，沒關係的。\n* 你和$(name)\n  一點也不一樣。",
+               '<25>{#f/15}* 說實話，\n  雖然你們的，\n  呃，穿衣風格很像...',
+               "<25>{#f/13}* 但我也不知道\n  為什麼以前會把你們\n  當成同一個人。",
+               '<25>{#f/15}* 也許...\n* 真相是...',
+               "<25>{#f/16}* $(name)和\n  我理想中的那種人\n  不太一樣。",
+               '<25>{#f/13}* 而你，弗裡斯克...',
+               "<25>{#f/17}* 你才是\n  我一直想要的那種朋友。",
+               '<25>{#f/20}* 所以，我大概是把\n  對那傢伙的期望\n  強加在你身上了。',
+               "<25>{#f/17}* 是這樣的。\n* 我變成星星的時候，\n  確實做了一些怪事。"
             ],
             [
-               "<25>{#p/asriel1}{#f/13}* There's one last thing I feel like I should tell you.",
-               '<25>{#f/15}* When $(name) and I combined our SOULs together...',
-               '<25>{#f/16}* The control over our body was actually split between us.',
-               '<25>{#f/15}* They were the one that picked up their own empty body.',
-               "<25>{#f/13}* And then, when we made it to the planet's remains...",
-               '<25>{#f/13}* They were the one that wanted to...',
-               '<25>{#f/16}* ... to use our full power.',
-               '<25>{#f/13}* It took everything I had to resist it.',
+               "<25>{#p/asriel1}{#f/13}* 我覺得還應該告訴你\n  最後一件事。",
+               '<25>{#f/15}* 當時$(name)和我的\n  靈魂融合在一起時...',
+               '<25>{#f/16}* 那副身軀的控制權\n  實際上是我們共有的。',
+               '<25>{#f/15}* 是那個傢伙抬起了\n  自己的那具空殼。',
+               "<25>{#f/13}* 然後，當我們到達\n  星球的遺址時...",
+               '<25>{#f/13}* 也是那傢伙想要...',
+               '<25>{#f/16}* ...使出我們的全部力量。',
+               '<25>{#f/13}* 我拼盡全力\n  才阻止了那傢伙。',
                '<25>{#f/15}* And then, because of me, we...',
                "<25>{#f/22}* Well, that's why I ended up the way I did.",
                '<25>{#f/23}* ...弗裡斯克。',
@@ -3095,7 +3095,7 @@ export default {
                      '<25>{#p/asriel1}{#f/24}* 我感覺$(name)可能\n  把藍色的蠟筆弄丟了。',
                      '<25>{#f/7}* ...不對，不是可能。\n* 是肯定弄丟了。',
                      '<25>{#f/6}* 後來那根蠟筆\n  在食物箱裡找到了，\n  但誰也沒想到要去那裡找。',
-                     '<25>{#f/16}* 那人肯定是想\n  把食物箱佔為己有。'
+                     '<25>{#f/16}* 那傢伙肯定是想\n  把食物箱佔為己有。'
                   ],
                   [
                      "<26>{#p/asriel1}{#f/4}* 要是以後\n  我們再買新的蠟筆，\n  我可得盯緊點。",

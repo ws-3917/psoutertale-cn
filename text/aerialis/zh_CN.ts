@@ -2559,7 +2559,7 @@ export default {
                ? '我|将|你|灭...'
                : iFancyYourVilliany()
                   ? '你|有|天|分...'
-                  : '应|住|远|方...',
+                  : '去|往|远|方...',
          opera23: () =>
             world.genocide ? "且|回|首..." : iFancyYourVilliany() ? "但|你|我..." : '即|使|将...',
          opera24: () =>
