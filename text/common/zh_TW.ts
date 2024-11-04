@@ -80,21 +80,21 @@ export default {
       ],
       dogcheck1: [
          '<25>{#x1}{#p/event}汪汪！\n{#x1}{#p/event}汪汪！',
-         '<25>{#p/basic}(And thus, you have reached the end!)',
-         '<25>{#p/basic}(The time has come to review your accomplishments!)'
+         '<25>{#p/basic}（這裡就是結局啦！）',
+         '<25>{#p/basic}（一起來看看\n  你獲得了哪些成就！）'
       ],
       dogcheck2: () => [
          ...(!SAVE.flag.b._saved
             ? !SAVE.flag.b._item
                ? [
                   '<25>{#x1}{#p/event}汪汪！\n{#x1}{#p/event}汪汪！',
-                  '<25>{#p/basic}(Wow!)\n(No SAVE points and no ITEMs!)',
-                  '<25>{#p/basic}(You must have been in a hurry!)'
+                  '<25>{#p/basic}（哇！）\n（全程沒存檔，物品一樣沒拿！）',
+                  '<25>{#p/basic}（你咋急成這樣呢！）'
                ]
                : [
                   '<25>{#x1}{#p/event}汪汪！\n{#x1}{#p/event}汪汪！\n{#x1}{#p/event}汪汪！',
-                  "<25>{#p/basic}(Wow!)\n(Don't you know what a SAVE point is?)",
-                  '<25>{#p/basic}(You never used one!)'
+                  "<25>{#p/basic}（哇！）\n（居然全程都沒存檔！）",
+                  '<25>{#p/basic}（你不知道存檔點長啥樣嗎？）'
                ]
             : !SAVE.flag.b._item
                ? [
@@ -363,7 +363,7 @@ export default {
                         "<25>{#p/undyne}{#f/7}* 小混蛋！\n  你的死，純是自找的！",
                         "<25>{#p/alphys}{#f/16}* 對！\n  你-你就在地獄裡\n  好好反思自己的罪行吧！！",
                         "<25>{#p/alphys}{#f/16}* 你去哪，\n  我們都能抓住！！",
-                        "<25>{#p/undyne}{#f/8}* 對！！\n* ALPHYS，告訴那混蛋!!",
+                        "<25>{#p/undyne}{#f/8}* 對！！\n* ALPHYS，告訴那混蛋！！",
                         '<25>{#p/undyne}{#f/4}* ...\n* 呋呼呼呼...',
                         "<25>{*}{#x0}{#p/undyne}{#f/7}* 死期到了。{^40}{%}"
                      ]);
@@ -1214,7 +1214,7 @@ export default {
                      "<18>{#p/papyrus}{#f/7}...呸，真是扯淡！\n我可是長生不老的\nPAPYRUS！",
                      '<18>{#p/papyrus}{#f/4}尊敬的CHARLES陛下\n又把我帶回來了！',
                      '<18>{#p/papyrus}{#f/9}陛下真是\n太偉大了！！！',
-                     "<25>{#p/sans}{#f/3}* ...你瞧，我們多幸福啊!\n* 這麼快樂的世界，\n  怎麼可能有苦難呢？",
+                     "<25>{#p/sans}{#f/3}* ...你瞧，我們多幸福啊！\n* 這麼快樂的世界，\n  怎麼可能有苦難呢？",
                      '<25>{#p/sans}{#f/2}* 誰還稀罕離開前哨站呢？',
                      "<18>{#p/papyrus}{#f/0}對啊，幹嘛要離開呢？\n幾顆破星星，\n有啥好看的呢？！",
                      "<18>{#p/papyrus}{#f/9}這裡就是天堂！\n就是極樂世界！\n去哪都比不上這裡快樂！",
@@ -3444,7 +3444,7 @@ export default {
          "<32>{#p/human}* （你問Sans，\n  為什麼現在才說這事。）",
          '<25>{#p/sans}{#f/0}* 唔... 問得好。',
          "<25>{#p/sans}{#f/3}* 確實，在你走後，\n  我們從沒真正地聊過\n  那天發生的事。",
-         "<25>{#p/sans}{#f/3}* 我當然可以找個引子，\n  問你「為什麼現在還在\n  前哨站附近徘徊？「",
+         "<25>{#p/sans}{#f/3}* 我當然可以找個引子，問你\n  「為什麼現在還在\n   前哨站附近徘徊？」",
          '<25>{#p/sans}{#f/2}* 但那樣就有點偏題了。',
          '<25>{#p/sans}{#f/0}* 那麼...',
          '<25>{#p/sans}{#f/3}* 我就直奔主題吧。',

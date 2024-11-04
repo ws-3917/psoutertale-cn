@@ -153,7 +153,7 @@ export default {
          ['<32>{#p/basic}{#npc/a}* 恰啦啦。\n* 有时候也记得要休息一下...'],
          [
             '<32>{#p/basic}{#npc/a}* 恰啦啦。\n* 大家都知道那首从音乐盒里传来的老歌...',
-            '<32>{#p/basic}{#npc/a}* ... 你知道它还有别的版本吗?\n* 前几段还行。'
+            '<32>{#p/basic}{#npc/a}* ... 你知道它还有别的版本吗？\n* 前几段还行。'
          ],
          [
             '<32>{#p/basic}{#npc/a}* 恰啦啦。\n* 不要把手脚伸出船外...',
@@ -169,7 +169,7 @@ export default {
             '<32>{#p/basic}{#npc/a}* 恰啦啦。\n* Temmie村庄...',
             '<32>{#p/basic}{#npc/a}* ... 坐落在短梯子左边的房间里。'
          ],
-         ["<32>{#p/basic}{#npc/a}* 恰啦啦。\n* 要不要和我一同轻唱几声?\n* 恰啦啦。"],
+         ["<32>{#p/basic}{#npc/a}* 恰啦啦。\n* 要不要和我一同轻唱几声？\n* 恰啦啦。"],
          ["<32>{#p/basic}{#npc/a}* 嗯哼哼...\n* 嗯哼哼...\n* 这是我的小型音乐会。"],
          ['<32>{#p/basic}{#npc/a}* 摸摸摸...\n* 脖子延伸到宇宙。'],
          [
@@ -667,7 +667,7 @@ export default {
                               ]
                               : !SAVE.data.b.papyrus_fire
                                  ? [
-                                    '<25>{#f/16}* ...看到你第一次尝试\n  就通过了火焰之墙！',
+                                    '<25>{#f/16}* ...看到你第一次尝试\n  就通过了躲避烈火之墙！',
                                     '<25>{#f/12}* 太厉害了...'
                                  ]
                                  : SAVE.data.b.s_state_mathpass
@@ -1646,7 +1646,7 @@ export default {
                ],
          moneyChat4a: () =>
             SAVE.data.n.state_foundry_muffet === 1
-               ? ['<32>{#p/mettaton}* 然后呢...?']
+               ? ['<32>{#p/mettaton}* 然后呢...？']
                : ["<32>{#p/mettaton}* 等下，确定是真名？"],
          moneyChat4b: () =>
             SAVE.data.n.state_foundry_muffet === 1
@@ -2065,9 +2065,9 @@ export default {
                   ? [
                      '<32>{#p/mettaton}{#z0}* 怪物小孩！',
                      '<32>* 我很荣幸\n  将这份礼物赠予你。',
-                     '<25>{#p/kidd}{#f/4}* 哈... 啊?',
+                     '<25>{#p/kidd}{#f/4}* 哈... 啊？',
                      '<25>{#f/7}* ...',
-                     '<25>{#f/14}* 哟噢噢噢噢!!!!'
+                     '<25>{#f/14}* 哟噢噢噢噢！！！！'
                   ]
                   : ['<32>{#p/mettaton}{#z0}* BLOOKY！', '<32>* 我很荣幸\n  将这份礼物赠予你。'],
             e: () =>
@@ -2083,9 +2083,9 @@ export default {
                      '<32>{#p/mettaton}{#z0}* 怪物小孩！',
                      "<32>* 你和$(moniker3u)猜的答案一样，\n  但你率先作答。",
                      '<32>* 因此，我很荣幸\n  将这份礼物赠予你。',
-                     '<25>{#p/kidd}{#f/4}* 哈... 啊?',
+                     '<25>{#p/kidd}{#f/4}* 哈... 啊？',
                      '<25>{#f/7}* ...',
-                     '<25>{#f/14}* 哟噢噢噢噢!!!!'
+                     '<25>{#f/14}* 哟噢噢噢噢！！！！'
                   ]
                   : [
                      '<32>{#p/mettaton}{#z0}* BLOOKY！',
@@ -3676,9 +3676,9 @@ export default {
                         '<32>{#p/human}* （你激活了终端。）\n* （上面有一些工作日志。）',
                         '<32>{#p/basic}* “工作日志，克历615年9月”',
                         '<32>* “自动数据分析器已证实：\n   近期，几颗恒星的位置坐标\n   发生了多次突变。”',
-                        '<32>* “这些位置突变...\n  导致了力场内的时间乱流。”',
-                        '<32>* “经推算，乱流导致时间落后了\n  十个公转周期。”',
-'<32>* “当前的真实时间\n  应为克历625年9月。”'
+                        '<32>* “这些位置突变...\n   导致了力场内的时间乱流。”',
+                        '<32>* “经推算，乱流导致时间落后了\n   十个公转周期。”',
+'<32>* “当前的真实时间\n   应为克历625年9月。”'
                      ]
                      : [
                         '<32>{#p/human}* （你激活了终端。）\n* （上面有一些工作日志。）',
@@ -3781,7 +3781,7 @@ export default {
                : ['<32>{#p/human}* （你找到了矿物油。）'],
          boop: () =>
             [
-               ['<25>{#p/asriel2}{#f/13}* 呃... $(name)...', '<25>{#p/asriel2}{#f/18}* ...你搞啥呢?'],
+               ['<25>{#p/asriel2}{#f/13}* 呃... $(name)...', '<25>{#p/asriel2}{#f/18}* ...你搞啥呢？'],
                ['<25>{#p/asriel2}{#f/18}* 什-\n* $(name)！', '<25>{#p/asriel2}{#f/18}* 你刚才..\n  是不是戳了下我的鼻子？'],
                ['<25>{#p/asriel2}{#f/18}* 啊-\n* 快停下！'],
                ['<25>{#p/asriel2}{#f/18}* 别闹了！'],
@@ -4071,7 +4071,7 @@ export default {
                   '<32>{#p/basic}* “《喵喵航天行：梦境奇旅》”\n  “（同人故事）”',
                   '<32>* “...就在那时，\n   喵喵终于亲眼看到了。”',
                   '<32>* “那是相当壮观的景色。\n   孤身一人站在太空深处，\n   颇有遗世独立之感...”',
-                  '<32>* “...但是喵喵心里可明白得很！”\n  * “她很快就发现了我们的困境。”',
+                  '<32>* “...但是喵喵心里可明白得很！”\n  “她很快发现了我们的困境。”',
                   '<32>* “稍微施展一下\n   那广为人知的华丽丽光线，\n   她便击穿了立场！”',
                   '<32>* “这就是喵喵拯救怪物一族的故事。”',
                   '<32>{#p/human}* （你把书放回了桌子上。）'
@@ -4114,8 +4114,8 @@ export default {
                      "<32>{#p/basic}* 这是个书架。",
                      '<32>{#p/human}* （你取下了一本书...）',
                      '<32>{#p/basic}* “教授的笔记，第310页。”',
-                     '<32>* “嗯...\n   他同意这个计划了...\n   当然，我相当肯定\n   他会的。”',
-                     '<32>* “天赐良机。”\n  * “今天，\n   自$(name)之后的\n   第一个人类抵达前哨站了”',
+                     '<32>* “嗯... \n   果然如我所料，\n   他同意了这个计划。”',
+                     '<32>* “真是天赐良机。”\n* “$(name)死后，一个新的人类\n   抵达了前哨站。”',
                      "<32>* “我们还不知道\n   它能不能容纳人类，\n   结果马上揭晓...”",
                      '<32>* “祈祷吧。”',
                      '<32>{#p/human}* （你把书放回了书架。）'
@@ -4562,7 +4562,7 @@ export default {
                         : '<32>{#p/basic}* 传送带上有几瓶化学试剂。\n* 能出啥岔子呢？',
                   ...(mtt
                      ? [
-                        '<32>{#p/mettaton}* 没有什么比MTT超安全级传送带\n  发出的平静嗡嗡声更好了!',
+                        '<32>{#p/mettaton}* 没有什么比MTT超安全级传送带\n  发出的平静嗡嗡声更好了！',
                         '<32>* 它不仅让你不必再\n  多伸两微米去拿东西...',
                         '<32>* 还能让你在有烧杯从边上掉下来，\n  猛烈地摔破时...',
                         '<32>* 免费得到一个意外的化学反应！'
@@ -6548,14 +6548,14 @@ export default {
                   '<25>{#p/alphys}{#g/alphysCutscene3}* ...换另一条\n  谜题已经被解完的路走。',
                   '<25>{#p/alphys}{#f/3}* 它一直是这样的吗？'
                ]
-               : ["<25>{#p/alphys}{#g/alphysInquisitive}* 莫非，我是说当然了，\n  你打算换另一条路走...?"]
+               : ["<25>{#p/alphys}{#g/alphysInquisitive}* 莫非，我是说当然了，\n  你打算换另一条路走...？"]
             : nooted
                ? [
                   '<25>{#p/alphys}{#g/alphysInquisitive}* 你改变...',
                   "<25>{#p/alphys}{#g/alphysCutscene3}* ...噢，这已经被解决了。",
                   '<25>{#p/alphys}{#f/3}* 它一直是这样的吗？'
                ]
-               : ['<25>{#p/alphys}{#g/alphysInquisitive}* 你改变主意了...?'],
+               : ['<25>{#p/alphys}{#g/alphysInquisitive}* 你改变主意了...？'],
       core9c: () =>
          calm_lizard()
             ? ['<25>{#p/alphys}{#g/alphysCutscene1}* 你做到了！\n* 去下个房间把开关按下吧！']
@@ -7105,7 +7105,7 @@ export default {
       turn9end6: [
          "<20>{#p/mettaton}{#e/alphys/0}行吧，总而言之\n我们的时间\n已经所剩无几了。",
          "<20>所以...\n今天的节目到此结束！",
-         '<21>伙计们，别划走!\n下期节目正在加急制作中。',
+         '<21>伙计们，别划走！\n下期节目正在加急制作中。',
          "<20>你一定不想错过！"
       ],
       turn9end7a: ['<20>{#p/alphys}好吧。'],
@@ -8324,7 +8324,7 @@ export default {
                ? 
                [
                   '<08>{#p/basic}{~}我没有\n预见到\n这个结果。',
-                  '<08>{#p/basic}{~}我得\n避开深渊..'
+                  '<08>{#p/basic}{~}我可不能\n一头扎进\n深渊...'
                ]
                : SAVE.data.b.oops && world.flirt > 9
                   ? 
@@ -8426,7 +8426,7 @@ export default {
       name: '* Flutterknyte',
       epiphany: [
          
-         ['<08>{#p/basic}{~}谢天\n谢地..', '<08>{#p/basic}{~}我还怕\n我永远\n逃不掉了\n呢。'],
+         ['<08>{#p/basic}{~}终于\n解放了...', '<08>{#p/basic}{~}我还怕\n我永远\n逃不掉了\n呢。'],
          () =>
             world.meanie
                ? 
@@ -8440,7 +8440,7 @@ export default {
                      : 
                      ['<08>{#p/basic}{~}求求你..', "<08>{#p/basic}{~}别-别\n松\n手.."],
          
-         ["<08>{#p/basic}{~}我很\n抱歉..", "<08>{#p/basic}{~}我知道我\n不够格.."],
+         ["<08>{#p/basic}{~}我明白，\n我不配\n守卫核心..", "<08>{#p/basic}{~}对不起..."],
          
          ["<08>{#p/basic}{~}这是\n给你的\n钱..", '<08>{#p/basic}{~}请.. \n饶恕我..']
       ],
@@ -8515,7 +8515,7 @@ export default {
       act_poke1: () => [
          '<32>{#p/human}* （你戳了戳Flutterknyte\n  以让它失去平衡。）',
          '<32>{#p/basic}* Flutterknyte抖了一下，\n  但很快就重整旗鼓。',
-         ...(!world.badder_lizard && calm_lizard() ? ['<32>{#p/alphys}* 你这是在干什么...?'] : [])
+         ...(!world.badder_lizard && calm_lizard() ? ['<32>{#p/alphys}* 你这是在干什么...？'] : [])
       ],
       act_poke2: () => [
          '<32>{#p/human}* （你戳了戳Flutterknyte\n  以让它失去平衡。）',
@@ -8575,7 +8575,7 @@ export default {
                ]
                : SAVE.data.b.oops && world.flirt > 9
                   ? 
-                  ['<08>{#p/basic}{~}你的眼睛\n真美..', "<08>{#p/basic}{~}可别跟\n族人们说！"]
+                  ['<08>{#p/basic}{~}你的眼睛\n真漂亮啊..', "<08>{#p/basic}{~}可别跟\n族人们说！"]
                   : SAVE.data.b.oops
                      ? 
                      ['<08>{#p/basic}{~}友谊..', '<08>{#p/basic}{~}真是令我\n大开眼界！']
@@ -8584,7 +8584,7 @@ export default {
          
          ['<08>{#p/basic}{~}身为领袖，\n我要\n光荣赴死。'],
          
-         ["<08>{#p/basic}{~}切..\n给你！", '<08>{#p/basic}{~}不用还钱。']
+         ["<08>{#p/basic}{~}切..\n给你！", '<08>{#p/basic}{~}不用还了。']
       ],
       genostatus: ['<32>{#p/asriel2}* ...'],
       old_gun_text: ['<32>{#p/human}* （你开了一枪。）', '<32>{#p/basic}* Eyewalker Prime被击倒了！'],
@@ -8684,19 +8684,19 @@ export default {
          () =>
             world.meanie
                ? 
-               ['<08>{#p/basic}{~}我就知道\n这是个\n坏主意。']
+               ['<08>{#p/basic}{~}我就不该\n找你麻烦。']
                : SAVE.data.b.oops && world.flirt > 9
                   ? 
-                  ['<08>{#p/basic}{~}你这人\n很怪。', '<08>{#p/basic}{~}但还是\n挺迷人。']
+                  ['<08>{#p/basic}{~}你这人\n真怪。', '<08>{#p/basic}{~}但我喜欢。']
                   : SAVE.data.b.oops
                      ? 
-                     ["<08>{#p/basic}{~}行啊，\n我们来\n做朋友吧。", "<08>{#p/basic}{~}那样\n比较好。"]
+                     ["<08>{#p/basic}{~}好啊。\n多一个\n朋友...", "<08>{#p/basic}{~}总比\n多一个\n敌人好。"]
                      : 
                      ['<08>{#p/basic}{~}嗯..', "<08>{#p/basic}{~}想抱的话\n你就抱吧。"],
          
          ["<08>{#p/basic}{~}是时候...", '<08>{#p/basic}{~}...面对\n死亡了。'],
          
-         ["<08>{#p/basic}{~}这钱\n你能比我\n用得更好。", '<08>{#p/basic}{~}你只管\n拿着。']
+         ["<08>{#p/basic}{~}你花钱\n比我精明，\n所以...", '<08>{#p/basic}{~}这钱，\n你拿着吧。']
       ],
       old_gun_text: ['<32>{#p/human}* （你开了一枪。）', '<32>{#p/basic}* Silencio逃走了！'],
       old_bomb_text: [
@@ -8762,7 +8762,7 @@ export default {
          
          ['<08>{#p/basic}{~}战利品\n归你了！']
       ],
-      old_gun_text: ['<32>{#p/human}* （你开了一枪。）', '<33>{#p/basic}* Mushketeer遇上了个劲敌！'],
+      old_gun_text: ['<32>{#p/human}* （你开了一枪。）', '<33>{#p/basic}* Mushketeer可算是碰上对手了！'],
       old_bomb_text: [
          '<32>{#p/human}* （你引爆了炸弹。）\n* （云雾缭绕。）',
          '<32>{#p/basic}* Mushketeer投降了！'
@@ -8931,7 +8931,7 @@ export default {
       act_check: () =>
          world.goatbro
             ? ['<32>{#p/asriel2}* Hotwire，说唱呆子。\n* 脑子这么活络，\n  却把才华浪费在这种小儿科上。']
-            : ['<32>{#p/story}* HOTWIRE - 攻击 29 防御 14\n* 这种怪物很狡猾，任何计划对它来说都不复杂。'],
+            : ['<32>{#p/story}* HOTWIRE - 攻击 29 防御 14\n* 这种怪物很狡猾，\n  任何计划对它来说都不复杂。'],
       act_check2: [
          '<32>{#p/story}* HOTWIRE - 攻击 29 防御 14\n* 这个怪物点燃的火花正在熄灭。'
       ],
@@ -9013,8 +9013,8 @@ export default {
       status4: ['<32>{#p/story}* Hotwire尝试涡轮增压。'],
       status5: ['<32>{#p/story}* Smells like lyricism.'],
       sparkStatus1A: ['<32>{#p/story}* Hotwire被它的辉煌震惊了。'],
-      sparkStatus2A: ['<32>{#p/story}* Hotwire启动了点火程序...手动地。'],
-      sparkStatus3A: ['<32>{#p/story}* 不管我们喜不喜欢，Hotwire仍然我行我素。'],
+      sparkStatus2A: ['<32>{#p/story}* Hotwire启动了点火程序...\n  而且是手动点火。'],
+      sparkStatus3A: ['<32>{#p/story}* Hotwire我行我素，\n  根本不在乎我们的目光。'],
       sparkStatus1B: ['<32>{#p/story}* Hotwire很兴奋。'],
       sparkStatus2B: ['<32>{#p/story}* Hotwire的能力完全释放了出来。'],
       sparkStatus3B: ['<32>{#p/story}* Hotwire正在涡轮增压。'],
@@ -9129,7 +9129,7 @@ export default {
       upgradeText4: [
          "<33>{#p/human}* (You can't activate further.)\n* (All of Tsunderidex's body parts are fully activated.)"
       ],
-      idleTalk1: ["<08>{#p/basic}{~}别整得像\n我喜欢你\n似得。"],
+      idleTalk1: ["<08>{#p/basic}{~}别整得跟\n我喜欢你\n似的。"],
       idleTalk2: ['<08>{#p/basic}{~}大..\n大傻瓜！'],
       idleTalk3: ["<08>{#p/basic}{~}哼！\n你挡我路了。"],
       idleTalk4: ['<08>{#p/basic}{~}（..哎呦！）\n人类...'],
@@ -10538,7 +10538,7 @@ export default {
          },
          alphysY8B17: {
             author: '懒骨.',
-            pm: "我猜猜看，\n那人现在又盯上铸厂居民了?"
+            pm: "我猜猜看，\n那人现在又盯上铸厂居民了？"
          },
          alphysY8B18: {
             author: 'ALPHYS',

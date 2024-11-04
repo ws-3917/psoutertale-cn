@@ -388,7 +388,7 @@ export default {
          a: '3...',
          b: '2...',
          c: '1...',
-         d: '開始!',
+         d: '開始！',
          e: '比賽結束'
       },
       blooksorry1: () => [
@@ -1382,7 +1382,7 @@ export default {
       ],
       npc86b: () => [
          '<32>{#p/basic}{#npc/a}* 謝謝您。\n* 問題如下。',
-         '<32>* 「在紅色、綠色、藍色\n  三種顏色中，\n  你更喜歡哪一種？」',
+         '<32>* 「在紅色、綠色、藍色\n   三種顏色中，\n   你更喜歡哪一種？」',
          choicer.create('* （你要怎麼回答？）', '紅色', '綠色', '藍色', '不確定')
       ],
       npc86c: [
@@ -3404,7 +3404,7 @@ export default {
                   ? ['<32>{#p/basic}* 這臺平板上的數據沒什麼重要的。']
                   : [
                      "<33>{#p/basic}* 這是臺舊平板電腦。\n* 數據基本都損壞了...",
-                     '<32>* 「一朵來自遠方的花...\n  第二次生命...\n  星星的形狀...」',
+                     '<32>* 「一朵來自遠方的花...\n   第二次生命...\n   星星的形狀...」',
                      "<32>* 你能認出來的就是這些。"
                   ],
          f_trash2: () =>
@@ -4436,7 +4436,7 @@ export default {
             ? [
                "<25>{#f/1}* 沒錯！",
                '<25>{#f/1}* 除了烹飪之外，\n  沒什麼能讓我和\n  Papyrus更親近了！',
-               '<25>{#f/17}* 嘿嘿，你覺得\n我倆已經是朋友了，對吧？',
+               '<25>{#f/17}* 嘿嘿，你覺得\n  我倆已經是朋友了，對吧？',
                '<25>{#f/8}* 等上完這堂課，\n  那我們就是死黨了！'
             ]
             : [
@@ -5736,7 +5736,7 @@ export default {
       act_check: () =>
          world.goatbro
             ? ['<32>{#p/asriel2}* Doge，一條冷血的狗。\n* 純純的工作機器。']
-            : ['<32>{#p/story}* DOGE - 攻擊14 防禦10\n* 讀作[dəʊʒ]。尾音不爆破。\n* 特戰隊成員。'],
+            : ['<32>{#p/story}* DOGE - 攻擊14 防禦10\n* 讀作[dəʊʒ]，尾音弱化。\n* 特戰隊成員。'],
       act_flirt: () => [
          ...(dogecon() || world.goatbro
             ? ['<32>{#p/human}* （你向Doge調情。）', '<32>{#p/basic}* 她對這種拍須溜馬不屑一顧。']
@@ -6203,7 +6203,7 @@ export default {
                : ['<32>{#p/kidding}* 呃啊，別再來了！！'],
       turnStatus9: () =>
          badSpider()
-            ? ['<32>{#p/kidding}* 什麼叫「不可避免的事情」?']
+            ? ['<32>{#p/kidding}* 什麼叫「不可避免的事情」？']
             : battler.volatile[0].vars.appease
                ? ['<32>{#p/kidding}* 但是...\n* 我覺得我們...']
                : ['<32>{#p/kidding}* 呃啊，別再來了！！'],
@@ -6381,7 +6381,7 @@ export default {
    },
    b_opponent_undyne: {
       artifact: ["<32>{#p/human}* （Undyne似乎甚至不知道\n  這是什麼。）"],
-      epiphaNOPE: ['<20>{#p/undyne}嗯?\n你拿了個啥玩意？'],
+      epiphaNOPE: ['<20>{#p/undyne}嗯？\n你拿了個啥玩意？'],
       spaghetti1: [
          '<32>{#p/basic}* The smell reminds Undyne of someone close to her...',
          "<32>{#p/story}* Undyne的攻擊力下降了！"

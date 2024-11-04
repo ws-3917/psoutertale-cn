@@ -2600,9 +2600,9 @@ export default {
                   : 37.2 <= SAVE.data.n.plot
                      ? [
                         '<32>{#p/human}* （你激活了终端。）\n* （上面有一条新消息。）',
-                        "<32>{#p/alphys}* The Foundry's fluid network has been repaired, thanks to our... v-very kind workers.",
+                        "<32>{#p/alphys}* 铸厂的流体网络修好了，\n  这多亏了我们... \n  那-那些非常热心的工人。",
                         '<32>* ...',
-                        "<32>* On an unrelated note, we're... l-looking for new workers."
+                        "<32>* 对了，说起来...\n  我们还-还在招募新人。"
                      ]
                      : [
                         '<32>{#p/human}* （你激活了终端。）\n* （上面有一条新消息。）',
@@ -2617,16 +2617,16 @@ export default {
       },
       latetoriel1: [
          '<25>{#p/toriel}{#npc/a}{#f/2}* ...！',
-         '<25>{#f/5}* What are you doing out here, my ch...',
-         '<25>{#f/9}* ... child...',
-         '<25>{#f/5}* I cannot care for you any longer, child.\n* Nor should I.',
-         '<25>{#f/5}* You have places to be, things to see...',
-         '<25>{#f/10}* Who am I to keep you from that?',
+         '<25>{#f/5}* 你在这儿干什么，\n  我的孩...',
+         '<25>{#f/9}* ...孩子...',
+         '<25>{#f/5}* 孩子，\n  我不能再照顾你了。\n* 也不应该再照顾你了。',
+         '<25>{#f/5}* 你还有很多地方要去，\n  很多事情要做...',
+         '<25>{#f/10}* 我怎么能阻止你呢？',
          '<25>{#f/9}* ...',
-         '<25>{#f/5}* Please, carry on without me...',
-         '<25>{#f/1}* ... I know you can do the right thing...'
+         '<25>{#f/5}* 求你了，不要管我，\n  继续前进吧...',
+         '<25>{#f/1}* ...我相信你会\n  做出正确的选择的...'
       ],
-      latetoriel2: ['<25>{#p/toriel}{#npc/a}{#f/5}* ... go on...'],
+      latetoriel2: ['<25>{#p/toriel}{#npc/a}{#f/5}* ...去吧...'],
       
       lateasriel: () =>
          [
@@ -2732,16 +2732,16 @@ export default {
             SAVE.data.b.svr
                ? [
                   [
-                     '<25>{#p/asriel1}{#f/13}* An empty photo frame...',
-                     '<25>{#f/16}* Once upon a time, there WERE pictures in these frames.',
-                     '<25>{#f/15}* Then, she took them out and never put them back.',
-                     "<25>{#f/16}* ... must've hurt too much to look at them."
+                     '<25>{#p/asriel1}{#f/13}* 空相框啊...',
+                     '<25>{#f/16}* 以前，这些相框里\n  也都是有照片的。',
+                     '<25>{#f/15}* 然后，\n  她把它们取出来了，\n  就再也没有放回去。',
+                     "<25>{#f/16}* ...那些照片\n  即是只是看一两眼\n  也会很难受吧。"
                   ],
                   [
-                     '<25>{#p/asriel1}{#f/13}* Empty photo frames are like missing memories...',
-                     '<25>{#p/asriel1}{#f/15}* This place has way too many of them.'
+                     '<25>{#p/asriel1}{#f/13}* 空空的相框\n  就像消逝的记忆...',
+                     '<25>{#p/asriel1}{#f/15}* 这地方有太多\n  这样的相框了。'
                   ],
-                  ['<25>{#p/asriel1}{#f/22}* Too many of these in this strange place.']
+                  ['<25>{#p/asriel1}{#f/22}* 这个怪地方\n  实在太多空相框了。']
                ][Math.min(asrielinter.photoframe++, 1)]
                : SAVE.data.n.plot === 72 && !world.runaway
                   ? ['<32>{#p/basic}* 仍然是个空相框。']
@@ -3308,7 +3308,7 @@ export default {
                   ? ['<32>{#p/basic}* 拨火棍。']
                   : SAVE.data.n.plot === 72
                      ? [
-                        "<32>{#p/basic}* 它们只是些拨火棍...\n* ...吗?",
+                        "<32>{#p/basic}* 它们只是些拨火棍...\n* ...吗？",
                         "<32>* 想想看，\n  托丽尔的火焰一点也不烫，\n  反而很温暖。",
                         '<32>* 她根本不需要这些东西啊？',
                         '<32>* 看吧，通过排除法就能发现\n  这些东西其实是高级乐器。'
@@ -4239,7 +4239,7 @@ export default {
       spareTalk28c: ['<11>{#p/toriel}{#f/17}...？', '<11>{#f/17}你为什么喊\n“$(name)”\n的名字呢？'],
       status1: ['<32>{#p/story}* 托丽尔现在正站在你面前。'],
       status2: ['<32>{#p/story}* 托丽尔准备着魔法攻击。'],
-      status3: ['<32>{#p/story}* 托丽尔表现得很冷漠。'],
+      status3: ['<32>{#p/story}* 托丽尔板着脸，\n  冷冷地看着你。'],
       status4: ['<32>{#p/story}* 托丽尔看穿了你。'],
       status5: ['<32>{#p/story}* ...'],
       assistStatus: ['<32>{#p/basic}* 肯定有其他办法的...'],
@@ -4699,7 +4699,7 @@ export default {
          '<25>{#f/0}* 所以总想找机会将这些\n  重要的东西教给别人。'
       ],
       w_dummy: () => [
-         '<25>{#p/toriel}{#f/1}* 训练室吗...?',
+         '<25>{#p/toriel}{#f/1}* 训练室吗...？',
          ...(SAVE.data.n.plot < 42
             ? [
                [
@@ -4858,7 +4858,7 @@ export default {
          SAVE.data.b.toriel_twinkly
             ? '<25>{#p/toriel}{#f/0}* 我听说这里有谁\n  和那个会说话的星星\n  交上了“朋友”。'
             : '<25>{#p/toriel}{#f/0}* 我听说这里有谁\n  和一个会说话的星星\n  交上了“朋友”。',
-         '<25>{#f/1}* 估计是某只蛙吉特吧...?',
+         '<25>{#f/1}* 估计是某只蛙吉特吧...？',
          "<25>{#f/1}* 说实话，\n  我很担心\n  那个怪物的安危...",
          '<25>{#f/5}* 可不是一般的担心。'
       ],
@@ -4881,8 +4881,8 @@ export default {
       w_wonder: () => [
          
          SAVE.data.b.snail_pie
-            ? '<25>{#f/0}* 我买完做蜗牛派的材料\n  回来的时候...\n  碰到了个小蘑菇。'
-            : '<25>{#f/0}* 我买完做奶油糖肉桂派的\n  材料，回来的时候...\n  碰到了个小蘑菇。',
+            ? '<25>{#p/toriel}{#f/0}* 我买完做蜗牛派的材料\n  回来的时候...\n  碰到了个小蘑菇。'
+            : '<25>{#p/toriel}{#f/0}* 我买完做奶油糖肉桂派的\n  材料，回来的时候...\n  碰到了个小蘑菇。',
          '<25>{#f/3}* 不过，\n  它能飘在门口那里\n  确实蛮奇怪的...',
          '<25>{#f/0}* 那房间里的引力\n  估计变弱了点。',
          '<25>{#f/1}* 说不定是运输船\n  停在那里导致的...？'
@@ -4928,14 +4928,14 @@ export default {
 
                ? [
                   '<32>{#s/phone}{#p/event}* 拨号中...',
-                  '<25>{#p/toriel}{#f/1}* 这么快就打过来了...?',
+                  '<25>{#p/toriel}{#f/1}* 这么快就打过来了...？',
                   '<25>{#f/0}* ...我都还没回到家呢！',
                   '<25>{#f/0}* 请稍等一会再打过来。',
                   '<32>{#s/equip}{#p/event}* 滴...'
                ]
                : [
                   '<32>{#w.stopThatGoat}{#s/phone}{#p/event}* 拨号中...',
-                  '<25>{#p/toriel}{#f/1}* 这么快就打过来了...?',
+                  '<25>{#p/toriel}{#f/1}* 这么快就打过来了...？',
                   '<25>{#f/0}* ...我都还没\n  走出这房间呢！',
                   '<25>{#f/2}* 让我喘口气吧！',
                   '<32>{#w.startThatGoat}{#s/equip}{#p/event}* 滴...'
@@ -5019,7 +5019,7 @@ export default {
                '<25>{#f/1}* 继续往前走...'
             ]
             : [
-               '<25>{#p/toriel}{#f/1}* 我记得，这个长房间...',
+               '<25>{#p/toriel}{#f/1}* 我记得...',
                '<26>{#f/0}* ...本来是打算用来\n  建成星港的城郊小镇的。',
                '<25>{#f/0}* 当然啦，\n  后来没有建成。',
                '<25>{#f/2}* 一个镇子已经够多了！'
@@ -5077,7 +5077,7 @@ export default {
       s_maze: [
          "<25>{#p/toriel}* 衫斯跟我讲过\n  他的兄弟有多爱谜题。",
          '<25>{#f/1}* 听说他的兄弟\n  还自己设计了一些...？',
-         '<25>{#f/0}* 我最好奇的是\n  那个“火焰之墙”。',
+         '<25>{#f/0}* 我最好奇的是\n  那个“躲避烈火之墙”。',
          '<25>{#f/1}* 那火烫不烫？\n* 还是说只是暖烘烘的？',
          '<25>{#f/5}* 为了你好，\n  我希望是后者。'
       ],
@@ -5222,7 +5222,7 @@ export default {
                '<25>{#f/1}* 啾，啾，\n  啾，啾，\n  啾...'
             ],
       f_taxi: [
-         "<25>{#p/toriel}{#f/1}* 这么说你找着了\n  工厂的运输船停靠站...?",
+         "<25>{#p/toriel}{#f/1}* 这么说你找着了\n  工厂的运输船停靠站...？",
          '<25>{#f/0}* 那儿说不定可以用来\n  躲开皇家卫队队长呢。',
          '<25>{#f/1}* 之前有个访客跟我说过，\n  卫队长她\n  特别痴迷于长矛...',
          '<25>{#f/0}* 真奇怪。\n* 我认识的那个卫队长\n  明明喜欢的是佩刀啊。'
