@@ -1,6 +1,21 @@
-#
+#, fuzzy
 msgid ""
 msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-11-04 08:17+0000\n"
+"PO-Revision-Date: 2024-11-04 08:17+0000\n"
+"Last-Translator: errosia <ericyan2008@foxmail.com>\n"
+"Language-Team: Chinese (Simplified Han script) <https://ws3917.site/projects/"
+"project-spacetime/1-outlands/zh_Hans/>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: ENCODING\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.8.1\n"
+
+#
 
 msgid ""
 "<25>{#p/toriel}{#f/1}* I hear there is a certain kind of fluid in "
@@ -6638,13 +6653,17 @@ msgstr "<25>{#p/toriel}{#npc/a}{#f/5}* ...去吧..."
 
 msgid "<25>{#p/asriel1}{#f/13}* Just leave me, Frisk..."
 msgstr ""
+"<25>{#p/asriel1}{#f/13}* 就让我一个人待着吧，\n"
+"  Frisk..."
 
 msgid "<25>{#f/15}* I can't come back with you, okay?"
 msgstr ""
+"<25>{#f/15}* 我不能跟你一起回去，\n"
+"  明白吗？"
 
 msgid ""
 "<25>{#p/asriel1}{#f/16}* I don't want to break their hearts all over again."
-msgstr ""
+msgstr "<25>{#p/asriel1}{#f/16}* 我不想再伤他们的心了。"
 
 msgid "<25>{#f/13}* It's better if they never see me at all."
 msgstr ""
