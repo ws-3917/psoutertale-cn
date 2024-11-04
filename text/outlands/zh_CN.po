@@ -1,22 +1,20 @@
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-11-04 08:17+0000\n"
-"PO-Revision-Date: 2024-11-04 08:17+0000\n"
+"PO-Revision-Date: 2024-11-04 08:51+0000\n"
 "Last-Translator: errosia <ericyan2008@foxmail.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://ws3917.site/projects/"
 "project-spacetime/1-outlands/zh_Hans/>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: ENCODING\n"
+"Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 5.8.1\n"
 
 #
-
 msgid ""
 "<25>{#p/toriel}{#f/1}* I hear there is a certain kind of fluid in "
 "Aerialis..."
@@ -6667,51 +6665,64 @@ msgstr "<25>{#p/asriel1}{#f/16}* 我不想再伤他们的心了。"
 
 msgid "<25>{#f/13}* It's better if they never see me at all."
 msgstr ""
+"<25>{#f/13}* 如果他们\n"
+"  永远都再见不到我，\n"
+"  那就更好了。"
 
 msgid "<25>{#p/asriel1}{#f/15}* ... what are you doing?"
-msgstr ""
+msgstr "<25>{#p/asriel1}{#f/15}* ...你在干什么？"
 
 msgid "<25>{#f/15}* Are you trying to keep me company?"
-msgstr ""
+msgstr "<25>{#f/15}* 你是想陪陪我吗？"
 
 msgid "<25>{#f/23}* Frisk..."
-msgstr ""
+msgstr "<25>{#f/23}* Frisk..."
 
 msgid "<25>{#f/13}* Hey."
-msgstr ""
+msgstr "<25>{#f/13}* 嘿。"
 
 msgid "<25>{#f/13}* Let me ask you a question."
-msgstr ""
+msgstr "<25>{#f/13}* 我想问你个问题。"
 
 msgid ""
 "<25>{#f/15}* Frisk...\n"
 "* Why did you come here?"
 msgstr ""
+"<25>{#f/15}* Frisk...\n"
+"* 你为什么要来这里？"
 
 msgid "<25>{#f/13}* Everyone knows the story, right...?"
 msgstr ""
+"<25>{#f/13}* 大家都知道那个传说，\n"
+"  对吧...?"
 
 msgid ""
 "<25>{#f/23}* \"Spacecraft who fly into the Ebott sector are said to "
 "disappear.\""
 msgstr ""
+"<25>{#f/23}* “据说飞进Ebott区的飞船\n"
+"  都会消失不见。”"
 
 msgid ""
 "<32>{#p/human}* (...)\n"
 "* (You tell Asriel the truth.)"
 msgstr ""
+"<32>{#p/human}* （...）\n"
+"* （你告诉了Asriel真相。）"
 
 msgid "<25>{#p/asriel1}{#f/25}* ..."
 msgstr "<25>{#p/asriel1}{#f/25}* ..."
 
 msgid "<25>{#f/25}* Frisk... you..."
-msgstr ""
+msgstr "<25>{#f/25}* Frisk... 你..."
 
 msgid "<25>{#f/23}* ..."
 msgstr "<25>{#f/23}* ..."
 
 msgid "<25>{#f/23}* You don't have to be alone anymore, okay?"
 msgstr ""
+"<25>{#f/23}* 你不用再孤单一人了，\n"
+"  好吗？"
 
 msgid "<25>{#f/17}* You've made so many wonderful friends here..."
 msgstr ""
