@@ -1,6 +1,21 @@
-#
+#, fuzzy
 msgid ""
 msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-11-04 05:03+0000\n"
+"PO-Revision-Date: 2024-11-04 05:03+0000\n"
+"Last-Translator: MurderSans_MDR <z127568254@163.com>\n"
+"Language-Team: Chinese (Simplified Han script) <https://ws3917.site/projects/"
+"project-spacetime/1-outlands/zh_Hans/>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: ENCODING\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.8.1\n"
+
+#
 
 msgid ""
 "<25>{#p/toriel}{#f/1}* I hear there is a certain kind of fluid in "
@@ -11081,7 +11096,9 @@ msgid "<32>{#p/story}* Toriel prepares a magical attack."
 msgstr "<32>{#p/story}* Toriel准备着魔法攻击。"
 
 msgid "<32>{#p/story}* Toriel is acting aloof."
-msgstr "<32>{#p/story}* Toriel表现得很冷漠。"
+msgstr ""
+"<32>{#p/story}* Toriel板着脸，\n"
+"  冷冷地看着你。"
 
 msgid "<32>{#p/story}* Toriel is looking through you."
 msgstr "<32>{#p/story}* Toriel看穿了你。"
