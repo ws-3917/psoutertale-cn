@@ -1,6 +1,21 @@
-#
+#, fuzzy
 msgid ""
 msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-11-05 10:13+0000\n"
+"PO-Revision-Date: 2024-11-05 10:13+0000\n"
+"Last-Translator: errosia <ericyan2008@foxmail.com>\n"
+"Language-Team: Chinese (Simplified Han script) <https://ws3917.site/projects/"
+"project-spacetime/1-outlands/zh_Hans/>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: ENCODING\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.8.1\n"
+
+#
 
 msgid ""
 "<25>{#p/toriel}{#f/1}* I hear there is a certain kind of fluid in "
@@ -3442,59 +3457,83 @@ msgstr "<25>{#p/twinkly}{#f/6}* 哈喽，$(name)。"
 
 msgid "<25>{#f/6}* I've had some time to think about what happened."
 msgstr ""
+"<25>{#f/6}* 我思考了一下\n"
+"  关于之前发生的事情。"
 
 msgid "<25>{#f/5}* It was thrilling, at first..."
 msgstr ""
+"<25>{#f/5}* 一开始，\n"
+"  想着我们可以\n"
+"  一起武力占领前哨站..."
 
 msgid "<25>* The thought of taking the outpost by force together..."
-msgstr ""
+msgstr "<25>* 我觉得很刺激..."
 
 msgid "<25>{#f/6}* But now, I'm not sure."
-msgstr ""
+msgstr "<25>{#f/6}* 但现在，我不确定了。"
 
 msgid "<25>{#f/8}* I guess... I got a bit carried away back there."
 msgstr ""
+"<25>{#f/8}* 我想...\n"
+"  我当时有点得意忘形了。"
 
 msgid ""
 "<25>{#f/5}* But that's okay, right?\n"
 "* You'll forgive me, won't you?"
 msgstr ""
+"<25>{#f/5}* 但这没关系的，对吧？\n"
+"* 你会原谅我的，对吧？"
 
 msgid "<25>{#f/6}* I'm still not really sure what happened back there..."
 msgstr ""
+"<25>{#f/6}* 我还是不太清楚\n"
+"  之前发生了什么..."
 
 msgid "<25>{#f/5}* It's... kinda scaring me, haha..."
 msgstr ""
+"<25>{#f/5}* 那有点... 吓到我了，\n"
+"  哈哈..."
 
 msgid "<25>{#f/8}* Maybe... we should hold off on things for now."
 msgstr ""
+"<25>{#f/8}* 也许... \n"
+"  我们现在应该缓一缓。"
 
 msgid ""
 "<25>{#f/5}* But that's okay, right?\n"
 "* You'll be fine with that, won't you?"
 msgstr ""
+"<25>{#f/5}* 但这没关系的，对吧？\n"
+"* 你不会介意的，对吧？"
 
 msgid "<25>{#f/6}* ..."
 msgstr "<25>{#f/6}* ..."
 
 msgid "<25>{#f/8}* Goodbye, $(name)..."
-msgstr ""
+msgstr "<25>{#f/8}* $(name)，再见..."
 
 msgid "<25>{#f/5}* I'll be back before you know it."
-msgstr ""
+msgstr "<25>{#f/5}* 我很快就会回来的。"
 
 msgid "<32>{#p/basic}* Sorry, did I miss something?"
 msgstr ""
+"<32>{#p/basic}* 不好意思，\n"
+"  我是不是错过了什么？"
 
 msgid ""
 "<32>* I've never talked to him in my life, let alone go on some mission with"
 " him."
 msgstr ""
+"<32>* 我这辈子都没跟他说过话，\n"
+"  更别说和他一起执行什么任务了。"
 
 msgid ""
 "<32>* Oh well.\n"
 "* It wouldn't be the first time he's made up stories about me."
 msgstr ""
+"<32>* 算了。\n"
+"* 他也不是第一次编造\n"
+"  关于我的故事了。"
 
 msgid ""
 "<25>{#p/twinkly}{#f/5}{#v/0}* Well.\n"
@@ -3540,8 +3579,8 @@ msgstr "<25>{#f/7}{#v/0}* 别忘了，$(name)..."
 msgid ""
 "<25>{#f/5}{#v/0}* It's only a matter of time before we're together again."
 msgstr ""
-"<25>{#f/5}{#v/0}* 我们俩久别重逢，强强联手\n"
-"  只是时间问题。"
+"<25>{#f/5}{#v/0}* 我们俩久别重逢，\n"
+"  强强联手只是时间问题。"
 
 msgid "<25>{#f/6}{#v/0}* Try a little harder next time, and maybe..."
 msgstr ""
