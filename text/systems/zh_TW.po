@@ -2029,7 +2029,7 @@ msgid "Frisk"
 msgstr "Frisk"
 
 msgid "G"
-msgstr "G"
+msgstr "金錢"
 
 msgid "INF"
 msgstr "\\u221e"

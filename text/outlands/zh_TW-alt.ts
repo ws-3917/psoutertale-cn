@@ -1290,48 +1290,48 @@ export default {
          '<25>{#f/14}{#v/1}* 或者只是單純地放棄呢？',
          '<25>{#f/11}{#v/0}* 嘻嘻嘻...',
          '<25>{#f/7}{#v/0}* 那一定會很好玩的。',
-         "<25>{#f/9}{#v/0}* 我會好好看你的好戲的！"
+         "<25>{#f/9}{#v/0}* 我會看著你的好戲的！"
       ],
       endtwinklyBB1: () => [
          SAVE.data.b.w_state_lateleave
-            ? "<25>{#p/twinkly}{#f/6}{#v/0}* So you managed to stay out of a few measly people's way."
-            : '<25>{#p/twinkly}{#f/6}{#v/0}* So you spared the life of a few measly people.',
-         '<25>{#f/11}{#v/0}* But what about the others, huh?',
-         '<25>{#f/7}{#v/0}* Froggit, Flutterlyte, Gelatini, Silente, Oculoux, Mushy...',
-         "<25>{#f/6}{#v/0}* Don'tcha think any of them have families?",
-         "<25>{#f/8}{#v/0}* Don'tcha think any of them have friends?",
-         "<25>{#f/5}{#v/0}* Each one could've been someone else's Toriel.",
+            ? "<25>{#p/twinkly}{#f/6}{#v/0}* 所以，你成功地避開了\n  幾個小嘍囉。"
+            : '<25>{#p/twinkly}{#f/6}{#v/0}* 所以，\n  你饒了幾個小嘍囉的命。',
+         '<25>{#f/11}{#v/0}* 但其他人呢，嗯哼？',
+         '<25>{#f/7}{#v/0}* 蛙吉特，飄遊蟲蟲，\n  小黏團，忍術蟑螂，\n  乾瞪眼，蘑西...',
+         "<25>{#f/6}{#v/0}* 你就不覺得\n  他們也有家人嗎？",
+         "<25>{#f/6}{#v/0}* 你就不覺得\n  他們也有朋友嗎？",
+         "<25>{#f/5}{#v/0}* 他們每個人都可能是\n  別人的托麗爾。",
          '<25>{#f/5}{#v/0}* ...',
-         '<25>{#f/7}{#v/0}* Selfish brat.',
-         '<25>{#f/0}{#v/1}* Monsters are dead because of you.'
+         '<25>{#f/7}{#v/0}* 自私的混蛋。',
+         '<25>{#f/0}{#v/1}* 都是因為你，\n  怪物們才會死。'
       ],
       endtwinklyBB2: () => [
          SAVE.data.b.w_state_lateleave
-            ? "<25>{#p/twinkly}{#f/6}{#v/0}* So you managed to stay out of one person's way."
-            : '<25>{#p/twinkly}{#f/6}{#v/0}* So you spared the life of a single person.',
-         '<25>{#f/11}{#v/0}* But what about everyone else, huh?',
-         '<25>{#f/7}{#v/0}* Froggit, Flutterlyte, Gelatini, Silente, Oculoux, Mushy...',
-         "<25>{#f/0}{#v/0}* They're all gone now.",
-         "<25>{#f/11}{#v/0}* What's Toriel gonna do when she finds out, huh?",
-         '<25>{#f/2}{#v/1}* What if she KILLS herself out of grief?',
-         "<25>{#f/11}{#v/0}* If you think you're saving her just by SPARING her...",
-         "<25>{#f/7}{#v/0}* Then you're even dumber than I thought.",
-         '<25>{#f/9}* Well, see ya!'
+            ? "<25>{#p/twinkly}{#f/6}{#v/0}* 所以，你成功地避開了\n  僅僅一個人。"
+            : '<25>{#p/twinkly}{#f/6}{#v/0}* 所以，\n  你饒了僅僅一個人的命。',
+         '<25>{#f/11}{#v/0}* 但其他所有人呢，嗯哼？',
+         '<25>{#f/7}{#v/0}* 蛙吉特，飄遊蟲蟲，\n  小黏團，忍術蟑螂，\n  乾瞪眼，蘑西...',
+         "<25>{#f/0}{#v/0}* 他們都死了。",
+         "<25>{#f/11}{#v/0}* 要是托麗爾知道了\n  會怎麼樣，嗯哼？",
+         '<25>{#f/2}{#v/1}* 要是她悲傷過度，\n  自殺了怎麼辦？',
+         "<25>{#f/11}{#v/0}* 如果你覺得\n  只要不殺托麗爾\n  就能拯救她...",
+         "<25>{#f/7}{#v/0}* 那你比我想像的還要蠢。",
+         '<25>{#f/9}* 好啦，回見！'
       ],
       endtwinklyBB3: () => [
          SAVE.data.b.w_state_lateleave
-            ? "<25>{#p/twinkly}{#f/6}{#v/0}* So you managed to stay out of almost everyone's way."
-            : '<25>{#p/twinkly}{#f/6}{#v/0}* So you spared the life of almost everyone.',
+            ? "<25>{#p/twinkly}{#f/6}{#v/0}* 所以，你成功地避開了\n  大多數人。"
+            : '<25>{#p/twinkly}{#f/6}{#v/0}* 所以，\n  你饒了大多數人的命。',
          SAVE.data.b.w_state_lateleave
-            ? '<25>{#p/twinkly}{#f/11}{#v/0}* But what about the one you DID get in the way of, huh?'
-            : "<25>{#p/twinkly}{#f/11}{#v/0}* But what about the one you DIDN'T spare, huh?",
-         '<25>{#f/7}{#v/0}* Froggit, Flutterlyte, Gelatini, Silente, Oculoux, Mushy...',
-         "<25>{#f/6}{#v/0}* Don'tcha think any of them have families?",
-         "<25>{#f/8}{#v/0}* Don'tcha think any of them have friends?",
-         "<25>{#f/5}{#v/0}* The one you killed could've been someone else's Toriel.",
+            ? '<25>{#f/11}{#v/0}* 但那個你沒避開的人呢，\n  嗯哼？'
+            : "<25>{#f/11}{#v/0}* 但那個你沒饒恕的人呢，\n  嗯哼？",
+         '<25>{#f/7}{#v/0}* 蛙吉特，飄遊蟲蟲，\n  小黏團，忍術蟑螂，\n  乾瞪眼，蘑西...',
+         "<25>{#f/6}{#v/0}* 你就不覺得\n  他們也有家人嗎？",
+         "<25>{#f/6}{#v/0}* 你就不覺得\n  他們也有朋友嗎？",
+         "<25>{#f/5}{#v/0}* 那個人可能是\n  別人的托麗爾。",
          '<25>{#f/5}{#v/0}* ...',
-         '<25>{#f/7}{#v/0}* Selfish brat.',
-         "<25>{#f/0}{#v/1}* Someone's dead because of you."
+         '<25>{#f/7}{#v/0}* 自私的混蛋。',
+         "<25>{#f/0}{#v/1}* 都是因為你，\n  那個人才會死。"
       ],
       endtwinklyBC: [
          "<25>{#p/twinkly}{#f/5}{#v/0}* 我知道你很清楚這一點，\n  不過...",
@@ -1346,16 +1346,16 @@ export default {
          '<25>{#f/7}{#v/0}* 你可知道，\n  那曾是屬於我的能力。',
          '<25>{#f/6}{#v/0}* 似乎你對這個世界的渴求\n  凌駕於我。',
          '<25>{#f/5}{#v/0}* 好吧。\n* 趁你還有這種能力\n  好好享受吧。',
-         "<25>{#f/9}{#v/0}* 我會好好看你的好戲的！"
+         "<25>{#f/9}{#v/0}* 我會看著你的好戲的！"
       ],
       endtwinklyC: [
-         '<25>{#f/7}{#v/0}* After all, this used to be MY power.',
+         '<25>{#f/7}{#v/0}* 別忘了，\n  那曾是屬於我的能力。',
          '<25>{#f/6}{#v/0}* 憑藉你的決心，就能擁有\n  重塑宇宙的能力...',
          '<25>{#f/8}{#v/0}* 儲存的能力...',
-         '<25>{#f/6}{#v/0}* I thought I was the only one who could do that.',
+         '<25>{#f/6}{#v/0}* 我以為只有我\n  擁有這種能力。',
          '<25>{#f/6}{#v/0}* 似乎你對這個世界的渴求\n  凌駕於我。',
          '<25>{#f/5}{#v/0}* 好吧。\n* 趁你還有這種能力\n  好好享受吧。',
-         "<25>{#f/9}{#v/0}* 我會好好看你的好戲的！"
+         "<25>{#f/9}{#v/0}* 我會看著你的好戲的！"
       ],
       endtwinklyD: [
          "<25>{#p/twinkly}{#f/11}{#v/0}* 你倒是挺會找樂子的嘛。",
@@ -1365,80 +1365,80 @@ export default {
          '<25>{#f/5}{#v/0}* 還是動動腦子，\n  發現當個假「好人」\n  屁用沒有呢？',
          '<25>{#f/11}{#v/0}* 嘻嘻嘻...',
          '<25>{#f/7}{#v/0}* 那一定會很好玩的。',
-         "<25>{#f/9}{#v/0}* 我會好好看你的好戲的！"
+         "<25>{#f/9}{#v/0}* 我會看著你的好戲的！"
       ],
       endtwinklyE: [
-         "<25>{#p/twinkly}{#f/7}{#v/0}* Wow, you're utterly repulsive.",
-         '<26>{#f/11}{#v/0}* You got by peacefully...',
-         "<25>{#f/5}{#v/0}* Then, you figured that wasn't good enough for you.",
-         '<25>{#f/2}{#v/1}* So you KILLED her just to see what would happen.',
+         "<25>{#p/twinkly}{#f/7}{#v/0}* 哇，你真是噁心啊。",
+         '<26>{#f/11}{#v/0}* 你本來已經\n  和平解決了問題...',
+         "<25>{#f/5}{#v/0}* 但卻又覺得這還不夠。",
+         '<25>{#f/2}{#v/1}* 你殺了她，\n  只為了看看會發生什麼。',
          '<25>{#f/7}{#v/0}* 嘻嘻嘻...',
-         '<25>{#f/0}{#v/0}* You did it out of BOREDOM.'
+         '<25>{#f/0}{#v/0}* 你這麼做只是因為無聊。'
       ],
-      endtwinklyEA: ["<25>{#f/11}{#v/0}* Don't think I don't know how this works..."],
-      endtwinklyEB: ["<25>{#f/6}{#v/0}* It's sad, though..."],
-      endtwinklyF: ['<25>{#p/twinkly}{#f/11}{#v/0}* Look at you, playing with her life like this...'],
-      endtwinklyFA: ['<25>{#f/7}{#v/0}* Killing her, leaving her, killing her again...'],
-      endtwinklyFB: ['<25>{#f/7}{#v/0}* Leaving her, killing her, leaving her again...'],
+      endtwinklyEA: ["<25>{#f/11}{#v/0}* 別以為\n  我不知道你在幹什麼..."],
+      endtwinklyEB: ["<25>{#f/6}{#v/0}* 這還挺可悲的..."],
+      endtwinklyF: ['<25>{#p/twinkly}{#f/11}{#v/0}* 你看看你，\n  竟然這樣玩弄她的生命...'],
+      endtwinklyFA: ['<25>{#f/7}{#v/0}* 殺掉她，\n  離開她，\n  然後再殺掉她...'],
+      endtwinklyFB: ['<25>{#f/7}{#v/0}* 離開她，\n  殺掉她，\n  然後再離開她...'],
       endtwinklyFXA: [
-         "<25>{#f/11}{#v/0}* It's fun, isn't it?",
-         '<25>{#f/6}{#v/0}* Endlessly toying with the lives of others...',
-         '<25>{#f/8}{#v/0}* Watching how they react to every possible decision...',
-         "<25>{#f/11}{#v/0}* Isn't it thrilling?",
+         "<25>{#f/11}{#v/0}* 這真是有趣，對吧？",
+         '<25>{#f/6}{#v/0}* 永無休止地\n  玩弄別人的生命...',
+         '<25>{#f/8}{#v/0}* 看著他們對每一個抉擇\n  做出的不同反應...',
+         "<25>{#f/11}{#v/0}* 是不是相當刺激？",
          '<25>{#f/7}{#v/0}* 嘻嘻嘻...',
-         "<25>{#f/9}{#v/0}* I wonder what you'll do next.",
-         "<25>{#f/5}{#v/0}* I'll be watching..."
+         "<25>{#f/9}{#v/0}* 我想知道\n  你接下來會做什麼。",
+         "<25>{#f/5}{#v/0}* 我會看著你的好戲的..."
       ],
       endtwinklyG: [
-         "<25>{#p/twinkly}{#f/10}{#v/0}* You just can't get enough, can you~",
-         '<25>{#f/11}{#v/0}* How many more times will you KILL her, eh?',
+         "<25>{#p/twinkly}{#f/10}{#v/0}* 你就是永遠殺不夠，\n  是吧~",
+         '<25>{#f/11}{#v/0}* 你還要殺她多少次呀？',
          '<25>{#f/7}{#v/0}* 嘻嘻嘻...',
-         '<25>{#f/0}{#v/1}* You kinda remind me of myself.',
-         '<25>{#f/9}{#v/0}* Well, cya!'
+         '<25>{#f/0}{#v/1}* 你還真有點像以前的我。',
+         '<25>{#f/9}{#v/0}* 好啦，回見呀！'
       ],
       endtwinklyG1: [
-         '<25>{#p/twinkly}{#f/6}{#v/0}* Again?\n* Golly...',
-         '<25>{#f/0}{#v/1}* You REALLY remind me of myself.'
+         '<25>{#p/twinkly}{#f/6}{#v/0}* 又來？\n* 天啊...',
+         '<25>{#f/0}{#v/1}* 你真的太像以前的我了。'
       ],
       endtwinklyG2: [
-         '<25>{#p/twinkly}{#f/6}{#v/0}* Again!?',
-         "<25>{#f/8}{#v/0}* Wow, you're even worse than I thought."
+         '<25>{#p/twinkly}{#f/6}{#v/0}* 還來！？',
+         "<25>{#f/8}{#v/0}* 哇，\n  你這人比我想像的\n  還要醜惡啊。"
       ],
       endtwinklyH: () => [
          SAVE.data.b.w_state_lateleave
-            ? "<25>{#p/twinkly}{#f/5}{#v/0}* So you've finally gotten by peacefully, huh?"
-            : "<25>{#p/twinkly}{#f/5}{#v/0}* So you've finally decided to show mercy, huh?",
-         '<25>{#f/5}{#v/0}* And after all that KILLING...',
-         '<25>{#f/11}{#v/0}* Say, was this your idea all along?',
-         '<25>{#f/2}{#v/1}* To get a rush out of her death, then spare her once you got bored?',
+            ? "<25>{#p/twinkly}{#f/5}{#v/0}* 你總算是\n  和平解決了問題，\n  嗯哼？"
+            : "<25>{#p/twinkly}{#f/5}{#v/0}* 你總算是\n  打算仁慈了一回，\n  嗯哼？",
+         '<25>{#f/5}{#v/0}* 在屠殺了\n  那麼多遍之後...？',
+         '<25>{#f/11}{#v/0}* 話說，\n  你是一開始\n  就打算這麼做的嗎？',
+         '<25>{#f/2}{#v/1}* 先在她的死亡中爽到了，\n  玩膩了再饒她一命？',
          '<25>{#f/7}{#v/0}* 嘻嘻嘻...',
-         '<25>{#f/11}{#v/0}* What a saint you must think you are.',
-         "<25>{#f/5}{#v/0}* But hey, it's not as if I don't know how this works..."
+         '<25>{#f/11}{#v/0}* 你肯定覺得自己\n  特別聖母吧。',
+         "<25>{#f/5}{#v/0}* 不過嘛，\n  我又不是不知道\n  你葫蘆裡賣的什麼藥..."
       ],
       endtwinklyI: [
-         '<25>{#p/twinkly}{#f/11}{#v/0}* Hee hee hee...',
-         '<25>{#f/7}{#v/0}* I hope you like your choice.',
-         "<25>{#f/9}{#v/0}* I mean, it's not as if you can go back and change fate.",
+         '<25>{#p/twinkly}{#f/11}{#v/0}* 嘻嘻嘻...',
+         '<25>{#f/7}{#v/0}* 希望你喜歡你的選擇。',
+         "<25>{#f/9}{#v/0}* 畢竟，\n  你又不能逆天改命嘛。",
          "<25>{#f/0}{#v/1}* 在這個世界上...\n  不是殺人就是被殺。",
-         '<25>{#f/5}{#v/0}* That old woman thought she could break the rules.',
-         '<25>{#f/8}{#v/0}* She tried so hard to save you humans...',
-         "<25>{#f/6}{#v/0}* But when it came down to it, she couldn't even save herself."
+         '<25>{#f/5}{#v/0}* 那老太婆還以為\n  她能無法無天。',
+         '<25>{#f/8}{#v/0}* 她那麼努力\n  想救你們這些人類...',
+         "<25>{#f/6}{#v/0}* 但到頭來，\n  她連自己都救不了。"
       ],
       endtwinklyIX: [
-         '<25>{#p/twinkly}{#f/11}{#v/0}* Hee hee hee...',
-         '<25>{#f/11}{#v/0}* So you finally caved in and killed someone, huh?',
-         '<25>{#f/7}{#v/0}* Well, I hope you like your choice.',
-         "<25>{#f/9}{#v/0}* I mean, it's not as if you can go back and change fate.",
+         '<25>{#p/twinkly}{#f/11}{#v/0}* 嘻嘻嘻...',
+         '<25>{#f/11}{#v/0}* 你終於忍不住殺人了，\n  嗯哼？',
+         '<25>{#f/7}{#v/0}* 嗯，\n  希望你喜歡你的選擇。',
+         "<25>{#f/9}{#v/0}* 畢竟，\n  你又不能逆天改命嘛。",
          "<25>{#f/0}{#v/1}* 在這個世界上...\n  不是殺人就是被殺。",
-         "<25>{#f/8}{#v/0}* ... what's wrong?\n* Did she not last as long as you thought?",
-         '<26>{#f/6}{#v/0}* Oh, how terrible.\n* Guess not everyone can be beat into submission.'
+         "<25>{#f/8}{#v/0}* ...怎麼了？\n* 她沒你想像得那麼耐打？",
+         '<26>{#f/6}{#v/0}* 噢，這也太慘了。\n* 看來不是每個人\n  都能被打到屈服呢。'
       ],
-      endtwinklyIA: ['<25>{#f/11}{#v/0}* What an idiot!'],
-      endtwinklyIAX: ['<25>{#f/7}{#v/0}* What a shame for her.'],
-      endtwinklyIB: ['<25>{#f/6}{#v/0}* As for you...'],
+      endtwinklyIA: ['<25>{#f/11}{#v/0}* 真是個大蠢貨！'],
+      endtwinklyIAX: ['<25>{#f/7}{#v/0}* 她真可憐。'],
+      endtwinklyIB: ['<25>{#f/6}{#v/0}* 至於你嘛...'],
       endtwinklyJ: [
-         '<25>{#p/twinkly}{#f/6}{#v/0}* Wow.',
-         '<25>{#f/7}{#v/0}* And here I thought you were the righteous one for showing mercy.',
+         '<25>{#p/twinkly}{#f/6}{#v/0}* 哇。',
+         '<25>{#f/7}{#v/0}* 我還以為你是什麼\n  仁慈的大善人呢。',
          '<25>{#f/11}{#v/0}* Hah!\n* What a joke.',
          '<25>{#f/6}{#v/0}* ...',
          '<25>{#f/6}{#v/0}* How did it feel to finally satisfy your violent side?',
@@ -1451,7 +1451,7 @@ export default {
          "<25>{#f/6}{#v/0}* 順便說一句，\n  你怕不是宇宙間\n  最無聊的人。",
          '<25>{#f/12}{#v/0}* 和平地過了一段時間之後，\n  還要回去再來一遍？',
          '<25>{#f/8}{#v/0}* 得了吧...',
-         "<25>{#f/2}{#v/1}* 你和我都知道，\n  不是殺人就是被殺。"
+         "<25>{#f/2}{#v/1}* 你我都知道，\n  不是殺人就是被殺。"
       ],
       endtwinklyK1: [
          "<25>{#p/twinkly}{#f/6}* Aren't you getting tired of this?",

@@ -943,7 +943,7 @@ export default {
       enabled: '開啟',
       finish: '按 [X] 返回',
       frisk: '弗裡斯克',
-      g: 'G',
+      g: '金錢',
       hp: '血量',
       inf: '\u221e',
       landing1: '[按 Z 或 ENTER]',

@@ -17011,7 +17011,7 @@ msgstr ""
 msgid "<20>{*}{#e/undyne/27}'Cause I've... got my friends behind me.{^60}{%}"
 msgstr ""
 "<20>{*}{#e/undyne/27}因為...\n"
-"我有朋友。{^60}{%}"
+"有朋友支援著我。{^60}{%}"
 
 msgid ""
 "<20>{*}{#e/undyne/28}Alphys told me she had a backup plan in case I "

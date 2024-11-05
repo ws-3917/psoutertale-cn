@@ -10363,7 +10363,9 @@ msgstr ""
 "要是它垮了，我會很傷心的。」"
 
 msgid "<23>\"... THAT IS ALL.\""
-msgstr "<23>「...PAPYRUS敬上。」"
+msgstr ""
+"<23>「...此致，\n"
+"PAPYRUS。」"
 
 msgid "<23>(\"NOTE: I WOULD HAVE SAID MORE, BUT THERE'S NOT ENOUGH ROOM.\")"
 msgstr ""
