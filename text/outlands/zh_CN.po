@@ -1,6 +1,21 @@
-#
+#, fuzzy
 msgid ""
 msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-11-05 13:17+0000\n"
+"PO-Revision-Date: 2024-11-05 13:17+0000\n"
+"Last-Translator: errosia <bonkchoy@qq.com>\n"
+"Language-Team: Chinese (Simplified Han script) <https://ws3917.site/projects/"
+"project-spacetime/1-outlands/zh_Hans/>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: ENCODING\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.8.1\n"
+
+#
 
 msgid ""
 "<25>{#p/toriel}{#f/1}* I hear there is a certain kind of fluid in "
@@ -4080,6 +4095,8 @@ msgid ""
 "<25>{#f/11}{#v/0}* Hah!\n"
 "* What a joke."
 msgstr ""
+"<25>{#f/11}{#v/0}* 哈！\n"
+"* 真是个笑话。"
 
 msgid "<25>{#f/6}{#v/0}* ..."
 msgstr "<25>{#f/6}{#v/0}* ..."
@@ -4087,12 +4104,15 @@ msgstr "<25>{#f/6}{#v/0}* ..."
 msgid ""
 "<25>{#f/6}{#v/0}* How did it feel to finally satisfy your violent side?"
 msgstr ""
+"<25>{#f/6}{#v/0}* 终于满足了\n"
+"  你那颗暴力的心，\n"
+"  感觉如何呀？"
 
 msgid "<25>{#f/0}{#v/1}* I bet it felt GOOD, didn't it?"
-msgstr ""
+msgstr "<25>{#f/0}{#v/1}* 我猜肯定很爽吧，是不？"
 
 msgid "<25>{#f/11}{#v/0}* I mean, I should know..."
-msgstr ""
+msgstr "<25>{#f/11}{#v/0}* 毕竟，我懂嘛..."
 
 msgid "<25>{#p/twinkly}{#f/5}{#v/0}* Nice to see you again."
 msgstr "<25>{#p/twinkly}{#f/5}{#v/0}* 很高兴再次见到你。"
@@ -4121,44 +4141,57 @@ msgstr ""
 "  不是杀人就是被杀。"
 
 msgid "<25>{#p/twinkly}{#f/6}* Aren't you getting tired of this?"
-msgstr ""
+msgstr "<25>{#p/twinkly}{#f/6}* 你不觉得腻吗？"
 
 msgid ""
 "<25>{#f/2}{#v/1}* You KNOW deep down that part of you wants to hurt her."
 msgstr ""
+"<25>{#f/2}{#v/1}* 你自己心里清楚，\n"
+"  你就是想伤害她。"
 
 msgid ""
 "<25>{#f/14}{#v/1}* A few good hits, and she'd be dead before your very eyes."
 msgstr ""
+"<25>{#f/14}{#v/1}* 狠狠揍她几下，\n"
+"  她就会死在你眼前。"
 
 msgid "<25>{#f/11}{#v/0}* Wouldn't that be exciting?"
-msgstr ""
+msgstr "<25>{#f/11}{#v/0}* 那不是很刺激吗？"
 
 msgid "<25>{#f/8}{#v/0}* ..."
 msgstr "<25>{#f/8}{#v/0}* ..."
 
 msgid "<25>{#f/7}{#v/0}* See ya, idiot."
-msgstr ""
+msgstr "<25>{#f/7}{#v/0}* 回见，蠢货。"
 
 msgid ""
 "<25>{#p/twinkly}{#f/8}{#v/0}* Are you doing this just to see how I react?"
 msgstr ""
+"<25>{#p/twinkly}{#f/8}{#v/0}* 你这样做，\n"
+"  就只是为了\n"
+"  看看我的反应吗？"
 
 msgid "<25>{#f/6}{#v/0}* Is that what this is about?"
-msgstr ""
+msgstr "<25>{#f/6}{#v/0}* 就只是为了这个？"
 
 msgid "<25>{#f/7}{#v/0}* Well, don't expect to get anything else outta me."
 msgstr ""
+"<25>{#f/7}{#v/0}* 那你就别指望\n"
+"  再从我这里得到什么了。"
 
 msgid "<25>{#f/6}{#v/0}* All this boring pacifism is getting tiresome."
 msgstr ""
+"<25>{#f/6}{#v/0}* 整天搞和平主义，\n"
+"  烦都烦死了。"
 
 msgid ""
 "<25>{#f/11}{#v/0}* Now, if something more interesting were to happen..."
 msgstr ""
+"<25>{#f/11}{#v/0}* 要是现在发生点\n"
+"  更有趣的事..."
 
 msgid "<25>{#f/9}{#v/0}* Perhaps I'd be more inclined to talk."
-msgstr ""
+msgstr "<25>{#f/9}{#v/0}* 我或许会更想跟你聊聊。"
 
 msgid "<25>{#f/7}{#v/0}* Sooner or later, you'll be forced to realize that."
 msgstr ""
@@ -4181,6 +4214,9 @@ msgstr "<25>{#f/9}{#v/0}* 祝你好运！"
 
 msgid "<25>{#f/7}{#v/0}* Maybe that's why you killed that one monster."
 msgstr ""
+"<25>{#f/7}{#v/0}* 也许，\n"
+"  这就是为什么\n"
+"  你杀了那个怪物吧。"
 
 msgid ""
 "<25>{#f/8}{#v/0}* I mean, you went almost the whole way without killing "
