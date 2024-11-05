@@ -1,22 +1,20 @@
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-11-05 10:17+0000\n"
-"PO-Revision-Date: 2024-11-05 10:17+0000\n"
+"PO-Revision-Date: 2024-11-05 11:17+0000\n"
 "Last-Translator: errosia <ericyan2008@foxmail.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://ws3917.site/projects/"
 "project-spacetime/1-outlands/zh_Hans/>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: ENCODING\n"
+"Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 5.8.1\n"
 
 #
-
 msgid ""
 "<25>{#p/toriel}{#f/1}* I hear there is a certain kind of fluid in "
 "Aerialis..."
@@ -3643,7 +3641,7 @@ msgid "<25>{#f/7}{#v/0}* This is gonna be SO much fun."
 msgstr "<25>{#f/7}{#v/0}* 那一定会很好玩的。"
 
 msgid "<25>{#f/9}{#v/0}* I'll be watching!"
-msgstr "<25>{#f/9}{#v/0}* 我会好好看你的好戏的！"
+msgstr "<25>{#f/9}{#v/0}* 我会看着你的好戏的！"
 
 msgid ""
 "<25>{#p/twinkly}{#f/6}{#v/0}* So you managed to stay out of a few measly "
@@ -3659,85 +3657,119 @@ msgstr ""
 "  你饶了几个小喽啰的命。"
 
 msgid "<25>{#f/11}{#v/0}* But what about the others, huh?"
-msgstr ""
+msgstr "<25>{#f/11}{#v/0}* 但其他人呢，嗯哼？"
 
 msgid ""
 "<25>{#f/7}{#v/0}* Froggit, Flutterlyte, Gelatini, Silente, Oculoux, Mushy..."
 msgstr ""
+"<25>{#f/7}{#v/0}* Froggit，Flutterlyte，\n"
+"  Gelatini，Silente，\n"
+"  Oculoux，Mushy..."
 
 msgid "<25>{#f/6}{#v/0}* Don'tcha think any of them have families?"
 msgstr ""
+"<25>{#f/6}{#v/0}* 你就不觉得\n"
+"  他们也有家人吗？"
 
 msgid "<25>{#f/8}{#v/0}* Don'tcha think any of them have friends?"
 msgstr ""
+"<25>{#f/6}{#v/0}* 你就不觉得\n"
+"  他们也有朋友吗？"
 
 msgid "<25>{#f/5}{#v/0}* Each one could've been someone else's Toriel."
 msgstr ""
+"<25>{#f/5}{#v/0}* 他们每个人都可能是\n"
+"  别人的Toriel。"
 
 msgid "<25>{#f/5}{#v/0}* ..."
 msgstr "<25>{#f/5}{#v/0}* ..."
 
 msgid "<25>{#f/7}{#v/0}* Selfish brat."
-msgstr ""
+msgstr "<25>{#f/7}{#v/0}* 自私的混蛋。"
 
 msgid "<25>{#f/0}{#v/1}* Monsters are dead because of you."
 msgstr ""
+"<25>{#f/0}{#v/1}* 都是因为你，\n"
+"  怪物们才会死。"
 
 msgid ""
 "<25>{#p/twinkly}{#f/6}{#v/0}* So you managed to stay out of one person's "
 "way."
 msgstr ""
+"<25>{#p/twinkly}{#f/6}{#v/0}* 所以，你成功地避开了\n"
+"  仅仅一个人。"
 
 msgid ""
 "<25>{#p/twinkly}{#f/6}{#v/0}* So you spared the life of a single person."
 msgstr ""
+"<25>{#p/twinkly}{#f/6}{#v/0}* 所以，\n"
+"  你饶了仅仅一个人的命。"
 
 msgid "<25>{#f/11}{#v/0}* But what about everyone else, huh?"
-msgstr ""
+msgstr "<25>{#f/11}{#v/0}* 但其他所有人呢，嗯哼？"
 
 msgid "<25>{#f/0}{#v/0}* They're all gone now."
-msgstr ""
+msgstr "<25>{#f/0}{#v/0}* 他们都死了。"
 
 msgid "<25>{#f/11}{#v/0}* What's Toriel gonna do when she finds out, huh?"
 msgstr ""
+"<25>{#f/11}{#v/0}* 要是Toriel知道了\n"
+"  会怎么样，嗯哼？"
 
 msgid "<25>{#f/2}{#v/1}* What if she KILLS herself out of grief?"
 msgstr ""
+"<25>{#f/2}{#v/1}* 要是她悲伤过度，\n"
+"  自杀了怎么办？"
 
 msgid ""
 "<25>{#f/11}{#v/0}* If you think you're saving her just by SPARING her..."
 msgstr ""
+"<25>{#f/11}{#v/0}* 如果你觉得\n"
+"  只要不杀Toriel\n"
+"  就能拯救她..."
 
 msgid "<25>{#f/7}{#v/0}* Then you're even dumber than I thought."
-msgstr ""
+msgstr "<25>{#f/7}{#v/0}* 那你比我想象的还要蠢。"
 
 msgid "<25>{#f/9}* Well, see ya!"
-msgstr ""
+msgstr "<25>{#f/9}* 好啦，回见！"
 
 msgid ""
 "<25>{#p/twinkly}{#f/6}{#v/0}* So you managed to stay out of almost "
 "everyone's way."
 msgstr ""
+"<25>{#p/twinkly}{#f/6}{#v/0}* 所以，你成功地避开了\n"
+"  大多数人。"
 
 msgid ""
 "<25>{#p/twinkly}{#f/6}{#v/0}* So you spared the life of almost everyone."
 msgstr ""
+"<25>{#p/twinkly}{#f/6}{#v/0}* 所以，\n"
+"  你饶了大多数人的命。"
 
 msgid ""
 "<25>{#p/twinkly}{#f/11}{#v/0}* But what about the one you DID get in the way"
 " of, huh?"
 msgstr ""
+"<25>{#f/11}{#v/0}* 但那个你没避开的人呢，\n"
+"  嗯哼？"
 
 msgid ""
 "<25>{#p/twinkly}{#f/11}{#v/0}* But what about the one you DIDN'T spare, huh?"
 msgstr ""
+"<25>{#f/11}{#v/0}* 但那个你没饶恕的人呢，\n"
+"  嗯哼？"
 
 msgid ""
 "<25>{#f/5}{#v/0}* The one you killed could've been someone else's Toriel."
 msgstr ""
+"<25>{#f/5}{#v/0}* 那个人可能是\n"
+"  别人的Toriel。"
 
 msgid "<25>{#f/0}{#v/1}* Someone's dead because of you."
 msgstr ""
+"<25>{#f/0}{#v/1}* 都是因为你，\n"
+"  那个人才会死。"
 
 msgid ""
 "<25>{#p/twinkly}{#f/5}{#v/0}* I'm sure you're well aware of that, though..."
@@ -3799,9 +3831,13 @@ msgstr ""
 
 msgid "<25>{#f/7}{#v/0}* After all, this used to be MY power."
 msgstr ""
+"<25>{#f/7}{#v/0}* 别忘了，\n"
+"  那曾是属于我的能力。"
 
 msgid "<25>{#f/6}{#v/0}* I thought I was the only one who could do that."
 msgstr ""
+"<25>{#f/6}{#v/0}* 我以为只有我\n"
+"  拥有这种能力。"
 
 msgid "<25>{#p/twinkly}{#f/11}{#v/0}* You're one hell of a tease, huh?"
 msgstr "<25>{#p/twinkly}{#f/11}{#v/0}* 你倒是挺会找乐子的嘛。"
@@ -3833,36 +3869,50 @@ msgstr ""
 "  屁用没有呢？"
 
 msgid "<25>{#p/twinkly}{#f/7}{#v/0}* Wow, you're utterly repulsive."
-msgstr ""
+msgstr "<25>{#p/twinkly}{#f/7}{#v/0}* 哇，你真是恶心啊。"
 
 msgid "<26>{#f/11}{#v/0}* You got by peacefully..."
 msgstr ""
+"<26>{#f/11}{#v/0}* 你本来已经\n"
+"  和平解决了问题..."
 
 msgid "<25>{#f/5}{#v/0}* Then, you figured that wasn't good enough for you."
-msgstr ""
+msgstr "<25>{#f/5}{#v/0}* 但却又觉得这还不够。"
 
 msgid "<25>{#f/2}{#v/1}* So you KILLED her just to see what would happen."
 msgstr ""
+"<25>{#f/2}{#v/1}* 你杀了她，\n"
+"  只为了看看会发生什么。"
 
 msgid "<25>{#f/0}{#v/0}* You did it out of BOREDOM."
-msgstr ""
+msgstr "<25>{#f/0}{#v/0}* 你这么做只是因为无聊。"
 
 msgid "<25>{#f/11}{#v/0}* Don't think I don't know how this works..."
 msgstr ""
+"<25>{#f/11}{#v/0}* 别以为\n"
+"  我不知道你在干什么..."
 
 msgid "<25>{#f/6}{#v/0}* It's sad, though..."
-msgstr ""
+msgstr "<25>{#f/6}{#v/0}* 这还挺可悲的..."
 
 msgid ""
 "<25>{#p/twinkly}{#f/11}{#v/0}* Look at you, playing with her life like "
 "this..."
 msgstr ""
+"<25>{#p/twinkly}{#f/11}{#v/0}* 你看看你，\n"
+"  竟然这样玩弄她的生命..."
 
 msgid "<25>{#f/7}{#v/0}* Killing her, leaving her, killing her again..."
 msgstr ""
+"<25>{#f/7}{#v/0}* 杀掉她，\n"
+"  离开她，\n"
+"  然后再杀掉她..."
 
 msgid "<25>{#f/7}{#v/0}* Leaving her, killing her, leaving her again..."
 msgstr ""
+"<25>{#f/7}{#v/0}* 离开她，\n"
+"  杀掉她，\n"
+"  然后再离开她..."
 
 msgid "<25>{#f/11}{#v/0}* It's fun, isn't it?"
 msgstr ""
