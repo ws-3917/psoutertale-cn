@@ -1206,16 +1206,16 @@ export default {
          SAVE.flag.n.genocide_milestone < 1
             ? [
                '<25>{#p/twinkly}{#f/5}* 哈喽，$(name)。',
-               "<25>{#f/5}* Seems you don't want to play with me anymore.",
-               '<25>{#f/6}* I tried being patient with you, but here we are...',
-               '<25>{#f/6}* Back at the beginning again.',
-               '<25>{#f/8}* Again, and again...',
-               '<25>{#f/5}* You must think this is all very funny.',
-               '<25>{#f/7}* Teasing me with the chance to be with you, only to tear it away...',
-               "<25>{#f/5}* Well, that's fine.",
-               "<25>{#f/5}* If that's the game you're going to play, then go right ahead.",
-               "<25>{#f/11}* Just don't expect to be in control for long...",
-               "<25>{#f/7}* Sooner or later, you're going to regret what you've done."
+               "<25>{#f/5}* 你好像\n  不再想和我一起玩了。",
+               '<25>{#f/6}* 我已经很努力地\n  对你保持耐心了，\n  但你看...',
+               '<25>{#f/6}* 我们又回到了起点。',
+               '<25>{#f/8}* 一次，又一次...',
+               '<25>{#f/5}* 你肯定觉得\n  这一切都很好笑吧。',
+               '<25>{#f/7}* 给我希望后却又夺走它，\n  你这是在耍我吗...',
+               "<25>{#f/5}* 好吧，没关系。",
+               "<25>{#f/5}* 如果你想玩这种游戏，\n  那就继续吧。",
+               "<25>{#f/11}* 但别指望\n  你能一直掌控局面...",
+               "<25>{#f/7}* 你迟早会后悔\n  你所做的一切。"
             ]
             : [
                '<25>{#p/twinkly}{#f/6}* 哈喽，$(name)。',
@@ -1665,12 +1665,12 @@ export default {
                   '<32>{#p/human}* （但里面什么都没有。）',
                   ...[
                      [
-                        '<25>{#p/asriel1}{#f/23}* Oh... $(name) ALWAYS used to root around in the fridge.',
-                        '<25>{#f/13}* They thought, if they dug deep enough...',
-                        '<25>{#f/13}* Another bar of chocolate would reveal itself inside.',
-                        '<25>{#f/17}* ... how silly.'
+                        '<25>{#p/asriel1}{#f/23}* 噢...\n  $(name)以前\n  总是喜欢翻冰箱。',
+                        '<25>{#f/13}* 那家伙觉得，\n  只要翻得够深...',
+                        '<25>{#f/13}* 就能找到又一条巧克力。',
+                        '<25>{#f/17}* ...真笨啊。'
                      ],
-                     ['<25>{#p/asriel1}{#f/20}* That was before the chocolate replicator was installed.']
+                     ['<25>{#p/asriel1}{#f/20}* 那会儿都还没装上\n  巧克力复制机呢。']
                   ][Math.min(asrielinter.fridgetrap_c++, 1)]
                ]
                : ['<32>{#p/basic}* 没有巧克力可拿了。'],
@@ -1685,7 +1685,7 @@ export default {
          ...(world.postnoot
             ? [
                '<25>{#p/toriel}{#f/2}* 这么早就起来了！？',
-               '<25>{#f/1}* You were not asleep for very long...',
+               '<25>{#f/1}* 你都没睡多久...',
                '<25>{#f/5}* ...',
                world.nootflags.has('toriel') // NO-TRANSLATE
 
@@ -1757,7 +1757,7 @@ export default {
          '<25>{#f/5}* ...',
          ...(world.bullied
             ? [
-               '<25>* The Outlands have been unusually noisy today.',
+               '<25>* 今天外域格外喧嚣呢。',
                '<25>* 听说有个恶霸四处游荡，\n  惹是生非。',
                '<25>* 最好别离家太远。'
             ]
@@ -1894,70 +1894,70 @@ export default {
          [
             '<32>{#s/phone}{#p/event}* 铃铃，铃铃...',
             '<25>{#p/toriel}* 嗨！\n* 我是托丽尔。',
-            '<25>* My errands are taking longer than I thought they would.',
-            '<25>* You must wait a little longer.',
-            '<25>{#f/1}* Thank you for being patient, my child...',
-            '<25>{#f/0}* You are very good.'
+            '<25>* 办事的时间\n  比我预想的要长一些。',
+            '<25>* 你得再等一会儿了。',
+            '<25>{#f/1}* 孩子，\n  谢谢你这么耐心...',
+            '<25>{#f/0}* 你真是太乖了。'
          ],
          [
             '<32>{#s/phone}{#p/event}* 铃铃，铃铃...',
             '<25>{#p/toriel}* 嗨...\n* 我是托丽尔。',
-            '<25>{#f/1}* I found what I was looking for...',
-            '<25>{#f/0}* But a small, white puppy snatched it away!\n* How odd.',
-            '<25>{#f/1}* Do dogs even like flour?',
-            '<25>{#f/0}* Err, that is an unrelated question, of course.',
-            '<25>* It will take a little longer for me to return.',
-            '<25>{#f/1}* Thank you again for being so patient...'
+            '<25>{#f/1}* 我找到想要的东西了...',
+            '<25>{#f/0}* 但有只小白狗\n  把它给叼走了！\n* 真奇怪啊。',
+            '<25>{#f/1}* 狗狗还喜欢面粉吗？',
+            '<25>{#f/0}* 呃，当然，\n  这是个无关紧要的问题。',
+            '<25>* 我得再多花点时间\n  才能回来了。',
+            '<25>{#f/1}* 再次感谢你这么耐心...'
          ],
          [
             '<32>{#s/phone}{#p/event}* 铃铃，铃铃...',
             '<32>{#p/basic}* （...）',
-            '<32>{#p/human}* (You hear heavy panting on the other end of the phone.)',
+            '<32>{#p/human}* （你听到电话那头\n  传来急促的喘息声。）',
             '<32>{#s/bark}{#p/event}* 汪汪！\n{#s/bark}* 汪汪！',
-            '<32>{#p/human}* (You hear a distant voice.)',
-            '<25>{#p/toriel}{#f/2}* Stop, please!',
+            '<32>{#p/human}* （你听到远处传来一个声音。）',
+            '<25>{#p/toriel}{#f/2}* 拜托，别跑了！',
             '<32>{#s/bark}{#p/event}* 汪汪！\n{#s/bark}* 汪汪！',
-            '<25>{#p/toriel}{#f/1}* Come back here with my cell phone!'
+            '<25>{#p/toriel}{#f/1}* 快回来，\n  把我的手机还给我！'
          ],
          [
             '<32>{#s/phone}{#p/event}* 铃铃，铃铃...',
             '<32>{#p/basic}* （...）',
-            '<32>{#p/human}* (It sounds like a small, white dog is sleeping on the phone.)',
-            '<32>{#p/basic}* (Snore... snore...)',
-            '<32>{#p/human}* (You hear a distant voice.)',
-            '<25>{#p/toriel}{#f/1}* Hellooo?\n* Little puppy...?',
-            '<25>{#f/1}* Where are youuu?',
-            '<25>{#f/0}* I will give you a nice pat on the head!',
-            '<32>{#p/human}* (The snoring stops.)',
-            '<25>{#p/toriel}* ... if you return with my cell phone.',
-            '<32>{#p/human}* (The snoring resumes.)'
+            '<32>{#p/human}* （听起来，一只小白狗\n  在手机上睡着了。）',
+            '<32>{#p/basic}* （呼噜... 呼噜...）',
+            '<32>{#p/human}* （你听到远处传来一个声音。）',
+            '<25>{#p/toriel}{#f/1}* 喂——？\n* 小狗狗...？',
+            '<25>{#f/1}* 你在哪里呀——？',
+            '<25>{#f/0}* 乖乖回来，\n  我给你摸摸头！',
+            '<32>{#p/human}* （呼噜声停止了。）',
+            '<25>{#p/toriel}* ...只要你把我的手机\n  还回来就行。',
+            '<32>{#p/human}* （呼噜声又响起来了。）'
          ],
          [
             '<32>{#s/phone}{#p/event}* 铃铃，铃铃...',
             '<32>{#p/basic}* （...）',
-            '<32>{#p/basic}* (Achoo!)',
-            '<32>{#p/human}* (It sounds like a small, white dog sneezing in its sleep.)',
-            '<25>* (You hear a distant voice.)',
-            '<25>{#p/toriel}{#f/1}* Aha!\n* I heard that, you little white dog...',
-            '<25>{#f/6}* Now I am going to find you!',
-            '<32>{#p/human}* (The snoring stops.)\n* (The dog now seems to be on the run from something.)',
-            '<25>{#p/toriel}{#f/8}* Hee hee, there is no escape!'
+            '<32>{#p/basic}* （啊嚏！）',
+            '<32>{#p/human}* （听起来，一只小白狗\n  在睡梦中打了个喷嚏。）',
+            '<32>{#p/human}* （你听到远处传来一个声音。）',
+            '<25>{#p/toriel}{#f/1}* 啊哈！\n* 小家伙，我听到你的声音了...',
+            '<25>{#f/6}* 我这就来找你！',
+            '<32>{#p/human}* （呼噜声停止了。）\n* （那只狗好像在躲着什么。）',
+            '<25>{#p/toriel}{#f/8}* 嘻嘻，你逃不掉的！'
          ],
          [
             '<32>{#s/phone}{#p/event}* 铃铃，铃铃...',
-            '<32>{#p/human}* (You hear a distant voice.)',
+            '<32>{#p/human}* （你听到远处传来一个声音。）',
             '<25>{#p/toriel}{#f/1}* 嗨...\n* 我是... 托丽尔...',
             '<32>{#s/bark}{#p/event}* 汪汪！\n* 汪汪！',
-            '<25>{#p/toriel}{#f/2}* No, bad puppy!',
-            '<32>{#p/basic}* (Whimper... whimper...)',
-            '<25>{#p/toriel}* There, there...\n* I will find another cell phone for you.',
-            '<25>{#f/1}* Would that be alright?',
+            '<25>{#p/toriel}{#f/2}* 不行，坏狗狗！',
+            '<32>{#p/basic}* （呜咽... 呜咽...）',
+            '<25>{#p/toriel}* 好啦，好啦...\n* 我会再给你找部手机的。',
+            '<25>{#f/1}* 这样行吗？',
             '<32>{#p/basic}* （...）',
             '<32>{#s/bark}{#p/event}* 汪汪！',
-            '<25>{#p/toriel}* Glad to hear it.',
-            '<32>{#p/human}* (The dog could be heard walking away.)',
-            '<25>{#p/toriel}* Please, forgive me for all of this nonsense.',
-            '<25>{#f/1}* I will be back to pick you up shortly...'
+            '<25>{#p/toriel}* 那就好。',
+            '<32>{#p/human}* （可以听到小狗走开的声音。）',
+            '<25>{#p/toriel}* 出了这么多状况，\n  非常抱歉。',
+            '<25>{#f/1}* 我很快就会回去接你的...'
          ]
       ],
       indie6: (early: boolean) => [
@@ -1978,12 +1978,12 @@ export default {
                '<25>{#f/1}* 乖乖的，好吗？'
             ])
       ],
-      indie7: ['<32>{#p/basic}* A few minutes later...'],
+      indie7: ['<32>{#p/basic}* 几分钟后...'],
       indie8: [
-         '<25>{#p/toriel}* I have returned!',
-         '<25>* Your patience thus far has been commendable.\n* Even I am impressed!',
-         '<25>{#f/0}* Anyhoo.\n* It is time I took you home now.',
-         '<25>{#f/1}* Please, allow me...'
+         '<25>{#p/toriel}* 我回来啦！',
+         '<25>* 你一直这么耐心等待，\n  真是太棒了。\n* 连我都没想到你会这么乖！',
+         '<25>{#f/0}* 好啦。\n* 现在我该带你回家了。',
+         '<25>{#f/1}* 来吧，\n  请跟我走吧...'
       ],
       lobby_puzzle1: [
          '<25>{#p/toriel}{#f/0}* 欢迎来到我们简陋的前哨站，\n  单纯的孩子。',
@@ -2063,7 +2063,7 @@ export default {
             () =>
                SAVE.data.b.napsta_performance
                   ? [
-                     "<32>{#p/basic}{#n1}* So, you're the one who co-hosted that music show, eh?",
+                     "<32>{#p/basic}{#n1}* 所以，你就是那个\n  一起主持了音乐节目的家伙，嗯？",
                      "<32>* 也许现在你有办法接受我的提议了。",
                      "<32>* 我只是想让人买我这本\n  限量版《超级星之行者》漫画。",
                      "<32>* 不过，我挺喜欢你那场表演的。\n  给你打个折吧。\n* 5G，买还是不买？",
@@ -2072,9 +2072,9 @@ export default {
                   : [
                      ...(world.postnoot
                         ? [
-                           "<32>{#p/basic}{#n1}* Hey, have you noticed anything strange goin' on around here?",
-                           "<32>* I could'a sworn all the puzzles just de-activated themselves earlier.",
-                           "<32>* Anyway, I'm lookin' for a buyer on this limited edition Super Starwalker comic strip."
+                           "<32>{#p/basic}{#n1}* 嘿，你有没有注意到\n  这附近有啥奇怪的事儿在发生？",
+                           "<32>* 我敢说刚才\n  所有的谜题都自动关闭了。",
+                           "<32>* 对了，我想为我这本\n  限量版《超级星之行者》漫画\n  找个买家。"
                         ]
                         : [
                            '<32>{#p/basic}{#n1}* 终于有人跟我说话了！',
@@ -2111,17 +2111,17 @@ export default {
          e: ['<32>{#p/basic}{#n1}* 又回来了，嗯？', "<32>* 不好意思哈，\n  我没什么别的东西可卖了。"],
          f: [
             "<32>{#p/human}{#n1!}* （你带的东西太多了。）",
-            "<32>{#p/basic}{#n1}* Them pockets of yours are lookin' kinda full..."
+            "<32>{#p/basic}{#n1}* 你的口袋鼓鼓囊囊的，\n  装了不少东西嘛..."
          ],
          g: [
-            "<32>{#p/basic}{#n1}* I heard they're rebooting the comic franchise...",
-            '<32>* The new main character is some snake fella with sunglasses or something.',
-            "<32>* If I was in charge, I'd make a spinoff about that sidekick...",
-            '<32>* Gumbert, I think?'
+            "<32>{#p/basic}{#n1}* 我听说他们要\n  重启那个漫画系列了...",
+            '<32>* 新的主角好像是条戴墨镜的蛇\n  还是啥的。',
+            "<32>* 要我说，就该搞个\n  关于那个跟班的外传...",
+            '<32>* 是叫Gumbert还是啥来着？'
          ],
          h: [
-            "<32>{#p/basic}{#n1}* Maybe now that we're free, they'll finally make that reboot they were planning.",
-            "<32>* What was it called?\n* Oh, I've already forgotten..."
+            "<32>{#p/basic}{#n1}* 现在咱们自由了，\n  他们终于能开始做\n  那个计划中的重启版了。",
+            "<32>* 那玩意叫啥来着？\n* 哦，我已经给忘了..."
          ]
       },
       mananaX: () =>
@@ -2145,13 +2145,13 @@ export default {
                SAVE.data.n.plot === 72
                   ? 6 <= world.population
                      ? [
-                        "<32>{#p/basic}{#n1}* I'm sad.\n* They took the DJ table to use for some tacky show later.",
-                        '<32>* ... wait, that might actually be kind of cool.'
+                        "<32>{#p/basic}{#n1}* 我很伤心。\n* 他们把打碟机搬走了，\n  说是以后搞什么俗气的表演要用。",
+                        '<32>* ...等等，那好像还蛮酷的嘛。'
                      ]
                      : [
-                        "<32>{#p/basic}{#n1}* I'm sad.\n* The bully who came through here earlier...",
-                        '<32>* ... turned out to be you.',
-                        '<32>* You saved us in the end, but why resort to such violence along the way?'
+                        "<32>{#p/basic}{#n1}* 我很伤心。\n* 之前来的那个恶霸...",
+                        '<32>* ...居然是你。',
+                        '<32>* 虽然你最后拯救了大家，\n  但为什么一路上都要使用暴力呢？'
                      ]
                   : SAVE.data.b.napsta_performance
                      ? [
@@ -2366,13 +2366,13 @@ export default {
             () =>
                SAVE.data.n.plot === 72
                   ? [
-                     '<32>{#p/basic}{#n1}* Hey there.\n* Nice to see you back here.',
-                     "<32>* I've decided to revisit this old stomping ground of mine...",
-                     "<32>* Besides, it's quiet here.\n* Just like me.",
-                     "<32>* Oh, and I've retired from working at the CORE.",
-                     '<32>* You see, when I joined the engineering team...',
-                     "<32>* I didn't realize I'd be called on for impromptu guard duty.",
-                     '<32>* ... it would seem deception of the corporate variety is beyond even my foresight.'
+                     '<32>{#p/basic}{#n1}* 嘿，你好啊。\n* 很高兴又在这儿见到你。',
+                     "<32>* 我决定回来看看\n  我这块老地盘...",
+                     "<32>* 而且这里相对安静。\n* 就跟我一个样。",
+                     "<32>* 哦对了，我不在核心工作了。",
+                     '<32>* 你瞧，我当初加入工程队的时候...',
+                     "<32>* 可没想过还得临时客串当守卫啊。",
+                     '<32>* ...看来就算是料事如神的我，\n  也没预料到公司会来这套。'
                   ]
                   : SAVE.data.b.napsta_performance
                      ? [
@@ -2394,8 +2394,8 @@ export default {
             () =>
                SAVE.data.n.plot === 72
                   ? [
-                     "<32>{#p/basic}{#n1}* Oh, yeah, I guess I'm free to leave the galaxy now.",
-                     "<32>* ... but maybe I'll stay."
+                     "<32>{#p/basic}{#n1}* 啊，对哦，\n  我好像可以离开这个星系了。",
+                     "<32>* ...不过，我或许会留下来呢。"
                   ]
                   : SAVE.data.b.napsta_performance
                      ? [
@@ -2409,14 +2409,14 @@ export default {
          )
       },
       
-      socks0: ['<32>{#p/human}* （你往里面瞅了瞅。）', '<32>{#p/human}* (It appears the drawer is empty.)'],
+      socks0: ['<32>{#p/human}* （你往里面瞅了瞅。）', '<32>{#p/human}* （看来抽屉里是空的。）'],
       socks1: () =>
          world.darker
             ? ['<32>{#p/human}* （你往里面瞅了瞅。）', "<32>{#p/basic}* 只是个放袜子的抽屉。"]
             : [
                '<32>{#p/human}* （你往里面瞅了瞅。）',
                '<32>{#p/basic}* 真羞人！',
-               "<32>* 这里面全是托丽尔收藏的袜子。 \n* 有点乱...",
+               "<32>* 这里面全是托丽尔收藏的袜子。\n* 有点乱...",
                world.meanie
                   ? choicer.create('* （让它们更乱点吗？）', "弄乱", "算了")
                   : choicer.create('* （整理一下吗？）', "整理", "算了")
@@ -2446,8 +2446,8 @@ export default {
       socks7: () =>
          SAVE.data.b.svr
             ? [
-               '<32>{#p/human}* (You stare into the sock drawer, recalling the long journey that started here.)',
-               "<32>{#p/human}* (You can't help but wonder where you'd be without it.)"
+               '<32>{#p/human}* （你盯着袜子抽屉，\n  回想起从这里开始的漫长旅程。）',
+               "<32>{#p/human}* （你不禁想象，如果没有它，\n  你现在会身处何方。）"
             ]
             : world.darker
                ? ["<32>{#p/basic}* 只是个放袜子的抽屉。"]
@@ -2455,12 +2455,12 @@ export default {
                   ? ["<32>{#p/basic}* 你的视线没办法从袜子上挪开。"]
                   : SAVE.data.b.oops
                      ? [
-                        "<32>{#p/basic}* You came all this way just to revisit Toriel's sock drawer...?",
-                        '<32>* You have great priorities in life.'
+                        "<32>{#p/basic}* 你大老远跑回来，\n  就只是为了再看一眼\n  托丽尔的袜子抽屉...？",
+                        '<32>* 你这人生规划得可真不错。'
                      ]
                      : [
-                        "<32>{#p/basic}* You came all this way just to revisit Toriel's sock drawer...?",
-                        '<32>* ... I guess that makes sense.'
+                        "<32>{#p/basic}* 你大老远跑回来，\n  就只是为了再看一眼\n  托丽尔的袜子抽屉...？",
+                        '<32>* ...不过这确实挺有意义的。'
                      ],
       steaksale: {
          a: pager.create(
@@ -2587,9 +2587,9 @@ export default {
                   ? !world.runaway
                      ? [
                         '<32>{#p/human}* （你激活了终端。）\n* （上面有一条新消息。）',
-                        "<32>{#p/alphys}* We're free, everyone!\n* This isn't a joke, the force field's gone!",
-                        "<32>* Seriously, they're shutting down the core in a few days, so it's time to go!",
-                        "<32>* You don't want to die here, do you?"
+                        "<32>{#p/alphys}* 各位！咱们自由啦！\n* 这不是在开玩笑，\n  那个力场真的消失啦！",
+                        "<32>* 说真的，\n  他们过几天就要关闭核心了，\n  咱们得赶紧离开这儿！",
+                        "<32>* 你们可不想死在这儿吧，啊？"
                      ]
                      : [
                         '<32>{#p/human}* （你激活了终端。）\n* （上面有一条新消息。）',
@@ -2710,19 +2710,19 @@ export default {
                '<25>{#f/13}* 哦，还有，\n  拜托了...',
                '<25>{#f/20}* 在未来的某一刻，\n  如果你，呃，\n  见到我的话...',
                "<25>{#f/15}* ...不要把他看作是我，\n  好吗？",
-               '<25>{#f/16}* I just want you to remember me like... this.',
-               '<25>{#f/17}* Someone that was your friend for a little while.',
+               '<25>{#f/16}* 我只希望你记住...\n  现在这样的我。',
+               '<25>{#f/17}* 那个曾在你生命中\n  短暂出现过，作为\n  你的朋友而存在的我。',
                '<25>{#f/13}* ...',
-               '<32>{|}{#p/human}* (You tell Asriel you really- {%}',
-               "<25>{#p/asriel1}{#f/23}* Frisk, it's okay.",
-               "<25>{#f/22}* You don't have to save everyone to be a good person.",
-               '<25>{#f/13}* Besides... even if I could keep this form...',
-               "<25>{#f/15}* I don't know if I could move on from what happened in the past.",
-               "<25>{#f/17}* ... just promise me you'll take care of yourself, alright?",
+               '<32>{|}{#p/human}* （你告诉艾斯利尔你真的{%}',
+               "<25>{#p/asriel1}{#f/23}* 没关系的，弗里斯克。",
+               "<25>{#f/22}* 你不是需要拯救所有人\n  才能成为好人的。",
+               '<25>{#f/13}* 况且...\n  就算我能保持这个形态...',
+               "<25>{#f/15}* 我也不知道我能不能\n  从过去的事中走出来。",
+               "<25>{#f/17}* ...答应我\n  你会照顾好自己，\n  好吗？",
                '<25>{#f/13}* ...',
-               '<25>{#f/15}* Well, see you.'
+               '<25>{#f/15}* 嗯，再见。'
             ],
-            ['<25>{#p/asriel1}{#f/13}* Frisk...', "<25>{#f/15}* Don't you have anything better to do?"],
+            ['<25>{#p/asriel1}{#f/13}* 弗里斯克...', "<25>{#f/15}* 你就没有更重要的事\n  可做吗？"],
             []
          ][Math.min(SAVE.data.n.lateasriel++, 8)],
       securefield: ['<33>{#p/basic}* 这里有一道安保屏障。\n* 已被激活。'],
@@ -3236,7 +3236,7 @@ export default {
                      '<32>* “制作它其实非常简单，\n   只需五个步骤：”',
                      '<32>* “首先，轻柔地展开酥脆的派底，\n   在烘焙盘中铺平。”',
                      '<32>* “然后，将香浓的蒸发奶、\n   新鲜的鸡蛋和选料香料\n   混合在一起，搅拌至丝滑细腻。”',
-                     '<32>* “接着，小心地将几只新鲜蜗牛\n   加入到之前调制好的香浓奶糊中。 \n   确保它们完全浸入。 ”',
+                     '<32>* “接着，小心地将几只新鲜蜗牛\n   加入到之前调制好的香浓奶糊中，\n   确保它们完全浸入。”',
                      '<32>* “之后，将这层混合物\n   轻轻倒入准备好的派底，\n   均匀铺开。”',
                      '<32>* “最后，将面团切成细条，\n   编织成优雅的格子形状，\n   覆盖在派面上。”',
                      '<32>* “现在，将派放到烤箱中，\n   烤至金黄酥脆。”',
@@ -5020,7 +5020,7 @@ export default {
             ]
             : [
                '<25>{#p/toriel}{#f/1}* 我记得...',
-               '<26>{#f/0}* ...本来是打算用来\n  建成星港的城郊小镇的。',
+               '<26>{#f/0}* ...这条长路，本来是打算\n  建星港的城郊小镇的。',
                '<25>{#f/0}* 当然啦，\n  后来没有建成。',
                '<25>{#f/2}* 一个镇子已经够多了！'
             ],
@@ -5150,7 +5150,7 @@ export default {
          '<25>{#p/toriel}{#f/1}* 拜托，\n  谁能给我解释解释\n  啥叫“狗子的公道”啊？',
          '<25>{#f/0}* 我时不时就听到\n  这个奇怪的说法。',
          '<25>{#f/5}* 我倒是知道有只小狗狗\n  偶尔会来外域逛逛...',
-         '<25>{#f/0}* 说不定就是它\n  需要主持正义。'
+         '<25>{#f/0}* 说不定就是它\n  需要主持公道。'
       ],
       s_bridge: [
          '<25>{#p/toriel}{#f/1}* 这座桥刚建好的时候，\n  它摇摇欲坠...',

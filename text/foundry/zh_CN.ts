@@ -860,7 +860,7 @@ export default {
                      "<25>{#p/asriel2}{#f/8}* 关你屁事。",
                      "<25>{#p/asgore}{#f/15}* （呃... 早该料到的...）",
                      "<25>{#p/asriel2}{#f/6}* 算了，简单来说呢...\n* 我正带它“四处游历”呢。",
-                     "<25>{#f/6}* 游历小分队只有我们仨，\n  没人加你。\n* 意不意外？",
+                     "<25>{#f/6}* 游历小分队只有我们仨，\n  没人带你玩。\n* 意不意外？",
                      '<25>{#p/asgore}{#f/15}* 谁-谁稀罕加入你们了？？',
                      '<25>{#p/asriel2}{#f/6}* 还装呢？',
                      "<25>{#p/asgore}{#f/15}* 呃... \n  我就是来看一眼你们在干啥。\n* 没别的想法。",
@@ -5304,18 +5304,18 @@ export default {
             : world.kiddo && SAVE.data.n.state_foundry_muffet !== 1
                ? ["<32>{#p/kidding}* Skrubby来了！"]
                : ['<32>{#p/story}* Skrubbington漫步过来了。'],
-      idleTalk1a: ['<08>{#p/basic}{~}清洗你的灵魂'],
-      idleTalk1b: ['<08>{#p/basic}{~}清洗你的手'],
-      idleTalk1c: ['<08>{#p/basic}{~}清洗你的脸'],
-      idleTalk1d: ['<08>{#p/basic}{~}清洗你的头发'],
-      idleTalk1e: ['<08>{#p/basic}{~}清洗你的脚'],
+      idleTalk1a: ['<08>{#p/basic}{~}清洗\n你的灵魂'],
+      idleTalk1b: ['<08>{#p/basic}{~}清洗\n你的手'],
+      idleTalk1c: ['<08>{#p/basic}{~}清洗\n你的脸'],
+      idleTalk1d: ['<08>{#p/basic}{~}清洗\n你的头发'],
+      idleTalk1e: ['<08>{#p/basic}{~}清洗\n你的脚'],
       idleTalk2a: ['洗漱漱'],
-      idleTalk2b: ['<08>{#p/basic}{~}哦，我是说...\n洗刷刷'],
+      idleTalk2b: ['<08>{#p/basic}{~}哦，\n我是说...\n洗刷刷'],
       idleTalk2c: ['洗刷刷'],
       idleTalk3: () =>
          world.trueKills > 0 ? ['<08>{#p/basic}{~}你的灵魂\n不太干净。'] : ['<08>{#p/basic}{~}\x00*吹着\n口哨*'],
-      cleanTalk: ['<08>{#p/basic}{~}绿色即为干净'],
-      jokeTalk1: ["<08>{#p/basic}{~}不。\n那个笑话太...\n污了。"],
+      cleanTalk: ['<08>{#p/basic}{~}绿色\n即为干净'],
+      jokeTalk1: ["<08>{#p/basic}{~}不。\n那个笑话\n太...\n污了。"],
       jokeTalk2: ["<08>{#p/basic}{~}呃...\n难以置信..."],
       randStatus1: () =>
          world.kiddo && SAVE.data.n.state_foundry_muffet !== 1
@@ -6054,7 +6054,7 @@ export default {
          '<32>* 你们就这样走了一会...',
          '<32>* 到最后...',
          '<32>* Doge开始厌倦这种\n  无聊的活动了。',
-         '<32>* 她又跟着你回到了她的巡逻区\n  ，释放了点压力...',
+         '<32>* 她又跟着你回到了她的巡逻区，\n  释放了点压力...',
          "<32>{#p/story}* Doge的攻击力下降了！"
       ],
       walkTextEarly: ['<32>{#p/human}* （你想带着Doge去散散步，\n  但她没有理由跟你一起去。）'],

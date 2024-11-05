@@ -217,7 +217,7 @@ export default {
          ...(!SAVE.flag.b._getg
             ? [
                '<25>{#x1}{#p/event}汪汪！\n{#x1}{#p/event}汪汪！',
-               '<25>{#p/basic}（天吶！）\n（居然一分錢都賺到！）\n（沒人給你錢嗎？）'
+               '<25>{#p/basic}（天吶！）\n（居然一分錢都沒賺到！）\n（沒人給你錢嗎？）'
             ]
             : !SAVE.flag.b._useg
                ? [
@@ -853,97 +853,98 @@ export default {
                         k = 'dark_alphys_virtual'; // NO-TRANSLATE
 
                         addB([
-                           "<18>{#p/papyrus}{#f/5}I KEEP THINKING... ABOUT THOSE WHO'VE DISAPPEARED.",
-                           "<18>{#p/papyrus}{#f/6}ASGORE, WHO I'D SWAP STORIES WITH SOMETIMES...",
-                           "<18>{#p/papyrus}{#f/6}UNDYNE, WHO'D GIVE ME WARRIOR TRAINING...",
-                           "<18>{#p/papyrus}{#f/5}THE ROYAL GUARD, WHO'D GREET ME ON THEIR WAY TO WORK.",
-                           '<18>{#p/papyrus}{#f/6}I USED TO SPEND SO MUCH TIME WITH THEM, BUT NOW...',
-                           "<18>{#p/papyrus}{#f/5}THEY'RE GONE.",
-                           "<18>{#p/papyrus}{#f/5}AND I DON'T KNOW WHEN THEY'RE COMING BACK.",
-                           "<18>{#p/papyrus}{#f/7}... IT'S HIGHLY INFURIATING!!!",
-                           "<18>{#p/papyrus}{#f/4}HAVEN'T ANY OF THEM HEARD OF A SCHEDULE?",
-                           '<18>{#p/papyrus}{#f/6}OR A CALENDAR!?',
-                           "<18>{#p/papyrus}{#f/5}ANYTHING TO TELL ME WHEN THEY'RE COMING BACK!",
-                           "<25>{#p/sans}{#f/3}* hey, i miss 'em too.",
-                           "<25>{#p/sans}{#f/0}* but you can't spend all your life thinking about 'em.",
-                           '<25>{#p/sans}{#f/2}* maybe you could talk about something else?',
-                           '<18>{#p/papyrus}{#f/4}HMM...\nSOMETHING ELSE...',
-                           '<18>{#p/papyrus}{#f/0}OH, I KNOW!\nTHE ARCHIVE WORLD!',
-                           '<25>{#p/sans}{#f/2}* of course.\n* you and alphys spend a lot of time there.',
-                           '<18>{#p/papyrus}{#f/9}AND FOR GOOD REASON!',
-                           '<18>{#p/papyrus}{#f/0}OKAY, SO, LET ME EXPLAIN.',
-                           '<18>{#p/papyrus}{#f/4}WITH NOTHING TO DO EXCEPT GUARD THE HUMAN SOULS...',
-                           '<18>{#p/papyrus}{#f/0}I STARTED HAVING A LOT OF FREE TIME.',
-                           '<18>{#p/papyrus}{#f/6}BUT WHAT WOULD I DO WITH IT!?',
-                           '<18>{#p/papyrus}{#f/0}ONE DAY, IN A STORAGE CLOSET, I FOUND... A THING.',
-                           '<18>{#p/papyrus}{#f/5}I ASKED ALPHYS WHAT THE THING WAS, AND...',
-                           '<18>{#p/papyrus}{#f/6}BOY DID SHE HAVE A LOT TO SAY!!',
-                           '<18>{#p/papyrus}{#f/0}APPARENTLY, IT WAS USED TO SIMULATE VIRTUAL WORLDS.',
-                           '<18>{#p/papyrus}{#f/5}I ASKED HER IF WE COULD TRY IT, AND...',
-                           '<18>{#p/papyrus}{#f/4}BEING JUST AS BORED AS I WAS, SHE SAID YES.',
-                           "<18>{#p/papyrus}{#f/0}THE ARCHIVE DIDN'T HAVE A WORLD LOADED, THOUGH.",
-                           '<18>{#p/papyrus}{#f/0}SO SHE DOWNLOADED A POPULAR SCI-FI ANIME...',
-                           '<18>{#p/papyrus}{#f/0}AND LET THE SYSTEM \"EXTRAPOLATE\" THE WORLD WITHIN.',
-                           '<18>{#p/papyrus}{#f/5}THEN SHE TOLD ME TO PUT ON THIS WEIRD HEADSET...',
-                           '<18>{#p/papyrus}{#f/6}I WAS NERVOUS, BUT I DID IT IN THE NAME OF SCIENCE!!',
-                           '<18>{#p/papyrus}{#f/4}THE NEXT THING I KNEW, I WAS TRANSPORTED...',
-                           "<18>{#p/papyrus}{#f/9}TO A WORLD BEYOND ANYTHING I'D SEEN BEFORE!!!",
-                           '<18>{#p/papyrus}{#f/5}I EXPLORED THIS NEW REALM FOR HOURS...',
-                           '<18>{#p/papyrus}{#f/5}WANDERING FROM PLANET TO PLANET, MEETING PEOPLE...',
-                           "<18>{#p/papyrus}{#f/0}OF COURSE, I KNOW THEY'RE NOT REAL.",
-                           '<18>{#p/papyrus}{#f/6}BUT WHEN ONE OF THEM GOT HURT, I FELT BAD!',
-                           '<18>{#p/papyrus}{#f/5}SO, I MADE IT MY MISSION TO SAVE EVERYONE I COULD.',
-                           '<18>{#p/papyrus}{#f/0}EVENTUALLY, ALPHYS JOINED IN AS MY SIDEKICK!',
-                           "<18>{#p/papyrus}{#f/0}WE'VE BEEN ADVENTURING EVER SINCE.",
-                           "<25>{#p/sans}{#f/0}* she's in there right now, isn't she?",
-                           '<25>{#p/sans}{#f/2}* maybe you should go check on her.',
-                           '<18>{#p/papyrus}{#f/9}YEAH, I THINK I WILL!',
-                           '<18>{#p/papyrus}{#f/0}SORRY, HUMAN.\nADVENTURE WAITS FOR NO SKELETON!',
+                           "<18>{#p/papyrus}{#f/5}這段時間裡，\n很多夥伴失蹤了。",
+                           "<18>{#p/papyrus}{#f/6}艾斯戈爾，\n我倆經常一起分享故事，\n現在，他卻失蹤了...",
+                           "<18>{#p/papyrus}{#f/6}安黛因，\n一直努力訓練我，\n現在，她也失蹤了...",
+                           "<18>{#p/papyrus}{#f/5}還有那些皇家守衛，\n他們每次上班時，\n都會跟我打招呼。",
+                           '<18>{#p/papyrus}{#f/5}現在，也失蹤了...',
+                           "<18>{#p/papyrus}{#f/5}曾經和他們共度\n那麼多時光，可現在，\n卻一個個都失蹤了。",
+                           "<18>{#p/papyrus}{#f/5}不知道他們什麼時候\n才能回來。",
+                           "<18>{#p/papyrus}{#f/7}我想他們，\n都快想瘋了！！！",
+                           "<18>{#p/papyrus}{#f/4}他們沒有日程表嗎？",
+                           '<18>{#p/papyrus}{#f/6}他們不看日曆嗎？！',
+                           "<18>{#p/papyrus}{#f/5}誰能告訴我，\n他們啥時候能回來啊！",
+                           "<25>{#p/sans}{#f/3}* 嘿...",
+                           '<25>{#p/sans}{#f/0}* 你想他們，我也想。',
+'<25>{#p/sans}{#f/0}* 可也不能成天只盼著\n  他們回來，別的啥也不幹啊。\n  日子該過還得過。',
+                           '<25>{#p/sans}{#f/2}* 跟人類聊點別的吧。',
+                           '<18>{#p/papyrus}{#f/4}嗯...\n聊點別的...',
+                           '<18>{#p/papyrus}{#f/0}喔！想到了！\n聊聊「檔案」空間吧！',
+                           '<25>{#p/sans}{#f/2}* 好主意。\n* 那裡都快成你第二個家了。',
+                           '<18>{#p/papyrus}{#f/9}我可是有正當理由的！',
+                           '<18>{#p/papyrus}{#f/0}給你解釋下\n最近我為啥總去那裡吧。',
+                           '<18>{#p/papyrus}{#f/4}每天，我除了看守靈魂，\n啥都不用幹...',
+                           '<18>{#p/papyrus}{#f/0}就一下子閒下來了。',
+                           '<18>{#p/papyrus}{#f/6}我就在想，\n「怎麼打發時間呢？」',
+                           '<18>{#p/papyrus}{#f/0}有一天，我在一間\n儲物櫃裡發現了一個...\n奇怪的裝置。',
+                           '<18>{#p/papyrus}{#f/5}我找到艾菲斯，\n問她那東西是幹啥的。',
+                           '<18>{#p/papyrus}{#f/6}結果，她一下子\n打開了話匣子，\n叨叨個沒完！！',
+                           '<18>{#p/papyrus}{#f/0}簡單說，\n那個裝置是用來\n模擬虛擬空間的。',
+                           '<18>{#p/papyrus}{#f/5}我問她，\n「咱們進虛擬空間，\n 體驗一下，咋樣？」',
+                           '<18>{#p/papyrus}{#f/4}她看我挺無聊的，\n就同意了。',
+                           "<18>{#p/papyrus}{#f/0}不過，由於沒有加載\n虛擬世界資源包，\n「檔案」裡啥都沒有。",
+                           '<18>{#p/papyrus}{#f/0}於是...\n艾菲斯下載了\n一部知名科幻番。',
+                           '<18>{#p/papyrus}{#f/0}然後讓系統根據它\n「生成」一個虛擬世界。',
+                           '<18>{#p/papyrus}{#f/5}世界生成完畢後，\n她讓我戴上一個\n奇怪的頭盔...',
+                           '<18>{#p/papyrus}{#f/6}我有點不敢戴，\n但為了科學，\n我還是照做了！！',
+                           '<18>{#p/papyrus}{#f/4}突然...',
+                           "<18>{#p/papyrus}{#f/9}我被傳送到了一個\n從未見過的世界！！！",
+                           '<18>{#p/papyrus}{#f/5}在那裡，我暢遊了\n好幾個小時...',
+                           '<18>{#p/papyrus}{#f/5}穿梭在行星之間，\n邂逅形形色色的人...',
+                           "<18>{#p/papyrus}{#f/0}看到有人受傷，\n我也跟著難受。",
+                           '<18>{#p/papyrus}{#f/6}雖然世界是假的，\n但情感是真的！',
+                           '<18>{#p/papyrus}{#f/5}所以，我拼盡全力，\n拯救所有人。',
+                           '<18>{#p/papyrus}{#f/0}後來，艾菲斯也來幫忙，\n一起拯救大家！',
+                           "<18>{#p/papyrus}{#f/0}從那時起，\n我倆就總去虛擬空間\n一起冒險。",
+                           "<25>{#p/sans}{#f/0}* 她好像現在就在那裡呢。",
+                           '<25>{#p/sans}{#f/2}* 你快過去看看。',
+                           '<18>{#p/papyrus}{#f/9}好，我這就去！',
+                           '<18>{#p/papyrus}{#f/0}對不起，人類！\n冒險不等骨啊！',
                            '<25>{#p/sans}{#f/3}* ...',
-                           "<25>{#p/sans}{#f/3}* i'm just glad he's got a distraction from what's going on.",
-                           "<25>{#p/sans}{#f/0}* people aren't doing all that well right now.",
-                           '<25>{#p/sans}{#f/0}* losing the royal guard, having all those power issues...',
-                           '<25>{#p/sans}{#f/3}* a lot of folks have nobody to turn to.',
-                           "<25>{#p/sans}{#f/0}* and, even if they do, it's hard to will up the courage...",
-                           '<25>{#p/sans}{#f/3}* to admit to anyone how miserable they are.',
+                           "<25>{#p/sans}{#f/3}* 挺好的。\n* 他把注意力轉移到\n  別的事上了，不去想那些。",
+                           "<25>{#p/sans}{#f/0}* 這段日子裡，\n  很多民眾過得並不好。",
+                           '<25>{#p/sans}{#f/0}* 皇家衛隊全軍覆沒，\n  能源供應也出了故障...',
+                           '<25>{#p/sans}{#f/3}* 百姓生活非常哭，\n  卻沒人可以傾訴。',
+                           "<25>{#p/sans}{#f/0}* 即使他們想傾訴，\n  也鼓不起勇氣開口...",
+                           '<25>{#p/sans}{#f/3}* 沒有勇氣跟別人訴苦。',
                            '<25>{#p/sans}{#f/3}* ...'
                         ]);
                         if (hkills > 19) {
                            addB([
-                              "<25>{#p/sans}{#f/3}* it's no surprise people aren't fans of humanity these days.",
-                              '<25>{#p/sans}{#f/0}* you may have spared my brother, but...',
-                              '<25>{#p/sans}{#f/3}* you killed a lot of people, many of them important.'
+                              "<25>{#p/sans}{#f/3}* 許多民眾都討厭人類，\n  我並不意外。",
+                              '<25>{#p/sans}{#f/0}* 你就算饒了我的兄弟...\n  也還是殺了許多怪物。',
+                              '<25>{#p/sans}{#f/3}* 其中，有不少怪物身居要職，\n  對這裡十分重要。'
                            ]);
                         } else {
                            addB([
-                              "<25>{#p/sans}{#f/3}* i'm not saying you're a bad person.",
-                              "<25>{#p/sans}{#f/0}* you spared my brother, and you didn't kill that many people.",
-                              '<25>{#p/sans}{#f/3}* but the people you did kill were pretty important.'
+                              "<25>{#p/sans}{#f/3}* 倒不是指責你，\n  說是罪魁禍首。",
+                              "<25>{#p/sans}{#f/0}* 你不僅饒恕了我兄弟，\n  也放過了不少其他怪物。",
+                              '<25>{#p/sans}{#f/3}* 只是，對大家來說。\n  你殺的那幾名守衛\n  都是很重要的人。'
                            ]);
                         }
                         addB([
-                           '<25>{#p/sans}{#f/0}* ... as much as i disagreed with their ways...',
-                           '<25>{#p/sans}{#f/0}* the royal guard offered citizens a sense of stability and security.',
-                           "<25>{#p/sans}{#f/3}* but that's gone now.",
-                           "<25>{#p/sans}{#f/3}* heck, even mettaton's not around anymore.",
-                           '<25>{#p/sans}{#f/0}* no more tv shows, no more tacky little trinkets...',
-                           '<25>{#p/sans}{#f/0}* without someone like him, the outpost loses a bit of its spark.'
+                           '<25>{#p/sans}{#f/0}* ...雖然在主觀上\n  我挺反感他們的行徑...',
+                           '<25>{#p/sans}{#f/0}* 但客觀來講，有皇家衛隊，\n  民眾確實心裡更踏實，\n  更有安全感。',
+                           "<25>{#p/sans}{#f/3}* 但現在，守衛沒了，\n  大夥的安全感也沒了。",
+                           "<25>{#p/sans}{#f/3}* 呵，連鎂塔頓也「失蹤」了。",
+                           '<25>{#p/sans}{#f/0}* 大家沒節目可看了，\n  也沒有周邊可買了...',
+                           '<25>{#p/sans}{#f/0}* 沒了他，前哨站\n  也失去了不少活力。'
                         ]);
                         if (hkills > 19) {
                            addB([
-                              "<25>{#p/sans}{#f/3}* honestly, the truth is that you're just not a great person.",
-                              '<25>{#p/sans}{#f/3}* plain and simple.',
-                              '<25>{#p/sans}{#f/0}* ... anyway.\n* i should probably end the call here.',
-                              '<25>{#p/sans}{#f/3}* sorry, buddo.',
+                              "<25>{#p/sans}{#f/3}* 至於你，我就直說吧。",
+                              '<25>{#p/sans}{#f/3}* 你根本不是啥好人。\n* 就這麼簡單。',
+                              '<25>{#p/sans}{#f/0}* ...\n* 總之，我要掛電話了。',
+                              '<25>{#p/sans}{#f/3}* 不好意思，孩子。',
                               '<25>{#p/sans}{#f/3}* ...'
                            ]);
                         } else {
                            addB([
-                              "<25>{#p/sans}{#f/3}* honestly, i'm not sure what to say about you.",
-                              "<25>{#p/sans}{#f/3}* i can't say you're a bad person, but i don't like you, either.",
-                              '<25>{#p/sans}{#f/0}* ... anyway.\n* i should probably end the call here.',
-                              '<25>{#p/sans}{#f/3}* sorry, buddo.',
-                              '<25>{#p/sans}{#f/3}* have a safe journey, and all that.'
+                              "<25>{#p/sans}{#f/3}* 至於你，不太好評價。",
+                              "<25>{#p/sans}{#f/3}* 你並不壞，\n  但我也不咋喜歡你。",
+                              '<25>{#p/sans}{#f/0}* ...\n* 總之，我要掛電話了。',
+                              '<25>{#p/sans}{#f/3}* 不好意思，孩子。',
+                              '<25>{#p/sans}{#f/3}* 在太空飛行多注意安全。\n* 拜拜。'
                            ]);
                         }
                         addB(['<32>{#s/equip}{#p/event}* 滴...']);

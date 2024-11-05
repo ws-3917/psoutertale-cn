@@ -1272,7 +1272,8 @@ msgstr ""
 
 msgid "<18>{#f/7}IF \"ASRIEL\" SEES ME ALIVE, THEN SO BE IT!"
 msgstr ""
-"<18>{#f/7}就算讓「ASRIEL」知道我還活著\n"
+"<18>{#f/7}就算讓「ASRIEL」\n"
+"知道我還活著\n"
 "又怎麼樣！"
 
 msgid "<18>{#f/7}I REFUSE TO STAND AROUND AND DO NOTHING ALL DAY."
@@ -12071,7 +12072,7 @@ msgstr ""
 
 msgid "<32>* The guards have clocked out, so I could probably go back in..."
 msgstr ""
-"<32>* 這會，警衛全下班了，\n"
+"<32>* 這會，守衛全下班了，\n"
 "  所以我可以溜進休閒迴廊...ゑ"
 
 msgid "<32>* ... but, ahh, this here's the best one I've found so far..."
