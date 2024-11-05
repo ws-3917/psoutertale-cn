@@ -1221,29 +1221,29 @@ export default {
                '<25>{#p/twinkly}{#f/6}* 哈囉，$(name)。',
                ...(SAVE.flag.n.genocide_milestone < 7
                   ? [
-                     "<25>{#f/6}* I've had some time to think about what happened.",
-                     '<25>{#f/5}* It was thrilling, at first...',
-                     '<25>* The thought of taking the outpost by force together...',
-                     "<25>{#f/6}* But now, I'm not sure.",
+                     "<25>{#f/6}* 我思考了一下\n  關於之前發生的事情。",
+                     '<25>{#f/5}* 一開始，\n  想著我們可以\n  一起武力佔領前哨站...',
+                     '<25>* 我覺得很刺激...',
+                     "<25>{#f/6}* 但現在，我不確定了。",
                      '<25>{#f/8}* ...',
-                     '<25>{#f/8}* I guess... I got a bit carried away back there.',
-                     "<25>{#f/5}* But that's okay, right?\n* You'll forgive me, won't you?"
+                     '<25>{#f/8}* 我想...\n  我當時有點得意忘形了。',
+                     "<25>{#f/5}* 但這沒關係的，對吧？\n* 你會原諒我的，對吧？"
                   ]
                   : [
-                     "<25>{#f/6}* I'm still not really sure what happened back there...",
-                     "<25>{#f/5}* It's... kinda scaring me, haha...",
+                     "<25>{#f/6}* 我還是不太清楚\n  之前發生了什麼...",
+                     "<25>{#f/5}* 那有點... 嚇到我了，\n  哈哈...",
                      '<25>{#f/8}* ...',
-                     '<25>{#f/8}* Maybe... we should hold off on things for now.',
-                     "<25>{#f/5}* But that's okay, right?\n* You'll be fine with that, won't you?"
+                     '<25>{#f/8}* 也許... \n  我們現在應該緩一緩。',
+                     "<25>{#f/5}* 但這沒關係的，對吧？\n* 你不會介意的，對吧？"
                   ]),
                '<25>{#f/6}* ...',
-               '<25>{#f/8}* Goodbye, $(name)...',
-               ...(SAVE.flag.n.genocide_milestone < 7 ? ["<25>{#f/5}* I'll be back before you know it."] : [])
+               '<25>{#f/8}* $(name)，再見...',
+               ...(SAVE.flag.n.genocide_milestone < 7 ? ["<25>{#f/5}* 我很快就會回來的。"] : [])
             ],
       endtwinklyAreaction: [
-         '<32>{#p/basic}* Sorry, did I miss something?',
-         "<32>* I've never talked to him in my life, let alone go on some mission with him.",
-         "<32>* Oh well.\n* It wouldn't be the first time he's made up stories about me."
+         '<32>{#p/basic}* 不好意思，\n  我是不是錯過了什麼？',
+         "<32>* 我這輩子都沒跟他說過話，\n  更別說和他一起執行什麼任務了。",
+         "<32>* 算了。\n* 他也不是第一次編造\n  關於我的故事了。"
       ],
       endtwinklyB: () =>
          SAVE.data.b.w_state_lateleave
@@ -1263,7 +1263,7 @@ export default {
          '<25>{#f/8}{#v/0}* 只要你再多殺幾隻怪物...',
          "<25>{#f/9}{#v/0}* 呵，現在把計畫告訴你\n  還為時過早。",
          '<25>{#f/7}{#v/0}* 別忘了，$(name)...',
-         "<25>{#f/5}{#v/0}* 我們倆久別重逢，強強聯手\n  只是時間問題。",
+         "<25>{#f/5}{#v/0}* 我們倆久別重逢，\n  強強聯手只是時間問題。",
          '<25>{#f/6}{#v/0}* 下次長點心，狠一點，\n  說不定...',
          "<25>{#f/5}{#v/0}* 你就能看到好戲了。",
          '<25>{#f/11}{#v/0}* 那麼，回見...'
@@ -1272,7 +1272,7 @@ export default {
          '<25>{#f/8}{#v/0}* 只要你再多殺{@fill=#ff0}一隻{@fill=#fff}怪物...',
          "<25>{#f/9}{#v/0}* 呵，現在把計畫告訴你\n  還為時過早。",
          '<25>{#f/7}{#v/0}* 別忘了，$(name)...',
-         "<25>{#f/5}{#v/0}* 我們倆久別重逢，強強聯手\n  只是時間問題。",
+         "<25>{#f/5}{#v/0}* 我們倆久別重逢，\n  強強聯手只是時間問題。",
          '<25>{#f/6}{#v/0}* 下次長點心，狠一點，\n  說不定...',
          "<25>{#f/5}{#v/0}* 你就能看到好戲了。",
          '<25>{#f/11}{#v/0}* 那麼，回見...'
