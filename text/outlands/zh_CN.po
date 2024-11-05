@@ -1,6 +1,21 @@
-#
+#, fuzzy
 msgid ""
 msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-11-05 10:17+0000\n"
+"PO-Revision-Date: 2024-11-05 10:17+0000\n"
+"Last-Translator: errosia <ericyan2008@foxmail.com>\n"
+"Language-Team: Chinese (Simplified Han script) <https://ws3917.site/projects/"
+"project-spacetime/1-outlands/zh_Hans/>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: ENCODING\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.8.1\n"
+
+#
 
 msgid ""
 "<25>{#p/toriel}{#f/1}* I hear there is a certain kind of fluid in "
@@ -3634,10 +3649,14 @@ msgid ""
 "<25>{#p/twinkly}{#f/6}{#v/0}* So you managed to stay out of a few measly "
 "people's way."
 msgstr ""
+"<25>{#p/twinkly}{#f/6}{#v/0}* 所以，你成功地避开了\n"
+"  几个小喽啰。"
 
 msgid ""
 "<25>{#p/twinkly}{#f/6}{#v/0}* So you spared the life of a few measly people."
 msgstr ""
+"<25>{#p/twinkly}{#f/6}{#v/0}* 所以，\n"
+"  你饶了几个小喽啰的命。"
 
 msgid "<25>{#f/11}{#v/0}* But what about the others, huh?"
 msgstr ""
