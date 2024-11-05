@@ -1,6 +1,21 @@
-#
+#, fuzzy
 msgid ""
 msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-11-05 11:17+0000\n"
+"PO-Revision-Date: 2024-11-05 11:17+0000\n"
+"Last-Translator: WS-3917 <ws3917@outlook.com>\n"
+"Language-Team: Chinese (Simplified Han script) <https://ws3917.site/projects/"
+"project-spacetime/2-starton/zh_Hans/>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: ENCODING\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.8.1\n"
+
+#
 
 msgid ""
 "<32>{#p/basic}* A standard-issue CITADEL long- range telescope, circa 261X."
@@ -5968,8 +5983,6 @@ msgstr "哈喽！"
 msgid "SAVE YOURSELVES..."
 msgstr "自求多福吧..."
 
-msgid ""
-msgstr ""
 
 msgid "FAILED TO CONNECT..."
 msgstr "网络连接失败..."
@@ -10363,7 +10376,9 @@ msgstr ""
 "要是它垮了，我会很伤心的。”"
 
 msgid "<23>\"... THAT IS ALL.\""
-msgstr "<23>“...PAPYRUS敬上。”"
+msgstr ""
+"<23>“...此致，\n"
+"PAPYRUS。”"
 
 msgid "<23>(\"NOTE: I WOULD HAVE SAID MORE, BUT THERE'S NOT ENOUGH ROOM.\")"
 msgstr ""
