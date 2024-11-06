@@ -16977,7 +16977,7 @@ msgstr ""
 "* 希望你愛吃........."
 
 msgid "Please take this to the edge of the galaxy."
-msgstr "請把它帶到星系的盡頭。"
+msgstr "請將其帶往星系之外。"
 
 msgid "Chip"
 msgstr "「芯」型薯片"

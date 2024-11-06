@@ -10278,7 +10278,7 @@ msgstr ""
 msgid "<25>{#f/16}* They had to reboot the entire atmospheric system."
 msgstr ""
 "<25>{#f/16}* 他們不得不重啟\n"
-"  整個大氣系統。"
+"  整個供氣系統。"
 
 msgid "<25>{#f/10}* No heat, very little air... it got colder, and colder..."
 msgstr ""

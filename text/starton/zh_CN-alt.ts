@@ -7071,7 +7071,7 @@ export default {
    },
    i_chip: {
       battle: {
-         description: '请把它带到星系的尽头。',
+         description: '请将其带往星系之外。',
          name: '“芯”型薯片'
       },
       drop: () => [

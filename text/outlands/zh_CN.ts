@@ -158,9 +158,9 @@ const toriel_aerialis = () =>
 export default {
    a_outlands: {
       darktorielcall: [
-         '<26>{#p/toriel}{#f/5}* I apologize, little one.\n* I have once again turned off my phone.',
-         '<25>{#p/toriel}{#f/9}* Please, leave me here for the time being.',
-         '<25>{#p/toriel}{#f/10}* I will return to you and the others in due time.'
+         '<26>{#p/toriel}{#f/5}* 抱歉啦，小家伙。\n* 我又要关机了。',
+         '<25>{#p/toriel}{#f/9}* 请让我一个人待会儿吧。',
+         '<25>{#p/toriel}{#f/10}* 到时候，\n  我自然会回到\n  你和大家身边的。'
       ],
       secret1: () => [
          '<32>{#p/basic}* 这里有一扇门。\n* 锁住了。',
@@ -289,7 +289,7 @@ export default {
          d35: ['<25>{*}{#p/asriel1}{#f/25}* 嗯？\n* 但是你早就- {%}'],
          d36: ['<32>{#p/basic}* 我也原谅你。'],
          d37: ['<25>{#p/asriel1}{#f/30}{#i/4}* ...！', '<25>{#p/asriel1}{#f/26}{#i/4}* $(name)...'],
-         d38: ['<32>{#p/basic}* 嘘...', "<32>* It's alright.", "<32>* 我懂你了，好吗？"],
+         d38: ['<32>{#p/basic}* 嘘...', "<32>{#p/basic}* 没事了。", "<32>* 我懂你了，好吗？"],
          d39: ['<25>{#p/asriel1}{#f/25}{#i/4}* 我...'],
          d40: ["<32>{#p/basic}* 我懂你，Asriel。"],
          d41: [
@@ -300,167 +300,168 @@ export default {
             '<32>* 守护我，保护我\n  不受错误决定影响...',
             '<32>* ...所有这些，\n  都是为了有一天我能报答他。'
          ],
-         d42: ["<32>{#p/basic}* 这一切开始有意义了。", '<32>* 我知道我该怎么做。'],
+         d42: ["<32>{#p/basic}* 这一切开始\n  变得有意义了。", '<32>* 我知道我该怎么做。'],
          d43: ['<25>{*}{#p/asriel1}{#f/25}* 哈？\n* 你要... {^60}{%}'],
          d44: ['<25>{*}{#f/25}* 不...！{^60}{%}', '<25>{*}{#f/26}* 让... 让我走！{^60}{%}'],
          d45: ['<32>{*}{#p/basic}* 呵...{^60}{%}', '<32>{*}* ...替我照顾好爸爸妈妈，\n  好吗？{^60}{%}'],
          d46: ['<25>{#p/asriel1}{#f/25}* Frisk，你在那里吗？', '<25>{#f/22}* 拜托了... 醒来吧...'],
-         d47: ["<25>{#p/asriel1}{#f/23}* 我...\n* 我也不想失去你..."],
-         d48: ['<25>{#p/asriel1}{#f/17}* ... there you are.'],
+         d47: ["<25>{#p/asriel1}{#f/23}* 我...\n* 我不想连你都失去..."],
+         d48: ['<25>{#p/asriel1}{#f/17}* ...你醒啦。'],
          d49: [
-            "<25>{#p/asriel1}{#f/23}* Ha... I thought I'd lost you for a minute there.",
-            "<25>{#f/22}* Don't scare me like that again, okay?",
+            "<25>{#p/asriel1}{#f/23}* 哈... \n  我还以为\n  你也离我而去了呢。",
+            "<25>{#f/22}* 别再吓我了，好吗？",
             '<25>{#f/13}* ...'
          ],
          d50: [
-            '<25>{#p/asriel1}{#f/13}* Well...\n* I have my SOUL back inside of me now.',
-            '<25>{#f/15}* My original one.',
+            '<25>{#p/asriel1}{#f/13}* 那个...\n* 我的灵魂\n  现在回到我体内了。',
+            '<25>{#f/15}* 就是我原本的那个灵魂。',
             '<25>{#f/16}* ...',
-            "<26>{#f/16}* When $(name) and I died, they must've wrapped themselves around me...",
-            '<25>{#f/13}* ... keeping me safe until I could be brought back here.',
-            '<26>{#f/17}* They held on that whole time, just for a chance to see me, Frisk...',
-            '<25>{#f/13}* ... so, the least I can do is honor it.',
-            '<25>{#f/15}* Live the life they always wanted me to have.'
+            "<26>{#f/16}* 我和$(name)死后，\n  那家伙的灵魂肯定是\n  一直萦绕着我...",
+            '<25>{#f/13}* ...保护着我，\n  直到我能够回来。',
+            '<26>{#f/17}* Frisk，\n  那家伙一直坚持着，\n  就只是为了能再见到我...',
+            '<25>{#f/13}* ...所以，\n  我至少要对得起那家伙。',
+            '<25>{#f/15}* 过上那家伙\n  希望我过的生活。'
          ],
          d51: [
             '<25>{#p/asriel1}{#f/23}* ...Frisk。',
-            "<25>{#f/23}* I'm going to stay with you from now on.",
-            "<25>{#f/17}* Wherever you go... I'll follow you.",
-            '<25>{#f/13}* I feel like...\n* I can trust you with that sort of thing.',
-            "<25>{#f/13}* Even if we don't know much about each other.",
-            "<25>{#f/15}* ... I don't know.",
+            "<25>{#f/23}* 从现在开始，\n  我会一直陪着你。",
+            "<25>{#f/17}* 无论你去哪...\n  我都会跟着你。",
+            '<25>{#f/13}* 我感觉...\n* 我能把自己托付给你。',
+            "<25>{#f/13}* 即使我们对彼此\n  还不是很了解。",
+            "<25>{#f/15}* ...我也不知道为什么。",
             '<25>{#f/15}* ...',
-            '<25>{#f/13}* Frisk... are you really sure about this?',
-            "<25>{#f/13}* All the times I've hurt you, hurt your friends...",
-            "<25>{#f/22}* It's... all I can think about right now.",
-            '<25>{#f/21}* Seeing them die like that in my mind, over and over...',
-            "<25>{#f/22}* Knowing that I'm the one who did it.",
+            '<25>{#f/13}* Frisk...\n  你真的确定要这样吗？',
+            "<25>{#f/13}* 我伤害了你那么多次，\n  也伤害了你的朋友们...",
+            "<25>{#f/22}* 我现在...\n  满脑子都是这些。",
+            '<25>{#f/21}* 我一遍遍想起\n  大家死去的样子...',
+            "<25>{#f/22}* 并知道这一切\n  都是我造成的。",
             '<25>{#f/15}* ...',
-            '<25>{#f/15}* Are you really sure you can be there for someone like that?',
-            '<32>{#p/human}* (...)',
+            '<25>{#f/15}* 你真的确定\n  你能接受这样的我吗？',
+            '<32>{#p/human}* （...）',
             '<25>{#p/asriel1}{#f/15}* ...',
-            "<25>{#f/17}* ... I guess I just don't understand you, Frisk.",
-            "<25>{#f/23}* No matter what I do to you... you just won't give in.",
+            "<25>{#f/17}* ...我果然\n  还是不懂你啊，\n  Frisk。",
+            "<25>{#f/23}* 不管我对你做什么...\n  你都不会放弃我。",
             '<25>{#f/22}* ...',
-            "<25>{#f/13}* Hey.\n* Maybe it won't be so bad.",
-            "<25>{#f/17}* Having you there with me definitely won't hurt matters.",
-            '<25>{#f/13}* ...\n* The thing is...\n* If I stayed here now...',
-            "<25>{#f/15}* It wouldn't be right by $(name)... you know?",
-            '<25>{#f/13}* And besides, with my SOUL back inside of me...',
-            "<25>{#f/13}* I won't turn back into a star.",
-            "<25>{#f/13}* So... there's no point in me staying here."
+            "<25>{#f/13}* 嘿。\n* 也许情况没那么糟。",
+            "<25>{#f/17}* 有你在我身边，\n  肯定对我有帮助的。",
+            '<25>{#f/13}* 不过...\n* 问题是...\n* 如果我现在还留在这儿...',
+            "<25>{#f/15}* 对$(name)来说\n  就不公平了...\n  你明白我的意思吗？",
+            '<25>{#f/13}* 而且，我的灵魂\n  已经回到我体内了...',
+            "<25>{#f/13}* 我不会再变回星星了。",
+            "<25>{#f/13}* 所以...\n  我留在这里\n  也没有什么意义了。"
          ],
          d52: [
-            '<25>{#p/asriel1}{#f/17}* Well.\n* Better get going.',
-            '<25>{#f/20}* Your friends are probably worried sick about you by now.'
+            '<25>{#p/asriel1}{#f/17}* 好。\n* 那我们走吧。',
+            '<25>{#f/20}* 你的朋友们\n  现在肯定很担心你。'
          ],
          e1: [
             '<25>{#p/asriel1}{#f/15}* ...',
-            "<25>{#f/16}* I don't know what's going to happen to $(name) after this.",
-            "<25>{#f/13}* They held on for a chance to see me, but that's...",
-            '<25>{#f/15}* ... in the past now.'
+            "<25>{#f/16}* 我不知道$(name)\n  之后会怎么样。",
+            "<25>{#f/13}* 那家伙坚持了那么久，\n  就只是为了能再见到我。\n  但那已经...",
+            '<25>{#f/15}* ...是过去了。'
          ],
          e2: [
-            "<25>{#p/asriel1}{#f/13}* I still can't believe they waited all that time just to see me...",
-            '<25>{#f/23}* Stubborn idiot.',
-            '<25>{#f/17}* ... is what I would have said, if I was still a talking star.',
-            "<25>{#f/13}* But... I don't really think they're an idiot."
+            "<25>{#p/asriel1}{#f/13}* 我还是不敢相信\n  那家伙为了见我\n  等了那么久...",
+            '<25>{#f/23}* 固执的蠢货。',
+            '<25>{#f/17}* ...如果我还是\n  那个会说话的星星，\n  我肯定会这么说。',
+            "<25>{#f/13}* 不过...\n  我并不真的觉得\n  那家伙是个蠢货。"
          ],
          e3: [
-            "<25>{#p/asriel1}{#f/13}* $(name)'s not stupid.\n* And I...",
-            '<25>{#f/13}* I agreed with a lot of what they said about themselves...',
-            '<25>{#f/15}* About them not being the kind of friend I wish I had...',
-            "<25>{#f/7}* ... but it doesn't mean I wanted them gone!"
+            "<25>{#p/asriel1}{#f/13}* $(name)并不蠢。\n* 而且，我...",
+            '<25>{#f/13}* 我同意\n  那家伙对自己的评价...',
+            '<25>{#f/15}* 那家伙说自己并不是\n  我理想中的那种朋友...',
+            "<25>{#f/7}* ...但这并不意味着\n  我希望他们消失！"
          ],
          e4: [
-            "<25>{#p/asriel1}{#f/13}* It's not like $(name) has to go away...",
-            "<25>{#f/17}* If they wanted to, they could stay with us.\n* I'd like them to.",
-            "<25>{#f/15}* But I'd understand if they wanted to go.",
-            '<25>{#f/16}* They \"won\" their game.\n* They shouldn\'t want to \"play\" with me anymore.'
+            "<25>{#p/asriel1}{#f/13}* $(name)又不是\n  必须要离开...",
+            "<25>{#f/17}* 如果那家伙愿意，\n  可以和我们在一起啊。\n* 我会很高兴的。",
+            "<25>{#f/15}* 但如果那家伙不想，\n  我也能理解。",
+            '<25>{#f/16}* 那家伙\n  已经“赢”了这把游戏。',
+'<25>{#f/16}* 那家伙\n  应该不想再\n  和我“玩”了。'
          ],
          e5: [
-            "<25>{#p/asriel1}{#f/13}* ... $(name)...\n* If you're still there, listening...",
-            '<25>{#f/15}* I want you to know that I love you.',
-            '<25>{#f/23}* You might not have been the greatest person...',
-            '<25>{#f/22}* But, deep down, you still cared about me.'
+            "<25>{#p/asriel1}{#f/13}* ...$(name)...\n* 如果你还能听到的话...",
+            '<25>{#f/15}* 我想让你知道，\n  我爱你。',
+            '<25>{#f/23}* 你可能不是个完美的人...',
+            '<25>{#f/22}* 但在内心深处，\n  你还是很在乎我的。'
          ],
          e6: [
-            '<25>{#p/asriel1}{#f/23}* Ha...',
-            '<25>{#f/22}* I probably seem like a crazy person right now.',
-            '<25>{#f/15}* Obsessing over someone I should have moved on from already...',
-            '<26>{#f/17}* ... I guess $(name) and I really are just a \n  pair of stubborn idiots.'
+            '<25>{#p/asriel1}{#f/23}* 哈...',
+            '<25>{#f/22}* 我现在可能\n  看起来像个疯子。',
+            '<25>{#f/15}* 对一个\n  我早就应该放下的人\n  念念不忘...',
+            '<26>{#f/17}* ...看来我和$(name)\n  还真是一对固执的蠢货。'
          ],
          e7: [
-            '<25>{#p/asriel1}{#f/13}* One time, $(name) and I were fighting over a bed...',
-            "<25>{#f/10}* 'Cause, both of us wanted the one with the nightstand next to it.",
-            '<26>{#f/15}* We were both pushing each other off the side, trying to make room...',
-            '<25>{#f/4}* All that fighting got us so tired, that we fell asleep.',
-            '<25>{#f/13}* But when we woke up...',
-            '<25>{#f/17}* We were lying right next to each other.',
-            "<25>{#f/13}* I tried to get up, but... they didn't want to let go.",
-            '<26>{#f/15}* They just kept saying...',
-            '<25>{#f/15}* \"... warm...\"',
-            '<25>{#f/15}* \"... fluffy...\"',
-            '<25>{#f/20}* I would have complained about it, but...',
-            "<25>{#f/17}* ... at that point, I was just happy we weren't fighting."
+            '<25>{#p/asriel1}{#f/13}* 有一次，\n  我和$(name)\n  为了争一张床打了起来...',
+            "<25>{#f/10}* 因为我们俩都想要\n  床头柜旁边的那张。",
+            '<26>{#f/15}* 我们互相推搡，\n  都想给自己腾出空间...',
+            '<25>{#f/4}* 结果打累了，\n  就都睡着了。',
+            '<25>{#f/13}* 等我们醒来的时候...',
+            '<25>{#f/17}* 我们俩紧紧地挨在一起。',
+            "<25>{#f/13}* 我想起来，但是...\n  $(name)不肯松手。",
+            '<26>{#f/15}* 那家伙只是一直说着...',
+            '<25>{#f/15}* “...好暖...”',
+            '<25>{#f/15}* “...好软...”',
+            '<25>{#f/20}* 我本来想抱怨两句的，\n  但是...',
+            "<25>{#f/17}* ...当时，\n  我只高兴\n  我们没有再吵架了。"
          ],
          e8: [
-            '<25>{#p/asriel1}{#f/13}* This other time, $(name) and I were making dinner for Mom and Dad.',
-            '<25>{#f/15}* They kept wanting to make it more spicy...',
-            '<25>{#f/3}* To be honest, if they insisted on that now, I would not complain.',
-            '<25>{#f/20}* I could go for something spicy right about now.',
-            '<25>{#f/13}* But, back then, I was more into sweets.\n* Most monsters are.',
-            '<25>{#f/15}* We ended up playing tug-of-war with the mixing bowl, and...',
-            '<25>{#f/20}* You can imagine how that turned out.',
-            '<25>{#f/17}* Mom made us clean up the mess, of course.',
-            '<25>{#f/13}* Then, Dad took us out to eat, and we both got what we wanted.'
+            '<25>{#p/asriel1}{#f/13}* 还有一次，\n  我和$(name)\n  在为爸爸妈妈做饭。',
+            '<25>{#f/15}* 那家伙一直\n  想加很多辣椒...',
+            '<25>{#f/3}* 说实话，如果那家伙\n  现在还坚持要加辣椒，\n  我肯定不会抱怨。',
+            '<25>{#f/20}* 我现在就想吃点辣的。',
+            '<25>{#f/13}* 不过那时候，\n  我更喜欢甜食。\n* 大多数怪物都更喜欢。',
+            '<25>{#f/15}* 结果我们开始抢搅拌碗，\n  搞得跟拔河一样，然后...',
+            '<25>{#f/20}* 不难想到\n  最后变成了啥样。',
+            '<25>{#f/17}* 当然啦，\n  妈妈让我们打扫了残局。',
+            '<25>{#f/13}* 然后爸爸带我们\n  出去吃了饭，我们都吃到了\n  自己想吃的东西。'
          ],
          e9: [
-            "<25>{#p/asriel1}{#f/15}* $(name) and I...\n* It's like we couldn't agree on anything...",
-            '<25>{#f/20}* Besides spending time together, that is.',
-            '<26>{#f/17}* Despite our differences, $(name) and I really were inseparable.',
-            "<25>{#f/13}* Even death itself couldn't keep us apart forever."
+            "<25>{#p/asriel1}{#f/15}* 我和$(name)...\n* 我们俩好像什么事\n  都无法达成一致...",
+            '<25>{#f/20}* 除了“待在一起”\n  这件事。',
+            '<26>{#f/17}* 尽管我们有很多不同点，\n  但我和$(name)\n  真的是形影不离。',
+            "<25>{#f/13}* 即使是死亡\n  也无法将我们永远分开。"
          ],
          e10: [
-            "<25>{#p/asriel1}{#f/17}* ... do you think they're still around, Frisk?",
-            '<25>{#f/17}* For all you know, they could be watching us right now.',
-            "<25>{#f/23}* Wouldn't that be something.",
-            "<25>{#f/22}* But it's impossible to know for sure."
+            "<25>{#p/asriel1}{#f/17}* ...你觉得那家伙还在吗，\n  Frisk？",
+            '<25>{#f/17}* 说不定那家伙\n  现在正在看着我们呢。',
+            "<25>{#f/23}* 那可真是神奇啊。",
+            "<25>{#f/22}* 不过我们\n  永远也无法确定\n  这是不是真的。"
          ],
          e11: [
-            "<25>{#p/asriel1}{#f/17}* Golly.\n* For someone who'll be staying with you...",
-            "<25>{#f/20}* I sure am making it sound like I'd rather be with $(name).",
-            "<25>{#f/13}* But... it's not like that at all.",
-            "<25>{#f/17}* I just can't help but reminisce about someone I used to know."
+            "<25>{#p/asriel1}{#f/17}* 天呐。\n* 我这个\n  说要一直陪着你的人...",
+            "<25>{#f/20}* 听起来好像\n  更想和$(name)\n  待在一起似的。",
+            "<25>{#f/13}* 不过...\n  我完全没有那个意思。",
+            "<25>{#f/17}* 只是忍不住想起了\n  我曾经认识的某个人。"
          ],
          e12: () => [
-            '<25>{#p/asriel1}{#f/17}* Frisk...\n* I want you to know.',
-            '<25>{#f/13}* Thanks to you...',
-            '<25>{#f/23}* I feel like I have a future again.',
+            '<25>{#p/asriel1}{#f/17}* Frisk...\n* 我想让你知道。',
+            '<25>{#f/13}* 多亏了你...',
+            '<25>{#f/23}* 我感觉我又有未来了。',
             '<25>{#f/22}* ...',
             ...(!SAVE.flag.b.pacifist_marker_forgive
-               ? ["<25>{#f/22}* Even though you couldn't forgive me for what I'd done..."]
+               ? ["<25>{#f/22}* 即使你无法原谅\n  我所做的一切..."]
                : SAVE.flag.n.killed_sans > 0
-                  ? ['<25>{#f/22}* Even though I wanted you to do all those terrible things...']
-                  : ['<25>{#f/22}* Even though I tortured you, and threatened everyone you love...']),
-            "<25>{#f/13}* You're still willing to help me move past it all.",
-            '<25>{#f/23}* ... it means a lot.',
+                  ? ['<25>{#f/22}* 即使我怂恿你\n  做尽了坏事...']
+                  : ['<25>{#f/22}* 即使我折磨了你，\n  威胁了你所爱的大家...']),
+            "<25>{#f/13}* 你仍然愿意\n  帮助我走出过去。",
+            '<25>{#f/23}* 这对我来说...\n  意义重大。',
             '<25>{#f/22}* ...',
-            '<25>{#f/13}* Mom, Dad...',
-            '<25>{#f/13}* Sans, Papyrus, Undyne, Alphys...',
-            "<25>{#f/15}* Everyone I've killed in past realities...",
-            "<25>{#f/16}* ... it's going to be difficult for me to face them.",
+            '<25>{#f/13}* 爸爸，妈妈...',
+            '<25>{#f/13}* Sans，Papyrus，\n  Undyne，Alphys...',
+            "<25>{#f/15}* 我在过去杀死的所有人...",
+            "<25>{#f/16}* ...要面对他们\n  对我来说会很难。",
             '<25>{#f/13}* ...',
-            "<25>{#f/17}* But I'll try.",
-            "<25>{#f/23}* I'll try to be a better person.",
-            '<25>{#f/22}* And, If I ever screw up...',
-            "<25>{#f/13}* ... I know you'll be there to help me pick up the pieces."
+            "<25>{#f/17}* 但我还是会努力的。",
+            "<25>{#f/23}* 我会努力\n  成为一个更好的人。",
+            '<25>{#f/22}* 如果我再犯错...',
+            "<25>{#f/13}* ...我知道你会\n  帮我收拾残局的。"
          ],
          e13: [
-            '<25>{#p/asriel1}{#f/17}* Ha... $(name).',
-            "<25>{#f/23}* I won't let you down, okay?",
-            "<25>{#f/22}* I'll make the most out of this chance you've given me.",
-            "<25>{#f/17}* I'll make it count."
+            '<25>{#p/asriel1}{#f/17}* 哈... $(name)。',
+            "<25>{#f/23}* 我不会让你失望的，\n  好吗？",
+            "<25>{#f/22}* 我会好好珍惜\n  你给我的这次机会。",
+            "<25>{#f/17}* 我会让它变得\n  很有意义的。"
          ]
       },
       evac: ['<32>{#p/human}* （你感觉周围的怪物越来越少了。）'],
@@ -522,15 +523,15 @@ export default {
             SAVE.data.n.plot === 72
                ? [
                   '<32>{#p/basic}{#n1}* 偷偷告诉你一件事...',
-                  '<32>* I saw that goat lady come through here earlier.',
-                  '<32>* She said it was time to \"confront her fears.\"',
-                  "<32>* Well, whatever she did clearly led to something!\n* We're all free now!"
+                  '<32>* 之前我看到那位羊女士\n  从这经过。',
+                  '<32>* 她说是时候\n  “直面自己的恐惧”了。',
+                  "<32>* 好吧，不管她做了什么，\n  但显然已经有了结果！\n* 我们现在都自由啦！"
                ]
                : SAVE.data.n.plot === 71.2
                   ? [
-                     '<32>{#p/basic}{#n1}* Did you see her?\n* She just came through here right now!',
-                     '<32>* She said it was time to \"confront her fears.\"',
-                     '<32>* I wonder what she could have meant...?\n* She seemed determined.'
+                     '<32>{#p/basic}{#n1}* 你看到她了吗？\n* 她刚才从这经过！',
+                     '<32>* 她说是时候\n  “直面自己的恐惧”了。',
+                     '<32>* 不知道她说的是什么意思...？\n* 但她看起来充满了决心。'
                   ]
                   : SAVE.data.b.w_state_lateleave
                      ? [
@@ -549,15 +550,15 @@ export default {
             SAVE.data.n.plot === 72
                ? [
                   '<32>{#p/basic}{#n1}* 偷偷告诉你一件事...',
-                  "<32>* I'm not a fan of how you beat us all up at first.",
-                  '<32>* We were all so scared and confused...',
-                  '<32>* ... at least you did something good in the end.'
+                  "<32>* 你一开始把我们都揍了一顿，\n  我可不喜欢那样。",
+                  '<32>* 我们当时都既恐慌，又困惑...',
+                  '<32>* ...不过，\n  至少你最后做了件好事。'
                ]
                : [
                   '<32>{#p/basic}{#n1}* 偷偷告诉你一件事...',
-                  "<32>* The people you've been beating up aren't happy about it.",
-                  "<32>* Just be glad I'm off-duty...\n* 'Cause otherwise...",
-                  "<32>* I'd have your head."
+                  "<32>* 之前被你揍过的人\n  现在都不怎么高兴。",
+                  "<32>* 庆幸吧，我现在没在执勤...\n* 不然...",
+                  "<32>* 我会拧下你的脑袋。"
                ],
          d: ['<32>{#p/basic}{#n1}* 不要... 不要！', '<32>* 离-离我远点！']
       },
@@ -799,25 +800,25 @@ export default {
          SAVE.data.b.svr
             ? [
                [
-                  '<25>{#p/asriel1}{#f/13}* Out of service again?',
-                  "<25>{#f/17}* Yeah, that's... by design, actually.",
-                  "<25>{#f/13}* This machine runs on the Outlands' own power supply, so...",
-                  '<25>{#f/15}* To avoid using too much power, Toriel just made it break itself.',
-                  "<26>{#f/20}* Not that she'd tell you."
+                  '<25>{#p/asriel1}{#f/13}* 这玩意又坏了？',
+                  "<25>{#f/17}* 是啊，这... \n  其实是故意设计的。",
+                  "<25>{#f/13}* 这机器用的是\n  外域这边自己的电源，\n  所以...",
+                  '<25>{#f/15}* 为了避免耗太多电，\n  Toriel干脆\n  让它自己坏掉。',
+                  "<26>{#f/20}* 她才不会告诉你呢。"
                ],
                [
-                  '<25>{#p/asriel1}{#f/13}* The reason that power supply is so small, though...',
-                  "<25>{#f/17}* It's because, unlike the CORE, it only uses background radiation.",
-                  "<25>{#f/13}* To put it into numbers, I'd say...",
-                  '<25>{#f/15}* It generates about ten- thousandths of the power the CORE does.'
+                  '<25>{#p/asriel1}{#f/13}* 不过，说到为什么\n  这供电量这么小...',
+                  "<25>{#f/17}* 是因为它不像核心那样，\n  这里只使用\n  宇宙的背景辐射供能。",
+                  "<25>{#f/13}* 换算成数字的话，\n  我觉得...",
+                  '<25>{#f/15}* 它产生的能量大概只有\n  核心的万分之一。'
                ],
                [
-                  '<25>{#p/asriel1}{#f/13}* Hmm...',
-                  '<25>{#f/15}* I wonder if, despite its low capacity...',
-                  '<25>{#f/13}* This generator would be enough to power a small atmospheric system.',
-                  '<25>{#f/17}* If the CORE was destroyed, could people survive here...?'
+                  '<25>{#p/asriel1}{#f/13}* 嗯...',
+                  '<25>{#f/15}* 我在想，就算\n  它的供电量很小...',
+                  '<25>{#f/13}* 但说不定够维持\n  一个小型的供气系统。',
+                  '<25>{#f/17}* 如果核心被毁了，\n  人们能在这里生存吗...？'
                ],
-               ['<26>{#p/asriel1}{#f/20}* ... asking for a friend.']
+               ['<26>{#p/asriel1}{#f/20}* ...呃，\n  我有个朋友想知道。']
             ][Math.min(asrielinter.candy6++, 3)]
             : ["<32>{#p/basic}* 完全不运转了。"],
       candy7: ['<32>{#p/human}* （你打算什么也不合成。）'],
@@ -958,7 +959,7 @@ export default {
       chair2c8: ['<25>{#f/0}{#n1}* 嗯，讲完了。'],
       chair2d1: [
          '<25>{#p/toriel}{#f/1}{#n1}* 回家...？\n* 能说的具体点吗？',
-         '<99>{#p/human}{#n1!}* （你要怎么回答？）{!}\n§shift=160§什么时候\n§shift=48§别放在心上§shift=37§可以回家？{#c/0/6/4}'
+         '<99>{#p/human}{#n1!}* （你要怎么回答？）{!}\n§shift=160§什么时候\n§shift=48§别放在心上§shift=45§可以回家？{#c/0/6/4}'
       ],
       chair2d2: [
          '<25>{#p/toriel}{#f/1}{#n1}* 但... 这里就是你的家啊，\n  不是吗？',
@@ -982,24 +983,24 @@ export default {
          SAVE.data.b.svr
             ? [
                [
-                  "<25>{#p/asriel1}{#f/20}* I still can't believe she moved this all the way from the Citadel.",
-                  "<25>{#f/17}* But... I understand why she'd want to.",
-                  '<25>{#f/13}* Mom and this chair of hers go pretty far back..'
+                  "<25>{#p/asriel1}{#f/20}* 我到现在都不敢相信，\n  她居然把这东西\n  一路从首塔搬了过来。",
+                  "<25>{#f/17}* 不过...\n  我能理解\n  她为什么想这么做。",
+                  '<25>{#f/13}* 妈妈和她的这把扶椅，\n  渊源可深了...'
                ],
                [
-                  '<25>{#p/asriel1}{#f/13}* One time, she told me something...',
-                  '<25>{#f/17}* \"This chair reminds me of home.\"',
-                  '<25>{#f/13}* But she was already at home, so I asked her what she meant.',
-                  '<25>{#f/17}* Turns out she had this at her home...',
-                  '<25>{#f/23}* ... on the old homeworld.'
+                  '<25>{#p/asriel1}{#f/13}* 有一次，她跟我说...',
+                  '<25>{#f/17}* “这把椅子\n   让我想起了家。”',
+                  '<25>{#f/13}* 但她当时就已经在家了，\n  所以我问她想表达什么。',
+                  '<25>{#f/17}* 结果发现，\n  她以前在她家...',
+                  '<25>{#f/23}* ...故园的那个家，\n  就已经有这把扶椅了。'
                ],
                [
-                  "<25>{#p/asriel1}{#f/13}* I don't know much about that world, Frisk...",
-                  '<25>{#f/17}* But I hear it was very... idyllic.',
-                  '<25>{#f/20}* Sure, there were lots of advances in magic and technology...',
-                  '<25>{#f/17}* But people loved it, because life was so... simple.'
+                  "<25>{#p/asriel1}{#f/13}* Frisk，\n  我对那个世界不太了解...",
+                  '<25>{#f/17}* 但我听说那里... \n  田园诗般得美好。',
+                  '<25>{#f/20}* 当然啦，\n  魔法和科技也都很发达...',
+                  '<25>{#f/17}* 人们很喜欢生活在那里，\n  因为那里的一切都是\n  那样的... 平凡。'
                ],
-               ["<25>{#p/asriel1}{#f/23}* What I wouldn't give to have a simple life."]
+               ["<25>{#p/asriel1}{#f/23}* 我也想过上\n  那样平凡的生活啊。"]
             ][Math.min(asrielinter.chair3++, 3)]
             : world.darker
                ? ['<32>{#p/basic}* 一把扶椅。']
@@ -1011,12 +1012,12 @@ export default {
             ...(SAVE.data.b.svr
                ? [
                   [
-                     "<25>{#p/asriel1}{#f/13}* Yeah, uh, that's about all you'll find in there.",
-                     "<25>{#f/17}* I'm not sure why Toriel put this here.",
-                     '<25>{#f/17}* $(name) and I were never interested in comic books.'
+                     "<25>{#p/asriel1}{#f/13}* 是啊，呃，\n  里面大概就\n  这么个东西了。",
+                     "<25>{#f/17}* 我不明白\n  Toriel为什么要把\n  这玩意儿放在这里。",
+                     '<25>{#f/17}* 我和$(name)\n  对漫画书从来没兴趣。'
                   ],
-                  ['<25>{#p/asriel1}{#f/10}* I guess she just wanted to pretend we were living here...?'],
-                  ['<25>{#p/asriel1}{#f/13}* The things a mother does to make herself feel better...']
+                  ['<25>{#p/asriel1}{#f/10}* 我猜她只是想假装\n  我们真的住在这里吧...？'],
+                  ['<25>{#p/asriel1}{#f/13}* 唉，\n  母亲为了让自己好受些，\n  真是啥事都做得出来...']
                ][Math.min(asrielinter.closetrocket_a++, 2)]
                : ['<32>{#p/basic}* 没有其他东西了。'])
          ],
@@ -1039,8 +1040,8 @@ export default {
          a1: () =>
             SAVE.flag.b.$svr
                ? [
-                  "<32>{#p/human}* I've seen the effect you've had on this world...",
-                  '<32>* A perfect ending, where everyone gets to be happy...',
+                  "<32>{#p/human}* 我已见证\n  你对这个世界产生的影响...",
+                  '<32>* 这是一个完美的结局，\n  所有人都得以幸福安乐...',
                   "<32>* 某种特别之物，于此独自闪耀。"
                ]
                : [
@@ -1050,7 +1051,7 @@ export default {
                ],
          a2: () =>
             SAVE.flag.b.$svr
-               ? ['<32>* That being said...', "<32>* It seems it wasn't enough to satisfy your... curiosity."]
+               ? ['<32>* 话虽如此...', "<32>* 但这一切似乎仍未能平息\n  你那份... 难以言喻的好奇心。"]
                : ['<32>* 告诉我...', '<32>* 此情此景... 可曾引起过你的好奇？']
       },
       danger_puzzle1: () => [
@@ -1125,7 +1126,7 @@ export default {
          ],
          b: ["<32>{#p/human}* （你带的东西太多，装不下它了。）"]
       },
-      drop_pie: ['<25>{#p/toriel}{#f/1}* 派粥是用来喝的，\n  不是让你往地上倒的。'],
+      drop_pie: ['<25>{#p/toriel}{#f/1}* 食物是用来吃的，\n  不是让你往地上扔的。'],
       drop_pie3: ['<25>{#p/toriel}{#f/1}* 请你别把好好的食物\n  往地上扔，好吗？'],
       drop_snails: ['<25>{#p/toriel}{#f/1}* 这些可怜的焗蜗牛\n  又怎么你了？'],
       drop_soda: ["<32>{#p/basic}{#n1}* 啊，你干嘛 ;)", '<32>* 那可是我全部的心血啊！;)'],
@@ -1397,7 +1398,7 @@ export default {
          '<25>{#f/9}{#v/0}* 好啦，回见呀！'
       ],
       endtwinklyG1: [
-         '<25>{#p/twinkly}{#f/6}{#v/0}* 又来？\n* 天啊...',
+         '<25>{#p/twinkly}{#f/6}{#v/0}* 又来？\n* 天呐...',
          '<25>{#f/0}{#v/1}* 你真的太像以前的我了。'
       ],
       endtwinklyG2: [
@@ -1439,12 +1440,12 @@ export default {
       endtwinklyJ: [
          '<25>{#p/twinkly}{#f/6}{#v/0}* 哇。',
          '<25>{#f/7}{#v/0}* 我还以为你是什么\n  仁慈的大善人呢。',
-         '<25>{#f/11}{#v/0}* Hah!\n* What a joke.',
+         '<25>{#f/11}{#v/0}* 哈！\n* 真是个笑话。',
          '<25>{#f/6}{#v/0}* ...',
-         '<25>{#f/6}{#v/0}* How did it feel to finally satisfy your violent side?',
+         '<25>{#f/6}{#v/0}* 终于满足了\n  你那颗暴力的心，\n  感觉如何呀？',
          '<25>{#f/7}{#v/0}* 嘻嘻嘻...',
-         "<25>{#f/0}{#v/1}* I bet it felt GOOD, didn't it?",
-         '<25>{#f/11}{#v/0}* I mean, I should know...'
+         "<25>{#f/0}{#v/1}* 我猜肯定很爽吧，是不？",
+         '<25>{#f/11}{#v/0}* 毕竟，我懂嘛...'
       ],
       endtwinklyK: [
          '<25>{#p/twinkly}{#f/5}{#v/0}* 很高兴再次见到你。',
@@ -1454,25 +1455,25 @@ export default {
          "<25>{#f/2}{#v/1}* 你我都知道，\n  不是杀人就是被杀。"
       ],
       endtwinklyK1: [
-         "<25>{#p/twinkly}{#f/6}* Aren't you getting tired of this?",
+         "<25>{#p/twinkly}{#f/6}* 你不觉得腻吗？",
          '<25>{#f/8}{#v/0}* 得了吧...',
-         '<25>{#f/2}{#v/1}* You KNOW deep down that part of you wants to hurt her.',
-         "<25>{#f/14}{#v/1}* A few good hits, and she'd be dead before your very eyes.",
-         "<25>{#f/11}{#v/0}* Wouldn't that be exciting?",
+         '<25>{#f/2}{#v/1}* 你自己心里清楚，\n  你就是想伤害她。',
+         "<25>{#f/14}{#v/1}* 狠狠揍她几下，\n  她就会死在你眼前。",
+         "<25>{#f/11}{#v/0}* 那不是很刺激吗？",
          '<25>{#f/6}{#v/0}* ...',
          '<25>{#f/8}{#v/0}* ...',
-         '<25>{#f/7}{#v/0}* See ya, idiot.'
+         '<25>{#f/7}{#v/0}* 回见，蠢货。'
       ],
       endtwinklyK2: [
-         '<25>{#p/twinkly}{#f/8}{#v/0}* Are you doing this just to see how I react?',
-         '<25>{#f/6}{#v/0}* Is that what this is about?',
-         "<25>{#f/7}{#v/0}* Well, don't expect to get anything else outta me.",
-         '<25>{#f/6}{#v/0}* All this boring pacifism is getting tiresome.',
-         '<25>{#f/11}{#v/0}* Now, if something more interesting were to happen...',
-         "<25>{#f/9}{#v/0}* Perhaps I'd be more inclined to talk.",
+         '<25>{#p/twinkly}{#f/8}{#v/0}* 你这样做，\n  就只是为了\n  看看我的反应吗？',
+         '<25>{#f/6}{#v/0}* 就只是为了这个？',
+         "<25>{#f/7}{#v/0}* 那你就别指望\n  再从我这里得到什么了。",
+         '<25>{#f/6}{#v/0}* 整天搞和平主义，\n  烦都烦死了。',
+         '<25>{#f/11}{#v/0}* 要是现在发生点\n  更有趣的事...',
+         "<25>{#f/9}{#v/0}* 我或许会更想跟你聊聊。",
          '<25>{#f/6}{#v/0}* ...',
          '<25>{#f/8}{#v/0}* ...',
-         '<25>{#f/7}{#v/0}* See ya, idiot.'
+         '<25>{#f/7}{#v/0}* 回见，蠢货。'
       ],
       endtwinklyKA: [
          "<25>{#f/7}{#v/0}* 你迟早会不得不\n  意识到这一点的。",
@@ -1483,23 +1484,23 @@ export default {
       ],
       endtwinklyKB: [
          '<25>{#f/11}{#v/0}* 嘻嘻嘻...',
-         "<25>{#f/7}{#v/0}* Maybe that's why you killed that one monster.",
-         '<25>{#f/8}{#v/0}* I mean, you went almost the whole way without killing anyone...',
-         '<25>{#f/6}{#v/0}* But somewhere along the line, you screwed up.',
-         '<25>{#f/5}{#v/0}* All that good karma you had went straight down the toilet.',
-         "<25>{#f/11}{#v/0}* Golly, you can't do anything right!",
-         '<25>{#f/11}{#v/0}* What a joke!'
+         "<25>{#f/7}{#v/0}* 也许，\n  这就是为什么\n  你杀了那个怪物吧。",
+         '<25>{#f/8}{#v/0}* 我是说，\n  你几乎一路都没杀人...',
+         '<25>{#f/6}{#v/0}* 但在某个地方，\n  你搞砸了。',
+         '<25>{#f/5}{#v/0}* 你之前积攒的所有好报\n  都付诸东流了。',
+         "<25>{#f/11}{#v/0}* 天呐，你真是\n  成事不足败事有余啊！",
+         '<25>{#f/11}{#v/0}* 真是个笑话！'
       ],
       endtwinklyKC: [
          '<25>{#f/11}{#v/0}* 嘻嘻嘻...',
-         "<25>{#f/7}{#v/0}* Maybe that's why you killed those other monsters.",
-         '<25>{#f/8}{#v/0}* I mean, you had a good run, but...',
-         "<25>{#f/6}{#v/0}* What's the point in mercy if it doesn't mean anything?",
-         '<25>{#f/7}{#v/0}* And believe me, after you did what you did...',
-         "<25>{#f/2}{#v/1}* It doesn't mean JACK.",
+         "<25>{#f/7}{#v/0}* 也许，\n  这就是为什么\n  你杀了那些怪物吧。",
+         '<25>{#f/8}{#v/0}* 我是说，\n  你坚持了很久，但是...',
+         "<25>{#f/6}{#v/0}* 如果仁慈没有任何意义，\n  那还要它干嘛呢？",
+         '<25>{#f/7}{#v/0}* 相信我，\n  在你做了那些事之后...',
+         "<25>{#f/2}{#v/1}* 它屁都不是。",
          '<25>{#f/6}{#v/0}* ...',
          '<25>{#f/8}{#v/0}* ...',
-         '<25>{#f/7}{#v/0}* See ya, idiot.'
+         '<25>{#f/7}{#v/0}* 回见，蠢货。'
       ],
       endtwinklyKD: [
          "<25>{#f/11}{#v/0}* 杀Toriel有什么不对啊？\n* 那不可太好了吗？",
@@ -1507,31 +1508,31 @@ export default {
          "<25>{#f/2}{#v/1}* 我知道你仍然坏到了骨子里。",
          '<25>{#f/11}{#v/0}* 我是说，你设法干掉了\n  所有挡了路的人。',
          '<25>{#f/6}{#v/0}* 但在最后一关，你失败了。',
-         "<25>{#f/11}{#v/0}* Golly, you can't do anything right!",
-         '<25>{#f/11}{#v/0}* What a joke!'
+         "<25>{#f/11}{#v/0}* 天呐，你真是\n  成事不足败事有余啊！",
+         '<25>{#f/11}{#v/0}* 真是个笑话！'
       ],
       endtwinklyL: [
-         '<25>{#p/twinkly}{#f/6}{#v/0}* Back again, huh?\n* Golly...',
-         "<25>{#f/8}{#v/0}* You've changed the timeline around so much...",
-         "<25>{#f/6}{#v/0}* I don't even know what to think now.",
-         '<25>{#f/8}{#v/0}* Are you good?\n* Evil?\n* Just curious?',
-         '<25>{#f/6}{#v/0}* I dunno.',
-         '<25>{#f/5}{#v/0}* There is one thing, though...',
-         "<25>{#f/5}{#v/0}* One thing I KNOW you haven't done yet.",
+         '<25>{#p/twinkly}{#f/6}{#v/0}* 又回来了，嗯哼？\n* 天呐...',
+         "<25>{#f/8}{#v/0}* 你把时间线\n  改得面目全非...",
+         "<25>{#f/6}{#v/0}* 我现在都不知道\n  该怎么想了。",
+         '<25>{#f/8}{#v/0}* 你是个好人？\n* 或是个坏人？\n* 还是仅仅因为太好奇了？',
+         '<25>{#f/6}{#v/0}* 我不知道。',
+         '<25>{#f/5}{#v/0}* 不过，有件事啊...',
+         "<25>{#f/5}{#v/0}* 有件事\n  我知道你还没做过。",
          '<25>{#f/11}{#v/0}* 嘻嘻嘻...',
-         "<25>{#f/7}{#v/0}* That's right.",
-         "<25>{#f/7}{#v/0}* You haven't killed everyone here in one run yet.",
-         "<25>{#f/11}{#v/0}* Aren't you at least a LITTLE curious?",
-         '<25>{#f/8}{#v/0}* Come on, $(name)...',
-         "<25>{#f/5}{#v/0}* I know you're in there somewhere."
+         "<25>{#f/7}{#v/0}* 没错。",
+         "<25>{#f/7}{#v/0}* 你还没有\n  一次性把所有人杀光过。",
+         "<25>{#f/11}{#v/0}* 你难道一点都不好奇吗？",
+         '<25>{#f/8}{#v/0}* 来吧，$(name)...',
+         "<25>{#f/5}{#v/0}* 我知道你在内心深处\n  渴望着这个。"
       ],
       endtwinklyL1: [
-         '<25>{#p/twinkly}{#f/6}{#v/0}* Well well, we meet again.',
-         '<25>{#f/8}{#v/0}* How many times is this now?',
-         "<25>{#f/6}{#v/0}* Whatever.\n* Doesn't matter.",
-         '<25>{#f/6}{#v/0}* You KNOW what you have to do, $(name).',
+         '<25>{#p/twinkly}{#f/6}{#v/0}* 好啊好，\n  我们又见面了。',
+         '<25>{#f/8}{#v/0}* 这是第几次了？',
+         "<25>{#f/6}{#v/0}* 随便吧。\n* 无所谓的。",
+         '<25>{#f/6}{#v/0}* 你知道你该做什么，\n  $(name)。',
          '<25>{#f/8}{#v/0}* ...',
-         "<25>{#f/5}{#v/0}* I'll be waiting."
+         "<25>{#f/5}{#v/0}* 我会等着你的。"
       ],
       exit1: [
          '<25>{#p/toriel}{#f/13}* 你想要回“家”，\n  对吗？',
@@ -1576,7 +1577,7 @@ export default {
                      ? "<32>{#p/twinkly}{#f/19}* 妈咪趁你回家睡觉时\n  去买东西了。"
                      : "<32>{#p/twinkly}{#f/19}* 妈咪在你逃回家后\n  去买东西了。",
                   '<32>{#x1}* 可是... 真不幸啊！\n* 运输船半路爆炸，\n  把她炸得魂都不剩啦！',
-                  '<32>* 嘻嘻，真没想到\n  这等百年一遇的事\n  居然真的发生啦。',
+                  '<32>* 天呐，真没想到\n  这等百年一遇的事\n  居然真的发生啦。',
                   '<32>{*}{#x2}* ...',
                   "<25>{*}{#f/7}* $(name)，真是遗憾呢。\n* 想要好结局的话，\n  你还得再加把劲咯。"
                ],
@@ -1585,7 +1586,7 @@ export default {
                      ? "<32>{#p/twinkly}{#f/19}* 妈咪趁你回家睡觉时\n  去买东西了。"
                      : "<32>{#p/twinkly}{#f/19}* 妈咪在你逃回家后\n  去买东西了。",
                   '<32>{#x1}* 可是... 真不幸啊！\n* 某个会说话的小星星\n  把她千刀万剐、折磨死啦！',
-                  "<32>* 嘻嘻，好像比上次还惨哦！",
+                  "<32>* 天呐，好像比上次还惨哦！",
                   '<32>{*}{#x2}* ...',
                   "<25>{*}{#f/6}* $(name)，\n  别浪费时间了。\n* 快回来干正事。"
                ],
@@ -2120,7 +2121,7 @@ export default {
             '<32>* 是叫Gumbert还是啥来着？'
          ],
          h: [
-            "<32>{#p/basic}{#n1}* 现在咱们自由了，\n  他们终于能开始做\n  那个计划中的重启版了。",
+            "<32>{#p/basic}{#n1}* 咱们现在自由了，\n  他们终于能开始做\n  那个计划中的重启版了。",
             "<32>* 那玩意叫啥来着？\n* 哦，我已经给忘了..."
          ]
       },
@@ -2676,7 +2677,7 @@ export default {
             ],
             [
                "<25>{#p/asriel1}{#f/13}* 我觉得还应该告诉你\n  最后一件事。",
-               '<25>{#f/15}* 当时$(name)和我的\n  灵魂融合在一起时...',
+               '<25>{#f/15}* 我和$(name)的\n  灵魂融合在一起时...',
                '<25>{#f/16}* 那副身躯的控制权\n  实际上是我们共有的。',
                '<25>{#f/15}* 是那个家伙抬起了\n  自己的那具空壳。',
                "<25>{#f/13}* 后来，当我们到达\n  星球的遗址时...",
@@ -3121,7 +3122,7 @@ export default {
                   '<32>{#p/human}* （你在桌子底下找到了一副牌。）',
                   ...[
                      [
-                        '<25>{#p/asriel1}{#f/27}* $(name)和我其实\n  从来都不怎么玩这种东西。',
+                        '<25>{#p/asriel1}{#f/27}* 我和$(name)其实\n  从来都不怎么玩这种东西。',
                         '<25>{#p/asriel1}{#f/15}* 呃...\n  好吧，也不能说是“从来”。',
                         "<25>{#p/asriel1}{#f/15}* 算了，\n  还是别提这茬了。"
                      ],
@@ -3262,7 +3263,7 @@ export default {
          
          w_tl_goreychair: () =>
             SAVE.data.b.svr
-               ? ['<32>{#p/human}* （你注意到这把餐椅比较小。）']
+               ? ['<32>{#p/human}* （你注意到这把餐椅相对较小。）']
                : SAVE.data.n.state_wastelands_toriel === 2 || world.runaway
                   ? ['<32>{#p/basic}* 小餐椅。']
                   : world.genocide
@@ -3291,9 +3292,9 @@ export default {
                   [
                      '<25>{#p/asriel1}{#f/13}* 结果，\n  不知道谁在外面\n  听到了我们的演奏。',
                      '<25>{#f/15}* 没过多久，\n  一大群怪物\n  就涌进了我们家里...',
-                     '<25>{#f/17}* $(name)和我还在房间中央，\n  继续“演奏”着。',
+                     '<25>{#f/17}* 我和$(name)还在房间中央，\n  继续“演奏”着。',
                      '<25>{#f/20}* 但我们身后一下子\n  多了一整支乐队！',
-                     '<25>{#f/17}* We must have performed half of the Harmonexus Index that day.',
+                     '<25>{#f/17}* 那天，我们演奏的和声，\n  起码有《和声大典》的\n  一半之多。',
                      "<25>{#f/17}* ...那是一本古老的歌集，\n  里面都是\n  我们的传统歌曲。"
                   ],
                   [
@@ -3765,7 +3766,7 @@ export default {
       twinkly16: [
          "<20>{#f/7}啧，你知道会发生什么，\n是不是？",
          "<20>你只想好好折磨一下\n楚楚可怜的Twinkly，\n是不是？",
-         "<20>天啦噜...\n你知道你惹的是谁吗？",
+         "<20>天呐...\n你知道你惹的是谁吗？",
          '<20>{#f/11}嘻嘻嘻...'
       ],
       twinkly17: ["<20>{#v/1}那么我们就直奔主题吧。", '<20>嘻嘻嘻...'],
@@ -4021,7 +4022,7 @@ export default {
       ],
       act_check3: ['<32>{#p/story}* NAPSTABLOOK - 攻击10 防御255\n* 已经有许久没像这样感到希望了...'],
       act_check4: ['<32>{#p/story}* NAPSTABLOOK - 攻击10 防御255\n* 浪漫的紧张气氛空前高涨。'],
-      awkwardTalk: ['<11>{#p/napstablook}{~}呃...', '<11>{#p/napstablook}{~}okay, i guess...?'],
+      awkwardTalk: ['<11>{#p/napstablook}{~}呃...', '<11>{#p/napstablook}{~}呃...\n应该行吧？'],
       checkTalk: ["<11>{#p/napstablook}{~}是我..."],
       cheer0: ['<32>{#p/human}* （你试图安慰Napstablook。）'],
       cheer1: ['<32>{#p/human}* （你给Napstablook一个\n  耐心的微笑。）'],
@@ -5083,9 +5084,9 @@ export default {
       ],
       s_dogs: [
          '<25>{#p/toriel}{#f/1}* 听说有一对狗夫妇\n  加入了皇家卫队。',
-         '<25>{#f/3}* 又是皇家守卫\n  又是夫妻...',
-         '<25>{#f/4}* That relationship must have some \"interesting\" motivations.',
-         '<25>{#f/6}* But what do I know.\n* As Sans would say, I am merely a \"goat!\"'
+         '<25>{#f/3}* 他俩专门选在\n  进皇家卫队的那天结婚...',
+         '<25>{#f/4}* 他们这么安排，\n  肯定有什么“有趣”的原因。\n* 不过我可不了解内幕。',
+         '<25>{#f/6}* 要是Sans在场，\n  看我这么笨，\n  又得望“羊”兴叹了！'
       ],
       s_lesser: [
          '<25>{#p/toriel}* 也不知道现在\n  星港都流行吃啥。',

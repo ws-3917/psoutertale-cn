@@ -1,21 +1,6 @@
-#, fuzzy
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-06 04:17+0000\n"
-"PO-Revision-Date: 2024-11-06 04:17+0000\n"
-"Last-Translator: WS-3917 <ws3917@outlook.com>\n"
-"Language-Team: Chinese (Traditional Han script) <https://ws3917.site/"
-"projects/project-spacetime/4-aerialis/zh_Hant/>\n"
-"Language: zh_TW\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: ENCODING\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.8.1\n"
-
-#
 
 msgid "<32>{#p/human}* (It appears the terminal is beyond your access level.)"
 msgstr ""
@@ -32,7 +17,7 @@ msgid ""
 "* The atmospheric systems have been accessed recently."
 msgstr ""
 "<32>{#p/basic}* 核心控制臺。\n"
-"* 近期，大氣系統被人動過手腳。ゑ"
+"* 近期，供氣系統被人動過手腳。ゑ"
 
 msgid ""
 "<32>{#p/basic}* It's a CORE terminal.\n"
@@ -1929,7 +1914,7 @@ msgid ""
 msgstr ""
 "<33>{#p/basic}{#x2}* 草。\n"
 "* 兄弟，那個，\n"
-"  我看咱必須得幹掉他們了。ゑ{#x3}"
+"  我看咱必須得幹掉那人了。ゑ{#x3}"
 
 msgid "<32>{#p/basic}{#x1}* You okay, kid?{#x3}"
 msgstr "<32>{#p/basic}{#x1}* 孩子，你沒事吧？ゑ{#x3}"
@@ -7948,7 +7933,7 @@ msgid ""
 msgstr ""
 "-人類實時數據-\n"
 "EXP　$(x)\n"
-"HP 　$(y)\n"
+"血量 $(y)\n"
 "金錢 $(z)\n"
 "距離 $(w)"
 
@@ -8354,6 +8339,8 @@ msgstr "<25>{#p/asriel2}{#f/8}* 只能換條路走了。"
 msgid "<32>{#p/human}* (Where would you like to go?)"
 msgstr "<32>{#p/human}* （你想去哪裡？）"
 
+msgid ""
+msgstr ""
 
 msgid "Floor L1"
 msgstr "左一層"

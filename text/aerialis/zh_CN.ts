@@ -38,7 +38,7 @@ export default {
                ? ["<32>{#p/basic}* 核心控制台。\n* 看来，能量所剩不多了。"]
                : [
                   world.postnoot
-                     ? "<32>{#p/basic}* 核心控制台。\n* 近期，大气系统被人动过手脚。"
+                     ? "<32>{#p/basic}* 核心控制台。\n* 近期，供气系统被人动过手脚。"
                      : world.bad_robot && 68 <= SAVE.data.n.plot
                         ? "<32>{#p/basic}* 核心控制台。\n* 看来，能量所剩无几了。"
                         : "<32>{#p/basic}* 核心控制台。\n* 看来一切正常。",
@@ -855,7 +855,7 @@ export default {
                : ['<32>{#p/basic}{#x1}* 我和我男朋友附近都找遍了，\n  就是找不着！{#x3}'],
          rg1c: () =>
             world.bad_lizard > 1
-               ? ['<33>{#p/basic}{#x2}* 草。\n* 兄弟，那个，\n  我看咱必须得干掉他们了。{#x3}']
+               ? ['<33>{#p/basic}{#x2}* 草。\n* 兄弟，那个，\n  我看咱必须得干掉那人了。{#x3}']
                : [
                   '<32>{#p/basic}{#x1}* 孩子，你没事吧？{#x3}',
                   "<32>{#x1}* 那个，\n  你这行为举止有点不对劲...{#x3}",
@@ -3407,7 +3407,7 @@ export default {
                         ? ["<32>{#p/basic}* It's offline."]
                         : ['<32>{#p/basic}* Anonymity at last.']
                      : ["<32>{#p/basic}* 别问这玩意是怎么工作的。\n* 接受就好。"],
-         labdisplay: '-人类实时数据-\nEXP　$(x)\nHP 　$(y)\n金钱 $(z)\n距离 $(w)',
+         labdisplay: '-人类实时数据-\nEXP　$(x)\n血量 $(y)\n金钱 $(z)\n距离 $(w)',
          exofountain1: () => [
             SAVE.data.b.svr
                ? '<32>{#p/human}* （看着喷泉中的果酒，\n  你忍不住想抿一口。）'
@@ -9132,7 +9132,7 @@ export default {
       idleTalk1: ["<08>{#p/basic}{~}别整得跟\n我喜欢你\n似的。"],
       idleTalk2: ['<08>{#p/basic}{~}大..\n大傻瓜！'],
       idleTalk3: ["<08>{#p/basic}{~}哼！\n你挡我路了。"],
-      idleTalk4: ['<08>{#p/basic}{~}（..哎呦！）\n人类...'],
+      idleTalk4: ['<08>{#p/basic}{~}(..哎呦!)\n人类...'],
       idleTalk5: ['<08>{#p/basic}{~}..\n人-人类\n..\n..？'],
       flirtTalk1: ['<08>{#p/basic}{~}啊！？\n臭-臭流氓！'],
       flirtTalk2: ['<08>{#p/basic}{~}I.. I think not!\nHmph!'],

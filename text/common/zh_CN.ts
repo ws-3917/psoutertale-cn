@@ -951,166 +951,167 @@ export default {
                      }
                   } else {
                      if (!dtoriel) {
-                        addB(['<25>{#p/sans}{#f/0}* which meant it was back to the drawing board.']);
+                        addB(['<25>{#p/sans}{#f/0}* 她不帮忙，\n  只能重新招人了。']);
                      } else {
-                        addB(["<25>{#p/sans}{#f/0}* i couldn't think of anyone off the top of my head, so..."]);
+                        addB(["<25>{#p/sans}{#f/0}* 我想了半天，\n  也没想到合适的人选..."]);
                      }
-                     addB(['<25>{#p/sans}{#f/0}* ... we started asking around, looking for someone we could trust.']);
+                     addB(['<25>{#p/sans}{#f/0}* ...于是，我们到处询问。\n  看有没有信得过的人\n  愿意接手这份工作。']);
                      if (!ddoggo) {
                         addB([
-                           '<25>{#p/sans}{#f/3}* pretty soon, we found out about doggo...',
-                           '<25>{#p/sans}{#f/0}* a canine unit member who survived the fall of the royal guard.',
-                           '<25>{#p/sans}{#f/2}* luckily, he was more than happy to take the job.',
-                           '<25>{#p/alphys}{#f/27}* Huh?\n* Were you talking about Doggo...?'
+                           '<25>{#p/sans}{#f/3}* 很快，我们找到了doggo...',
+                           '<25>{#p/sans}{#f/0}* 皇家卫队惨遭剿杀，\n  只有这名犬卫队成员\n  活了下来。',
+                           '<25>{#p/sans}{#f/2}* 好在，他欣然接受了\n  这份工作。',
+                           '<25>{#p/alphys}{#f/27}* 哦？\n* 你刚刚在说Doggo吗？'
                         ]);
                      } else if (!dlesserdog) {
                         addB([
-                           '<25>{#p/sans}{#f/3}* pretty soon, we found out about canis minor...',
-                           '<25>{#p/sans}{#f/0}* a canine unit member who survived the fall of the royal guard.',
-                           '<25>{#p/sans}{#f/2}* luckily, it was more than happy to take the job.',
-                           '<25>{#p/alphys}{#f/27}* Huh?\n* Were you talking about Canis Minor...?'
+                           '<25>{#p/sans}{#f/3}* 很快，我们找到了\n  canis minor...',
+                           '<25>{#p/sans}{#f/0}* 皇家卫队惨遭剿杀，\n  只有这名犬卫队成员\n  活了下来。',
+                           '<25>{#p/sans}{#f/2}* 好在，它欣然接受了\n  这份工作。',
+                           '<25>{#p/alphys}{#f/27}* 哦？\n* 你刚刚在说Canis Minor吗？'
                         ]);
                      } else if (!ddogs) {
                         addB([
-                           '<25>{#p/sans}{#f/3}* pretty soon, we found out about dogamy and dogaressa...',
-                           '<25>{#p/sans}{#f/0}* two canine unit members who survived the fall of the royal guard.',
-                           '<25>{#p/sans}{#f/2}* luckily, they were more than happy to take the job.',
-                           '<25>{#p/alphys}{#f/27}* Huh?\n* Were you talking about Dogamy and Dogaressa?'
+                           '<25>{#p/sans}{#f/3}* 很快，我们找到了\n  dogamy和dogaressa...',
+                           '<25>{#p/sans}{#f/0}* 皇家卫队惨遭剿杀，\n  整个犬卫队，\n  只有他们活了下来。',
+                           '<25>{#p/sans}{#f/2}* 好在，他们欣然接受了\n  这份工作。',
+                           '<25>{#p/alphys}{#f/27}* 哦？\n* 你刚刚在说Dogamy和\n  Dogaressa吗？'
                         ]);
                      } else if (!dgreatdog) {
                         addB([
-                           '<25>{#p/sans}{#f/3}* pretty soon, we found out about canis major...',
-                           '<25>{#p/sans}{#f/0}* a canine unit member who survived the fall of the royal guard.',
-                           '<25>{#p/sans}{#f/2}* luckily, it was more than happy to take the job.',
-                           '<25>{#p/alphys}{#f/27}* Huh?\n* Were you talking about Canis Major?'
+                           '<25>{#p/sans}{#f/3}* 很快，我们找到了\n  canis major...',
+                           '<25>{#p/sans}{#f/0}* 皇家卫队惨遭剿杀，\n  只有这名犬卫队成员\n  活了下来。',
+                           '<25>{#p/sans}{#f/2}* 好在，它欣然接受了\n  这份工作。',
+                           '<25>{#p/alphys}{#f/27}* 哦？\n* 你刚刚在说Canis Major吗？'
                         ]);
                      } else if (!ddoge) {
                         addB([
-                           '<25>{#p/sans}{#f/3}* pretty soon, we found out about doge...',
-                           '<25>{#p/sans}{#f/0}* an elite squad member who survived the fall of the royal guard.',
-                           '<25>{#p/sans}{#f/3}* she gathered her belongings, and took the job in short order.',
-                           '<25>{#p/alphys}{#f/27}* Huh?\n* Were you talking about Doge?'
+                           '<25>{#p/sans}{#f/3}* 很快，我们找到了doge...',
+                           '<25>{#p/sans}{#f/0}* 皇家卫队惨遭剿杀，\n  只有这名特战队成员\n  活了下来。',
+                           '<25>{#p/sans}{#f/3}* 她整理好行装，\n  随即接下了这份工作。',
+                           '<25>{#p/alphys}{#f/27}* 哦？\n* 你刚刚在说Doge吗？'
                         ]);
                      } else if (!droyalguards) {
                         addB([
-                           '<25>{#p/sans}{#f/3}* pretty soon, we found out about 01 and 02...',
-                           '<25>{#p/sans}{#f/0}* two patrol officers who survived the fall of the royal guard.',
-                           '<25>{#p/sans}{#f/3}* the pair cast off their armor, and took the job in stride.',
-                           '<25>{#p/alphys}{#f/27}* Huh?\n* Were you talking about 01 and 02?'
+                           '<25>{#p/sans}{#f/3}* 很快，我们找到了一号守卫\n  和二号守卫...',
+                           '<25>{#p/sans}{#f/0}* 皇家卫队惨遭剿杀，\n  只有这两名巡逻官\n  活了下来。',
+                           '<25>{#p/sans}{#f/3}* 他俩卸下了盔甲，\n  最终接下了这份工作。',
+                           '<25>{#p/alphys}{#f/27}* 哦？\n* 你刚刚在说一号，二号吗？'
                         ]);
                      } else if (!dmadjick) {
                         addB([
-                           '<25>{#p/sans}{#f/3}* pretty soon, we found out about cozmo...',
-                           '<25>{#p/sans}{#f/0}* an elite squad member who survived the fall of the royal guard.',
-                           '<25>{#p/sans}{#f/3}* it seemed confused at first, but adjusted to the job quickly.',
-                           '<25>{#p/alphys}{#f/27}* Huh?\n* Were you talking about Cozmo?'
+                           '<25>{#p/sans}{#f/3}* 很快，我们找到了cozmo...',
+                           '<25>{#p/sans}{#f/0}* 皇家卫队惨遭剿杀，\n  只有这名特战队成员\n  活了下来。',
+                           '<25>{#p/sans}{#f/3}* 刚接下这份工作时，\n  他还挺困惑。\n* 但很快他就适应了。',
+                           '<25>{#p/alphys}{#f/27}* 哦？\n* 你刚刚在说Cozmo吗？'
                         ]);
                      } else {
                         addB([
-                           '<25>{#p/sans}{#f/3}* pretty soon, we found out about terrestria...',
-                           '<25>{#p/sans}{#f/0}* an elite squad member who survived the fall of the royal guard.',
-                           '<25>{#p/sans}{#f/3}* of course, she accepted the job with reverence and dignity.',
-                           '<25>{#p/alphys}{#f/27}* Huh?\n* Were you talking about Terrestria?'
+                           '<25>{#p/sans}{#f/3}* 很快，我们找到了terrestria...',
+                           '<25>{#p/sans}{#f/0}* 皇家卫队惨遭剿杀，\n  只有这名特战队成员\n  活了下来。',
+                           '<25>{#p/sans}{#f/3}* 正如我所料，\n  她心怀敬畏，\n  庄严地接受了这份工作。',
+                           '<25>{#p/alphys}{#f/27}* 哦？\n* 你刚刚在说Terrestria吗？'
                         ]);
                      }
                      addB([
-                        "<25>{#p/sans}{#f/0}* oh, hey alphys.\n* i'm leaving a message for the human.",
-                        '<25>{#p/alphys}{#f/17}* Oh, right.\n* You said you were going to do that.'
+                        "<25>{#p/sans}{#f/0}* 哦，是alphys呀。\n* 我正给人类留言呢。",
+                        '<25>{#p/alphys}{#f/17}* 行。\n* 之前你确实说\n  要给人类打个电话。'
                      ]);
                      if (!ddoggo) {
                         addB([
-                           "<25>{#p/alphys}{#f/6}* Yeah, Doggo can get nervous sometimes, but I've helped him before.",
-                           '<25>{#p/alphys}{#f/8}* Just having me around seems to make him happy to do his job.'
+                           "<25>{#p/alphys}{#f/6}* 没错，\n  虽然Doggo有时会焦虑...",
+                           '<25>{#p/alphys}{#f/8}* 但有我陪着他。\n* 以前，我帮过他，\n  所以他也安心了。'
                         ]);
                      } else if (!dlesserdog) {
                         addB([
-                           '<25>{#p/alphys}{#f/6}* Yeah, that neck can be a problem sometimes, but it does a good job.',
-                           '<25>{#p/alphys}{#f/8}* All it asks for in return is to be pet many, many times.'
+                           '<25>{#p/alphys}{#f/6}* 没错。<25>{#p/alphys}{#f/6}* 虽然那狗狗脖子太长，\n  有时挺麻烦的...\n* 但它活干得不错。',
+                           '<25>{#p/alphys}{#f/8}* 只要有人摸它，\n  没完没了地摸它，\n  它就心满意足。'
                         ]);
                      } else if (!ddogs) {
                         addB([
-                           "<25>{#p/alphys}{#f/6}* Yeah, those dogs do alright as long as they're together.",
-                           '<25>{#p/alphys}{#f/8}* All they ask for in return is... well, lots of \"alone time.\"'
+                           "<25>{#p/alphys}{#f/6}* 没错。\n* 那两只狗狗只要在一起，\n  就能把活干得很漂亮。",
+                           '<25>{#p/alphys}{#f/8}* 他俩这么卖力，\n  各自想要的却是...\n  “一个人静静”。'
                         ]);
                      } else if (!dgreatdog) {
                         addB([
-                           '<25>{#p/alphys}{#f/6}* Yeah, not only does that dog do its job, but it does so eagerly.',
-                           '<25>{#p/alphys}{#f/8}* All it asks for in return is a copious amount of headpats.'
+                           '<25>{#p/alphys}{#f/6}* 没错。\n* 那只大狗不仅接下了工作，\n  还干得特别起劲。',
+                           '<25>{#p/alphys}{#f/8}* 它不求别的，\n  只求能多被“摸摸头”。'
                         ]);
                      } else if (!ddoge) {
                         addB([
-                           "<25>{#p/alphys}{#f/6}* Yeah, Doge can be a little cold, but she knows what she's doing.",
-                           '<25>{#p/alphys}{#f/8}* We usually reward her with a cold shower.\n* A bit odd, but okay.'
+                           "<25>{#p/alphys}{#f/6}* 没错。\n* Doge虽然有点冷血，\n  但对工作十分认真。",
+                           '<25>{#p/alphys}{#f/8}* 因此，\n  我们总请她洗冷水澡。\n* 乍一听很怪，但确实合理。'
                         ]);
                      } else if (!droyalguards) {
                         addB([
-                           '<26>{#p/alphys}{#f/6}* Yeah, 01 and 02 are cute, and... also happen to do a good job.',
-                           '<25>{#p/alphys}{#f/8}* We usually reward them with ice cream.\n* They love that stuff.'
+                           '<26>{#p/alphys}{#f/6}* 没错。',
+'<26>{#p/alphys}{#f/6}* 一号、二号他俩特别可爱。\n  而且没想到... \n  活还干的不错。',
+                           '<25>{#p/alphys}{#f/8}* 看他俩工作那么卖力，\n  我总请他俩吃冰淇淋。\n* 他们特别爱吃。'
                         ]);
                      } else if (!dmadjick) {
                         addB([
-                           "<25>{#p/alphys}{#f/6}* Yeah, it can get antsy at times, but it's done well overall.",
-                           '<25>{#p/alphys}{#f/8}* We usually reward it with poems.\n* It likes those.'
+                           "<25>{#p/alphys}{#f/6}* 没错。\n* 虽然它有时会“躁动”，\n  但活干得不错。",
+                           '<25>{#p/alphys}{#f/8}* 因此，我们总奖励它\n  一些诗歌。\n* 它非常喜欢。'
                         ]);
                      } else {
                         addB([
-                           "<25>{#p/alphys}{#f/6}* Yeah, she's... done a really good job.",
-                           '<25>{#p/alphys}{#f/8}* We usually reward her with lullabies.\n* She finds them calming.'
+                           "<25>{#p/alphys}{#f/6}* 没错。\n* 她... 干得非常出色。",
+                           '<25>{#p/alphys}{#f/8}* 因此，我们总给它\n  唱安魂曲作为奖励。\n* 那些曲子能让她平静下来。'
                         ]);
                      }
                      addB([
-                        "<25>{#p/sans}{#f/0}* yup, it's a pretty good arrangement.",
-                        "<25>{#p/sans}{#f/3}* everyone gets what they want, and everyone's happy.",
+                        "<25>{#p/sans}{#f/0}* 挺好的。\n* 工作安排得真不做。",
+                        "<25>{#p/sans}{#f/3}* 大家各司其职，各得其所。\n* 所有人都很幸福。",
                         '<25>{#p/sans}{#f/3}* ...',
-                        '<25>{#p/sans}{#f/3}* well, i say everyone.',
-                        '<25>{#p/alphys}{#f/15}* ... right...',
-                        "<25>{#p/alphys}{#f/10}* I'm just... gonna let you two keep talking.",
-                        '<25>{#p/sans}{#f/0}* actually, we were almost done.',
-                        '<25>{#p/alphys}{#f/17}* ... oh.',
-                        "<25>{#p/sans}{#f/3}* look, it hasn't been easy for a single person on the outpost.",
-                        '<25>{#p/sans}{#f/0}* not for me, not for alphys...',
-                        '<25>{#p/sans}{#f/3}* ... not for anyone.',
-                        "<25>{#p/alphys}{#f/24}* Yep, because that's what happens when you kill a bunch of people.",
-                        '<25>{#p/alphys}{#f/25}* Who would have thought.'
+                        '<25>{#p/sans}{#f/3}* 对，所有“人”都很幸福。',
+                        '<25>{#p/alphys}{#f/15}* ...这...',
+                        "<25>{#p/alphys}{#f/10}* 你俩聊吧。\n* 我先走了...",
+                        '<25>{#p/sans}{#f/0}* 再等等，\n  我马上打完了。',
+                        '<25>{#p/alphys}{#f/17}* ...哦。',
+                        "<25>{#p/sans}{#f/3}* 对前哨站居民来说。\n* 活着，就是煎熬。",
+                        '<25>{#p/sans}{#f/0}* 对我如此，\n  对alphys更是如此...',
+                        '<25>{#p/sans}{#f/3}* ...对所有怪物，\n  都是如此。',
+                        "<25>{#p/alphys}{#f/24}* 是啊。\n* 我们遭这些罪，\n  都是因为你。",
+                        '<25>{#p/alphys}{#f/25}* 真吓人。\n* 区区一个小孩\n  居然能杀好几只怪物。'
                      ]);
                      if (hkills > 19) {
                         addB([
-                           '<25>{#p/sans}{#f/3}* except it was more than just \"a bunch of people.\"',
-                           '<25>{#p/sans}{#f/0}* it was... a lot of important people.',
-                           '<25>{#p/sans}{#f/0}* people whose loss impacted everyone on the outpost.',
-                           '<25>{#p/sans}{#f/3}* ... and, there was one person you killed...'
+                           '<25>{#p/sans}{#f/3}* 那何止是\n  “好几只怪物”...',
+                           '<25>{#p/sans}{#f/0}* 你杀的...\n  可都是些重要的大将。',
+                           '<25>{#p/sans}{#f/0}* 他们的死，\n  沉重打击了大家的希望。',
+                           '<25>{#p/sans}{#f/3}* ...而且，\n  你还杀了“他”...'
                         ]);
                      } else {
                         addB([
-                           "<25>{#p/sans}{#f/3}* to be fair, it could've been a lot worse.",
-                           '<25>{#p/sans}{#f/0}* i can understand defending yourself against the royal guard.',
-                           '<25>{#p/sans}{#f/0}* and, even outside of that, you were mostly alright.',
-                           '<25>{#p/sans}{#f/3}* ... but, there was one person you killed...'
+                           "<25>{#p/sans}{#f/3}* 平心而论，\n  你杀的怪不算多。",
+                           '<25>{#p/sans}{#f/0}* 遇到那些守卫，\n  你很害怕，想自保，\n  我能理解。',
+                           '<25>{#p/sans}{#f/0}* 而且，面对其他怪物时，\n  你也没有大开杀戒。',
+                           '<25>{#p/sans}{#f/3}* ...话虽如此，\n  你还是杀了“他”...'
                         ]);
                      }
-                     addB(['<25>{#p/sans}{#f/0}* that i know for certain you had no reason to.']);
+                     addB(['<25>{#p/sans}{#f/0}* 我敢说，这事，\n  你找不出任何借口。']);
                      if (
                         world.edgy ||
                         (world.population_area('s') <= 0 && !world.bullied_area('s')) // NO-TRANSLATE
 
                      ) {
                         addB([
-                           '<25>{#p/sans}{#f/0}* someone who only wanted you to be a better person.',
-                           '<25>{#p/sans}{#f/3}* before you struck him down and declared your true nature.'
+                           '<25>{#p/sans}{#f/0}* 他只是想拉你一把，\n  让你迷途知返。',
+                           '<25>{#p/sans}{#f/3}* 你却原形毕露，\n  把他撂倒。'
                         ]);
                      } else {
                         addB([
-                           '<25>{#p/sans}{#f/0}* someone who would have never hurt you, no matter what.',
-                           '<25>{#p/sans}{#f/3}* whereas you seemed almost eager to end his life.'
+                           '<25>{#p/sans}{#f/0}* 他自始至终\n  从未想伤害你。',
+                           '<25>{#p/sans}{#f/3}* 你却想直接要了他的命。'
                         ]);
                      }
                      addB([
-                        "<25>{#p/sans}{#f/0}* don't lie to yourself.\n* you know exactly who i'm referring to.",
-                        '<25>{#p/alphys}{#f/20}* I certainly do.',
-                        "<25>{#p/sans}{#f/3}* ...\n* if you're out there, somewhere...",
-                        "<25>{#p/sans}{#f/0}* i hope you realize how bad you've made things here.",
-                        '<25>{#p/sans}{#f/0}* no asgore, or undyne.\n* no royal guard.\n* no mettaton.',
-                        '<25>{#p/sans}{#f/3}* ... no reason to keep this phone call going any longer.',
+                        "<25>{#p/sans}{#f/0}* 别想着装傻。\n* “他”是谁，你心知肚明。",
+                        '<25>{#p/alphys}{#f/20}* 我也心知肚明。',
+                        "<25>{#p/sans}{#f/3}* ...\n* 要是你能听到我的留言...",
+                        "<25>{#p/sans}{#f/0}* 希望你能知道\n  你给这里带来了\n  多少痛苦。",
+                        '<25>{#p/sans}{#f/0}* asgore死了，undyne死了。\n* 守卫死了。\n* mettaton死了。',
+                        '<25>{#p/sans}{#f/3}* ...我的心也死了。\n* 挂电话吧。',
                         '<32>{#s/equip}{#p/event}* 滴...'
                      ]);
                   }
@@ -3516,7 +3517,7 @@ export default {
          "<25>{#p/kidd}{#f/3}* 没事，我朋友那么酷，\n  肯定会没事的。",
          "<25>{#p/kidd}{#f/1}* 保重啊，老兄！",
          '<25>{#p/asgore}{#f/20}* ...',
-         '<18>{#p/papyrus}{#f/7}哎！？\n跟人类聊天\n怎么能不加我呢？！',
+         '<18>{#p/papyrus}{#f/7}哎！？\n跟人类聊天\n怎么能不叫我呢？！',
          '<18>{#p/papyrus}{#f/4}...太不公平了。',
          '<25>{#p/kidd}{#f/14}* 哟--！PAPYRUS！！！',
          '<25>{#p/kidd}{#f/1}* 骷髅老兄，\n  你也想跟人类说说话吗？',

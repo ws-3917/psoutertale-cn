@@ -1445,7 +1445,7 @@ export default {
                : ['<25>{#p/asgore}{#f/7}* 來吧。', '<25>{#p/asgore}{#f/7}* 我有一個故事\n  要講給你聽。'])
          ],
          alphysApproach1: [
-            "<25>{#p/alphys}{#g/alphysSmileSweat}* 噢，你-你大概在想艾斯戈爾在哪，\n  對吧？",
+            "<25>{#p/alphys}{#g/alphysSmileSweat}* 噢，你-你大概在想\n  艾斯戈爾在哪，\n  對吧？",
             "<25>{#g/alphysNervousLaugh}* 唔... 他在...",
             '<25>{#g/alphysHellYeah}* 一個安全的地-地方！',
             '<25>{#g/alphysTheFactIs}* 相對安全。',
@@ -1458,15 +1458,15 @@ export default {
          alphysApproach2: [
             '<25>{#p/alphys}{#g/alphysOhGodNo}* ...',
             '<25>{#g/alphysNervousLaugh}* ...呃呃...',
-            '<25>{#g/alphysNervousLaugh}* 像往常一樣挺過來了，哈-哈啊？',
+            '<25>{#g/alphysNervousLaugh}* 像往常一樣挺過來了，\n  哈-哈啊？',
             '<25>{#g/alphysNeutralSweat}* ...',
             "<25>{#g/alphysIDK2}* 我猜你要去見艾斯戈爾了。",
             '<25>{#g/alphysIDK3}* ...',
             "<25>{#g/alphysIDK3}* 我太沒用了...",
-            "<25>{#g/alphysThatSucks}* 你可能根本就沒在乎過我，對吧？",
+            "<25>{#g/alphysThatSucks}* 你可能根本就沒在乎過我，\n  對吧？",
             "<25>{#g/alphysIDK2}* 我一直很害怕，\n  但你可能根本就沒想過要抓我。",
             '<25>{#g/alphysIDK3}* ...',
-            "<25>{#g/alphysIDK2}* 去吧。\n* 做你要做的事吧。",
+            "<25>{#g/alphysIDK2}* 去吧。\n* 你想做啥，隨意。",
             "<26>{#g/alphysIDK3}* 我阻止不了你。"
          ],
          alphysApproach3: ["<25>{#p/alphys}{#g/alphysFR}* 只有一個人能做到。"],
