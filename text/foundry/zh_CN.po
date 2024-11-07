@@ -1,6 +1,21 @@
-#
+#, fuzzy
 msgid ""
 msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-11-07 08:17+0000\n"
+"PO-Revision-Date: 2024-11-07 08:17+0000\n"
+"Last-Translator: WS-3917 <ws3917@outlook.com>\n"
+"Language-Team: Chinese (Simplified Han script) <https://ws3917.site/projects/"
+"project-spacetime/3-foundry/zh_Hans/>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: ENCODING\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.8.1\n"
+
+#
 
 msgid "<32>{#p/basic}* ..."
 msgstr "<32>{#p/basic}* ..."
@@ -12895,8 +12910,8 @@ msgstr ""
 
 msgid "<32>{#p/human}* (You tell a joke about a rusty piece of space junk.)"
 msgstr ""
-"<32>{#p/human}* (你讲了一个关于生锈的\n"
-"  太空垃圾的笑话。)"
+"<32>{#p/human}* （你讲了一个\n"
+"  生锈太空垃圾的笑话。）"
 
 msgid "<32>{#p/human}* (You tell a joke about atmospheric pollution.)"
 msgstr "<32>{#p/human}* （你拿大气污染打趣Skrubbington。）"
@@ -12905,8 +12920,9 @@ msgid ""
 "<32>{#p/human}* (You tell a joke about two starships that got stuck in a "
 "trash barge.)"
 msgstr ""
-"<32>{#p/human}* (你讲了一个关于两艘飞船困在\n"
-"  垃圾运输船中的笑话。)"
+"<32>{#p/human}* （你讲了一个\n"
+"  两艘飞船困在\n"
+"  垃圾运输船的笑话。）"
 
 msgid "<32>{#p/human}* (You give Skrubbington a friendly pat.)"
 msgstr "<32>{#p/human}* （你友好地摸了摸Skrubbington。）"
