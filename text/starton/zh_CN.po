@@ -1,7 +1,20 @@
-#
 msgid ""
 msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-11-07 05:17+0000\n"
+"PO-Revision-Date: 2024-11-07 08:17+0000\n"
+"Last-Translator: WS-3917 <ws3917@outlook.com>\n"
+"Language-Team: Chinese (Simplified Han script) <https://ws3917.site/projects/"
+"project-spacetime/2-starton/zh_Hans/>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.8.1\n"
 
+#
 msgid ""
 "<32>{#p/basic}* A standard-issue CITADEL long- range telescope, circa 261X."
 msgstr ""
@@ -811,7 +824,7 @@ msgid "<32>{#p/basic}* Mom says that we're going to a new homeworld soon."
 msgstr "<32>{#p/basic}* 妈妈说我们很快就要去新家园了。"
 
 msgid "<32>* ... what's a homeworld?"
-msgstr "<32>* ... 新家园是什么啊？"
+msgstr "<32>* ...新家园是什么啊？"
 
 msgid ""
 "<32>{#p/basic}* Mom says that sleeping could recover your health "
@@ -5968,9 +5981,6 @@ msgstr "哈喽！"
 msgid "SAVE YOURSELVES..."
 msgstr "自求多福吧..."
 
-msgid ""
-msgstr ""
-
 msgid "FAILED TO CONNECT..."
 msgstr "网络连接失败..."
 
@@ -11109,7 +11119,7 @@ msgstr ""
 "* 你等一下..."
 
 msgid "<32>{#p/human}* (You can't make out what's in the trash...)"
-msgstr "<32>{#p/human}* （你看不出来垃圾桶里有什么...)"
+msgstr "<32>{#p/human}* （你看不出来垃圾桶里有什么...）"
 
 msgid "<32>{#p/human}* (The food in this fridge seems decent enough.)"
 msgstr ""
