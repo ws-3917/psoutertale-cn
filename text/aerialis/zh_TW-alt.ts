@@ -1692,7 +1692,7 @@ export default {
                   ]
                   : [
                      "<32>{#p/mettaton}* 恭喜你，小幽。\n* 你贏得了屬於你自己的\n  老式地球收音機！",
-                     world.scared_ghost ? '<32>{#p/napstablook}* 酷' : '<32>{#p/napstablook}* 唔唔唔唔唔唔唔'
+                     world.scared_ghost ? '<32>{#p/napstablook}* 酷' : '<32>{#p/napstablook}* 嗚嗚嗚嗚嗚嗚嗚'
                   ],
             e: () =>
                iFancyYourVilliany()
@@ -1712,7 +1712,7 @@ export default {
                         ? '<32>{#p/mettaton}* 小幽，\n  由於你比$(moniker3u)先一步作答...'
                         : '<32>{#p/mettaton}* 小幽，\n  由於你比人類先一步作答...',
                      "<32>{#p/mettaton}* 恭喜！\n* 你贏得了屬於你自己的\n  老式地球收音機！",
-                     world.scared_ghost ? '<32>{#p/napstablook}* 酷' : '<32>{#p/napstablook}* 唔唔唔唔唔唔唔'
+                     world.scared_ghost ? '<32>{#p/napstablook}* 酷' : '<32>{#p/napstablook}* 嗚嗚嗚嗚嗚嗚嗚'
                   ],
             g: () => [
                SAVE.data.n.state_foundry_muffet === 1 && SAVE.data.b.colleg

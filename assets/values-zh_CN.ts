@@ -480,7 +480,7 @@ export default {
    textLengthPrecise(text: string) {
       let value = 0;
       for (const char of text) {
-         value += cjk.test(char) ? 1.875 : 1;
+         value += cjk.test(char) ? 1.75 : 1;
       }
       return value;
    }

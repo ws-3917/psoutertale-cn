@@ -2103,7 +2103,7 @@ msgid "Go back"
 msgstr "返回"
 
 msgid "OUTERTALE V5.04 (c) 2024 SPACEY_432"
-msgstr "OUTERTALE V5.04 (c) 2024 SPACEY_432 繁體中文版 PSOT漢化組"
+msgstr "OUTERTALE V5.04 (c) 2024 SPACEY_432 繁體中文版 已漢化66%"
 
 msgid "* (HP fully restored.)"
 msgstr "* （HP已回滿。）"

@@ -3881,7 +3881,7 @@ msgid "<32>{#p/napstablook}* cool"
 msgstr "<32>{#p/napstablook}* 酷"
 
 msgid "<32>{#p/napstablook}* oooooooooooooooo"
-msgstr "<32>{#p/napstablook}* 唔唔唔唔唔唔唔"
+msgstr "<32>{#p/napstablook}* 嗚嗚嗚嗚嗚嗚嗚"
 
 msgid ""
 "<32>{#p/mettaton}* WELL PLAYED, $(moniker3u).\n"
