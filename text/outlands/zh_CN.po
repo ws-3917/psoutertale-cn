@@ -1,6 +1,21 @@
-#
+#, fuzzy
 msgid ""
 msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-11-07 08:17+0000\n"
+"PO-Revision-Date: 2024-11-07 08:17+0000\n"
+"Last-Translator: WS-3917 <ws3917@outlook.com>\n"
+"Language-Team: Chinese (Simplified Han script) <https://ws3917.site/projects/"
+"project-spacetime/1-outlands/zh_Hans/>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: ENCODING\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.8.1\n"
+
+#
 
 msgid ""
 "<25>{#p/toriel}{#f/1}* I hear there is a certain kind of fluid in "
@@ -7278,7 +7293,7 @@ msgstr ""
 msgid "<25>{#f/13}* Everyone knows the story, right...?"
 msgstr ""
 "<25>{#f/13}* 大家都知道那个传说，\n"
-"  对吧...?"
+"  对吧...？"
 
 msgid ""
 "<25>{#f/23}* \"Spacecraft who fly into the Ebott sector are said to "
@@ -7681,7 +7696,7 @@ msgid ""
 msgstr ""
 "<32>{#p/human}* （你碰了碰打碟机。）\n"
 "* （它发出了一种莫名让人\n"
-"  感觉很爽的搓碟声。)"
+"  感觉很爽的搓碟声。）"
 
 msgid "<32>{#p/basic}* It's a DJ set."
 msgstr "<32>{#p/basic}* 一台打碟机。"
@@ -8739,7 +8754,7 @@ msgstr ""
 "* Toriel肯定是用火魔法做饭的。"
 
 msgid "<32>{#p/human}* (You can't make out what's in the trash...)"
-msgstr "<32>{#p/human}* （你看不出来垃圾桶里有什么...)"
+msgstr "<32>{#p/human}* （你看不出来垃圾桶里有什么...）"
 
 msgid "<32>{#p/basic}* Rather symbolically, the trash can has been emptied."
 msgstr ""
@@ -10825,7 +10840,7 @@ msgstr ""
 
 msgid "<08>{#p/basic}{~}Mmm, cha cha cha!"
 msgstr ""
-"<08>{#p/basic}{~}呣，\n"
+"<08>{#p/basic}{~}唔，\n"
 "恰恰恰！"
 
 msgid "<08>{#p/basic}{~}Swing your arms, baby~"
