@@ -1587,7 +1587,7 @@ export default {
             '<25>{#p/asgore}{#f/7}* 我和艾菲斯有些事情\n  需要談談。'
          ],
          asgoreStory20b: [
-            "<25>{#p/alphys}{#g/alphysHellYeah}* 是的，呃...\n  接著往——往前走吧,\n  我們會等著你的！"
+            "<25>{#p/alphys}{#g/alphysHellYeah}* 是的，呃...\n  接-接著往前走吧，\n  我們會等著你的！"
          ],
          asgoreStory21: [
             '<25>{#p/asgore}{#f/5}* 真奇怪。\n* 她居然還沒來。',
@@ -1960,7 +1960,7 @@ export default {
          ],
 
          jspeech6b6: [
-            '<25>{#p/sans}{#f/4}* lv7, 嗯？',
+            '<25>{#p/sans}{#f/4}* lv7，嗯？',
             "<25>* isn't that what humans call a lucky number?",
             '<25>{#f/0}* well gee, i dunno about you, but...',
             '<25>{#f/3}* i doubt much luck was involved in how you got to this point.',
@@ -1968,7 +1968,7 @@ export default {
          ],
 
          jspeech6b7: [
-            '<25>{#p/sans}{#f/4}* lv8, 嗯？',
+            '<25>{#p/sans}{#f/4}* lv8，嗯？',
             "<25>* don't humans use this number to predict the future or something?",
             '<25>{#f/0}* well gee, i dunno about you, but...',
             "<25>{#f/3}* that'd be a pretty good explanation for how you've been acting.",
@@ -4403,7 +4403,7 @@ export default {
                   : ['<32>{#p/basic}* Smells like marinara sauce.'],
          c_ak_trash: () =>
             SAVE.data.b.svr
-               ? ["<32>{#p/human}* （你看不出來垃圾桶裡有什麼...)"]
+               ? ["<32>{#p/human}* （你看不出來垃圾桶裡有什麼...）"]
                : ['<32>{#p/basic}* 垃圾桶裡\n  居然什麼都沒有。'],
          
          c_ah_door: () =>

@@ -1304,7 +1304,7 @@ export default {
                      "<18>{#p/papyrus}{#f/4}她强迫我休息，\n我也没办法啊。",
                      '<18>{#p/papyrus}{#f/0}好，\n休息时间结束。',
                      '<18>{#p/papyrus}{#f/9}回去继续工作！',
-                     '<25>{#p/sans}{#f/0}* 啊？\n* 兄弟，再待一回呗。\n  好不容易来一次。',
+                     '<25>{#p/sans}{#f/0}* 啊？\n* 兄弟，再待一会呗。\n  好不容易来一次。',
                      '<18>{#p/papyrus}{#f/6}再浪费时间，\n我就要错过\n下一个人类了！！',
                      "<25>{#p/sans}{#f/3}* ...嗯，也是。",
                      "<25>{#p/sans}{#f/0}* 只是，别把自己搞太累了。"
@@ -1402,7 +1402,7 @@ export default {
                addA([
                   '<32>{#s/phone}{#p/event}* 铃铃，铃铃...',
                   '<32>{#p/napstablook}* 嘿',
-                  '<32>{#p/napstablook}* is anyone there?',
+                  '<32>{#p/napstablook}* 有人接吗？',
                   "<32>{#p/napstablook}* i think... there's something i need to tell you.",
                   "<32>{#p/napstablook}* if it's not too much trouble."
                ]);
@@ -4578,7 +4578,7 @@ export default {
          ],
          x_trash: () => [
             ...(SAVE.data.b.svr || SAVE.data.b.ufokinwotm8
-               ? ["<32>{#p/human}* （你看不出来垃圾桶里有什么...)"]
+               ? ["<32>{#p/human}* （你看不出来垃圾桶里有什么...）"]
                : []),
             ...(SAVE.data.b.ufokinwotm8
                ? []
@@ -5553,7 +5553,7 @@ export default {
                   : [
                      ['<32>{#p/story}* 怪物小孩直钩钩地盯着$(x)。'],
                      ['<32>{#p/story}* 怪物小孩愤怒地指着$(x)。'],
-                     ['<32>{#p/story}* 怪物小孩绕着#(x)来回踱步，\n  准备下手。']
+                     ['<32>{#p/story}* 怪物小孩绕着$(x)来回踱步，\n  准备下手。']
                   ],
       
       mkTurnActRand2: (opponent: string) =>

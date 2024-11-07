@@ -3946,7 +3946,7 @@ msgid ""
 "we'll be waiting for you!"
 msgstr ""
 "<25>{#p/alphys}{#g/alphysHellYeah}* 是的，呃...\n"
-"  接著往——往前走吧,\n"
+"  接-接著往前走吧，\n"
 "  我們會等著你的！"
 
 msgid ""
@@ -4864,7 +4864,7 @@ msgid "<25>{#f/0}* but i'd be lying if i said i wasn't suspicious."
 msgstr ""
 
 msgid "<25>{#p/sans}{#f/4}* lv7, huh?"
-msgstr "<25>{#p/sans}{#f/4}* lv7, 嗯？"
+msgstr "<25>{#p/sans}{#f/4}* lv7，嗯？"
 
 msgid "<25>* isn't that what humans call a lucky number?"
 msgstr ""
@@ -4880,7 +4880,7 @@ msgid "<25>{#f/0}* ... just saying."
 msgstr ""
 
 msgid "<25>{#p/sans}{#f/4}* lv8, huh?"
-msgstr "<25>{#p/sans}{#f/4}* lv8, 嗯？"
+msgstr "<25>{#p/sans}{#f/4}* lv8，嗯？"
 
 msgid "<25>* don't humans use this number to predict the future or something?"
 msgstr ""
@@ -10789,7 +10789,7 @@ msgid "<32>{#p/basic}* Smells like marinara sauce."
 msgstr ""
 
 msgid "<32>{#p/human}* (You can't make out what's in the trash...)"
-msgstr "<32>{#p/human}* （你看不出來垃圾桶裡有什麼...)"
+msgstr "<32>{#p/human}* （你看不出來垃圾桶裡有什麼...）"
 
 msgid "<32>{#p/basic}* Surprisingly, the trash is completely empty."
 msgstr ""

@@ -2644,7 +2644,7 @@ export default {
                '<25>{#f/13}* 嘿。',
                '<25>{#f/13}* 我想問你個問題。',
                '<25>{#f/15}* 弗裡斯克...\n* 你為什麼要來這裡？',
-               '<25>{#f/13}* 大家都知道那個傳說，\n  對吧...?',
+               '<25>{#f/13}* 大家都知道那個傳說，\n  對吧...？',
                '<25>{#f/23}* 「據說\n  飛進伊波特星域的飛船\n  都會消失不見。」',
                '<25>{#f/22}* ...',
                '<32>{#p/human}* （...）\n* （你告訴了艾斯利爾真相。）',
@@ -2759,7 +2759,7 @@ export default {
                : ['<32>{#p/basic}* 「請注意：\n   有的機器可能看起來沒問題，\n   但內部已經壞了。」'],
          w_djtable: () =>
             SAVE.data.b.svr
-               ? ['<32>{#p/human}* （你碰了碰打碟機。）\n* （它發出了一種莫名讓人\n  感覺很爽的搓碟聲。)']
+               ? ['<32>{#p/human}* （你碰了碰打碟機。）\n* （它發出了一種莫名讓人\n  感覺很爽的搓碟聲。）']
                : world.darker
                   ? ["<32>{#p/basic}* 一臺打碟機。"]
                   : SAVE.data.n.plot === 72
@@ -3194,7 +3194,7 @@ export default {
                         : ['<32>{#p/basic}* 灶臺非常乾淨。\n* 托麗爾肯定是用火魔法做飯的。'],
          w_tk_trash: () =>
             SAVE.data.b.svr
-               ? ["<32>{#p/human}* （你看不出來垃圾桶裡有什麼...)"]
+               ? ["<32>{#p/human}* （你看不出來垃圾桶裡有什麼...）"]
                : SAVE.data.n.plot === 72
                   ? ['<32>{#p/basic}* 垃圾桶被清空了，\n  還挺有象徵意義的。']
                   : ['<32>{#p/basic}* 裡面有一張揉皺的星花茶配方。'],
@@ -3522,7 +3522,7 @@ export default {
             0,
             () =>
                SAVE.data.b.svr
-                  ? ["<32>{#p/human}* （你看不出來垃圾桶裡有什麼...)"]
+                  ? ["<32>{#p/human}* （你看不出來垃圾桶裡有什麼...）"]
                   : world.darker
                      ? ['<32>{#p/basic}* 蝸牛。']
                      : SAVE.data.n.plot === 72
@@ -3536,7 +3536,7 @@ export default {
                1,
                () =>
                   SAVE.data.b.svr
-                     ? ["<32>{#p/human}* （你看不出來垃圾桶裡有什麼...)"]
+                     ? ["<32>{#p/human}* （你看不出來垃圾桶裡有什麼...）"]
                      : world.darker
                         ? ['<32>{#p/basic}* 蝸牛。']
                         : SAVE.data.n.plot === 72
@@ -3544,7 +3544,7 @@ export default {
                            : ['<32>{#p/basic}* 除了蝸牛就沒別的了。'],
                () =>
                   SAVE.data.b.svr
-                     ? ["<32>{#p/human}* （你看不出來垃圾桶裡有什麼...)"]
+                     ? ["<32>{#p/human}* （你看不出來垃圾桶裡有什麼...）"]
                      : world.darker
                         ? ['<32>{#p/basic}* 蝸牛。']
                         : SAVE.data.n.plot === 72
@@ -3552,7 +3552,7 @@ export default {
                            : ['<32>{#p/basic}* ...\n* 我剛剛說到了蝸牛嗎？'],
                () =>
                   SAVE.data.b.svr
-                     ? ["<32>{#p/human}* （你看不出來垃圾桶裡有什麼...)"]
+                     ? ["<32>{#p/human}* （你看不出來垃圾桶裡有什麼...）"]
                      : world.darker
                         ? ['<32>{#p/basic}* 蝸牛。']
                         : SAVE.data.n.plot === 72
@@ -3560,7 +3560,7 @@ export default {
                            : ['<32>{#p/basic}* 蝸牛。'],
                () =>
                   SAVE.data.b.svr
-                     ? ["<32>{#p/human}* （你看不出來垃圾桶裡有什麼...)"]
+                     ? ["<32>{#p/human}* （你看不出來垃圾桶裡有什麼...）"]
                      : world.darker
                         ? ['<32>{#p/basic}* 蝸牛。']
                         : SAVE.data.n.plot === 72
@@ -3983,7 +3983,7 @@ export default {
       soloTalk1: ["<08>{#p/basic}{~}做自己\n才是\n最好的！"],
       soloTalk2: ['<08>{#p/basic}{~}啦啦~\n做自己\n就好~'],
       soloTalk3: ["<08>{#p/basic}{~}獨處時間\n最棒了！"],
-      soloTalk4: ['<08>{#p/basic}{~}呣，\n恰恰恰！'],
+      soloTalk4: ['<08>{#p/basic}{~}唔，\n恰恰恰！'],
       soloTalk5: ['<08>{#p/basic}{~}揮動你的\n手臂，寶貝~']
    },
    b_opponent_mushy: {

@@ -680,7 +680,7 @@ export default {
                      ],
                      [
                         '<25>{#f/8}* 嗯，你-你好...',
-                        "<25>{#f/9}* 我是...Alphys博士。\n* 皇家科学部门的负责人。",
+                        "<25>{#f/9}* 我是... Alphys博士。\n* 皇家科学部门的负责人。",
                         "<25>{#f/4}* 从你刚刚走出外域时，\n  我就...",
                         '<25>{#f/4}* 诶嘿，用我的安全控制台\n  “观察”你。',
                         '<25>{#f/11}* 你的战斗...\n* 你的朋友们...',
@@ -1805,7 +1805,7 @@ export default {
          moneyVote4: () => [
             '<32>{#p/mettaton}* 不，我该问你要\n  【票掉】谁吗？',
             choicer.create(
-               '* (你要票掉谁？)',
+               '* （你要票掉谁？）',
                iRespeccYourVilliany() ? 'Undyne' : 'Sans',
                'Napstablook',
                SAVE.data.n.state_foundry_muffet === 1 ? 'Temmie' : '怪物小孩',
@@ -4305,7 +4305,7 @@ export default {
                : world.darker
                   ? ['<32>{#p/basic}* 一个游戏节目操作台。']
                   : SAVE.data.n.state_foundry_muffet === 1
-                     ? ['<32>{#p/basic}* 一个游戏节目操作台。\n* 有一股...山寨品的味道。']
+                     ? ['<32>{#p/basic}* 一个游戏节目操作台。\n* 有一股... 山寨品的味道。']
                      : ['<32>{#p/basic}* 一个游戏节目操作台。\n* 有了这样的操作台，\n  谁还用手臂呢？'],
          a_path2_sign: () =>
             SAVE.data.b.svr
@@ -4594,7 +4594,7 @@ export default {
                   world.darker
                      ? "<32>{#p/basic}* 一个“地球仪”。"
                      : SAVE.data.n.plot === 72
-                        ? "<32>{#p/basic}* 一个“地球仪”，\n  展现着怪物...曾经的家园。"
+                        ? "<32>{#p/basic}* 一个“地球仪”，\n  展现着怪物... 曾经的家园。"
                         : "<32>{#p/basic}* 一个“地球仪”，\n  展现着怪物伟大的故园。",
                   ...(mtt
                      ? [
@@ -8278,7 +8278,7 @@ export default {
       flashText2b: ['<32>{#p/human}* （你把手机调亮，\n  朝Terrestria闪了过去。）\n* （可她十分放松，没注意到。）'],
       flashText2c: ['<32>{#p/human}* （你把手机调亮，\n  朝Terrestria闪了过去。）\n* （无事发生。）'],
       flirtText0: () => [
-         '<32>{#p/human}* （你向Terrestria调情。）\n* (没什么效果。)',
+         '<32>{#p/human}* （你向Terrestria调情。）\n* （没什么效果。）',
          ...(!world.badder_lizard
             ? ['<32>{#p/alphys}* 是啊，特战队训练有素，\n  能防止被迷惑。']
             : [])
@@ -8299,7 +8299,7 @@ export default {
       flirtTalk2: ['<20>{#p/basic}{~}那将是多么美好...'],
       flirtStatus2: () =>
          !world.badder_lizard
-            ? ['<32>{#p/alphys}* 好-好啊。\n* 这...了不得。']
+            ? ['<32>{#p/alphys}* 好-好啊。\n* 这... 了不得。']
             : ['<32>{#p/story}* Terrestria情意绵绵。'],
       flirtText3: () => [
          '<32>{#p/human}* （你选择调情。）\n* （无事发生。）',
@@ -8380,7 +8380,7 @@ export default {
          ...(!world.badder_lizard && calm_lizard() ? ['<32>{#p/alphys}* 呵呵...'] : [])
       ],
       flirtText: () =>
-         world.meanie ? ['<08>{#p/basic}{~}(深吸了\n一口气)\n咕呱。'] : ['<08>{#p/basic}{~}（脸涨得\n通红）\n咕呱。'],
+         world.meanie ? ['<08>{#p/basic}{~}(深吸了\n 一口气)\n咕呱。'] : ['<08>{#p/basic}{~}（脸涨得\n通红）\n咕呱。'],
       act_translate1: () => [
          '<32>{#p/human}* （还没有什么话\n  需要你来翻译。）',
          ...(!world.badder_lizard

@@ -4905,7 +4905,7 @@ export default {
          "<25>* 与世长辞。\n* 在此之后，其他蜘蛛\n  便处于危险境地之中。"
       ],
       undynefinal2b2g: [
-         '<25>{#f/9}* Doge, 有着强烈且坚定的\n  责任感的他...',
+         '<25>{#f/9}* Doge，有着强烈且坚定的\n  责任感的她...',
          "<25>* 纵使要冒着生命危险\n  工作，她仍旧献出了\n  自己的生命。"
       ],
       undynefinal2b2h: [
@@ -4992,7 +4992,7 @@ export default {
          "<26>* 其他狗狗的死亡\n  可能并不会影响到他，\n  但终有一天会的。"
       ],
       undynefinal2b2u4: [
-         '<25>{#f/9}* Doggo, 花了好几年\n  才在犬卫队找到了\n  一个家的他...',
+         '<25>{#f/9}* Doggo，花了好几年\n  才在犬卫队找到了\n  一个家的他...',
          '<25>* 却又被无情地\n  夺走了一切。'
       ],
       undynefinal2b2v1: [
@@ -5341,9 +5341,9 @@ export default {
          world.kiddo && SAVE.data.n.state_foundry_muffet !== 1
             ? ['<32>{#p/kidding}* 一切... 还好吗？']
             : ['<32>{#p/story}* Skrubbington看着伤口，\n  直犯恶心。'],
-      jokeText1: ['<32>{#p/human}* (你讲了一个关于生锈的\n  太空垃圾的笑话。)'],
+      jokeText1: ['<32>{#p/human}* （你讲了一个\n  生锈太空垃圾的笑话。）'],
       jokeText2: ['<32>{#p/human}* （你拿大气污染打趣Skrubbington。）'],
-      jokeText3: ['<32>{#p/human}* (你讲了一个关于两艘飞船困在\n  垃圾运输船中的笑话。)'],
+      jokeText3: ['<32>{#p/human}* （你讲了一个\n  两艘飞船困在\n  垃圾运输船的笑话。）'],
       touchText0: [
          '<32>{#p/human}* （你友好地摸了摸Skrubbington。）',
          "<32>{#p/basic}* Skrubbington实在受不了你那\n  黏糊糊的手，于是跑掉了！"
@@ -6212,7 +6212,7 @@ export default {
             ? ["<32>{#p/kidding}* 哟，你应该知道我也在这吧..."]
             : battler.volatile[0].vars.appease
                ? ["<32>{#p/kidding}* 嘿，我有点钱！\n* 用上吧，伙计！"]
-               : ['<32>{#p/kidding}* 有人吗, 来人啊...'],
+               : ['<32>{#p/kidding}* 有人吗，来人啊...'],
       turnStatus11: () =>
          badSpider()
             ? ["<32>{#p/kidding}* 这一点也不有趣...！"]
@@ -6331,7 +6331,7 @@ export default {
                   "<11>{#p/basic}{~}它们也没有\n做什么事\n来赢得\n我的信任...",
                   '<11>{#p/basic}{~}哦，你好，\n我的宠物~'
                ]
-               : ['<11>{#p/basic}{~}再来一轮吧,\n我的宠物~'],
+               : ['<11>{#p/basic}{~}再来一轮吧，\n我的宠物~'],
       turnTalk9: () =>
          badSpider()
             ? ['<11>{#p/basic}{~}你只是让\n不可避免的\n事情\n延迟发生罢了~']
@@ -7678,7 +7678,7 @@ export default {
                   '<32>{#p/tem}{#k/0}* 按了按钮吖...\n* 就粗来一个谜提！',
                   SAVE.data.b.colleg
                      ? '<32>{#p/tem}{#k/2}* 上了大鞋，\n  tem还是不知道\n  辣个怎么弄，，，'
-                     : '<32>{#p/tem}{#k/0}* tem不知道辣个怎么弄,,,',
+                     : '<32>{#p/tem}{#k/0}* tem不知道辣个怎么弄，，，',
                   '<32>{#p/tem}{#k/1}* 但缩不定，\n  银类能解开呢！！\n* 嚎吖！！'
                ]
                : SAVE.data.b.colleg

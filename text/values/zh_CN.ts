@@ -472,6 +472,9 @@ export default {
       mdr: '§fill=#888§直入主题吧。§fill=#fff§',
       月亮菌: "§random=1.1/1.1§...我不觉得这个名字好欸bro§random=0/0§",
       屑moons: "§random=1.1/1.1§...我不觉得这个名字好欸bro§random=0/0§",
+      errosi: "是你呀...",
+      errosa: "是你呀...",
+      errosy: "是你呀...",
    },
 
    

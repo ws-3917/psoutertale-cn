@@ -4266,7 +4266,7 @@ msgid ""
 "* come on bro, you were barely here."
 msgstr ""
 "<25>{#p/sans}{#f/0}* 啊？\n"
-"* 兄弟，再待一回唄。\n"
+"* 兄弟，再待一會唄。\n"
 "  好不容易來一次。"
 
 msgid ""
@@ -4463,7 +4463,7 @@ msgid "<32>{#p/napstablook}* hey"
 msgstr "<32>{#p/napstablook}* 嘿"
 
 msgid "<32>{#p/napstablook}* is anyone there?"
-msgstr ""
+msgstr "<32>{#p/napstablook}* 有人接嗎？"
 
 msgid "<32>{#p/napstablook}* i think... there's something i need to tell you."
 msgstr ""
@@ -12072,7 +12072,7 @@ msgid ""
 msgstr ""
 
 msgid "<32>{#p/human}* (You can't make out what's in the trash...)"
-msgstr "<32>{#p/human}* （你看不出來垃圾桶裡有什麼...)"
+msgstr "<32>{#p/human}* （你看不出來垃圾桶裡有什麼...）"
 
 msgid ""
 "<32>{#p/basic}* There is a crumpled up recipe for Starling Tea.\n"
@@ -14434,7 +14434,7 @@ msgstr "<32>{#p/story}* 怪物小孩憤怒地指著$(x)。ゑ"
 
 msgid "<32>{#p/story}* Monster Kid circled around $(x) like a predator."
 msgstr ""
-"<32>{#p/story}* 怪物小孩繞著#(x)來回踱步，\n"
+"<32>{#p/story}* 怪物小孩繞著$(x)來回踱步，\n"
 "  準備下手。ゑ"
 
 msgid ""

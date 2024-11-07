@@ -811,7 +811,7 @@ msgid "<32>{#p/basic}* Mom says that we're going to a new homeworld soon."
 msgstr "<32>{#p/basic}* 媽媽說我們很快就要去新家園了。"
 
 msgid "<32>* ... what's a homeworld?"
-msgstr "<32>* ... 新家園是什麼啊？"
+msgstr "<32>* ...新家園是什麼啊？"
 
 msgid ""
 "<32>{#p/basic}* Mom says that sleeping could recover your health "
@@ -11109,7 +11109,7 @@ msgstr ""
 "* 你等一下..."
 
 msgid "<32>{#p/human}* (You can't make out what's in the trash...)"
-msgstr "<32>{#p/human}* （你看不出來垃圾桶裡有什麼...)"
+msgstr "<32>{#p/human}* （你看不出來垃圾桶裡有什麼...）"
 
 msgid "<32>{#p/human}* (The food in this fridge seems decent enough.)"
 msgstr ""

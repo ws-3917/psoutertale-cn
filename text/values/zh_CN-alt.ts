@@ -32,13 +32,13 @@ export default {
    loadTimeX: 0,
    loadTrueResetX: 16,
    nameChoiceCameos: <CosmosKeyed<string>>{
-
+      
       '': '你必须选定一个名字。',
       no: 'No？',
       maybe: '也许吧？',
       yes: 'Yes？',
 
-
+      
       bully: '嗯...？',
       flirt: '嗯...？',
       geno: '嗯...？',
@@ -46,7 +46,7 @@ export default {
       murder: '嗯...？',
       paci: '嗯...？',
 
-
+      
       afraid: '打起精神来。\n这儿没什么好怕的。',
       amused: '轻装上阵，\n你的旅途将会更加顺利。',
       angry: '打起精神来。\n让不如意的事情随风而去吧。',
@@ -114,16 +114,16 @@ export default {
       witty: '愿你言行不渝，\n在旅途中化为行动的力量。',
       zen: '愿你处事泰然，\n以理智为此次旅程的基石。',
 
-
+      
       erogot: '你选择了我，让我深感荣幸。',
       roman: '让实验开始吧。',
       thomas: '让实验开始吧。',
 
-
+      
       chara: '真正的名字。',
       frisk: '这名字不对。',
 
-
+      
       blooky: "............\n（它无力阻止你。）",
       dummy: "............\n（他好像不怎么健谈。）",
       lurky: '你好。',
@@ -136,7 +136,7 @@ export default {
       twinky: '想得美，蠢货。',
       walker: '你是指“眼行家”？',
 
-
+      
       astro: '快看看我的天线呐！',
       cdrake: '哈哈哈，不错嘛。',
       chilly: '哈哈哈，不错嘛。',
@@ -153,7 +153,7 @@ export default {
       serf: '快看看我的天线呐！',
       starry: '是个五“星”级的选择。',
 
-
+      
       bob: '这名字挺棒的，不是吗？',
       doge: '这不好笑。',
       gelata: '吼。',
@@ -173,7 +173,7 @@ export default {
       undyn: '嘎啊，行行行。',
       undyne: '找个你自己的名字去！',
 
-
+      
       alphy: '呃... 行吧？',
       alphys: "别-别这么做。",
       bpants: '你还真会挑别人剩下的。',
@@ -187,7 +187,7 @@ export default {
       metta: '哦！！！\n你在推广我的品牌吗？',
       mtt: '哦！！！\n你在推广我的品牌吗？',
 
-
+      
       aaron: '确定要选择这个名字吗？;)',
       grillb: '很热，但还不够热。',
       grilly: '很热，但还不够热。',
@@ -197,7 +197,7 @@ export default {
       vulkin: '啊！谢谢你~',
       zorren: '谢谢你，呃，用我的名字。',
 
-
+      
       asgor: '可以？',
       asgore: '不可以。',
       asriel: '...',
@@ -228,7 +228,6 @@ export default {
       平静: '内心的宁静将为你的旅途\n带来奇迹。',
       机智: '愿你足智多谋，\n战胜此次旅途的重重困难。',
       自负: '心态坚定，\n你会在旅途中一往无前。',
-      自信: '心态坚定，\n你会在旅途中一往无前。',
       狡猾: '愿你足智多谋，\n战胜此次旅途的重重困难。',
       疯狂: '愿你心态平和，\n在旅途中收获平衡与安宁。',
       大胆: '勇敢的心将成为\n你旅途中的最佳伙伴。',
@@ -334,7 +333,7 @@ export default {
       离奇: '轻装上阵，\n你的旅途将会更加顺利。',
       诙谐: '愿你言行不渝，\n在旅途中化为行动的力量。',
 
-
+      
       char: "...真正的名字？",
       查拉: "真正的名字。",
       猹: "...真正的名字？",
@@ -475,11 +474,12 @@ export default {
       屑moons: "§random=1.1/1.1§...我不觉得这个名字好欸bro§random=0/0§",
       errosi: "是你呀...",
       errosa: "是你呀...",
+      errosy: "是你呀...",
    },
 
+   
 
-
-   // END-TRANSLATE
+// END-TRANSLATE
    nameChoiceFonts: {
       san: [content.fComicSans, 16],
       sans: [content.fComicSans, 16],
