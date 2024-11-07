@@ -1,22 +1,20 @@
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-11-07 08:17+0000\n"
-"PO-Revision-Date: 2024-11-07 08:17+0000\n"
+"PO-Revision-Date: 2024-11-07 08:31+0000\n"
 "Last-Translator: WS-3917 <ws3917@outlook.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://ws3917.site/projects/"
 "project-spacetime/3-foundry/zh_Hans/>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: ENCODING\n"
+"Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 5.8.1\n"
 
 #
-
 msgid "<32>{#p/basic}* ..."
 msgstr "<32>{#p/basic}* ..."
 
@@ -11918,8 +11916,8 @@ msgstr ""
 
 msgid "<25>{#f/9}* Doge, who had a strong and unwavering sense of duty..."
 msgstr ""
-"<25>{#f/9}* Doge, 有着强烈且坚定的\n"
-"  责任感的他..."
+"<25>{#f/9}* Doge，有着强烈且坚定的\n"
+"  责任感的她..."
 
 msgid "<25>* Even if putting her life at risk was her job, she's still dead."
 msgstr ""
@@ -12132,7 +12130,7 @@ msgstr ""
 msgid ""
 "<25>{#f/9}* Doggo, who spent years to find a home in the canine unit..."
 msgstr ""
-"<25>{#f/9}* Doggo, 花了好几年\n"
+"<25>{#f/9}* Doggo，花了好几年\n"
 "  才在犬卫队找到了\n"
 "  一个家的他..."
 
@@ -14909,7 +14907,7 @@ msgstr ""
 "* 用上吧，伙计！"
 
 msgid "<32>{#p/kidding}* Someone, anyone..."
-msgstr "<32>{#p/kidding}* 有人吗, 来人啊..."
+msgstr "<32>{#p/kidding}* 有人吗，来人啊..."
 
 msgid "<32>{#p/kidding}* This isn't funny...!"
 msgstr "<32>{#p/kidding}* 这一点也不有趣...！"
@@ -15247,7 +15245,7 @@ msgstr ""
 
 msgid "<11>{#p/basic}{~}Time for round two, my pet~"
 msgstr ""
-"<11>{#p/basic}{~}再来一轮吧,\n"
+"<11>{#p/basic}{~}再来一轮吧，\n"
 "我的宠物~"
 
 msgid "<11>{#p/basic}{~}You only delay the inevitable~"
@@ -18563,7 +18561,7 @@ msgstr ""
 "  辣个怎么弄，，，"
 
 msgid "<32>{#p/tem}{#k/0}* tem don know what it means,,,"
-msgstr "<32>{#p/tem}{#k/0}* tem不知道辣个怎么弄,,,"
+msgstr "<32>{#p/tem}{#k/0}* tem不知道辣个怎么弄，，，"
 
 msgid ""
 "<32>{#p/tem}{#k/1}* but mayb humans can solve!!\n"
