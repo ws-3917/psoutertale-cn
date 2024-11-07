@@ -1887,7 +1887,7 @@ export default {
                ? ["<32>{#p/napstablook}* 没关系的....................."]
                : world.dead_skeleton
                   ? ['<32>{#p/mettaton}* 嗯，你确实该走。']
-                  : ['<32>{#p/mettaton}* YES, YOU MOST CERTAINLY ARE.'],
+                  : ['<32>{#p/mettaton}* 嗯，你确实是。'],
          moneyPun1b: ["<32>{#p/mettaton}* 哇，你对自己烦人的程度\n  还蛮有自知之明。"],
          moneyVote5x2b: ['<32>{#p/human}* （你感到罪恶爬上了\n  你的脊梁。）'],
          moneyVote6a: () =>

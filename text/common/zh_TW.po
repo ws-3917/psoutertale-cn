@@ -14120,7 +14120,7 @@ msgid "<32>{#p/story}* Smells like lithium."
 msgstr "<32>{#p/story}* 聞起來像鋰。"
 
 msgid "<32>{#p/story}* Astro Serf struts into view."
-msgstr "<32>{#p/story}* Astro Serf昂首阔步走了过来。"
+msgstr "<32>{#p/story}* Astro Serf昂首闊步走了過來。"
 
 msgid ""
 "<08>{#p/basic}{~}I KNEW IT!!!\n"

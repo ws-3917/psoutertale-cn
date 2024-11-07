@@ -5426,7 +5426,7 @@ export default {
       randStatus2: ['<32>{#p/story}* Astro Serf makes sure its antenna is still there.'],
       randStatus3: ['<32>{#p/story}* 太空帽在考虑配一件衣服。'],
       randStatus4: ['<32>{#p/story}* 闻起来像锂。'],
-      status1: ['<32>{#p/story}* Astro Serf struts into view.'],
+      status1: ['<32>{#p/story}* 太空帽昂首阔步走了过来。'],
       stealTalk1: ['<08>{#p/basic}{~}I KNEW IT!!!\nTHIEF!!'],
       stealTalk2: ['<08>{#p/basic}{~}时尚警察\n快救我\n啊！！！'],
       act_steal: () =>
